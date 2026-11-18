@@ -15,6 +15,7 @@
 | GitHub 업로드 | 공개 저장소 생성·`main` 최초 업로드 완료 | [공개 저장소](https://github.com/ll7098ll/math-learning-atlas-kr) |
 | GitHub 최초 커밋 | `22c681bc0f522c994d2c9e3189edf9516f97c0da` · 2,751개 파일 | [최초 커밋](https://github.com/ll7098ll/math-learning-atlas-kr/commit/22c681bc0f522c994d2c9e3189edf9516f97c0da) |
 | GitHub 자동 검사 | 최초 커밋 `22c681b`의 전체 단계 성공 | [확인한 Actions 실행](https://github.com/ll7098ll/math-learning-atlas-kr/actions/runs/44239839367) |
+| GitHub Pages | 이 저장소의 스냅샷 `c7e86e2fa1af547e` · `main`에서 검사 후 자동 배포 | [포털 열기](https://ll7098ll.github.io/math-learning-atlas-kr/) · [배포 기록](https://github.com/ll7098ll/math-learning-atlas-kr/actions/workflows/checks.yml) |
 
 **최신 게시 원장에서는 로컬과 공개 내용 버전이 `c7e86e2fa1af547e`로 일치한다.** [보완 결과 원장](../data/content_completion_result_2026-11-04.json)의 `latest_publication_attempt`는 `succeeded`이고, `source_pushed`, `saved_version_created`, `deployed`가 모두 `true`다. 이번 문서 정비는 별도로 갱신된 성공 기록을 확인해 반영했으며, 이 문서 작업에서 사이트를 새로 배포한 것은 아니다.
 

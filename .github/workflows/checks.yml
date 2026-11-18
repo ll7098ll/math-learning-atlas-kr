@@ -5,6 +5,10 @@ on:
   pull_request:
   workflow_dispatch:
 
+concurrency:
+  group: repository-checks-${{ github.ref }}
+  cancel-in-progress: true
+
 permissions:
   contents: read
 
@@ -41,4 +45,47 @@ jobs:
           node site/tests/test_content_objects.mjs
           node site/tests/test_goal_network.mjs
           node site/tests/test_catalog_groups.mjs
+
+  pages-artifact:
+    if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+    needs: research
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: read
+      pages: read
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+      - name: Prepare the public portal files
+        run: |
+          output="$RUNNER_TEMP/math-atlas-pages"
+          mkdir -p "$output"
+          cp -a site/dist/. "$output/"
+          # The source PDF is already hosted publicly. Keep page links working
+          # without copying the PDF into the repository or changing the snapshot.
+          find "$output" -type f \( -name '*.html' -o -name '*.js' -o -name '*.mjs' \) \
+            -exec sed -i 's|href="curriculum\.pdf|href="https://math-learning-atlas-kr.gptpro2908176.chatgpt.site/curriculum.pdf|g' {} +
+      - name: Upload the portal artifact
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: ${{ runner.temp }}/math-atlas-pages
+
+  deploy-pages:
+    needs: pages-artifact
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
 

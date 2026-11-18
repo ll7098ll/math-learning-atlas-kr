@@ -2,7 +2,7 @@
 
 [![Repository checks](https://github.com/ll7098ll/math-learning-atlas-kr/actions/workflows/checks.yml/badge.svg?branch=main)](https://github.com/ll7098ll/math-learning-atlas-kr/actions/workflows/checks.yml)
 
-[GitHub 공개 저장소](https://github.com/ll7098ll/math-learning-atlas-kr) · [자동 검사 실행 기록](https://github.com/ll7098ll/math-learning-atlas-kr/actions/workflows/checks.yml)
+[GitHub Pages에서 포털 열기](https://ll7098ll.github.io/math-learning-atlas-kr/) · [GitHub 공개 저장소](https://github.com/ll7098ll/math-learning-atlas-kr) · [자동 검사와 배포 기록](https://github.com/ll7098ll/math-learning-atlas-kr/actions/workflows/checks.yml)
 
 교육부 고시 제2022-33호 수학과 교육과정을 바탕으로 **435개 성취기준**의 수학적 의미, 세부 사고, 진단 과제와 학교급 사이의 연결을 탐색하는 연구 자료와 정적 웹 포털입니다.
 
@@ -12,15 +12,15 @@
 
 | 구분 | 확인된 상태 |
 |---|---|
-| 최신 로컬 자료·GitHub용 포털 스냅샷 | `c7e86e2fa1af547e` |
+| 이 저장소의 포털 스냅샷 | `c7e86e2fa1af547e` |
 | GitHub 공개 저장소 | `ll7098ll/math-learning-atlas-kr` · `main` 최초 업로드 완료 |
-| 마지막 공개 배포 기록 | Sites v91 · `c7e86e2fa1af547e` · 2026-11-18 13:37:21 KST |
+| GitHub Pages | `main`의 검사를 통과한 `site/dist/` 자동 배포 |
 | 교육과정 기준 | 제공된 고시 제2022-33호 PDF. 후속 교육과정 개정 여부를 확인했다는 뜻은 아님 |
 | 연구 검증 | 자체 점검·구조 검사 기록 있음. 실제 독립 검토 0건, 학생 반응 검증 0건 |
 
-[공개 포털 열기](https://math-learning-atlas-kr.gptpro2908176.chatgpt.site) · [최신 상태와 근거](docs/STATUS.md) · [변경 기록](CHANGELOG.md)
+[기존 Sites 포털](https://math-learning-atlas-kr.gptpro2908176.chatgpt.site) · [저장소 상태와 근거](docs/STATUS.md) · [변경 기록](CHANGELOG.md)
 
-최신 로컬 자료와 마지막 성공 배포 기록의 콘텐츠 버전이 일치합니다. GitHub용 `site/`에도 이 자료를 담았습니다. 이번 문서 정비가 새 사이트 배포를 실행한 것은 아닙니다. 버전 문자열은 콘텐츠 식별자이며 별도의 제품 출시 번호가 아닙니다.
+포털 수정사항을 배포하려면 `site/dist/`와 그에 대응하는 `site/snapshot.json`을 함께 갱신해 `main`에 올립니다. GitHub Actions가 검사를 거쳐 배포합니다. [갱신 절차](docs/GITHUB.md#github-pages-자동-배포)
 
 ## 무엇을 볼 수 있나요?
 
@@ -54,7 +54,7 @@ python -m http.server 8000 --bind 127.0.0.1 --directory site/dist
 
 브라우저에서 <http://127.0.0.1:8000>을 엽니다. `index.html`을 파일로 직접 열면 JSON 자료 요청이 실패할 수 있습니다. 서버는 터미널에서 `Ctrl+C`로 종료합니다.
 
-Git에는 원문 PDF와 원문 이미지 일부를 기본 포함하지 않습니다. 따라서 원문 PDF 열기는 별도 파일을 준비한 경우에만 작동합니다. 성취기준·분석·목표·과제 탐색은 포함된 JSON으로 실행됩니다. 원문 확보 위치와 해시는 [자료 이용·권리](docs/RIGHTS.md)를 참고하세요.
+GitHub Pages의 원문 링크는 기존 공개 포털의 PDF를 엽니다. 로컬에서 원문 PDF를 열려면 파일을 별도로 준비합니다. 원문 확보 위치와 해시는 [자료 이용·권리](docs/RIGHTS.md)를 참고하세요.
 
 ## 저장소 구조
 

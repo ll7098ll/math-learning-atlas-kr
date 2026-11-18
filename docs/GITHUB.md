@@ -76,7 +76,15 @@ git push -u origin main
 
 `origin`이 이미 있으면 현재 주소와 연결하려는 저장소를 비교하고, 올바르면 추가 명령을 생략한다. 다른 저장소 주소를 자동 덮어쓰거나 `--force`로 기존 이력을 교체하지 않는다. 인증에는 본인의 GitHub 자격 증명 관리 도구를 사용하고 토큰을 URL·명령 기록·문서에 넣지 않는다.
 
-업로드 후 README 링크, `site/` 내용과 Actions 실행 결과를 확인한다. 이 저장소에는 자동 배포 워크플로가 없으며 GitHub 업로드와 기존 Sites 포털 배포는 각각 별도 작업이다.
+업로드 후 README 링크와 Actions 실행 결과를 확인한다.
+
+## GitHub Pages 자동 배포
+
+GitHub Pages의 배포 소스는 GitHub Actions다. `main`에 push하거나 `main`에서 워크플로를 수동 실행하면 저장소 검사를 거쳐 `site/dist/`가 배포된다. [공개 포털](https://ll7098ll.github.io/math-learning-atlas-kr/) · [검사와 배포 실행 기록](https://github.com/ll7098ll/math-learning-atlas-kr/actions/workflows/checks.yml)
+
+포털 콘텐츠를 고친 경우 [스냅샷 갱신 절차](DEVELOPMENT.md#github-스냅샷-갱신)에 따라 `site/dist/`, 필요한 `site/tests/`, `site/snapshot.json`을 함께 올린다. Pages는 커밋된 정적 스냅샷을 사용하므로 연구 원장이나 Markdown만 수정하면 화면 데이터는 그대로다.
+
+검사가 실패하면 해당 배포가 중단되고 마지막 성공본이 계속 제공된다. 배포 파일의 교육과정 원문 링크는 기존 공개 포털의 PDF를 가리킨다.
 
 ## 자동 검사 범위
 
