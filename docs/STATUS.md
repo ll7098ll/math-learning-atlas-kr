@@ -12,7 +12,9 @@
 | 가장 최근의 성공 게시 기록 | Sites 버전 **91**, 내용 `c7e86e2fa1af547e` | [게시 원장](../data/school_revision_deployment.json) |
 | v91 게시 시각 | 2026-11-18 13:37:21 KST | 같은 게시 원장; 원기록 `2026-11-18T04:37:21.247243+00:00` |
 | v91 소스 커밋 | `e9f10e511c88b6c0c55daafa0868cab001461060` | [v91 게시 결과](../data/site_publication_c7e86e2fa1af547e.json) |
-| GitHub 업로드 | 이번 문서 정비에서 업로드하지 않음 | [GitHub 준비와 업로드](GITHUB.md) |
+| GitHub 업로드 | 공개 저장소 생성·`main` 최초 업로드 완료 | [공개 저장소](https://github.com/ll7098ll/math-learning-atlas-kr) |
+| GitHub 최초 커밋 | `22c681bc0f522c994d2c9e3189edf9516f97c0da` · 2,751개 파일 | [최초 커밋](https://github.com/ll7098ll/math-learning-atlas-kr/commit/22c681bc0f522c994d2c9e3189edf9516f97c0da) |
+| GitHub 자동 검사 | 최초 커밋 `22c681b`의 전체 단계 성공 | [확인한 Actions 실행](https://github.com/ll7098ll/math-learning-atlas-kr/actions/runs/44239839367) |
 
 **최신 게시 원장에서는 로컬과 공개 내용 버전이 `c7e86e2fa1af547e`로 일치한다.** [보완 결과 원장](../data/content_completion_result_2026-11-04.json)의 `latest_publication_attempt`는 `succeeded`이고, `source_pushed`, `saved_version_created`, `deployed`가 모두 `true`다. 이번 문서 정비는 별도로 갱신된 성공 기록을 확인해 반영했으며, 이 문서 작업에서 사이트를 새로 배포한 것은 아니다.
 

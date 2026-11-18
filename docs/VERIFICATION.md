@@ -21,13 +21,19 @@ Node 검사는 `site/tests/`의 11개 파일을 모두 실행했다. 목표 연�
 
 Git은 기존 원장의 SHA256을 유지하도록 자동 줄바꿈 변환을 끈다. 임시 작업본, 중첩 `.git`, 원문 PDF, 원문 페이지 이미지와 인증 파일은 기본 제외한다. 제외된 파일에 연결했던 문서 링크 14개는 로컬 보존 경로로 표시하여 GitHub에서 깨진 링크가 되지 않게 했다.
 
-루트 Git을 `main`으로 초기화하고 2,751개 파일을 첫 커밋 대상으로 준비했다. Git 인덱스에 중첩 저장소 항목(gitlink)과 PDF는 각각 0개다. `git checkout-index`로 별도 폴더에 공개 대상만 추출한 뒤 재검사했으며, 예상한 `dist/curriculum.pdf` 누락만 선택 자산으로 처리했다. 대소문자를 구분한 문서 경로 대조도 오류0건이었다. 커밋과 원격 주소 설정·push는 수행하지 않았다.
+최초 로컬 정비에서 Git을 `main`으로 초기화하고 2,751개 파일을 첫 커밋 대상으로 준비했다. Git 인덱스에 중첩 저장소 항목(gitlink)과 PDF는 각각 0개였다. `git checkout-index`로 별도 폴더에 공개 대상만 추출한 뒤 재검사했으며, 예상한 `dist/curriculum.pdf` 누락만 선택 자산으로 처리했다. 대소문자를 구분한 문서 경로 대조도 오류0건이었다. 이 단계에서는 아직 커밋·원격 설정·push를 하지 않았고, 아래 후속 공개 단계에서 수행했다.
+
+## GitHub 공개 업로드
+
+사용자의 공개 업로드 요청에 따라 [ll7098ll/math-learning-atlas-kr](https://github.com/ll7098ll/math-learning-atlas-kr) 공개 저장소를 생성했다. 원격 `origin`을 연결하고 [최초 커밋 22c681b](https://github.com/ll7098ll/math-learning-atlas-kr/commit/22c681bc0f522c994d2c9e3189edf9516f97c0da)의 2,751개 파일을 `main`에 push했다. 위의 로컬 검사 기록은 업로드 준비 시 실행한 결과로 보존한다.
+
+최초 커밋 `22c681b`의 [GitHub Actions 실행 44239839367](https://github.com/ll7098ll/math-learning-atlas-kr/actions/runs/44239839367)과 작업 `134584736203`에서 전체 단계의 성공을 확인했다. 원격 실행은 저장소 검사, Python 핵심 검사 5종, 스냅샷 해시 검증과 Node 검사 3종을 포함한다. 이후 문서 변경 커밋의 결과는 해당 실행 기록에서 별도로 확인한다.
 
 ## 이번에 실행하지 않은 작업
 
 - 전체 연구 재생성 명령 `scripts/run_revision_checks.py`: 이번 작업은 원장 내용을 바꾸지 않는 문서·저장소 준비이므로 실행하지 않았다.
 - 전체 원문 PDF·판면 재대조, 독립 검토, 학생 반응 검증.
 - 실제 브라우저·모바일·인쇄 화면의 시각 검사.
-- GitHub 원격 생성·push·서버의 Actions 실행, Sites 재배포.
+- Sites 재배포.
 
 기존 전체 연구 검사 기록과 마지막 성공 배포 기록은 [현재 상태](STATUS.md)에 별도로 연결했다. 이 문서의 로컬 검사 결과로 원격 CI 또는 연구 전체 완료를 주장하지 않는다.

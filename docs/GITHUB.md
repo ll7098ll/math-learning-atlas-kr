@@ -1,6 +1,8 @@
 # GitHub 업로드 준비와 절차
 
-기준일: 2026-11-18. 이 문서는 연구 원본과 실행 가능한 포털 스냅샷을 하나의 GitHub 저장소로 관리하기 위한 절차다. GitHub 저장소 주소, 소유자, 공개 범위와 라이선스는 아직 지정하지 않았다. 문서 정비나 로컬 Git 초기화는 원격 저장소 게시를 의미하지 않는다.
+기준일: 2026-11-18. 연구 원본과 실행 가능한 포털 스냅샷을 [ll7098ll/math-learning-atlas-kr](https://github.com/ll7098ll/math-learning-atlas-kr) 공개 저장소로 만들고 `main`에 최초 업로드했다. 소유자는 `ll7098ll`이며 최초 커밋은 [22c681b](https://github.com/ll7098ll/math-learning-atlas-kr/commit/22c681bc0f522c994d2c9e3189edf9516f97c0da)다. 전체 프로젝트 라이선스는 아직 지정하지 않았다.
+
+최초 커밋 `22c681b`의 [Actions 실행](https://github.com/ll7098ll/math-learning-atlas-kr/actions/runs/44239839367)은 전체 단계가 성공했다. 이후 변경의 결과는 [Actions 실행 기록](https://github.com/ll7098ll/math-learning-atlas-kr/actions/workflows/checks.yml)에서 해당 커밋별로 확인한다. 아래 초기화·첫 커밋 절차는 새 작업 환경을 위한 참고이며, 이미 연결된 저장소에 다시 초기화하거나 `origin`을 중복 추가하지 않는다.
 
 ## 포함 범위
 

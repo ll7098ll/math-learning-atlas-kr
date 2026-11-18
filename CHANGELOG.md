@@ -2,14 +2,14 @@
 
 근거가 남아 있는 주요 변경을 날짜순으로 요약한다. 내용 해시는 생성 데이터의 식별자이고, Sites 버전은 해당 서비스의 저장·게시 이력이다. 별도의 의미 버전 번호를 소급하여 만들지 않는다. 현재 수치·검증 범위·미완료 항목은 [현재 상태](docs/STATUS.md)를 기준으로 확인한다.
 
-## Unreleased — 문서 정비와 GitHub 준비
+## 2026-11-18 — 문서 정비와 GitHub 최초 공개
 
-작업 기준일: 2026-11-18. 별도 공개 릴리스는 아직 만들지 않았다.
+작업 기준일: 2026-11-18. 공개 저장소에 최초 커밋을 업로드했으며, 별도의 GitHub Release나 버전 태그는 만들지 않았다.
 
 - README와 문서 안내, 현재 상태·개발·구조·기여·GitHub 운영 문서를 정비하여 저장소에서 읽을 출발점과 작업 절차를 구분한다.
 - 로컬 내용과 최신 공개 Sites v91의 내용이 `c7e86e2fa1af547e`로 일치함을 최신 게시 원장으로 확인했다. 이전 공개 v90의 `b1140686bf9da002`와 게시 전 감사 기록은 이력으로 구분한다.
 - 기존 연구 기록의 수치와 날짜는 이력으로 보존하고 현재 상태를 안내하는 문서를 추가한다.
-- 이번 문서 정비는 GitHub 업로드나 Sites 재배포를 수행했다는 뜻이 아니다. 업로드 준비 상태와 필요한 절차는 [GitHub 안내](docs/GITHUB.md)에 기록한다.
+- [ll7098ll/math-learning-atlas-kr](https://github.com/ll7098ll/math-learning-atlas-kr) 공개 저장소를 생성하고 2,751개 파일을 [최초 커밋 22c681b](https://github.com/ll7098ll/math-learning-atlas-kr/commit/22c681bc0f522c994d2c9e3189edf9516f97c0da)으로 `main`에 업로드했다. [최초 커밋의 Actions](https://github.com/ll7098ll/math-learning-atlas-kr/actions/runs/44239839367)는 전체 단계가 성공했다. Sites 재배포는 별도로 수행하지 않았으며 운영 절차는 [GitHub 안내](docs/GITHUB.md)에 기록한다.
 
 ## 2026-11-18 — 비례 문장제 원연구 보완과 Sites v91 게시
 

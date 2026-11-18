@@ -1,5 +1,9 @@
 # 초중고 수학 사고 분석과 연결 연구
 
+[![Repository checks](https://github.com/ll7098ll/math-learning-atlas-kr/actions/workflows/checks.yml/badge.svg?branch=main)](https://github.com/ll7098ll/math-learning-atlas-kr/actions/workflows/checks.yml)
+
+[GitHub 공개 저장소](https://github.com/ll7098ll/math-learning-atlas-kr) · [자동 검사 실행 기록](https://github.com/ll7098ll/math-learning-atlas-kr/actions/workflows/checks.yml)
+
 교육부 고시 제2022-33호 수학과 교육과정을 바탕으로 **435개 성취기준**의 수학적 의미, 세부 사고, 진단 과제와 학교급 사이의 연결을 탐색하는 연구 자료와 정적 웹 포털입니다.
 
 공식 교육과정 문장, 자체 분석, 문헌에서 뒷받침하는 범위, 실제 검증 결과를 구별합니다. 화살표는 해당 목표·과제의 조건을 나타내며 모든 학생에게 적용되는 필수 학습 순서나 학습 완료 판정은 아닙니다.
@@ -9,6 +13,7 @@
 | 구분 | 확인된 상태 |
 |---|---|
 | 최신 로컬 자료·GitHub용 포털 스냅샷 | `c7e86e2fa1af547e` |
+| GitHub 공개 저장소 | `ll7098ll/math-learning-atlas-kr` · `main` 최초 업로드 완료 |
 | 마지막 공개 배포 기록 | Sites v91 · `c7e86e2fa1af547e` · 2026-11-18 13:37:21 KST |
 | 교육과정 기준 | 제공된 고시 제2022-33호 PDF. 후속 교육과정 개정 여부를 확인했다는 뜻은 아님 |
 | 연구 검증 | 자체 점검·구조 검사 기록 있음. 실제 독립 검토 0건, 학생 반응 검증 0건 |
