@@ -1,0 +1,58 @@
+{
+  "source_id": "POLYA_PRINCETON_INTRO_UNDATED",
+  "source_url": "https://assets.press.princeton.edu/chapters/i669.pdf",
+  "source_asset_kind": "pdf",
+  "source_pdf_sha256": "8c094e5cfc0235d71b2b90315e29f2759f04a47289a3643182d6175c23fdc969",
+  "source_pdf_url": "https://assets.press.princeton.edu/chapters/i669.pdf",
+  "pdf_pages": 3,
+  "selected_text_pages": [
+    1,
+    2,
+    3
+  ],
+  "visual_pdf_pages": [
+    1,
+    2,
+    3
+  ],
+  "rendered_page_sha256": {
+    "1": "71b08181379486ddde77d7b07647a5873e5e63513c946762669a4b6fe7591641",
+    "2": "450e9e9e6f80ce72d5c6e82899cc6b0d7405f2949ce59fff209c16335f70d09c",
+    "3": "6669e44804a3f65007806f21766476705a3d50b37f993e7f7621500dd7b05688"
+  },
+  "date": "2026-11-16",
+  "reviewer": "Codex",
+  "read_scope": "Princeton 공식3쪽 발췌의 Introduction XXV–XXVII를 추출문·판면으로 읽었다. 이3쪽에 판본·연도가 명시되지 않아 연도 미상으로 둔다. 앞의 질문 목록·유명한 문제해결4단계 본문·교실20절·휴리스틱67항목은 미독이다.",
+  "empirical_scope": {
+    "design": "지정 원문·실제 판면 또는 삽입 그림 대조와 고등학교 탐구 과제의 자체 설계",
+    "sample_description": "이 검토에서는 실제 학생 원자료·현장 이용자 조사·학습 효과 실험을 분석하지 않았다",
+    "inference_limit": "서문의 도움이 될 수 있다는 설명과 독자 관점·경험을 참고한다. 미독 질문 목록·4단계의 구체적 내용을 인용하거나 보편적 성공 절차·국내 학생 효과로 쓰지 않는다. 책의4부 구성과 문제해결4단계를 혼동하지 않는다.",
+    "student_outcome_study": false,
+    "causal_effect_established": false,
+    "local_effect_tested": false
+  },
+  "contains_source_full_text": false,
+  "source_pdf_redistributed": false,
+  "reading_log": [
+    "Princeton 공식3쪽 발췌의 Introduction XXV–XXVII를 추출문·판면으로 읽었다. 이3쪽에 판본·연도가 명시되지 않아 연도 미상으로 둔다. 앞의 질문 목록·유명한 문제해결4단계 본문·교실20절·휴리스틱67항목은 미독이다."
+  ],
+  "source_corrections": [
+    {
+      "location": "방법·문항·표·그림·서술의 대조",
+      "issue": [
+        "서문의 책4부 구성을 유명한 문제해결4단계 본문과 혼동하지 않는다. 질문 목록·교실 사례·67개 휴리스틱 본문은 미독이며 발췌의 판본·연도는 확인하지 않았다."
+      ]
+    }
+  ],
+  "inquiry_completion_review": {
+    "full_book_read": false,
+    "own_tasks_are_not_student_responses": true,
+    "source_assets_redistributed": false,
+    "independent_review": false,
+    "student_validation": false,
+    "full_three_page_excerpt_read": true,
+    "edition_year_unverified": true,
+    "preceding_question_list_and_four_solving_phases_not_read": true,
+    "book_parts_not_solving_phases": true
+  }
+}

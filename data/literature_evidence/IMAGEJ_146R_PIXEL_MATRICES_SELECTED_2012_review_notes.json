@@ -1,0 +1,98 @@
+{
+  "source_id": "IMAGEJ_146R_PIXEL_MATRICES_SELECTED_2012",
+  "source_url": "https://imagej.net/ij/docs/guide/",
+  "source_asset_kind": "pdf",
+  "source_pdf_sha256": "d583f1bffd10d9b4cc194f0c76c26e456a71dabc0e185d50b95286b12ae5f3b8",
+  "source_pdf_url": "https://imagej.net/ij/docs/guide/user-guide.pdf",
+  "pdf_pages": 198,
+  "selected_text_pages": [
+    1,
+    2,
+    21,
+    25,
+    26,
+    87,
+    88,
+    90,
+    109,
+    118,
+    128,
+    129,
+    130,
+    139,
+    140
+  ],
+  "visual_pdf_pages": [
+    1,
+    2,
+    21,
+    25,
+    26,
+    87,
+    88,
+    90,
+    109,
+    118,
+    128,
+    129,
+    130,
+    139,
+    140
+  ],
+  "rendered_page_sha256": {
+    "1": "eee919c4131b1f89e1cc84ab4c3b9188b03144df5eb42e2a6ce4b8af1c689c35",
+    "2": "7d7926079f31d45045d73f51b54e035c8bc7d292eca234bf397a21e49013b0d6",
+    "21": "dd0a5eddb6ed807796fd5e071da87311d3aa0e47e7a430caa77abac9a35aad5e",
+    "25": "19bd4d84b7a4f27ee84b498d86f65dcd3c47e035f76f2853af40bb55cb807acc",
+    "26": "9c85df2ab867f7b9f01c754e055aa84ac7d34ffff1c97aa06b9aeb7e81ef859d",
+    "87": "4a8d82284326e030260101da452115f5390aebb8e4b3d22877f24e2000838989",
+    "88": "89e13509d4accdd553420bc98bc6a072977a0e7fb3b26764cf2bf98974514995",
+    "90": "a907b945d114702abb95bdef0a21194c4bdf7916f1e81418d6c92d362501d614",
+    "109": "e7424198dc9956705012c8e6e8a5b9e963f3c33cf5c9da56b1f6b1a0f2281c86",
+    "118": "6fc7807e583473fa3962c7d4ebbfbb38eda893651110e28571a3b1d167ea2c1a",
+    "128": "58fecd2493791d51940a6462ec631a6c38cf576f9f9f98ba2d16fcfd7a6bb386",
+    "129": "b5f96a74895ad8ae38cd1084a09a94151d1ab5ae10db6bfe2d212005ab0c5b66",
+    "130": "bef74531f8a3ee2f1c3a117d4361baaeb31b171d7adf5248b0bd69aa3f3bdad7",
+    "139": "1f8776cdc294fc0235288e41d4bd26f1bb005e743fa2d65af598359324c4e69a",
+    "140": "a26449c2a98ce974bc37c663209bdfb2254dd87b04734c8b17dba0cd8d6e09f6"
+  },
+  "date": "2026-11-16",
+  "reviewer": "Codex",
+  "read_scope": "표제·날짜와 지정 추출문·판면15쪽에서 픽셀 격자·비트·RGB/색상표,표시 범위와 실제 값 변경,상수 연산·클리핑·좌우/상하 반사·이웃 평균·두 이미지 성분 연산을 대조했다. 본문 인쇄 쪽은PDF쪽−11이다.2012년1.46r 설명서이며 현재 UI 검증으로 세지 않는다.",
+  "empirical_scope": {
+    "design": "공개 원논문·작업반 보고서·저자 교과서·공식 사용 설명서의 지정 본문과 실제 판면 대조",
+    "sample_description": "학생 표본·응답을 분석한 연구가 아님",
+    "inference_limit": "전권·현재 소프트웨어 메뉴·실제 영상의 과학적 타당성·학생 검증이 아니다. 국내의 회전변환 제외를 유지한다. 자체 전치/반사·8비트 경계·이웃 경계 처리는 작은 행렬 모형이다. 색상표와 실제 측정값,성분별 곱과 행렬 곱을 혼합하지 않는다.",
+    "student_outcome_study": false,
+    "causal_effect_established": false,
+    "local_effect_tested": false
+  },
+  "contains_source_full_text": false,
+  "source_pdf_redistributed": false,
+  "reading_log": [
+    "표제·날짜와 지정 추출문·판면15쪽에서 픽셀 격자·비트·RGB/색상표,표시 범위와 실제 값 변경,상수 연산·클리핑·좌우/상하 반사·이웃 평균·두 이미지 성분 연산을 대조했다. 본문 인쇄 쪽은PDF쪽−11이다.2012년1.46r 설명서이며 현재 UI 검증으로 세지 않는다."
+  ],
+  "source_corrections": [
+    {
+      "location": "방법·문항·표·그림·서술의 대조",
+      "issue": [
+        "21쪽4비트1111(16)은15다. x방향(rows)·y방향(columns) 표기를 일반적인 높이×너비 행렬의 행/열로 그대로 옮기지 않는다. unsigned가 양수만이라는 각주는0도 포함하도록 구별한다.32비트 부동소수를 모든 실수나2³²개의 서로 다른 밝기로 해석하지 않는다.",
+        "87~90쪽 표시 범위·LUT 조정과Apply 또는 RGB의 픽셀 변경 조건을 나눈다.128~129쪽16비트signed/65535는 일반 signed 정수의 범위 정의로 쓰지 않고 자체8비트0~255에 한정한다.",
+        "139~140쪽Multiply는 대응 픽셀 성분 연산이며 행렬 곱이 아니다. 다른 크기를 허용하는 소프트웨어 조건은 수학적 행렬 합차의 정의가 아니다.109쪽 회전 메뉴는 국내 필수에 넣지 않고 전치/좌우/상하를 별도로 계산한다.118쪽 이웃 평균의 경계는 자체 규칙을 명시한다."
+      ]
+    }
+  ],
+  "ai_completion_review": {
+    "full_book_read": false,
+    "formula_extraction_incomplete": true,
+    "own_tasks_are_not_student_responses": true,
+    "source_pdf_and_images_redistributed": false,
+    "printed_body_page_offset": 11,
+    "software_guide_version": "1.46r",
+    "guide_date": "2012-10-02",
+    "current_ui_not_tested": true,
+    "rotation_excluded": true,
+    "elementwise_multiply_not_matrix_product": true,
+    "lut_and_pixel_data_separate": true
+  }
+}

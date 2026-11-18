@@ -1,0 +1,72 @@
+{
+  "source_id": "SAM_2013_BINOMIAL_SELECTED",
+  "source_url": "https://amsi.org.au/ESA_Senior_Years/PDF/BinomialDistribution4d.pdf",
+  "source_asset_kind": "pdf",
+  "source_pdf_sha256": "f6308e9186c35a93d31979a1f068d5d4c3455b68001a82d69dd6438f5cdd0abf",
+  "source_pdf_url": "https://amsi.org.au/ESA_Senior_Years/PDF/BinomialDistribution4d.pdf",
+  "pdf_pages": 19,
+  "selected_text_pages": [
+    2,
+    3,
+    5,
+    6,
+    7,
+    8,
+    9,
+    11,
+    13,
+    14
+  ],
+  "visual_pdf_pages": [
+    5,
+    6,
+    7,
+    8,
+    9,
+    11,
+    13,
+    14
+  ],
+  "rendered_page_sha256": {
+    "5": "85e391037589b1ea588e505748d3ed3e60d3385d205e5d417c81f33c3bd627dd",
+    "6": "ed704b8c7caac49202dcaacf5473fad7f88da9e9c3c60cffc06c557063778ad3",
+    "7": "45e6d4c54ac3ac6cdf57e704da9920664c8e93c608547c02fb1805c39f8bc129",
+    "8": "9f24990efc8fbaf6db1c00422e087f9231a89e83e336d9c484607200e5969fd1",
+    "9": "3d952202a68e9ddc1bbff017854849b791c3036b34d0e00f161cff7229ac5604",
+    "11": "a16fc6765bc454a33535ac595885e53562b72a5d65cff723f3718a88ee08e641",
+    "13": "1bae117cd6eed05ea2904b5dc4bae6fb876110ee6cf1e0e010e8280dc1d258c7",
+    "14": "377334e2c2e6f56fef25ec54cd3a5b5b5ee6e5bc67f2726ec2afbcda2da2180b"
+  },
+  "date": "2026-11-13",
+  "reviewer": "Codex",
+  "read_scope": "서지·목차, 베르누이 시행과 고정 횟수·서로 독립·동일 성공확률, 조합계수 확률함수와 이항정리 정규화, 부적절한 모형 예·평균과 분산 유도를 지정 추출문 10쪽과 실제 판면 8쪽에서 읽었다.",
+  "empirical_scope": {
+    "design": "교사용 수학 정의·식·수치 예·모형 그림의 지정 본문과 실제 판면 대조",
+    "sample_description": "학생 표본·응답 분석이나 국내 과제 효과 연구가 아님",
+    "inference_limit": "성공/실패는 수학적 표지이며 관측의 가치 판정이 아니다. 유한 모집단의 비복원 추출을 복원 추출과 정확히 같다고 하지 않는다. 같은 주변확률만으로 독립을 추정하지 않고 평균의 선형성과 분산 합의 독립 조건을 구별한다. 원문의 0<p<1과 자체 p=0,1·n=0 경계를 구분하며 효과 연구로 세지 않는다.",
+    "student_outcome_study": false,
+    "causal_effect_established": false,
+    "local_effect_tested": false
+  },
+  "contains_source_full_text": false,
+  "source_pdf_redistributed": false,
+  "reading_log": [
+    "서지·목차, 베르누이 시행과 고정 횟수·서로 독립·동일 성공확률, 조합계수 확률함수와 이항정리 정규화, 부적절한 모형 예·평균과 분산 유도를 지정 추출문 10쪽과 실제 판면 8쪽에서 읽었다."
+  ],
+  "source_corrections": [
+    {
+      "location": "방법·문항·표·그림·서술의 대조",
+      "issue": [
+        "6쪽 큰 모집단의 비복원·복원 동일성은 근사적 모형 판단으로 한정한다. 유한 작은 재고에서는 조건확률이 바뀌므로 정확히 같은 시행이 아니다.",
+        "13쪽 평균 합에는 유한 적률 범위에서 독립이 불필요하지만 읽은 분산 합 설명에는 독립을 쓴다. p=0,1·n=0은 자체 퇴화 경계이며 분산 0에서 정규 표준화하지 않는다. 성공·실패는 임의의 표지다."
+      ]
+    }
+  ],
+  "probability_completion_review": {
+    "full_module_read": false,
+    "fixed_n_independence_same_p": true,
+    "without_replacement_not_exactly_binomial": true,
+    "mean_linearity_and_variance_conditions_distinguished": true,
+    "zero_one_p_and_zero_trials_own_boundaries": true
+  }
+}

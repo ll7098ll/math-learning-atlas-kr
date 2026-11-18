@@ -1,0 +1,84 @@
+{
+  "source_id": "AMSI_2011_QUADRATIC_FUNCTION",
+  "source_url": "https://amsi.org.au/teacher_modules/Quadratic_Function.html",
+  "source_asset_kind": "pdf",
+  "source_pdf_sha256": "80a1340c3fd202f8589ad40273381488c4ebcaf3ac9d8842faee81a19ecc99b1",
+  "source_pdf_url": "https://amsi.org.au/teacher_modules/pdfs/Quadratic_Function.pdf",
+  "pdf_pages": 30,
+  "selected_text_pages": [
+    1,
+    2,
+    3,
+    5,
+    6,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    16,
+    17,
+    18,
+    19,
+    20
+  ],
+  "visual_pdf_pages": [
+    6,
+    8,
+    10,
+    13,
+    14,
+    16,
+    17,
+    18,
+    19
+  ],
+  "rendered_page_sha256": {
+    "6": "e8ee5e1a0b6464382cb2ca1a7e0fe95610733ca4440b935b9b5313f2a939abdb",
+    "8": "b0b39c0e4f480236df06a07dfc50ab2a4ed4bc9d204fc8d5b1be9405db9394f1",
+    "10": "5a676dcb1ddb65c32908e1b7cf64a3881cb5baba6bf20df4ae5bf1c95531e889",
+    "13": "7ff3b129f6db29975c05eb1965ef51030348001d3a61f1f361f35be7a298f22e",
+    "14": "cbe6baea93ea5d0384b0c19a54328caf06598a4f886e65f14fb196957661079d",
+    "16": "6a679ac74f531d79f12ff225dd80b8f9505a9e540df3f866fcfa632df6476576",
+    "17": "a03d4fd4c7bb911fcc711c851b33e5cfb5612918f7273ae278603e10c60e3bee",
+    "18": "ec881d60419a633fb29d2b586775f41f8cb99933cabee375176cf6b27f21d200",
+    "19": "9c6f2d1d767ab5a63bff2b460f18bda2904f4cdb4e08147242e369ca486c2dda"
+  },
+  "date": "2026-11-13",
+  "reviewer": "Codex",
+  "read_scope": "서지와 포물선의 대칭·이동·반사·확대, 완전제곱·꼭짓점·절편, 제한된 생활 맥락의 극값, 이차부등식의 그래프 부호 및 근·계수의 지정 본문·판면을 대조했다.",
+  "empirical_scope": {
+    "design": "교사용 수학 내용 설명과 예시·연습 문제. 지정 부분의 수학적 조건과 표현을 대조.",
+    "sample_description": "학생 표본·학생별 반응 자료 없음. 자체 과제의 효과를 검사한 연구가 아니다.",
+    "inference_limit": "원문의 오기·혼합된 운동 모형을 그대로 복사하지 않는다. 꼭짓점 입력과 함숫값, 근인 수와 교점인 점, 열린 경계와 최댓값 달성을 구별한다. 닫힌 구간 비교·연립이차부등식은 자체 확장이다. 기본수학에 복잡한 연립이차부등식·복소수 연산·미적분·초점 준선 확장을 요구하지 않는다.",
+    "student_outcome_study": false,
+    "causal_effect_established": false,
+    "local_effect_tested": false
+  },
+  "contains_source_full_text": false,
+  "source_pdf_redistributed": false,
+  "reading_log": [
+    "서지와 포물선의 대칭·이동·반사·확대, 완전제곱·꼭짓점·절편, 제한된 생활 맥락의 극값, 이차부등식의 그래프 부호 및 근·계수의 지정 본문·판면을 대조했다."
+  ],
+  "source_corrections": [
+    {
+      "location": "방법·문항·표·그림·서술의 대조",
+      "issue": "6쪽 x축 반사의 (3,9)→(3,9)와 아래 이동 꼭짓점 (0,9), 8쪽 이동점의 y좌표 +5 누락, 10쪽 꼭짓점 y=9 대신 −9, 11쪽 반사 후 이동 중간 식의 음수 누락, 13쪽 완전제곱 예의 첫 중간 줄 +1 누락·중복을 대조했다. 17쪽 30t−5t² 모형은 t=3, 높이45인데 9.8·4.9 및 45.92를 섞었으며 표시된 높이 계산에도 30t의 t가 빠져 있다. 자기 과제에는 같은 모형·식·수치와 입력 범위를 일치시켰다. 18·19쪽의 그래프 부호와 19쪽 근·계수 관계는 수 범위를 명시해 사용했다."
+    }
+  ],
+  "high_polynomial_quadratic_review": {
+    "page_6_reflection_sign_missing": true,
+    "page_10_correct_vertex": [
+      -2,
+      -9
+    ],
+    "page_17_printed_quadratic_coefficient": -5,
+    "page_17_mixed_acceleration_constants": true,
+    "consistent_time_of_maximum": 3,
+    "consistent_maximum_height": 45,
+    "open_boundary_attainment_distinguished": true,
+    "simultaneous_quadratic_inequality_is_own_common_course_extension": true
+  }
+}

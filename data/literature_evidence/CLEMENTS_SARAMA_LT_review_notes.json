@@ -1,0 +1,294 @@
+{
+  "source_id": "CLEMENTS_SARAMA_LT",
+  "source_url": "https://www.learningtrajectories.org/",
+  "source_asset_kind": "publisher_html",
+  "source_asset_sha256": "30002cad0913a5e8777a9fbf06fd1e137c93e86c3bdc970457b3af6faf95c85f",
+  "source_asset_redistributed": false,
+  "date": "2026-11-06",
+  "reviewer": "Codex",
+  "contains_source_full_text": false,
+  "source_pdf_redistributed": false,
+  "pdf_read": false,
+  "original_page_layout_review": false,
+  "primary_asset_note": "기준 자산 해시는 공식 홈페이지HTML 한 파일이다. 나머지27개HTML의 주소·해시는 observed_html_assets에 각각 보존하며 홈페이지 해시를 사이트 전체 해시로 부르지 않는다.",
+  "observed_html_assets": [
+    {
+      "key": "home",
+      "url": "https://www.learningtrajectories.org/",
+      "title": "Learning Trajectories",
+      "sha256": "30002cad0913a5e8777a9fbf06fd1e137c93e86c3bdc970457b3af6faf95c85f",
+      "status": 200
+    },
+    {
+      "key": "explore",
+      "url": "https://www.learningtrajectories.org/math/learning-trajectories",
+      "title": "Learning Trajectories",
+      "sha256": "2cbdcc75211ea6049f4dc641619cea4f0adb119d2dfcd1881d572495e3361f57",
+      "status": 200
+    },
+    {
+      "key": "about",
+      "url": "https://www.learningtrajectories.org/pages/about",
+      "title": "Learning Trajectories",
+      "sha256": "1fa4964cb998ac644744eb3b12f1b52790e4da4cb9c4168f271dc778a51fefb1",
+      "status": 200
+    },
+    {
+      "key": "resources",
+      "url": "https://www.learningtrajectories.org/pages/resources",
+      "title": "Learning Trajectories",
+      "sha256": "3e8eec7b88aa03a0752152a2e3a746c1100cd359fde2f885e0b213276b54aacd",
+      "status": 200
+    },
+    {
+      "key": "faq",
+      "url": "https://www.learningtrajectories.org/pages/sub_page/29",
+      "title": "Learning Trajectories",
+      "sha256": "1e157a4469804cb8332c25cb9738dd249515d1d1605974d1faea51b713f21fa7",
+      "status": 200
+    },
+    {
+      "key": "research",
+      "url": "https://www.learningtrajectories.org/lt-resources/research-projects",
+      "title": "Learning Trajectories",
+      "sha256": "01c3aba2efd27213ba69b33cf5ed8d6967cded81914d740fc98ac286c12fe2fc",
+      "status": 200
+    },
+    {
+      "key": "counting",
+      "url": "https://www.learningtrajectories.org/math/learning-trajectories/counting",
+      "title": "Counting",
+      "sha256": "c3b60dce132c4025f20c9f6b9a6edc219bf983cceea978545a17165fdcc62194",
+      "status": 200
+    },
+    {
+      "key": "shapes",
+      "url": "https://www.learningtrajectories.org/math/learning-trajectories/2d-shapes",
+      "title": "2D Shapes",
+      "sha256": "948ed7e098cf5dc7a8738ff6046aa61a5b59935e31d705bd422b7734f726c213",
+      "status": 200
+    },
+    {
+      "key": "length",
+      "url": "https://www.learningtrajectories.org/math/learning-trajectories/measurement-length",
+      "title": "Measurement: Length",
+      "sha256": "b306fb76adf57ee4202f106d22e244a90d84845983c5c4e4edd3070d4cf4ce13",
+      "status": 200
+    },
+    {
+      "key": "fractions",
+      "url": "https://www.learningtrajectories.org/math/learning-trajectories/fractions",
+      "title": "Fractions",
+      "sha256": "172809f326ae5d3ac313db5b96babafa1853a63742cd11302f8011963805c439",
+      "status": 200
+    },
+    {
+      "key": "corresponder",
+      "url": "https://www.learningtrajectories.org/math/counting/corresponder",
+      "title": "Counting | Corresponder",
+      "sha256": "845073508c5b94b1cde17af88d710abbecf44fac8ba7d5b1345bcf00cce1b360",
+      "status": 200
+    },
+    {
+      "key": "counter-small",
+      "url": "https://www.learningtrajectories.org/math/counting/counter-small-numbers",
+      "title": "Counting | Counter (Small Numbers)",
+      "sha256": "7160a8aba418508abc21fd63840a13bbe1bad7750d79c159189c4ef8b2e0a15f",
+      "status": 200
+    },
+    {
+      "key": "producer-small",
+      "url": "https://www.learningtrajectories.org/math/counting/producer-small-numbers",
+      "title": "Counting | Producer (Small Numbers)",
+      "sha256": "59dcabbb59b77cff32109d95cef4036c8dc64cac293751fb33f2c1bfca5b2c1d",
+      "status": 200
+    },
+    {
+      "key": "place-value",
+      "url": "https://www.learningtrajectories.org/math/counting/counter-of-quantitative-unitsplace-value",
+      "title": "Counting | Counter of Quantitative Units/Place Value",
+      "sha256": "26b87f70d2f8e141bf6fa5ba453e585734636e1c8eac80cbb87910b98fc357e1",
+      "status": 200
+    },
+    {
+      "key": "all-rectangles",
+      "url": "https://www.learningtrajectories.org/math/2d-shapes/shape-recognizerall-rectangles",
+      "title": "2D Shapes | Shape Recognizer—All Rectangles | Classifying",
+      "sha256": "3608b9c152091394e8eec5844e67de2468d4154884f1d62beeab0b4e71ef05c9",
+      "status": 200
+    },
+    {
+      "key": "shape-identifier",
+      "url": "https://www.learningtrajectories.org/math/2d-shapes/shape-identifier",
+      "title": "2D Shapes | Shape Identifier | classifying",
+      "sha256": "a26bf898dc2491c6185b348c29b3c4a179ff3c69dfd9c86ea2576b46fa1e5ddf",
+      "status": 200
+    },
+    {
+      "key": "end-to-end",
+      "url": "https://www.learningtrajectories.org/math/measurement-length/end-to-end-length-measurer",
+      "title": "Measurement: Length | End-to-End Length Measurer | Measurement",
+      "sha256": "997b1564b72364cba93ad897b258a0dd6fd6431469c8a24fdc3c8dc1ba582d92",
+      "status": 200
+    },
+    {
+      "key": "unit-relater",
+      "url": "https://www.learningtrajectories.org/math/measurement-length/length-unit-relater-and-repeater",
+      "title": "Measurement: Length | Length Unit Relater and Repeater | Measurement",
+      "sha256": "d335d7d3298c3d3f28062317c6c34ec48fd69bfed08a8f1c7586b8bbf4acb02f",
+      "status": 200
+    },
+    {
+      "key": "conceptual-ruler",
+      "url": "https://www.learningtrajectories.org/math/measurement-length/conceptual-ruler-measurer",
+      "title": "Measurement: Length | Conceptual Ruler Measurer | Measurement",
+      "sha256": "355c272d3c21d4dab12a8c7e73d0fad81402df037a979b68ed1f10886460577b",
+      "status": 200
+    },
+    {
+      "key": "unit-fraction",
+      "url": "https://www.learningtrajectories.org/math/fractions/unit-fraction-recognizer",
+      "title": "Fractions | Unit Fraction Recognizer",
+      "sha256": "5e2166718fedc451107f0e9679870bbc38b258cab812d4ea6cb3699302aa1818",
+      "status": 200
+    },
+    {
+      "key": "fraction-maker",
+      "url": "https://www.learningtrajectories.org/math/fractions/fraction-maker",
+      "title": "Fractions | Fraction Maker",
+      "sha256": "4217928d6d36be29daef1ef4ecaad3ea0946f37a614daf6daeb63979eefead5b",
+      "status": 200
+    },
+    {
+      "key": "fraction-repeater",
+      "url": "https://www.learningtrajectories.org/math/fractions/fraction-repeater",
+      "title": "Fractions | Fraction Repeater",
+      "sha256": "a57dccb999dab1cb74a8423a4159b15805693b1b15f626a32cdf46114d9946e2",
+      "status": 200
+    },
+    {
+      "key": "counting-wand",
+      "url": "https://www.learningtrajectories.org/math-activities/counting-wand-corresponder",
+      "title": "Math Activities | Counting Wand (Corresponder)",
+      "sha256": "2c67841dbc5213caac8de9553946ec371d90d38629c902002edb74e9dfe94aeb",
+      "status": 200
+    },
+    {
+      "key": "how-many-hand",
+      "url": "https://www.learningtrajectories.org/math-activities/how-many-in-a-hand-counter-small-number",
+      "title": "Math Activities | How Many in a Hand?",
+      "sha256": "7b6bf13e36fe2945fdd4c366725f7f11cbc8e0a6cb356f2c171526502d47de34",
+      "status": 200
+    },
+    {
+      "key": "guess-fraction",
+      "url": "https://www.learningtrajectories.org/math-activities/guess-my-fraction",
+      "title": "Math Activities | Guess My Fraction",
+      "sha256": "d5983f249aadfe4e456ad9ebdb420440e43d26019a044d7932421cbd362dd612",
+      "status": 200
+    },
+    {
+      "key": "guess-rule",
+      "url": "https://www.learningtrajectories.org/math-activities/guess-my-rule-shape-recognizer-all-rectangles",
+      "title": "Math Activities | Guess My Rule (Rectangles)",
+      "sha256": "d3083d9a9e9ee2354940659f3fd32b2800d112a937f08d27486e7f42ee1f2a8c",
+      "status": 200
+    },
+    {
+      "key": "building-iteration",
+      "url": "https://www.learningtrajectories.org/math-activities/building-up-to-iteration",
+      "title": "Math Activities | Building Up to Iteration",
+      "sha256": "c5c1c9b64eb3ca814d563d9821975eafa81cb2c459f7074e22a8bd10fab54103",
+      "status": 200
+    },
+    {
+      "key": "hanging-fractions",
+      "url": "https://www.learningtrajectories.org/math-activities/hanging-fractions-on-a-number-line-fraction-repeater",
+      "title": "Math Activities | Hanging Fractions on a Number Line",
+      "sha256": "53e5c5bf382aa86e4d852cc7245f31c9c8101adc478f004d7eb3c21c8611a776",
+      "status": 200
+    }
+  ],
+  "read_groups": {
+    "general": [
+      "home",
+      "explore",
+      "about",
+      "resources",
+      "faq",
+      "research"
+    ],
+    "domain_overviews": [
+      "counting",
+      "shapes",
+      "length",
+      "fractions"
+    ],
+    "levels": [
+      "corresponder",
+      "counter-small",
+      "producer-small",
+      "place-value",
+      "all-rectangles",
+      "shape-identifier",
+      "end-to-end",
+      "unit-relater",
+      "conceptual-ruler",
+      "unit-fraction",
+      "fraction-maker",
+      "fraction-repeater"
+    ],
+    "activities": [
+      "counting-wand",
+      "how-many-hand",
+      "guess-fraction",
+      "guess-rule",
+      "building-iteration",
+      "hanging-fractions"
+    ]
+  },
+  "reading_log": [
+    "공식 공개HTML28개의 지정 영어 본문을 읽었다. 일반 소개·목록·FAQ·서지·연구 목록6개,영역 개요4개,수준12개,활동6개다. 영역 전체의 모든 수준·활동을 읽었다는 집계가 아니다.",
+    "세기4수준·평면도형2수준·길이3수준·분수3수준의 설명·사례·교수 안내와 활동 목록을 확인했다.",
+    "Counting Wand,How Many in a Hand?,Guess My Fraction,Guess My Rule,Building Up to Iteration,Hanging Fractions의 공개 영어 목표·절차·교수 팁·차별화·표시된 참고문헌을 확인했다. 소개만 읽은 것이 아니며 영어·스페인어의 동등성을 검증한 것도 아니다.",
+    "홈페이지의0~8세 대상,FAQ의 수준/하위 경로/연령 한계,자원 페이지의2026년 권장 인용과 꼬리말의2017/2019 표기를 구별했다. 연구 목록의 논문 서지 확인을 원논문 독해로 집계하지 않는다."
+  ],
+  "source_corrections": [
+    {
+      "kind": "source_incorrect_example_transcription_guard",
+      "location": "Fractions 개요",
+      "observed": "3/4+1/3의 잘못된 덧셈 예에4/6이 적혀 있다.",
+      "correct_sum": "13/12",
+      "sum_numerators_and_denominators": "4/7",
+      "action": "원문 자체가 오답을 논하는 대목이나4/6은 분자끼리·분모끼리 더한 결과4/7과도 다르다. 원인을 확정하지 않고 기호를 복사하지 않는다. 올바른 합과 가상 오답을 구별하며 이 다른 분모 계산을 국내3~4학년 필수 과제로 전용하지 않는다."
+    },
+    {
+      "kind": "bibliographic_version_guard",
+      "location": "Resources의Suggested Citation / 공통 꼬리말",
+      "observed": "자원 페이지는2026년 인용을 권장하고 꼬리말은2017/2019를 유지한다.",
+      "action": "이번 온라인 자원 서지는2026년 권장 인용과 확인일을 사용한다. 개별 활동의2025·2026 갱신일을 따로 남기고 모든 내용이2026년에 작성됐다고 판단하지 않는다."
+    },
+    {
+      "kind": "scope_and_definition_guard",
+      "location": "FAQ / Shape Identifier / Guess My Fraction",
+      "action": "하위 경로의 순서·연령 차를 허용하고 사다리꼴 정의와 사각형 포함 관계를 국내 필수 범위로 옮기지 않는다. 분모 역순 비교는 같은 전체의 양의 단위분수로 한정한다."
+    }
+  ],
+  "activity_update_dates": {
+    "counting-wand": "2026-03-03",
+    "how-many-hand": "2026-03-04",
+    "guess-fraction": "2025-07-27",
+    "guess-rule": "2026-04-15",
+    "building-iteration": "2025-07-23",
+    "hanging-fractions": "2026-02-03"
+  },
+  "unread_followups": [
+    "다른 영역·미선정 수준/활동의 본문,회원 전용 자료,동영상·그림·첨부PDF·게임 실행은 미검토다. 링크와 목록의 존재를 그 내용의 검토로 집계하지 않는다.",
+    "Research Projects의 서지에 연결된 개별 연구·관련 교재 전권·정오표·현행 한국 학생의 실제 반응과 번역 동등성은 후속 대조 대상이다."
+  ],
+  "interpretation_limits": [
+    "연구자가 제공한 경로·활동 안내에 대한 범위별 읽기다. 현재 과제의 효과 크기·진단 규준·한 필수 선수 경로·한국 학년별 연령 규준을 직접 입증하지 않는다.",
+    "현재 목표의 포함 관계 지도 제외·수 범위를 유지한다. 자체 문항·수치·기대 설명은 원문 문항의 복사나 실제 학생 자료가 아니다.",
+    "저작권 유보와 사이트 밖 별도 배포 금지 안내를 확인했다. HTML·자료·영상·그림을 재배포하지 않고 자체 기록·주소·해시만 보존한다."
+  ]
+}

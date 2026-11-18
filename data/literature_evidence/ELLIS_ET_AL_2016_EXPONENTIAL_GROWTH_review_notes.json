@@ -1,0 +1,55 @@
+{
+  "source_id": "ELLIS_ET_AL_2016_EXPONENTIAL_GROWTH",
+  "source_url": "https://doi.org/10.1080/10986065.2016.1183090",
+  "source_pdf_url": "https://pat-thompson.net/RUME1F18Public/files/349436.pdf",
+  "source_asset_kind": "pdf",
+  "source_pdf_sha256": "908bc73187427ca0c6ba2f1fea4e9b059849fb4febb38cb25a928c2be8c4bfba",
+  "pdf_pages": 32,
+  "selected_text_pages": [
+    1,
+    2,
+    7,
+    13,
+    25,
+    26
+  ],
+  "visual_pdf_pages": [
+    7,
+    25,
+    26
+  ],
+  "rendered_page_sha256": {
+    "7": "e5b064215b33f6611721394acce7c9faa88f859b8d59c1b7d7fed6e16b5091f9",
+    "25": "59a17dfc86ee894da6d742f7b4a2c680fc666f22e69ce7556014de1259a50062",
+    "26": "5e1b5610162dfb53b5b34c2abd57495b589d77ab732f65949e49c0637ae9916a"
+  },
+  "date": "2026-11-10",
+  "reviewer": "Codex",
+  "read_scope": "두 수업 실험의 참가 범위, 초기 성장률 설명, 그림 8~10에서 대응식과 공변 추론의 변화와 차이를 대조했다.",
+  "empirical_scope": {
+    "design": "서로 다른 두 수업 실험에서 높이와 시간의 공변을 분석.",
+    "sample_description": "첫 실험은 8학년 5명 참여·3명 정기 참여 자료 분석, 둘째는 8학년을 마친 8명 참여.",
+    "inference_limit": "미국 중학생의 수업 사례다. 개인별 경로와 수업 활동의 순서를 구별하며 고교에서 보편적인 단계나 효과로 적용하지 않는다.",
+    "student_outcome_study": true,
+    "causal_effect_established": false,
+    "local_effect_tested": false
+  },
+  "contains_source_full_text": false,
+  "source_pdf_redistributed": false,
+  "reading_log": [
+    "두 수업 실험의 참가 범위, 초기 성장률 설명, 그림 8~10에서 대응식과 공변 추론의 변화와 차이를 대조했다."
+  ],
+  "source_corrections": [
+    {
+      "location": "정의·표·학생 응답",
+      "issue": "첫 실험의 참여 5명과 정기 참여로 분석한 3명을 구별했다. 상세 경로 그림에 포함된 세 학생의 사례를 전체 참여자 집계로 사용하지 않는다."
+    }
+  ],
+  "exponential_review": {
+    "first_experiment_enrolled": 5,
+    "first_experiment_regular_analyzed": 3,
+    "second_experiment_enrolled": 8,
+    "detailed_trajectory_cases": 3,
+    "unit_multiplier_root_reasoning_reported_cases": 1
+  }
+}

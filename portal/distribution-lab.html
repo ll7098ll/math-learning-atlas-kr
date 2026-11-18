@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>정규·t분포 탐구 | 수학 내용 체계</title>
+<style>
+:root{color-scheme:light;--ink:#18302e;--blue:#245dcc;--orange:#ad4a13;--line:#d5e0db}*{box-sizing:border-box}body{margin:0;background:#f4f6f2;color:var(--ink);font-family:system-ui,-apple-system,"맑은 고딕",sans-serif;line-height:1.7}main{max-width:1120px;margin:auto;padding:30px 24px 60px}a{color:#245dcc}h1{font-size:clamp(1.8rem,4vw,2.8rem);line-height:1.25;margin:16px 0}h2{font-size:1.2rem;margin:0 0 16px}.eyebrow{font-size:.8rem;letter-spacing:.12em;color:#51675e}header p{max-width:770px}.panel{background:white;border:1px solid var(--line);border-radius:18px;padding:24px;margin-top:22px}.controls{display:flex;gap:18px;align-items:end;flex-wrap:wrap}label{display:grid;gap:6px;font-weight:650}select,button{font:inherit;padding:10px 14px;border:1px solid #8daba0;border-radius:8px;background:white;color:var(--ink);min-height:46px}button{cursor:pointer}button:hover{background:#eaf2ec}:focus-visible{outline:3px solid #245dcc;outline-offset:3px}.legend{display:flex;flex-wrap:wrap;gap:24px;margin:18px 0 2px}.key{display:inline-flex;gap:9px;align-items:center}.key:before{content:"";width:28px;height:4px;background:var(--blue)}.key.t:before{background:var(--orange);height:0;border-top:4px dashed var(--orange)}svg{display:block;width:100%;height:auto;overflow:visible}svg text{font-family:inherit;font-size:14px;fill:#50605c}.grid{stroke:#dce4df;stroke-width:1}.axis{stroke:#879b91;stroke-width:1.3}.normal{stroke:var(--blue);fill:none;stroke-width:3}.student{stroke:var(--orange);fill:none;stroke-width:3;stroke-dasharray:9 4}.small{font-size:.9rem;color:#51655d}.summary{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:18px}.metric{background:#f5f7f4;padding:18px;border-radius:12px}.metric p{margin:7px 0}.values{font-size:1.12rem;font-weight:700}.note{border-left:4px solid #d7aa60;padding:10px 15px;background:#fff9ec}.table-wrap{overflow-x:auto}table{border-collapse:collapse;width:100%;min-width:470px}td,th{border-bottom:1px solid var(--line);padding:10px;text-align:left}th{font-size:.88rem}.steps{padding-left:23px}.steps li+li{margin-top:9px}footer{font-size:.87rem;color:#51655d;margin-top:25px}#status{margin:12px 0 0}#boundary{font-weight:650}noscript{display:block;padding:20px;background:#fff1df}@media(max-width:620px){main{padding:20px 14px 40px}.panel{padding:17px}.summary{grid-template-columns:1fr}.controls label{flex:1 1 130px}.controls select{width:100%}svg text{font-size:16px}}
+</style></head><body><main>
+<header><a href="./#view=standard&amp;scope=h&amp;code=12실통03-01">← 성취기준과 해설</a><p class="eyebrow">12실통03-01 · 분포 비교</p><h1>정규분포와 t분포를<br>같은 축에서 살펴보기</h1><p>자유도를 바꾸면 중앙 높이와 꼬리가 어떻게 달라질까요? 이론 곡선의 모양·구간 확률·중앙95% 경계를 함께 비교해 보세요.</p></header>
+<noscript>이 탐구 화면은 JavaScript가 필요합니다. 성취기준 해설에서 비교 수치와 계산 자료를 읽을 수 있습니다.</noscript>
+<section class="panel" aria-labelledby="plot-heading"><h2 id="plot-heading">분포 설정</h2><div class="controls">
+<label for="df">t분포 자유도<select id="df"><option>1</option><option>2</option><option>3</option><option selected>5</option><option>10</option><option>30</option><option>60</option></select></label>
+<label for="mode">색칠할 구간<select id="mode"><option value="tails">양쪽 꼬리 |x| &gt; 2</option><option value="central">각 분포의 중앙95%</option></select></label>
+<label for="range">가로축 보기 범위<select id="range"><option value="5">−5 ~ 5</option><option value="15">−15 ~ 15</option></select></label>
+<button id="reset" type="button">설정 초기화</button></div>
+<p class="legend"><span class="key">표준정규 Z</span><span class="key t">Student t</span></p>
+<svg id="plot" viewBox="0 0 960 390" role="img" aria-labelledby="chart-title chart-desc"><title id="chart-title">표준정규와 t분포의 확률밀도</title><desc id="chart-desc"></desc><g id="drawing"></g></svg>
+<p id="status" role="status" aria-live="polite"></p><p id="boundary"></p>
+<p class="small">세로축은 확률밀도입니다. 확률은 곡선 아래의 <strong>구간 면적</strong>이며 한 점의 높이가 아닙니다. 두 곡선은 항상 같은 가로·세로축을 사용합니다.</p>
+<div class="summary"><div class="metric"><h2>양쪽 꼬리 확률</h2><p class="small">전체 실수 범위에서 |x| &gt; 2</p><p class="values" id="tails"></p></div><div class="metric"><h2>중앙95%의 경계</h2><p class="small">각 분포의 [−q, q], 양쪽 꼬리 각각2.5%</p><p class="values" id="central"></p></div></div>
+<p class="note" id="moments"></p><p class="small" id="visible"></p>
+</section>
+<section class="panel"><h2>관찰하고 설명하기</h2><ol class="steps"><li>자유도5→30→60을 바꾸며 중앙 높이와 |x| &gt; 2의 확률을 비교하세요.</li><li>자유도1에서 중앙95%를 고르고 보기 범위를 바꾸세요. 화면 밖 경계와 전체 확률은 어떻게 다른가요?</li><li>표준정규의 ±2 안쪽 확률은 약95.450%입니다. 중앙95%의 경계 약±1.960과 구별해 설명하세요.</li></ol>
+<div class="table-wrap"><table><caption>현재 설정의 수치 비교</caption><thead><tr><th scope="col">이론분포</th><th scope="col">중앙 밀도</th><th scope="col">|x| &gt; 2</th><th scope="col">중앙95% q</th></tr></thead><tbody id="comparison"></tbody></table></div><p><button id="download" type="button">현재 곡선 CSV 받기</button></p><p class="small">CSV는 −15부터15까지0.05 간격의 이론 밀도입니다. 실제 관측값이나 무작위 표본이 아닙니다.</p></section>
+<footer><p>이 화면은 이론분포를 비교하는 자체 탐구 도구입니다. 실제 자료의 정규성·독립성·표집 타당성이나 학습 효과를 확인한 결과는 아닙니다. 정규 모집단의 독립 무작위 표본에서 T=(표본평균−μ)/(s/√n)는 자유도 n−1의 t분포를 따릅니다. 원자료 X 자체가 t분포로 바뀐다는 뜻은 아닙니다.</p><p>읽기 자료: <a href="https://openstax.org/details/books/introductory-statistics-2e" target="_blank" rel="noopener noreferrer">OpenStax Introductory Statistics 2e</a> 지정 구간과 <a href="https://www.amstat.org/asa/files/pdfs/GAISE/GAISEIIPreK-12_Full.pdf" target="_blank" rel="noopener noreferrer">GAISE II2020</a>. 원문의 그림·지면을 재사용하지 않았습니다. 이론 수치는 수치 적분·역누적 계산의 근삿값이며 표시값은 반올림했습니다.</p></footer>
+</main>
+<script id="model-data" type="application/json">@@MODEL_DATA@@</script>
+<script>
+const data=JSON.parse(document.querySelector('#model-data').textContent),$=s=>document.querySelector(s),pct=x=>(100*x).toFixed(3)+'%',num=x=>x.toFixed(6);
+function current(){return data.student.find(r=>r.df===Number($('#df').value));}
+function render(){
+ const t=current(),n=data.normal,r=Number($('#range').value),central=$('#mode').value==='central',x=v=>60+(v+r)/(2*r)*875,y=v=>330-v/.45*280;
+ const points=data.xs.map((v,i)=>[v,i]).filter(([v])=>Math.abs(v)<=r),path=row=>points.map(([v,i],j)=>(j?'L':'M')+x(v).toFixed(2)+','+y(row.curve[i]).toFixed(2)).join(' ');
+ let svg='';for(const v of [0,.1,.2,.3,.4])svg+=`<line class="grid" x1="60" x2="935" y1="${y(v)}" y2="${y(v)}"/><text x="47" y="${y(v)+5}" text-anchor="end">${v.toFixed(1)}</text>`;
+ for(let v=-r;v<=r;v+=r===5?1:5)svg+=`<line class="grid" x1="${x(v)}" x2="${x(v)}" y1="50" y2="330"/><text x="${x(v)}" y="357" text-anchor="middle">${v}</text>`;
+ svg+='<text x="60" y="24">확률밀도</text><text x="947" y="379" text-anchor="end">표준화된 값 x</text>';
+ for(const [row,color] of [[n,'#245dcc'],[t,'#ad4a13']]){
+  const q=central?row.q975:2;
+  // Use exact boundaries, plus sampled interior points. Never renormalize the window.
+  const pdf=v=>{let i=Math.round((v+15)*20);if(Math.abs(data.xs[i]-v)<1e-9)return row.curve[i];const a=Math.floor((v+15)*20),w=(v-data.xs[a])/.05;return row.curve[a]*(1-w)+row.curve[a+1]*w;};
+  const regions=central?[[Math.max(-q,-r),Math.min(q,r)]]:[[-r,-q],[q,r]];
+  for(const [a,b] of regions){if(a>=b)continue;const ps=[[a,pdf(a)],...points.filter(([v])=>v>a&&v<b).map(([v,i])=>[v,row.curve[i]]),[b,pdf(b)]];svg+=`<path fill="${color}" fill-opacity=".13" d="M${x(a)},330 ${ps.map(([v,p])=>'L'+x(v).toFixed(2)+','+y(p).toFixed(2)).join(' ')} L${x(b)},330 Z"/>`;}
+  for(const v of [-q,q])if(Math.abs(v)<=r)svg+=`<line stroke="${color}" stroke-dasharray="3 4" x1="${x(v)}" x2="${x(v)}" y1="50" y2="330"/>`;
+ }
+ svg+=`<path class="normal" d="${path(n)}"/><path class="student" d="${path(t)}"/><line class="axis" x1="60" x2="935" y1="330" y2="330"/>`;$('#drawing').innerHTML=svg;
+ $('#tails').textContent=`정규 ${pct(n.tail2)} · t ${pct(t.tail2)}`;$('#central').textContent=`정규 ±${num(n.q975)} · t ±${num(t.q975)}`;
+ $('#status').textContent=`자유도 ${t.df} · ${central?'각 분포의 중앙95%':'|x| > 2인 양쪽 꼬리'} · 보기 범위 −${r} ~ ${r}`;
+ $('#boundary').textContent=central&&t.q975>r?'t분포의 중앙95% 경계가 화면 밖입니다. −15 ~ 15로 넓혀 보세요.':'';
+ $('#moments').textContent=t.df===1?'자유도1: 대칭 중심은0이지만 평균은 정의되지 않습니다. 유한한 분산도 없습니다.':t.df===2?'자유도2: 평균은0이지만 유한한 분산은 없습니다.':`자유도${t.df}: 평균은0, 분산은 ν/(ν−2) = ${(t.df/(t.df-2)).toFixed(4)}입니다. 대칭 중심과 평균·분산의 존재 조건을 구별하세요.`;
+ $('#visible').textContent=`현재 화면 안의 확률: 정규 약${pct(n.visible[r])}, t 약${pct(t.visible[r])}. 각 분포의 전체 면적은1이며, 화면 밖 꼬리도 포함합니다. 표시값은 반올림했으며100.000%도 정확한1을 뜻하지 않습니다. 위 확률과 경계는 화면 범위와 무관합니다.`;
+ $('#chart-desc').textContent=`자유도${t.df}의 t분포와 표준정규를 같은 축에 그렸습니다. ${$('#status').textContent}. ${$('#tails').textContent}. 중앙95% 경계 ${$('#central').textContent}. ${$('#boundary').textContent}`;
+ $('#comparison').innerHTML=[[n,'표준정규'],[t,`t (자유도${t.df})`]].map(([row,label])=>`<tr><th scope="row">${label}</th><td>${num(row.curve[300])}</td><td>${pct(row.tail2)}</td><td>${num(row.q975)}</td></tr>`).join('');
+}
+for(const id of ['df','mode','range'])$('#'+id).addEventListener('change',render);
+$('#reset').addEventListener('click',()=>{$('#df').value='5';$('#mode').value='tails';$('#range').value='5';render();});
+$('#download').addEventListener('click',()=>{const t=current(),csv='model,theoretical_not_observed\ndf,'+t.df+'\nx,standard_normal_density,student_t_density\n'+data.xs.map((x,i)=>[x,data.normal.curve[i],t.curve[i]].join(',')).join('\n')+'\n',url=URL.createObjectURL(new Blob([csv],{type:'text/csv;charset=utf-8'})),a=document.createElement('a');a.href=url;a.download=`normal-t-df${t.df}.csv`;a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);});
+render();
+</script></body></html>

@@ -1,0 +1,81 @@
+{
+  "source_id": "DONG_ET_AL_2021_REMA_SHORT_FORM",
+  "source_url": "https://doi.org/10.1177/07342829211037195",
+  "date": "2026-11-10",
+  "reviewer": "Codex",
+  "read_scope": "REMA-SF의 시행, 부분 정답과 전략 기록, 표본별 신뢰도와 두 판본 점수 변환을 ERIC 판면과 대조했다.",
+  "contains_source_full_text": false,
+  "source_pdf_redistributed": false,
+  "empirical_scope": {
+    "design": "단축형 개발·별도 표본 검증과 공통 문항을 사용한 두 판본 점수 동등화.",
+    "sample_description": "본 연구 1,912개 관측, 외부 표본 181명, 정식형 점수 비교 자료 1,305명.",
+    "inference_limit": "80문항 REMA-SF와 이 연구의 REMA-Full에 한정한다. 48문항 REMA-K와의 점수 비교, 모든 집단의 점수 불변성 및 국내 적용은 별도다.",
+    "student_outcome_study": true,
+    "causal_effect_established": false,
+    "local_effect_tested": false
+  },
+  "reading_log": [
+    "REMA-SF의 시행, 부분 정답과 전략 기록, 표본별 신뢰도와 두 판본 점수 변환을 ERIC 판면과 대조했다."
+  ],
+  "source_corrections": [
+    {
+      "location": "측정과 시행",
+      "issue": "그림 3의 두 축에 REMA-SF가 인쇄됐다. 축 방향을 확정하지 않고 표 1과 본문에서 두 판본을 대조한다."
+    }
+  ],
+  "form_review": {
+    "items": 80,
+    "scoring_indicators": 133,
+    "basal_consecutive_correct": 3,
+    "stop_consecutive_errors": 3,
+    "development_observations": 1912,
+    "external_students": [
+      101,
+      80
+    ],
+    "person_reliability": [
+      0.93,
+      0.9
+    ],
+    "refined_anchors": 29,
+    "short_anchor_mean": 0.26,
+    "full_anchor_mean": 0.58,
+    "short_to_full_logit_addition": 0.32,
+    "figure_3_printed_axis_labels": [
+      "REMA-SF",
+      "REMA-SF"
+    ],
+    "table_1_form_labels": [
+      "REMA-SF",
+      "REMA-Full"
+    ],
+    "mpc_rema_k_stop_rule_verified": false,
+    "subgroup_equating_invariance_verified": false
+  },
+  "source_asset_kind": "pdf",
+  "source_pdf_sha256": "37813176f543b77013bcf4da74941bf8cd020ae274e52460770034970befb980",
+  "source_pdf_url": "https://files.eric.ed.gov/fulltext/EJ1316908.pdf",
+  "pdf_pages": 16,
+  "selected_text_pages": [
+    4,
+    5,
+    6,
+    8,
+    10,
+    11,
+    12,
+    13
+  ],
+  "visual_pdf_pages": [
+    4,
+    10,
+    11,
+    12
+  ],
+  "rendered_page_sha256": {
+    "4": "33f52df883edc0f12a8aea10e198ca86febb2b0b1b4a658266b4d8121cf059d0",
+    "10": "f296ce2a26a80f9540ea5a9c597c234b60b8e90c03ef3fa4091fa34c3653a0a4",
+    "11": "6f4b84c78bd6c59cb892c4e8eb6a84a204b70ad0329c47d8d91ef1f8e31fd95d",
+    "12": "5b1e4d13e34d8dbf8283ae3f9eb4af8c693084fb9fa242f884fcbb12b5c67da8"
+  }
+}

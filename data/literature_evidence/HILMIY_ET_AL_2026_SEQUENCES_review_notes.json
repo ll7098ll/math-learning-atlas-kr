@@ -1,0 +1,55 @@
+{
+  "source_id": "HILMIY_ET_AL_2026_SEQUENCES",
+  "source_url": "https://doi.org/10.56855/algebra.v3i2.2021",
+  "source_pdf_url": "https://journals.eduped.org/index.php/Algebra/article/download/2021/1472/13202",
+  "source_asset_kind": "pdf",
+  "source_pdf_sha256": "f77a2e34d2fc66e3a42736dc6435661fc0ea7c31ac8d7cc762ff164ea9e2d695",
+  "pdf_pages": 18,
+  "selected_text_pages": [
+    1,
+    4,
+    5,
+    8,
+    9,
+    10,
+    11
+  ],
+  "visual_pdf_pages": [
+    8,
+    10
+  ],
+  "rendered_page_sha256": {
+    "8": "f35d522440c8a1fd394c1b850b163269a158643a1ee53776064fdeaccdbf7035",
+    "10": "04b5dd1ae0eb864453de7a2f7fc7f2bb0477b61eb96c95244edb2479fc2b9da8"
+  },
+  "date": "2026-11-12",
+  "reviewer": "Codex",
+  "read_scope": "표 1의 문항별 분류와 등차수열 일반항에서 합을 구하는 그림 2, 계산 오류의 그림 3 및 곱셈 구조의 문항 5를 대조했다.",
+  "empirical_scope": {
+    "design": "서면 진단 후 응답에 따라 일부 학생을 선정한 질적 면담.",
+    "sample_description": "인도네시아 페칸바루 공립 고교 11학년 한 학급 33명.",
+    "inference_limit": "한 학급의 진단 자료다. 표의 백분율은 문항별 분류이며 전체 학생의 능력 수준이나 수업 효과가 아니다.",
+    "student_outcome_study": true,
+    "causal_effect_established": false,
+    "local_effect_tested": false
+  },
+  "contains_source_full_text": false,
+  "source_pdf_redistributed": false,
+  "reading_log": [
+    "표 1의 문항별 분류와 등차수열 일반항에서 합을 구하는 그림 2, 계산 오류의 그림 3 및 곱셈 구조의 문항 5를 대조했다."
+  ],
+  "source_corrections": [
+    {
+      "location": "방법·문항·표·요약의 대조",
+      "issue": "10쪽 그림 2의 일반항은 5n−3이다. 앞서 준비 메모의 두 항을 주었다는 추정은 사용하지 않는다. 표 1 백분율을 정확한 정수 빈도로 역산하지 않았다."
+    }
+  ],
+  "sequence_induction_review": {
+    "n": 33,
+    "items": 5,
+    "item_1_procedural_percent": 52,
+    "item_2_operational_percent": 27,
+    "frequencies_are_item_specific": true,
+    "figure_2_general_term": "5n−3"
+  }
+}

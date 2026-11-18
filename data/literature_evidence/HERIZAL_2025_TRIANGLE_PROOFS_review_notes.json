@@ -1,0 +1,58 @@
+{
+  "source_id": "HERIZAL_2025_TRIANGLE_PROOFS",
+  "source_url": "https://doi.org/10.61291/jpi.v6i2.74",
+  "source_pdf_url": "https://jurnalpendidikindonesia.com/index.php/jpi/article/download/80/64/266",
+  "source_asset_kind": "pdf",
+  "source_pdf_sha256": "6489af913269b00babd5444bca72190c70edd07ac40585bb16035288f82ee177",
+  "pdf_pages": 11,
+  "selected_text_pages": [
+    1,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "visual_pdf_pages": [
+    5,
+    7,
+    8
+  ],
+  "rendered_page_sha256": {
+    "5": "432c41a5ae28371f388177a6fc6cc49da0126211e609cc2140b27989064750c2",
+    "7": "864a9139d1a8dd28a8ae4ce4d755bcc88f89cdccacb973542dc355fe0a9c9de7",
+    "8": "1beb21a975abcfdff2a5e54d439f169364a3d7c45e6da2490269c7db17336a10"
+  },
+  "date": "2026-11-10",
+  "reviewer": "Codex",
+  "read_scope": "사인법칙의 각·대변 대응, 넓이의 끼인각, 코사인법칙을 변형한 학생 풀이와 후속 면담을 확인했다.",
+  "empirical_scope": {
+    "design": "네 증명 문항과 일부 응답에 대한 후속 면담.",
+    "sample_description": "인도네시아 반둥의 고교 10학년 30명.",
+    "inference_limit": "인도네시아 한 학교의 지필·면담 사례다. 각 오류의 일반 빈도나 SSA 비유일성에 관한 결과를 확인한 연구가 아니다.",
+    "student_outcome_study": true,
+    "causal_effect_established": false,
+    "local_effect_tested": false
+  },
+  "contains_source_full_text": false,
+  "source_pdf_redistributed": false,
+  "reading_log": [
+    "사인법칙의 각·대변 대응, 넓이의 끼인각, 코사인법칙을 변형한 학생 풀이와 후속 면담을 확인했다."
+  ],
+  "source_corrections": [
+    {
+      "location": "정의·표·학생 응답",
+      "issue": "그림 1의 각·대변 대응 오류와 그림 3의 코사인법칙 분모 오류를 구별했다. PDF 7쪽의 문항 제목은 3번이고 첫 문단 끝의 2번 표기는 그대로 확인하되 집계 근거로 삼지 않는다."
+    }
+  ],
+  "trigonometry_review": {
+    "n": 30,
+    "proof_items": 4,
+    "ssa_ambiguity_tested": false,
+    "observed_error_figures": [
+      1,
+      3
+    ]
+  }
+}

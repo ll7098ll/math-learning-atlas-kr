@@ -1,0 +1,117 @@
+"""Independent symbolic/numeric spot checks, not a full content or learning audit."""
+import hashlib
+import json
+import math
+import sys
+from fractions import Fraction
+from pathlib import Path
+
+ROOT=Path(__file__).resolve().parents[1]
+sys.path.insert(0,str(ROOT/'tmp/math-review'))
+import sympy as s
+
+x,t,n,r=s.symbols('x t n r', positive=True)
+z=s.symbols('z', real=True)
+checks=[]
+
+
+def check(code,label,actual,expected):
+    ok=s.simplify(actual-expected)==0
+    assert ok,(code,label,actual,expected)
+    assert (ROOT/f'analyses/{code}.md').exists()
+    checks.append(dict(code=code,claim=label,result='pass',actual=str(actual),expected=str(expected)))
+
+
+def main():
+    sys.stdout.reconfigure(encoding='utf-8')
+    check('9수01-01','60의 소인수 곱',2**2*3*5,60)
+    check('9수01-02','최대공약수',math.gcd(72,120),24)
+    check('9수01-02','최소공배수',math.lcm(72,120),360)
+    check('9수01-04','음수 분수 비교 차',s.Rational(-3,4)-s.Rational(-2,3),s.Rational(-1,12))
+    check('9수01-05','음수 제수의 분수 몫',s.Rational(3,4)/-2,s.Rational(-3,8))
+    check('9수01-06','반복 27의 순환소수',s.Rational(27,99),s.Rational(3,11))
+    check('9수01-10','근호 동류항',s.sqrt(8)+s.sqrt(2),3*s.sqrt(2))
+    check('9수02-04','출력 장수',1000+200*8,2600)
+    check('9수02-09','다항식 차',(2*z*z+3*z-1)-(z*z-z+4),z*z+4*z-5)
+    check('9수02-13','연립 비용',4+2*6,16)
+    check('9수02-18','두 직선 공통 출력',(2+1)-(-2+5),0)
+    check('9수02-19','두 인수의 전개',(z+2)*(z+3),z*z+5*z+6)
+    check('9수03-06','부채꼴 호',s.Rational(60,360)*2*s.pi*6,2*s.pi)
+    check('9수03-06','부채꼴 넓이',s.Rational(60,360)*s.pi*36,6*s.pi)
+    check('9수04-03','상대도수 차',s.Rational(8,20)-s.Rational(15,50),s.Rational(1,10))
+    check('10공수1-01-01','다항식 몫',(z*z+3*z+2)/(z+1),z+2)
+    check('10공수1-01-02','나머지정리 P(2)',2**3-2*2+1,5)
+    check('10공수1-01-03','세제곱 차',(z-2)*(z*z+2*z+4),z**3-8)
+    check('10공수1-02-01','켤레를 이용한 복소수 몫',(1+s.I)/(1-s.I),s.I)
+    check('10공수1-02-06','제한 구간 끝점 값',(3-2)**2+1,2)
+    check('10공수1-02-08','연립이차 해의 제곱합',1**2+2**2,5)
+    check('10공수1-03-02','순열',math.perm(5,2),20)
+    check('10공수1-03-03','조합',math.comb(5,2),10)
+    check('10공수2-01-01','내분 x',s.Rational(6,3),2)
+    check('10공수2-01-01','내분 y',s.Rational(3,3),1)
+    check('10공수2-01-03','점과 직선 거리',10/s.sqrt(3**2+4**2),2)
+    check('10공수2-03-04','유리함수 변형',(2*z+1)/(z-1),2+3/(z-1))
+    check('10기수1-01-01','기본수학 다항식 합',(z*z+2*z+1)+(2*z*z-z),3*z*z+z+1)
+    check('10기수1-02-04','기본수학 교점 인수',(z-1)*(z-2),z*z-3*z+2)
+    check('10기수1-02-05','기본수학 꼭짓점 값',(1-1)**2+2,2)
+    check('10기수1-03-02','기본수학 순열',math.perm(4,2),12)
+    check('10기수1-03-03','기본수학 조합',math.comb(4,2),6)
+    check('10기수2-01-01','좌표 거리',s.sqrt((4-1)**2+(6-2)**2),5)
+    check('10기수2-01-02','직선의 주어진 점',2*1+1,3)
+    check('12대수01-01','음수 세제곱',(-2)**3,-8)
+    check('12대수01-04','로그',s.log(8,2),3)
+    check('12대수02-03','코사인법칙 변 제곱',3**2+4**2-2*3*4*s.cos(s.pi/3),13)
+    check('12대수03-02','등차 10항 합',sum(3+2*k for k in range(10)),120)
+    check('12대수03-03','등비 4항 합',sum(2*3**k for k in range(4)),80)
+    check('12대수03-05','망원경 합',sum(s.Rational(1,k*(k+1)) for k in range(1,6)),s.Rational(5,6))
+    check('12미적Ⅰ-01-01','구멍 난 함수의 극한',s.limit((z*z-1)/(z-1),z,1),2)
+    check('12미적Ⅰ-01-02','약분 후 극한',s.limit((z*z-4)/(z-2),z,2),4)
+    check('12미적Ⅰ-02-01','x²의 1에서 미분계수',s.diff(z*z,z).subs(z,1),2)
+    check('12미적Ⅰ-02-04','곱법칙',s.diff((z*z+1)*(z-2),z),3*z*z-4*z+1)
+    check('12미적Ⅰ-02-05','접선 접점 통과',(2*z-1).subs(z,1),1)
+    check('12미적Ⅰ-02-06','평균변화율',s.Rational(9-1,3-1),4)
+    check('12미적Ⅰ-02-07','극대 함수값',(z**3-3*z).subs(z,-1),2)
+    check('12미적Ⅰ-03-02','부정적분 미분 검산',s.diff(z**3-z*z+z,z),3*z*z-2*z+1)
+    check('12미적Ⅰ-03-04','정적분',s.integrate(2*z,(z,0,2)),4)
+    check('12미적Ⅰ-03-05','두 곡선 넓이',s.integrate(z-z*z,(z,0,1)),s.Rational(1,6))
+    check('12미적Ⅰ-03-06','변위',s.integrate(z-1,(z,0,2)),0)
+    check('12미적Ⅰ-03-06','이동거리',s.integrate(s.Abs(z-1),(z,0,2)),1)
+    check('12미적Ⅱ-01-05','등비급수',s.summation(s.Rational(1,2)**n,(n,1,s.oo)),1)
+    check('12미적Ⅱ-02-01','일반 밑 지수 미분',s.diff(2**z,z),2**z*s.log(2))
+    check('12미적Ⅱ-02-03','라디안 삼각 극한',s.limit(s.sin(z)/z,z,0),1)
+    check('12미적Ⅱ-02-05','합성 미분',s.diff(s.sin(z*z),z),2*z*s.cos(z*z))
+    check('12미적Ⅱ-02-06','매개 기울기',(3*t*t)/(2*t),s.Rational(3,2)*t)
+    check('12미적Ⅱ-02-11','원운동 속력 제곱',s.sin(t)**2+s.cos(t)**2,1)
+    check('12미적Ⅱ-03-02','치환적분 미분',s.diff(s.sin(z*z),z),2*z*s.cos(z*z))
+    check('12미적Ⅱ-03-03','부분적분 미분',s.diff((z-1)*s.exp(z),z),z*s.exp(z))
+    check('12미적Ⅱ-03-04','분할 합의 극한',s.limit(n*(n+1)*(2*n+1)/(6*n**3),n,s.oo),s.Rational(1,3))
+    check('12미적Ⅱ-03-05','사인곡선 전체 넓이',s.integrate(s.sin(z),(z,0,s.pi))-s.integrate(s.sin(z),(z,s.pi,2*s.pi)),4)
+    check('12미적Ⅱ-03-06','구의 단면 누적',s.integrate(s.pi*(r*r-z*z),(z,-r,r)),4*s.pi*r**3/3)
+    check('12확통01-01','같은 것이 있는 순열',math.factorial(3)//math.factorial(2),3)
+    check('12확통01-02','중복조합',math.comb(3+5-1,5),21)
+    check('12확통01-03','이항계수',s.expand((x+t)**4).coeff(x,2).coeff(t,2),6)
+    check('12확통02-04','조건부 비율',s.Rational(10,40),s.Rational(1,4))
+    check('12확통03-02','가중 평균',0*s.Rational(1,4)+s.Rational(1,2)+2*s.Rational(1,4),1)
+    check('12확통03-02','가중 분산',s.Rational(1,4)+s.Rational(1,4),s.Rational(1,2))
+    check('12기하01-01','포물선 정의의 거리제곱 차',z*z+(t-1)**2-(t+1)**2,z*z-4*t)
+    check('12기하02-04','공간 거리',s.sqrt(2**2+4**2+4**2),6)
+    check('12기하03-03','수직 벡터 내적',1*2+2*(-1),0)
+    check('12경수01-01','전기 대비 증가율',s.Rational(121-110,110),s.Rational(1,10))
+    check('12경수01-04','두 기간 복리',100*s.Rational(11,10)**2,121)
+    A=s.Matrix([[2,1],[1,1]])
+    assert A.inv()==s.Matrix([[1,-1],[-1,2]])
+    checks.append(dict(code='12경수03-02',claim='역행렬의 두 곱 검산',result='pass'))
+    check('12경수04-04','최적 생산량',s.solve(s.diff(-z*z+20*z-30,z),z)[0],10)
+    check('12직수01-01','납품 수량',24*7-13,155)
+    check('12직수02-02','불량 백분율',s.Rational(10,250)*100,4)
+    check('12직수02-02','4%에서 5% 상대 증가',s.Rational(5-4,4),s.Rational(1,4))
+    check('12직수02-05','작업 예산 경계',s.Rational(300-100,20),10)
+    coverage=json.loads((ROOT/'data/secondary_coverage.json').read_text(encoding='utf-8'))
+    assert all(hashlib.sha256((ROOT/f'analyses/{c}.md').read_bytes()).hexdigest()==h for c,h in coverage['elementary_files_preserved_sha256'].items())
+    result=dict(status='pass',scope='선택한 수식과 수치의 독립 기호계산 및 수치 점검. 314개 전체의 수학적 심사나 학생 반응 검증이 아님.',
+                checked_examples=len(checks),checks=checks,elementary_files_unchanged=121)
+    (ROOT/'data/secondary_example_review.json').write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+    print(json.dumps({k:v for k,v in result.items() if k!='checks'},ensure_ascii=False))
+
+
+if __name__=='__main__':main()

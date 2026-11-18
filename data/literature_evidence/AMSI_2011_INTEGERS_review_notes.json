@@ -1,0 +1,62 @@
+{
+  "source_id": "AMSI_2011_INTEGERS",
+  "source_url": "https://amsi.org.au/teacher_modules/Integer.html",
+  "source_asset_kind": "pdf",
+  "source_pdf_sha256": "d8cc2c148e95088b817367381edf0c50c06751c6f60b8eff4f33c4c631236edf",
+  "source_pdf_url": "https://amsi.org.au/teacher_modules/pdfs/Integers.pdf",
+  "pdf_pages": 24,
+  "selected_text_pages": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "visual_pdf_pages": [
+    8,
+    10,
+    11,
+    12
+  ],
+  "rendered_page_sha256": {
+    "8": "e5a3ac6211b7306520e193188bcbee97e92c8c836bbd41e550d5b399f1624eb4",
+    "10": "897864e7ad8407b75448359ac91606f5c58cc0db6a983b9e6b3ca61f726e49c9",
+    "11": "a760fd3bc6bee84739e1686f4f9596920b82cebff19156add59a9fd1e74f3ced",
+    "12": "712c93a872277130dd03fe757e7eba99e8c6b08bf84bdb329162c5d705d4c8aa"
+  },
+  "date": "2026-11-13",
+  "reviewer": "Codex",
+  "read_scope": "음수의 맥락과 수직선·반대수, 음수를 더하고 빼는 설명, 곱셈 법칙의 일관성과 나눗셈, 거듭제곱과 괄호의 지정 부분을 읽었다.",
+  "empirical_scope": {
+    "design": "교사용 수학 내용 설명과 예시·연습 문제. 지정 부분의 수학적 조건과 표현을 대조.",
+    "sample_description": "학생 표본·학생별 반응 자료 없음. 자체 과제의 효과를 검사한 연구가 아니다.",
+    "inference_limit": "정수의 교사 가이드다. 부호 있는 분수 계산과 0으로 나누기 설명은 자체 확장으로 표시하며 이 PDF의 학생 실험 결과로 쓰지 않는다. 순서쌍에 의한 정수 구성은 요구하지 않는다.",
+    "student_outcome_study": false,
+    "causal_effect_established": false,
+    "local_effect_tested": false
+  },
+  "contains_source_full_text": false,
+  "source_pdf_redistributed": false,
+  "reading_log": [
+    "음수의 맥락과 수직선·반대수, 음수를 더하고 빼는 설명, 곱셈 법칙의 일관성과 나눗셈, 거듭제곱과 괄호의 지정 부분을 읽었다."
+  ],
+  "source_corrections": [
+    {
+      "location": "방법·문항·표·그림·서술의 대조",
+      "issue": "whole numbers는 0을 포함하는 원문의 용어다. 자연수의 정의를 그대로 옮기지 않는다. 정수 연산과 자체 부호 있는 분수 계산을 구별하고 3÷0·0÷0은 정의하지 않는다. −a²와 (−a)²의 괄호 범위를 판면으로 확인했다."
+    }
+  ],
+  "middle_number_system_review": {
+    "module": 15,
+    "publication": "June 2011",
+    "whole_numbers_include_zero": true,
+    "zero_neither_positive_nor_negative": true,
+    "rational_arithmetic_probe_is_own_extension": true,
+    "division_by_zero_excluded": true,
+    "negative_square_brackets_distinguished": true
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "status": "pass",
+      "started_at": "2026-11-18T00:54:36.577750+00:00",
+      "finished_at": "2026-11-18T00:57:32.587630+00:00",
+      "failed_unpublished_commit": "9832f69b3e8a99fa7fe64f9222cfae4990b483f7",
+      "verified_remote_commit": "f832430d498e00aa8cfdad657be7c48c42d69187",
+      "protected_snapshot_labels": [
+        "working_source",
+        "saved_82",
+        "saved_81"
+      ],
+      "moved_files": 32165,
+      "moved_bytes": 4496854588,
+      "protected_paths_verified": 2757,
+      "current_catalog_version": "7bf0f16c2f425e4e",
+      "current_generated_content_unchanged": true,
+      "delete_performed": false,
+      "git_history_preserved": true,
+      "backup_root": "tmp/site-retention-backup-20261118-lijnse-french",
+      "manifest_file": "tmp/site-retention-backup-20261118-lijnse-french/manifest.json",
+      "manifest_sha256": "442ddb7d5536290a9e5ea5fbf16a05e975e7f96a673a2272982a80d75a20305f",
+      "reason": "Remote receive-pack rejected the unchanged tested source with a pending-edge connectivity limit. Known unreferenced historical static copies were moved out of the release checkout;the exact cause of the server limit remains unverified. Current plus latest2saved dependency graphs and all saved rollback archives remain preserved.",
+      "recovery": "Move each manifest path back from backup_root into tmp/pathways-release/dist;unpublished original commit and all previous Git history remain locally. No files were deleted.",
+      "unpublished_recovery_ref": "refs/heads/backup/lijnse-french-rejected-20261118",
+      "amend_only_unpublished_commit": true,
+      "remote_history_rewritten": false,
+      "forced_push": false
+    }
+  ]
+}

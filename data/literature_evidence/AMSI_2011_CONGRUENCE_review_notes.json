@@ -1,0 +1,72 @@
+{
+  "source_id": "AMSI_2011_CONGRUENCE",
+  "source_url": "https://amsi.org.au/teacher_modules/Congruence.html",
+  "source_asset_kind": "pdf",
+  "source_pdf_sha256": "f2ea12394a9a44eda7aefade8deb57b7be7408bba8c75b3fe2d3be49160921b5",
+  "source_pdf_url": "https://amsi.org.au/teacher_modules/pdfs/Congruence.pdf",
+  "pdf_pages": 28,
+  "selected_text_pages": [
+    1,
+    2,
+    3,
+    8,
+    9,
+    10,
+    11,
+    12,
+    14,
+    15,
+    16,
+    18,
+    19,
+    20,
+    21,
+    22
+  ],
+  "visual_pdf_pages": [
+    9,
+    14,
+    15,
+    19,
+    20,
+    21
+  ],
+  "rendered_page_sha256": {
+    "9": "f38b9e7bc910a84f3da487eb75ef8245de330884f7e1403730ffe4e7ff28d3fa",
+    "14": "84d11db72130d470cba6884e80b63b426a66733681e8590820d863e84cb67884",
+    "15": "76221352d75ca95d08b3a54534b57213cda4c9dd3c4b45c3440dd055aff0183b",
+    "19": "279ec1f262819d16ed5f555d68370818a3ded8a202423c554f9224b4e4368d08",
+    "20": "444a77f1446a1abae92dd62fe575858699f7296fc4e403d84f00fede937e2cdf",
+    "21": "0c396e09c5f95aeda6b605302c97f259f7083889bcbe817bc153d23b33e95b4f"
+  },
+  "date": "2026-11-13",
+  "reviewer": "Codex",
+  "read_scope": "합동의 대응 순서, 세 변·끼인각·두 각 조건의 작도와 가능 조건, 잘못된 SAS 적용 반례, 외심·내심과 이등변삼각형 성질·역의 지정 설명을 대조했다.",
+  "empirical_scope": {
+    "design": "교사용 수학 내용 설명과 예시·연습 문제. 지정 부분의 수학적 조건과 표현을 대조.",
+    "sample_description": "학생 표본·학생별 반응 자료 없음. 자체 과제의 효과를 검사한 연구가 아니다.",
+    "inference_limit": "유일성은 위치 하나가 아니라 합동을 제외한 유일성이다. 15쪽 잘못된 SAS는 의도적 반례다. 일반 SSA와 둔각 확장을 국내 합동 조건으로 올리지 않고 두 각과 한 변은 국내 ASA 범위에서 설명한다.",
+    "student_outcome_study": false,
+    "causal_effect_established": false,
+    "local_effect_tested": false
+  },
+  "contains_source_full_text": false,
+  "source_pdf_redistributed": false,
+  "reading_log": [
+    "합동의 대응 순서, 세 변·끼인각·두 각 조건의 작도와 가능 조건, 잘못된 SAS 적용 반례, 외심·내심과 이등변삼각형 성질·역의 지정 설명을 대조했다."
+  ],
+  "source_corrections": [
+    {
+      "location": "방법·문항·표·그림·서술의 대조",
+      "issue": "9쪽의 유일성은 up to congruence이며 대칭인 두 교점의 위치가 하나라는 말이 아니다. 14·15쪽의 끼이지 않은 각 반례와 의도적 wrong SAS를 문서 오류로 잘못 집계하지 않았다. 길이·각의 비퇴화 조건과 국내 ASA 범위를 유지했다."
+    }
+  ],
+  "middle_geometry_review": {
+    "unique_up_to_congruence": true,
+    "triangle_inequality_required": true,
+    "page_15_wrong_SAS_is_deliberate": true,
+    "SSA_not_general_test": true,
+    "ASA_used_in_own_tasks": true,
+    "obtuse_extension_not_required": true
+  }
+}

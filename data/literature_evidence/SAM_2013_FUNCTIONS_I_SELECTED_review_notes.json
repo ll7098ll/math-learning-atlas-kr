@@ -1,0 +1,72 @@
+{
+  "source_id": "SAM_2013_FUNCTIONS_I_SELECTED",
+  "source_url": "https://amsi.org.au/ESA_Senior_Years/PDF/Functions12b.pdf",
+  "source_asset_kind": "pdf",
+  "source_pdf_sha256": "b4c778ca02da099b5c12548790b9b63e5c9f5d78d70619579bfaa3f4b29ce7ac",
+  "source_pdf_url": "https://amsi.org.au/ESA_Senior_Years/PDF/Functions12b.pdf",
+  "pdf_pages": 31,
+  "selected_text_pages": [
+    1,
+    2,
+    3,
+    7,
+    13,
+    16,
+    18,
+    19,
+    20
+  ],
+  "visual_pdf_pages": [
+    2,
+    7,
+    13,
+    16,
+    18,
+    19,
+    20
+  ],
+  "rendered_page_sha256": {
+    "2": "7c3dd3545f5f7018f605f8148b5bd3f0336474f386df0d54651f76353949af37",
+    "7": "650f0975f427199b87f47049ff93f5c5667cc5ea1d961c39b2cfcd7a06af0e40",
+    "13": "83bea5e46442e0fd3132d89d2331a74d214a243bfeb35effcf57da48464013d3",
+    "16": "02110c013a667be7a6d708e884e0eb9af9fd09f64257023016528661c13956f2",
+    "18": "c304e24e012053d5af5f35dc5675512eb22c7daed3b1816a3b7bc65cf7335396",
+    "19": "ce2ef2ad5d2333b2f041b1590c418a3d8ece462a43016662cd7faf77c5be3dcd",
+    "20": "474755bf0044d3f746db90182f52d38e84ffd4d822b5fdf797ae1b30e588497c"
+  },
+  "date": "2026-11-13",
+  "reviewer": "Codex",
+  "read_scope": "서지·목차와 정의역/치역의 구별, 역수의 두 부호 그래프·분모 제외, 주제곱근의 비음수 가지·감소하는 일차 근호의 정의역을 지정 추출문 9쪽과 실제 판면 7쪽에서 대조했다.",
+  "empirical_scope": {
+    "design": "교사용 수학 정의·정리·예시의 수식 및 실제 판면 대조",
+    "sample_description": "학생 표본·반응 자료나 국내 과제 효과 연구가 아님",
+    "inference_limit": "자연 정의역과 별도로 정한 입력 범위를 구별한다. 기본수학은 k/x와 √(kx)만 다루고 이동형·고차 유리식·삼각함수 근호·반원 전체 이론을 필수로 추가하지 않는다. 약분의 구멍·계수 0 경계는 자체 확장으로 원식의 조건을 유지한다. 학생 효과 연구가 아니다.",
+    "student_outcome_study": false,
+    "causal_effect_established": false,
+    "local_effect_tested": false
+  },
+  "contains_source_full_text": false,
+  "source_pdf_redistributed": false,
+  "reading_log": [
+    "서지·목차와 정의역/치역의 구별, 역수의 두 부호 그래프·분모 제외, 주제곱근의 비음수 가지·감소하는 일차 근호의 정의역을 지정 추출문 9쪽과 실제 판면 7쪽에서 대조했다."
+  ],
+  "source_corrections": [
+    {
+      "location": "방법·문항·표·그림·서술의 대조",
+      "issue": [
+        "7쪽의 출력 최대 하나는 선언한 정의역의 각 입력에 출력이 존재함과 함께 읽어야 한다. 자체 과제는 자연 정의역과 별도로 정한 입력 범위를 구별한다.",
+        "19쪽 7^x−5의 지수와 20쪽 √(1−2x)의 근호 범위는 실제 판면에서 확인했다. 추출의 평탄화로 지수·나눗셈·근호 범위가 사라진 것을 원문 오기로 세지 않는다.",
+        "계수 0·약분 구멍·상수 근호는 자체 경계 과제다. 원문의 고차 유리식·반원·삼각함수 근호 연습을 기본수학의 새 필수로 옮기지 않는다."
+      ]
+    }
+  ],
+  "coordinate_graph_completion_review": {
+    "basic_rational_form": "k/x",
+    "basic_radical_form": "sqrt(kx)",
+    "zero_coefficient_cases_are_own_extensions": true,
+    "cancellation_preserves_original_domain": true,
+    "principal_root_output_nonnegative": true,
+    "half_circle_not_added_as_basic_required_content": true,
+    "full_module_read": false
+  }
+}

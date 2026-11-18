@@ -1,0 +1,145 @@
+{
+  "source_id": "WWC_2014_TRIAD_KINDERGARTEN",
+  "source_url": "https://ies.ed.gov/ncee/wwc/Docs/SingleStudyReviews/wwc_sarama_070114.pdf",
+  "date": "2026-11-09",
+  "reviewer": "Codex",
+  "source_asset_kind": "pdf",
+  "source_pdf_sha256": "67f8cfb87bdb750aac97cc2f675871e95186e75379bfabb2bd9309306f401960",
+  "source_pdf_redistributed": false,
+  "contains_source_full_text": false,
+  "read_scope": "2014년 WWC 단일 연구 평가 PDF의 8쪽 텍스트와 2·6·7쪽 판면, WWC 사이트의 2014년·2018년 심사, Sarama 외 2012년 논문의 기관 서지 초록을 대조했다. 2012년 원논문 본문과 표의 판면은 미확보다.",
+  "empirical_scope": {
+    "design": "school_cluster_randomized_followup_with_wwc_reservations",
+    "sample_description": "42개 학교의 963명을 포함한 유치원 말 분석이다. 두 조건씩 비교한 표본은 630명, 618명, 678명이다.",
+    "inference_limit": "같은 미국 TRIAD 코호트의 유치원 말 REMA 총점에 관한 심사다. 탈락 관련 유보가 있으며 개별 수학 과제와 국내 성취기준에 대한 효과는 확인할 수 없다.",
+    "student_outcome_study": true,
+    "causal_effect_established": false,
+    "local_effect_tested": false
+  },
+  "pdf_text_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "visual_pdf_pages": [
+    2,
+    6,
+    7
+  ],
+  "rendered_page_sha256": {
+    "2": "0cdc313780e041d09dfe3f86c4f02432c75fe13a8ffcd99993ea4422c8074bdb",
+    "6": "1aca711d64078ae1ede7234cd1bc01468c903195e7f1e09fae6a2599460d3c01",
+    "7": "86f7e2df8c44c90cae0125438bbade375e18414b8b8f74e380f262e1051f4ca3"
+  },
+  "original_article": {
+    "doi": "https://doi.org/10.1080/19345747.2011.627980",
+    "printed_pages": [
+      105,
+      135
+    ],
+    "abstract_url": "https://researchconnect.suny.edu/en/publications/longitudinal-evaluation-of-a-scale-up-model-for-teaching-mathemat/",
+    "original_pdf_obtained": false,
+    "original_page_layout_review": false,
+    "abstract_comparison_order": [
+      "FT vs control",
+      "NFT vs control"
+    ],
+    "abstract_itt_g": [
+      0.33,
+      0.22
+    ],
+    "abstract_tot_g": [
+      0.38,
+      0.3
+    ]
+  },
+  "study_page": "https://ies.ed.gov/ncee/wwc/study/79014",
+  "same_cohort_as": [
+    "CLEMENTS_ET_AL_2011_BUILDING_BLOCKS",
+    "CLEMENTS_ET_AL_2013_TRIAD_FOLLOWTHROUGH"
+  ],
+  "comparisons": [
+    {
+      "contrast": "FT vs control",
+      "schools": 28,
+      "children": 630,
+      "significant": true,
+      "pdf_2014_means": [
+        53.47,
+        51.61
+      ],
+      "pdf_2014_effect_size": 0.4,
+      "pdf_2014_improvement_index": 15,
+      "online_2014_means": [
+        53.47,
+        51.61
+      ],
+      "online_2014_improvement_index": 16,
+      "online_2018_means": [
+        53.22,
+        51.61
+      ],
+      "online_2018_improvement_index": 13
+    },
+    {
+      "contrast": "NFT vs control",
+      "schools": 30,
+      "children": 618,
+      "significant": true,
+      "pdf_2014_p": 0.03,
+      "pdf_2014_means": [
+        52.64,
+        51.61
+      ],
+      "pdf_2014_effect_size": null,
+      "pdf_2014_improvement_index": null,
+      "online_2014_improvement_index": 9,
+      "online_2018_improvement_index": 9
+    },
+    {
+      "contrast": "FT vs NFT",
+      "schools": 26,
+      "children": 678,
+      "significant": false,
+      "pdf_2014_p": 0.13,
+      "pdf_2014_means": [
+        53.22,
+        52.64
+      ],
+      "pdf_2014_effect_size": null,
+      "pdf_2014_improvement_index": null
+    }
+  ],
+  "reading_log": [
+    "WWC PDF 본문·부록·미주·용어를 읽고 2·6·7쪽의 유보, 계산 표와 판정 범위를 이미지로 확인했다.",
+    "같은 WWC 사이트의 2014년 단일 연구 평가와 2018년 보조금 심사를 따로 대조했다.",
+    "2012년 기관 서지 초록의 효과크기와 2013년 선출판판의 유치원 결과 회고를 비교했다."
+  ],
+  "source_corrections": [
+    {
+      "location": "WWC 2014 PDF 부록 C, 두 중재군 비교",
+      "issue": "효과크기 계산 행은 nr이고 주석도 미보고라고 설명한다. 영역 요약 행에 반복 인쇄된 .40·+15는 해당 비교의 추정치로 사용하지 않는다."
+    },
+    {
+      "location": "2012년 초록과 WWC 2014 PDF 부록 C 주석",
+      "issue": "취학 전 중재만 대 대조의 g는 초록에 .22, WWC가 인용한 논문 116쪽에 .21로 적혔다. 두 중재군 비교의 .14도 WWC가 인용한 저자 수치다. WWC는 두 크기를 독립적으로 재구성하지 못했다."
+    },
+    {
+      "location": "WWC 2014 PDF와 2014·2018 온라인 표",
+      "issue": "후속 지원 대 대조의 개선 지수는 PDF +15, 2014년 온라인 +16, 2018년 온라인 +13이다. 평균과 지수는 각 자료에 귀속한다."
+    },
+    {
+      "location": "2012년 초록, WWC 심사, 2013년 후속 논문 선출판판 6쪽",
+      "issue": "유치원 말 취학 전 중재만 대 대조의 유의 여부가 다르게 서술됐다. 원논문의 분석표는 미확보다."
+    },
+    {
+      "location": "WWC 2014 PDF 8쪽 용어 풀이",
+      "issue": "p값은 귀무가설과 검정 가정 아래에서 관측값만큼 또는 그보다 극단적인 검정 통계량을 얻을 확률이다. 차이가 우연 때문일 확률로 읽지 않는다. 표의 .00도 정확한 0으로 읽지 않는다."
+    }
+  ]
+}

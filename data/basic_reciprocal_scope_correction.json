@@ -1,0 +1,38 @@
+{
+  "date": "2026-11-05",
+  "code": "10기수2-03-04",
+  "relation_id": "SEC_10기수2-03-04_C04",
+  "reason": "공식 기준은 y=k/x 기본형이다. 대표 수행 y=2/x는 x≠0,y≠0,xy=2이며 이동이 없다. 공통수학의 y=2+3/(x−1)은 별도 범위로 유지한다. 양쪽 공식 문장·대표 의미·풀이·조건과 기존 검토의 진단·기대 설명·수학 근거를 다시 읽었다. 기본수학의 의미 첫 문장과 중복 prior 이유만 고쳤고 계산·목표·과제·자료는 유지했다.",
+  "original_meaning": "나눗셈 구조와 반비례의 이동이 정의역과 점근선을 드러낸다. 기본형 y=2/x로 제한하며 x=0의 나눗셈은 정의되지 않는다.",
+  "corrected_meaning": "기본형 반비례의 곱 일정과 분모 제한으로 정의역·치역과 그래프의 위치를 설명한다. 기본형 y=2/x로 제한하며 x=0의 나눗셈은 정의되지 않는다.",
+  "original_prior": "반비례에 이동과 상수항을 추가한다.",
+  "corrected_prior": "중학교 반비례와 y=k/x 기본형의 곱 일정·분모 제한·그래프를 비교한다. 평행이동과 상수항은 이 기본수학 기준에 추가하지 않는다.",
+  "changed_sources": [
+    "data/revisions_high.json:10기수2-03-04/mathematicalMeaning",
+    "data/secondary_analysis_details.json:10기수2-03-04/prior/0/1",
+    "data/secondary_analysis_details.json:10기수2-03-04/title",
+    "data/secondary_analysis_details.json:10기수2-03-04/idea"
+  ],
+  "previous_source_snapshot": "7651d7a476b87af5da7bdbc3cedf1b13a4fa2a5bb8528f6d923342879323b597",
+  "current_source_snapshot": "3823b67dbbb808bbfb31cb5146608eea141c793302226cc0fbe3de4b2903e7c6",
+  "re_reviewed_relations": [
+    "SEC_10기수2-03-04_C04"
+  ],
+  "independent_review": false,
+  "student_validated": false,
+  "secondary_copy_followup": {
+    "date": "2026-11-05",
+    "reason": "중복 원고의 제목·idea도 다시 읽고 기본형으로 맞췄다. 풀이·조건·발문·목표·과제와 공통수학 원고는 유지했다.",
+    "previous": {
+      "title": "일차식 비의 유리함수",
+      "idea": "나눗셈 구조와 반비례의 이동이 정의역과 점근선을 드러낸다."
+    },
+    "current": {
+      "title": "기본형 유리함수",
+      "idea": "기본형 반비례의 곱 일정과 분모 제한으로 정의역·치역과 그래프의 위치를 설명한다."
+    },
+    "previous_entry_digest": "ab887ba10f6c265a8eb53a436d2da7161fe648aac66d2ef2a7271794d269dff4",
+    "current_entry_digest": "6c961722443883bc619e5b15cd0355a96bb1268380727218c769d2eff2f81846",
+    "source_bindings_unchanged": true
+  }
+}

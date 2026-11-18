@@ -1,0 +1,116 @@
+{
+  "source_id": "MATTERA_ET_AL_2018_MPC_KINDERGARTEN",
+  "source_url": "https://www.mdrc.org/work/publications/strengthening-childrens-math-skills-enhanced-instruction",
+  "date": "2026-11-09",
+  "reviewer": "Codex",
+  "source_asset_kind": "pdf",
+  "source_pdf_sha256": "50c594c85f62a2806a85ffb533f083b7cc9e36211c7db666b5197092ad9d8794",
+  "source_pdf_redistributed": false,
+  "contains_source_full_text": false,
+  "read_scope": "개요, 검사 설명, 주 결과 세 표, 원점수 민감도와 부록 F의 하위 영역을 지정 PDF 8쪽에서 읽고 판면 5쪽을 확인했다.",
+  "empirical_scope": {
+    "design": "취학 전 기관 배정과 MPC 공립학교에 남은 유치원 아동의 High 5s 개별 배정을 사용한 세 비교.",
+    "sample_description": "표 3.1은 641·684명, 표 3.2는 303·310명, 표 3.3은 303·345명.",
+    "inference_limit": "REMA-K T점수, 원점수, 하위 영역과 WJ-III는 같은 결과가 아니다. 유치원 보고서를 취학 전·3학년 보고서와 독립 반복 실험으로 합산할 수 없다.",
+    "student_outcome_study": true,
+    "causal_effect_established": true,
+    "local_effect_tested": false,
+    "study_family": "MDRC_MAKING_PRE_K_COUNT_HIGH_5S"
+  },
+  "pdf_url": "https://www.mdrc.org/work/publications/strengthening-childrens-math-skills-enhanced-instruction/file-full",
+  "publisher_url": "https://www.mdrc.org/work/publications/strengthening-childrens-math-skills-enhanced-instruction",
+  "pdf_pages": 142,
+  "printed_pages": [
+    "ES-6",
+    19,
+    22,
+    26,
+    29,
+    77,
+    78
+  ],
+  "selected_text_pages": [
+    5,
+    20,
+    45,
+    48,
+    52,
+    55,
+    103,
+    104
+  ],
+  "visual_pdf_pages": [
+    45,
+    48,
+    52,
+    55,
+    104
+  ],
+  "rendered_page_sha256": {
+    "45": "56b5c7b7f53a0f44d59b5dbe0a12e801a1e00466e97edd9d817e7897fee3e36b",
+    "48": "0f43ad895f928789adc9d37cb709ea3999f7ac4779eb5cb5e578338f1a535cc1",
+    "52": "9088d7bbd62a23323aa2ef9c030b034b45b27dfc071af064f41394f7e4631770",
+    "55": "9179bbd5d05cdabb27bf787f4046b6e6a43e92b55e9917c60598272a88e5383e",
+    "104": "2dc82fdd9bca8defceb14f94f53e2ed650283042f6b28012cbfcb9afb4fac639"
+  },
+  "results": {
+    "compared_children": [
+      [
+        641,
+        684
+      ],
+      [
+        303,
+        310
+      ],
+      [
+        303,
+        345
+      ]
+    ],
+    "rema_k_T_effect_sizes": [
+      0.08,
+      0.19,
+      0.3
+    ],
+    "rema_k_T_printed_p": [
+      ".11",
+      ".01",
+      ".00"
+    ],
+    "WJ_effect_sizes": [
+      0.0,
+      0.09,
+      0.09
+    ],
+    "WJ_p": [
+      0.96,
+      0.18,
+      0.4
+    ],
+    "rema_k_raw_effect_sizes": [
+      0.12,
+      0.22,
+      0.43
+    ],
+    "rema_k_raw_minus_five_effect_sizes": [
+      0.12,
+      0.23,
+      0.47
+    ]
+  },
+  "reading_log": [
+    "개요, 검사 설명, 주 결과 세 표, 원점수 민감도와 부록 F의 하위 영역을 지정 PDF 8쪽에서 읽고 판면 5쪽을 확인했다.",
+    "분모와 비교 조건을 확인하고 전체 모형과 과제별 관찰을 구분했다."
+  ],
+  "source_corrections": [
+    {
+      "location": "PDF 55·104쪽",
+      "issue": "p=.00은 보고서의 인쇄 정밀도다. 정확한 영으로 취급하지 않는다."
+    },
+    {
+      "location": "PDF 103·104쪽",
+      "issue": "검사의 문항 제시 규칙으로 도형 문항에 도달한 여부와 도형 점수가 얽혀 있다."
+    }
+  ]
+}

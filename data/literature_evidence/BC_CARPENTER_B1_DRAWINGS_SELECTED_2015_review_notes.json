@@ -1,0 +1,108 @@
+{
+  "source_id": "BC_CARPENTER_B1_DRAWINGS_SELECTED_2015",
+  "source_url": "https://bctradesmodules.gov.bc.ca/sites/bctradesmodules.gov.bc.ca/files/module_pdf/B1.pdf",
+  "source_asset_kind": "pdf",
+  "source_pdf_sha256": "23a2988492ffa0e6a71dd0693b33e8b30ec4e6b8dc8b97867a20d753a3ec309f",
+  "source_pdf_url": "https://bctradesmodules.gov.bc.ca/sites/bctradesmodules.gov.bc.ca/files/module_pdf/B1.pdf",
+  "pdf_pages": 72,
+  "selected_text_pages": [
+    3,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    29,
+    30,
+    31,
+    32,
+    61,
+    62,
+    63,
+    64,
+    65
+  ],
+  "visual_pdf_pages": [
+    3,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    29,
+    30,
+    31,
+    32,
+    61,
+    62,
+    63,
+    64,
+    65
+  ],
+  "rendered_page_sha256": {
+    "3": "51c0be02351128cd97aeb9277d5afe6d0a2afc2b105657870c50976fa589eba1",
+    "7": "780bc3d246aedd43a37bf3d8afe68c3fca9c06955aecffafcbd94bd97db6d1cd",
+    "8": "04e17d01cf0a5e515915827b1d1167690c55758fba77525202b6207f0e0e24de",
+    "9": "2c2d0374207d8c7083bf75c254dd48c3236d7b71204ba7c1a473189470d89f16",
+    "10": "4808da1c37314b8be89802c8db5df0e8d6491fc815ca07adaa0ba5e07bb5ac8a",
+    "11": "f42238a962f3c7fd74b7d5c8857c9a27409d2703fc64db084d7f7256aaa7fd1f",
+    "12": "4560ed2e8862b704fe36cb5386b85255735e9d6ba6e6ee306ca87264381ea063",
+    "13": "1b53c267c1752f35df36799275dd184e8070dce6da45751c44794cc6e79a3830",
+    "14": "c1a04ad105e5f2fa2c80e9acb519b2bf1b1fbcf5170635cc249930568dff793c",
+    "29": "25bfe235061355db306dc83a6d12f3fee02df2caa854b7118eaadbc8b9a31d37",
+    "30": "aeb0106a9d8fb59f500e5703b4239341b8927e5c11d0e7fd31a08bbed18ff299",
+    "31": "67451e5dac6697434b082193d289ca4df4271958ac930417d6c029beac7b544a",
+    "32": "4b54923e7243cc9fcd32601282451056ad2c7413ac1fd6878c45069f95e54e8e",
+    "61": "94edb431b7d2ee643fb200f3db7720b94cdfed46717fcc49b2041c251ec4e9b8",
+    "62": "d5cdc783b4e6e2849f6b877d875e81d9d9430b783fe06a46020c157b54fbc4e4",
+    "63": "1400f9e431654a9ea5151a7dee0dc2d923b75c444f299845732bf2bfd1770b5f",
+    "64": "68bceae75ee10cd5ec73f7d9518968201f79f72125c7e207a1d9e01f29e77d28",
+    "65": "12852512ae96f046e43e82b4c450aeef4be7c5d8e64ae2627c0e91e60cddc21d"
+  },
+  "date": "2026-11-16",
+  "reviewer": "Codex",
+  "read_scope": "PDF3,7~14,29~32,61~65쪽의 지정 추출문·실제 판면18쪽에서 권리·발행판,그림/정투상도·도면의 종류·치수와 시방,축척의 단위·길이/넓이·비균일 배율·복제 왜곡,세 방향도에서 입체 그림을 그리는 절차를 대조했다. 본문 인쇄 쪽과PDF쪽이 같다. 자체 전개도·높이표 반례·좌표 이동·수치는 원문 그림이나 문항이 아니다.",
+  "empirical_scope": {
+    "design": "공식 직업교육 자료의 지정 본문·도면 실제 판면 대조와 자체 수학 과제 설계",
+    "sample_description": "학생 표본·응답·실제 시공 자료를 분석한 연구가 아님",
+    "inference_limit": "전문72쪽·국내 기준 전체·현행 시공 규정·계약상 도면 우선순위·안전·실제 제작 적합성·학생 효과의 검증이 아니다.2015년 자료의 제도 설명은 현재 지침으로 옮기지 않는다. 투상도는 조건 없이 입체를 유일하게 정하지 않으며 그림 위 각도·길이를 입체의 실제 각도·길이로 그대로 읽지 않는다.",
+    "student_outcome_study": false,
+    "causal_effect_established": false,
+    "local_effect_tested": false
+  },
+  "contains_source_full_text": false,
+  "source_pdf_redistributed": false,
+  "reading_log": [
+    "PDF3,7~14,29~32,61~65쪽의 지정 추출문·실제 판면18쪽에서 권리·발행판,그림/정투상도·도면의 종류·치수와 시방,축척의 단위·길이/넓이·비균일 배율·복제 왜곡,세 방향도에서 입체 그림을 그리는 절차를 대조했다. 본문 인쇄 쪽과PDF쪽이 같다. 자체 전개도·높이표 반례·좌표 이동·수치는 원문 그림이나 문항이 아니다."
+  ],
+  "source_corrections": [
+    {
+      "location": "방법·문항·표·그림·서술의 대조",
+      "issue": [
+        "30쪽의 두 배/네 배는 길이/넓이이며 표의1:50과1/4인치=1피트는 정확히 같은 비가 아니다. 후자는 같은 단위에서1:48이다.31쪽의 비균일 배율은 하나의 닮음 축척으로 읽을 수 없다.",
+        "32쪽의 두 번째 예는 앞과 같은 바깥 모서리 기준이며 건물 중심이라는 표현으로 기준을 바꾸지 않는다. 원문은 복제 도면을 재는 부정확성을 경고한다. 자체 출력 배율·측정 오차 계산과 현행 제작 지시·허용 오차를 구별한다.",
+        "61~63쪽 눈대중 깊이 조정은 엄밀한 투시도 일반 작도법이 아니다. 축을 실제 비율로 그린 등각 그림과 엄밀한 등각 투영의 축소를 무조건 동일시하지 않는다.64~65쪽 특정 작도 예를 세 방향도에서 임의 입체를 유일하게 복원하는 정리로 확대하지 않는다.",
+        "선택한 원문에는 자체 전개도·높이표·이동 좌표 문항이 없다. 이들은 국내 기준에 대응해 새로 설계한 확장이다.2015년의 시방·도면 우선순위·지역 규정을 현재 국내 계약·시공·안전 지침으로 쓰지 않는다."
+      ]
+    }
+  ],
+  "work_drawings_review": {
+    "full_book_read": false,
+    "formula_extraction_incomplete": true,
+    "own_tasks_are_not_student_responses": true,
+    "source_pdf_and_images_redistributed": false,
+    "printed_page_equals_pdf_page": true,
+    "source_version": "Version1 July2015",
+    "source_rights_as_read": "PDF3 Copyright2015 Industry Training Authority; reproduction requires permission. Only original factual/mathematical notes and own tasks published; no original prose, diagrams or PDF redistributed.",
+    "current_construction_regulations_not_reviewed": true,
+    "net_tasks_are_own_extensions_not_source_diagrams": true,
+    "projection_counterexample_compares_silhouettes_only": true,
+    "physical_model_not_made_or_student_tested": true
+  }
+}

@@ -1,0 +1,163 @@
+{
+  "source_id": "LIJNSE_2010_AUTHORIZED_REPRINT",
+  "source_url": "https://www.fisme.science.uu.nl/publicaties/literatuur/2010_book_sympPL_FI-website.pdf",
+  "source_asset_kind": "pdf",
+  "source_pdf_sha256": "cddeebe3b3be461604c03c00a2984b26054f45e108eb1aeddb8e208c64547662",
+  "source_pdf_url": "https://www.fisme.science.uu.nl/publicaties/literatuur/2010_book_sympPL_FI-website.pdf",
+  "pdf_pages": 177,
+  "selected_text_pages": [
+    1,
+    3,
+    4,
+    5,
+    7,
+    8,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100,
+    101,
+    102,
+    103
+  ],
+  "visual_pdf_pages": [
+    1,
+    3,
+    4,
+    5,
+    7,
+    8,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100,
+    101,
+    102,
+    103,
+    104
+  ],
+  "rendered_page_sha256": {
+    "1": "5347468b470db8c63d14d152215faa5fa7111ae5daeb93f4db64a4b2e85c90da",
+    "3": "b0878e4a618936b64fa66ef422769235508d1399026aae0a6c12f0ab0a624b10",
+    "4": "b5b75721431e1a6d3cca1575dab990a121be71e3d4c3c2792fb2e04719fe8fef",
+    "5": "c5add8f6ed8b4da48012f6b86a3736fd54d2d884f9aa704ff1630cc5896a5559",
+    "7": "7dd17708100d4c371734c2dcebaf9f7d9e58c21d2e3857787edcda251fd85d04",
+    "8": "06721185fd9929cd4ecf753edae8be645648889fd7e7397477fd70b70cb7ccdf",
+    "93": "c40a097a36fdcc41c267732e6a1dfdd76cfa9a11584c598511a5a3af3ce67e6d",
+    "94": "855f7a5bb39101c3a9d2740dbdd0e5f99262fb3f9b00c43b065ce8ebf3058083",
+    "95": "c4f3f586cb3a3bffcb434e63598f416faee47bec830be4f834368dce7159608f",
+    "96": "9770f40feca43e60123d70399d1d5b860f55a25939d7f2e978b02ae02cde7a1e",
+    "97": "f39f770afad1009a3a2c854dff4ecdcaab4a8c3615a97f7d105ab1b827191254",
+    "98": "1ebc4a5ba3ba016af78fd2fd52105c6d4964cc7b41e5b710b52de1a38c91f5c8",
+    "99": "9646411e6e4e1729bc7ce52c25640ed39104b56c32c79eb7e0d8a8c7019b96fa",
+    "100": "8cd7905f9dacc3070aedd4ff59185d91af59766d3707d4c5ef9bea9cad0f5c5c",
+    "101": "895a2c50c41105200a58b74285d9b489c3ab74c6b3c054ffc133346e4e7c6ad1",
+    "102": "fe423ce974a9043d0c3f759ebe56093ffb9ddaf23303f6095f1915f200f44221",
+    "103": "bdad43313e9bb0cf0f4e9ae6183f69adbac650d0d17fafb7d31c74aa6c11e7cc",
+    "104": "6f9a5d2878b26528c66a4e4b3e004ce845d02091e3a03df1768fadcfbeb2b4a1"
+  },
+  "date": "2026-11-17",
+  "reviewer": "Codex",
+  "read_scope": "위트레흐트대 공식 PDF177쪽 중2010년 책의 표지·서지·목차·서문6쪽(PDF1,3,4,5,7,8)과6장 전체11쪽(PDF93–103,인쇄91–101)의 추출문·판면을 읽었다. 다음 장 앞의 쪽번호 전용 PDF104도 시각 확인했다. 6장 첫 각주는1995년 Science Education79(2),189–199의 허가받은 약간 편집한 재수록이라고 명시한다. 심포지엄2009-10-09,책/서문2010,원논문1995,앞선 프랑스어 논문1994를 구별한다. 원학술지의 동일 판면·문구 전수 대조나 책177쪽 전체 독해는 아니다.",
+  "empirical_scope": {
+    "design": "과학/물리교육의 내용별 교수설계에 대한 방법론적 논의와 기존 연구 인용",
+    "sample_description": "6장에 새로운 통합 고유 참여자 수·표집 설계·효과크기를 제시하지 않는다. 서문의 심포지엄 사진은 학생 표본 자료가 아니다.",
+    "inference_limit": "과학/물리교육의 방법론적 논의이며 국내 수학교육의 효과 연구가 아니다. 본문은 인용 연구를 논의하지만 새 통합 표본이나 대조 효과크기를 제공하는 것으로 취급하지 않는다. 1995년 원학술지 PDF와1994년 프랑스어판·인용 원연구/원자료·나머지 책 본문·정오표는 미확인이다. 학생 말의 의미를 찾는 원칙은 모든 답을 정답으로 인정하거나 교사가 선호하는 해석을 만들어 넣는 허가가 아니다. 예상 시나리오·계산 예·지원 뒤 반응을 실제 독립 수행·학습 효과로 바꾸지 않는다. 전문 연구의 이론 개발을 모든 학교 탐구에 요구하지 않는다.",
+    "student_outcome_study": false,
+    "causal_effect_established": false,
+    "local_effect_tested": false
+  },
+  "contains_source_full_text": false,
+  "source_pdf_redistributed": false,
+  "reading_log": [
+    "위트레흐트대 공식 PDF177쪽 중2010년 책의 표지·서지·목차·서문6쪽(PDF1,3,4,5,7,8)과6장 전체11쪽(PDF93–103,인쇄91–101)의 추출문·판면을 읽었다. 다음 장 앞의 쪽번호 전용 PDF104도 시각 확인했다. 6장 첫 각주는1995년 Science Education79(2),189–199의 허가받은 약간 편집한 재수록이라고 명시한다. 심포지엄2009-10-09,책/서문2010,원논문1995,앞선 프랑스어 논문1994를 구별한다. 원학술지의 동일 판면·문구 전수 대조나 책177쪽 전체 독해는 아니다."
+  ],
+  "source_corrections": [
+    {
+      "location": "방법·문항·표·그림·서술의 대조",
+      "issue": [
+        "SLO의Science Education29권을이출처에그대로옮기지않는다. 출판사서지와재수록각주는79(2),1995,189–199를가리킨다. 재수록책은2010이며2009는심포지엄이다.",
+        "6장11쪽 전체를 읽었지만1995원판·1994프랑스어판·전체177쪽을읽었다고바꾸지않는다. PDF104는쪽번호102뿐이며본문쪽수에더하지않는다.",
+        "원문의didactical structure는학문목차·검증완료선수관계·유일한학습순서와동일하지않다. 소규모실행과해석수정을요구하는설계관점으로참고한다.",
+        "학생발언·관찰자해석·후속확인과수학적타당성판단을구별한다. 호의적해석만으로모든답을정답처리하지않고실제교사발문/도움도기록한다.",
+        "서문의심포지엄사진은학생참여표본이아니며과거의평가·인용연구서술을현재의일반교수법효과로바꾸지않는다. 원문의예측/시나리오를실제검증기록으로채우지않는다."
+      ]
+    }
+  ],
+  "authorized_reprint_review": {
+    "complete_reprint_chapter_read": true,
+    "original_1995_full_article_read": false,
+    "publisher_direct_pdf_obtained": false,
+    "pdf_pages": 177,
+    "reprint_chapter_pdf_pages": [
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103
+    ],
+    "reprint_chapter_printed_pages": "91–101",
+    "front_matter_pdf_pages": [
+      1,
+      3,
+      4,
+      5,
+      7,
+      8
+    ],
+    "page_number_only_visual_pages": [
+      104
+    ],
+    "reprint_book_year": 2010,
+    "reprint_book_isbn": "978-90-73346-70-3",
+    "reprint_editors": [
+      "Koos Kortland",
+      "Kees Klaassen"
+    ],
+    "symposium_date": "2009-10-09",
+    "preface_date": "October2010",
+    "original_year": 1995,
+    "original_journal": "Science Education",
+    "original_volume": 79,
+    "original_issue": 2,
+    "original_pages": "189–199",
+    "original_doi": "10.1002/sce.3730790205",
+    "original_url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/sce.3730790205",
+    "preceding_french_article_year": 1994,
+    "preceding_french_article_pages": "93–108",
+    "chapter_footnote": "PDF93 footnote1: slightly edited version; reprinted with permission",
+    "no_numbered_chapter_figures_or_tables": true,
+    "entire_book_read": false,
+    "original_binary_fidelity_verified": false,
+    "raw_classroom_records_read": false,
+    "cited_originals_all_read": false,
+    "actual_independent_review": 0,
+    "actual_student_validation": 0,
+    "prior_slo_bibliographic_snapshot_preserved": true,
+    "unresolved_source_inconsistencies": [
+      {
+        "location": "PDF98/102",
+        "issue": "Grandy/Hamilton body1993 versus reference1992; cited original not checked"
+      },
+      {
+        "location": "PDF97/102",
+        "issue": "Klaassen1994b is the historical source reference; do not silently rewrite it to the year of another edition"
+      }
+    ],
+    "own_tasks_are_not_student_responses": true
+  }
+}

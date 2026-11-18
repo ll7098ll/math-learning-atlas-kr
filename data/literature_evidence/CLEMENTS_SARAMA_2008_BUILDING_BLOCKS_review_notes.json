@@ -1,0 +1,263 @@
+{
+  "source_id": "CLEMENTS_SARAMA_2008_BUILDING_BLOCKS",
+  "source_url": "https://doi.org/10.3102/0002831207312908",
+  "source_asset_kind": "web_pdf_text",
+  "source_pdf_url": "https://scispace.com/pdf/experimental-evaluation-of-the-effects-of-a-research-based-27126df8zy.pdf",
+  "date": "2026-11-09",
+  "reviewer": "Codex",
+  "read_scope": "53쪽으로 표시된 원논문의 웹 추출에서 인쇄 443·448·450·462~463·467~470·483~484·489쪽의 관련 문단과 표를 대조했다. 원논문 PDF 파일과 판면은 미확보다. 2013 가이드 및 2013·2023년 WWC의 개입별 판정은 따로 대조했다.",
+  "pdf_text_review": {
+    "reported_pdf_pages": 53,
+    "text_pdf_pages": [
+      2,
+      7,
+      9,
+      21,
+      22,
+      26,
+      27,
+      28,
+      29,
+      42,
+      43,
+      48
+    ],
+    "visual_pdf_pages": [],
+    "binary_obtained": false,
+    "text_line_count": 200,
+    "page_text_line_ranges": [
+      [
+        0,
+        3
+      ],
+      [
+        4,
+        22
+      ],
+      [
+        23,
+        51
+      ],
+      [
+        52,
+        74
+      ],
+      [
+        75,
+        79
+      ],
+      [
+        80,
+        98
+      ],
+      [
+        99,
+        130
+      ],
+      [
+        131,
+        151
+      ],
+      [
+        152,
+        159
+      ],
+      [
+        160,
+        175
+      ],
+      [
+        176,
+        190
+      ],
+      [
+        191,
+        199
+      ]
+    ]
+  },
+  "original_page_layout_review": false,
+  "contains_source_full_text": false,
+  "source_pdf_redistributed": false,
+  "empirical_scope": {
+    "design": "classroom_cluster_trial_with_two_assignment_strata",
+    "sample_description": "초기 36교실에서 시작해 35교실 276명이 연구에 남았다. 사전·사후 완전 자료는 정규 101명, 강화 수학 51명, Building Blocks 101명이다.",
+    "inference_limit": "미국 뉴욕 유아 교실의 교육과정 묶음 비교다. 지도·교사 지원·자료가 함께 달랐고 개별 요소 효과와 국내 과제 효과는 확인되지 않았다. 강화 수학 조건은 저소득층 교실에만 배정됐다.",
+    "student_outcome_study": true,
+    "causal_effect_established": true,
+    "local_effect_tested": false
+  },
+  "publication": "American Educational Research Journal, 45(2), 443–494",
+  "web_excerpt_ranges": [
+    {
+      "pdf_page": 2,
+      "source_lines": [
+        50,
+        53
+      ]
+    },
+    {
+      "pdf_page": 7,
+      "source_lines": [
+        206,
+        224
+      ]
+    },
+    {
+      "pdf_page": 9,
+      "source_lines": [
+        265,
+        293
+      ]
+    },
+    {
+      "pdf_page": 21,
+      "source_lines": [
+        699,
+        721
+      ]
+    },
+    {
+      "pdf_page": 22,
+      "source_lines": [
+        726,
+        730
+      ]
+    },
+    {
+      "pdf_page": 26,
+      "source_lines": [
+        892,
+        910
+      ]
+    },
+    {
+      "pdf_page": 27,
+      "source_lines": [
+        925,
+        956
+      ]
+    },
+    {
+      "pdf_page": 28,
+      "source_lines": [
+        968,
+        988
+      ]
+    },
+    {
+      "pdf_page": 29,
+      "source_lines": [
+        1000,
+        1007
+      ]
+    },
+    {
+      "pdf_page": 42,
+      "source_lines": [
+        1290,
+        1305
+      ]
+    },
+    {
+      "pdf_page": 43,
+      "source_lines": [
+        1309,
+        1323
+      ]
+    },
+    {
+      "pdf_page": 48,
+      "source_lines": [
+        1511,
+        1519
+      ]
+    }
+  ],
+  "reading_log": [
+    "웹 추출에서 양 소득 집단의 배정 범위, 탈락, 정규 수업과 두 중재의 세부 구성을 확인했다.",
+    "표 5의 집단별 인원과 사후 평균, 표 6의 다층모형과 대안 표준화 값, COEMET 관찰을 구별했다.",
+    "WWC 2023 Building Blocks 보고서 PDF 6~7쪽의 표 4·5와 Pre-K Mathematics 2013·2023 판정을 각각 대조했다."
+  ],
+  "source_corrections": [
+    {
+      "location": "원논문 표 5와 2023 WWC 표 4",
+      "issue": "중재 사후 평균은 원논문 59.39, WWC 표 61.78이다. 정규 수업 53.22는 일치한다. 공개 표의 차이를 같은 원평균으로 옮기지 않았다."
+    },
+    {
+      "location": "원논문 450쪽과 WWC 개입별 비교",
+      "issue": "정규 수업에 여러 자료가 쓰였다. 강화 수학은 PMC 수업과 가정 활동, DLM 소프트웨어를 포함했다. 기준 충족 판정은 해당 비교에 귀속했다."
+    }
+  ],
+  "assignment": {
+    "initial_classrooms": 36,
+    "retained_classrooms": 35,
+    "retained_children": 276,
+    "low_income_classrooms": 24,
+    "mixed_income_classrooms": 12,
+    "analyzed_children": [
+      101,
+      51,
+      101
+    ],
+    "analyzed_arm_order": [
+      "정규 수업",
+      "강화 수학",
+      "Building Blocks"
+    ]
+  },
+  "achievement": {
+    "original_total_effects": [
+      1.07,
+      0.64,
+      0.47
+    ],
+    "alternative_standardization": [
+      1.09,
+      0.6,
+      0.54
+    ],
+    "comparison_order": [
+      "Building Blocks 대 정규",
+      "강화 수학 대 정규",
+      "Building Blocks 대 강화 수학"
+    ],
+    "original_posttest_means": [
+      53.22,
+      53.77,
+      59.39
+    ],
+    "wwc_posttest_means": [
+      53.22,
+      61.78
+    ],
+    "wwc_students": 202
+  },
+  "wwc_reviews": [
+    {
+      "url": "https://ies.ed.gov/ncee/WWC/Docs/InterventionReports/WWC_Building-Blocks_report.pdf#page=7",
+      "scope": "2023 Building Blocks 대 정규 수업",
+      "rating": "유보 없이 충족"
+    },
+    {
+      "url": "https://ies.ed.gov/ncee/WWC/Docs/InterventionReports/wwc_prekmath_121713.pdf#page=9",
+      "scope": "2013 Pre-K Mathematics with DLM",
+      "rating": "기준 미충족",
+      "reason": "해당 분석 조건의 배정 또는 배정 후 배치와 동등성 요건"
+    },
+    {
+      "url": "https://ies.ed.gov/ncee/wwc/Study/90773",
+      "scope": "2023 Pre-K Mathematics",
+      "rating": "기준 미충족",
+      "reason": "효과를 해당 개입에만 귀속할 수 없다고 평가"
+    }
+  ],
+  "supplementary_report": {
+    "url": "https://ies.ed.gov/ncee/WWC/Docs/InterventionReports/WWC_Building-Blocks_report.pdf",
+    "sha256": "3cb8988573e6d2a3e1dbb80183a09038bb3aecf04a1d0440269849b4cf9caaa0",
+    "text_and_visual_pages": [
+      6,
+      7
+    ]
+  }
+}

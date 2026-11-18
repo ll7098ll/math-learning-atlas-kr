@@ -1,0 +1,24 @@
+{
+  "elementary_total": 121,
+  "drafts": 121,
+  "new_drafts": 118,
+  "preserved_pilots": [
+    "6수01-10",
+    "6수02-03",
+    "6수03-14"
+  ],
+  "families": 29,
+  "student_validated": 0,
+  "domain_counts": {
+    "수와 연산": 42,
+    "변화와 관계": 10,
+    "도형과 측정": 57,
+    "자료와 가능성": 12
+  },
+  "content_source": "data/analysis_details.json",
+  "preserved_pilot_sha256": {
+    "6수03-14": "f952a470f2ff25f8709d48526861f21c1a0dc4fbcaea810f285c0f7ca433f798",
+    "6수01-10": "0bae435b91b0d81426a4522ae92f49c5ca0c96408320239731919a6f89a993d3",
+    "6수02-03": "7fbcec654e47a9290e814db152d3cbd0ad72d1c99f1e60cf0c1dd01f74a6a957"
+  }
+}

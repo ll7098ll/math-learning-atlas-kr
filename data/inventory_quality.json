@@ -1,0 +1,17 @@
+{
+  "counts_by_school_level": {
+    "초등학교": 121,
+    "중학교": 60,
+    "고등학교": 254
+  },
+  "total": 435,
+  "high_school_subjects": 15,
+  "duplicate_definitions": [],
+  "missing_referenced_codes": [],
+  "numbering_gaps": [],
+  "original_flagged_record_count": 29,
+  "visually_corrected_record_count": 29,
+  "additional_visually_reviewed_record_count": 406,
+  "records_requiring_source_review": [],
+  "source_review": "자동 구조 검증 완료. 텍스트 추출과 원문 육안 대조는 별도 상태로 관리."
+}

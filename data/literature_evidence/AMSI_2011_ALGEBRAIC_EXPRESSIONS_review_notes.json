@@ -1,0 +1,70 @@
+{
+  "source_id": "AMSI_2011_ALGEBRAIC_EXPRESSIONS",
+  "source_url": "https://amsi.org.au/teacher_modules/Algebraic_expressions.html",
+  "source_asset_kind": "pdf",
+  "source_pdf_sha256": "32e3f39bdaeb549eee128faa5cabe5b9eee1f59069ed900618c57d0c21c3faa4",
+  "source_pdf_url": "https://amsi.org.au/teacher_modules/pdfs/Algebraic_expressions.pdf",
+  "pdf_pages": 22,
+  "selected_text_pages": [
+    1,
+    2,
+    3,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    16,
+    17,
+    18
+  ],
+  "visual_pdf_pages": [
+    6,
+    8,
+    9,
+    11,
+    16,
+    18
+  ],
+  "rendered_page_sha256": {
+    "6": "7d15ee1918635efd1046e5bdabb12b6e8dbd3154b38691718862b36b1e95e2c9",
+    "8": "d42ab9c11194fa8dabe1bc335e72dc4e4f34420afb18a6dc71af541d5f29ddd5",
+    "9": "f323523f20f35aaf3116082580822e676aae1b9c609fb7e6b24c07d456f4148e",
+    "11": "7019da8f7812da5112a870f473d2b0f84d61e694a5ad3790e2b852d0ad12ce32",
+    "16": "58c1c81a7a1d8911fef3fa2f9ab51922a01281ea1c4a37410d7c9d8a50e1f72c",
+    "18": "16d7d05560a2e04c0d3c1ae99b287271a143f90515c321050a095564696d84c5"
+  },
+  "date": "2026-11-13",
+  "reviewer": "Codex",
+  "read_scope": "표지·서지와 문자의 역할, 말에서 식으로의 변환과 대입, 동류항·괄호·분수선 및 분배법칙의 지정 본문·그림을 대조했다.",
+  "empirical_scope": {
+    "design": "교사용 수학 내용 설명과 예시·연습 문제. 지정 부분의 수학적 조건과 표현을 대조.",
+    "sample_description": "학생 표본·학생별 반응 자료 없음. 자체 과제의 효과를 검사한 연구가 아니다.",
+    "inference_limit": "주로 음이 아닌 수를 대입하는 교사 가이드다. 문자의 맥락·허용값과 형식적 식을 구별한다. 6쪽의 대입값 30은 실제 계산 50과 달라 옮기지 않는다. 0 지수는 국내 중학교 추가 요구로 삼지 않는다.",
+    "student_outcome_study": false,
+    "causal_effect_established": false,
+    "local_effect_tested": false
+  },
+  "contains_source_full_text": false,
+  "source_pdf_redistributed": false,
+  "reading_log": [
+    "표지·서지와 문자의 역할, 말에서 식으로의 변환과 대입, 동류항·괄호·분수선 및 분배법칙의 지정 본문·그림을 대조했다."
+  ],
+  "source_corrections": [
+    {
+      "location": "방법·문항·표·그림·서술의 대조",
+      "issue": "PDF 6쪽은 x=2에서 5(x²+3x)를 30으로 적지만 정확한 값은 50이다. 실제 판면에서 확인하고 자체 대입 과제에는 50과 계산 순서를 썼다. 8·9·16·18쪽에서 추출문에 평평하게 붙은 분수·지수를 판면으로 구별했다. 8쪽의 조건 없는 x⁰=1을 현재 중학교의 추가 요구로 복사하지 않는다."
+    }
+  ],
+  "middle_algebra_function_review": {
+    "module": 23,
+    "publication": "June 2011",
+    "source_page_6_substitution_printed": 30,
+    "correct_value": 50,
+    "fractions_and_superscripts_visually_distinguished": true,
+    "zero_index_not_required": true
+  }
+}

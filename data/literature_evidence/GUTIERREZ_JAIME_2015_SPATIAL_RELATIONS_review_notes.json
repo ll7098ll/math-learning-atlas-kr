@@ -1,0 +1,54 @@
+{
+  "source_id": "GUTIERREZ_JAIME_2015_SPATIAL_RELATIONS",
+  "source_url": "https://doi.org/10.30827/pna.v9i2.6106",
+  "source_pdf_url": "https://funes.uniandes.edu.co/wp-content/uploads/tainacan-items/32454/1213506/Gutierrez2015PNA92Analisis.pdf",
+  "source_asset_kind": "pdf",
+  "source_pdf_sha256": "f8fd0842416ca2b868e36358afeb7c6a302dc76e39f40510912caafde4270477",
+  "pdf_pages": 31,
+  "selected_text_pages": [
+    1,
+    9,
+    16,
+    18,
+    21,
+    22,
+    26
+  ],
+  "visual_pdf_pages": [
+    16,
+    22
+  ],
+  "rendered_page_sha256": {
+    "16": "8f494365649a0e470d09d74c13fc47e745ff67227bc3571d37de71ea23aa8946",
+    "22": "37d427d7e25e2d831623a90f9c184ecec3950d26e1bf72d12639d1d034541243"
+  },
+  "date": "2026-11-10",
+  "reviewer": "Codex",
+  "read_scope": "동적 공간기하 활동의 구성, 평행한 두 직선의 공면성, 서로 다른 평행 평면에 놓인 직선에 대한 대화를 대조했다.",
+  "empirical_scope": {
+    "design": "Cabri 3D를 사용한 수업 실험에서 학생 한 명의 활동·면담을 분석.",
+    "sample_description": "수학적 재능을 보인 학생 한 명.",
+    "inference_limit": "수학적 재능을 보인 학생 한 명의 사례다. 질문과 수정 뒤의 설명을 일반 학생의 자발적 수행으로 확대할 수 없다.",
+    "student_outcome_study": true,
+    "causal_effect_established": false,
+    "local_effect_tested": false
+  },
+  "contains_source_full_text": false,
+  "source_pdf_redistributed": false,
+  "reading_log": [
+    "동적 공간기하 활동의 구성, 평행한 두 직선의 공면성, 서로 다른 평행 평면에 놓인 직선에 대한 대화를 대조했다."
+  ],
+  "source_corrections": [
+    {
+      "location": "정의·표·학생 응답",
+      "issue": "소프트웨어 동작의 반복과 기하적 평면의 수를 분리하고, 평행 평면 사례는 연구자 개입 전후를 구별했다."
+    }
+  ],
+  "spatial_review": {
+    "n": 1,
+    "software": "Cabri 3D",
+    "repeated_plane_constructions": 4,
+    "distinct_planes": 1,
+    "interviewer_prompt_before_corrected_answer": true
+  }
+}

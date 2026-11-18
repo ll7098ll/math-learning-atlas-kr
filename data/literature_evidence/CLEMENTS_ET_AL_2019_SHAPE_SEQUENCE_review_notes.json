@@ -1,0 +1,97 @@
+{
+  "source_id": "CLEMENTS_ET_AL_2019_SHAPE_SEQUENCE",
+  "source_url": "https://doi.org/10.3102/0002831219842788",
+  "date": "2026-11-09",
+  "reviewer": "Codex",
+  "source_asset_kind": "pdf",
+  "source_pdf_sha256": "d1b814d20bd1e9b1d6e85ff9f1d5fa0e9e1dbca65be511155445efc6f7d6788d",
+  "source_pdf_redistributed": false,
+  "contains_source_full_text": false,
+  "read_scope": "출판판 인쇄 2517~2525쪽의 방법·결과·논의 관련 문단과 그림 2·표 1~2를 읽었다. 표본·루브릭·결과의 주요 판면을 이미지로 대조했다.",
+  "empirical_scope": {
+    "design": "within_classroom_randomized_small_group_shape_composition_comparison",
+    "sample_description": "15개 유아 교실의 동의 아동 152명 중 배정 전 1명, 배정 후 사후자료 6명을 제외했다. 순서 중재 82명과 목표 수준 직접 지도 63명을 분석했다.",
+    "inference_limit": "유아의 평면 퍼즐 구성에 대한 단기 소집단 비교다. 목표 수준 도달 및 전략을 국내 성취기준 전체, 정신적 변환 전반, 고정된 선수관계로 확대할 수 없다.",
+    "student_outcome_study": true,
+    "causal_effect_established": true,
+    "local_effect_tested": false
+  },
+  "pdf_url": "https://files.eric.ed.gov/fulltext/EJ1234710.pdf",
+  "publisher_url": "https://journals.sagepub.com/doi/10.3102/0002831219842788",
+  "pdf_pages": 22,
+  "printed_pages": [
+    2509,
+    2530
+  ],
+  "selected_text_pages": [
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+  ],
+  "visual_pdf_pages": [
+    9,
+    10,
+    13,
+    14,
+    15,
+    16
+  ],
+  "rendered_page_sha256": {
+    "9": "c01124b02ea632f5ee994f461c80f72d72e4241c8f3eb47aad97f03667caf961",
+    "10": "85bec7807bb921d444171af3e1e42bb3ea9f74a7f0baa07a9e219dc33f966ea2",
+    "13": "99a29b11270ee92ef6f0963e7df41357892392a9e498bc1dacab675fc8f486ca",
+    "14": "ddaa13d41e59e73a5e822d3cae8a1b04b9c2e5e6d7a239cd32790c5123dcd565",
+    "15": "739896301aec16b243160974249da5e275225c9b2ea7938290caa522d40124f6",
+    "16": "0eab912105a0e932361c92421541d17a7b03179c921dd4fcdf2f9612035f58e9"
+  },
+  "results": {
+    "counts": {
+      "consented": 152,
+      "before_assignment_excluded": 1,
+      "after_assignment_excluded": [
+        2,
+        4
+      ],
+      "analyzed": [
+        82,
+        63
+      ]
+    },
+    "main_model": {
+      "g": 0.55,
+      "p": 0.003
+    },
+    "item_1_complete_correct_counts": [
+      44,
+      23
+    ],
+    "item_1_complete_correct_percent_as_printed": [
+      59,
+      35
+    ],
+    "item_1_rotation_strategy_post_mean": [
+      1.47,
+      1.3
+    ]
+  },
+  "reading_log": [
+    "출판판 인쇄 2517~2525쪽의 방법·결과·논의 관련 문단과 그림 2·표 1~2를 읽었다. 표본·루브릭·결과의 주요 판면을 이미지로 대조했다.",
+    "분모와 비교 조건을 확인하고 전체 모형과 과제별 관찰을 구분했다."
+  ],
+  "source_corrections": [
+    {
+      "location": "인쇄 2522쪽 문항 1 설명",
+      "issue": "완전 정답 44명(59%)·23명(35%)은 전체 조건별 82명·63명을 분모로 계산한 비율과 맞지 않는다. 문항별 분모를 추정하지 않고 개수·백분율·전체 분석 인원을 분리한다."
+    },
+    {
+      "location": "인쇄 2518·2521쪽 그림 2와 표 1",
+      "issue": "그림 2 문항 1A 판면에 오답·부분 정답·완전 정답이 있다. 표 1 제목과 본문에서 정답·과정을 사용하는 범위가 다르게 표현된다. 코딩, 기술통계와 전체 모형의 수치를 구분한다."
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "source_id": "ABBOTT_FLATLAND_SELECTED_1884",
+  "source_url": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Flatland_-_a_romance_of_many_dimensions_%28IA_flatlandromanceo00abbouoft%29.pdf",
+  "source_asset_kind": "pdf",
+  "source_pdf_sha256": "4db5c2e28266299e0933c064cd78fd2a12af1d2c4ebfc16e20b3afcbc65b4923",
+  "source_pdf_url": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Flatland_-_a_romance_of_many_dimensions_%28IA_flatlandromanceo00abbouoft%29.pdf",
+  "pdf_pages": 116,
+  "selected_text_pages": [
+    7,
+    12,
+    15,
+    16,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84
+  ],
+  "visual_pdf_pages": [
+    7,
+    12,
+    15,
+    16,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84
+  ],
+  "rendered_page_sha256": {
+    "7": "cd44b9c1b400cb019755b2389fb1c9cc42e63df9e31a45ff68503544fe4113d4",
+    "12": "0eea92b2f37424c7d81918b50a8a0a504907cf15d89082763530cca0cde2524b",
+    "15": "5f3f8f6ccf21f252b2b4fbba5f8a322cd5ce2fef7596879bf663b5d73aa57f7a",
+    "16": "1d0784324706885df2d2805663de77780e8dc7764953a6b34de32c5e6bfb7f9a",
+    "79": "d5dd58c2f7aeb60532b9784b27306801e0412762b8e020128cc026849d8d5adb",
+    "80": "73c7a786fdbedc562295652f50317f52fc41c08029e85df5edceff24aab3857f",
+    "81": "e4f32288ab7f60ff65545b997437bb288ba437be1727be0c668ad68a09e44442",
+    "82": "d19547149cef274f160d8c3f0cbcf7e0cf177980e972a5cb0cb9440b26899ccd",
+    "83": "659d43ef6408107f7516e3b0811c2e8756ec0a68a84d4799c576c10e9a1ad559",
+    "84": "6b7b8dd3ca374e50d0600ca8188c8e9862d71905ffba92dec5ba26c850929ec9"
+  },
+  "date": "2026-11-16",
+  "reviewer": "Codex",
+  "read_scope": "제목·목차와PDF15~16,79~84쪽의 평면 시야·구의 단면 대화를 추출문/판면10쪽으로 대조했다.1884년 원판의Toronto 스캔이며 본문 인쇄 쪽은PDF−12다.",
+  "empirical_scope": {
+    "design": "지정 원문·실제 판면 대조와 자체 수학·창작 과제 설계",
+    "sample_description": "학생 표본·실제 창작 결과·현장 성과를 분석한 연구가 아님",
+    "inference_limit": "소설 전문·§16 전체·후속 §17을 읽었다는 뜻이 아니다. 당시의 성별·계급 서술을 수학적 인간 가치 판단으로 옮기지 않는다. 새 이야기와 좌표 계산은 자체 창작이다.",
+    "student_outcome_study": false,
+    "causal_effect_established": false,
+    "local_effect_tested": false
+  },
+  "contains_source_full_text": false,
+  "source_pdf_redistributed": false,
+  "reading_log": [
+    "제목·목차와PDF15~16,79~84쪽의 평면 시야·구의 단면 대화를 추출문/판면10쪽으로 대조했다.1884년 원판의Toronto 스캔이며 본문 인쇄 쪽은PDF−12다."
+  ],
+  "source_corrections": [
+    {
+      "location": "방법·문항·표·그림·서술의 대조",
+      "issue": [
+        "평면 속 관찰자의 선형 시야와위에서 보는 설명 그림을 구별한다. 구의 교차 단면·직교 투영·구면 경계/구체 영역은 다른 대상이다.",
+        "자체 좌표·3장면 이야기는번역이나원작 장면이 아니다. 소설 전문·§16전체·§17미검토이며사회 위계를수학적 인간 가치로승인하지 않는다."
+      ]
+    }
+  ],
+  "culture_creation_review": {
+    "full_book_read": false,
+    "formula_extraction_incomplete": true,
+    "own_tasks_are_not_student_responses": true,
+    "source_pdf_and_images_redistributed": false
+  }
+}

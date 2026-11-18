@@ -1,0 +1,57 @@
+{
+  "source_id": "NSW_STAGE4_CIRCLE_MEASUREMENT",
+  "source_url": "https://education.nsw.gov.au/content/dam/main-education/teaching-and-learning/curriculum/key-learning-areas/mathematics/media/documents/mathematics-s4-teaching-measurement.pdf",
+  "source_asset_kind": "pdf",
+  "source_pdf_sha256": "7ddd5dda9dec1786909290c96222d0432010ca3c19ecbc9c2333995f5a83c850",
+  "source_pdf_url": "https://education.nsw.gov.au/content/dam/main-education/teaching-and-learning/curriculum/key-learning-areas/mathematics/media/documents/mathematics-s4-teaching-measurement.pdf",
+  "pdf_pages": 109,
+  "selected_text_pages": [
+    1,
+    2,
+    3,
+    17,
+    18,
+    40,
+    41
+  ],
+  "visual_pdf_pages": [
+    17,
+    18,
+    41
+  ],
+  "rendered_page_sha256": {
+    "17": "4791ea7eeeb7925b6d6e6dc48b3aa24db45649b44755482011b4b770d67b675e",
+    "18": "1a9d644fc410cead221898ba0e05b475dcb647022dca58b82482339d523061f1",
+    "41": "e19c50ce39ef7c06ac475d17db5ebccbfb1c6c9c1f46572121d009e1917d22f3"
+  },
+  "date": "2026-11-13",
+  "reviewer": "Codex",
+  "read_scope": "표지·2012 교육과정 판권·목차와 원주 측정 및 부채꼴 조각 재배열의 지정 본문·그림을 대조했다.",
+  "empirical_scope": {
+    "design": "길이·넓이·부피·시간의 교사용 수업 자료 중 원의 지정 부분.",
+    "sample_description": "학생 표본 없음. 활동 지시와 기록표 및 도식.",
+    "inference_limit": "Stage 4 교사용 수업 설계다. 발행 연도는 본문에서 확정하지 않았고 교육과정 판권 2012를 발행 연도로 쓰지 않는다. 일반 부채꼴 공식·무리수 증명·극한의 엄밀한 증명은 자체 초등 과제에 추가하지 않는다.",
+    "student_outcome_study": false,
+    "causal_effect_established": false,
+    "local_effect_tested": false
+  },
+  "contains_source_full_text": false,
+  "source_pdf_redistributed": false,
+  "reading_log": [
+    "표지·2012 교육과정 판권·목차와 원주 측정 및 부채꼴 조각 재배열의 지정 본문·그림을 대조했다."
+  ],
+  "source_corrections": [
+    {
+      "location": "방법·문항·표·그림·서술의 대조",
+      "issue": "17쪽 Step 5의 C=πr은 같은 쪽 Step 3·18쪽의 C=2πr과 다르다. 누락된 2를 옮기지 않는다. 41쪽의 유한 조각 재배열은 정확한 직사각형으로 취급하지 않는다. 판권 2012는 교육과정의 연도이며 문서 발행 연도는 미확정이다."
+    }
+  ],
+  "upper_primary_review": {
+    "publication_year": null,
+    "syllabus_copyright_year": 2012,
+    "step_5_missing_factor": 2,
+    "step_3_and_record_sheet_correct": true,
+    "finite_sector_rearrangement_is_approximate_rectangle": true,
+    "general_sector_formula_and_irrationality_proof_not_required": true
+  }
+}

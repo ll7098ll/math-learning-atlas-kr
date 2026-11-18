@@ -1,0 +1,94 @@
+{
+  "saved": {
+    "id": "appgprj_6ae2965054108191ad7dc71524bb7cfb~appgver_6cabbe75ed548191874bbf40f791ba5f",
+    "project_id": "appgprj_6ae2965054108191ad7dc71524bb7cfb",
+    "version_number": 88,
+    "source": {
+      "commit_sha": "e90869144fbd7caea6759d3005154907bf41bb2b"
+    },
+    "archive_storage": {
+      "archive_format": "tar",
+      "sediment_file_id": "file_00000000d620821199d290a1d5188ff9",
+      "content_hash": "sha256:630a1554800142158782adc29c51cec990cbac4a8c7e7e2d1c7bbbc69e936d2a",
+      "size_bytes": 200570880,
+      "file_count": 1416
+    },
+    "screenshot_url": null,
+    "deployment_id": null
+  },
+  "deployment": {
+    "id": "appgdep_6afd19ba2184819191dd5df81bf8ebc9",
+    "project_id": "appgprj_6ae2965054108191ad7dc71524bb7cfb",
+    "title": "수학의 연결 지도",
+    "version_id": "appgprj_6ae2965054108191ad7dc71524bb7cfb~appgver_6cabbe75ed548191874bbf40f791ba5f",
+    "type": "publish",
+    "status": "succeeded",
+    "url": "https://math-learning-atlas-kr.gptpro2908176.chatgpt.site",
+    "has_mcp": false,
+    "screenshot_asset_pointer": null,
+    "provider_deployment_id": "site---6ae2965054108191ad7dc71524bb7cfb",
+    "failure_message": null,
+    "env_set_revision": 0,
+    "updated_at": "2026-11-18T03:22:26.285611+00:00"
+  },
+  "package": {
+    "status": "pass",
+    "source": {
+      "project_id": "appgprj_6ae2965054108191ad7dc71524bb7cfb",
+      "commit_sha": "e90869144fbd7caea6759d3005154907bf41bb2b"
+    },
+    "archive": {
+      "path": "C:\\Users\\User\\Desktop\\codex\\수학 내용 체계\\tmp\\math-atlas-publish-20261118-fd7bb145c14fd09b.tar.gz",
+      "files": 1416,
+      "bytes": 55811337,
+      "expanded_bytes": 199178240,
+      "sha256": "d4ea7370ac453099a7d986b41183121cd8576108ab33c73833f3a91a97fe4d40"
+    },
+    "protected_paths_verified": 919,
+    "omitted_unreferenced_historical_files": 6433,
+    "retained_snapshots": [
+      "current_fd7bb145c14fd09b"
+    ],
+    "previous_public_recovery": {
+      "version_number": 87,
+      "version_id": "appgprj_6ae2965054108191ad7dc71524bb7cfb~appgver_0d82c6ef6e2481918df39a3f871b8f00",
+      "commit_sha": "af502c2afd5e4c95b0e8bc5fe086c42d9c8f005f",
+      "saved_archive_intact": true,
+      "referenced_recovery_graphs_retained": true,
+      "prior_reversible_archive_history_file": "data/portal_asset_archive_history.json",
+      "this_release_archived_static_files": 0
+    },
+    "supported_helper_observation": {
+      "date": "2026-11-18",
+      "helper_session": 22817,
+      "helper_exit_code": 1,
+      "helper_message": "Unable to package the Site archive.\nSite preparation command failed.",
+      "source_pushed": true,
+      "fresh_remote_opening_session": 96978,
+      "fresh_remote_opening_exit_code": 0,
+      "source": {
+        "project_id": "appgprj_6ae2965054108191ad7dc71524bb7cfb",
+        "checkout_path": "C:\\Users\\User\\Desktop\\codex\\수학 내용 체계\\tmp\\pathways-release",
+        "commit_sha": "e90869144fbd7caea6759d3005154907bf41bb2b"
+      },
+      "packaging_failure_root_cause": "unverified",
+      "fallback": "Verify every current dependency byte against the pushed Git commit and package current assets as UTF-8 USTAR; no additional source/static files moved or deleted."
+    },
+    "method": "Complete current dependency graph packaged as UTF-8 USTAR;every file reread and checked against the pushed Git blob allowing only Windows LF/CRLF checkout normalization. Supported helper outcome recorded explicitly;fresh remote opening verified this commit. Only unreferenced historical copies omitted from this archive,no files moved or deleted in this release. Previous reversible archival/history and saved rollback archives retained. Twenty conditional Polya self-derivations does not establish publisher-binary fidelity or all cited-original coverage;the raw PDF/render images,previous manuscripts and runtime assets remain private and are not redistributed."
+  },
+  "live_check": {
+    "status": "pass",
+    "url": "https://math-learning-atlas-kr.gptpro2908176.chatgpt.site",
+    "data_version": "fd7bb145c14fd09b",
+    "resources_checked": 81,
+    "affected_standards": 6,
+    "added_claims": 0,
+    "added_observations": 4,
+    "changed_prior_claims": 6,
+    "changed_prior_observations": 0,
+    "cumulative_source_claims": 6,
+    "cumulative_source_observations": 29,
+    "scope": "Public root,entries,curriculum PDF,indexes,six affected standard details/relations and immutable task/goal/concept graphs match authored bytes,allowing only hosting HTML script. Existing6Polya claims/25tasks plus4new tasks appear live;0new source/claim/relation entries.6claims/28snapshots rechecked;all173other sources/1044other claims/all1228prior tasks/all863interpretation texts preserved.20conditional self-derivations with stated assumptions/general arguments/limits,10already-read PDF images reread,0new unread/text pages. Cube24proper rotations/23nonidentity/13axes and square valid arcs/height-angle realizability/edge-face/coin counts checked. Not independent external review or unconditional proof of all source claims;publisher/errata/original-study/current-student/browser-visual gates remain incomplete. Earlier backup preserved,no files moved/deleted this release."
+  },
+  "note": "Post-publication receipts updated locally after the pushed source/archive; content data unchanged. This does not claim receipt metadata was part of that earlier archive."
+}

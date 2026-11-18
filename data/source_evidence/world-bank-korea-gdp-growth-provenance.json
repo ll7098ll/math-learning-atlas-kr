@@ -1,0 +1,20 @@
+{
+  "provider": "World Bank, World Development Indicators",
+  "indicator": "NY.GDP.MKTP.KD.ZG",
+  "title": "GDP growth (annual %)",
+  "country": "KOR",
+  "years": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+  ],
+  "source_url": "https://api.worldbank.org/v2/country/KOR/indicator/NY.GDP.MKTP.KD.ZG?date=2020%3A2024&format=json",
+  "definition_url": "https://data.worldbank.org/indicator/NY.GDP.MKTP.KD.ZG",
+  "retrieved_date": "2026-11-04",
+  "api_lastupdated": "2026-10-08",
+  "license": "CC BY 4.0",
+  "raw_sha256": "4232a468249735f4de054380a6a936a0d4900a77fb7af376cb1f7743a527be04",
+  "scope": "World Bank 공개 통계의 동결본. GDP 수준·명목 GDP·물가상승률 자료가 아니며 관측 시계열만으로 원인을 판단하지 않는다. 통계 개정 시 값이 달라질 수 있다."
+}

@@ -1,0 +1,54 @@
+{
+  "source_id": "PERTIWI_ET_AL_2024_SOLID_GEOMETRY",
+  "source_url": "https://doi.org/10.17501/26307413.2023.6101",
+  "source_pdf_url": "https://tiikmpublishing.com/proceedings/index.php/foe/article/download/1340/1026/3808",
+  "source_asset_kind": "pdf",
+  "source_pdf_sha256": "d21ed8b8e0f50b61a22bfb34122b015bee0b6b8dbd7b02b5c7bbad380cfb0a36",
+  "pdf_pages": 11,
+  "selected_text_pages": [
+    1,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "visual_pdf_pages": [
+    8
+  ],
+  "rendered_page_sha256": {
+    "8": "26c9a20f66e416c8e0e75fd833c7056730603984c895f4f4caa542a048a4f8e8"
+  },
+  "date": "2026-11-10",
+  "reviewer": "Codex",
+  "read_scope": "6문항 검사에서 공간거리와 평면 표현을 다룬 사례, 그림 4·5, 점에서 평면까지의 거리 문항 결과를 대조했다.",
+  "empirical_scope": {
+    "design": "피타고라스 관련 3문항과 공간도형 3문항의 검사, 관찰, 일부 학생 면담.",
+    "sample_description": "인도네시아 세랑의 공립 고교 12학년 44명.",
+    "inference_limit": "인도네시아 한 학교의 질적 사례 연구다. 삼수선 정리 숙달과 표현 사이의 인과 경로를 검증한 자료는 아니다.",
+    "student_outcome_study": true,
+    "causal_effect_established": false,
+    "local_effect_tested": false
+  },
+  "contains_source_full_text": false,
+  "source_pdf_redistributed": false,
+  "reading_log": [
+    "6문항 검사에서 공간거리와 평면 표현을 다룬 사례, 그림 4·5, 점에서 평면까지의 거리 문항 결과를 대조했다."
+  ],
+  "source_corrections": [
+    {
+      "location": "정의·표·학생 응답",
+      "issue": "그림 5의 R이 QS에 속하지 않으므로 VR을 목표 직선까지의 거리로 사용할 수 없다. 보고서의 사례 발췌를 개인별 교차표처럼 사용하지 않는다."
+    }
+  ],
+  "spatial_review": {
+    "n": 44,
+    "grade": 12,
+    "prerequisites_items": 3,
+    "spatial_items": 3,
+    "problem_6a_reported_difficulties": 9,
+    "participant_level_crosstab_for_examples": false,
+    "proceedings_issue_year": 2023
+  }
+}

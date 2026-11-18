@@ -1,0 +1,2153 @@
+{
+  "date": "2026-11-04",
+  "reviewer": "Codex",
+  "state": "self_checked",
+  "scope": "전체435개 성취기준·870개 하위 목표의1,135개 목표 참조,20개 기초 출발 능력,공식 문구의 잔여50개 기준에 대한 통합 자체 점검. 독립 검토나 모든 학생의 숙달 순서 판정이 아니다.",
+  "method": "모든 목표 참조에서 출발 목표의 실제 수행·수 범위와 도착 조건 문장·적용 목표를 대조했다. 학교급·과목 전환342개 조건은 전체 과제와 함께 별도 표로 남긴다. 실제 풀이·수학적 조건은 코호트별 원고의 검산과 대조했다. 거리식·배수·회전체·부피·피타고라스 설명의 참조,덧셈/뺄셈의 적용 목표,일반 함수와역함수 조건을 보강하고 원고 변경 전 기록을 보존했다. 공식 문구 잔여50개 기준을 맥락·범위·복합 수행과 대조하고 수감각 과제를 보강했다.",
+  "independent_review": false,
+  "student_validated": false,
+  "entry_capability_review": {
+    "count": 20,
+    "decision": "물건·색·위치·표시 구별,수량 보존,기초 세기와 교구 조작 등이다. 각 과제에서 함께 확인하는 출발 능력으로 표시하며 교육과정 밖 내용이라는 판정을 내리지 않는다.",
+    "records": [
+      {
+        "case_id": "early-2수01-01-uses",
+        "condition": "물건 모음과 줄의 위치, 표지로 쓰인 이름을 구별한다.",
+        "rationale": "물건 모음과 줄의 위치, 표지로 쓰인 이름을 구별한다.",
+        "targets": [
+          "2수01-01:need"
+        ]
+      },
+      {
+        "case_id": "early-2수01-01-count",
+        "condition": "한 대상에 수 이름 하나를 붙이며 빠뜨리거나 중복하지 않는다.",
+        "rationale": "한 대상에 수 이름 하나를 붙이며 빠뜨리거나 중복하지 않는다.",
+        "targets": [
+          "2수01-01:count",
+          "2수01-01:read-write"
+        ]
+      },
+      {
+        "case_id": "early-2수01-01-count",
+        "condition": "각 묶음이 정확히 10개인지 확인한다.",
+        "rationale": "각 묶음이 정확히 10개인지 확인한다.",
+        "targets": [
+          "2수01-01:count",
+          "2수01-01:read-write"
+        ]
+      },
+      {
+        "case_id": "early-2수01-05-subtraction",
+        "condition": "전체8개와 부분3개 또는 비교할 두 모음을 구별한다.",
+        "rationale": "전체8개와 부분3개 또는 비교할 두 모음을 구별한다.",
+        "targets": [
+          "2수01-05:subtraction"
+        ]
+      },
+      {
+        "case_id": "early-2수01-10-groups",
+        "condition": "한 묶음의 3개와 서로 다른 4묶음을 구별한다.",
+        "rationale": "한 묶음의 3개와 서로 다른 4묶음을 구별한다.",
+        "targets": [
+          "2수01-10:groups"
+        ]
+      },
+      {
+        "case_id": "early-2수01-11-table",
+        "condition": "배열을 회전해도 개수가 변하지 않음을 확인한다.",
+        "rationale": "배열을 회전해도 개수가 변하지 않음을 확인한다.",
+        "targets": [
+          "2수01-11:table",
+          "2수01-11:compute"
+        ]
+      },
+      {
+        "case_id": "early-2수02-01-repeat",
+        "condition": "카드의 색과 읽는 순서를 구별한다.",
+        "rationale": "카드의 색과 읽는 순서를 구별한다.",
+        "targets": [
+          "2수02-01:find",
+          "2수02-01:express",
+          "2수02-01:predict"
+        ]
+      },
+      {
+        "case_id": "early-2수02-01-repeat",
+        "condition": "색을 손뼉·발 구르기 등의 행동으로 일대일 대응시킨다.",
+        "rationale": "색을 손뼉·발 구르기 등의 행동으로 일대일 대응시킨다.",
+        "targets": [
+          "2수02-01:find",
+          "2수02-01:express",
+          "2수02-01:predict"
+        ]
+      },
+      {
+        "case_id": "early-2수02-02-create",
+        "condition": "두 모양을 구별하고 한 방향으로 배열한다.",
+        "rationale": "두 모양을 구별하고 한 방향으로 배열한다.",
+        "targets": [
+          "2수02-02:choose",
+          "2수02-02:arrange"
+        ]
+      },
+      {
+        "case_id": "early-2수03-01-solids",
+        "condition": "물건을 만지고 돌려 보며 전체 모양의 닮은 점을 비교한다.",
+        "rationale": "물건을 만지고 돌려 보며 전체 모양의 닮은 점을 비교한다.",
+        "targets": [
+          "2수03-01:identify",
+          "2수03-01:compose"
+        ]
+      },
+      {
+        "case_id": "early-2수03-02-blocks",
+        "condition": "쌓기나무를 놓고 쌓으며 물리적으로 구별한다.",
+        "rationale": "쌓기나무를 놓고 쌓으며 물리적으로 구별한다.",
+        "targets": [
+          "2수03-02:build",
+          "2수03-02:describe"
+        ]
+      },
+      {
+        "case_id": "early-2수03-03-flat",
+        "condition": "물건 전체와 지금 관찰하는 앞면·윤곽을 구별한다.",
+        "rationale": "물건 전체와 지금 관찰하는 앞면·윤곽을 구별한다.",
+        "targets": [
+          "2수03-03:find",
+          "2수03-03:compose"
+        ]
+      },
+      {
+        "case_id": "early-2수03-06-length",
+        "condition": "시작점을 맞추고 같은 방향의 끝점을 비교한다.",
+        "rationale": "시작점을 맞추고 같은 방향의 끝점을 비교한다.",
+        "targets": [
+          "2수03-06:length"
+        ]
+      },
+      {
+        "case_id": "early-2수03-06-length",
+        "condition": "두 길이를 같은 매개 띠의 같은 시작점부터 옮긴다.",
+        "rationale": "두 길이를 같은 매개 띠의 같은 시작점부터 옮긴다.",
+        "targets": [
+          "2수03-06:length"
+        ]
+      },
+      {
+        "case_id": "early-2수03-06-area",
+        "condition": "면을 겹쳐 보고 포함된 부분과 남는 부분을 구별한다.",
+        "rationale": "면을 겹쳐 보고 포함된 부분과 남는 부분을 구별한다.",
+        "targets": [
+          "2수03-06:area"
+        ]
+      },
+      {
+        "case_id": "early-2수03-07-clock",
+        "condition": "두 바늘과12개의 큰 눈금 및 한 칸의 분 눈금을 구별한다.",
+        "rationale": "두 바늘과12개의 큰 눈금 및 한 칸의 분 눈금을 구별한다.",
+        "targets": [
+          "2수03-07:read"
+        ]
+      },
+      {
+        "case_id": "early-2수04-01-classify",
+        "condition": "색 또는 모양의 차이를 구별한다.",
+        "rationale": "색 또는 모양의 차이를 구별한다.",
+        "targets": [
+          "2수04-01:classify",
+          "2수04-01:count",
+          "2수04-01:interpret"
+        ]
+      },
+      {
+        "case_id": "early-4수03-01-lines",
+        "condition": "점과 선의 표시 및 화살표 방향을 구별한다.",
+        "rationale": "점과 선의 표시 및 화살표 방향을 구별한다.",
+        "targets": [
+          "4수03-01:line",
+          "4수03-01:segment",
+          "4수03-01:ray"
+        ]
+      },
+      {
+        "case_id": "early-4수03-04-motions",
+        "condition": "모양과 표시한 면의 방향을 관찰하고 종이를 움직인다.",
+        "rationale": "모양과 표시한 면의 방향을 관찰하고 종이를 움직인다.",
+        "targets": [
+          "4수03-04:slide",
+          "4수03-04:reflect",
+          "4수03-04:rotate"
+        ]
+      },
+      {
+        "case_id": "early-4수03-12-tile",
+        "condition": "같은 조각의 경계와 놓인 위치를 비교한다.",
+        "rationale": "같은 조각의 경계와 놓인 위치를 비교한다.",
+        "targets": [
+          "4수03-12:tile"
+        ]
+      }
+    ]
+  },
+  "official_phrase_review": {
+    "standards": 435,
+    "with_remaining_phrases": 50,
+    "note": "문자열 포함 검사는 누락 후보를 찾는 수단이다. 포함률 자체를 수학적 또는 교수적 타당성으로 해석하지 않는다.",
+    "decisions": [
+      {
+        "code": "10공수2-03-04",
+        "official_goal": "유리함수 y=(ax+b)/(cx+d)의 그래프를 그릴 수 있고, 그 그래프의 성질을 탐구할 수 있다.",
+        "unmatched_phrases": [
+          "유리함수y=(ax+b)/(cx+d)의"
+        ],
+        "goal_ids": [
+          "10공수2-03-04:graph",
+          "10공수2-03-04:properties"
+        ],
+        "decision": "함수식의 대상 범위를 범위 필드와 그래프·성질 목표의 대표 과제에서 보존한다. 공통·기본의 식 범위와 정의역·퇴화 경우를 구별한다."
+      },
+      {
+        "code": "10공수2-03-05",
+        "official_goal": "무리함수 y=√(ax+b)+c의 그래프를 그릴 수 있고, 그 그래프의 성질을 탐구할 수 있다.",
+        "unmatched_phrases": [
+          "무리함수y=√(ax+b)+c의"
+        ],
+        "goal_ids": [
+          "10공수2-03-05:graph",
+          "10공수2-03-05:properties"
+        ],
+        "decision": "함수식의 대상 범위를 범위 필드와 그래프·성질 목표의 대표 과제에서 보존한다. 공통·기본의 식 범위와 정의역·퇴화 경우를 구별한다."
+      },
+      {
+        "code": "10기수2-03-04",
+        "official_goal": "유리함수 y=k/x의 그래프를 그릴 수 있고, 그 그래프의 성질을 탐구할 수 있다.",
+        "unmatched_phrases": [
+          "유리함수y=k/x의"
+        ],
+        "goal_ids": [
+          "10기수2-03-04:graph",
+          "10기수2-03-04:properties"
+        ],
+        "decision": "함수식의 대상 범위를 범위 필드와 그래프·성질 목표의 대표 과제에서 보존한다. 공통·기본의 식 범위와 정의역·퇴화 경우를 구별한다."
+      },
+      {
+        "code": "10기수2-03-05",
+        "official_goal": "무리함수 y=√(kx)의 그래프를 그릴 수 있고, 그 그래프의 성질을 탐구할 수 있다.",
+        "unmatched_phrases": [
+          "무리함수y=√(kx)의"
+        ],
+        "goal_ids": [
+          "10기수2-03-05:graph",
+          "10기수2-03-05:properties"
+        ],
+        "decision": "함수식의 대상 범위를 범위 필드와 그래프·성질 목표의 대표 과제에서 보존한다. 공통·기본의 식 범위와 정의역·퇴화 경우를 구별한다."
+      },
+      {
+        "code": "2수01-03",
+        "official_goal": "네 자리 이하의 수의 범위에서 수의 계열을 이해하고, 수의 크기를 비교할 수 있다.",
+        "unmatched_phrases": [
+          "네자리이하의수의범위에서"
+        ],
+        "goal_ids": [
+          "2수01-03:sequence",
+          "2수01-03:compare"
+        ],
+        "decision": "남은 문구는 수 범위다. 해당 범위 필드와 목표의 성공 수행·대표 과제에서 자리 수 또는 소수 자리 범위를 보존한다."
+      },
+      {
+        "code": "2수01-04",
+        "official_goal": "하나의 수를 두 수로 분해하고 두 수를 하나의 수로 합성하는 활동을 통하여 수 감각을 기른다.",
+        "unmatched_phrases": [
+          "을통하여수감각을기른다."
+        ],
+        "goal_ids": [
+          "2수01-04:split",
+          "2수01-04:compose"
+        ],
+        "decision": "수감각을 별도 계산 목표로 늘리지 않고 같은 전체의 여러 분해·복원과 한 부분의 변화 설명으로 확인한다. 14를10과4,7과7,9와5로 구성하는 과제와 진단을 보강했다."
+      },
+      {
+        "code": "2수01-05",
+        "official_goal": "덧셈과 뺄셈이 이루어지는 실생활 상황과 연결하여 덧셈과 뺄셈의 의미를 이해한다.",
+        "unmatched_phrases": [
+          "덧셈과뺄셈이이루어지는실생활상황과연결하여"
+        ],
+        "goal_ids": [
+          "2수01-05:addition",
+          "2수01-05:subtraction"
+        ],
+        "decision": "남은 문구는 생활 맥락·관찰 대상·활동 방법·연결 표현이다. 별도 필수 선수 목표를 만들지 않고 해당 범위와 실제 과제의 맥락·표현에서 다룬다. 수학적 수행은 나눈 목표의 성공 설명과 진단에 대응한다."
+      },
+      {
+        "code": "2수01-06",
+        "official_goal": "두 자리 수의 범위에서 덧셈과 뺄셈의 계산 원리를 이해하고 그 계산을 할 수 있다 .",
+        "unmatched_phrases": [
+          "두자리수의범위에서"
+        ],
+        "goal_ids": [
+          "2수01-06:add",
+          "2수01-06:subtract"
+        ],
+        "decision": "남은 문구는 수 범위다. 해당 범위 필드와 목표의 성공 수행·대표 과제에서 자리 수 또는 소수 자리 범위를 보존한다."
+      },
+      {
+        "code": "2수01-08",
+        "official_goal": "두 자리 수의 범위에서 세 수의 덧셈과 뺄셈을 할 수 있다 .",
+        "unmatched_phrases": [
+          "두자리수의범위에서",
+          "과뺄셈을할수있다."
+        ],
+        "goal_ids": [
+          "2수01-08:three-add",
+          "2수01-08:three-subtract"
+        ],
+        "decision": "뒤에 남은 뺄셈 문구는 세 수의 뺄셈·혼합 계산 목표와 주어진 변화 순서를 보존하는 과제에 대응한다. 두 자리 범위는 기준의 범위 필드에서 보존한다."
+      },
+      {
+        "code": "2수02-01",
+        "official_goal": "물체, 무늬, 수 등의 배열에서 규칙을 찾아 여러 가지 방법으로 표현할 수 있다 .",
+        "unmatched_phrases": [
+          "물체,무늬,수등의"
+        ],
+        "goal_ids": [
+          "2수02-01:find",
+          "2수02-01:express",
+          "2수02-01:predict"
+        ],
+        "decision": "남은 문구는 생활 맥락·관찰 대상·활동 방법·연결 표현이다. 별도 필수 선수 목표를 만들지 않고 해당 범위와 실제 과제의 맥락·표현에서 다룬다. 수학적 수행은 나눈 목표의 성공 설명과 진단에 대응한다."
+      },
+      {
+        "code": "2수03-01",
+        "official_goal": "교실 및 생활 주변에서 여러 가지 물건을 관찰하여 직육면체, 원기둥, 구의 모양을 찾고, 이를 이용하여 여러 가지 모양을 만들 수 있다 .",
+        "unmatched_phrases": [
+          "교실및생활주변에서여러가지물건을관찰하여"
+        ],
+        "goal_ids": [
+          "2수03-01:identify",
+          "2수03-01:compose"
+        ],
+        "decision": "남은 문구는 생활 맥락·관찰 대상·활동 방법·연결 표현이다. 별도 필수 선수 목표를 만들지 않고 해당 범위와 실제 과제의 맥락·표현에서 다룬다. 수학적 수행은 나눈 목표의 성공 설명과 진단에 대응한다."
+      },
+      {
+        "code": "2수03-02",
+        "official_goal": "쌓기나무를 이용하여 여러 가지 입체도형의 모양을 만들고 , 그 모양에 대해 위치나 방향을 이용하여 말할 수 있다 .",
+        "unmatched_phrases": [
+          ",그모양에대해"
+        ],
+        "goal_ids": [
+          "2수03-02:build",
+          "2수03-02:describe"
+        ],
+        "decision": "남은 문구는 생활 맥락·관찰 대상·활동 방법·연결 표현이다. 별도 필수 선수 목표를 만들지 않고 해당 범위와 실제 과제의 맥락·표현에서 다룬다. 수학적 수행은 나눈 목표의 성공 설명과 진단에 대응한다."
+      },
+      {
+        "code": "2수03-03",
+        "official_goal": "교실 및 생활 주변에서 여러 가지 물건을 관찰하여 삼각형 , 사각형, 원의 모양을 찾고, 이를 이용하여 여러 가지 모양을 만들 수 있다 .",
+        "unmatched_phrases": [
+          "교실및생활주변에서여러가지물건을관찰하여"
+        ],
+        "goal_ids": [
+          "2수03-03:find",
+          "2수03-03:compose"
+        ],
+        "decision": "남은 문구는 생활 맥락·관찰 대상·활동 방법·연결 표현이다. 별도 필수 선수 목표를 만들지 않고 해당 범위와 실제 과제의 맥락·표현에서 다룬다. 수학적 수행은 나눈 목표의 성공 설명과 진단에 대응한다."
+      },
+      {
+        "code": "2수03-06",
+        "official_goal": "구체물의 길이, 들이, 무게, 넓이를 비교하여 각각 ‘길다, 짧다’, ‘많다, 적다’, ‘무겁다, 가볍다’, ‘ 넓다, 좁다’ 등을 구별하여 말할 수 있다 .",
+        "unmatched_phrases": [
+          "각각‘길다,짧다’,‘많다,적다’,‘무겁다,가볍다’,‘넓다,좁다’등을구별하여말할수있다."
+        ],
+        "goal_ids": [
+          "2수03-06:length",
+          "2수03-06:capacity",
+          "2수03-06:weight",
+          "2수03-06:area"
+        ],
+        "decision": "길다·짧다,많다·적다,무겁다·가볍다,넓다·좁다는 네 비교 목표의 성공 수행과 과제에서 각각 말하게 한다."
+      },
+      {
+        "code": "2수03-09",
+        "official_goal": "실생활 문제 상황과 연결하여 1분, 1 시간, 1 일, 1 주일, 1 개월, 1 년 사이의 관계를 이해한다.",
+        "unmatched_phrases": [
+          "실생활문제상황과연결하여"
+        ],
+        "goal_ids": [
+          "2수03-09:day-week",
+          "2수03-09:calendar"
+        ],
+        "decision": "남은 문구는 생활 맥락·관찰 대상·활동 방법·연결 표현이다. 별도 필수 선수 목표를 만들지 않고 해당 범위와 실제 과제의 맥락·표현에서 다룬다. 수학적 수행은 나눈 목표의 성공 설명과 진단에 대응한다."
+      },
+      {
+        "code": "2수03-10",
+        "official_goal": "길이 단위 1cm와 1m를 알고, 이를 이용하여 주변 사물의 길이를 측정할 수 있다 .",
+        "unmatched_phrases": [
+          ",이를이용하여"
+        ],
+        "goal_ids": [
+          "2수03-10:need",
+          "2수03-10:units",
+          "2수03-10:measure"
+        ],
+        "decision": "남은 문구는 생활 맥락·관찰 대상·활동 방법·연결 표현이다. 별도 필수 선수 목표를 만들지 않고 해당 범위와 실제 과제의 맥락·표현에서 다룬다. 수학적 수행은 나눈 목표의 성공 설명과 진단에 대응한다."
+      },
+      {
+        "code": "2수03-13",
+        "official_goal": "실생활 문제 상황과 연결하여 길이의 덧셈과 뺄셈을 할 수 있다 .",
+        "unmatched_phrases": [
+          "실생활문제상황과연결하여"
+        ],
+        "goal_ids": [
+          "2수03-13:add",
+          "2수03-13:subtract"
+        ],
+        "decision": "남은 문구는 생활 맥락·관찰 대상·활동 방법·연결 표현이다. 별도 필수 선수 목표를 만들지 않고 해당 범위와 실제 과제의 맥락·표현에서 다룬다. 수학적 수행은 나눈 목표의 성공 설명과 진단에 대응한다."
+      },
+      {
+        "code": "2수04-01",
+        "official_goal": "여러 가지 사물을 정해진 기준 또는 자신이 정한 기준으로 분류하여 개수를 세어 보고 , 기준에 따른 결과를 말할 수 있다 .",
+        "unmatched_phrases": [
+          "여러가지사물을"
+        ],
+        "goal_ids": [
+          "2수04-01:classify",
+          "2수04-01:count",
+          "2수04-01:interpret"
+        ],
+        "decision": "남은 문구는 생활 맥락·관찰 대상·활동 방법·연결 표현이다. 별도 필수 선수 목표를 만들지 않고 해당 범위와 실제 과제의 맥락·표현에서 다룬다. 수학적 수행은 나눈 목표의 성공 설명과 진단에 대응한다."
+      },
+      {
+        "code": "9수01-03",
+        "official_goal": "다양한 상황을 이용하여 음수의 필요성을 인식하고, 양수와 음수, 정수와 유리수의 개념을 이해한다.",
+        "unmatched_phrases": [
+          "다양한상황을이용하여"
+        ],
+        "goal_ids": [
+          "9수01-03:need",
+          "9수01-03:signed",
+          "9수01-03:integer",
+          "9수01-03:rational"
+        ],
+        "decision": "남은 문구는 생활 맥락·관찰 대상·활동 방법·연결 표현이다. 별도 필수 선수 목표를 만들지 않고 해당 범위와 실제 과제의 맥락·표현에서 다룬다. 수학적 수행은 나눈 목표의 성공 설명과 진단에 대응한다."
+      },
+      {
+        "code": "9수02-10",
+        "official_goal": "‘(단항식)×(다항식)’, ‘(다항식)÷(단항식)’과 같은 곱셈과 나눗셈의 원리를 이해하고 , 그 계산을 할 수 있다.",
+        "unmatched_phrases": [
+          "‘(단항식)×(다항식)’,‘(다항식)÷(단항식)’과같은"
+        ],
+        "goal_ids": [
+          "9수02-10:multiply",
+          "9수02-10:divide"
+        ],
+        "decision": "남은 문구는 생활 맥락·관찰 대상·활동 방법·연결 표현이다. 별도 필수 선수 목표를 만들지 않고 해당 범위와 실제 과제의 맥락·표현에서 다룬다. 수학적 수행은 나눈 목표의 성공 설명과 진단에 대응한다."
+      },
+      {
+        "code": "4수03-04",
+        "official_goal": "구체물이나 평면도형의 밀기, 뒤집기, 돌리기 활동을 통하여 그 변화를 이해한다.",
+        "unmatched_phrases": [
+          "구체물이나평면도형의"
+        ],
+        "goal_ids": [
+          "4수03-04:slide",
+          "4수03-04:reflect",
+          "4수03-04:rotate"
+        ],
+        "decision": "남은 문구는 생활 맥락·관찰 대상·활동 방법·연결 표현이다. 별도 필수 선수 목표를 만들지 않고 해당 범위와 실제 과제의 맥락·표현에서 다룬다. 수학적 수행은 나눈 목표의 성공 설명과 진단에 대응한다."
+      },
+      {
+        "code": "4수03-08",
+        "official_goal": "여러 가지 모양의 삼각형에 대한 분류 활동을 통하여 이등변삼각형, 정삼각형을 이해하고, 그 성질을 탐구하고 설명할 수 있다.",
+        "unmatched_phrases": [
+          "여러가지모양의삼각형에대한분류활동을통하여"
+        ],
+        "goal_ids": [
+          "4수03-08:isosceles",
+          "4수03-08:equilateral"
+        ],
+        "decision": "남은 문구는 생활 맥락·관찰 대상·활동 방법·연결 표현이다. 별도 필수 선수 목표를 만들지 않고 해당 범위와 실제 과제의 맥락·표현에서 다룬다. 수학적 수행은 나눈 목표의 성공 설명과 진단에 대응한다."
+      },
+      {
+        "code": "4수03-09",
+        "official_goal": "여러 가지 모양의 삼각형에 대한 분류 활동을 통하여 직각삼각형 , 예각삼각형, 둔각 삼각형을 이해한다.",
+        "unmatched_phrases": [
+          "여러가지모양의삼각형에대한분류활동을통하여"
+        ],
+        "goal_ids": [
+          "4수03-09:classify"
+        ],
+        "decision": "남은 문구는 생활 맥락·관찰 대상·활동 방법·연결 표현이다. 별도 필수 선수 목표를 만들지 않고 해당 범위와 실제 과제의 맥락·표현에서 다룬다. 수학적 수행은 나눈 목표의 성공 설명과 진단에 대응한다."
+      },
+      {
+        "code": "4수03-10",
+        "official_goal": "여러 가지 모양의 사각형에 대한 분류 활동을 통하여 직사각형, 정사각형, 사다리꼴, 평행 사변형, 마름모를 이해하고, 그 성질을 탐구하고 설명할 수 있다 .",
+        "unmatched_phrases": [
+          "여러가지모양의사각형에대한분류활동을통하여"
+        ],
+        "goal_ids": [
+          "4수03-10:rectangle",
+          "4수03-10:square",
+          "4수03-10:trapezoid",
+          "4수03-10:parallelogram",
+          "4수03-10:rhombus"
+        ],
+        "decision": "남은 문구는 생활 맥락·관찰 대상·활동 방법·연결 표현이다. 별도 필수 선수 목표를 만들지 않고 해당 범위와 실제 과제의 맥락·표현에서 다룬다. 수학적 수행은 나눈 목표의 성공 설명과 진단에 대응한다."
+      },
+      {
+        "code": "4수03-12",
+        "official_goal": "주어진 도형을 이용하여 여러 가지 모양을 만들거나 채우고 설명할 수 있다 .",
+        "unmatched_phrases": [
+          "주어진도형을이용하여"
+        ],
+        "goal_ids": [
+          "4수03-12:make",
+          "4수03-12:tile"
+        ],
+        "decision": "남은 문구는 생활 맥락·관찰 대상·활동 방법·연결 표현이다. 별도 필수 선수 목표를 만들지 않고 해당 범위와 실제 과제의 맥락·표현에서 다룬다. 수학적 수행은 나눈 목표의 성공 설명과 진단에 대응한다."
+      },
+      {
+        "code": "4수03-14",
+        "official_goal": "실생활 문제 상황과 연결하여 초 단위까지의 시간의 덧셈과 뺄셈을 할 수 있다 .",
+        "unmatched_phrases": [
+          "실생활문제상황과연결하여"
+        ],
+        "goal_ids": [
+          "4수03-14:add",
+          "4수03-14:subtract"
+        ],
+        "decision": "남은 문구는 생활 맥락·관찰 대상·활동 방법·연결 표현이다. 별도 필수 선수 목표를 만들지 않고 해당 범위와 실제 과제의 맥락·표현에서 다룬다. 수학적 수행은 나눈 목표의 성공 설명과 진단에 대응한다."
+      },
+      {
+        "code": "4수03-15",
+        "official_goal": "길이 단위 1mm와 1km를 알고 , 이를 이용하여 길이를 측정하고 어림하며 수학의 유용성을 인식할 수 있다 .",
+        "unmatched_phrases": [
+          ",이를이용하여"
+        ],
+        "goal_ids": [
+          "4수03-15:units",
+          "4수03-15:measure",
+          "4수03-15:estimate",
+          "4수03-15:use"
+        ],
+        "decision": "남은 문구는 생활 맥락·관찰 대상·활동 방법·연결 표현이다. 별도 필수 선수 목표를 만들지 않고 해당 범위와 실제 과제의 맥락·표현에서 다룬다. 수학적 수행은 나눈 목표의 성공 설명과 진단에 대응한다."
+      },
+      {
+        "code": "4수03-16",
+        "official_goal": "1cm와 1mm, 1km와 1m의 관계를 이해하고, 길이를 ‘몇 cm 몇 mm’와 ‘몇 mm’, ‘몇 km 몇 m’와 ‘몇 m’로 다양하게 표현할 수 있다.",
+        "unmatched_phrases": [
+          ",길이를‘몇cm몇mm’와‘몇mm’,‘몇km몇m’와‘몇m’로다양하게표현할수있다."
+        ],
+        "goal_ids": [
+          "4수03-16:cm-mm",
+          "4수03-16:km-m"
+        ],
+        "decision": "복합 단위와 단일 단위의 다양한 표현은 cm/mm와 km/m 목표의 왕복 변환 수행에 각각 대응한다."
+      },
+      {
+        "code": "4수03-17",
+        "official_goal": "들이 단위 1L와 1mL를 알고, 이를 이용하여 들이를 측정하고 어림하며 수학의 유용성을 인식할 수 있다.",
+        "unmatched_phrases": [
+          ",이를이용하여"
+        ],
+        "goal_ids": [
+          "4수03-17:units",
+          "4수03-17:measure",
+          "4수03-17:estimate",
+          "4수03-17:use"
+        ],
+        "decision": "남은 문구는 생활 맥락·관찰 대상·활동 방법·연결 표현이다. 별도 필수 선수 목표를 만들지 않고 해당 범위와 실제 과제의 맥락·표현에서 다룬다. 수학적 수행은 나눈 목표의 성공 설명과 진단에 대응한다."
+      },
+      {
+        "code": "4수03-19",
+        "official_goal": "실생활 문제 상황과 연결하여 들이의 덧셈과 뺄셈을 할 수 있다 .",
+        "unmatched_phrases": [
+          "실생활문제상황과연결하여"
+        ],
+        "goal_ids": [
+          "4수03-19:add",
+          "4수03-19:subtract"
+        ],
+        "decision": "남은 문구는 생활 맥락·관찰 대상·활동 방법·연결 표현이다. 별도 필수 선수 목표를 만들지 않고 해당 범위와 실제 과제의 맥락·표현에서 다룬다. 수학적 수행은 나눈 목표의 성공 설명과 진단에 대응한다."
+      },
+      {
+        "code": "4수03-20",
+        "official_goal": "실생활에서 무게를 나타낼 때 사용하는 단위 1g과 1kg을 알고, 이를 이용하여 무게를 측정하고 어림하며 수학의 유용성을 인식할 수 있다 .",
+        "unmatched_phrases": [
+          "실생활에서무게를나타낼때사용하는",
+          ",이를이용하여"
+        ],
+        "goal_ids": [
+          "4수03-20:units",
+          "4수03-20:measure",
+          "4수03-20:estimate",
+          "4수03-20:use"
+        ],
+        "decision": "남은 문구는 생활 맥락·관찰 대상·활동 방법·연결 표현이다. 별도 필수 선수 목표를 만들지 않고 해당 범위와 실제 과제의 맥락·표현에서 다룬다. 수학적 수행은 나눈 목표의 성공 설명과 진단에 대응한다."
+      },
+      {
+        "code": "4수03-22",
+        "official_goal": "실생활에서 무게를 나타낼 때 사용하는 단위 1t을 알고, 1t과 1kg의 관계를 이해한다.",
+        "unmatched_phrases": [
+          "실생활에서무게를나타낼때사용하는"
+        ],
+        "goal_ids": [
+          "4수03-22:tonne",
+          "4수03-22:relation"
+        ],
+        "decision": "남은 문구는 생활 맥락·관찰 대상·활동 방법·연결 표현이다. 별도 필수 선수 목표를 만들지 않고 해당 범위와 실제 과제의 맥락·표현에서 다룬다. 수학적 수행은 나눈 목표의 성공 설명과 진단에 대응한다."
+      },
+      {
+        "code": "4수03-23",
+        "official_goal": "실생활 문제 상황과 연결하여 무게의 덧셈과 뺄셈을 할 수 있다 .",
+        "unmatched_phrases": [
+          "실생활문제상황과연결하여"
+        ],
+        "goal_ids": [
+          "4수03-23:add",
+          "4수03-23:subtract"
+        ],
+        "decision": "남은 문구는 생활 맥락·관찰 대상·활동 방법·연결 표현이다. 별도 필수 선수 목표를 만들지 않고 해당 범위와 실제 과제의 맥락·표현에서 다룬다. 수학적 수행은 나눈 목표의 성공 설명과 진단에 대응한다."
+      },
+      {
+        "code": "4수03-25",
+        "official_goal": "여러 가지 방법으로 삼각형과 사각형의 내각의 크기의 합을 추론하고, 자신의 추론 과정을 설명할 수 있다.",
+        "unmatched_phrases": [
+          "여러가지방법으로"
+        ],
+        "goal_ids": [
+          "4수03-25:triangle",
+          "4수03-25:quadrilateral"
+        ],
+        "decision": "남은 문구는 생활 맥락·관찰 대상·활동 방법·연결 표현이다. 별도 필수 선수 목표를 만들지 않고 해당 범위와 실제 과제의 맥락·표현에서 다룬다. 수학적 수행은 나눈 목표의 성공 설명과 진단에 대응한다."
+      },
+      {
+        "code": "4수01-02",
+        "official_goal": "다섯 자리 이상의 수의 범위에서 수의 계열을 이해하고 , 수의 크기를 비교하며 그 방법을 설명할 수 있다 .",
+        "unmatched_phrases": [
+          "다섯자리이상의수의범위에서"
+        ],
+        "goal_ids": [
+          "4수01-02:sequence",
+          "4수01-02:compare"
+        ],
+        "decision": "남은 문구는 수 범위다. 해당 범위 필드와 목표의 성공 수행·대표 과제에서 자리 수 또는 소수 자리 범위를 보존한다."
+      },
+      {
+        "code": "4수01-03",
+        "official_goal": "세 자리 수의 덧셈과 뺄셈의 계산 원리를 이해하고 그 계산을 할 수 있다 .",
+        "unmatched_phrases": [
+          "세자리수의"
+        ],
+        "goal_ids": [
+          "4수01-03:add",
+          "4수01-03:subtract"
+        ],
+        "decision": "남은 문구는 수 범위다. 해당 범위 필드와 목표의 성공 수행·대표 과제에서 자리 수 또는 소수 자리 범위를 보존한다."
+      },
+      {
+        "code": "4수01-05",
+        "official_goal": "나눗셈이 이루어지는 실생활 상황과 연결하여 나눗셈의 의미를 알고 , 곱셈과 나눗셈의 관계를 이해한다.",
+        "unmatched_phrases": [
+          "나눗셈이이루어지는실생활상황과연결하여"
+        ],
+        "goal_ids": [
+          "4수01-05:share",
+          "4수01-05:group",
+          "4수01-05:inverse"
+        ],
+        "decision": "남은 문구는 생활 맥락·관찰 대상·활동 방법·연결 표현이다. 별도 필수 선수 목표를 만들지 않고 해당 범위와 실제 과제의 맥락·표현에서 다룬다. 수학적 수행은 나눈 목표의 성공 설명과 진단에 대응한다."
+      },
+      {
+        "code": "4수01-06",
+        "official_goal": "나누는 수가 한 자리 수인 나눗셈의 계산 원리를 이해하고 그 계산을 할 수 있으며 , 나눗셈에서 몫과 나머지의 의미를 안다 .",
+        "unmatched_phrases": [
+          ",나눗셈에서"
+        ],
+        "goal_ids": [
+          "4수01-06:divide",
+          "4수01-06:remainder",
+          "4수01-06:verify"
+        ],
+        "decision": "남은 문구는 생활 맥락·관찰 대상·활동 방법·연결 표현이다. 별도 필수 선수 목표를 만들지 않고 해당 범위와 실제 과제의 맥락·표현에서 다룬다. 수학적 수행은 나눈 목표의 성공 설명과 진단에 대응한다."
+      },
+      {
+        "code": "4수01-13",
+        "official_goal": "자릿값의 원리를 바탕으로 소수 두 자리 수와 소수 세 자리 수를 이해하고 읽고 쓸 수 있다 .",
+        "unmatched_phrases": [
+          "자릿값의원리를바탕으로"
+        ],
+        "goal_ids": [
+          "4수01-13:hundredths",
+          "4수01-13:thousandths"
+        ],
+        "decision": "자릿값 원리는0.1을10등분한0.01과0.01을10등분한0.001의 설명 및0의 자리 보존 과제에 대응한다."
+      },
+      {
+        "code": "4수01-16",
+        "official_goal": "소수 두 자리 수의 범위에서 소수의 덧셈과 뺄셈의 계산 원리를 이해하고 그 계산을 할 수 있다.",
+        "unmatched_phrases": [
+          "소수두자리수의범위에서"
+        ],
+        "goal_ids": [
+          "4수01-16:add",
+          "4수01-16:subtract"
+        ],
+        "decision": "남은 문구는 수 범위다. 해당 범위 필드와 목표의 성공 수행·대표 과제에서 자리 수 또는 소수 자리 범위를 보존한다."
+      },
+      {
+        "code": "4수02-03",
+        "official_goal": "등호를 사용하여 크기가 같은 두 양의 관계를 식으로 나타낼 수 있다 .",
+        "unmatched_phrases": [
+          "등호를사용하여",
+          "를식으로나타낼수있다."
+        ],
+        "goal_ids": [
+          "4수02-03:equal",
+          "4수02-03:write"
+        ],
+        "decision": "등호 사용과 관계를 식으로 나타내기는 동치 판단 및 등호로 관계식 쓰기의 두 목표에 대응한다. 식의 양쪽 순서를 바꾸는 진단을 포함한다."
+      },
+      {
+        "code": "6수03-02",
+        "official_goal": "실생활과 연결하여 선대칭도형과 점대칭도형을 이해하고 그릴 수 있다.",
+        "unmatched_phrases": [
+          "실생활과연결하여"
+        ],
+        "goal_ids": [
+          "6수03-02:line-meaning",
+          "6수03-02:line-draw",
+          "6수03-02:point-meaning",
+          "6수03-02:point-draw"
+        ],
+        "decision": "남은 문구는 생활 맥락·관찰 대상·활동 방법·연결 표현이다. 별도 필수 선수 목표를 만들지 않고 해당 범위와 실제 과제의 맥락·표현에서 다룬다. 수학적 수행은 나눈 목표의 성공 설명과 진단에 대응한다."
+      },
+      {
+        "code": "6수03-10",
+        "official_goal": "쌓기나무로 만든 입체도형의 위, 앞, 옆에서 본 모양을 표현할 수 있고 , 이러한 표현을 보고 입체도형의 모양을 추측할 수 있다.",
+        "unmatched_phrases": [
+          "쌓기나무로만든입체도형의"
+        ],
+        "goal_ids": [
+          "6수03-10:views",
+          "6수03-10:infer"
+        ],
+        "decision": "남은 문구는 생활 맥락·관찰 대상·활동 방법·연결 표현이다. 별도 필수 선수 목표를 만들지 않고 해당 범위와 실제 과제의 맥락·표현에서 다룬다. 수학적 수행은 나눈 목표의 성공 설명과 진단에 대응한다."
+      },
+      {
+        "code": "6수01-01",
+        "official_goal": "덧셈, 뺄셈, 곱셈, 나눗셈의 혼합 계산에서 계산하는 순서를 알고, 혼합 계산을 할 수 있다.",
+        "unmatched_phrases": [
+          "덧셈,뺄셈,곱셈,나눗셈의혼합계산에서"
+        ],
+        "goal_ids": [
+          "6수01-01:order",
+          "6수01-01:calculate"
+        ],
+        "decision": "남은 문구는 생활 맥락·관찰 대상·활동 방법·연결 표현이다. 별도 필수 선수 목표를 만들지 않고 해당 범위와 실제 과제의 맥락·표현에서 다룬다. 수학적 수행은 나눈 목표의 성공 설명과 진단에 대응한다."
+      },
+      {
+        "code": "6수01-02",
+        "official_goal": "실생활과 연결하여 이상 , 이하, 초과, 미만의 의미와 쓰임을 알고 , 이를 활용하여 수의 범위를 나타낼 수 있다 .",
+        "unmatched_phrases": [
+          "실생활과연결하여",
+          ",이를활용하여"
+        ],
+        "goal_ids": [
+          "6수01-02:meaning",
+          "6수01-02:range"
+        ],
+        "decision": "남은 문구는 생활 맥락·관찰 대상·활동 방법·연결 표현이다. 별도 필수 선수 목표를 만들지 않고 해당 범위와 실제 과제의 맥락·표현에서 다룬다. 수학적 수행은 나눈 목표의 성공 설명과 진단에 대응한다."
+      },
+      {
+        "code": "6수01-03",
+        "official_goal": "어림값을 구하기 위한 방법으로 올림 , 버림, 반올림의 의미와 필요성을 알고 , 이를 실생활에 활용함으로써 수학의 유용성을 인식할 수 있다 .",
+        "unmatched_phrases": [
+          "어림값을구하기위한방법으로"
+        ],
+        "goal_ids": [
+          "6수01-03:up",
+          "6수01-03:down",
+          "6수01-03:nearest",
+          "6수01-03:use"
+        ],
+        "decision": "남은 문구는 생활 맥락·관찰 대상·활동 방법·연결 표현이다. 별도 필수 선수 목표를 만들지 않고 해당 범위와 실제 과제의 맥락·표현에서 다룬다. 수학적 수행은 나눈 목표의 성공 설명과 진단에 대응한다."
+      },
+      {
+        "code": "6수01-10",
+        "official_goal": "‘(자연수)÷(자연수)’에서 나눗셈의 몫을 분수로 나타낼 수 있다 .",
+        "unmatched_phrases": [
+          "‘(자연수)÷(자연수)’에서"
+        ],
+        "goal_ids": [
+          "6수01-10:quotient"
+        ],
+        "decision": "남은 문구는 생활 맥락·관찰 대상·활동 방법·연결 표현이다. 별도 필수 선수 목표를 만들지 않고 해당 범위와 실제 과제의 맥락·표현에서 다룬다. 수학적 수행은 나눈 목표의 성공 설명과 진단에 대응한다."
+      },
+      {
+        "code": "6수01-14",
+        "official_goal": "‘(자연수)÷(자연수)’에서 나눗셈의 몫을 소수로 나타낼 수 있다 .",
+        "unmatched_phrases": [
+          "‘(자연수)÷(자연수)’에서"
+        ],
+        "goal_ids": [
+          "6수01-14:quotient"
+        ],
+        "decision": "남은 문구는 생활 맥락·관찰 대상·활동 방법·연결 표현이다. 별도 필수 선수 목표를 만들지 않고 해당 범위와 실제 과제의 맥락·표현에서 다룬다. 수학적 수행은 나눈 목표의 성공 설명과 진단에 대응한다."
+      },
+      {
+        "code": "6수02-01",
+        "official_goal": "한 양이 변할 때 다른 양이 그에 종속하여 변하는 대응 관계를 나타낸 표에서 규칙을 찾아 설명하고, □, △ 등을 사용하여 식으로 나타낼 수 있다 .",
+        "unmatched_phrases": [
+          "한양이변할때다른양이그에종속하여변하는대응관계를나타낸표에서"
+        ],
+        "goal_ids": [
+          "6수02-01:find",
+          "6수02-01:express"
+        ],
+        "decision": "한 양의 변화에 종속하는 다른 양은 대응표의 입력·출력, 같은 대응 규칙 찾기와 기호식 표현에 함께 보존한다. 임의의 두 수 목록을 관계식으로 간주하지 않는다."
+      },
+      {
+        "code": "6수02-04",
+        "official_goal": "비례식을 알고, 그 성질을 이해하며, 이를 활용하여 간단한 비례식을 풀 수 있다 .",
+        "unmatched_phrases": [
+          ",이를활용하여"
+        ],
+        "goal_ids": [
+          "6수02-04:meaning",
+          "6수02-04:property",
+          "6수02-04:solve"
+        ],
+        "decision": "남은 문구는 생활 맥락·관찰 대상·활동 방법·연결 표현이다. 별도 필수 선수 목표를 만들지 않고 해당 범위와 실제 과제의 맥락·표현에서 다룬다. 수학적 수행은 나눈 목표의 성공 설명과 진단에 대응한다."
+      }
+    ]
+  },
+  "source_hashes": {
+    "data/goal_hierarchy_algebra_calculus_one.json": "bdf555aa3356ad0670ef0ccb43b79afa4b013b083af96db6a57235f65f71e3d2",
+    "data/goal_hierarchy_calculus_two_geometry.json": "0214056629caebd71c06e3fd4d0716e438c3d4184a5a6c4499a78b8fb7673780",
+    "data/goal_hierarchy_common_basic_one.json": "cf4631a160a50fa80efbc065c731ada8dc276b3a8e24061371efb1cc48c8c62c",
+    "data/goal_hierarchy_common_basic_two.json": "587176ac8eb779994c18a23316306725f687b8d141e7a4b1c4d2d6f6a71b2d86",
+    "data/goal_hierarchy_early_number.json": "930e2bd7624eb8701c81dd94b2abc29c7db036c5ccf2e1ceac93d887b9b0f156",
+    "data/goal_hierarchy_early_shape_measure_data.json": "628f9f9080aa33ff229b6beda0c4c546903a9f6fb4ff86935edd804d11d24954",
+    "data/goal_hierarchy_economy_ai.json": "24e8ab5ed9134ed48791e6e8142ab81e06a2097e2929faa6f9ac7dcbe17dbaa8",
+    "data/goal_hierarchy_middle_functions_statistics.json": "8ecb75da39a6782fe9330bb15de6564770c640c987cc56ab666aab0114a50ec7",
+    "data/goal_hierarchy_middle_geometry.json": "3d1079804e82af1b79ca27a66d26c5e45d6d0c541914c36b9eae7379ec7e0d05",
+    "data/goal_hierarchy_middle_number_algebra.json": "1a8e35da9d918d6a55fe89cb843017f6a3017b8ee5c916273bd9f991e69b2b9f",
+    "data/goal_hierarchy_primary_3_4_geometry_measure_data.json": "6c360b6e782127381064b9a9d231b6feef10e6a8593bf51f5e1be894c9fba7b5",
+    "data/goal_hierarchy_primary_3_4_number_patterns.json": "e7a4ccd8d2260692149ff9537598824f9b8022afe23b252dc7d9031f7c71eb9b",
+    "data/goal_hierarchy_probability_statistics.json": "aab23ef5e997f8587c9973743f9eda3ca4eb1b50f05e8b58f66712adb80bd4b0",
+    "data/goal_hierarchy_upper_primary_geometry_data.json": "453a89c9901c5572c5ca2740e4b58ccada9f0088487f1bba7301717505195f68",
+    "data/goal_hierarchy_upper_primary_number_ratio.json": "964a5b06736fe3236c0f74082dfe58eb30b88b7e781a7c99ca00384f8645ae70",
+    "data/goal_hierarchy_work_culture_inquiry.json": "386887d9f22356f20b01fe91f4d51b18d4009a7525236a48b7ad0d2e20644f11"
+  },
+  "condition_snapshots": {
+    "early-12대수01-01-roots|roots|0": "ab9ec938ec74ad9a8e44c36925b2f191ad2f4e0fffce98ac5380ef258e237c05",
+    "early-12대수01-01-roots|roots|1": "093ff4753508b96f849447815e5e139231b2e396589fa5221e9449546cd258df",
+    "early-12대수01-02-rational|rational|0": "f613659a800f8276567b6e90b1edc50eb827ce2bc4b02257c7460f50e5302af1",
+    "early-12대수01-02-rational|rational|1": "556bd0473e140d6217e6b897fec8b682cdae6fa75417c1995a906bbabe9bc9ee",
+    "early-12대수01-02-real|real|0": "82b417d4305e8c345106750ed2d84883d76e3b688128e8bc5ebed9efef0c994e",
+    "early-12대수01-02-real|real|1": "a922834593df544d6531e597507bb1b9757607780cd8758a79744e43532a8a60",
+    "early-12대수01-03-laws|laws|0": "bc079e85951afd5c7d236ba63c04e512f8b479af3274b37ee2f56a58cd40f146",
+    "early-12대수01-03-laws|laws|1": "f7a4affba90d8abde4eebd8a018f061302237d85f758c8627321f11e069832a6",
+    "early-12대수01-04-logarithms|logarithms|0": "a1e4be5c327212fe3f50ccf108297a177f9646b90a3d2f095f046ea798d9bcb6",
+    "early-12대수01-05-digits|digits|0": "1ba7ca33c0441649d253cf163576866d6fef4d9ccc6428687fe2885db1601d76",
+    "early-12대수01-05-decibels|decibels|0": "6cfb4a6d9f7d707a2515154cea47e8a24e1a89a6cde2e05477dba493411e489d",
+    "early-12대수01-05-decibels|decibels|1": "0621031833d7446e589edceed77431222d77caf6cbd993c17743d09b971f3ace",
+    "early-12대수01-06-inverse|inverse|0": "f213a0b89687f35fae545bdd51d6317d5fbbc35730be4e03b2fb37a4a09defa8",
+    "early-12대수01-06-inverse|inverse|1": "58d47d37d2e5d06f459d43ff4011c7c82bcf89eaa25af5622e9be56dbd01bf27",
+    "early-12대수01-07-graphs|graphs|0": "352598a9ddcde3e65d3b5bea4435939b8a9cc97e7e45e7948272e43508844858",
+    "early-12대수01-07-graphs|graphs|1": "a3a11f1112284510567e72db265ede4bf60e446a43a0a1f68d0d4a148a5e0cc5",
+    "early-12대수01-08-growth|growth|0": "afa4102594acd777a2412606df52aaae396660fd55f83bf33f4fdda3bcb277f3",
+    "early-12대수01-08-growth|growth|1": "50f076b7dea486cc6d648d227497c2b61c5bbb55622b7f8ffca11a2bc80b13ad",
+    "early-12대수02-01-radians|radians|0": "1ce5af18bcc0d8a06610c1b1e6aa20285ddbe6d731ad1e99b439d019c7e38206",
+    "early-12대수02-02-unit-circle|unit-circle|0": "5d4ac0075e89a4c921d0e0164c792d48f8cdaf27575d18db9b00d6f29cd27948",
+    "early-12대수02-02-unit-circle|unit-circle|1": "5ffd5313f5b403e4d90861a6b0b2599166b3ed4a1af64a7c1544c63fbd7de297",
+    "early-12대수02-03-survey|survey|0": "925deb9fe483c6e514858dc4a3e364421de74abc5b37e0cefaa1a4afde6c007f",
+    "early-12대수02-03-survey|survey|1": "f6ed93ff83a3a818a68ff76cfc20076c379d407b64d3179df4f171f699fb6692",
+    "early-12대수03-01-index|index|0": "dbd9a9e8261e8262adb7b2a30e9caedb17180d6afd0860932c221391e397ea18",
+    "early-12대수03-02-arithmetic|arithmetic|0": "d09b5c27137121abcd95d41879f77e5a0ba1535c02c150e799483704e6257cd9",
+    "early-12대수03-02-arithmetic|arithmetic|1": "76efda87d34157a62d6fb6730d365e0332fee7ced9d1dda8c0c69ebb6fd18b20",
+    "early-12대수03-03-geometric|geometric|0": "7aea58d6c807dcbebbcc1554a1eccb601c53d0326ba133004aaa4adb2576bcf7",
+    "early-12대수03-03-geometric|geometric|1": "0a693ce5f52979608e45c15c4b65395fa75b6cb1ac3e296dc06d4bd56e67f0ad",
+    "early-12대수03-04-sigma|sigma|0": "89117b4ba458351c518de67442bdf7d81362c80d8962d9ac73b61234f0df449b",
+    "early-12대수03-05-powers|powers|0": "5663b92c0e12193bcf60d47a4690a614e6babb1c6a8f0b9e43dd08d6a45d0c51",
+    "early-12대수03-05-powers|powers|1": "1f83ebc461c9bb8c769b2dd74ec4ca693d99f252488bc31a4727ca5e3d20b636",
+    "early-12대수03-05-powers|powers|2": "8bb5164fda62e935e6c8264dae8f3ec5c254aea42b2b7f674008613b89cf00e9",
+    "early-12대수03-05-telescope|telescope|0": "0d042f9c95a12d02ed9d396e39883b1c792b8a581b646f887c13ef760f78a4d7",
+    "early-12대수03-06-recursion|recursion|0": "a94c121f7a5a18e9ffce5489dbaa007ea21229c5ac77a2071cba01db3e9846de",
+    "early-12대수03-07-induction|induction|0": "11f808b676c7c5e67d9db486bda9ac17fb7d3d3d1b4ff8f6c105c6c7406f5e6b",
+    "early-12대수03-07-induction|induction|1": "6b23a444281238dc1b26612136a6de6d2895c72ec145743419dbb95346e65168",
+    "early-12미적Ⅰ-01-01-hole|hole|0": "759e9900a3a9e693b771a06cf8c137be15c2c130438d2a1e7c0f051dfe0b755e",
+    "early-12미적Ⅰ-01-01-hole|hole|1": "c1ce114b804c64c48f5c74980205bfd54b90b58a8fff0f053dfb186d1430e0a4",
+    "early-12미적Ⅰ-01-02-cancellation|cancellation|0": "01d8dbfdbf0597b1b4588223529379706cd356bfa62169b69d28ba5e2002c9c5",
+    "early-12미적Ⅰ-01-02-cancellation|cancellation|1": "e1a13893f8cd33b56453681831ffbec4ec8b90d89038217a93236afde775a223",
+    "early-12미적Ⅰ-01-03-continuity|continuity|0": "d031ce130445428291a17ec13b7bd6bc41e251f8f67eacd16b8a9cb160d200d3",
+    "early-12미적Ⅰ-01-03-continuity|continuity|1": "082f1e6793dbe7a77a184fd44c9b3f0b25ada063279f35cbb4d2e8dfb805126b",
+    "early-12미적Ⅰ-01-04-continuous-theorems|continuous-theorems|0": "07f141da088e6f2ba943aa35cd95aa7b5e4bdb77fcda1ad1623f1233250caa9b",
+    "early-12미적Ⅰ-02-01-derivative|derivative|0": "ebd93a8a10665e94abeb3341cab4e3af1402ccbb9772e124be259a93f1c447bd",
+    "early-12미적Ⅰ-02-01-derivative|derivative|1": "a2f7bebcd3ce977a718f0dcd1bb760c4b2a2c2d8412861dc4afe0c211c8b742d",
+    "early-12미적Ⅰ-02-02-corner|corner|0": "d4ace7ed7be7c74d90fa15881992d32c0e5522df76757931432b135cb492eb71",
+    "early-12미적Ⅰ-02-02-corner|corner|1": "8a2404676362f446e7bb2646fa4dd954c42fbfa10a10ab9311bb96afc2f69923",
+    "early-12미적Ⅰ-02-02-join|join|0": "a8a53651b3ec7aff693a00b4263ad7c4c485a8d0c45e8d5594fd590f5aa010c5",
+    "early-12미적Ⅰ-02-02-join|join|1": "9f6c239ccca5a9cb8e2ce00557f2174e13e5775527e9c8624d589c1c974f80ac",
+    "early-12미적Ⅰ-02-03-power-rule|power-rule|0": "bf1aa392b63561619cb8cc6a46655b648da9a6849b690972e6aa80eb7c080700",
+    "early-12미적Ⅰ-02-03-power-rule|power-rule|1": "c004ef14dc1e776bb9e91a965a1c3478885056370751c09b00e3904ca334e4a5",
+    "early-12미적Ⅰ-02-04-product|product|0": "b6c67b9041892f87736c1ee58b07105dc2227cdc155c1746a33306f19f8bf1a6",
+    "early-12미적Ⅰ-02-04-product|product|1": "3ead79a8dd046cc84cde2f4c2db3db40a5c803a05159140f0cf26ede1eddd264",
+    "early-12미적Ⅰ-02-05-tangent|tangent|0": "b9305f15f81be670efa695ebbb0ddef7863349e8962c119a607537299992e2a3",
+    "early-12미적Ⅰ-02-05-tangent|tangent|1": "57d1fb067c05bd79a913f38a496188e711400515ff1e0a8a14bac2edbce1c9af",
+    "early-12미적Ⅰ-02-05-tangent|tangent|2": "48069b07547871eb9ceaa4eee6bed34c113b37055370997a4be2ec82ed86775a",
+    "early-12미적Ⅰ-02-06-mean-value|mean-value|0": "2fba9c759953afbf2454b666b3727a13f143028ecc85697c45d1b42e644fe81e",
+    "early-12미적Ⅰ-02-06-mean-value|mean-value|1": "21b8598d572f8486dafd06ecd6ecca4536b52c8f943338818467b883271a774b",
+    "early-12미적Ⅰ-02-07-sign-chart|sign-chart|0": "d2203debf91b2ac1ef0ce30da9961a507d72d0d1c13a0feddaac0851db2a1e48",
+    "early-12미적Ⅰ-02-07-sign-chart|sign-chart|1": "d13b24192d99dac7be9a4f8c26b4ed9e3e0a7f180d52f512699ae3dd3dc7cefb",
+    "early-12미적Ⅰ-02-07-sign-chart|sign-chart|2": "1e826b6313fa72657b80334d27fdc107d3f89fe05f24554b0a930e8b7d20fae6",
+    "early-12미적Ⅰ-02-08-cubic|cubic|0": "c46ca0358daf8bfa231255a2106831bcde8650e20f9a4ed639666db7ba574d44",
+    "early-12미적Ⅰ-02-08-cubic|cubic|1": "cadfb8f8aa871effc78bd7709078f9d58105fe7547f1200a7e3a4c0280767792",
+    "early-12미적Ⅰ-02-08-cubic|cubic|2": "3d6adee697fe1b2be62ba130ad309f763569633ee4928b336b0e553e36967845",
+    "early-12미적Ⅰ-02-09-unique-root|unique-root|0": "244a39e50ba5fca5dfefd84eec5dd658f321ba85c1a0edf6c01fbcef26d41d28",
+    "early-12미적Ⅰ-02-09-unique-root|unique-root|1": "9bb79f1aed83eabef296ea4a1a3b65ccf94a1096c3fe63e680ce0bd5bef5f63a",
+    "early-12미적Ⅰ-02-09-inequality|inequality|0": "5a236b9f15ca4f326b3dbfa8882fecd72ad4a8005c5174e038a6d1d0d7b7dca6",
+    "early-12미적Ⅰ-02-10-motion|motion|0": "2bb60110f6d9cceb237c2189728ee753bced96b30b822b6920e1b215921d7c2e",
+    "early-12미적Ⅰ-02-10-motion|motion|1": "6d3de0af5f292b8c3e18a0680262172088ba24445553cb1fedab9a8cf4227db8",
+    "early-12미적Ⅰ-03-01-antiderivative|antiderivative|0": "0dc8a5f84f68559c41aa5625c69d896719f6ea3a1bc036e7e80db213145e3ca7",
+    "early-12미적Ⅰ-03-01-antiderivative|antiderivative|1": "398a13aa36f8ba57371f21bf0c22ad6eedcba32a55d0447b5294c72047ef2b3b",
+    "early-12미적Ⅰ-03-02-polynomial-integral|polynomial-integral|0": "87399a811680e0fb30d8fa5223c06ab86b693430530925e2dc240e590245bd5c",
+    "early-12미적Ⅰ-03-02-polynomial-integral|polynomial-integral|1": "1cd4e969c6ad664adb5858f2a9431079704117a9b394f8e889ba6536865c56f8",
+    "early-12미적Ⅰ-03-02-polynomial-integral|polynomial-integral|2": "ab2cdc1a1279c378918361611e0ae38ba9195cef0431e72c8e2ace4a0fb903b8",
+    "early-12미적Ⅰ-03-03-signed-area|signed-area|0": "2aff2e3e6d67031d64a8fd632f32eca0f4769180cc4dc9904d2d94a9f4dcc5c4",
+    "early-12미적Ⅰ-03-04-fundamental|fundamental|0": "3cc8dbca2a7137698dcdae0d2d7745836ab15d0337214591377d521fd7fdb484",
+    "early-12미적Ⅰ-03-04-fundamental|fundamental|1": "0f9d21b4f9fc5f0f9ee7538425a4388c80e8610e8626bb1ae251ec2b208fe17c",
+    "early-12미적Ⅰ-03-05-between|between|0": "f61589adc4d929d97e9ed4f43ea89c8e5287e5d0430992d71702f21281ec7166",
+    "early-12미적Ⅰ-03-05-between|between|1": "4020a2c1f44696a6e361a7636d31e3030f4611edb69c3ce61b4bc5b803ab4bec",
+    "early-12미적Ⅰ-03-05-between|between|2": "8e5048be11a44124c7f9206452716891ceae6acd67bbb172c0bb6a2ce559bea3",
+    "early-12미적Ⅰ-03-06-distance|distance|0": "72a0d565107442ac3b359b71cbb3fad2046e87d2d1405e93b4ea49afeb6f0c2f",
+    "early-12미적Ⅰ-03-06-distance|distance|1": "be4c5bf2737c507b87324ca30da557b449157a9143d7460b426f264e768ac9de",
+    "early-12미적Ⅰ-03-06-distance|distance|2": "ee01e6185cd6f44be217b824126c529dc8b08d04e286b32ffa73cf7d180b8934",
+    "early-12미적Ⅱ-01-01-sequences|sequences|0": "a2c69a7303d0efdce5265f918242b7c95a9110cfc4fe74558736a48aa9dde0bf",
+    "early-12미적Ⅱ-01-01-sequences|sequences|1": "0477fe9d1f168060b84bd3f9f6e231bb552d3edc58dde24cd108a7d23286d42e",
+    "early-12미적Ⅱ-01-02-rational-limit|rational-limit|0": "84faf1e7c5a23b54222d45daa032f20271b38a8ca4bbb4516c8c65b9bc1cdd3d",
+    "early-12미적Ⅱ-01-03-geometric-limit|geometric-limit|0": "5026419fa3db15d1c5e69420f8513699a818e88d797e3311e555f380fc24def7",
+    "early-12미적Ⅱ-01-03-geometric-limit|geometric-limit|1": "44ec3163b1af0dd50d44e49887a674d6738fdc9c9ffac2c4971d384df1c55d1d",
+    "early-12미적Ⅱ-01-04-series|series|0": "6523c34153cfd6583846e6b9df6b9457fbd33a8a49fc4146347ab4143824f202",
+    "early-12미적Ⅱ-01-04-series|series|1": "229d0ed34ce73fadf90c86ae8b2659c93fea6efc92f1fb8935067f084f03ba7a",
+    "early-12미적Ⅱ-01-04-series|series|2": "ceec9c7c4011ac587c234a4bbbff19bd76b3baaa42e2ce0760a357ed9eb5f0fc",
+    "early-12미적Ⅱ-01-05-repeating|repeating|0": "552748415093230586b4aca91ba8f6cfcd4cb3cbf66be758b281aed15329acc9",
+    "early-12미적Ⅱ-01-05-repeating|repeating|1": "88942e10f822d56f9c46b5aaa3241f6cfe5370e3af11a4d1db020aa3f4dc8d84",
+    "early-12미적Ⅱ-01-05-repeating|repeating|2": "44b833ad79abcc141a2294b1ccfde32879dccdc485f55a637dddc084a32260aa",
+    "early-12미적Ⅱ-02-01-exp-log|exp-log|0": "db7c2dd018487d3438c80882efad12eafacb9462586206e4b402b79e3c75b8d9",
+    "early-12미적Ⅱ-02-01-exp-log|exp-log|1": "1d3beb31d4bbe82adb8163a0eb7c2d0445bb618169b59d2ad4f29a457d4f3967",
+    "early-12미적Ⅱ-02-01-exp-log|exp-log|2": "dbb8aaf25bad3d8b62a474a9a2a8bd6c7fb8d87abde1419a56afb308e782819d",
+    "early-12미적Ⅱ-02-02-addition|addition|0": "eb5818d4ddef208e8764628496b4856474708e31a26cc1b2419dd7a2a1e2a79b",
+    "early-12미적Ⅱ-02-02-addition|addition|1": "19294c4bd913e1d2a8173f7337c72d1596f2fd88ccc50132f5ae1ccaa08b429f",
+    "early-12미적Ⅱ-02-02-addition|addition|2": "51f98056fa2ac0ee28a39e78726f295aadb4e7592cb94069eab83ecf6d845355",
+    "early-12미적Ⅱ-02-02-addition|addition|3": "eed21918dfd030c4aacd9a39d7c26da09986aa1b27d32b9a54bb4985971c25d6",
+    "early-12미적Ⅱ-02-03-trig-derivatives|trig-derivatives|0": "ecedc13d314bc27d6a20ab66009cc32c29fdee96b572b33cb65cae75d3819ad4",
+    "early-12미적Ⅱ-02-03-trig-derivatives|trig-derivatives|1": "af5bdc3210f6e9a7ef5d4ac8402cef08366840034c34a2c3ffafa32669770fa0",
+    "early-12미적Ⅱ-02-03-trig-derivatives|trig-derivatives|2": "e6dcdd5a7c046defdccb107f0aa85aaf04454745bb64802107da7a366b2001f8",
+    "early-12미적Ⅱ-02-04-quotient|quotient|0": "55a0855f62a306f47d55a8a668a74f4b3e319bbfebb5e89d00b394e114138a58",
+    "early-12미적Ⅱ-02-04-trig-quotients|trig-quotients|0": "4ae8d6ade62094eb7a287c6c0246ab053b9b43da2dd21f03c9e8785e31503862",
+    "early-12미적Ⅱ-02-05-chain|chain|0": "5473faf6535e015af0645de2ab1d611d02b24f9fdc905665c552d09b770026eb",
+    "early-12미적Ⅱ-02-05-chain|chain|1": "9be7cc87277ad4c6c1dfa6c998b9bfbb4e140d707dbfbec82c757687286c0193",
+    "early-12미적Ⅱ-02-05-chain|chain|2": "ac3daa0be564699ecaa033e586e3ae679bffe37954d6d099bb075ae9c582f797",
+    "early-12미적Ⅱ-02-06-parametric|parametric|0": "d15ae810c4a190696ab921b34fb4dae6b9954fd4b513ed4057fb9d2face1f1a6",
+    "early-12미적Ⅱ-02-06-parametric|parametric|1": "9b2ddced0b75e8b8d205a336467437075dbcda267e1d3a058969c25871ca3f73",
+    "early-12미적Ⅱ-02-07-implicit|implicit|0": "0d4ba487fcd5f1975099390ad36aabce25969715ff9b96bcf25785847ab73924",
+    "early-12미적Ⅱ-02-07-inverse|inverse|0": "7d6357aca4f64d6f17703b4fe3a4629fc30a06e6c681a5cd561c0b7bcaa82ad9",
+    "early-12미적Ⅱ-02-07-inverse|inverse|1": "679f06860bda93dd0e1a655fe346161babb132f5923bd90c4cc5143925d3b392",
+    "early-12미적Ⅱ-02-07-inverse|inverse|2": "cfaa3597845ae259a1931721a1598907d0161f71c1ebaf5a92f7ceaa6247ebf8",
+    "early-12미적Ⅱ-02-08-tangents|tangents|0": "974681342ffe68b230dc2fca91cb8104fe39e142c0f3a5acb89ef0ec1e5037b6",
+    "early-12미적Ⅱ-02-08-tangents|tangents|1": "e2fd2d55de3d70e1d5a869f6c38b511d5d7add19bd7005e303775118bc7e4b6b",
+    "early-12미적Ⅱ-02-08-tangents|tangents|2": "051c3d8f6b266ef8124ccd611bb9d8f9ac376de0bcca7caacf686d11489b07e6",
+    "early-12미적Ⅱ-02-09-exponential-shape|exponential-shape|0": "918820964df6666ac12cf39a39c6df7869e2fba120b0bac37f2a28edf73734a1",
+    "early-12미적Ⅱ-02-09-exponential-shape|exponential-shape|1": "f84f5ff45a32aadad2872159e43b647388db69520acdfef82dbf84dffd5eeb26",
+    "early-12미적Ⅱ-02-09-exponential-shape|exponential-shape|2": "d6b1c16b5aa17d67b86fc794e0f534c7eb62559b659658efda8edcbba3fbde1c",
+    "early-12미적Ⅱ-02-09-exponential-shape|exponential-shape|3": "658c9e0059f775c53ae9a4bcb9e5d98e7a9ea26b7120c33508ab7fc12d5f259e",
+    "early-12미적Ⅱ-02-10-exponential-inequality|exponential-inequality|0": "3342a3ded74a802ae73a029ef9645f1640efc20054dc27470c06efe88d5c52fb",
+    "early-12미적Ⅱ-02-10-exponential-inequality|exponential-inequality|1": "cf25a4d594efcf891e2cf7c5ad68b5d0d3e6a8380356029c79ce405b6ca3eec9",
+    "early-12미적Ⅱ-02-10-exponential-inequality|exponential-inequality|2": "7b137ae69f0f95bc09e32f3f08c393a87225bfbd790622f8b678608c12729333",
+    "early-12미적Ⅱ-02-11-circle-motion|circle-motion|0": "616d042a347add086e4965f2e3db45e6ce2486e9a085f84f8dab768a093bb6d6",
+    "early-12미적Ⅱ-02-11-circle-motion|circle-motion|1": "9a99c9fc798badcc30a59956598e1dedc9890528030d69ca93721b9401342b81",
+    "early-12미적Ⅱ-03-01-basic-primitives|basic-primitives|0": "c36ba5d3456106e0c25581e2e1055547e4dd0419de935300b9ce3fb3c2fb1a01",
+    "early-12미적Ⅱ-03-01-basic-primitives|basic-primitives|1": "4bf3fe207671b167dc0bd137f8c34dc16d0de099270d4de682d419ffc81415aa",
+    "early-12미적Ⅱ-03-01-basic-primitives|basic-primitives|2": "f5445e01019c33dee7d54ff45ee85a4c711cbd70f446118760d2eccfc587e067",
+    "early-12미적Ⅱ-03-01-basic-primitives|basic-primitives|3": "d5c15ccd67107a2339cc56760f468911370cb3a4b357a6b125c680a158591c9a",
+    "early-12미적Ⅱ-03-01-other-trig-primitives|other-trig-primitives|0": "47daee481206bbb16752c42878a45e57bc4cc890866450f460a9f8ee246aedc0",
+    "early-12미적Ⅱ-03-01-other-trig-primitives|other-trig-primitives|1": "15178e6c17693e16900d1acd6419df5c88ef1f6707988766a12961eeabeb0542",
+    "early-12미적Ⅱ-03-01-basic-definite|basic-definite|0": "06fcde17ac84a708c592fc2c54145889f457ad3d5f0de25d4579a6699973e8d1",
+    "early-12미적Ⅱ-03-01-basic-definite|basic-definite|1": "80ed4a1159e14de492457ae25eef346b225839dd5ef365aa52f97384248f97e1",
+    "early-12미적Ⅱ-03-02-substitution|substitution|0": "cdfa6644b958c2c659d8ec7c7ec7d8e867018b194e2f027942749077f0744ea2",
+    "early-12미적Ⅱ-03-02-substitution|substitution|1": "7f760803af31828099a40b4294ada4b53ddb8d24ef5c2e00d0b0cfc34fed9ee8",
+    "early-12미적Ⅱ-03-02-substitution|substitution|2": "8053fedbe6824f0c1dfe10e38320d4a9182ee5b6ebf44d753dabcefe4a18ffb7",
+    "early-12미적Ⅱ-03-03-parts|parts|0": "c29ff4941839aaa16e0ec9844b0128ae5a1043cee7dda060650e8020e5c7c08f",
+    "early-12미적Ⅱ-03-03-parts|parts|1": "cc6333ed3679b12cd3b4d64e2f4c243c0fe9979b947da1e128df6d2df89e7896",
+    "early-12미적Ⅱ-03-04-rectangles|rectangles|0": "953242624b1c11d7f3028c2e08a9cc6dfb8c7413676823f03f349b67a66cc95e",
+    "early-12미적Ⅱ-03-04-rectangles|rectangles|1": "e4c4143839baec7456dd1a26e9a340120935820db1e35e47117bfee1b9a6c825",
+    "early-12미적Ⅱ-03-04-rectangles|rectangles|2": "5ea5207ba746402fafafe99cf0e64f70933a837cf16f3f5d3265b0ff4655aa93",
+    "early-12미적Ⅱ-03-05-trig-area|trig-area|0": "4124272079b14a08e03d2b47b79f703afa85eca23a86249aac6abee6293d0bfa",
+    "early-12미적Ⅱ-03-05-trig-area|trig-area|1": "a2f13f67d429498088db00b0bbc0677a792c9548180e7230337998cb59045c0e",
+    "early-12미적Ⅱ-03-05-trig-area|trig-area|2": "c4ef1b8805f14686b0b254df9c91c3e51dc44e2c8106fcb3b062fd24846d0a2e",
+    "early-12미적Ⅱ-03-06-sphere-volume|sphere-volume|0": "5a18ae4578de0140da2b842b03462b878caadbc3f698e33b724f78c58ef8aef7",
+    "early-12미적Ⅱ-03-06-sphere-volume|sphere-volume|1": "c0862ad35b240d6bed0de5d079adad60e3d177b03a86a9736bcb865b8a9a4c33",
+    "early-12미적Ⅱ-03-06-sphere-volume|sphere-volume|2": "e819c0db1b74d4d7cd8b4124813b841fafcdd694ab80f8b407a54ccf92088beb",
+    "early-12미적Ⅱ-03-07-arc-distance|arc-distance|0": "98c8554ecf2cc03d31ca742fed791e2a6faf9e82e3918c66d3c654596eb17f66",
+    "early-12미적Ⅱ-03-07-arc-distance|arc-distance|1": "a2b8aefb247f797a88af17c40cef8f6c36f40bb3844c3e81547dd859d81087af",
+    "early-12미적Ⅱ-03-07-arc-distance|arc-distance|2": "09b31891c34cb4bf8a1d858a6da8a285bbe649495f13d73436d4cbf55db257ab",
+    "early-12기하01-01-parabola|parabola|0": "625aab495cf50bc031b7f7e92160b3fd07e617bbbaa76e42c508f561fece8646",
+    "early-12기하01-01-parabola|parabola|1": "9510d9c567cbd2ac34902b5e3a137fc956478288d65fcd41dc3b33c370e97a67",
+    "early-12기하01-01-parabola|parabola|3": "57b4bc42408f85366a1f746a11f2896e9934f26ce48a1b617335d36d88a2b330",
+    "early-12기하01-02-ellipse|ellipse|0": "6ea23e5916798b243c44c857040699faa9ba4ccdd95af04441a26fbebb788268",
+    "early-12기하01-02-ellipse|ellipse|1": "fd1d3ac3b31e0939abf31dd7458815a687cba8d0d09e486353ed70682ffa201d",
+    "early-12기하01-02-ellipse|ellipse|3": "332d52f356646ea758068f8b939f39b0203a4cec3541829bb8ff097e602953c6",
+    "early-12기하01-03-hyperbola|hyperbola|0": "36c88c31ccf5f49e6b98629a38dd549d807cfd09f7ac7c8a788850e27c908b9f",
+    "early-12기하01-03-hyperbola|hyperbola|1": "280fb04bb8c556294e7dc290dd515c0172abc04985d0de6821a916058eb787dc",
+    "early-12기하01-03-hyperbola|hyperbola|3": "0ffb7cc494e19d98bd9358bb53bf9303eb12ed9869612d7f42a8a5d40f95a57f",
+    "early-12기하01-04-conic-tangents|conic-tangents|0": "7a0c9b32d49ad28b92acab9609d8ae5b27f70c84a18a6b37d191200e79a7819c",
+    "early-12기하01-04-conic-tangents|conic-tangents|1": "5bfb204c70a631fd30e3e35a397543f46a8e300ef563507e4a18c82a1779a076",
+    "early-12기하01-04-conic-tangents|conic-tangents|2": "6a83af410ae66773551c44aca7651903ad2f5f1211dff27b9c2966cf020f59fb",
+    "early-12기하01-04-conic-tangents|conic-tangents|3": "29d1022fa9bc4857ab18aa818f48e422ee5e9d25b836187f08075e553244be53",
+    "early-12기하01-04-point-tangent|discriminant|0": "17284fff17cae56f0ca5cb8d49c37dbc546c06b73896181af04833c36879db3f",
+    "early-12기하01-04-point-tangent|discriminant|1": "eedeffb0a95fe8c2c95f48f06501dabbd27a8b27b8aeb1a7222be210cf981314",
+    "early-12기하01-04-point-tangent|implicit|0": "4d5d2c4a09dbd5b080e675f186fecfc6b07eccf70bdcb9a493a1cd951331cc4a",
+    "early-12기하01-04-point-tangent|implicit|1": "673f3b73a93c7c090bcf8476baae1b2acde1c344b7721e56a0fcce5c698ba5c8",
+    "early-12기하02-01-lines|lines|0": "07633242ff235487eb4ecf277dd8579e3ed5855b033d6635109eba451edb5212",
+    "early-12기하02-01-line-plane|line-plane|0": "60700db8d0fd23f4e7141feb378955f42052b3f6b087d8412671e2d5b9bb5a10",
+    "early-12기하02-01-planes|planes|0": "93311fc3c43efcb60d3aca31ccdae738d9e785a0ed6c51a08700305c4c8b29b9",
+    "early-12기하02-02-three-perpendiculars|three-perpendiculars|0": "ad467ef3f08dc48d992a9361148fdb204a98d647242a5d64e348b4c0ae676ebd",
+    "early-12기하02-02-three-perpendiculars|three-perpendiculars|1": "f5d0ac0550875f1e2c0baa605b59ed4ce2c8c59271c35618d6f56c10fddc33dd",
+    "early-12기하02-02-three-perpendiculars|three-perpendiculars|2": "25fb2a9b2e0e1c3366e77b8decfac6a529497c8e38a09a63c795e31dbd4b761d",
+    "early-12기하02-03-projection|projection|0": "a75e51794f38d961995d3c702fddcffe8149d8c1aa0a0a791b555616d745471a",
+    "early-12기하02-03-projection|projection|1": "4565352b251a0372b0d3a4d4c7c3968d20b1b6e77114c614dcf25e3828290a97",
+    "early-12기하02-04-space-coordinates|space-coordinates|0": "cc3642d1be7106527b915c67c9cf09dc0b1c12d75cbe4c46b2715e3659884850",
+    "early-12기하02-04-space-coordinates|space-coordinates|1": "a2c82eb9eba029a6d6bd037dc3c42217ffe0d25d3a320f053a8d6c9831f0821e",
+    "early-12기하02-05-sphere|sphere|0": "b6f3d2e8ceb35365324aacd4d857127e88105a91206bd75db89a65589fccd32d",
+    "early-12기하02-05-sphere|sphere|1": "a26785b8db76c31e1628fdca875f2a751fad51c63425baeacead39438e422b7c",
+    "early-12기하03-01-vector-operations|vector-operations|0": "1630a14fa6a3ed00c4acbe7003e3c2f9f3d946e6de9be03c4469cfd30f349570",
+    "early-12기하03-01-vector-operations|vector-operations|1": "209e92b73660c9b5acfdaf397818adfeeca165061af8a9f8d2906b984fab63ca",
+    "early-12기하03-02-position-vectors|position-vectors|0": "aabd0fcff209b7e5769b838fef51761c7820ba496866afc4a76e403704509e60",
+    "early-12기하03-03-dot-product|dot-product|0": "fe83df3bc69be77a198346fee63791118bf71bf30a244a7420a4060ea9bc6a5e",
+    "early-12기하03-03-dot-product|dot-product|1": "cf3d4f0dad6163c2eb549775b7e9ae80dc2f52cc2c890e6c9c3c9f10e05846ff",
+    "early-12기하03-04-lines-vector|lines-vector|0": "1518d07f0bfea70ae6beae64fb976d02b6868976191ab3048c70c968786752db",
+    "early-12기하03-04-lines-vector|lines-vector|1": "9dd6d4e16dd2750e559483a1b8cdbf42637c8125fea3910838bbaf0ee8910d4d",
+    "early-12기하03-05-plane-sphere|plane-sphere|0": "06928ffb5d62ec8e99363a306a9f3d4585f6fcc9dd8db1bd41561db18812c922",
+    "early-12기하03-05-plane-sphere|plane-sphere|1": "47b85cc0b06de28a5b5ec9cce4e3f7805169d1a6681a76b2411ebd9de16e4f4d",
+    "early-12기하03-05-plane-sphere|plane-sphere|2": "c71b6a41b83b97ba8b0950feb55e4ffdad61530bd9c30421c2b7a3df3c040381",
+    "early-10공수1-01-01-arithmetic|distribute|0": "7528bbe77f587413723e1eb200a40e3ca3485a5fc808c67928d9f9eec1cb25e0",
+    "early-10공수1-01-01-arithmetic|distribute|1": "80f5bfd6999fbc9922f7698fd331473b93ef6458a066580289d4366ec36673c6",
+    "early-10공수1-01-01-arithmetic|distribute|2": "61ffdc98efc4d47a61f31160fec2964bd7ca02803568c81d1a9a1969b0156a0f",
+    "early-10공수1-01-01-arithmetic|distribute|3": "1fd4b0d25c57c0f912a36571cd87eb3c3cc8f2825caffc9110048fb4ed601e14",
+    "early-10공수1-01-02-coefficients|coefficients|0": "360ff067fc7d3e356d7925c30c4814a22cda8dfbdb6bf25e4d11e70da2d96dc2",
+    "early-10공수1-01-02-coefficients|coefficients|1": "16570f5a7a716a13dc383349062c568ccf62487b63d274141bffd18bef0c0370",
+    "early-10공수1-01-02-remainder|substitute|0": "77bc8b79462b6e7596e165d4e93c0b4f96c3a3e0165e2e15d3ac2486f42cc2ed",
+    "early-10공수1-01-02-remainder|substitute|1": "d27668642945005542a76ad8c92b942f87115bc55d3da0075121817a4b4d0859",
+    "early-10공수1-01-03-formulas|reverse-expand|0": "27d599e65df95e1ffde5052df63eb5a1b74d37df724454119b70ca11445587c9",
+    "early-10공수1-01-03-formulas|reverse-expand|1": "358826f900dc2441a412936513220a6a78390f16daf6535bcb872745a2af5d57",
+    "early-10공수1-02-01-complex|conjugate|0": "7b1442bc5676dd870b1d31b6089183f4b818619266b876d522f06733d00ba519",
+    "early-10공수1-02-01-complex|conjugate|1": "b67eb4f3093dd2af0ffca06970eb85ac385561a164a43e5fbb67fdc072f26439",
+    "early-10공수1-02-02-discriminant|square|0": "2a3019724c7ad086ec75908c4e6e2eac4b6e9767cab7f743a70987a41db08a2c",
+    "early-10공수1-02-02-discriminant|square|1": "fc27b9c758e733ef4f2c43158ad908e14473bf8d11acf1cde58c7e9ba746d532",
+    "early-10공수1-02-03-vieta|expand|0": "ee1304e4644e1cc3a291d1559cecc391bf6256e7ad05090d097e96f68027b66f",
+    "early-10공수1-02-03-vieta|expand|1": "fed5c9c0e4528308604a88aef8acfdefd1a7ca87b3146b901e757cf393e5d98f",
+    "early-10공수1-02-04-zeros|zero|0": "9b4c2423f06e40e6d73981b7dfdf42cd0c022e64470aef3e9f62c1b84491277e",
+    "early-10공수1-02-04-zeros|zero|1": "c65dea4701d61ab2299c73bbc8d2936ac45d847d955e6a704f7666817a17451a",
+    "early-10공수1-02-04-zeros|zero|2": "c3e724fc26be705121988ac9e21824360201a3902af734d8fd53bd8ec593b09b",
+    "early-10공수1-02-05-line-parabola|square|0": "ef9a1edd6ed816dd28328189f56226a24d9d81975b728c0f6d667d150acafeea",
+    "early-10공수1-02-05-line-parabola|square|1": "f5c84436436a757ff7e673554ddacf52ce0a2a82ccaf8dbcceed7f8c741566c1",
+    "early-10공수1-02-05-line-parabola|discriminant|0": "acd4ffce99d9b505b0905d9606a609ebbba3ed3f4d77762f827a57fe007503f1",
+    "early-10공수1-02-05-line-parabola|discriminant|1": "90889d2c2cd84fc5508dab97ede096e02797e91a95d6c9efaaceebb566af0812",
+    "early-10공수1-02-06-intervals|distance|0": "409a669fb1bd2e35e0fe19763e84c915567518189490e3368708d73e0463909b",
+    "early-10공수1-02-06-fence|model|0": "a39896f90198e6d0d20c87018332d4e02a428821d71210770edfe55a50d68ea3",
+    "early-10공수1-02-06-fence|model|1": "6897c90b6f19039e86cfa4996df434abdb0116170c2572708cb7558c46d73a8b",
+    "early-10공수1-02-06-fence|model|2": "60a6bcb5fe04dea4e87d45f8bb21561bf6454b050ddaf43a4ada1f33b9201e18",
+    "early-10공수1-02-07-cubic|factor|0": "71654b974411e247b3a71ddfae86bb737818b29c20f822d72189e36759822ef7",
+    "early-10공수1-02-07-cubic|factor|1": "f4fc78552736468fbedaab29fbe7ebc498688531e86607d10ed8e43c5649dacd",
+    "early-10공수1-02-07-quartic|squares|0": "8f326c5458bcacd87cd3ae1b602d56848178e5fcc63806032ce5d088820ed36b",
+    "early-10공수1-02-07-quartic|squares|1": "391c04ffe3f64b3dd6978059fc70f97fc6429e3db98efdc0623493bbe865934b",
+    "early-10공수1-02-08-linear-quadratic|substitute|0": "a1b623c9d7302d6b700487107767c1acda7ff2893cce310c441c8ae9b3505fb0",
+    "early-10공수1-02-08-linear-quadratic|substitute|1": "6e451906303d314acc6d9cbc61714811b2540c6e5a7a94f172b4f22b7bec1a1b",
+    "early-10공수1-02-08-factor-branches|branches|0": "d44cf909b4aead0f422d3ac2eeebba25d75bdff435d96bd2e3e0f071a6365b18",
+    "early-10공수1-02-08-factor-branches|branches|1": "e2c1375d5592c24c21434fe44964dc0201704b4fecb8747b2e6db434a09c46bb",
+    "early-10공수1-02-09-intersection|number-line|0": "aafcafa3fb9b65ecf09f22a37b48e2a524194175d58b8aded22e7c1597e853d7",
+    "early-10공수1-02-10-absolute|distance|0": "a7963d903ffa2a860ad955e8a1770cd4657669ae3ea012507a927538f2761ae0",
+    "early-10공수1-02-10-absolute|distance|1": "280f9f3481b6e7ada55d8b5aecbd1b6604952e8d64516ee7c0474fd65892e378",
+    "early-10공수1-02-11-sign|sign-chart|0": "9bec3fd21adf44cb1b084c0db0f5bdea16c92666e528130073e8fefd34e19e09",
+    "early-10공수1-02-11-sign|sign-chart|1": "a9fc432e97b60a8b90e8d9569ccd180ba65daac0a09a5374787a13e5be3032c8",
+    "early-10공수1-02-11-sign|sign-chart|2": "75049e21749206e61fdd79e32101c8313095368a0b53d0d35e6f9f57c9c64d53",
+    "early-10공수1-02-11-quadratic-system|intersect|0": "9844e01ae6f48c804d75208d077f39b78e2c4de89f5fbca722ec818b163afab7",
+    "early-10공수1-02-11-quadratic-system|intersect|1": "9a9b194cc10b2f77553f0dd5eac5b518811130d31d7f2af9ca91514d2fde1059",
+    "early-10기수1-01-01-add-subtract|like-terms|0": "871199d3231fd8e88eab32afa0f7a846a12d65f6db6c6da345d671b5e3df4b0f",
+    "early-10기수1-01-01-add-subtract|like-terms|1": "320e04e9cb0a6d64a5951c8670e6dc394cefe22af8385ae09cfecea8c70552da",
+    "early-10기수1-01-02-multiply|distribute|0": "6c3c4996f9c1a06bf8ef8b9b86bb9db6b5cbdd5d93d277e722334481fe1454d1",
+    "early-10기수1-01-02-multiply|distribute|1": "b869ae902fcacdd64cdd9ea04866a749f37a634f0ae7a0e8d36ee9049cf17af2",
+    "early-10기수1-01-03-formulas|formulas|0": "fdd412ca8ca2041e71459657bef35cafb7ee685d1e9a55846fc216598f9afdfc",
+    "early-10기수1-01-03-formulas|formulas|1": "a124b62741f04272ec1668fa4d457da52b0e02d1a25f4bdc40154abaf5ab2ba1",
+    "early-10기수1-02-01-factor|factor|0": "6d46411d42ae7d72a18f9869c7eef31979ac9b30ec129753ba97958588793811",
+    "early-10기수1-02-01-factor|formula|0": "5759eb3552c17c6fe452e20a4dedfc5ee9bc1111e0256da12777c29591d50fd9",
+    "early-10기수1-02-01-square|sqrt|0": "2a5070bb71ceab759c23730292a2beda82a5053f80983c778c054c2c0f636901",
+    "early-10기수1-02-01-irrational|complete|0": "10311d0b8f58181bcf33a2dd37ff5765d09538e01d057c1fff805f122ad43f49",
+    "early-10기수1-02-01-irrational|formula|0": "91708bdfe7f4bc12100f1542e5ab90e935b9455280eec984d0175a2928a34d2d",
+    "early-10기수1-02-02-real-discriminant|real-square|0": "da98b62fb9a2d988c728583a388541abc1c68301bb1c5a5b7e297e365c3c99a7",
+    "early-10기수1-02-02-real-discriminant|real-square|1": "bf6f693a0f5d4e1b3befa69a41b370ecf2a3ae17a665cbc63b0cca4e9c252667",
+    "early-10기수1-02-03-parabola|vertex|0": "37737065aae3b3b0b2ce430ca40a8756ff6ef13f7b6dc66dd4b3ee9872ebf7a5",
+    "early-10기수1-02-03-parabola|vertex|1": "530eefb5b550e2a0a88dbe0935c4ce01232bea17972a4ce2cca23c3bfc612cba",
+    "early-10기수1-02-04-zeros|factor-zero|0": "d2897012e6003a1a8f011114f9e4980d85d95ef752bbc726b9b4584a86615c5d",
+    "early-10기수1-02-04-zeros|factor-zero|1": "8d60ed60bf0596cdfc5a9f28e38d23755bd883fe422a4defa05de3a8896ec1ec",
+    "early-10기수1-02-05-domains|distance|0": "8ce2c9704d3e63936f2edd8fa09029dfe537f3fb654e2deb8c8a3f3d9907719f",
+    "early-10기수1-02-05-domains|distance|2": "db1bc6dae7ec7764d4ecf54e05a4610a2ce96acf5feab585bb273fba45455710",
+    "early-10기수1-02-06-negative|reverse|0": "700b487aadb8fb3a486b6d71d4fd6c25aa54e49664998d9c0e44ce66aa0557bb",
+    "early-10기수1-02-06-negative|reverse|1": "6d1c94233c32c8af206659e7c623b7042ed25e673fcc40f4caf679e31fd7d7f2",
+    "early-10기수1-02-07-intersection|overlap|0": "e187cc9e0147bc8d14a27cdfc44371ee8a2d3aaed9dbb0288022746f39e89e04",
+    "early-10기수1-02-08-distance|distance|0": "dc4773d8d36bcd9e712817256534ce397d0782f1a218a5b1fd4340741c6ac1d6",
+    "early-10기수1-02-08-distance|distance|1": "ca874c172031a714881293fdd00522f248a78e6d32e7db790ca5e863ba755df8",
+    "early-10기수1-02-09-sign|factor-graph|0": "4bbc526215a5f3955b3aaff40a25d03edf91b1618496eb9c2d4b8d0d078c6f57",
+    "early-10기수1-02-09-sign|factor-graph|1": "2227dca7c88a8fcf31f4fa350ee2b685e1973b1f9ca962386b2d43b1346e55c7",
+    "early-10기수1-02-09-sign|factor-graph|2": "6f775d5a39bd9c16b827d322dac998a0fc622cdf4286caf58037dea854ccf0c6",
+    "early-10공수1-03-01-sum|disjoint|0": "242894605b57b81323c44f82e2f41d0823843856a43a1b21f57fe41c20743f24",
+    "early-10공수1-03-01-sum|disjoint|1": "a82fa53081a54e29e78313d8914fe1e42d1d5ddf2c2841818711d8b277a7d169",
+    "early-10공수1-03-01-product|pairs|0": "dc9bffd6f9b8bb22f626de7437641c7abf3a9ccf07e97412c185f5046d323054",
+    "early-10공수1-03-01-product|pairs|1": "03c0952d535b0f90ed2bbab729fedc5ad691d2eb389c6224563ec59a125438df",
+    "early-10공수1-03-02-roles|list|0": "77cd6cde6970dedc8cec1f8b602305f4d19474e33e1294615e25d81dbe70971e",
+    "early-10공수1-03-02-roles|product|0": "0efa4f700d0830045948a391ac3202ed428f635ad10096902654cf68e684e5f6",
+    "early-10공수1-03-02-roles|product|1": "0fdaed7532fd0e2bf8941b2fd4c254620948dae78231c7a2d1d2a0078d38c95c",
+    "early-10공수1-03-03-committee|list|1": "c00036124cdc5ea29bcc994ece1984b2d4d30b11e92f4af750830670e581f006",
+    "early-10공수1-03-03-committee|divide|0": "df01b342d52e4acb7a23011130de74eaa7ef3140fffc95b17dc4e8ca6ff14cf5",
+    "early-10공수1-03-03-committee|divide|1": "b67283f0c33150778598ef46422e6ce4ced6699941533e7f4a6f31f1e49d9954",
+    "early-10공수1-04-01-data|table|0": "9d8c37683bede7bccc7939fffb9ae547c2d6d24f5b395abb9ce58627da4eea8d",
+    "early-10공수1-04-01-data|table|1": "0d597f1ae2071cd915013fc69fffc8faff31d6121e81ec9411e5da4e4f67b3bd",
+    "early-10공수1-04-02-operations|entries|0": "7012b0a9306d0f6d7e67ee003c4ac5516d54fbcd76b84c6300592cf5c555a7f2",
+    "early-10공수1-04-02-operations|entries|1": "88d9688e31e5ec73edde95d7afa6ba9a9e5ad43d2b294d041818af0fa1bbcb4e",
+    "early-10공수1-04-02-operations|entries|2": "161deb2ce55d5803c3f2ea9555b8797139928d7fe0260a6bc978881fe4eed154",
+    "early-10공수1-04-02-sales|row-price|0": "9ca3e1863b47cfb98daf3494a7f7222a657cb61cbc997f1e3eb810bfb9f0e23b",
+    "early-10공수1-04-02-sales|row-price|1": "d883a3c7342105b56a2a575a17ab7f8e7a029db9d121efbd8a3ce591e4f380c2",
+    "early-10기수1-03-01-sum|disjoint|0": "9ec5202e0f247c7ac5c0a56606025878c30376cd9169c8aa246eac1792040895",
+    "early-10기수1-03-01-sum|disjoint|1": "7931e0ede1f00515d8a087f6974895c63de68b4d981b8f473a185c440bd9ae39",
+    "early-10기수1-03-01-product|pairs|0": "ee3bf7e5ccce8902b5498013befbf47312e7990899e1315c09307a88cc74abef",
+    "early-10기수1-03-01-product|pairs|1": "6dc931dc6aee672ab3787ef32682c605e7670b05fc6a56bb175d3454f02ff5fb",
+    "early-10기수1-03-02-roles|list|0": "6781711572d11ceb5135f04982d6969d3b8b79ed48981598c3ce88ffc95966bb",
+    "early-10기수1-03-02-roles|product|0": "781af4a5ece5d6d1bf40be1e6a43b6562bf3622bf906288b69b148ef555486e3",
+    "early-10기수1-03-02-roles|product|1": "a4da98952b9aaccf63a9806b25c05bd176ad383f15a514c08cf33576c8a8491f",
+    "early-10기수1-03-03-committee|list|1": "466c6993b6ba9c8897f170b636bd87898d42098f1c5b0cb7e625899c962d7fca",
+    "early-10기수1-03-03-committee|divide|0": "11a3bb99bb1ccc2ba9c4fcb6a815ebae6d1369bbe0818fa63e53517ea1b344d0",
+    "early-10기수1-03-03-committee|divide|1": "c2404ba41dd2f7b47a3c386ce03cb5a06fd149b6dd3e8371718ebaa948edd33c",
+    "early-10기수1-04-01-data|table|0": "0ce967c998ba0e8f5f586d33039ade355a1590e5d0ee8a2201b2184140f7f7af",
+    "early-10기수1-04-01-data|table|1": "a9fa6c94296429edb5fa0738d649816a34c9b0f899856d1d657c67f6be2778e4",
+    "early-10기수1-04-02-operations|entries|0": "ed5b0e1b6f915e8d98cf2124ed62e2863ad974c711866f919e2563928bcafaf8",
+    "early-10기수1-04-02-operations|entries|1": "7f00b08e895731e4a49a65474fa14cbc87a616850d82245b6316054f01404b3c",
+    "early-10기수1-04-02-operations|entries|2": "232915a23881d0ca8ab8813706fe2eec1e4242c8aa2e4d2bc4f68d1571a62c04",
+    "early-10기수1-04-02-sales|row-price|0": "0da8ca3e714d57095644ba2d41fcae817b285b01ca97553a6f6a1f9873b94d45",
+    "early-10기수1-04-02-sales|row-price|1": "7d9f74e1747f9f697cc033bd61993581a708605d0fcaacaf1b9b7ab8778f1ddd",
+    "early-10공수2-01-01-division|fraction|0": "3a5c35c3dee4dafe6fbae81e4c8f2060521384309db6542a55c51193b5c74dd8",
+    "early-10공수2-01-01-division|fraction|1": "3edf421261d082bc67c2344023fbb62d2084f58a97772719cca633dd915cc974",
+    "early-10공수2-01-01-division|fraction|2": "a2890e3376249c3b90315ccc38b674bce9aa5b75eedb63ff6645cf8074f4c780",
+    "early-10공수2-01-01-division|fraction|3": "4aa190305145d00fc1e6c1aa2d66291eeeda4a432249c6b5410e45819b65a8d6",
+    "early-10공수2-01-02-slopes|slopes|0": "ce8e8db7cddf0fa173b334c41d35a21adcd7786858c1727eb2e71795e8ca2564",
+    "early-10공수2-01-02-slopes|slopes|1": "ef982a02a00e7eace44fc85cd6c7e858ae4c75b47ecaffb323e8e92907b51757",
+    "early-10공수2-01-03-perpendicular-foot|foot|0": "35ff97cdac98c182f004596a753f69821fd55ea3b5eec913d5eb27606d54ffa5",
+    "early-10공수2-01-03-perpendicular-foot|foot|1": "9102d28899fe2908157fe264eaecc69a78d4a7f2a84d351b47c5a8e89cef532b",
+    "early-10공수2-01-03-perpendicular-foot|foot|2": "0e4a31f3d4f00612568938bebd4e695d1318d630bbbc1ca40da200ffbbad02dc",
+    "early-10기수2-01-01-distance|pythagoras|0": "fab4c363e2dc3a7166a3947a88564d63be32f7d099951c73b249ed2e1d5c6bb4",
+    "early-10기수2-01-01-distance|pythagoras|1": "7ef979b57304986f4a8cdcf975248106f377b0ce0e97f3b0fad56fd3eafe35e8",
+    "early-10기수2-01-02-point-slope|slope|0": "12855c1cf33791388f0592d0ccd63bd8ecec6970e234554e2e031014248420c4",
+    "early-10기수2-01-02-point-slope|slope|1": "7355a8da87d8fa3fc79d336c0af61b5a3f725d003033dc61fa0e325405b47d9f",
+    "early-10기수2-01-03-through-point|slopes|0": "013b03e9b6150476e8657492ca8b008d7083f03ed78b88d441696332395f989b",
+    "early-10기수2-01-03-through-point|slopes|1": "c6ba9d8b4a29f877b2d77c0facde69d2594c726bb8fd4928f01d9977abd8ffec",
+    "early-10공수2-01-04-circle|distance|0": "84364e2e6b07dbf905be4b046fdd51b93c6e899e8b66f0e041b28930d84c1ae2",
+    "early-10공수2-01-04-circle|distance|1": "44d0e2af8152028fb7cdd05517da67daf2867427557c0bd66058a305fb81b90e",
+    "early-10공수2-01-04-circle|distance|2": "5164eeff9d390a0b8ea731ebcfbafd9d1ee6b2a8d5dd11aa383f46bf2cc6bb25",
+    "early-10공수2-01-05-horizontal|substitute|0": "d9e0830db6ad62bbeefaa69b372b38fcb77ceaa46c46d0416367a85b438a5087",
+    "early-10공수2-01-05-horizontal|substitute|1": "471844880f90f1db0ac8649ca89510116a0c873ea0e134309f31b036d01c0815",
+    "early-10공수2-01-05-horizontal|substitute|2": "bc8d4c796b96c7ef68516d00c974a48f15685d93ae7c69347350309ff5e384e7",
+    "early-10공수2-01-05-oblique-tangent|distance|0": "50c95731428be7ac6a3999070d206fc7f1aa492585c1b1d16515a7cd802bedf7",
+    "early-10공수2-01-05-oblique-tangent|distance|1": "ce4dd71679ffbb743e7efb4291f689ff39a1c9a620d4086ff0ab47bb6a3b07f3",
+    "early-10공수2-01-06-map|inverse-substitution|0": "dc939c18b73ddf573178f7fc4c400400058cddbfa14dfb72848c0fd448a1581f",
+    "early-10공수2-01-06-map|inverse-substitution|1": "17c0740364484a213046d600860521ed4cbddbd9814cf5c2775146c55e2cfde9",
+    "early-10공수2-01-06-map|inverse-substitution|2": "0f532a5d13e12b6d7a2db810562580a8948e353b369d672f6dbc8c3dd0e4b0fd",
+    "early-10공수2-01-07-reflections|coordinate-rules|0": "7015d29e7743c9945005b484c0f9923e91b21057113085b1b3757d51c1ce63eb",
+    "early-10공수2-01-07-reflections|coordinate-rules|1": "5c276310a210ec5e68f8469e8a498c6f7c078afa098f07af2af7b0565f1d05e0",
+    "early-10공수2-01-07-reflections|coordinate-rules|2": "d89acf83b5fa00fa764c08c1c78c37a4b2493791eee08442a2a2e865b4a47a76",
+    "early-10기수2-01-04-circle|distance|0": "35b86852245744c8009a03b1d30cb93af5ee08fae194ca8b0233237c62d807e3",
+    "early-10기수2-01-04-circle|distance|1": "3689efd3b86400dbad207aa25379327e9ea852573c0e01c6975694d9e948915f",
+    "early-10기수2-01-04-circle|distance|2": "7c33037a8ff1890992141755343d3c3ae50810b2ff51e0f9bc00bc717bf02339",
+    "early-10기수2-01-05-horizontal|substitute|0": "9715e15666adc586b1226be288a4c8d4b10827b5a759a0db754358b94268a188",
+    "early-10기수2-01-05-horizontal|substitute|1": "26560c737ff645243751a4cc254666be78f3038721744ecf304651e859640069",
+    "early-10기수2-01-06-map|inverse-substitution|0": "c68716fa12724aad5e9a81422228a1ff5dcfd013a202a748e77a3b8fb9a41774",
+    "early-10기수2-01-06-map|inverse-substitution|1": "84d03107fde1fb33efc88787c22bba2e1b484909420fb4160e0d9e0280c58133",
+    "early-10기수2-01-06-map|inverse-substitution|2": "226ab9de2b672978051aae8f348b4604d56bd927897fc0f222d417e7c3f32ddf",
+    "early-10기수2-01-07-reflections|coordinate-rules|0": "485595cd95a25c07040eb9418a2b42df124543fd289a3f81de43b402090e50dd",
+    "early-10기수2-01-07-reflections|coordinate-rules|1": "61e34b31368995b6dd0394b6836eb55850a69af0705addf486453c5ecc92194b",
+    "early-10기수2-01-07-reflections|coordinate-rules|2": "0f12bb87cad36ac584f182eae93c72d0581bf003e5bfb194f8814a4f2f6e3184",
+    "early-10공수2-02-01-membership|membership|0": "52e0e9a617fa7ad04359e076e47f15ba7b02b6121e8dcc58dbab3917ec28a446",
+    "early-10공수2-02-01-membership|membership|1": "155e0bdb6183dbccbb726e3335859091ee800d041f7898a19a6cb5b4bef2e22d",
+    "early-10공수2-02-02-inclusion|all-members|0": "30238a4b51e0f3c4a51eafa97511a55c0f74c2da10ab07ff7aade679a27767a1",
+    "early-10공수2-02-02-inclusion|all-members|1": "dd69598f04305ce5a88e2cf325efaab9bebe5d7e87afe24291763f2df11a7f66",
+    "early-10공수2-02-03-operations|regions|0": "9048c7bac535a1b8f0eb7157aa0ed1ecef494290e2c220279095230bbf2ca874",
+    "early-10공수2-02-03-operations|regions|1": "59771e4bfe4da650b07d8d6d2cba4123d88529ce831334f7e4137ec7e19fb66d",
+    "early-10공수2-02-03-laws|venn-membership|0": "19c40bf1ddc4f34c8000d6206214ca9d39cf7d2412eb9f314923149d770aab77",
+    "early-10공수2-02-03-laws|venn-membership|1": "9db73fc00d5570c46bdbe7aac20fac69a63cf8e7e597e9536dfd0527d79269c2",
+    "early-10공수2-02-04-statements|truth-set|0": "6af63cc428a7a0a8d3dc6651d6151beec077f4791015484390701392feccd1bb",
+    "early-10공수2-02-04-statements|truth-set|1": "36e568acda6aac33a34cabd4a122574d2e2f3bb61ea2a23794d604fa44aa30a2",
+    "early-10공수2-02-05-four-even|directions|0": "e4645eee149787b261f8b56538bb5190feffb516b3e6b4c705ed72dc60f04d68",
+    "early-10공수2-02-05-four-even|directions|1": "a9cf195f6cef3be55793b0c49cf904854f42ff038caa3b7dacd4cbbc47192715",
+    "early-10기수2-02-01-membership|membership|0": "07364a172adc7d8c0fd1efad25884292e727e46defdc5951f00908325356e750",
+    "early-10기수2-02-01-membership|membership|1": "bf9008a7389e673e197c0b0e27551544d6f5ac165d467c48a275c6aba0e73ff2",
+    "early-10기수2-02-02-inclusion|all-members|0": "6b79ad10a56f156992e0e2add823b75bb7e9a1cc0e4b3813855b01bb6b4c0da8",
+    "early-10기수2-02-03-operations|regions|0": "cbe440ed46b0d2fe5f91aba5041fa6d7a4205d4bfcda743124cc46d289b25bd0",
+    "early-10기수2-02-03-operations|regions|1": "e34ac6bf4f6933cfae47c14b147c69bf9b44f424d52fe71c83d432206d2d9cf9",
+    "early-10기수2-02-04-statements|truth-set|0": "469489e9b2efea66f4dcb9fc67d7f81cd7edd8e607ca9469290eb5a4667f0563",
+    "early-10기수2-02-04-statements|truth-set|1": "9955e6ac3cd8f5538300a6af236ef5497f03e7b8d06766339517ff7bff61a00a",
+    "early-10기수2-02-05-four-even|directions|0": "7947928d14fb183b74340cb229f026bbf4c2f7a8629a5f4a4d30976a29b12bf8",
+    "early-10기수2-02-05-four-even|directions|1": "26521e47c0a105dac0cc50bc585a86b8b00c5dd172232e181b7040971b7d1459",
+    "early-10공수2-02-06-sufficient-necessary|truth-inclusion|0": "35828660bac4020a2699b64820cb3396362dd3bf62d1faddfd5136016c9afb10",
+    "early-10공수2-02-06-sufficient-necessary|truth-inclusion|1": "7214c3bd30fa6021b24493b5c9716a7dcb6cacd979c01ffe356a1e9879348c08",
+    "early-10공수2-02-07-parity|odd-square|0": "a82fb4844722b2c37fda9f460b8229790016e60fcc27a3823f284f16422d8847",
+    "early-10공수2-02-07-parity|odd-square|1": "d786dcb97e93741687ccaafc7bbca95c791627a8c66fc4c33d3b9f6abbb88613",
+    "early-10공수2-02-07-irrational|lowest-terms|0": "d9931188d7754384371062a22486b06005bf165cd5cc9aa3a9390ef90968f4ec",
+    "early-10공수2-02-07-irrational|lowest-terms|1": "de279791168eb89222aa1e6273b0c18634c7c3b771e237a083cbdd810048eb4e",
+    "early-10공수2-02-08-squares|square-difference|0": "f64fb7476edb75c8c03da1b97ade0df225572948e3fe767c5f7a54c41f7214c1",
+    "early-10공수2-02-08-squares|square-difference|1": "aac9c31a8ed7f5df0c2a3ee014104dd91e44344f6dc6485be28dcc30ef612b1f",
+    "early-10공수2-02-08-squares|square-difference|2": "3b6103d290bbc00e85cbd1a4d99e26cd2fad108ad8e5be312a752bfcc0bcb5d9",
+    "early-10공수2-02-08-squares|square-difference|3": "be2ed90a9cb830f41545ff9c766a2a25fb998f25d051b15976f2d4d3321cc4ed",
+    "early-10공수2-03-01-mapping|pairs|0": "0e8b3c860b9dc66edb4e891d65b09656769f48cee462d679f02bf487122b4011",
+    "early-10공수2-03-01-mapping|pairs|1": "68a5b1af8ba62f3df39742ea90d944a44adb93b3ae6f3fd7340c50024569e84b",
+    "early-10공수2-03-01-mapping|pairs|2": "c73df30bfbe2bab05de4bfc52664dcf1efb5e3b506e04a4183dca62e4eb961a6",
+    "early-10공수2-03-01-mapping|pairs|3": "b34cd4f787706522d4f20df21f51c6a8dd839dba9498c5689879e78c3a16259e",
+    "early-10공수2-03-02-order|inside-out|0": "6905e310a23a3e34492b5913b650164dd630027e13082ac6e047262bb6ed8149",
+    "early-10공수2-03-02-order|inside-out|1": "dd9759e30a003f4e6ecad67556b7400c13d67edadc3938112c0e54663f749278",
+    "early-10공수2-03-02-domain|middle-domain|0": "1bb4f3a2bc34fc884b1dd3567443dd2b31220d4d224ad81ac16eb62df78196a6",
+    "early-10공수2-03-02-domain|middle-domain|1": "cbab21f1752188f1c4ebdee055eee820476eddae24dedbc86771a296c6c8eaf2",
+    "early-10공수2-03-03-inverse-linear|undo|0": "fd1443250bc85fee69054a16ecb27312bc19789fae73195567ccd7137b8aa100",
+    "early-10공수2-03-03-inverse-linear|undo|2": "5fbcea3dd897d4dd54904fae1984c7a48d32bcadc3a8ef8090c5588c4f294bf4",
+    "early-10공수2-03-03-inverse-linear|undo|3": "f68c267a60f27b6b2a9d6625c73f532aae591e5a47cdd62fbddd8560f094c62e",
+    "early-10공수2-03-03-inverse-linear|undo|4": "692218dd6537124cfa679f222e4560b02f5e2434fab84911bb088074fbd8a7b8",
+    "early-10공수2-03-03-restricted-inverse|nonnegative|0": "65dade0da9d76201cd4220d8f6d9206b9d86b6dbfd047670595b65b9ca73578d",
+    "early-10공수2-03-03-restricted-inverse|nonnegative|1": "4d4b806b6b613e56ce53dfc06ce38a318df7034d65ed00494e38d7a10a74dc77",
+    "early-10공수2-03-04-rational|reciprocal|0": "089a9a1f3c3825797ed7497918961abe4adbed46e08fa2d9e5426896f2a3ca69",
+    "early-10공수2-03-04-rational|reciprocal|1": "5ffacc66b9fd448f56e986f6b0a91f1c465f46b895e9946f5220abde2985fdc2",
+    "early-10공수2-03-04-rational|reciprocal|2": "a81ad5a0aae660a548e0e87bd86db6a032d5495822ec6cf15465c67e2602e60d",
+    "early-10공수2-03-04-cancel|domain|0": "87eef5977e665d3cbccbb6cd2c3d236b0a22ccc1687e4afd16fcd9802b0b803e",
+    "early-10공수2-03-05-radical|square-inputs|0": "6a10ab2b1de253338c390349617eded8f803f60b9a50eed85ef9300eee94fd81",
+    "early-10공수2-03-05-radical|square-inputs|1": "967728ae25426fa4067972ded42f9a148dba03c22fe608b9c7e52331d3a14465",
+    "early-10공수2-03-05-radical|square-inputs|2": "6b7d0369b7db714fe23b0bb8746c559494844484ffb816a47c258a4e5f94e64e",
+    "early-10공수2-03-05-radical|square-inputs|3": "d67c1307115a61cac837f895df021d516a1048336349e7ce0c507c4b37f20186",
+    "early-10기수2-03-01-mapping|pairs|0": "2975244a474e7f1c456c64e1d4cdc40df91bd2ace0af00348241e2cc4940eab3",
+    "early-10기수2-03-01-mapping|pairs|1": "3c2dea010011c34206d7614ef4e2a70ae677a904c7025fa12b966c4f21c5d742",
+    "early-10기수2-03-01-mapping|pairs|2": "b550eb46ef4062914c959fc1da4735bd6c9193052dab88db5cca710d6c8e7bd4",
+    "early-10기수2-03-01-mapping|pairs|3": "2f629b03b8e762a22fd5e8d9692648d733a292033d2d3392bdd29f0247be2977",
+    "early-10기수2-03-02-order|inside-out|0": "aa9a1b3be0ada95c9266e79d129c945f4bb0401a48ded07fba75d4198d70547c",
+    "early-10기수2-03-02-order|inside-out|1": "7f66740eb212e389f712224c73ad892a97ccf0e4040b9897ceaa22c71a264c55",
+    "early-10기수2-03-02-finite-composition|arrows|0": "d0284bf6bb15a6a59df9b49b67f1fc8c5eea73b71f64e38167ea5a29e99c8736",
+    "early-10기수2-03-02-finite-composition|arrows|1": "b771396c3041d739b8aa149798429a34de740fd683e14135f0d2025c7753de62",
+    "early-10기수2-03-03-inverse-linear|undo|0": "f96456c6209362c871cb7e5b5b1534f86db329e4c4a5c59831a87a39d2fda7f1",
+    "early-10기수2-03-03-inverse-linear|undo|2": "8915d0c319fc0355417944901b40a5b10b41f9cf4cabffad75764840c8935a94",
+    "early-10기수2-03-03-inverse-linear|undo|3": "c81ddce3f5d4f36bd765febdbb97528b0c61ae6a4b6e02d4006377d4abfdea3f",
+    "early-10기수2-03-03-inverse-linear|undo|4": "e6fa86455ca88053c42087aba442985b30af23de1fbcdf99c646238e2ab87dd5",
+    "early-10기수2-03-04-rational|reciprocal|0": "4b5602cfb79ce5917dda28d212b8109b2b745651260f7c2bf78cd7dc821763a7",
+    "early-10기수2-03-04-rational|reciprocal|1": "599839c96d2ff14a62d34814a7d80c1ecd2021d1f8041aa5bcc39be162d116cf",
+    "early-10기수2-03-04-cancel|domain|0": "8e5738477c8a36015241d1c2a58370d518176b714e60f0021051bf4f0cc2af58",
+    "early-10기수2-03-05-radical|square-inputs|0": "93653c1ee36a6d92cd9082aea7c324e48ee9747f84db92e9c0475d953875f803",
+    "early-10기수2-03-05-radical|square-inputs|1": "ae9f82544f7a6466f266d05d79e82179d5b28d5d3183366d2a6cbe75c41b27ee",
+    "early-10기수2-03-05-radical|square-inputs|2": "fd2de80b19366cea59408afb1c05980dacb0b549a4a11413608aab2da78a3a87",
+    "early-10기수2-03-05-radical|square-inputs|3": "477f13e099c7978129d8bce9cf98c4297583afcd316b61a94de1c0fe0d3c8858",
+    "early-2수01-01-parity|pairs|0": "d8f5fd303c59925e9b8fe79bfe221806fb8d7d0202d62311d6090baa79052ccd",
+    "early-2수01-02-place|bundles|0": "c3a14e8ae8f87ccd7fc36a3c88eb51a42475a6fa3b58eb8d2ab7624600b997db",
+    "early-2수01-03-sequence|exchange|0": "eb77ca60d5b4ee80018ce6859cb3ec62f23663ccf1f001340fad70e8f69f1e58",
+    "early-2수01-03-compare|place|0": "2612437d39957c1dc923333835ccd8d0bc1958459a58e0fada0564d697aa2cf7",
+    "early-2수01-04-parts|move|0": "cb3a6c393aaa99ad46a3328c9e1efb085906ec05c7e2fb744214b75a892fd9de",
+    "early-2수01-05-addition|combine|0": "01f1f8081bb28b863cfb2e3bfdb4108871ff901fe9f6f7a737be3a5381d656b9",
+    "early-2수01-05-subtraction|objects|1": "b071446c3de2e9efa7dce700c8124f44eb074f06de584b3427abf4a8ef0af980",
+    "early-2수01-06-add|units|0": "da44bca163f8bb60e4b2b5b03f12e2bed2c29d1823dd44593561011aa3a25e06",
+    "early-2수01-06-add|units|1": "a1712c41b0ed837b41c37ac1992dceb44265ed163e7793f875a03f4dbdfcd4e1",
+    "early-2수01-06-add|bridge|2": "d43641f251a6904a6157208161c782d7581af80f9b41e2de003feda9383cd7cb",
+    "early-2수01-06-subtract|regroup|0": "5e7ccb0a7e3e0808d3b4047ef200bd0b657ff2e4fe81b6a3be0dc7558506aaa4",
+    "early-2수01-06-subtract|regroup|1": "92f5b6dec0f58f42d9c3ccbbafad6983e46d96df3e7e1517c595d9a2829d908f",
+    "early-2수01-07-inverse|part-whole|0": "06dfcdfd932b76920fc32b442aef38708a24bdfb5481096f4125be208e23c434",
+    "early-2수01-07-inverse|part-whole|1": "af1913c6f1b714ef4af2d2827909a8f0c9f0b451ad76e99fe67416dcba4cff97",
+    "early-2수01-08-three-add|left|0": "9b8c6495b5133ba225f71e0a32c5fdf651d03d18f2d1d958e686522573175dcd",
+    "early-2수01-08-three-add|make-ten|1": "2c17885a15bc9ec18a0620dcf4bd9a643be8c01436e484375b3d1d94878edd2b",
+    "early-2수01-08-three-subtract|changes|0": "4946ab0115f4c406f2ee562e733b33466c5e61b1ebc7f96cd2d20047758f36ab",
+    "early-2수01-08-three-subtract|changes|1": "a8827fdb93849ae12eeff0df07a0989ab654fcf2cab98c213029d5c90c878bb9",
+    "early-2수01-09-box|objects|0": "78d33f669cb332b8607f1841130bab845c7dcc9e51b8311614a32b30011255ae",
+    "early-2수01-09-box|objects|1": "e06d3944359bf7c26eb5d1be4449c6cbfa13226929fc28dd9e69e8666a227393",
+    "early-2수01-09-box|relations|0": "4c0c724744d049ee130aa28b453aa75f34352de11483f7bc02ba17bb94a9c621",
+    "early-2수01-10-groups|repeat|1": "2c877b9c45d5398616f7eb549602220fd1393b64a75a2319d234ee8a5c80586d",
+    "early-2수01-10-zero-one|empty|0": "1f727ad2d7b228b3c7b744664fe15bf7282975043ba21be8b8a2ccb3288a258b",
+    "early-2수01-11-table|repeated|0": "e6b0f57213a59017c6e2d6ab359761c8ae675bbff4311ecceb6cc3ded1fb0ffe",
+    "early-2수02-01-increase|skip|0": "ae07427f1a67aebee8210ece0f7c0ee1b135c75602e91937d7ec7d5647a1a62f",
+    "early-2수03-04-draw|trace|0": "519aae068bcc410e3dd12af9606f62a93d27bc5ce0c7d2639bc1bd88e816a30a",
+    "early-2수03-05-features|point-count|0": "c1030b739c3c79c349481679da7fa795d3f1038823912345db95c8909c2185c2",
+    "early-2수03-05-features|point-count|1": "cd953d5a30a4ebcf1a608fa92a2b1c5579365ea4999471d57bead6bfa1d69ab6",
+    "early-2수03-06-capacity|same-cup|0": "f8fa2ee82f981804ab973ca236b82c4867ad6db4f36e47885b3a57a656083136",
+    "early-2수03-08-duration|clock-motion|0": "fddf2a2f168ae96f48bda621b240f0cc11c0a1ad14e6aac0a7890e4081adb32d",
+    "early-2수03-08-duration|clock-motion|2": "7d036954cdf0a8e9da97a81cc8e8d7880d55ed76e5604f9bd862b47b1f7e1ef1",
+    "early-2수03-09-day-week|timeline|0": "10991b026dfffee08c8dd040d31bd4a9a7158f3e741340c7db7c86c59802dbea",
+    "early-2수03-09-calendar|calendar-count|0": "9e950d92642aa73fdec1c8d61ee9a5ba37279e1913dad63e7b3635010c40bb98",
+    "early-2수03-10-ruler|zero|0": "16b742bca9556f05db31b4e9faf92792bd54ed532ffddc109b1aa68583cbbff7",
+    "early-2수03-10-ruler|zero|2": "b76c8d817d430a7e19aa0d9e91ffc7f6a539900e4713ae69acfbe1ecd0b07991",
+    "early-2수03-10-ruler|offset|1": "581b6f316374358ddf26d627c9df0cf0d05ad61f87b645bad4c3e849bc5e6ce7",
+    "early-2수03-11-convert|hundred|0": "1a1a36f239b6c0dd485f3bf4cfbbb1b1e568c972a51f62aa82d14263b7e3ab61",
+    "early-2수03-11-convert|hundred|1": "564615e7abdcc96f1ab094889a525d8f86d37d0c96907ade9027548997200377",
+    "early-2수03-12-estimate|benchmark|0": "865a513b15e666364a6c99cefc53cf3cb64ead82e0561cfc46e27412645a9d33",
+    "early-2수03-12-estimate|benchmark|2": "fb1ad73cf0d608068142a3d6ccd4045ed6616eda05ae1dec93b9a91ea9d2745c",
+    "early-2수03-13-cm|same-unit|0": "b9f047aa4b1b1bb3bd8b740262c6b8660788d586c6378e5dd586c891bf83f322",
+    "early-2수03-13-cm|same-unit|1": "9b4e44b7fbc9b46fcbeb3aa6a30daa820cf6b11bc17e22f157d88dbd2755a87c",
+    "early-2수03-13-mixed|unit-parts|0": "99a1cd790d3c85108e8f6b18175f52b2ff747a535d2ec306c6df31b8d1dd15aa",
+    "early-2수04-01-classify|sort-count|1": "f36cf2a8c62c33f47fd2698831d333514a9be7c1b4402c78ba0c4c44a381ffa8",
+    "early-2수04-02-table|rows|0": "fdad88853b6ae22b3b3ccf5eee04ac60eb005e44f0513fe9eea74ed4e2707d23",
+    "early-2수04-03-graph|direct|0": "332837eb792b9c9d1d93de92de8482fea13c810871c0ff926dfd9ccbefbab1b0",
+    "early-2수04-03-graph|from-table|0": "310241a15749bc209a32aa265bff9b26cec42756dd9d9602e76ba6151ac1d174",
+    "early-12경수01-01-index|index|0": "fc051fd0f695367c143ba79f808933a524948b3b861aedf722a27a4f470a5216",
+    "early-12경수01-02-exchange|exchange|0": "a77ac3205cc0146a3ac729a6c020667cb7c5b10704c6689f64e82537bc78a8ed",
+    "early-12경수01-03-tax|tax|0": "ddbe1f1ca1e3613a3e4f459e874cb4dede7dd774b58f3313cc3e178ac7547642",
+    "early-12경수01-03-tax|tax|1": "e213e439cb068d729b47db05ea2539851707eb89f23718f7a65ed99956e1e5d1",
+    "early-12경수01-04-interest|interest|0": "4ec9471d14333487a5be70a51b18f41cf2466b58922d09a550d295d1718bafb2",
+    "early-12경수01-04-interest|interest|1": "93067d404c71bda6a29f993df8014cbd6d912c197ce1794f531b09b5eff74811",
+    "early-12경수01-05-annuity|annuity|0": "5ec5d2afa722ba1a8a486a8425747b6f993ea01bc0dfbcd7f952a985bd4d5105",
+    "early-12경수01-05-annuity|annuity|1": "b8fb242e9e217fe8768802a31c5cc24066c8b75d54864b0389ca45fd87e81cd9",
+    "early-12경수01-05-perpetuity|perpetuity|0": "7252b7828ff08c67b834b7d29984fdcea81043fe1525492c5eca99dbcf44d5c5",
+    "early-12경수01-05-perpetuity|perpetuity|1": "eb06cb32f7bb15dde42edcee5252fc1fd08b3a539c14c9f2e6656912c0023ddb",
+    "early-12경수02-01-cost-revenue|cost-revenue|0": "01a4090a7fb153591e46d4cea8936ea550e7980522f70e4b3bba8f8a2cce955f",
+    "early-12경수02-01-cost-revenue|cost-revenue|1": "b81dbedeb84b934985274f52ae9c56491c54129840c5cac4621a49da798460c4",
+    "early-12경수02-02-curves|curves|0": "368a7962dea5a3c661cbe6cf99952d6cfe6dcf17be89ea3b98f425a6b1016d5d",
+    "early-12경수02-03-utility|utility|0": "334f699d8ad38814a6f544388745249463843cfe218983dcba8715cfcd5d5717",
+    "early-12경수02-04-equilibrium|equilibrium|0": "3509eb641cf2a79644629b6d6d6705aaa3599bd07f64bd7d552f52b8a1070b60",
+    "early-12경수02-04-equilibrium|equilibrium|1": "1249382fe3daee9e0f99f5cdd82d610bebfad18cdab28a6cbdb2a02ea3d119b7",
+    "early-12경수02-05-tax-shift|tax-shift|0": "873d68f08b5437d0a534ac401e5e38b138c53a8125503a9ed8bf731cba3bea68",
+    "early-12경수02-05-tax-shift|tax-shift|1": "705b1a3a5e7aae8b326834c1989a5fc7e841bf7625cd58fe8f91a7e8fa959ba2",
+    "early-12경수02-05-income-shift|income-shift|0": "41ef618e090ccb4ff658be3ef505cc0ca249b548fcc0adba83df9a6523bab120",
+    "early-12경수02-05-income-shift|income-shift|1": "f5b49ddca7f13df2af718cb236602477948bcc92db8f348d4a6cb7dc041a6d19",
+    "early-12경수02-06-linear-program|linear-program|0": "7f2afac448e7ecf247a522cb9c1d3caef318d06acb7ff476e178deecc9cf9259",
+    "early-12경수02-06-linear-program|linear-program|1": "b1bfc474d93a30f3e7e584d07c93144d35a1744a380ce80d7846967ec818829a",
+    "early-12경수03-01-matrix-economy|matrix-economy|0": "b6d387bc3c2d6c3d9191850daaca605bd7ddb6e626f4e623c271a422af8bd1bc",
+    "early-12경수03-01-matrix-economy|matrix-economy|1": "890b4e4144382cc31592be1ff423feceed74f2c646e0c676ce66ae640da26f09",
+    "early-12경수03-02-inverse-matrix|inverse-matrix|0": "828d293ce986848e3a8b3ed21fd92523d24e28efe9e65756f856f7e40694440e",
+    "early-12경수03-03-matrix-system|matrix-system|0": "24b0140a57d5fcc4c3aca89f36ca8d555685285372399d0d461c49639a1f952f",
+    "early-12경수03-03-matrix-system|matrix-system|1": "0b09a33c4d9e76f9b42f9449a3527c8b927ae24d9dfcc8a4fd58d95f69293dbb",
+    "early-12경수04-01-marginal|marginal|0": "da102c1d51b63aca879c1fbf8265d80430586b3655fe81f797885e8019445904",
+    "early-12경수04-02-profit-shape|profit-shape|0": "7ae1387dfe5daf8ef551320f4b8ec3cbfa75601cde0948240cade1c6b6060684",
+    "early-12경수04-02-profit-shape|profit-shape|1": "21794c698a65e8656060e6e5ebbd08e537b878d232428d141bd32093f3910353",
+    "early-12경수04-03-elasticity|elasticity|0": "300f70b1bb0583821606ead198cbc09429e5f71e03d9dbcd74f1d459b4072734",
+    "early-12경수04-03-elasticity|elasticity|1": "5c99c5b368dcc3091ed3912e8a5eab5846d4c81088cfd16ff1eb6b2e40837144",
+    "early-12경수04-04-optimization|optimization|0": "143e0d6297ea3dcdc49671395df4fc45557fdcaf6d82b0183bf2df5919398d7b",
+    "early-12경수04-04-optimization|optimization|1": "328f098b7b98074af6163d892c41c15a3d7ba65692412fffb29282095477de2f",
+    "early-12인수01-01-learning-styles|learning-styles|0": "b5706b3e09010eace373e1fddb9b4025f4b8d705ff597d63fe8191ec0ff69c88",
+    "early-12인수01-01-perceptron|perceptron|0": "adf72849c51919178fe1804feb2634336a3439a3b5845e854b4d59b6ccd8ce4d",
+    "early-12인수01-01-perceptron|perceptron|1": "5738290cef9c13e6296dd9848bb4eea60923092cf6e4591c3ab1b5d74dd70704",
+    "early-12인수01-02-history|history|0": "f872e69fa34b29be99bc3479127ba2904759567a243f9706be04367a16092d08",
+    "early-12인수01-02-xor|xor|0": "e73eccd63c77eb3be5b234783ebd98b4b294813ac4509bd4d5c2e2877239bbeb",
+    "early-12인수01-02-expert-rules|expert-rules|0": "5a24a8c984e8637e0fe489104aa40b757105b436daf983d7a67bf5d139f674a1",
+    "early-12인수01-03-big-data|big-data|0": "098e0306a6cf19178c557c522496d670e496b4f10013d09fd6f2888ee3beb548",
+    "early-12인수01-03-big-data|big-data|1": "d12bae46095a177fee3b8cd7632a825037ba0f496f01aededf8aa3f9682df358",
+    "early-12인수02-01-text-representation|text-representation|0": "e8415755df2f96e4feffb0dba7a13326eeb7dcd85f4ee7a3a36bb0c7eee9eff8",
+    "early-12인수02-02-word-count|word-count|0": "7954d0b85fa23da24433f125585e486caf6a66c05a967e0dfb1169243f18b040",
+    "early-12인수02-02-word-count|word-count|1": "60805259bcacee7e33420531a7019ddde5b22e87683b894b464e87d79b322fd5",
+    "early-12인수02-02-idf|idf|0": "eaf5347495395a1073005b3faf17fe59765b68ecec0cc30ecdabcce5892ed95b",
+    "early-12인수02-02-idf|idf|1": "7ea922de196219bcb69474c18d5a80b8b58edc9c2cf93c93de9c30c3bfa46cf0",
+    "early-12인수02-03-sentiment|sentiment|0": "6aeebc92d25f107b1b7feb1873948c5414d9f15d10af5aa3d47027ad3f43edd3",
+    "early-12인수02-03-sentiment|sentiment|1": "094f80c6210370020e90f0de955ad611e24e00d5d7da70828733f6c122bffe2c",
+    "early-12인수02-03-similarities|similarities|0": "6eea985107f29f36209633686f23bfa1fcd2f19b6fb4ba6e377e932cf5f4e06d",
+    "early-12인수02-03-similarities|similarities|1": "86dee4d0a3c4540e31b8430ecb5a2120af719aaaea97e9ecf4f9bd40ac1204bf",
+    "early-12인수03-01-image-representation|image-representation|0": "452a3c5c2cfb8d0782c497aeef542da1aae1b1fe3613603ac4bb59c1b030038d",
+    "early-12인수03-02-image-transform|image-transform|0": "15e1df3fdf321a85b3613c22d1b0d4a579e4d785d8477c63055182ef50d33511",
+    "early-12인수03-02-image-transform|image-transform|1": "dc1e02c924809c36a5f2a4b9a1375894981626d40b21f2e425b7d5ed5c77892a",
+    "early-12인수03-03-hamming|hamming|0": "2fac8d8effc84404e3e6c4ead3a1809e8f087cc0172144f4ae8548d92183bd4a",
+    "early-12인수04-01-relative-frequency|relative-frequency|0": "58e29333da351f23adf0f3866f90f132e37789442483d9c2539ed250829edfcb",
+    "early-12인수04-02-trendline|trendline|0": "85ee360e5541ae95d8d57f1143a32425d7f0dd5dd830385d45eb87c120d3162e",
+    "early-12인수04-02-trendline|trendline|1": "a1cc9bf50ab047499dac09a5b01efeeed210514e2878b776774c37a358392b2f",
+    "early-12인수04-03-origin-loss|origin-loss|0": "ca6ca99662f0a5a406cc6a945cc0a38e5f8d4f1e66f78a1a772bb2febd9be076",
+    "early-12인수04-03-origin-loss|origin-loss|1": "0366bcbf3e55a3d47b6681400a5dcdf38c94a3ae9af9149a4c62435403e8eff7",
+    "early-12인수04-04-gradient|gradient|0": "34ee809d5f54c704dd3b868e2b867d1d8bf44e44e5fb5ef05a8b7c8d640d660e",
+    "early-12인수05-01-responsible-use|responsible-use|0": "1df8d2d0d2651e301b1fee20ecb3919bdc24604a663d36ef86c40b5812d323ff",
+    "early-12인수05-01-responsible-use|responsible-use|1": "5598c116889bf2abd776c550e3c032d5362ef22bcea57f31cf1dc4a08caf3be1",
+    "early-12인수05-02-project|project|0": "72b128a55b5ffeea6ea853de4e26364ab47596e989ca79d4c10f29361c675d36",
+    "early-12인수05-02-project|project|1": "a6e6b7f720f6ae75838d58374f161c0cf7ea07f150808315cfbd6bb9f91a4b86",
+    "early-12인수05-02-project|project|2": "140223caacc4a53432314a7767ba7e9f65de668ca5dcdbd6eaff840b190abb46",
+    "early-9수02-05-coordinates|axes|0": "435df71dcedf6b493c695ea8337c364d12754efb480383129d69155f43be9fcf",
+    "early-9수02-05-coordinates|axes|1": "6dfc3abdba334f65cf2ff89b33aebe70f78d9a928c268dd970ca783957622854",
+    "early-9수02-06-water|segments|0": "c21f40badcb61bbfc44c71b33297105bff5cefeb41c69d16276788e35e528064",
+    "early-9수02-06-water|segments|1": "69abb04c82c1e1d4636550e2c099b5ef651549b5181715a07864f0f2ae0272c2",
+    "early-9수02-07-direct|ratio|0": "e91ee3663eef762120c985cc22b9b6a0c5d2177c360e8bf8e6487c64567a68d6",
+    "early-9수02-07-direct|ratio|1": "8d37776c94a6d032d4a057094333d5bb142c8f41b4c1dcf3bdeb721cd3be6f96",
+    "early-9수02-07-direct|ratio|2": "e4dbd92bb3bf41e939ae79ed42ed9df0218c27729f7eca6509a8fd0081b67448",
+    "early-9수02-07-inverse|product|0": "0b56ebef9c77b2c7b69a52f1ea66e2780681759a99cee57d9b2c3a63f924d1ef",
+    "early-9수02-07-inverse|product|1": "47dad42d465ecf28530cb79217d45500e256368d3db85f0210199af696bdb06a",
+    "early-9수02-07-inverse|product|2": "38b6610685a1bb06af225789483a91f450170a34bcaa6f1d437be3997401107b",
+    "early-9수02-07-inverse|product|3": "90358017d3352cff9a395cccba750f586a38c7831630cc48ee24a1c3fde988a5",
+    "early-9수02-14-mapping|each-input|0": "755b271ce59f495b230946d33f62c54c1593a37c85bf216c03c1ca000553958d",
+    "early-9수02-14-values|substitute|0": "d24aaa23fb07194bbc513305dc2077fd11df21918938c26902d11c4a3e4c3379",
+    "early-9수02-14-values|substitute|1": "3f9280de10af40d96a9345911fea3d6656dd42d175db40ef73488d1e46585f41",
+    "early-9수02-15-line|points|0": "88d824294c529993350852d6c77565cbdec83c92fe014cde74588fb7aef6bb42",
+    "early-9수02-15-line|points|1": "27b5ad5e81fd05ae986dd892057e183eb5a1431eacf391559c06f35644afb221",
+    "early-9수02-15-line|points|2": "94abc0abd9c25f258afbd6837e2beaca8cce57c5df1f89cf502f8551aadd24e1",
+    "early-9수02-16-properties|changes|0": "342abe05ba127879796cb07b531325d2ee0f3a197eeccb2fb06e7f46313fd530",
+    "early-9수02-16-properties|changes|1": "8f1f7df4ab6363d5959b061209f5a6c6a4b2f45f4683476b8ad6d2b0f78b4117",
+    "early-9수02-16-water|model|0": "9842645aca164aef6f4911bfa047ff06364123701d1b52e641c7e3a7b132d404",
+    "early-9수02-16-water|model|1": "798b96b37b9908a40b177e741c3656eeabf65a05194b458a6a7f48bee76e0a72",
+    "early-9수02-17-equation-line|correspond|0": "b4e883640effd2e6b76876f561f9d5328168926f04f92ac440332764e1391b45",
+    "early-9수02-17-equation-line|correspond|1": "1cf9ba8b2e44b762440a0202fa65faa6bb329cd3e63ee66351a51798c18c8776",
+    "early-9수02-17-equation-line|correspond|2": "c0613016dcc7ca1a0c765239502078dff583c56554bc00b5edab3ee26572843f",
+    "early-9수02-18-intersection|graph|0": "352e5b69e856f824068d5db985f1049b4494b38ce544e3d37e287ed238dc3f29",
+    "early-9수02-18-intersection|graph|1": "a6362dd05756a56fc22dea26f24668568a677791d5da4b2179388af2a8a7464d",
+    "early-9수02-18-intersection|algebra|0": "d984fc6ad6181cded06d0b6b946a1d1b7bc204ffd06a44ba7dc0a362a0d0f61f",
+    "early-9수02-18-intersection|algebra|1": "f12b665f4e3d55c2eeb8999325fbd529243153d10d16051f356c2b3b98e0b9b2",
+    "early-9수02-18-parallel|compare|0": "2996dc05e63c639c45092b36d31e3c6acb78a72148dcc891992e39be49064087",
+    "early-9수02-18-parallel|compare|1": "cb8c854d9abb0bae41418c3d5be994c70b7916a657c81b0ee47d362c399f4024",
+    "early-9수02-21-quadratic|degree|0": "0db7239aa788810d6397d3dd71f3fa2b0bf543a6c536fc6f6c6b8481f97679d6",
+    "early-9수02-21-quadratic|degree|1": "bb14c6d4df14f921b2abb8e7e574749cce56a75131110af697a5eadcb3b21d6c",
+    "early-9수02-21-quadratic|degree|2": "28fa8e1b3301d8811e228c3fe1988a4f07a743197c523b0f2962c6452f7e8f79",
+    "early-9수02-22-parabolas|table|0": "ef948084420f79af2ae6551ec5012169f084198e7100b04f8a5c13783f99b793",
+    "early-9수02-22-parabolas|table|1": "44c8f8b5f860a352758d850200cb90b53828f1d41bc11c11e7e39358bbd17de5",
+    "early-9수02-22-parabolas|vertex|0": "baf58f4e8040cfac6db9ec4911ff96b33cad1bfe41d9bb9050540bf6fc35a83e",
+    "early-9수02-22-parabolas|vertex|1": "96d7932b6241034b0ad6fe10707a072d0e84acf6060d76cd3f7eb7be600c0f88",
+    "early-9수04-01-representatives|sort|0": "1035863652fc31677f5f8c266ec237a8750a890c4bc25a8fdc692ad48fb62d2c",
+    "early-9수04-01-representatives|sort|1": "209984a8484f9cbe359c35479c8d66469fb20ab95364ef32ae19316b95bcb18c",
+    "early-9수04-01-representatives|sort|2": "2964ed3a7de6562210d00a78570fe0d034ce50e5a0251ff0d721f381e75490e2",
+    "early-9수04-02-displays|representations|0": "f18c73d09720f49fa4abe73782a2eb958bdab70b5006ebecdd5e408f4a5dc70d",
+    "early-9수04-02-displays|representations|1": "18937bb4c83077bf94bec71a7975e59a679769d4a18b0edcc753f60a151336e4",
+    "early-9수04-03-relative|normalize|0": "a64e727aeb81bff54e4fb3161c9d4218289b20b73d4ecc47fc065778df7019cd",
+    "early-9수04-03-relative|normalize|1": "3e7772b58c6e224d357cd0694653342db9878dc584ecbbc530c0516ea6c2102c",
+    "early-9수04-03-relative|normalize|2": "149b4f2b4d6a76e7138478e59d293f8d4c4d05fa49bd2fa2429e5e3e2616daa3",
+    "early-9수04-04-inquiry|tool-cycle|0": "d1fcaa5380b67d9eab8fd224f3719ca4d5f75d4aa5ab0c9289b5845056c4ed21",
+    "early-9수04-04-inquiry|tool-cycle|1": "989525671ae3261c5a988c01e5a14a954b92be2f86ff623cfa76768c31534005",
+    "early-9수04-04-inquiry|tool-cycle|2": "4177b48a6700cc1905dac1f36c93eb539ea7433574e67d763460f3dcf174ec05",
+    "early-9수04-04-inquiry|tool-cycle|3": "6842bf14dff4dc339bf52e07df5272878de8835637030d99a6db66d5c420c3bf",
+    "early-9수04-06-die|model-observation|0": "0929d5a419b808215c7b791b830ad62a0adecfb3c6103905d90fd1b47621583b",
+    "early-9수04-06-die|model-observation|1": "982362f6f7ef35e03d752f977383e7cca37f2ab9c2e74ab2cb135e0ea57199f6",
+    "early-9수04-06-combined|outcomes|0": "00260396099fcae0fd45e8c219893e8cd3efd16d43444752102b0c319cb5b292",
+    "early-9수04-06-combined|outcomes|1": "d4c7d5371945d5641d6b4914db4b490c5d1343c577e91cbc68d79a509f91f893",
+    "early-9수04-07-spread|deviations|0": "61bb9ac7e04719644500bca158962bb6a3e2d387e01c083cd9bf139bde701d6a",
+    "early-9수04-07-spread|deviations|1": "f330cf9f46d2ed2389b6b5ca770814b12b63dedec61f69e452c5dd3922264aea",
+    "early-9수04-07-spread|deviations|2": "0657273bb07553258401a42162e92e51270e8b7ef51372a0f939d985e0ac66e5",
+    "early-9수04-08-boxplots|tool-boxplot|0": "e16fda2b1ae969dcf0d95129bd5bf691f26c5e5e3d646a328a4edcbd6d1dbf6b",
+    "early-9수04-08-boxplots|tool-boxplot|1": "750578f7e55be4f0d349d6af202fabe06317753bc72989e503029cffc568de91",
+    "early-9수04-09-scatter|pairs|0": "fd951d11a64b7e5326c47eddb910bb63e29a9db1379ec094137659e7bc0f69af",
+    "early-9수04-09-scatter|pairs|1": "0bafb230843c368a8f58450f0767706c3d4050410dbe13e0044b70f350f19d8f",
+    "early-9수03-01-box|model|0": "743a0b41f506f410f09cad35e968975d8da5f15a45c0dedda98ea2ce96913eb1",
+    "early-9수03-02-angles|angle-relations|0": "ca459c42e125d356159f98fa0264708d3fe17cfdf7a4a6df15e587af354d97e8",
+    "early-9수03-02-angles|angle-relations|1": "a46c1ff9ec66adde7e46c34baccc4531c91c9704c281e2aa6c908d6cbe60bbea",
+    "early-9수03-03-sss|circles|0": "20fc0196f83e9b41c656d8e7cb64d94fb716108226a151db831cfe270a0a9d41",
+    "early-9수03-03-sss|circles|1": "b12013504b4352607b011cd229c374ec260cf19e75ff2b27d21de09576929646",
+    "early-9수03-03-sas-asa|transfer|0": "02811227fd5c193181bb41bcd2ac241c461a2b6d03148a2334b4fa00e4f75efb",
+    "early-9수03-03-sas-asa|transfer|1": "b842debec01d858416a2f7b5a0fc7d04fe687e68211a10eea303304c9c239e31",
+    "early-9수03-04-criteria|match|0": "fd75af44c38e3f6ac77dd92fc23b1ef63c17adade68e25b40adead5cd4a5d347",
+    "early-9수03-04-criteria|match|1": "4f6374da96d695a8c841be6b15c2f5aa36c7e9c58d06f55e8fb4a2cd949f99ad",
+    "early-9수03-05-triangle-angles|parallel|0": "31deb123571b7de02065efe10951d138a220c99c8b9ae53d625a93e42ea2d0cd",
+    "early-9수03-05-polygon-sums|fan|0": "42c570505f401f8da43ea9fab32f2fe357d9489fb70d4690521603be15883c7c",
+    "early-9수03-05-polygon-sums|interior|0": "d0f44e0d28a9143b258820f383a401a27a67be3cfaeea077e9762260fb2ef85c",
+    "early-9수03-06-sector|fraction|0": "65906bdca67fdd1dd680f683fe39b10a3c1d636f0e0647e3185674929bf64bf7",
+    "early-9수03-06-sector|fraction|1": "27a7774f2ab7cebfac71b20841b45f5623bec54a72a98214d458d94eae7daae0",
+    "early-9수03-06-sector|fraction|3": "6993ae48deb5f6b5fb130e8c4ecce0f4b458b45c7b8619ee84b2611f3edbbba5",
+    "early-9수03-07-polyhedra|incidence|0": "dad32595486c55352e7db8205423815484e2cab95be10285f130b491136f3cbf",
+    "early-9수03-07-polyhedra|incidence|1": "f98d7349a993b955b8ea3d4ff42e162dbaee44392ef9e87cf13aee76058c90d7",
+    "early-9수03-07-rotate|axis|0": "2a367187531eba687c448eed5ac92687397abd8660c5f0e364f0cb831d9bee37",
+    "early-9수03-07-rotate|axis|1": "0f662a30392cff16209dd276a453e2327b197e44871f89e1e863151579109257",
+    "early-9수03-07-rotate|axis|2": "d28df1ba93adbcc1b71e426b341d59c5c87303c308401a824304a98f2214c957",
+    "early-9수03-08-prisms-pyramids|faces|0": "bf888bd924b4ee906b3fb1ceedf5db680b78283b2717b35845e110af4ccb5d50",
+    "early-9수03-08-prisms-pyramids|faces|1": "ad5c755ec3447018c7fda7a6ec23467b87ca06b7141710f3f576457620e13dd9",
+    "early-9수03-08-prisms-pyramids|faces|2": "b99786ed5741ac1c179b91c63ca7b6b49ffd39d4fffd6ac7ed73fa7bc6003999",
+    "early-9수03-08-prisms-pyramids|faces|3": "4f6010caf8b3bf201669b2a16f2c8211feda9a16a32adff54d9b1ac6f38a3a6c",
+    "early-9수03-08-round-solids|nets-formulas|0": "3cb3aed977cd8099beaddccc2a650130e38048ba3ad4518104dc1515d283a79d",
+    "early-9수03-08-round-solids|nets-formulas|1": "0d7d40cca14960335c286c484b203771daab26ab99fd30e0e8bb7dfea099f1c4",
+    "early-9수03-08-round-solids|nets-formulas|2": "2f6a6772225ea7a3d1287f904504ba8f0332c89eaf6800b9ead28bfb7906a86e",
+    "early-9수03-09-bisector|sas-asa|0": "83383c001ff1933ce657a98e0179c69fa6ec38b460b2c42186f30a8f37c0613e",
+    "early-9수03-09-bisector|sas-asa|1": "78829abea35e485bddb66f4d8301134e3c6bb1f312095b38d89e17cd586fd897",
+    "early-9수03-10-circumcenter|equal-distances|0": "34103531b6fbd95d678263575072c1c98559c21a03792de2eba21a45f169eb2b",
+    "early-9수03-10-incenter|angle-distances|0": "9d6417ea32a3adbbbdcffbfc60738bc3bb1ec908c141629ed8ca31abc4386946",
+    "early-9수03-10-incenter|angle-distances|1": "14df6bfb10135820f6f0a33d185709eb30b39559f5cf143c47a1d9e2220a25e2",
+    "early-9수03-11-parallelogram|congruence|0": "d7f40fc9fa2e564df6e499de44d73889ffc7c74869dd50ab8ef0a7e82cfd00f7",
+    "early-9수03-11-parallelogram|congruence|1": "8da07b24206e0a6188b20b197f437e52b6f8d25b97a09005e3dff0d56d922f83",
+    "early-9수03-11-quadrilateral-classes|diagonal-types|0": "a50b69e64e425425b6f4acf1acc4cdeea0c7dc23cfe5b3b101661771f8ed4133",
+    "early-9수03-11-quadrilateral-classes|diagonal-types|1": "41047fdb81b817c7b867c0cf258738f82c24cd5267e63c8e3eb4560ea6b41fe7",
+    "early-9수03-12-enlarge|scale|0": "be03efbe01faa68a2e57b3591746e0a540232043981a6b3d823e78553e7dd8c9",
+    "early-9수03-12-enlarge|scale|1": "8f24626665504a78a515ce5f4c883aa2e0f3086471402e6953685da0297d2575",
+    "early-9수03-12-solid-scale|products|0": "8bbb62948410427aef065cf4330618ee37f9573ff0cdd2384b72f3ddc6f34f66",
+    "early-9수03-12-solid-scale|products|1": "6d5ca01848c0aa4b9d32bed2fea9cebae6b85134c303d9a42cbf97e8c7814834",
+    "early-9수03-12-solid-scale|products|2": "147f31dba70da74b66d113a8310bb2bea2361a66691b5cda007c42dd18eb802f",
+    "early-9수03-13-similarity-criteria|criteria|0": "7ac18187232cf525beccac3ede6bf9e58ead389a1f2d7434e20e6fbd40c0d08f",
+    "early-9수03-13-similarity-criteria|criteria|1": "b22eb6080cfef088f1ffd50c19c0a963093d835b8c617401c20f8c0a8545507a",
+    "early-9수03-13-similarity-criteria|criteria|2": "722876b3e89b0d2c4104cc7e4daf3d38665bc2a85f94edbe9e3b3b8ac773bde6",
+    "early-9수03-14-triangle-parallel|aa|0": "ac97c2e1d0e0189775498d7401688a7386d16b7adbf14bbe6121b72d98278c3d",
+    "early-9수03-14-triangle-parallel|aa|1": "0eb48ac1d68c2224c7a85c74857df490a3c8bf8f7af935b9533f60ae8aa22018",
+    "early-9수03-14-three-parallels|auxiliary|0": "0b10c37491a941eded0e3e31d4d301dc6454fd16273eb282ffe59be02ff23022",
+    "early-9수03-14-three-parallels|auxiliary|1": "aefd00fda66050eeb026e728519c171ff5c41ca21da1368f99a7a21c76f8c9c7",
+    "early-9수03-15-proof|area|0": "a90b562f9636d8d8024d2c6f8d0b9283719b4c1fa0eb71035709d150ab645287",
+    "early-9수03-15-proof|area|1": "dc05480d85fe3c3b2d0540cdf3aea838c204797cfac384dc5248df0d86085a6d",
+    "early-9수03-15-proof|area|2": "00d63a0af26ad2e09b7d864e526bfdb66e382340a88c6d2bb4fd751fed18f7af",
+    "early-9수03-15-proof|similar|0": "52e8cc9a80c74e823347b502afec43d28863ae764c2f7c2e8c4e89df7f3e5d50",
+    "early-9수03-15-converse|compare|0": "3a8d651289fb6be20cd46bd0d61d578491b8be7fc23715217d66436c6cf1bac0",
+    "early-9수03-15-converse|compare|1": "b2df6a6386f227806954985b5fc88391531b492732587fbaa45ae77e38686c86",
+    "early-9수03-16-definition|ratios|0": "6d7fc5c90b5ddb6a7309c2a5f7a48f537112af75ad44e6b88f366bd3cbafd716",
+    "early-9수03-16-special-values|special-triangles|0": "57668184ccabd6c0974cfb79b16e9dbba54a2491671eb61ce0ee6225fee3b118",
+    "early-9수03-16-special-values|special-triangles|1": "33b50b33bb5f7ed43055b2020f0fdc19fc16e5daad91e637a566ef723677934d",
+    "early-9수03-16-special-values|special-triangles|2": "a2c8bb5b6da1b1e9a3cbbb85dfe32c6857b8872d543ee57981104a5201cb1dcb",
+    "early-9수03-17-height|tangent|0": "fb6c4b136100bf990f5e7c2d07a25131261a6f32b06295e3a881dcbb099ed3f2",
+    "early-9수03-17-height|tangent|1": "e62a22720a6dde3ec30365186bfa581ccc05e0d5c7fb81ffe0f6130072ed35f9",
+    "early-9수03-17-height|similar-scale|0": "5d4e364b3f566af00c39d8ca3257be660653987dff0f58ce46617a241c3032b7",
+    "early-9수03-17-height|similar-scale|1": "8a49bf772420afb1bd78b74ed37a6a309b83167093bb19584a701a94cff19fb6",
+    "early-9수03-17-area|height-area|0": "1d5c9f123c9edf931a9d4921b944480906a294be298e1540f160dd077187df09",
+    "early-9수03-17-area|height-area|1": "2e69166e135838896830e0e0e8e45f51dd51ecd7c8b822a6b3680d8bbca1d8f9",
+    "early-9수03-18-chord|midpoint|0": "0d8c49cd492dbbbe130fba3e4a96c0be2b37b49af9b3dbe2185ced50d8a8cfde",
+    "early-9수03-18-chord|midpoint|1": "be23aed3ab03c58f72c69f7b34c0022c945c4c88b1ea417058823a13b98d948d",
+    "early-9수03-18-tangent|distance|0": "989de10823e3702da86b451cd6f940bfd4ac5cd6e22b1a5c2cb813e9961df3a9",
+    "early-9수03-18-tangent|distance|1": "51f9345de0831bdfe90e47a96f4fa62ea0b4becc9861d9b4c08345b3b8b7b690",
+    "early-9수03-19-arc-angle|choose-arc|0": "493d8a1b7c81f81a52301429b751869e3092041946289426640a31efe04aef84",
+    "early-9수03-19-diameter-proof|sum-difference|0": "c0553e8d18453b8300c3ec6abcaef3bc2f8b298e2c23390f5557da2186f6a753",
+    "early-9수03-19-diameter-proof|sum-difference|1": "2b7ff329b56f45ea68abbe2b132c52807fd34bea87bba9cfe5c704102e6e5a4b",
+    "early-9수03-19-diameter-proof|sum-difference|2": "7314d7c7269076bfc785b4cb5e0b5f10fc9b82b803aae5b622af2df1c283d315",
+    "early-9수01-01-prime-factors|tree|0": "1766365bf602a67ab346904bb6514375ecbb8c1f87a988eeb6a6ad72ee6235d3",
+    "early-9수01-01-prime-factors|tree|1": "f201a11ba9c4ef81da0cb900778671def77d9158142f7af79a432fe3f9fae2dd",
+    "early-9수01-02-gcd-lcm|prime-lists|0": "1d644e673bf53c2d736c41dd3992c7c45c2fccfda1e32ce642b64a2013764f45",
+    "early-9수01-02-gcd-lcm|prime-lists|1": "b1015e228323256853975a3d7722276a3abd636156516aa04a7f016e2e09db0b",
+    "early-9수01-02-gcd-lcm|prime-lists|2": "9c8ca40188869cb90efd13e4e86d627e01c544be22e0af581c130e8424c09c0f",
+    "early-9수01-03-signed-numbers|reference-line|0": "b65c39e5ed769135ba583833d448d00312c3e880e1fe3b2a4f4c4ab1e160c6cb",
+    "early-9수01-04-order|number-line|0": "f208e1a84e36ec354365df76c760b0ce68ee046c7947cde9c0c6b3e748f29cad",
+    "early-9수01-04-order|number-line|1": "e55d0f836f167534cec4d08c9fc29f15f6668d280b4e94be2f39bc6f7af156fc",
+    "early-9수01-05-add|cancel|0": "f65a0399ac14061ca096dc62ae5616c797613b2f5c7c7670a2777d2c97cc1be9",
+    "early-9수01-05-add|cancel|1": "a99ef5c992dc36955a3b1ab4a5ba86ceb488d997fcabad8bade23b89e73c3829",
+    "early-9수01-05-subtract|inverse|0": "3807d6fbc78f6a3e9b5b5b15a59178d84451c1e2f118cac29f4a5d2a876e4867",
+    "early-9수01-05-subtract|inverse|1": "c84d2224913cd72fc52cf2bac59ea9b12c684e61dc4dcf9ad5228a54eff2f0ee",
+    "early-9수01-05-multiply|distribute|0": "19c6f2859f5d9724292896e05b146aee5469a58ea311ae90c78b5509ce772de0",
+    "early-9수01-05-multiply|distribute|1": "bb9cd892c764a5e053ee24e7b4d7db95d2123d7c01ee46886976d678f54eb10e",
+    "early-9수01-05-divide|restore|0": "f98328caa243df381a983c4cca859c5875cecc69816f4d4c2cef2526d5cf48d1",
+    "early-9수01-05-divide|restore|1": "cf588be668d2b4ce07bc4129b3039adb588c9087c4930ab90491d71f62c977aa",
+    "early-9수01-06-repeating|remainder|0": "aa93be8e0d6f4a36fbeb059ac9e676b5c1d9e51324d8848a1b57be6b430d87a3",
+    "early-9수01-06-repeating|remainder|1": "5d1eaa6cbf70f74e2d4d06eeb4614c1787074a9c22e1cbff570476825c14b9df",
+    "early-9수01-06-fraction|align|0": "f05e44e1388c3df6ea8e1a676d2ec17542cafc331580fa4dc3918f28d8cdaada",
+    "early-9수01-07-roots|square|0": "4c61c973ecb26d4398320003037744921147f06a8e87de44cd50244cb1bcaabf",
+    "early-9수01-07-roots|square|1": "799b4a6c1dabacbc57d08ac58b49110aef0cb3a76f4bb93e61411c77f4df20cd",
+    "early-9수01-07-compare|squares|0": "786cb963fe39225954c5e52d8044bcf4e8b12da78037604eb9a03af5fc5c8072",
+    "early-9수01-08-irrational|parity|0": "bcce745bdc97ef5d412acfa80f27c0c6a5eabf9b9ccfe6733aee5c0c419337f9",
+    "early-9수01-08-irrational|parity|1": "5821db586e1de9bbf89cc2fd6e3075c973914bbc496e69a30ad8d4b8c4451c9a",
+    "early-9수01-08-irrational|parity|2": "d2bfae3cd84b88fa8f465a22a50ab4cd63113b717a952f43561de9be48052660",
+    "early-9수01-08-length|square-area|0": "518cf43f5791f59dc6031339e3a5fd3ab27cc7ef2a2fb9c0601262a2e7964bfd",
+    "early-9수01-08-length|square-area|1": "b0547b5614ed8ab6cfdc098907a44302e1dc9997df89c8259587981a52b8797c",
+    "early-9수01-08-length|square-area|2": "f13e0fe9eb9fa5a0a1691001f2a522493ff754ad4dd1cec3695ab9687104662a",
+    "early-9수01-09-real-order|bounds|0": "214a0eb74655b0e7272f213244bb6fed3793916a2cc329aa30358e3c40448a1f",
+    "early-9수01-09-real-order|bounds|1": "56139d19ed4c77930427c48346ef3f77a241427bc378be225107162e866109af",
+    "early-9수01-10-add-subtract|simplify|0": "58ff2013fc287d9a91d6a0339af1e54a06719ce06cf6cdcdb59e25948f43488d",
+    "early-9수01-10-add-subtract|simplify|1": "74da108e2173c3fe1c72e83f00c96fe32b4ab0425d97ea6c1f28e2e9785b4bb6",
+    "early-9수01-10-add-subtract|simplify|2": "637523a0cf9f99851092855674a758cb15b60d53dcb7120757ff8cec8422c997",
+    "early-9수01-10-multiply-divide|positive-roots|0": "3ce6ceec050576bb3a0267fdb80a315a6279fd89469eefbe7d471bbee1d24a33",
+    "early-9수01-10-multiply-divide|positive-roots|1": "b6648a7adc4db85f754a28ba03d9bbb822cca222393d0b67132e09dd22d848a7",
+    "early-9수02-01-expression|roles|0": "c4d03f9d1a14d8852c0ba3dae431b0c8925726d159730abe482e7732aa84924d",
+    "early-9수02-01-expression|roles|1": "d1c18aed2af6f015b11ab200f536bf1774e678995094d548da321ef101000c68",
+    "early-9수02-01-substitute|replace|0": "0c9bbc2baa5ffbf7174a9bfbe5e98945add05884e3c2b080ea46778acbf396e7",
+    "early-9수02-01-substitute|replace|1": "2aee8604f835f030df6d6a4a956a9d7cb6301f56b2c6e06e1f654b064442962a",
+    "early-9수02-02-linear-sums|like-terms|0": "d53ec15609ad9bb2a45a5345e54bbb3dac131e21272c12466db4b5ceac4b810e",
+    "early-9수02-02-linear-sums|like-terms|1": "f02873c51814b62a484f8150e561915e877ae7748dd26f67754fe7b72ec4f3f4",
+    "early-9수02-02-linear-sums|like-terms|2": "b1668c97be00e76ad550c46e651c3818c514f107066350f90819d307c332290f",
+    "early-9수02-03-equation|truth|0": "afbb84d085d19954ef9e6454ef50b73e83be4abcfb550f2c400f36f03816f92d",
+    "early-9수02-03-equation|truth|1": "ca0812d563726bf319ea5d58179b75ab4596d99e4e74d01a0a7dee46b184c390",
+    "early-9수02-04-solve|balance|0": "6b2da75d00ace9ea83d93e78a8b91481c12f6fd0586b537bfb983cdae968c9ad",
+    "early-9수02-04-solve|balance|1": "1112d453faf826182a9a98d44fb0d9e78de6cbe16ef9a96eb4ba0d04e94d0388",
+    "early-9수02-04-solve|collect|0": "6056696e4754041f8dd5c761b9677a07ee084dcac2d47dc58b14e81acb80df81",
+    "early-9수02-04-solve|collect|1": "2eec8d1fa89d40a664f6e7b4478421dfeacf96545d4cbad3d4269ad451e05f19",
+    "early-9수02-04-application|model|0": "d305650849bf89dce406ff89d92dcb557a5d274dbd9f3587e6d049bd38c3eb15",
+    "early-9수02-04-application|model|1": "fe527881c4875772aa28986657edc9bc1df2ade591ac7560d835bbe8cbcd2902",
+    "early-9수02-08-powers|factors|0": "f8836d2bc1a3a99bd06dd6b0d9907953182655700527bb65fe041ceca45fd19d",
+    "early-9수02-08-powers|factors|1": "0615147a0b0c309e7dbd756679f1f50b73910a75785491a81f88506440754183",
+    "early-9수02-09-polynomial-sums|degrees|0": "951309e135ae156b793822f2c1cd6cc56a21470b6cdb39277fbbaddf5f141112",
+    "early-9수02-09-polynomial-sums|degrees|1": "e8b86203bb40accff6000f57b4a0c66e2167d4abfa411b97b676bd2850653b16",
+    "early-9수02-10-distribute|each-term|0": "d1e8a6c061c6b807a6131daa8b4694f2cc3e4469fd76004492dd8f85ecf18a6f",
+    "early-9수02-10-distribute|each-term|1": "ec067e117866fca15f9e75bb7ee9a94f1a6dd10f276cfc0b1bc33c7d2bdcb9e6",
+    "early-9수02-11-inequality|order|0": "fca38b2cde5dfe84a804c57df3a6e739bf75ab69eca34f4cf702d142312758b1",
+    "early-9수02-11-inequality|order|1": "3b8be3650616d9a8b39fe4df87c4ee0ac836ebf5dc9105ac0dac0efd88461181",
+    "early-9수02-11-inequality|order|2": "5443c158c61214ee95677abee1ce096db18390994847433538c289d9ad9d3797",
+    "early-9수02-12-solve|equivalent|0": "7b1ed99c3c9d42724511c18459600ab5e3fbdd2b68e26fc94f09cf8050ee9d90",
+    "early-9수02-12-solve|equivalent|1": "723a96476c83f1d634271b9709646a3ee826f988829493d71c08a41986fb28f1",
+    "early-9수02-12-application|model|0": "1c9794d5f763a5d9fb1c431b4c5d7727383b8ee015e381306f722ce111c7f194",
+    "early-9수02-12-application|model|1": "534016b7eca97304889fad928da1268051d91f5a1e8692559866e7fb90edade8",
+    "early-9수02-13-solve|eliminate|0": "09244bc1d496e51432cdfb0732a717eec4ffbf640aea332fbde678f20c0d183c",
+    "early-9수02-13-solve|eliminate|1": "8ab00555d07f790b52e595a9dcd6d7fadfb274d9d059128e85e59423c257d5d3",
+    "early-9수02-13-solve|substitute|0": "d13ccffe0ed4628058257f4ab0116e7a7a759e5f9e185f8bd66206138221f65b",
+    "early-9수02-13-solve|substitute|1": "c45334a3fb53860b7a04e063f83d718e89f4406b34b5afdaf0ddcf10fd049a58",
+    "early-9수02-13-dependent|compare|0": "af150f968df6be6cc39e30e55e22b1cab152cea60e9e2655b7ad80adf860d21f",
+    "early-9수02-13-application|two-conditions|0": "70f6a73c255f2168f3d5883e55f084d0836725965427c6c40f48674e6f25cfea",
+    "early-9수02-13-application|two-conditions|1": "4ca58c5077a2dffdd4e20eeacfe3d3262ae3cd9d15667aba61f4db4d19535a67",
+    "early-9수02-19-expand|distribute|0": "b46e8f8d4797676cb6c22a9a122f381dd062eded52fa5c1ab03c095be14dc40d",
+    "early-9수02-19-expand|distribute|1": "83945aac525cfebb6de8385cf818e580026c4da7b25270d33529a62d9e21b2f0",
+    "early-9수02-19-factor|reverse|0": "1f381544b2628cad6ef2b7ceecdfe80a5933198183458822efb99652a530a583",
+    "early-9수02-20-zero-double|factor|0": "db894ff90b25d97362059aba677cfdda8ac3ea2370560426290fd91ca3e74ce8",
+    "early-9수02-20-irrational-roots|complete-square|0": "999e7a37d6ba62cc39bee9194bfcc9ea651298d38edc1850ac394d9d13d337d4",
+    "early-9수02-20-irrational-roots|complete-square|1": "43f69327325b3367350373a5146b98347f6b642cb64d0df7372ab3d7bd7d106c",
+    "early-9수02-20-irrational-roots|complete-square|2": "114707c623ad44a400cc8bb5b99aefc8e9cf4af2579976bde05918bafafbb310",
+    "early-9수02-20-irrational-roots|formula|0": "b408d942409be154b42af41fa645b2289336c56c81f7ab8073d42136b10896ca",
+    "early-9수02-20-application|model|0": "b7d96979e1518494048e0cf8f7e585737b460af058f334b59b4b5bbd11448d4d",
+    "early-9수02-20-application|model|1": "e0e8b31a969d09f628b4b3bdb42dea37cc85d8ae9532495d8edc13d30d05d2ac",
+    "early-4수03-02-angles|overlay|0": "1bcadf7ccd6e4acb498fba83aad1f4c050c5631d249c22ae130754dd14ce998f",
+    "early-4수03-02-angles|overlay|1": "16c1b96c94fa755c80a2a4bd2395d934d63069a889439fbf1c5c6e1229e98a30",
+    "early-4수03-03-relations|extend-check|0": "62424147cca7aa3f830cb9281baf0301955bb14c1858741427105f3e8dd7c9cd",
+    "early-4수03-03-relations|extend-check|1": "8b756d9a2a60ef7cb546c80b5e402642c876f7237d52d691fe12c6025cf03e12",
+    "early-4수03-05-point|steps|0": "89a80b417c46a6df61593d7cf965322da4846c15c6f33bbbee167e3c952f77d0",
+    "early-4수03-06-circle|segments|0": "1a775318ee25928d6bc93589fc3c3d97b9c2d267221682a123b0524e63aa6042",
+    "early-4수03-06-circle|segments|1": "30bfdd502a1155caffd67c6f213f628bc896936b734bd6d910fb3364549a835a",
+    "early-4수03-07-compass|fixed-distance|0": "173748bf48221e0fb02b42dca06b01868507533a08d629d65f51fca234065c83",
+    "early-4수03-07-compass|fixed-distance|1": "fccce61e76945dc637c2293bce4815f90cd16d13e240e57a038765e5babb98f4",
+    "early-4수03-08-equal-sides|fold|0": "8b0399049a4d7f2017dc1349065bc9e2c037d7d783b72510e217816b7ee49dca",
+    "early-4수03-08-equal-sides|fold|1": "c70f4ef45019491b4fb84ef312dc9d6977d6ab51b56d7a98b5103fdc710a1578",
+    "early-4수03-09-angle-types|right-angle|0": "8aba1cba5803f150d3b1311cadac3bc6f057c4c240b1616f6bb38611a0aa8e3d",
+    "early-4수03-10-quadrilaterals|properties|0": "ff993cca8c5ff59c773f62e8878418b8029dbd97b58b24a63db753ac8a35c689",
+    "early-4수03-10-quadrilaterals|properties|1": "b6a0093ada4c4df1c99b4510db59965f6a6bb857947d2d91c202f680399b8d8f",
+    "early-4수03-10-quadrilaterals|properties|2": "388b42a70cddd46dc71352fa7d6d1393c2ab63f8df3124ca7cb6435b118cacb8",
+    "early-4수03-11-polygons|check|0": "9ac3a02aefce9fe4763cd263e3e80d4753ec539b9062bb155c7791b471082011",
+    "early-4수03-11-polygons|check|1": "181803c61017c8d98b3f4a0210b94e8e76a13e982fe5ed0d607c937c1e4d643c",
+    "early-4수03-12-make|arrange|0": "fab2116d80cbde93283a5e7f54090d7d5ab74932eceb3e57e177e76842a91a88",
+    "early-4수03-13-seconds|clock|0": "cfa13bb9e0dc9b69007c96ca07fbf09efe8b1ee30e65f3e216881414fd335153",
+    "early-4수03-13-seconds|clock|1": "983e5aceb4ff2930c547c7c92ef6ee0bed5625036cbd0240e33a5655ea02b462",
+    "early-4수03-14-elapsed|regroup|0": "db12d1022eaf41bb52becc89f93ada204a3650ef25de59b5a7880251e0204e5d",
+    "early-4수03-14-elapsed|seconds|0": "e2d8e34c4f5e9cf7ca8506f6fd989e4afe8af31c82dda7ac8e1fff5b8ccdf19e",
+    "early-4수03-14-elapsed|seconds|1": "426cbf6d1040b7a79872b4d1136d9ed5e0e6411aa7c659fdf33978b3078ba432",
+    "early-4수03-14-elapsed|seconds|2": "ed7e66733bc77e559d07a32d3b7d34ee50744f2b0494610a11a4c04e3b7bfda6",
+    "early-4수03-15-length-units|benchmark|0": "bce898299c3fe8941c39030d1aef764f47ab0cccd6c64e2efc5d7e04453d20ea",
+    "early-4수03-15-length-units|benchmark|1": "b63ff4cc953e49afc3f7e3dd814aa49fff7ae7f338dac3572a5d21effcd8aa80",
+    "early-4수03-16-cm-mm|tens|0": "b78d62febd14af7b025c3166f11b40acd2f2bf4dc84d5fa9541ac9bd5198ed7d",
+    "early-4수03-16-cm-mm|tens|1": "cb9dfa7a68db284d09bc126ce999cb411ef463c79d0c84d94b14e753f3643926",
+    "early-4수03-16-km-m|thousands|0": "f8a2e0b85d386141f2285c3474c857208f9b2187a76da4f478d4acc4172cc653",
+    "early-4수03-16-km-m|thousands|1": "741f8bdff969020e456d92dd8815dd83409a972dd39e7e05351ada932e3eab14",
+    "early-4수03-17-capacity|transfer|0": "399ab856393bc93a99616d6b9822085985309c8372e4dc05a48b13c12486e88d",
+    "early-4수03-18-litres|thousands|0": "caa91bf8bca23616959c3ae7b8fd8fe529b279c6252a63d4842b19dbf24d98b8",
+    "early-4수03-18-litres|thousands|1": "0f0366362936a0a2a9977edc3effe33eadce93c7ce629bdfae85724cdf1d71cf",
+    "early-4수03-19-capacity-operations|regroup|0": "08e548564097035e503baec85880346a37839dc76d98948ebe2fea32af7ae82b",
+    "early-4수03-19-capacity-operations|regroup|1": "eea04c9111beb48d31e01146d634baa8ac34d8fd770172c80c1bf8c410fba45f",
+    "early-4수03-19-capacity-operations|regroup|2": "5df4ff672e344283b428e11aad16978f23d72bc666b94d15691ef129beda728c",
+    "early-4수03-20-weigh|scale|0": "9bb9053d7cd9a0aefc3b9e5501d60ffe047aa347348fe9fd86e3c77c0a7830d2",
+    "early-4수03-21-kilograms|thousands|0": "f43dedede5c5e3bc761beb71d00be90f40caeb2de205a5218846745ff9df6fa1",
+    "early-4수03-21-kilograms|thousands|1": "3f269697b8d3750206623a6878a2a4be1b5f44b8f5a2516a496d2f4798a42310",
+    "early-4수03-22-tonnes|thousands|0": "fdc21ec8e7408ee069cf4fc256b998ec86e562160d6b108a787f73b109a095c5",
+    "early-4수03-23-weight-operations|regroup|0": "7c6a4919e1c7bb517b3f67c5c3a22329a88d38f3d96b006bed67227d92ada209",
+    "early-4수03-23-weight-operations|regroup|1": "c4104f7751de03898eac3376944d0c684db15918db08cc69ab60124ef0ff0074",
+    "early-4수03-23-weight-operations|regroup|2": "a9e6afc45f1c99cd551978ff5d7e6d9840d013fd576bbeed486eff3e9c849470",
+    "early-4수03-24-protractor|align|0": "feae4e78402969098c5a8535d7ca57a6733c1442743f4769e15a6ce181ffc6b0",
+    "early-4수03-24-protractor|align|1": "ce68154d21a5049b157674008642f21679c3dc819264ddd2ea69b288913abe0a",
+    "early-4수03-25-triangle-sum|measure|0": "2a8a9b260f138066cb48c7d3260f1a288ec4ebb061da2d15db25af7846975052",
+    "early-4수03-25-triangle-sum|cut|0": "c6f216abe2e377c7203d75c2e74a92cf8cf3a88d5daa0f93d6436e7551a4fbc6",
+    "early-4수03-25-quadrilateral-sum|measure|0": "cb9f520545ccc7bf1b8adcc87218240aa76ebf922139d0dc2cf8bfdb33379731",
+    "early-4수03-25-quadrilateral-sum|diagonal|0": "2552e76543683782135a1151693ecde1af1a22917692fce61eb7292af8159520",
+    "early-4수04-01-fruit-graphs|pictures|0": "674557d4ba8cee90cc4310fd312d7859aacc3cd7aa127fffd9dc35e34f3671cc",
+    "early-4수04-01-fruit-graphs|pictures|1": "7535fd4f433e9bf4766bde94e3b7baae8381d34314e2a54b18d4aa978d7120b0",
+    "early-4수04-01-fruit-graphs|bars|0": "9ff783197c1db63951577f887edda49586d0cbdb5da5443fa20af484dd0d932a",
+    "early-4수04-02-line-graph|time-order|0": "9797c7502f80892789dc69a8d91bf1f4696f5b4633fdd824d2980076be87f491",
+    "early-4수04-02-line-graph|time-order|1": "ab9d54d73bbacba129d8301d5f2ab4a63695c45e7c5baddbc1458b6f180e4b39",
+    "early-4수04-03-category-inquiry|inquiry|0": "2ac6f1ddd6b41fef63506e0becff0169603066c4484f2536b073b77a28636851",
+    "early-4수04-03-category-inquiry|inquiry|1": "beb61b11d8940b42526d1333f6f0673f74c19b11b66a2cea88b35e8f2aa2c686",
+    "early-4수04-03-category-inquiry|inquiry|2": "5895262cb411e28cbba1c8d065837242f120aa2f1faeb63bd609bc5a21443dd7",
+    "early-4수04-03-time-inquiry|inquiry|0": "93ea72ac45433404f855a12669191d5eb1bb8ec358605ba6d015a9362588d020",
+    "early-4수04-03-time-inquiry|inquiry|1": "ec7969e75908c51bc020261828ec5b107b5f01bffc3f44e0feadf23db7b26888",
+    "early-4수04-03-time-inquiry|inquiry|2": "9cbdeddb781a8b8c41bc926460b4eb321963c0f4e0d150c6c8c9c5cb1531f88f",
+    "early-4수01-01-large|groups|0": "a2dd76e6ad5930264efd3192d9e371261fefa8644d9c4e8ac851bac9d940370a",
+    "early-4수01-02-sequence|exchange|0": "2576cfbc07e693f3a389fea83361c0161c06d62949f6deda75cd3777c7aa6d23",
+    "early-4수01-02-compare|place|0": "8c2b0f89eb2d13efc63819a095505ecbc71c939e3d0a0a9fdd537aa359c6f69d",
+    "early-4수01-03-add|units|0": "873976975f1353e403e00cc5fea41dac5b571be58bda9be2089ef5861611b2f6",
+    "early-4수01-03-add|units|1": "4933f690e31d111c3f32fe3806b32b4db4871db174eab11a45c6932f4387b3c0",
+    "early-4수01-03-subtract|regroup|0": "8c92ee1f33f4396d12f3bed357f0510673f3a384e98fccf5538064946981cb4d",
+    "early-4수01-03-subtract|regroup|1": "d263a7a9e9279b37ca25e2937d484e4841df76d30eada2419b55cbe52ef4ddfe",
+    "early-4수01-04-single|place|0": "3087e912ccf79aa087c5a69b9639f3c1dbf389fdb823c28e7157c6dd0be2ed1c",
+    "early-4수01-04-single|repeated|0": "4390a2daec021fe5eab24cb27ad671b82978d0708be746f25e7b1a26bfc53af2",
+    "early-4수01-04-single|repeated|1": "507bf4714c72fe8c341c8295319793f02451c877ecb9099cd829213343b2de60",
+    "early-4수01-04-zero-one|groups|0": "b0eaa3b59e073135d64d5146aecf86ac2a0b656779f78cfeb46f89326dcbeff5",
+    "early-4수01-04-double|partials|0": "d83d374c1f606189f1934ee27ee0f1248847907aa6c3c21e72d17db7b2e437be",
+    "early-4수01-05-share|distribute|0": "88d370dfbc8a7eeedf51d6f64d3b20320ddbea73e822798263d03890f8e4d143",
+    "early-4수01-05-share|distribute|1": "cc28776aa499185d4a1e2e5b71770c5c5427ee1e120e632676dcc5d8a11caeb9",
+    "early-4수01-05-group|groups|1": "b7923b57cabb7b10777dc5ee798935b048c37f4bc4201350849ad228520bf409",
+    "early-4수01-05-empty|empty-share|0": "deabfde16c735c9215a0d6cbea7f27bc22143b8799ff037b6520512d044d2603",
+    "early-4수01-05-empty|empty-share|1": "fa14461d0609958642fb706e12718bd1db27ba9158e2ee640262203f34ec9e54",
+    "early-4수01-06-remainder|chunks|0": "9ff4578e976b2c752a0bb8353ea618842e1cfdaff9467009675f5e593618b989",
+    "early-4수01-06-remainder|chunks|1": "10cee18ce9ea161c9c6f6469b87a897ed8e23a5b0282a9b99df90ee366b663cb",
+    "early-4수01-06-zero|hundreds|0": "2af44cee1dc7c7b8d949d28a9c0113e30950e9f7a86f069f9ab855a21200fcf3",
+    "early-4수01-06-zero|hundreds|1": "759267feecb15899ae4e60f67e7480606fcccb9e153d587a57c7f34bdb9b92d7",
+    "early-4수01-07-double|products|0": "b1535162ec9a7cfe9956c6fa9e242660b20e8d9e485abb89776ebfd683e98f39",
+    "early-4수01-07-double|products|1": "2c897e8d481304edbe34560bb3cfa3d5e3596b1a6e824ed8120885c5547139f6",
+    "early-4수01-07-double|subtract|0": "0c91e817c98f276d9774a5461e3e47038333346a7d6dbabfcdecf5ce173d5abe",
+    "early-4수01-08-estimate-add|friendly|0": "b01b7a74cfc1b78e0b8e3ffb51514b9bdb917014b8ac94cb50925c9d566fbfd7",
+    "early-4수01-08-estimate-subtract|friendly|0": "36fdbd9fec2c94ad4716ff249c60b292d3924e074eccc1c880446de8f4a9cc5b",
+    "early-4수01-08-estimate-multiply|friendly|0": "3bacae2d0210436cc19816f70f103146b00b305835706272caf3f8341594f253",
+    "early-4수01-08-estimate-divide|compatible|0": "a44ee74d3e44ce4642fcd2b5243f98bc96d5ff7a5bf915cf8a22a0e800484f9b",
+    "early-4수01-09-fraction|fold|0": "eb8557e1951bc9e191d7b7d27334773bb89125c6b8bc3b0d3395dccccbeefca9",
+    "early-4수01-09-fraction|measure|0": "07ff3badeb43978dad91a0a26201d69e641693f60de683d893d4f04525bc42e1",
+    "early-4수01-10-types|pieces|0": "ff4deb2d1c71c3f86baefb98d7d32ca0f094b00fdebf9884308638434ab3144e",
+    "early-4수01-10-mixed|regroup|0": "677c22b13f7d5819ee5ae47c09b962ee53e47a21368ef07b78f94f39c1ff7311",
+    "early-4수01-11-same|count|0": "ff2ccf587484de5cdc84ec10c863b7bae7e67a4e4cae652a9b072fba1392cad4",
+    "early-4수01-11-unit|partition|0": "62bc169c99d1277d5e422410be3ee278ccb47eddfb1dabc6ff82183e5a8832b6",
+    "early-4수01-12-tenths|tenths|0": "cd77ef89a0428489c3e357e5dd132fd5d78166ae12fe0a40055e0bc32a1c071d",
+    "early-4수01-12-tenths|tenths|1": "05d0d9d371f277bafb3ab953aaacebcf830da6f6eb9e9d865b79a3a263d44a1b",
+    "early-4수01-13-hundredths|place|0": "000632ec253f1685e9b182d3c843ecd4daa12ee2aaf20a360bb830bc5d793ee2",
+    "early-4수01-13-thousandths|place|0": "f7a56a45f4974966e9648ba9797837524d4cb8bbd4cf2dab22bf6439b0f4fdc2",
+    "early-4수01-14-compare|place|0": "41948af4ea0b07e7bfe206a7bcbd9d52bf60fecb3bf7f718a479514a090eb8fe",
+    "early-4수01-14-compare|number-line|0": "5ea0558db82c89b257097585227d8a3a574758e9b7f3331771ea7c0ec16bca6b",
+    "early-4수01-15-add|pieces|0": "ba4a49e785a2026b8921bd454ff220cf761344a3511a11f5aca6a530c388f010",
+    "early-4수01-15-add|pieces|1": "f4ec70ae96030e96e54849de5cea295012013d8c91f76f01e8379355cc70c020",
+    "early-4수01-15-add|length|0": "4f7573406d6654a4757ffd4abd7c8de6f0b5a7c6ba8d34467bc5d89ed26d164f",
+    "early-4수01-15-subtract|exchange|0": "8a10f0c30ee8a2175b2a07e73e7395dae10d1326e372425a001e942d410eefde",
+    "early-4수01-16-add|place|0": "c5408b89e0daa3f153cdae66d69fbce2679d573b572239037281eaae0e102e7a",
+    "early-4수01-16-add|hundredths|0": "7407c2a993d0c032e2219c6030c18a48b7a200a4cfea37f5982d654ac05fe06e",
+    "early-4수01-16-add|hundredths|1": "174a1791353e40b8ebfd3e0f2d461a30811f3311d0bdec8bf6a61c10a442e15a",
+    "early-4수01-16-subtract|exchange|0": "9af39f099d1ba9aa6eead07ed1f642057fffc4be3b2775a349e1b6afa2a70cab",
+    "early-4수01-16-subtract|hundredths|0": "5ff3622342df9a6b19e323778895e98166dfc6837ca4728ed04135a48f64af6c",
+    "early-4수01-16-subtract|hundredths|1": "bc9f840a498a5be2ec488af569c9f6f547765df683c48bfae89761de1dd908e6",
+    "early-4수02-01-change|increments|0": "afc449c339fa71a0120a96dafcd8519d1992742488e58b2cb6da00bfeb23c6a1",
+    "early-4수02-02-products|increase|0": "76a88ae4bdcf84164f9ed6baf2aadc6875123407e5f55db3ec4b6d3199f965b4",
+    "early-4수02-02-products|increase|1": "33378ef5cb504a3b197941cd6270425d081d6651d5a748788a026edb6944ac5a",
+    "early-4수02-02-products|calculate|0": "806ba63c563b15592f0226ec0528362f7ba83ef4e65ff6afec530cbd0512f4b0",
+    "early-4수02-03-equal|calculate|0": "495a1c35e84402ac2fd7764245122845bedc462b3fd734ed396452d170e04049",
+    "early-4수02-03-equal|calculate|1": "faec86908296f8eb4c714bf744d426c9bbd3e1c8be7aea399a13614da8076433",
+    "early-12확통01-01-repeat|repeat|0": "9146efbd6aee25da226241b7fa3e1cabb9898acab346eb8830e5a5967c68b72b",
+    "early-12확통01-01-identical|identical|0": "8c916fa42094b6a4c5935319f5a8444681528442d11ae3a99a5fe9f23cf0eb05",
+    "early-12확통01-02-stars-bars|stars-bars|0": "8e8cf5db474c18ac2161b753ee66a24364219154420c764b7fb1bd0cdb6d12b9",
+    "early-12확통01-03-binomial-theorem|binomial-theorem|0": "3a7767b8f4c2dd67bb5cf8ba347b64cb0404601dc3f07f9b9f5e28ca49bbda4c",
+    "early-12확통01-03-binomial-theorem|binomial-theorem|1": "4ef9dd5b709d6045bcd8ab0f84592cc76ca164653d7fdbfeffcc149ee9ce379c",
+    "early-12확통02-01-fair-model|fair-model|0": "9ca1a8b823930b14904d3fb73852977cd02011bee34484afa5a7b94b275e6a13",
+    "early-12확통02-01-fair-model|fair-model|1": "3573a08533b6c11252aa369956e40eeeffd69e289a6032859036c64367f160d8",
+    "early-12확통02-02-union|union|0": "33d5edd00615d41e2d728733c2630c1e99c31a76e948a8f36d410a7c1e1b676c",
+    "early-12확통02-02-union|union|1": "1786a42e0231df465f0e28c81b3eb42c7bfb01319b41a273ac359f83a65fae57",
+    "early-12확통02-03-complement|complement|0": "38a2e059b9aac119a47adcd39244134cf471621f24982384d4a8dbb7227a4a12",
+    "early-12확통02-03-complement|complement|1": "7feedd7d8a8c7a8e38f14ed07e46bad7fbf6a2abde0f5b089b78fd91bafff2c1",
+    "early-12확통02-04-conditional|conditional|0": "d203f10cf8171a9f026e62700f298a3cef0cf9ee258c6de5096c804e8246199e",
+    "early-12확통02-04-conditional|conditional|1": "c89bbe5e210627e9ef5e134e350be607cb25903842142a57086c2f24104d3518",
+    "early-12확통02-05-independence|independence|0": "e2e05ec7543c9cef234e76f541a86c00471d1396efeda8511766783d994c9acc",
+    "early-12확통02-06-multiplication|multiplication|0": "16a11268830e6cbe1ee25765c0a7e95ec8efad85c2062f67367b25555602405a",
+    "early-12확통03-01-coin-distribution|coin-distribution|0": "d3b0cb358332089d54afa8a071895c5a592456b615b3adb87171e8d08d0abcc6",
+    "early-12확통03-01-continuous|continuous|0": "ba2698e167152442b239e7617483dd648dafe699e6bf3a71d1e3372fb1245b57",
+    "early-12확통03-02-moments|moments|0": "d32c5fecac2f347de7f6ea7ee712d7dcc08d2665038027db31c3c3b7eb7c711f",
+    "early-12확통03-02-moments|moments|1": "a6c9ebf96b04bfb743e4ee702f63b1f6d045a9718276ed5c8ad64b42662fb701",
+    "early-12확통03-03-binomial|binomial|0": "16cc18bc1b3a5a4690c62f20f390173e2b523d63583ea4d480c56558f8fac48b",
+    "early-12확통03-03-binomial|binomial|1": "831dca5933ca285965c4733ef5f44c4d2a5a308eecc2effbcfbc8e4114bf88fd",
+    "early-12확통03-03-binomial|binomial|2": "781813cad552093f01938b81095d4f4c86f03dc705240b3db78579e7dabd8e21",
+    "early-12확통03-04-normal|normal|0": "d297b759885c44167fb4ad1f0d2f54d054f426015d28c469a77082e64789f942",
+    "early-12확통03-04-normal-approximation|normal-approximation|0": "8419fb26fd90f05f492fac0889dfdb41d1b74859eb429d1da9f36e015714dbe3",
+    "early-12확통03-04-normal-approximation|normal-approximation|1": "a0cd79f7b6eb35d7f2af44b62ca285d151e3e71fe36d43ee934651deea05017b",
+    "early-12확통03-05-random-sampling|random-sampling|0": "f984ac3d5de335be5896a85ddff68efe9bbd2be1c9eb026d14d0ce5f394d1b9a",
+    "early-12확통03-06-sampling-distributions|sampling-distributions|0": "db3811c576bdeb856f784bca4c8be1160c682f8f904a690d8256546036f1d62d",
+    "early-12확통03-06-sampling-distributions|sampling-distributions|1": "79c84792625c15f61209066c400b68eb9bd04b41fea03def797b3609e1578da4",
+    "early-12확통03-07-mean-ci|mean-ci|0": "acffae57ddd77fc91fc03fb950790d87611d22d5377c567ed61cd87c78248c27",
+    "early-12확통03-07-mean-ci|mean-ci|1": "af6ee7b7090299e2a0e8e70b6aae15690b46649a124a6305f06336d21039b31d",
+    "early-12확통03-07-proportion-ci|proportion-ci|0": "ea4745a8e14aa5d75597510ec15452dceb553f123e26bcbf4f61554fb87d5355",
+    "early-12확통03-07-proportion-ci|proportion-ci|1": "e7768a93482d4ce6fb19525bb81fbfdd5166c6caf7cc7914925195487b4dd50f",
+    "early-12실통01-01-public-statistics|public-statistics|0": "8c3aad970baefbd67d4a0b62def0465fcbd64e7ec7fd10fb310a39ee46173073",
+    "early-12실통01-02-process|process|0": "3014b15e658c5c03f54503b9313cacd3844747371757799eda06c80b53b1a39d",
+    "early-12실통01-02-process|process|1": "31ec717233743493d6080509b4296a2181290236839e6fef82f7e5049f640973",
+    "early-12실통01-03-sampling-design|sampling-design|0": "99cb2998fc0b7e653190e021bc2b6142a629f7f754ace4956f5c108778eb55f2",
+    "early-12실통02-01-measurement|measurement|0": "12a6cebdc12251a8efab2c74a5504efca1fc5b610ef22aeb3419c375850852af",
+    "early-12실통02-02-data-collection|data-collection|0": "9391846261f76b989c971403fcdb8e28d9abf97e49e9aa370cea1b0e36563ef6",
+    "early-12실통02-02-data-collection|data-collection|1": "91727f23137dfc02ab4161a0f4ff5ccd0b3db58b7d345e9aee203bb392bece84",
+    "early-12실통02-03-graphs|graphs|0": "87bcafa2d4fb10e7cd3fd9a9809def05af0d249c1b83473eb4ca0846fdbbfcdf",
+    "early-12실통02-03-graphs|graphs|1": "b559941df0b7ef900b3629fc9d9e670ef3db842b1a99136cd7bb38a710cc6491",
+    "early-12실통02-03-graphs|graphs|2": "5afa77de0dfe3729b6111cf0ba1d3e01b425a5a71d5e592958adeb9ae6a577f7",
+    "early-12실통02-04-summaries|summaries|0": "0f9640caf0cd0b3ddfaad80893d77eb0c079ecd1f192a4d3ba598518a6236f0f",
+    "early-12실통02-04-summaries|summaries|1": "7efeb288dd4437ff1f612843192eef8f29e380bdfbe803ed621083901b5f368c",
+    "early-12실통03-01-normal-t|normal-t|0": "fb1e678b51bb8ea2a38cc5e0b96f77ffc7b7fa22949560372ed902af8f979dad",
+    "early-12실통03-02-t-mean|t-mean|0": "cc2164752de63025ca51a243ed408bcf8fdb2e50061a146c89c1eb299f7fd59f",
+    "early-12실통03-02-t-mean|t-mean|1": "012067f6a7da69c3b7ea4ace530375a515d03cb615a88f599d7f89dd37ee5aa9",
+    "early-12실통03-03-practical-proportion|practical-proportion|0": "5d564eb5b8aa605c51884fc053c89093a59962f84c665b8448968448e6754953",
+    "early-12실통03-03-practical-proportion|practical-proportion|1": "b1f8e3d450d3e7fe9ae3db9b1f21091da36fa8abc9f188d3c371c24886809458",
+    "early-12실통03-04-hypothesis-test|hypothesis-test|0": "20a12bbd41e3f7573b361b64bcbcb64ed72627c292d4aa618683580fc71a5ec2",
+    "early-12실통03-04-hypothesis-test|hypothesis-test|1": "8f3a0c2e8ab99d15b825ff83980140c38d1e52a9e5da57ada529dd8ab6edf32e",
+    "early-12실통04-01-investigation|investigation|0": "92191fe1359e2acb48b170c1de39e591da3201b5a24a16745f25ad6631b1c8dd",
+    "early-12실통04-01-investigation|investigation|1": "3530098880de5fe57a047013d9b85b2ff80d4424da1b58bcda4bf1e6b31195ca",
+    "early-12실통04-01-investigation|investigation|2": "18676101671009b6c2b58c46fd825e53f9d18a742cd2937d77b00ce73389d6d0",
+    "early-12실통04-02-critical-review|critical-review|0": "f78692458879e7c4df5d4656bf58440e6d7a5962ca9042c8a0f187f8965cd0ec",
+    "early-12실통04-02-critical-review|critical-review|1": "770d846cea6db5a86db3c7f46898a6bd9af339a6343a713051bf923e20988b00",
+    "early-12실통04-02-critical-review|critical-review|2": "df5e1c85e523172979f34a31a90fcbc696aaf21b3b8e765c9dc51d6d4bcefe53",
+    "early-6수03-01-copies|overlay|0": "d1d21f5fe44ef76621a6e1608c9ebf6f26ddd98b1595d2c082b8eb5d1c7f0c41",
+    "early-6수03-01-copies|overlay|1": "9fa07134a7e9ba6a1e5429897a6b152e5e8bb089822ad8fe5d3727fd56dd2c5e",
+    "early-6수03-02-line|fold-grid|0": "6d8c196a92e87cb9ba2e216e6b2a512b6bec42fce4a5dd3c8e421758dafa717e",
+    "early-6수03-02-line|fold-grid|1": "bf02849eab21f5a35a1f8c963ec92983da9a08ae9ad040c9989a757923d985ac",
+    "early-6수03-02-line|fold-grid|2": "077edf8bd026b49b5c02483e7ee46ac912befb671153ab1536087c73075d5da3",
+    "early-6수03-02-point|turn-grid|0": "555ede2f8b724255972136f39c9b58ac0e8cb717b8574d8e7eb030715c580d0f",
+    "early-6수03-02-point|turn-grid|1": "034e3074ebdcca8e5c35fc6b0e094b652bb3a09b1071366326bfbdbea2b33e23",
+    "early-6수03-03-boxes|mark|0": "22a94e2bff7b1f0321cf5f6fb064889ad669a42f6d7e3439f9d879334abb2a1e",
+    "early-6수03-03-boxes|mark|1": "13a22465ef30b9e75b06170d15f8eabcfcba890835d0873513b5b33175b88473",
+    "early-6수03-04-sketch|correspond|0": "3f16d232ca43bdfeaf6ff75d06baa41b49c6336db817adc821813cd525d76fd4",
+    "early-6수03-04-nets|fold|0": "362f59746efe7a7ae87abbe9c89c134b3c2fbf649887af39321f02c97347a5dd",
+    "early-6수03-04-nets|fold|1": "f4493432b8495f35c7fc0b80ab57823825062d1f25c66e9f429c821294658ea3",
+    "early-6수03-05-prisms-pyramids|bases|0": "523ce660c4ae48015d0af2fb6949d496efe37c6266f510176cabf9b8c967f36b",
+    "early-6수03-06-triangular-net|unroll|0": "a543ea1d30cd13ef54939b81768c1ae9bdec0b5fc9c6a628b7d02608a42b36cc",
+    "early-6수03-07-round-solids|rotate|0": "b5570198c6f52ab1bae95d6ecb18a773e5e14a02f6cfc591a3b712a330e82577",
+    "early-6수03-08-cylinder-net|roll|0": "f344bb0a3b9300c2fa6a0a6ffe8205a90d829d74701521a30206d2dbabbd4670",
+    "early-6수03-08-cylinder-net|roll|1": "d7f52d39625076e9a1343e0e58d7b2f1af11d3be3fb7a83674c20d2538f9dd28",
+    "early-6수03-09-blocks|columns|0": "a4bf1f0ceb08efccc4ecdbf1de2c1c8cb3ee97c4aa50ebaf60b8cf8c33f9c493",
+    "early-6수03-09-blocks|layers|0": "f15fe47a8d423adfef8f9b30cf38f6e597cabfa4e1331562499d15c74795312e",
+    "early-6수03-10-views|look|0": "6018101bd9bc0caf7df9f57b34fd0be4f95be7b5acba363ae990993dab71d847",
+    "early-6수03-10-ambiguous|construct|0": "92719759e73fbfb8f7f6bdbb9a000ebd02c65538e779e91a1837b542a497fbbe",
+    "early-6수03-10-ambiguous|construct|1": "bdd438cd714010bb06c04f07debb42148ddc97325494a2fba16113bef18c3294",
+    "early-6수03-11-perimeter|sum|0": "1afc7deb9a41304fd10e25748026b8b71763cbcca08be7c650df40b070880525",
+    "early-6수03-11-perimeter|sum|1": "b3f24c5b2bc283a85b057042da82cc6caac08640dca269bad4b08e6d7d058356",
+    "early-6수03-12-area-units|array|0": "a8b5ac4aaebad07c52adc0c5251dd695e3c66aa6689dd325bd0a64dc3c025baf",
+    "early-6수03-12-area-units|array|1": "983edab4272b2e1021100894bd25224f3e8fcdc96dd2bd7eac5431fe4f8176f8",
+    "early-6수03-13-rectangles|array|0": "0a0f19e753901903d7f6f04227331b0a8f004562f39e4372349ae5478d50dac5",
+    "early-6수03-13-rectangles|array|1": "e9a23464ed69700b5be10f5adb8ba226d3b84ece164e5ab71110757013d1eb5e",
+    "early-6수03-13-rectangles|split|0": "b50a90cf149764e9defccfc82789dce083eac5cde2c223f01282cf25a9d060a2",
+    "early-6수03-14-parallelogram|move|0": "ba0c0434c26fc164f2c51deeef80c6e96ed251f2b8b126de8f6f17141faaff66",
+    "early-6수03-14-parallelogram|move|1": "6330a59b6383e97b61295b46de867a563cf45cd3d0cb88b6749f201adecc7267",
+    "early-6수03-14-parallelogram|complete|0": "79e1bee75b8b560b01cbed9beb81e56617919c94f17a24aab4c87255ca584ed1",
+    "early-6수03-14-triangle|double|0": "5f0fd1fcb7e41018ebedf0a78fcdfbf102b16c1363e6c8dd92db74641ceee7bd",
+    "early-6수03-14-triangle|double|1": "e29e11636e222de3d9456edb97964696d1b14413a67cc0b30f38ebf18bd23e4f",
+    "early-6수03-14-triangle|difference|0": "c051851ea307686558cae162782b10e73d2703edfc8265bb6a40039914875d9a",
+    "early-6수03-14-trapezoid|double|0": "2cd361dec605910ff0a7681b32083d93124524c2cf3791d0ed6da38f267d2547",
+    "early-6수03-14-trapezoid|split|0": "d13b22fb29f6f6ccf507a3a2642068f4983d03182f9bf054a5da0b78461a308d",
+    "early-6수03-14-trapezoid|split|1": "08b5f93a9b19ddf949b8a2b98a05cca3cde6dff00b990fd8fc67c7caba1c90a5",
+    "early-6수03-14-rhombus|rearrange|0": "db94014ab171dad53dfeae7e199fee6f424b788270818554001f19abf36e0a24",
+    "early-6수03-14-rhombus|complete|0": "c27c1457d8e3f5de0f6bd466def41bf1901705a8c1b45e68984144d0423ded17",
+    "early-6수03-14-rhombus|complete|1": "6e1843d97b3e53de0d5707a9fe5d9f3610e5733a950557d417a2439521ddcee3",
+    "early-6수03-15-pi|ratios|0": "e23fec9ee01e2ee44cdcbd77d19e3f7c18f7ba02199d9afc95ea4f9173e94e7d",
+    "early-6수03-15-pi|ratios|1": "ce70b14dc6c93d6132b0bce6c4d69a133c4fffb24a87600ef011f2d0ead2f853",
+    "early-6수03-15-pi|ratios|2": "cdcc5d96eac2c821b8a00be8607929c48667dd6dec0970487bb97aec12acd03d",
+    "early-6수03-15-pi|ratios|3": "daaf28f02db590a227632b6ee71b340eac197d332f144da85de7a27b4deb2f4f",
+    "early-6수03-16-circumference|diameter|0": "2ee4af64f84f966cac5b64dc66f65ce470431a4dfd0118bec3d718ab81ef1114",
+    "early-6수03-16-circumference|diameter|1": "9fa996ccfa492d76b6c6f288c4eb2f2a2e4fd70bf3c7689f916a2879b7a118a1",
+    "early-6수03-16-circle-area|rearrange|0": "75e96ba0020d218fd09d63cbc02920a51ab5079966f1aa9b876be51d96ab0578",
+    "early-6수03-16-circle-area|rearrange|1": "02b69c4989932535d3392a58ea1bf7fcba758d8aa6d66b2cd46373a26a5aa326",
+    "early-6수03-17-surface|net|0": "2b1412e899a3c7a09023608fd30f881c552e046e0ec2905a2a9bb0a93f506450",
+    "early-6수03-17-surface|net|1": "561c41501d2ac4903f12f663b53352aa7a9623c174cd0e3b5d5c44f90ce79650",
+    "early-6수03-17-surface|pairs|0": "f83991e1e30ce114becbb4252c058334baa581d90ddbab0788c3537cf0cbcc09",
+    "early-6수03-17-surface|pairs|1": "446cc806ef67c61a8f66465b870303fd7766ca892e6beb12dcf58ba7bc1f9e40",
+    "early-6수03-17-surface|pairs|2": "297ace7d49e4d976ebfad21b564417bff8b169d9c45f1c672a8c0502d72fe044",
+    "early-6수03-17-surface|pairs|3": "a70b2e10070536e3a48c1e4ad2ac2ab5397766a031c0d419dd1cb5906030f1d8",
+    "early-6수03-18-volume-units|layers|0": "6c61a187f6e7bce513d983d94c641ec71479f4c9349bd78e00cdb09dfa73d2ec",
+    "early-6수03-18-volume-units|layers|1": "d105447c7007fb7e605193ce6f9db9bcfaaa64af9add5a5648f54e3c090066be",
+    "early-6수03-19-volume|base|0": "d7f2659d467c719fd1e8bc9cca337b77957aaaf1e8cfdaba2721837db9318bbb",
+    "early-6수03-19-volume|base|1": "3b0d67c9143d1de8f80dc03da41359abe6c12f21426c81dfcf3dfa1dbb3491f3",
+    "early-6수03-19-volume|other-base|0": "62eb3ea972998562880d74abff41a35b0ff9d1bbd01b3b4cc09436b256ecf3bb",
+    "early-6수04-01-mean|redistribute|0": "769bc062064350f31de74f3b7a4a39d7426248d8efad3b81e5f5c5726ce600c5",
+    "early-6수04-01-mean|redistribute|2": "08bc6d57e0ebc04b424b5c2353a9894e4aec5852158137a1a962d410a1249071",
+    "early-6수04-01-mean|sum-divide|0": "28425c5ec13c623c9f28c43d4b339ef270f2fedae215793384a3784b011c96f1",
+    "early-6수04-01-mean|sum-divide|1": "2d18953fe4e6d62d8a3f586fe302360410968d2ae5f3cf6b7f30ccde6d87d63c",
+    "early-6수04-01-mean|sum-divide|2": "2879ff0b335f50401ce8d41db43495f5c4f4d8cab590e4cd8570f7b22c634733",
+    "early-6수04-02-shares|band|0": "e0ceee2a431dff5c51f25a396ab8fbd680ec406a43998bccf66dbc02d8c7c719",
+    "early-6수04-02-shares|band|1": "e793888267d2db104b2a9083a20f92a4048c167380d9241ca1692c19f062b3b3",
+    "early-6수04-02-shares|circle|0": "689bdf21d3557a30988450b3147c01848c2c4d903f869b4f5d0d019213e9c129",
+    "early-6수04-02-shares|circle|1": "4cbe5148c0d16ae7f795a244e3834378141d0619922515f3cf96e59be55ea552",
+    "early-6수04-03-composition|inquiry|0": "0c75d483cdfaac3d049193b9af27cac67248fa379b29da666cdf29e0bab058de",
+    "early-6수04-03-composition|inquiry|1": "85c0dd7ce1a8ba61c5f67a157714718d22f0e4c833a33c42ced6c3f1c77e0d01",
+    "early-6수04-03-composition|inquiry|2": "2deee5e4416242701c063ed93012fecdd6c5b5c345316ed2f5c88f920772e14e",
+    "early-6수04-03-composition|inquiry|3": "42df1f429b0441c4e9a670bcf5b17d2e69e06d48d31a12e2ebbe2adaa04905cc",
+    "early-6수04-03-change|time-inquiry|0": "a43a205ade98899d82779447201bb2f2782f72d719dda5655de3569bdb279bd8",
+    "early-6수04-03-change|time-inquiry|1": "39736cf7c420475e29bbfd3b1cb042ed88e4e61959c8f9554b2aa620759990ec",
+    "early-6수04-03-change|time-inquiry|2": "54fe84a05646801a340aa956ba39b5ecade09c63f4e92f7b38d69e1de4e58bc8",
+    "early-6수04-03-change|time-inquiry|3": "57e40426a04c03449a64ac584d38869e4eef739e9d0ef3717ad70f83d65b8607",
+    "early-6수04-04-words|composition|0": "a8fd3ba3f2d329c881f067b46dc5f6c13e7abaf895fb3fe05017606bb3dd2152",
+    "early-6수04-05-numbers|scale|0": "a6048ad9afa66d39b4bcd25cbf5fe14bfb72c6de667a02cc46d27028dbb12be6",
+    "early-6수04-05-numbers|scale|1": "8194376f0a89488b0595b0c0496d9dd2d9e998206bd7cc7d044acab7468fdc3e",
+    "early-6수04-06-experiment|evidence|0": "077982353b0c8b454fe796081ded554aa68093c14618d7080cefbe7a13040663",
+    "early-6수04-06-experiment|evidence|1": "4ccbafee59e903a24b66f2b3bbb89dafcead2238144223ec7fcd0f7c64d6aeba",
+    "early-6수01-01-order|structure|0": "f178a5ea19f8b4ac340109a61661ed708f33effc1eed43fc72fce6baf59153fb",
+    "early-6수01-01-order|structure|1": "6ebfd9e09acee6e225da3473b43be936cf22bbe57e25cf4c0e8d73ce0c237d03",
+    "early-6수01-01-order|structure|2": "59a85b5762b725b91689ce0710151c39d8f996d45f44a5c4c19869cadc2123fb",
+    "early-6수01-01-order|structure|3": "1468df66b4a1f1e1049bb5d3a577e8dd3f77db120dc57484519692d88e0458be",
+    "early-6수01-02-boundary|endpoints|2": "7c54f158c5003e3e70619657fd9c220fe450292de4848fb8b13dacefc25687af",
+    "early-6수01-03-round|neighbors|0": "b914aa96ffbf22a6edb5bb9b8e5624bbdf1a6d728c4c56338bdb85d29ca0d7a4",
+    "early-6수01-03-purpose|purpose|0": "117f90eee2e7e531e31a8464512bca6178360691ff93d2e72b47a5628a278872",
+    "early-6수01-03-purpose|purpose|1": "8c86c9f65648435310b96eff3aa723f2c4df792c0c01e8c5454ee8003ced0f55",
+    "early-6수01-03-purpose|purpose|2": "cbb974b49498bd99d700c928e2af25e48f00c8152bdab2e1e343b36932c460b4",
+    "early-6수01-04-factors|list|0": "2bae4baa1abeac4d4b7d8b938843d7881616964e7e271e9c32e5b7852eb6edcd",
+    "early-6수01-04-factors|list|1": "62edc2f156ea2db102cc92669c0fcde0b7fd76a95dbae7c5a073ae8146eb0c34",
+    "early-6수01-04-factors|list|2": "97fa3738299d2f963768345846188bf135f14f225c02aed56be2b7ed42946cb6",
+    "early-6수01-05-multiples|list|0": "f6529f483e7a03326a2aa42f03672d9654f6cc7b2a8799ddff38aae441c32c80",
+    "early-6수01-05-multiples|list|1": "36581ac753face470f1706c436143bf4143661fa8d701b147d4becfc2cdf7c56",
+    "early-6수01-05-multiples|list|2": "fd2828dc320e2b7eb07a7fbdb394c5208367dbd6f86aaff25f124be0318eb469",
+    "early-6수01-05-multiples|list|3": "a4f1f9f9078ae6805b047bebc2f8e2a6258f0f1a020e55f83ff635013e0d4c29",
+    "early-6수01-06-equivalent|partition|0": "094aa18197b5d33e17ae522cdf139374786332cb49e926b2cfe4a4c585d1d9b9",
+    "early-6수01-06-reduce|group|0": "40e70d2ddf060c6ddb1c1e1b423cd837b8ed9a203a20dba2e9ea16898100f545",
+    "early-6수01-06-reduce|group|1": "c27755f4222cdcf9d71050cb90aa77c5dac5c39b2141449dd5121e4d2d9af717",
+    "early-6수01-06-common|multiples|0": "283a972e35cc542cbae5aceaea5d9df851b7705c9cecb7612c4256bd35865ac4",
+    "early-6수01-06-common|multiples|1": "0c6fc9515e4c5564799b52ef33ba3b24c1bca10b4ac8caa7b8a5574f931e91d9",
+    "early-6수01-07-compare|common|0": "7a9c865ab9db0e55c7c6dd298d36765226f2dc49f0605b2949d5e72021b43852",
+    "early-6수01-07-compare|common|1": "dd0a428b3e4cbb890d73a6c9e09d9de0825c5351ae5a06ba4367fde30bea4e19",
+    "early-6수01-07-compare|benchmark|0": "cf9d96e03b639d3e455814357e0727664edafb0b854dcb43c3afb5ccc5949269",
+    "early-6수01-08-add|common|0": "fb6b707112081157473440e9242a60db3030b163295ede5de1aef72ffe1c1233",
+    "early-6수01-08-add|common|1": "41252a907cf15d28a6f80ce126723a3625cd2b3fc588feab2b6ee723febbdb85",
+    "early-6수01-08-add|common|2": "169f663faa93beae6c31de20f671bc0eaddecb604d58ddb127690e0087eeafe0",
+    "early-6수01-08-subtract|regroup|0": "7aa196642db7d847e90bad347c487049dc5131d81bc52354286582e23e5e09dd",
+    "early-6수01-08-subtract|regroup|1": "477041f79f5fc7e77828bf9a1eaf373d884b3f71e3613ebc51b9028ce53c3548",
+    "early-6수01-08-subtract|improper|0": "035c27889f32d001c81eebe6bbd17284921ec860bbe322c14b99ee1b577b1611",
+    "early-6수01-08-subtract|improper|1": "f32512860cfb7c088b103fefe98e08c5968f845d7be0970b69fd80cff6cf69da",
+    "early-6수01-09-natural|units|0": "083606f06d0ccbbbfd95e38cb1ff8dcccece7476d58ca8d9a8a196dfdc5054a2",
+    "early-6수01-09-natural|units|1": "620b9c343c99eae7aaf2a0834989a50eadf3236ad21a1be313f0988198d08c98",
+    "early-6수01-09-part|grid|0": "10468f71fe02e56c7e2f7f2196099e40cd537d5d3d03dcbfb36b7cd179da10d2",
+    "early-6수01-09-part|grid|1": "ae5e98360aa837bf1084bea35b3f107da58bca1b59cf8d9b52615e9f44e8b93d",
+    "early-6수01-09-mixed|improper|0": "b6960f7298798c7624fefce7260d4d45d72eb790b184619f3a1f6409d6530562",
+    "early-6수01-09-mixed|improper|1": "e3d784a194dd85d105fee10628626457ea6d01a5e43bc0ef49d32149da8de7f8",
+    "early-6수01-09-mixed|split|0": "e4ae068fc62a0398211e87f46ff185231253b54d26c6e2008e97b5dc75a2d8e7",
+    "early-6수01-09-mixed|split|1": "7d7fd1edabeb07bde711f972ed1b1f43b085d7122847be3530880d12c2aae8ea",
+    "early-6수01-10-share|pieces|0": "71217eb7dbe2631a236ff7052bad49ecf96f04ae42d4abe1b52bccf75848ab07",
+    "early-6수01-10-share|pieces|1": "5d752127363e5bb0569f944ba077a6baa10a99d893dd16ea9638a13da20058f8",
+    "early-6수01-11-by-natural|partition|0": "35d082246572ccadd146b2174b7bb432bc5fe133906478d37767ac7549751198",
+    "early-6수01-11-by-natural|partition|1": "0c0d5db7162e5f408930cfa5d260279417f1e0c9c1ac5ead4dcf9099f80e5e4e",
+    "early-6수01-11-natural-by-fraction|units|0": "b61269fc834bfd873a488bedbb67fd8a4743aabe418b764fa764ef6153c7b96a",
+    "early-6수01-11-natural-by-fraction|units|1": "981a336b6d38eeeb7c0f5a83db8fb6e13f73dc9ba4d3549fc5c2022ae033424d",
+    "early-6수01-11-fraction-by-fraction|common|0": "57a4a73a75c45a56cc7f7fd746b3ab5d6a27fe7e501cb7cfc5846303b9c4a8d1",
+    "early-6수01-11-fraction-by-fraction|common|1": "a2a09c5b0050762fafc7020f1d498d1d5d561d916993e6e48b7bbac00e0dd8f7",
+    "early-6수01-11-fraction-by-fraction|unit-rate|0": "ca79c3ccf0a4e1ff5ad9ee63acb488c29b919cb9b49418aca26af06b30aa0ed7",
+    "early-6수01-12-relation|base-ten|0": "d4268d38ccc3e4d4cff51eef8fb657048512fbabc9358c531ecb42d9626273cc",
+    "early-6수01-12-relation|base-ten|1": "63fc4672a117e719524c28a42e1f75e15cfd53504ff9ca49c43212bc510b9751",
+    "early-6수01-12-compare|decimal|0": "f452eba04ecbd97d7846d3cc79732e2814f2a7fbe5d6149d28aa00803d868b91",
+    "early-6수01-12-compare|decimal|1": "98eba3ec91668540c05a55932a772b22d1cdee076b46148648e655e673a83386",
+    "early-6수01-12-compare|fraction|0": "664eacabaee50e05a2f0c87e35d3b1b36e25337ad604df8fc7b1d0d33ce53281",
+    "early-6수01-12-compare|fraction|1": "876ec1f3be81e146a1e42b44cce1df4569133da6c17c39e631388a49a794b631",
+    "early-6수01-13-natural|hundredths|0": "702020893d019d118be48c456cf6fd729df9775afa560a7106bea207c6d4f631",
+    "early-6수01-13-natural|hundredths|1": "f426caef21c0fd6ab426313549c2ad49bf7f6b1eceef2c969fe154a47cd85762",
+    "early-6수01-13-decimal|fractions|0": "26f5a1053d4bb9a6abf89dfb78a6852fe06030bc7b3b55bfb7e67435e448cbe5",
+    "early-6수01-13-decimal|fractions|1": "3f38ada557daf6bafbb6abe9f13b629d423d8a339beff17587f4e33cf509489c",
+    "early-6수01-14-decimal-quotient|units|0": "12e536d7387e7b2eebb848799083db056ce84105652fbecb29ce80a707272b7e",
+    "early-6수01-14-decimal-quotient|units|1": "55c0f3eb9ac4369dac60d06f51044634540af1df546f3c393096a3f2a259094c",
+    "early-6수01-14-decimal-quotient|fraction|0": "2022e2d852dc8389a94ec8ae654ab6774aa5fb2ff0e03ef019aad1ded92cac66",
+    "early-6수01-14-decimal-quotient|fraction|1": "f7abd49b9c98bc488665bd5c3c39f3e7501eadd9da5d678f1f89b458ea54e8ad",
+    "early-6수01-15-by-natural|hundredths|0": "10f1feaee0e77ea313af87f8485fd88dab23d0d64b3394fa97274d6df7b1ed61",
+    "early-6수01-15-by-natural|hundredths|1": "6206e56879985c9b9cc0568c86e188ae53479031b6904dc52b593a8d6ee48b88",
+    "early-6수01-15-natural-by-decimal|tenths|0": "16978adbb412b207fb941a7151ff9bc6b519b0ba4de8ab315514e8986754d758",
+    "early-6수01-15-natural-by-decimal|tenths|1": "7a54c3b31e1fb088ec8e29b397a8619781505a00bac7d4fa50c802d9f6cb8c6a",
+    "early-6수01-15-decimal-by-decimal|units|0": "ed843b932c5bd58ef237aa7afb3b90c6033546dccff7d64d2474ce1d388974ac",
+    "early-6수01-15-decimal-by-decimal|units|1": "ab00673895cb680635d018efece2ec4de2e4578700f5c4f8d1f25df4da2319e8",
+    "early-6수01-15-decimal-by-decimal|scale|1": "1b27707178af84822982f99fed11fc0a86e4fc8abf79825a3876ccd5d509574a",
+    "early-6수02-01-table|pairs|0": "c66b99ce7fdf6cb130f813317bea93e5e70f0d9fe5fd14cc010394e54f788ec1",
+    "early-6수02-01-table|pairs|2": "f1099287420724a52ab97a5a2f6b597093b7bbd1dea0c054ada41444dc902d25",
+    "early-6수02-02-ratio|pairs|0": "34fec5fe5b98f521486aa2d3f8151cb98a102858fb19cc79d1ae40813ccdec09",
+    "early-6수02-02-ratio|pairs|1": "351d87cbbf2194992f79b560c109915eb2467ac35cde62eebffaab540999b10f",
+    "early-6수02-03-rate|hundred|0": "6384dee3926bf6cf87d090f91575dd4081f2c7c1296a3fadf8524d95a5f3c332",
+    "early-6수02-03-rate|hundred|1": "d00bb061d19569f26bbaba15ba73a57f2b04f4b340f8f3ba014e71909d70edc7",
+    "early-6수02-03-rate|hundred|2": "3aea19f7ed8e52699474777f3faaba37fc8695fc3e60e2200857a05c18fe2612",
+    "early-6수02-03-rate|hundred|3": "08d333bddb5310c28e72a5097342ccad4c6e3b0efc6542894f55c41aeebb9cc6",
+    "early-6수02-04-proportion|scale|0": "9edac642cafc737e1f5c1899f8448048d3b5f2dff613c949b47149977c8431ee",
+    "early-6수02-04-proportion|scale|1": "e4b89776a21b6aae027fcb06a3012907c083a7b007a4d709bc70b6ab88cfcc7d",
+    "early-6수02-04-solve|scale|0": "e4594f24a9b1cb39fa38750bfcc88bb019742120cea26fb59878df0e194fed95",
+    "early-6수02-04-solve|products|0": "b41eb9fa5c4da0bf6f2d9f72733990d913c9fb53951523b49258b698c9dbb6f8",
+    "early-6수02-04-solve|products|1": "3fa29d573dd2a4c85d5222123d0d49380fd868ecdc7263819fbe336e1b301318",
+    "early-6수02-05-allocate|parts|0": "76aacd3cfd7277f9f8fa638b5163cfaf72f56d8bbd1bdae46749d79680676700",
+    "early-6수02-05-allocate|parts|1": "d612a795debc0bea575ed2e73bff1510494c4d9cc3e559bea72aadba256a93a5",
+    "early-6수02-05-allocate|parts|2": "e42e260c6d7f250c8512ec1be8e1a41a937b66bedbcaffbc7be6b832aecd7493",
+    "early-6수02-05-allocate|fraction|0": "2e061cc8b6b4e300ada9d34c83c87f8d21a82ba198a8f81f06e565a89b0773eb",
+    "early-6수02-05-allocate|fraction|1": "f0fff0160eccdfc7fedef5a0a6b60722e476480d7ad08edf3445fa56c97ff1b8",
+    "early-12직수01-01-supplies|supplies|0": "cbb8cee0db8d83e10315ef2aa5265bb0e7bee089916dfef0c59db19edf717ad7",
+    "early-12직수01-02-round|round|0": "c47546daa9b0394e6e193c27d81988c0f4fa477816435cf324c86f2eee813c72",
+    "early-12직수01-02-round|round|1": "d856eb20ebfb43d1f1fdca7f6a9b96ab5d38db7b7797018290fd96ee6baf0ae2",
+    "early-12직수01-03-units|units|0": "e98186c01fd9b514b73bc717858a93370f147e93119fd67504a50ee154653a4e",
+    "early-12직수01-03-conversion-table|conversion-table|0": "a0c9d7a2d46182fedb1482c16efb359bff8ecac4cd506ce37269005e5a85b712",
+    "early-12직수02-01-unit-price|unit-price|0": "6cc5fcc18dbd435b2cb6e79813ccef6c20cd576fb75153c01d09c38f273a170a",
+    "early-12직수02-01-unit-price|unit-price|1": "260e267e870c31d1c211993fc85b8b9ae8ee169f01fff2cff189bbb608ac2db5",
+    "early-12직수02-02-rates|rates|0": "e114743377b1817fd514347185b844716149d1e54a4680fd89da1d7bde6f81e8",
+    "early-12직수02-03-tariff|tariff|0": "2b61bdeaf370b26eddde1be776f12767d794947dc6ea3cfdf2e2e998ec5f374a",
+    "early-12직수02-04-cycle|cycle|0": "4f50db5299caa7c1d8be14e13cff23cf0c85e056742d15cebbf7154f1fcdc2c3",
+    "early-12직수02-05-cost|inequality|0": "f5d895f1fa7b6c5393bd440e5a25393e207f51796c680b6a5aba240563b744b1",
+    "early-12직수03-01-box-net|box-net|0": "5537085543bd7c8ef33fdb82f5f84276951d390f0e36a46698aac3bdcd7d1e9f",
+    "early-12직수03-01-box-net|box-net|1": "429e25a3972cae5cb54afc370dc825de86b91514571947fe7997b9c72b9d4e86",
+    "early-12직수03-02-stock-layout|stock-layout|0": "383364f72ff62e30f55a38143c7bcffb21347c6686b85c7a9a356b252226c403",
+    "early-12직수03-02-stock-layout|stock-layout|1": "36480a8ea62f9c73141da325faee0f527e70673c28ebebcf5dfeaa9f2257ca0e",
+    "early-12직수03-03-scale|scale|0": "21f552b448285affae7a4d5dde88ae35e1b63a9087f24b080f531cfc181c0d25",
+    "early-12직수03-03-scale|scale|1": "02d6e124769ce6964ad0adb6ce6e713c0e3f85baf9b21fbd48370b23b30870cf",
+    "early-12직수03-04-panel|panel|0": "050bc476b4033cc92448ac19108f411631a2b478fcf87e9712e4323dee8de258",
+    "early-12직수03-04-panel|panel|1": "7a380e05765bac37d42052a0420303c17e6a09e2fd3f3df6c53669e91be8c347",
+    "early-12직수03-05-open-box|open-box|0": "9e581fa303ef33d6b3d6e86ea583c5da0dc2e66dc5bd331f776ea4058939487e",
+    "early-12직수03-05-open-box|open-box|1": "a1ea5a0f35838f59245bba6f8be9d64951779c4e6e11e8fedd76840dd2cd95dc",
+    "early-12직수04-01-bundles|bundles|0": "43c1f8dcabd034b11d38faf722ae7f5c418542b0e034c5ce87b8813a0cba7f88",
+    "early-12직수04-02-cancellation|cancellation|0": "c3b4029d6eb67eeac7e88af61540b4162a2324b1c98b5c22727ceb42374d52a4",
+    "early-12직수04-03-join-tables|join-tables|0": "b94d8fc5c88a019b1d37466a27cb1cc2a400b0d993df2a89552484c196003528",
+    "early-12직수04-04-read-rates|read-rates|0": "3aaf2599f972c34378dd47cb2cf93aff294727aa1e2d219ed4fbd77e55174a1e",
+    "early-12직수04-05-staffing|staffing|0": "3e2c65af019256b60e142dd300997321ece99a2001e0e4eb77d72e0f3ef7d59d",
+    "early-12직수04-05-staffing|staffing|1": "52aae3cea079e0baf17094771fe20cad527f89c6bda899ab7e2b97a7cc2236a6",
+    "early-12수문01-01-music|music|0": "fbbda106b6c103f58add8f4a0efaf06f0772db7f29d441763b1b926647b1bf2d",
+    "early-12수문01-01-music|music|1": "97ca85708c32e31b73c5c42756624b850ea9e6267354f69308c1c57de224e813",
+    "early-12수문01-02-tessellation|tessellation|0": "68c946c008be067a3a868668a55ca4e5e40a94830388635a86c8d1aa22ae32b5",
+    "early-12수문01-03-flatland-story|flatland-story|0": "4fba9ca6d93b50099eeacedb253d4f41cbdcb080d5b9ef64e355a6ad0a5ce5a8",
+    "early-12수문01-04-film|film|0": "1cf53b03bc8aa3bc29f5cdf0928cbc60ebb53498f7f63d6d94091f9c4c2a9cba",
+    "early-12수문02-01-sports|sports|0": "9cef81adca11354e99ccd1035065cc6cfefc3bd3a9ab792895f0986951469ba5",
+    "early-12수문02-02-takeaway|takeaway|0": "6eb0336842b2544be1c477221b3362483838b77f6d452d3280b4550d21deec03",
+    "early-12수문02-03-digital|digital|0": "603c5569d33d910e71148d88996808d24d3d0c1697333e9d1110f4a3c63aad66",
+    "early-12수문02-04-voting|voting|0": "ff61dfcc06659e658b22ca2f3f1d562cd963b75d19485b0cfa5551c22e06e204",
+    "early-12수문03-01-culture-models|culture-models|0": "c0fc63e64008aa1f549479344317d2a1cd09aeabb248bc1904c197cbaed4c03d",
+    "early-12수문03-02-braille|braille|0": "69391496cc90d476dc1c6f9e7925a2859c6825ecff174cb34a565e898e8d7657",
+    "early-12수문03-03-headlines|headlines|0": "daa6dc659a0740623b8d463390d915d843f060a6b2f25d290952222a557e20da",
+    "early-12수문03-04-value-choice|value-choice|0": "91b7865d643ae7331d641148655562218ffc197419eb1561947b4bfc3044c6c7",
+    "early-12수문04-01-food-balance|food-balance|0": "9846e250b401973d67ca513af566c9faaee9ee1c8fb9dd57104866305ac022f1",
+    "early-12수문04-01-food-balance|food-balance|1": "71d79f37558d56b95d5010a1ad8c14d3004137da229219136cc6ad5f37435e33",
+    "early-12수문04-02-emissions|emissions|0": "ceae7b7f3274544fabe0e09b6aa3aef468bbaa8a3eef2acea041b07a32fc025b",
+    "early-12수문04-02-emissions|emissions|1": "4babe81785f425356905f4d419c5c505402eab71b0a8131795beceebab7e34e0",
+    "early-12수문04-03-land|land|0": "88c16bafd3539e5bfc5e9dc5fb915e5b4d9762242c43fed233d63332257398c8",
+    "early-12수문04-04-biodiversity|biodiversity|0": "91c2e16d8a128a98ba51bb86453436e38b5047ddc88a91af710e919c7ed91e57",
+    "early-12수문04-04-biodiversity|biodiversity|1": "2369a4123558bc4893b8c8cf9f668ba6b7ef97841c40a4932737f66a6f164232",
+    "early-12수과01-01-meaning|meaning|0": "fc8962a64ff213a367cf7e9df0daba4e1718a647dee83c8339fbd97bf25ec8ed",
+    "early-12수과01-01-meaning|meaning|1": "94479bcba90d88ff4275991ce1649612431a5a3a6683b9e55e6ba4e6b6983d1b",
+    "early-12수과02-01-literature|literature|0": "0b8f9e0695fb08c892b7d8b6d70850760aa3f83443e65fcfc4ee281f4144175d",
+    "early-12수과02-02-case-study|case-study|0": "efeea15abad84812e5a97e5408c0392bd8f97440e26403c504723cbf61cbe655",
+    "early-12수과02-02-case-study|case-study|1": "1ad0d51bec2faf28076d753935b040ac95ef861712e041804452d15161ff5547",
+    "early-12수과02-03-experiment|experiment|0": "9764ab89110460926fca5ae69680f4dcdfa2e72e4240a5103cd07e2c8193cda0",
+    "early-12수과02-04-development|development|0": "470d5d69a11b729f7b1de6ffdd3354ed551e551471e34ffdfbf4b40da1344f28",
+    "early-12수과03-01-plan|plan|0": "6e56fa9ae2d92b46361e7c89728b68c474b8e55712bcf19ac6db4a97c1f53848",
+    "early-12수과03-01-plan|plan|1": "ac60867dbe6a224e4d68c36291debd348e9a8d494705b582aaf0caa9895fe639",
+    "early-12수과03-02-perform|perform|0": "29df08fd08c4bf66233c712ac8058cd5964d70dc717599b57191ca6c4f728d1c",
+    "early-12수과03-02-perform|perform|1": "77c1b15e5bde460fbd327a1ecf84efaa6f650d569558f4a3f023a5c497223daa",
+    "early-12수과03-03-communicate|communicate|0": "71634632808b2463231e9fa61596324cad82fa3622c383a2df878c59d574a3d8",
+    "early-12수과03-03-communicate|communicate|1": "85c8387714279a9864d706991a49f2674eed2ed814a63009ebb73609ac527887",
+    "early-12수과03-04-reflection|reflection|0": "758057dc4c9bca4e715410595f8705b2fec176831b51dda5e1ded903cb2fa53c"
+  },
+  "history": [
+    {
+      "date": "2026-11-04",
+      "reviewer": "Codex",
+      "kind": "integration_self_check",
+      "scope": "학교급·과목 전환과 같은 학교급·과목 안의 모든 목표 참조",
+      "decision": "작성한 과제 경로의 부분 수행과 적용 목표를 보존한다. 원장의 각 원고 이력에 수정 전 내용을 보존한다."
+    },
+    {
+      "date": "2026-11-04",
+      "reviewer": "Codex",
+      "kind": "content_correction_scope_reconciliation",
+      "scope": "각도·확률 문구 수정과 경로 선택 이유 보완. 목표 조건의 출발 수행·적용 목표·조건 문장은 바꾸지 않음.",
+      "previous_source_hashes": {
+        "data/goal_hierarchy_algebra_calculus_one.json": "6a84ad7ec16acc58ef6dfef8fc05b90db3dc78c527110a2d4ee9eafe037d3937",
+        "data/goal_hierarchy_calculus_two_geometry.json": "621c3fd59b554e48a544677be3f3005c9b1a004af39c9d1ed6ed381c1e5277a5",
+        "data/goal_hierarchy_common_basic_one.json": "a98cb4c434b4735bf20e5bd01807a848a10d7928f3869180651cfefc1f46ffaa",
+        "data/goal_hierarchy_common_basic_two.json": "dd05de0fc16b56ad00ce869565a22302fc733e68096e1b572f4867781c5b303d",
+        "data/goal_hierarchy_early_number.json": "06d24fc6e22e30343e11ef66e813a8d23e5b4cb593ecee519782c6ba62d54185",
+        "data/goal_hierarchy_early_shape_measure_data.json": "aa03daa570b0642d5e5970793df05499d49be09568bc7f67f9c0fc7b72b10a7d",
+        "data/goal_hierarchy_economy_ai.json": "5729d64f29e8e1446b39bace86638dde04a94993f5932e6cc54947d600465ab9",
+        "data/goal_hierarchy_middle_functions_statistics.json": "5361215963d7b3840edfc6c0b4a3c10cebfc5247de97c4167a7adb6e7125a156",
+        "data/goal_hierarchy_middle_geometry.json": "79a049ac1054e772df327bd809ff3a45f1878a72165b974080d33cfd42b46f27",
+        "data/goal_hierarchy_middle_number_algebra.json": "cb1db8b1c28d3390e36224ec95c9b229c7ff4a3a32424749394778ac22400e6d",
+        "data/goal_hierarchy_primary_3_4_geometry_measure_data.json": "4f301faec510247ec90af55fce7f05896ca3e4d17dc5698d872040d94c1fa6fc",
+        "data/goal_hierarchy_primary_3_4_number_patterns.json": "aecfdcf3c91849aa1ead9313e590bb7dbd4b168171cb2f4132f59b26fb970972",
+        "data/goal_hierarchy_probability_statistics.json": "2284bcacf2005e21583ac8e2caa3d86aa7b1b95eae89ed709825188ba1697709",
+        "data/goal_hierarchy_upper_primary_geometry_data.json": "779b4b32025dcc954da3367891e2f7fd60b5e682027e3309842dee710323d98b",
+        "data/goal_hierarchy_upper_primary_number_ratio.json": "0e4345eb7aaa0ef792d6ffc95bf0d514a9b8e46df42b5b4d87b873e492f6989d",
+        "data/goal_hierarchy_work_culture_inquiry.json": "6efe845610b6003a63a5a139b9f2709c961d3d5de600a06e1d6d10fb86a5a26a"
+      }
+    },
+    {
+      "date": "2026-11-04",
+      "reviewer": "Codex",
+      "kind": "prompt_scope_reconciliation",
+      "scope": "목표에 있던 들이·무게 수치를 문제 본문에도 명시. 조건·출발 목표·적용 목표·풀이의 차이가 없음을 전수 비교.",
+      "condition_keys": [
+        "early-4수03-19-capacity-operations|regroup|0",
+        "early-4수03-19-capacity-operations|regroup|1",
+        "early-4수03-19-capacity-operations|regroup|2",
+        "early-4수03-23-weight-operations|regroup|0",
+        "early-4수03-23-weight-operations|regroup|1",
+        "early-4수03-23-weight-operations|regroup|2"
+      ],
+      "previous_source_hashes": {
+        "data/goal_hierarchy_algebra_calculus_one.json": "fdf29af90b48b69b4ed75fe81604dd64c1c16b5f9ced6aed8336a9fd0eac4434",
+        "data/goal_hierarchy_calculus_two_geometry.json": "34ac26fe250423bd384d9c7a78cd8954dc88b378cdf73ad589ab1eda8943c11f",
+        "data/goal_hierarchy_common_basic_one.json": "cf4631a160a50fa80efbc065c731ada8dc276b3a8e24061371efb1cc48c8c62c",
+        "data/goal_hierarchy_common_basic_two.json": "587176ac8eb779994c18a23316306725f687b8d141e7a4b1c4d2d6f6a71b2d86",
+        "data/goal_hierarchy_early_number.json": "930e2bd7624eb8701c81dd94b2abc29c7db036c5ccf2e1ceac93d887b9b0f156",
+        "data/goal_hierarchy_early_shape_measure_data.json": "628f9f9080aa33ff229b6beda0c4c546903a9f6fb4ff86935edd804d11d24954",
+        "data/goal_hierarchy_economy_ai.json": "ec09178783553607b9ce3d60a211d6e3208628398e18e93d81b5ef193db94404",
+        "data/goal_hierarchy_middle_functions_statistics.json": "8ecb75da39a6782fe9330bb15de6564770c640c987cc56ab666aab0114a50ec7",
+        "data/goal_hierarchy_middle_geometry.json": "3d1079804e82af1b79ca27a66d26c5e45d6d0c541914c36b9eae7379ec7e0d05",
+        "data/goal_hierarchy_middle_number_algebra.json": "1a8e35da9d918d6a55fe89cb843017f6a3017b8ee5c916273bd9f991e69b2b9f",
+        "data/goal_hierarchy_primary_3_4_geometry_measure_data.json": "f89024e74cec98db13d18a97e86e0c3cc5ff77e3557b77da2cb4a7a7d35517ea",
+        "data/goal_hierarchy_primary_3_4_number_patterns.json": "43e33da3f7cb141028bccf847b4661faa364a3f9d6cddf820e4af14697f91f1f",
+        "data/goal_hierarchy_probability_statistics.json": "aab23ef5e997f8587c9973743f9eda3ca4eb1b50f05e8b58f66712adb80bd4b0",
+        "data/goal_hierarchy_upper_primary_geometry_data.json": "453a89c9901c5572c5ca2740e4b58ccada9f0088487f1bba7301717505195f68",
+        "data/goal_hierarchy_upper_primary_number_ratio.json": "964a5b06736fe3236c0f74082dfe58eb30b88b7e781a7c99ca00384f8645ae70",
+        "data/goal_hierarchy_work_culture_inquiry.json": "d1a16f196184dc2add07530368a907c1f4b19294fa4c849e642d94aaff872dba"
+      },
+      "previous_condition_snapshots": {
+        "early-4수03-19-capacity-operations|regroup|0": "776fde0660215892068128cc88df7212d8d1c969a9fe2bbc834d463b22c595a1",
+        "early-4수03-19-capacity-operations|regroup|1": "bb7d79e4666cf05b50966ecab7a0ff6af0021f83c66984f47fedecbc11149b37",
+        "early-4수03-19-capacity-operations|regroup|2": "2f16533cd946f91ffe47fa69d2d3d6dd2ba3eeed4a5f7d6d8b48831c342f81e2",
+        "early-4수03-23-weight-operations|regroup|0": "35fdb4aa6fa5667e135e2882e9989eb13f559577d41cf9fe81a4e9138f288328",
+        "early-4수03-23-weight-operations|regroup|1": "34b6a76aaad438899994f4048670da4636d18da3bb1cefc3fbb90da3d4e72b0c",
+        "early-4수03-23-weight-operations|regroup|2": "8ef8437742df155d85675e374234adea1dfddfa905ffb5e06cdd55073a237dde"
+      }
+    },
+    {
+      "date": "2026-11-04",
+      "reviewer": "Codex",
+      "kind": "tool_resource_reconciliation",
+      "scope": "5개 과제의 CSV 연결 외에 문제·풀이·조건·목표가 같음을 전수 비교",
+      "case_ids": [
+        "early-12대수01-07-graphs",
+        "early-12대수02-02-unit-circle",
+        "early-12미적Ⅰ-01-01-hole",
+        "early-12미적Ⅰ-02-01-derivative",
+        "early-12미적Ⅰ-03-03-signed-area"
+      ],
+      "previous_source_hash": "fdf29af90b48b69b4ed75fe81604dd64c1c16b5f9ced6aed8336a9fd0eac4434"
+    },
+    {
+      "date": "2026-11-04",
+      "reviewer": "Codex",
+      "kind": "tool_resource_reconciliation",
+      "scope": "8개 과제의 CSV 연결 외 문제·풀이·조건·목표가 같음을 전수 비교",
+      "case_ids": [
+        "early-12미적Ⅱ-01-01-sequences",
+        "early-12미적Ⅱ-01-04-series",
+        "early-12미적Ⅱ-03-04-rectangles",
+        "early-12기하01-01-parabola",
+        "early-12기하01-02-ellipse",
+        "early-12기하01-03-hyperbola",
+        "early-12기하02-03-projection",
+        "early-12기하02-05-sphere"
+      ],
+      "previous_source_hash": "34ac26fe250423bd384d9c7a78cd8954dc88b378cdf73ad589ab1eda8943c11f"
+    },
+    {
+      "date": "2026-11-04",
+      "reviewer": "Codex",
+      "kind": "source_resource_reconciliation",
+      "scope": "기존40개 과제의 문제·풀이·조건·목표 동일성 비교. 경제 지표 한 과제에 출처 보존 CSV만 추가.",
+      "case_ids": [
+        "early-12경수01-01-index"
+      ],
+      "previous_source_hash": "ec09178783553607b9ce3d60a211d6e3208628398e18e93d81b5ef193db94404"
+    },
+    {
+      "date": "2026-11-04",
+      "reviewer": "Codex",
+      "kind": "prompt_scope_reconciliation",
+      "case_ids": [
+        "early-12직수04-01-bundles"
+      ],
+      "previous_source_hash": "d1a16f196184dc2add07530368a907c1f4b19294fa4c849e642d94aaff872dba",
+      "scope": "고정된3개 물품의 순서임을 발문에 명시. 전체 원고 비교로 목표·공유조건·모든 경로의 조건·계산·진단이 그대로임을 확인."
+    },
+    {
+      "date": "2026-11-04",
+      "reviewer": "Codex",
+      "kind": "condition_prompt_re_review",
+      "condition_keys": [
+        "early-12직수04-01-bundles|bundles|0"
+      ],
+      "previous_snapshot": "c4c64bfa639003880f970beaf36587d2e11c2fb10a34cc4e797b4759e24586f5",
+      "new_snapshot": "43c1f8dcabd034b11d38faf722ae7f5c418542b0e034c5ce87b8813a0cba7f88",
+      "scope": "출발 목표9수04-05:count의 열거·조건에 맞는 경우 세기는 고정3개 진열의6가지 계산에 그대로 적용. 전체 조건 기록의 유일한 차이가 target_task의 선택 대상 명료화임을 이전 해시로 대조."
+    },
+    {
+      "date": "2026-11-04",
+      "reviewer": "Codex",
+      "kind": "prompt_scope_reconciliation",
+      "case_ids": [
+        "early-4수01-14-compare",
+        "early-4수01-16-add",
+        "early-4수01-16-subtract"
+      ],
+      "previous_source_hash": "43e33da3f7cb141028bccf847b4661faa364a3f9d6cddf820e4af14697f91f1f",
+      "scope": "기존 목표 문장에 있던 소수 입력을 문제 본문에도 명시. 입력·정의역·모든 풀이와 결과·목표·선수 조건은 그대로이며 자릿값 비교·같은 단위 합차의 의미 대응이 유지됨을 재대조."
+    },
+    {
+      "date": "2026-11-04",
+      "reviewer": "Codex",
+      "kind": "condition_prompt_re_review",
+      "condition_keys": [
+        "early-4수01-14-compare|place|0",
+        "early-4수01-14-compare|number-line|0",
+        "early-4수01-16-add|place|0",
+        "early-4수01-16-add|hundredths|0",
+        "early-4수01-16-add|hundredths|1",
+        "early-4수01-16-subtract|exchange|0",
+        "early-4수01-16-subtract|hundredths|0",
+        "early-4수01-16-subtract|hundredths|1"
+      ],
+      "previous_snapshots": {
+        "early-4수01-14-compare|place|0": "e10379e2f31f78d0beb8848e6224d1713d73121938d36c3fdae60afd1d6de621",
+        "early-4수01-14-compare|number-line|0": "d9fd6cf2966f10b6f13eb28056b97b8e5392cf2b7177cd3da427b3d8909ffd76",
+        "early-4수01-16-add|place|0": "99dcd7609ab18c211a9dfa088e481dd6b82b65c2da8773e9344c009f581a7b0f",
+        "early-4수01-16-add|hundredths|0": "2eba4adf751a792cbc6d40e8a7423235285b79bf595102a87f08860357fdbc12",
+        "early-4수01-16-add|hundredths|1": "79c34fbab0ec11d474f9d30e604940f75828c8d4e887ce8093f1944ae6398e87",
+        "early-4수01-16-subtract|exchange|0": "481c37ee5d0100cd6dc66445dc94fce068b27f9776441a3319a5dea157893070",
+        "early-4수01-16-subtract|hundredths|0": "b177f0b766691db09ebef788dc3170e074f79bd24b7666da63b7f5fee040a5ca",
+        "early-4수01-16-subtract|hundredths|1": "3f1e6d7d033e4250c09e5176bc85df0a6fa6f0a2a34fe32e2808ec9c82222faf"
+      },
+      "scope": "기존 목표 문장에 있던 소수 입력을 문제 본문에도 명시. 입력·정의역·모든 풀이와 결과·목표·선수 조건은 그대로이며 자릿값 비교·같은 단위 합차의 의미 대응이 유지됨을 재대조. 조건 기록의 유일한 변화가 target_task임을 이전 해시로 검증."
+    }
+  ],
+  "source_hash_method": "canonical_json_utf8_sorted"
+}

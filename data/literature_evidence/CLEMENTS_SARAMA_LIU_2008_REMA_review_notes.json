@@ -1,0 +1,59 @@
+{
+  "source_id": "CLEMENTS_SARAMA_LIU_2008_REMA",
+  "source_url": "https://doi.org/10.1080/01443410701777272",
+  "date": "2026-11-10",
+  "reviewer": "Codex",
+  "read_scope": "저자가 공개한 웹 본문에서 채점 범주와 도형 과제, 항목 유지 기준 및 모형 적합성을 설명한 선정 대목을 확인했다.",
+  "contains_source_full_text": false,
+  "source_pdf_redistributed": false,
+  "empirical_scope": {
+    "design": "초기 수학 검사 개발과 문항 반응 모형 검증.",
+    "sample_description": "초기 236개 채점 항목 중 199개를 유지했다.",
+    "inference_limit": "초기 REMA의 문항 개발 결과다. MPC의 48문항 판본이나 단축형의 전체 시행 절차를 확인한 자료로 쓰지 않는다.",
+    "student_outcome_study": true,
+    "causal_effect_established": false,
+    "local_effect_tested": false
+  },
+  "reading_log": [
+    "저자가 공개한 웹 본문에서 채점 범주와 도형 과제, 항목 유지 기준 및 모형 적합성을 설명한 선정 대목을 확인했다."
+  ],
+  "source_corrections": [
+    {
+      "location": "측정과 시행",
+      "issue": "이 출처의 문항·채점·검사 시행 범위를 다른 판본과 구별한다."
+    }
+  ],
+  "form_review": {
+    "initial_items": 236,
+    "retained_items": 199,
+    "geometry_tasks": 4,
+    "geometry_indicators": 104
+  },
+  "source_asset_kind": "author_web_text",
+  "author_text_review": {
+    "url": "https://www.researchgate.net/publication/247513640_Development_of_a_measure_of_early_mathematics_achievement_using_the_Rasch_model_The_Research-Based_Early_Maths_Assessment",
+    "uploaded_by": "Douglas H. Clements",
+    "article_pdf_obtained": false,
+    "article_printed_pages": [
+      457,
+      482
+    ],
+    "selected_sections": [
+      {
+        "section": "채점 범주와 항목 제거",
+        "printed_pages": [
+          461,
+          465
+        ]
+      },
+      {
+        "section": "보존 항목과 적합성 요약",
+        "printed_pages": [
+          477,
+          478
+        ]
+      }
+    ]
+  },
+  "original_page_layout_review": false
+}

@@ -1,0 +1,100 @@
+{
+  "source_id": "OPENSTAX_CULTURE_CREATION_SELECTED_2023",
+  "source_url": "https://assets.openstax.org/oscms-prodcms/media/documents/contemporary-mathematics_-_WEB.pdf",
+  "source_asset_kind": "pdf",
+  "source_pdf_sha256": "300726c9820a8d0822c56e33582a44dffa47111147d64e9cb936b316c448ab38",
+  "source_pdf_url": "https://assets.openstax.org/oscms-prodcms/media/documents/contemporary-mathematics_-_WEB.pdf",
+  "pdf_pages": 1899,
+  "selected_text_pages": [
+    1062,
+    1063,
+    1064,
+    1428,
+    1429,
+    1430,
+    1432,
+    1433,
+    1448,
+    1449,
+    1450,
+    1451,
+    1452,
+    1454,
+    1455,
+    1456,
+    1140,
+    1141,
+    1142,
+    1151,
+    1152,
+    1153,
+    1154
+  ],
+  "visual_pdf_pages": [
+    1062,
+    1063,
+    1064,
+    1429,
+    1432,
+    1450,
+    1451,
+    1452,
+    1455,
+    1456,
+    1140,
+    1151,
+    1152,
+    1153,
+    1141
+  ],
+  "rendered_page_sha256": {
+    "1062": "6cb37d6e85d0c774b4b72636e1dc6a1b9aff4584e7f593d2bb63ad79e9a5ad8e",
+    "1063": "01149a0cf0e21f483dd5543f6c7aa8a328bea19786e003b08c5a35047aa8057e",
+    "1064": "49105c004fb92dab806153e450354171753c608348bd04c9acb569d4694368dc",
+    "1429": "69c52e6bd66aa2673498b2745d072aa8b244294d99f362b70884df032530513e",
+    "1432": "c1c7e1467ff3ad0cfa7d938ca465063ee271f5a8f8687faacbb7345717164767",
+    "1450": "03c898e14364de6acd2af7c9dbbabfaf9eecb0f4ffce119fa03b19386e85b6da",
+    "1451": "003f47816fd48f13e222c6a3030c45fd004d1a9e35d8dd3517f8b8fca78d78c1",
+    "1452": "138f1a7ea7d06e3679d0157cc89aab0ee600bf9e9818ca47fcb3596d27170eae",
+    "1455": "5d9d3fc259cf4cf79f87991337b7da66f3136f71c39250dd19853a8aaccfa564",
+    "1456": "6679374f16958992c324616c01b172be1c96faeaccb1ac39bc5ab2e3df5d6b39",
+    "1140": "ea5e08e511408795dbb179f2b0066af9bb917d0747434ef0c7a9f558718f98fb",
+    "1151": "5140811514d2d6844af33b4d58b39fab6ac1d4b21309349ef6a2b2e70271e66f",
+    "1152": "acdb30df39ae175009e07c6765939fc067ba8bfd756755fd5998b957d3c9b0b7",
+    "1153": "6e0327cad5677d2ddc26d912a427b799d3609b57f1518813192bf9e74790963e",
+    "1141": "b60129038a2a6d260eb16ce7163ed0ac723a54c538e9ff210cb8cdb79ac0ddc7"
+  },
+  "date": "2026-11-16",
+  "reviewer": "Codex",
+  "read_scope": "PDF 지정 추출문23쪽·판면15쪽의 음악·쪽매맞춤·황금비·대회 방식·투표를 읽었다. 본문 인쇄 쪽은PDF쪽−10이다.2023년 교과서의2026-04-20 생성PDF이며 기존 같은 책의 추가 범위다.",
+  "empirical_scope": {
+    "design": "지정 원문·실제 판면 대조와 자체 수학·창작 과제 설계",
+    "sample_description": "학생 표본·실제 창작 결과·현장 성과를 분석한 연구가 아님",
+    "inference_limit": "전권1899쪽·음악/미술의 보편적 아름다움·역사적 설계 의도·최적 대회/선거 제도·학생 효과를 검증한 것이 아니다. 자체 음표·무늬·일정·투표 자료는 원문 사례와 구별한다.",
+    "student_outcome_study": false,
+    "causal_effect_established": false,
+    "local_effect_tested": false
+  },
+  "contains_source_full_text": false,
+  "source_pdf_redistributed": false,
+  "reading_log": [
+    "PDF 지정 추출문23쪽·판면15쪽의 음악·쪽매맞춤·황금비·대회 방식·투표를 읽었다. 본문 인쇄 쪽은PDF쪽−10이다.2023년 교과서의2026-04-20 생성PDF이며 기존 같은 책의 추가 범위다."
+  ],
+  "source_corrections": [
+    {
+      "location": "방법·문항·표·그림·서술의 대조",
+      "issue": [
+        "1451쪽 A~G는7문자다.1452쪽half-notes는반음 맥락이며2분음표가 아니다. 같은 음높이 종류와 동일 진동수를 구별하며262Hz같은 반올림 기준값의 배가를 정확한 보편값이라고 쓰지 않는다.",
+        "1062~1064쪽 주기/비주기와일반 쪽매맞춤/정다각형 변 맞춤 조건을 나눈다.1428~1433쪽황금비의 수학적 정의와역사 의도·보편 미를 구별하고8/6≈φ에는허용 범위를 먼저 정한다.",
+        "1456쪽그림13.16의1라운드2대1과3라운드1대2는같은쌍 중복이다. 자체6팀일정15쌍을별도 전수 검사한다. 경기 수만 맞아도 일정/공정성이 맞는 것은 아니다.",
+        "1141쪽2000/2020투표분모의서술 혼합을 그대로 옮기지 않는다. 과반/최다·점수·쌍대 비교·후보수·동점규칙과순환을 구별한다."
+      ]
+    }
+  ],
+  "culture_creation_review": {
+    "full_book_read": false,
+    "formula_extraction_incomplete": true,
+    "own_tasks_are_not_student_responses": true,
+    "source_pdf_and_images_redistributed": false
+  }
+}

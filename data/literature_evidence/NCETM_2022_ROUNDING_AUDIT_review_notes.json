@@ -1,0 +1,54 @@
+{
+  "source_id": "NCETM_2022_ROUNDING_AUDIT",
+  "source_url": "https://www.ncetm.org.uk/media/plwiuq5p/pska-num-q7.pdf",
+  "source_asset_kind": "pdf",
+  "source_pdf_sha256": "273fe96a95bab65cc219b7fd35259ada84f8a30c6434085a12c78a1520711d53",
+  "source_pdf_url": "https://www.ncetm.org.uk/media/plwiuq5p/pska-num-q7.pdf",
+  "pdf_pages": 3,
+  "selected_text_pages": [
+    1,
+    2,
+    3
+  ],
+  "visual_pdf_pages": [
+    1,
+    2,
+    3
+  ],
+  "rendered_page_sha256": {
+    "1": "0a3723cfeb59bd35ed2ee1b02ac2f624157717da307838b64223b4ac7c4a1269",
+    "2": "9dd64de03c3f8292784771086eb6eb8c3aadc70039e4c84894083db4b62e6684",
+    "3": "676a1834cfffed58dabb4b68ffdf8606a6327a13253640a0993bda4eea51f0a8"
+  },
+  "date": "2026-11-13",
+  "reviewer": "Codex",
+  "read_scope": "수직선의 앞뒤 배수와 452의 반올림, 두 수를 먼저 어림한 합의 세 응답, 교사용 예상 오류와 확인 질문을 대조했다.",
+  "empirical_scope": {
+    "design": "교사용 내용 지식 점검과 예시·해설.",
+    "sample_description": "학생 표본 없음. 교사가 자신감을 표시하는 1~4 점검과 예시 응답을 포함.",
+    "inference_limit": "교사용 점검 문항이다. 예상 오류 목록은 실제 관찰한 학생의 빈도가 아니며 올림·버림의 자체 과제는 이 자료에서 실험한 결과가 아니다.",
+    "student_outcome_study": false,
+    "causal_effect_established": false,
+    "local_effect_tested": false
+  },
+  "contains_source_full_text": false,
+  "source_pdf_redistributed": false,
+  "reading_log": [
+    "수직선의 앞뒤 배수와 452의 반올림, 두 수를 먼저 어림한 합의 세 응답, 교사용 예상 오류와 확인 질문을 대조했다."
+  ],
+  "source_corrections": [
+    {
+      "location": "방법·문항·표·그림·서술의 대조",
+      "issue": "5900·5970·6000은 각 수를 먼저 반올림한 합으로 재현된다. 정확한 합 5977 자체를 반올림한 값이라고 쓰지 않는다. 교사용 가상·예시 응답을 실제 학생의 통계로 세지 않는다."
+    }
+  ],
+  "upper_primary_review": {
+    "year": 2022,
+    "student_sample_exists": false,
+    "confidence_scale_is_teacher_self_report": true,
+    "rounded_operands_sum_100": 5900,
+    "exact_sum": 5977,
+    "rounded_exact_sum_100": 6000,
+    "predicted_errors_not_frequencies": true
+  }
+}

@@ -1,0 +1,140 @@
+{
+  "source_id": "CLEMENTS_ET_AL_2013_TRIAD_FOLLOWTHROUGH",
+  "source_url": "https://doi.org/10.3102/0002831212469270",
+  "date": "2026-11-09",
+  "reviewer": "Codex",
+  "source_asset_kind": "author_web_text",
+  "author_text_review": {
+    "url": "https://www.researchgate.net/publication/254325922_Longitudinal_Evaluation_of_a_Scale-Up_Model_for_Teaching_Mathematics_With_Trajectories_and_Technologies",
+    "uploaded_by": "Douglas H. Clements",
+    "article_pdf_obtained": false,
+    "article_printed_pages": [
+      1,
+      39
+    ],
+    "journal_issue_pages": [
+      812,
+      850
+    ],
+    "reviewed_pagination": "OnlineFirst Version of Record, 2012-12-27",
+    "selected_sections": [
+      {
+        "section": "논문 초록",
+        "printed_pages": [
+          1,
+          2
+        ]
+      },
+      {
+        "section": "유치원 결과 회고",
+        "printed_pages": [
+          6,
+          6
+        ]
+      },
+      {
+        "section": "학교 배정, 표 1 표본과 후속 지원",
+        "printed_pages": [
+          8,
+          10
+        ]
+      },
+      {
+        "section": "REMA 개별 면담과 문항 범위",
+        "printed_pages": [
+          12,
+          13
+        ]
+      },
+      {
+        "section": "초등 1학년 REMA 결과와 표 2~5",
+        "printed_pages": [
+          15,
+          21
+        ]
+      },
+      {
+        "section": "초등 1학년 결과 요약과 구성요소의 한계",
+        "printed_pages": [
+          25,
+          31
+        ]
+      }
+    ]
+  },
+  "read_scope": "출판사 초록과 저자가 공개한 선출판판 전사에서 연구 개요, 유치원 결과 회고, 배정·표본·교사 지원, REMA 도구, 표 1~5와 결과·한계의 관련 문단을 대조했다. 원논문 PDF 파일과 판면은 미확보다.",
+  "original_page_layout_review": false,
+  "contains_source_full_text": false,
+  "source_pdf_redistributed": false,
+  "same_cohort_as": "CLEMENTS_ET_AL_2011_BUILDING_BLOCKS",
+  "cohort": {
+    "randomized_schools": 42,
+    "original_pre_k_analyzed": 1305,
+    "first_grade_tested": 1127,
+    "first_grade_tested_classrooms": 347,
+    "first_grade_tested_schools": 172,
+    "arm_order": [
+      "FT",
+      "NFT",
+      "control"
+    ],
+    "itt_counts": [
+      383,
+      375,
+      321
+    ],
+    "tot_counts": [
+      262,
+      253,
+      235
+    ]
+  },
+  "first_grade_effects": {
+    "contrast_order": [
+      "FT vs control",
+      "NFT vs control",
+      "FT vs NFT"
+    ],
+    "itt_hedges_g": [
+      0.38,
+      0.21,
+      0.18
+    ],
+    "itt_table_2_p": [
+      "<.001",
+      ".014",
+      ".032"
+    ],
+    "tot_hedges_g": [
+      0.51,
+      0.28,
+      0.24
+    ],
+    "tot_p": [
+      "<.001",
+      ".028",
+      ".046"
+    ],
+    "tot_pre_k_pre_and_post_adjusted": {
+      "contrast": "FT vs NFT",
+      "g": 0.25,
+      "p": 0.032
+    }
+  },
+  "reading_log": [
+    "원래 배정 기준 표본은 1,079명이며 배정 학교 잔류 등으로 제한한 표본은 750명이다. 학교 배정 42곳과 추후 검사 학교 172곳을 구별한다.",
+    "정식 출판사 초록의 .51·.28·.24를 본문 표 4 분석에 연결했다. 표 2 원래 배정 기준 결과와 표 5 사전·사후 점수 보정 결과는 별도다.",
+    "저자 공개 페이지 상단에 표시된 유치원 초록의 문구와 수치는 2012년 논문의 기관 서지 초록과 일치한다. 본문에 붙은 2013년 초록과 시점을 구별했다."
+  ],
+  "crosschecks": {
+    "publisher": "https://journals.sagepub.com/doi/10.3102/0002831212469270",
+    "kindergarten_abstract": "https://researchconnect.suny.edu/en/publications/longitudinal-evaluation-of-a-scale-up-model-for-teaching-mathemat/",
+    "kindergarten_significance_discrepancy": "2012년 초록은 유치원 말 원래 배정 기준 분석의 두 비교를 유의하다고 적었다. 2013년 선출판판의 유치원 회고는 후속 지원 대 대조만 유의했다고 적었다. 2012년 표와 모형을 확인하기 전에는 두 진술을 합치지 않는다."
+  },
+  "source_corrections": [
+    {
+      "location": "저자 공개 페이지 상단 초록과 본문 초록",
+      "issue": "상단의 유치원 결과는 2012년 논문의 기관 서지 초록과 일치한다. 2013년 초등 1학년 본문 결과로 옮기지 않는다."
+    }
+  ]
+}

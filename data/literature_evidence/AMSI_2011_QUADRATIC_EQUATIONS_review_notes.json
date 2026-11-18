@@ -1,0 +1,66 @@
+{
+  "source_id": "AMSI_2011_QUADRATIC_EQUATIONS",
+  "source_url": "https://amsi.org.au/teacher_modules/Quadratic_Equations.html",
+  "source_asset_kind": "pdf",
+  "source_pdf_sha256": "2c02952cfa2e6564706c1d3cec5302330ac24b3d0b00b7cbecb8295d7c21ce2d",
+  "source_pdf_url": "https://amsi.org.au/teacher_modules/pdfs/Quadratic_Equations.pdf",
+  "pdf_pages": 20,
+  "selected_text_pages": [
+    1,
+    2,
+    3,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+  ],
+  "visual_pdf_pages": [
+    6,
+    8,
+    11,
+    12,
+    13
+  ],
+  "rendered_page_sha256": {
+    "6": "5bdc52ceba33cde4af6dc54d2c9bcc332ab487c0e61fdff8e4664c7457e10990",
+    "8": "ed873ae8c279e891012fec46452a56e2c22fd0311b194358000df7089cf0c0c6",
+    "11": "d9abe790482cfb7c7ae3279f9fd1412e81bf76fff06effe4a1af592b012f2ec4",
+    "12": "ea7fb77357f35aea2c80f8cba634b0db48019177019b87c36ee693a1672e5018",
+    "13": "4a62a340ead9c2decd8929a2a1229beeb05843037cb2fc19d4d3f7f963f2e7d2"
+  },
+  "date": "2026-11-13",
+  "reviewer": "Codex",
+  "read_scope": "서지와 영인수 성질, 제곱근·인수분해·완전제곱·근의 공식, 원식의 허용값과 길이의 조건, 판별식의 실근 분류를 지정 본문·판면에서 읽었다.",
+  "empirical_scope": {
+    "design": "교사용 수학 내용 설명과 예시·연습 문제. 지정 부분의 수학적 조건과 표현을 대조.",
+    "sample_description": "학생 표본·학생별 반응 자료 없음. 자체 과제의 효과를 검사한 연구가 아니다.",
+    "inference_limit": "주로 실수 범위의 설명이다. 판별식<0에서 근 없음은 실근 없음으로 한정한다. 기본수학에는 복소수 계산을 요구하지 않고 공통수학의 허근 비교는 함께 읽은 Polynomials 17쪽 및 자체 전개로 구별한다. 0으로 나누기·분모 조건·제곱근 두 부호를 유지하고 원문 공식의 중간 오기를 기록한다.",
+    "student_outcome_study": false,
+    "causal_effect_established": false,
+    "local_effect_tested": false
+  },
+  "contains_source_full_text": false,
+  "source_pdf_redistributed": false,
+  "reading_log": [
+    "서지와 영인수 성질, 제곱근·인수분해·완전제곱·근의 공식, 원식의 허용값과 길이의 조건, 판별식의 실근 분류를 지정 본문·판면에서 읽었다."
+  ],
+  "source_corrections": [
+    {
+      "location": "방법·문항·표·그림·서술의 대조",
+      "issue": "6쪽 x²−9x=0 풀이 중 x 누락, 12쪽 (x−3)²≥−3의 불충분한 실근 부재 설명 및 3x²−5x+1 예의 5/3 대 5/6 불일치, 13쪽 한 분기의 중복 음수 부호를 판면에서 확인했다. D<0은 실근 없음이며 D=0은 a×완전제곱으로 해석해 음의 최고차항도 보존한다. 식 자체의 완전제곱 변형과 방정식 양변에 같은 수를 더하는 것을 구별했다."
+    }
+  ],
+  "high_polynomial_quadratic_review": {
+    "page_6_lost_x_in_intermediate_line": true,
+    "page_12_correct_square_center": "5/6",
+    "page_13_extra_negative_in_one_branch": true,
+    "negative_discriminant_means_no_real_roots": true,
+    "zero_discriminant_is_leading_coefficient_times_square": true,
+    "basic_student_probes_real_only": true
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "source_id": "BOYER_LEVINE_2015",
+  "source_url": "https://doi.org/10.1037/a0039010",
+  "source_pdf_url": "https://bpb-us-w2.wpmucdn.com/voices.uchicago.edu/dist/5/1727/files/2019/06/Boyer-Levine-Prompting-Children.pdf",
+  "source_pdf_sha256": "9c640079bd52c35bf6a88af15b077525076310244ba473cc7a6b0ca2bc5d2591",
+  "source_asset_kind": "pdf",
+  "date": "2026-11-09",
+  "reviewer": "Codex",
+  "read_scope": "인쇄 616~619쪽의 방법·결과와 논의를 읽고 그림 1·2 및 검정 표기가 있는 PDF 2·3·4쪽을 이미지로 확인했다.",
+  "contains_source_full_text": false,
+  "source_pdf_redistributed": false,
+  "pdf_pages": 6,
+  "printed_pages": [
+    615,
+    620
+  ],
+  "text_pdf_pages": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "visual_pdf_pages": [
+    2,
+    3,
+    4
+  ],
+  "visual_pdf_page_hashes": {
+    "2": "d2341648a65652742186c42e71d85596a6bbfb3d0b70d9302fee2684ccbbe7f4",
+    "3": "838f5ce68c1fa3004f06ca8cd4c83402b8f21e5167764bad5de20f35efdb907e",
+    "4": "a2ddcc45c57bb3d7d04aad420b902cfdd967a8f2911875c9f2c7bd295e6d38c6"
+  },
+  "empirical_scope": {
+    "design": "classroom_randomized_presentation_order",
+    "sample_description": "여섯 학교의 유치원 64명·2학년 66명·4학년 64명이 연속량 8문항 뒤 구획 8문항 또는 구획 16문항 조건에 배정됐다.",
+    "inference_limit": "직접 가르치거나 정답을 알려 준 처치가 아니다. 후반 조건 차이를 다른 학년, 더 근접한 비율 또는 장기 성취로 일반화하지 않는다.",
+    "student_outcome_study": true,
+    "local_effect_tested": false
+  },
+  "participants": {
+    "total": 194,
+    "schools": 6,
+    "kindergarten": 64,
+    "grade_two": 66,
+    "grade_four": 64
+  },
+  "source_corrections": [
+    {
+      "printed_page": 617,
+      "pdf_page": 3,
+      "reported_f": 18.94,
+      "reported_df": [
+        1,
+        187
+      ],
+      "reported_partial_eta2": 0.168,
+      "computed_given_reported_df": 0.09196853452461883,
+      "computed_with_numerator_df_two": 0.16844539309854145,
+      "note": "세 학년 주효과의 표기와 부분 에타제곱이 일치하지 않는다. 조건부 검산을 기록하고 원자료나 정오표 없이 인쇄 자유도를 정정하지 않는다."
+    }
+  ],
+  "supplemental": {},
+  "reading_log": [
+    "연속량 8문항 다음에 구획 8문항을 본 조건과 처음부터 구획 16문항을 본 조건을 비교했다. 학급 내에서 배정했고 수행 피드백은 주지 않았다.",
+    "그림 1에서 연속량의 기준은 주스 4/전체 10과 주스 2/전체 5, 칸으로 나눈 기준은 주스 2/전체 8과 주스 1/전체 4다. 주스 대 물은 각각 2:3과 1:3이다.",
+    "후반에 공통으로 본 구획 문항에서 그림 2의 반올림 평균은 유치원 .49/.48, 2학년 .58/.57, 4학년 .80/.64다. 후반 조건 차이는 4학년 p=.03, 다른 두 학년은 .94·.86으로 보고된다.",
+    "오답 선택지는 기준의 주스 양 또는 전체량을 맞추되 기준과 1/2의 반대쪽에 있다. 1/2을 포함한 근접한 비율 쌍, 장기 효과, 직접 수업으로 일반화하지 않는다."
+  ]
+}

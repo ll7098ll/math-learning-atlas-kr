@@ -1,0 +1,74 @@
+{
+  "source_id": "AMSI_2011_POLYNOMIALS",
+  "source_url": "https://amsi.org.au/teacher_modules/polynomials.html",
+  "source_asset_kind": "pdf",
+  "source_pdf_sha256": "04e5c07acf58128cb035f8608144b0cfc6de246f2614be7b559a4d0928b06642",
+  "source_pdf_url": "https://amsi.org.au/teacher_modules/pdfs/polynomials.pdf",
+  "pdf_pages": 28,
+  "selected_text_pages": [
+    1,
+    2,
+    3,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    17
+  ],
+  "visual_pdf_pages": [
+    5,
+    6,
+    7,
+    8,
+    9,
+    11,
+    13,
+    17
+  ],
+  "rendered_page_sha256": {
+    "5": "1157207a169acb3986d2060e0eb6167432d2917d84de0c617e9160303b0fdfb8",
+    "6": "f23bdf46157d2188fa81690ca287af4ab6f6ba4bed14b185bd51486fba1123f6",
+    "7": "7732c611a97479128fa34d488be20301fa53a51cb694a07989743311506c9149",
+    "8": "3f704a56af51052cca5ae6681d19839d2913d5ea944e51aa016f4ddc00865a12",
+    "9": "84c2c6dba68b2339be1a2d85ee8ed2994fa8564c231719e3e5fd1c10aec798af",
+    "11": "39279631b5ec930993df83a419b21e566c5d3eec7bebf33d2fed157b65659a42",
+    "13": "dd9a196b99c85c5d55c3acfd5b0c34cebece5ae3cb1b4cb21ab198b66c5063a7",
+    "17": "74f7b9b44d17cc09543427706a6ab422eb784501ea7e736d881f93ddaf616d59"
+  },
+  "date": "2026-11-13",
+  "reviewer": "Codex",
+  "read_scope": "표지·서지와 다항식·영다항식, 동류항·분배·나눗셈 항등식, 나머지·인수정리, 간단한 삼·사차 및 실수·복소수 근과 중복도의 지정 본문·판면을 대조했다.",
+  "empirical_scope": {
+    "design": "교사용 수학 내용 설명과 예시·연습 문제. 지정 부분의 수학적 조건과 표현을 대조.",
+    "sample_description": "학생 표본·학생별 반응 자료 없음. 자체 과제의 효과를 검사한 연구가 아니다.",
+    "inference_limit": "교사용 수학 설명이며 학생 표본·효과 검증은 없다. 기본수학의 곱·나눗셈은 일차식×이차 이하 및 삼차 이하÷일차식에서 다항식인 몫으로 제한한다. 일반 고차 그래프·오류 정정 부록·대수학 기본정리 증명은 추가 요구하지 않는다. 원문의 계산·항·계수·나머지 경계 불일치를 기록했다.",
+    "student_outcome_study": false,
+    "causal_effect_established": false,
+    "local_effect_tested": false
+  },
+  "contains_source_full_text": false,
+  "source_pdf_redistributed": false,
+  "reading_log": [
+    "표지·서지와 다항식·영다항식, 동류항·분배·나눗셈 항등식, 나머지·인수정리, 간단한 삼·사차 및 실수·복소수 근과 중복도의 지정 본문·판면을 대조했다."
+  ],
+  "source_corrections": [
+    {
+      "location": "방법·문항·표·그림·서술의 대조",
+      "issue": "5쪽의 1/2·√2 계수는 추출문의 12와 다르므로 판면으로 읽었다. 6쪽 p−q의 x항 누락 및 2p−3q와 2q−3p의 뒤바뀜, 6→7쪽 P의 −2x²/−x² 불일치, 7쪽 정수 나머지 r≤d 대신 r<d, 8쪽 몫 재서술의 지수·상수 부호 불일치를 기록했다. 11쪽의 p(1)=−12는 주어진 식의 실제 대입과 일치하며 오기로 세지 않았다. 13쪽 마지막 삼차의 잘못된 인수분해와 17쪽의 실수·복소수 문맥을 구별했다."
+    }
+  ],
+  "high_polynomial_quadratic_review": {
+    "zero_polynomial_degree_not_assigned": true,
+    "missing_x_term_in_page_6_difference": true,
+    "linear_combination_reversed_on_page_6": true,
+    "quotient_restatement_wrong_on_page_8": true,
+    "integer_remainder_requires_strict_upper_bound": true,
+    "root_field_and_multiplicity_distinguished": true,
+    "basic_division_exact_cubic_by_linear_only": true
+  }
+}

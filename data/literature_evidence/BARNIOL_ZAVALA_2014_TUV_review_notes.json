@@ -1,0 +1,62 @@
+{
+  "source_id": "BARNIOL_ZAVALA_2014_TUV",
+  "source_url": "https://doi.org/10.1103/PhysRevSTPER.10.010121",
+  "source_pdf_url": "https://harvest.aps.org/v2/journals/articles/10.1103/PhysRevSTPER.10.010121/fulltext",
+  "source_asset_kind": "pdf",
+  "source_pdf_sha256": "5d93625545e4f5b83de3f0c1c362ee8621a4b5ad48c821d91ac57a4ee750df08",
+  "pdf_pages": 14,
+  "selected_text_pages": [
+    1,
+    2,
+    3,
+    5,
+    7,
+    8,
+    9,
+    10,
+    12
+  ],
+  "visual_pdf_pages": [
+    5
+  ],
+  "rendered_page_sha256": {
+    "5": "8224eb6e3c79b148f97f65c078d2a92a7dfea7507849226c297da3eae38b6d01"
+  },
+  "date": "2026-11-10",
+  "reviewer": "Codex",
+  "read_scope": "검사 개발의 서술형 응답과 20문항 시행을 구별하고, 표 IV의 벡터 연산·성분·내적 응답을 확인했다.",
+  "empirical_scope": {
+    "design": "서술형 오류 자료를 이용한 객관식 검사 개발과 문항별 응답 분석.",
+    "sample_description": "서술형 개발 시행 참여 2,067명과 객관식 분석 423명.",
+    "inference_limit": "멕시코 대학 입문 물리 수강생의 문항별 응답이다. 국내 고등학생의 오류 빈도와 학습 순서는 별도 검증이 필요하다.",
+    "student_outcome_study": true,
+    "causal_effect_established": false,
+    "local_effect_tested": false
+  },
+  "contains_source_full_text": false,
+  "source_pdf_redistributed": false,
+  "reading_log": [
+    "검사 개발의 서술형 응답과 20문항 시행을 구별하고, 표 IV의 벡터 연산·성분·내적 응답을 확인했다."
+  ],
+  "source_corrections": [
+    {
+      "location": "표와 시행 설명",
+      "issue": "검사 개발 참여자와 표 IV의 객관식 표본, 문항별 집계와 실제 풀이 설명을 나눈다."
+    }
+  ],
+  "vector_review": {
+    "open_response_participants": 2067,
+    "multiple_choice_n": 423,
+    "items": 20,
+    "table_iv_correct_percent": {
+      "1": 74,
+      "3": 33,
+      "6": 78,
+      "8": 42,
+      "10": 92,
+      "11": 71,
+      "13": 56,
+      "14": 73
+    }
+  }
+}

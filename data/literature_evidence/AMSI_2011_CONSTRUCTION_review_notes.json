@@ -1,0 +1,59 @@
+{
+  "source_id": "AMSI_2011_CONSTRUCTION",
+  "source_url": "https://amsi.org.au/teacher_modules/Construction.html",
+  "source_asset_kind": "pdf",
+  "source_pdf_sha256": "0ad4edbcbe87d15dbcd766f967add2b4a4b7bb208aadb219f5015eeba39f358c",
+  "source_pdf_url": "https://amsi.org.au/teacher_modules/pdfs/Construction.pdf",
+  "pdf_pages": 30,
+  "selected_text_pages": [
+    1,
+    2,
+    3,
+    6,
+    9,
+    10,
+    11,
+    12,
+    21
+  ],
+  "visual_pdf_pages": [
+    9,
+    10,
+    11,
+    21
+  ],
+  "rendered_page_sha256": {
+    "9": "e624893db805079b9fdf3a67be7bde29f971543a751bc1533716a771562e3e5b",
+    "10": "1d1b4f2a2a5f9ecfe7587e08dfff903b3f17e8f099f22ced87d9272e7e32e5ae",
+    "11": "abd51bd0f4899fdc11fbf0e09060ce3f4f71ea656fdc07eb4c60d0669ada3bd5",
+    "21": "c9dcd670533edeb74a7d3a38e56602ececfaa314f90b87a929b4ff720390cef8"
+  },
+  "date": "2026-11-13",
+  "reviewer": "Codex",
+  "read_scope": "서지, 컴퍼스의 같은 거리, 정삼각형·각의 이등분과 복사, 수직이등분선·수선 및 외심·내심의 지정 절차와 도식을 대조했다.",
+  "empirical_scope": {
+    "design": "교사용 수학 내용 설명과 예시·연습 문제. 지정 부분의 수학적 조건과 표현을 대조.",
+    "sample_description": "학생 표본·학생별 반응 자료 없음. 자체 과제의 효과를 검사한 연구가 아니다.",
+    "inference_limit": "그림을 보고 같은 듯하다고 판단하는 것과 합동으로 정당화하는 것을 나눈다. 수직이등분선의 두 원 교점에는 공통 반지름이 선분 절반보다 커야 한다. 무게중심·수심·구점원은 추가 필수로 삼지 않는다.",
+    "student_outcome_study": false,
+    "causal_effect_established": false,
+    "local_effect_tested": false
+  },
+  "contains_source_full_text": false,
+  "source_pdf_redistributed": false,
+  "reading_log": [
+    "서지, 컴퍼스의 같은 거리, 정삼각형·각의 이등분과 복사, 수직이등분선·수선 및 외심·내심의 지정 절차와 도식을 대조했다."
+  ],
+  "source_corrections": [
+    {
+      "location": "방법·문항·표·그림·서술의 대조",
+      "issue": "수직이등분선의 교점 작도에는 두 반지름이 같다는 것과 선분 절반보다 크다는 조건을 함께 명시했다. 외심의 꼭짓점 거리와 내심의 변에 내린 수선 거리를 구별했다. 수심·무게중심·구점원은 이번 추가 필수로 옮기지 않았다."
+    }
+  ],
+  "middle_geometry_review": {
+    "perpendicular_bisector_common_radius_greater_than_half_segment": true,
+    "circumcenter_vertex_distances": true,
+    "incenter_perpendicular_side_distances": true,
+    "circumcenter_three_triangle_types": true
+  }
+}

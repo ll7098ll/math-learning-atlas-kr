@@ -1,0 +1,61 @@
+{
+  "source_id": "WEBER_2002_EXPONENT_LOG_PILOT",
+  "source_url": "https://eric.ed.gov/?id=ED471763",
+  "source_pdf_url": "https://files.eric.ed.gov/fulltext/ED471763.pdf",
+  "source_asset_kind": "pdf",
+  "source_pdf_sha256": "a853e0d7b8d62a6caa486bf0b0baa997ce9c70641a4a8f90f9825e0760920bcf",
+  "pdf_pages": 11,
+  "selected_text_pages": [
+    1,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "visual_pdf_pages": [
+    6,
+    7,
+    8
+  ],
+  "rendered_page_sha256": {
+    "6": "b7e67f008972b6d3e6a969f0a4faf4b77e1c25d34bb56d7257a0205fd45ae781",
+    "7": "fb2c6022e9dfcfc45a7e6d737a0446ccf79be2908143a6ca02d4eba13abf21c9",
+    "8": "e53894b87282a908a578b300eb40a9f5470674f85a7b244fdd843366a706909e"
+  },
+  "date": "2026-11-10",
+  "reviewer": "Codex",
+  "read_scope": "문항지, 그림 1과 본문의 계산·설명 범위, 교수 실험 두 반의 배치와 저자 지적 한계를 대조했다.",
+  "empirical_scope": {
+    "design": "교수 실험과 기존 수업의 두 분반에서 3주 뒤 개별 면담.",
+    "sample_description": "미국 남부 지역 대학의 대학 대수·삼각함수 수강생, 반별 자원자 15명.",
+    "inference_limit": "담당 교사가 다른 두 분반의 자원자 비교다. 자료 자체의 인과 효과나 다른 Weber 연구와의 표본 독립성은 확인하지 못했다.",
+    "student_outcome_study": true,
+    "causal_effect_established": false,
+    "local_effect_tested": false
+  },
+  "contains_source_full_text": false,
+  "source_pdf_redistributed": false,
+  "reading_log": [
+    "문항지, 그림 1과 본문의 계산·설명 범위, 교수 실험 두 반의 배치와 저자 지적 한계를 대조했다."
+  ],
+  "source_corrections": [
+    {
+      "location": "정의·표·학생 응답",
+      "issue": "그림 1의 정답과 PDF 6·8쪽 본문의 설명 사례는 다른 결과로 기록했다. 저자가 교수 실험 반의 교사와 연구자를 겸했다는 한계를 남겼다."
+    }
+  ],
+  "exponential_review": {
+    "arm_sizes": [
+      15,
+      15
+    ],
+    "postinstruction_weeks": 3,
+    "different_instructors": true,
+    "square_root_explanations_experimental": 6,
+    "log_equation_only_control": 8,
+    "log_repeat_multiply_experimental": 4,
+    "log_repeat_divide_experimental": 1,
+    "overlap_with_interviews_verified": false
+  }
+}

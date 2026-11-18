@@ -1,0 +1,108 @@
+{
+  "source_id": "OPENSTAX_ECON3_INDICATORS_EXCHANGE_TAX_SELECTED_2022",
+  "source_url": "https://openstax.org/details/books/principles-economics-3e",
+  "source_asset_kind": "pdf",
+  "source_pdf_sha256": "2d2e7549e13a1975965bfb14a577a3d7935173ff10ca2e1d953815560590a4eb",
+  "source_pdf_url": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-economics-3e_-_WEB.pdf",
+  "pdf_pages": 995,
+  "selected_text_pages": [
+    3,
+    4,
+    546,
+    547,
+    548,
+    549,
+    550,
+    551,
+    713,
+    714,
+    715,
+    716,
+    717,
+    743,
+    744,
+    745,
+    746
+  ],
+  "visual_pdf_pages": [
+    4,
+    547,
+    548,
+    549,
+    550,
+    551,
+    713,
+    715,
+    717,
+    744,
+    745
+  ],
+  "rendered_page_sha256": {
+    "4": "0d737a5c70950cfc8dddf94117df28668338ea1b1456fcf37736d64e02edb307",
+    "547": "e20a9e63c7bd30ec1fdd5ef207a1457cf7d762a996162b581fcddfee5399fad2",
+    "548": "586369f5eb71feb6cdad0d84fa6df37fe6e9b800a64c78c8e6a65125da989e49",
+    "549": "b97b2cccb795f332a8843ac59fefbc1124192ac71af89b060fe5c8761e270ac2",
+    "550": "967dab2295efa1ba702278a6376489075fe4125a1a81e891d86e5417e4695f54",
+    "551": "9e3b05854811e1ea5d08a4ad02acd111a6e333f5a64d3d2364c6405da9eca4c8",
+    "713": "e9d80f816ba192faf7e74d43be92d55b6ce91b643e78f215016c04f457ea8bb1",
+    "715": "a75ef431f6531e1f1203283b19b55a72e2eef85f8388d3681cfcf126e2cacd5a",
+    "717": "77922703fd4132fe26c8b7e928ea5c8d6cf57acfaedf43888618b7473710f462",
+    "744": "6b748509e1b6d84ae9f7e42db1134eeb287717f133e1479acd11b9f4fd38a82a",
+    "745": "317efb3e305024946aa3eccbd9beeae5fdfd61e9b5b228e1a88e3818e65123b7"
+  },
+  "date": "2026-11-16",
+  "reviewer": "Codex",
+  "read_scope": "지정 추출문 17쪽·실제 판면 11쪽에서 고정 바구니 비용·지수·기준시점과 변화율,소비 구성/품질의 한계,환율 단위·은행 매입/매도·상호 역수와 역사적 그래프,구간 세율·누진/비례/역진의 의미를 대조했다. PDF 쪽은 인쇄 쪽보다 16 크다. IRS의 구간 세율 안내 첫 두 문단과 BLS CPI FAQ의 대상 집단·개인 경험·생계비 한계도 추가로 읽고 비교 URL·범위를 노트에 별도 기록했다.",
+  "empirical_scope": {
+    "design": "공식 공개 교과서의 수학적 모형·수식·표·실제 판면 대조",
+    "sample_description": "실제 학생 표본·응답을 분석한 연구가 아님",
+    "inference_limit": "지정 범위의 수학·제도 구분 참고이며 전권·국내 현행 세법·현재 환율·미래 수익 예측·학생 효과 검증이 아니다. 원문의 역사적 수치·미국 사례를 국내 현재 값으로 옮기지 않는다. 가상 세율·가격·환율은 과제에서 정의한 모형이며 원문의 오해 소지가 있는 서술은 조건과 자체 계산으로 제한한다. 국가 통계의 전체 산출 방법·제도별 세금 신고를 가르친다는 뜻이 아니다.",
+    "student_outcome_study": false,
+    "causal_effect_established": false,
+    "local_effect_tested": false
+  },
+  "contains_source_full_text": false,
+  "source_pdf_redistributed": false,
+  "reading_log": [
+    "지정 추출문 17쪽·실제 판면 11쪽에서 고정 바구니 비용·지수·기준시점과 변화율,소비 구성/품질의 한계,환율 단위·은행 매입/매도·상호 역수와 역사적 그래프,구간 세율·누진/비례/역진의 의미를 대조했다. PDF 쪽은 인쇄 쪽보다 16 크다. IRS의 구간 세율 안내 첫 두 문단과 BLS CPI FAQ의 대상 집단·개인 경험·생계비 한계도 추가로 읽고 비교 URL·범위를 노트에 별도 기록했다."
+  ],
+  "source_corrections": [
+    {
+      "location": "방법·문항·표·그림·서술의 대조",
+      "issue": [
+        "744쪽의 marginal tax rates 괄호 안 tax due on all yearly income를 전체 소득에 한계세율을 곱한다는 뜻으로 옮기지 않는다. 같은 쪽 구간 예와 IRS의 지정 안내를 대조해 구간 부분 세액을 합하고 평균세율과 나누었다. 역사적 세율·상한·미국 사례는 현행 국내 법으로 사용하지 않는다.",
+        "551쪽의 평균4인가족 서술은 현행 CPI 전체의 정의가 아니다. BLS FAQ의 CPI-U/CPI-W 대상과 개인 경험·생계비 한계의 지정 단락을 추가로 읽었다. 고정 바구니의 자체 단순 모형과 실제 국가통계의 방법을 구별한다.",
+        "549쪽 표22.3의 지수는 반올림되어 있다. 원래 비용과 정확히 같은 공통배수로 재기준화하면 변화율은 같지만 반올림 표 숫자에서의 비는 근사다. 550쪽 107→110은3포인트이며 약2.8037%다.",
+        "713쪽 은행 매입/매도와 717쪽 역수 표시는 별도 조건이다. mirror image를 변화율의 같은 크기나 시간 그래프의 선형 대칭으로 해석하지 않는다. 713쪽의5.3/6.6조 달러와2019 등 역사적 규모 숫자는 서로 섞이므로 이 범위의 과제에 현재 통계로 쓰지 않는다.",
+        "745쪽의 고용주 부담을 전부 근로자가 부담한다는 일반화는 실제 귀착을 확인한 결과로 옮기지 않는다. 자체 비례/누진/역진은 명시한 과세표준과 세액 함수 안의 수학적 비교다."
+      ]
+    }
+  ],
+  "economy_money_review": {
+    "full_book_read": false,
+    "source_license_as_read": "CC BY-NC-SA 4.0, PDF page 4; source PDFs/images are not redistributed",
+    "formula_extraction_incomplete": true,
+    "own_tasks_are_not_student_responses": true,
+    "fictional_task_values_are_not_current_rates_or_law": true,
+    "original_publication_year": 2022,
+    "pdf_build_date": "2026-04-20",
+    "printed_page_offset": 16,
+    "official_web_comparisons": [
+      {
+        "url": "https://www.irs.gov/filing/federal-income-tax-rates-and-brackets",
+        "accessed": "2026-11-16",
+        "scope": "구간별 세율의 첫 두 문단만 대조. 표의 세율은 과제에 전사하지 않는다.",
+        "finding": "상위 구간의 세율은 해당 구간의 소득 부분에만 적용한다."
+      },
+      {
+        "url": "https://www.bls.gov/cpi/questions-and-answers.htm",
+        "accessed": "2026-11-16",
+        "scope": "FAQ 대상 집단·개인 경험·생계비 한계와 지수 해석의 지정 단락",
+        "finding": "CPI-U·CPI-W의 대상 집단을 평균4인가족으로 정의하지 않는다. 개인 경험·지역 간 절대 가격 수준과 지수 비교를 구별한다."
+      }
+    ],
+    "rebasing_only_same_weighted_series": true,
+    "reciprocal_changes_not_equal_percentages": true,
+    "marginal_and_average_tax_separate": true
+  }
+}

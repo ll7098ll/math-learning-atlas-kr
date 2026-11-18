@@ -1,0 +1,29 @@
+{
+  "date": "2026-11-18",
+  "data_version": "c7e86e2fa1af547e",
+  "scope": "문헌 주장에 하나 이상 연결된 기준 수이며 해당 기준 전체 내용·원문 전권·필수 선수성·학생 교수 효과·독립 검토의 완료 수가 아니다.",
+  "levels": [
+    {
+      "school_level": "초등학교",
+      "total": 121,
+      "scoped_claim_mapped": 121,
+      "missing": []
+    },
+    {
+      "school_level": "중학교",
+      "total": 60,
+      "scoped_claim_mapped": 60,
+      "missing": []
+    },
+    {
+      "school_level": "고등학교",
+      "total": 254,
+      "scoped_claim_mapped": 254,
+      "missing": []
+    }
+  ],
+  "remaining_by_subject": {},
+  "remaining_standards": [],
+  "minimum_scoped_mapping_complete": true,
+  "completion_limit": "435개 기준의 최소 범위별 주장 연결이다. 기준 전체·전권·원연구·실제 독립/학생 검증의 완료가 아니다."
+}

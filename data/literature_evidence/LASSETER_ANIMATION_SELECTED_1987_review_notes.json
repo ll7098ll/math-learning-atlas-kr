@@ -1,0 +1,60 @@
+{
+  "source_id": "LASSETER_ANIMATION_SELECTED_1987",
+  "source_url": "https://users.cs.northwestern.edu/~animation/Lasseter_1987.pdf",
+  "source_asset_kind": "pdf",
+  "source_pdf_sha256": "b99cde55f501ee7588e78142443605f82d6ab7b14e8011d7274037bd0c40a730",
+  "source_pdf_url": "https://users.cs.northwestern.edu/~animation/Lasseter_1987.pdf",
+  "pdf_pages": 10,
+  "selected_text_pages": [
+    1,
+    2,
+    3,
+    5,
+    7
+  ],
+  "visual_pdf_pages": [
+    1,
+    2,
+    3,
+    5,
+    7
+  ],
+  "rendered_page_sha256": {
+    "1": "97b5c22f6b760b3c804edd670d605a4b5f0a5fefe5d0efbf9b58a9c594122b80",
+    "2": "cb0232e7da2e73468b963392d1e03d6cddc33d793f71911ab72eae5f7149026f",
+    "3": "41f7e96828e265d18183f737d6c6b70f6766d3e3a6deebcc3784e9c80eea3107",
+    "5": "eb42d5d76a71e6427b55cc77e5443a757e50b614b21f4409bc5cc696ab4e2fd5",
+    "7": "8e67c719c7a19b0946990601a2d272921d047a1c916d9dce113112e0457f5619"
+  },
+  "date": "2026-11-16",
+  "reviewer": "Codex",
+  "read_scope": "Computer Graphics21(4),35~44 중PDF1,2,3,5,7의 추출문/판면5쪽에서 부피·타이밍·연출·보간을 대조했다. 인쇄 쪽은PDF+34다.",
+  "empirical_scope": {
+    "design": "지정 원문·실제 판면 대조와 자체 수학·창작 과제 설계",
+    "sample_description": "학생 표본·실제 창작 결과·현장 성과를 분석한 연구가 아님",
+    "inference_limit": "전체 논문10쪽·인용된 애니메이션 도서·실제 영화 제작이나 관객 실험을 검증한 것이 아니다. 자체 보간식·72프레임 계획은 논문의 원래 계산식/영상이 아니다.",
+    "student_outcome_study": false,
+    "causal_effect_established": false,
+    "local_effect_tested": false
+  },
+  "contains_source_full_text": false,
+  "source_pdf_redistributed": false,
+  "reading_log": [
+    "Computer Graphics21(4),35~44 중PDF1,2,3,5,7의 추출문/판면5쪽에서 부피·타이밍·연출·보간을 대조했다. 인쇄 쪽은PDF+34다."
+  ],
+  "source_corrections": [
+    {
+      "location": "방법·문항·표·그림·서술의 대조",
+      "issue": [
+        "2쪽목록은11원칙이다. 부피보존은3축곱1로 확인하며애니메이션 설계와실제 재료 물리를동일시하지 않는다. 타이밍의질량비교는같은힘 등조건을생략해일반법칙으로쓰지않는다.",
+        "72표시 프레임의재생시간과0~72시각의73표본을구별한다.7쪽의경로/시간 분리·보간침범경고를반영하되자체다항식은원문의곡선이아니다."
+      ]
+    }
+  ],
+  "culture_creation_review": {
+    "full_book_read": false,
+    "formula_extraction_incomplete": true,
+    "own_tasks_are_not_student_responses": true,
+    "source_pdf_and_images_redistributed": false
+  }
+}

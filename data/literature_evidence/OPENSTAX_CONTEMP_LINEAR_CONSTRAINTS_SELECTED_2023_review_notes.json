@@ -1,0 +1,89 @@
+{
+  "source_id": "OPENSTAX_CONTEMP_LINEAR_CONSTRAINTS_SELECTED_2023",
+  "source_url": "https://openstax.org/details/books/contemporary-mathematics",
+  "source_asset_kind": "pdf",
+  "source_pdf_sha256": "300726c9820a8d0822c56e33582a44dffa47111147d64e9cb936b316c448ab38",
+  "source_pdf_url": "https://assets.openstax.org/oscms-prodcms/media/documents/contemporary-mathematics_-_WEB.pdf",
+  "pdf_pages": 1899,
+  "selected_text_pages": [
+    3,
+    4,
+    500,
+    501,
+    502,
+    529,
+    530,
+    531,
+    532,
+    533,
+    534
+  ],
+  "visual_pdf_pages": [
+    4,
+    500,
+    501,
+    502,
+    529,
+    530,
+    531,
+    532,
+    533,
+    534
+  ],
+  "rendered_page_sha256": {
+    "4": "55d9777058d9b0f8bccb676bf269bf27377adef8c637a8c644a632177d2d1dd6",
+    "500": "abc3f34d8fdc29ef64c6b816d19bfd562001a36deee6292d4a373259f42a2a5f",
+    "501": "008492c5b0f8b8f565472210d4b3f29a312dbcbb3d4e4c520146072e0fb4476a",
+    "502": "3b5ceda1824fb84ee2c0182f3913e57985268400f88375d7cf21d2717fa8fbb8",
+    "529": "a93c284719df287147d4f2e2866c73a9807ebbcd5d8e52beff88260c7487a755",
+    "530": "cddeb099d695739babc46994d8730d3133c61dbc319ab2d4d3f4027964cbb54e",
+    "531": "7616cc3c9f21d2e6505631a8edb5d11f71b079a418b4beb58fc10c150cf99cf7",
+    "532": "97f740b98961c278f7bcb7a89e56de80a1f7024f3bb3b16f3f91202c4fb97ef7",
+    "533": "9385d66b1912347a65cd434d104f971d7d11f882d8ca2674d88fe43c2582c8d5",
+    "534": "08926df098b4fca3422a4ab8a332f3db5868ba0ea47a0126f48af4ccb0fc88e1"
+  },
+  "date": "2026-11-16",
+  "reviewer": "Codex",
+  "read_scope": "지정 추출문11쪽·실제 판면10쪽에서 일차 부등식 공통 영역·경계 포함/제외·대입 검사,목적함수와 자원 제약,최소/최대의 방향·비음수 수량·꼭짓점 계산을 대조했다. 531쪽의 장기 평균 수요→매일 최소 생산과533쪽 꼭짓점 서술은 추가 가정·적용 조건을 구별했다. PDF 쪽은 인쇄 쪽보다10 크다. 같은 PDF의 앞선 단리 범위와 구별한 추가 읽기 항목이다.",
+  "empirical_scope": {
+    "design": "공식 공개 교과서의 함수·시장·효용·일차 제약 설명과 표·그래프 실제 판면 대조",
+    "sample_description": "실제 학생 표본·응답을 분석한 연구가 아님",
+    "inference_limit": "지정 범위의 수학 참고이며 전권·실제 기업의 생산 계획이나 학생 효과 검증이 아니다. 국내 범위에 맞춰 일차 제약과 일차 목적함수에 한정한다. 비어 있지 않은 닫힌 유계 다각형의 충분 조건과 정수 수량을 명시한다. 빈 영역·열린 경계·무한 영역·정수 반올림·최적 변 전체는 자체 경계 점검이며 일반 정수계획 알고리즘·쌍대성·다항식 곱의 부등식 영역을 새 필수로 추가하지 않는다.",
+    "student_outcome_study": false,
+    "causal_effect_established": false,
+    "local_effect_tested": false
+  },
+  "contains_source_full_text": false,
+  "source_pdf_redistributed": false,
+  "reading_log": [
+    "지정 추출문11쪽·실제 판면10쪽에서 일차 부등식 공통 영역·경계 포함/제외·대입 검사,목적함수와 자원 제약,최소/최대의 방향·비음수 수량·꼭짓점 계산을 대조했다. 531쪽의 장기 평균 수요→매일 최소 생산과533쪽 꼭짓점 서술은 추가 가정·적용 조건을 구별했다. PDF 쪽은 인쇄 쪽보다10 크다. 같은 PDF의 앞선 단리 범위와 구별한 추가 읽기 항목이다."
+  ],
+  "source_corrections": [
+    {
+      "location": "방법·문항·표·그림·서술의 대조",
+      "issue": [
+        "500~502쪽의 부등식 해는 공통부분이고 엄격 부등호 경계는 제외한다. 자체 과제에서 한 조건만 참인 점과 열린 경계의 미달성 상한을 나누어 확인한다.",
+        "533쪽의 모든 목적함수 최대·최소가 꼭짓점이라는 말은 일차 목적함수와 비어 있지 않은 닫힌 유계 다각형의 충분 조건에서 사용한다. 빈 영역·무한 영역·열린 경계에 무조건 적용하지 않고 최적 변 전체의 비유일성도 확인한다.",
+        "532~534쪽 연속 꼭짓점 대조와 정수 생산량은 구별한다. 자체 작은 예에서 반올림 제약 위반·모두 내림의 비최적성을8개 정수 조합으로 직접 확인하며 원문이 일반 정수계획법을 검증한 것으로 기록하지 않는다.",
+        "531쪽의 장기 평균 판매량으로 매일 최소 생산량을 정하는 데는 납품·재고 등 추가 가정이 필요하다. 자체8·12의 평균10 예로 평균 조건과 일별 최소 조건을 구별했다."
+      ]
+    }
+  ],
+  "economy_functions_review": {
+    "full_book_read": false,
+    "original_publication_year": 2023,
+    "pdf_build_date": "2026-04-20",
+    "source_license_as_read": "CC BY-NC-SA 4.0, PDF page 4; source PDFs/images are not redistributed",
+    "formula_extraction_incomplete": true,
+    "own_tasks_are_not_student_responses": true,
+    "fictional_values_are_not_current_economic_data": true,
+    "printed_page_offset": 10,
+    "intersection_not_union": true,
+    "strict_boundaries_excluded": true,
+    "linear_objective_and_constraints_only": true,
+    "corner_rule_sufficient_conditions_explicit": true,
+    "integer_rounding_not_assumed": true,
+    "average_sales_not_daily_minimum": true,
+    "own_global_bound_and_finite_enumeration": true
+  }
+}

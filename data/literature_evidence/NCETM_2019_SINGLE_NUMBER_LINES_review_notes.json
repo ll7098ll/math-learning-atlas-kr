@@ -1,0 +1,67 @@
+{
+  "source_id": "NCETM_2019_SINGLE_NUMBER_LINES",
+  "source_url": "https://www.ncetm.org.uk/media/8d84e79498db675/ncetm_ks3_representations_single_number_lines.pdf",
+  "source_asset_kind": "pdf",
+  "source_pdf_sha256": "ca395e9622fc55ec95395e5a1fa51d88e3ab8bd826e98300def367c76da8eead",
+  "source_pdf_url": "https://www.ncetm.org.uk/media/8d84e79498db675/ncetm_ks3_representations_single_number_lines.pdf",
+  "pdf_pages": 10,
+  "selected_text_pages": [],
+  "visual_pdf_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "rendered_page_sha256": {
+    "1": "31ebce81ea2881cbc8774759f30a757c08fc7399ceccd12a1a77906caa2401c0",
+    "2": "73d4336bc6cc7fde20f7809f10f0c2c2e9ae5fecc1c8a697a1e33a498bcc9151",
+    "3": "55a6450e37d1f468ccab8ea405a3f8af29d4a9bb5eed7fdf98f73c8a5d8f5caa",
+    "4": "691e16148787f2adca94feb6d84c05f3937fae034d4e927835ae30ac0c17c86a",
+    "5": "fe482caf603ab7e34659a6c0dea74fc5e8d585dfce38182ff9d6d7704d353663",
+    "6": "8d181b2284d0515ea9b3bf4c6820777dd59725e4e489f7512499fc584c3af72c",
+    "7": "004df867c7b5d97169492943c53be279f18014c154c15a3d5711e598615c5bd4"
+  },
+  "text_extraction_incomplete": true,
+  "date": "2026-11-13",
+  "reviewer": "Codex",
+  "read_scope": "추출 글자가 불완전해 표지와 수직선의 위치·단위, 음수의 순서·연산·표현 한계, 분수·소수 비교를 1~7쪽 실제 판면에서 읽었다.",
+  "empirical_scope": {
+    "design": "교사용 표현 안내와 예시·주의점. 직접 복제해 쓰는 교과서 수업안과 구별.",
+    "sample_description": "학생 표본 없음. 자체 한국어 과제의 수와 질문은 별도로 설계.",
+    "inference_limit": "교사 전문성 개발 자료다. 예상 난점은 실제 학생의 오류 빈도가 아니며 수직선이나 그래프를 모든 음수 곱셈의 유일한 증명·필수 선수로 삼지 않는다. 외부 도구의 현재 동작은 검사하지 않았다.",
+    "student_outcome_study": false,
+    "causal_effect_established": false,
+    "local_effect_tested": false
+  },
+  "contains_source_full_text": false,
+  "source_pdf_redistributed": false,
+  "reading_log": [
+    "추출 글자가 불완전해 표지와 수직선의 위치·단위, 음수의 순서·연산·표현 한계, 분수·소수 비교를 1~7쪽 실제 판면에서 읽었다."
+  ],
+  "source_corrections": [
+    {
+      "location": "방법·문항·표·그림·서술의 대조",
+      "issue": "2019 판권과 교사 개발용 목적을 실제 판면으로 확인했다. 글자 추출이 불완전해 1~7쪽을 판면으로 읽었으며 추출 텍스트를 읽은 것으로 세지 않는다. 음수의 크기와 거리, 방향을 가진 차와 양의 선분 길이를 구별하고 그래프 외삽을 독립적인 부호 법칙 증명으로 사용하지 않는다."
+    }
+  ],
+  "middle_number_system_review": {
+    "year": 2019,
+    "visual_reading": true,
+    "selected_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "student_sample_exists": false,
+    "directed_difference_and_unsigned_distance_distinguished": true,
+    "graph_extension_not_independent_sign_rule_proof": true,
+    "external_tool_functions_not_tested": true
+  }
+}

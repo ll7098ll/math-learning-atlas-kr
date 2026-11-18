@@ -1,0 +1,89 @@
+{
+  "source_id": "HAMDAN_GUNDERSON_2017",
+  "source_url": "https://doi.org/10.1037/dev0000252",
+  "source_pdf_url": "https://sites.temple.edu/cognitionlearning/files/2017/05/Hamdan-Gunderson-2017.pdf",
+  "source_pdf_sha256": "4da7b9fbf2d395e0bb280270498dacbf81e8b0a1f4593c82ce31a5cca4bea292",
+  "source_asset_kind": "pdf",
+  "date": "2026-11-09",
+  "reviewer": "Codex",
+  "read_scope": "인쇄 588~594쪽의 방법·결과와 그림 1~5·표 1~2를 대조하고 공식 부록의 두 표, 수직선·원 훈련 절차와 넓이 채점 화면을 확인했다.",
+  "contains_source_full_text": false,
+  "source_pdf_redistributed": false,
+  "pdf_pages": 10,
+  "printed_pages": [
+    587,
+    596
+  ],
+  "text_pdf_pages": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "visual_pdf_pages": [
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "visual_pdf_page_hashes": {
+    "4": "9f295af8257e22c9a85e53123041cb107598a13f9988568ac14f055a038f8383",
+    "5": "73fba4a44f41c208f25cb2122be2765ca774f0b35ab56c59cedaea800bc32cf4",
+    "6": "fbfebf85fea97f436d28b0714ecbfc943e63399bbc90a047ac6a4819f161c7d8",
+    "7": "237977e2b7462f5ac79dd25888aaae3c80edf3e39496101e84962f064ca784de",
+    "8": "a18ff65772a877a9d5256fbfa555675d0a2c6dcfb49daaabb869f6ceacaeadc6"
+  },
+  "empirical_scope": {
+    "design": "classroom_stratified_randomized_pretest_posttest",
+    "sample_description": "초등 2·3학년 114명을 학급 안에서 수직선 39명, 원 모형 37명, 낱말 퍼즐 38명에 배정했다.",
+    "inference_limit": "정해진 재료와 훈련 직후의 수행에 한정한다. 조건 간 보정 비교와 집단 안 사전·사후 비교는 서로 다른 검정이다.",
+    "student_outcome_study": true,
+    "local_effect_tested": false
+  },
+  "participants": {
+    "total": 114,
+    "schools": 5,
+    "grades": [
+      2,
+      3
+    ],
+    "average_age_years": 8.55,
+    "line": 39,
+    "area": 37,
+    "crossword": 38,
+    "comparison_model_n": 108
+  },
+  "source_corrections": [],
+  "supplemental": {
+    "index": "https://supp.apa.org/psycarticles/supplemental/dev0000252/dev0000252_supp.html",
+    "url": "https://supp.apa.org/psycarticles/supplemental/dev0000252/z2p011163802so1.docx",
+    "sha256": "565f1738936a1e436341a2b39ac42895862c984d6dc4d2269ea5265e08c7ece0",
+    "content_reviewed": true,
+    "reading_scope": "표 A·B와 수직선·원 절차, 넓이 채점 절차 및 수록 화면",
+    "comparison_items": {
+      "consistent": 6,
+      "inconsistent": 10,
+      "ambiguous": 4,
+      "trained_fractions": 10,
+      "other_fractions": 10
+    },
+    "estimation_items": {
+      "trained": 6,
+      "untrained": 8
+    },
+    "redistributed": false,
+    "screen_review_sha256": "9aa8a3e6d977465086031af81e94b311307ce283095f0ce80e86eed78399c583"
+  },
+  "reading_log": [
+    "2~3학년 114명을 교실 내 무작위 배정했다. 두 차례 30분 중 두 번째의 훈련은 약 15분이며 세 조건을 비교했다. 수직선 훈련은 가느다란 2차원 직사각형이며 0부터 칠하고 끝 위치에 눈금을 놓는다.",
+    "그림 1·2의 수직선과 원 모형은 같은 분수를 사용하지만 원은 시작점과 끝점을 정하지 않았다. 그림 3은 실제 문항 응답 예로서 정답 도형을 그대로 재현한 것으로 다루지 않는다.",
+    "사후 크기 비교 조정 평균은 수직선 44.8%, 원 38.7%, 낱말 퍼즐 40.9%다. 조정 집단 비교 p는 수직선 대 원 .002, 수직선 대 퍼즐 .045다. 수직선 집단의 보정하지 않은 사전·사후 비교 p=.086은 별개다.",
+    "수직선 위치 오차는 낮을수록 낫다. 원 모형 훈련도 원 넓이 문항에서 대조군보다 오차가 낮았다. 특정 수직선 훈련과 바로 이어진 문항에 한정한다.",
+    "모호한 문항의 표 2 원점수 전체 비교 p=.262와 본문의 공변량 보정 이항 비교 결과를 구별한다. 분석 방법과 포함 인원이 다르므로 이를 같은 수치로 읽지 않는다.",
+    "판정은 단기간 연습 뒤의 분수 크기 문항에 한정한다. 장기 전이, 모든 수직선 도구, 전체 분수 연산의 우위는 후속 범위다."
+  ]
+}

@@ -1,0 +1,364 @@
+{
+  "source_id": "MATTERA_ET_AL_2021_MPC_THIRD_GRADE",
+  "source_url": "https://www.mdrc.org/work/publications/long-term-effects-enhanced-early-childhood-math-instruction",
+  "date": "2026-11-10",
+  "reviewer": "Codex",
+  "source_asset_kind": "pdf",
+  "source_pdf_sha256": "ea7abc1ea2297859160b470098b262b3dbc10d2c732d276b7a9acbb0defc9fb8",
+  "source_pdf_redistributed": false,
+  "contains_source_full_text": false,
+  "read_scope": "기관·아동 배정도, 분석 표본, 탈락 설명, 3학년 수학 결과와 상충하는 표 주석을 지정 PDF 9쪽과 판면 5쪽에서 대조했다. 부록 B·F의 분석 모형과 탐색 표를 PDF 65~68·93~95쪽에서 확인했다. WWC 90485의 2026년 심사 3건과 후속 권호 논문에 표시된 3학년 수학 결과를 대조했다. 3학년 비교별 사전등록 계획 3편과 최종 보고서의 배정, 표본 분모, 기초 공변량 대치, 탐색 분석을 대조했다. WWC 기준 4.1에서 결측 처리 방법과 추적 탈락 수준의 검토 단계를 확인했다.",
+  "empirical_scope": {
+    "design": "취학 전 기관 무작위 배정과 공립학교 잔류 아동의 유치원 개별 배정을 사용한 추적. 결과는 3학년 행정 자료.",
+    "sample_description": "수학 점수가 있는 표본은 MPC 대 정규 945·899명, High 5s 추가 226·230명, 두 해 결합 대 정규 226·255명.",
+    "inference_limit": "세 비교는 동일 분모가 아니며 추가와 결합 비교의 중재군은 겹친다. 학교에 남은 아동의 선택과 결과 미확보를 고려하며 국내 특정 초등 과제의 장기 효과로 해석하지 않는다.",
+    "student_outcome_study": true,
+    "causal_effect_established": false,
+    "local_effect_tested": false,
+    "study_family": "MDRC_MAKING_PRE_K_COUNT_HIGH_5S"
+  },
+  "pdf_url": "https://www.mdrc.org/sites/default/files/MPC_High5-3yr_Impact_Report.pdf",
+  "publisher_url": "https://www.mdrc.org/work/publications/long-term-effects-enhanced-early-childhood-math-instruction",
+  "pdf_pages": 101,
+  "printed_pages": [
+    6,
+    7,
+    9,
+    14,
+    23,
+    24,
+    25
+  ],
+  "selected_text_pages": [
+    5,
+    24,
+    25,
+    27,
+    32,
+    38,
+    41,
+    42,
+    43,
+    53,
+    54,
+    58,
+    60,
+    61,
+    65,
+    66,
+    67,
+    68,
+    71,
+    72,
+    93,
+    94,
+    95
+  ],
+  "visual_pdf_pages": [
+    24,
+    25,
+    27,
+    32,
+    41,
+    42,
+    53,
+    65,
+    66,
+    68,
+    72,
+    95
+  ],
+  "rendered_page_sha256": {
+    "24": "169bf788a03c16ddd4ec2005ff1c5dd5567ae5abfec3233f8158dc1635d83eee",
+    "25": "5a6d405f4952f48435b68ffbeaaf4ebae0a792db5bbdd1709eb42ef2d4947614",
+    "32": "85faf6f15509fa75c7ee40bf2d2a3a6dc65594e18a73388fcde1e61e28d51263",
+    "41": "634073975eac62c7328ad553d168486d9aced810e48bbf315c63aa3e6d174bcd",
+    "42": "5d39f3d51d5affc1005cd7ea19095e140bcc3625d4c339b21af88179a101521f",
+    "66": "c102cc2a1f9c4386779203f201827e407c6dafe2d95aab8923e724baa3c37c71",
+    "95": "a94558ab7d6e05c32ef092ee853d60fdc94a235c6cf5183e0f535893659cfbe5",
+    "27": "c25f9c4df8ad038b505dc00f9218e768cb7c21404c7e7d8a5ccbd0bb1741da1a",
+    "53": "dce6c0063e86b0fa20099e1b9c85dbf85ab362cfe4649d57357c56e89a7ca8da",
+    "65": "855757f856930d9c7ebcbb9f7bc27897fe5ad06fdf30c2a77c2f5e8e3b5178b4",
+    "68": "3667326fbbc908ae9266f6785bd2a534dc84c37d92dc6b61f6d2487ba17b1f71",
+    "72": "27652e4b1d1abe28503a1894209f986976023e1a7f61ddd973e7f9a51ea9bc9e"
+  },
+  "results": {
+    "any_outcome": [
+      [
+        1165,
+        1112
+      ],
+      [
+        274,
+        282
+      ],
+      [
+        274,
+        313
+      ]
+    ],
+    "math_outcome": [
+      [
+        945,
+        899
+      ],
+      [
+        226,
+        230
+      ],
+      [
+        226,
+        255
+      ]
+    ],
+    "math_effect_sizes": [
+      0.1,
+      0.02,
+      0.34
+    ],
+    "math_p": [
+      0.19,
+      0.82,
+      0.01
+    ],
+    "MPC_math_eligible": 2702,
+    "MPC_math_observed": 1844,
+    "reported_overall_attrition_pct": {
+      "MPC": 32,
+      "High 5s": 30
+    }
+  },
+  "reading_log": [
+    "기관·아동 배정도, 분석 표본, 탈락 설명, 3학년 수학 결과와 상충하는 표 주석을 지정 PDF 9쪽과 판면 5쪽에서 대조했다.",
+    "분모와 비교 조건을 확인하고 전체 모형과 과제별 관찰을 구분했다.",
+    "배정 기관을 유지한 모형과 학교 기초 성과를 조정한 탐색 결과, WWC 결측 판정을 확인했다.",
+    "사전등록의 표 2와 최종 보고서의 결과별 분모, 비교별 배정과 기초 자료 대치 사양을 대조했다."
+  ],
+  "source_corrections": [
+    {
+      "location": "PDF 41쪽 표 3.5",
+      "issue": "대조군을 MPC 이후 정규 유치원이라고 설명한 첫 주석과 바로 뒤의 MPC 미수혜 추정 문장이 서로 다르다. 그림 2.1·표 2.1·본문·요약의 일치에 따라 이 표를 High 5s 추가 비교로 분류한다."
+    },
+    {
+      "location": "부록과 후속 대조",
+      "issue": "표 F.2 제목은 MPC와 High 5s 결합을, 하단 주석 일부는 MPC 대 정규 취학 전만을 서술한다. 본문의 결합 비교 설명과 표본 226·255명을 대조했고 원전의 상충 문구를 보존한다."
+    },
+    {
+      "location": "사전등록 표 2 및 최종 보고서 표 2.1·C.1",
+      "issue": "등록 시점 표본과 보고서 분석 집단, 확인적 결과와 탐색 하위표본을 분리한다."
+    }
+  ],
+  "appendices_review": {
+    "assignment_levels": [
+      "child",
+      "pre_k_site",
+      "randomization_block"
+    ],
+    "table_f2_math": {
+      "effect_size": 0.37,
+      "printed_p": 0.01,
+      "n": [
+        226,
+        255
+      ],
+      "caption_note_conflict": true
+    },
+    "p_by_source": {
+      "report": 0.19,
+      "journal": 0.18
+    },
+    "journal_url": "https://doi.org/10.1080/19345747.2025.2509234",
+    "wwc_url": "https://ies.ed.gov/ncee/wwc/Study/90485",
+    "wwc_html_sha256": "759e9acd13900805526d3d9e310783ba6ef610ea1f6941e358698cd62cfe0daf",
+    "wwc_reviews": [
+      {
+        "StudyID": "90485",
+        "ReviewID": "1913155",
+        "Protocol": "Study Review Protocol",
+        "Protocol_Version": "1.0",
+        "Standards_Version": "4.1",
+        "Study_Rating": "Does not meet WWC standards",
+        "ReviewedDate": "4/14/2026 1:24:08 PM",
+        "Posting_Date": "10/24/2022 3:29:00 PM",
+        "Product_Name": ""
+      },
+      {
+        "StudyID": "90485",
+        "ReviewID": "1912974",
+        "Protocol": "Study Review Protocol",
+        "Protocol_Version": "1.0",
+        "Standards_Version": "4.1",
+        "Study_Rating": "Does not meet WWC standards",
+        "ReviewedDate": "4/14/2026 1:24:57 PM",
+        "Posting_Date": "10/24/2022 3:29:00 PM",
+        "Product_Name": ""
+      },
+      {
+        "StudyID": "90485",
+        "ReviewID": "1912973",
+        "Protocol": "Study Review Protocol",
+        "Protocol_Version": "1.0",
+        "Standards_Version": "4.1",
+        "Study_Rating": "Does not meet WWC standards",
+        "ReviewedDate": "4/14/2026 1:24:35 PM",
+        "Posting_Date": "10/24/2022 3:29:00 PM",
+        "Product_Name": ""
+      }
+    ],
+    "wwc_outcome_rows": [],
+    "wwc_reason": "approach_to_missing_data_not_acceptable"
+  },
+  "prior_snapshot": {
+    "file": "data/literature_evidence/MATTERA_ET_AL_2021_MPC_THIRD_GRADE_appendices_review_notes.json",
+    "sha256": "c87b00b03416d721bf97457532c650a36344ba8d016718804ddd835317811d1e"
+  },
+  "preregistration_review": {
+    "plans": [
+      {
+        "osf_id": "bm6va",
+        "registered": "2020-06-24T16:08:11.125175",
+        "title": "Making Pre-K Count: 3rd Grade Follow-Up",
+        "registration_url": "https://api.osf.io/v2/registrations/bm6va/",
+        "registration_sha256": "6902f51c742ad713f478391a8f378770199cede965a1ecab51068b1da761136b",
+        "pdf_sha256": "983d2bb3c49f0aae7384aaa192ca6eb00319691ada81afffc1947b2c98ecaafc",
+        "pdf_pages": 24,
+        "selected_text_pages": [
+          13,
+          14,
+          15,
+          19,
+          20,
+          21
+        ],
+        "rendered_page_sha256": {
+          "15": "cdda8ab7f1fdf58fde5cccfa7a6b0ca9dc0213a1c94f7d43ffadf4e22bc3302d",
+          "19": "06329ce531606bf120d4c24037298884d17182e9e4ca7bceb0a1206230a8d858"
+        },
+        "table_2_total": 2819,
+        "table_2_groups": [
+          1448,
+          1371
+        ],
+        "table_2_test_attrition_percent": 34.6,
+        "table_2_test_differential_percentage_points": 0.3,
+        "referenced_attrition_standard": "4.0"
+      },
+      {
+        "osf_id": "ujxnr",
+        "registered": "2020-06-24T16:09:37.748308",
+        "title": "High 5s Kindergarten Math Clubs Impact Analyses Third Grade Follow-Up",
+        "registration_url": "https://api.osf.io/v2/registrations/ujxnr/",
+        "registration_sha256": "d2022ec1ee47af2cc3a8bc0446c7e7f1febaaeff6ecd9826cf138f1305da10b9",
+        "pdf_sha256": "68a33cd50cbda079cb1efa8f68338a504f1ed8189d29038c26a5e11dbfa29e7f",
+        "pdf_pages": 14,
+        "selected_text_pages": [
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "rendered_page_sha256": {
+          "9": "0b73828f8b486ed32fb96980bc328284bcd07b21f98ff24222dab84030499c73",
+          "11": "6a3b1bcf5490f874f64409326c39f1afb87ddcfa079079e7cb9b3d4d9306b9f3"
+        },
+        "table_2_total": 617,
+        "table_2_groups": [
+          306,
+          311
+        ],
+        "table_2_test_attrition_percent": 26.1,
+        "table_2_test_differential_percentage_points": 0.1,
+        "referenced_attrition_standard": "4.0"
+      },
+      {
+        "osf_id": "68yxg",
+        "registered": "2020-06-24T16:10:06.528491",
+        "title": "Estimating Effects of Two Years of Enriched Math: Third Grade Follow-Up",
+        "registration_url": "https://api.osf.io/v2/registrations/68yxg/",
+        "registration_sha256": "c90cb69c2e6a89ab6f55fae39f8d469f5dc134fa6f90477926528a14ae81899d",
+        "pdf_sha256": "6eccb1db43fdaa1c46fe66f0dbfe65d37608011445a5fe5a1eca57ed27586a98",
+        "pdf_pages": 14,
+        "selected_text_pages": [
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "rendered_page_sha256": {
+          "9": "0a7632a5389232690f4abfd8d14bdb163039c38e5fcdcfa412c603c9c9b55457",
+          "11": "fd59bf690b2acc9c12e75f18baff18e3f3d8a9454e720444f9503b3d74e88e9c"
+        },
+        "table_2_total": 651,
+        "table_2_groups": [
+          306,
+          345
+        ],
+        "table_2_test_attrition_percent": 26.1,
+        "table_2_test_differential_percentage_points": 0.1,
+        "referenced_attrition_standard": "4.0"
+      }
+    ],
+    "samples": {
+      "registered_table_2_denominators": [
+        2819,
+        617,
+        651
+      ],
+      "report_reference_samples": [
+        2702,
+        655,
+        665
+      ],
+      "any_result": [
+        2277,
+        556,
+        587
+      ],
+      "math_result": [
+        1844,
+        456,
+        481
+      ],
+      "math_group_counts": [
+        [
+          945,
+          899
+        ],
+        [
+          226,
+          230
+        ],
+        [
+          226,
+          255
+        ]
+      ],
+      "report_mpc_subsample": {
+        "math_result": 974,
+        "p": 0.03,
+        "exploratory": true
+      }
+    },
+    "report_mpc_attrition_percent": 31.75,
+    "shared_high5s_math_group_n": 226,
+    "imputation_scope": "baseline_covariates",
+    "final_outcome_imputation_verified": false,
+    "study_review_worksheet_verified": false,
+    "handbook": {
+      "url": "https://ies.ed.gov/ncee/wwc/Docs/referenceresources/WWC-Standards-Handbook-v4-1-508.pdf",
+      "sha256": "f3950189a71bc377e1b60af1bc98fffee1479a579626e61072207bf100187571",
+      "pdf_pages": 116,
+      "standard": "4.1",
+      "rendered_page_sha256": {
+        "41": "7fb708476c4c0d63d2efe7dda60e9621a61cb489cc76932510f2f385822fd756",
+        "42": "2a3aca38bcc03e19ff8d3ec47f3e5e9cd3397cb35b0a1e30ef3c34593fbb69ed"
+      },
+      "steps": [
+        "method_acceptability",
+        "attrition_level"
+      ]
+    }
+  }
+}

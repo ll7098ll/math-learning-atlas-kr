@@ -1,0 +1,51 @@
+{
+  "source_id": "OPENSTAX_STATS_INTERVAL",
+  "source_url": "https://openstax.org/books/introductory-statistics-2e/pages/8-3-a-population-proportion",
+  "source_asset_kind": "publisher_html",
+  "source_asset_sha256": "a147d032e44eef0fedb68600356ce9a7dc438dc21dad812558acbea94a58290b",
+  "source_asset_redistributed": false,
+  "date": "2026-11-05",
+  "reviewer": "Codex",
+  "contains_source_full_text": false,
+  "source_pdf_redistributed": false,
+  "pdf_read": false,
+  "original_page_layout_review": false,
+  "reading_log": [
+    "공식8.3절의 도입, 이항모형과 표본비율의 정규근사, 표준오차·오차한계·신뢰구간 공식을 읽고 수식의 분자·분모·모수와 관측값을 대조했다.",
+    "예8.10~8.14와 확인8.10~8.14, 계산기 입력 안내, plus-four 조정, 표본 크기 공식과 올림을 모두 읽었다. 이 절에는 본문 삽입 이미지가 없으며 수식은MathML이다. 원책의 장말 연습 전체나PDF 판면을 읽은 것은 아니다.",
+    "예8.10·8.11·8.12·8.13의 구간과8.14의 표본 수를 별도 계산했다. 특정 계산기 화면을 실제 실행하거나 모든 확인 문항의 해답을 검산한 것으로 표시하지 않는다.",
+    "정규근사는 이산 통계량의 정확한 연속 분포가 아니다. 참p와 추정p-hat, 표본 선택과 편향, 관측 응답과plus-four 조정 수를 구별했다."
+  ],
+  "source_corrections": [
+    {
+      "kind": "source_formula_transcription_inconsistency",
+      "location": "8.3절 예8.13의q-prime 계산",
+      "observation": "p-prime=15/54≈0.278 다음 줄에q-prime=1−0.241=0.722로 적혀 있다.1−0.241은0.759이며 앞의p-prime 및0.722와 일치하지 않는다.",
+      "action": "정확히q-prime=39/54=13/18≈0.72222임을 확인했다. 자체 설명에서는 관측 비율과 조정 비율을 명시한다. 출판 정오표의 공식 정정은 미확인이고 원문 파일은 고치지 않는다."
+    },
+    {
+      "kind": "source_parameter_qualification",
+      "location": "8.3절 예8.10의X~B(500,421/500)",
+      "observation": "관측 비율421/500을 이항모형의 확률 자리에 직접 적었다. 뒤 문단은 이것이 모비율의 추정값이라고 설명한다.",
+      "action": "자체 설명은X~Bin(n,p)의 참p가 미지임을 유지하고,421/500은 표준오차를 추정할 때 대입한 값으로 구별한다. 표본비율의 정규분포 표기도 근사임을 명시한다."
+    },
+    {
+      "kind": "source_sampling_scope_qualification",
+      "location": "8.3절 확인8.11·8.13와예8.14",
+      "observation": "한 학교 응답으로 교육구 전체를 묻거나 포커스그룹·전화 응답에 곧바로 구간 공식을 적용하는 예가 있다. 표본 크기 공식도 선택편향을 제거하는 절차는 아니다.",
+      "action": "모집단·표집틀·선택/무응답·독립 조건을 따로 확인한다. 원문 >5 성공/실패 기준과plus-four 권고를 보편적인 정확도 보장으로 확대하지 않는다."
+    }
+  ],
+  "observed_html_assets": [
+    {
+      "url": "https://openstax.org/books/introductory-statistics-2e/pages/8-3-a-population-proportion",
+      "sha256": "a147d032e44eef0fedb68600356ce9a7dc438dc21dad812558acbea94a58290b"
+    }
+  ],
+  "observed_image_assets": [],
+  "own_calculation_checks": "지정한 원문 예제의 구간·표본 수와 자체 과제의 정확한 분수·조건부 분모·이항 확률을 별도 계산했다. 모든 해답·실제 도구 화면·학생 반응의 검증은 아니다.",
+  "interpretation_limits": [
+    "교재의 수학적 설명을 지원하는 자료이며 독립 학생 실험·교수 효과 연구가 아니다.",
+    "신뢰수준·오류율의 모형 조건을 유지한다. 방법 비교·검정력 유한 예는 교사의 선택 확장이며 새 필수 이론을 추가하지 않는다."
+  ]
+}

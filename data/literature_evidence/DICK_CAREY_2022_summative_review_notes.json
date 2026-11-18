@@ -1,0 +1,841 @@
+{
+  "source_id": "DICK_CAREY_2022_SELECTED",
+  "source_url": "https://www.pearson.com/en-us/subject-catalog/p/systematic-design-of-instruction-the/P200000000952?view=educator",
+  "source_pdf_url": "https://elibrary.upi.edu/3739/1/The%20Systematic%20Design%20of%20Instruction%20%28Dick%2C%20Carey%2C%20Carey%29.pdf",
+  "repository_url": "https://elibrary.upi.edu/3739/",
+  "source_pdf_sha256": "8caf4d487388ac41a016d3d34857a246abdfd4712d4ad6b783c69271e721a04a",
+  "date": "2026-11-06",
+  "reviewer": "Codex",
+  "contains_source_full_text": false,
+  "source_pdf_redistributed": false,
+  "read_scope": "9판의 불완전한 대학 저장소 파일에서 누적 지정108쪽 텍스트·68쪽 이미지를 확인했다. 이전 서지·간략 목차·목표 분석 장(인쇄48–69)·부록 도입/A–E(439–448)에 총괄평가 장(406–437),부록F–M(449–474),용어집(475–481),색인(483–488)과 명시된 빈438·482쪽을 더했다. 참고문헌/색인 읽기는 인용 원연구/해당 본문 읽기가 아니다. 중복 쪽을 합산하지 않으며7판 검토·9판 전권 확보/정독이 아니다.",
+  "text_pdf_pages": [
+    2,
+    3,
+    8,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    191,
+    192,
+    193,
+    194,
+    195,
+    196,
+    197,
+    198,
+    199,
+    200,
+    201,
+    202,
+    203,
+    204,
+    205,
+    206,
+    207,
+    208,
+    209,
+    210,
+    211,
+    212,
+    213,
+    214,
+    215,
+    216,
+    217,
+    218,
+    219,
+    220,
+    221,
+    222,
+    223,
+    224,
+    225,
+    226,
+    227,
+    228,
+    229,
+    230,
+    231,
+    232,
+    233,
+    234,
+    235,
+    236,
+    237,
+    238,
+    239,
+    240,
+    241,
+    242,
+    243,
+    244,
+    245,
+    246,
+    247,
+    248,
+    249,
+    250,
+    251,
+    252,
+    253,
+    254,
+    255,
+    256,
+    257,
+    258,
+    259,
+    260,
+    261,
+    262,
+    263,
+    264,
+    265,
+    266,
+    267,
+    268,
+    269,
+    270,
+    271,
+    272,
+    273
+  ],
+  "visual_pdf_pages": [
+    3,
+    84,
+    85,
+    87,
+    88,
+    89,
+    91,
+    92,
+    93,
+    191,
+    192,
+    194,
+    199,
+    203,
+    204,
+    205,
+    206,
+    208,
+    209,
+    210,
+    211,
+    212,
+    213,
+    214,
+    215,
+    216,
+    217,
+    218,
+    219,
+    220,
+    227,
+    228,
+    229,
+    230,
+    231,
+    232,
+    233,
+    234,
+    235,
+    236,
+    237,
+    238,
+    239,
+    240,
+    241,
+    242,
+    243,
+    244,
+    245,
+    246,
+    247,
+    248,
+    249,
+    250,
+    251,
+    252,
+    253,
+    254,
+    255,
+    256,
+    257,
+    258,
+    259,
+    260,
+    264,
+    266,
+    268,
+    273
+  ],
+  "new_text_pdf_pages": [
+    191,
+    192,
+    193,
+    194,
+    195,
+    196,
+    197,
+    198,
+    199,
+    200,
+    201,
+    202,
+    203,
+    204,
+    205,
+    206,
+    207,
+    208,
+    209,
+    210,
+    211,
+    212,
+    213,
+    214,
+    215,
+    216,
+    217,
+    218,
+    219,
+    220,
+    221,
+    222,
+    223,
+    234,
+    235,
+    236,
+    237,
+    238,
+    239,
+    240,
+    241,
+    242,
+    243,
+    244,
+    245,
+    246,
+    247,
+    248,
+    249,
+    250,
+    251,
+    252,
+    253,
+    254,
+    255,
+    256,
+    257,
+    258,
+    259,
+    260,
+    261,
+    262,
+    263,
+    264,
+    265,
+    266,
+    267,
+    268,
+    269,
+    270,
+    271,
+    272,
+    273
+  ],
+  "new_visual_pdf_pages": [
+    191,
+    192,
+    194,
+    199,
+    203,
+    204,
+    205,
+    206,
+    208,
+    209,
+    210,
+    211,
+    212,
+    213,
+    214,
+    215,
+    216,
+    217,
+    218,
+    219,
+    220,
+    234,
+    235,
+    236,
+    237,
+    238,
+    239,
+    240,
+    241,
+    242,
+    243,
+    244,
+    245,
+    246,
+    247,
+    248,
+    249,
+    250,
+    251,
+    252,
+    253,
+    254,
+    255,
+    256,
+    257,
+    258,
+    259,
+    260,
+    264,
+    266,
+    268,
+    273
+  ],
+  "source_integrity": {
+    "status": "incomplete_repeated_segments",
+    "whole_book_obtained": false,
+    "physical_pdf_pages": 439,
+    "unique_segment_pdf_pages": 178,
+    "missing_printed_body_range": [
+      71,
+      405
+    ],
+    "publisher_authenticated_distribution": false
+  },
+  "asset_audit_file": "data/literature_evidence/DICK_CAREY_2022_candidate_asset_audit.json",
+  "asset_audit_sha256": "ee5296c9cd2a245289926a4a0aaa7ed4fa05af2bf2581a36a6a71823ef5f81b1",
+  "previous_review": {
+    "source_id": "DICK_CAREY_2022_SELECTED",
+    "state": "self_read_claim_mapping",
+    "reviewer": "Codex",
+    "date": "2026-11-06",
+    "snapshot_kind": "authored_review_notes",
+    "snapshot_file": "data/literature_evidence/DICK_CAREY_2022_selected_review_notes.json",
+    "snapshot_sha256": "90b1d1a5925abfb022b73b540cd9fc3dab125296ab40053eebeed5243d0f3884",
+    "source_pdf_sha256": "8caf4d487388ac41a016d3d34857a246abdfd4712d4ad6b783c69271e721a04a",
+    "redistribution_license": "workspace_authored_notes",
+    "bibliography_snapshot": "e02f7faa6817a0ba27955865056645dacca83bce2c3cf65ae38e4858d843229d",
+    "display": {
+      "title": "The Systematic Design of Instruction, ninth edition — selected goal analysis and appendices",
+      "url": "https://www.pearson.com/en-us/subject-catalog/p/systematic-design-of-instruction-the/P200000000952?view=educator",
+      "authors_year": "Dick·Carey·Carey,2022,9판의 선정 대목"
+    },
+    "read_scope": "9판의 불완전한 대학 저장소 파일에서 지정35쪽 텍스트·16쪽 이미지를 확인. 서지·간략 목차,목표 분석 장 전체(인쇄48–69),부록 도입·A–E(439–448)다.7판 검토·9판 전권 확보/정독이 아니다.",
+    "text_pdf_pages": [
+      2,
+      3,
+      8,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      224,
+      225,
+      226,
+      227,
+      228,
+      229,
+      230,
+      231,
+      232,
+      233
+    ],
+    "visual_pdf_pages": [
+      3,
+      84,
+      85,
+      87,
+      88,
+      89,
+      91,
+      92,
+      93,
+      227,
+      228,
+      229,
+      230,
+      231,
+      232,
+      233
+    ],
+    "source_integrity": {
+      "status": "incomplete_repeated_segments",
+      "whole_book_obtained": false,
+      "physical_pdf_pages": 439,
+      "unique_segment_pdf_pages": 178,
+      "missing_printed_body_range": [
+        71,
+        405
+      ],
+      "publisher_authenticated_distribution": false
+    },
+    "scope_note": "9판 목표 분석·부록의 지정 범위 읽기다.7판과 구별하며 전권 확보·독립 검토·학생 검증으로 합산하지 않는다. 불완전한 대학 저장소 복사본의 출판사 인증 배포 여부는 확인되지 않았다.",
+    "method_note": "목표의 절차·정보 묶음·하위 기능 예,목표/조건/평가의 대응을 설계 참고로 읽었다. 현재 수학 과제는 자체 변형이며 인과 효과 연구나 표준화된 검사 결과가 아니다.",
+    "limits": "파일439쪽에는 중복과 인쇄71–405의 누락이 있다. 선정35쪽·16쪽 이미지만 확인했다. 해당 원판과의 전체 동일성·미확보 장·원연구·한국어 과제의 타당성·실제 학생 수행은 미검증이며 부분 과제를 성취기준 전체 숙달로 승격하지 않는다.",
+    "editorial_action": "현재3개 기준에 설계 참고 주장2건·자체 관찰2건을 대응했다. 실제 자료 수집과 제공 자료의 계산,단위 회상과 구간/실물 측정을 구별했다. 기존 대표 원고·과제·관계 검토 근거와7판 기록은 보존한다.",
+    "independent_review": false,
+    "student_validated": false,
+    "observations": [
+      {
+        "id": "D9-P1",
+        "standard_codes": [
+          "6수04-01",
+          "6수04-03"
+        ],
+        "question": "가상 독서 기록 네 개가0분·10분·10분·20분으로 주어졌다. 평균을 구하고 무엇을 확인한 활동인지 설명하라. 이 답만으로 우리 반의 실제 독서 시간을 조사했고 통계적 탐구 전체를 수행했다고 판정할 수 있는가?",
+        "expected": "합40분을 네 기록에 균등하게 나누면 평균10분이다.0분은 제공된 실제0이라는 가상 조건이고 무응답으로 바꿔 빼지 않는다. 확인한 것은 주어진 자료의 계산·해석이며 조사 질문 설정·대상/기간/기준 합의·실제 수집·누락 확인의 수행은 아직 관찰하지 않았다. 원래 자료의 개인차0·10·10·20도 평균 하나만으로 없어지지 않는다.",
+        "interpretation": "가상 자료에 대한 기대 설명이며 실제 조사나 학생 응답이 아니다. 평균 계산의 부분 목표와 통계적 탐구 전체의 관찰 범위를 구별한다. 이미 주어진 자료를 읽는 부분 목표에서 그래프를 먼저 새로 그리는 일을 유일한 필수 경로로 강제하지 않는다. 전체 탐구의 표현·비교 활동이 불필요하다고 해석하지 않고,관찰하지 않은 수행은 실패 대신 미확인으로 기록한다.",
+        "student_validated": false
+      },
+      {
+        "id": "D9-P2",
+        "standard_codes": [
+          "2수03-10"
+        ],
+        "question": "cm의 이름을 말하기,0부터7cm까지 놓인 막대의 길이 읽기,2cm부터9cm까지 놓인 막대의 길이 설명하기는 무엇을 각각 확인하는가? 마지막 경우 눈금점과1cm 간격을 구별해 길이를 확인하라.",
+        "expected": "단위의 이름을 아는 것과 시작점·끝점·단위 간격을 연결하는 수행을 각각 확인한다. 첫 막대와 둘째 막대는 모두7cm다.2부터9까지 눈금점은8개지만 사이1cm 간격은7개다. 끝 눈금9cm는 자 위 위치이며 막대 길이 자체는 아니다.0에 다시 맞추거나 같은 크기의1cm 간격을 세어 확인할 수 있다.",
+        "interpretation": "수치가 주어진 가상 배치의 해석이며 실제 자를 놓고 잰 관찰을 대신하지 않는다. 단위 이름·두 끝 읽기·간격 세기·도구 놓기를 따로 기록하고,그림 설명만 관찰했으면 실물 측정은 미확인으로 둔다.0 맞추기를 교사가 알려 주었다면 도움 뒤 수행으로 남긴다. 이 활동이나 교재의 영어 작문 평가 예는 한국어 측정 과제의 진단 타당성을 검증하지 않는다.",
+        "student_validated": false
+      }
+    ]
+  },
+  "previous_bibliography": {
+    "id": "DICK_CAREY_2022_SELECTED",
+    "title": "The Systematic Design of Instruction, ninth edition — selected goal analysis and appendices",
+    "authors": [
+      "Walter Dick",
+      "Lou Carey",
+      "James O. Carey"
+    ],
+    "year": 2022,
+    "edition": "9th",
+    "print_isbn": "9780135824146",
+    "epub_isbn": "9780135824139",
+    "kind": "교수설계 교재의 선정 대목; 불완전한 저장소 복사본",
+    "url": "https://www.pearson.com/en-us/subject-catalog/p/systematic-design-of-instruction-the/P200000000952?view=educator",
+    "review_scope": "9판의 불완전한 대학 저장소 파일에서 지정35쪽 텍스트·16쪽 이미지를 확인. 서지·간략 목차,목표 분석 장 전체(인쇄48–69),부록 도입·A–E(439–448)다.7판 검토·9판 전권 확보/정독이 아니다.",
+    "supports": [
+      "수업 순서·수행 절차·하위 기능의 구별",
+      "목표·조건·평가 과제의 대응과 부분 수행의 관찰 범위"
+    ],
+    "does_not_establish": "전체 원전 확보·7판 누락 장의 검토·한국 수학 과제의 교수 효과·진단 타당성",
+    "next_review": "7판 국제판과9판을 분리한다.9판 인쇄71–405는 미확보이며 공식 판본의 해당 대목과 동일성 대조가 남는다. 파일 내 총괄평가·부록F–M 등은 실제 읽은 범위부터 후속 확인한다. 원연구·독립 검토·현재 학생 응답은 별도 근거가 필요하다."
+  },
+  "previous_notes_file": "data/literature_evidence/DICK_CAREY_2022_selected_review_notes.json",
+  "previous_notes_sha256": "90b1d1a5925abfb022b73b540cd9fc3dab125296ab40053eebeed5243d0f3884",
+  "visually_reviewed_pages": [
+    {
+      "pdf_page": 3,
+      "sha256": "069a6098c49d2be14911c3ed6194a93d7210ed1d4df2db124d9c2a670c953261"
+    },
+    {
+      "pdf_page": 84,
+      "sha256": "47477f94547f6b130c7fb6480e865b6bfb851eeaa682e9dd6df2bb94f96d8e18"
+    },
+    {
+      "pdf_page": 85,
+      "sha256": "5a6a13f32753eebf3b0013046b5de8b49811a8b8e5a6a3329128084b85108b80"
+    },
+    {
+      "pdf_page": 87,
+      "sha256": "db89ca0cb8e0c0ddec3b97b0273f19e5ae2e0203e04653b51cc19e806ceba7de"
+    },
+    {
+      "pdf_page": 88,
+      "sha256": "1a8af3d7af90b8bf34194a5d4b1fa754a275aa6e9b08d51543db050c916e0f25"
+    },
+    {
+      "pdf_page": 89,
+      "sha256": "0a680eafdecdf52293635f4f4ceaf74bfc2f1c12e4ce85e67eab42c5e640cdd3"
+    },
+    {
+      "pdf_page": 91,
+      "sha256": "4728c7035d2d919a57884a41daf01805b35f874300c7b8a3aef73a471c3cbbf0"
+    },
+    {
+      "pdf_page": 92,
+      "sha256": "ca4d70aa21b7fe197e0765999381f4dbe2f5049fab7ddb6b67eb91eb446f15ca"
+    },
+    {
+      "pdf_page": 93,
+      "sha256": "74c9f30c445a4ca8ee6133a20b23a1c7e76e8b1f3a491041893fc7424716f91c"
+    },
+    {
+      "pdf_page": 191,
+      "sha256": "3d68ab24b149bbab4f0ef3c8fa2217feda6c943bf4abf4389ed8e6b5d9f8df21"
+    },
+    {
+      "pdf_page": 192,
+      "sha256": "8582d08769831c64c7789ec3414ffb1cdcb8de8e40aa5e0ed0ee592f55321d65"
+    },
+    {
+      "pdf_page": 194,
+      "sha256": "11cc68d327aca00cac6a38db2e4e831f2bfb694915bbe84b9fa893b30e8a585c"
+    },
+    {
+      "pdf_page": 199,
+      "sha256": "90c4265978718e30ea00e7cdd214ac19cf7806bb58d643384d35f6466cc7382e"
+    },
+    {
+      "pdf_page": 203,
+      "sha256": "f839d3cb56d25bfe7b0372e4f59072fca1f966e84f6fe3b6175f1ac975f89298"
+    },
+    {
+      "pdf_page": 204,
+      "sha256": "adacf58ff37a45153853730794118958268e5549f07e73a65221e40688af3911"
+    },
+    {
+      "pdf_page": 205,
+      "sha256": "5ed5ab5d39ca4dcd5074a8e348082ce36e0bdff02efd4f4ec14a2f1f91ef1fd7"
+    },
+    {
+      "pdf_page": 206,
+      "sha256": "5e95694c615960b3ddcbc868dd9a7b997a05e81dcde6dc2de402c27eb2d38bdc"
+    },
+    {
+      "pdf_page": 208,
+      "sha256": "3db19bfbc833f807556d03c1c16149bc95b56f5354e57ce29a3b53cb56c11148"
+    },
+    {
+      "pdf_page": 209,
+      "sha256": "562987f57720b88ff799dd5634837f23d9a646d89d363bb97157a57110685121"
+    },
+    {
+      "pdf_page": 210,
+      "sha256": "741555862fb0b51ad4cdcc7621d2f54ef5b2470df1d6325c2ef5b05d8450f482"
+    },
+    {
+      "pdf_page": 211,
+      "sha256": "cfde158ab912ad1f7cb6f5f3cdc17f6b255c35cb9c224e3fad4c0ac4de342b8e"
+    },
+    {
+      "pdf_page": 212,
+      "sha256": "b90b07cdbfe6b22477a6ed6a792eaeddaef5edfd69303c2c7ad88a6988f59437"
+    },
+    {
+      "pdf_page": 213,
+      "sha256": "e4063744ac0db70a931a2ba19bfeab9f26eee14ae3a6688006386c9403e4dff7"
+    },
+    {
+      "pdf_page": 214,
+      "sha256": "2c5b7f44e0bdf62cb85c06f23f73eb8e6d575476f0bd0bed581f79da09d5b8d3"
+    },
+    {
+      "pdf_page": 215,
+      "sha256": "047b29983984fd15ff2c05e9653afc3572de0b8df8bef45d92777df63d0aac3c"
+    },
+    {
+      "pdf_page": 216,
+      "sha256": "f0c2b73800cc49bd0695a9d6b4eb15ef2cb9c77a051dcfb35d3b8d864abbc4f9"
+    },
+    {
+      "pdf_page": 217,
+      "sha256": "6059afebacc6c5e77a90915dae4bf874aa674e23a75d294de94a6975c76a477f"
+    },
+    {
+      "pdf_page": 218,
+      "sha256": "c39d53af5e0058522061d8dc616d58db50e1487e3a19bb6ea6ba4457cbee0aca"
+    },
+    {
+      "pdf_page": 219,
+      "sha256": "e65942b951c53aa9defad1d9b22be44dcf69ea956fc9721fead62a4871924f6e"
+    },
+    {
+      "pdf_page": 220,
+      "sha256": "42fadcaed0a3dc1a69270bcda71637f644ab0f05993b92d3971249680971ff23"
+    },
+    {
+      "pdf_page": 227,
+      "sha256": "a381c7ff798fe0567aec39bca5b721201faf7f69a481b02cdcb7c64e039668e8"
+    },
+    {
+      "pdf_page": 228,
+      "sha256": "2940c5b8742805d42e56500b7007986f08074ba2ace3ada3b604c3eef11c4dbc"
+    },
+    {
+      "pdf_page": 229,
+      "sha256": "c2db3eefe73f0f934ad7d23680f5f7ede50f1833fbd9433077cbdaa1181b1188"
+    },
+    {
+      "pdf_page": 230,
+      "sha256": "9b04d3b6e842992d5abae03945dfa3e0cc50b9b7d1165f78d20b34a975b661a5"
+    },
+    {
+      "pdf_page": 231,
+      "sha256": "724330cfbdcdf16a5e31d57584b66db0fd2ab3af329257739effd7e8a0623749"
+    },
+    {
+      "pdf_page": 232,
+      "sha256": "3b58d49d061bf6b3b68e08a7e478af5d84994c49e34c8534dfd0edc66c183cef"
+    },
+    {
+      "pdf_page": 233,
+      "sha256": "3e775e0aaaace8286aa8b5fee80d9629d3363a24b562982b2a57e16d9744dc62"
+    },
+    {
+      "pdf_page": 234,
+      "sha256": "e48e2fa46e3927cb1e219ae908a388448843c823c46abe505dd2456415adc670"
+    },
+    {
+      "pdf_page": 235,
+      "sha256": "e6cd7d80ab52dc1d782cede4fd7c0d89b52858c6186425547d17af2d05649926"
+    },
+    {
+      "pdf_page": 236,
+      "sha256": "f1605120fc37182f6efb0e3c680eb0e9a1dd9a2a05b041cfa001c9f043f4f8da"
+    },
+    {
+      "pdf_page": 237,
+      "sha256": "592cdf37c97a2aee9c50ed4c62a998d3cd2881fefc7a3201cd34d7b5cd745a93"
+    },
+    {
+      "pdf_page": 238,
+      "sha256": "60c33c86a519eb3898bd4c56f8059d98f4ce07d983b75833b8af509ff4cea402"
+    },
+    {
+      "pdf_page": 239,
+      "sha256": "64878f32c96e7c284f92f8a423e60fbd0388cfce8acffca0647421d4b1d6ac39"
+    },
+    {
+      "pdf_page": 240,
+      "sha256": "d84be5067144283721e77226e2fce02986983072a950b735d1a847f9534c1b3c"
+    },
+    {
+      "pdf_page": 241,
+      "sha256": "9b83545d142e53a72449963485269eb17d0e3facef268fe22d118bce293d6b1f"
+    },
+    {
+      "pdf_page": 242,
+      "sha256": "99d7628f2aae69ce5e7793f95a6cee9581ba6a135667d5d621bdfa20ad4eb4ac"
+    },
+    {
+      "pdf_page": 243,
+      "sha256": "a818c8d310120cb9417ef467a03ea95951d23d3e7f6631bd1a83a6289ecfd1f6"
+    },
+    {
+      "pdf_page": 244,
+      "sha256": "dba15ec1b5284c4e6f8571b8908408ca6d7198d4801a18209c968d1c42a37a92"
+    },
+    {
+      "pdf_page": 245,
+      "sha256": "b037c7dea0a5c8a1371f7d16ecefc95b5b2838015bac3b8508cfcd058a1fbff0"
+    },
+    {
+      "pdf_page": 246,
+      "sha256": "c49f33506c26322277aa0f9d344655fccc9b72df59db36903c507f390c088807"
+    },
+    {
+      "pdf_page": 247,
+      "sha256": "18f4c6bb551cfce2ddc3f8e8376b1bc2c57249689611512efa29f9a2c68ddc02"
+    },
+    {
+      "pdf_page": 248,
+      "sha256": "ad7fde05e5e0bc11d8ae43f6ae414db01ee0b61272859c75260b2329659c7426"
+    },
+    {
+      "pdf_page": 249,
+      "sha256": "4f9acb28fe2f122b41d8b82f387cc5a1131e1d9eabd1e81c7f1bf6a6beb685f5"
+    },
+    {
+      "pdf_page": 250,
+      "sha256": "a2ee487e22098bbef133b560b41115cafc8d0c67684ba2722d443d8575741dc0"
+    },
+    {
+      "pdf_page": 251,
+      "sha256": "cc92ec88f15934a4d458577d1b8cfdcf8c3d4d8d55e9624ee2593c2e4f1af115"
+    },
+    {
+      "pdf_page": 252,
+      "sha256": "13e1181cfbafe154909a83869c4b498e0c1b21b3d5930e33fb6103184642d8d8"
+    },
+    {
+      "pdf_page": 253,
+      "sha256": "2fb8fe47e437f76cfffeb8ed609e2cb80c1fb65c910a623397af9de9de65159d"
+    },
+    {
+      "pdf_page": 254,
+      "sha256": "198dc63ad14031024ddb275d1f3c359dcf238482d3aaab6f6c2ac5bb904a4962"
+    },
+    {
+      "pdf_page": 255,
+      "sha256": "7de549195420f970521d04fb2d5e24f1240aabd7e4680c3de63ca83a1a82bc1e"
+    },
+    {
+      "pdf_page": 256,
+      "sha256": "899bf5125099b5f867354c7cf1b6223ed4f269b7b47656067cb81941ea19abc5"
+    },
+    {
+      "pdf_page": 257,
+      "sha256": "ef1b4f157ff96b745d8ff853af3ac8b41823fea7c482cff95c166de4a769341f"
+    },
+    {
+      "pdf_page": 258,
+      "sha256": "bbeee3aca0e9e85f399ec98f6ba8f80e77ec0fafb5614bd3631ea0cd29532300"
+    },
+    {
+      "pdf_page": 259,
+      "sha256": "8f593a3189dffde5e2235dda016ca7c0b6f22460116228f473706c15256302c2"
+    },
+    {
+      "pdf_page": 260,
+      "sha256": "901ee8e981e0d1d0388873fa36737042604e159c40272458dc52c954fdec79c2"
+    },
+    {
+      "pdf_page": 264,
+      "sha256": "cc7b575c73a51a4eb516ac55c7ab13a2362ed6c054aafe3a268a80ff1f129b3a"
+    },
+    {
+      "pdf_page": 266,
+      "sha256": "f1ef743540fb23a5272af87d98086cca280e6ebf6a9452f7fdb5a3e5b71da22e"
+    },
+    {
+      "pdf_page": 268,
+      "sha256": "4c24e05201a3f34abafcf948efc1cfc7c2531bb44a2ea00a757a6fef94d2d224"
+    },
+    {
+      "pdf_page": 273,
+      "sha256": "69381f1e33961038f1e0123e6518d42e5f229f0b40acc50d12296942806cac67"
+    }
+  ],
+  "reading_log": [
+    "PDF2·3·8의 표제/서지/간략 목차,PDF73–94 목표 분석 장 전체,PDF224–233 부록 도입과A–E를 읽었다. 총35쪽이며 목표 분석 참고문헌을 읽은 일은 인용 원연구를 읽은 것이 아니다.",
+    "선정16쪽 전체 페이지 이미지에서 목표 평가 표·교정 전후 도식·분기/병행·목차식 정보 묶음·위계/출발 기능 선·학습자/맥락 표·평행 문항 표와 밑줄을 대조했다. 다른 쪽의 전체 이미지 확인으로 확대하지 않는다.",
+    "서지는 출판사9판 페이지와 파일PDF2–3의 저자·판·저작권연도·인쇄ISBN을 대조했다. 대학 저장소 복사본의 완전성·출판사 인증 배포 여부는 별도 한계다.7판 국제판의 누락 본문으로 대체하지 않는다.",
+    "새PDF191–223의총괄평가장/참고문헌/빈438쪽,234–259의부록F–M,260–266의용어집,267의빈482쪽,268–273의색인을실제로읽었다. 새73쪽중명시된빈쪽2개가포함된다. 이전35쪽과합108쪽이고뒤반복구간은더하지않았다.",
+    "새선정52쪽을Poppler110dpi전체페이지PNG로렌더링하고각이미지를개별확인했다. 최초4개동시출력은컨텍스트제한으로보이지않아읽기완료로세지않았고191/192/194/199를개별재확인했다. 누적68쪽이미지해시를보존한다. 본문추출은pypdf이며Poppler텍스트추출이라고표시하지않는다.",
+    "총괄평가의두단계/의사결정,도식의분기/병행/연결자,평정척도,설문시점/복수응답/사전사용,부록의목표/문항/검사시점/개별배열/하위집단/수정근거를대조했다. 도식번호를현재학생의보편적발달위계로바꾸지않는다.",
+    "파일내유일178쪽중108쪽의지정읽기다. 앞부분유일70쪽은아직미검토이며중간인쇄71–405는파일에없다.7판미확보본문·공식판본과전체동일성·현재독립/학생검증은해결되지않았다."
+  ],
+  "source_corrections": [
+    {
+      "kind": "asset_integrity_and_edition",
+      "locations": [
+        "PDF2–3",
+        "PDF95/190 → PDF191",
+        "candidate_asset_audit"
+      ],
+      "action": "9판2022년·인쇄ISBN9780135824146/전자ISBN9780135824139를7판 국제판과 분리했다. 파일439쪽은95쪽 두 묶음과83쪽 세 묶음의 반복이며 인쇄71–405가 빠져 있다. 중복을 읽기 쪽으로 더하지 않고 전체 정식 판본 확보·동일성 인증을 주장하지 않는다."
+    },
+    {
+      "kind": "diagram_not_universal_prerequisite",
+      "locations": [
+        "PDF85,87–93,227–228"
+      ],
+      "action": "정보 묶음의 번호와 순서 화살표·병행 활동·분기·회귀를 구별했다. 그림3.7의5/6은 병행 배치이며 번호만으로5후6의 필수 순서를 만들지 않는다. 부록C의V 표시·출발 기능 선은 해당 작문 설계의 사례이고 현재 수학의 AND/OR 위계나 학생 발달 단계의 검증이 아니다."
+    },
+    {
+      "kind": "performance_scope_and_alignment",
+      "locations": [
+        "PDF83–88,229–233"
+      ],
+      "action": "교사의 설명·학습자의 수행·용어 회상·분류·생산을 구별한다. 동사 목록만으로 수학적 설명을 낮은 수준으로 판정하지 않고 실제 요구와 조건을 본다. PDF231의 밑줄은 텍스트 추출에 보존되지 않아 이미지에서 확인했다. 원문의 영어 문항을 한국어 수학 평가로 복사하지 않는다."
+    },
+    {
+      "kind": "example_bound_not_empirical_effect",
+      "locations": [
+        "PDF89,229–230"
+      ],
+      "action": "Bloom–Gagne 대응표는 원문도 예시라고 제한한다. 학교·기기 작동률 약90%·Canvas 사용은 부록 사례의 서술이며 현재 환경 조사나 수업 효과 연구가 아니다. 최신 안전 규정·건강 권고·소프트웨어 사용법을 제공하는 자료로 쓰지 않는다."
+    },
+    {
+      "kind": "formative_stage_source_mismatch",
+      "locations": [
+        "PDF193–194 / printed408–409 / Table13.1",
+        "PDF262 / printed477 / glossary"
+      ],
+      "action": "인접 본문은 형성평가를 일대일·소집단·현장 시행으로 설명하지만 표13.1의해당 세 번째 행은Impact evaluation이다. 용어집은field trial을형성평가의세 번째이자총괄평가의두 번째로 정의한다. 총괄평가의실제 적용 분석과 형성평가의현장 시행을 목적/설계로 구별하고 표의단어 하나로 동일시하지 않는다. 공식 정오표는 미확인이고 원문 파일은 보존한다."
+    },
+    {
+      "kind": "coverage_rating_denominator_limit",
+      "locations": [
+        "PDF205–206 / printed420–421 / Figure13.2"
+      ],
+      "action": "도식의전체 기능 수22와 평정1/2/3,요약100/79/79/64%를 확인했다. 표는1.0–2.2 뒤Etc.로 생략되므로 전체 행/집계 규칙을 재구성할 수 없다.79%/64%를22개 중 이진 개수로 역산하거나 현재 학생 정답률로 쓰지 않는다. 내용 정확성·완전성·직무 연결·사후검사 포함을 별개로 유지한다."
+    },
+    {
+      "kind": "appendix_item_count_and_timepoint_mismatch",
+      "locations": [
+        "PDF245,253–255 / printed460,468–470 / AppendicesI,L"
+      ],
+      "action": "부록I의선수 검사 문항은11개지만 부록L의선수 배열은10개다. L의사후 문항 배열에서14/15로 제시된5.11목표 비율과 시점별목표 배열의사후10/15는 같지 않다. 다른 판/검사/숙달 기준인지 명시된 연결이 없어 하나의 정합 원자료로 통합하지 않는다. 시점별배열의5.10은사전5/15→중간15/15→사후12/15,5.11은5/15→14/15→10/15다. 표시 백분율의차는 각각33→100→80,33→93→66으로,Diff행의+67/−20과+60/−27은인접 시점 차에 대응하지만 주석은사전/사후라고 설명한다. 사전→사후의실제 개수 차는7/15·5/15이며약46.67·33.33퍼센트포인트다. 정오표나 저자 의도를 단정하지 않고 원문의절사/반올림도 통일됐다고 가정하지 않는다."
+    },
+    {
+      "kind": "subgroup_denominator_and_missingness",
+      "locations": [
+        "PDF253–255,258 / printed468–470,473 / AppendicesL,M"
+      ],
+      "action": "전체15명과하위그림4명(1–4)/10명(6–15)의합14명을 구별한다.5번의일부 선수 기능 결손을M이별도로설명하며5번을조용히삭제하거나4+10을전체15로바꾸지 않는다. 원문 표의빈칸=오답은그표의코딩이고 현재 미실시/미응답은미확인으로둔다. 목표별판정/문항정답/집단비율/시점별같은참여자를구별한다."
+    },
+    {
+      "kind": "ratings_self_report_and_transfer_boundary",
+      "locations": [
+        "PDF203–219 / printed418–434"
+      ],
+      "action": "No/Some/Yes와NA,1–3·1–4평정의대상/척도,이미사용중/새사용/미사용과복수선택이유를구별한다. 자기보고와관찰/산출물,즉시/지연/실맥락수행,개인/조직효과를구별하며설문의인과표현이인과추론을입증하지않는다. 전문가체크리스트만으로현재독립검토/학생검증을완료하지않는다."
+    },
+    {
+      "kind": "feedback_revision_and_entry_conditions",
+      "locations": [
+        "PDF234–259 / printed449–474 / AppendicesF–M"
+      ],
+      "action": "선수/사전/중간/사후/실제산출물의역할과다른예문,분류와생산,정답과설명피드백,문제/수정안/근거열을대조했다. 시간표의빈시간은0분으로채우지않고절차도번호를보편적선수관계로전용하지않는다. 예시집단에서선수로옮긴5.8/5.9를현재수학학생모두의이미숙달한기능으로가정하지않는다. 수정안과실제재시행결과를구별한다."
+    },
+    {
+      "kind": "incidental_content_and_index_boundary",
+      "locations": [
+        "PDF243,250 / printed458,465",
+        "PDF260–273 / printed475–488"
+      ],
+      "action": "동기유발글의달/태양계설명과소프트웨어/역사적예측은현재과학·기기안내의근거로전용하지않는다. 문장유형예의기준은영어작문사례이고수학적설명분류로복사하지않는다. 용어집의간략정의와색인위치를읽었어도누락된71–405쪽본문·표준최신버전·인용원연구를읽은것으로집계하지않는다."
+    }
+  ],
+  "unread_followups": [
+    "현재유일178쪽중지정108쪽텍스트·68쪽이미지를확인했다. 앞부분도입/요구분석등남은70쪽은미검토이며인쇄71–405는미확보다.7판의누락본문·공식판본과전체동일성·정오표/미해결집계·인용원연구·한국어과제의실제독립/학생검증을별도로대조한다.",
+    "용어집/색인/참고문헌의목록은해당미확보본문이나인용연구의실제읽기를대신하지않는다. 원문PDF/렌더링이미지/추출전체텍스트는이식용묶음에포함하지않는다."
+  ]
+}

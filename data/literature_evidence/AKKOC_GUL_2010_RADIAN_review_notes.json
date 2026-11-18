@@ -1,0 +1,58 @@
+{
+  "source_id": "AKKOC_GUL_2010_RADIAN",
+  "source_url": "https://doi.org/10.1501/Egifak_0000001192",
+  "source_pdf_url": "https://dergipark.org.tr/download/article-file/508917",
+  "source_asset_kind": "pdf",
+  "source_pdf_sha256": "0f453087c2d8cbffc1066f575ed29c4452975d77b81afb47ae31c1ab66d1b03a",
+  "pdf_pages": 33,
+  "selected_text_pages": [
+    1,
+    2,
+    9,
+    10,
+    16,
+    23,
+    24,
+    28
+  ],
+  "visual_pdf_pages": [
+    16,
+    23
+  ],
+  "rendered_page_sha256": {
+    "16": "7b89a36675fadc7b6020996b2369eb3b90a72b5d31e42ce5ddd92e53db5a3df1",
+    "23": "9409f9698f187837d2c176674aeb7c5cb114135cef3235b1601b6a32946d7bcd"
+  },
+  "date": "2026-11-10",
+  "reviewer": "Codex",
+  "read_scope": "두 반의 설계와 호도법 면담에서 도 기호 유무와 단위원을 연결한 사례, 표 11의 설명 범위를 확인했다.",
+  "empirical_scope": {
+    "design": "같은 교사가 두 방식으로 가르친 두 반의 선정 사례를 질적으로 비교.",
+    "sample_description": "튀르키예 고교 10학년 두 반 14명과 11명. 주요 사례는 두 반에서 뽑은 세 쌍.",
+    "inference_limit": "세 쌍을 선별해 비교했다. 개별 대화를 전체 분반의 빈도나 국내 학생의 학습 효과로 해석하지 않는다.",
+    "student_outcome_study": true,
+    "causal_effect_established": false,
+    "local_effect_tested": false
+  },
+  "contains_source_full_text": false,
+  "source_pdf_redistributed": false,
+  "reading_log": [
+    "두 반의 설계와 호도법 면담에서 도 기호 유무와 단위원을 연결한 사례, 표 11의 설명 범위를 확인했다."
+  ],
+  "source_corrections": [
+    {
+      "location": "정의·표·학생 응답",
+      "issue": "분반 수 14·11과 두 반에서 고른 사례 세 쌍을 구별한다. 도 기호가 없다는 질문 후의 반응을 별도로 기록했다."
+    }
+  ],
+  "trigonometry_review": {
+    "class_sizes": [
+      14,
+      11
+    ],
+    "qualitative_pairs": 3,
+    "hours_per_class": 8,
+    "prompted_reinterpretation_of_unmarked_input": true,
+    "table_11_comparison_students": 2
+  }
+}

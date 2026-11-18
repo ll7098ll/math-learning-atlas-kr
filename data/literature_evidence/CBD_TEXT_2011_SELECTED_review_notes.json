@@ -1,0 +1,76 @@
+{
+  "source_id": "CBD_TEXT_2011_SELECTED",
+  "source_url": "https://www.cbd.int/doc/legal/cbd-en.pdf",
+  "source_asset_kind": "pdf",
+  "source_pdf_sha256": "9acd3886bfb0b3c3a4d75b254b53dd4ab084d7ad59915f09f03bbe92cdc75517",
+  "source_pdf_url": "https://www.cbd.int/doc/legal/cbd-en.pdf",
+  "pdf_pages": 36,
+  "selected_text_pages": [
+    3,
+    4,
+    6,
+    7,
+    8,
+    9,
+    11,
+    12,
+    31
+  ],
+  "visual_pdf_pages": [
+    3,
+    4,
+    6,
+    7,
+    8,
+    9,
+    11,
+    12,
+    31
+  ],
+  "rendered_page_sha256": {
+    "3": "e0f54737b1d4b09901d0bcfac7a2a87c31608889328c65ba93f5940971755888",
+    "4": "1f37fb4a1f153382fe2cf36b8f3d941a9f14d61b83f47457fa2c7d12844f0e66",
+    "6": "949e2426a69f08eccdeb5ea9d262f1c61553ed844c5f8b978deedd446397331d",
+    "7": "f7e63eebe8dc031aa01039659e6d923f9c6ad4cb97a522fbed22f1531cba3d0e",
+    "8": "8d9d8692eaf42886291166408c0b7d12f6281c81bddc73183d1cbaaaaafa1970",
+    "9": "dfe4e1df5c3bf6ad93858c1990308b9aea6b6dc2d745539f2982d723a31da533",
+    "11": "8ba5ac6570714965b27eedf631199be02acc0a9c98921f16d77ea85f65bbf45e",
+    "12": "a85f3b6a4ba849b60430ef50fea5cbb5de72c15ef6f46e269c2c379a4d2ad727",
+    "31": "8dd2ff32c176c12ada1724a21e184077d5ef72ca3e8141ee009422a921cb359f"
+  },
+  "date": "2026-11-16",
+  "reviewer": "Codex",
+  "read_scope": "2011년간행물의추출문·판면9쪽에서1992채택협약의전문·다양성/서식지정의·표본관측·생태계/종/유전자목록을읽었다.본문인쇄쪽은PDF−4다.31쪽의중재절차는후속법해석에쓰지않는다.",
+  "empirical_scope": {
+    "design": "지정 원문·판면 대조와 자체 수학 과제 설계",
+    "sample_description": "실제 학생·사업장·생태 조사 표본을 분석한 연구가 아님",
+    "inference_limit": "협약전문·현행국내법·개체별생명권의법적판정·실제종감소·실제학생의생태감수성효과를검증하지않았다. 생물다양성의내재가치와자체사건자료의수학분석·윤리판단을나눈다.",
+    "student_outcome_study": false,
+    "causal_effect_established": false,
+    "local_effect_tested": false
+  },
+  "contains_source_full_text": false,
+  "source_pdf_redistributed": false,
+  "reading_log": [
+    "2011년간행물의추출문·판면9쪽에서1992채택협약의전문·다양성/서식지정의·표본관측·생태계/종/유전자목록을읽었다.본문인쇄쪽은PDF−4다.31쪽의중재절차는후속법해석에쓰지않는다."
+  ],
+  "source_corrections": [
+    {
+      "location": "방법·문항·표·그림·서술의 대조",
+      "issue": [
+        "2011간행과1992협약채택을구별한다. 다양성은종내/종간/생태계이며내재가치·보전맥락을모든개체별권리법해석으로옮기지않는다.",
+        "관측종수/개체수/발견률·노력·검출·중복/누락·신고/고유사건/확인여부의분모를나눈다.0기록은부재·멸종의확정이아니며정확계산을학생감수성·보전효과로세지않는다."
+      ]
+    }
+  ],
+  "culture_environment_review": {
+    "full_book_read": false,
+    "formula_extraction_incomplete": true,
+    "own_tasks_are_not_student_responses": true,
+    "source_pdf_and_images_redistributed": false,
+    "current_law_and_regulations_not_reviewed": true,
+    "booklet_year": 2011,
+    "convention_adoption_year": 1992,
+    "individual_life_rights_legal_status_not_established": true
+  }
+}

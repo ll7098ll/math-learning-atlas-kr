@@ -1,0 +1,110 @@
+{
+  "source_id": "OPENSTAX_COLALG2_ECONOMIC_MATRICES_SELECTED_2021",
+  "source_url": "https://openstax.org/details/books/college-algebra-2e",
+  "source_asset_kind": "pdf",
+  "source_pdf_sha256": "381c7d1f2ce21d6786a9e4624d33cdedf3c3be468c011321b25c865786999802",
+  "source_pdf_url": "https://assets.openstax.org/oscms-prodcms/media/documents/college-algebra-2e_-_WEB.pdf",
+  "pdf_pages": 1073,
+  "selected_text_pages": [
+    3,
+    4,
+    727,
+    728,
+    729,
+    730,
+    731,
+    732,
+    733,
+    734,
+    735,
+    736,
+    753,
+    754,
+    755,
+    756,
+    757,
+    760,
+    761
+  ],
+  "visual_pdf_pages": [
+    4,
+    727,
+    728,
+    729,
+    730,
+    731,
+    732,
+    733,
+    734,
+    735,
+    736,
+    753,
+    754,
+    755,
+    756,
+    757,
+    760,
+    761
+  ],
+  "rendered_page_sha256": {
+    "4": "8b9c55a77de6e4acedf59a5c94bc32edd2e70b7976d60032ac20e132bf86141a",
+    "727": "8f57bdc183587de07b7060f6f5f6655023556b6027b6c2f954671f78dd565285",
+    "728": "6d0822abf853b531cb499d2f04cbc53d482d5546f98b0869f985ea3428e27bb1",
+    "729": "3bc72b3bd5eef8647ef85666c9f4d9ec4116b836d03d545f605528aee7d1a655",
+    "730": "d89e65ca2cb6816445c91b9fb99addfa12efb5390219bb1c2e1f412c311fa04f",
+    "731": "277e5a2fe78b01990847a5433040e927916f1f804a0b75d7c944781a56f434cc",
+    "732": "18060235a8ad0f3c63c7258f18e45a4b64a4138e71c11e34f02cc2a7a6d67dda",
+    "733": "7b8f9bdbbeff9efbe682fd7cd0388b7ac89e8b64760389fe451eee97691a8ad0",
+    "734": "4b9fb2dd6071c8b699ee8b9980cca5dfcb7be480fc92878f5e3534cbae4564a3",
+    "735": "e9d813a49406d42ad322a9850511b854a9725569228ca20d3d6581a6ee4fc4b1",
+    "736": "38da2120b76a4c64e43d315eab8fab31f3c66595d0688462c0841c339c2a759b",
+    "753": "5df1c63e6e9a79a1dc1842c1ba5c6a621d1c386937253d5e321db1bedc5c84ed",
+    "754": "73216c6082f09bed647845c63cb5e05e938c2dba4ddeb7c839a2a28aa9e5dd06",
+    "755": "d3519e23c61c760963a2ba90c549166f1fcc0a7963eeeb13ecaa64ba60fb7b82",
+    "756": "7d722d2ad08e0406a2150e3a32eaac63b4b182eedf305d9292c28c0167d8dd85",
+    "757": "d72e22a1f48da8440f3ac83b9b4813ea27786884d92b0275ed3e61304085f61e",
+    "760": "042287d0e692859e0654d353d8ce1e4f4a26fd6282747264fe2f2ca7d6023812",
+    "761": "012d081ba222ee11ec20c98669e567edf3f215a85d95f974d4ca61c379a28475"
+  },
+  "date": "2026-11-16",
+  "reviewer": "Codex",
+  "read_scope": "지정 추출문19쪽·실제 판면18쪽에서 행/열·크기·같은 위치 연산·모든 성분의 상수배,곱의 안쪽 크기·행열 내적·순서,단위행렬·2×2 역행렬·존재 조건·왼쪽 곱과 연립방정식을 대조했다. PDF 쪽은 인쇄 쪽보다10 크다. 같은 교과서의 앞선 읽기와 구별한 범위 항목이다.",
+  "empirical_scope": {
+    "design": "공식 공개 교과서의 지정 본문·수식·표·그래프 판면 대조",
+    "sample_description": "학생 표본·응답을 분석한 연구가 아님",
+    "inference_limit": "지정 범위의 수학 참고다. 전권·실제 기업 모형·독립/학생 검증이 아니다. 국내 역행렬은2×2로 한정하고3×3 소거법·크라메르 공식·일반 조건수 이론을 새 필수로 추가하지 않는다. 정수 구매·비음수 가격·정밀도·자원 부등식은 자체 적용 조건 점검이다.",
+    "student_outcome_study": false,
+    "causal_effect_established": false,
+    "local_effect_tested": false
+  },
+  "contains_source_full_text": false,
+  "source_pdf_redistributed": false,
+  "reading_log": [
+    "지정 추출문19쪽·실제 판면18쪽에서 행/열·크기·같은 위치 연산·모든 성분의 상수배,곱의 안쪽 크기·행열 내적·순서,단위행렬·2×2 역행렬·존재 조건·왼쪽 곱과 연립방정식을 대조했다. PDF 쪽은 인쇄 쪽보다10 크다. 같은 교과서의 앞선 읽기와 구별한 범위 항목이다."
+  ],
+  "source_corrections": [
+    {
+      "location": "방법·문항·표·그림·서술의 대조",
+      "issue": [
+        "730쪽의 scalar multiple is any entry 표현으로 상수배 행렬 전체를 성분 하나로 정의하지 않는다. 상수와 모든 성분에 곱한 결과를 구별한다. 731쪽 올림은 정수 장비의 최소 추가 구매 조건이며 일반 상수배에는 적용하지 않는다.",
+        "733~736쪽은 곱의 안쪽 크기·행/열 내적·순서와 단가 단위를 보존한다. 원문의 가격 행/수량 열과 자체 지점 행/가격 열은 배치가 다르다. 괄호 변경을 순서 변경으로 확대하지 않는다.",
+        "753~757쪽의 양쪽 역행렬·존재 조건을2×2에 한정한다. 0 성분이나 음수 역성분을 금지하지 않고 성분별 역수를 역행렬로 쓰지 않는다.3×3 소거법을 국내 새 필수로 추가하지 않는다.",
+        "760~761쪽은 왼쪽에 역행렬을 곱하며,역행렬이 없어도 우변에 따라 해가 없거나 무수히 많을 수 있음을 보존한다. 수학적 해와 비음수·정수·정확한 등식의 경제적 조건을 구별한다. 작은 정밀도 예는 자체 검산이며 인과 예측·일반 조건수 이론이 아니다."
+      ]
+    }
+  ],
+  "economy_matrix_derivatives_review": {
+    "full_book_read": false,
+    "original_publication_year": 2021,
+    "pdf_build_date": "2026-04-20",
+    "formula_extraction_incomplete": true,
+    "own_tasks_are_not_student_responses": true,
+    "fictional_values_are_not_current_economic_data": true,
+    "printed_page_offset": 10,
+    "source_license_as_read": "CC BY-NC-SA 4.0, PDF page 4; source PDFs/images are not redistributed",
+    "matrix_inverse_scope": "2x2",
+    "scalar_rounding_requires_integer_purchase_condition": true,
+    "mathematical_and_economic_feasibility_separate": true,
+    "singular_system_outcomes_depend_on_rhs": true
+  }
+}

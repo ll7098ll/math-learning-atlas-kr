@@ -1,0 +1,44 @@
+{
+  "status": "pass",
+  "data_kind": "published_table_recalculation",
+  "source_id": "VT_ASSESSMENT",
+  "source_pdf_sha256": "4e73064758316faead10f2182c04cc045b61cc32095a6fd1d82bc9a922db44cd",
+  "source_table": "Table4 PDF15",
+  "n": 20,
+  "reconciled_stage_counts": {
+    "1": 10,
+    "2": 8,
+    "3": 2
+  },
+  "pair_agreement": [
+    {
+      "raters": [
+        "R5",
+        "R6"
+      ],
+      "exact_agreements": 15,
+      "n": 20,
+      "kappa": 0.5670995670995671,
+      "linear_weighted_kappa": 0.6503496503496503
+    },
+    {
+      "raters": [
+        "R7",
+        "R8"
+      ],
+      "exact_agreements": 16,
+      "n": 20,
+      "kappa": 0.6774193548387096,
+      "linear_weighted_kappa": 0.75
+    }
+  ],
+  "spearman_to_reconciled_video": {
+    "R5": 0.9283444198266944,
+    "R6": 0.7271100373855283,
+    "R7": 0.7757996234767225,
+    "R8": 0.8367983517440039
+  },
+  "local_student_validation": false,
+  "independent_review": false,
+  "limitations": "논문 표4의 공개 평정만 재계산했다. 녹화·원응답·모든 타당도 분석을 재검토하지 않았다. 상관은 정확 일치도와 다르며 같은20명을 재평정한 자료다. 자체 과제의 효과·인지 단계는 검증하지 않는다."
+}

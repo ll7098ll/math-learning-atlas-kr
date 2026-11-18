@@ -1,0 +1,211 @@
+{
+  "source_id": "HEATH_1908_ANALYSIS_SYNTHESIS",
+  "source_url": "https://www.wilbourhall.org/pdfs/heath_euclid_i.pdf",
+  "source_asset_kind": "pdf",
+  "source_pdf_sha256": "511495a96bbedc77fd376b0454a72128e5c5e4d8a592a95cac4250141fc56d85",
+  "source_pdf_url": "https://www.wilbourhall.org/pdfs/heath_euclid_i.pdf",
+  "pdf_pages": 449,
+  "selected_text_pages": [],
+  "visual_pdf_pages": [
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    154,
+    155,
+    156,
+    157,
+    158,
+    159,
+    160,
+    161,
+    162,
+    163,
+    164
+  ],
+  "rendered_page_sha256": {
+    "5": "7804f0a504fab2438982407630d5f55e94dbd9b0e7b6ca99d3faee40f2d7c805",
+    "6": "ed75f7f13491b2520b9ec3454c21a28be3f3ec22c1d7f4bae421f72805c31d62",
+    "7": "c0cdf339860e7ca9840464e7e2a5423b51ef57cf20b6947560071692f61faaff",
+    "8": "5149c043e6fd332d12b836c7a0c47cc71b4591e7d16d04ba076f3c3c6cbcb249",
+    "9": "a7f2a553dd1b651043cf917b0031f26ced0ea04f9765b7f3f220670e0a89ccbc",
+    "10": "2f4a2078db5021e9df7ca082268c2787dfb36b3c05a740fb26d385c4228d4653",
+    "11": "c0cdf339860e7ca9840464e7e2a5423b51ef57cf20b6947560071692f61faaff",
+    "12": "190d0b68a69b6bb4266e21f31c17edec495360476d0db2625950be83a1f67533",
+    "13": "167e65ff41722a75b7204b3290edb8bc55e8f725e80d67c2910617063383efca",
+    "14": "83531aebbec67b4b183710327a88a1db9c6b7bdbd0d085ee88939cd94625b770",
+    "15": "39a6bb0ea270b5499b6cb55c8af7ecc66e19c84cc59e62db11c8d81618c94a60",
+    "16": "cfc1e2245b477807dd1954420fefbc079a5e4bb6caa50684e1a294c204e83f8e",
+    "154": "7352faf8c392273bcbb04452090ec74f1471dac3bb46894c412e61725a67098c",
+    "155": "daaf3a9867fbde9db4a006c9a85332ce98c1d41d2d014b570d615aefc38295fa",
+    "156": "669402229d8006bcd4c52316763e6264cf30530b1c3607fdbe8655b01a5ef52b",
+    "157": "eff269a37f4dc479493db0d670b3a201c8d73063f7378c09fe0042f2b3775bc6",
+    "158": "34f1cd2bf80a0fc832e24865297f2d8c427cfbcb638415c7653e18f810f6e133",
+    "159": "cfe5adad7d5d91b72fad3ba36b4e0b9a7e5f49d43f8258294c01b04af39bac2d",
+    "160": "7bf3fabffaeabeb35f6c97a559b5b61ef3a682eabc1ea087fc20f26aaf629edd",
+    "161": "cbc96dced22373dc25033fa21246794410bd52df82419b123f07fb0dfcd96082",
+    "162": "8397be568b203fb80783b3c60aa3bec208aa2161d9909e39a7482671876b7686",
+    "163": "64ec35cdf61ab8a77534a4a60f2884da72762bec9d3febcef71c51fa17fed010",
+    "164": "5cc362fa7b1a2d610be7947d66a3e4a35020330a8457a989ab14f8bfb1d0f07e"
+  },
+  "text_extraction_incomplete": true,
+  "date": "2026-11-18",
+  "reviewer": "Codex",
+  "read_scope": "Heath 번역·해설 원론 제1권의 Google 도서관 스캔449PDF판면 중23판면을 직접 보았다. 앞부분PDF5–16의12판면에는 빈 면5개와 그리스어 필사본 도판1개가 포함된다. 영어 본문은PDF154–164/인쇄133–143의11쪽이며 분석·종합 절 전체137–142,그 안의 Pappus 영어 인용138–139와 Heath 해설139–142를 읽었다. 인쇄133–136의 앞 문맥과143의정의절첫쪽은 경계 읽기다. 표제면PDF6의1908·번역/해설T.L.Heath·Cambridge출판을 확인했으나 실제 사본의 인쇄/재인쇄 시점은 확정하지 않는다. 추출문·OCR 읽기는0쪽이며 그리스어 도판의 글을 번역해 읽지는 않았다.",
+  "empirical_scope": {
+    "design": "역사적 번역·수학 해설의 선정 범위를 원래 스캔 판면으로 대조",
+    "sample_description": "Pappus의 영어 인용과 Heath 해설이며 실증 참여자 수·효과크기를 보고하는 학생 연구가 아니다.",
+    "inference_limit": "역사적 번역·수학 해설과 자체 반례의 대조다. 새 실증 표본·국내 학생 효과·실제 독립/학생 검증을 확보하지 않았다.449판면 전권/Books I–II 전체·그리스어 Pappus Collection VII634–636·각주가 인용한 Hankel/Zeuthen/Proclus/Aristotle/Tannery/Geminus/Euclid Data의 원문 전체를 읽은 것은 아니다. 제3자 호스트의 도서관 스캔이며 출판사 직접 바이너리/실제 인쇄·다른 판본 동일성·외부/후대 정오표 전체는 미확인이다. 부착 정오표PDF16의항목을읽었지만모든판본오류확인으로일반화하지않는다.",
+    "student_outcome_study": false,
+    "causal_effect_established": false,
+    "local_effect_tested": false
+  },
+  "contains_source_full_text": false,
+  "source_pdf_redistributed": false,
+  "reading_log": [
+    "Heath 번역·해설 원론 제1권의 Google 도서관 스캔449PDF판면 중23판면을 직접 보았다. 앞부분PDF5–16의12판면에는 빈 면5개와 그리스어 필사본 도판1개가 포함된다. 영어 본문은PDF154–164/인쇄133–143의11쪽이며 분석·종합 절 전체137–142,그 안의 Pappus 영어 인용138–139와 Heath 해설139–142를 읽었다. 인쇄133–136의 앞 문맥과143의정의절첫쪽은 경계 읽기다. 표제면PDF6의1908·번역/해설T.L.Heath·Cambridge출판을 확인했으나 실제 사본의 인쇄/재인쇄 시점은 확정하지 않는다. 추출문·OCR 읽기는0쪽이며 그리스어 도판의 글을 번역해 읽지는 않았다."
+  ],
+  "source_corrections": [
+    {
+      "location": "방법·문항·표·그림·서술의 대조",
+      "issue": [
+        "Pappus의영어인용·Heath의해설·Pólya의자유로운재서술을구별한다. 역변환가능조건은Heath139쪽에도있으며새발명의우선권을추론하지않는다.",
+        "참인결과도달과목표명제증명을구별하고,거짓결과에의한반박과참인결과에서의역추론을나눈다.",
+        "원위의각의역명제에는밑변양끝점이그원위에있음과같은호/같은쪽조건을명시한다.0인인수와후보해의원래조건도대조한다.",
+        "23시각판면중영어본문은11쪽이며앞부분의빈면·그리스어이미지는본문/OCR쪽으로세지않는다.1908은확인한표제연도이며실제인쇄·출판사직접파일동일성은미확인이다.",
+        "부착정오표는읽었지만전권·다른판본·모든후대정오표·그리스어Pappus/각주원전전체독해를확인한것은아니다."
+      ]
+    }
+  ],
+  "analysis_synthesis_commentary_review": {
+    "read_kind": "visual_only_library_scan",
+    "selected_pdf_pages": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      154,
+      155,
+      156,
+      157,
+      158,
+      159,
+      160,
+      161,
+      162,
+      163,
+      164
+    ],
+    "english_body_pdf_pages": [
+      154,
+      155,
+      156,
+      157,
+      158,
+      159,
+      160,
+      161,
+      162,
+      163,
+      164
+    ],
+    "english_body_printed_pages": "133–143",
+    "front_matter_pdf_pages": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "blank_front_pdf_pages": [
+      5,
+      7,
+      9,
+      11,
+      13
+    ],
+    "frontispiece_pdf_pages": [
+      12
+    ],
+    "greek_frontispiece_text_translated": false,
+    "machine_extracted_text_pages": [],
+    "ocr_used": false,
+    "complete_analysis_synthesis_section_read": true,
+    "analysis_synthesis_printed_pages": "137–142",
+    "analysis_synthesis_pdf_pages": [
+      158,
+      159,
+      160,
+      161,
+      162,
+      163
+    ],
+    "pappus_english_quotation_printed_pages": "138–139",
+    "heath_commentary_printed_pages": "139–142",
+    "definition_section_first_page_only": 143,
+    "whole_section_6_read": false,
+    "whole_definition_section_read": false,
+    "whole_book_read": false,
+    "whole_available_copy_read": false,
+    "title_page_year": 1908,
+    "title_page_pdf": 6,
+    "actual_printing_date_verified": false,
+    "publisher_direct_pdf_obtained": false,
+    "publisher_binary_fidelity_verified": false,
+    "bound_errata_pdf_page": 16,
+    "bound_errata_read": true,
+    "all_later_errata_verified": false,
+    "pappus_greek_original_read": false,
+    "cited_originals_all_read": false,
+    "polya_cross_reference_source": "POLYA_SECOND_EDITION_COURSE_SCAN",
+    "convertibility_condition_already_in_heath_commentary": true,
+    "quote_commentary_paraphrase_kept_distinct": true,
+    "independent_review": 0,
+    "student_validation": 0,
+    "exact_own_model_check": {
+      "status": "pass",
+      "zero_factor_candidates": [
+        1,
+        2
+      ],
+      "original_solution": [
+        2
+      ],
+      "logical_truth_rows": 4,
+      "opposite_arc_cosines": [
+        "4/5",
+        "-4/5"
+      ],
+      "missing_base_incidence_squared_cosines": [
+        "9/25",
+        "225/481"
+      ],
+      "exact_rational_models": true,
+      "synthetic_examples": true,
+      "student_data": false
+    }
+  }
+}

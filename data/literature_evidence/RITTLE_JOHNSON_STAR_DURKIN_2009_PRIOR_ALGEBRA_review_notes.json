@@ -1,0 +1,160 @@
+{
+  "source_id": "RITTLE_JOHNSON_STAR_DURKIN_2009_PRIOR_ALGEBRA",
+  "source_url": "https://doi.org/10.1037/a0016026",
+  "date": "2026-11-10",
+  "reviewer": "Codex",
+  "source_asset_kind": "author_web_text",
+  "author_text_review": {
+    "url": "https://www.researchgate.net/publication/241843433_The_Importance_of_Prior_Knowledge_When_Comparing_Examples_Influences_on_Conceptual_and_Procedural_Knowledge_of_Equation_Solving",
+    "uploaded_by": "Bethany Rittle-Johnson",
+    "article_pdf_obtained": false,
+    "article_printed_pages": [
+      836,
+      852
+    ],
+    "selected_sections": [
+      {
+        "section": "초록과 연구 결과 요약",
+        "printed_pages": [
+          836,
+          836
+        ]
+      },
+      {
+        "section": "표본과 짝 배정·개입·측정 방법",
+        "printed_pages": [
+          838,
+          840
+        ]
+      },
+      {
+        "section": "결측, 사전 분류, 사후 결과와 표 3·4",
+        "printed_pages": [
+          842,
+          845
+        ]
+      },
+      {
+        "section": "유지 검사 조건과 결과의 선정 문단",
+        "printed_pages": [
+          846,
+          847
+        ]
+      }
+    ]
+  },
+  "read_scope": "저자 공개 출판본의 초록·선정 방법과 표 3·4 및 사후·유지 결과를 IES 가이드 D.4의 하위 분석과 대조했다. 출판본 PDF와 원본 판면은 확보 대기다.",
+  "original_page_layout_review": false,
+  "contains_source_full_text": false,
+  "source_pdf_redistributed": false,
+  "empirical_scope": {
+    "design": "within_classroom_randomized_dyad_comparison_with_observed_pretest_moderator",
+    "sample_description": "한 학교의 7~8학년 239명 참여·236명 분석. 짝 단위 배정은 세 수업 조건에만 적용했다.",
+    "inference_limit": "미국 한 도시 중학교 11개 학급에서 짝에 수업 조건을 무작위 배정했다. 사전 대수 사용은 관찰된 분류다. 국내 학생을 한 번의 시도로 분류하거나 지도 순서·개별 과제 효과를 확정하는 근거가 아니다.",
+    "student_outcome_study": true,
+    "local_effect_tested": false
+  },
+  "crosscheck": {
+    "participated_n": 239,
+    "excluded": {
+      "missed_two_sessions": 1,
+      "declined_packets": 2
+    },
+    "author_analysis_n": 236,
+    "author_condition_n": {
+      "methods": 80,
+      "problem_types": 78,
+      "sequential": 78
+    },
+    "observed_pretest_attempt_pct": {
+      "at_least_once": 59,
+      "never": 41
+    },
+    "attempt_could_be_incorrect": true,
+    "guide_n": {
+      "attempted": 101,
+      "not_observed": 55
+    },
+    "guide_contrast": [
+      "methods",
+      "sequential"
+    ],
+    "same_analysis": false,
+    "guide_pdf_pages": [
+      62,
+      64
+    ],
+    "wwc_url": "https://ies.ed.gov/ncee/wwc/study/79863"
+  },
+  "reading_log": [
+    "같은 반의 짝 배정과 참여·제외·분석 인원을 확인했다.",
+    "틀린 대수 풀이도 사전 사용에 포함되며, 사후 결과 영역별 상호작용과 유지 검사 결측을 구분했다.",
+    "가이드 D.4의 두 조건 하위 분석 및 각주 m–o를 세 조건 원논문과 대조했다."
+  ],
+  "source_corrections": [
+    {
+      "location": "원논문 인쇄843쪽과 가이드 PDF62",
+      "issue": "가이드가 사전 지식으로 요약한 분류는 원논문에서 대수적 방법을 사전 검사에 시도했는지다. 옳은 풀이와 틀린 풀이가 모두 포함된다."
+    },
+    {
+      "location": "원논문 표 3과 가이드 PDF64 각주 m–o",
+      "issue": "전략 사용의 유지 결과는 채점되지 않았다. WWC 효과크기는 추정값이 포함된 표준편차를 사용했고, 하위 전략 결과의 유의 표기는 별도다."
+    }
+  ],
+  "author_posttest_interaction": {
+    "procedural": {
+      "F": 8.466,
+      "df": [
+        2,
+        213
+      ],
+      "p": "<.001"
+    },
+    "flexibility_use": {
+      "F": 7.292,
+      "df": [
+        2,
+        210
+      ],
+      "p": "<.001"
+    },
+    "flexibility_knowledge": {
+      "F": 2.548,
+      "df": [
+        2,
+        224
+      ],
+      "p": 0.08
+    },
+    "conceptual": {
+      "F": 2.497,
+      "df": [
+        2,
+        226
+      ],
+      "p": 0.085
+    }
+  },
+  "retention": {
+    "strategy_use_scored": false,
+    "conceptual_missing_pct": 37,
+    "conceptual_imputed": true
+  },
+  "guide_g": {
+    "attempted": {
+      "conceptual": -0.13,
+      "procedural": 0.19,
+      "flexibility": 0.12,
+      "flexibility_knowledge": 0.03,
+      "flexibility_use": 0.21
+    },
+    "not_observed": {
+      "conceptual": -0.42,
+      "procedural": -0.44,
+      "flexibility": -0.35,
+      "flexibility_knowledge": -0.37,
+      "flexibility_use": -0.33
+    }
+  },
+  "guide_flexibility_submeasures_significant": false
+}

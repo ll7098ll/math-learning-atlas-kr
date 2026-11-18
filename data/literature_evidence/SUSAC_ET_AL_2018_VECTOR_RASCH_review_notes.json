@@ -1,0 +1,54 @@
+{
+  "source_id": "SUSAC_ET_AL_2018_VECTOR_RASCH",
+  "source_url": "https://doi.org/10.1103/PhysRevPhysEducRes.14.023101",
+  "source_pdf_url": "https://harvest.aps.org/v2/journals/articles/10.1103/PhysRevPhysEducRes.14.023101/fulltext",
+  "source_asset_kind": "pdf",
+  "source_pdf_sha256": "4b65c4ca8d04eea09f49f498535220d54ffa5b6746c2e908aaf6506bfe302e36",
+  "pdf_pages": 6,
+  "selected_text_pages": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "visual_pdf_pages": [
+    2,
+    3
+  ],
+  "rendered_page_sha256": {
+    "2": "6116daed05050ccbf9e00dde9eac46a25209b354f80302bc9f34acd6b5fdf1c7",
+    "3": "9736ad9a8d02f28491db729e3d7aeab977f3642b8853b63de04abee085cced7f"
+  },
+  "date": "2026-11-10",
+  "reviewer": "Codex",
+  "read_scope": "동일 TUV의 자그레브 대학 시행에서 문항과 개인의 신뢰도 및 난이도 분포를 확인했다.",
+  "empirical_scope": {
+    "design": "기존 벡터 이해 검사에 대한 라시 모형 분석.",
+    "sample_description": "자그레브 대학 1학년 889명.",
+    "inference_limit": "특정 대학 표본에서의 검사 적합성이다. 국내 학생 자료와 자체 과제의 진단 적합성은 따로 확인한다.",
+    "student_outcome_study": true,
+    "causal_effect_established": false,
+    "local_effect_tested": false
+  },
+  "contains_source_full_text": false,
+  "source_pdf_redistributed": false,
+  "reading_log": [
+    "동일 TUV의 자그레브 대학 시행에서 문항과 개인의 신뢰도 및 난이도 분포를 확인했다."
+  ],
+  "source_corrections": [
+    {
+      "location": "표와 시행 설명",
+      "issue": "문항 신뢰도와 개인 신뢰도 및 최고점 집중을 다른 근거로 기록했다."
+    }
+  ],
+  "vector_review": {
+    "n": 889,
+    "item_reliability": 0.99,
+    "person_reliability": 0.6,
+    "all_correct": 102,
+    "nineteen_correct": 118,
+    "person_mean_above_item_mean_logits_approx": 2,
+    "item_14_cosine_choice_percent_among_incorrect": 70
+  }
+}

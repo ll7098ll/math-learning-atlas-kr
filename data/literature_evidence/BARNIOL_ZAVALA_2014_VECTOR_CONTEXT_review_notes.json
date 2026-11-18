@@ -1,0 +1,98 @@
+{
+  "source_id": "BARNIOL_ZAVALA_2014_VECTOR_CONTEXT",
+  "source_url": "https://doi.org/10.1103/PhysRevSTPER.10.020115",
+  "source_pdf_url": "https://harvest.aps.org/v2/journals/articles/10.1103/PhysRevSTPER.10.020115/fulltext",
+  "source_asset_kind": "pdf",
+  "source_pdf_sha256": "11da2a2e2a716faa9975dec2fd800bb44e86cbf6554d83ac628a1f0b64d08d05",
+  "pdf_pages": 15,
+  "selected_text_pages": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "visual_pdf_pages": [
+    3,
+    4,
+    5,
+    11
+  ],
+  "rendered_page_sha256": {
+    "3": "dbde237768c472ec7a44732c7db8c6afc9c1193c0b239ac00f337d9893077c8a",
+    "4": "d6819cbac9b9cc4d77b2d58cd7ac15de461f565fc20cd688b38542b4b8028fb1",
+    "5": "2bf431c78702852ffefba642bb01c4243ee754526bb559f8af7e22b17972f3d0",
+    "11": "ee891c6550f24763f8a10825c6decd6063cd051370417a8f1b88990525debeec"
+  },
+  "date": "2026-11-10",
+  "reviewer": "Codex",
+  "read_scope": "두 맥락의 12문항 검사와 별도 설명 응답, 표 III·IV·XV 및 본문 표기를 대조했다.",
+  "empirical_scope": {
+    "design": "역학 맥락과 비맥락 검사를 비교하고 일부 문항의 설명을 별도 시행에서 수집.",
+    "sample_description": "최초 선택 응답 608명, 일부 문항에 설명을 쓴 별도 시행 203명.",
+    "inference_limit": "일반 수학과 역학의 선택 반응 비교다. 수업 효과나 국내 고등학생의 전략을 검증한 자료로 쓰지 않는다.",
+    "student_outcome_study": true,
+    "causal_effect_established": false,
+    "local_effect_tested": false
+  },
+  "contains_source_full_text": false,
+  "source_pdf_redistributed": false,
+  "reading_log": [
+    "두 맥락의 12문항 검사와 별도 설명 응답, 표 III·IV·XV 및 본문 표기를 대조했다."
+  ],
+  "source_corrections": [
+    {
+      "location": "표와 시행 설명",
+      "issue": "PDF 5쪽의 각 공식 문항 번호 11과 표 II·III의 4번을 따로 보존했다. PDF 11쪽 본문의 힘 (5,3)과 표 XV의 (1,3)은 서로 다르다. 보충자료를 확보하지 못해 맥락 문항의 성분을 확정하지 않았다."
+    }
+  ],
+  "vector_review": {
+    "first_groups": [
+      304,
+      304
+    ],
+    "reasoning_groups": [
+      103,
+      100
+    ],
+    "items": 12,
+    "total_medians": [
+      7,
+      7
+    ],
+    "total_p": 0.578,
+    "table_iii_correct_percent": {
+      "2": [
+        27,
+        52
+      ],
+      "4": [
+        60,
+        81
+      ],
+      "6": [
+        30,
+        30
+      ]
+    },
+    "item_distribution_alpha": 0.05,
+    "choice_alpha": 0.01,
+    "supplement_verified": false,
+    "table_xv_dot": 5,
+    "body_printed_context_vectors": [
+      [
+        5,
+        3
+      ],
+      [
+        5,
+        0
+      ]
+    ]
+  }
+}

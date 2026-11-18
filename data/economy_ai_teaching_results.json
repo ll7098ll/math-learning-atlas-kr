@@ -1,0 +1,103 @@
+{
+  "date": "2026-11-04",
+  "data_kind": "fictional_teaching_model",
+  "origin_fit": {
+    "slope": 1.6428571428571428,
+    "loss": 0.21428571428571425
+  },
+  "affine_comparison_only": {
+    "slope": 1.5,
+    "intercept": 0.3333333333333335,
+    "scope": "trendline comparison, outside the one-variable y=ax loss task"
+  },
+  "stable_descent": [
+    {
+      "step": 0,
+      "coefficient": 0.0,
+      "loss": 38.0,
+      "gradient": -46.0
+    },
+    {
+      "step": 1,
+      "coefficient": 0.8214285714285714,
+      "loss": 9.660714285714285,
+      "gradient": -23.0
+    },
+    {
+      "step": 2,
+      "coefficient": 1.2321428571428572,
+      "loss": 2.5758928571428563,
+      "gradient": -11.499999999999998
+    },
+    {
+      "step": 3,
+      "coefficient": 1.4375,
+      "loss": 0.8046875,
+      "gradient": -5.75
+    },
+    {
+      "step": 4,
+      "coefficient": 1.5401785714285714,
+      "loss": 0.36188616071428564,
+      "gradient": -2.8749999999999996
+    },
+    {
+      "step": 5,
+      "coefficient": 1.5915178571428572,
+      "loss": 0.25118582589285726,
+      "gradient": -1.4375000000000009
+    },
+    {
+      "step": 6,
+      "coefficient": 1.6171875,
+      "loss": 0.2235107421875,
+      "gradient": -0.71875
+    }
+  ],
+  "large_step_descent": [
+    {
+      "step": 0,
+      "coefficient": 0.0,
+      "loss": 38.0,
+      "gradient": -46.0
+    },
+    {
+      "step": 1,
+      "coefficient": 4.6000000000000005,
+      "loss": 122.64000000000003,
+      "gradient": 82.80000000000001
+    },
+    {
+      "step": 2,
+      "coefficient": -3.6800000000000006,
+      "loss": 396.8736000000001,
+      "gradient": -149.04000000000002
+    },
+    {
+      "step": 3,
+      "coefficient": 11.224000000000004,
+      "loss": 1285.390464000001,
+      "gradient": 268.2720000000001
+    },
+    {
+      "step": 4,
+      "coefficient": -15.603200000000008,
+      "loss": 4164.185103360004,
+      "gradient": -482.88960000000026
+    },
+    {
+      "step": 5,
+      "coefficient": 32.68576000000002,
+      "loss": 13491.479734886421,
+      "gradient": 869.2012800000007
+    },
+    {
+      "step": 6,
+      "coefficient": -54.23436800000005,
+      "loss": 43711.914341032025,
+      "gradient": -1564.5623040000016
+    }
+  ],
+  "annuity_three_end_payments": 24.86851990984222,
+  "cosine_example": 0.7071067811865475
+}

@@ -1,0 +1,15 @@
+{
+  "date": "2026-11-04",
+  "source_file": "[별책8] 수학과 교육과정.pdf",
+  "corrections": [
+    {
+      "pdf_page": 15,
+      "printed_page": 9,
+      "raw_text": "각도()",
+      "display_text": "각도(°)",
+      "reviewer": "Codex",
+      "method": "PDF 15쪽 내용 체계 표의 원문 이미지 대조",
+      "evidence_file": "data/source_review_images/structure-015.png"
+    }
+  ]
+}

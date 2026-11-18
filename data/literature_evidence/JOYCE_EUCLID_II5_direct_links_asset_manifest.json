@@ -1,0 +1,444 @@
+{
+  "url": "https://mathcs.clarku.edu/~djoyce/elements/bookII/propII5.html",
+  "asset_base_url": "https://mathcs.clarku.edu/~djoyce/elements/",
+  "sha256": "5edbdc5d6c6b8fc0a0c8f2ac9e41552a9191e4ab111b163cae5a1f8b6096b1fa",
+  "html_assets": [
+    {
+      "file": "bookII/propII5.html",
+      "url": "https://mathcs.clarku.edu/~djoyce/elements/bookII/propII5.html",
+      "sha256": "5edbdc5d6c6b8fc0a0c8f2ac9e41552a9191e4ab111b163cae5a1f8b6096b1fa",
+      "status": 200,
+      "content_type": "text/html",
+      "key": "ii5",
+      "title": "Proposition II.5 and Guide"
+    },
+    {
+      "file": "bookI/propI31.html",
+      "url": "https://mathcs.clarku.edu/~djoyce/elements/bookI/propI31.html",
+      "sha256": "d949ef7ee97117db5e6f083a898cb68bd5c85ee78bafb1a028f9596691a0b5d2",
+      "status": 200,
+      "content_type": "text/html",
+      "key": "bookI-propI31",
+      "title": "Euclid bookI/propI31.html"
+    },
+    {
+      "file": "bookI/propI36.html",
+      "url": "https://mathcs.clarku.edu/~djoyce/elements/bookI/propI36.html",
+      "sha256": "d6016bd1df5ac187580db8410a3a60760ff8420d8432bbcc1576b471c693bcf0",
+      "status": 200,
+      "content_type": "text/html",
+      "key": "bookI-propI36",
+      "title": "Euclid bookI/propI36.html"
+    },
+    {
+      "file": "bookI/propI43.html",
+      "url": "https://mathcs.clarku.edu/~djoyce/elements/bookI/propI43.html",
+      "sha256": "1a45e49e7e1565045840ad050f0b1b510b843595a1d27c2b47426109a8547e53",
+      "status": 200,
+      "content_type": "text/html",
+      "key": "bookI-propI43",
+      "title": "Euclid bookI/propI43.html"
+    },
+    {
+      "file": "bookI/propI46.html",
+      "url": "https://mathcs.clarku.edu/~djoyce/elements/bookI/propI46.html",
+      "sha256": "f99693011ae8bc5ef8883e22ff35e33670e24f69b6a10d2ce34bb312133c74db",
+      "status": 200,
+      "content_type": "text/html",
+      "key": "bookI-propI46",
+      "title": "Euclid bookI/propI46.html"
+    },
+    {
+      "file": "bookI/propI47.html",
+      "url": "https://mathcs.clarku.edu/~djoyce/elements/bookI/propI47.html",
+      "sha256": "3d19899617e359aa0d9d2a3111e078134e12a99f4df7021e8b06661460299d12",
+      "status": 200,
+      "content_type": "text/html",
+      "key": "bookI-propI47",
+      "title": "Euclid bookI/propI47.html"
+    },
+    {
+      "file": "bookII/defII.html",
+      "url": "https://mathcs.clarku.edu/~djoyce/elements/bookII/defII.html",
+      "sha256": "9157eea7e10364cc55def1a3fdb69eeeb714c6eaf5b2e11133be2baf23816ac1",
+      "status": 200,
+      "content_type": "text/html",
+      "key": "bookII-defII",
+      "title": "Euclid bookII/defII.html"
+    },
+    {
+      "file": "bookII/propII14.html",
+      "url": "https://mathcs.clarku.edu/~djoyce/elements/bookII/propII14.html",
+      "sha256": "0e1db1cc374dad1edf77a53b8b2af6e7928ab6365003170bcb955e9d47b9e3d5",
+      "status": 200,
+      "content_type": "text/html",
+      "key": "bookII-propII14",
+      "title": "Euclid bookII/propII14.html"
+    },
+    {
+      "file": "bookIII/propIII35.html",
+      "url": "https://mathcs.clarku.edu/~djoyce/elements/bookIII/propIII35.html",
+      "sha256": "e9784827a328469ff5d267f1097b588548c363fde9e6ebdc46c77688ced5aae2",
+      "status": 200,
+      "content_type": "text/html",
+      "key": "bookIII-propIII35",
+      "title": "Euclid bookIII/propIII35.html"
+    },
+    {
+      "file": "bookVI/propVI25.html",
+      "url": "https://mathcs.clarku.edu/~djoyce/elements/bookVI/propVI25.html",
+      "sha256": "29643372dcd489fe2b233c29233aa2bea586d28e628a808efcf5f6de79019d5f",
+      "status": 200,
+      "content_type": "text/html",
+      "key": "bookVI-propVI25",
+      "title": "Euclid bookVI/propVI25.html"
+    },
+    {
+      "file": "bookVI/propVI28.html",
+      "url": "https://mathcs.clarku.edu/~djoyce/elements/bookVI/propVI28.html",
+      "sha256": "7703f5110bf77e37d5ac7292766aac7362ac82e025376a2f1aefa6ba1e46ab4d",
+      "status": 200,
+      "content_type": "text/html",
+      "key": "bookVI-propVI28",
+      "title": "Euclid bookVI/propVI28.html"
+    },
+    {
+      "file": "bookI/propI9.html",
+      "url": "https://mathcs.clarku.edu/~djoyce/elements/bookI/propI9.html",
+      "sha256": "f66729c927396dfe7a4f78adc95d9566d21208688e05546831f48db1e63ea5cf",
+      "status": 200,
+      "content_type": "text/html",
+      "key": "bookI-propI9",
+      "title": "Euclid bookI/propI9.html"
+    },
+    {
+      "file": "bookI/propI10.html",
+      "url": "https://mathcs.clarku.edu/~djoyce/elements/bookI/propI10.html",
+      "sha256": "dd723197812d9c5261b35e6c29a4b42587cb6f05dfc4c0313cbd3d5ca18200b4",
+      "status": 200,
+      "content_type": "text/html",
+      "key": "bookI-propI10",
+      "title": "Euclid bookI/propI10.html"
+    },
+    {
+      "file": "bookV/propV19.html",
+      "url": "https://mathcs.clarku.edu/~djoyce/elements/bookV/propV19.html",
+      "sha256": "ce4be5712831117c4f76179f65c1014e7b7d7fcbcd390c3eb5a6fb21cdae213e",
+      "status": 200,
+      "content_type": "text/html",
+      "key": "bookV-propV19",
+      "title": "Euclid bookV/propV19.html"
+    },
+    {
+      "file": "bookVI/propVI19.html",
+      "url": "https://mathcs.clarku.edu/~djoyce/elements/bookVI/propVI19.html",
+      "sha256": "1c8810cb1b6b6d2ea5004b47ffd015949211c45bbe55a5502fdcb3a7e5f0aac3",
+      "status": 200,
+      "content_type": "text/html",
+      "key": "bookVI-propVI19",
+      "title": "Euclid bookVI/propVI19.html"
+    }
+  ],
+  "image_assets": [
+    {
+      "file": "bookII/propII5.gif",
+      "url": "https://mathcs.clarku.edu/~djoyce/elements/bookII/propII5.gif",
+      "sha256": "3dcecad9d1fea015021d981513355dd8a7e82a86b51a74aa631f3556821daf05",
+      "status": 200,
+      "content_type": "image/gif",
+      "dimensions": [
+        296,
+        168
+      ],
+      "page_url": "https://mathcs.clarku.edu/~djoyce/elements/bookII/propII5.html"
+    },
+    {
+      "file": "bookII/propII5a.gif",
+      "url": "https://mathcs.clarku.edu/~djoyce/elements/bookII/propII5a.gif",
+      "sha256": "1823b152f6a9dc0cd4b50ec076258841b8917ad114630d75643958db9aa0208b",
+      "status": 200,
+      "content_type": "image/gif",
+      "dimensions": [
+        236,
+        141
+      ],
+      "page_url": "https://mathcs.clarku.edu/~djoyce/elements/bookII/propII5.html"
+    },
+    {
+      "file": "bookII/propII5b.gif",
+      "url": "https://mathcs.clarku.edu/~djoyce/elements/bookII/propII5b.gif",
+      "sha256": "af43b4e734a47cad671a17df05ce339c03dc0a7a412130603528abea306629ea",
+      "status": 200,
+      "content_type": "image/gif",
+      "dimensions": [
+        393,
+        74
+      ],
+      "page_url": "https://mathcs.clarku.edu/~djoyce/elements/bookII/propII5.html"
+    },
+    {
+      "file": "bookII/propII5c.gif",
+      "url": "https://mathcs.clarku.edu/~djoyce/elements/bookII/propII5c.gif",
+      "sha256": "04f65188bd5988d8705cdf7b83b31910570f7e8c70793f32d90aef4970581920",
+      "status": 200,
+      "content_type": "image/gif",
+      "dimensions": [
+        265,
+        67
+      ],
+      "page_url": "https://mathcs.clarku.edu/~djoyce/elements/bookII/propII5.html"
+    },
+    {
+      "file": "bookI/propI31.gif",
+      "url": "https://mathcs.clarku.edu/~djoyce/elements/bookI/propI31.gif",
+      "sha256": "f76b41b8b45377dad2af9e55b28c2c11754f00cc36f97a1ee72b4c53b2587760",
+      "status": 200,
+      "content_type": "image/gif",
+      "dimensions": [
+        208,
+        143
+      ],
+      "page_url": "https://mathcs.clarku.edu/~djoyce/elements/bookI/propI31.html"
+    },
+    {
+      "file": "bookI/propI36.gif",
+      "url": "https://mathcs.clarku.edu/~djoyce/elements/bookI/propI36.gif",
+      "sha256": "209ba0e96b05d719651997ac12391eb56b501c4f03bfcc9daae7eac95c76fce0",
+      "status": 200,
+      "content_type": "image/gif",
+      "dimensions": [
+        345,
+        196
+      ],
+      "page_url": "https://mathcs.clarku.edu/~djoyce/elements/bookI/propI36.html"
+    },
+    {
+      "file": "bookI/propI43.gif",
+      "url": "https://mathcs.clarku.edu/~djoyce/elements/bookI/propI43.gif",
+      "sha256": "8e213f122763ddb8423f9e80a6429ede2aaf3d49efcbc113411b3459ad9c2fb2",
+      "status": 200,
+      "content_type": "image/gif",
+      "dimensions": [
+        247,
+        243
+      ],
+      "page_url": "https://mathcs.clarku.edu/~djoyce/elements/bookI/propI43.html"
+    },
+    {
+      "file": "bookI/propI46.gif",
+      "url": "https://mathcs.clarku.edu/~djoyce/elements/bookI/propI46.gif",
+      "sha256": "3172e33627b037bbae4c6f52267572a529e4f8bb82ff747b30e73f23de86420e",
+      "status": 200,
+      "content_type": "image/gif",
+      "dimensions": [
+        178,
+        226
+      ],
+      "page_url": "https://mathcs.clarku.edu/~djoyce/elements/bookI/propI46.html"
+    },
+    {
+      "file": "bookI/propI46a.gif",
+      "url": "https://mathcs.clarku.edu/~djoyce/elements/bookI/propI46a.gif",
+      "sha256": "85f2e40dccb135c9adda4b3a76ca462fd3e0e65c320a3ad55b2e6f7bc083ea3c",
+      "status": 200,
+      "content_type": "image/gif",
+      "dimensions": [
+        340,
+        290
+      ],
+      "page_url": "https://mathcs.clarku.edu/~djoyce/elements/bookI/propI46.html"
+    },
+    {
+      "file": "bookI/propI47.gif",
+      "url": "https://mathcs.clarku.edu/~djoyce/elements/bookI/propI47.gif",
+      "sha256": "72c87bdddf62402ffeb312f06ccf29485adc19bb92e0d4f80e00cf3d15fe53a1",
+      "status": 200,
+      "content_type": "image/gif",
+      "dimensions": [
+        302,
+        331
+      ],
+      "page_url": "https://mathcs.clarku.edu/~djoyce/elements/bookI/propI47.html"
+    },
+    {
+      "file": "bookI/propI47a.gif",
+      "url": "https://mathcs.clarku.edu/~djoyce/elements/bookI/propI47a.gif",
+      "sha256": "898ec4d1671d8a8b5c77f7f806d36425bcf44b83534d7e5ddd846c19e24a3fd8",
+      "status": 200,
+      "content_type": "image/gif",
+      "dimensions": [
+        224,
+        228
+      ],
+      "page_url": "https://mathcs.clarku.edu/~djoyce/elements/bookI/propI47.html"
+    },
+    {
+      "file": "bookI/propI47b.gif",
+      "url": "https://mathcs.clarku.edu/~djoyce/elements/bookI/propI47b.gif",
+      "sha256": "869a3dac0821a24600c3e65ecc2a4365e7aae1af8582cec42f29309f813775b6",
+      "status": 200,
+      "content_type": "image/gif",
+      "dimensions": [
+        269,
+        192
+      ],
+      "page_url": "https://mathcs.clarku.edu/~djoyce/elements/bookI/propI47.html"
+    },
+    {
+      "file": "bookII/defII.gif",
+      "url": "https://mathcs.clarku.edu/~djoyce/elements/bookII/defII.gif",
+      "sha256": "70f9ca99a957a5e3643c6c38776f4f89588cd8f2ebfaa111550f06c280ad2271",
+      "status": 200,
+      "content_type": "image/gif",
+      "dimensions": [
+        332,
+        174
+      ],
+      "page_url": "https://mathcs.clarku.edu/~djoyce/elements/bookII/defII.html"
+    },
+    {
+      "file": "bookII/propII14.gif",
+      "url": "https://mathcs.clarku.edu/~djoyce/elements/bookII/propII14.gif",
+      "sha256": "af06e59d734b4b3f3276f31582ded07444a386e2c2c8f026d152f335e6640b47",
+      "status": 200,
+      "content_type": "image/gif",
+      "dimensions": [
+        330,
+        189
+      ],
+      "page_url": "https://mathcs.clarku.edu/~djoyce/elements/bookII/propII14.html"
+    },
+    {
+      "file": "bookIII/propIII35a.gif",
+      "url": "https://mathcs.clarku.edu/~djoyce/elements/bookIII/propIII35a.gif",
+      "sha256": "f0443b936a3bd3f02753ce510b87e3d51d3db604e476815cb1e19e53d42cedf9",
+      "status": 200,
+      "content_type": "image/gif",
+      "dimensions": [
+        163,
+        152
+      ],
+      "page_url": "https://mathcs.clarku.edu/~djoyce/elements/bookIII/propIII35.html"
+    },
+    {
+      "file": "bookIII/propIII35b.gif",
+      "url": "https://mathcs.clarku.edu/~djoyce/elements/bookIII/propIII35b.gif",
+      "sha256": "e3a4e7acc97fd52777e73d4b22f9dd1996a293bbc9858bc065f2cbdfae0239c8",
+      "status": 200,
+      "content_type": "image/gif",
+      "dimensions": [
+        184,
+        172
+      ],
+      "page_url": "https://mathcs.clarku.edu/~djoyce/elements/bookIII/propIII35.html"
+    },
+    {
+      "file": "bookVI/propVI25.gif",
+      "url": "https://mathcs.clarku.edu/~djoyce/elements/bookVI/propVI25.gif",
+      "sha256": "5ae331ff9561a00d75d0d92b06109272101df08eec5c456b0badeadd8ba0aa3b",
+      "status": 200,
+      "content_type": "image/gif",
+      "dimensions": [
+        429,
+        198
+      ],
+      "page_url": "https://mathcs.clarku.edu/~djoyce/elements/bookVI/propVI25.html"
+    },
+    {
+      "file": "bookVI/propVI28.gif",
+      "url": "https://mathcs.clarku.edu/~djoyce/elements/bookVI/propVI28.gif",
+      "sha256": "3426819c54a86b565ed78c37bb5c27a2cc8ed7d9ba20ead38de3854bebc0ee3a",
+      "status": 200,
+      "content_type": "image/gif",
+      "dimensions": [
+        439,
+        246
+      ],
+      "page_url": "https://mathcs.clarku.edu/~djoyce/elements/bookVI/propVI28.html"
+    },
+    {
+      "file": "bookVI/propVI28a.gif",
+      "url": "https://mathcs.clarku.edu/~djoyce/elements/bookVI/propVI28a.gif",
+      "sha256": "b09315b01f772fb83d430932f988d13c6e07cf2e71aaf8da52b0a08a343e6aae",
+      "status": 200,
+      "content_type": "image/gif",
+      "dimensions": [
+        236,
+        209
+      ],
+      "page_url": "https://mathcs.clarku.edu/~djoyce/elements/bookVI/propVI28.html"
+    },
+    {
+      "file": "bookI/propI9.gif",
+      "url": "https://mathcs.clarku.edu/~djoyce/elements/bookI/propI9.gif",
+      "sha256": "90d348e1f5d83f07816f7f54b5f9ba2bdb151a3faf83dba0ecc8f3443958660f",
+      "status": 200,
+      "content_type": "image/gif",
+      "dimensions": [
+        255,
+        218
+      ],
+      "page_url": "https://mathcs.clarku.edu/~djoyce/elements/bookI/propI9.html"
+    },
+    {
+      "file": "bookI/propI9a.gif",
+      "url": "https://mathcs.clarku.edu/~djoyce/elements/bookI/propI9a.gif",
+      "sha256": "a5ef0cd069db13727c8110bd2053dbf9949c27db95601b60128fe30c8dba3974",
+      "status": 200,
+      "content_type": "image/gif",
+      "dimensions": [
+        304,
+        255
+      ],
+      "page_url": "https://mathcs.clarku.edu/~djoyce/elements/bookI/propI9.html"
+    },
+    {
+      "file": "bookI/propI10.gif",
+      "url": "https://mathcs.clarku.edu/~djoyce/elements/bookI/propI10.gif",
+      "sha256": "947ae60c803258efbdb1a0b57f834e847082669d768132f7b5f32ea1c9a06081",
+      "status": 200,
+      "content_type": "image/gif",
+      "dimensions": [
+        223,
+        208
+      ],
+      "page_url": "https://mathcs.clarku.edu/~djoyce/elements/bookI/propI10.html"
+    },
+    {
+      "file": "bookI/propI10a.gif",
+      "url": "https://mathcs.clarku.edu/~djoyce/elements/bookI/propI10a.gif",
+      "sha256": "bf65cc84b7736710bdf3aa98dcd61b1c215b3506c6bea9b0355c926287c3fa9b",
+      "status": 200,
+      "content_type": "image/gif",
+      "dimensions": [
+        353,
+        257
+      ],
+      "page_url": "https://mathcs.clarku.edu/~djoyce/elements/bookI/propI10.html"
+    },
+    {
+      "file": "bookV/propV19.gif",
+      "url": "https://mathcs.clarku.edu/~djoyce/elements/bookV/propV19.gif",
+      "sha256": "83d1f9bb7084f887d9f4a825565a7985a8565871a70e4fde55c15cbd13d53d0f",
+      "status": 200,
+      "content_type": "image/gif",
+      "dimensions": [
+        176,
+        56
+      ],
+      "page_url": "https://mathcs.clarku.edu/~djoyce/elements/bookV/propV19.html"
+    },
+    {
+      "file": "bookVI/propVI19.gif",
+      "url": "https://mathcs.clarku.edu/~djoyce/elements/bookVI/propVI19.gif",
+      "sha256": "dbd1cd2012d111bb7088b303c55d0a9ac2c3ae29c7dbb728e8f6e1b991bd9aa9",
+      "status": 200,
+      "content_type": "image/gif",
+      "dimensions": [
+        226,
+        188
+      ],
+      "page_url": "https://mathcs.clarku.edu/~djoyce/elements/bookVI/propVI19.html"
+    }
+  ]
+}

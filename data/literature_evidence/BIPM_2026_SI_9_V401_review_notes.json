@@ -1,0 +1,71 @@
+{
+  "source_id": "BIPM_2026_SI_9_V401",
+  "source_url": "https://doi.org/10.59161/AUEZ1291",
+  "source_asset_kind": "pdf",
+  "source_pdf_sha256": "5442eea2c680caf77a9d96879205a97f57c7c270b98a0bd0126c18fefe47e02c",
+  "source_pdf_url": "https://www.bipm.org/documents/20126/41483022/SI-Brochure-9-EN.pdf",
+  "pdf_pages": 102,
+  "selected_text_pages": [
+    1,
+    28,
+    29,
+    30,
+    31
+  ],
+  "visual_pdf_pages": [
+    1,
+    28,
+    29,
+    30,
+    31
+  ],
+  "rendered_page_sha256": {
+    "1": "c6ba3a615886274409f7498f675d132e126f107034ee7d56790981e81b30a818",
+    "28": "0930874a63a3130bb3599673422df76867f381495586f044bc2e7890b2e35dae",
+    "29": "030c8123f1c60b45c4b8521f8a0d5e77d8a49cbbc0cffcb01e8f7b91418c2795",
+    "30": "57e051c51a4055e73d3eee366b984f74dff7a91b73ea93a2c78d22632e4f36c4",
+    "31": "b46a780277a52d6a651c74a86dfc0749361f9c3fd2802d2a04e62609f01f30c8"
+  },
+  "date": "2026-11-13",
+  "reviewer": "Codex",
+  "read_scope": "V4.01의 표지, 접두어 표 7, 질량의 접두어 사용, 비SI 단위의 표 8과 L·t 주석을 실제 판면으로 대조했다.",
+  "empirical_scope": {
+    "design": "국제도량형국의 단위 정의·표기·환산 설명 문서.",
+    "sample_description": "학생 표본 없음. 2026년 6월 개정 V4.01의 지정 부분.",
+    "inference_limit": "단위 정의와 환산의 참고 문서다. 학생의 난점 빈도나 교수 효과를 연구한 자료가 아니다. 표 8의 하루는 24시간의 단위이며 달을 고정된 일수로 정의하지 않는다.",
+    "student_outcome_study": false,
+    "causal_effect_established": false,
+    "local_effect_tested": false
+  },
+  "contains_source_full_text": false,
+  "source_pdf_redistributed": false,
+  "reading_log": [
+    "V4.01의 표지, 접두어 표 7, 질량의 접두어 사용, 비SI 단위의 표 8과 L·t 주석을 실제 판면으로 대조했다."
+  ],
+  "source_corrections": [
+    {
+      "location": "방법·문항·표·그림·서술의 대조",
+      "issue": "검색 캐시의 V3.02 제목을 쓰지 않고 실제 표지의 V4.01·2026년 6월을 확인했다. 비SI 단위의 지위 설명을 이전 판본의 문구로 대신하지 않는다. 단위 정의를 학생 학습 효과로 표시하지 않으며 달의 고정된 일수는 이 표에 없다."
+    }
+  ],
+  "calendar_units_review": {
+    "edition": 9,
+    "version": "4.01",
+    "version_month": "2026-06",
+    "printed_pages": [
+      138,
+      139,
+      140,
+      141
+    ],
+    "tonne_kg": 1000,
+    "kilogram_g": 1000,
+    "litre_ml": 1000,
+    "minute_seconds": 60,
+    "hour_minutes": 60,
+    "day_hours": 24,
+    "month_days_not_defined": true,
+    "student_sample_exists": false,
+    "non_si_status_distinguished": true
+  }
+}

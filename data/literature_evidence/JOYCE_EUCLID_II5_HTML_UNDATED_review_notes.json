@@ -1,0 +1,114 @@
+{
+  "source_id": "JOYCE_EUCLID_II5_HTML_UNDATED",
+  "source_url": "https://mathcs.clarku.edu/~djoyce/elements/bookII/propII5.html",
+  "source_asset_kind": "publisher_html",
+  "source_asset_sha256": "5edbdc5d6c6b8fc0a0c8f2ac9e41552a9191e4ab111b163cae5a1f8b6096b1fa",
+  "asset_base_url": "https://mathcs.clarku.edu/~djoyce/elements/bookII/",
+  "html_read_manifest": [
+    {
+      "key": "ii5",
+      "url": "https://mathcs.clarku.edu/~djoyce/elements/bookII/propII5.html",
+      "title": "Proposition II.5 and Guide",
+      "sha256": "5edbdc5d6c6b8fc0a0c8f2ac9e41552a9191e4ab111b163cae5a1f8b6096b1fa",
+      "status": 200,
+      "content_type": "text/html"
+    }
+  ],
+  "image_read_manifest": [
+    {
+      "page_url": "https://mathcs.clarku.edu/~djoyce/elements/bookII/propII5.html",
+      "url": "https://mathcs.clarku.edu/~djoyce/elements/bookII/propII5.gif",
+      "sha256": "3dcecad9d1fea015021d981513355dd8a7e82a86b51a74aa631f3556821daf05",
+      "status": 200,
+      "content_type": "image/gif",
+      "dimensions": [
+        296,
+        168
+      ],
+      "read_kind": "inline_image_visual_review",
+      "redistributed": false
+    },
+    {
+      "page_url": "https://mathcs.clarku.edu/~djoyce/elements/bookII/propII5.html",
+      "url": "https://mathcs.clarku.edu/~djoyce/elements/bookII/propII5a.gif",
+      "sha256": "1823b152f6a9dc0cd4b50ec076258841b8917ad114630d75643958db9aa0208b",
+      "status": 200,
+      "content_type": "image/gif",
+      "dimensions": [
+        236,
+        141
+      ],
+      "read_kind": "inline_image_visual_review",
+      "redistributed": false
+    },
+    {
+      "page_url": "https://mathcs.clarku.edu/~djoyce/elements/bookII/propII5.html",
+      "url": "https://mathcs.clarku.edu/~djoyce/elements/bookII/propII5b.gif",
+      "sha256": "af43b4e734a47cad671a17df05ce339c03dc0a7a412130603528abea306629ea",
+      "status": 200,
+      "content_type": "image/gif",
+      "dimensions": [
+        393,
+        74
+      ],
+      "read_kind": "inline_image_visual_review",
+      "redistributed": false
+    },
+    {
+      "page_url": "https://mathcs.clarku.edu/~djoyce/elements/bookII/propII5.html",
+      "url": "https://mathcs.clarku.edu/~djoyce/elements/bookII/propII5c.gif",
+      "sha256": "04f65188bd5988d8705cdf7b83b31910570f7e8c70793f32d90aef4970581920",
+      "status": 200,
+      "content_type": "image/gif",
+      "dimensions": [
+        265,
+        67
+      ],
+      "read_kind": "inline_image_visual_review",
+      "redistributed": false
+    }
+  ],
+  "source_asset_redistributed": false,
+  "pdf_read": false,
+  "original_page_layout_review": false,
+  "date": "2026-11-16",
+  "reviewer": "Codex",
+  "read_scope": "온라인 II.5의 명제·기하 증명·Guide의 현대 대수 설명·작도·활용 본문과 삽입 그림4개를 읽었다. HTML응답과 그림 바이트/크기를 대조했다. footer의1996,2002는 현재 페이지 발행일로 확정하지 않아 연도 미상이다.",
+  "empirical_scope": {
+    "design": "지정 원문·실제 판면 또는 삽입 그림 대조와 고등학교 탐구 과제의 자체 설계",
+    "sample_description": "이 검토에서는 실제 학생 원자료·현장 이용자 조사·학습 효과 실험을 분석하지 않았다",
+    "inference_limit": "한 온라인 판본이며 원론 전권·다른 번역·연결된 선수 명제·원전의 원어·동적 배치/Java애플릿을 검증하지 않았다. 원론의 명제·온라인 현대 해설·자기 대수 유도와 같게 자른 경계 사례를 구별한다.",
+    "student_outcome_study": false,
+    "causal_effect_established": false,
+    "local_effect_tested": false
+  },
+  "contains_source_full_text": false,
+  "source_pdf_redistributed": false,
+  "reading_log": [
+    "온라인 II.5의 명제·기하 증명·Guide의 현대 대수 설명·작도·활용 본문과 삽입 그림4개를 읽었다. HTML응답과 그림 바이트/크기를 대조했다. footer의1996,2002는 현재 페이지 발행일로 확정하지 않아 연도 미상이다."
+  ],
+  "source_corrections": [
+    {
+      "location": "방법·문항·표·그림·서술의 대조",
+      "issue": [
+        "Guide의 빗변 CD 설명은 CD²=(b/2)²−c² 및 작도 그림과 불일치한다. CS=b/2가 빗변, CR=c와 RS=CD가 직각변이다. b=10,c=4이면 CD=3·두 부분8,2로 확인한다.",
+        "작도 마지막 문장의 G·AG/GB는 두 번째 그림과 절차의 D·AD/DB와 불일치한다. 첫 번째 그림의 G를 두 번째 그림으로 옮기지 않는다.",
+        "원문의 같지 않은 분할과 같은 부분의 최대 사례·0길이·허근을 구별한다. 온라인 현대 해설과 자기 대수식을 원어 원문 인용으로 취급하지 않는다."
+      ]
+    }
+  ],
+  "inquiry_completion_review": {
+    "full_book_read": false,
+    "own_tasks_are_not_student_responses": true,
+    "source_assets_redistributed": false,
+    "independent_review": false,
+    "student_validation": false,
+    "full_selected_page_text_and_four_images_read": true,
+    "page_layout_and_applet_not_verified": true,
+    "footer_years": [
+      1996,
+      2002
+    ],
+    "current_page_publication_year_unverified": true
+  }
+}

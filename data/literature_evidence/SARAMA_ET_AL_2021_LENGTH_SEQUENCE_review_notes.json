@@ -1,0 +1,121 @@
+{
+  "source_id": "SARAMA_ET_AL_2021_LENGTH_SEQUENCE",
+  "source_url": "https://doi.org/10.1177/23328584211026657",
+  "date": "2026-11-09",
+  "reviewer": "Codex",
+  "source_asset_kind": "pdf",
+  "source_pdf_sha256": "578e7f39fb865693335bf46cbaeb306bf30c1d5bbf291589e9c994edce9d352b",
+  "source_pdf_redistributed": false,
+  "contains_source_full_text": false,
+  "read_scope": "출판판의 초록, 배정·평가·결과·논의 관련 문단과 표 2~9·그림 1을 확인했다. 표본과 결과의 주요 판면을 이미지로 대조했다.",
+  "empirical_scope": {
+    "design": "within_classroom_randomized_length_instruction_comparison",
+    "sample_description": "유치원 5개 학교에서 사전검사 187명, 사후검사 185명이다. 표 2는 정규 57명, 정순 69명, 역순 59명이다.",
+    "inference_limit": "유치원 길이의 단기 개별 수업이다. 활동 순서와 반응에 따른 과제 조정·피드백이 함께 달랐다. 다른 측정량, 국내 단위 과제 또는 필수 학습 순서의 효과를 분리할 수 없다.",
+    "student_outcome_study": true,
+    "causal_effect_established": true,
+    "local_effect_tested": false
+  },
+  "pdf_url": "https://files.eric.ed.gov/fulltext/EJ1323924.pdf",
+  "publisher_url": "https://journals.sagepub.com/doi/full/10.1177/23328584211026657",
+  "pdf_pages": 15,
+  "printed_pages": [
+    1,
+    15
+  ],
+  "selected_text_pages": [
+    1,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "visual_pdf_pages": [
+    4,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "rendered_page_sha256": {
+    "4": "e6a2fe46d622d416d0763d83f357b294852e8f0ffa8962c917f6328dbe1abfe2",
+    "6": "62aa3b974db122cffb2bda457e99e2a939a7b1cf069dae5873ba8e9711052d53",
+    "7": "6a8de5544cc5b7488f35f224b0004a7e91dcb7b6d41082f5f7b9effd1a7b1fd6",
+    "8": "296dde6d7a18d4024301b188aebe82a5d65a3d82d8a5b606bd595d1e5a09fbe9",
+    "9": "b24595714668aadbbf4177585f555ae8c1aca8688c5d83b915df92ad09613c07",
+    "10": "cadc9ece8c0241a8f6f3abf54b8accf81431d89a6a3c920234189121acbac593"
+  },
+  "results": {
+    "counts": {
+      "abstract": 189,
+      "methods_pre": 187,
+      "methods_post": 185,
+      "arm_order": [
+        "BAU",
+        "LT",
+        "REV"
+      ],
+      "table_2": [
+        57,
+        69,
+        59
+      ],
+      "table_4_row_totals": [
+        59,
+        69,
+        57
+      ],
+      "table_5_headers": [
+        57,
+        71,
+        59
+      ]
+    },
+    "contrasts": {
+      "lt_vs_bau": {
+        "posterior_median": 0.58,
+        "credible_95": [
+          0.33,
+          0.84
+        ]
+      },
+      "rev_vs_bau": {
+        "posterior_median": 0.27,
+        "credible_95": [
+          -0.01,
+          0.53
+        ]
+      },
+      "lt_vs_rev": {
+        "posterior_median": 0.32,
+        "endpoints_as_printed": [
+          0.57,
+          0.07
+        ]
+      }
+    }
+  },
+  "reading_log": [
+    "출판판의 초록, 배정·평가·결과·논의 관련 문단과 표 2~9·그림 1을 확인했다. 표본과 결과의 주요 판면을 이미지로 대조했다.",
+    "분모와 비교 조건을 확인하고 전체 모형과 과제별 관찰을 구분했다."
+  ],
+  "source_corrections": [
+    {
+      "location": "초록·방법·표 2·4·5",
+      "issue": "초록 189, 사전 187, 사후 185를 위치별로 보존한다. 표 2와 달리 표 4의 BAU·REV 행 합계가 각각 59·57이고, 표 5의 열 머리는 187명인데 행에는 185명으로 적혀 있다. 사후 분모는 방법과 일치하는 표 2에 귀속한다."
+    },
+    {
+      "location": "9쪽 본문·출판사 HTML과 표 9",
+      "issue": "정순 대 역순 .32의 구간 끝점은 [.57,.07] 순으로 인쇄됐다. 정규 대비 역순 추정 .27의 95% 신용구간 [−.01,.53]은 0을 포함한다. 저자의 방향 요약과 구간을 구별한다."
+    },
+    {
+      "location": "10~11쪽 논의",
+      "issue": "두 지도 조건에서 순서 외에도 오답에 대한 비계와 활동 조정이 달랐다. 정규 수업 비교에는 개별 수업 여부도 함께 달랐다."
+    }
+  ]
+}

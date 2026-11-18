@@ -1,0 +1,50 @@
+{
+  "source_id": "MOORE_2013_ANGLE_MEASURE",
+  "source_url": "https://doi.org/10.1007/s10649-012-9450-6",
+  "source_pdf_url": "https://www.squaresandcircles.me/_files/ugd/bcc7ab_846fcb44a701452cadcdb32f675006dc.pdf",
+  "source_asset_kind": "pdf",
+  "source_pdf_sha256": "93c7d161064c445010e38162e7eddce18fadc168a40a190570ef57c865c49183",
+  "pdf_pages": 22,
+  "selected_text_pages": [
+    1,
+    2,
+    6,
+    13,
+    14,
+    18,
+    20
+  ],
+  "visual_pdf_pages": [
+    14
+  ],
+  "rendered_page_sha256": {
+    "14": "61cf237e45646de1aec3c439d9966a2bbe65539c0bd6d1b44a84b9ba11da3076"
+  },
+  "date": "2026-11-10",
+  "reviewer": "Codex",
+  "read_scope": "참가자와 각 측정 과제, 원의 크기와 관계없이 호 길이를 반지름의 몇 배인지 설명하는 면담을 대조했다.",
+  "empirical_scope": {
+    "design": "예비 미적분 수강생이 각을 수량화하는 방식을 관찰한 수업 실험.",
+    "sample_description": "미국 대학 자원자 3명 가운데 본문은 두 학생을 중심으로 분석.",
+    "inference_limit": "두 학생에 초점을 둔 대학 수업 사례이며 2014년 사인함수 보고의 한 사례와 겹친다.",
+    "student_outcome_study": true,
+    "causal_effect_established": false,
+    "local_effect_tested": false
+  },
+  "contains_source_full_text": false,
+  "source_pdf_redistributed": false,
+  "reading_log": [
+    "참가자와 각 측정 과제, 원의 크기와 관계없이 호 길이를 반지름의 몇 배인지 설명하는 면담을 대조했다."
+  ],
+  "source_corrections": [
+    {
+      "location": "정의·표·학생 응답",
+      "issue": "둘레의 실제 길이와 반지름을 단위로 삼은 2π를 구별했다. 2014년 논문과 겹치는 사례를 합산하지 않는다."
+    }
+  ],
+  "trigonometry_review": {
+    "enrolled": 3,
+    "focus_students": 2,
+    "participant_overlap_with_moore_2014": true
+  }
+}

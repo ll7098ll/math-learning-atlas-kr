@@ -1,0 +1,86 @@
+{
+  "source_id": "OPENSTAX_WORK_MEASUREMENT_SELECTED_2023",
+  "source_url": "https://openstax.org/details/books/contemporary-mathematics",
+  "source_asset_kind": "pdf",
+  "source_pdf_sha256": "300726c9820a8d0822c56e33582a44dffa47111147d64e9cb936b316c448ab38",
+  "source_pdf_url": "https://assets.openstax.org/oscms-prodcms/media/documents/contemporary-mathematics_-_WEB.pdf",
+  "pdf_pages": 1899,
+  "selected_text_pages": [
+    1045,
+    1046,
+    1049,
+    1078,
+    1079,
+    1080,
+    1097,
+    1098,
+    1099,
+    1100
+  ],
+  "visual_pdf_pages": [
+    1045,
+    1046,
+    1049,
+    1078,
+    1079,
+    1080,
+    1097,
+    1098,
+    1099,
+    1100
+  ],
+  "rendered_page_sha256": {
+    "1045": "72b7cfebffdd92069f3679fe200a66ca52f7714ec4d8fdc12db81657d30b9037",
+    "1046": "986951085d981b0178fbe5bbd7fc4a48fb5d9839957af230aca9086cd7815929",
+    "1049": "d627d9389759c5c490ba67cc7b54bd30a5f69c18d32ca3f5c70c20ead95d9cf3",
+    "1078": "0ba6ca5af0c95c2f68bc71109265a90a9bf95b009838b1936283bb3f6f41011d",
+    "1079": "61c5da2809a1abe457b6c4383af2ce7f94999d0dbc4fe43b76a735ee161117a3",
+    "1080": "12b769343e29432b4ddbef8b81313e90b926426bbbdbd119c3276e620971fd27",
+    "1097": "b65368b3ee95fdd60b5cb4a733afa7396c0da6ab9a3c8ae6ac188254bf32fcee",
+    "1098": "2a1c20139d092e9a963a7ce5c0878c5d589afd4fde04dd35cedc01df0978c082",
+    "1099": "efeeea65ee08625c3e9018798ef2b626df35ac8f68b88ea80c550cddfe5de999",
+    "1100": "a7610d73022469ca5b2c4e351c483b9c1be769e5cd25ee454d1aa24436feca3a"
+  },
+  "date": "2026-11-16",
+  "reviewer": "Codex",
+  "read_scope": "PDF1045~1046,1049,1078~1080,1097~1100의 지정 추출문·실제 판면10쪽에서§§10.4,10.6,10.7 일부의 둘레/넓이·수직 높이·면적 합·직각기둥 부피를 대조했다. 내부 구멍·열린 상자·두께/용량·단위·포장 배치는 자체 확장이다. 인쇄 쪽은PDF쪽−10이며 같은 교과서의 추가 범위다.",
+  "empirical_scope": {
+    "design": "공개 교과서의 지정 본문·수식·도표 대조와 국내 직무 상황의 자체 수학 과제 설계",
+    "sample_description": "학생 응답·실제 사업장 자료를 분석한 효과 연구가 아님",
+    "inference_limit": "전권·실제 시공/절단/포장·허용 오차·학생 검증이 아니다. 정다각형만 기둥 밑면이 될 수 있다는 조건을 붙이지 않고,평면 면적 합의 직육면체 모형과 곡면을 구별한다. 재료 두께·내부 용량·접착 날개·배치 가능성을 표면 넓이/부피 공식으로 자동 보장하지 않는다.",
+    "student_outcome_study": false,
+    "causal_effect_established": false,
+    "local_effect_tested": false
+  },
+  "contains_source_full_text": false,
+  "source_pdf_redistributed": false,
+  "reading_log": [
+    "PDF1045~1046,1049,1078~1080,1097~1100의 지정 추출문·실제 판면10쪽에서§§10.4,10.6,10.7 일부의 둘레/넓이·수직 높이·면적 합·직각기둥 부피를 대조했다. 내부 구멍·열린 상자·두께/용량·단위·포장 배치는 자체 확장이다. 인쇄 쪽은PDF쪽−10이며 같은 교과서의 추가 범위다."
+  ],
+  "source_corrections": [
+    {
+      "location": "방법·문항·표·그림·서술의 대조",
+      "issue": [
+        "1049쪽 직사각형은 평행한 두 쌍과 네 각만이 아니라 네 직각을 확인한다.1079쪽 높이는 해당 밑변에 수직이며 비스듬한 변과 다르다.",
+        "1098쪽 기둥 밑면의regular 조건은 불필요하다. 겉넓이는 곡면도 포함할 수 있어평평한 면만으로 일반 정의하지 않는다.2B+ph는 닫힌 직각기둥의면 구성 조건과 함께 쓴다.",
+        "1100쪽 cm로 주어진 정육각기둥의겉넓이907.2에 붙은in²는cm²다. 부피1872cm³와 단위를 나누고 반올림한apothem의 근사도 보존한다.",
+        "자체 구멍·L자 절단·열린 상자·두께·포장 배치의수치와 반례는 원문의문항·실제 시공 실증이 아니다. 면적/부피만으로 접착 날개·이음·배치 가능성을 보장하지 않는다."
+      ]
+    }
+  ],
+  "work_completion_review": {
+    "full_book_read": false,
+    "formula_extraction_incomplete": true,
+    "own_tasks_are_not_student_responses": true,
+    "source_pdf_and_images_redistributed": false,
+    "printed_body_page_offset": 10,
+    "original_publication_year": 2023,
+    "pdf_build_date": "2026-04-20",
+    "same_pdf_as_prior_scoped_reviews": true,
+    "three_scopes_not_three_distinct_books": true,
+    "source_rights_as_read": "PDF4: copyright2026 Rice University, CC BY-NC-SA4.0 for textbook content; trademarks excluded. Only own factual/mathematical review notes and original tasks published; source prose, diagrams and PDF not redistributed.",
+    "open_closed_faces_separate": true,
+    "inner_dimensions_capacity_separate": true,
+    "packing_counterexample_axis_aligned_single_layer_only": true
+  }
+}

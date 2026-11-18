@@ -1,0 +1,175 @@
+{
+  "source_id": "RITTLE_JOHNSON_STAR_2009_EQUATION_COMPARISONS",
+  "source_url": "https://doi.org/10.1037/a0014224",
+  "date": "2026-11-10",
+  "reviewer": "Codex",
+  "source_asset_kind": "pdf",
+  "source_pdf_sha256": "6f5015e2fb1d7b2298fe85c227dc793fc473d74d6b23a8b219f9b7eb88974fd5",
+  "source_pdf_redistributed": false,
+  "contains_source_full_text": false,
+  "read_scope": "하버드 DASH 저자 원고 57쪽 추출문, 표 1–8과 그림 1–3의 선정 판면 12쪽, 출판본 검색 텍스트의 전략 명칭·표 4·6을 대조했다.",
+  "empirical_scope": {
+    "design": "within_classroom_randomized_dyad_equation_comparison",
+    "sample_description": "미국 중학교 3곳, 수학 9개 학급의 7~8학년 162명. 풀이 방법 54명, 문제 유형 56명, 같은 유형 52명이다. 1명을 제외했고 17명은 한 검사 결측을 추정했다.",
+    "inference_limit": "기초 방정식 수업을 받은 학생에게 시행한 단기 연구다. 자료와 질문·연습 형식을 함께 비교했으며 원전이와 현재 국내 과제 효과는 확인하지 않았다.",
+    "student_outcome_study": true,
+    "causal_effect_established": true,
+    "local_effect_tested": false
+  },
+  "pdf_url": "https://dash.harvard.edu/bitstreams/7312037c-9058-6bd4-e053-0100007fdf3b/download",
+  "publisher_url": "https://doi.org/10.1037/a0014224",
+  "pdf_pages": 57,
+  "printed_pages": "저자 원고 1–56쪽과 DASH 표지",
+  "selected_text_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57
+  ],
+  "visual_pdf_pages": [
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    55,
+    56,
+    57
+  ],
+  "rendered_page_sha256": {
+    "45": "a85f4194cadae3bc3328b3a838bd4f237d7f7d9084f21b10879131c93caae4a6",
+    "46": "132a7c895884e3f4c8a1a060e0433534c7d78461977c1de4bc87bcf0d6185096",
+    "47": "fdb036b358679b617f8efbfebb18e5ff16d1565c60a08224f60750d29a3fdc72",
+    "48": "f37253df39bca98e1238e768430c7a6b0cbd680dec33a7bbef217df2f2d51320",
+    "49": "354a2b5c9819f1c7c26b9ac28da552ac9cc74175a945c78607b085bc57d8395c",
+    "50": "050751270b523ab92e2583a5f4aa0de6a5cf8fcc5a254be44480444b54a6fc69",
+    "51": "38e507a8a9dac720a1bc16cda836af510b21a6d16d669e0272b4fd0c0d3ca6dc",
+    "52": "a699177741a5e5730eaac88810936034ff22ca096009850625dda74bead188f5",
+    "53": "ec35b0e256d749f96e7c152cead1cfaffb08fc36be3178d31896501f35a473c5",
+    "55": "56bdb66284f049ae58823889097d68ac71e68a0f0db12c9e5aea1d99fbc0fae3",
+    "56": "a27b615f8aebb88ae0560e6965140624fd645bc4107057d34ad452b158c9e7b3",
+    "57": "b786c7b6221e392f9ebc468a0bb32dcc0c7cbd83fac08704a7e96798058b6dd4"
+  },
+  "results": {
+    "crosscheck": {
+      "guide_pdf_pages": [
+        61,
+        63
+      ],
+      "wwc_types_comparison": "https://ies.ed.gov/ncee/wwc/study/79862",
+      "author_conditions": {
+        "methods": 54,
+        "types": 56,
+        "equivalent": 52
+      },
+      "guide_methods_vs_equivalent": {
+        "immediate_analytic_n": [
+          98,
+          105
+        ],
+        "flexibility_domain_g": 0.36,
+        "flexibility_knowledge_g": 0.45,
+        "flexibility_use_g": 0.25,
+        "retention_flexibility_domain_g": 0.5
+      },
+      "guide_types_vs_equivalent": {
+        "immediate_analytic_n": [
+          101,
+          106
+        ],
+        "flexibility_domain_g": 0.35
+      },
+      "shared_comparison": true,
+      "same_analysis": false
+    },
+    "retained_analysis_n": 161,
+    "imputed_single_assessment_n": 17,
+    "condition_p": {
+      "conceptual": 0.004,
+      "procedural": 0.402,
+      "flexibility_use": 0.008,
+      "flexibility_knowledge": 0.008
+    },
+    "post_and_retention_same_measure": true,
+    "far_transfer_items_omitted": 2,
+    "published_pdf_text_url": "https://citeseerx.ist.psu.edu/document?doi=7f45c9bebd7bf8e05ec29a74e5aa09084800def5&repid=rep1&type=pdf",
+    "published_binary_obtained": false
+  },
+  "reading_log": [
+    "하버드 DASH 저자 원고 57쪽 추출문, 표 1–8과 그림 1–3의 선정 판면 12쪽, 출판본 검색 텍스트의 전략 명칭·표 4·6을 대조했다.",
+    "분모와 비교 조건을 확인하고 전체 모형과 과제별 관찰을 구분했다."
+  ],
+  "source_corrections": [
+    {
+      "location": "저자 원고 PDF25 · 출판본 인쇄 539쪽",
+      "issue": "원고 요약의 나누기(divide)는 출판본 요약에서 빼기(subtract)로 바뀌었다. 세부 결과에서도 나누기 사용은 집단 차이가 없고 빼기는 전체 조건 p=.006이었다."
+    },
+    {
+      "location": "저자 원고 PDF49 · 출판본 인쇄 537쪽 표 4",
+      "issue": "절차 지식의 방법과 동형 문제 행은 사전·사후·유지의 평균과 표준편차 여섯 값이 모두 같다. 원자료 없이 오류로 단정하거나 수치를 바꾸지 않는다."
+    },
+    {
+      "location": "가이드 PDF61,63과 WWC 연구 79862",
+      "issue": "공통 비교군을 쓰는 두 쌍의 시점별 결과다. 원논문 사후·유지 반복 측정의 공변량 분석과 분석 인원·유의 표기를 합치지 않는다."
+    }
+  ],
+  "pdf_edition": "Harvard DASH revised author manuscript with repository cover",
+  "journal_issue_pages": "529–544"
+}

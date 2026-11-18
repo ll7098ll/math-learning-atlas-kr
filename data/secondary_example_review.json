@@ -1,0 +1,566 @@
+{
+  "status": "pass",
+  "scope": "선택한 수식과 수치의 독립 기호계산 및 수치 점검. 314개 전체의 수학적 심사나 학생 반응 검증이 아님.",
+  "checked_examples": 80,
+  "checks": [
+    {
+      "code": "9수01-01",
+      "claim": "60의 소인수 곱",
+      "result": "pass",
+      "actual": "60",
+      "expected": "60"
+    },
+    {
+      "code": "9수01-02",
+      "claim": "최대공약수",
+      "result": "pass",
+      "actual": "24",
+      "expected": "24"
+    },
+    {
+      "code": "9수01-02",
+      "claim": "최소공배수",
+      "result": "pass",
+      "actual": "360",
+      "expected": "360"
+    },
+    {
+      "code": "9수01-04",
+      "claim": "음수 분수 비교 차",
+      "result": "pass",
+      "actual": "-1/12",
+      "expected": "-1/12"
+    },
+    {
+      "code": "9수01-05",
+      "claim": "음수 제수의 분수 몫",
+      "result": "pass",
+      "actual": "-3/8",
+      "expected": "-3/8"
+    },
+    {
+      "code": "9수01-06",
+      "claim": "반복 27의 순환소수",
+      "result": "pass",
+      "actual": "3/11",
+      "expected": "3/11"
+    },
+    {
+      "code": "9수01-10",
+      "claim": "근호 동류항",
+      "result": "pass",
+      "actual": "3*sqrt(2)",
+      "expected": "3*sqrt(2)"
+    },
+    {
+      "code": "9수02-04",
+      "claim": "출력 장수",
+      "result": "pass",
+      "actual": "2600",
+      "expected": "2600"
+    },
+    {
+      "code": "9수02-09",
+      "claim": "다항식 차",
+      "result": "pass",
+      "actual": "z**2 + 4*z - 5",
+      "expected": "z**2 + 4*z - 5"
+    },
+    {
+      "code": "9수02-13",
+      "claim": "연립 비용",
+      "result": "pass",
+      "actual": "16",
+      "expected": "16"
+    },
+    {
+      "code": "9수02-18",
+      "claim": "두 직선 공통 출력",
+      "result": "pass",
+      "actual": "0",
+      "expected": "0"
+    },
+    {
+      "code": "9수02-19",
+      "claim": "두 인수의 전개",
+      "result": "pass",
+      "actual": "(z + 2)*(z + 3)",
+      "expected": "z**2 + 5*z + 6"
+    },
+    {
+      "code": "9수03-06",
+      "claim": "부채꼴 호",
+      "result": "pass",
+      "actual": "2*pi",
+      "expected": "2*pi"
+    },
+    {
+      "code": "9수03-06",
+      "claim": "부채꼴 넓이",
+      "result": "pass",
+      "actual": "6*pi",
+      "expected": "6*pi"
+    },
+    {
+      "code": "9수04-03",
+      "claim": "상대도수 차",
+      "result": "pass",
+      "actual": "1/10",
+      "expected": "1/10"
+    },
+    {
+      "code": "10공수1-01-01",
+      "claim": "다항식 몫",
+      "result": "pass",
+      "actual": "(z**2 + 3*z + 2)/(z + 1)",
+      "expected": "z + 2"
+    },
+    {
+      "code": "10공수1-01-02",
+      "claim": "나머지정리 P(2)",
+      "result": "pass",
+      "actual": "5",
+      "expected": "5"
+    },
+    {
+      "code": "10공수1-01-03",
+      "claim": "세제곱 차",
+      "result": "pass",
+      "actual": "(z - 2)*(z**2 + 2*z + 4)",
+      "expected": "z**3 - 8"
+    },
+    {
+      "code": "10공수1-02-01",
+      "claim": "켤레를 이용한 복소수 몫",
+      "result": "pass",
+      "actual": "(1 + I)**2/2",
+      "expected": "I"
+    },
+    {
+      "code": "10공수1-02-06",
+      "claim": "제한 구간 끝점 값",
+      "result": "pass",
+      "actual": "2",
+      "expected": "2"
+    },
+    {
+      "code": "10공수1-02-08",
+      "claim": "연립이차 해의 제곱합",
+      "result": "pass",
+      "actual": "5",
+      "expected": "5"
+    },
+    {
+      "code": "10공수1-03-02",
+      "claim": "순열",
+      "result": "pass",
+      "actual": "20",
+      "expected": "20"
+    },
+    {
+      "code": "10공수1-03-03",
+      "claim": "조합",
+      "result": "pass",
+      "actual": "10",
+      "expected": "10"
+    },
+    {
+      "code": "10공수2-01-01",
+      "claim": "내분 x",
+      "result": "pass",
+      "actual": "2",
+      "expected": "2"
+    },
+    {
+      "code": "10공수2-01-01",
+      "claim": "내분 y",
+      "result": "pass",
+      "actual": "1",
+      "expected": "1"
+    },
+    {
+      "code": "10공수2-01-03",
+      "claim": "점과 직선 거리",
+      "result": "pass",
+      "actual": "2",
+      "expected": "2"
+    },
+    {
+      "code": "10공수2-03-04",
+      "claim": "유리함수 변형",
+      "result": "pass",
+      "actual": "(2*z + 1)/(z - 1)",
+      "expected": "2 + 3/(z - 1)"
+    },
+    {
+      "code": "10기수1-01-01",
+      "claim": "기본수학 다항식 합",
+      "result": "pass",
+      "actual": "3*z**2 + z + 1",
+      "expected": "3*z**2 + z + 1"
+    },
+    {
+      "code": "10기수1-02-04",
+      "claim": "기본수학 교점 인수",
+      "result": "pass",
+      "actual": "(z - 2)*(z - 1)",
+      "expected": "z**2 - 3*z + 2"
+    },
+    {
+      "code": "10기수1-02-05",
+      "claim": "기본수학 꼭짓점 값",
+      "result": "pass",
+      "actual": "2",
+      "expected": "2"
+    },
+    {
+      "code": "10기수1-03-02",
+      "claim": "기본수학 순열",
+      "result": "pass",
+      "actual": "12",
+      "expected": "12"
+    },
+    {
+      "code": "10기수1-03-03",
+      "claim": "기본수학 조합",
+      "result": "pass",
+      "actual": "6",
+      "expected": "6"
+    },
+    {
+      "code": "10기수2-01-01",
+      "claim": "좌표 거리",
+      "result": "pass",
+      "actual": "5",
+      "expected": "5"
+    },
+    {
+      "code": "10기수2-01-02",
+      "claim": "직선의 주어진 점",
+      "result": "pass",
+      "actual": "3",
+      "expected": "3"
+    },
+    {
+      "code": "12대수01-01",
+      "claim": "음수 세제곱",
+      "result": "pass",
+      "actual": "-8",
+      "expected": "-8"
+    },
+    {
+      "code": "12대수01-04",
+      "claim": "로그",
+      "result": "pass",
+      "actual": "3",
+      "expected": "3"
+    },
+    {
+      "code": "12대수02-03",
+      "claim": "코사인법칙 변 제곱",
+      "result": "pass",
+      "actual": "13",
+      "expected": "13"
+    },
+    {
+      "code": "12대수03-02",
+      "claim": "등차 10항 합",
+      "result": "pass",
+      "actual": "120",
+      "expected": "120"
+    },
+    {
+      "code": "12대수03-03",
+      "claim": "등비 4항 합",
+      "result": "pass",
+      "actual": "80",
+      "expected": "80"
+    },
+    {
+      "code": "12대수03-05",
+      "claim": "망원경 합",
+      "result": "pass",
+      "actual": "5/6",
+      "expected": "5/6"
+    },
+    {
+      "code": "12미적Ⅰ-01-01",
+      "claim": "구멍 난 함수의 극한",
+      "result": "pass",
+      "actual": "2",
+      "expected": "2"
+    },
+    {
+      "code": "12미적Ⅰ-01-02",
+      "claim": "약분 후 극한",
+      "result": "pass",
+      "actual": "4",
+      "expected": "4"
+    },
+    {
+      "code": "12미적Ⅰ-02-01",
+      "claim": "x²의 1에서 미분계수",
+      "result": "pass",
+      "actual": "2",
+      "expected": "2"
+    },
+    {
+      "code": "12미적Ⅰ-02-04",
+      "claim": "곱법칙",
+      "result": "pass",
+      "actual": "z**2 + 2*z*(z - 2) + 1",
+      "expected": "3*z**2 - 4*z + 1"
+    },
+    {
+      "code": "12미적Ⅰ-02-05",
+      "claim": "접선 접점 통과",
+      "result": "pass",
+      "actual": "1",
+      "expected": "1"
+    },
+    {
+      "code": "12미적Ⅰ-02-06",
+      "claim": "평균변화율",
+      "result": "pass",
+      "actual": "4",
+      "expected": "4"
+    },
+    {
+      "code": "12미적Ⅰ-02-07",
+      "claim": "극대 함수값",
+      "result": "pass",
+      "actual": "2",
+      "expected": "2"
+    },
+    {
+      "code": "12미적Ⅰ-03-02",
+      "claim": "부정적분 미분 검산",
+      "result": "pass",
+      "actual": "3*z**2 - 2*z + 1",
+      "expected": "3*z**2 - 2*z + 1"
+    },
+    {
+      "code": "12미적Ⅰ-03-04",
+      "claim": "정적분",
+      "result": "pass",
+      "actual": "4",
+      "expected": "4"
+    },
+    {
+      "code": "12미적Ⅰ-03-05",
+      "claim": "두 곡선 넓이",
+      "result": "pass",
+      "actual": "1/6",
+      "expected": "1/6"
+    },
+    {
+      "code": "12미적Ⅰ-03-06",
+      "claim": "변위",
+      "result": "pass",
+      "actual": "0",
+      "expected": "0"
+    },
+    {
+      "code": "12미적Ⅰ-03-06",
+      "claim": "이동거리",
+      "result": "pass",
+      "actual": "1",
+      "expected": "1"
+    },
+    {
+      "code": "12미적Ⅱ-01-05",
+      "claim": "등비급수",
+      "result": "pass",
+      "actual": "1",
+      "expected": "1"
+    },
+    {
+      "code": "12미적Ⅱ-02-01",
+      "claim": "일반 밑 지수 미분",
+      "result": "pass",
+      "actual": "2**z*log(2)",
+      "expected": "2**z*log(2)"
+    },
+    {
+      "code": "12미적Ⅱ-02-03",
+      "claim": "라디안 삼각 극한",
+      "result": "pass",
+      "actual": "1",
+      "expected": "1"
+    },
+    {
+      "code": "12미적Ⅱ-02-05",
+      "claim": "합성 미분",
+      "result": "pass",
+      "actual": "2*z*cos(z**2)",
+      "expected": "2*z*cos(z**2)"
+    },
+    {
+      "code": "12미적Ⅱ-02-06",
+      "claim": "매개 기울기",
+      "result": "pass",
+      "actual": "3*t/2",
+      "expected": "3*t/2"
+    },
+    {
+      "code": "12미적Ⅱ-02-11",
+      "claim": "원운동 속력 제곱",
+      "result": "pass",
+      "actual": "sin(t)**2 + cos(t)**2",
+      "expected": "1"
+    },
+    {
+      "code": "12미적Ⅱ-03-02",
+      "claim": "치환적분 미분",
+      "result": "pass",
+      "actual": "2*z*cos(z**2)",
+      "expected": "2*z*cos(z**2)"
+    },
+    {
+      "code": "12미적Ⅱ-03-03",
+      "claim": "부분적분 미분",
+      "result": "pass",
+      "actual": "(z - 1)*exp(z) + exp(z)",
+      "expected": "z*exp(z)"
+    },
+    {
+      "code": "12미적Ⅱ-03-04",
+      "claim": "분할 합의 극한",
+      "result": "pass",
+      "actual": "1/3",
+      "expected": "1/3"
+    },
+    {
+      "code": "12미적Ⅱ-03-05",
+      "claim": "사인곡선 전체 넓이",
+      "result": "pass",
+      "actual": "4",
+      "expected": "4"
+    },
+    {
+      "code": "12미적Ⅱ-03-06",
+      "claim": "구의 단면 누적",
+      "result": "pass",
+      "actual": "4*pi*r**3/3",
+      "expected": "4*pi*r**3/3"
+    },
+    {
+      "code": "12확통01-01",
+      "claim": "같은 것이 있는 순열",
+      "result": "pass",
+      "actual": "3",
+      "expected": "3"
+    },
+    {
+      "code": "12확통01-02",
+      "claim": "중복조합",
+      "result": "pass",
+      "actual": "21",
+      "expected": "21"
+    },
+    {
+      "code": "12확통01-03",
+      "claim": "이항계수",
+      "result": "pass",
+      "actual": "6",
+      "expected": "6"
+    },
+    {
+      "code": "12확통02-04",
+      "claim": "조건부 비율",
+      "result": "pass",
+      "actual": "1/4",
+      "expected": "1/4"
+    },
+    {
+      "code": "12확통03-02",
+      "claim": "가중 평균",
+      "result": "pass",
+      "actual": "1",
+      "expected": "1"
+    },
+    {
+      "code": "12확통03-02",
+      "claim": "가중 분산",
+      "result": "pass",
+      "actual": "1/2",
+      "expected": "1/2"
+    },
+    {
+      "code": "12기하01-01",
+      "claim": "포물선 정의의 거리제곱 차",
+      "result": "pass",
+      "actual": "z**2 + (t - 1)**2 - (t + 1)**2",
+      "expected": "-4*t + z**2"
+    },
+    {
+      "code": "12기하02-04",
+      "claim": "공간 거리",
+      "result": "pass",
+      "actual": "6",
+      "expected": "6"
+    },
+    {
+      "code": "12기하03-03",
+      "claim": "수직 벡터 내적",
+      "result": "pass",
+      "actual": "0",
+      "expected": "0"
+    },
+    {
+      "code": "12경수01-01",
+      "claim": "전기 대비 증가율",
+      "result": "pass",
+      "actual": "1/10",
+      "expected": "1/10"
+    },
+    {
+      "code": "12경수01-04",
+      "claim": "두 기간 복리",
+      "result": "pass",
+      "actual": "121",
+      "expected": "121"
+    },
+    {
+      "code": "12경수03-02",
+      "claim": "역행렬의 두 곱 검산",
+      "result": "pass"
+    },
+    {
+      "code": "12경수04-04",
+      "claim": "최적 생산량",
+      "result": "pass",
+      "actual": "10",
+      "expected": "10"
+    },
+    {
+      "code": "12직수01-01",
+      "claim": "납품 수량",
+      "result": "pass",
+      "actual": "155",
+      "expected": "155"
+    },
+    {
+      "code": "12직수02-02",
+      "claim": "불량 백분율",
+      "result": "pass",
+      "actual": "4",
+      "expected": "4"
+    },
+    {
+      "code": "12직수02-02",
+      "claim": "4%에서 5% 상대 증가",
+      "result": "pass",
+      "actual": "1/4",
+      "expected": "1/4"
+    },
+    {
+      "code": "12직수02-05",
+      "claim": "작업 예산 경계",
+      "result": "pass",
+      "actual": "10",
+      "expected": "10"
+    }
+  ],
+  "elementary_files_unchanged": 121
+}

@@ -1,0 +1,84 @@
+{
+  "source_id": "SAM_2013_FUNCTIONS_II_SELECTED",
+  "source_url": "https://amsi.org.au/ESA_Senior_Years/PDF/Functions22c.pdf",
+  "source_asset_kind": "pdf",
+  "source_pdf_sha256": "34c97fcf929b9418f16b95ff71c722e1c543e9520aadc115ab32ffd1dca13728",
+  "source_pdf_url": "https://amsi.org.au/ESA_Senior_Years/PDF/Functions22c.pdf",
+  "pdf_pages": 40,
+  "selected_text_pages": [
+    1,
+    2,
+    3,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    24,
+    25
+  ],
+  "visual_pdf_pages": [
+    2,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    24,
+    25
+  ],
+  "rendered_page_sha256": {
+    "2": "0b683012a7dfbc2463b5cf99054a31c8bcbd8575c86a6407a484a997208d2992",
+    "13": "d572a753620fa246505046662b0ea6055440d9ad47e6d51a90df3413079d9f4e",
+    "14": "231d594e88735a3358b9f9c958be75c355c6cac66e1014ef14316bf74a59199a",
+    "15": "15d965020a89ff42cc1d767f34fe96c3df76f1fec6fe6fab1a70eccbca39e6aa",
+    "16": "7f63e69019d63cdfc75fb85d3ecd079dc0f403b009df7d66c1e791df7eb572c9",
+    "17": "0166bd0c90e12ef6b5282589b0cf17051a9915fc8873265a136daef982b0660a",
+    "18": "c01111c1ca6c2c1cdbe77cbcd8f50b988163b983e288f6e6394f8be74b00b60c",
+    "19": "9e601bb6bad9c7e8399e36acf985ae180c441a78fcbc5990a676e57e18883449",
+    "24": "5d4247e1e038b93bea11c40d656151328868a01cd0ee977870f0b2bd59082c2f",
+    "25": "3fe7eb8b3c344aa628b7f1388995e62961e14306eb8663e37c84b4a1cb22503a"
+  },
+  "date": "2026-11-13",
+  "reviewer": "Codex",
+  "read_scope": "서지·목차와 평행이동의 점/함수 식, 두 축 대칭·등거리 성질·양의 배율, y=x 대칭의 좌표 교환을 지정 추출문 14쪽과 실제 판면 10쪽에서 읽었다.",
+  "empirical_scope": {
+    "design": "교사용 수학 정의·정리·예시의 수식 및 실제 판면 대조",
+    "sample_description": "학생 표본·반응 자료나 국내 과제 효과 연구가 아님",
+    "inference_limit": "좌표축은 고정한 도형 이동이다. 일반 회전·행렬 변환·등거리 변환의 군·역삼각함수·미적분은 새 필수가 아니다. 원점 대칭·원 전체의 이동·유리/무리식의 특수화는 자체 설명으로 구별한다. 기본수학에는 이동형 함수 그래프를 추가하지 않는다. 원문 서술 순서는 학생 발달 근거가 아니다.",
+    "student_outcome_study": false,
+    "causal_effect_established": false,
+    "local_effect_tested": false
+  },
+  "contains_source_full_text": false,
+  "source_pdf_redistributed": false,
+  "reading_log": [
+    "서지·목차와 평행이동의 점/함수 식, 두 축 대칭·등거리 성질·양의 배율, y=x 대칭의 좌표 교환을 지정 추출문 14쪽과 실제 판면 10쪽에서 읽었다."
+  ],
+  "source_corrections": [
+    {
+      "location": "방법·문항·표·그림·서술의 대조",
+      "issue": [
+        "24쪽 좌표 교환 대칭의 일반 결론은 맞다. 제시된 기울기 나눗셈과 RHS 도식에는 a=b의 고정점과 a=−b여서 중점이 원점인 경우를 별도로 확인한다. 자체 과제는 좌표·거리 보존으로 경계를 보완한다.",
+        "원점 대칭은 두 축 대칭의 좌표 규칙으로 자체 확인한다. 원·영역 전체의 이동·일차/일차 식의 분해·무리식의 부호/계수 0은 자체 특수화이며 원문 효과 검증으로 세지 않는다.",
+        "19쪽 역함수 예의 g(x)는 x/2다. 실제 판면에서 분수선을 확인해 평탄화된 x2를 x²로 오독하지 않는다. 양의 늘임 k>0의 역변환을 k=0에 강제로 적용하지 않는다."
+      ]
+    }
+  ],
+  "coordinate_graph_completion_review": {
+    "fixed_coordinate_axes": true,
+    "whole_figure_point_mapping": true,
+    "four_required_symmetries": true,
+    "axis_fixed_points_included": true,
+    "origin_midpoint_exception_in_reflection_proof_checked": true,
+    "basic_shifted_graphs_added": false,
+    "positive_scale_and_zero_case_distinguished": true,
+    "full_module_read": false
+  }
+}

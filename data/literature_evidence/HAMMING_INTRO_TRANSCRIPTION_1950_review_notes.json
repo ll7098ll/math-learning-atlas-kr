@@ -1,0 +1,58 @@
+{
+  "source_id": "HAMMING_INTRO_TRANSCRIPTION_1950",
+  "source_url": "https://bioinfo.uib.es/~joemiro/comptrans/HammingIntro.pdf",
+  "source_asset_kind": "pdf",
+  "source_pdf_sha256": "8a59a7499b80fa2696bbcef0b28967ea65c5b36288de2667824c2b26f5f0388f",
+  "source_pdf_url": "https://bioinfo.uib.es/~joemiro/comptrans/HammingIntro.pdf",
+  "pdf_pages": 3,
+  "selected_text_pages": [
+    1,
+    2,
+    3
+  ],
+  "visual_pdf_pages": [
+    1,
+    2,
+    3
+  ],
+  "rendered_page_sha256": {
+    "1": "3fa81bd79b62625683fca6e37a42860c086bbc1cf667e8f175676328ddacf9cc",
+    "2": "0b3f3fed55e9d7567b81094ee0e82f0c37b48b28c3784d0645b77ced6cbc8553",
+    "3": "293d9ce8856d2d4cb3f2abd5dbbab6011be038ecceba580d675078e5c4270b73"
+  },
+  "date": "2026-11-16",
+  "reviewer": "Codex",
+  "read_scope": "대학 서버의 서론 재조판3쪽 전체를 추출문/판면으로 대조했다. 원논문1950년 Bell System Technical Journal29(2),147~160의 원래 판면이나 전문14쪽은 아니다. 재조판 시점은 확인하지 못했다.",
+  "empirical_scope": {
+    "design": "지정 원문·실제 판면 대조와 자체 수학·창작 과제 설계",
+    "sample_description": "학생 표본·실제 창작 결과·현장 성과를 분석한 연구가 아님",
+    "inference_limit": "이 PDF에는 뒤에서 예고한 PartI/II의 실제 부호 구성·증명이 없다. 자체 짝수 패리티는 교육용 확장으로 QR 구현·암호화·보안·오류 정정의 실제 검증이 아니다.",
+    "student_outcome_study": false,
+    "causal_effect_established": false,
+    "local_effect_tested": false
+  },
+  "contains_source_full_text": false,
+  "source_pdf_redistributed": false,
+  "reading_log": [
+    "대학 서버의 서론 재조판3쪽 전체를 추출문/판면으로 대조했다. 원논문1950년 Bell System Technical Journal29(2),147~160의 원래 판면이나 전문14쪽은 아니다. 재조판 시점은 확인하지 못했다."
+  ],
+  "source_corrections": [
+    {
+      "location": "방법·문항·표·그림·서술의 대조",
+      "issue": [
+        "대학서버자료는원논문서론재조판3쪽뿐이다. 예고된부호구성과증명·원판147~160쪽을읽었다고등록하지않는다.",
+        "서론R=n/m과현대부호율m/n·추가비트분율을구별한다. 자체패리티검출/실패를QR정정·암호화·현대통신성능이라고확대하지않는다."
+      ]
+    }
+  ],
+  "culture_creation_review": {
+    "full_book_read": false,
+    "formula_extraction_incomplete": true,
+    "own_tasks_are_not_student_responses": true,
+    "source_pdf_and_images_redistributed": false,
+    "full_article_read": false,
+    "introduction_transcription_only": true,
+    "original_article_pagination_not_read": true,
+    "transcription_date_unknown": true
+  }
+}

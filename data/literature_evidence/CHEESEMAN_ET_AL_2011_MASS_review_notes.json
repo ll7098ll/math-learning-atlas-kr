@@ -1,0 +1,68 @@
+{
+  "source_id": "CHEESEMAN_ET_AL_2011_MASS",
+  "source_url": "https://merga.net.au/publications/annual-conference-proceedings/2011-conference-proceedings/",
+  "source_pdf_url": "https://www2.merga.net.au/documents/RP_CHEESMAN%26McDONOUGH%26CLARKE_MERGA34-AAMT.pdf",
+  "source_asset_kind": "pdf",
+  "source_pdf_sha256": "595e563fedd3de74e3975cfe48925b7fa598ab531263f78675de40e9523a192d",
+  "pdf_pages": 9,
+  "selected_text_pages": [
+    1,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "visual_pdf_pages": [
+    4,
+    5,
+    6
+  ],
+  "rendered_page_sha256": {
+    "4": "8ce388f7493c01bf80db7755d397bfcc6d79d4272cf5c7e6cb991f2542a17292",
+    "5": "f8ee14420282080d1f11c4a2f473448ccef53388bf2f5feec725b7c127c8f8d0",
+    "6": "78cfb22b79f9303cad60cd5c842f731dd88211cfb45420f204c10a74723acbb0"
+  },
+  "date": "2026-11-13",
+  "reviewer": "Codex",
+  "read_scope": "비교·비표준 단위·10g 추·1kg 기준·주방저울 면담 과제, Jack의 중단 사례와 시점별 표 1을 대조했다.",
+  "empirical_scope": {
+    "design": "초기 수학 면담의 무게 영역 과제와 학년·시점별 성장점 분포, 별도 학생 사례.",
+    "sample_description": "2001년 Prep 3월 533명·11월 538명, 1학년 11월 479명, 2학년 11월 256명의 표 1 기록. Jack은 2학년 시작 때 면담한 한 사례.",
+    "inference_limit": "성공에 따라 후속 문항을 진행하는 면담이다. 미제시와 실제 오답을 구별한다. 네 열의 분모 합 1806을 고유 학생 수나 개인별 성장 추적으로 확정하지 않는다.",
+    "student_outcome_study": true,
+    "causal_effect_established": false,
+    "local_effect_tested": false
+  },
+  "contains_source_full_text": false,
+  "source_pdf_redistributed": false,
+  "reading_log": [
+    "비교·비표준 단위·10g 추·1kg 기준·주방저울 면담 과제, Jack의 중단 사례와 시점별 표 1을 대조했다."
+  ],
+  "source_corrections": [
+    {
+      "location": "방법·문항·표·그림·서술의 대조",
+      "issue": "표의 네 분모를 합한 1806과 고유 학생 수를 구별한다. 38%의 표준 단위 범주와 적용 6%를 합친 44%를 구별한다. 지침이 요구하는 40g 표기와 추 네 개라는 수량 설명을 별도로 관찰한다."
+    }
+  ],
+  "clock_mass_review": {
+    "table_column_n": [
+      533,
+      538,
+      479,
+      256
+    ],
+    "table_column_n_sum": 1806,
+    "unique_child_total_not_established": true,
+    "individual_longitudinal_changes_not_established": true,
+    "grade_2_standard_category_percent": 38,
+    "grade_2_applying_percent": 6,
+    "grade_2_standard_or_above_percent": 44,
+    "jack_interview_stopped_after_informal_unit_task": true,
+    "unadministered_not_incorrect": true,
+    "ten_gram_weight_count": 4,
+    "standard_grams": 40,
+    "rice_grams": 135,
+    "needed_for_one_kg_grams": 865
+  }
+}

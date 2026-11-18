@@ -1,0 +1,75 @@
+{
+  "source_id": "OPENSTAX_CONTEMP_SIMPLE_INTEREST_SELECTED_2023",
+  "source_url": "https://openstax.org/details/books/contemporary-mathematics",
+  "source_asset_kind": "pdf",
+  "source_pdf_sha256": "300726c9820a8d0822c56e33582a44dffa47111147d64e9cb936b316c448ab38",
+  "source_pdf_url": "https://assets.openstax.org/oscms-prodcms/media/documents/contemporary-mathematics_-_WEB.pdf",
+  "pdf_pages": 1899,
+  "selected_text_pages": [
+    3,
+    4,
+    576,
+    577,
+    578,
+    579,
+    580,
+    581
+  ],
+  "visual_pdf_pages": [
+    4,
+    576,
+    577,
+    578,
+    579,
+    580,
+    581
+  ],
+  "rendered_page_sha256": {
+    "4": "55d9777058d9b0f8bccb676bf269bf27377adef8c637a8c644a632177d2d1dd6",
+    "576": "99a7dd04ce08978cf51a94f4872cf4b85512234a7e20d11e2419f48bbf84f39e",
+    "577": "f5e20cc8555aa5dd1fb8675ef6082245363cbc5115fcbd3b47bc8483168264cf",
+    "578": "9f422176e5f45cfee4e809ca29240f551033c720ac0bbb770291dc244f04ce27",
+    "579": "a8b5bc49f7d5d4d04834660ed81d36432d9edc50bbd5b9017d09e8a2526fa986",
+    "580": "d1fa515dfc6ecaa18d9f14daee615295f66bcbbade505e8fe4321889292657d0",
+    "581": "722acdd3810ad3f1f02f5e5f62a1facdda9b72487e11dda01e2a73d286efe624"
+  },
+  "date": "2026-11-16",
+  "reviewer": "Codex",
+  "read_scope": "지정 추출문 8쪽·실제 판면 7쪽에서 단리의 원금·연이율·기간과 원리합계,개월/일수 환산·365/360 기준·반올림 관례와 원금이 바뀌는 구간을 대조했다. PDF 쪽은 인쇄 쪽보다 10 크다. 576쪽의 주식 매수자=대여자 비유와 577·580쪽의 보편적 올림/내림 서술은 자체 과제에 그대로 옮기지 않았다.",
+  "empirical_scope": {
+    "design": "공식 공개 교과서의 수학적 모형·수식·표·실제 판면 대조",
+    "sample_description": "실제 학생 표본·응답을 분석한 연구가 아님",
+    "inference_limit": "지정 범위의 수학 참고이며 전권·국내 금융 약정·현행 이율·투자 효과 검증이 아니다. 일수 기준과 반올림 방법은 과제의 가정으로 명시한다. 만기까지 원금이 유지되는 단리 모형과 중도 변동을 구별하며,모든 주식 투자를 원금·이자가 정해진 대출로 설명하거나 수익·안전을 보장하지 않는다. 복잡한 부분 상환·신용 상품 비교는 새 필수가 아니다.",
+    "student_outcome_study": false,
+    "causal_effect_established": false,
+    "local_effect_tested": false
+  },
+  "contains_source_full_text": false,
+  "source_pdf_redistributed": false,
+  "reading_log": [
+    "지정 추출문 8쪽·실제 판면 7쪽에서 단리의 원금·연이율·기간과 원리합계,개월/일수 환산·365/360 기준·반올림 관례와 원금이 바뀌는 구간을 대조했다. PDF 쪽은 인쇄 쪽보다 10 크다. 576쪽의 주식 매수자=대여자 비유와 577·580쪽의 보편적 올림/내림 서술은 자체 과제에 그대로 옮기지 않았다."
+  ],
+  "source_corrections": [
+    {
+      "location": "방법·문항·표·그림·서술의 대조",
+      "issue": [
+        "576쪽 주식 매수자=대여자 비유를 일반화하지 않는다. 주식 소유와 원금·이자가 약정된 대출을 구별하며 원문 사진의 APY를 단리 연이율이라고 자동 해석하지 않는다.",
+        "577쪽 거의 항상 올림·580쪽 지급액 내림은 모든 실제 약정의 규칙이 아니다. 자체 과제에 반올림/올림과 단위를 명시하고 중간 정밀도를 보존한다. 578~579쪽 일수 계산의365/360은 가정으로 확인하며 기간을 두 번 나누지 않는다.",
+        "581쪽까지의 원금 유지·부분 변화 설명은 구간별 원금과 이자 재투자를 나누어 읽었다. 실제 상품 금리·안전성·중도 지급·최적 상품 추천으로 일반화하지 않는다."
+      ]
+    }
+  ],
+  "economy_money_review": {
+    "full_book_read": false,
+    "source_license_as_read": "CC BY-NC-SA 4.0, PDF page 4; source PDFs/images are not redistributed",
+    "formula_extraction_incomplete": true,
+    "own_tasks_are_not_student_responses": true,
+    "fictional_task_values_are_not_current_rates_or_law": true,
+    "original_publication_year": 2023,
+    "pdf_build_date": "2026-04-20",
+    "printed_page_offset": 10,
+    "day_count_explicit": true,
+    "rounding_policy_not_universal": true,
+    "stocks_not_classified_as_loans": true
+  }
+}

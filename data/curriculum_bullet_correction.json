@@ -1,0 +1,15 @@
+{
+  "date": "2026-11-04",
+  "source_file": "[별책8] 수학과 교육과정.pdf",
+  "source_sha256": "ba7c7c63ad31ba0fd32e5eb8148d696dd73288acce111495c593298112f8f840",
+  "pdf_page": 252,
+  "evidence_file": "data/source_review_images/structure-252.png",
+  "error": "항목 내부의 토의⋅토론을 두 글머리표로 분리",
+  "correction": "시각적 텍스트 줄 시작의 글머리표만 항목 경계로 인정",
+  "previous_total": 572,
+  "corrected_total": 571,
+  "affected_block": "CT-252-3",
+  "previous_block_items": 8,
+  "corrected_block_items": 7,
+  "verification": "기존 19개 표의 모든 추출 영역을 두 방식으로 전수 비교하여 다른 항목의 변화가 없음을 확인. 이미지에서 하나의 글머리표 확인."
+}

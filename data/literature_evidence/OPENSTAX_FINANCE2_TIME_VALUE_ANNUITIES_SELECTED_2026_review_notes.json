@@ -1,0 +1,99 @@
+{
+  "source_id": "OPENSTAX_FINANCE2_TIME_VALUE_ANNUITIES_SELECTED_2026",
+  "source_url": "https://openstax.org/details/books/principles-finance-2e",
+  "source_asset_kind": "pdf",
+  "source_pdf_sha256": "7d942df1aaf2fc3edcc7f681955cdabecdd0d4e4c754469f0bea159461a6ad79",
+  "source_pdf_url": "https://assets.openstax.org/oscms-prodcms/media/documents/Principles_of_Finance_2e_-_WEB_.pdf",
+  "pdf_pages": 629,
+  "selected_text_pages": [
+    3,
+    4,
+    202,
+    203,
+    204,
+    205,
+    206,
+    207,
+    238,
+    239,
+    241,
+    242,
+    243,
+    244,
+    253,
+    254
+  ],
+  "visual_pdf_pages": [
+    4,
+    203,
+    204,
+    205,
+    207,
+    238,
+    239,
+    241,
+    242,
+    243,
+    244,
+    253,
+    254
+  ],
+  "rendered_page_sha256": {
+    "4": "b61c7bd12658627e87b9d660585528e0516e069cb141cbb05a1f56b9521b2a19",
+    "203": "40721282e252474afa0da5967719952896bc942ef569834489e2e629dad6bb0f",
+    "204": "e0a61cba58c6c763933ae550c5edf8b631a3256d4742f19e00f77d38641157b1",
+    "205": "75fe93ef46156a6ac0047e04f677a2b0d11ed01dd5e303b1d1a47d1d7446a550",
+    "207": "612754d69e2ac1f828d3f5dfa8a8ad6a5fbc77f18b64132e7ba835100d6d9863",
+    "238": "44a165c4f4f366ff98768205aec34dad63e011f849dd2899aa633151c056dd96",
+    "239": "70f33953b96c343d1e8a38319455fc442a118e17683369a4991ec28c9abbf675",
+    "241": "82953236a8c5b67e5151e0bf00de9c5f2ee14f621036ef7f40effcb70ec44a79",
+    "242": "044487ca843099cc62e7e142a58be20cd461be0dfec98e70e5f20631701d5d24",
+    "243": "a4ed336f6930c840f6fc8d864fca83060a4cd609742138b62919a844c3ea573f",
+    "244": "1a6b77b527b0002b8cab93936802df809b7b2524d41a5d20c5ab0a3a5dd8a62c",
+    "253": "125a60db8040f1966e45fa1408fdb705b0f7f69e536fd9ff275763f176ef3c1c",
+    "254": "5c6342c5cd38799a08e0723af81c8af1259e0e4231d1444d2e032d921e4ed4ca"
+  },
+  "date": "2026-11-16",
+  "reviewer": "Codex",
+  "read_scope": "지정 추출문 16쪽·실제 판면 13쪽에서 이자 재투자·시점·기간당 이율·명목/실효 연이율,일시금 할인,기말·기초 연금의 시간선·각 지급의 현재가치 합·영구연금을 대조했다. 표 8.2의 3년 지급 할인값과 합계,식 8.15·8.17의 중간 반올림을 직접 재계산했다. PDF 쪽은 인쇄 쪽보다 14 크다.",
+  "empirical_scope": {
+    "design": "공식 공개 교과서의 수학적 모형·수식·표·실제 판면 대조",
+    "sample_description": "실제 학생 표본·응답을 분석한 연구가 아님",
+    "inference_limit": "지정 범위의 수학 참고이며 전권·실제 투자 수익 보장·특정 상품 권유·학생/독립 검증이 아니다. 같은 통화·같은 기준시점·고정 기간당 이율과 명시된 지급 횟수를 가정한다. 위험·세금·수수료·물가·상품 조건을 생략한 계산을 실제 우열로 일반화하지 않는다. 영구연금은 양의 할인율에서 별도 등비급수 모형이며 연속복리·성장 배당·대출상환표·금융계산기 조작을 새 필수로 추가하지 않는다.",
+    "student_outcome_study": false,
+    "causal_effect_established": false,
+    "local_effect_tested": false
+  },
+  "contains_source_full_text": false,
+  "source_pdf_redistributed": false,
+  "reading_log": [
+    "지정 추출문 16쪽·실제 판면 13쪽에서 이자 재투자·시점·기간당 이율·명목/실효 연이율,일시금 할인,기말·기초 연금의 시간선·각 지급의 현재가치 합·영구연금을 대조했다. 표 8.2의 3년 지급 할인값과 합계,식 8.15·8.17의 중간 반올림을 직접 재계산했다. PDF 쪽은 인쇄 쪽보다 14 크다."
+  ],
+  "source_corrections": [
+    {
+      "location": "방법·문항·표·그림·서술의 대조",
+      "issue": [
+        "242쪽 표8.2의 세 번째 지급25000/(1.08)^3은19845.8060…이며 인쇄19846.81은1만큼 큰 수치 오기다. 전체를 중간 반올림 없이 더하면99817.7509…로 최종99817.75다. 인쇄99818.76은 그대로 채택하지 않는다.",
+        "243쪽 식8.15의99817.81과244쪽 식8.17의107803.24는 중간값을 먼저 반올림한 계산이다. 정확한 식의 기말99817.7509…와 기초107803.1710…를 유지하고 마지막에 반올림한다. 표의 수치 오기와 중간 반올림 효과는 별개로 기록한다.",
+        "239쪽의 이율과 무관하게 먼 지급 가치가 작아진다는 서술은 제한한다. 양의 정액 영구 지급에서 i>0의 수렴 조건을 명시한다. 244쪽 기초 가치가 항상 더 크다는 말도 양의 지급·양의 이율에서 사용하며0·음의 이율은 자체 경계로 비교한다.",
+        "204쪽의 첫해 단리/둘째 해 복리 표현은 같은 첫해 금액과 다음 해 이자 재투자 차이로 설명한다. 202~206쪽 증가·가치의 문구를 무위험 수익 보장으로 쓰지 않고 고정 양의 이율·입출금 없음 등 모형 조건을 보존한다.",
+        "253~254쪽 명목/실효 계산은 월 이율과12기간을 맞춘다. 신용카드의 실제 약정·연체 비용 전체나 대출상환표를 이번 새 필수로 다루지 않는다."
+      ]
+    }
+  ],
+  "economy_money_review": {
+    "full_book_read": false,
+    "source_license_as_read": "CC BY-NC-SA 4.0, PDF page 4; source PDFs/images are not redistributed",
+    "formula_extraction_incomplete": true,
+    "own_tasks_are_not_student_responses": true,
+    "fictional_task_values_are_not_current_rates_or_law": true,
+    "original_publication_year": 2026,
+    "pdf_build_date": "2026-06-12",
+    "printed_page_offset": 14,
+    "period_rate_and_count_matched": true,
+    "payment_count_unchanged_for_annuity_due": true,
+    "zero_rate_finite_sum_separate": true,
+    "perpetuity_requires_positive_rate": true,
+    "round_only_final_value": true
+  }
+}

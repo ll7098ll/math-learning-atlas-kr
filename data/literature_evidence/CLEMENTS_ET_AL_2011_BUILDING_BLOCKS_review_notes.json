@@ -1,0 +1,191 @@
+{
+  "source_id": "CLEMENTS_ET_AL_2011_BUILDING_BLOCKS",
+  "source_url": "https://doi.org/10.5951/jresematheduc.42.2.0127",
+  "source_asset_kind": "author_web_text",
+  "author_text_review": {
+    "url": "https://www.researchgate.net/publication/258933028_Mathematics_Learned_by_Young_Children_in_an_Intervention_Based_on_Learning_Trajectories_A_Large-Scale_Cluster_Randomized_Trial",
+    "uploaded_by": "Douglas H. Clements",
+    "article_pdf_obtained": false,
+    "article_printed_pages": [
+      127,
+      166
+    ],
+    "selected_sections": [
+      {
+        "section": "연구 개요와 서지",
+        "printed_pages": [
+          127,
+          127
+        ]
+      },
+      {
+        "section": "학교 배정과 유아 단계 비교",
+        "printed_pages": [
+          130,
+          132
+        ]
+      },
+      {
+        "section": "정규 수업과 평가 도구",
+        "printed_pages": [
+          134,
+          138
+        ]
+      },
+      {
+        "section": "사후검사 탈락",
+        "printed_pages": [
+          141,
+          141
+        ]
+      },
+      {
+        "section": "총점·주제별 점수, 다층모형 및 교실 관찰",
+        "printed_pages": [
+          144,
+          151
+        ]
+      },
+      {
+        "section": "문항별 해석과 비교 조건",
+        "printed_pages": [
+          154,
+          156
+        ]
+      },
+      {
+        "section": "구성요소 해석의 한계",
+        "printed_pages": [
+          160,
+          161
+        ]
+      }
+    ]
+  },
+  "read_scope": "저자가 공개한 웹 본문에서 인쇄 127·130~132·134~138·141·144~151·154~156·160~161쪽의 관련 문단과 표를 대조했다. 원논문 PDF와 판면은 미확보다. 2013 IES 가이드 표 D.2와 2023 WWC 보고서의 PDF 6~7쪽을 별도로 대조했다.",
+  "date": "2026-11-09",
+  "reviewer": "Codex",
+  "original_page_layout_review": false,
+  "contains_source_full_text": false,
+  "source_pdf_redistributed": false,
+  "empirical_scope": {
+    "design": "school_cluster_randomized_block_trial",
+    "sample_description": "42개 학교·106개 교실에서 유아 1,375명을 모집했고 사전·사후 점수가 있는 중재 927명과 대조 378명을 분석했다.",
+    "inference_limit": "두 미국 도시 학군의 유아 단계에서 교육과정·교사 연수·기술 지원을 함께 제공한 결과다. 요소별 인과 효과, 국내 활동의 효과, 유치원·1학년 후속 지원의 효과는 이 비교에서 확인되지 않았다.",
+    "student_outcome_study": true,
+    "causal_effect_established": true,
+    "local_effect_tested": false
+  },
+  "reading_log": [
+    "저자의 웹 본문에서 모집·배정과 탈락, 두 유아 중재 조건의 통합, 정규 수업에 포함된 수학을 확인했다.",
+    "REMA 총점 추론 분석, 영역별 원점수 기술통계, 개별 문항에 관한 설명을 구별했다.",
+    "2013 가이드 D.2와 2023 WWC의 결과를 비교했다. 2023년 표 4·5는 PDF 텍스트와 이미지를 모두 대조했다."
+  ],
+  "source_corrections": [
+    {
+      "location": "2013 가이드 참고문헌과 원논문 서지",
+      "issue": "가이드에 126~177쪽으로 적힌 범위를 원논문 서지 127~166쪽과 구별했다."
+    },
+    {
+      "location": "원논문 표 3·4와 WWC 2023 표 4",
+      "issue": "중재 집단 사후 평균 51.36과 WWC 표의 52.40, 그리고 0.72와 0.48을 각각 보고된 분석과 표에 귀속했다."
+    }
+  ],
+  "flow": {
+    "schools": 42,
+    "classrooms": 106,
+    "enrolled": 1375,
+    "attrition_by_arm": [
+      52,
+      18
+    ],
+    "analyzed_by_arm": [
+      927,
+      378
+    ],
+    "classrooms_by_arm": [
+      72,
+      34
+    ]
+  },
+  "comparisons": {
+    "paper_multilevel_total_effect": 0.72,
+    "report_2023_total_effect": 0.48,
+    "report_2023_means": [
+      52.4,
+      44.01
+    ],
+    "table_3_value_order": [
+      "사전 평균",
+      "사후 평균",
+      "사후 표준편차"
+    ],
+    "table_3_checks": [
+      {
+        "outcome": "REMA Rasch 총점",
+        "intervention": [
+          18.54,
+          51.36,
+          17.25
+        ],
+        "comparison": [
+          19.63,
+          44.01,
+          17.89
+        ],
+        "guide_2013": 0.48,
+        "approximate_from_table_3": 0.483733
+      },
+      {
+        "outcome": "수 원점수 합",
+        "intervention": [
+          9.47,
+          29.71,
+          12.72
+        ],
+        "comparison": [
+          10.26,
+          25.53,
+          13.2
+        ],
+        "guide_2013": 0.39,
+        "approximate_from_table_3": 0.386226
+      },
+      {
+        "outcome": "기하 원점수 합",
+        "intervention": [
+          7.25,
+          14.34,
+          3.69
+        ],
+        "comparison": [
+          7.65,
+          12.39,
+          3.71
+        ],
+        "guide_2013": 0.64,
+        "approximate_from_table_3": 0.635491
+      }
+    ],
+    "approximation": "변화량 차이를 사후 합동 표준편차로 나누고 소표본 보정을 적용했다. 보고된 평균·표준편차만으로 한 근사 검산이다.",
+    "guide_no_discernible_subscales": [
+      "회전",
+      "도형 비교",
+      "산술",
+      "수 합성"
+    ]
+  },
+  "supplementary_report": {
+    "url": "https://ies.ed.gov/ncee/WWC/Docs/InterventionReports/WWC_Building-Blocks_report.pdf",
+    "sha256": "3cb8988573e6d2a3e1dbb80183a09038bb3aecf04a1d0440269849b4cf9caaa0",
+    "pdf_pages": 9,
+    "text_and_visual_pages": [
+      6,
+      7
+    ],
+    "image_sha256": {
+      "6": "3f866b1c7eb5ffe54046f0e118ebf139c0f0b49046c9bd6174781d059ae8e6b8",
+      "7": "cb123434ab2576a19c9d3053d81491d2350f672d4207088b5141ece496581344"
+    }
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "source_id": "UNEP_FOOD_WASTE_UNCOPY_SELECTED_2024",
+  "source_url": "https://digitallibrary.un.org/record/4042857",
+  "source_asset_kind": "pdf",
+  "source_pdf_sha256": "d4d04a1abde2a59e7ca5e8d0194a499589be0096255f51bd229d34c6e1bc902a",
+  "source_pdf_url": "https://digitallibrary.un.org/record/4042857/files/1401794_EN.pdf",
+  "pdf_pages": 191,
+  "selected_text_pages": [
+    2,
+    3,
+    5,
+    21,
+    22,
+    23,
+    64,
+    67,
+    68,
+    76,
+    77,
+    89
+  ],
+  "visual_pdf_pages": [
+    2,
+    3,
+    5,
+    21,
+    22,
+    23,
+    64,
+    67,
+    68,
+    76,
+    77,
+    89
+  ],
+  "rendered_page_sha256": {
+    "2": "06db2490ef57aaf205e13e875133522335ca6f428b8d26cf34ef30909172b6d5",
+    "3": "a57e14ee45e4c52dfccf444adc720badfed7cd2e76a0de40bc358e7ff2a7e1af",
+    "5": "21d9628e094b5af6c86345bda63e45b1a1ee5c15f82c88136598dab72dbc5a46",
+    "21": "fc7b589f1949d69024f214d6f02f89e46ce79d2e4377a3a828ab0bc5df68115b",
+    "22": "ca4d3a969f8c2ced61a737bd86864a72e3bdc5d2ead0b5e397d5545bd9391696",
+    "23": "423b8c9f369150756b5be86cee47ddd45519d6cc121f47545401d91ef8873c90",
+    "64": "389d4efba52999c05297e0d32602521f71ebe1b53da1be78ee738737349aa254",
+    "67": "61aa899aa5bfe063245e6ab52f3db2202d535b5ee6a18eb13b2d84db8067b603",
+    "68": "8519580685361ef4533d3bb36413c168ac8683e86daee72a342cc0921345eea2",
+    "76": "27ade2263899aa338b6f189554b02eed3f5e4d3d20b7ebe8ee074c05fd59c2f8",
+    "77": "f17bd0bef3c75e79158a14995cc6c6fcd392029c05ae239e6b16de6302d2d9cf",
+    "89": "d3b3d82ea05aeacbc416ed30573a627cfc3baccc1a0dcdd8c08b4d7962ccd3c8"
+  },
+  "date": "2026-11-16",
+  "reviewer": "Codex",
+  "read_scope": "UN공식 도서관191쪽PDF의지정 추출문·판면12쪽에서발행일2024-03-27·정의·경계·지수·추정/실측·정규화·분류를읽었다. 본문인쇄쪽은PDF−18이며V는PDF5다. 확보본의ISBN란·일부 절 참조가 비어 있어다른배포파일과동일판면이라고하지않는다.",
+  "empirical_scope": {
+    "design": "지정 원문·판면 대조와 자체 수학 과제 설계",
+    "sample_description": "실제 학생·사업장·생태 조사 표본을 분석한 연구가 아님",
+    "inference_limit": "국가별원자료·전권·전국/학교의실제변화·급식개선 효과나식품안전을검증하지않았다. 보고서추정·보고서가상예·자체가상자료·현장실측을구별한다.",
+    "student_outcome_study": false,
+    "causal_effect_established": false,
+    "local_effect_tested": false
+  },
+  "contains_source_full_text": false,
+  "source_pdf_redistributed": false,
+  "reading_log": [
+    "UN공식 도서관191쪽PDF의지정 추출문·판면12쪽에서발행일2024-03-27·정의·경계·지수·추정/실측·정규화·분류를읽었다. 본문인쇄쪽은PDF−18이며V는PDF5다. 확보본의ISBN란·일부 절 참조가 비어 있어다른배포파일과동일판면이라고하지않는다."
+  ],
+  "source_corrections": [
+    {
+      "location": "방법·문항·표·그림·서술의 대조",
+      "issue": [
+        "UN도서관191쪽확보본의ISBN·일부절참조가빈것을보존하며다른배포본과동일판면이라고하지않는다. 식품폐기에는관련비가식부위가포함되고포장은제외된다.",
+        "64쪽은2019/2022추정치차이를실제증가율로읽지말라고제한한다. Level1모형과변화추적용일관측정을구별하고부문지수를무가중통합하지않는다.",
+        "89쪽0.5초과/미만분류는정확히0.5를정하지않는다. 자체보류규칙을새로명시하며문화적가식분류·폐기당시상태·예방가능성을같게읽지않는다."
+      ]
+    }
+  ],
+  "culture_environment_review": {
+    "full_book_read": false,
+    "formula_extraction_incomplete": true,
+    "own_tasks_are_not_student_responses": true,
+    "source_pdf_and_images_redistributed": false,
+    "current_law_and_regulations_not_reviewed": true,
+    "official_un_copy_pages": 191,
+    "blank_isbn_and_some_section_references_present": true,
+    "not_asserted_identical_to_other_distributions": true
+  }
+}

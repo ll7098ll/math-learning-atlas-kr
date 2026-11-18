@@ -1,0 +1,71 @@
+{
+  "source_id": "MATTERA_ET_AL_2017_MPC_DESIGN",
+  "source_url": "https://doi.org/10.1016/bs.acdb.2017.04.002",
+  "source_pdf_url": "https://files.eric.ed.gov/fulltext/ED651010.pdf",
+  "source_asset_kind": "pdf",
+  "source_pdf_sha256": "1c73db048ed405ef14a7466b3400f4ec6a0c28cadf64ec94b8b97e858c233b05",
+  "source_pdf_redistributed": false,
+  "contains_source_full_text": false,
+  "date": "2026-11-10",
+  "reviewer": "Codex",
+  "read_scope": "ERIC 공개본에서 프로그램 선정, 주간 운영 기준, 통상 수업, 검사 선택과 두 단계 배정을 설명하는 선정 본문 및 표 1·2를 대조했다.",
+  "pdf_pages": 28,
+  "selected_text_pages": [
+    6,
+    7,
+    8,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    23,
+    24,
+    25
+  ],
+  "visual_pdf_pages": [
+    8,
+    12,
+    16,
+    19,
+    23
+  ],
+  "rendered_page_sha256": {
+    "8": "85a9c43afbfed810bba9edfe02fe0bd2439088928787214fb784a3816e964278",
+    "12": "3618b78826641354bc4ac89a2ec0d5bc1e810acb1dc6c49a6c603c9e7d8fb94a",
+    "16": "5ab749b8be0553199b517543b6ff2cc8570a32a92364b0b581af8855eb449bed",
+    "19": "c38e3666d6cdf332484f4a8f75892a4673aa1b683a7f5aba4a60b6f6d518d9aa",
+    "23": "a8d378d7d13145d625f4a9dafb41e52c670685faf3156cf4358e3785ff7818e5"
+  },
+  "study_family": "MDRC_MAKING_PRE_K_COUNT_HIGH_5S",
+  "design_only": true,
+  "reading_log": [
+    "선정표의 표식과 각주, 활동 기준별 분모, 검사 목적 및 배정 수준을 확인했다."
+  ],
+  "source_corrections": [
+    {
+      "location": "표 1·2",
+      "issue": "프로그램 선정표와 운영 기준을 직접 효과 추정으로 해석하지 않는다."
+    }
+  ],
+  "planned_weekly_benchmarks": {
+    "whole_group_attendance_days_percent": 66,
+    "small_group_all_children_percent": 75
+  },
+  "implementation_counts": {
+    "facilitators": 25,
+    "supervisors": 5,
+    "clubs": 79,
+    "public_schools": 24
+  },
+  "design_followup": {
+    "url": "https://journals.sagepub.com/doi/10.1177/0193841X231159472",
+    "reviewed": "abstract_and_references",
+    "reported_kindergarten_n": 613,
+    "full_text_verified": false
+  }
+}

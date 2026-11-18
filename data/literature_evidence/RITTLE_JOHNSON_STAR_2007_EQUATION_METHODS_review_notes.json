@@ -1,0 +1,128 @@
+{
+  "source_id": "RITTLE_JOHNSON_STAR_2007_EQUATION_METHODS",
+  "source_url": "https://doi.org/10.1037/0022-0663.99.3.561",
+  "date": "2026-11-10",
+  "reviewer": "Codex",
+  "source_asset_kind": "author_web_text",
+  "author_text_review": {
+    "url": "https://www.researchgate.net/publication/228339259_Does_Comparing_Solution_Methods_Facilitate_Conceptual_and_Procedural_Knowledge_An_Experimental_Study_on_Learning_to_Solve_Equations",
+    "uploaded_by": "Bethany Rittle-Johnson",
+    "article_pdf_obtained": false,
+    "article_printed_pages": [
+      561,
+      574
+    ],
+    "selected_sections": [
+      {
+        "section": "초록과 표본·배정·제시 조건",
+        "printed_pages": [
+          561,
+          564
+        ]
+      },
+      {
+        "section": "평가와 분석의 결과 영역·사후 결측",
+        "printed_pages": [
+          564,
+          567
+        ]
+      },
+      {
+        "section": "즉시 성과·다층 분석·연습 중 전략, 표 3–5",
+        "printed_pages": [
+          567,
+          569
+        ]
+      }
+    ]
+  },
+  "read_scope": "저자가 공개한 출판본의 초록과 선정 방법·결과 텍스트, 표 3–5의 결과 및 WWC의 가이드와 연구 페이지를 대조했다. PDF 파일과 원본 판면은 미확보다.",
+  "original_page_layout_review": false,
+  "contains_source_full_text": false,
+  "source_pdf_redistributed": false,
+  "empirical_scope": {
+    "design": "within_classroom_randomized_dyad_equation_comparison",
+    "sample_description": "미국 사립 중학교 7학년 70명, 35쌍 배정. 사후 결석 1명은 논문에서 추정 처리했다.",
+    "inference_limit": "미국 도시의 선발형 사립학교 한 곳에서 7학년 네 학급을 맡은 교사 한 명이 참여했다. 풀이의 제시 방식과 설명 질문이 함께 달랐다. 단기 즉시 검사이며 현재 국내 과제의 효과와 장기 유지, 방법별 별도 효과는 확인하지 않았다.",
+    "student_outcome_study": true,
+    "causal_effect_established": true,
+    "local_effect_tested": false
+  },
+  "source_corrections": [
+    {
+      "location": "원논문 인쇄563–564쪽, WWC 79861 비교 조건과 가이드 표 D.4",
+      "issue": "원논문에서는 대조군도 24개 풀이 예와 24개 질문에 노출됐다. WWC의 대조군 요약은 12개 예를 두 개씩 같은 쪽에 제시했다고 적었다. 저자와 WWC의 서술 차이를 보존하고 한쪽의 조건을 다른 쪽에 덮어쓰지 않는다."
+    },
+    {
+      "location": "원논문 표 4, WWC 79861 유연성 결과",
+      "issue": "같은 .17·.10 사용 비율에 대해 원논문은 유의, WWC 연구 페이지는 비유의로 표시했다. 개별 측정과 가이드 PDF64 각주 h의 표기를 따로 보존한다."
+    },
+    {
+      "location": "가이드 PDF70 정정과 PDF61 표 D.4",
+      "issue": "2018년 1월 31일 변경은 절차 지식 0.33에 유의 표시를 추가했다. 저자 논문의 Cohen d 또는 지름길 사용에 대한 정정으로 취급하지 않는다."
+    }
+  ],
+  "crosscheck": {
+    "assigned_n": 70,
+    "assigned_pairs": [
+      18,
+      17
+    ],
+    "missing_posttest_n": 1,
+    "author_imputed_by": "regression single imputation with Stata 9 IMPUTE",
+    "wwc_n": 69,
+    "same_analysis": false,
+    "wwc_study_url": "https://ies.ed.gov/ncee/wwc/study/79861",
+    "guide_pdf_pages": [
+      61,
+      64,
+      70
+    ],
+    "comparison_description_conflict": true,
+    "author_sequential_worked_examples": 24,
+    "author_sequential_examples_per_sheet": 1,
+    "wwc_summary_sequential_worked_examples": 12,
+    "wwc_summary_sequential_examples_per_page": 2
+  },
+  "reading_log": [
+    "선발형 사립 중학교, 짝 단위 배정, 이틀 동안 자료 제시·질문과 즉시 검사 범위를 확인했다.",
+    "두 조건의 예제 노출 수와 제시 단위에 관한 원논문과 WWC의 표현을 대조했다.",
+    "표 3의 변화량, 표 4의 시도당 전략 비율, 표 5의 짝 단위 다층 분석, 가이드 D.4와 각주를 구별했다."
+  ],
+  "results": {
+    "author_table3_gain_d": {
+      "procedural": 0.53,
+      "flexibility": 0.38,
+      "conceptual": -0.14
+    },
+    "reconstructed_d_from_rounded_summary": {
+      "procedural": 0.524,
+      "flexibility": 0.384,
+      "conceptual": -0.145
+    },
+    "author_table5_condition_coefficient": {
+      "procedural": 0.08,
+      "flexibility": 0.1,
+      "conceptual": -0.04
+    },
+    "author_table4_shortcut_use": {
+      "proportions": [
+        0.17,
+        0.1
+      ],
+      "significant": true
+    },
+    "wwc_page_shortcut_use": {
+      "proportions": [
+        0.17,
+        0.1
+      ],
+      "significant": false
+    },
+    "guide_effects": {
+      "procedural": 0.33,
+      "flexibility": 0.4,
+      "conceptual": -0.19
+    }
+  }
+}

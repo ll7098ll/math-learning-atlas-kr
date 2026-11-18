@@ -1,0 +1,74 @@
+{
+  "source_id": "GAISE_2020_INQUIRY_SELECTED",
+  "source_url": "https://www.amstat.org/asa/files/pdfs/GAISE/GAISEIIPreK-12_Full.pdf",
+  "source_asset_kind": "pdf",
+  "source_pdf_sha256": "085497d12a2822262de7c68ee7f65c102ba65cd8a523f7a91e01d2fd6119351f",
+  "source_pdf_url": "https://www.amstat.org/asa/files/pdfs/GAISE/GAISEIIPreK-12_Full.pdf",
+  "pdf_pages": 126,
+  "selected_text_pages": [
+    14,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    111
+  ],
+  "visual_pdf_pages": [
+    14,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    111
+  ],
+  "rendered_page_sha256": {
+    "14": "94099e4fd39ab0a7b10ee0be64fb625d7dbb5d2311d960d47dbe99d3ab39f0ad",
+    "17": "2420c43049990919dca572c00d564930fc574d5fac0283360787d13a99e88ca4",
+    "18": "7fe68f1c4316cfb6c08d1aae22dcb03c7092140cc2314d823c1a8753505deca3",
+    "19": "5fd9615380fc4b811adac9bb13aca8fa3908f53f4159ad7f8013eebe73b44a22",
+    "20": "04ab131a715d3190c6c84910b6f5304697f680f8a691dae1db34d65168ce0885",
+    "21": "62996b74c7f84d25c7582b387747ddb0efab0822b22060ad698dfa4413c28340",
+    "22": "4ddce5a0b1265fcb5aa2e6993fc1ec878c0be49d0268bb2fe7c4c582ba9d4f31",
+    "23": "b1d6e282786a614a7e406dd6a3709faa0da68b42f721a9b69a33b0dda3565a66",
+    "111": "7f22951c5850721965e370f2d5f9643745434cf5234e40c8a7f655393850a6a5"
+  },
+  "date": "2026-11-16",
+  "reviewer": "Codex",
+  "read_scope": "기존 GAISE_2020과 같은 캐시 PDF의 추가 범위다. 지정9쪽의 추출문·판면에서 질문·자료·분석·해석의 순환, 기술·평가, 기록·윤리를 다시 대조하고 실용 통계 프로젝트에 연결했다. 새 책이나 전126쪽 판면 확인으로 세지 않는다. 본문 인쇄쪽은 PDF−8이다.",
+  "empirical_scope": {
+    "design": "공식 교육 자료의 지정 추출문·실제 판면 대조와 자체 수학 활동 설계",
+    "sample_description": "실제 국내 학생 응답이나 무작위 효과 연구 표본이 아님",
+    "inference_limit": "교육 프레임워크의 권고이며 이 자체 프로젝트·도구의 실제 학생 효과를 입증하지 않는다. 기존19개 주장·관찰과 원본 source 항목은 보존한다. 현행 개인정보 법규·인용 원연구·모든 추가 자료를 검토한 것이 아니다.",
+    "student_outcome_study": false,
+    "causal_effect_established": false,
+    "local_effect_tested": false
+  },
+  "contains_source_full_text": false,
+  "source_pdf_redistributed": false,
+  "reading_log": [
+    "기존 GAISE_2020과 같은 캐시 PDF의 추가 범위다. 지정9쪽의 추출문·판면에서 질문·자료·분석·해석의 순환, 기술·평가, 기록·윤리를 다시 대조하고 실용 통계 프로젝트에 연결했다. 새 책이나 전126쪽 판면 확인으로 세지 않는다. 본문 인쇄쪽은 PDF−8이다."
+  ],
+  "source_corrections": [
+    {
+      "location": "방법·문항·표·그림·서술의 대조",
+      "issue": [
+        "기존 GAISE_2020과 같은 캐시의 추가 범위이며 새 저작으로 세지 않는다. 선택9판면의 재독·새 기준 대응을 기록한다.",
+        "짝수 확률1/2는 여섯 면 공정성의 충분조건이 아니다. 무작위 표집/배정·자료/모형·계획/실행·A/B/C/고정 학년을 구별한다."
+      ]
+    }
+  ],
+  "statistics_inquiry_review": {
+    "full_book_read": false,
+    "own_tasks_are_not_student_responses": true,
+    "source_pdf_and_images_redistributed": false,
+    "existing_source_id": "GAISE_2020",
+    "same_cached_book_not_new_book": true,
+    "prior_source_and_claims_preserved": true
+  }
+}

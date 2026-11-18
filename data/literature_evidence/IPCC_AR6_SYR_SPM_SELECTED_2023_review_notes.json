@@ -1,0 +1,78 @@
+{
+  "source_id": "IPCC_AR6_SYR_SPM_SELECTED_2023",
+  "source_url": "https://www.ipcc.ch/report/ar6/syr/",
+  "source_asset_kind": "pdf",
+  "source_pdf_sha256": "3e347d04913c8fcc180c10efec372681554f3d735a7f0b2e6c7d991ddbb29c11",
+  "source_pdf_url": "https://www.ipcc.ch/report/ar6/syr/downloads/report/IPCC_AR6_SYR_SPM.pdf",
+  "pdf_pages": 42,
+  "selected_text_pages": [
+    3,
+    9,
+    10,
+    11,
+    18,
+    26,
+    27,
+    32,
+    35,
+    37
+  ],
+  "visual_pdf_pages": [
+    3,
+    4,
+    9,
+    10,
+    11,
+    18,
+    26,
+    27,
+    32,
+    35,
+    37
+  ],
+  "rendered_page_sha256": {
+    "3": "e1354d581fa21d4f9af60025ed1bdcadd0e5613082a64174230db79dddf11dc4",
+    "4": "ad38961101d6da74cc4e3a35967c9a004830b3fd6aaafc23488b1a103f35e258",
+    "9": "651928f860121c444647a378d7f2d2bbf77fa13585d267a8483ab2d0046500ac",
+    "10": "be448e6756fb9a0e04ad74d808a7694fe3a0d29204b75a13e49b879eb977c6d0",
+    "11": "05a1ec1c491d8e98796a3b5f37a849676986f364669a45ecc999d6adbda487c6",
+    "18": "78e7d3e3618e8d44148f0c9561e663fb1adf6e15ae6254c144eb211d54c28e9c",
+    "26": "9f52c1128f32de7c7689c8083ba8c700a64175175c84d6ff3674c1a43ec4cc35",
+    "27": "6f3d22658eaf7266293116462cca66b8fefa6b79e952fd26b099482dab0910e3",
+    "32": "f140aee12ebdb2b30c75ea16750ed53417df66f306b3212d44539e8316adde59",
+    "35": "e762465052aff273f2432b39c33a07186cf00a2970db236e3a818b7cb86e8746",
+    "37": "ac3739e5dc054ac40e55e17bde84d113061bfb785ff087ef375407542ddbc360"
+  },
+  "date": "2026-11-16",
+  "reviewer": "Codex",
+  "read_scope": "지정 추출문10쪽·판면11쪽에서발행·평가어·기준기간·배출/농도·조건부 경로·대기질 공동편익을읽었다. 본문인쇄쪽은PDF−6다.2023년의문헌평가와실측기간을구별했다.",
+  "empirical_scope": {
+    "design": "지정 원문·판면 대조와 자체 수학 과제 설계",
+    "sample_description": "실제 학생·사업장·생태 조사 표본을 분석한 연구가 아님",
+    "inference_limit": "SPM전문·원연구/전체AR6·현재배출량·지역대기농도·개별건강 효과·국내규제 준수나학교활동의인과효과를검증하지않았다. 자체배출계수·농도·관측표는실제IPCC자료가아니다.",
+    "student_outcome_study": false,
+    "causal_effect_established": false,
+    "local_effect_tested": false
+  },
+  "contains_source_full_text": false,
+  "source_pdf_redistributed": false,
+  "reading_log": [
+    "지정 추출문10쪽·판면11쪽에서발행·평가어·기준기간·배출/농도·조건부 경로·대기질 공동편익을읽었다. 본문인쇄쪽은PDF−6다.2023년의문헌평가와실측기간을구별했다."
+  ],
+  "source_corrections": [
+    {
+      "location": "방법·문항·표·그림·서술의 대조",
+      "issue": [
+        "각수치의기준기간·관측/평가·조건부모형·GHG/CO2/GWP100·질량/농도/기온을구별한다.79%+22%등의작은차이는유효숫자반올림각주를확인하며임의로고치지않는다.",
+        "27쪽모형감축률의100%초과는순배출음수가능성이있다. 평가신뢰도를확률숫자로치환하지않고장기평균온난화/한해변동·배출저감/지역대기질/건강효과를나눈다."
+      ]
+    }
+  ],
+  "culture_environment_review": {
+    "full_book_read": false,
+    "formula_extraction_incomplete": true,
+    "own_tasks_are_not_student_responses": true,
+    "source_pdf_and_images_redistributed": false,
+    "current_law_and_regulations_not_reviewed": true
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "source_id": "BOUTON_NIM_ARTICLE_1901",
+  "source_url": "https://paradise.caltech.edu/ist4/lectures/Bouton1901.pdf",
+  "source_asset_kind": "pdf",
+  "source_pdf_sha256": "93dbc517d4b25647d55fa1b82dbe75da0dd7452a4dfe14d7068c7b3fb5425277",
+  "source_pdf_url": "https://paradise.caltech.edu/ist4/lectures/Bouton1901.pdf",
+  "pdf_pages": 6,
+  "selected_text_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "visual_pdf_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "rendered_page_sha256": {
+    "1": "bd6560ba620adbfca4bb114dba95fcb67a29b58cbb8039cc44accdb342164785",
+    "2": "dc9f4922e56296f016e65d69decfa7cd731a445a9a58b292a216d531de068d2c",
+    "3": "68c90abd35dc7bee812ea2d0f00ccbdfc486b35b677a28252dc25628411561cb",
+    "4": "7a4ca5370289da440b7243a3fa0b7e33d9ac14a8f4f4d325329aaab691f065de",
+    "5": "965e348bfec8d2bd196186fa8c6eb825404e72606c2c25c595b6e16a66ad4a43",
+    "6": "ae494425b120012416e8d1e66469d47fdc17ea2ad02cb20a719d5dcd3fd53e77"
+  },
+  "date": "2026-11-16",
+  "reviewer": "Codex",
+  "read_scope": "JSTOR 표지1쪽과논문5쪽 전체를 추출문/판면6쪽으로 대조했다. 본문 인쇄 쪽은PDF+33이며 표지의2007은 내려받은 시점이다.",
+  "empirical_scope": {
+    "design": "지정 원문·실제 판면 대조와 자체 수학·창작 과제 설계",
+    "sample_description": "학생 표본·실제 창작 결과·현장 성과를 분석한 연구가 아님",
+    "inference_limit": "논문 전체 읽기는 학술지 전체·게임 역사 기원·학생 효과 검증이 아니다. 한 더미에서1~3개를 빼는 자체 게임은 한 더미에서 임의 개수를 빼는 원문 Nim과 규칙이 다르다.",
+    "student_outcome_study": false,
+    "causal_effect_established": false,
+    "local_effect_tested": false
+  },
+  "contains_source_full_text": false,
+  "source_pdf_redistributed": false,
+  "reading_log": [
+    "JSTOR 표지1쪽과논문5쪽 전체를 추출문/판면6쪽으로 대조했다. 본문 인쇄 쪽은PDF+33이며 표지의2007은 내려받은 시점이다."
+  ],
+  "source_corrections": [
+    {
+      "location": "방법·문항·표·그림·서술의 대조",
+      "issue": [
+        "원문한더미임의개수제거와자체1~3개제거는서로다른게임이다. 안전상태는상대에게남길조건이며차례를표시한다.",
+        "세더미의0또는2와임의더미의짝수합을구별한다. 마지막패배에서는모두1인경우의홀짝예외를둔다. 논문은역사기원을확정하지않으므로중국기원이라고쓰지않는다."
+      ]
+    }
+  ],
+  "culture_creation_review": {
+    "full_book_read": false,
+    "formula_extraction_incomplete": true,
+    "own_tasks_are_not_student_responses": true,
+    "source_pdf_and_images_redistributed": false,
+    "full_article_read": true,
+    "cover_plus_five_article_pages": true
+  }
+}

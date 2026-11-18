@@ -1,0 +1,3 @@
+# Versions present in the environment verified on 2026-11-18; not a latest-version claim.
+pypdf==6.21.4
+Pillow==13.0.0

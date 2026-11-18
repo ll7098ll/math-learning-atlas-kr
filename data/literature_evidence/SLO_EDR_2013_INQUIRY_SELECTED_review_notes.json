@@ -1,0 +1,110 @@
+{
+  "source_id": "SLO_EDR_2013_INQUIRY_SELECTED",
+  "source_url": "https://www.slo.nl/publish/pages/4474/educational-design-research-part-a.pdf",
+  "source_asset_kind": "pdf",
+  "source_pdf_sha256": "952ca654a1d44ed91cd9304e7d8386b3b7bbd0d7364a61c2c60dd41600f18110",
+  "source_pdf_url": "https://www.slo.nl/publish/pages/4474/educational-design-research-part-a.pdf",
+  "pdf_pages": 206,
+  "selected_text_pages": [
+    3,
+    8,
+    12,
+    14,
+    15,
+    19,
+    24,
+    25,
+    29,
+    30,
+    31,
+    38,
+    154,
+    155,
+    156,
+    157,
+    158,
+    159,
+    160,
+    161
+  ],
+  "visual_pdf_pages": [
+    3,
+    8,
+    12,
+    14,
+    15,
+    19,
+    24,
+    25,
+    29,
+    30,
+    31,
+    38,
+    154,
+    155,
+    156,
+    157,
+    158,
+    159,
+    160,
+    161
+  ],
+  "rendered_page_sha256": {
+    "3": "7efc40f7077e6da315310170621755ac6b4ceaff11ce89101b61d514786e26ad",
+    "8": "514813c8e60515eb912424e804653cb03ef9d78e5fe0cc0996059bf87843c17e",
+    "12": "9134234875dd67824c0679357cae188d7b9a535a174fb2b52ac81f2088b42cd9",
+    "14": "c9838dcc37cd955d98a826618b532cb0380a720a9d590ce85887203fb4e0cff0",
+    "15": "c287a1ae713eb1eee8f0adde0e92b9004dd30fb572b1f1557d3ee108bddac541",
+    "19": "fad5bbafd8e06b8942340e208f497ab1289e81b0825d9e06d7a6d8d5a144f835",
+    "24": "0ffcc81ee8562654da887d4f4f3883d17e6ee61c632dd7ac0bd026dc491f53e9",
+    "25": "fe82abbc4895ac4a517076180d3dd09aa67912d725079c8638e3f4bc07e51fae",
+    "29": "db0910577fdfa742918c6778ebcaee96a119c8e54b037b6e100a1b2df3d30df3",
+    "30": "f48412f6ec383888858322785e51551c6e5eff0957db233f573d1b6f81bb6d52",
+    "31": "eb7e984e73c3f0d4d00d6433974996d6e65fe2e2f92fe0ac2422bc6c8222aef5",
+    "38": "fe0d24aa973eed37e13120fcb13536423aaa9635e53b65c3939d7a7705376b27",
+    "154": "b16aaee29b9adb1808080f3cc61ffaf62a5631b0df8ddc2c90d648f0f83b1310",
+    "155": "5473eacef535fb8c523fa98e18f9d312ab27ab262715ff9fee046855064c827d",
+    "156": "7d0558a1b64309d5d8a76dcacec9774fe3a7ec30d3dc9447a452b0ce2cbea3d0",
+    "157": "c0b0b1f5d307fceb09d5f02f9a66813f4adeb800ce9f434894bf218f26b967a6",
+    "158": "ca9128c9391e6df4cd2be5d654940940c6cf089c442383ac6a3a8b04d0a09f08",
+    "159": "19f23d018e048505595401e7507a490d8208164f7eada5233dfb38ecbc7197b3",
+    "160": "9799d60919987dcd04f1fb507026cde0dcec08a5c6fa0261c73262129911e4d8",
+    "161": "1106eaab857109994be2bac66dc6d28dc9962d3207cc6b59f97d915efa59871c"
+  },
+  "date": "2026-11-16",
+  "reviewer": "Codex",
+  "read_scope": "개정2013년 Part A206쪽 중 지정20쪽의 추출문·판면을 대조했다. 편자는 Plomp/Nieveen, 선정1장 저자는 Plomp,6장 저자는 Nieveen/Folmer다. 인쇄쪽은 PDF−1이다. 전문·Part B51사례·인용 원연구를 읽은 것은 아니다.",
+  "empirical_scope": {
+    "design": "지정 원문·실제 판면 또는 삽입 그림 대조와 고등학교 탐구 과제의 자체 설계",
+    "sample_description": "이 검토에서는 실제 학생 원자료·현장 이용자 조사·학습 효과 실험을 분석하지 않았다",
+    "inference_limit": "전문가의 교육설계 연구 틀을 고등학교 탐구에 자체 확장하는 참고 맥락이다. 학생에게 새 교육이론 개발이나 같은 표본·기간을 요구하지 않는다. 예상 품질·전문가 판단·작동 확인을 실제 사용성·학습 효과로 세지 않는다.",
+    "student_outcome_study": false,
+    "causal_effect_established": false,
+    "local_effect_tested": false
+  },
+  "contains_source_full_text": false,
+  "source_pdf_redistributed": false,
+  "reading_log": [
+    "개정2013년 Part A206쪽 중 지정20쪽의 추출문·판면을 대조했다. 편자는 Plomp/Nieveen, 선정1장 저자는 Plomp,6장 저자는 Nieveen/Folmer다. 인쇄쪽은 PDF−1이다. 전문·Part B51사례·인용 원연구를 읽은 것은 아니다."
+  ],
+  "source_corrections": [
+    {
+      "location": "방법·문항·표·그림·서술의 대조",
+      "issue": [
+        "PDF160의 추출문에는 평가 방법·교과 구성 요소 설명이 섞이지만 실제 판면은 개발 단계의 순환 도식이다. 보이지 않는 추출 라벨을 시각 확인한 근거로 쓰지 않는다. 뒤의 세부 방법 표·삼각검증 본문은 미독이다.",
+        "PDF19의 인원·시간 척도와 PDF38의 예시는 고정 처방이 아니다. 예상 실용성/효과와 실제 대상 환경에서의 사용/결과를 구별한다."
+      ]
+    }
+  ],
+  "inquiry_completion_review": {
+    "full_book_read": false,
+    "own_tasks_are_not_student_responses": true,
+    "source_assets_redistributed": false,
+    "independent_review": false,
+    "student_validation": false,
+    "professional_framework_locally_adapted": true,
+    "expected_actual_quality_separated": true,
+    "pdf160_extracted_extra_labels_not_visible_in_diagram": true,
+    "later_method_tables_not_read": true
+  }
+}

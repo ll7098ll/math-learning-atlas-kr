@@ -1,0 +1,90 @@
+{
+  "source_id": "OPENSTAX_CALC_FTC",
+  "source_url": "https://openstax.org/books/calculus-volume-1/pages/5-3-the-fundamental-theorem-of-calculus",
+  "source_asset_kind": "publisher_html",
+  "source_asset_sha256": "7ef62f4b28ce316524985288945f7c0b5aa91cea2ce9c8e8cbb88025aab42982",
+  "source_asset_redistributed": false,
+  "date": "2026-11-04",
+  "reviewer": "Codex",
+  "contains_source_full_text": false,
+  "source_pdf_redistributed": false,
+  "pdf_read": false,
+  "original_page_layout_review": false,
+  "reading_log": [
+    "공식5.3절의 도입·목표·정리5.3~5.5와 증명·예5.15~5.22·확인5.14~5.20·학생 프로젝트의7문항·연습144~206을 모두 읽었다. 연습63개의 해답 전체를 독립 검산한 것은 아니다.",
+    "그림5.26~5.31의6개 자산과 연습160~163·202의5개 그래프, 합계11개를 각각 시각적으로 확인했다. 연습160~163에서 그래프는 피적분함수가 아니라 누적함수임을 구별했다.",
+    "정리5.4의 연속인 피적분함수·구간 내부 미분, 정리5.5의 전체 구간 조건·원시함수 끝점 차, 합성함수의 변화율·부호 있는 적분과 넓이를 확인했다.",
+    "예5.17의1/(t³+1)은 적분 경로 전체가 특이점−1을 피해야 하므로∫₁ˣ의 보통 정의역은x>−1임을 확인했다. 자체 과제는1/t²로 변형했다.",
+    "평균값 정리의a<b와 연속 조건을 유지했다. 학생 프로젝트의 낙하 모델은 읽은 수학적 모형이며 실제 실험이나 안전 지침으로 사용하지 않았다. 외부 매체는 실행하지 않았다."
+  ],
+  "source_corrections": [
+    {
+      "kind": "source_condition_qualification",
+      "location": "5.3절 정리5.4 뒤의 설명 문단",
+      "observation": "적분가능한 함수라면 원시함수를 갖는다는 설명은 앞 정리의 연속 조건을 생략하면 지나치게 넓게 읽힌다. 정리5.4 자체에는 연속 조건이 명시되어 있다.",
+      "action": "자체 설명에는 연속이라는 충분조건과 구간 내부를 명시했다. 교사용 조건 점검: g(t)=0(t<0),1(t≥0)이면 G(x)=∫₋₁ˣg(t)dt=max(x,0)이고0에서 좌우 미분계수0·1로 다르다. 적분가능만으로 모든 점의G′=g를 보장하지 않는다. 모든 불연속점에서 반드시 미분 불가능하다는 결론이나 연속이 모든 형태의 기본정리에 필요하다는 결론은 내리지 않는다. 이 반례를 미적분Ⅰ 학생의 필수 불연속 적분 과제로 추가하지 않는다."
+    }
+  ],
+  "observed_image_assets": [
+    {
+      "file": "openstax-ftc-img01.webp",
+      "url": "https://openstax.org/apps/image-cdn/v1/f=webp/apps/archive/20260604.144757/resources/7db10fecdd24d1f9f99f6f36c0deef90413602eb",
+      "sha256": "c94de389c26ff65b90dc7022d4d9e2078fa1b3b46ab62f0e3eca6221d23991f5"
+    },
+    {
+      "file": "openstax-ftc-img02.webp",
+      "url": "https://openstax.org/apps/image-cdn/v1/f=webp/apps/archive/20260604.144757/resources/bdc91c212c7c997f078a412bdba23dbb53a5db2c",
+      "sha256": "0a3bfd0d0357a1f71b84b05918a070bff3c703c1feeeb860ac5654a83b3593a9"
+    },
+    {
+      "file": "openstax-ftc-img03.webp",
+      "url": "https://openstax.org/apps/image-cdn/v1/f=webp/apps/archive/20260604.144757/resources/a518b50f63d7bce70395cdec86afae63fa7ea248",
+      "sha256": "c38ebf0c1841d49f68343fab5d31b8f600fe396d489b377633be8b3053aea1f2"
+    },
+    {
+      "file": "openstax-ftc-img04.webp",
+      "url": "https://openstax.org/apps/image-cdn/v1/f=webp/apps/archive/20260604.144757/resources/0b61d194b1bec6c7de7fe154e66a398936b61989",
+      "sha256": "a696b7a9fb2553be5800aa5f5a2d034e2df5039830e8bbf3ea2c754043031343"
+    },
+    {
+      "file": "openstax-ftc-img05.webp",
+      "url": "https://openstax.org/apps/image-cdn/v1/f=webp/apps/archive/20260604.144757/resources/648cb62fead525a84da2b38dbbc832dce8b384db",
+      "sha256": "bf1646113d4e0cb9e56ba1f1bf0107d9f6b2cbcbc4feff38d42174a6f56848ae"
+    },
+    {
+      "file": "openstax-ftc-img06.webp",
+      "url": "https://openstax.org/apps/image-cdn/v1/f=webp/apps/archive/20260604.144757/resources/bab0962a1aff2e8b9ef7a8757ed7d87063dba010",
+      "sha256": "07ce5c64feb090b22bb705984766fbb8892a374e265d6e4ec0159920837490c3"
+    },
+    {
+      "file": "openstax-ftc-img07.webp",
+      "url": "https://openstax.org/apps/image-cdn/v1/f=webp/apps/archive/20260604.144757/resources/9765b01bd358332e65e5c8c4b8b00b66ee405707",
+      "sha256": "0bd8ee36ff176dc4cbcb5b133bca43c39e734a003fde5c8696114ac7d8e117b9"
+    },
+    {
+      "file": "openstax-ftc-img08.webp",
+      "url": "https://openstax.org/apps/image-cdn/v1/f=webp/apps/archive/20260604.144757/resources/32a6c0932b2f1b11c50b6184988622933eed7c5c",
+      "sha256": "7e7fe8ea279765eeb3266c7d35b3f8f349fdfeb95f507de747840dcb6011b121"
+    },
+    {
+      "file": "openstax-ftc-img09.webp",
+      "url": "https://openstax.org/apps/image-cdn/v1/f=webp/apps/archive/20260604.144757/resources/b0195d2ad53a9324d695ce3f48fce95942027215",
+      "sha256": "dcb674e96e24eeb6b4d6b728cdc45d421c78798f180c29d67cacd7943b8f1b85"
+    },
+    {
+      "file": "openstax-ftc-img10.webp",
+      "url": "https://openstax.org/apps/image-cdn/v1/f=webp/apps/archive/20260604.144757/resources/5ea613f37b4dd3d8946c9fdc309c6d5c3d2c0176",
+      "sha256": "406b81bde5a3e3e26a0f03df2719079b69cd9c7bad1cdcd2ea3508a4ad403a01"
+    },
+    {
+      "file": "openstax-ftc-img11.webp",
+      "url": "https://openstax.org/apps/image-cdn/v1/f=webp/apps/archive/20260604.144757/resources/c06a9497fc32334eb28738656fb8d8a2d79c6042",
+      "sha256": "2c96896bef9ea1ca64798d1f3b07fa26e116995bbf72a5b10b26b2794b89da9b"
+    }
+  ],
+  "interpretation_limits": [
+    "수학 교재의 설명과 예시를 실제 학생 반응·학습 효과·국내 인지 발달 순서의 실증으로 사용하지 않는다.",
+    "두 절의 웹본문과 삽입 자산을 읽었으며 원책 전권·PDF 판면·연습 해답 전체를 검증한 것이 아니다.",
+    "교육과정Ⅰ·Ⅱ의 범위를 유지한다. 구분구적·불연속 함수 적분·이상적분을 미적분Ⅰ의 필수 선수로 추가하지 않는다."
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "source_id": "JURAFSKY_MARTIN_TEXT_VECTORS_SELECTED_2026",
+  "source_url": "https://web.stanford.edu/~jurafsky/slp3/",
+  "source_asset_kind": "pdf",
+  "source_pdf_sha256": "88d0362c3bcb62a0cd09403fb80fd15e778dd53566943912ab1047cda3ff5c79",
+  "source_pdf_url": "https://web.stanford.edu/~jurafsky/slp3/ed3book_aug26.pdf",
+  "pdf_pages": 646,
+  "selected_text_pages": [
+    1,
+    42,
+    43,
+    140,
+    141,
+    142,
+    143,
+    144,
+    153,
+    154,
+    263,
+    264,
+    265,
+    266,
+    267
+  ],
+  "visual_pdf_pages": [
+    1,
+    42,
+    43,
+    140,
+    141,
+    142,
+    143,
+    144,
+    153,
+    154,
+    263,
+    264,
+    265,
+    266,
+    267
+  ],
+  "rendered_page_sha256": {
+    "1": "11289bb67b36b9b20d50cb6f44a5a0be3fafbc507b7b8f51d9ea197f073d7c32",
+    "42": "12ff5f48e51ed3fb7346dbe81709896eb910abde5818843a49a35f83cd4ac38b",
+    "43": "50955d44237216acd4dfdaa77fd3aef37e2d42cd25617aea4214c74893d12356",
+    "140": "a334f7a2435df1368402abc9bfc60be8f6cd7eb1ae027520b4981eff602b2cf5",
+    "141": "72dbf3971730a1e1067140953258532bb07ce439c4c12b14d158258f647ecb26",
+    "142": "ae83caad0b6c4c77ea73fec6c67abadb0c205c977dcfe39e5c69295cb539e3e0",
+    "143": "384108a44647a4d45f55353d8f3e70861749edd7b31af2b752c8d62dedaeee13",
+    "144": "8a3b664a60ae1855eade440a52ccb9743a874f2373c868dae082d5dff2931a51",
+    "153": "654df25c8b212f496dbf2a30278de2e3e61af04830318aa0ad95c416a497f61e",
+    "154": "80355d758f43d485ae6015ff6ce8e9b5d31f609009b9c7bf1bd381605472f8e4",
+    "263": "68e6149a7c361e3147b258124a88709fb372ec76edc4346af79366ed42a47240",
+    "264": "3a4767db92ae3fef549d6b21354f5b989e248ae9a54165ed9bc543e2a2af8d0f",
+    "265": "59cc4ef5f12e8b946cb7bddda545434bc14be5e3b6b5094abee5692e0c1976b0",
+    "266": "b5c8141c1acf0fb3beefd7871f46e4f1a4387f1d468c292738214dfc0c417e78",
+    "267": "9a6d22764c7e61c975b2ed44e6323cda915b9d3c6f76e463b49aa59aa5f09d3a"
+  },
+  "date": "2026-11-16",
+  "reviewer": "Codex",
+  "read_scope": "표제와 지정 본문 추출문·판면15쪽에서 단어 유형/총출현·분절 목적,공통 좌표의 단어/문서·문맥 빈도 벡터,단어가방·원빈도/문서빈도·로그 가중치,코사인 정규화·비음수/영벡터·편향을 대조했다. 본문 인쇄 쪽은PDF쪽−8이다. 완결 출판본이 아닌2026-08-19 원고다.",
+  "empirical_scope": {
+    "design": "공개 원논문·작업반 보고서·저자 교과서·공식 사용 설명서의 지정 본문과 실제 판면 대조",
+    "sample_description": "학생 표본·응답을 분석한 연구가 아님",
+    "inference_limit": "전권·인용된 편향 원연구의 직접 재분석·실제 분류 성능·학생 검증이 아니다. 국내 기본 IDF=1/DF를 유지하고 원문의 log(N/df)는 대수 이수 학생의 선택 대비로만 둔다. 코사인은 대응 성분 곱의 합과 길이로 설명하고 국내에서 제외한 내적 용어·기호를 새 필수로 쓰지 않는다. 거대 언어모형·임베딩 학습은 새 필수가 아니다.",
+    "student_outcome_study": false,
+    "causal_effect_established": false,
+    "local_effect_tested": false
+  },
+  "contains_source_full_text": false,
+  "source_pdf_redistributed": false,
+  "reading_log": [
+    "표제와 지정 본문 추출문·판면15쪽에서 단어 유형/총출현·분절 목적,공통 좌표의 단어/문서·문맥 빈도 벡터,단어가방·원빈도/문서빈도·로그 가중치,코사인 정규화·비음수/영벡터·편향을 대조했다. 본문 인쇄 쪽은PDF쪽−8이다. 완결 출판본이 아닌2026-08-19 원고다."
+  ],
+  "source_corrections": [
+    {
+      "location": "방법·문항·표·그림·서술의 대조",
+      "issue": [
+        "263쪽의 unordered set은 출현 횟수를 보존하는 단어가방 설명이므로 중복을 없앤 보통 집합과 구별한다. 문서 열/단어 행과 자체 문서 행/단어 열의 순서를 표지로 명시한다.",
+        "265쪽의 log 빈도·log(N/df)와 국내 기본1/DF는 다른 가중치다. 전 문서 출현의 기본 가중치를0으로 바꾸지 않는다.143쪽의 코사인은 국내에서 대응 성분 곱의 합·길이로 설명하고 영벡터와 의미의 한계를 명시한다.",
+        "267쪽 식11.11은 문서 IDF를 없앤다는 설명과 달리 식에 그대로 남아 있다. 완전한 코사인식과 명시한 자체 가중치로 검산한다.144쪽의 모든 NLP 과제에서 조밀 벡터가 낫다는 표현은 보편 정리가 아니다.153~154쪽 편향 소개를 인용 원연구의 직접 분석으로 집계하지 않는다."
+      ]
+    }
+  ],
+  "ai_completion_review": {
+    "full_book_read": false,
+    "formula_extraction_incomplete": true,
+    "own_tasks_are_not_student_responses": true,
+    "source_pdf_and_images_redistributed": false,
+    "printed_body_page_offset": 8,
+    "draft_date": "2026-08-19",
+    "domestic_idf": "1/DF",
+    "log_weighting_optional_only": true,
+    "zero_vector_policy_required": true,
+    "domestic_inner_product_not_required": true,
+    "source_rights_as_read": "Copyright2026, all rights reserved; author-hosted teaching draft. No raw source redistribution."
+  }
+}

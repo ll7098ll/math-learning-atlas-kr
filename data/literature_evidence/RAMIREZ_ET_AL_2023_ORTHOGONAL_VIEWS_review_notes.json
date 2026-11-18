@@ -1,0 +1,61 @@
+{
+  "source_id": "RAMIREZ_ET_AL_2023_ORTHOGONAL_VIEWS",
+  "source_url": "https://doi.org/10.46219/rechiem.v15i2.125",
+  "source_pdf_url": "https://funes.uniandes.edu.co/wp-content/uploads/tainacan-items/32454/1567424/1791381548573477_Ramirez2023Errores.pdf",
+  "source_asset_kind": "pdf",
+  "source_pdf_sha256": "e4727247972be7637d76d36a4d196f6fdbcbccba213c235804c8e451385f2629",
+  "pdf_pages": 17,
+  "selected_text_pages": [
+    1,
+    5,
+    6,
+    9,
+    10,
+    11,
+    12,
+    15
+  ],
+  "visual_pdf_pages": [
+    10,
+    12
+  ],
+  "rendered_page_sha256": {
+    "10": "504cf55d1552b02e4d70185bc705188a1be7687e8384baad7732094c4826d624",
+    "12": "bcde958151995d36237f547d890d75ed5d982a14d29cfad75591d0085bbb45e0"
+  },
+  "date": "2026-11-10",
+  "reviewer": "Codex",
+  "read_scope": "정사영 응답의 표 3~5, 정사영을 그리고 그 그림에서 입체를 재구성하는 두 과제, 깊이와 방향의 오류 예를 확인했다.",
+  "empirical_scope": {
+    "design": "정육면체 조합의 그림에 관한 네 부분 설문과 개별 응답 유형 분류.",
+    "sample_description": "칠레 두 학교의 고교 3·4학년 학생 30명.",
+    "inference_limit": "칠레 두 학교의 해당 응답에서 나타난 오류율이다. 길이·넓이의 코사인 비나 국내 고교생 오류의 비율로 사용하지 않는다.",
+    "student_outcome_study": true,
+    "causal_effect_established": false,
+    "local_effect_tested": false
+  },
+  "contains_source_full_text": false,
+  "source_pdf_redistributed": false,
+  "reading_log": [
+    "정사영 응답의 표 3~5, 정사영을 그리고 그 그림에서 입체를 재구성하는 두 과제, 깊이와 방향의 오류 예를 확인했다."
+  ],
+  "source_corrections": [
+    {
+      "location": "정의·표·학생 응답",
+      "issue": "표 3~5의 응답 비율은 학생 30명에 대한 개인별 정답률이 아니다. 정사영의 종류와 역방향 재구성 과제를 분리했다."
+    }
+  ],
+  "spatial_review": {
+    "n": 30,
+    "schools": 2,
+    "p3_correct_response_percent": 43.6,
+    "p4_correct_response_percent": 51.8,
+    "p3_errors_by_view": {
+      "right": 36.0,
+      "front": 56.3,
+      "left": 55.6,
+      "top": 66.4,
+      "back": 63.2
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "source_id": "SILITONGA_ET_AL_2023_SPATIAL_COORDINATES",
+  "source_url": "https://doi.org/10.19166/johme.v7i2.7575",
+  "source_pdf_url": "https://ojs.uph.edu/index.php/JOHME/article/download/7575/pdf/24601",
+  "source_asset_kind": "pdf",
+  "source_pdf_sha256": "4956c8d28a5cb861f25ebf105230db90d556ba3284793c85439dc9f588780292",
+  "pdf_pages": 15,
+  "selected_text_pages": [
+    1,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "visual_pdf_pages": [
+    5,
+    8,
+    11
+  ],
+  "rendered_page_sha256": {
+    "5": "c3513945103b8a247d144f6107190f39578ebfee16118fb26425ee6c3c8cce52",
+    "8": "230b59d35f885368a1e28c3a2049d0359f56e8af4b984b610210e71a6075a120",
+    "11": "3ff4b20dbd7b1d07ddc4ca3aaafe8524b36ef50660f17a076fbdb59baabe20f2"
+  },
+  "date": "2026-11-10",
+  "reviewer": "Codex",
+  "read_scope": "공간좌표 강좌 성과, 두 반의 준실험 배치, 표 1·2·6·7과 본문 수치의 보고 범위를 대조했다.",
+  "empirical_scope": {
+    "design": "영상 활용 반과 기존 수업 반의 사전·사후 검사를 비교한 준실험.",
+    "sample_description": "인도네시아 대학에서 영상 활용 반 19명, 기존 수업 반 17명.",
+    "inference_limit": "두 대학 수업 반의 문제 해결 총점 보고다. 개별 좌표·거리·내분 문항 성취나 국내 고교 수업 효과를 입증하지 않는다.",
+    "student_outcome_study": true,
+    "causal_effect_established": false,
+    "local_effect_tested": false
+  },
+  "contains_source_full_text": false,
+  "source_pdf_redistributed": false,
+  "reading_log": [
+    "공간좌표 강좌 성과, 두 반의 준실험 배치, 표 1·2·6·7과 본문 수치의 보고 범위를 대조했다."
+  ],
+  "source_corrections": [
+    {
+      "location": "정의·표·학생 응답",
+      "issue": "표 1에서 계산한 사후 평균 차 9.73과 본문 3.58을 나누어 기록했다. 표 2의 기존 수업 반은 표시된 범주 합이 14명이며 표 1의 17명과 다르다. 표 6 제목은 사후 검사지만 행 이름은 Gain이고 평균 차는 .72727로 인쇄됐다. 원자료로 차이를 확인하지 못했다."
+    }
+  ],
+  "analytic_review": {
+    "class_sizes": {
+      "video": 19,
+      "conventional": 17
+    },
+    "post_means": {
+      "video": 70.79,
+      "conventional": 61.06
+    },
+    "post_mean_difference_from_table_1": 9.73,
+    "post_mean_difference_in_prose": 3.58,
+    "conventional_n_gain_classifications_printed": 14,
+    "conventional_n": 17,
+    "table_6_printed_row_label": "Gain",
+    "table_6_printed_mean_difference": 0.72727,
+    "separate_item_outcomes_verified": false
+  }
+}

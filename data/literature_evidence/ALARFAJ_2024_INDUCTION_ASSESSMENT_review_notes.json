@@ -1,0 +1,70 @@
+{
+  "source_id": "ALARFAJ_2024_INDUCTION_ASSESSMENT",
+  "source_url": "https://doi.org/10.7488/era/4392",
+  "source_pdf_url": "https://era.ed.ac.uk/bitstreams/fa809dcf-fdd9-40f9-b29d-a768b1b88315/download",
+  "source_asset_kind": "pdf",
+  "source_pdf_sha256": "da7658abf61df99224a9d1381d2e6e7320620ab30ad01c2331c8f483a411a56c",
+  "pdf_pages": 147,
+  "selected_text_pages": [
+    1,
+    2,
+    89,
+    90,
+    99,
+    101,
+    102,
+    103,
+    104,
+    106,
+    107
+  ],
+  "visual_pdf_pages": [
+    89,
+    102
+  ],
+  "rendered_page_sha256": {
+    "89": "93d3e69517df110f6420ad512e8cd08b4f8c685ac8b4ccc7555be1a6b544c7b6",
+    "102": "b141db4671413cdbbb061827dec4cdd302d0ce2c71ea02f30d151fbe0d68aa66"
+  },
+  "date": "2026-11-12",
+  "reviewer": "Codex",
+  "read_scope": "학위논문 셋째 연구의 유한 합 차와 P(n+1) 분리 문항, 그림 7.6·7.7의 응답 분류와 표 7.10의 다른 분석 표본을 확인했다.",
+  "empirical_scope": {
+    "design": "온라인 귀납법 문항의 응답 재분류와 자발적 강의 퀴즈 참여의 관찰적 비교. 여기서는 셋째 연구의 지정 문항만 대조.",
+    "sample_description": "첫 코호트 수강 470명 중 분석 동의 414명. 그림 7.6·7.7은 별도로 제시한 426개 기록이며 표 7.10은 207개 분석 사례.",
+    "inference_limit": "2023년 표지의 에든버러대 학위논문이 2024년에 저장소에 게시됐다. 대학 온라인 응답·시도 수와 동의 표본은 분모가 다르다. 참여 여부의 비교는 인과 효과가 아니다.",
+    "student_outcome_study": true,
+    "causal_effect_established": false,
+    "local_effect_tested": false
+  },
+  "contains_source_full_text": false,
+  "source_pdf_redistributed": false,
+  "reading_log": [
+    "학위논문 셋째 연구의 유한 합 차와 P(n+1) 분리 문항, 그림 7.6·7.7의 응답 분류와 표 7.10의 다른 분석 표본을 확인했다."
+  ],
+  "source_corrections": [
+    {
+      "location": "방법·문항·표·요약의 대조",
+      "issue": "그림 7.6의 완전 정답 203/426과 그림 7.7의 등식 입력 258/426을 구별한다. 99쪽의 425 표기와 102쪽의 258 정답 요약을 분모나 정답 수로 채택하지 않는다. 103쪽 문항의 계승 합은 원문 스스로 상수 −1 누락을 밝힌다. 89~90쪽에서 목표 명제를 참으로 놓는 설계 설명은 순방향 귀납 증명의 정당화로 옮기지 않는다."
+    }
+  ],
+  "sequence_induction_review": {
+    "cover_year": 2023,
+    "repository_date": "2024-03-26",
+    "thesis_institution": "University of Edinburgh",
+    "third_study_only": true,
+    "figure_7_6_records": 426,
+    "equation_entered": 258,
+    "fully_correct": 203,
+    "lhs_only": 49,
+    "rhs_only": 46,
+    "no_equation": 137,
+    "blank": 31,
+    "table_7_10_n": 207,
+    "course_n": 470,
+    "consenting_n": 414,
+    "denominators_not_combined": true,
+    "design_example_claim": "AF24-01",
+    "assuming_target_is_not_a_valid_forward_induction_step": true
+  }
+}

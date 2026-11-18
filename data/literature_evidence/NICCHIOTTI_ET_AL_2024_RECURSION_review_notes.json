@@ -1,0 +1,56 @@
+{
+  "source_id": "NICCHIOTTI_ET_AL_2024_RECURSION",
+  "source_url": "https://doi.org/10.3390/educsci14040350",
+  "source_pdf_url": "https://mdpi-res.com/d_attachment/education/education-14-00350/article_deploy/education-14-00350.pdf",
+  "source_asset_kind": "pdf",
+  "source_pdf_sha256": "a7d3f2566e54cd8dc050b75fdd714e55b20a712785535055544e350d14e15ac3",
+  "pdf_pages": 15,
+  "selected_text_pages": [
+    1,
+    9,
+    10,
+    11
+  ],
+  "visual_pdf_pages": [
+    11
+  ],
+  "rendered_page_sha256": {
+    "11": "963b609d59fcd23f54d7baa0275426f4dcd31e0922560c331787d6f6ef3ea9f7"
+  },
+  "date": "2026-11-12",
+  "reviewer": "Codex",
+  "read_scope": "두 학급 34명의 모둠 활동 방법과 유한 단계의 넓이를 앞 단계와 비교한 설명, 서로 다른 표현을 조정한 대화를 대조했다.",
+  "empirical_scope": {
+    "design": "이야기와 동적 기하를 사용한 모둠 산출물·학급 토의·개인 설문 질적 분석.",
+    "sample_description": "이탈리아 4년제 과학고 11·12학년 두 학급 총 34명.",
+    "inference_limit": "4~5명 모둠의 설명을 개인 성취로 판정하지 않는다. 원문의 무한 과정과 재귀식에서 일반항을 찾는 활동은 자체 대수 과제에서 요구하지 않는다.",
+    "student_outcome_study": true,
+    "causal_effect_established": false,
+    "local_effect_tested": false
+  },
+  "contains_source_full_text": false,
+  "source_pdf_redistributed": false,
+  "reading_log": [
+    "두 학급 34명의 모둠 활동 방법과 유한 단계의 넓이를 앞 단계와 비교한 설명, 서로 다른 표현을 조정한 대화를 대조했다."
+  ],
+  "source_corrections": [
+    {
+      "location": "방법·문항·표·요약의 대조",
+      "issue": "모둠 답과 개인 익명 설문을 구별한다. 이 대조는 유한 단계와 항 생성 관계에 한정하며 무한 넓이·둘레 결론을 추가하지 않는다."
+    }
+  ],
+  "sequence_induction_review": {
+    "n": 34,
+    "group_sizes": [
+      4,
+      5
+    ],
+    "grades": [
+      11,
+      12
+    ],
+    "no_individual_outcome_inferred": true,
+    "finite_stages_only": true,
+    "general_term_from_recurrence_required": false
+  }
+}

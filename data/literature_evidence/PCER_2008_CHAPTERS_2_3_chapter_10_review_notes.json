@@ -1,0 +1,319 @@
+{
+  "source_id": "PCER_2008_CHAPTERS_2_3",
+  "source_url": "https://ies.ed.gov/sites/default/files/migrated/nces_pubs/ncer/pubs/20082009/pdf/20082009_rev.pdf",
+  "source_pdf_sha256": "f6e68860c47d6377e4d1ec23f72a6806348b3a5fa159242565b8aea4258b2101",
+  "contains_source_full_text": false,
+  "licensed_source_pdf_preserved": true,
+  "previous_reading": {
+    "file": "data/literature_evidence/PCER_2008_CHAPTERS_2_3_review_notes.json",
+    "sha256": "f21123c2dd0931c0580b0bbd93c82343308d6eaabb141cee796e2123c6698e6e"
+  },
+  "cumulative_read_scope": "개정 PCER 보고서 제2·3장과 제10장 및 관련 부록을 대조했다. 제10장은 인쇄 131~142쪽과 선정 부록 5쪽의 텍스트, 선정 8쪽의 이미지를 확인했다. 2013 WWC의 별도 개입 보고로 코호트와 분석 방식을 대조했다.",
+  "cumulative_text_pdf_pages": [
+    1,
+    3,
+    58,
+    88,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110,
+    111,
+    112,
+    113,
+    114,
+    115,
+    182,
+    183,
+    184,
+    185,
+    186,
+    187,
+    188,
+    189,
+    190,
+    191,
+    192,
+    193,
+    309,
+    310,
+    314,
+    381,
+    383,
+    385,
+    403,
+    413,
+    415,
+    417,
+    435
+  ],
+  "cumulative_visual_pdf_pages": [
+    1,
+    3,
+    58,
+    88,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110,
+    111,
+    112,
+    113,
+    114,
+    115,
+    184,
+    189,
+    190,
+    193,
+    310,
+    314,
+    381,
+    383,
+    385,
+    403,
+    413,
+    415,
+    417,
+    435
+  ],
+  "reading_log": [
+    "PDF 1·3·58·88에서 판본과 공공 영역 선언, 무작위 배정 단위, 검출력 가정과 집계 범위를 확인했다.",
+    "PDF 92~105의 Tennessee 제2장에서 두 프로그램 설명, 표본 및 공통 비교군, 파일럿 뒤 학급 대체, 관찰 시기와 아동·교실 결과를 확인했다.",
+    "PDF 106~115의 NC·GA 제3장에서 별도 배정·응답 표본, 교실 환경과 아동 수학 세 검사의 결과를 확인했다.",
+    "PDF 381·383·385의 부록 C에서 비조정 점수와 시점별 검사 응답 수를, PDF 413·415·417의 부록 D에서 조정 평균 차이와 표준오차를 각각 대조했다.",
+    "제10장 PDF 182~193의 배정·교체·세 수학 검사·교실 관찰과 관련 부록을 확인했다.",
+    "2013 WWC는 1년차와 2년차의 아동 코호트를 분리하고, 제10장에 ANCOVA와 다중 비교 보정을 사용했다."
+  ],
+  "source_corrections": [
+    {
+      "status": "shared_control_and_measure_specific_counts_verified",
+      "locations": [
+        "https://ies.ed.gov/sites/default/files/migrated/nces_pubs/ncer/pubs/20082009/pdf/20082009_rev.pdf#page=58",
+        "https://ies.ed.gov/sites/default/files/migrated/nces_pubs/ncer/pubs/20082009/pdf/20082009_rev.pdf#page=93",
+        "https://ies.ed.gov/sites/default/files/migrated/nces_pubs/ncer/pubs/20082009/pdf/20082009_rev.pdf#page=381",
+        "https://ies.ed.gov/sites/default/files/migrated/nces_pubs/ncer/pubs/20082009/pdf/20082009_rev.pdf#page=383",
+        "https://ies.ed.gov/sites/default/files/migrated/nces_pubs/ncer/pubs/20082009/pdf/20082009_rev.pdf#page=385",
+        "https://ies.ed.gov/ncee/WWC/Docs/PracticeGuide/early_math_pg_111313.pdf#page=83"
+      ],
+      "issue": "2장의 두 비교는 같은 정규 수업 집단을 썼다. 3장의 170명은 CMA-A에 해당하며 취학 전 봄의 WJ 응용과 도형 합성 응답은 각각 169명이다.",
+      "followup": "등록·추적 인원과 검사별 응답, 두 비교의 공통 비교군을 구별한다. 표에 나온 여러 비교의 인원을 합산하지 않는다."
+    },
+    {
+      "status": "bright_beginnings_classroom_observation_timing_discrepancy",
+      "locations": [
+        "https://ies.ed.gov/sites/default/files/migrated/nces_pubs/ncer/pubs/20082009/pdf/20082009_rev.pdf#page=99",
+        "https://ies.ed.gov/sites/default/files/migrated/nces_pubs/ncer/pubs/20082009/pdf/20082009_rev.pdf#page=100",
+        "https://ies.ed.gov/sites/default/files/migrated/nces_pubs/ncer/pubs/20082009/pdf/20082009_rev.pdf#page=101"
+      ],
+      "issue": "인쇄 49쪽의 Arnett 봄 관찰 문장은 유치원 봄이라고 쓰지만 바로 앞 방법과 표 2.4 주석은 교실 수준 자료가 취학 전 학년에만 수집되었다고 설명한다.",
+      "followup": "학생 유치원 추적과 교실 수준 결과를 구별한다. 후속 교실 측정으로 인용하기 전 원자료나 정오표를 대조한다."
+    },
+    {
+      "status": "creative_standards_ratings_separated_by_review",
+      "locations": [
+        "https://ies.ed.gov/ncee/wwc/Docs/InterventionReports/wwc_creativecurriculum_030513.pdf",
+        "https://ies.ed.gov/ncee/WWC/Docs/PracticeGuide/early_math_pg_111313.pdf#page=83"
+      ],
+      "issue": "2013년 3월 WWC Creative Curriculum 보고서는 PCER 2장에 유보를, 3장에는 유보 없이 기준 충족을 부여한다. 11월 가이드 D.3에서는 두 장에 유보를 적는다.",
+      "followup": "각 판정을 검토 문서와 시점으로 구별한다. 이 차이만으로 어느 기준 적용이 틀렸다고 단정하지 않는다."
+    },
+    {
+      "location": "https://ies.ed.gov/sites/default/files/migrated/nces_pubs/ncer/pubs/20082009/pdf/20082009_rev.pdf#page=184",
+      "issue": "표 10.1의 전체 비교군 평균 연령을 44.4세로 인쇄했다. 본문은 전체 평균 4.3세, 두 지역 비교군은 4.4세와 4.3세로 제시한다.",
+      "followup": "44.4를 연구 표본의 연령으로 사용하지 않는다. 반올림한 하위 평균으로 정확한 전체 비교군 값을 복원하지 않는다."
+    },
+    {
+      "location": "https://ies.ed.gov/sites/default/files/migrated/nces_pubs/ncer/pubs/20082009/pdf/20082009_rev.pdf#page=190",
+      "issue": "유치원 봄 수학 전반의 요약은 뚜렷한 효과가 없었다고 적었지만 도형 합성 개별 검사는 표 10.4에서 .41, p<.001이다.",
+      "followup": "포괄 요약과 개별 검사 결과를 별도로 인용한다."
+    },
+    {
+      "location": "https://ies.ed.gov/sites/default/files/migrated/nces_pubs/ncer/pubs/20082009/pdf/20082009_rev.pdf#page=310",
+      "issue": "부록 본문의 유치원 봄 도형 합성 효과크기 자리에 p<.001만 인쇄됐다.",
+      "followup": "수치 .41은 표 10.4와 A-18의 반복측정 열을 출처로 사용한다."
+    },
+    {
+      "location": "https://ies.ed.gov/ncee/WWC/Docs/InterventionReports/wwc_prekmath_121713.pdf#page=16",
+      "issue": "WWC 부록 C.4는 .91에 p>0.01을 인쇄했다. 참조하는 PCER 표 A-18의 ANCOVA .91에는 p<.0001에 해당하는 별 네 개가 있다.",
+      "followup": "WWC 본문의 유의 판정은 기록하되 두 문서의 p 표기를 바꾸거나 같은 값으로 옮기지 않는다."
+    }
+  ],
+  "image_sha256": {
+    "1": "2a5f04a07068832fc9bb34608ac5c9edadd7ec373a4495213ed07140480abb8e",
+    "3": "8967c8bb70f32b7f2a95715ba282e88e1a7aee0a1e8b065a961dce5dbab56dd4",
+    "58": "870d2913610f09df9a7a9eca701ff5a0f7c92f044371cb8f32c62af4e581ab77",
+    "88": "dfcf35a50140a19ede94269a9defb47ce9403b3493bb6becefc03a57dc8c3aa3",
+    "92": "d3a794cc636a259f1384302c3db1f9509bda5cfcfe4866605dcbd8844f671222",
+    "93": "73b907a3dffe305c9f66813bbd5edc49d2c05c18be8fd0e21e402d030b6b5d40",
+    "94": "3d8d8f472b87f78dd603632d7bd427e47ab2e77a871149b12c12171bb6037cca",
+    "95": "b91c9228e16c420e4b832e6cd322e162f1958351ab75c6e0aa34136cb159f6cf",
+    "96": "519e0fc72e35f2feaf963644c3eb7de49d4ae2b88ca3b80545973f604543b6f4",
+    "97": "d527a2cc0d4fcf62bf3fa460fe7ee5de7e07347a9cf9bc97525107a0d10affe6",
+    "98": "783ebec1dc7b66f4829a9fb40e193f62993a3cd3ee2504ee3b83b0f1d806a306",
+    "99": "3d40201fceee3cd276d4d01eaaf3d2c394c5fe6f7b27bc0e6743c02aba49d673",
+    "100": "8e18d3bcbfe38bb3d5db2205dfbfd3247e314338d589fe2f2116a97b19621fcf",
+    "101": "e23b84a18bf9c2f2471c1bf4bbe417e09cf0f8237762454245a823c2f3b0481b",
+    "102": "ae9eeab47ec87d34f510429e14bb910c52b4c6450fe4f2028d81b44c633f5940",
+    "103": "2972787659952605c8299d32b8555da4ed822e771786ff1e791d535850898de0",
+    "104": "ed37b18b47761237f94a8b323b0402f01ea87b137624f623ca621d946309724e",
+    "105": "5f47b1a492bad6c18005b689c95df22cebc332338e94d2e0a6f41eb230c65520",
+    "106": "e84b8fd5884478d9577c67d094c8b905eed9477f434610913d4a5ed529ed513c",
+    "107": "23284c3fcc2b2ab2650c039a95804f3c2daf0b35a73b824f2496e417107683fe",
+    "108": "535ad90b387cd866c75b3af416a35985dfea7b43d12147ae250727b07d75f697",
+    "109": "7ac140db4527fd5167149d5a3f7b2572fc7cb906dfc7b5cd68f8115c97467347",
+    "110": "37d11bcacc2ca4f5192d14a1eafed4bf73d8f871afaf41e612097d180327f474",
+    "111": "4fdb726d40a04778c59c19c7abad5f3d6ebf089ff5a429be5d0a8a1dfdf05778",
+    "112": "f77440264d30fdbe4bc2b7fc4d1a3e92f7b4a5dd34d2132f9692b838bc175870",
+    "113": "bc88528700f7b9c6afe0c01b1c8cb2282d69c65fcfa4fc6b82527c1662aab087",
+    "114": "86d3d5cbfd9aa2f3ab833bea1c7d8ae096e0df35573ca9acdbb89af94961e83e",
+    "115": "aac1c54e54a27519404f8dd46323d6ad3efa2583bd532c6854a6caa5c6eccc76",
+    "381": "e9f11fcd344bb8d48aa14b745f2a23a5785db65b3910470fecd06c80f0a755cb",
+    "383": "440f8edc633ea8c97ab9c21654cb5f9fa7415c5a0fcb1ba723f74346a32af3e5",
+    "385": "8ba15a2742c42915348f3dbac5ccf15fe1288aa3a20133b43103df5668c3a9d1",
+    "413": "27011267fddac29c80f5999f6bc406070d2d8c456a695f7a9688444e515c0897",
+    "415": "814fa509c616854f17c22cdb894bb04937210923951a0cc361da798fed2c826a",
+    "417": "96858d61a2cc99101215e40e436e9a2d16da83243f3cb6934bc63aee5d4330b0",
+    "184": "5f252c810770ad3c980b748dab0e42b74fe36418a40c33dd489d9d54a3c336e3",
+    "189": "127c71086e9ea3519351d25251bf9102592b61adf91b38063c1b45e5e726704e",
+    "190": "5c77de62802810c0435f44fe8e70018b4dc14b7a0889ed3b5cb266078b37595a",
+    "193": "a8b5280e420b476a931619adc3031ed3242ea2f7457b910a070b31cccfafa41d",
+    "310": "91731bb9bd7b38e35f9a18a0f6121c440505c5abfdeaf1d8c97b11090785fd93",
+    "314": "cc46c107bb2470c86a7222801671f24246617e1a3e45deb9d9f2f2157e317bb3",
+    "403": "efd979ad066214cba66d8532141744c8c4835088e6922e9bb912da7c0f0543d6",
+    "435": "8cd68f1af8a281050059d947308e418aee6b60c65a924ad0ee53f361d7addc61"
+  },
+  "chapter_10": {
+    "recruited_children": 316,
+    "recruited_by_arm": [
+      159,
+      157
+    ],
+    "evaluation_classrooms": 40,
+    "teacher_overlap_with_pilot": 33,
+    "replaced_teachers": 7,
+    "pilot_klein_analyzed_children": 278,
+    "measures": [
+      "WJ Applied Problems",
+      "CMA-A Mathematics Composite",
+      "Building Blocks Shape Composition"
+    ],
+    "responses_by_arm": {
+      "pre_k_spring": [
+        [
+          148,
+          148
+        ],
+        [
+          148,
+          149
+        ],
+        [
+          148,
+          149
+        ]
+      ],
+      "kindergarten_spring": [
+        [
+          145,
+          139
+        ],
+        [
+          145,
+          139
+        ],
+        [
+          145,
+          139
+        ]
+      ]
+    },
+    "rm_effects": {
+      "pre_k_spring": [
+        0.22,
+        0.44,
+        0.96
+      ],
+      "kindergarten_spring": [
+        0.13,
+        0.13,
+        0.41
+      ]
+    },
+    "ancova_effects": {
+      "pre_k_spring": [
+        0.16,
+        0.35,
+        0.91
+      ],
+      "kindergarten_spring": [
+        0.05,
+        0.1,
+        0.3
+      ]
+    },
+    "shape_rm_start_extrapolation": 0.08,
+    "shape_rm_fall_observed": 0.25,
+    "tbrs_math_concepts": 0.57,
+    "wwc_pre_k_spring_significant": [
+      false,
+      false,
+      true
+    ],
+    "wwc_rating": "meets_with_reservations"
+  },
+  "wwc_report": {
+    "url": "https://ies.ed.gov/ncee/WWC/Docs/InterventionReports/wwc_prekmath_121713.pdf",
+    "sha256": "85ca5226cd30ca20d3fd29f973540e79144797ac6667b71e0926f0a856b05abd",
+    "pdf_pages": 20,
+    "selected_text_pages": [
+      7,
+      8,
+      11,
+      12,
+      13,
+      16,
+      17,
+      18
+    ],
+    "visual_pdf_pages": [
+      7,
+      16,
+      18
+    ],
+    "visual_sha256": {
+      "7": "a2683f4140503c6c72c1305dab95d2df99ea8438fa819b2ac1bc316674602173",
+      "16": "8a00313803b3671c7858b8000c478c5a5d3b30c85a495e0c40789f5e9ad96749",
+      "18": "a10f4c12988f43040c3e7673a7948325cd539a579fc9ba96805301594a1105c3"
+    }
+  }
+}

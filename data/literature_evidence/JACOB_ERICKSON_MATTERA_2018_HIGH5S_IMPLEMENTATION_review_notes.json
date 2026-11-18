@@ -1,0 +1,52 @@
+{
+  "source_id": "JACOB_ERICKSON_MATTERA_2018_HIGH5S_IMPLEMENTATION",
+  "source_url": "https://www.mdrc.org/work/publications/launching-kindergarten-math-clubs",
+  "date": "2026-11-10",
+  "reviewer": "Codex",
+  "source_asset_kind": "pdf",
+  "source_pdf_sha256": "6f90c0ff3e84bcbf4c9ec8fb6e1b2e1ddce55a72de73004b07b1408ea0a217af",
+  "pdf_url": "https://files.eric.ed.gov/fulltext/ED581568.pdf",
+  "source_pdf_redistributed": false,
+  "contains_source_full_text": false,
+  "pdf_pages": 107,
+  "selected_text_pages": [
+    26,
+    40,
+    41,
+    42,
+    46,
+    71
+  ],
+  "visual_pdf_pages": [
+    42,
+    46,
+    71
+  ],
+  "rendered_page_sha256": {
+    "42": "ea30d23599ae7d90fd45e3b59bb3a151d29bd6368dbb372fdcb6391ed1c4d374",
+    "46": "15be3a110b43d68277aea02e92c3c3b724d6ccac5642616e5d02d32bf52fc0e6",
+    "71": "47bd1d0993755576a248636720f3b22b571e60f7b202065f98b4bdccb81ba8d4"
+  },
+  "read_scope": "High 5s 시행 보고서 PDF 26·40~42·46·71쪽에서 활동 예, 출석, 진행자 기록과 관찰, 참여 평정의 범위를 확인했다.",
+  "study_family": "MDRC_MAKING_PRE_K_COUNT_HIGH_5S",
+  "implementation_only": true,
+  "reading_log": [
+    "활동의 계산 전략과 실제 회기 운영 및 참여 평정을 구분했다."
+  ],
+  "source_corrections": [
+    {
+      "location": "표 4.2·4.3",
+      "issue": "예정 회기·게임일 제외·관찰 회기의 분모와 평정자를 구별한다."
+    }
+  ],
+  "results": {
+    "attendance_percent": 87.4,
+    "attendance_benchmark": 80,
+    "scheduled_sessions": 7031,
+    "scheduled_activity_sessions": 5971,
+    "observed_sessions": [
+      25,
+      26
+    ]
+  }
+}

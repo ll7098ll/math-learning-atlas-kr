@@ -1,0 +1,67 @@
+{
+  "source_id": "NCETM_2025_EXPLORING_FUNCTIONS",
+  "source_url": "https://www.ncetm.org.uk/media/tgnhs4se/ncetm_ks4_cc_9_4.pdf",
+  "source_asset_kind": "pdf",
+  "source_pdf_sha256": "e179490b1e3f0bebc39c8f1e7f71b0d9b3d4d637d32b8ea89ccfec6ad8a1907e",
+  "source_pdf_url": "https://www.ncetm.org.uk/media/tgnhs4se/ncetm_ks4_cc_9_4.pdf",
+  "pdf_pages": 37,
+  "selected_text_pages": [
+    1,
+    3,
+    6,
+    7,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22
+  ],
+  "visual_pdf_pages": [
+    6,
+    18,
+    20,
+    21,
+    22
+  ],
+  "rendered_page_sha256": {
+    "6": "a2d1c21873fddcdb000d509b0d1d4c77c6360859a0793a710926d0c07a15c96f",
+    "18": "16d6e85a2919b726769631ab51829452e606c726ec55d8a6338cbc16b543436e",
+    "20": "6f86aa7b442f9aae21dca1c9c10dc1dfcad72b790aaa946e541cb757a6e9e584",
+    "21": "c271f5827448d2c2e423d8c7bf1a16c4d50d86a4a47f74e1627d64b2b6154bcc",
+    "22": "60ebfe156835046402aae964fdc5a5fdfc205628862159b3acc7d9336e688097"
+  },
+  "date": "2026-11-13",
+  "reviewer": "Codex",
+  "read_scope": "2025 표지와 함수 정의·입력 범위, 여러 입력과 같은 출력, 표현의 한계 및 x²·제곱근·수직선 검사 예시의 지정 부분을 대조했다.",
+  "empirical_scope": {
+    "design": "교사 전문성 개발을 위한 개념·예시·토의 발문. 직접 복제하는 교과서 수업안과 구별.",
+    "sample_description": "학생 표본 없음. 예상 난점과 가상 응답은 실제 학생의 반응 빈도가 아니다.",
+    "inference_limit": "교사용 활동이다. 함수의 엄밀한 집합 용어·합성·역·지수함수·일반 변환은 이번 중학교의 추가 필수로 요구하지 않는다. x²의 0 경계와 정의역 밖 수직선, 실제 상황의 다른 조건을 명시한다.",
+    "student_outcome_study": false,
+    "causal_effect_established": false,
+    "local_effect_tested": false
+  },
+  "contains_source_full_text": false,
+  "source_pdf_redistributed": false,
+  "reading_log": [
+    "2025 표지와 함수 정의·입력 범위, 여러 입력과 같은 출력, 표현의 한계 및 x²·제곱근·수직선 검사 예시의 지정 부분을 대조했다."
+  ],
+  "source_corrections": [
+    {
+      "location": "방법·문항·표·그림·서술의 대조",
+      "issue": "2025 판권과 지정 문항의 판면을 대조했다. 20쪽 x² 성질 목록의 각 출력에 여러 입력·모두 양수는 출력 0에서 맞지 않는다. 나열 문장을 모두 참인 정답으로 옮기지 않았다. 22쪽 수직선 검사는 정의역의 각 입력에서 하나이며 범위 밖에서는 교점이 없을 수 있다. 6쪽 선형·이차 함수 용어는 국내 일차·이차함수의 최고차항 계수≠0 조건을 따로 적용하고 고급 주제의 생략된 조건은 근거로 쓰지 않는다. 실제 생활의 단일 변수 모형은 다른 조건을 고정해야 한다."
+    }
+  ],
+  "middle_algebra_function_review": {
+    "printed_copyright_year": 2025,
+    "domain_and_unique_output_distinguished": true,
+    "constant_functions_allowed": true,
+    "page_20_zero_output_counterexample": true,
+    "page_20_positive_range_requires_nonnegative": true,
+    "page_22_vertical_test_domain_limit": true,
+    "highest_degree_nonzero_coefficient_added_to_own_definition": true,
+    "real_contexts_require_fixed_other_conditions": true,
+    "advanced_function_topics_not_required": true
+  }
+}

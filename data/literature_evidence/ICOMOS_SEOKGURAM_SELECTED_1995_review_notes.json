@@ -1,0 +1,63 @@
+{
+  "source_id": "ICOMOS_SEOKGURAM_SELECTED_1995",
+  "source_url": "https://whc.unesco.org/archive/advisory_body_evaluation/736.pdf",
+  "source_asset_kind": "pdf",
+  "source_pdf_sha256": "a69564ee21d0276b9e904ccf8a02a96d699ba65e8b04a34150681e03a47eaf6a",
+  "source_pdf_url": "https://whc.unesco.org/archive/advisory_body_evaluation/736.pdf",
+  "pdf_pages": 15,
+  "selected_text_pages": [
+    1,
+    2,
+    4,
+    5,
+    6,
+    7
+  ],
+  "visual_pdf_pages": [
+    1,
+    2,
+    4,
+    5,
+    6,
+    7
+  ],
+  "rendered_page_sha256": {
+    "1": "2aa6e1581dc4f42f4b68a069434e69970e9ee25db9b94a572c5dc2f8ff8f0724",
+    "2": "187bbf6c03c2f6c69f14ae936545320c052fac239ee338f68878eda0a958ac26",
+    "4": "21a1ee8fa4ca09e68581f2bc5a18641f1bf7e0b91fc791e9adfbd05768ed6dab",
+    "5": "db36b73a631a341defc3fa79fc9b09565ca15834ff19bded11cb3a877285339d",
+    "6": "2ffe018fde8a2612f5ae6410daed83f73d1427211c9d3b2b1b6affd0f6ab4d9f",
+    "7": "6c2b00b4a764f79318a9a29a44b5c74c1c0929f6a855eb0532962e81d267e54b"
+  },
+  "date": "2026-11-16",
+  "reviewer": "Codex",
+  "read_scope": "PDF1,2,4~7의 추출문/판면6쪽에서 당사국 설명·영문 평가·배치 지도·사진을 대조했다. 영문 본문1,2,4는 인쇄60,61,63쪽이다. 프랑스어 중복 부분은 범위에서 제외한다.",
+  "empirical_scope": {
+    "design": "지정 원문·실제 판면 대조와 자체 수학·창작 과제 설계",
+    "sample_description": "학생 표본·실제 창작 결과·현장 성과를 분석한 연구가 아님",
+    "inference_limit": "1995년 평가의 문화 맥락이며 현재 소유·법·안전·실측 자료나 역사적 황금비 설계 의도의 증명이 아니다. 형상 이상화·가상 치수와 실제 문화재를 구별한다.",
+    "student_outcome_study": false,
+    "causal_effect_established": false,
+    "local_effect_tested": false
+  },
+  "contains_source_full_text": false,
+  "source_pdf_redistributed": false,
+  "reading_log": [
+    "PDF1,2,4~7의 추출문/판면6쪽에서 당사국 설명·영문 평가·배치 지도·사진을 대조했다. 영문 본문1,2,4는 인쇄60,61,63쪽이다. 프랑스어 중복 부분은 범위에서 제외한다."
+  ],
+  "source_corrections": [
+    {
+      "location": "방법·문항·표·그림·서술의 대조",
+      "issue": [
+        "1쪽당사국설명과4쪽ICOMOS평가를구별한다.1995년평가·문화맥락을현재소유/법/안전지침으로옮기지않는다.",
+        "배치지도·사진은건물실측도면이아니다. 가상치수·도형이상화·황금비추정으로역사설계의도를확정하지않으며2쪽치수서술을독립실측없이계산매개변수로쓰지않는다."
+      ]
+    }
+  ],
+  "culture_creation_review": {
+    "full_book_read": false,
+    "formula_extraction_incomplete": true,
+    "own_tasks_are_not_student_responses": true,
+    "source_pdf_and_images_redistributed": false
+  }
+}

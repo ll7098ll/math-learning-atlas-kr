@@ -1,0 +1,44 @@
+name: Repository checks
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  research:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+      - name: Check repository files and documentation
+        run: python scripts/check_repository.py
+      - name: Check task conditions and review states
+        run: |
+          python scripts/test_goal_hierarchy.py
+          python scripts/test_hierarchy_review.py
+          python scripts/test_content_completion.py
+      - name: Check reproducible mathematics examples
+        run: |
+          python scripts/test_general_math_models.py
+          python scripts/test_advanced_math_models.py
+      - name: Verify the exported portal snapshot
+        run: python scripts/export_portal_snapshot.py --verify
+      - uses: actions/setup-node@v7
+        with:
+          node-version: '24'
+          package-manager-cache: false
+      - name: Check portal content, goals and school groups
+        run: |
+          node site/tests/test_content_objects.mjs
+          node site/tests/test_goal_network.mjs
+          node site/tests/test_catalog_groups.mjs
+

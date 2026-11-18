@@ -1,0 +1,64 @@
+{
+  "source_id": "AMSI_2011_PLANE_GEOMETRY",
+  "source_url": "https://amsi.org.au/teacher_modules/introduction_to_plane_geometry.html",
+  "source_asset_kind": "pdf",
+  "source_pdf_sha256": "9308b7c339d67674189b42cf44e03da459e1600d385283da91c0388a36bdc8db",
+  "source_pdf_url": "https://amsi.org.au/teacher_modules/pdfs/introduction_to_plane_geometry.pdf",
+  "pdf_pages": 20,
+  "selected_text_pages": [
+    1,
+    2,
+    3,
+    5,
+    6,
+    7,
+    9,
+    10,
+    11,
+    12,
+    14,
+    15,
+    16
+  ],
+  "visual_pdf_pages": [
+    6,
+    11,
+    14,
+    15,
+    16
+  ],
+  "rendered_page_sha256": {
+    "6": "e1ff2db969d4ad200577f7d88c29dd51cd434cbd87a1ed15d38dcaceacfa7363",
+    "11": "fbc523cd6bae117a81f4ae02b67eea7c77475ad6135c52352cfa2e513be85316",
+    "14": "7fc1effc037e064cad6bcd275b5798df0796b14bd99613f75c6aee8902edc6b3",
+    "15": "1f53364972fa8734ca2ef9bf4415a64ec43625b3d383a219dad3b5b0a13290f1",
+    "16": "2849fc2a2370125e5eb61e943418c0e99b0eada49769794c28724c685234743a"
+  },
+  "date": "2026-11-13",
+  "reviewer": "Codex",
+  "read_scope": "표지·서지와 이상적인 점·직선, 평면에서의 위치·각, 평행선의 동위각·엇각과 역, 삼각형·사각형 내각합의 지정 본문·도식을 읽었다.",
+  "empirical_scope": {
+    "design": "교사용 수학 내용 설명과 예시·연습 문제. 지정 부분의 수학적 조건과 표현을 대조.",
+    "sample_description": "학생 표본·학생별 반응 자료 없음. 자체 과제의 효과를 검사한 연구가 아니다.",
+    "inference_limit": "평면의 두 직선 설명을 공간의 꼬인 위치까지 확장한 정리로 읽지 않는다. 11쪽 동측내각이 같지 않다는 문장은 수직 횡단선의 90°·90° 예외가 있다. 볼록 n각형 일반화와 정육면체 위치 과제는 자체 확장이다.",
+    "student_outcome_study": false,
+    "causal_effect_established": false,
+    "local_effect_tested": false
+  },
+  "contains_source_full_text": false,
+  "source_pdf_redistributed": false,
+  "reading_log": [
+    "표지·서지와 이상적인 점·직선, 평면에서의 위치·각, 평행선의 동위각·엇각과 역, 삼각형·사각형 내각합의 지정 본문·도식을 읽었다."
+  ],
+  "source_corrections": [
+    {
+      "location": "방법·문항·표·그림·서술의 대조",
+      "issue": "평면 문맥의 두 직선 위치를 공간 전체에 확장하지 않았다. 11쪽 co-interior angles are not equal은 수직 횡단선의 90°·90°에서 맞지 않으며 합 180°를 정확한 성질로 썼다. 16쪽 사각형 분할에서 볼록 n각형으로의 일반화는 자체 설명이다."
+    }
+  ],
+  "middle_geometry_review": {
+    "plane_context_not_all_space": true,
+    "page_11_cointerior_unequal_has_90_degree_exception": true,
+    "convex_polygon_generalisation_is_own": true
+  }
+}

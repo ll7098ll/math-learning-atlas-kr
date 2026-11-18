@@ -1,0 +1,55 @@
+{
+  "source_id": "NCETM_2025_LINEAR_INEQUALITIES",
+  "source_url": "https://www.ncetm.org.uk/media/rp4bcrfw/ncetm_ks4_cc_9_1.pdf",
+  "source_asset_kind": "pdf",
+  "source_pdf_sha256": "446334bcf00319636722e9d832409597656ab51d15bd38304dfa302198784270",
+  "source_pdf_url": "https://www.ncetm.org.uk/media/rp4bcrfw/ncetm_ks4_cc_9_1.pdf",
+  "pdf_pages": 32,
+  "selected_text_pages": [
+    1,
+    2,
+    3,
+    4,
+    9
+  ],
+  "visual_pdf_pages": [
+    1,
+    3,
+    9
+  ],
+  "rendered_page_sha256": {
+    "1": "77948fb026ab4d4a209b516fa5f461aee1fe99cdadec3c3a3eef79ffc8a26283",
+    "3": "78a14eb87ad1b2b8d0c651884a766a01c0181f0267eec493bcd12f4b17c2425d",
+    "9": "13d9aaa63851ed4275ebdc23e2ec44412c314e576cd4fbbce274bcd099f5050e"
+  },
+  "date": "2026-11-13",
+  "reviewer": "Codex",
+  "read_scope": "2025 표지·목적과 연결 개요, 일차방정식·부등식의 해와 수직선, 양변 변형과 음수 곱셈의 부등호 방향을 지정 부분에서 대조했다.",
+  "empirical_scope": {
+    "design": "교사 전문성 개발을 위한 개념·예시·토의 발문. 직접 복제하는 교과서 수업안과 구별.",
+    "sample_description": "학생 표본 없음. 예상 난점과 가상 응답은 실제 학생의 반응 빈도가 아니다.",
+    "inference_limit": "교사 개발 자료이며 국내 자체 과제는 한 미지수의 일차부등식으로 한정한다. 두 변수의 영역·운동학·직교 기울기는 추가 요구로 삼지 않는다. 0개 또는 1개라는 연립방정식 개요를 모든 경우의 정리로 옮기지 않는다.",
+    "student_outcome_study": false,
+    "causal_effect_established": false,
+    "local_effect_tested": false
+  },
+  "contains_source_full_text": false,
+  "source_pdf_redistributed": false,
+  "reading_log": [
+    "2025 표지·목적과 연결 개요, 일차방정식·부등식의 해와 수직선, 양변 변형과 음수 곱셈의 부등호 방향을 지정 부분에서 대조했다."
+  ],
+  "source_corrections": [
+    {
+      "location": "방법·문항·표·그림·서술의 대조",
+      "issue": "표지의 2025 판권을 확인했다. 3쪽 9.1.3.1의 연립일차방정식 해가 0 또는 1개라는 문구를 모든 경우의 정리로 옮기지 않는다. 같은 직선이면 무수히 많은 해가 있을 수 있다. 9쪽 9.1.2.3은 equation을 region으로 쓰지만 자체 과제에는 한 미지수 부등식의 해와 경계만 사용한다. 예상 난점은 실제 학생 통계가 아니다."
+    }
+  ],
+  "middle_algebra_function_review": {
+    "printed_copyright_year": 2025,
+    "student_probes_single_variable_only": true,
+    "negative_multiplier_reverses_order": true,
+    "page_3_zero_or_one_solutions_not_exhaustive": true,
+    "page_9_equation_region_label_not_imported": true,
+    "integer_context_distinguished_from_real_solution": true
+  }
+}

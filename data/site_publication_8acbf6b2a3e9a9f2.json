@@ -1,0 +1,90 @@
+{
+  "saved": {
+    "id": "appgprj_6ae2965054108191ad7dc71524bb7cfb~appgver_0202b8a52f508191bf5432483b3871fb",
+    "project_id": "appgprj_6ae2965054108191ad7dc71524bb7cfb",
+    "version_number": 89,
+    "source": {
+      "commit_sha": "1d27020829fb1326455b055bd4cee2274e571878"
+    },
+    "archive_storage": {
+      "archive_format": "tar",
+      "sediment_file_id": "file_000000006c788211a319e001b95ea3d7",
+      "content_hash": "sha256:c5da2157693f42d2921f50034ad43b70464f2f332b51cdce9640dfda936d63ac",
+      "size_bytes": 200622080,
+      "file_count": 1416
+    },
+    "screenshot_url": null,
+    "deployment_id": null
+  },
+  "deployment": {
+    "id": "appgdep_6afd1ff11780819196f8d206b14f6a93",
+    "project_id": "appgprj_6ae2965054108191ad7dc71524bb7cfb",
+    "title": "수학의 연결 지도",
+    "version_id": "appgprj_6ae2965054108191ad7dc71524bb7cfb~appgver_0202b8a52f508191bf5432483b3871fb",
+    "type": "publish",
+    "status": "succeeded",
+    "url": "https://math-learning-atlas-kr.gptpro2908176.chatgpt.site",
+    "has_mcp": false,
+    "screenshot_asset_pointer": null,
+    "provider_deployment_id": "site---6ae2965054108191ad7dc71524bb7cfb",
+    "failure_message": null,
+    "env_set_revision": 0,
+    "updated_at": "2026-11-18T03:49:04.977219+00:00"
+  },
+  "package": {
+    "status": "pass",
+    "source": {
+      "project_id": "appgprj_6ae2965054108191ad7dc71524bb7cfb",
+      "commit_sha": "1d27020829fb1326455b055bd4cee2274e571878"
+    },
+    "archive": {
+      "path": "C:\\Users\\User\\Desktop\\codex\\수학 내용 체계\\tmp\\math-atlas-publish-20261118-8acbf6b2a3e9a9f2.tar.gz",
+      "files": 1416,
+      "bytes": 55836514,
+      "expanded_bytes": 199239680,
+      "sha256": "039268f9447fce58a158cce9c16b43631ec8eed73fd9eba65dbd69d1226b33f5"
+    },
+    "protected_paths_verified": 919,
+    "omitted_unreferenced_historical_files": 7352,
+    "retained_snapshots": [
+      "current_8acbf6b2a3e9a9f2"
+    ],
+    "previous_public_recovery": {
+      "version_number": 88,
+      "version_id": "appgprj_6ae2965054108191ad7dc71524bb7cfb~appgver_6cabbe75ed548191874bbf40f791ba5f",
+      "commit_sha": "e90869144fbd7caea6759d3005154907bf41bb2b",
+      "saved_archive_intact": true,
+      "referenced_recovery_graphs_retained": true,
+      "prior_reversible_archive_history_file": "data/portal_asset_archive_history.json",
+      "this_release_archived_static_files": 0
+    },
+    "supported_helper_observation": {
+      "source_push_status": "succeeded_verified_by_fresh_remote_open",
+      "fresh_remote_open_session": 20468,
+      "fresh_remote_commit": "1d27020829fb1326455b055bd4cee2274e571878",
+      "supported_helper_session": 55065,
+      "supported_helper_exit_code": 1,
+      "observed_message": "Unable to package the Site archive.\nSite preparation command failed.",
+      "local_commit_observed": "1d27020829fb1326455b055bd4cee2274e571878",
+      "packaging_succeeded": false,
+      "packaging_error_root_cause_verified": false,
+      "no_additional_archival_moves_or_deletes": true
+    },
+    "method": "Complete current dependency graph packaged as UTF-8 USTAR;every file reread and checked against the pushed Git blob allowing only Windows LF/CRLF checkout normalization. Actual supported-helper outcome and fresh remote opening recorded. Only unreferenced historical copies omitted from this archive;no files moved/deleted. Existing licensed public-domain guide remains included under its explicit report declaration. New private rendered pages and unrelated private books/manuscripts/runtime assets are not redistributed. Whole guide visual review does not imply all cited-original/toolkit/video readings or human/student/browser validation."
+  },
+  "live_check": {
+    "status": "pass",
+    "url": "https://math-learning-atlas-kr.gptpro2908176.chatgpt.site",
+    "data_version": "8acbf6b2a3e9a9f2",
+    "resources_checked": 102,
+    "affected_standards": 13,
+    "added_claims": 0,
+    "added_observations": 0,
+    "changed_prior_claims": 0,
+    "changed_prior_observations": 0,
+    "cumulative_source_claims": 11,
+    "cumulative_source_observations": 9,
+    "scope": "Public bytes match local checked files,allowing only hosting HTML script.54new visual pages close the71page algebra guide gap;0new text/source/claim/task/relations. All1050claims/1232tasks/863interpretations preserved;report-number discrepancy recorded without inventing official erratum. Protocol remains text-only8pages. External/student0/0 and actual browser QA unverified. No file moves/deletes."
+  },
+  "note": "Post-publication receipts updated locally after the pushed source/archive; content data unchanged. This does not claim receipt metadata was part of that earlier archive."
+}

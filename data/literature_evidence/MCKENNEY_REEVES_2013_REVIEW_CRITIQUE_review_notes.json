@@ -1,0 +1,115 @@
+{
+  "source_id": "MCKENNEY_REEVES_2013_REVIEW_CRITIQUE",
+  "source_url": "https://journals.sagepub.com/doi/10.3102/0013189X12463781",
+  "source_asset_kind": "pdf",
+  "source_pdf_sha256": "26a4fb411f6a5950380444df9d73f0a6166a2dfcfab2a4edec3814d07b2db0dd",
+  "source_pdf_url": "https://research.ou.nl/ws/files/1027555/ER-DBR-FinalUnBlinded.pdf",
+  "pdf_pages": 13,
+  "selected_text_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+  ],
+  "visual_pdf_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+  ],
+  "rendered_page_sha256": {
+    "1": "40c4746b02c21b4ffb66d9c5793d9aed5169dbe722d30e55865eedd8f9516e35",
+    "2": "900a62a986096fefbfb906cae4e3b9ed7c2d01233e7ae5bcbaedc1166ec7fb71",
+    "3": "017c29f5ef1a00bc9eee50086b6f8c3988eddc67d276fda8fe7509def65e77d6",
+    "4": "764d509bafbae3a99ac65d7a8ca01c95c5d4f468070294cdab523022ec7e59a6",
+    "5": "7bf936ad1171cbc66742a15b63d5689a25ed3ecc1e71e0845bf082754debc065",
+    "6": "5b4f275619becb7fecdbfe0ea87b201d7596a65a52b61af5243d20c905de6e4d",
+    "7": "dea8b3900df91674330c7921ef2acb2c0bf6a71f420b5ab1fc8f4b942dd2714a",
+    "8": "140bf0a22fe0fc83ce77429a4b9225acb585730a6698b66d7eca39142f9bbdaa",
+    "9": "fd6703258062abaf404bfbf2c39865abbfdf6fcab1d1004200a3a3eebe09e643",
+    "10": "8ecd1a8ba4ad8cc258749649501b5124887a1e12db956dc2ccf35eea4939ea98",
+    "11": "cf03e4d5ce9d4e626c5d8a63555a984f9a4cea814667c216dadf6ea3e412866c",
+    "12": "e7e10f65ceede1f2d86e6943e29e11e0d66670bdf361acc6187198711dd85b97",
+    "13": "5dbb48665278b614a2a71f9adfd0d64cfdaf05371e6917d2e00e3cc307839b58"
+  },
+  "date": "2026-11-17",
+  "reviewer": "Codex",
+  "read_scope": "Open Universiteit공식저장소의동료심사후저자원고PDF13쪽을추출문/판면으로전부대조했다. PDF1은기관표지이고PDF2–13은원고1–12쪽의본문·참고문헌이다. 출판본ER42(2),2013,97–100의4쪽과구별한다. Anderson/Shattuck의47편검토에대한목적/방법적합성·문제출발·이론/현장산출·검색어/인용수/책제외·초록분석·연구성숙도와실제현장영향의한계를읽었다. 원고의퍼센트서술과Anderson원고의31초록/36범주언급을함께대조했다.",
+  "empirical_scope": {
+    "design": "선정문헌검토의개념화와방법적합성에대한비판적논평",
+    "sample_description": "Anderson/Shattuck2012의47편검토를논평한다. 새로운참여자표본·효과크기의독립추정연구로세지않는다.",
+    "inference_limit": "이논문은비판적논평이며새독립효과추정·47편재검토완료나현장실측결과가아니다. 비판을원검토의모든기술결과가거짓이라는증거로바꾸지않는다. 이론과실제개선을함께살피되모든학생에게새이론·무작위시험을강제하지않는다. 비판본문33%/14%/20%의분모는원검토의비배타적결과36언급과함께읽고학생비율·고유연구비율로옮기지않는다. 원논문전체/실제참여자자료가없으면근거의한계를기록하며전체사용자목표를작은문헌검토로대체하지않는다. 출판본4쪽판면·인용원연구·원자료·실제독립/학생/시각검증은별도다.",
+    "student_outcome_study": false,
+    "causal_effect_established": false,
+    "local_effect_tested": false
+  },
+  "contains_source_full_text": false,
+  "source_pdf_redistributed": false,
+  "reading_log": [
+    "Open Universiteit공식저장소의동료심사후저자원고PDF13쪽을추출문/판면으로전부대조했다. PDF1은기관표지이고PDF2–13은원고1–12쪽의본문·참고문헌이다. 출판본ER42(2),2013,97–100의4쪽과구별한다. Anderson/Shattuck의47편검토에대한목적/방법적합성·문제출발·이론/현장산출·검색어/인용수/책제외·초록분석·연구성숙도와실제현장영향의한계를읽었다. 원고의퍼센트서술과Anderson원고의31초록/36범주언급을함께대조했다."
+  ],
+  "source_corrections": [
+    {
+      "location": "방법·문항·표·그림·서술의 대조",
+      "issue": [
+        "13PDF쪽은기관표지1쪽+저자원고12쪽이며출판본97–100의4쪽을13쪽본문이라고하지않는다. 기관이표시한동료심사후버전과출판판면을구별한다.",
+        "비판을원검토의모든기술결과가거짓이라는증거로쓰지않는다. 문제/목적·선정·초록·성숙도·실제현장영향에관한주장으로한정한다.",
+        "비판본문33%·14%·20%를원고의비배타적36언급과함께대조한다. 학생분모·유일연구수·개인별효과를추정하지않는다.",
+        "당시인용수289/117/20·중앙값55와저자직함/연락처·in press표기는역사적내용이며현재상태를검증한것이아니다. 현재원문전체·원자료확보로승격하지않는다."
+      ]
+    }
+  ],
+  "review_originals_reading": {
+    "accepted_manuscript_complete": true,
+    "pdf_pages": 13,
+    "wrapper_pdf_pages": [
+      1
+    ],
+    "manuscript_pdf_pages": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "manuscript_printed_pages": [
+      1,
+      12
+    ],
+    "published_article_pages": [
+      97,
+      100
+    ],
+    "published_pdf_obtained": false,
+    "new_effect_estimate": false,
+    "all_cited_originals_read": false,
+    "percentages_checked_against_nonexclusive_original_counts": true,
+    "actual_independent_review": 0,
+    "actual_student_validation": 0
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "source_id": "DORUK_BAYRAM_GUN_2026_SURFACE_REPRESENTATIONS",
+  "source_url": "https://doi.org/10.3390/higheredu5010027",
+  "source_pdf_url": "https://mdpi-res.com/d_attachment/higheredu/higheredu-05-00027/article_deploy/higheredu-05-00027.pdf",
+  "source_asset_kind": "pdf",
+  "source_pdf_sha256": "cc1ceb660cbf667e4a17ef667d5851455a9bffce7ca565f9dad6e19adf30268b",
+  "pdf_pages": 26,
+  "selected_text_pages": [
+    1,
+    6,
+    7,
+    9,
+    10,
+    11,
+    12,
+    13
+  ],
+  "visual_pdf_pages": [
+    11,
+    12
+  ],
+  "rendered_page_sha256": {
+    "11": "b92b77c5f51101d21d41c6b396766546cc0c8273d77b9ef87588f7d004617084",
+    "12": "dcf2f13be44feab23c7615c749d36417547f6b35de7f6a30a8e9e04988a4ef62"
+  },
+  "date": "2026-11-10",
+  "reviewer": "Codex",
+  "read_scope": "그림 3의 구 식 선택과 미응답, 그림 4·5의 축 절편 확인과 비슷한 곡면의 혼동을 대조했다.",
+  "empirical_scope": {
+    "design": "식과 그래프의 대응 과제를 사용한 질적 사례 연구.",
+    "sample_description": "튀르키예 국립대 두 곳의 초등 수학교육 전공 2학년 예비 교사 85명.",
+    "inference_limit": "예비 교사가 원점 중심 구를 고른 응답이다. 이동된 구의 중심·반지름 설명과 벡터식, 평면의 식은 따로 확인한다.",
+    "student_outcome_study": true,
+    "causal_effect_established": false,
+    "local_effect_tested": false
+  },
+  "contains_source_full_text": false,
+  "source_pdf_redistributed": false,
+  "reading_log": [
+    "그림 3의 구 식 선택과 미응답, 그림 4·5의 축 절편 확인과 비슷한 곡면의 혼동을 대조했다."
+  ],
+  "source_corrections": [
+    {
+      "location": "정의·표·학생 응답",
+      "issue": "그림 3의 구 정답·오답·미응답을 그대로 기록하고, 식 선택의 수와 선택 이유가 설명된 범위를 구별했다."
+    }
+  ],
+  "analytic_review": {
+    "n": 85,
+    "sphere_center": [
+      0,
+      0,
+      0
+    ],
+    "radius": 5,
+    "sphere_matching": {
+      "correct": 72,
+      "incorrect": 8,
+      "no_response": 5
+    },
+    "sphere_vector_equation_tested": false
+  }
+}

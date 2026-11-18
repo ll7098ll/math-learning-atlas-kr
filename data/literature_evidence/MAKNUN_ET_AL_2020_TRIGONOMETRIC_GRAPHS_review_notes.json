@@ -1,0 +1,56 @@
+{
+  "source_id": "MAKNUN_ET_AL_2020_TRIGONOMETRIC_GRAPHS",
+  "source_url": "https://doi.org/10.29333/iejme/9275",
+  "source_pdf_url": "https://www.iejme.com/download/didactical-design-on-drawing-and-analysing-trigonometric-functions-graph-through-a-unit-circle-9275.pdf",
+  "source_asset_kind": "pdf",
+  "source_pdf_sha256": "a4fdaf6d2a59d35e378a5446a9a3c622e62e33d3216de818ad0ca26dded7fd1b",
+  "pdf_pages": 19,
+  "selected_text_pages": [
+    1,
+    5,
+    7,
+    8,
+    10,
+    11,
+    13,
+    14,
+    16
+  ],
+  "visual_pdf_pages": [
+    7,
+    14
+  ],
+  "rendered_page_sha256": {
+    "7": "1d753fb5a8e0cc9418e187d956acc4e024810bebfd2b3f288a1be5b4b087470a",
+    "14": "7f74cc709f3b20ee0c0f835308f499624a9070bcbedd85fc746f0a2a2d8761d3"
+  },
+  "date": "2026-11-10",
+  "reviewer": "Codex",
+  "read_scope": "단위원에서 그래프로 옮기는 사전 과제와 수업 대화, 사인과 탄젠트의 반복 간격에 대한 답변을 확인했다.",
+  "empirical_scope": {
+    "design": "교수 설계와 수업 관찰 및 면담·학생 산출물의 질적 분석.",
+    "sample_description": "인도네시아 공립 고교 10학년 65명.",
+    "inference_limit": "수업 설계와 관찰 사례다. 대화에 나온 응답을 참가자 65명의 비율로 환산하지 않는다.",
+    "student_outcome_study": true,
+    "causal_effect_established": false,
+    "local_effect_tested": false
+  },
+  "contains_source_full_text": false,
+  "source_pdf_redistributed": false,
+  "reading_log": [
+    "단위원에서 그래프로 옮기는 사전 과제와 수업 대화, 사인과 탄젠트의 반복 간격에 대한 답변을 확인했다."
+  ],
+  "source_corrections": [
+    {
+      "location": "정의·표·학생 응답",
+      "issue": "본문의 탄젠트 2π에서 π로 바뀐 답은 최소 양의 주기를 구하는 상황으로 읽었다. 2π 자체도 탄젠트의 주기다."
+    }
+  ],
+  "trigonometry_review": {
+    "n": 65,
+    "grade": 10,
+    "separates_anticipated_and_observed": true,
+    "least_tangent_period": "π",
+    "two_pi_is_also_tangent_period": true
+  }
+}

@@ -1,0 +1,41 @@
+# Local work, source downloads, rendered pages and deployment archives.
+/tmp/
+**/.openai/
+
+# Existing Sites projects are independent Git repositories.
+# Keep their histories and deployment trees outside the research repository.
+/portal/math-atlas/
+/portal/criterion-connections/
+/portal/layered-network/
+
+# Third-party source documents and page captures: redistribute only after
+# confirming permission for each source. The files remain on the local disk.
+*.pdf
+/data/source_review_images/
+
+# Python / Node caches and virtual environments.
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+node_modules/
+coverage/
+.coverage
+
+# Credentials, local configuration and editor state.
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+*.log
+*.tmp
+

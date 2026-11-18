@@ -1,0 +1,62 @@
+{
+  "source_id": "UNICODE18_BRAILLE_SELECTED_2026",
+  "source_url": "https://www.unicode.org/Public/18.0.0/charts/PDF/U2800.pdf",
+  "source_asset_kind": "pdf",
+  "source_pdf_sha256": "1f10f173ff3a1f401ea03a2a8a948c2709cd34f325bc87ad5c0ff178bc890dd3",
+  "source_pdf_url": "https://www.unicode.org/Public/18.0.0/charts/PDF/U2800.pdf",
+  "pdf_pages": 5,
+  "selected_text_pages": [
+    1,
+    2,
+    3,
+    5
+  ],
+  "visual_pdf_pages": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "rendered_page_sha256": {
+    "1": "f9130487ab7ed3c7292123125667e3953fd66f2c69546ea37c0f8c78255d8521",
+    "2": "9bbbb81b70053bd483b363f2911f26e4cf49546bbb58d15f204b915b8f65d355",
+    "3": "aecd19f46cd63bf32f0a4830b7ccdea69254e4e099d82ca20025ba649074f878",
+    "4": "74cfde02d46d59e59fb5b2e9dbbc86e7342b7804ef9eda132b4e693ca302276b",
+    "5": "f677f758d481137a252166540d4dcfc617c66fbfce7fa4c8408ec21fe6b0bdc3"
+  },
+  "date": "2026-11-16",
+  "reviewer": "Codex",
+  "read_scope": "Unicode18.0의 추출문1,2,3,5쪽4쪽과 실제 판면1~5쪽5쪽을 대조했다.8점 무늬·6점 부분집합·점 번호와 코드점의 대응을 확인했다.",
+  "empirical_scope": {
+    "design": "지정 원문·실제 판면 대조와 자체 수학·창작 과제 설계",
+    "sample_description": "학생 표본·실제 창작 결과·현장 성과를 분석한 연구가 아님",
+    "inference_limit": "언어별 점자 문법·한글 약자·물리적 제작 치수·이용자 가독성을 검증하지 않았다. 원표·글꼴·그림·번역표를 공개 복제하지 않고 자체 계산과 설계 질문만 싣는다.",
+    "student_outcome_study": false,
+    "causal_effect_established": false,
+    "local_effect_tested": false
+  },
+  "contains_source_full_text": false,
+  "source_pdf_redistributed": false,
+  "reading_log": [
+    "Unicode18.0의 추출문1,2,3,5쪽4쪽과 실제 판면1~5쪽5쪽을 대조했다.8점 무늬·6점 부분집합·점 번호와 코드점의 대응을 확인했다."
+  ],
+  "source_corrections": [
+    {
+      "location": "방법·문항·표·그림·서술의 대조",
+      "issue": [
+        "8점전체256과6점부분집합64/63을구별하며언어문자수를무늬수로치환하지않는다. 점번호가중값·앞뒤면·행순서를혼합하지않는다.",
+        "U2800은빈무늬지만일반공백이아니다. 참조글꼴은물리제작규격이아니며원표·글꼴을공개복제하지않는다. 실제한글규칙·이용자가독성은후속검토다."
+      ]
+    }
+  ],
+  "culture_creation_review": {
+    "full_book_read": false,
+    "formula_extraction_incomplete": true,
+    "own_tasks_are_not_student_responses": true,
+    "source_pdf_and_images_redistributed": false,
+    "original_chart_and_fonts_not_redistributed": true,
+    "korean_braille_rules_not_reviewed": true,
+    "physical_model_and_user_validation_not_completed": true
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "source_id": "OPENSTAX_CALC_DERIVATIVE",
+  "source_url": "https://openstax.org/books/calculus-volume-1/pages/3-1-defining-the-derivative",
+  "source_asset_kind": "publisher_html",
+  "source_asset_sha256": "192b3c82fce0dfafe7c092e092c2cc173899aeb5cfb4a7c971a370a11ee9c008",
+  "source_asset_redistributed": false,
+  "date": "2026-11-04",
+  "reviewer": "Codex",
+  "contains_source_full_text": false,
+  "source_pdf_redistributed": false,
+  "pdf_read": false,
+  "original_page_layout_review": false,
+  "reading_log": [
+    "공식3.1절의 도입·학습목표·정의·식3.1~3.8·예3.1~3.10·확인3.1~3.5·연습1~53을 모두 읽었다. 모든 연습의 해답을 독립 계산했다는 뜻은 아니다.",
+    "그림3.2~3.10의9개 자산과 연습39·40·47의3개 그래프, 합계12개를 각각 시각적으로 확인했다. 차분몫·좌우 접근·접선·속도·가속도와 단위를 대조했다.",
+    "유한 표·그래프 확대는 극한을 추정하는 자료이며 극한의 존재 증명과 구별했다. 연속·유한한 미분가능·수직 접선·접선의 곡선 횡단을 구별했다.",
+    "예3.8의 유한 구간 평균가속도 비교를 임의 보간 곡선의 순간가속도 단조성 증명으로 옮기지 않았다. 외부 애플릿·영상·전기 링크는 실행하지 않았다."
+  ],
+  "source_corrections": [
+    {
+      "kind": "observed_image_alt_text_conflict",
+      "location": "3.1절 연습39 / openstax-derivative-img10.webp",
+      "observation": "첫 선분의 시작점이 대체설명에는(1,0)으로 적혀 있으나 실제 그림 눈금에서는(0,1)로 보인다.",
+      "action": "좌표 충돌을 기록하고 자체 과제는 명시한 식으로 구성했다. 출판 정오표의 공식 정정은 확인하지 않았다."
+    }
+  ],
+  "observed_image_assets": [
+    {
+      "file": "openstax-derivative-img01.webp",
+      "url": "https://openstax.org/apps/image-cdn/v1/f=webp/apps/archive/20260604.144757/resources/f59ff5d370d6359f981e12e7718d364a0bf04f54",
+      "sha256": "eb9a06ad7ee6cc9168fa7898e3e86e99b7481482bf48d688189f50c09f5c8309"
+    },
+    {
+      "file": "openstax-derivative-img02.webp",
+      "url": "https://openstax.org/apps/image-cdn/v1/f=webp/apps/archive/20260604.144757/resources/44546d16e90380bcbe1a4470715ba0659039dad2",
+      "sha256": "dee59fa48168dfe8979d7ac1f57398fbf2ce66c2a34fcc1189fbca9c0d7f21c2"
+    },
+    {
+      "file": "openstax-derivative-img03.webp",
+      "url": "https://openstax.org/apps/image-cdn/v1/f=webp/apps/archive/20260604.144757/resources/95f04e8a329b82f7534024b953eeea82c803c83b",
+      "sha256": "5d9aa1781cfa0c264b7099329a1eeab84fa9a4e218de130709c5f84a6db9f3f9"
+    },
+    {
+      "file": "openstax-derivative-img04.webp",
+      "url": "https://openstax.org/apps/image-cdn/v1/f=webp/apps/archive/20260604.144757/resources/8255994c96ffe6a92125489bce479511ef6ccdff",
+      "sha256": "2b2d5b18d4ccf447ef9549dfcdc5ffe1b6e1135519384a52f97d2202a66254be"
+    },
+    {
+      "file": "openstax-derivative-img05.webp",
+      "url": "https://openstax.org/apps/image-cdn/v1/f=webp/apps/archive/20260604.144757/resources/429c768ceba1d80b931014842893fcad5815ad00",
+      "sha256": "086931b34dcbf0972d05720059382fc34c6db5cca5386930177097cd36ae3bcb"
+    },
+    {
+      "file": "openstax-derivative-img06.webp",
+      "url": "https://openstax.org/apps/image-cdn/v1/f=webp/apps/archive/20260604.144757/resources/53144e562a24cdfe0724e3bb09c1195f0cfd12d9",
+      "sha256": "e5a01fb1abb4225b73f3cc3224282bbe425cc70697e3b6d89d770d7ce7dc17bd"
+    },
+    {
+      "file": "openstax-derivative-img07.webp",
+      "url": "https://openstax.org/apps/image-cdn/v1/f=webp/apps/archive/20260604.144757/resources/169433cc2acaac23d21347adff0fa635953f6a98",
+      "sha256": "b1a2369f728438f36c9507d6667af0ad139878e5ade3864c790629cfd6468745"
+    },
+    {
+      "file": "openstax-derivative-img08.webp",
+      "url": "https://openstax.org/apps/image-cdn/v1/f=webp/apps/archive/20260604.144757/resources/51c39d5bd875cfa2085e8176412309581d448c28",
+      "sha256": "8b88073d777337bcc47531b27edf8044458006daead447983016652e864edc31"
+    },
+    {
+      "file": "openstax-derivative-img09.webp",
+      "url": "https://openstax.org/apps/image-cdn/v1/f=webp/apps/archive/20260604.144757/resources/3ce59a98188201bf8930cdf7cbe6960970efa06c",
+      "sha256": "3ad87f0e2cf9e34d6e6bceacba2c9cdde30a8ecf907b5b38a3b3e9511fad429a"
+    },
+    {
+      "file": "openstax-derivative-img10.webp",
+      "url": "https://openstax.org/apps/image-cdn/v1/f=webp/apps/archive/20260604.144757/resources/7ae23990e8c4bd0e57924b219b268684afb25dd5",
+      "sha256": "c1350b11918db24dc0b058f58fb0ea864035a3172d282f3f9349ff9562277776"
+    },
+    {
+      "file": "openstax-derivative-img11.webp",
+      "url": "https://openstax.org/apps/image-cdn/v1/f=webp/apps/archive/20260604.144757/resources/2cdeca421ebb6f9f87b98e24294d2bd84a031b26",
+      "sha256": "d31f3e5b287ad56099e53baa92a2ffe4fd04126b54ac00a2849caa424602661e"
+    },
+    {
+      "file": "openstax-derivative-img12.webp",
+      "url": "https://openstax.org/apps/image-cdn/v1/f=webp/apps/archive/20260604.144757/resources/ed4427723a2e71afe6429f4fdec472ec0ca0a689",
+      "sha256": "415413319da990686d99fcc645c6a5eab05d61109440f1fd8f05cbe1b341dd38"
+    }
+  ],
+  "interpretation_limits": [
+    "수학 교재의 설명과 예시를 실제 학생 반응·학습 효과·국내 인지 발달 순서의 실증으로 사용하지 않는다.",
+    "두 절의 웹본문과 삽입 자산을 읽었으며 원책 전권·PDF 판면·연습 해답 전체를 검증한 것이 아니다.",
+    "교육과정Ⅰ·Ⅱ의 범위를 유지한다. 구분구적·불연속 함수 적분·이상적분을 미적분Ⅰ의 필수 선수로 추가하지 않는다."
+  ]
+}

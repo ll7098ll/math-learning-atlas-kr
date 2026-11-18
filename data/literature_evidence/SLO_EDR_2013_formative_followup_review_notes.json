@@ -1,0 +1,937 @@
+{
+  "source_id": "SLO_EDR_2013_INQUIRY_SELECTED",
+  "source_url": "https://www.slo.nl/publish/pages/4474/educational-design-research-part-a.pdf",
+  "source_asset_kind": "pdf",
+  "source_pdf_sha256": "952ca654a1d44ed91cd9304e7d8386b3b7bbd0d7364a61c2c60dd41600f18110",
+  "source_pdf_url": "https://www.slo.nl/publish/pages/4474/educational-design-research-part-a.pdf",
+  "pdf_pages": 206,
+  "selected_text_pages": [
+    3,
+    4,
+    8,
+    12,
+    14,
+    15,
+    19,
+    24,
+    25,
+    29,
+    30,
+    31,
+    38,
+    154,
+    155,
+    156,
+    157,
+    158,
+    159,
+    160,
+    161,
+    162,
+    163,
+    164,
+    165,
+    166,
+    167,
+    168,
+    169,
+    170
+  ],
+  "visual_pdf_pages": [
+    3,
+    4,
+    8,
+    12,
+    14,
+    15,
+    19,
+    24,
+    25,
+    29,
+    30,
+    31,
+    38,
+    153,
+    154,
+    155,
+    156,
+    157,
+    158,
+    159,
+    160,
+    161,
+    162,
+    163,
+    164,
+    165,
+    166,
+    167,
+    168,
+    169,
+    170
+  ],
+  "rendered_page_sha256": {
+    "3": "7efc40f7077e6da315310170621755ac6b4ceaff11ce89101b61d514786e26ad",
+    "8": "514813c8e60515eb912424e804653cb03ef9d78e5fe0cc0996059bf87843c17e",
+    "12": "9134234875dd67824c0679357cae188d7b9a535a174fb2b52ac81f2088b42cd9",
+    "14": "c9838dcc37cd955d98a826618b532cb0380a720a9d590ce85887203fb4e0cff0",
+    "15": "c287a1ae713eb1eee8f0adde0e92b9004dd30fb572b1f1557d3ee108bddac541",
+    "19": "fad5bbafd8e06b8942340e208f497ab1289e81b0825d9e06d7a6d8d5a144f835",
+    "24": "0ffcc81ee8562654da887d4f4f3883d17e6ee61c632dd7ac0bd026dc491f53e9",
+    "25": "fe82abbc4895ac4a517076180d3dd09aa67912d725079c8638e3f4bc07e51fae",
+    "29": "db0910577fdfa742918c6778ebcaee96a119c8e54b037b6e100a1b2df3d30df3",
+    "30": "f48412f6ec383888858322785e51551c6e5eff0957db233f573d1b6f81bb6d52",
+    "31": "eb7e984e73c3f0d4d00d6433974996d6e65fe2e2f92fe0ac2422bc6c8222aef5",
+    "38": "fe0d24aa973eed37e13120fcb13536423aaa9635e53b65c3939d7a7705376b27",
+    "154": "b16aaee29b9adb1808080f3cc61ffaf62a5631b0df8ddc2c90d648f0f83b1310",
+    "155": "5473eacef535fb8c523fa98e18f9d312ab27ab262715ff9fee046855064c827d",
+    "156": "7d0558a1b64309d5d8a76dcacec9774fe3a7ec30d3dc9447a452b0ce2cbea3d0",
+    "157": "c0b0b1f5d307fceb09d5f02f9a66813f4adeb800ce9f434894bf218f26b967a6",
+    "158": "ca9128c9391e6df4cd2be5d654940940c6cf089c442383ac6a3a8b04d0a09f08",
+    "159": "19f23d018e048505595401e7507a490d8208164f7eada5233dfb38ecbc7197b3",
+    "160": "9799d60919987dcd04f1fb507026cde0dcec08a5c6fa0261c73262129911e4d8",
+    "161": "1106eaab857109994be2bac66dc6d28dc9962d3207cc6b59f97d915efa59871c",
+    "4": "3b6ea37e8cbd12a800db4d667c2c2745d29ad47371d0e9405fc2798827e65a60",
+    "153": "ce972e75117b640862a5d34018bed7be4ad6f1b0e0b840fce2ec05ecd08b84f7",
+    "162": "e17bd8be7db8482dacec3754c0220579d1ce072fb1fd1c141a6ac98fa626f245",
+    "163": "4a5d3f28dd802b7be766c80da68f95db12e302b503be3a3a41518db28510c919",
+    "164": "1aa4125e2153b398794476b04c1fd0ada89a29f8684fb39eaf84afccbcd504f8",
+    "165": "97f6ec5ef673f78445e128feb286ce0fadc12df63d05e3ffd2496bd27fcb2458",
+    "166": "30ba2ca9b1cddbd32c29f52d07919c66f00b966728258d1605528e0149431c6e",
+    "167": "a3a74aad93792204408a9c8d26ac746eef50470f7870af574022776e3e1b7864",
+    "168": "2a0f887b73edac15089bea2d10fefa71496eb233acbe88ac88acf2c869d538ce",
+    "169": "329c97c05ba8249930a20b664e75ec699a0dc481412d10d910cc7b3b78d845d8",
+    "170": "2269486478445eb5da21e0386bffef8e616da7f5b6d658b6247b978c199209f7"
+  },
+  "date": "2026-11-17",
+  "reviewer": "Codex",
+  "read_scope": "개정2013년 Part A206쪽 중 누적30쪽 추출문·31쪽 판면을 대조했다. 이전20쪽에 목차PDF4·6장 나머지PDF162–170의10쪽 추출문과 이10쪽 및 삽화PDF153의11쪽 판면을 더했다.6장은 PDF153–170(인쇄152–169), 삽화·본문·표2·부록 그림2/3·참고문헌을 포함해 확인했다. PDF153은 추출 글자가 없는 삽화로 빈 쪽이나 텍스트 독해로 세지 않는다.1장 등은 여전히 선정 범위이며 전권 독해가 아니다.",
+  "empirical_scope": {
+    "design": "지정 원문·실제 판면 또는 삽입 그림 대조와 고등학교 탐구 과제의 자체 설계",
+    "sample_description": "이 검토에서는 실제 학생 원자료·현장 이용자 조사·학습 효과 실험을 분석하지 않았다",
+    "inference_limit": "전문가의 교육설계 연구 틀을 고등학교 탐구에 자체 확장하는 참고 맥락이다. 학생에게 새 교육이론 개발이나 같은 표본·기간을 요구하지 않는다. 예상 품질·전문가 판단·작동 확인을 실제 사용성·학습 효과로 세지 않는다.",
+    "student_outcome_study": false,
+    "causal_effect_established": false,
+    "local_effect_tested": false
+  },
+  "contains_source_full_text": false,
+  "source_pdf_redistributed": false,
+  "reading_log": [
+    "개정2013년 Part A206쪽 중 지정20쪽의 추출문·판면을 대조했다. 편자는 Plomp/Nieveen, 선정1장 저자는 Plomp,6장 저자는 Nieveen/Folmer다. 인쇄쪽은 PDF−1이다. 전문·Part B51사례·인용 원연구를 읽은 것은 아니다.",
+    "2026-11-17: 목차·6장 후반과 부록/참고문헌의 새 추출문10쪽·판면11쪽을 실제 대조했다. PDF153은 삽화이며 추출문 쪽에 포함하지 않는다. 기존20쪽은 해시·읽기 이력을 보존했다."
+  ],
+  "source_corrections": [
+    {
+      "location": "방법·문항·표·그림·서술의 대조",
+      "issue": [
+        "PDF160의 추출문에는 평가 방법·교과 구성 요소 설명이 섞이지만 실제 판면은 개발 단계의 순환 도식이다. 보이지 않는 추출 라벨을 시각 확인한 근거로 쓰지 않는다. 뒤의 세부 방법 표·삼각검증 본문은 미독이다.",
+        "PDF19의 인원·시간 척도와 PDF38의 예시는 고정 처방이 아니다. 예상 실용성/효과와 실제 대상 환경에서의 사용/결과를 구별한다."
+      ]
+    },
+    {
+      "location": "PDF153",
+      "issue": "글자 추출이 비어 있지만 실제 판면에는 건축 삽화가 있다. 빈 페이지·텍스트 독해 쪽으로 세지 않는다."
+    },
+    {
+      "location": "PDF163 Table2; PDF167–168 Figures2/3",
+      "issue": "표의 행/열·회색 강조와 부록의 권고/기타 가능성을 판면으로 구별했다. PDF160의 추출 라벨을 그쪽 그림에 넣지 않았던 이전 판단은 유지한다. 방법 표2는 실제PDF163에 있다."
+    },
+    {
+      "location": "PDF167–168 vs PDF170",
+      "issue": "matchboard는 부록·그림에서2012, 참고문헌에서2011이다. 이 차이를 보존하며 원도구 판본·정오표는 미확인이다."
+    },
+    {
+      "location": "PDF166 Closing remark",
+      "issue": "원문은 측정 도구 개발·자료 수집·분석·보고의 상세 방법을 다루지 않았다고 명시한다. 새 기록지의 구체 절차는 자체 설계다."
+    }
+  ],
+  "inquiry_completion_review": {
+    "full_book_read": false,
+    "own_tasks_are_not_student_responses": true,
+    "source_assets_redistributed": false,
+    "independent_review": false,
+    "student_validation": false,
+    "professional_framework_locally_adapted": true,
+    "expected_actual_quality_separated": true,
+    "pdf160_extracted_extra_labels_not_visible_in_diagram": true,
+    "later_method_tables_not_read": true
+  },
+  "previous_review": {
+    "source_id": "SLO_EDR_2013_INQUIRY_SELECTED",
+    "state": "self_read_claim_mapping",
+    "reviewer": "Codex",
+    "date": "2026-11-16",
+    "snapshot_kind": "authored_review_notes",
+    "source_asset_kind": "pdf",
+    "source_pdf_sha256": "952ca654a1d44ed91cd9304e7d8386b3b7bbd0d7364a61c2c60dd41600f18110",
+    "snapshot_file": "data/literature_evidence/SLO_EDR_2013_INQUIRY_SELECTED_review_notes.json",
+    "snapshot_sha256": "05bdad301852559e53b64f6758469581d459229a08a5fccf31b2fad36d3bacf3",
+    "redistribution_license": "workspace_authored_notes",
+    "bibliography_snapshot": "f95f6fe0a73fb617757dea59c7f1d6ec53ec7b6aac7bfd6fe6cf11066b45f636",
+    "display": {
+      "title": "Educational Design Research Part A: selected introduction and formative-evaluation passages, revised November2013",
+      "url": "https://www.slo.nl/publish/pages/4474/educational-design-research-part-a.pdf",
+      "authors_year": "Tjeerd Plomp 외, 2013"
+    },
+    "read_scope": "개정2013년 Part A206쪽 중 지정20쪽의 추출문·판면을 대조했다. 편자는 Plomp/Nieveen, 선정1장 저자는 Plomp,6장 저자는 Nieveen/Folmer다. 인쇄쪽은 PDF−1이다. 전문·Part B51사례·인용 원연구를 읽은 것은 아니다.",
+    "limits": "전문가의 교육설계 연구 틀을 고등학교 탐구에 자체 확장하는 참고 맥락이다. 학생에게 새 교육이론 개발이나 같은 표본·기간을 요구하지 않는다. 예상 품질·전문가 판단·작동 확인을 실제 사용성·학습 효과로 세지 않는다.",
+    "empirical_scope": {
+      "design": "지정 원문·실제 판면 또는 삽입 그림 대조와 고등학교 탐구 과제의 자체 설계",
+      "sample_description": "이 검토에서는 실제 학생 원자료·현장 이용자 조사·학습 효과 실험을 분석하지 않았다",
+      "inference_limit": "전문가의 교육설계 연구 틀을 고등학교 탐구에 자체 확장하는 참고 맥락이다. 학생에게 새 교육이론 개발이나 같은 표본·기간을 요구하지 않는다. 예상 품질·전문가 판단·작동 확인을 실제 사용성·학습 효과로 세지 않는다.",
+      "student_outcome_study": false,
+      "causal_effect_established": false,
+      "local_effect_tested": false
+    },
+    "scope_note": "문항 설계·학생의 실제 응답·분석 분류·자체 설계 과제를 구별한다.",
+    "method_note": "지정 본문과 표·그림의 실제 판면을 대조했다. 원문의 표본·시점·응답 단위와 국내 과제의 범위를 나누어 기록한다.",
+    "editorial_action": "읽은 범위에 맞는 문헌 근거와 자체 관찰 과제를 반영했다.",
+    "independent_review": false,
+    "student_validated": false,
+    "observations": [
+      {
+        "id": "INQ-P01",
+        "standard_codes": [
+          "12수과01-01"
+        ],
+        "question": "둘레20인 직사각형의 넓이를 한 번 계산하는 과제를 수학 탐구로 확장하고 필요성을 설명하라.",
+        "expected": "x+y=10·양의 변 조건에서 여러 경우를 비교하고 최댓값을 추측한 뒤 A=25−(x−5)²로 모든 양의 실수 범위를 논증한다. 조건이 바뀌면 답이 어떻게 달라지는지도 묻는다.",
+        "interpretation": "이는 자체 탐구 예다. 값 하나의 정답·표를 만든 일·추측·모든 경우의 논증을 구별하고, 실제 학생의 탐구 가치 설명은 별도로 관찰한다.",
+        "student_validated": false
+      },
+      {
+        "id": "INQ-P02",
+        "standard_codes": [
+          "12수과02-01"
+        ],
+        "question": "자신의 질문에 맞는 문헌 검색·선정 기록표를 작성하라.",
+        "expected": "질문·검색어·검색일·선정/제외 이유·저자/판본·원문 위치·읽은 범위·근거/한계를 남긴다. 예를 들어 원론II.5와 교육용 탐구판 개발은 목적이 달라 자료를 나누어 찾는다.",
+        "interpretation": "검색 결과 수·초록·참고 목록만 확인한 일을 본문 정독·체계적 검토 완료로 세지 않는다. 실제 수행한 검색과 다음 검색 계획을 표시한다.",
+        "student_validated": false
+      },
+      {
+        "id": "INQ-P03",
+        "standard_codes": [
+          "12수과02-01"
+        ],
+        "question": "교육설계 연구 자료와 원론II.5가 자신의 탐구에 제공하는 서로 다른 근거를 비교하라.",
+        "expected": "전자는 문헌·맥락·개발/평가 절차의 참고이고 후자는 특정 기하 관계와 온라인 해설의 대조 자료다. 둘레20의 최대25는 조건을 정해 자신이 유도한 수학 결과로 표시한다.",
+        "interpretation": "두 문헌이 모두 그 학교 과제나 최대25의 학습 효과를 입증했다고 쓰지 않는다. 원문 주장·과제 적용·미확인 부분을 나눈다.",
+        "student_validated": false
+      },
+      {
+        "id": "INQ-P04",
+        "standard_codes": [
+          "12수과02-04"
+        ],
+        "question": "분수 비교 도구의 요구 사항을 수학적 정확성·표현·사용성·효과로 나누라.",
+        "expected": "같은 전체·단위·분할/색칠·분수 표기를 맞추는 기능, 읽을 수 있는 표시, 실제 사용자가 이해하며 조작하는지, 학습이 개선되는지를 각각 확인할 대상으로 정한다.",
+        "interpretation": "화면·종이가 예쁘거나 계산이 맞는 것만으로 사용성·학습 효과를 확정하지 않는다. 뒤의 두 항목에는 실제 이용·학습 자료가 필요하다.",
+        "student_validated": false
+      },
+      {
+        "id": "INQ-P05",
+        "standard_codes": [
+          "12수과02-04"
+        ],
+        "question": "정수 x=1~9로 둘레20 직사각형을 만드는 종이 탐구판의 입력·출력을 설계하라.",
+        "expected": "[탐구 기록지 열기](https://math-learning-atlas-kr.gptpro2908176.chatgpt.site/inquiry-workbook.html). 입력 x, 출력 y=10−x와 A=x(10−x), cm/cm² 단위·격자·기록칸·허용 범위 안내를 둔다. 이 판의 입력 범위와 실수 전체의 수학 문제를 구별한다.",
+        "interpretation": "정수 입력9개만 지원하는 판을 모든 양의 실수 입력을 구현한 도구라고 하지 않는다. 모든 실수 범위의 최댓값은 별도의 대수 논증으로 설명한다.",
+        "student_validated": false
+      },
+      {
+        "id": "INQ-P06",
+        "standard_codes": [
+          "12수과02-04"
+        ],
+        "question": "초안이 x=0,10을 받아 넓이0을 직사각형으로 표시한다. 시험·수정 기록을 작성하라.",
+        "expected": "시험 입력·실제 초안 출력·문제·양의 두 변 조건·수정된 안내/거부 동작·재시험 칸을 둔다. x=1,5,9는 각각(y,A)=(9,9),(5,25),(1,9)로 확인한다.",
+        "interpretation": "기대하는 시험 결과와 실제 관측한 시제품 동작을 구분한다. 여기의 수학 계산을 실제 사용자 시험·현장 사용 기록으로 바꾸지 않는다.",
+        "student_validated": false
+      },
+      {
+        "id": "INQ-P07",
+        "standard_codes": [
+          "12수과02-04"
+        ],
+        "question": "계산 사례3개만 시험한 시제품에 “사용하기 쉽고 학습에 효과가 있다”고 표시해도 되는가?",
+        "expected": "그3사례의 계산을 확인한 범위로 고친다. 요구와 구성의 일관성·예상 사용성과 실제 사용성·예상 효과와 실제 효과를 나누어 필요한 후속 자료를 적는다.",
+        "interpretation": "본문의 품질 구분을 참고한 자체 평가다. 코드·계산 시험 통과는 실제 이용자 관찰이나 학생 성취 변화가 아니다.",
+        "student_validated": false
+      },
+      {
+        "id": "INQ-P08",
+        "standard_codes": [
+          "12수과03-01"
+        ],
+        "question": "관심 있는 탐구 후보 두 개를 제시하고 스스로 하나를 선택할 기준을 세우라.",
+        "expected": "예: 같은 둘레에서 넓이가 달라지는 이유, 또는 전체 길이가 다른 분수 그림의 오해를 막는 도구를 제안한다. 자신의 관심·수학 질문·필요 자료·시간·가능한 산출물로 비교해 선택 이유를 쓴다.",
+        "interpretation": "제시한 두 예만을 의무 주제로 고정하지 않는다. 실제 학습자의 선택·관심·사전 능력을 확인하기 전에는 그 결과를 대신 적지 않는다.",
+        "student_validated": false
+      },
+      {
+        "id": "INQ-P09",
+        "standard_codes": [
+          "12수과03-01"
+        ],
+        "question": "선택한 주제의 방법·일정·역할·사전 평가와 중간 점검을 구체화하라.",
+        "expected": "질문/문헌→초안/표→논증/시험→산출물/발표의 자체 일정 예를 조정한다. 개인/모둠에 맞춰 계산·검산·자료·편집의 책임을 고르게 나누고 조건·출처·한계·수정의 평가 기준을 먼저 공유한다.",
+        "interpretation": "원문의6개월·참여 인원을 학교의 필수 기준으로 옮기지 않는다. 배정 역할·계획 일정과 실제 기여·진행은 다르다.",
+        "student_validated": false
+      },
+      {
+        "id": "INQ-P10",
+        "standard_codes": [
+          "12수과03-02"
+        ],
+        "question": "탐구 중 사용할 원자료·계산표·버전·기여 기록의 틀을 작성하라.",
+        "expected": "각 항목에 날짜·조건·계산/관찰 구분·실제 수행자·출처·수정 전후·이유를 둔다. 자체 계산표와 실제 측정 자료, 수행 완료와 미실행 계획을 표시한다.",
+        "interpretation": "없는 관측·수행자·학생 응답을 만들어 채우지 않는다. 모둠의 끈기·역할 균형·실제 진행은 채워진 실기록에서 관찰한다.",
+        "student_validated": false
+      },
+      {
+        "id": "INQ-P11",
+        "standard_codes": [
+          "12수과03-02"
+        ],
+        "question": "x가 클수록 넓이가 커진다는 초기 추측을 x=1,5,9로 점검하고 수정하라.",
+        "expected": "넓이는9,25,9cm²이므로 그 추측은 성립하지 않는다. 추측·반례·수정 이유를 남기고 A=25−(x−5)²의 논증으로 진행한다.",
+        "interpretation": "세 값만으로 수정된 모든 실수 범위의 주장을 증명했다고 하지 않는다. 실패한 추측을 삭제해 처음부터 알고 있었다고 꾸미지 않는다.",
+        "student_validated": false
+      },
+      {
+        "id": "INQ-P12",
+        "standard_codes": [
+          "12수과03-03"
+        ],
+        "question": "직사각형 탐구 결과의 산출물을 만들기 위한 내용 목록을 정하라.",
+        "expected": "[탐구 기록지 열기](https://math-learning-atlas-kr.gptpro2908176.chatgpt.site/inquiry-workbook.html). 질문·양의 변/둘레 조건·단위·표/그림·독립적인 식 유도·같음 조건·원문/자기 설명 구분·한계·후속 질문·수정 이력을 담는다. 보고서·포스터·종이판 중 목적에 맞게 선택한다.",
+        "interpretation": "제공한 기록지는 자체 활동 자료다. 학생의 목록·초안은 실제 완성 산출물이나 발표가 아니다. 존재하는 파일·산출물과 앞으로 만들 것을 분리한다.",
+        "student_validated": false
+      },
+      {
+        "id": "INQ-P13",
+        "standard_codes": [
+          "12수과03-03"
+        ],
+        "question": "3분 발표와 질의응답 기록표의 초안을 작성하라.",
+        "expected": "목적·조건·방법·결과/논증·한계·유용성을 설명하고, 질문자·실제 질문·답변·수정점 칸을 둔다. “벽을 한 변으로 쓰면?”은 현재 네 변 모형 밖이라고 설명할 준비를 한다.",
+        "interpretation": "예상 질문과 실제로 받은 질문을 구별한다. 발표 계획만으로 발표·동료 응답·탐구 유용성이 실제로 확인됐다고 쓰지 않는다.",
+        "student_validated": false
+      },
+      {
+        "id": "INQ-P14",
+        "standard_codes": [
+          "12수과03-04"
+        ],
+        "question": "벽이 한 변을 대신해 길이20을 세 변에만 쓰면 최대25라는 결론이 유지되는가?",
+        "expected": "2x+y=20에서 A=x(20−2x)=50−2(x−5)²이므로 최대50cm²이고 x=5,y=10이다. 원래 네 변 조건의 최대25와 구별해 목적·모형의 범위를 성찰한다.",
+        "interpretation": "조건이 달라진 반례로 원래 조건의 올바른 증명을 틀렸다고 하지 않는다. 이것은 수학 모형이며 실제 건축·재료 성능을 검증한 것이 아니다.",
+        "student_validated": false
+      },
+      {
+        "id": "INQ-P15",
+        "standard_codes": [
+          "12수과03-04"
+        ],
+        "question": "동료 의견을 아직 받지 못한 자기평가 문서를 어떻게 표시하고 이후 수정할 것인가?",
+        "expected": "사전 기준에 따른 현재 자기평가·근거·미확인 항목을 남긴다. 실제 발표 후 의견·받은 날짜·해석·채택/보류 이유·수정 전후를 추가하고 목적과 방법의 유용성을 다시 평가한다.",
+        "interpretation": "예상 동료 반응을 실제 평가로 채우지 않는다. 자기평가의 완료와 독립 검토·학생 검증의 완료는 별도다.",
+        "student_validated": false
+      },
+      {
+        "id": "INQ-P16",
+        "standard_codes": [
+          "12수과02-04"
+        ],
+        "question": "정수 입력판을 x=0.5에도 대응하도록 확장한다면 무엇을 바꾸고 확인해야 하는가?",
+        "expected": "y=9.5,A=4.75cm²다. 입력 범위·소수 표시·길이/격자 척도·반올림·오류 안내·시험을 수정한다. 확장 전후 기능과 수학 조건을 맞춘다.",
+        "interpretation": "한 소수 사례를 추가했다고 모든 실수 입력의 구현·사용성을 검증한 것은 아니다. 원문의 반복 개발 관점을 참고한 자체 확장이다.",
+        "student_validated": false
+      }
+    ]
+  },
+  "previous_bibliography": {
+    "id": "SLO_EDR_2013_INQUIRY_SELECTED",
+    "year": 2013,
+    "url": "https://www.slo.nl/publish/pages/4474/educational-design-research-part-a.pdf",
+    "title": "Educational Design Research Part A: selected introduction and formative-evaluation passages, revised November2013",
+    "authors": [
+      "Tjeerd Plomp",
+      "Nienke Nieveen",
+      "Elvira Folmer"
+    ],
+    "kind": "수학과제 탐구 방법·윤리·문헌 참고",
+    "review_scope": "개정2013년 Part A206쪽 중 지정20쪽의 추출문·판면을 대조했다. 편자는 Plomp/Nieveen, 선정1장 저자는 Plomp,6장 저자는 Nieveen/Folmer다. 인쇄쪽은 PDF−1이다. 전문·Part B51사례·인용 원연구를 읽은 것은 아니다.",
+    "does_not_establish": "전문가의 교육설계 연구 틀을 고등학교 탐구에 자체 확장하는 참고 맥락이다. 학생에게 새 교육이론 개발이나 같은 표본·기간을 요구하지 않는다. 예상 품질·전문가 판단·작동 확인을 실제 사용성·학습 효과로 세지 않는다.",
+    "supports": [
+      "질문·연구 목적·방법의 정합성",
+      "문헌·맥락 분석과 시제품의 반복 수정",
+      "예상/실제 실용성·효과와 기록·성찰"
+    ],
+    "next_review": "자체 과제의 실제 응답과 다른 표본의 문항을 추가 대조한다."
+  },
+  "previous_claims": [
+    {
+      "id": "INQ16-01",
+      "source_id": "SLO_EDR_2013_INQUIRY_SELECTED",
+      "role": "related_theoretical_context",
+      "empirical_scope": {
+        "design": "지정 원문·실제 판면 또는 삽입 그림 대조와 고등학교 탐구 과제의 자체 설계",
+        "sample_description": "이 검토에서는 실제 학생 원자료·현장 이용자 조사·학습 효과 실험을 분석하지 않았다",
+        "inference_limit": "전문가의 교육설계 연구 틀을 고등학교 탐구에 자체 확장하는 참고 맥락이다. 학생에게 새 교육이론 개발이나 같은 표본·기간을 요구하지 않는다. 예상 품질·전문가 판단·작동 확인을 실제 사용성·학습 효과로 세지 않는다.",
+        "student_outcome_study": false,
+        "causal_effect_established": false,
+        "local_effect_tested": false
+      },
+      "standard_codes": [
+        "12수과01-01"
+      ],
+      "locations": [
+        "https://www.slo.nl/publish/pages/4474/educational-design-research-part-a.pdf#page=12",
+        "https://www.slo.nl/publish/pages/4474/educational-design-research-part-a.pdf#page=14",
+        "https://www.slo.nl/publish/pages/4474/educational-design-research-part-a.pdf#page=15"
+      ],
+      "support": "질문·목적·방법·판단 근거를 맞추는 전문 연구의 관점을 참고해, 수학 탐구를 계산 답만 모으는 일에서 조건·추측·논증·활용을 설명하는 일로 확장한다.",
+      "does_not_establish": "교육설계 연구의 전문 목적을 모든 고등학생의 필수 목표로 바꾸지 않는다. 고등학교 수준의 자체 과제 확장이며 탐구의 가치·필요성을 실제 학생이 설명했는지는 별도 확인한다.",
+      "independent_review": false,
+      "student_validated": false,
+      "target_snapshots": {
+        "revision:12수과01-01": "121663e7043b6b54a33652e62d4ea6081e5aa1934434f3f9c1333d2c0fe5ab32"
+      }
+    },
+    {
+      "id": "INQ16-02",
+      "source_id": "SLO_EDR_2013_INQUIRY_SELECTED",
+      "role": "related_theoretical_context",
+      "empirical_scope": {
+        "design": "지정 원문·실제 판면 또는 삽입 그림 대조와 고등학교 탐구 과제의 자체 설계",
+        "sample_description": "이 검토에서는 실제 학생 원자료·현장 이용자 조사·학습 효과 실험을 분석하지 않았다",
+        "inference_limit": "전문가의 교육설계 연구 틀을 고등학교 탐구에 자체 확장하는 참고 맥락이다. 학생에게 새 교육이론 개발이나 같은 표본·기간을 요구하지 않는다. 예상 품질·전문가 판단·작동 확인을 실제 사용성·학습 효과로 세지 않는다.",
+        "student_outcome_study": false,
+        "causal_effect_established": false,
+        "local_effect_tested": false
+      },
+      "standard_codes": [
+        "12수과02-01",
+        "12수과03-02"
+      ],
+      "locations": [
+        "https://www.slo.nl/publish/pages/4474/educational-design-research-part-a.pdf#page=24",
+        "https://www.slo.nl/publish/pages/4474/educational-design-research-part-a.pdf#page=25",
+        "https://www.slo.nl/publish/pages/4474/educational-design-research-part-a.pdf#page=154",
+        "https://www.slo.nl/publish/pages/4474/educational-design-research-part-a.pdf#page=155",
+        "https://www.slo.nl/publish/pages/4474/educational-design-research-part-a.pdf#page=156"
+      ],
+      "support": "선행 문헌·필요·맥락을 검토하고 실행 과정에서 자료와 방법의 적합성을 다시 확인하는 흐름을 참고한다. 읽은 원문의 주장과 자신의 적용·미확인 범위를 기록한다.",
+      "does_not_establish": "문헌 검색이 언제나 실행 전에 한 번만 끝나는 것은 아니다. 한 온라인 판본·참고 목록 확인을 체계적 문헌 검토 완료나 원연구의 재검증으로 쓰지 않는다.",
+      "independent_review": false,
+      "student_validated": false,
+      "target_snapshots": {
+        "revision:12수과02-01": "3ad72b5c057a7a1dd741f2b240c590c9af39d00f59d8b4783e061f4acd68a212",
+        "revision:12수과03-02": "113e9cc2cb2c13d5189d76710a4d9a4ce125225c9217c92712eb0f27676cb248"
+      }
+    },
+    {
+      "id": "INQ16-03",
+      "source_id": "SLO_EDR_2013_INQUIRY_SELECTED",
+      "role": "related_theoretical_context",
+      "empirical_scope": {
+        "design": "지정 원문·실제 판면 또는 삽입 그림 대조와 고등학교 탐구 과제의 자체 설계",
+        "sample_description": "이 검토에서는 실제 학생 원자료·현장 이용자 조사·학습 효과 실험을 분석하지 않았다",
+        "inference_limit": "전문가의 교육설계 연구 틀을 고등학교 탐구에 자체 확장하는 참고 맥락이다. 학생에게 새 교육이론 개발이나 같은 표본·기간을 요구하지 않는다. 예상 품질·전문가 판단·작동 확인을 실제 사용성·학습 효과로 세지 않는다.",
+        "student_outcome_study": false,
+        "causal_effect_established": false,
+        "local_effect_tested": false
+      },
+      "standard_codes": [
+        "12수과02-04"
+      ],
+      "locations": [
+        "https://www.slo.nl/publish/pages/4474/educational-design-research-part-a.pdf#page=25",
+        "https://www.slo.nl/publish/pages/4474/educational-design-research-part-a.pdf#page=158",
+        "https://www.slo.nl/publish/pages/4474/educational-design-research-part-a.pdf#page=159",
+        "https://www.slo.nl/publish/pages/4474/educational-design-research-part-a.pdf#page=160"
+      ],
+      "support": "개발 탐구에서는 필요한 기능·사용 맥락·수학 조건을 정하고 작은 시제품의 오류를 확인해 수정하는 과정을 설계한다. 시제품·검사 사례·수정 이유를 남긴다.",
+      "does_not_establish": "본문의 전문가 대상 교육 개입을 학생의 산출물 개발에 자체 적용한 것이다. 종이 시제품의 계산 시험을 실제 사용자의 사용성·학습 효과 검증으로 세지 않는다.",
+      "independent_review": false,
+      "student_validated": false,
+      "target_snapshots": {
+        "revision:12수과02-04": "080ca06cffd4132ce81e4a8e79fd26c695e37cc6cb365591c9061c27f5747390"
+      }
+    },
+    {
+      "id": "INQ16-04",
+      "source_id": "SLO_EDR_2013_INQUIRY_SELECTED",
+      "role": "related_theoretical_context",
+      "empirical_scope": {
+        "design": "지정 원문·실제 판면 또는 삽입 그림 대조와 고등학교 탐구 과제의 자체 설계",
+        "sample_description": "이 검토에서는 실제 학생 원자료·현장 이용자 조사·학습 효과 실험을 분석하지 않았다",
+        "inference_limit": "전문가의 교육설계 연구 틀을 고등학교 탐구에 자체 확장하는 참고 맥락이다. 학생에게 새 교육이론 개발이나 같은 표본·기간을 요구하지 않는다. 예상 품질·전문가 판단·작동 확인을 실제 사용성·학습 효과로 세지 않는다.",
+        "student_outcome_study": false,
+        "causal_effect_established": false,
+        "local_effect_tested": false
+      },
+      "standard_codes": [
+        "12수과02-04",
+        "12수과03-03"
+      ],
+      "locations": [
+        "https://www.slo.nl/publish/pages/4474/educational-design-research-part-a.pdf#page=154",
+        "https://www.slo.nl/publish/pages/4474/educational-design-research-part-a.pdf#page=158",
+        "https://www.slo.nl/publish/pages/4474/educational-design-research-part-a.pdf#page=159",
+        "https://www.slo.nl/publish/pages/4474/educational-design-research-part-a.pdf#page=160",
+        "https://www.slo.nl/publish/pages/4474/educational-design-research-part-a.pdf#page=161"
+      ],
+      "support": "개발한 산출물은 기능·입력 범위·실패 사례·수정 전후·실행 조건을 보고할 수 있게 구성한다. 그 산출물과 근거 기록을 함께 발표하는 자체 과제를 설계한다.",
+      "does_not_establish": "보기에 완성된 산출물이 모든 상황에서 쓸 수 있거나 효과가 있다는 뜻은 아니다. 제작·검산·사용자 검토·실제 학습 결과의 근거를 나눈다.",
+      "independent_review": false,
+      "student_validated": false,
+      "target_snapshots": {
+        "revision:12수과02-04": "080ca06cffd4132ce81e4a8e79fd26c695e37cc6cb365591c9061c27f5747390",
+        "revision:12수과03-03": "efba5e52c4805215a8a451f831f8363d911f2b0d1b45c07eacc498424552ded6"
+      }
+    },
+    {
+      "id": "INQ16-05",
+      "source_id": "SLO_EDR_2013_INQUIRY_SELECTED",
+      "role": "related_theoretical_context",
+      "empirical_scope": {
+        "design": "지정 원문·실제 판면 또는 삽입 그림 대조와 고등학교 탐구 과제의 자체 설계",
+        "sample_description": "이 검토에서는 실제 학생 원자료·현장 이용자 조사·학습 효과 실험을 분석하지 않았다",
+        "inference_limit": "전문가의 교육설계 연구 틀을 고등학교 탐구에 자체 확장하는 참고 맥락이다. 학생에게 새 교육이론 개발이나 같은 표본·기간을 요구하지 않는다. 예상 품질·전문가 판단·작동 확인을 실제 사용성·학습 효과로 세지 않는다.",
+        "student_outcome_study": false,
+        "causal_effect_established": false,
+        "local_effect_tested": false
+      },
+      "standard_codes": [
+        "12수과03-01",
+        "12수과03-02"
+      ],
+      "locations": [
+        "https://www.slo.nl/publish/pages/4474/educational-design-research-part-a.pdf#page=14",
+        "https://www.slo.nl/publish/pages/4474/educational-design-research-part-a.pdf#page=15",
+        "https://www.slo.nl/publish/pages/4474/educational-design-research-part-a.pdf#page=19",
+        "https://www.slo.nl/publish/pages/4474/educational-design-research-part-a.pdf#page=38",
+        "https://www.slo.nl/publish/pages/4474/educational-design-research-part-a.pdf#page=155"
+      ],
+      "support": "실행 가능한 질문·범위·자원·방법·중간 점검을 갖춘 계획을 세우고, 실행에서 드러난 문제에 따라 문서화하며 수정하는 맥락을 참고한다.",
+      "does_not_establish": "원문의 도식·참여 인원·6개월 척도를 학교 탐구의 필수 시간표·표본 수로 쓰지 않는다. 예시가 처방이 아니라는 원문의 제한을 유지한다.",
+      "independent_review": false,
+      "student_validated": false,
+      "target_snapshots": {
+        "revision:12수과03-01": "0bb88be155aca84a57f2b8ac4d75b279fc97b7bede0f9ae6936ee115b2eaa72c",
+        "revision:12수과03-02": "113e9cc2cb2c13d5189d76710a4d9a4ce125225c9217c92712eb0f27676cb248"
+      }
+    },
+    {
+      "id": "INQ16-06",
+      "source_id": "SLO_EDR_2013_INQUIRY_SELECTED",
+      "role": "related_theoretical_context",
+      "empirical_scope": {
+        "design": "지정 원문·실제 판면 또는 삽입 그림 대조와 고등학교 탐구 과제의 자체 설계",
+        "sample_description": "이 검토에서는 실제 학생 원자료·현장 이용자 조사·학습 효과 실험을 분석하지 않았다",
+        "inference_limit": "전문가의 교육설계 연구 틀을 고등학교 탐구에 자체 확장하는 참고 맥락이다. 학생에게 새 교육이론 개발이나 같은 표본·기간을 요구하지 않는다. 예상 품질·전문가 판단·작동 확인을 실제 사용성·학습 효과로 세지 않는다.",
+        "student_outcome_study": false,
+        "causal_effect_established": false,
+        "local_effect_tested": false
+      },
+      "standard_codes": [
+        "12수과03-02",
+        "12수과03-03"
+      ],
+      "locations": [
+        "https://www.slo.nl/publish/pages/4474/educational-design-research-part-a.pdf#page=25",
+        "https://www.slo.nl/publish/pages/4474/educational-design-research-part-a.pdf#page=38",
+        "https://www.slo.nl/publish/pages/4474/educational-design-research-part-a.pdf#page=155",
+        "https://www.slo.nl/publish/pages/4474/educational-design-research-part-a.pdf#page=159"
+      ],
+      "support": "탐구 중의 실제 계산·관찰·실패·수정과 아직 실행하지 않은 계획을 구별해 보고한다. 결과뿐 아니라 조건·과정·알 수 없는 점도 산출물과 설명에 포함한다.",
+      "does_not_establish": "자체 계산표나 예상 질의응답은 실제 학생 활동·현장 관측·실제 발표 기록이 아니다. 문서의 완성만으로 수행·효과의 완료를 인정하지 않는다.",
+      "independent_review": false,
+      "student_validated": false,
+      "target_snapshots": {
+        "revision:12수과03-02": "113e9cc2cb2c13d5189d76710a4d9a4ce125225c9217c92712eb0f27676cb248",
+        "revision:12수과03-03": "efba5e52c4805215a8a451f831f8363d911f2b0d1b45c07eacc498424552ded6"
+      }
+    },
+    {
+      "id": "INQ16-07",
+      "source_id": "SLO_EDR_2013_INQUIRY_SELECTED",
+      "role": "related_theoretical_context",
+      "empirical_scope": {
+        "design": "지정 원문·실제 판면 또는 삽입 그림 대조와 고등학교 탐구 과제의 자체 설계",
+        "sample_description": "이 검토에서는 실제 학생 원자료·현장 이용자 조사·학습 효과 실험을 분석하지 않았다",
+        "inference_limit": "전문가의 교육설계 연구 틀을 고등학교 탐구에 자체 확장하는 참고 맥락이다. 학생에게 새 교육이론 개발이나 같은 표본·기간을 요구하지 않는다. 예상 품질·전문가 판단·작동 확인을 실제 사용성·학습 효과로 세지 않는다.",
+        "student_outcome_study": false,
+        "causal_effect_established": false,
+        "local_effect_tested": false
+      },
+      "standard_codes": [
+        "12수과03-03",
+        "12수과03-04"
+      ],
+      "locations": [
+        "https://www.slo.nl/publish/pages/4474/educational-design-research-part-a.pdf#page=29",
+        "https://www.slo.nl/publish/pages/4474/educational-design-research-part-a.pdf#page=30",
+        "https://www.slo.nl/publish/pages/4474/educational-design-research-part-a.pdf#page=31",
+        "https://www.slo.nl/publish/pages/4474/educational-design-research-part-a.pdf#page=38",
+        "https://www.slo.nl/publish/pages/4474/educational-design-research-part-a.pdf#page=159",
+        "https://www.slo.nl/publish/pages/4474/educational-design-research-part-a.pdf#page=161"
+      ],
+      "support": "보고·발표 뒤 목적과 사전 기준에 비추어 과정·결과·유용성·한계를 평가하고 다음 수정 근거를 남기는 자체 활동을 설계한다. 형성평가의 개선 목적과 실제 사용 근거를 구별한다.",
+      "does_not_establish": "실제 받지 않은 동료 의견을 피드백으로 채우지 않는다. 전문가의 예상 효과·자체 정답·문서 완성은 실제 사용성·학습 성과의 근거가 아니다.",
+      "independent_review": false,
+      "student_validated": false,
+      "target_snapshots": {
+        "revision:12수과03-03": "efba5e52c4805215a8a451f831f8363d911f2b0d1b45c07eacc498424552ded6",
+        "revision:12수과03-04": "35b4274396fecb62df850fef1fd8a1767e09e7795584c836fa68f6d57fb3b192"
+      }
+    },
+    {
+      "id": "INQ16-08",
+      "source_id": "SLO_EDR_2013_INQUIRY_SELECTED",
+      "role": "related_theoretical_context",
+      "empirical_scope": {
+        "design": "지정 원문·실제 판면 또는 삽입 그림 대조와 고등학교 탐구 과제의 자체 설계",
+        "sample_description": "이 검토에서는 실제 학생 원자료·현장 이용자 조사·학습 효과 실험을 분석하지 않았다",
+        "inference_limit": "전문가의 교육설계 연구 틀을 고등학교 탐구에 자체 확장하는 참고 맥락이다. 학생에게 새 교육이론 개발이나 같은 표본·기간을 요구하지 않는다. 예상 품질·전문가 판단·작동 확인을 실제 사용성·학습 효과로 세지 않는다.",
+        "student_outcome_study": false,
+        "causal_effect_established": false,
+        "local_effect_tested": false
+      },
+      "standard_codes": [
+        "12수과02-04",
+        "12수과03-04"
+      ],
+      "locations": [
+        "https://www.slo.nl/publish/pages/4474/educational-design-research-part-a.pdf#page=29",
+        "https://www.slo.nl/publish/pages/4474/educational-design-research-part-a.pdf#page=30",
+        "https://www.slo.nl/publish/pages/4474/educational-design-research-part-a.pdf#page=31",
+        "https://www.slo.nl/publish/pages/4474/educational-design-research-part-a.pdf#page=158",
+        "https://www.slo.nl/publish/pages/4474/educational-design-research-part-a.pdf#page=161"
+      ],
+      "support": "산출물의 관련성·구성의 일관성·실용성·효과를 구별하고, 실용성과 효과의 예상/실제 여부를 표시해 성찰한다.",
+      "does_not_establish": "이는 전문 연구의 품질 구분을 학교 탐구에 적용하는 참고다. 모든 탐구를 같은 개발 단계로 강제하거나 코드 시험 통과를 학습 효과로 바꾸지 않는다.",
+      "independent_review": false,
+      "student_validated": false,
+      "target_snapshots": {
+        "revision:12수과02-04": "080ca06cffd4132ce81e4a8e79fd26c695e37cc6cb365591c9061c27f5747390",
+        "revision:12수과03-04": "35b4274396fecb62df850fef1fd8a1767e09e7795584c836fa68f6d57fb3b192"
+      }
+    }
+  ],
+  "previous_observations": [
+    {
+      "id": "INQ-P01",
+      "standard_codes": [
+        "12수과01-01"
+      ],
+      "question": "둘레20인 직사각형의 넓이를 한 번 계산하는 과제를 수학 탐구로 확장하고 필요성을 설명하라.",
+      "expected": "x+y=10·양의 변 조건에서 여러 경우를 비교하고 최댓값을 추측한 뒤 A=25−(x−5)²로 모든 양의 실수 범위를 논증한다. 조건이 바뀌면 답이 어떻게 달라지는지도 묻는다.",
+      "interpretation": "이는 자체 탐구 예다. 값 하나의 정답·표를 만든 일·추측·모든 경우의 논증을 구별하고, 실제 학생의 탐구 가치 설명은 별도로 관찰한다.",
+      "student_validated": false
+    },
+    {
+      "id": "INQ-P02",
+      "standard_codes": [
+        "12수과02-01"
+      ],
+      "question": "자신의 질문에 맞는 문헌 검색·선정 기록표를 작성하라.",
+      "expected": "질문·검색어·검색일·선정/제외 이유·저자/판본·원문 위치·읽은 범위·근거/한계를 남긴다. 예를 들어 원론II.5와 교육용 탐구판 개발은 목적이 달라 자료를 나누어 찾는다.",
+      "interpretation": "검색 결과 수·초록·참고 목록만 확인한 일을 본문 정독·체계적 검토 완료로 세지 않는다. 실제 수행한 검색과 다음 검색 계획을 표시한다.",
+      "student_validated": false
+    },
+    {
+      "id": "INQ-P03",
+      "standard_codes": [
+        "12수과02-01"
+      ],
+      "question": "교육설계 연구 자료와 원론II.5가 자신의 탐구에 제공하는 서로 다른 근거를 비교하라.",
+      "expected": "전자는 문헌·맥락·개발/평가 절차의 참고이고 후자는 특정 기하 관계와 온라인 해설의 대조 자료다. 둘레20의 최대25는 조건을 정해 자신이 유도한 수학 결과로 표시한다.",
+      "interpretation": "두 문헌이 모두 그 학교 과제나 최대25의 학습 효과를 입증했다고 쓰지 않는다. 원문 주장·과제 적용·미확인 부분을 나눈다.",
+      "student_validated": false
+    },
+    {
+      "id": "INQ-P04",
+      "standard_codes": [
+        "12수과02-04"
+      ],
+      "question": "분수 비교 도구의 요구 사항을 수학적 정확성·표현·사용성·효과로 나누라.",
+      "expected": "같은 전체·단위·분할/색칠·분수 표기를 맞추는 기능, 읽을 수 있는 표시, 실제 사용자가 이해하며 조작하는지, 학습이 개선되는지를 각각 확인할 대상으로 정한다.",
+      "interpretation": "화면·종이가 예쁘거나 계산이 맞는 것만으로 사용성·학습 효과를 확정하지 않는다. 뒤의 두 항목에는 실제 이용·학습 자료가 필요하다.",
+      "student_validated": false
+    },
+    {
+      "id": "INQ-P05",
+      "standard_codes": [
+        "12수과02-04"
+      ],
+      "question": "정수 x=1~9로 둘레20 직사각형을 만드는 종이 탐구판의 입력·출력을 설계하라.",
+      "expected": "[탐구 기록지 열기](https://math-learning-atlas-kr.gptpro2908176.chatgpt.site/inquiry-workbook.html). 입력 x, 출력 y=10−x와 A=x(10−x), cm/cm² 단위·격자·기록칸·허용 범위 안내를 둔다. 이 판의 입력 범위와 실수 전체의 수학 문제를 구별한다.",
+      "interpretation": "정수 입력9개만 지원하는 판을 모든 양의 실수 입력을 구현한 도구라고 하지 않는다. 모든 실수 범위의 최댓값은 별도의 대수 논증으로 설명한다.",
+      "student_validated": false
+    },
+    {
+      "id": "INQ-P06",
+      "standard_codes": [
+        "12수과02-04"
+      ],
+      "question": "초안이 x=0,10을 받아 넓이0을 직사각형으로 표시한다. 시험·수정 기록을 작성하라.",
+      "expected": "시험 입력·실제 초안 출력·문제·양의 두 변 조건·수정된 안내/거부 동작·재시험 칸을 둔다. x=1,5,9는 각각(y,A)=(9,9),(5,25),(1,9)로 확인한다.",
+      "interpretation": "기대하는 시험 결과와 실제 관측한 시제품 동작을 구분한다. 여기의 수학 계산을 실제 사용자 시험·현장 사용 기록으로 바꾸지 않는다.",
+      "student_validated": false
+    },
+    {
+      "id": "INQ-P07",
+      "standard_codes": [
+        "12수과02-04"
+      ],
+      "question": "계산 사례3개만 시험한 시제품에 “사용하기 쉽고 학습에 효과가 있다”고 표시해도 되는가?",
+      "expected": "그3사례의 계산을 확인한 범위로 고친다. 요구와 구성의 일관성·예상 사용성과 실제 사용성·예상 효과와 실제 효과를 나누어 필요한 후속 자료를 적는다.",
+      "interpretation": "본문의 품질 구분을 참고한 자체 평가다. 코드·계산 시험 통과는 실제 이용자 관찰이나 학생 성취 변화가 아니다.",
+      "student_validated": false
+    },
+    {
+      "id": "INQ-P08",
+      "standard_codes": [
+        "12수과03-01"
+      ],
+      "question": "관심 있는 탐구 후보 두 개를 제시하고 스스로 하나를 선택할 기준을 세우라.",
+      "expected": "예: 같은 둘레에서 넓이가 달라지는 이유, 또는 전체 길이가 다른 분수 그림의 오해를 막는 도구를 제안한다. 자신의 관심·수학 질문·필요 자료·시간·가능한 산출물로 비교해 선택 이유를 쓴다.",
+      "interpretation": "제시한 두 예만을 의무 주제로 고정하지 않는다. 실제 학습자의 선택·관심·사전 능력을 확인하기 전에는 그 결과를 대신 적지 않는다.",
+      "student_validated": false
+    },
+    {
+      "id": "INQ-P09",
+      "standard_codes": [
+        "12수과03-01"
+      ],
+      "question": "선택한 주제의 방법·일정·역할·사전 평가와 중간 점검을 구체화하라.",
+      "expected": "질문/문헌→초안/표→논증/시험→산출물/발표의 자체 일정 예를 조정한다. 개인/모둠에 맞춰 계산·검산·자료·편집의 책임을 고르게 나누고 조건·출처·한계·수정의 평가 기준을 먼저 공유한다.",
+      "interpretation": "원문의6개월·참여 인원을 학교의 필수 기준으로 옮기지 않는다. 배정 역할·계획 일정과 실제 기여·진행은 다르다.",
+      "student_validated": false
+    },
+    {
+      "id": "INQ-P10",
+      "standard_codes": [
+        "12수과03-02"
+      ],
+      "question": "탐구 중 사용할 원자료·계산표·버전·기여 기록의 틀을 작성하라.",
+      "expected": "각 항목에 날짜·조건·계산/관찰 구분·실제 수행자·출처·수정 전후·이유를 둔다. 자체 계산표와 실제 측정 자료, 수행 완료와 미실행 계획을 표시한다.",
+      "interpretation": "없는 관측·수행자·학생 응답을 만들어 채우지 않는다. 모둠의 끈기·역할 균형·실제 진행은 채워진 실기록에서 관찰한다.",
+      "student_validated": false
+    },
+    {
+      "id": "INQ-P11",
+      "standard_codes": [
+        "12수과03-02"
+      ],
+      "question": "x가 클수록 넓이가 커진다는 초기 추측을 x=1,5,9로 점검하고 수정하라.",
+      "expected": "넓이는9,25,9cm²이므로 그 추측은 성립하지 않는다. 추측·반례·수정 이유를 남기고 A=25−(x−5)²의 논증으로 진행한다.",
+      "interpretation": "세 값만으로 수정된 모든 실수 범위의 주장을 증명했다고 하지 않는다. 실패한 추측을 삭제해 처음부터 알고 있었다고 꾸미지 않는다.",
+      "student_validated": false
+    },
+    {
+      "id": "INQ-P12",
+      "standard_codes": [
+        "12수과03-03"
+      ],
+      "question": "직사각형 탐구 결과의 산출물을 만들기 위한 내용 목록을 정하라.",
+      "expected": "[탐구 기록지 열기](https://math-learning-atlas-kr.gptpro2908176.chatgpt.site/inquiry-workbook.html). 질문·양의 변/둘레 조건·단위·표/그림·독립적인 식 유도·같음 조건·원문/자기 설명 구분·한계·후속 질문·수정 이력을 담는다. 보고서·포스터·종이판 중 목적에 맞게 선택한다.",
+      "interpretation": "제공한 기록지는 자체 활동 자료다. 학생의 목록·초안은 실제 완성 산출물이나 발표가 아니다. 존재하는 파일·산출물과 앞으로 만들 것을 분리한다.",
+      "student_validated": false
+    },
+    {
+      "id": "INQ-P13",
+      "standard_codes": [
+        "12수과03-03"
+      ],
+      "question": "3분 발표와 질의응답 기록표의 초안을 작성하라.",
+      "expected": "목적·조건·방법·결과/논증·한계·유용성을 설명하고, 질문자·실제 질문·답변·수정점 칸을 둔다. “벽을 한 변으로 쓰면?”은 현재 네 변 모형 밖이라고 설명할 준비를 한다.",
+      "interpretation": "예상 질문과 실제로 받은 질문을 구별한다. 발표 계획만으로 발표·동료 응답·탐구 유용성이 실제로 확인됐다고 쓰지 않는다.",
+      "student_validated": false
+    },
+    {
+      "id": "INQ-P14",
+      "standard_codes": [
+        "12수과03-04"
+      ],
+      "question": "벽이 한 변을 대신해 길이20을 세 변에만 쓰면 최대25라는 결론이 유지되는가?",
+      "expected": "2x+y=20에서 A=x(20−2x)=50−2(x−5)²이므로 최대50cm²이고 x=5,y=10이다. 원래 네 변 조건의 최대25와 구별해 목적·모형의 범위를 성찰한다.",
+      "interpretation": "조건이 달라진 반례로 원래 조건의 올바른 증명을 틀렸다고 하지 않는다. 이것은 수학 모형이며 실제 건축·재료 성능을 검증한 것이 아니다.",
+      "student_validated": false
+    },
+    {
+      "id": "INQ-P15",
+      "standard_codes": [
+        "12수과03-04"
+      ],
+      "question": "동료 의견을 아직 받지 못한 자기평가 문서를 어떻게 표시하고 이후 수정할 것인가?",
+      "expected": "사전 기준에 따른 현재 자기평가·근거·미확인 항목을 남긴다. 실제 발표 후 의견·받은 날짜·해석·채택/보류 이유·수정 전후를 추가하고 목적과 방법의 유용성을 다시 평가한다.",
+      "interpretation": "예상 동료 반응을 실제 평가로 채우지 않는다. 자기평가의 완료와 독립 검토·학생 검증의 완료는 별도다.",
+      "student_validated": false
+    },
+    {
+      "id": "INQ-P16",
+      "standard_codes": [
+        "12수과02-04"
+      ],
+      "question": "정수 입력판을 x=0.5에도 대응하도록 확장한다면 무엇을 바꾸고 확인해야 하는가?",
+      "expected": "y=9.5,A=4.75cm²다. 입력 범위·소수 표시·길이/격자 척도·반올림·오류 안내·시험을 수정한다. 확장 전후 기능과 수학 조건을 맞춘다.",
+      "interpretation": "한 소수 사례를 추가했다고 모든 실수 입력의 구현·사용성을 검증한 것은 아니다. 원문의 반복 개발 관점을 참고한 자체 확장이다.",
+      "student_validated": false
+    }
+  ],
+  "previous_relation_records": [
+    {
+      "relation_id": "SEC_12수과02-01_C04",
+      "claim_id": "INQ16-02",
+      "role": "activity_context",
+      "finding": "문헌·맥락에서 얻은 근거를 실행의 조건·방법에 연결하고, 실행 중 드러난 질문에 따라 문헌 범위를 다시 검토하는 활동 맥락이다.",
+      "limit": "전문 연구 틀의 학교 탐구 적용이다. 한 번의 문헌 검색이 모든 실행의 엄격한 선수 조건이거나 실제 수행·효과의 증거인 것은 아니다.",
+      "relation_snapshot": "da551970c03e5274eb693c1d927e18d82a4551b85dc506644b6e42e81c2ee8c3",
+      "claim_snapshot": "8c4ccbd4f802ab47529bf36cf614a6b4687ca3cd56b2f7354da0e677ef37f941"
+    },
+    {
+      "relation_id": "REV-12수과02-01-1",
+      "claim_id": "INQ16-02",
+      "role": "activity_context",
+      "finding": "문헌·맥락에서 얻은 근거를 실행의 조건·방법에 연결하고, 실행 중 드러난 질문에 따라 문헌 범위를 다시 검토하는 활동 맥락이다.",
+      "limit": "전문 연구 틀의 학교 탐구 적용이다. 한 번의 문헌 검색이 모든 실행의 엄격한 선수 조건이거나 실제 수행·효과의 증거인 것은 아니다.",
+      "relation_snapshot": "ea07efd74ea7f0b08289f796539957716678c3e87a3c20a610c7b839a736058e",
+      "claim_snapshot": "8c4ccbd4f802ab47529bf36cf614a6b4687ca3cd56b2f7354da0e677ef37f941"
+    },
+    {
+      "relation_id": "SEC_12수과02-04_C04",
+      "claim_id": "INQ16-04",
+      "role": "activity_context",
+      "finding": "개발한 산출물의 요구·입력 범위·시험·수정 이유를 결과물과 함께 정리해 설명하는 활동을 구성한다.",
+      "limit": "작동 확인·보고·실제 사용성·학습 효과는 다른 근거다. 모든 산출물의 성공이나 실제 발표를 확인한 것이 아니다.",
+      "relation_snapshot": "1c808b1cfce3dfdaf543f872e090e9b82e8c48185fadb0b0571388ec51d8db5e",
+      "claim_snapshot": "d7fb51f956be603589722c61036a735d9ffd92be0cd2d484db1589ee7e7b0e8d"
+    },
+    {
+      "relation_id": "SEC_12수과03-01_C04",
+      "claim_id": "INQ16-05",
+      "role": "activity_context",
+      "finding": "질문·자원·방법·중간 점검의 계획을 실제 탐구의 기록·수정과 연결한다. 실행에서 드러난 조건에 따라 계획을 고칠 수 있게 한다.",
+      "limit": "원문의 사례 시간·참여 인원·순환을 고정 학교 시간표나 국내 기준 간 인과의 증거로 쓰지 않는다.",
+      "relation_snapshot": "8e0447036aca7fb51dc86de7a6ace77f6ce86e220acc45f90b2a441b74852726",
+      "claim_snapshot": "f17afe9d7cd49bab9513ea0806734395b4cda77546e6897a58045800a143b92b"
+    },
+    {
+      "relation_id": "HP-inquiry-execution",
+      "claim_id": "INQ16-05",
+      "role": "activity_context",
+      "finding": "질문·자원·방법·중간 점검의 계획을 실제 탐구의 기록·수정과 연결한다. 실행에서 드러난 조건에 따라 계획을 고칠 수 있게 한다.",
+      "limit": "원문의 사례 시간·참여 인원·순환을 고정 학교 시간표나 국내 기준 간 인과의 증거로 쓰지 않는다.",
+      "relation_snapshot": "58ebfd6c02e9d98ec0d0d3e5eeb209d062704ebe684f66dbabefd562cbb767fd",
+      "claim_snapshot": "f17afe9d7cd49bab9513ea0806734395b4cda77546e6897a58045800a143b92b"
+    },
+    {
+      "relation_id": "SEC_12수과03-02_C04",
+      "claim_id": "INQ16-06",
+      "role": "activity_context",
+      "finding": "실행 중의 계산·관찰·실패·수정과 한계를 산출물·발표에 연결하고, 계획과 실제 수행을 구별해 보고한다.",
+      "limit": "실제 학생 수행·현장 관측·발표를 관찰한 것이 아니다. 완성된 글만으로 전 과정의 이행·효과를 확정하지 않는다.",
+      "relation_snapshot": "f26c862afd15bb6c30e0a75c88f9d60c7faa2259058ae9abda3dcd90be154b87",
+      "claim_snapshot": "d8cdbff0eba16d616a90e86086a6f572ed42258c3cfb8874a901a195c1ff1698"
+    },
+    {
+      "relation_id": "HP-inquiry-presentation",
+      "claim_id": "INQ16-06",
+      "role": "activity_context",
+      "finding": "실행 중의 계산·관찰·실패·수정과 한계를 산출물·발표에 연결하고, 계획과 실제 수행을 구별해 보고한다.",
+      "limit": "실제 학생 수행·현장 관측·발표를 관찰한 것이 아니다. 완성된 글만으로 전 과정의 이행·효과를 확정하지 않는다.",
+      "relation_snapshot": "09041e4743751001bf1b1bcf4c41a091521ee64f197c08580851579d7ec44386",
+      "claim_snapshot": "d8cdbff0eba16d616a90e86086a6f572ed42258c3cfb8874a901a195c1ff1698"
+    },
+    {
+      "relation_id": "SEC_12수과03-03_C04",
+      "claim_id": "INQ16-07",
+      "role": "activity_context",
+      "finding": "보고·발표 뒤 실제 의견과 사전 기준을 근거로 목적·방법·유용성·한계를 평가하고 수정 이유를 남기는 자체 활동 맥락이다.",
+      "limit": "아직 받지 않은 피드백·예상 효과를 실제 평가·학습 성과로 세지 않는다. 원문의 일반 품질 틀은 이 과제의 효과 검증이 아니다.",
+      "relation_snapshot": "cc62c680ae5b057f47ed7f7519127dde88e5ab7d86143ad36c81995206d8a277",
+      "claim_snapshot": "a2a4c4d963967bcea9914f3d696d89d8a6aebf50cfb9f34135c391efd76fcf2a"
+    },
+    {
+      "relation_id": "REV-12수과03-04-1",
+      "claim_id": "INQ16-07",
+      "role": "activity_context",
+      "finding": "보고·발표 뒤 실제 의견과 사전 기준을 근거로 목적·방법·유용성·한계를 평가하고 수정 이유를 남기는 자체 활동 맥락이다.",
+      "limit": "아직 받지 않은 피드백·예상 효과를 실제 평가·학습 성과로 세지 않는다. 원문의 일반 품질 틀은 이 과제의 효과 검증이 아니다.",
+      "relation_snapshot": "217e4e95e6fb0577b77986c7e4d34044a67bba051e975b8f0c676c85f99ca55c",
+      "claim_snapshot": "a2a4c4d963967bcea9914f3d696d89d8a6aebf50cfb9f34135c391efd76fcf2a"
+    },
+    {
+      "relation_id": "HP-inquiry-reflection",
+      "claim_id": "INQ16-07",
+      "role": "activity_context",
+      "finding": "보고·발표 뒤 실제 의견과 사전 기준을 근거로 목적·방법·유용성·한계를 평가하고 수정 이유를 남기는 자체 활동 맥락이다.",
+      "limit": "아직 받지 않은 피드백·예상 효과를 실제 평가·학습 성과로 세지 않는다. 원문의 일반 품질 틀은 이 과제의 효과 검증이 아니다.",
+      "relation_snapshot": "6c613e40b1316b0add48a5035a8c121891fcae9448f224fcf1197afcd7f5b885",
+      "claim_snapshot": "a2a4c4d963967bcea9914f3d696d89d8a6aebf50cfb9f34135c391efd76fcf2a"
+    }
+  ],
+  "previous_notes_file": "data/literature_evidence/SLO_EDR_2013_INQUIRY_SELECTED_review_notes.json",
+  "previous_notes_sha256": "05bdad301852559e53b64f6758469581d459229a08a5fccf31b2fad36d3bacf3",
+  "formative_followup": {
+    "new_text_pages": [
+      4,
+      162,
+      163,
+      164,
+      165,
+      166,
+      167,
+      168,
+      169,
+      170
+    ],
+    "new_visual_pages": [
+      4,
+      153,
+      162,
+      163,
+      164,
+      165,
+      166,
+      167,
+      168,
+      169,
+      170
+    ],
+    "cumulative_text_pages": 30,
+    "cumulative_visual_pages": 31,
+    "chapter6_all_pdf_pages": [
+      153,
+      154,
+      155,
+      156,
+      157,
+      158,
+      159,
+      160,
+      161,
+      162,
+      163,
+      164,
+      165,
+      166,
+      167,
+      168,
+      169,
+      170
+    ],
+    "chapter6_complete_with_prior_reading": true,
+    "image_only_divider": 153,
+    "all_part_a_read": false,
+    "part_b_read": false,
+    "cited_originals_read": false,
+    "matchboard_original_verified": false,
+    "own_protocol_not_validated_instrument": true
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "source_id": "LEVIN_2025_COUNTING_SELECTED",
+  "source_url": "https://discrete.openmathbooks.org/dmoi4.html",
+  "source_asset_kind": "pdf",
+  "source_pdf_sha256": "da85572c79111d63ce90e18a116e0551732c6a3725b7bc08aa16b3f4557d55ac",
+  "source_pdf_url": "https://discrete.openmathbooks.org/pdfs/dmoi4.pdf",
+  "pdf_pages": 549,
+  "selected_text_pages": [
+    3,
+    16,
+    221,
+    222,
+    251,
+    252,
+    253,
+    254,
+    258,
+    259,
+    260,
+    261,
+    265,
+    266,
+    268,
+    269,
+    270,
+    271
+  ],
+  "visual_pdf_pages": [
+    3,
+    221,
+    222,
+    251,
+    258,
+    259,
+    260,
+    261,
+    265,
+    269,
+    270
+  ],
+  "rendered_page_sha256": {
+    "3": "b1f419c23c502eb410cb74db1b1d6e9f0aa363fe1278d7b89accdd8dcbd5617f",
+    "221": "a3c0842a342d1a7dae13b33d8eb88298ea9800f048c3bd511300edaaa18664f6",
+    "222": "ce6c312716ddd0c6cea6959f7fd6cc1514204bf6c32639f8cd857efb8494e0fb",
+    "251": "211af8b15a3b87c002c66e1f8a2dd07a6ded0319dc87ae9393bf3c2786f177d6",
+    "258": "f394ca7a1feff069112f98f04fbd52c8d6fd28b86e377b2ba862b15219a29f4f",
+    "259": "e84f38f5c4a30871c3c3350f6804e781a0ec21555f1641d4c33e059980064f1a",
+    "260": "7dd6a3ad30c7464f901abd01dd041fce3b4f9819e797c51bf1804b8a72543627",
+    "261": "ba9980afda5ac9d8a358e9f1c6d45caf99b7be16869bebf68f8fd9d2822973c3",
+    "265": "babfe8e0f0ffbeb4e000c4858a4ee2a02bcb56b8a897e8f7dc944a6a9343c97d",
+    "269": "b493f96df37d23a25d2219b1abd7160ebe964185d52651f03c4df9afc564f14f",
+    "270": "fb7f11ce02ddf01c76b66c8f9d5d2ffc2d0bba3c7f62b57d113082503f1d3cbe"
+  },
+  "date": "2026-11-13",
+  "reviewer": "Codex",
+  "read_scope": "서지·목차와 이항정리의 위치 선택, 순서열/집합·반복 허용, 같은 크기의 묶음을 세는 몫 원리, 중복집합과 별·막대 대응을 지정 추출문 18쪽과 실제 판면 11쪽에서 읽었다. PDF 본문 쪽은 인쇄 쪽보다 20쪽 크다.",
+  "empirical_scope": {
+    "design": "저자 공식 공개 교과서의 지정 본문·식·도식 대조",
+    "sample_description": "실제 학생 응답을 분석한 연구가 아님",
+    "inference_limit": "수학 교과서의 지정 범위이며 전권·독립 검토·학생 효과 검증이 아니다. 같은 종류 물건의 순열 공식은 읽은 몫 원리를 일정한 표지 교환 수로 자체 특수화했다. 원형 순열·일반 동치관계·생성함수·대학 조합론은 새 필수로 추가하지 않는다. 셈의 수를 곧바로 확률로 바꾸지 않는다.",
+    "student_outcome_study": false,
+    "causal_effect_established": false,
+    "local_effect_tested": false
+  },
+  "contains_source_full_text": false,
+  "source_pdf_redistributed": false,
+  "reading_log": [
+    "서지·목차와 이항정리의 위치 선택, 순서열/집합·반복 허용, 같은 크기의 묶음을 세는 몫 원리, 중복집합과 별·막대 대응을 지정 추출문 18쪽과 실제 판면 11쪽에서 읽었다. PDF 본문 쪽은 인쇄 쪽보다 20쪽 크다."
+  ],
+  "source_corrections": [
+    {
+      "location": "방법·문항·표·그림·서술의 대조",
+      "issue": [
+        "258쪽 세 글자 예는 반복 허용 여부를 먼저 고정해야 한다. 자체 발문에는 허용/금지와 처음 자리·고정 중복도를 명시했다. 259~261쪽의 몫 원리는 모든 묶음 크기가 같을 때로 읽고 같은 물건 순열을 일정한 표지 교환 수로 자체 유도했다.",
+        "원문의 별·막대에서 빈 그룹을 빠뜨리지 않는다. 자기 재고 상한·불가능한 양수해·r=0·n=1 경계는 자체 예다. 대학 동치관계·원형/뒤집기 순열은 국내 새 필수로 추가하지 않는다."
+      ]
+    }
+  ],
+  "probability_completion_review": {
+    "full_book_read": false,
+    "pdf_printed_page_offset": 20,
+    "quotient_class_size_must_be_constant": true,
+    "fixed_multiplicity_formula_is_own_specialization": true,
+    "stars_bars_bijection_and_zero_groups": true,
+    "own_stock_limit_cases": true
+  }
+}

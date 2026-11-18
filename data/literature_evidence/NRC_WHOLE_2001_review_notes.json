@@ -1,0 +1,230 @@
+{
+  "source_id": "NRC_WHOLE_2001",
+  "source_url": "https://www.nationalacademies.org/read/9822/chapter/8",
+  "source_asset_kind": "publisher_html",
+  "source_asset_sha256": "ba98b8057e9c466a7970ec34b2ed3055ebd668ab9557aed5e08a8e76a6fab05e",
+  "source_asset_redistributed": false,
+  "date": "2026-11-05",
+  "reviewer": "Codex",
+  "contains_source_full_text": false,
+  "source_pdf_redistributed": false,
+  "pdf_read": false,
+  "original_page_layout_review": false,
+  "source_corrections": [
+    {
+      "kind": "publisher_html_caption_image_mismatch",
+      "location": "인쇄189 / Box6–2",
+      "observed": "웹본문 제목은B+6이지만 삽입 그림은8+6과10+4=14를 보여 준다.",
+      "action": "문자B를 수로 인용하지 않고 확인한 삽입 그림과 자체 수치 검산을 구별한다. PDF 인쇄 판면의 오자라고 확정하지 않는다."
+    },
+    {
+      "kind": "publisher_html_math_transcription_guard",
+      "location": "인쇄192 / Single-Digit Division",
+      "observed": "72÷9의 빠진 인수를 설명하는 웹본문에9÷?=72라고 적혀 있다.",
+      "action": "자연수 나눗셈의 역관계는9×8=72로 검산했다. 의심스러운 기호를 복사하지 않으며 원 PDF 판면·정오표를 확인하기 전 원책 오자 또는 웹 전사 오류의 원인을 확정하지 않는다."
+    },
+    {
+      "kind": "publisher_html_internal_wording_guard",
+      "location": "인쇄196–199,205–206",
+      "observed": "다자리 계산 관찰 목록의 앞선7개와 뒤의6개 표기,재묶기 설명의 엄격한 큼 표현을 확인했다.",
+      "action": "목록 수를 근거 수로 인용하지 않는다. 자체 뺄셈은 같은 자리 값이 같아도 뺄 수 있다는 이상 조건으로 검산하며 원문의 부등호식 표현을 그대로 규칙화하지 않는다."
+    }
+  ],
+  "read_printed_pages": [
+    181,
+    182,
+    183,
+    184,
+    185,
+    186,
+    187,
+    188,
+    189,
+    190,
+    191,
+    192,
+    193,
+    194,
+    195,
+    196,
+    197,
+    198,
+    199,
+    200,
+    201,
+    202,
+    203,
+    204,
+    205,
+    206,
+    207,
+    208,
+    209,
+    210,
+    211,
+    212,
+    213,
+    214,
+    215,
+    216,
+    217,
+    218,
+    219,
+    220,
+    221,
+    222,
+    223,
+    224,
+    225,
+    226,
+    227,
+    228,
+    229,
+    230
+  ],
+  "observed_image_assets": [
+    {
+      "page": 187,
+      "url": "https://www.nationalacademies.org/read/9822/assets/images/p20004b74g187001.jpg",
+      "file": "nrc6-1.jpg",
+      "sha256": "c932b5d307c3dec642364a238cc13db4a642fc5be3ca6d6097f5c868f26b1b99"
+    },
+    {
+      "page": 189,
+      "url": "https://www.nationalacademies.org/read/9822/assets/images/p20004b74g189001.jpg",
+      "file": "nrc6-2.jpg",
+      "sha256": "8b123c09b71646fe613511b58f2c6b45f9c75324620a3cf8b911d2b89884a386"
+    },
+    {
+      "page": 190,
+      "url": "https://www.nationalacademies.org/read/9822/assets/images/p20004b74g190001.jpg",
+      "file": "nrc6-3.jpg",
+      "sha256": "79ecdf74f04169b09ae41a5c809fc9edae45e54d081a77a3f283cad5d391f57c"
+    },
+    {
+      "page": 193,
+      "url": "https://www.nationalacademies.org/read/9822/assets/images/p20004b74g193001.jpg",
+      "file": "nrc6-4.jpg",
+      "sha256": "61804402e037c85359049d55efc8d1f0d8d8912d6258fa13131de6ce34397fc8"
+    },
+    {
+      "page": 193,
+      "url": "https://www.nationalacademies.org/read/9822/assets/images/p20004b74g193002.jpg",
+      "file": "nrc6-5.jpg",
+      "sha256": "00e6dac88e1e4fc519ae9491ad73378836cbb725f70f228ea6671a5b379a864c"
+    },
+    {
+      "page": 194,
+      "url": "https://www.nationalacademies.org/read/9822/assets/images/p20004b74g194001.jpg",
+      "file": "nrc6-6.jpg",
+      "sha256": "cabe4132d50202a845d4ef710866ae995a9c92fe263cd4bcdcc15bebd01248c2"
+    },
+    {
+      "page": 195,
+      "url": "https://www.nationalacademies.org/read/9822/assets/images/p20004b74g195001.jpg",
+      "file": "nrc6-7.jpg",
+      "sha256": "c94eab893bd98e82527f87acfe3de9fa4f6d57ea0b78d1243071c0bedbab2504"
+    },
+    {
+      "page": 202,
+      "url": "https://www.nationalacademies.org/read/9822/assets/images/p20004b74g202001.jpg",
+      "file": "nrc6-8.jpg",
+      "sha256": "8d421f89239b888f5bd17d3a78c062fbeab766d3e0064dec6f1be587e63d4680"
+    },
+    {
+      "page": 202,
+      "url": "https://www.nationalacademies.org/read/9822/assets/images/p20004b74g202002.jpg",
+      "file": "nrc6-9.jpg",
+      "sha256": "e41b2574b0fb4f6c2725a9f2f42729510a862c66beef0bea6b83f5749310f481"
+    },
+    {
+      "page": 202,
+      "url": "https://www.nationalacademies.org/read/9822/assets/images/p20004b74g202003.jpg",
+      "file": "nrc6-10.jpg",
+      "sha256": "2d6eb05f10957ec2e90ec2c9a149b724d2f55308c28a4feec5a3dbee67d90afc"
+    },
+    {
+      "page": 204,
+      "url": "https://www.nationalacademies.org/read/9822/assets/images/p20004b74g204001.jpg",
+      "file": "nrc6-11.jpg",
+      "sha256": "62f6175e2024969c5fae63e71d57ed1f6c52d9222de463d7af72dd56907ed158"
+    },
+    {
+      "page": 205,
+      "url": "https://www.nationalacademies.org/read/9822/assets/images/p20004b74g205001.jpg",
+      "file": "nrc6-12.jpg",
+      "sha256": "b94d87f6cb900c08e5baf494f56208d88c860928d02be9047c450e27dbe31fe0"
+    },
+    {
+      "page": 205,
+      "url": "https://www.nationalacademies.org/read/9822/assets/images/p20004b74g205002.jpg",
+      "file": "nrc6-13.jpg",
+      "sha256": "f546daf075eecba4cf0fb9eff61e9f0aea4e3f949f335e7a3a9b77e8af9d246f"
+    },
+    {
+      "page": 205,
+      "url": "https://www.nationalacademies.org/read/9822/assets/images/p20004b74g205003.jpg",
+      "file": "nrc6-14.jpg",
+      "sha256": "6e9a81b9eb726d1be84a8b6a97650009d843f14867014c79dc82b1ce2ca51881"
+    },
+    {
+      "page": 206,
+      "url": "https://www.nationalacademies.org/read/9822/assets/images/p20004b74g206001.jpg",
+      "file": "nrc6-15.jpg",
+      "sha256": "0e19b14146f7a2de1625eb67d60cec95c81fb15d6c16c6b866b90ed69bb322a3"
+    },
+    {
+      "page": 207,
+      "url": "https://www.nationalacademies.org/read/9822/assets/images/p20004b74g207001.jpg",
+      "file": "nrc6-16.jpg",
+      "sha256": "5b4767a4a1c7e00601343e20cc9864154cda2619dc23dac0d4be74e07b569f95"
+    },
+    {
+      "page": 208,
+      "url": "https://www.nationalacademies.org/read/9822/assets/images/p20004b74g208001.jpg",
+      "file": "nrc6-17.jpg",
+      "sha256": "0b30b5d4050503ee3398abc6d39d4c00408ade0b6adb5c394f30dff23b3c6784"
+    },
+    {
+      "page": 209,
+      "url": "https://www.nationalacademies.org/read/9822/assets/images/p20004b74g209001.jpg",
+      "file": "nrc6-18.jpg",
+      "sha256": "aed706d1854ab50478754f6e4db79122a6ee8c134843a9b51ae54a0ba1b246f2"
+    },
+    {
+      "page": 211,
+      "url": "https://www.nationalacademies.org/read/9822/assets/images/p20004b74g211001.jpg",
+      "file": "nrc6-19.jpg",
+      "sha256": "cd607c6a432c7a614e7922fec5a8988960b4fcb484dd656b010001dfb09de34e"
+    },
+    {
+      "page": 211,
+      "url": "https://www.nationalacademies.org/read/9822/assets/images/p20004b74g211002.jpg",
+      "file": "nrc6-20.jpg",
+      "sha256": "560d4dc8de6f0a31c7ed769f6bf0c7d9213741878fe012044a12984c7ed9f4d0"
+    },
+    {
+      "page": 211,
+      "url": "https://www.nationalacademies.org/read/9822/assets/images/p20004b74g211003.jpg",
+      "file": "nrc6-21.jpg",
+      "sha256": "2a46d560a0cef0f77ab98dc609e52ba0aeed21d4fb91193a868b93c02cb45651"
+    },
+    {
+      "page": 212,
+      "url": "https://www.nationalacademies.org/read/9822/assets/images/p20004b74g212001.jpg",
+      "file": "nrc6-22.jpg",
+      "sha256": "068063e36885acd4c23541e8d57ff426afb2c61c2626e6df97b2bb19b36bb676"
+    }
+  ],
+  "reading_log": [
+    "공식HTML 인쇄181–230의50쪽을 모두 읽었다.230쪽은 원문 공백 안내이며 실제 수학 본문·미주·참고문헌은181–229쪽이다. PDF 다운로드·50쪽 인쇄 판면 대조가 아니다.",
+    "181–194쪽의 문제 유형 표6–1·단일 자리 계산과 전략의 공존,195–213쪽의 십진 단위·다자리 계산 및 연구의 차이,214–218쪽의 암산·어림·발달 주제를 읽었다.",
+    "218–221쪽 미주1–92와221–229쪽 참고문헌을 읽고 본문과 연결했다. 인용 원논문·실제 원응답·현행 후속 연구 전체를 재검토한 것은 아니다.",
+    "본문의 삽입 자산22개를 모두 시각적으로 확인했다. 상자6–1~6–16의 세기·10 만들기·단위 교환·배열·부분곱·부분 몫과 작은 분수/나눗셈 기호를 대조하고 확인 주소·해시를 남겼다."
+  ],
+  "interpretation_limits": [
+    "2001년 연구 종합이며 현재 한국 학생의 학년별 규준·최신 체계적 고찰·도구 효과·인지 단계 검사와 구별한다.",
+    "덧셈·뺄셈에 비해 곱셈·나눗셈의 발달 연구가 제한적이라는 원문 범위를 유지한다. 개념 이해·유창성은 함께 발달할 수 있고 자릿값 완전 숙달을 모든 계산의 선행 관문으로 삼지 않는다.",
+    "인용 연구의 표본·효과를 합산하지 않으며 자체 과제의 독립 검토·학생 반응·번역 동등성·교수 효과로 전용하지 않는다."
+  ]
+}

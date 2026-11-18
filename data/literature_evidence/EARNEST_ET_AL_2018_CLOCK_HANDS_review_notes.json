@@ -1,0 +1,73 @@
+{
+  "source_id": "EARNEST_ET_AL_2018_CLOCK_HANDS",
+  "source_url": "https://doi.org/10.5964/jnc.v4i1.94",
+  "source_pdf_url": "https://jnc.psychopen.eu/index.php/jnc/article/download/5793/5793.pdf/",
+  "source_asset_kind": "pdf",
+  "source_pdf_sha256": "bfa74fe0a058b7fc49e391e92be88300aaf8fe216b0983ffc0dd737e85d57778",
+  "pdf_pages": 27,
+  "selected_text_pages": [
+    1,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    17
+  ],
+  "visual_pdf_pages": [
+    11,
+    13,
+    17
+  ],
+  "rendered_page_sha256": {
+    "11": "a038a6efe3305739ed52b858f481f0d35b1ef787880328a508ec8fc7eebef303",
+    "13": "6cec2b640d01d1216b644589a42e7229234ce09117476a50696a108d2922605b",
+    "17": "d986469b19b53f15f1083603d05026fe82b9a2e7b98eb09f945298854bce7329"
+  },
+  "date": "2026-11-13",
+  "reviewer": "Codex",
+  "read_scope": "독립적으로 움직이는 두 바늘의 일곱 시각 과제, 학년별 평균과 672건의 바늘 반응 분류, 두 바늘의 관계를 설명한 사례를 대조했다.",
+  "empirical_scope": {
+    "design": "여섯 학교의 사전 검사에서 선정한 학생의 개별 면담·영상·행동·설명 분석.",
+    "sample_description": "미국 매사추세츠 여섯 초등학교의 2학년 24명과 4학년 24명. 전체 사전 검사 612명 중 본 논문 조건은 48명.",
+    "inference_limit": "2·4학년 각 24명을 선택한 면담이다. 672는 48명×7문항×2바늘의 반응 수이며, 전략별 정답 비율은 전략 지도의 효과가 아니다.",
+    "student_outcome_study": true,
+    "causal_effect_established": false,
+    "local_effect_tested": false
+  },
+  "contains_source_full_text": false,
+  "source_pdf_redistributed": false,
+  "reading_log": [
+    "독립적으로 움직이는 두 바늘의 일곱 시각 과제, 학년별 평균과 672건의 바늘 반응 분류, 두 바늘의 관계를 설명한 사례를 대조했다."
+  ],
+  "source_corrections": [
+    {
+      "location": "방법·문항·표·그림·서술의 대조",
+      "issue": "표 1은 일곱 과제의 바늘별 정답 수 평균이다. 표 2의 672건은 학생 수가 아니며 전략별 비율에 학생당 독립 표본을 가정하지 않는다. 독립 바늘 도구는 실제 시계에 불가능한 배치도 허용한다."
+    }
+  ],
+  "clock_mass_review": {
+    "n": 48,
+    "grade_2_n": 24,
+    "grade_4_n": 24,
+    "screening_n": 612,
+    "tasks": 7,
+    "hands": 2,
+    "response_instances": 672,
+    "hour_means": [
+      2.88,
+      4.54
+    ],
+    "minute_means": [
+      5.04,
+      6.42
+    ],
+    "quantitative_instances": 101,
+    "quantitative_percent_correct": 91.1,
+    "quantitative_hour_instances": 36,
+    "half_hour_subset": 29,
+    "clock_hands_independent": true,
+    "strategy_rates_are_not_treatment_effects": true
+  }
+}

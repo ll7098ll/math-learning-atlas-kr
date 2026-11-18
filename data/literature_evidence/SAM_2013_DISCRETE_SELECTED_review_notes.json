@@ -1,0 +1,70 @@
+{
+  "source_id": "SAM_2013_DISCRETE_SELECTED",
+  "source_url": "https://amsi.org.au/ESA_Senior_Years/PDF/DiscreteProbability4c.pdf",
+  "source_asset_kind": "pdf",
+  "source_pdf_sha256": "32bdec66d3b3e92982afd9064b21d31f268164b19080f2410322a7cfc2c6081e",
+  "source_pdf_url": "https://amsi.org.au/ESA_Senior_Years/PDF/DiscreteProbability4c.pdf",
+  "pdf_pages": 26,
+  "selected_text_pages": [
+    2,
+    3,
+    5,
+    7,
+    9,
+    10,
+    15,
+    16,
+    20,
+    21,
+    22
+  ],
+  "visual_pdf_pages": [
+    5,
+    9,
+    15,
+    20,
+    21,
+    22
+  ],
+  "rendered_page_sha256": {
+    "5": "33042fd4a40ee8a0ed2873ff02ccecb3f1b305a28bd848dae80071dbd16aa820",
+    "9": "113cee9adc0d4084d49226f54cce29614093344d5e58f099151f48ffc5bd5bc5",
+    "15": "55a95c457cb8090edb605c7dc8424e23a37709ce6468aaf3507afa5506fa7930",
+    "20": "4d0bb0742c469f2d6c4e9a0c5a3155e652efbaa1725bdba1661585f22567e9c4",
+    "21": "15176569cd6cf4cf978030087c2bc58102597b7f8e88df241d6cd780298add79",
+    "22": "65e4521e58f186d8efeda0f871d410cb6927265355d83fc3bd4224db261d3765"
+  },
+  "date": "2026-11-13",
+  "reviewer": "Codex",
+  "read_scope": "서지·목차, 확률변수와 관측값·확률함수의 두 조건, 기댓값의 확률 가중과 분산/표준편차·선형 평균을 지정 추출문 11쪽과 실제 판면 6쪽에서 읽었다.",
+  "empirical_scope": {
+    "design": "교사용 수학 정의·식·수치 예·모형 그림의 지정 본문과 실제 판면 대조",
+    "sample_description": "학생 표본·응답 분석이나 국내 과제 효과 연구가 아님",
+    "inference_limit": "유한 지지집합의 기초를 직접 대응한다. 기댓값이 실현될 출력이나 가장 흔한 값이라는 뜻은 아니다. 반복이 늘 때 관측 평균의 오차가 매번 줄어든다는 보장은 없고 확률분포의 분산에 표본분산의 n−1을 사용하지 않는다. 무한 지지집합의 발산 예·기하분포 전체는 새 필수가 아니다. 자체 변환 계산과 학생 응답을 구별한다.",
+    "student_outcome_study": false,
+    "causal_effect_established": false,
+    "local_effect_tested": false
+  },
+  "contains_source_full_text": false,
+  "source_pdf_redistributed": false,
+  "reading_log": [
+    "서지·목차, 확률변수와 관측값·확률함수의 두 조건, 기댓값의 확률 가중과 분산/표준편차·선형 평균을 지정 추출문 11쪽과 실제 판면 6쪽에서 읽었다."
+  ],
+  "source_corrections": [
+    {
+      "location": "방법·문항·표·그림·서술의 대조",
+      "issue": [
+        "기댓값은 실제로 나올 한 값·최빈값이 아니다. 16쪽 관측 횟수가 늘수록 평균이 더 가까워진다는 비형식 설명을 매 단계 오차 감소의 보장으로 읽지 않는다. 자체 1,6,6 반례를 붙였다.",
+        "21쪽은 확률분포의 분산으로 표본분산의 n−1과 구별한다. E(X²)−E(X)²와 음수 실수배의 분산·표준편차는 읽은 정의를 자체 전개한 계산이다. 무한 분포의 적률 발산 예는 새 필수가 아니다."
+      ]
+    }
+  ],
+  "probability_completion_review": {
+    "full_module_read": false,
+    "finite_support_scope": true,
+    "random_variable_not_observation": true,
+    "weighted_moments_not_sample_variance": true,
+    "mean_need_not_be_observable": true,
+    "sample_mean_error_not_monotonic": true
+  }
+}

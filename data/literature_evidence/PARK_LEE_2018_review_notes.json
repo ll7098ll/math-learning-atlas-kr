@@ -1,0 +1,80 @@
+{
+  "source_id": "PARK_LEE_2018",
+  "source_url": "https://www.kci.go.kr/kciportal/landing/article.kci?arti_id=ART002345499",
+  "source_pdf_url": "https://www.kci.go.kr/kciportal/co/download/popup/poDownload.kci?storFileBean.orteFileId=KCI_FI002345499",
+  "source_pdf_sha256": "5403932dac15be1f6f830dc229a1fd91b9587ebb5afd1d95c2f1843b913b5eee",
+  "date": "2026-11-04",
+  "reviewer": "Codex",
+  "contains_source_full_text": false,
+  "source_pdf_redistributed": false,
+  "visual_pdf_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24
+  ],
+  "source_corrections": [
+    {
+      "pdf_page": 18,
+      "printed_page": 254,
+      "kind": "table_body_label_conflict",
+      "observation": "표4의일본 행에서 측정공간 내의 분석 열에 놓인 보조화살표 설명이 측정공간 사이의 분석으로 적혀 있다. PDF15본문은그림35(a)를내,35(b)를사이로 구별하고PDF16그림의동일양배율/서로다른양대응과 일치한다.",
+      "action": "자체 설명은 화살표의 출발량·도착량에 따라 구별한다. 원문 파일은 고치지 않으며 출판 정오표의 공식 정정 여부는 미확인."
+    }
+  ],
+  "empirical_scope": {
+    "design": "comparative_textbook_content_analysis",
+    "sample_description": "2015년판5·6학년 주교과서8종: 한국1종·일본3종·싱가포르3종·미국1종의 모델이 제시된 문제 상황을 비교.",
+    "inference_limit": "국가별 선정 수가 다르며 현행 교과서 전수 조사·학생 반응 실험이 아니다. 원교과서 전권과 인용 원연구를 재검토한 것도 아니다.",
+    "student_outcome_study": false,
+    "causal_effect_established": false,
+    "local_effect_tested": false
+  },
+  "reading_log": [
+    "KCI서지·초록·원문24쪽 전체 텍스트와 전24쪽 실제 이미지 확인. 표4는180dpi추가 이미지로 열·설명·그림을 재대조.",
+    "PDF1–5 이론·그림1–7: 다중묶음/변동부분과 측정공간 내/사이의 구분. 모델 형태와 사고 관점의 일대일 대응은 아님.",
+    "PDF6방법·표1–2: 한국1·일본3·싱가포르3·미국1의총8종2015년판 주교과서. 국가별 선정 수가 다르고 보조교과서·워크북·저널은 제외. 모델과 함께 제시된 문제 상황을 분석.",
+    "PDF7–12 그림8–27: 그림에서 수나양의 표현, 비표 보조화살표, 이중척도·테이프·비례식의 결합을 확인. 인용 교과서의 전권을 읽은 것은 아님.",
+    "PDF13–16 그림28–37: 부분 수/크기·묶음 수, 두 유형의 화살표와 직접 대응을 확인. 이중수직선의 변동부분 해석 사례도 확인.",
+    "PDF17–18 표3–4와 본문 비교: 일본 내/사이 설명 충돌을 따로 기록. PDF19–20결론은 한국 학생에게의 효과와 지도 방법을 추가 검증할 필요를 제언.",
+    "PDF20–24 참고문헌·영문 초록 확인. 모든 인용 원연구와 원교과서의 재분석·현재 판본 전수 대조는 수행하지 않음."
+  ],
+  "corpus": {
+    "publication_year": 2015,
+    "series_by_country": {
+      "한국": 1,
+      "일본": 3,
+      "싱가포르": 3,
+      "미국": 1
+    },
+    "series_total": 8,
+    "unit": "textbook_series_not_student_sample",
+    "includes_original_textbook_full_read": false
+  },
+  "interpretation_limits": [
+    "연구 대상은 교과서의 모델이며 학생 표본에 대한 처치·반응·효과의 비교가 아니다.",
+    "일본·싱가포르는각3종,한국·미국은각1종으로 균형 대표 표본이 아니다. 국가 전체·현행 판본·2022개정 교육과정에 대한 일괄 주장을 하지 않음.",
+    "교과서의 흐름과 이론적 제언을 개별 학생의 보편적인 필수 학습 순서나 자체 진단의 타당성으로 옮기지 않음.",
+    "원문의숫자·색·그림·화살표의 교수 가능성과 실제 학생 수행을 구별. 교과서에 모델이 없다는 관찰을 학생에게 관련 사고가 없다는 뜻으로 사용하지 않음."
+  ]
+}

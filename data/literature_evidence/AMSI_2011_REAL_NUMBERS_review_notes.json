@@ -1,0 +1,80 @@
+{
+  "source_id": "AMSI_2011_REAL_NUMBERS",
+  "source_url": "https://amsi.org.au/teacher_modules/Real_numbers.html",
+  "source_asset_kind": "pdf",
+  "source_pdf_sha256": "5509fc29ceed128101030b0c25e805ffe54edc19fc00896c6c14afd85d432983",
+  "source_pdf_url": "https://amsi.org.au/teacher_modules/pdfs/Real_numbers.pdf",
+  "pdf_pages": 36,
+  "selected_text_pages": [
+    1,
+    2,
+    3,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    15
+  ],
+  "visual_pdf_pages": [
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    15
+  ],
+  "rendered_page_sha256": {
+    "5": "1849e63ba2afe692a13f64152edff86d2a6f550c485ad852232a607fcb2b941a",
+    "6": "ffb225606d69c5f490a835fa3dc256f6ada2725ff8934d6413643713014222cc",
+    "7": "6c5c7527a61256fbb7376b67f9f5fa3998128675a9a7f83b7a6f0e1dc686a72a",
+    "8": "7d7b8378f0366b1060656eb204d5fb8ce50d1d71d590d1317916b6303d999353",
+    "9": "d1bb5545db9841b13991199072b98c16b3bcd7671db02b641d130f6681555502",
+    "10": "6280e445370c1731e863b3561aa394d077cf4e1e09d9ef081a2b50ec82b1154c",
+    "11": "795f85dc87ebad604b6f351b0d8ce0d018cdb781da7b61fe5c31a37ace4f7644",
+    "12": "2ce9155aaf2f38796f94db9aeb050ed38ecea4ab575dc199d67cd88063a5e5ea",
+    "15": "a831bb2dc373acff0932b0c23db1029b1b3c58dec8c9fdd6c96c1c71b23f3ae0"
+  },
+  "date": "2026-11-13",
+  "reviewer": "Codex",
+  "read_scope": "유리수 정의와 기약분모·나머지 반복, 순환소수의 분수 변환, √2와 수직선, 비순환 무한소수와 0.999…, 정확값·근삿값의 지정 부분을 대조했다.",
+  "empirical_scope": {
+    "design": "교사용 수학 내용 설명과 예시·연습 문제. 지정 부분의 수학적 조건과 표현을 대조.",
+    "sample_description": "학생 표본·학생별 반응 자료 없음. 자체 과제의 효과를 검사한 연구가 아니다.",
+    "inference_limit": "교사용 설명의 한정 읽기다. 로그·초월수의 판정, 실수의 엄밀한 구성·집합 크기·연분수·수열 수렴은 이번 중학교 과제에 넣지 않는다. 지름과 원주, 0배, 원주율 경계의 원문 문제를 기록했다.",
+    "student_outcome_study": false,
+    "causal_effect_established": false,
+    "local_effect_tested": false
+  },
+  "contains_source_full_text": false,
+  "source_pdf_redistributed": false,
+  "reading_log": [
+    "유리수 정의와 기약분모·나머지 반복, 순환소수의 분수 변환, √2와 수직선, 비순환 무한소수와 0.999…, 정확값·근삿값의 지정 부분을 대조했다."
+  ],
+  "source_corrections": [
+    {
+      "location": "방법·문항·표·그림·서술의 대조",
+      "issue": "PDF 5쪽의 diameter는 정수 반지름에서 π가 필요한 원주와 다르다. 9쪽의 모든 유리수 배수에는 0배 예외가 있다. 10쪽의 3+1/7<π<3+10/71은 판면에도 경계가 뒤바뀌어 있다. 자체 설명은 3+10/71<π<3+1/7을 사용하거나 해당 예를 제외한다. 반복 점·근호와 0.999…의 무한 반복을 실제 판면으로 대조했다. 7쪽 분수의 제곱 설명은 음이 아닌 √2에 한정한다. 고급 주제와 현재 미해결 문제의 상태는 검토·집계하지 않는다."
+    }
+  ],
+  "middle_number_system_review": {
+    "module": 28,
+    "publication": "June 2011",
+    "page_5_diameter_should_not_be_circumference": true,
+    "page_9_zero_multiple_exception": true,
+    "page_10_pi_bounds_reversed": true,
+    "correct_lower_pi_bound": "3+10/71",
+    "correct_upper_pi_bound": "3+1/7",
+    "page_7_recurring_fraction": "41/333",
+    "page_7_eventually_recurring_fraction": "11509/16650",
+    "finite_screen_not_irrationality_proof": true,
+    "recurring_nines_equal_one": true,
+    "rigorous_real_construction_and_advanced_sections_not_required": true
+  }
+}

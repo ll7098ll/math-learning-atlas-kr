@@ -1,0 +1,74 @@
+{
+  "source_id": "MORRIS_ET_AL_2016_MAKING_PRE_K_COUNT",
+  "source_url": "https://www.mdrc.org/work/publications/making-pre-k-count",
+  "date": "2026-11-09",
+  "reviewer": "Codex",
+  "source_asset_kind": "pdf",
+  "source_pdf_sha256": "aebe0b9640288a6cd4cac239c3a6ee49057b5332780fbd97e78c56943e4c76b3",
+  "source_pdf_redistributed": false,
+  "contains_source_full_text": false,
+  "read_scope": "연구기관 보고서의 개요와 표 4.1·4.4, 검사 설명, 분모와 주석을 지정 PDF 4쪽에서 읽고 판면 2쪽을 대조했다.",
+  "empirical_scope": {
+    "design": "뉴욕시 69개 취학 전 기관을 프로그램과 정규 수업에 블록 안에서 무작위 배정한 비교.",
+    "sample_description": "프로그램 35개 기관과 정규 수업 34개 기관. 표 4.1은 87·86학급, 표 4.4는 698·691명.",
+    "inference_limit": "이 보고서의 관찰 시간과 종합 점수를 국내 특정 세기·연산·도형·규칙 과제의 효과나 지도 순서로 해석할 수 없다. 유치원·3학년 보고서는 같은 평가의 후속 자료다.",
+    "student_outcome_study": true,
+    "causal_effect_established": true,
+    "local_effect_tested": false,
+    "study_family": "MDRC_MAKING_PRE_K_COUNT_HIGH_5S"
+  },
+  "pdf_url": "https://www.mdrc.org/work/publications/making-pre-k-count/file-full",
+  "publisher_url": "https://www.mdrc.org/work/publications/making-pre-k-count",
+  "pdf_pages": 118,
+  "printed_pages": [
+    38,
+    44
+  ],
+  "selected_text_pages": [
+    5,
+    62,
+    67,
+    68
+  ],
+  "visual_pdf_pages": [
+    62,
+    68
+  ],
+  "rendered_page_sha256": {
+    "62": "fc25ae2c578f2a0ce8f88895f4049ebae3a93202d4dea650314f3e3feaf893ba",
+    "68": "ea1dc8be469bcfe10669056dfac6494685b2de83234d3922fa5ec86216c67f59"
+  },
+  "results": {
+    "sites": [
+      35,
+      34
+    ],
+    "classrooms": [
+      87,
+      86
+    ],
+    "tested_children": [
+      698,
+      691
+    ],
+    "teacher_led_and_informal_minutes": [
+      46.8,
+      34.85
+    ],
+    "minutes_difference": 11.95,
+    "child_assessment_effect_sizes": {
+      "ECLS-B": 0.05,
+      "WJ-III": 0.06
+    }
+  },
+  "reading_log": [
+    "연구기관 보고서의 개요와 표 4.1·4.4, 검사 설명, 분모와 주석을 지정 PDF 4쪽에서 읽고 판면 2쪽을 대조했다.",
+    "분모와 비교 조건을 확인하고 전체 모형과 과제별 관찰을 구분했다."
+  ],
+  "source_corrections": [
+    {
+      "location": "PDF 62쪽 표 4.1 주석 e",
+      "issue": "평균 활동 질은 교사 주도 활동이 관찰된 학급만의 값이며 조건별 포함 비율이 달라 같은 해석을 적용하지 않는다."
+    }
+  ]
+}

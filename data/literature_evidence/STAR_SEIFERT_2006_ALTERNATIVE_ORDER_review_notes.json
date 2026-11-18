@@ -1,0 +1,208 @@
+{
+  "source_id": "STAR_SEIFERT_2006_ALTERNATIVE_ORDER",
+  "source_url": "https://doi.org/10.1016/j.cedpsych.2005.08.001",
+  "date": "2026-11-10",
+  "reviewer": "Codex",
+  "source_asset_kind": "pdf",
+  "source_pdf_sha256": "c95cd1f11a5bbfb0c18a491276fcccb5efe420e30d2a5a9d77b29eb3d99c72ea",
+  "source_pdf_redistributed": false,
+  "contains_source_full_text": false,
+  "read_scope": "출판본 21쪽의 텍스트와 변형 예·연습·채점·표 3의 주요 판면 8쪽을 대조했다. IES 가이드 D.4와 WWC 연구 79838의 결과를 원논문과 비교했다.",
+  "empirical_scope": {
+    "design": "randomized_alternative_ordering_practice_comparison",
+    "sample_description": "미국 중서부 한 공립 학군의 6학년 자원자 36명. 방법에 6명씩 묶은 집단을 배정했다고 서술했다. 사후 분석은 재풀이 17명, 유사 구조의 다른 식 15명이다.",
+    "inference_limit": "한 학군의 소수 자원자를 대상으로 한 3일 연습과 직후 검사다. 연습에서의 재풀이와 사후 여러 식에서 관찰한 전략은 측정이 다르다. 국내 성취기준의 효과, 장기 유지나 필수 순서를 확인하지 않았다.",
+    "student_outcome_study": true,
+    "causal_effect_established": false,
+    "local_effect_tested": false
+  },
+  "pdf_url": "https://sites.lsa.umich.edu/wp-content/uploads/sites/224/2015/01/star.seifert2006.pdf",
+  "publisher_url": "https://doi.org/10.1016/j.cedpsych.2005.08.001",
+  "pdf_pages": 21,
+  "printed_pages": [
+    280,
+    300
+  ],
+  "selected_text_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21
+  ],
+  "visual_pdf_pages": [
+    2,
+    7,
+    8,
+    9,
+    10,
+    12,
+    13,
+    14
+  ],
+  "rendered_page_sha256": {
+    "2": "2114a42c3040fff46196f1134f7c0569569a53570f4a1e6bd38f0355c0e90686",
+    "7": "ecb8b6f5cd1f6fe02dbc439c4875d156d8facca87df02b48122f0763c58845da",
+    "8": "8670838ebe6f1322ff3536ef368457e4a040ad5b86a3a3b2448e6fb23e37cadc",
+    "9": "45f12d990ee39aae45858c96d10323ba69a4fac7675eececf0db46ebf2c91eeb",
+    "10": "54e869b32d7c443054a58cdab6d83dfb5c858bd76d09b11356c93e390219e859",
+    "12": "d4d9e57ba58cdbbb6d81041dfdae589f8335cde57e2556aae10fb44bff88bd25",
+    "13": "a0ef8bbe885ec660bccfbfd2336363de41882b70ecb8b5c6a4b0b400dba5e7cf",
+    "14": "82c24f8fbe95cce7df7143ff99e44c2927aa687fc84397f6145f4e94107393c1"
+  },
+  "results": {
+    "group_order": [
+      "alternative_ordering",
+      "isomorphic_equations"
+    ],
+    "counts": {
+      "volunteers": 36,
+      "assigned": [
+        18,
+        18
+      ],
+      "analyzed": [
+        17,
+        15
+      ],
+      "excluded": {
+        "withdrawal": 1,
+        "prior_knowledge_pretest": 1,
+        "prior_knowledge_first_session": 2
+      }
+    },
+    "design": {
+      "assignment_unit": "group_of_six_as_described_on_printed_page_286",
+      "practice_days": 3,
+      "same_pre_post_items": 19,
+      "delayed_test": false,
+      "maximum_practice_items": 45,
+      "rerun_opportunities": 18
+    },
+    "practice": {
+      "attempted_mean": [
+        31,
+        42
+      ],
+      "correct_pct": [
+        85,
+        81
+      ],
+      "transformation_error_free_pct": [
+        74,
+        84
+      ]
+    },
+    "author_posttest": {
+      "correct_pct": [
+        76,
+        79
+      ],
+      "transformation_error_free_pct": [
+        90,
+        92
+      ],
+      "continuous_distinct_sequence_mean": [
+        3.2,
+        2.4
+      ],
+      "table_3_marker": "*",
+      "table_3_legend": "p<.05",
+      "continuous_text_p": 0.146,
+      "distinct_sequence_items": 6,
+      "threshold": 3,
+      "threshold_counts": [
+        13,
+        6
+      ],
+      "threshold_chi2": 4.394,
+      "threshold_p": "<.05",
+      "invention_eligible_items": 11,
+      "invention_opportunities": [
+        6,
+        3,
+        10
+      ],
+      "invention_mean": [
+        2.5,
+        0.7
+      ],
+      "invention_F": 5.152,
+      "invention_df": [
+        1,
+        31
+      ],
+      "invention_p": "<.05"
+    },
+    "wwc": {
+      "url": "https://ies.ed.gov/ncee/wwc/study/79838",
+      "review_date": "2024-02",
+      "n": 32,
+      "period_as_displayed": "3 Days",
+      "means": {
+        "inventions": [
+          2.5,
+          0.7
+        ],
+        "unique_strategies": [
+          3.2,
+          2.4
+        ],
+        "standard_solutions": [
+          2,
+          2.2
+        ],
+        "correct_pct": [
+          71.61,
+          79
+        ]
+      },
+      "significant_outcomes": []
+    },
+    "guide": {
+      "pdf_pages": [
+        63,
+        64
+      ],
+      "procedural_knowledge_g": -0.35,
+      "procedural_flexibility_g": 0.64,
+      "flexibility_measure_g": [
+        0.58,
+        0.7
+      ],
+      "flexibility_measures_significant": false
+    }
+  },
+  "reading_log": [
+    "출판본 21쪽의 텍스트와 변형 예·연습·채점·표 3의 주요 판면 8쪽을 대조했다. IES 가이드 D.4와 WWC 연구 79838의 결과를 원논문과 비교했다.",
+    "분모와 비교 조건을 확인하고 전체 모형과 과제별 관찰을 구분했다."
+  ],
+  "source_corrections": [
+    {
+      "location": "인쇄 291쪽 표 3과 293쪽 본문",
+      "issue": "표 3의 3.2 대 2.4 행은 별표가 있다. 본문의 연속 점수 비교는 p=.146이다. 마지막 6문항 중 적어도 3문항을 서로 다른 순서로 푼 기준은 13/17 대 6/15로 별도 보고됐다."
+    },
+    {
+      "location": "인쇄 291·293쪽과 WWC 79838",
+      "issue": "비전형적 변형 횟수 2.50 대 0.70을 원논문은 p<.05, WWC는 비유의로 표시했다. 사후 수치 정답률도 원논문 76% 대 79%와 WWC 71.61% 대 79.00%로 다르다. 차이의 원인은 이 자료에서 확정하지 못했다."
+    }
+  ],
+  "pdf_edition": "출판본, University of Michigan 연구실 공개 사본",
+  "journal_issue_pages": "Contemporary Educational Psychology 31(3), 280–300"
+}

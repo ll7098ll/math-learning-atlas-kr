@@ -1,0 +1,76 @@
+{
+  "saved": {
+    "id": "appgprj_6ae2965054108191ad7dc71524bb7cfb~appgver_94db442254808191ac7aa98da3d286ce",
+    "project_id": "appgprj_6ae2965054108191ad7dc71524bb7cfb",
+    "version_number": 78,
+    "source": {
+      "commit_sha": "de4aab2961a55aacbe0cc711f7c62df3e6b9485b"
+    },
+    "archive_storage": {
+      "archive_format": "tar",
+      "sediment_file_id": "file_0000000021f08206b1de6d7f7a6f0182",
+      "content_hash": "sha256:70649019d578cbd46036fdb0ee4d8c6a9f2b471f30302203a150837ff242aa68",
+      "size_bytes": 195133440,
+      "file_count": 1416
+    },
+    "screenshot_url": null,
+    "deployment_id": null
+  },
+  "deployment": {
+    "id": "appgdep_6afcd9b97bd48191b52460cf870ab1ce",
+    "project_id": "appgprj_6ae2965054108191ad7dc71524bb7cfb",
+    "title": "수학의 연결 지도",
+    "version_id": "appgprj_6ae2965054108191ad7dc71524bb7cfb~appgver_94db442254808191ac7aa98da3d286ce",
+    "type": "publish",
+    "status": "succeeded",
+    "url": "https://math-learning-atlas-kr.gptpro2908176.chatgpt.site",
+    "has_mcp": false,
+    "screenshot_asset_pointer": null,
+    "provider_deployment_id": "site---6ae2965054108191ad7dc71524bb7cfb",
+    "failure_message": null,
+    "env_set_revision": 0,
+    "updated_at": "2026-11-17T22:49:46.926240+00:00"
+  },
+  "package": {
+    "status": "pass",
+    "source": {
+      "project_id": "appgprj_6ae2965054108191ad7dc71524bb7cfb",
+      "commit_sha": "de4aab2961a55aacbe0cc711f7c62df3e6b9485b"
+    },
+    "archive": {
+      "path": "C:\\Users\\User\\Desktop\\codex\\수학 내용 체계\\tmp\\math-atlas-publish-20261118-4188d192c05a70bd.tar.gz",
+      "files": 1416,
+      "bytes": 53495401,
+      "expanded_bytes": 193751040,
+      "sha256": "3de19f81456267d8de8b632340fe30e845e0dbfcd9fd3c93978772b161529a65"
+    },
+    "protected_paths_verified": 919,
+    "omitted_unreferenced_historical_files": 29408,
+    "retained_snapshots": [
+      "current_4188d192c05a70bd"
+    ],
+    "previous_public_recovery": {
+      "version_number": 77,
+      "version_id": "appgprj_6ae2965054108191ad7dc71524bb7cfb~appgver_95e9b95fd5288191bb20d1e5e7ec4fba",
+      "commit_sha": "73dfd1027d6cf1a0c2cf775432f168c5997352af",
+      "saved_archive_intact": true,
+      "source_checkout_assets_unchanged": true
+    },
+    "method": "Complete current dependency graph packaged as UTF-8 USTAR; every path and content reread exactly, every asset checked against pushed Git blob allowing only Windows LF/CRLF checkout normalization. Previous snapshots omitted from this deployment archive after Sites normalization exceeded 256 MiB; original saved rollback archives and source remain intact. Existing stale-resource handling requests reload."
+  },
+  "live_check": {
+    "status": "pass",
+    "url": "https://math-learning-atlas-kr.gptpro2908176.chatgpt.site",
+    "data_version": "4188d192c05a70bd",
+    "resources_checked": 81,
+    "affected_standards": 6,
+    "added_claims": 4,
+    "added_observations": 8,
+    "changed_prior_claims": 0,
+    "changed_prior_observations": 0,
+    "cumulative_source_claims": 4,
+    "cumulative_source_observations": 8,
+    "scope": "Public root,browser entries,curriculum PDF,indexes,six affected standard details/relations,immutable task items and goal/concept graphs match authored bytes,allowing only hosting HTML script. All4new claims/8own tasks appear in mapped live sections. All168prior sources,1029claims,1179tasks and800interpretations unchanged,including the official Princeton introduction excerpt. The existing eight-section workbook distinguishes unknown/data/conditions and hypotheses/conclusion,flexible revision,and checking versus proof. Thirty scanned spreads visually read,zero extracted text/OCR;complete selected Parts I/II is not the whole138spread book or verified publisher binary/printing. Actual independent/student/visual validation remains incomplete."
+  },
+  "note": "Post-publication receipts updated locally after the pushed source/archive; content data unchanged. This does not claim receipt metadata was part of that earlier archive."
+}

@@ -1,0 +1,3928 @@
+{
+  "standards": 435,
+  "explicit_cases": 571,
+  "active_cases": 570,
+  "preserved_previous_cases": 1,
+  "goal_decomposed_standards": 435,
+  "constituent_goals": 870,
+  "explicit_case_standards": 435,
+  "pilot_referenced_standards": 12,
+  "source_only_standards": 0,
+  "entries": [
+    {
+      "code": "2수01-01",
+      "cases": 3,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 4,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "2수01-02",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "2수01-03",
+      "cases": 2,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "2수01-04",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "2수01-05",
+      "cases": 2,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "2수01-06",
+      "cases": 2,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "2수01-07",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 1,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "2수01-08",
+      "cases": 2,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "2수01-09",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "2수01-10",
+      "cases": 2,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "2수01-11",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "2수02-01",
+      "cases": 2,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 3,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "2수02-02",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "2수03-01",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "2수03-02",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "2수03-03",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "2수03-04",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "2수03-05",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 1,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "2수03-06",
+      "cases": 4,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 4,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "2수03-07",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 1,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "2수03-08",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "2수03-09",
+      "cases": 2,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "2수03-10",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 3,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "2수03-11",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "2수03-12",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "2수03-13",
+      "cases": 2,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "2수04-01",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 3,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "2수04-02",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "2수04-03",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "4수01-01",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 3,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "4수01-02",
+      "cases": 2,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "4수01-03",
+      "cases": 2,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "4수01-04",
+      "cases": 3,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "4수01-05",
+      "cases": 3,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 3,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "4수01-06",
+      "cases": 2,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 3,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "4수01-07",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 1,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "4수01-08",
+      "cases": 4,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 4,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "4수01-09",
+      "cases": 1,
+      "pilots": 1,
+      "goal_branches": 0,
+      "constituent_goals": 3,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "4수01-10",
+      "cases": 2,
+      "pilots": 1,
+      "goal_branches": 0,
+      "constituent_goals": 3,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "4수01-11",
+      "cases": 2,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "4수01-12",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "4수01-13",
+      "cases": 2,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "4수01-14",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 1,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "4수01-15",
+      "cases": 2,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "4수01-16",
+      "cases": 2,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "4수02-01",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "4수02-02",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "4수02-03",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "4수03-01",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 3,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "4수03-02",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "4수03-03",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "4수03-04",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 3,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "4수03-05",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 1,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "4수03-06",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "4수03-07",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 1,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "4수03-08",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "4수03-09",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 1,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "4수03-10",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 5,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "4수03-11",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "4수03-12",
+      "cases": 2,
+      "pilots": 1,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "4수03-13",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "4수03-14",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "4수03-15",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 4,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "4수03-16",
+      "cases": 2,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "4수03-17",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 4,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "4수03-18",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "4수03-19",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "4수03-20",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 4,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "4수03-21",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "4수03-22",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "4수03-23",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "4수03-24",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 3,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "4수03-25",
+      "cases": 2,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "4수04-01",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 3,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "4수04-02",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 3,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "4수04-03",
+      "cases": 2,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 4,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "6수01-01",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "6수01-02",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "6수01-03",
+      "cases": 2,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 4,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "6수01-04",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 3,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "6수01-05",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 3,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "6수01-06",
+      "cases": 3,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 3,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "6수01-07",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "6수01-08",
+      "cases": 2,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "6수01-09",
+      "cases": 3,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 3,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "6수01-10",
+      "cases": 1,
+      "pilots": 1,
+      "goal_branches": 0,
+      "constituent_goals": 1,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "6수01-11",
+      "cases": 3,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 3,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "6수01-12",
+      "cases": 2,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "6수01-13",
+      "cases": 2,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "6수01-14",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 1,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "6수01-15",
+      "cases": 3,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 3,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "6수02-01",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "6수02-02",
+      "cases": 1,
+      "pilots": 1,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "6수02-03",
+      "cases": 1,
+      "pilots": 1,
+      "goal_branches": 0,
+      "constituent_goals": 4,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "6수02-04",
+      "cases": 2,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 3,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "6수02-05",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "6수03-01",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "6수03-02",
+      "cases": 2,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 4,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "6수03-03",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "6수03-04",
+      "cases": 2,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "6수03-05",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "6수03-06",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 1,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "6수03-07",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 3,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "6수03-08",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 1,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "6수03-09",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 1,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "6수03-10",
+      "cases": 2,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "6수03-11",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "6수03-12",
+      "cases": 1,
+      "pilots": 1,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "6수03-13",
+      "cases": 1,
+      "pilots": 1,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "6수03-14",
+      "cases": 4,
+      "pilots": 1,
+      "goal_branches": 0,
+      "constituent_goals": 4,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "6수03-15",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 3,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "6수03-16",
+      "cases": 2,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "6수03-17",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "6수03-18",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "6수03-19",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "6수04-01",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 4,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "6수04-02",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 3,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "6수04-03",
+      "cases": 2,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 4,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "6수04-04",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "6수04-05",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 1,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "6수04-06",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "9수01-01",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "9수01-02",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "9수01-03",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 4,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "9수01-04",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 1,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "9수01-05",
+      "cases": 4,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 4,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "9수01-06",
+      "cases": 2,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "9수01-07",
+      "cases": 2,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 3,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "9수01-08",
+      "cases": 2,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "9수01-09",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 1,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "9수01-10",
+      "cases": 2,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "9수02-01",
+      "cases": 2,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "9수02-02",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "9수02-03",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 3,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "9수02-04",
+      "cases": 2,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "9수02-05",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "9수02-06",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "9수02-07",
+      "cases": 2,
+      "pilots": 1,
+      "goal_branches": 0,
+      "constituent_goals": 4,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "9수02-08",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "9수02-09",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "9수02-10",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "9수02-11",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 3,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "9수02-12",
+      "cases": 2,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "9수02-13",
+      "cases": 3,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "9수02-14",
+      "cases": 2,
+      "pilots": 1,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "9수02-15",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "9수02-16",
+      "cases": 2,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "9수02-17",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "9수02-18",
+      "cases": 2,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 1,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "9수02-19",
+      "cases": 2,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "9수02-20",
+      "cases": 3,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "9수02-21",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 1,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "9수02-22",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "9수03-01",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "9수03-02",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "9수03-03",
+      "cases": 2,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "9수03-04",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "9수03-05",
+      "cases": 2,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "9수03-06",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "9수03-07",
+      "cases": 2,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "9수03-08",
+      "cases": 2,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "9수03-09",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "9수03-10",
+      "cases": 2,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "9수03-11",
+      "cases": 2,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "9수03-12",
+      "cases": 2,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 3,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "9수03-13",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "9수03-14",
+      "cases": 2,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 1,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "9수03-15",
+      "cases": 3,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 3,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "9수03-16",
+      "cases": 2,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "9수03-17",
+      "cases": 2,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 1,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "9수03-18",
+      "cases": 2,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "9수03-19",
+      "cases": 2,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "9수04-01",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 3,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "9수04-02",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 5,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "9수04-03",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 3,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "9수04-04",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 4,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "9수04-05",
+      "cases": 2,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 1,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "9수04-06",
+      "cases": 2,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 3,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "9수04-07",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 3,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "9수04-08",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "9수04-09",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "10공수1-01-01",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 3,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "10공수1-01-02",
+      "cases": 2,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 3,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "10공수1-01-03",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 3,
+      "constituent_goals": 1,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "10공수1-02-01",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "10공수1-02-02",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "10공수1-02-03",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 1,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "10공수1-02-04",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 1,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "10공수1-02-05",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 1,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "10공수1-02-06",
+      "cases": 3,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "10공수1-02-07",
+      "cases": 2,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 1,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "10공수1-02-08",
+      "cases": 2,
+      "pilots": 0,
+      "goal_branches": 2,
+      "constituent_goals": 1,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "10공수1-02-09",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 1,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "10공수1-02-10",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 1,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "10공수1-02-11",
+      "cases": 2,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "10공수1-03-01",
+      "cases": 2,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 3,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "10공수1-03-02",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "10공수1-03-03",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "10공수1-04-01",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "10공수1-04-02",
+      "cases": 2,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "10공수2-01-01",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "10공수2-01-02",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 1,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "10공수2-01-03",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "10공수2-01-04",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "10공수2-01-05",
+      "cases": 2,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "10공수2-01-06",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "10공수2-01-07",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 3,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "10공수2-02-01",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "10공수2-02-02",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 1,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "10공수2-02-03",
+      "cases": 2,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 3,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "10공수2-02-04",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "10공수2-02-05",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "10공수2-02-06",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 1,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "10공수2-02-07",
+      "cases": 2,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "10공수2-02-08",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "10공수2-03-01",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "10공수2-03-02",
+      "cases": 2,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "10공수2-03-03",
+      "cases": 2,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "10공수2-03-04",
+      "cases": 2,
+      "pilots": 1,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "10공수2-03-05",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "10기수1-01-01",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "10기수1-01-02",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "10기수1-01-03",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 1,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "10기수1-02-01",
+      "cases": 3,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 1,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "10기수1-02-02",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "10기수1-02-03",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "10기수1-02-04",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 1,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "10기수1-02-05",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "10기수1-02-06",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "10기수1-02-07",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 1,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "10기수1-02-08",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 1,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "10기수1-02-09",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "10기수1-03-01",
+      "cases": 2,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 3,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "10기수1-03-02",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "10기수1-03-03",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "10기수1-04-01",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "10기수1-04-02",
+      "cases": 2,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "10기수2-01-01",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 1,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "10기수2-01-02",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "10기수2-01-03",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "10기수2-01-04",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "10기수2-01-05",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 1,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "10기수2-01-06",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "10기수2-01-07",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 3,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "10기수2-02-01",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "10기수2-02-02",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 1,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "10기수2-02-03",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "10기수2-02-04",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "10기수2-02-05",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "10기수2-03-01",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "10기수2-03-02",
+      "cases": 2,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "10기수2-03-03",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "10기수2-03-04",
+      "cases": 2,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "10기수2-03-05",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12대수01-01",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12대수01-02",
+      "cases": 2,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12대수01-03",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12대수01-04",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12대수01-05",
+      "cases": 2,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12대수01-06",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12대수01-07",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12대수01-08",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 1,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12대수02-01",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12대수02-02",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 3,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12대수02-03",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12대수03-01",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 1,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12대수03-02",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 3,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12대수03-03",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 3,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12대수03-04",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12대수03-05",
+      "cases": 2,
+      "pilots": 0,
+      "goal_branches": 2,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12대수03-06",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 1,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12대수03-07",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12미적Ⅰ-01-01",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12미적Ⅰ-01-02",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12미적Ⅰ-01-03",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 1,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12미적Ⅰ-01-04",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12미적Ⅰ-02-01",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12미적Ⅰ-02-02",
+      "cases": 2,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12미적Ⅰ-02-03",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 1,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12미적Ⅰ-02-04",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12미적Ⅰ-02-05",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12미적Ⅰ-02-06",
+      "cases": 2,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12미적Ⅰ-02-07",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12미적Ⅰ-02-08",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 1,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12미적Ⅰ-02-09",
+      "cases": 2,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12미적Ⅰ-02-10",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12미적Ⅰ-03-01",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12미적Ⅰ-03-02",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12미적Ⅰ-03-03",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12미적Ⅰ-03-04",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12미적Ⅰ-03-05",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 1,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12미적Ⅰ-03-06",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12확통01-01",
+      "cases": 2,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 3,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12확통01-02",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12확통01-03",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12확통02-01",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12확통02-02",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12확통02-03",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12확통02-04",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12확통02-05",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12확통02-06",
+      "cases": 2,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12확통03-01",
+      "cases": 2,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12확통03-02",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12확통03-03",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 3,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12확통03-04",
+      "cases": 2,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12확통03-05",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12확통03-06",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12확통03-07",
+      "cases": 2,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 3,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12미적Ⅱ-01-01",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12미적Ⅱ-01-02",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12미적Ⅱ-01-03",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12미적Ⅱ-01-04",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12미적Ⅱ-01-05",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12미적Ⅱ-02-01",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12미적Ⅱ-02-02",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12미적Ⅱ-02-03",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12미적Ⅱ-02-04",
+      "cases": 2,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 1,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12미적Ⅱ-02-05",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 1,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12미적Ⅱ-02-06",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 1,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12미적Ⅱ-02-07",
+      "cases": 2,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12미적Ⅱ-02-08",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 1,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12미적Ⅱ-02-09",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12미적Ⅱ-02-10",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12미적Ⅱ-02-11",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12미적Ⅱ-03-01",
+      "cases": 3,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12미적Ⅱ-03-02",
+      "cases": 2,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12미적Ⅱ-03-03",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12미적Ⅱ-03-04",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 1,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12미적Ⅱ-03-05",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 1,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12미적Ⅱ-03-06",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 1,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12미적Ⅱ-03-07",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12기하01-01",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12기하01-02",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12기하01-03",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12기하01-04",
+      "cases": 2,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 1,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12기하02-01",
+      "cases": 3,
+      "pilots": 0,
+      "goal_branches": 3,
+      "constituent_goals": 3,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12기하02-02",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12기하02-03",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12기하02-04",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12기하02-05",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 1,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12기하03-01",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 2,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12기하03-02",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12기하03-03",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12기하03-04",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 2,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12기하03-05",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12경수01-01",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12경수01-02",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 1,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12경수01-03",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 1,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12경수01-04",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12경수01-05",
+      "cases": 2,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12경수02-01",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 1,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12경수02-02",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 1,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12경수02-03",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12경수02-04",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 1,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12경수02-05",
+      "cases": 2,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12경수02-06",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12경수03-01",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12경수03-02",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12경수03-03",
+      "cases": 2,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 1,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12경수04-01",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12경수04-02",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 1,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12경수04-03",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 1,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12경수04-04",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 1,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12인수01-01",
+      "cases": 2,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 3,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12인수01-02",
+      "cases": 3,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 3,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12인수01-03",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 3,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12인수02-01",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12인수02-02",
+      "cases": 2,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12인수02-03",
+      "cases": 2,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12인수03-01",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12인수03-02",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 1,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12인수03-03",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12인수04-01",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12인수04-02",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12인수04-03",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12인수04-04",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12인수05-01",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12인수05-02",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 1,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12직수01-01",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12직수01-02",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12직수01-03",
+      "cases": 2,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12직수02-01",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 1,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12직수02-02",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12직수02-03",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 1,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12직수02-04",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 1,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12직수02-05",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 1,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12직수03-01",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12직수03-02",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12직수03-03",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 1,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12직수03-04",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 1,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12직수03-05",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 1,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12직수04-01",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 1,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12직수04-02",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 1,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12직수04-03",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 1,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12직수04-04",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 1,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12직수04-05",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12수문01-01",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12수문01-02",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12수문01-03",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12수문01-04",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12수문02-01",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12수문02-02",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12수문02-03",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12수문02-04",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12수문03-01",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 3,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12수문03-02",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12수문03-03",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12수문03-04",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12수문04-01",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12수문04-02",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12수문04-03",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12수문04-04",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12실통01-01",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 1,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12실통01-02",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12실통01-03",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 3,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12실통02-01",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12실통02-02",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12실통02-03",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12실통02-04",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12실통03-01",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 1,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12실통03-02",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 1,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12실통03-03",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 1,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12실통03-04",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12실통04-01",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12실통04-02",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 1,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12수과01-01",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 1,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12수과01-02",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12수과02-01",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 1,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12수과02-02",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 1,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12수과02-03",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 1,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12수과02-04",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 1,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12수과03-01",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12수과03-02",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 1,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12수과03-03",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 3,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    },
+    {
+      "code": "12수과03-04",
+      "cases": 1,
+      "pilots": 0,
+      "goal_branches": 0,
+      "constituent_goals": 2,
+      "goal_decomposition_review": "self_checked",
+      "route_condition_review": "explicit_task_cases"
+    }
+  ]
+}

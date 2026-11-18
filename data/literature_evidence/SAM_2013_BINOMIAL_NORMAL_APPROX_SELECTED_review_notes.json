@@ -1,0 +1,68 @@
+{
+  "source_id": "SAM_2013_BINOMIAL_NORMAL_APPROX_SELECTED",
+  "source_url": "https://amsi.org.au/ESA_Senior_Years/PDF/InferenceProp4g.pdf",
+  "source_asset_kind": "pdf",
+  "source_pdf_sha256": "f63990f2843f09afede562315680ab5590e349b1e50367bcc69084c8dd29f247",
+  "source_pdf_url": "https://amsi.org.au/ESA_Senior_Years/PDF/InferenceProp4g.pdf",
+  "pdf_pages": 43,
+  "selected_text_pages": [
+    2,
+    3,
+    8,
+    14,
+    15,
+    16,
+    17,
+    18
+  ],
+  "visual_pdf_pages": [
+    8,
+    14,
+    15,
+    16,
+    17,
+    18
+  ],
+  "rendered_page_sha256": {
+    "8": "1037ba50f468934e7bb447b0595baae5367839792ba81a8c074071ee1233445b",
+    "14": "c310bb0a36c2f72ccb6d88fb3f508a1295e735c034f9589b639c241746005ce4",
+    "15": "28485f53deabe9cc46565ba5c4b5a377ab5d671d91ea3e49b9c907c3c7db5634",
+    "16": "987020d7bde97c59e5f763d163fe9cd68626e5da5fe7913e2efdcee578f2fd62",
+    "17": "218facc431983ab309479b7550c4d883d8ab10cd3c44eedb606f2997d64f260c",
+    "18": "f125a01ff274d05644f5766dcb5fd86a77844a14b43cb3447bc3618f566ac8e2"
+  },
+  "date": "2026-11-13",
+  "reviewer": "Codex",
+  "read_scope": "서지·목차, 이항 성공 횟수와 표본비율의 재척도화, 고정 모수와 변동하는 관측값, n·p에 따른 이산 분포 및 정규 밀도 비교를 지정 추출문 8쪽과 실제 판면 6쪽에서 읽었다.",
+  "empirical_scope": {
+    "design": "교사용 수학 정의·식·수치 예·모형 그림의 지정 본문과 실제 판면 대조",
+    "sample_description": "학생 표본·응답 분석이나 국내 과제 효과 연구가 아님",
+    "inference_limit": "이항분포와 정규분포의 관계를 읽은 범위다. 이산 분포가 정규분포와 같아지는 것은 아니며 그림의 n=100,p=0.1~0.9를 모든 확률·모든 꼬리의 오차 보장으로 확대하지 않는다. p=0,1·극단 성공확률의 자체 경계와 원문 그림을 구별한다. 모비율 신뢰구간·검정·정량적 근사 오차 정리를 새 필수로 추가하지 않는다.",
+    "student_outcome_study": false,
+    "causal_effect_established": false,
+    "local_effect_tested": false
+  },
+  "contains_source_full_text": false,
+  "source_pdf_redistributed": false,
+  "reading_log": [
+    "서지·목차, 이항 성공 횟수와 표본비율의 재척도화, 고정 모수와 변동하는 관측값, n·p에 따른 이산 분포 및 정규 밀도 비교를 지정 추출문 8쪽과 실제 판면 6쪽에서 읽었다."
+  ],
+  "source_corrections": [
+    {
+      "location": "방법·문항·표·그림·서술의 대조",
+      "issue": [
+        "14~18쪽에서 X의 횟수와 X/n의 비율·그 단위/분산을 구별한다. n≥1이고 표준화에는 0<p<1이 필요하다. 원문의 이산 분포 막대와 정규 밀도의 높이는 같은 종류의 확률 값이 아니다.",
+        "16쪽의 대칭·정규 유사성은 근사적인 모양 비교다. n=100,p=0.1~0.9와 n=1000,p=0.5의 그림을 모든 p·모든 꼬리에서의 정확성 보장으로 확대하지 않는다. p=0.01에서 음수 정규 질량을 비교한 것은 자체 경계다. 8쪽 원문의 예시 관측을 국내 실제 학생 응답으로 세지 않는다."
+      ]
+    }
+  ],
+  "probability_completion_review": {
+    "full_module_read": false,
+    "positive_n_required_for_proportion": true,
+    "count_proportion_scaling_distinguished": true,
+    "discrete_distribution_not_exactly_normal": true,
+    "p_and_tail_sensitive_approximation": true,
+    "rare_success_example_is_own_extension": true,
+    "confidence_interval_not_added_as_required": true
+  }
+}

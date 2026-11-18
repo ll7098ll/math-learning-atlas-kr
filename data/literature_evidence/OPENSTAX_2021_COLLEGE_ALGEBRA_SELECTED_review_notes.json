@@ -1,0 +1,528 @@
+{
+  "source_id": "OPENSTAX_2021_COLLEGE_ALGEBRA_SELECTED",
+  "source_url": "https://openstax.org/books/college-algebra-2e",
+  "source_asset_kind": "publisher_html",
+  "source_asset_sha256": "599d2c1f7a6ad4c6b812485b1b5831a58994b607974ddce3b28af087f529b378",
+  "html_read_manifest": [
+    {
+      "key": "preface",
+      "url": "https://openstax.org/books/college-algebra-2e/pages/preface",
+      "status": 200,
+      "content_type": "text/html",
+      "sha256": "e202767265beaf314993fb52c6add1838edac022588db6b61d91ee8155f8e844",
+      "read_kind": "selected_publisher_html_blocks",
+      "redistributed": false,
+      "selected_blocks": [
+        {
+          "index": 1,
+          "element_id": "eip-714",
+          "normalized_text_sha256": "8a880a51c6a5aa87710da0f77a5051d1972983dd3be098a88fe723f0cf6e8dfa"
+        },
+        {
+          "index": 6,
+          "element_id": "eip-350",
+          "normalized_text_sha256": "60111d1fdd593309e014b0181ec6d8f5cff2ead71b91997bb5f518519100eb8c"
+        },
+        {
+          "index": 10,
+          "element_id": "eip-45",
+          "normalized_text_sha256": "1c27889159b129714a2c4243a6a71ea6e277cea8b3b76df72997b5d52ea5c1ef"
+        }
+      ]
+    },
+    {
+      "key": "complex",
+      "url": "https://openstax.org/books/college-algebra-2e/pages/2-4-complex-numbers",
+      "status": 200,
+      "content_type": "text/html",
+      "sha256": "3f8d1aea91fb4b08d23d36034d24b515c7a55c8ebe94632c9baf03898507c965",
+      "read_kind": "selected_publisher_html_blocks",
+      "redistributed": false,
+      "selected_blocks": [
+        {
+          "index": 5,
+          "element_id": "fs-id2425607",
+          "normalized_text_sha256": "c9b351924aba35b178809dd4b63de8734b308f901435eeab67fd447226a31545"
+        },
+        {
+          "index": 7,
+          "element_id": "fs-id1424098",
+          "normalized_text_sha256": "7d73c1a8e86c8b5f217d67a4a6e5fed82c7e405641ba15c3967616a139e14f48"
+        },
+        {
+          "index": 8,
+          "element_id": "fs-id1322676",
+          "normalized_text_sha256": "59095989542f361e08a47fff25a271afa42cbdadf58a5f526d16222c41ae8da8"
+        },
+        {
+          "index": 9,
+          "element_id": "fs-id1555648",
+          "normalized_text_sha256": "fb37cb84698923321a3df908266ecdba3a7e0518228dee055c1fc1f731a4ae9b"
+        },
+        {
+          "index": 10,
+          "element_id": "fs-id1555717",
+          "normalized_text_sha256": "e621c45d264d0a20c8b3300302e1cec33f32d33d94729965f59768181c006dd1"
+        }
+      ]
+    },
+    {
+      "key": "inequalities",
+      "url": "https://openstax.org/books/college-algebra-2e/pages/2-7-linear-inequalities-and-absolute-value-inequalities",
+      "status": 200,
+      "content_type": "text/html",
+      "sha256": "87d841fa984c1d7805b4a4360ec9e9d5ef96c35d4011f35f8c89fb92bf13812a",
+      "read_kind": "selected_publisher_html_blocks",
+      "redistributed": false,
+      "selected_blocks": [
+        {
+          "index": 4,
+          "element_id": "fs-id2781560",
+          "normalized_text_sha256": "31667cf9c3b789c59a3a4501071b42db27664d98d1cba1a35df8ad2efee718d6"
+        },
+        {
+          "index": 5,
+          "element_id": "fs-id2734136",
+          "normalized_text_sha256": "5975549b32fc1478f8a81e8b3bf50c9b8d8a9137a44b5ff69359fc72ac595ef4"
+        },
+        {
+          "index": 6,
+          "element_id": "fs-id1249131",
+          "normalized_text_sha256": "30b858b68956d4b09bfe80d133bfa74391a8915b515af401604bb2db052248b5"
+        },
+        {
+          "index": 7,
+          "element_id": "fs-id2947575",
+          "normalized_text_sha256": "dfbfa2529a3ab279e9a62776cf27aac1fee9f1d744f97c9e45d9981252d7c202"
+        },
+        {
+          "index": 8,
+          "element_id": "fs-id1161758",
+          "normalized_text_sha256": "c76d2797c232fb06d6c8a96c92f7c01c66bd4164cf8f38bcbd27bf9d30d1c94a"
+        }
+      ]
+    },
+    {
+      "key": "systems",
+      "url": "https://openstax.org/books/college-algebra-2e/pages/7-3-systems-of-nonlinear-equations-and-inequalities-two-variables",
+      "status": 200,
+      "content_type": "text/html",
+      "sha256": "e4df6c54714b4fd72aa145fd6b49a242edcc863d4fd981ba5c5c43ad57f98160",
+      "read_kind": "selected_publisher_html_blocks",
+      "redistributed": false,
+      "selected_blocks": [
+        {
+          "index": 1,
+          "element_id": null,
+          "normalized_text_sha256": "0ad13f959add75348b9c9b3cfe28c9bf02046e89e2e1468c0e51c874a9c13b69"
+        },
+        {
+          "index": 4,
+          "element_id": "fs-id1165134189118",
+          "normalized_text_sha256": "9eeddbedea4b3ce920f56d69cd776d64b1b9ec505bb77f1a3a2df0d1484d86e2"
+        },
+        {
+          "index": 5,
+          "element_id": "fs-id1165134129918",
+          "normalized_text_sha256": "2263bbd57dbf1e02ed4f2b516bc8802ceb2d78cb772e7ce485595823a90783c6"
+        },
+        {
+          "index": 6,
+          "element_id": "fs-id1165135356442",
+          "normalized_text_sha256": "ccf95e7865a53525bb1af4aa2eac04b298e25f947b8fa71d6458baac0fde6a03"
+        }
+      ]
+    },
+    {
+      "key": "matrices",
+      "url": "https://openstax.org/books/college-algebra-2e/pages/7-5-matrices-and-matrix-operations",
+      "status": 200,
+      "content_type": "text/html",
+      "sha256": "50da8f6dd802effbd4b8cb2d7d7675f845a7f06cb3a3dc55497fc1804d397c1a",
+      "read_kind": "selected_publisher_html_blocks",
+      "redistributed": false,
+      "selected_blocks": [
+        {
+          "index": 1,
+          "element_id": null,
+          "normalized_text_sha256": "ac3349a6ede821c6736cd5f5a12995759ac8eae0906b4393792f913e61d2df86"
+        },
+        {
+          "index": 3,
+          "element_id": "fs-id1165137862059",
+          "normalized_text_sha256": "de416a2ef0d28bb6d2c909e372140ba2d056b8f89028d62db53a6c4b7332656a"
+        },
+        {
+          "index": 4,
+          "element_id": "Table_09_05_01",
+          "normalized_text_sha256": "3fa541b323339221d60e4f1c66e950dfd090877867c1ebe3a428c6d3322598d2"
+        },
+        {
+          "index": 5,
+          "element_id": "fs-id1165134243066",
+          "normalized_text_sha256": "1c6afcace6239190fb61d5adf46d81f4b1303d8b26c9b5d19e625cea989d0931"
+        },
+        {
+          "index": 6,
+          "element_id": "fs-id1165132962023",
+          "normalized_text_sha256": "5f13c85aa98bbe6419ef2740948cb924d59bf816f047752c8f7501701e21fff7"
+        },
+        {
+          "index": 7,
+          "element_id": "fs-id1165134389759",
+          "normalized_text_sha256": "703d50db48f9ec7dee2c4ea9820102c76f4e8fb7b087429600f294e6e75268d9"
+        },
+        {
+          "index": 8,
+          "element_id": "fs-id1165133073877",
+          "normalized_text_sha256": "35ef36a73d5bd70b654710844a345f5c33e85eff19067da86ae2df8d2e78d5a1"
+        }
+      ]
+    },
+    {
+      "key": "counting",
+      "url": "https://openstax.org/books/college-algebra-2e/pages/9-5-counting-principles",
+      "status": 200,
+      "content_type": "text/html",
+      "sha256": "7ce352ce29b5fb3e2895adbf24ad9af6acdc6c2145e58cde6d7d6fa6360815a0",
+      "read_kind": "selected_publisher_html_blocks",
+      "redistributed": false,
+      "selected_blocks": [
+        {
+          "index": 4,
+          "element_id": "fs-id1165137463810",
+          "normalized_text_sha256": "a5d44b1ed9e403fd200f10d1f2d373393ba463d60e72b597123d6970a284a3c6"
+        },
+        {
+          "index": 5,
+          "element_id": "fs-id1165137645260",
+          "normalized_text_sha256": "8ff07ad50fd01cf8b88d1cbc8a98befc0931fd207982c523a86a4f29e6794c57"
+        },
+        {
+          "index": 6,
+          "element_id": "fs-id1165137553058",
+          "normalized_text_sha256": "043ba7c759ae68daf18f636666a6ee3af9f1136a75c834208cbd2f2f83785d06"
+        },
+        {
+          "index": 7,
+          "element_id": "fs-id1165137648225",
+          "normalized_text_sha256": "3c80c2c24b841d371ba50d833763264c289c3c895298e9967b2a8d9ddc37cd3e"
+        }
+      ]
+    }
+  ],
+  "date": "2026-11-13",
+  "reviewer": "Codex",
+  "read_scope": "College Algebra 2e 한 권의 공식 웹본문 중 서문의 자원·개발·저자 블록, 2.4절의 음수 제곱근·복소수 사칙연산·i의 거듭제곱, 2.7절의 구간·부등식 성질·일차 및 복합·절댓값 부등식, 7.3절의 목표·도입·대입·소거, 7.5절의 목표·장비 표·행렬 합차·실수배·곱, 9.5절의 합·곱의 법칙·서로 다른 대상의 순열·조합 블록을 읽었다. 기록한 삽입 그림 14개를 시각 대조했다. 선택 블록 밖의 절 전체·연습 전체·책 전권·PDF 판면은 읽은 것으로 세지 않는다.",
+  "empirical_scope": {
+    "design": "수학 교재의 정의·성질·풀이·예시 대조",
+    "sample_description": "해당 없음: 학생 표본 연구가 아님",
+    "inference_limit": "수학 교재의 설명과 예시이며 학생 표본·교수 효과·국내 학생 반응을 조사한 연구가 아니다. 공통·기본수학은 선택·대체 분기다. 기본수학의 실수 계산·단순 부등식·한 절댓값과 두 사건의 간단한 경우의 수를 유지한다. 행렬의 각 차원은 2 이하로 제한하며 역행렬·행렬식·일반 구조 법칙을 새 필수 평가로 추가하지 않는다. 복소평면 블록, 비선형부등식·부분집합·중복 대상의 순열·후속 연습은 이번 읽기 범위가 아니다. 자체 과제의 독립 검토와 실제 학생 응답 검증은 별도다.",
+    "student_outcome_study": false,
+    "causal_effect_established": false,
+    "local_effect_tested": false
+  },
+  "hash_scope": "source_asset_sha256는 선택 블록 메타데이터를 포함한 순서 있는 HTML manifest의 digest이며 PDF나 단일 HTML 파일의 해시가 아니다. 각 원문 HTML 해시는 manifest에 별도 보존한다.",
+  "observed_image_assets": [
+    {
+      "key": "complex-2",
+      "file": "complex-image-2.webp",
+      "page_url": "https://openstax.org/books/college-algebra-2e/pages/2-4-complex-numbers",
+      "url": "https://openstax.org/apps/image-cdn/v1/f=webp/apps/archive/20260604.144757/resources/b6771cfacdac806d7546b9b1d376853f0f822803",
+      "status": 200,
+      "content_type": "image/webp",
+      "sha256": "94107560734ca92c46e88eefabc45c86e42020b93988cbb389ed5f8f7c5b3424",
+      "dimensions": [
+        487,
+        76
+      ],
+      "alt": "The complex number 5 + 2i is displayed.  The 5 is labeled as: Real part and the 2i is labeled as: Imaginary part",
+      "caption": "",
+      "read_kind": "inline_image_visual_review",
+      "redistributed": false
+    },
+    {
+      "key": "inequalities-2",
+      "file": "inequalities-image-2.webp",
+      "page_url": "https://openstax.org/books/college-algebra-2e/pages/2-7-linear-inequalities-and-absolute-value-inequalities",
+      "url": "https://openstax.org/apps/image-cdn/v1/f=webp/apps/archive/20260604.144757/resources/7292fc5c016c86fabdb7accf5e59376bacf91556",
+      "status": 200,
+      "content_type": "image/webp",
+      "sha256": "1bb6cd2bf04bb11edc7f0075fdce299cac861f65fcffdd106e526276a1615dbd",
+      "dimensions": [
+        508,
+        47
+      ],
+      "alt": "A number line starting at zero with the last tick mark being labeled 11.  There is a dot at the number 4 and an arrow extends toward the right.",
+      "caption": "Figure 2",
+      "read_kind": "inline_image_visual_review",
+      "redistributed": false
+    },
+    {
+      "key": "inequalities-3",
+      "file": "inequalities-image-3.webp",
+      "page_url": "https://openstax.org/books/college-algebra-2e/pages/2-7-linear-inequalities-and-absolute-value-inequalities",
+      "url": "https://openstax.org/apps/image-cdn/v1/f=webp/apps/archive/20260604.144757/resources/f664946114f8c591904e1c6d4310aad6242d6b10",
+      "status": 200,
+      "content_type": "image/webp",
+      "sha256": "f2ba36d9b3c226d74c00e8dab244c8037a7d5e42cc89d4b18e5048bd1b11c3e3",
+      "dimensions": [
+        487,
+        69
+      ],
+      "alt": "A number line with the points -4 and 5/6 labeled.  Dots appear at these points and a line connects these two dots.",
+      "caption": "Figure 3",
+      "read_kind": "inline_image_visual_review",
+      "redistributed": false
+    },
+    {
+      "key": "inequalities-4",
+      "file": "inequalities-image-4.webp",
+      "page_url": "https://openstax.org/books/college-algebra-2e/pages/2-7-linear-inequalities-and-absolute-value-inequalities",
+      "url": "https://openstax.org/apps/image-cdn/v1/f=webp/apps/archive/20260604.144757/resources/921f3c827d871d2af31e89f140164ac0c046fed6",
+      "status": 200,
+      "content_type": "image/webp",
+      "sha256": "833de54fd4aa4068f8045ab4057063f2444093f9b0d460319b92dc40bfd4f0fb",
+      "dimensions": [
+        481,
+        80
+      ],
+      "alt": "A number line with one tick mark in the center labeled: 5.  The tick marks on either side of the center one are not marked.  Arrows extend from the center tick mark to the outer tick marks, both are labeled 4.",
+      "caption": "Figure 4",
+      "read_kind": "inline_image_visual_review",
+      "redistributed": false
+    },
+    {
+      "key": "inequalities-5",
+      "file": "inequalities-image-5.webp",
+      "page_url": "https://openstax.org/books/college-algebra-2e/pages/2-7-linear-inequalities-and-absolute-value-inequalities",
+      "url": "https://openstax.org/apps/image-cdn/v1/f=webp/apps/archive/20260604.144757/resources/f34a03da829882c6e85c8ae73414515a4fd1bb0c",
+      "status": 200,
+      "content_type": "image/webp",
+      "sha256": "1f3dd8f1448a46904261d79179f9724eae32a09a6f0258f211bc7246867fa032",
+      "dimensions": [
+        396,
+        372
+      ],
+      "alt": "A coordinate plan with the x-axis ranging from -5 to 5 and the y-axis ranging from -4 to 4.  The function y = -1/2|4x – 5| + 3 is graphed.  An open circle appears at the point -0.25 and an arrow",
+      "caption": "Figure 5",
+      "read_kind": "inline_image_visual_review",
+      "redistributed": false
+    },
+    {
+      "key": "systems-2",
+      "file": "systems-image-2.webp",
+      "page_url": "https://openstax.org/books/college-algebra-2e/pages/7-3-systems-of-nonlinear-equations-and-inequalities-two-variables",
+      "url": "https://openstax.org/apps/image-cdn/v1/f=webp/apps/archive/20260604.144757/resources/178eac8e3b6e24d899b9de23cd5d79940d7592c5",
+      "status": 200,
+      "content_type": "image/webp",
+      "sha256": "43a56600ee636a4f7c6c6ea69a3def5b8b63e63be88d4ee3affe24d8614647d0",
+      "dimensions": [
+        944,
+        325
+      ],
+      "alt": "Three graphs illustrate solutions for a system of a linear and a quadratic equation: (a) no solutions, (b) one solution (tangent), and (c) two distinct solutions.",
+      "caption": "Figure 2",
+      "read_kind": "inline_image_visual_review",
+      "redistributed": false
+    },
+    {
+      "key": "systems-3",
+      "file": "systems-image-3.webp",
+      "page_url": "https://openstax.org/books/college-algebra-2e/pages/7-3-systems-of-nonlinear-equations-and-inequalities-two-variables",
+      "url": "https://openstax.org/apps/image-cdn/v1/f=webp/apps/archive/20260604.144757/resources/4d6bca0ce30a3a0f07ef40075d93016a27e92d99",
+      "status": 200,
+      "content_type": "image/webp",
+      "sha256": "f0e716bdb9e13d9584484cd4c4676badfc5da29592a3946b2885e06e6796dec4",
+      "dimensions": [
+        384,
+        397
+      ],
+      "alt": "A graph showing the intersection of the parabola y = x^2 + 1 (red) and the line x - y = -1 (blue) at points (0, 1) and (1, 2).",
+      "caption": "Figure 3",
+      "read_kind": "inline_image_visual_review",
+      "redistributed": false
+    },
+    {
+      "key": "systems-4",
+      "file": "systems-image-4.webp",
+      "page_url": "https://openstax.org/books/college-algebra-2e/pages/7-3-systems-of-nonlinear-equations-and-inequalities-two-variables",
+      "url": "https://openstax.org/apps/image-cdn/v1/f=webp/apps/archive/20260604.144757/resources/dc6316c2933c3aad2b12f0bf07560cf82f2d7251",
+      "status": 200,
+      "content_type": "image/webp",
+      "sha256": "d83b422df98e9e20dbd7c73741a2acaea2dd68bcb9801b0e6225c0bb5fc7400b",
+      "dimensions": [
+        717,
+        260
+      ],
+      "alt": "An illustration showing the three possible numbers of intersection points between a line and a circle: zero (no solutions), one (a tangent line), or two (a secant line).",
+      "caption": "Figure 4",
+      "read_kind": "inline_image_visual_review",
+      "redistributed": false
+    },
+    {
+      "key": "systems-5",
+      "file": "systems-image-5.webp",
+      "page_url": "https://openstax.org/books/college-algebra-2e/pages/7-3-systems-of-nonlinear-equations-and-inequalities-two-variables",
+      "url": "https://openstax.org/apps/image-cdn/v1/f=webp/apps/archive/20260604.144757/resources/60620e0294e65429ca4635142b21c582302c2eb3",
+      "status": 200,
+      "content_type": "image/webp",
+      "sha256": "1d68338865314ddb8401f62a53fb41fc16a272207727ab6bec5367ceda7682ec",
+      "dimensions": [
+        363,
+        364
+      ],
+      "alt": "A red circle with equation x^2 + y^2 = 5 and a blue line with equation y = 3x - 5 on a Cartesian plane. The line intersects the circle at two points: (2, 1) and (1, -2).",
+      "caption": "Figure 5",
+      "read_kind": "inline_image_visual_review",
+      "redistributed": false
+    },
+    {
+      "key": "matrices-2",
+      "file": "matrices-image-2.webp",
+      "page_url": "https://openstax.org/books/college-algebra-2e/pages/7-5-matrices-and-matrix-operations",
+      "url": "https://openstax.org/apps/image-cdn/v1/f=webp/apps/archive/20260604.144757/resources/88839e36027696ba32b7022513f098cfbd4b9fe6",
+      "status": 200,
+      "content_type": "image/webp",
+      "sha256": "3db532f0ce40d0c03eb35538e342e90d4bb0d0462c95c4695b15c74d8935daa5",
+      "dimensions": [
+        154,
+        93
+      ],
+      "alt": "Matrix multiplication rule: For A (2x3) multiplied by B (3x3), the number of columns in A (3) must equal the number of rows in B (3). The 'same' label highlights this crucial condition for the operation to be defined.",
+      "caption": "",
+      "read_kind": "inline_image_visual_review",
+      "redistributed": false
+    },
+    {
+      "key": "matrices-3",
+      "file": "matrices-image-3.webp",
+      "page_url": "https://openstax.org/books/college-algebra-2e/pages/7-5-matrices-and-matrix-operations",
+      "url": "https://openstax.org/apps/image-cdn/v1/f=webp/apps/archive/20260604.144757/resources/4dbae5b2ae233d1f92697d6138c1db108694d8f1",
+      "status": 200,
+      "content_type": "image/webp",
+      "sha256": "529bf8810f4f0865ec0d5638b1d1ed01a6794b5f22584dc6d6a3753492d07306",
+      "dimensions": [
+        487,
+        211
+      ],
+      "alt": "A step-by-step illustration of multiplying two 2x2 matrices, demonstrating how each element of the product matrix is calculated by summing the products of corresponding elements from a row of the first matrix and a column of the second matrix.",
+      "caption": "",
+      "read_kind": "inline_image_visual_review",
+      "redistributed": false
+    },
+    {
+      "key": "counting-1",
+      "file": "counting-image-1.webp",
+      "page_url": "https://openstax.org/books/college-algebra-2e/pages/9-5-counting-principles",
+      "url": "https://openstax.org/apps/image-cdn/v1/f=webp/apps/archive/20260604.144757/resources/c00b9e6605fb76457df48f9778613dbea2f7e260",
+      "status": 200,
+      "content_type": "image/webp",
+      "sha256": "87b5e74122a97e1226b77bc3cab8e2a2a749c76f89952fbec46e1f9cac755ad9",
+      "dimensions": [
+        651,
+        479
+      ],
+      "alt": "The addition of 3 iPods and 4 iPhones.",
+      "caption": "Figure 1",
+      "read_kind": "inline_image_visual_review",
+      "redistributed": false
+    },
+    {
+      "key": "counting-3",
+      "file": "counting-image-3.webp",
+      "page_url": "https://openstax.org/books/college-algebra-2e/pages/9-5-counting-principles",
+      "url": "https://openstax.org/apps/image-cdn/v1/f=webp/apps/archive/20260604.144757/resources/609bde3291c93dd11627e24aa93f979aa522752f",
+      "status": 200,
+      "content_type": "image/webp",
+      "sha256": "a66ee67062de7281d929e2acf06de7753fda25576822e8171cb5cecf7273ac55",
+      "dimensions": [
+        1296,
+        369
+      ],
+      "alt": "A tree diagram of the different menu combinations.",
+      "caption": "Figure 2",
+      "read_kind": "inline_image_visual_review",
+      "redistributed": false
+    },
+    {
+      "key": "counting-8",
+      "file": "counting-image-8.webp",
+      "page_url": "https://openstax.org/books/college-algebra-2e/pages/9-5-counting-principles",
+      "url": "https://openstax.org/apps/image-cdn/v1/f=webp/apps/archive/20260604.144757/resources/fb83f53ca56877ee64e734029bf60d8f4df47251",
+      "status": 200,
+      "content_type": "image/webp",
+      "sha256": "2dd760e222d08ef27eac6c9841625aeb59cfa57ae74e67c3baab74886ffbb08e",
+      "dimensions": [
+        487,
+        28
+      ],
+      "alt": "A mathematical equation shows '4 x 3 x 2 = 24', demonstrating the multiplication of three single-digit numbers resulting in 24.",
+      "caption": "",
+      "read_kind": "inline_image_visual_review",
+      "redistributed": false
+    }
+  ],
+  "source_asset_redistributed": false,
+  "contains_source_full_text": false,
+  "source_pdf_redistributed": false,
+  "pdf_read": false,
+  "original_page_layout_review": false,
+  "pdf_download": {
+    "url": "https://assets.openstax.org/oscms-prodcms/media/documents/College-Algebra-2e-WEB.pdf",
+    "http_status": 403,
+    "binary_obtained": false
+  },
+  "reading_log": [
+    "College Algebra 2e 한 권의 공식 웹본문 중 서문의 자원·개발·저자 블록, 2.4절의 음수 제곱근·복소수 사칙연산·i의 거듭제곱, 2.7절의 구간·부등식 성질·일차 및 복합·절댓값 부등식, 7.3절의 목표·도입·대입·소거, 7.5절의 목표·장비 표·행렬 합차·실수배·곱, 9.5절의 합·곱의 법칙·서로 다른 대상의 순열·조합 블록을 읽었다. 기록한 삽입 그림 14개를 시각 대조했다. 선택 블록 밖의 절 전체·연습 전체·책 전권·PDF 판면은 읽은 것으로 세지 않는다.",
+    "본문 블록과 MathML 행·열을 대조하고 삽입 그림 14개를 직접 읽었다. 평탄화로 반복·재배열된 수식 토큰을 원문의 수학 오류로 세지 않았다.",
+    "발행일은 공식 HTML의 citation_date 및 publish_date에서 2021-12-21로 확인했다. 현재 서문에 표시된 웹 라이선스는 CC BY-NC-SA 4.0이다. 원문·삽입 자산은 재배포하지 않고 자체 기록만 보존한다.",
+    "7.3절의 원·타원 소거는 교사 참고로 읽되 국내 간단한 연립 범위로 옮기지 않았다. 비선형부등식·부분집합·같은 대상의 순열 블록과 외부 매체·연습 전체는 읽지 않았다."
+  ],
+  "source_corrections": [
+    {
+      "location": "2.4절 복소수 도식",
+      "observation": "5+2i의 2i를 imaginary part로 지시한다.",
+      "action": "국내 정의의 허수부분은 실수 계수 2로 명확히 썼다."
+    },
+    {
+      "location": "2.4절 나눗셈",
+      "observation": "허수로 나눌 수 없다는 설명과 분모 두 계수가 각각 0이 아니어야 한다는 조건이 지나치게 제한적이다.",
+      "action": "0이 아닌 복소수면 허용하고 켤레 곱은 표준형 정리 방법으로 구별했다."
+    },
+    {
+      "location": "2.7절 절댓값",
+      "observation": "절댓값 방정식은 언제나 두 해라는 서술은 오른쪽이 0·음수인 경우에는 성립하지 않는다.",
+      "action": "자체 과제에서 0·음수 경계를 구별했다."
+    },
+    {
+      "location": "2.7절 그림 3",
+      "observation": "실제 그림은 −4와 5/6의 열린 점으로 본문의 엄격부등호와 일치한다.",
+      "action": "대체설명을 닫힌 점이라고 과해석해 오류를 만들지 않았다."
+    },
+    {
+      "location": "7.3절 포물선과 직선",
+      "observation": "한 교점이면 접선이라는 설명에는 비수직 직선 조건이 필요하다.",
+      "action": "x=c 수직선의 한 교점을 자체 반례로 구별했다."
+    },
+    {
+      "location": "9.5절 옷 선택 예",
+      "observation": "스웨터를 입을지 선택한다는 문장과 2벌만 곱한 계산은 안 입는 선택의 포함 여부가 다르다.",
+      "action": "반드시 한 벌·안 입어도 됨을 분리해 두 선택 수를 계산했다."
+    },
+    {
+      "location": "9.5절 그림 1 및 7.5절 행렬 MathML",
+      "observation": "기기 그림은 3+5=8이고 본문과 맞는다. MathML의 중첩 열 배열을 평탄화하면 행·열 순서를 오독할 수 있다.",
+      "action": "그림 대체설명의 기기 수와 실제 그림을 구별하고, 장비 행렬 방향을 평탄화 토큰만으로 오류라고 단정하지 않았다."
+    }
+  ],
+  "domestic_scope": {
+    "basic_complex_arithmetic_added": false,
+    "basic_absolute_value_signs": 1,
+    "basic_counting_two_events": true,
+    "matrix_max_dimension": 2,
+    "common_basic_parallel_alternatives": true,
+    "nonlinear_inequalities_added": false,
+    "circle_equation_standard_mapped": false
+  }
+}

@@ -1,0 +1,179 @@
+{
+  "source_id": "WWC_79864_EQUATION_COMPARISON_2012",
+  "source_url": "https://ies.ed.gov/ncee/wwc/study/79864",
+  "date": "2026-11-10",
+  "reviewer": "Codex",
+  "source_asset_kind": "publisher_html",
+  "source_asset_sha256": "33bf32837ac58070622261020f3089877ad795297f2477b228214699c3703f8b",
+  "source_asset_redistributed": false,
+  "pdf_read": false,
+  "original_page_layout_review": false,
+  "source_pdf_redistributed": false,
+  "contains_source_full_text": false,
+  "read_scope": "WWC 79864 공식 웹 검토의 두 비교·10개 결과 행과 2019년 개정 가이드 D.4, 2012년 출판사 초록을 대조했다. 2012년 원논문 전체와 판면은 확보 대기다.",
+  "empirical_scope": {
+    "design": "wwc_review_of_randomized_equation_comparison",
+    "sample_description": "논문 초록은 미국 공립 중학교 두 곳의 8학년 198명 배정을 보고한다. WWC의 쌍별 분석은 124명·118명과 별도 115명이다.",
+    "inference_limit": "미국 공립 중학교 두 곳의 8학년을 대상으로 한 약 3시간의 다단계 방정식 수업이다. 두 WWC 비교는 대조군을 공유하며 개입 순서와 예제 짝이 함께 다르다. 국내 과제 효과와 필수 순서는 검증 대기다.",
+    "student_outcome_study": true,
+    "local_effect_tested": false
+  },
+  "publisher_abstract": {
+    "doi": "https://doi.org/10.1111/j.2044-8279.2011.02037.x",
+    "crosscheck_url": "https://pubmed.ncbi.nlm.nih.gov/22881048/",
+    "article_full_text_obtained": false
+  },
+  "source_corrections": [
+    {
+      "location": "가이드 PDF64 각주 j와 WWC 79864의 한 달 개념 지식 행",
+      "issue": "가이드의 효과크기는 +0.14이고 WWC 연구 페이지의 평균은 즉시 비교 집단 25.18, 대조 집단 28.81이다. 분석·산출 기록을 확인하기 전 부호를 임의 정정하지 않는다."
+    },
+    {
+      "location": "가이드 PDF62·64와 WWC 79864의 두 심사 결과",
+      "issue": "115명 비교의 표 본문은 유보 없는 연구 묶음 안에 보이지만 각주 l 및 연구 페이지는 높은 탈락률 때문에 유보를 명시한다. 그 비교의 판정은 해당 각주와 연구 페이지를 따라 표기한다."
+    }
+  ],
+  "crosscheck": {
+    "article_total_assigned_n": 198,
+    "immediate_comparison_n": {
+      "1 Day": 124,
+      "1 Month": 118
+    },
+    "delayed_comparison_n": {
+      "2 Days": 115
+    },
+    "shared_comparison_group": true,
+    "article_full_text_obtained": false,
+    "official_html_rows": 10,
+    "guide_pdf_pages": [
+      62,
+      64
+    ],
+    "doi": "https://doi.org/10.1111/j.2044-8279.2011.02037.x"
+  },
+  "reading_log": [
+    "공식 웹 자료의 두 비교 조건, 심사 판정 및 결과표 10행을 대조했다.",
+    "출판사 초록에서 전체 배정과 세 수업 조건, 사전·사후·한 달 평가 범위를 확인했다.",
+    "가이드 표 D.4와 각주 j–l에서 결과 영역과 별도 측정의 차이, 탈락과 부호의 차이를 확인했다."
+  ],
+  "outcomes": [
+    {
+      "comparison": "immediate",
+      "measure": "conceptual",
+      "timing": "1 Day",
+      "n": 124,
+      "wwc_means": [
+        26.79,
+        29.1
+      ],
+      "significant": false
+    },
+    {
+      "comparison": "immediate",
+      "measure": "conceptual",
+      "timing": "1 Month",
+      "n": 118,
+      "wwc_means": [
+        25.18,
+        28.81
+      ],
+      "significant": false
+    },
+    {
+      "comparison": "immediate",
+      "measure": "flexibility_use",
+      "timing": "1 Day",
+      "n": 124,
+      "wwc_means": [
+        27.17,
+        15.0
+      ],
+      "significant": true
+    },
+    {
+      "comparison": "immediate",
+      "measure": "flexibility_knowledge",
+      "timing": "1 Day",
+      "n": 124,
+      "wwc_means": [
+        50.87,
+        42.63
+      ],
+      "significant": false
+    },
+    {
+      "comparison": "immediate",
+      "measure": "flexibility_use",
+      "timing": "1 Month",
+      "n": 118,
+      "wwc_means": [
+        23.51,
+        9.79
+      ],
+      "significant": true
+    },
+    {
+      "comparison": "immediate",
+      "measure": "flexibility_knowledge",
+      "timing": "1 Month",
+      "n": 118,
+      "wwc_means": [
+        47.42,
+        40.0
+      ],
+      "significant": false
+    },
+    {
+      "comparison": "immediate",
+      "measure": "procedural",
+      "timing": "1 Day",
+      "n": 124,
+      "wwc_means": [
+        38.09,
+        34.2
+      ],
+      "significant": false
+    },
+    {
+      "comparison": "immediate",
+      "measure": "procedural",
+      "timing": "1 Month",
+      "n": 118,
+      "wwc_means": [
+        35.59,
+        31.07
+      ],
+      "significant": false
+    },
+    {
+      "comparison": "delayed",
+      "measure": "flexibility_knowledge",
+      "timing": "2 Days",
+      "n": 115,
+      "wwc_means": [
+        41.09,
+        42.63
+      ],
+      "significant": false
+    },
+    {
+      "comparison": "delayed",
+      "measure": "flexibility_use",
+      "timing": "2 Days",
+      "n": 115,
+      "wwc_means": [
+        9.91,
+        15.0
+      ],
+      "significant": false
+    }
+  ],
+  "guide_flexibility_g": {
+    "immediate_domain": 0.37,
+    "retention_domain": 0.42,
+    "delayed_domain": -0.15
+  },
+  "guide_delayed_conceptual_g": 0.14,
+  "wwc_month_conceptual_direction": "negative_means_difference",
+  "unresolved_followup": "출판본 436–455쪽의 전체 방법·표·그림과 원자료, 한 달 개념 지식 방향 차이의 산출 근거, 독립 검토와 실제 학생 반응을 확인한다."
+}

@@ -1,0 +1,446 @@
+{
+  "generated_at": "2026-11-04T10:37:48.783437+09:00",
+  "scope": "Local supplied curriculum corpus; current national revisions and live deployment not reverified.",
+  "counts": {
+    "standards": 435,
+    "school_levels": {
+      "초등학교": 121,
+      "중학교": 60,
+      "고등학교": 254
+    },
+    "high_school_subjects": 15,
+    "goal_files": 16,
+    "goal_entries": 435,
+    "goals": 870,
+    "goal_count_distribution": {
+      "2": 278,
+      "1": 89,
+      "3": 49,
+      "4": 17,
+      "5": 2
+    },
+    "goal_cases": 565,
+    "active_goal_cases": 565,
+    "routes": 626,
+    "concept_groups": 46,
+    "standard_relations": 2239
+  },
+  "coverage": {
+    "missing_goal_entries": [],
+    "missing_analysis_files": [],
+    "duplicate_goal_entries": []
+  },
+  "statuses": {
+    "analysis": {
+      "초안": 435
+    },
+    "student_validated_analyses": 0,
+    "source_review": {
+      "미대조": 403,
+      "원문 이미지 대조 보정": 29,
+      "원문 이미지 대조": 3
+    },
+    "relation_review": {
+      "unrecorded": 2094,
+      "self_checked": 145
+    }
+  },
+  "root_site_compared_files": 25,
+  "root_site_mismatches": [],
+  "prior_goal_audit_hash_mismatches": [],
+  "goal_network_coverage": {
+    "standards": 435,
+    "goals": 870,
+    "cases": 565,
+    "routes": 626,
+    "directed_pairs": 1481,
+    "cross_standard_pairs": 833,
+    "condition_clauses": 1425,
+    "condition_kinds": {
+      "goal": 1135,
+      "within_task": 270,
+      "entry_capability": 20
+    },
+    "scoped_link_occurrences": 1554
+  },
+  "review_promotion_simulation": [
+    {
+      "field": "state",
+      "value": "independently_reviewed",
+      "outcome": "rejected_by_assertion"
+    },
+    {
+      "field": "independent_review",
+      "value": true,
+      "outcome": "rejected_by_assertion"
+    },
+    {
+      "field": "student_validated",
+      "value": true,
+      "outcome": "rejected_by_assertion"
+    }
+  ],
+  "simulation_interpretation": "Loader rejects state changes before considering evidence; no real review was performed or recorded.",
+  "source_hashes": {
+    "data/standards.json": "8bf4f987154ef994af2021897dea4d646e06c4da1e99c5946597095f418b8c0c",
+    "data/goal_hierarchy_algebra_calculus_one.json": "68c974abf9d572ea0e1ccb48397aa5f0385841016825292135453860c1a637e0",
+    "data/goal_hierarchy_calculus_two_geometry.json": "70842b02e571fa405f53b7d6ee137da82a2a168aa79f8cee759df32a38eaa2c0",
+    "data/goal_hierarchy_common_basic_one.json": "c303c947297c95a0be3981c1d30beaf2a8e295db4762c7eb7f502b2a1efa4b3f",
+    "data/goal_hierarchy_common_basic_two.json": "b70292362fd041e76ac88bd812b9eb0ed1541eeae790f4989290cd2d86a74b11",
+    "data/goal_hierarchy_early_number.json": "54c67159dfbda2fd141063d7a1f28691c2a2487f0dc6da1e68b5ad842d9ee65c",
+    "data/goal_hierarchy_early_shape_measure_data.json": "32ffb086fede8796f794cf4537c27c55ddcaddcaed9fdef8360c015410c83e80",
+    "data/goal_hierarchy_economy_ai.json": "a3bd9a9d9d8fdd1f4823f6b838d9450a801382ebe452c93ff50a19465313b9ea",
+    "data/goal_hierarchy_middle_functions_statistics.json": "a7d1538fcaf01e30326561db2f4b9e72ecb277c7a00e15c18408c570576e9bbc",
+    "data/goal_hierarchy_middle_geometry.json": "625489f7d1a206b2f9b8038a1b1f2efca654ce996300ff14bb8aeac6767534e0",
+    "data/goal_hierarchy_middle_number_algebra.json": "9bb250a1f6376a19c896559adc6bdb6d29e3b0786916b4a2e35122841c2164fd",
+    "data/goal_hierarchy_primary_3_4_geometry_measure_data.json": "72e6f27a85102647e81a3f3417e1231b839c4300241ba2696e33b4d67c400a8f",
+    "data/goal_hierarchy_primary_3_4_number_patterns.json": "c0279951b84aa1b24c8d355f815bcac4201e0fb41471420a8497142bd6e6a740",
+    "data/goal_hierarchy_probability_statistics.json": "896d13f59c4b0336c2db37d218816cbb3c4cb3f793621d8f465462108d308643",
+    "data/goal_hierarchy_upper_primary_geometry_data.json": "162e4172b2da88eb19464b61cbbfca8f0990ead632a57d162e14698278c87b5e",
+    "data/goal_hierarchy_upper_primary_number_ratio.json": "59b2678dd23d21b1fe9016aa1c16252a7e6936042b7d3fb6249b1110ff4b9e64",
+    "data/goal_hierarchy_work_culture_inquiry.json": "e4c6e25e4fab0ff8e041ee4006c688050a2dfaaae254c19f900c7673a80ce481",
+    "data/revisions_elementary.json": "88336953da7402c73701708d9bccc4ad7263fe6f5180d08e05d211cfaf235660",
+    "data/revisions_high.json": "fbb6c0a1cf546caa349ae35de3261809682779ff7a4b6c22cb863639c394d72c",
+    "data/revisions_high_applied.json": "f9288179182e6c92edcb77494886a5af814d0cb90eb65fb1e01f124ea7062736",
+    "data/revisions_high_culture.json": "7dc053c27cec34c25b22ac1938cc590d209ac8f8894be6d6a7474c4fcc6f5e66",
+    "data/revisions_initial.json": "8dd41ee5d311c47b47a0d8c3df7b9b04d66003ba9e804e2c55662e8c19e11c1c",
+    "data/revisions_middle.json": "86a23cdad0c2072be86bf580c69ac57aac17cef0c733c2c0e893a0c1789645ed",
+    "data/revised_relations.json": "02f2aa15649bb2a9bcd1255e7610c030dc0b1c030b7dff24a29c7225830c29f1",
+    "data/concept_taxonomy.json": "1584822eb2f3388fec97b61ad7f53e6fb81218271be1b214e3ad3793f75d5fd2"
+  },
+  "check_summary": {
+    "total": 28,
+    "counts": {
+      "pass": 28
+    }
+  },
+  "checks": [
+    {
+      "command": [
+        "C:\\Users\\User\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\User\\Desktop\\codex\\수학 내용 체계\\scripts\\test_hierarchy_review.py"
+      ],
+      "exit_code": 0,
+      "status": "pass",
+      "stdout": "",
+      "stderr": "...\n----------------------------------------------------------------------\nRan 3 tests in 0.011s\n\nOK"
+    },
+    {
+      "command": [
+        "C:\\Users\\User\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\User\\Desktop\\codex\\수학 내용 체계\\scripts\\test_goal_hierarchy.py"
+      ],
+      "exit_code": 0,
+      "status": "pass",
+      "stdout": "",
+      "stderr": "....\n----------------------------------------------------------------------\nRan 4 tests in 0.000s\n\nOK"
+    },
+    {
+      "command": [
+        "C:\\Users\\User\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\User\\Desktop\\codex\\수학 내용 체계\\scripts\\test_content_objects.py"
+      ],
+      "exit_code": 0,
+      "status": "pass",
+      "stdout": "",
+      "stderr": "..\n----------------------------------------------------------------------\nRan 2 tests in 0.025s\n\nOK"
+    },
+    {
+      "command": [
+        "C:\\Users\\User\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\User\\Desktop\\codex\\수학 내용 체계\\scripts\\test_portal_retention.py"
+      ],
+      "exit_code": 0,
+      "status": "pass",
+      "stdout": "",
+      "stderr": "....\n----------------------------------------------------------------------\nRan 4 tests in 0.032s\n\nOK"
+    },
+    {
+      "command": [
+        "C:\\Users\\User\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\User\\Desktop\\codex\\수학 내용 체계\\scripts\\check_advanced_examples.py"
+      ],
+      "exit_code": 0,
+      "status": "pass",
+      "stdout": "Advanced example checks passed: finite sums, induction step algebra, trig values, probabilities, integral values, three conic distance identities, perpendicular-distance decomposition",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "C:\\Users\\User\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\User\\Desktop\\codex\\수학 내용 체계\\scripts\\check_algebra_calculus_one.py"
+      ],
+      "exit_code": 0,
+      "status": "pass",
+      "stdout": "{\"status\": \"pass\", \"standards\": 38, \"goals\": 72, \"cases\": 43, \"goal_condition_references\": 83, \"exponent_witnesses\": 100, \"trig_witnesses\": 241, \"sequence_witnesses\": 1440, \"polynomial_witnesses\": 1250, \"visuals\": 2, \"checks\": \"official scope; real domains; finite sums; recurrence scope; induction steps; one-sided corners; theorem hypotheses; polynomial derivatives and primitives; sign charts; signed integral vs area and distance; acyclic conditional goals\"}",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "C:\\Users\\User\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\User\\Desktop\\codex\\수학 내용 체계\\scripts\\check_applied_examples.py"
+      ],
+      "exit_code": 0,
+      "status": "pass",
+      "stdout": "Applied example checks passed: synthetic indices and rates, matrix inversion, elasticity, pixel transformations, proportions, budgets, scales, finite arrays and exact binomial tails",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "C:\\Users\\User\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\User\\Desktop\\codex\\수학 내용 체계\\scripts\\check_calculus_two_geometry.py"
+      ],
+      "exit_code": 0,
+      "status": "pass",
+      "stdout": "{\"status\": \"pass\", \"standards\": 37, \"goals\": 66, \"cases\": 44, \"scoped_goal_references\": 108, \"derivative_witnesses\": 96, \"rectangle_witnesses\": 100, \"conic_witnesses\": 200, \"space_witnesses\": 1029, \"checks\": \"partial sums; geometric boundaries; derivative limits; domain exclusions; quadrature; Riemann widths; conic distance and discriminant degree; optional OR route; three perpendiculars; projection limits; vector domains; acyclic goal conditions\"}",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "C:\\Users\\User\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\User\\Desktop\\codex\\수학 내용 체계\\scripts\\check_common_basic_one.py"
+      ],
+      "exit_code": 0,
+      "status": "pass",
+      "stdout": "{\"status\": \"pass\", \"standards\": 36, \"goals\": 62, \"cases\": 47, \"scoped_goal_references\": 104, \"sibling_condition_references\": 22, \"arithmetic_witnesses\": 97, \"three_variable_square_witnesses\": 729, \"counting_witnesses\": 36, \"matrix_witnesses\": 2025, \"checks\": \"polynomial identities and quotient domains; real versus complex roots; closed and open range bounds; simultaneous pairs; exact inequality endpoints; enumeration and constant multiplicity; matrix dimensions and visual data; alternative course isolation; acyclic scoped goals\"}",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "C:\\Users\\User\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\User\\Desktop\\codex\\수학 내용 체계\\scripts\\check_common_basic_two.py"
+      ],
+      "exit_code": 0,
+      "status": "pass",
+      "stdout": "{\"status\": \"pass\", \"standards\": 37, \"goals\": 69, \"cases\": 45, \"scoped_goal_references\": 112, \"sibling_condition_references\": 34, \"division_witnesses\": 64, \"point_line_witnesses\": 432, \"reflection_witnesses\": 484, \"set_law_witnesses\": 4096, \"function_witnesses\": 81, \"checks\": \"internal ratio direction; perpendicular shortest distance; circle and line boundaries; fixed-axis motions; Venn partitions; exhaustive set and logic truth states; proof identities; composition domains; inverse bijections; rational cancellation; radical branches; alternative course isolation; acyclic references\"}",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "C:\\Users\\User\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\User\\Desktop\\codex\\수학 내용 체계\\scripts\\check_early_number_goals.py"
+      ],
+      "exit_code": 0,
+      "status": "pass",
+      "stdout": "{\"status\": \"pass\", \"standards\": 11, \"goals\": 23, \"cases\": 18, \"scoped_goal_references\": 24, \"addition_checks\": 10000, \"subtraction_checks\": 5050, \"checks\": \"finite-domain arithmetic; scope restrictions; goal and condition provenance; complete goal-to-task mapping; acyclic source references\"}",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "C:\\Users\\User\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\User\\Desktop\\codex\\수학 내용 체계\\scripts\\check_early_shape_measure_data_goals.py"
+      ],
+      "exit_code": 0,
+      "status": "pass",
+      "stdout": "{\"status\": \"pass\", \"standards\": 18, \"goals\": 39, \"cases\": 24, \"scoped_goal_references\": 23, \"clock_states\": 720, \"unit_conversion_witnesses\": 400, \"checks\": \"pattern scope; geometric invariants; comparison conditions; time and calendar boundaries; units; source-data/table/graph counts; goal-specific condition application; acyclic references\"}",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "C:\\Users\\User\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\User\\Desktop\\codex\\수학 내용 체계\\scripts\\check_economy_ai.py"
+      ],
+      "exit_code": 0,
+      "status": "pass",
+      "stdout": "{\"status\": \"pass\", \"standards\": 33, \"goals\": 58, \"cases\": 40, \"scoped_goal_references\": 66, \"polynomial_witnesses\": 39, \"visuals\": 3, \"checks\": \"exact units and timing; boundary optima; matrices; truth tables; default IDF; pixel clipping; one-variable loss; GD contraction and divergence; scope history; acyclic goals\"}",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "C:\\Users\\User\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\User\\Desktop\\codex\\수학 내용 체계\\scripts\\check_middle_functions_statistics.py"
+      ],
+      "exit_code": 0,
+      "status": "pass",
+      "stdout": "{\"status\": \"pass\", \"standards\": 19, \"goals\": 46, \"cases\": 25, \"scoped_goal_references\": 60, \"sibling_condition_references\": 13, \"function_witnesses\": 161, \"variance_witnesses\": 125, \"quartile_witnesses\": 9, \"commute_csv_rows\": 8, \"boxplot_csv_rows\": 18, \"checks\": \"domains and representations; exact line intersection; full-real quadratic bounds; histogram boundaries; relative frequency; exhaustive small outcomes; spread units; explicit quartile method; paired-data trends; CSV/visual agreement; scoped acyclic references\"}",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "C:\\Users\\User\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\User\\Desktop\\codex\\수학 내용 체계\\scripts\\check_middle_geometry.py"
+      ],
+      "exit_code": 0,
+      "status": "pass",
+      "stdout": "{\"status\": \"pass\", \"standards\": 19, \"goals\": 38, \"cases\": 32, \"middle_goal_standards\": 60, \"scoped_goal_references\": 72, \"sibling_condition_references\": 11, \"polygon_witnesses\": 48, \"center_witnesses\": 30, \"quadrilateral_witnesses\": 400, \"tile_witnesses\": 400, \"tangent_witnesses\": 110, \"inscribed_angle_witnesses\": 2904, \"checks\": \"construction existence; convex polygon counts; solid incidence; areas and units; centers and distances; diagonal scope; similarity correspondence; area tiling; special-angle values; tangent reflection; inscribed arc selection; acyclic goal references; retained source corrections\"}",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "C:\\Users\\User\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\User\\Desktop\\codex\\수학 내용 체계\\scripts\\check_middle_number_algebra.py"
+      ],
+      "exit_code": 0,
+      "status": "pass",
+      "stdout": "{\"status\": \"pass\", \"standards\": 22, \"goals\": 49, \"cases\": 37, \"scoped_goal_references\": 80, \"sibling_condition_references\": 15, \"factor_pairs\": 6400, \"signed_pairs\": 3481, \"exponent_witnesses\": 396, \"inequality_witnesses\": 6804, \"polynomial_identities\": 6, \"checks\": \"prime structure; signed rational operations; repeating decimal fractions; radical domains; coefficient identities; exact quadratic roots; inequality direction; model restrictions; scoped acyclic references\"}",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "C:\\Users\\User\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\User\\Desktop\\codex\\수학 내용 체계\\scripts\\check_primary_geometry_measure_data.py"
+      ],
+      "exit_code": 0,
+      "status": "pass",
+      "stdout": "{\"status\": \"pass\", \"standards\": 28, \"goals\": 69, \"cases\": 32, \"scoped_goal_references\": 60, \"sibling_condition_references\": 7, \"unit_witnesses\": 12000, \"checks\": \"geometric witnesses; units and operations; graph legends and time changes; source-scope correction; exact sibling targets; conditional references\"}",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "C:\\Users\\User\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\User\\Desktop\\codex\\수학 내용 체계\\scripts\\check_primary_number_patterns.py"
+      ],
+      "exit_code": 0,
+      "status": "pass",
+      "stdout": "{\"status\": \"pass\", \"standards\": 19, \"goals\": 43, \"cases\": 34, \"scoped_goal_references\": 56, \"natural_addition_checks\": 810000, \"natural_subtraction_checks\": 405450, \"multiplication_checks\": 99000, \"division_checks\": 98010, \"fraction_pairs\": 25821, \"checks\": \"curriculum number ranges; worked examples; quotient/remainder and zero boundaries; exact fraction and decimal arithmetic; distinct goal scopes; source-reference integrity\"}",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "C:\\Users\\User\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\User\\Desktop\\codex\\수학 내용 체계\\scripts\\check_probability_statistics.py"
+      ],
+      "exit_code": 0,
+      "status": "pass",
+      "stdout": "{\"status\": \"pass\", \"standards\": 29, \"goals\": 57, \"cases\": 33, \"scoped_goal_references\": 57, \"binomial_witnesses\": 36, \"fictional_csv_rows\": 209, \"model_csv_rows\": 304, \"visuals\": 3, \"checks\": \"enumerated counts; conditional denominators; independence vs disjointness; exact probability moments; normal approximation; sampling variability; closed-form t CDF checks; confidence and test interpretation; CSV provenance; graph bins and mass-preserving standardization; preserved review dates; acyclic goals\"}",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "C:\\Users\\User\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\User\\Desktop\\codex\\수학 내용 체계\\scripts\\check_upper_primary_geometry_data.py"
+      ],
+      "exit_code": 0,
+      "status": "pass",
+      "stdout": "{\"status\": \"pass\", \"standards\": 25, \"goals\": 57, \"cases\": 33, \"elementary_goal_standards\": 121, \"scoped_goal_references\": 82, \"sibling_condition_references\": 17, \"compatible_block_models\": 7, \"area_witnesses\": 1800, \"volume_witnesses\": 3000, \"mean_witnesses\": 216, \"checks\": \"folded net consistency; solid topology; symmetry and rotation; projection ambiguity; polygon area and external height; surface versus volume; mean and graph proportions; qualitative chance; curriculum scope and references\"}",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "C:\\Users\\User\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\User\\Desktop\\codex\\수학 내용 체계\\scripts\\check_upper_primary_number_ratio.py"
+      ],
+      "exit_code": 0,
+      "status": "pass",
+      "stdout": "{\"status\": \"pass\", \"standards\": 20, \"goals\": 49, \"cases\": 33, \"scoped_goal_references\": 87, \"sibling_condition_references\": 21, \"rounding_witnesses\": 30003, \"divisor_pairs\": 1600, \"fraction_witnesses\": 9216, \"decimal_witnesses\": 5400, \"allocation_witnesses\": 2880, \"checks\": \"exact arithmetic and boundaries; listed gcd/lcm; fraction/decimal division units; ratio versus whole; scoped alternatives; reference cycles; curriculum scope\"}",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "C:\\Users\\User\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\User\\Desktop\\codex\\수학 내용 체계\\scripts\\check_work_culture_inquiry.py"
+      ],
+      "exit_code": 0,
+      "status": "pass",
+      "stdout": "{\"status\": \"pass\", \"standards\": 44, \"goals\": 73, \"cases\": 45, \"scoped_goal_references\": 61, \"rectangle_witnesses\": 999, \"csv_rows\": 21, \"checks\": \"units and rounding; price thresholds; projection ambiguity; rates vs counts; music ratios; game strategy over100 states; parity errors; voting profiles; cycles and braille; sourced media tokens; weighted choice; fictional environmental models; real vs model provenance; experiment vs proof; selected research methods; acyclic full goal graph\"}",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "C:\\Program Files\\nodejs\\node.EXE",
+        "C:\\Users\\User\\Desktop\\codex\\수학 내용 체계\\tmp\\pathways-release\\tests\\test_goal_network.mjs"
+      ],
+      "exit_code": 0,
+      "status": "pass",
+      "stdout": "{\"status\":\"pass\",\"goals\":870,\"routes\":626,\"pairs\":1481,\"renderedStates\":3480,\"bytes\":1039446,\"checks\":\"exact authored source and AND preservation; scoped per-condition targets; full reverse neighborhoods; all goals and school scopes; valid multistep and reverse traces; invalid trace rejection; lazy immutable graph; full hub entry points\"}",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "C:\\Program Files\\nodejs\\node.EXE",
+        "C:\\Users\\User\\Desktop\\codex\\수학 내용 체계\\tmp\\pathways-release\\tests\\test_task_pathways.mjs"
+      ],
+      "exit_code": 0,
+      "status": "pass",
+      "stdout": "{\"status\":\"pass\",\"standards\":435,\"cases\":571,\"goalDecomposedStandards\":435,\"constituentGoals\":870,\"pilotReferencedStandards\":12,\"states\":7768,\"checks\":\"authored goals and route preservation, complete AND clauses under school scope and route selection, scoped source-goal links, same-goal alternatives vs different goals, honest pending states, per-target loading\"}",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "C:\\Program Files\\nodejs\\node.EXE",
+        "C:\\Users\\User\\Desktop\\codex\\수학 내용 체계\\tmp\\pathways-release\\tests\\test_all_concept_pathways.mjs"
+      ],
+      "exit_code": 0,
+      "status": "pass",
+      "stdout": "{\"status\":\"pass\",\"concepts\":46,\"standards\":435,\"sourceRelations\":2239,\"withExpansion\":46,\"withoutExpansion\":0,\"renderedStates\":828,\"checks\":\"complete corpus, original evidence preserved, per-concept loading, honest review states, semantic direction only, boundary goal retention, filters, cycles, invalid IDs\"}",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "C:\\Program Files\\nodejs\\node.EXE",
+        "C:\\Users\\User\\Desktop\\codex\\수학 내용 체계\\tmp\\pathways-release\\tests\\test_school_revision.mjs"
+      ],
+      "exit_code": 0,
+      "status": "pass",
+      "stdout": "{\"status\":\"pass\",\"standards\":435,\"scopeConceptStates\":138,\"sourceRelations\":1518,\"relations\":4373,\"checks\":\"school isolation, stable cache, unique placement, authored directions, full 12-section corpus, original statements, specific regression cases\"}",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "C:\\Program Files\\nodejs\\node.EXE",
+        "C:\\Users\\User\\Desktop\\codex\\수학 내용 체계\\tmp\\pathways-release\\tests\\test_catalog_groups.mjs"
+      ],
+      "exit_code": 0,
+      "status": "pass",
+      "stdout": "{\"status\":\"pass\",\"standards\":435,\"states\":710,\"checks\":\"all standards without pagination loss, school/band/domain grouping, unique codes, all subjects, filters, code search, expanded and compact views\"}",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "C:\\Users\\User\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\User\\Desktop\\codex\\수학 내용 체계\\scripts\\plan_portal_retention.py",
+        "--verify-only"
+      ],
+      "exit_code": 0,
+      "status": "pass",
+      "stdout": "{\"status\": \"pass\", \"retained_snapshots\": 6, \"protected_paths\": 2019}",
+      "stderr": ""
+    }
+  ]
+}

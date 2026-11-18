@@ -1,0 +1,63 @@
+{
+  "source_id": "VALBUENA_ET_AL_2021_CONIC_REPRESENTATIONS",
+  "source_url": "https://doi.org/10.4067/S0718-50062021000100181",
+  "source_pdf_url": "https://scielo.conicyt.cl/pdf/formuniv/v14n1/0718-5006-formuniv-14-01-181.pdf",
+  "source_asset_kind": "pdf",
+  "source_pdf_sha256": "1ea3097393c1c7c1866aff5832ee2b3cc8ac4846e1bc5ddece3f56302c469d28",
+  "pdf_pages": 14,
+  "selected_text_pages": [
+    1,
+    4,
+    5,
+    6,
+    8,
+    9,
+    10,
+    11
+  ],
+  "visual_pdf_pages": [
+    6,
+    8,
+    11
+  ],
+  "rendered_page_sha256": {
+    "6": "559079af222ad73c0f59f26bf27e58f569d5a15335ceddd4a9d03e6ecec6e3d1",
+    "8": "98167176226f0b101c521b655af69ec15efa850c8381423682d446abb3e06822",
+    "11": "5c162a85f9e92ac9147431e67f627fba6f32da13af340cb3267307ac0f3c3d16"
+  },
+  "date": "2026-11-10",
+  "reviewer": "Codex",
+  "read_scope": "표 1의 표현 분류와 그림 4의 포물선 활동, 네 응답 발췌, 그림 5의 사전·사후 점수 비교를 확인했다.",
+  "empirical_scope": {
+    "design": "의도 표집한 단일 집단의 사전·사후 서면 검사와 수업 중 관찰.",
+    "sample_description": "해석기하 수강 중인 예비 수학교사 38명.",
+    "inference_limit": "콜롬비아 예비 수학교사 한 집단의 비교다. 국내 고등학생의 난점 빈도와 도구 자체의 효과는 별도로 검증한다.",
+    "student_outcome_study": true,
+    "causal_effect_established": false,
+    "local_effect_tested": false
+  },
+  "contains_source_full_text": false,
+  "source_pdf_redistributed": false,
+  "reading_log": [
+    "표 1의 표현 분류와 그림 4의 포물선 활동, 네 응답 발췌, 그림 5의 사전·사후 점수 비교를 확인했다."
+  ],
+  "source_corrections": [
+    {
+      "location": "정의·표·학생 응답",
+      "issue": "표 1의 쌍곡선 거리 차는 절댓값으로 보완해야 두 가지가 포함된다. 타원 예시 그림은 기울어져 있으므로 좌표축에 평행한 표준형과 같은 그림으로 보지 않는다. 본문의 Shapiro–Wilk p=.005와 윌콕슨 z=−5.259를 별개로 기록했다."
+    }
+  ],
+  "conic_review": {
+    "n": 38,
+    "questions_per_test": 12,
+    "comparator_group_reported": false,
+    "excerpt_count": 4,
+    "conversion_means": [
+      2.11,
+      3.08
+    ],
+    "conversion_mean_difference": 0.97,
+    "shapiro_wilk_p": 0.005,
+    "wilcoxon_z": -5.259
+  }
+}

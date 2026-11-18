@@ -1,0 +1,63 @@
+{
+  "source_id": "AMSI_2011_FACTORISATION",
+  "source_url": "https://amsi.org.au/teacher_modules/Factorisation.html",
+  "source_asset_kind": "pdf",
+  "source_pdf_sha256": "2b6fc979e447864838d7b38be037092b7af42041001714e3d5853ec38a546b0b",
+  "source_pdf_url": "https://amsi.org.au/teacher_modules/pdfs/Factorisation.pdf",
+  "pdf_pages": 20,
+  "selected_text_pages": [
+    1,
+    2,
+    3,
+    5,
+    6,
+    8,
+    9,
+    10,
+    11,
+    12,
+    14
+  ],
+  "visual_pdf_pages": [
+    5,
+    8,
+    11,
+    12,
+    14
+  ],
+  "rendered_page_sha256": {
+    "5": "0b82134ad5021ab0d05d2b7918efdffe5b640095c3740c876ea2a7d7dcffdc28",
+    "8": "91bfb1be413ed2aead53e3cbf8faec5d4dce1757dd9ce2137e92fe2e5e552b4f",
+    "11": "f70116727de0a6aa0f77dc98cef8ce202d7c7d3722ce50b7a331c890fb80ecba",
+    "12": "1c523cd5814714eb3cee3bcda0f58dd45ff308c9c99c8c9786c8df55504af77a",
+    "14": "1ead2472b96d2df585a3e429cdfc3b7e8a22af2cf588ecb2d4b81a39b0c3c953"
+  },
+  "date": "2026-11-13",
+  "reviewer": "Codex",
+  "read_scope": "서지와 공통인수·묶기, 완전제곱·제곱차·이차식 분해, 역전개, 잘못된 약분의 예와 세제곱 합·차의 지정 본문·판면을 대조했다.",
+  "empirical_scope": {
+    "design": "교사용 수학 내용 설명과 예시·연습 문제. 지정 부분의 수학적 조건과 표현을 대조.",
+    "sample_description": "학생 표본·학생별 반응 자료 없음. 자체 과제의 효과를 검사한 연구가 아니다.",
+    "inference_limit": "교사 설명이다. 원문의 높은 차수·복잡한 유리식·정수해·일반 인수분해를 기본수학에 추가하지 않는다. 세제곱 차 공식의 잘못된 부호와 공통인수·중간 변형 오류를 옮기지 않고 전개로 검산한다. 원문 가상 오답·저자 단정·학생 반응 자료를 구별한다.",
+    "student_outcome_study": false,
+    "causal_effect_established": false,
+    "local_effect_tested": false
+  },
+  "contains_source_full_text": false,
+  "source_pdf_redistributed": false,
+  "reading_log": [
+    "서지와 공통인수·묶기, 완전제곱·제곱차·이차식 분해, 역전개, 잘못된 약분의 예와 세제곱 합·차의 지정 본문·판면을 대조했다."
+  ],
+  "source_corrections": [
+    {
+      "location": "방법·문항·표·그림·서술의 대조",
+      "issue": "5쪽 6a²b를 2ab로 묶으면 3a이지 3ab가 아니다. 8쪽 x⁴+4의 중간 줄에 같은 음수 괄호를 두 번 적었지만 다음 줄의 ±2x가 맞다. 12쪽 가상 오약분 예는 의도적이고 그 아래 b·c 풀이의 바뀐 식·분모 부호는 별도 불일치다. 14쪽 차의 세제곱 둘째 괄호 끝 −b²는 +b²이어야 한다. 이런 오기를 정답으로 옮기지 않고 단순 공식과 역전개로 확인했다."
+    }
+  ],
+  "high_polynomial_quadratic_review": {
+    "page_5_correct_common_factor_term": "3a",
+    "page_8_repeated_minus_factor": true,
+    "page_14_cube_difference_last_sign_should_be_plus": true,
+    "algebraic_fraction_examples_not_imported": true
+  }
+}

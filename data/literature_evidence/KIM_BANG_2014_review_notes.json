@@ -1,0 +1,72 @@
+{
+  "source_id": "KIM_BANG_2014",
+  "source_url": "https://www.kci.go.kr/kciportal/landing/article.kci?arti_id=ART001849840",
+  "source_pdf_url": "https://www.kci.go.kr/kciportal/co/download/popup/poDownload.kci?storFileBean.orteFileId=KCI_FI001849840",
+  "source_pdf_sha256": "4b9fcf3f800b8ec88e6cdeb3c8c3db81e602f2f1e8aec0083899d1f7a35680e7",
+  "reviewer": "Codex",
+  "date": "2026-11-04",
+  "contains_source_full_text": false,
+  "source_pdf_redistributed": false,
+  "reading_log": [
+    "KCI서지·공개 초록·다운로드로 확인한 원문17쪽의 전체 텍스트 및 전17쪽 실제 이미지를 읽음.",
+    "PDF1–6 이론·표1–4·그림1–5: 단위의 포함·관계·분수 의미를 구별. 자연수/분수의 교수 비교를 배타적인 수학적 정의로 전용하지 않음.",
+    "PDF7–9 방법·표5–6·그림6–7: 최초104명에서4명 제외한100명, 목적 선정 면담6명, 제외한 고무줄 문항과13개 분석 문항을 구별.",
+    "PDF10–13 학생 답안그림8–14·에피소드1–2: 기준 전환과 단서 전후의 개인 반응을 대조. 에피소드2에서C는22를 유지하고D는24로 바꿈.",
+    "PDF14–17 결론·일반화 제한·참고문헌·영문 초록 확인. 같은 학생을 추적한 종단 연구·통제 실험으로 해석하지 않음."
+  ],
+  "visual_pdf_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+  ],
+  "source_corrections": [],
+  "empirical_scope": {
+    "design": "cross_sectional_with_selected_interviews",
+    "sample_description": "수원 한 학교의 서로 다른2·4·6학년 한 학급씩, 분석34·32·34명(총100명), 그중 목적 선정 면담6명.",
+    "inference_limit": "학년 간 차이는 같은 학생의 종단 변화나 무작위 수업 효과가 아니다. 단서 후 답의 수정도 독립 수행·장기 전이를 입증하지 않는다.",
+    "local_effect_tested": false,
+    "causal_effect_established": false,
+    "longitudinal_cohort": false
+  },
+  "sample": {
+    "initial_by_grade": {
+      "2": 36,
+      "4": 33,
+      "6": 35
+    },
+    "excluded_by_grade": {
+      "2": 2,
+      "4": 1,
+      "6": 1
+    },
+    "analyzed_by_grade": {
+      "2": 34,
+      "4": 32,
+      "6": 34
+    },
+    "interviewed": 6,
+    "interviews_are_subset": true,
+    "selection": "선행 개념은 비교적 이해하나 후속 개념에 어려움이 있고 의사소통이 가능한 학생을 담임 추천으로 학년당2명 선정"
+  },
+  "interpretation_limits": [
+    "학년별로 한 학급씩 조사한 횡단 비교이며 수업 처치의 무작위 배정·동일 학생의 학년간 추적은 없음. 논문의 당시 교과서 학습 시점과2022개정의 학년 배치를 구별.",
+    "면담6명은100명 중 선정되며 새 독립 표본으로 더하지 않음. 사례에서 제공한 단서·그룹 상호작용과 자발적 반응을 구별.",
+    "원문은내적 일관성α=.867을 보고하나 원응답·문항간 공분산이 없어 재계산하지 않았으며 현재 자체 활동에 전용하지 않음.",
+    "비례식으로 분수 문제를 푼 사례는 관찰 근거다. 후속 학습의 인과 효과·전국 학년 규준·모든 문항의 필수 경로를 입증하지 않음.",
+    "표4의자연수와분수의 대비는 교수적 요약이다. 자연수의 연속량 측정·다양한 동치 표현을 배제하거나 분수의 수값과 기준에 따른 양을 혼동하지 않음."
+  ]
+}

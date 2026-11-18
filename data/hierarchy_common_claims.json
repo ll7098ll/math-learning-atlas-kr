@@ -1,0 +1,1060 @@
+{
+  "relations": [
+    {
+      "id": "HC-common-factor",
+      "from": "standard:10공수1-01-01",
+      "to": "standard:10공수1-01-03",
+      "type": "requires_for_task",
+      "scope": "다항식 곱셈을 거꾸로 읽고 전개로 검산하는 인수분해 경로",
+      "rationale": "전개와 인수분해는 같은 다항식을 합과 곱으로 다르게 표현한다. x²+5x+6=(x+2)(x+3)은 오른쪽의 모든 부분곱을 전개해 확인한다.",
+      "conditions": [
+        "다항식의 계수 범위를 정하고, 선택한 범위에서 인수분해한다."
+      ],
+      "diagnostic": "(x+2)(x+3)을 전개하고 x²+5x+6에서 5와 6이 어떻게 생기는지 설명한다.",
+      "expected_response": "일차항 계수는 2+3이고 상수항은 2×3이다.",
+      "alternative_route": "모형이나 넓이 분할에서 곱 구조를 먼저 발견할 수도 있다. 전개 검산 경로의 조건이다.",
+      "additional_learning": [],
+      "limit": "모형이나 넓이 분할에서 곱 구조를 먼저 발견할 수도 있다. 전개 검산 경로의 조건이다. 이 기록은 명시한 과제 경로의 자체 분석이며 성취기준 전체의 보편적 선행 숙달을 주장하지 않는다.",
+      "evidence_kind": "수학적 자체 분석",
+      "source_ids": [
+        "CURRICULUM_2022_33"
+      ],
+      "status": "초안",
+      "review_state": "self_checked",
+      "independent_review": false,
+      "student_validated": false,
+      "hierarchy_review": "self_checked",
+      "review_history": [
+        {
+          "date": "2026-10-30",
+          "reviewer": "Codex",
+          "kind": "self_check",
+          "scope": "다항식 곱셈을 거꾸로 읽고 전개로 검산하는 인수분해 경로",
+          "method": "정의·예시 풀이·경계 조건·대안 경로 대조"
+        }
+      ],
+      "authored_from": "data/hierarchy_common_claims.json"
+    },
+    {
+      "id": "HC-common-matrix",
+      "from": "standard:10공수1-04-01",
+      "to": "standard:10공수1-04-02",
+      "type": "requires_for_task",
+      "scope": "표의 행·열 의미를 유지해 행렬의 덧셈과 곱셈을 해석하는 경로",
+      "rationale": "덧셈은 같은 의미의 자리끼리 결합한다. 곱셈의 (i,j) 성분은 첫 행렬의 i행과 둘째 행렬의 j열의 곱들의 합이므로 안쪽 차원과 대응 대상이 같아야 한다.",
+      "conditions": [
+        "덧셈은 두 행렬의 크기가 같고, 곱셈은 첫 열 수와 둘째 행 수가 같다.",
+        "행과 열이 각각 나타내는 대상을 명시한다. 곱셈은 교육과정의 크기 범위 안에서 다룬다."
+      ],
+      "diagnostic": "A=[[1,2],[0,1]], B=[[2,0],[3,1]]에서 AB와 BA를 비교한다.",
+      "expected_response": "AB=[[8,2],[3,1]], BA=[[2,4],[3,7]]이다. 일반적으로 교환법칙이 성립하지 않는다.",
+      "alternative_route": "수치 행렬의 계산에서 출발할 수도 있다. 표의 의미가 모든 수치 계산의 필수 선행 경험이라는 뜻은 아니다.",
+      "additional_learning": [],
+      "limit": "수치 행렬의 계산에서 출발할 수도 있다. 표의 의미가 모든 수치 계산의 필수 선행 경험이라는 뜻은 아니다. 이 기록은 명시한 과제 경로의 자체 분석이며 성취기준 전체의 보편적 선행 숙달을 주장하지 않는다.",
+      "evidence_kind": "수학적 자체 분석",
+      "source_ids": [
+        "CURRICULUM_2022_33"
+      ],
+      "status": "초안",
+      "review_state": "self_checked",
+      "independent_review": false,
+      "student_validated": false,
+      "hierarchy_review": "self_checked",
+      "review_history": [
+        {
+          "date": "2026-10-30",
+          "reviewer": "Codex",
+          "kind": "self_check",
+          "scope": "표의 행·열 의미를 유지해 행렬의 덧셈과 곱셈을 해석하는 경로",
+          "method": "정의·예시 풀이·경계 조건·대안 경로 대조"
+        }
+      ],
+      "authored_from": "data/hierarchy_common_claims.json"
+    },
+    {
+      "id": "HC-common-sets-include",
+      "from": "standard:10공수2-02-01",
+      "to": "standard:10공수2-02-02",
+      "type": "requires_for_task",
+      "scope": "원소 조건을 대조하여 집합의 포함관계를 판단하는 경로",
+      "rationale": "A⊆B는 A의 모든 원소가 B에도 속한다는 주장이다. 한 원소의 소속 여부와 집합 전체의 포함을 구별해야 한다.",
+      "conditions": [
+        "두 집합을 같은 전체집합 안에서 비교한다.",
+        "공집합과 집합 자체도 부분집합에 포함한다."
+      ],
+      "diagnostic": "A={1,2}, B={1,2,3}에서 1∈A, {1}⊆A, A⊆B를 구별한다.",
+      "expected_response": "1은 원소이고 {1}은 집합이며 A의 모든 원소가 B에 속한다.",
+      "alternative_route": "조건제시법으로 직접 함의를 검사하는 경로도 가능하다.",
+      "additional_learning": [],
+      "limit": "조건제시법으로 직접 함의를 검사하는 경로도 가능하다. 이 기록은 명시한 과제 경로의 자체 분석이며 성취기준 전체의 보편적 선행 숙달을 주장하지 않는다.",
+      "evidence_kind": "수학적 자체 분석",
+      "source_ids": [
+        "CURRICULUM_2022_33"
+      ],
+      "status": "초안",
+      "review_state": "self_checked",
+      "independent_review": false,
+      "student_validated": false,
+      "hierarchy_review": "self_checked",
+      "review_history": [
+        {
+          "date": "2026-10-30",
+          "reviewer": "Codex",
+          "kind": "self_check",
+          "scope": "원소 조건을 대조하여 집합의 포함관계를 판단하는 경로",
+          "method": "정의·예시 풀이·경계 조건·대안 경로 대조"
+        }
+      ],
+      "authored_from": "data/hierarchy_common_claims.json"
+    },
+    {
+      "id": "HC-common-sets-operation",
+      "from": "standard:10공수2-02-01",
+      "to": "standard:10공수2-02-03",
+      "type": "requires_for_task",
+      "scope": "원소의 소속 조건을 이용하여 집합 연산을 정의하고 벤 다이어그램과 대응하는 경로",
+      "rationale": "교집합은 두 조건을 모두 만족하는 원소, 합집합은 적어도 하나를 만족하는 원소다. 여집합은 정한 전체집합 안에서 해당 조건을 만족하지 않는 원소다.",
+      "conditions": [
+        "여집합을 다루면 전체집합을 먼저 정한다."
+      ],
+      "diagnostic": "U={1,2,3,4}, A={1,2}, B={2,3}에서 A∩B, A∪B, A의 여집합을 구한다.",
+      "expected_response": "각각 {2}, {1,2,3}, {3,4}다. 여집합은 U에 의존한다.",
+      "alternative_route": "그림에서 공통 부분을 먼저 찾아 조건으로 표현하는 역방향 활동도 가능하다.",
+      "additional_learning": [],
+      "limit": "그림에서 공통 부분을 먼저 찾아 조건으로 표현하는 역방향 활동도 가능하다. 이 기록은 명시한 과제 경로의 자체 분석이며 성취기준 전체의 보편적 선행 숙달을 주장하지 않는다.",
+      "evidence_kind": "수학적 자체 분석",
+      "source_ids": [
+        "CURRICULUM_2022_33"
+      ],
+      "status": "초안",
+      "review_state": "self_checked",
+      "independent_review": false,
+      "student_validated": false,
+      "hierarchy_review": "self_checked",
+      "review_history": [
+        {
+          "date": "2026-10-30",
+          "reviewer": "Codex",
+          "kind": "self_check",
+          "scope": "원소의 소속 조건을 이용하여 집합 연산을 정의하고 벤 다이어그램과 대응하는 경로",
+          "method": "정의·예시 풀이·경계 조건·대안 경로 대조"
+        }
+      ],
+      "authored_from": "data/hierarchy_common_claims.json"
+    },
+    {
+      "id": "HC-common-logic",
+      "from": "standard:10공수2-02-04",
+      "to": "standard:10공수2-02-05",
+      "type": "requires_for_task",
+      "scope": "명제 p→q의 조건과 결론을 분리하여 역과 대우를 만드는 경로",
+      "rationale": "역은 q→p이고 대우는 ¬q→¬p다. 조건과 결론을 구별해야 뒤바꿈과 부정이 각각 무엇을 바꾸는지 추적할 수 있다.",
+      "conditions": [
+        "변수의 범위와 부정의 대상을 유지한다."
+      ],
+      "diagnostic": "정수에서 x가 4의 배수이면 짝수라는 명제의 역과 대우를 쓰고 참·거짓을 판단한다.",
+      "expected_response": "역은 짝수이면 4의 배수로 거짓(2가 반례), 대우는 홀수이면 4의 배수가 아님으로 참이다.",
+      "alternative_route": "진리표나 조건을 만족하는 집합으로 대조할 수도 있다.",
+      "additional_learning": [],
+      "limit": "진리표나 조건을 만족하는 집합으로 대조할 수도 있다. 이 기록은 명시한 과제 경로의 자체 분석이며 성취기준 전체의 보편적 선행 숙달을 주장하지 않는다.",
+      "evidence_kind": "수학적 자체 분석",
+      "source_ids": [
+        "CURRICULUM_2022_33"
+      ],
+      "status": "초안",
+      "review_state": "self_checked",
+      "independent_review": false,
+      "student_validated": false,
+      "hierarchy_review": "self_checked",
+      "review_history": [
+        {
+          "date": "2026-10-30",
+          "reviewer": "Codex",
+          "kind": "self_check",
+          "scope": "명제 p→q의 조건과 결론을 분리하여 역과 대우를 만드는 경로",
+          "method": "정의·예시 풀이·경계 조건·대안 경로 대조"
+        }
+      ],
+      "authored_from": "data/hierarchy_common_claims.json"
+    },
+    {
+      "id": "HC-common-inverse",
+      "from": "standard:10공수2-03-01",
+      "to": "standard:10공수2-03-03",
+      "type": "requires_for_task",
+      "scope": "함수의 입력·출력을 뒤집고 역대응이 함수인지 검사하는 경로",
+      "rationale": "역대응을 함수로 만들려면 원래 함수의 각 출력에 대응하는 입력이 하나여야 한다. 원래 정의역과 공역을 함께 기록해야 역함수의 정의역과 공역을 정할 수 있다.",
+      "conditions": [
+        "선택한 정의역에서 일대일이고 공역의 모든 원소가 실제 출력인 경우를 다룬다."
+      ],
+      "diagnostic": "f(x)=x²에서 정의역이 실수 전체인 경우와 x≥0인 경우의 역대응을 비교한다.",
+      "expected_response": "실수 전체에서는 4의 입력이 ±2로 유일하지 않다. 정의역과 공역을 [0,∞)로 두면 역함수는 √x다.",
+      "alternative_route": "식을 풀어 입력을 복원하거나 그래프를 y=x에 대칭시키는 경로를 비교한다.",
+      "additional_learning": [],
+      "limit": "식을 풀어 입력을 복원하거나 그래프를 y=x에 대칭시키는 경로를 비교한다. 이 기록은 명시한 과제 경로의 자체 분석이며 성취기준 전체의 보편적 선행 숙달을 주장하지 않는다.",
+      "evidence_kind": "수학적 자체 분석",
+      "source_ids": [
+        "CURRICULUM_2022_33"
+      ],
+      "status": "초안",
+      "review_state": "self_checked",
+      "independent_review": false,
+      "student_validated": false,
+      "hierarchy_review": "self_checked",
+      "review_history": [
+        {
+          "date": "2026-10-30",
+          "reviewer": "Codex",
+          "kind": "self_check",
+          "scope": "함수의 입력·출력을 뒤집고 역대응이 함수인지 검사하는 경로",
+          "method": "정의·예시 풀이·경계 조건·대안 경로 대조"
+        }
+      ],
+      "authored_from": "data/hierarchy_common_claims.json"
+    },
+    {
+      "id": "HC-common-absolute",
+      "from": "standard:9수02-12",
+      "to": "standard:10공수1-02-10",
+      "type": "requires_for_task",
+      "scope": "절댓값을 부호별 일차식으로 나누어 일차부등식을 푸는 경로",
+      "rationale": "x≥1에서는 |x-1|=x-1, x<1에서는 1-x다. 각 일차부등식의 해를 해당 분기의 조건과 교차한 뒤 합친다.",
+      "conditions": [
+        "부호 분기의 경계와 등호 포함 여부를 보존한다."
+      ],
+      "diagnostic": "|x-1|<2의 해를 두 부호 분기로 구하고 |x-1|<0과 비교한다.",
+      "expected_response": "두 분기를 합하면 -1<x<3이다. 음수가 될 수 없는 절댓값이 0보다 작을 수 없어 둘째 해는 없다.",
+      "alternative_route": "수직선 위에서 1까지의 거리로 해석하는 대안에서는 식의 부호 분기를 먼저 수행할 필요가 없다.",
+      "additional_learning": [],
+      "limit": "수직선 위에서 1까지의 거리로 해석하는 대안에서는 식의 부호 분기를 먼저 수행할 필요가 없다. 이 기록은 명시한 과제 경로의 자체 분석이며 성취기준 전체의 보편적 선행 숙달을 주장하지 않는다.",
+      "evidence_kind": "수학적 자체 분석",
+      "source_ids": [
+        "CURRICULUM_2022_33"
+      ],
+      "status": "초안",
+      "review_state": "self_checked",
+      "independent_review": false,
+      "student_validated": false,
+      "hierarchy_review": "self_checked",
+      "review_history": [
+        {
+          "date": "2026-10-30",
+          "reviewer": "Codex",
+          "kind": "self_check",
+          "scope": "절댓값을 부호별 일차식으로 나누어 일차부등식을 푸는 경로",
+          "method": "정의·예시 풀이·경계 조건·대안 경로 대조"
+        }
+      ],
+      "authored_from": "data/hierarchy_common_claims.json"
+    },
+    {
+      "id": "HC-common-translation",
+      "from": "standard:9수02-05",
+      "to": "standard:10공수2-01-06",
+      "type": "requires_for_task",
+      "scope": "점의 좌표 변화를 먼저 구한 뒤 도형의 평행이동을 식으로 설명하는 경로",
+      "rationale": "(x,y)를 (x+h,y+k)로 옮길 때 새 점 (X,Y)는 X=x+h, Y=y+k다. 원래 식에 x=X-h,y=Y-k를 대입하여 이동한 도형의 식을 구한다.",
+      "conditions": [
+        "좌표축을 옮기는 활동과 점·도형을 옮기는 활동을 구별한다."
+      ],
+      "diagnostic": "점 (1,2)를 오른쪽 3, 아래 1만큼 옮기고 y=x²를 같은 만큼 옮긴 식을 쓴다.",
+      "expected_response": "점은 (4,1)이고 도형은 Y=(X-3)²-1이다. 점의 이동 부호와 식의 대입 부호를 구별한다.",
+      "alternative_route": "도형의 대응점을 여러 개 표시하고 규칙을 추측한 뒤 대입으로 확인할 수도 있다.",
+      "additional_learning": [],
+      "limit": "도형의 대응점을 여러 개 표시하고 규칙을 추측한 뒤 대입으로 확인할 수도 있다. 이 기록은 명시한 과제 경로의 자체 분석이며 성취기준 전체의 보편적 선행 숙달을 주장하지 않는다.",
+      "evidence_kind": "수학적 자체 분석",
+      "source_ids": [
+        "CURRICULUM_2022_33"
+      ],
+      "status": "초안",
+      "review_state": "self_checked",
+      "independent_review": false,
+      "student_validated": false,
+      "hierarchy_review": "self_checked",
+      "review_history": [
+        {
+          "date": "2026-10-30",
+          "reviewer": "Codex",
+          "kind": "self_check",
+          "scope": "점의 좌표 변화를 먼저 구한 뒤 도형의 평행이동을 식으로 설명하는 경로",
+          "method": "정의·예시 풀이·경계 조건·대안 경로 대조"
+        }
+      ],
+      "authored_from": "data/hierarchy_common_claims.json"
+    },
+    {
+      "id": "HC-basic-factor",
+      "from": "standard:10기수1-01-02",
+      "to": "standard:10기수1-01-03",
+      "type": "requires_for_task",
+      "scope": "다항식 곱셈을 거꾸로 읽고 전개로 검산하는 인수분해 경로",
+      "rationale": "전개와 인수분해는 같은 다항식을 합과 곱으로 다르게 표현한다. x²+5x+6=(x+2)(x+3)은 오른쪽의 모든 부분곱을 전개해 확인한다.",
+      "conditions": [
+        "다항식의 계수 범위를 정하고, 선택한 범위에서 인수분해한다."
+      ],
+      "diagnostic": "(x+2)(x+3)을 전개하고 x²+5x+6에서 5와 6이 어떻게 생기는지 설명한다.",
+      "expected_response": "일차항 계수는 2+3이고 상수항은 2×3이다.",
+      "alternative_route": "모형이나 넓이 분할에서 곱 구조를 먼저 발견할 수도 있다. 전개 검산 경로의 조건이다.",
+      "additional_learning": [],
+      "limit": "모형이나 넓이 분할에서 곱 구조를 먼저 발견할 수도 있다. 전개 검산 경로의 조건이다. 이 기록은 명시한 과제 경로의 자체 분석이며 성취기준 전체의 보편적 선행 숙달을 주장하지 않는다.",
+      "evidence_kind": "수학적 자체 분석",
+      "source_ids": [
+        "CURRICULUM_2022_33"
+      ],
+      "status": "초안",
+      "review_state": "self_checked",
+      "independent_review": false,
+      "student_validated": false,
+      "hierarchy_review": "self_checked",
+      "review_history": [
+        {
+          "date": "2026-10-30",
+          "reviewer": "Codex",
+          "kind": "self_check",
+          "scope": "다항식 곱셈을 거꾸로 읽고 전개로 검산하는 인수분해 경로",
+          "method": "정의·예시 풀이·경계 조건·대안 경로 대조"
+        }
+      ],
+      "authored_from": "data/hierarchy_common_claims.json"
+    },
+    {
+      "id": "HC-basic-matrix",
+      "from": "standard:10기수1-04-01",
+      "to": "standard:10기수1-04-02",
+      "type": "requires_for_task",
+      "scope": "표의 행·열 의미를 유지해 행렬의 덧셈과 곱셈을 해석하는 경로",
+      "rationale": "덧셈은 같은 의미의 자리끼리 결합한다. 곱셈의 (i,j) 성분은 첫 행렬의 i행과 둘째 행렬의 j열의 곱들의 합이므로 안쪽 차원과 대응 대상이 같아야 한다.",
+      "conditions": [
+        "덧셈은 두 행렬의 크기가 같고, 곱셈은 첫 열 수와 둘째 행 수가 같다.",
+        "행과 열이 각각 나타내는 대상을 명시한다. 곱셈은 교육과정의 크기 범위 안에서 다룬다."
+      ],
+      "diagnostic": "A=[[1,2],[0,1]], B=[[2,0],[3,1]]에서 AB와 BA를 비교한다.",
+      "expected_response": "AB=[[8,2],[3,1]], BA=[[2,4],[3,7]]이다. 일반적으로 교환법칙이 성립하지 않는다.",
+      "alternative_route": "수치 행렬의 계산에서 출발할 수도 있다. 표의 의미가 모든 수치 계산의 필수 선행 경험이라는 뜻은 아니다.",
+      "additional_learning": [],
+      "limit": "수치 행렬의 계산에서 출발할 수도 있다. 표의 의미가 모든 수치 계산의 필수 선행 경험이라는 뜻은 아니다. 이 기록은 명시한 과제 경로의 자체 분석이며 성취기준 전체의 보편적 선행 숙달을 주장하지 않는다.",
+      "evidence_kind": "수학적 자체 분석",
+      "source_ids": [
+        "CURRICULUM_2022_33"
+      ],
+      "status": "초안",
+      "review_state": "self_checked",
+      "independent_review": false,
+      "student_validated": false,
+      "hierarchy_review": "self_checked",
+      "review_history": [
+        {
+          "date": "2026-10-30",
+          "reviewer": "Codex",
+          "kind": "self_check",
+          "scope": "표의 행·열 의미를 유지해 행렬의 덧셈과 곱셈을 해석하는 경로",
+          "method": "정의·예시 풀이·경계 조건·대안 경로 대조"
+        }
+      ],
+      "authored_from": "data/hierarchy_common_claims.json"
+    },
+    {
+      "id": "HC-basic-sets-include",
+      "from": "standard:10기수2-02-01",
+      "to": "standard:10기수2-02-02",
+      "type": "requires_for_task",
+      "scope": "원소 조건을 대조하여 집합의 포함관계를 판단하는 경로",
+      "rationale": "A⊆B는 A의 모든 원소가 B에도 속한다는 주장이다. 한 원소의 소속 여부와 집합 전체의 포함을 구별해야 한다.",
+      "conditions": [
+        "두 집합을 같은 전체집합 안에서 비교한다.",
+        "공집합과 집합 자체도 부분집합에 포함한다."
+      ],
+      "diagnostic": "A={1,2}, B={1,2,3}에서 1∈A, {1}⊆A, A⊆B를 구별한다.",
+      "expected_response": "1은 원소이고 {1}은 집합이며 A의 모든 원소가 B에 속한다.",
+      "alternative_route": "조건제시법으로 직접 함의를 검사하는 경로도 가능하다.",
+      "additional_learning": [],
+      "limit": "조건제시법으로 직접 함의를 검사하는 경로도 가능하다. 이 기록은 명시한 과제 경로의 자체 분석이며 성취기준 전체의 보편적 선행 숙달을 주장하지 않는다.",
+      "evidence_kind": "수학적 자체 분석",
+      "source_ids": [
+        "CURRICULUM_2022_33"
+      ],
+      "status": "초안",
+      "review_state": "self_checked",
+      "independent_review": false,
+      "student_validated": false,
+      "hierarchy_review": "self_checked",
+      "review_history": [
+        {
+          "date": "2026-10-30",
+          "reviewer": "Codex",
+          "kind": "self_check",
+          "scope": "원소 조건을 대조하여 집합의 포함관계를 판단하는 경로",
+          "method": "정의·예시 풀이·경계 조건·대안 경로 대조"
+        }
+      ],
+      "authored_from": "data/hierarchy_common_claims.json"
+    },
+    {
+      "id": "HC-basic-sets-operation",
+      "from": "standard:10기수2-02-01",
+      "to": "standard:10기수2-02-03",
+      "type": "requires_for_task",
+      "scope": "원소의 소속 조건을 이용하여 집합 연산을 정의하고 벤 다이어그램과 대응하는 경로",
+      "rationale": "교집합은 두 조건을 모두 만족하는 원소, 합집합은 적어도 하나를 만족하는 원소다. 여집합은 정한 전체집합 안에서 해당 조건을 만족하지 않는 원소다.",
+      "conditions": [
+        "여집합을 다루면 전체집합을 먼저 정한다."
+      ],
+      "diagnostic": "U={1,2,3,4}, A={1,2}, B={2,3}에서 A∩B, A∪B, A의 여집합을 구한다.",
+      "expected_response": "각각 {2}, {1,2,3}, {3,4}다. 여집합은 U에 의존한다.",
+      "alternative_route": "그림에서 공통 부분을 먼저 찾아 조건으로 표현하는 역방향 활동도 가능하다.",
+      "additional_learning": [],
+      "limit": "그림에서 공통 부분을 먼저 찾아 조건으로 표현하는 역방향 활동도 가능하다. 이 기록은 명시한 과제 경로의 자체 분석이며 성취기준 전체의 보편적 선행 숙달을 주장하지 않는다.",
+      "evidence_kind": "수학적 자체 분석",
+      "source_ids": [
+        "CURRICULUM_2022_33"
+      ],
+      "status": "초안",
+      "review_state": "self_checked",
+      "independent_review": false,
+      "student_validated": false,
+      "hierarchy_review": "self_checked",
+      "review_history": [
+        {
+          "date": "2026-10-30",
+          "reviewer": "Codex",
+          "kind": "self_check",
+          "scope": "원소의 소속 조건을 이용하여 집합 연산을 정의하고 벤 다이어그램과 대응하는 경로",
+          "method": "정의·예시 풀이·경계 조건·대안 경로 대조"
+        }
+      ],
+      "authored_from": "data/hierarchy_common_claims.json"
+    },
+    {
+      "id": "HC-basic-logic",
+      "from": "standard:10기수2-02-04",
+      "to": "standard:10기수2-02-05",
+      "type": "requires_for_task",
+      "scope": "명제 p→q의 조건과 결론을 분리하여 역과 대우를 만드는 경로",
+      "rationale": "역은 q→p이고 대우는 ¬q→¬p다. 조건과 결론을 구별해야 뒤바꿈과 부정이 각각 무엇을 바꾸는지 추적할 수 있다.",
+      "conditions": [
+        "변수의 범위와 부정의 대상을 유지한다."
+      ],
+      "diagnostic": "정수에서 x가 4의 배수이면 짝수라는 명제의 역과 대우를 쓰고 참·거짓을 판단한다.",
+      "expected_response": "역은 짝수이면 4의 배수로 거짓(2가 반례), 대우는 홀수이면 4의 배수가 아님으로 참이다.",
+      "alternative_route": "진리표나 조건을 만족하는 집합으로 대조할 수도 있다.",
+      "additional_learning": [],
+      "limit": "진리표나 조건을 만족하는 집합으로 대조할 수도 있다. 이 기록은 명시한 과제 경로의 자체 분석이며 성취기준 전체의 보편적 선행 숙달을 주장하지 않는다.",
+      "evidence_kind": "수학적 자체 분석",
+      "source_ids": [
+        "CURRICULUM_2022_33"
+      ],
+      "status": "초안",
+      "review_state": "self_checked",
+      "independent_review": false,
+      "student_validated": false,
+      "hierarchy_review": "self_checked",
+      "review_history": [
+        {
+          "date": "2026-10-30",
+          "reviewer": "Codex",
+          "kind": "self_check",
+          "scope": "명제 p→q의 조건과 결론을 분리하여 역과 대우를 만드는 경로",
+          "method": "정의·예시 풀이·경계 조건·대안 경로 대조"
+        }
+      ],
+      "authored_from": "data/hierarchy_common_claims.json"
+    },
+    {
+      "id": "HC-basic-inverse",
+      "from": "standard:10기수2-03-01",
+      "to": "standard:10기수2-03-03",
+      "type": "requires_for_task",
+      "scope": "함수의 입력·출력을 뒤집고 역대응이 함수인지 검사하는 경로",
+      "rationale": "역대응을 함수로 만들려면 원래 함수의 각 출력에 대응하는 입력이 하나여야 한다. 원래 정의역과 공역을 함께 기록해야 역함수의 정의역과 공역을 정할 수 있다.",
+      "conditions": [
+        "선택한 정의역에서 일대일이고 공역의 모든 원소가 실제 출력인 경우를 다룬다."
+      ],
+      "diagnostic": "f(x)=x²에서 정의역이 실수 전체인 경우와 x≥0인 경우의 역대응을 비교한다.",
+      "expected_response": "실수 전체에서는 4의 입력이 ±2로 유일하지 않다. 정의역과 공역을 [0,∞)로 두면 역함수는 √x다.",
+      "alternative_route": "식을 풀어 입력을 복원하거나 그래프를 y=x에 대칭시키는 경로를 비교한다.",
+      "additional_learning": [],
+      "limit": "식을 풀어 입력을 복원하거나 그래프를 y=x에 대칭시키는 경로를 비교한다. 이 기록은 명시한 과제 경로의 자체 분석이며 성취기준 전체의 보편적 선행 숙달을 주장하지 않는다.",
+      "evidence_kind": "수학적 자체 분석",
+      "source_ids": [
+        "CURRICULUM_2022_33"
+      ],
+      "status": "초안",
+      "review_state": "self_checked",
+      "independent_review": false,
+      "student_validated": false,
+      "hierarchy_review": "self_checked",
+      "review_history": [
+        {
+          "date": "2026-10-30",
+          "reviewer": "Codex",
+          "kind": "self_check",
+          "scope": "함수의 입력·출력을 뒤집고 역대응이 함수인지 검사하는 경로",
+          "method": "정의·예시 풀이·경계 조건·대안 경로 대조"
+        }
+      ],
+      "authored_from": "data/hierarchy_common_claims.json"
+    },
+    {
+      "id": "HC-basic-absolute",
+      "from": "standard:9수02-12",
+      "to": "standard:10기수1-02-08",
+      "type": "requires_for_task",
+      "scope": "절댓값을 부호별 일차식으로 나누어 일차부등식을 푸는 경로",
+      "rationale": "x≥1에서는 |x-1|=x-1, x<1에서는 1-x다. 각 일차부등식의 해를 해당 분기의 조건과 교차한 뒤 합친다.",
+      "conditions": [
+        "부호 분기의 경계와 등호 포함 여부를 보존한다."
+      ],
+      "diagnostic": "|x-1|<2의 해를 두 부호 분기로 구하고 |x-1|<0과 비교한다.",
+      "expected_response": "두 분기를 합하면 -1<x<3이다. 음수가 될 수 없는 절댓값이 0보다 작을 수 없어 둘째 해는 없다.",
+      "alternative_route": "수직선 위에서 1까지의 거리로 해석하는 대안에서는 식의 부호 분기를 먼저 수행할 필요가 없다.",
+      "additional_learning": [],
+      "limit": "수직선 위에서 1까지의 거리로 해석하는 대안에서는 식의 부호 분기를 먼저 수행할 필요가 없다. 이 기록은 명시한 과제 경로의 자체 분석이며 성취기준 전체의 보편적 선행 숙달을 주장하지 않는다.",
+      "evidence_kind": "수학적 자체 분석",
+      "source_ids": [
+        "CURRICULUM_2022_33"
+      ],
+      "status": "초안",
+      "review_state": "self_checked",
+      "independent_review": false,
+      "student_validated": false,
+      "hierarchy_review": "self_checked",
+      "review_history": [
+        {
+          "date": "2026-10-30",
+          "reviewer": "Codex",
+          "kind": "self_check",
+          "scope": "절댓값을 부호별 일차식으로 나누어 일차부등식을 푸는 경로",
+          "method": "정의·예시 풀이·경계 조건·대안 경로 대조"
+        }
+      ],
+      "authored_from": "data/hierarchy_common_claims.json"
+    },
+    {
+      "id": "HC-basic-translation",
+      "from": "standard:9수02-05",
+      "to": "standard:10기수2-01-06",
+      "type": "requires_for_task",
+      "scope": "점의 좌표 변화를 먼저 구한 뒤 도형의 평행이동을 식으로 설명하는 경로",
+      "rationale": "(x,y)를 (x+h,y+k)로 옮길 때 새 점 (X,Y)는 X=x+h, Y=y+k다. 원래 식에 x=X-h,y=Y-k를 대입하여 이동한 도형의 식을 구한다.",
+      "conditions": [
+        "좌표축을 옮기는 활동과 점·도형을 옮기는 활동을 구별한다."
+      ],
+      "diagnostic": "점 (1,2)를 오른쪽 3, 아래 1만큼 옮기고 y=x²를 같은 만큼 옮긴 식을 쓴다.",
+      "expected_response": "점은 (4,1)이고 도형은 Y=(X-3)²-1이다. 점의 이동 부호와 식의 대입 부호를 구별한다.",
+      "alternative_route": "도형의 대응점을 여러 개 표시하고 규칙을 추측한 뒤 대입으로 확인할 수도 있다.",
+      "additional_learning": [],
+      "limit": "도형의 대응점을 여러 개 표시하고 규칙을 추측한 뒤 대입으로 확인할 수도 있다. 이 기록은 명시한 과제 경로의 자체 분석이며 성취기준 전체의 보편적 선행 숙달을 주장하지 않는다.",
+      "evidence_kind": "수학적 자체 분석",
+      "source_ids": [
+        "CURRICULUM_2022_33"
+      ],
+      "status": "초안",
+      "review_state": "self_checked",
+      "independent_review": false,
+      "student_validated": false,
+      "hierarchy_review": "self_checked",
+      "review_history": [
+        {
+          "date": "2026-10-30",
+          "reviewer": "Codex",
+          "kind": "self_check",
+          "scope": "점의 좌표 변화를 먼저 구한 뒤 도형의 평행이동을 식으로 설명하는 경로",
+          "method": "정의·예시 풀이·경계 조건·대안 경로 대조"
+        }
+      ],
+      "authored_from": "data/hierarchy_common_claims.json"
+    },
+    {
+      "id": "HC-basic-poly-add",
+      "from": "standard:9수02-09",
+      "to": "standard:10기수1-01-01",
+      "type": "generalizes",
+      "scope": "다항식의 동류항 계산을 여러 항의 다항식으로 확장하는 경로",
+      "rationale": "같은 문자와 같은 차수의 항끼리 계수를 더하며, 괄호 앞의 뺄셈은 모든 항에 적용한다.",
+      "conditions": [
+        "동류항의 차수와 문자를 유지한다."
+      ],
+      "diagnostic": "(2x²+x)-(x²-3x)를 간단히 한다.",
+      "expected_response": "x²+4x다. -(-3x)=+3x를 적용한다.",
+      "alternative_route": "부분을 색이나 배열로 대응시키는 설명도 가능하다.",
+      "additional_learning": [],
+      "limit": "부분을 색이나 배열로 대응시키는 설명도 가능하다. 이 기록은 명시한 과제 경로의 자체 분석이며 성취기준 전체의 보편적 선행 숙달을 주장하지 않는다.",
+      "evidence_kind": "수학적 자체 분석",
+      "source_ids": [
+        "CURRICULUM_2022_33"
+      ],
+      "status": "초안",
+      "review_state": "self_checked",
+      "independent_review": false,
+      "student_validated": false,
+      "hierarchy_review": "self_checked",
+      "review_history": [
+        {
+          "date": "2026-10-30",
+          "reviewer": "Codex",
+          "kind": "self_check",
+          "scope": "다항식의 동류항 계산을 여러 항의 다항식으로 확장하는 경로",
+          "method": "정의·예시 풀이·경계 조건·대안 경로 대조"
+        }
+      ],
+      "authored_from": "data/hierarchy_common_claims.json"
+    },
+    {
+      "id": "HC-basic-poly-multiply",
+      "from": "standard:10기수1-01-01",
+      "to": "standard:10기수1-01-02",
+      "type": "requires_for_task",
+      "scope": "분배법칙으로 만든 부분곱의 합을 동류항으로 정리하는 경로",
+      "rationale": "두 다항식의 각 항을 빠짐없이 곱하고 같은 차수 항끼리 모아 곱셈 결과를 얻는다.",
+      "conditions": [
+        "각 부분곱을 한 번씩 포함한다."
+      ],
+      "diagnostic": "(x+2)(x-3)의 두 일차항 부분곱은 무엇인가?",
+      "expected_response": "-3x와 2x이며 합은 -x다. 전체는 x²-x-6이다.",
+      "alternative_route": "넓이 모형이나 세로셈으로 부분곱을 기록할 수도 있다.",
+      "additional_learning": [],
+      "limit": "넓이 모형이나 세로셈으로 부분곱을 기록할 수도 있다. 이 기록은 명시한 과제 경로의 자체 분석이며 성취기준 전체의 보편적 선행 숙달을 주장하지 않는다.",
+      "evidence_kind": "수학적 자체 분석",
+      "source_ids": [
+        "CURRICULUM_2022_33"
+      ],
+      "status": "초안",
+      "review_state": "self_checked",
+      "independent_review": false,
+      "student_validated": false,
+      "hierarchy_review": "self_checked",
+      "review_history": [
+        {
+          "date": "2026-10-30",
+          "reviewer": "Codex",
+          "kind": "self_check",
+          "scope": "분배법칙으로 만든 부분곱의 합을 동류항으로 정리하는 경로",
+          "method": "정의·예시 풀이·경계 조건·대안 경로 대조"
+        }
+      ],
+      "authored_from": "data/hierarchy_common_claims.json"
+    },
+    {
+      "id": "HC-common-vieta",
+      "from": "standard:10공수1-01-01",
+      "to": "standard:10공수1-02-03",
+      "type": "requires_for_task",
+      "scope": "두 근을 사용한 인수형을 전개하여 근과 계수를 대응하는 경로",
+      "rationale": "a(x-α)(x-β)를 전개하면 ax²-a(α+β)x+aαβ이므로 계수를 비교해 α+β=-b/a, αβ=c/a를 얻는다.",
+      "conditions": [
+        "a≠0이며 중근은 두 번 센다. 근의 수 범위는 도착 목표에 맞춘다."
+      ],
+      "diagnostic": "2x²-6x+4의 두 근의 합과 곱은?",
+      "expected_response": "합은 3, 곱은 2다. 인수형 2(x-1)(x-2)와 일치한다.",
+      "alternative_route": "근의 공식을 더하고 곱하는 경로로도 확인할 수 있다.",
+      "additional_learning": [],
+      "limit": "근의 공식을 더하고 곱하는 경로로도 확인할 수 있다. 이 기록은 명시한 과제 경로의 자체 분석이며 성취기준 전체의 보편적 선행 숙달을 주장하지 않는다.",
+      "evidence_kind": "수학적 자체 분석",
+      "source_ids": [
+        "CURRICULUM_2022_33"
+      ],
+      "status": "초안",
+      "review_state": "self_checked",
+      "independent_review": false,
+      "student_validated": false,
+      "hierarchy_review": "self_checked",
+      "review_history": [
+        {
+          "date": "2026-10-30",
+          "reviewer": "Codex",
+          "kind": "self_check",
+          "scope": "두 근을 사용한 인수형을 전개하여 근과 계수를 대응하는 경로",
+          "method": "정의·예시 풀이·경계 조건·대안 경로 대조"
+        }
+      ],
+      "authored_from": "data/hierarchy_common_claims.json"
+    },
+    {
+      "id": "HC-common-line-quadratic",
+      "from": "standard:10공수1-02-04",
+      "to": "standard:10공수1-02-05",
+      "type": "requires_for_task",
+      "scope": "함수식의 차를 0으로 두어 포물선과 직선의 교점을 구하는 경로",
+      "rationale": "y=f(x)와 y=g(x)의 교점은 f(x)-g(x)=0의 실근과 대응한다. 이차식의 판별식 부호로 두 점·접함·만나지 않음을 판단한다.",
+      "conditions": [
+        "f는 이차함수이고 g는 일차함수 또는 상수함수다."
+      ],
+      "diagnostic": "y=x²와 y=2x+t의 교점 개수는 t에 따라 어떻게 달라지는가?",
+      "expected_response": "x²-2x-t=0의 판별식은 4+4t다. t>-1이면 두 점, t=-1이면 접함, t<-1이면 만나지 않는다.",
+      "alternative_route": "그래프의 위치를 관찰하고 방정식으로 확인할 수도 있다.",
+      "additional_learning": [],
+      "limit": "그래프의 위치를 관찰하고 방정식으로 확인할 수도 있다. 이 기록은 명시한 과제 경로의 자체 분석이며 성취기준 전체의 보편적 선행 숙달을 주장하지 않는다.",
+      "evidence_kind": "수학적 자체 분석",
+      "source_ids": [
+        "CURRICULUM_2022_33"
+      ],
+      "status": "초안",
+      "review_state": "self_checked",
+      "independent_review": false,
+      "student_validated": false,
+      "hierarchy_review": "self_checked",
+      "review_history": [
+        {
+          "date": "2026-10-30",
+          "reviewer": "Codex",
+          "kind": "self_check",
+          "scope": "함수식의 차를 0으로 두어 포물선과 직선의 교점을 구하는 경로",
+          "method": "정의·예시 풀이·경계 조건·대안 경로 대조"
+        }
+      ],
+      "authored_from": "data/hierarchy_common_claims.json"
+    },
+    {
+      "id": "HC-10공수1-maximum",
+      "from": "standard:10공수1-02-04",
+      "to": "standard:10공수1-02-06",
+      "type": "requires_for_task",
+      "scope": "완전제곱식과 정의역을 사용해 이차함수의 최대·최소를 판단하는 경로",
+      "rationale": "a(x-p)²+q에서 제곱항의 부호와 꼭짓점의 정의역 포함 여부를 함께 확인한다. 제한된 구간에서는 끝점도 비교한다.",
+      "conditions": [
+        "a≠0이고 문제에서 허용한 x의 범위를 명시한다."
+      ],
+      "diagnostic": "f(x)=(x-2)²+1에서 0≤x≤1일 때 최소와 최대는?",
+      "expected_response": "이 구간에는 꼭짓점 2가 없다. 최소는 f(1)=2, 최대는 f(0)=5다.",
+      "alternative_route": "수치표·그래프·제곱항 비교를 대조한다. 실수 전체의 최솟값 1을 제한 구간에 그대로 적용하지 않는다.",
+      "additional_learning": [],
+      "limit": "수치표·그래프·제곱항 비교를 대조한다. 실수 전체의 최솟값 1을 제한 구간에 그대로 적용하지 않는다. 이 기록은 명시한 과제 경로의 자체 분석이며 성취기준 전체의 보편적 선행 숙달을 주장하지 않는다.",
+      "evidence_kind": "수학적 자체 분석",
+      "source_ids": [
+        "CURRICULUM_2022_33"
+      ],
+      "status": "초안",
+      "review_state": "self_checked",
+      "independent_review": false,
+      "student_validated": false,
+      "hierarchy_review": "self_checked",
+      "review_history": [
+        {
+          "date": "2026-10-30",
+          "reviewer": "Codex",
+          "kind": "self_check",
+          "scope": "완전제곱식과 정의역을 사용해 이차함수의 최대·최소를 판단하는 경로",
+          "method": "정의·예시 풀이·경계 조건·대안 경로 대조"
+        }
+      ],
+      "authored_from": "data/hierarchy_common_claims.json"
+    },
+    {
+      "id": "HC-10기수1-maximum",
+      "from": "standard:10기수1-02-03",
+      "to": "standard:10기수1-02-05",
+      "type": "requires_for_task",
+      "scope": "완전제곱식과 정의역을 사용해 이차함수의 최대·최소를 판단하는 경로",
+      "rationale": "a(x-p)²+q에서 제곱항의 부호와 꼭짓점의 정의역 포함 여부를 함께 확인한다. 제한된 구간에서는 끝점도 비교한다.",
+      "conditions": [
+        "a≠0이고 문제에서 허용한 x의 범위를 명시한다."
+      ],
+      "diagnostic": "f(x)=(x-2)²+1에서 0≤x≤1일 때 최소와 최대는?",
+      "expected_response": "이 구간에는 꼭짓점 2가 없다. 최소는 f(1)=2, 최대는 f(0)=5다.",
+      "alternative_route": "수치표·그래프·제곱항 비교를 대조한다. 실수 전체의 최솟값 1을 제한 구간에 그대로 적용하지 않는다.",
+      "additional_learning": [],
+      "limit": "수치표·그래프·제곱항 비교를 대조한다. 실수 전체의 최솟값 1을 제한 구간에 그대로 적용하지 않는다. 이 기록은 명시한 과제 경로의 자체 분석이며 성취기준 전체의 보편적 선행 숙달을 주장하지 않는다.",
+      "evidence_kind": "수학적 자체 분석",
+      "source_ids": [
+        "CURRICULUM_2022_33"
+      ],
+      "status": "초안",
+      "review_state": "self_checked",
+      "independent_review": false,
+      "student_validated": false,
+      "hierarchy_review": "self_checked",
+      "review_history": [
+        {
+          "date": "2026-10-30",
+          "reviewer": "Codex",
+          "kind": "self_check",
+          "scope": "완전제곱식과 정의역을 사용해 이차함수의 최대·최소를 판단하는 경로",
+          "method": "정의·예시 풀이·경계 조건·대안 경로 대조"
+        }
+      ],
+      "authored_from": "data/hierarchy_common_claims.json"
+    },
+    {
+      "id": "HC-common-higher-equation",
+      "from": "standard:10공수1-01-03",
+      "to": "standard:10공수1-02-07",
+      "type": "requires_for_task",
+      "scope": "인수분해하여 곱이 0인 조건을 적용하는 고차방정식 풀이 경로",
+      "rationale": "고차식을 일차·이차 인수의 곱으로 바꾸면 각 인수가 0인 경우를 합쳐 해를 구한다. 인수로 나누면 그 인수가 0인 해를 잃을 수 있다.",
+      "conditions": [
+        "교육과정에서 다루는 간단한 인수분해 가능한 삼차·사차식을 선택한다."
+      ],
+      "diagnostic": "x³-x=0을 x로 나누어 x²=1만 풀어도 되는가?",
+      "expected_response": "아니다. x(x-1)(x+1)=0이므로 -1,0,1이며 x=0을 보존한다.",
+      "alternative_route": "복이차식은 x²=t로 치환하는 경로도 가능하며 치환값의 범위를 확인한다.",
+      "additional_learning": [],
+      "limit": "복이차식은 x²=t로 치환하는 경로도 가능하며 치환값의 범위를 확인한다. 이 기록은 명시한 과제 경로의 자체 분석이며 성취기준 전체의 보편적 선행 숙달을 주장하지 않는다.",
+      "evidence_kind": "수학적 자체 분석",
+      "source_ids": [
+        "CURRICULUM_2022_33"
+      ],
+      "status": "초안",
+      "review_state": "self_checked",
+      "independent_review": false,
+      "student_validated": false,
+      "hierarchy_review": "self_checked",
+      "review_history": [
+        {
+          "date": "2026-10-30",
+          "reviewer": "Codex",
+          "kind": "self_check",
+          "scope": "인수분해하여 곱이 0인 조건을 적용하는 고차방정식 풀이 경로",
+          "method": "정의·예시 풀이·경계 조건·대안 경로 대조"
+        }
+      ],
+      "authored_from": "data/hierarchy_common_claims.json"
+    },
+    {
+      "id": "HC-common-quadratic-system",
+      "from": "standard:10공수1-02-02",
+      "to": "standard:10공수1-02-08",
+      "type": "requires_for_task",
+      "scope": "대입하여 한 미지수의 이차방정식으로 줄이는 연립방정식 경로",
+      "rationale": "일차식에서 한 변수를 표현해 이차식에 대입하고, 얻은 근마다 다른 변수의 값을 복원하여 두 원식에 모두 대입한다.",
+      "conditions": [
+        "한 일차식과 한 이차식인 간단한 경우를 선택한다."
+      ],
+      "diagnostic": "x+y=3, x²+y²=5의 해를 구한다.",
+      "expected_response": "y=3-x를 대입하면 x²-3x+2=0이다. 해는 (1,2),(2,1)이며 두 원식에 대입한다.",
+      "alternative_route": "합과 곱으로 정리하거나 두 그래프의 교점을 이용하는 경로도 가능하다.",
+      "additional_learning": [],
+      "limit": "합과 곱으로 정리하거나 두 그래프의 교점을 이용하는 경로도 가능하다. 이 기록은 명시한 과제 경로의 자체 분석이며 성취기준 전체의 보편적 선행 숙달을 주장하지 않는다.",
+      "evidence_kind": "수학적 자체 분석",
+      "source_ids": [
+        "CURRICULUM_2022_33"
+      ],
+      "status": "초안",
+      "review_state": "self_checked",
+      "independent_review": false,
+      "student_validated": false,
+      "hierarchy_review": "self_checked",
+      "review_history": [
+        {
+          "date": "2026-10-30",
+          "reviewer": "Codex",
+          "kind": "self_check",
+          "scope": "대입하여 한 미지수의 이차방정식으로 줄이는 연립방정식 경로",
+          "method": "정의·예시 풀이·경계 조건·대안 경로 대조"
+        }
+      ],
+      "authored_from": "data/hierarchy_common_claims.json"
+    },
+    {
+      "id": "HC-common-point-line",
+      "from": "standard:10공수2-01-02",
+      "to": "standard:10공수2-01-03",
+      "type": "requires_for_task",
+      "scope": "수선의 발을 구해 점과 직선 사이 거리를 계산하는 경로",
+      "rationale": "주어진 점을 지나는 수직인 직선과 원래 직선의 교점을 수선의 발로 잡고 두 점 사이 거리를 구한다.",
+      "conditions": [
+        "ax+by+c=0에서 a,b가 동시에 0이 아니다.",
+        "기울기로 나눌 수 없는 수직선·수평선은 좌표로 직접 처리한다."
+      ],
+      "diagnostic": "점 (0,0)에서 직선 3x+4y-5=0까지 거리는?",
+      "expected_response": "수선의 발은 (3/5,4/5)이며 거리는 1이다. 거리 공식 |−5|/√25와 같다.",
+      "alternative_route": "넓이 비교나 법선벡터를 이용한 유도도 가능하다. 수직선·수평선에 기울기 곱 -1을 강제하지 않는다.",
+      "additional_learning": [],
+      "limit": "넓이 비교나 법선벡터를 이용한 유도도 가능하다. 수직선·수평선에 기울기 곱 -1을 강제하지 않는다. 이 기록은 명시한 과제 경로의 자체 분석이며 성취기준 전체의 보편적 선행 숙달을 주장하지 않는다.",
+      "evidence_kind": "수학적 자체 분석",
+      "source_ids": [
+        "CURRICULUM_2022_33"
+      ],
+      "status": "초안",
+      "review_state": "self_checked",
+      "independent_review": false,
+      "student_validated": false,
+      "hierarchy_review": "self_checked",
+      "review_history": [
+        {
+          "date": "2026-10-30",
+          "reviewer": "Codex",
+          "kind": "self_check",
+          "scope": "수선의 발을 구해 점과 직선 사이 거리를 계산하는 경로",
+          "method": "정의·예시 풀이·경계 조건·대안 경로 대조"
+        }
+      ],
+      "authored_from": "data/hierarchy_common_claims.json"
+    },
+    {
+      "id": "HC-common-sufficient",
+      "from": "standard:10공수2-02-04",
+      "to": "standard:10공수2-02-06",
+      "type": "requires_for_task",
+      "scope": "조건의 함의 방향을 검사해 충분·필요조건을 판정하는 경로",
+      "rationale": "p→q가 참이면 p는 q의 충분조건, q는 p의 필요조건이다. 필요충분조건은 양방향을 확인한다.",
+      "conditions": [
+        "변수의 범위를 고정하고 반례를 같은 범위에서 찾는다."
+      ],
+      "diagnostic": "정수에서 4의 배수인 것과 짝수인 것의 충분·필요 관계는?",
+      "expected_response": "4의 배수는 짝수이기 위한 충분조건이며 짝수는 4의 배수이기 위한 필요조건이다. 역은 2로 반박한다.",
+      "alternative_route": "조건을 만족하는 집합의 포함관계로도 판단할 수 있다.",
+      "additional_learning": [],
+      "limit": "조건을 만족하는 집합의 포함관계로도 판단할 수 있다. 이 기록은 명시한 과제 경로의 자체 분석이며 성취기준 전체의 보편적 선행 숙달을 주장하지 않는다.",
+      "evidence_kind": "수학적 자체 분석",
+      "source_ids": [
+        "CURRICULUM_2022_33"
+      ],
+      "status": "초안",
+      "review_state": "self_checked",
+      "independent_review": false,
+      "student_validated": false,
+      "hierarchy_review": "self_checked",
+      "review_history": [
+        {
+          "date": "2026-10-30",
+          "reviewer": "Codex",
+          "kind": "self_check",
+          "scope": "조건의 함의 방향을 검사해 충분·필요조건을 판정하는 경로",
+          "method": "정의·예시 풀이·경계 조건·대안 경로 대조"
+        }
+      ],
+      "authored_from": "data/hierarchy_common_claims.json"
+    },
+    {
+      "id": "HC-common-contrapositive-proof",
+      "from": "standard:10공수2-02-05",
+      "to": "standard:10공수2-02-07",
+      "type": "requires_for_task",
+      "scope": "대우를 증명하여 원래 명제의 참을 보이는 경로",
+      "rationale": "p→q와 ¬q→¬p는 논리적으로 동치다. 원명제의 역을 증명하는 것과 구별한다.",
+      "conditions": [
+        "명제의 범위와 부정을 정확히 적는다."
+      ],
+      "diagnostic": "정수 n에서 n²이 짝수이면 n이 짝수임을 대우로 설명한다.",
+      "expected_response": "n=2k+1이면 n²=2(2k²+2k)+1로 홀수다. 따라서 원명제의 대우가 참이다.",
+      "alternative_route": "직접증명이나 귀류법을 선택할 수도 있다. 귀류법에서는 결론의 부정을 추가한 전체 가정에서 모순을 도출한다.",
+      "additional_learning": [],
+      "limit": "직접증명이나 귀류법을 선택할 수도 있다. 귀류법에서는 결론의 부정을 추가한 전체 가정에서 모순을 도출한다. 이 기록은 명시한 과제 경로의 자체 분석이며 성취기준 전체의 보편적 선행 숙달을 주장하지 않는다.",
+      "evidence_kind": "수학적 자체 분석",
+      "source_ids": [
+        "CURRICULUM_2022_33"
+      ],
+      "status": "초안",
+      "review_state": "self_checked",
+      "independent_review": false,
+      "student_validated": false,
+      "hierarchy_review": "self_checked",
+      "review_history": [
+        {
+          "date": "2026-10-30",
+          "reviewer": "Codex",
+          "kind": "self_check",
+          "scope": "대우를 증명하여 원래 명제의 참을 보이는 경로",
+          "method": "정의·예시 풀이·경계 조건·대안 경로 대조"
+        }
+      ],
+      "authored_from": "data/hierarchy_common_claims.json"
+    },
+    {
+      "id": "HC-common-absolute-inequality",
+      "from": "standard:10공수1-01-01",
+      "to": "standard:10공수2-02-08",
+      "type": "requires_for_task",
+      "scope": "다항식 전개와 제곱의 비음수성을 이용해 절대부등식을 증명하는 경로",
+      "rationale": "(a-b)²≥0을 전개하면 a²+b²≥2ab이다. 항을 정리할 때 동치 관계를 보존하고 등호 조건을 추적한다.",
+      "conditions": [
+        "a,b는 실수다. 제곱이 비음수라는 성질을 사용한다."
+      ],
+      "diagnostic": "a²+b²≥2ab의 등호는 언제 성립하는가?",
+      "expected_response": "(a-b)²=0인 a=b일 때이며, 양수에 한정할 필요는 없다.",
+      "alternative_route": "기하적 넓이 비교 경로에서는 표현 범위를 별도로 정한다. 특정 예들의 성립만으로 일반 증명을 대신하지 않는다.",
+      "additional_learning": [],
+      "limit": "기하적 넓이 비교 경로에서는 표현 범위를 별도로 정한다. 특정 예들의 성립만으로 일반 증명을 대신하지 않는다. 이 기록은 명시한 과제 경로의 자체 분석이며 성취기준 전체의 보편적 선행 숙달을 주장하지 않는다.",
+      "evidence_kind": "수학적 자체 분석",
+      "source_ids": [
+        "CURRICULUM_2022_33"
+      ],
+      "status": "초안",
+      "review_state": "self_checked",
+      "independent_review": false,
+      "student_validated": false,
+      "hierarchy_review": "self_checked",
+      "review_history": [
+        {
+          "date": "2026-10-30",
+          "reviewer": "Codex",
+          "kind": "self_check",
+          "scope": "다항식 전개와 제곱의 비음수성을 이용해 절대부등식을 증명하는 경로",
+          "method": "정의·예시 풀이·경계 조건·대안 경로 대조"
+        }
+      ],
+      "authored_from": "data/hierarchy_common_claims.json"
+    },
+    {
+      "id": "HC-common-radical-function",
+      "from": "standard:10공수2-03-01",
+      "to": "standard:10공수2-03-05",
+      "type": "requires_for_task",
+      "scope": "제곱근 식의 실수 정의역과 입력·출력 대응으로 그래프를 그리는 경로",
+      "rationale": "제곱근 내부가 비음수인 입력만 허용하고 √(ax+b)는 비음수인 값을 선택한다. 상수 c를 더하면 출력 범위가 함께 이동한다.",
+      "conditions": [
+        "실수 범위에서 ax+b≥0을 만족하는 입력을 다룬다.",
+        "a=0이면 정의 가능한 상수함수 또는 실수 입력이 없는 경우를 따로 확인한다."
+      ],
+      "diagnostic": "y=√(2x-4)+1의 정의역과 치역을 구한다.",
+      "expected_response": "x≥2이고 y≥1이다. 음의 제곱근을 별도 가지로 붙이지 않는다.",
+      "alternative_route": "y=x²의 제한된 정의역에서 역대응을 구성하는 경로도 가능하다.",
+      "additional_learning": [],
+      "limit": "y=x²의 제한된 정의역에서 역대응을 구성하는 경로도 가능하다. 이 기록은 명시한 과제 경로의 자체 분석이며 성취기준 전체의 보편적 선행 숙달을 주장하지 않는다.",
+      "evidence_kind": "수학적 자체 분석",
+      "source_ids": [
+        "CURRICULUM_2022_33"
+      ],
+      "status": "초안",
+      "review_state": "self_checked",
+      "independent_review": false,
+      "student_validated": false,
+      "hierarchy_review": "self_checked",
+      "review_history": [
+        {
+          "date": "2026-10-30",
+          "reviewer": "Codex",
+          "kind": "self_check",
+          "scope": "제곱근 식의 실수 정의역과 입력·출력 대응으로 그래프를 그리는 경로",
+          "method": "정의·예시 풀이·경계 조건·대안 경로 대조"
+        }
+      ],
+      "authored_from": "data/hierarchy_common_claims.json"
+    },
+    {
+      "id": "HC-basic-radical-function",
+      "from": "standard:10기수2-03-01",
+      "to": "standard:10기수2-03-05",
+      "type": "requires_for_task",
+      "scope": "실수 제곱근의 정의역으로 y=√(kx)의 그래프를 해석하는 경로",
+      "rationale": "kx≥0인 입력에서 제곱근의 비음수 값을 출력한다. k의 부호에 따라 정의역 방향이 달라진다.",
+      "conditions": [
+        "k의 부호와 k=0인 경우를 구별한다."
+      ],
+      "diagnostic": "y=√(-2x)의 정의역과 y의 부호는?",
+      "expected_response": "x≤0이고 y≥0이다. 그래프가 왼쪽으로 뻗어도 음의 함숫값이 생기지 않는다.",
+      "alternative_route": "표의 값을 좌표로 옮긴 뒤 정의역 경계를 대조하는 경로도 가능하다.",
+      "additional_learning": [],
+      "limit": "표의 값을 좌표로 옮긴 뒤 정의역 경계를 대조하는 경로도 가능하다. 이 기록은 명시한 과제 경로의 자체 분석이며 성취기준 전체의 보편적 선행 숙달을 주장하지 않는다.",
+      "evidence_kind": "수학적 자체 분석",
+      "source_ids": [
+        "CURRICULUM_2022_33"
+      ],
+      "status": "초안",
+      "review_state": "self_checked",
+      "independent_review": false,
+      "student_validated": false,
+      "hierarchy_review": "self_checked",
+      "review_history": [
+        {
+          "date": "2026-10-30",
+          "reviewer": "Codex",
+          "kind": "self_check",
+          "scope": "실수 제곱근의 정의역으로 y=√(kx)의 그래프를 해석하는 경로",
+          "method": "정의·예시 풀이·경계 조건·대안 경로 대조"
+        }
+      ],
+      "authored_from": "data/hierarchy_common_claims.json"
+    }
+  ]
+}

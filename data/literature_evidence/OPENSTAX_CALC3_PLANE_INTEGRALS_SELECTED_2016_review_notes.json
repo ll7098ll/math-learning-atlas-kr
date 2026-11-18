@@ -1,0 +1,85 @@
+{
+  "source_id": "OPENSTAX_CALC3_PLANE_INTEGRALS_SELECTED_2016",
+  "source_url": "https://openstax.org/details/books/calculus-volume-3",
+  "source_asset_kind": "pdf",
+  "source_pdf_sha256": "6feec9e9e64a286f880ae9b7444e2f262df6ab59bff4869e28322106d0c9018f",
+  "source_pdf_url": "https://assets.openstax.org/oscms-prodcms/media/documents/calculus-volume-3_-_WEB.pdf",
+  "pdf_pages": 913,
+  "selected_text_pages": [
+    3,
+    4,
+    7,
+    257,
+    258,
+    265,
+    266,
+    267,
+    268,
+    283,
+    284
+  ],
+  "visual_pdf_pages": [
+    4,
+    257,
+    258,
+    265,
+    266,
+    267,
+    268,
+    283,
+    284
+  ],
+  "rendered_page_sha256": {
+    "4": "939eae26359db8841cc66d8ae4e3928279f014ee917411563c145190fed1f058",
+    "257": "1412eb60e0a1c9e82289ab7def8a0394a226b85e745dc95d6742c2877d105af7",
+    "258": "e0ded7b1579e9bc79f0241b9b1a4319aeb00920070613b6671f7a758ca4b6068",
+    "265": "442d1273b13e99113dc44ea9d04f2cd5a71065c0fd53aad1cbc84d4a7093b9c4",
+    "266": "1d3ffec91ad69f35f0877ee1b8cbd88c59daec15f43668726977285f3d3563f3",
+    "267": "a171f974f2bd3870e00cc5cc058ab3860c0fcde590d3a0e86bf19e5c7c22e2f0",
+    "268": "5e99c22cc6e70f5a83c6d994abb8f0b5f94d8083bcc04b623132b97da1fbcc24",
+    "283": "39c6287a9d9d5cabc034d565dc1bb02999d7d1c39c10cab9ac3fc582f117ca18",
+    "284": "f7d9a23592418fd127a5544967cbb5455ee8db5f6fa9418a02b126af5e7fd4b9"
+  },
+  "date": "2026-11-13",
+  "reviewer": "Codex",
+  "read_scope": "서지와 지정 추출문 11쪽·실제 판면 9쪽에서 성분별 정적분·서로 다른 적분상수와 상수벡터,평면 경로 길이·속력 적분·매끄러운 곡선의 조건,위치·속도·가속도와 표 3.4를 대조했다. PDF 쪽은 인쇄 쪽보다 8 크다. 공간 나선·호길이 매개화의 지정 쪽은 읽었으나 국내 필수로 대응하지 않았다.",
+  "empirical_scope": {
+    "design": "공식 공개 교과서의 정적분·적분법·단면·경로 길이 수식과 실제 판면 대조",
+    "sample_description": "실제 학생 표본·응답을 분석한 연구가 아님",
+    "inference_limit": "평면의 연속 속도·가속도 성분과 간단한 구간별 운동에 한정한 수학 참고이며 전권·학생 효과 검증이 아니다. 266쪽 정리는 연속 도함수와 비영 도함수의 매끄러움을 가정한다. 자체 정지·방향 전환 사례는 구간별 직선 거리로 따로 확인하고,공간 운동·곡률·프레네·복잡한 호길이 적분·벡터해석을 새 필수로 추가하지 않는다.",
+    "student_outcome_study": false,
+    "causal_effect_established": false,
+    "local_effect_tested": false
+  },
+  "contains_source_full_text": false,
+  "source_pdf_redistributed": false,
+  "reading_log": [
+    "서지와 지정 추출문 11쪽·실제 판면 9쪽에서 성분별 정적분·서로 다른 적분상수와 상수벡터,평면 경로 길이·속력 적분·매끄러운 곡선의 조건,위치·속도·가속도와 표 3.4를 대조했다. PDF 쪽은 인쇄 쪽보다 8 크다. 공간 나선·호길이 매개화의 지정 쪽은 읽었으나 국내 필수로 대응하지 않았다."
+  ],
+  "source_corrections": [
+    {
+      "location": "방법·문항·표·그림·서술의 대조",
+      "issue": [
+        "257~258쪽 성분 적분과 초기 조건을 평면의 연속 속도·가속도에 한정한다. 모든 임의의 적분 가능 함수에 원시함수가 있다고 확대하지 않으며 두 좌표의 적분상수를 같은 수로 강제하지 않는다.",
+        "265~268쪽 길이 정리의 연속 도함수·비영 도함수 가정을 보존한다. 자체 정지·되돌아오기 예는 구간별 직선 거리로 확인한다. 반복 주행의 누적 거리와 곡선 점집합 길이,변위 크기를 구별한다.",
+        "283~284쪽 운동은 지정 범위에서 평면 성분으로 한정한다. 구간별 직각 운동의 모서리에 순간 속도를 임의로 부여하지 않고 초·분 환산은 속력과 시간 끝값을 함께 바꾼다. 공간 나선·곡률·프레네를 국내 새 필수로 추가하지 않는다."
+      ]
+    }
+  ],
+  "integration_completion_review": {
+    "full_book_read": false,
+    "original_publication_year": 2016,
+    "pdf_build_date": "2026-04-20",
+    "printed_page_offset": 8,
+    "source_license_as_read": "CC BY-NC-SA 4.0, PDF page 4; source PDFs/images are not redistributed",
+    "formula_extraction_incomplete": true,
+    "own_tasks_are_not_student_responses": true,
+    "continuous_components_only": true,
+    "indefinite_constants_are_componentwise": true,
+    "source_smooth_nonzero_derivative_assumption_retained": true,
+    "stopping_example_checked_as_piecewise_straight_distance": true,
+    "repeated_traversals_counted": true,
+    "plane_motion_only": true,
+    "units_and_time_bounds_converted_together": true
+  }
+}

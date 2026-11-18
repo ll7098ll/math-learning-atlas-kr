@@ -1,0 +1,66 @@
+{
+  "source_id": "NIST_BIG_DATA_V3_DEFINITIONS_SELECTED_2019",
+  "source_url": "https://www.nist.gov/publications/nist-big-data-interoperability-framework-volume-1-definitions",
+  "source_asset_kind": "pdf",
+  "source_pdf_sha256": "24421094a229232948e2ab00244531c398d1f04bbe722d834958531e7c74de04",
+  "source_pdf_url": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1500-1r2.pdf",
+  "pdf_pages": 53,
+  "selected_text_pages": [
+    2,
+    3,
+    16,
+    20,
+    21,
+    22
+  ],
+  "visual_pdf_pages": [
+    2,
+    3,
+    16,
+    20,
+    21,
+    22
+  ],
+  "rendered_page_sha256": {
+    "2": "88c5a4c52447abb7fbb6a1defb07d4c63fb1e0b1c2a44f855ad7f38627d8ff66",
+    "3": "8fe39c19771aa2ce7ba53a56eebd9ee62aada541ff449135117570244d80a235",
+    "16": "9fcbd85b9daa558144a077c17904e4d3697ad3b3563cedf9da19ff3c7eab1969",
+    "20": "c9cdbcfb6a277a71dd423f68519b7f5eabf2211a6326abe61abaca76517898fb",
+    "21": "4145d6b801cfbad02843d3f16abd49d0dc588f481a5e005fa44f37f2e88b1fc8",
+    "22": "8b53f42e5e7853aa55b9f466bc26903f3d258620b8445b91df7c807ccf7d28f6"
+  },
+  "date": "2026-11-16",
+  "reviewer": "Codex",
+  "read_scope": "표제·외부 관점/권리 고지와PDF16,20~22쪽의 지정 추출문·판면6쪽에서작업반의 규모·속도·다양성·변동성과 확장 가능한 처리의 관계,보편 임계량 부재,정형/비정형 자료와 수집·준비·분석의 생애주기를 대조했다. 본문 인쇄 쪽은PDF쪽−10이다.",
+  "empirical_scope": {
+    "design": "공개 원논문·작업반 보고서·저자 교과서·공식 사용 설명서의 지정 본문과 실제 판면 대조",
+    "sample_description": "학생 표본·응답을 분석한 연구가 아님",
+    "inference_limit": "2019년 작업반의 개념적 정리이며 현행 법적 의무·기관의 공식 입장·보편 저장 용량 기준·현재 시장 규모·학습 효과의 실증이 아니다. 자체 센서·복제 자료 계산은 가상이다. 자료량 증가를 정확성·대표성·공정성의 자동 보장으로 쓰지 않는다.",
+    "student_outcome_study": false,
+    "causal_effect_established": false,
+    "local_effect_tested": false
+  },
+  "contains_source_full_text": false,
+  "source_pdf_redistributed": false,
+  "reading_log": [
+    "표제·외부 관점/권리 고지와PDF16,20~22쪽의 지정 추출문·판면6쪽에서작업반의 규모·속도·다양성·변동성과 확장 가능한 처리의 관계,보편 임계량 부재,정형/비정형 자료와 수집·준비·분석의 생애주기를 대조했다. 본문 인쇄 쪽은PDF쪽−10이다."
+  ],
+  "source_corrections": [
+    {
+      "location": "방법·문항·표·그림·서술의 대조",
+      "issue": [
+        "이 문서는3쪽에 기관의 공식 입장을 나타내지 않는 외부 관점이라고 명시한다. 작업반 정의와 법적 의무·기관 권고를 구별한다.21쪽도 보편 임계 기준을 정하기 어렵다고 한다. 자료량 증가의 가치 가정·이상적인 선형 확장을 자동 정확성·대표성·현재 성능으로 바꾸지 않는다."
+      ]
+    }
+  ],
+  "ai_completion_review": {
+    "full_book_read": false,
+    "formula_extraction_incomplete": true,
+    "own_tasks_are_not_student_responses": true,
+    "source_pdf_and_images_redistributed": false,
+    "printed_body_page_offset": 10,
+    "working_group_external_perspective_not_official_position": true,
+    "universal_byte_threshold_not_claimed": true,
+    "source_rights_as_read": "PDF3: official NIST publications not subject to copyright in US; foreign rights reserved. No raw source redistribution."
+  }
+}

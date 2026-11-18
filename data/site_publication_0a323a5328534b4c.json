@@ -1,0 +1,76 @@
+{
+  "saved": {
+    "id": "appgprj_6ae2965054108191ad7dc71524bb7cfb~appgver_780b3a9328808191afa0342ec9386702",
+    "project_id": "appgprj_6ae2965054108191ad7dc71524bb7cfb",
+    "version_number": 81,
+    "source": {
+      "commit_sha": "9acf3cc526a764f47fb7049c3013543ae98133d3"
+    },
+    "archive_storage": {
+      "archive_format": "tar",
+      "sediment_file_id": "file_0000000030388206a008c259c5e545a9",
+      "content_hash": "sha256:9810798cf12c6919faee5ffb10994c565d761468ff67a2a5943f6d0b8cb9a25e",
+      "size_bytes": 195747840,
+      "file_count": 1416
+    },
+    "screenshot_url": null,
+    "deployment_id": null
+  },
+  "deployment": {
+    "id": "appgdep_6afceb81dcf08191aa8755fbbc463967",
+    "project_id": "appgprj_6ae2965054108191ad7dc71524bb7cfb",
+    "title": "수학의 연결 지도",
+    "version_id": "appgprj_6ae2965054108191ad7dc71524bb7cfb~appgver_780b3a9328808191afa0342ec9386702",
+    "type": "publish",
+    "status": "succeeded",
+    "url": "https://math-learning-atlas-kr.gptpro2908176.chatgpt.site",
+    "has_mcp": false,
+    "screenshot_asset_pointer": null,
+    "provider_deployment_id": "site---6ae2965054108191ad7dc71524bb7cfb",
+    "failure_message": null,
+    "env_set_revision": 0,
+    "updated_at": "2026-11-18T00:05:03.902969+00:00"
+  },
+  "package": {
+    "status": "pass",
+    "source": {
+      "project_id": "appgprj_6ae2965054108191ad7dc71524bb7cfb",
+      "commit_sha": "9acf3cc526a764f47fb7049c3013543ae98133d3"
+    },
+    "archive": {
+      "path": "C:\\Users\\User\\Desktop\\codex\\수학 내용 체계\\tmp\\math-atlas-publish-20261118-0a323a5328534b4c.tar.gz",
+      "files": 1416,
+      "bytes": 53621842,
+      "expanded_bytes": 194365440,
+      "sha256": "64fbf4d850e74f0e8c59fbe9e0bd39a52f8f3a5b3f2a98f59d23495dee9eabfb"
+    },
+    "protected_paths_verified": 919,
+    "omitted_unreferenced_historical_files": 32165,
+    "retained_snapshots": [
+      "current_0a323a5328534b4c"
+    ],
+    "previous_public_recovery": {
+      "version_number": 80,
+      "version_id": "appgprj_6ae2965054108191ad7dc71524bb7cfb~appgver_8203b47b60388191a967fb37dafeeb77",
+      "commit_sha": "dea6d53835c51da38473a281c2aeef02bfe7507d",
+      "saved_archive_intact": true,
+      "source_checkout_assets_unchanged": true
+    },
+    "method": "Complete current dependency graph packaged as UTF-8 USTAR; every path and content reread exactly, every asset checked against pushed Git blob allowing only Windows LF/CRLF checkout normalization. The supported helper returned Unable to package the Site archive after pushing; its root cause is unverified. Reopening the remote confirmed this commit. Retain the complete current dependency graph below the previously observed 256 MiB normalization limit; original saved rollback archives and source remain intact. Existing stale-resource handling requests reload."
+  },
+  "live_check": {
+    "status": "pass",
+    "url": "https://math-learning-atlas-kr.gptpro2908176.chatgpt.site",
+    "data_version": "0a323a5328534b4c",
+    "resources_checked": 81,
+    "affected_standards": 6,
+    "added_claims": 0,
+    "added_observations": 8,
+    "changed_prior_claims": 6,
+    "changed_prior_observations": 1,
+    "cumulative_source_claims": 6,
+    "cumulative_source_observations": 25,
+    "scope": "Public root,browser entries,curriculum PDF,indexes,six affected standard details/relations,immutable task and goal/concept graphs match authored bytes,allowing only hosting HTML script. All6same-source claims/25own tasks appear in mapped live sections.6claim limits/locations,1task explanation and28context snapshots rereviewed with prior30/54/86notes preserved;8own tasks added,no new claims/contexts. All828prior interpretation texts and other168sources/1029claims/1179tasks unchanged.52new visual spreads,138cumulative/all available copy,zero extracted text/OCR;complete Parts III/IV and20problem/hint/solution sets. Publisher/printing fidelity,cited originals and all-solution independent reproof remain unverified. Domain/time/position,zero denominators and original-domain bounds appear in existing eight-section workbook. Own exact counterexamples include the pyramid supporting-line/incircle distinction. Full goal and actual human/visual validation incomplete."
+  },
+  "note": "Post-publication receipts updated locally after the pushed source/archive; content data unchanged. This does not claim receipt metadata was part of that earlier archive."
+}

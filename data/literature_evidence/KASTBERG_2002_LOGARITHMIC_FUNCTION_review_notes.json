@@ -1,0 +1,55 @@
+{
+  "source_id": "KASTBERG_2002_LOGARITHMIC_FUNCTION",
+  "source_url": "https://openscholar.uga.edu/record/9605?ln=en",
+  "source_pdf_url": "https://openscholar.uga.edu/record/9605/files/kastberg_signe_e_200205_phd.pdf",
+  "source_asset_kind": "pdf",
+  "source_pdf_sha256": "a1bb119f57c2f7e8efe6dae436690c7d0708c768450b8a00f3a08d0f3233cb91",
+  "pdf_pages": 216,
+  "selected_text_pages": [
+    1,
+    175,
+    176,
+    177
+  ],
+  "visual_pdf_pages": [
+    176,
+    177
+  ],
+  "rendered_page_sha256": {
+    "176": "4d618d21aa800b1c4095648064a017fcca900cccf0876217e5a1e0550a69213c",
+    "177": "6e0a8da361e2a700c2c2855212d91228cfadbf055b55ac14e12288caf0cd20a3"
+  },
+  "date": "2026-11-10",
+  "reviewer": "Codex",
+  "read_scope": "학위논문의 초록과 PDF 175~177쪽의 5~7차 면담 정리에서 지수식 역변환, 근사, 선형 보간과 반례 반응을 확인했다.",
+  "empirical_scope": {
+    "design": "수업 전·중·후의 면담과 관찰 등을 사용한 네 학생 사례 연구.",
+    "sample_description": "미국 남동부 농촌 지역의 전문대 대수 두 반에 속한 학생 네 명.",
+    "inference_limit": "전문대 두 분반에서 선발한 네 명의 사례다. 선정한 면담 분석 범위로 해석하고 학위논문 전체나 일반적 효과로 확대하지 않는다.",
+    "student_outcome_study": true,
+    "causal_effect_established": false,
+    "local_effect_tested": false
+  },
+  "contains_source_full_text": false,
+  "source_pdf_redistributed": false,
+  "reading_log": [
+    "학위논문의 초록과 PDF 175~177쪽의 5~7차 면담 정리에서 지수식 역변환, 근사, 선형 보간과 반례 반응을 확인했다."
+  ],
+  "source_corrections": [
+    {
+      "location": "정의·표·학생 응답",
+      "issue": "PDF 176쪽의 인쇄 169쪽을 확인했다. √2 표기와 보간에 사용한 숫자를 PDF 텍스트에서 탈락한 근호 없이 추정하지 않는다."
+    }
+  ],
+  "exponential_review": {
+    "n": 4,
+    "study_interviews": 9,
+    "topic_approximation_interview": 7,
+    "selected_pdf_to_printed_pages": {
+      "175": 168,
+      "176": 169,
+      "177": 170
+    },
+    "whole_dissertation_reviewed": false
+  }
+}

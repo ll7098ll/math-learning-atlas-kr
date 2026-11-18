@@ -1,0 +1,33 @@
+{
+  "date": "2026-11-05",
+  "relation_id": "SEC_12미적Ⅰ-03-02_C04",
+  "reason": "곱꼴이라는 사실만으로 부분적분이 필요한 것은 아니다. ∫x(x+1)dx는 전개하여 x³/3+x²/2+C로 계산할 수 있다. 부분적분은 곱미분의 역관계를 이용하는 선택 전략으로 고쳤다. 두 원본의 연결 이유 한 곳씩만 수정하고 양의 정수 거듭제곱 역미분·함수 종류 확장·전략 선택의 세 검토를 다시 대조했다. 각 풀이·조건·진단과 수학적 근거는 변하지 않았다.",
+  "original_rationale": "곱 구조에는 부분적분이라는 별도 전략이 필요하다.",
+  "corrected_rationale": "곱미분을 역으로 정리하면 부분적분을 선택할 수 있으며, 다항식의 곱은 전개 뒤 항별 적분 등 다른 전략으로도 계산할 수 있다.",
+  "changed_sources": [
+    "data/revisions_high.json:12미적Ⅰ-03-02/internalRelations/1/rationale",
+    "data/secondary_analysis_details.json:12미적Ⅰ-03-02/onward/0/1"
+  ],
+  "re_reviewed_relations": [
+    {
+      "relation_id": "SEC_12미적Ⅰ-03-02_C03",
+      "previous_source_snapshot": "7fbf1fb4de88cba73ff443af3e7a4a7b7806a98fd81e87a1749b4e3b50a55894",
+      "current_source_snapshot": "b422e6d5ee82a2831530a1f6918a53b9651fe76af8ac66179079804c993fc8ff",
+      "unchanged_math_check": "(x³/3)′=x²이고 (x³−x²+x+C)′=3x²−2x+1이다. C는 변수 x와 무관해 도함수가 0이다."
+    },
+    {
+      "relation_id": "SEC_12미적Ⅰ-03-02_C04",
+      "previous_source_snapshot": "f04148c7f7f24277eda7807f170c79b7ee5b8228c403255dc136d744cdc3fe82",
+      "current_source_snapshot": "2f4114d1a6105c7b3235c3f65aa81770120f56848bad6b32c018a5ba27331165",
+      "unchanged_math_check": "(x³/3+x²/2)′=x²+x=x(x+1)이다. 이 직접 계산이 곱꼴이면 반드시 부분적분이 필요하다는 주장의 반례다. ((x−1)e^x)′=xe^x로 다른 전략도 검산한다."
+    },
+    {
+      "relation_id": "SEC_12미적Ⅱ-03-01_C03",
+      "previous_source_snapshot": "4d9479ed97f5d83b7437066ec3153345c2d2c0f29db984fc378fdfa4fd664825",
+      "current_source_snapshot": "53e0e80e4f32f2d9d51151d6609673fae42228180af1ec295f2b588d91cfa198",
+      "unchanged_math_check": "(e^x)′=e^x,(−cos x)′=sin x,(ln x)′=1/x다. x<0에서는 (ln(−x))′=(−1)/(−x)=1/x다. 0에는 원래 1/x가 정의되지 않는다."
+    }
+  ],
+  "independent_review": false,
+  "student_validated": false
+}

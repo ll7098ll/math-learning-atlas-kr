@@ -1,0 +1,69 @@
+{
+  "source_id": "AMSI_2011_NEGATIVE_INDEX_LAWS",
+  "source_url": "https://amsi.org.au/teacher_modules/Negative_and_the_Index_Laws.html",
+  "source_asset_kind": "pdf",
+  "source_pdf_sha256": "a9e933b374f1220013390b586ff592bf7c285f7c20943d34b4b7d54a88330e5e",
+  "source_pdf_url": "https://amsi.org.au/teacher_modules/pdfs/Negative_and_the_Index_Laws.pdf",
+  "pdf_pages": 22,
+  "selected_text_pages": [
+    1,
+    2,
+    3,
+    4,
+    8,
+    9,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+  ],
+  "visual_pdf_pages": [
+    9,
+    11,
+    14,
+    15,
+    17
+  ],
+  "rendered_page_sha256": {
+    "9": "8ed42f54a71d3000442e30500fb9595431dda4c469d8aaa011659051839a9a32",
+    "11": "b49526454d331925e4ed6801a0e9564363c91bae9bd6ce92d6984423a53527a8",
+    "14": "6daf69dfcc952b5ba908f38f6becfa3af14448ea25d4a3cdd2b8c9abb0b0a458",
+    "15": "63ec561ccca57255c92c89bfd844c3e05d26abc0702e0aff60903bb720a428cd",
+    "17": "60ededd62cb3e08ca1de3ffb1e61ff29e2a95fa2e418c7182abfd02ef0f3ebf0"
+  },
+  "date": "2026-11-13",
+  "reviewer": "Codex",
+  "read_scope": "부호를 포함한 항·동류항, 분배법칙, 자연수 지수의 인수 개수와 곱·거듭제곱 및 지정 몫 규칙을 대조했다.",
+  "empirical_scope": {
+    "design": "교사용 수학 내용 설명과 예시·연습 문제. 지정 부분의 수학적 조건과 표현을 대조.",
+    "sample_description": "학생 표본·학생별 반응 자료 없음. 자체 과제의 효과를 검사한 연구가 아니다.",
+    "inference_limit": "교사용 설명이다. 15쪽 odd/negative 문구와 17쪽 m<n인 몫 공식의 지수 방향을 구별한다. 자체 학생 과제는 자연수 지수와 다항식이 되는 몫에 한정하며 0·음·분수 지수를 도입하지 않는다.",
+    "student_outcome_study": false,
+    "causal_effect_established": false,
+    "local_effect_tested": false
+  },
+  "contains_source_full_text": false,
+  "source_pdf_redistributed": false,
+  "reading_log": [
+    "부호를 포함한 항·동류항, 분배법칙, 자연수 지수의 인수 개수와 곱·거듭제곱 및 지정 몫 규칙을 대조했다."
+  ],
+  "source_corrections": [
+    {
+      "location": "방법·문항·표·그림·서술의 대조",
+      "issue": "인쇄 쪽은 PDF 쪽보다 3 작다. PDF 15쪽은 음수의 홀수 거듭제곱을 odd라고 쓰며 실제 값의 부호는 negative다. PDF 17쪽 m<n 분수의 분모 지수 m−n은 n−m이어야 한다. 원문을 조용히 고친 인용으로 만들지 않고 불일치를 기록했다. 자체 과제는 자연수 지수·다항식인 몫·0 아닌 제수에 한정한다."
+    }
+  ],
+  "middle_algebra_function_review": {
+    "module": 24,
+    "publication": "June 2011",
+    "indices_in_student_probes": "positive_integers_only",
+    "page_15_odd_should_be_negative": true,
+    "page_17_m_less_n_denominator_index_printed": "m-n",
+    "correct_denominator_index": "n-m",
+    "division_domain_preserved": true,
+    "zero_negative_fractional_indices_not_required": true
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "source_id": "LABRELL_ET_AL_2020_TIME_KNOWLEDGE",
+  "source_url": "https://doi.org/10.1016/j.heliyon.2020.e03331",
+  "source_asset_kind": "repository_xml",
+  "source_asset_sha256": "68d9e2bac886283544a0d710422ff92460875ddcd89818f8a76b721b84750ee5",
+  "repository_xml_review": {
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7011039/fullTextXML",
+    "repository": "Europe PMC",
+    "article_identifier": "PMC7011039",
+    "publication_doi": "10.1016/j.heliyon.2020.e03331",
+    "binary_obtained": true,
+    "content_type": "application/xml",
+    "selected_elements": [
+      {
+        "id": "sec4",
+        "sha256": "eb9942c848feb3824da2d3e5446f62e4365f397184781d39f96b914b3b8cffbe"
+      },
+      {
+        "id": "sec5.1.1",
+        "sha256": "5113d77ce033d37ebf3fffec277d94c7068ec865b4d632ca01e8a330db99ea83"
+      },
+      {
+        "id": "sec5.2",
+        "sha256": "abdc3eefcb51c868282b856c06ef72a3106366324d12292feab06ef512d5ff9d"
+      },
+      {
+        "id": "sec5.3",
+        "sha256": "f54eef310fa6056cac4fc796a30ef190c2806c39fe3cda3ec13f5a24cd184d76"
+      },
+      {
+        "id": "appsec1",
+        "sha256": "1cc0b615fb0867163bdf0c8ea04efb5e14e38964547743f13e9dd1ac793ff593"
+      },
+      {
+        "id": "fig1",
+        "sha256": "12bd5f75a76a254dd3a2b421219431aed110ce77daea0a475dce33632713a9e4"
+      }
+    ]
+  },
+  "source_xml_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7011039/fullTextXML",
+  "source_asset_redistributed": false,
+  "pdf_read": false,
+  "original_page_layout_review": false,
+  "date": "2026-11-13",
+  "reviewer": "Codex",
+  "read_scope": "공식 저장소 XML의 검사 구성, 학교 표본과 면담 절차, 관습적 시간의 채점 및 부록 A의 달력·시각 문항을 읽었다. 그림 1은 설명 문장만 대조했다.",
+  "empirical_scope": {
+    "design": "시간 지식의 여러 하위 검사를 구별한 개별 면담형 평가. 여기서는 문항 구성·채점·표본 범위만 대조.",
+    "sample_description": "프랑스 파리 인근 도시권 1~5학년 105명, 만 6.2~11.1세. 별도 임상 표본은 이 대조에서 제외.",
+    "inference_limit": "프랑스 한 도시권 학교 표본 105명에 관한 검사 설계다. 임상 표본과 규준의 국내 적용은 다루지 않는다. XML 읽기를 PDF 판면이나 시계 그림 자체의 시각 대조로 표시하지 않는다.",
+    "student_outcome_study": true,
+    "causal_effect_established": false,
+    "local_effect_tested": false
+  },
+  "contains_source_full_text": false,
+  "source_pdf_redistributed": false,
+  "reading_log": [
+    "공식 저장소 XML의 검사 구성, 학교 표본과 면담 절차, 관습적 시간의 채점 및 부록 A의 달력·시각 문항을 읽었다. 그림 1은 설명 문장만 대조했다."
+  ],
+  "source_corrections": [
+    {
+      "location": "방법·문항·표·그림·서술의 대조",
+      "issue": "XML의 부록은 app 요소가 아닌 appsec1 절이다. 방향 파악의 같은 반나절 채점을 분 단위 시각 읽기에 적용하지 않는다. 시계 문항 4의 설명은 그림 1 캡션에서 11시 10분, 부록 A에서 1시 10분이며 불일치가 있다. 그림 자체를 본 것으로 표시하지 않는다."
+    }
+  ],
+  "calendar_units_review": {
+    "school_n": 105,
+    "ages_years": [
+      6.2,
+      11.1
+    ],
+    "clinical_sample_excluded": true,
+    "domestic_norms_not_inferred": true,
+    "selected_scope_is_design_and_scoring": true,
+    "or_time_accepts_same_half_day": true,
+    "or_and_clock_scores_not_interchangeable": true,
+    "figure_caption_item_4_hour": 11,
+    "appendix_item_4_hour": 1,
+    "figure_visual_review": false,
+    "whole_pdf_obtained": false,
+    "calendar_month_fixed_days_not_assumed": true
+  }
+}

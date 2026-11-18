@@ -1,0 +1,82 @@
+{
+  "source_id": "COBB_ET_AL_2003_DESIGN_EXPERIMENTS",
+  "source_url": "https://journals.sagepub.com/doi/10.3102/0013189X032001009",
+  "source_asset_kind": "pdf",
+  "source_pdf_sha256": "abd897b68879ef72f7da85c2e9e2fe142230e5cd17b76c4f1110c90bda070c2d",
+  "source_pdf_url": "https://pat-thompson.net/RUME2S19Public/files/29093.pdf",
+  "pdf_pages": 6,
+  "selected_text_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "visual_pdf_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "rendered_page_sha256": {
+    "1": "0ebfa0897437228a8ddc0087ce69478a63c99fdb28f1824b09c5dfa1814618d8",
+    "2": "5f0fa0d4bab53035a442f5add3f031220b4bac7ea6f961d86b6b3c09616c6c2d",
+    "3": "004719d98625321d17ccee226161a49e94891837f4122c22dd78fe452a8f53df",
+    "4": "fa6c5f453cd07e4c6422841ebdd4889dc0278cc45d69481ffd2da1fdd6a7e2eb",
+    "5": "7fdc8a0df79e3bd0d4e48726579c07af0d6d0828c82c2d18786b4a141ab24990",
+    "6": "9cdd3baa01178c8bbcc0804c9f67b8149ee1f85dc903b4c5b9baaac9834e5cd1"
+  },
+  "date": "2026-11-18",
+  "reviewer": "Codex",
+  "read_scope": "공개 강의 사본6PDF쪽의 추출문과 판면 전체를 읽었다. PDF1은 JSTOR별도표지,PDF2–6은 인쇄9–13의 논문5쪽이다. 학습과 지원 수단의 상호작용,준비·실행·회고 분석,구성개념과 측정의 구별을 대조했다. 별도 번호 표·그림이나 독립 참고문헌 목록은 없고 본문 인용·주·저자란을 읽었다. 2013년 과거 다운로드 표기와 인쇄2003을 구별한다.",
+  "empirical_scope": {
+    "design": "설계 실험의 공통 특징·실행·회고 분석에 관한 방법론 논의",
+    "sample_description": "다양한 연구 맥락을 예시한다. 이 논문을 하나의 새 학생 표본으로 합산하지 않는다.",
+    "inference_limit": "연구자들의 방법론 논의이며 통합 참여자 수·통제 비교 효과크기를 제시한 새 실증 연구로 세지 않는다. 공개 강의 사본 전체 읽기는 출판사 직접 바이너리·인용 원연구 전체·현재 학생의 학습 효과 검증이 아니다. 연구 초점과 배경을 구별하라는 설명을 사용자 전체 보완 목표의 축소 허가로 쓰지 않는다.",
+    "student_outcome_study": false,
+    "causal_effect_established": false,
+    "local_effect_tested": false
+  },
+  "contains_source_full_text": false,
+  "source_pdf_redistributed": false,
+  "reading_log": [
+    "공개 강의 사본6PDF쪽의 추출문과 판면 전체를 읽었다. PDF1은 JSTOR별도표지,PDF2–6은 인쇄9–13의 논문5쪽이다. 학습과 지원 수단의 상호작용,준비·실행·회고 분석,구성개념과 측정의 구별을 대조했다. 별도 번호 표·그림이나 독립 참고문헌 목록은 없고 본문 인용·주·저자란을 읽었다. 2013년 과거 다운로드 표기와 인쇄2003을 구별한다."
+  ],
+  "source_corrections": [
+    {
+      "location": "방법·문항·표·그림·서술의 대조",
+      "issue": [
+        "Anderson제출원고의5–8과달리실제논문판면과출판사서지는9–13이다.이전검토기록을덮어쓰지않는다.",
+        "학습의 구성개념·측정값·정확한 채점·개인/집단의 추론을 구별한다.",
+        "연구 설계의 초점/배경 구별은 사용자 전체 목표를 줄이는 근거가 아니다."
+      ]
+    }
+  ],
+  "complete_foundational_article_review": {
+    "full_article_read": true,
+    "pdf_pages": 6,
+    "article_pdf_pages": [
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "wrapper_pdf_pages": [
+      1
+    ],
+    "article_printed_pages": "9–13",
+    "publisher_direct_pdf_obtained": false,
+    "provenance": "Public academic course copy in Pat Thompson RUME2S19Public;JSTOR wrapper/access stamp2013 retained.",
+    "numbered_figures": 0,
+    "numbered_tables": 0,
+    "separate_reference_list_in_copy": false,
+    "raw_classroom_records_read": false,
+    "cited_originals_all_read": false,
+    "actual_independent_review": 0,
+    "actual_student_validation": 0
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "source_id": "KONDRATIEVA_BERGSTEN_2021_PARABOLA",
+  "source_url": "https://doi.org/10.54870/1551-3440.1520",
+  "source_pdf_url": "https://www.diva-portal.org/smash/get/diva2%3A1442299/FULLTEXT01.pdf",
+  "source_asset_kind": "pdf",
+  "source_pdf_sha256": "fea72dd4c635f8102f29a06fae57615dcb9f7a1a5c151604b37ac306789018ef",
+  "pdf_pages": 28,
+  "selected_text_pages": [
+    2,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18
+  ],
+  "visual_pdf_pages": [
+    13,
+    17
+  ],
+  "rendered_page_sha256": {
+    "13": "f9a3a5547d6fb5a4d74d5563ba3c9aaab9f901e1f199ce772310f21818239ae1",
+    "17": "c68d0ba768673d5176902b620599280c272b9c862cdc86c126651adca063a166"
+  },
+  "date": "2026-11-10",
+  "reviewer": "Codex",
+  "read_scope": "11학년 두 수업의 자발적 정의, 교사 시범, 수직이등분선을 이용한 설명 사례를 확인했다.",
+  "empirical_scope": {
+    "design": "동적 기하 환경에서 두 집단에 실시한 수업의 학생 작업과 대화 사례.",
+    "sample_description": "모스크바의 수학 선발 학교 11학년 학생 20명과 12명.",
+    "inference_limit": "선발·심화 교육을 하는 한 학교의 사례다. 보고한 설명의 빈도는 일반 학생의 비율이나 수업 효과로 해석하지 않는다.",
+    "student_outcome_study": true,
+    "causal_effect_established": false,
+    "local_effect_tested": false
+  },
+  "contains_source_full_text": false,
+  "source_pdf_redistributed": false,
+  "reading_log": [
+    "11학년 두 수업의 자발적 정의, 교사 시범, 수직이등분선을 이용한 설명 사례를 확인했다."
+  ],
+  "source_corrections": [
+    {
+      "location": "정의·표·학생 응답",
+      "issue": "논문의 판별식 학생 풀이와 미적분 접근은 관찰 사실로만 기록했다. 자체 접선 과제는 이동되지 않은 곡선에서 거리와 완전제곱으로 정당화하고 단일 교점 반례를 포함했다."
+    }
+  ],
+  "conic_review": {
+    "group_sizes": [
+      20,
+      12
+    ],
+    "grade": 11,
+    "school_selective": true,
+    "construction_2_proposed_before_demo": false,
+    "tangency_justifications_after_prompt": 5
+  }
+}

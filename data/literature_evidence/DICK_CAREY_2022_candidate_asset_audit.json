@@ -1,0 +1,92 @@
+{
+  "date": "2026-11-06",
+  "work": "The Systematic Design of Instruction",
+  "authors": [
+    "Walter Dick",
+    "Lou Carey",
+    "James O. Carey"
+  ],
+  "edition": 9,
+  "copyright_year": 2022,
+  "print_isbn": "9780135824146",
+  "epub_isbn": "9780135824139",
+  "repository_url": "https://elibrary.upi.edu/3739/",
+  "asset_url": "https://elibrary.upi.edu/3739/1/The%20Systematic%20Design%20of%20Instruction%20%28Dick%2C%20Carey%2C%20Carey%29.pdf",
+  "cache_path": "tmp/literature/DICK_CAREY_2022_9ed.pdf",
+  "asset_sha256": "8caf4d487388ac41a016d3d34857a246abdfd4712d4ad6b783c69271e721a04a",
+  "bytes": 15021647,
+  "physical_pdf_pages": 439,
+  "repository_label": "Full Text",
+  "integrity_status": "incomplete_repeated_segments",
+  "segments": [
+    {
+      "pdf_pages": [
+        1,
+        95
+      ],
+      "content": "front matter and printed2–70"
+    },
+    {
+      "pdf_pages": [
+        96,
+        190
+      ],
+      "duplicate_of": [
+        1,
+        95
+      ]
+    },
+    {
+      "pdf_pages": [
+        191,
+        273
+      ],
+      "content": "printed406–488"
+    },
+    {
+      "pdf_pages": [
+        274,
+        356
+      ],
+      "duplicate_of": [
+        191,
+        273
+      ]
+    },
+    {
+      "pdf_pages": [
+        357,
+        439
+      ],
+      "duplicate_of": [
+        191,
+        273
+      ]
+    }
+  ],
+  "duplicate_comparison_method": "Extracted text before EBSCO footer, whitespace normalized; both95-page segments and all three83-page segments matched exactly.",
+  "missing_printed_body_range": [
+    71,
+    405
+  ],
+  "whole_book_obtained": false,
+  "body_read_and_claim_mapped": false,
+  "reading_scope": "판본·서지와 목차 및 구간 경계의 텍스트 확인,전체 쪽 텍스트 추출·반복 구간 계산 대조. 본문 전체의 실제 읽기와 이미지 대조는 수행 전이다.",
+  "new_literature_claims": 0,
+  "source_pdf_redistributed": false,
+  "contains_source_full_text": false,
+  "next_action": "9판 부분 자료로 구분해 목표 분석·총괄평가·부록의 실제 읽기 범위부터 별도 검토한다.7판 국제판의 미확보 장 완료로 대체하지 않는다. 중간 본문은 다른 접근 경로를 계속 확인한다.",
+  "visually_checked_pdf_pages": [
+    3,
+    190,
+    191
+  ],
+  "visual_check_scope": "서지와 인쇄70→406 누락 경계를 이미지로 확인. 본문 내용 전 범위 읽기나 모든 중복 페이지 이미지 대조가 아니다.",
+  "visual_image_sha256": {
+    "3": "7820e04ed596342526f46b0b12cbf564cabb1e7fa454b0add06e155374a7926f",
+    "190": "017e64ecc82a004b8f852d4e72d1256e73b3cf4a349704564d32eb58ffc19953",
+    "191": "db43724a634c39633ce5805fce4882ea2038b9b336da6a3eba2e331bc5eccc18"
+  },
+  "publisher_authenticated_distribution": false,
+  "provenance_limit": "대학 저장소에 있지만 출판사 인증 배포본은 확인되지 않았다. 일부 쪽에 외부 판매 안내가 삽입돼 있어 그 안내는 사용하지 않는다. 원판과의 내용 대조 전 검증된 정식 전권으로 취급하지 않는다."
+}

@@ -1,0 +1,71 @@
+{
+  "source_id": "AMSI_2011_PRIMES_FACTORISATION",
+  "source_url": "https://amsi.org.au/teacher_modules/Primes_and_Prime_Factorisation.html",
+  "source_asset_kind": "pdf",
+  "source_pdf_sha256": "f8eaa52f2577f5f943238836f7899503c2303cb93610008f9f349fb0f4a9d232",
+  "source_pdf_url": "https://amsi.org.au/teacher_modules/pdfs/Primes_and_Prime_Factorisation.pdf",
+  "pdf_pages": 22,
+  "selected_text_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    9,
+    10,
+    11
+  ],
+  "visual_pdf_pages": [
+    5,
+    6,
+    10,
+    11
+  ],
+  "rendered_page_sha256": {
+    "5": "9802ce58a3690a4e6506305bf64fa960271a1ec052a704fffd285f9efca8ce46",
+    "6": "31533bad8e6b3454a4ece57b512f90fe7e05a2e58cc84064d8024a67b26a30fd",
+    "10": "6bc769080fddaf97bd1eb4ec5e36d5d4935fe1d26015f2fa55eab9439600ea6d",
+    "11": "6cce78c254b267bcf5a84d12798ff1da60975d1ce4046c1c4af06e10f12cbf35"
+  },
+  "date": "2026-11-13",
+  "reviewer": "Codex",
+  "read_scope": "표지·서지와 소수·합성수·1의 구별, 인수 배열과 소인수분해, 약수 열거 및 소수별 지수를 이용한 최대공약수·최소공배수의 지정 본문·도식을 대조했다.",
+  "empirical_scope": {
+    "design": "교사용 수학 내용 설명과 예시·연습 문제. 지정 부분의 수학적 조건과 표현을 대조.",
+    "sample_description": "학생 표본·학생별 반응 자료 없음. 자체 과제의 효과를 검사한 연구가 아니다.",
+    "inference_limit": "호주 교사용 설명이다. 유일분해정리의 일반 증명·고차근·유클리드 알고리즘 부록은 국내 중학교의 추가 필수 과제로 삼지 않는다. 11쪽 연습 7(e)의 720은 앞의 792와 불일치한다.",
+    "student_outcome_study": false,
+    "causal_effect_established": false,
+    "local_effect_tested": false
+  },
+  "contains_source_full_text": false,
+  "source_pdf_redistributed": false,
+  "reading_log": [
+    "표지·서지와 소수·합성수·1의 구별, 인수 배열과 소인수분해, 약수 열거 및 소수별 지수를 이용한 최대공약수·최소공배수의 지정 본문·도식을 대조했다."
+  ],
+  "source_corrections": [
+    {
+      "location": "방법·문항·표·그림·서술의 대조",
+      "issue": "PDF 1~3쪽 표지·판권·저자를 확인하고 인쇄 쪽과 PDF 쪽의 3쪽 차이를 기록했다. PDF 11쪽 연습 7(a,b)는 540·792인데 7(e)는 540×720으로 다르다. 판면에서 확인했으며 검산에는 540×792=36×11880을 쓴다. 0 지수를 필수로 추가하지 않는다."
+    }
+  ],
+  "middle_number_system_review": {
+    "module": 16,
+    "publication": "June 2011",
+    "copyright_year": 2010,
+    "printed_pages_offset": 3,
+    "exercise_7_numbers": [
+      540,
+      792
+    ],
+    "exercise_7e_printed_rhs": [
+      540,
+      720
+    ],
+    "correct_gcd": 36,
+    "correct_lcm": 11880,
+    "correct_product": 427680,
+    "zero_index_not_required": true
+  }
+}

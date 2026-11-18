@@ -1,0 +1,50 @@
+{
+  "source_id": "WEBER_2005_TRIGONOMETRIC_FUNCTIONS",
+  "source_url": "https://eric.ed.gov/?id=EJ747914",
+  "source_pdf_url": "https://files.eric.ed.gov/fulltext/EJ747914.pdf",
+  "source_asset_kind": "pdf",
+  "source_pdf_sha256": "dce7a5ee9c4d0a3ead4f18a40199ffe6c1fdf1ecb8c272343f81473f3cd966d9",
+  "pdf_pages": 22,
+  "selected_text_pages": [
+    1,
+    5,
+    12,
+    13,
+    14,
+    15
+  ],
+  "visual_pdf_pages": [
+    14
+  ],
+  "rendered_page_sha256": {
+    "14": "e285aad6414f2b00a0ee071e7fbc41068876bce59f91f6de5f10326cbe2e15a7"
+  },
+  "date": "2026-11-10",
+  "reviewer": "Codex",
+  "read_scope": "두 대학 강좌의 연구 배치와 교수 실험 반의 사후 검사 표 4, 단위원 좌표의 정당화 사례를 확인했다.",
+  "empirical_scope": {
+    "design": "두 대학 삼각함수 강좌의 면담과 지필 과제를 이용한 분석.",
+    "sample_description": "사후 검사 표 4의 교수 실험 반 40명. 사전 0점인 하위 집단은 26명.",
+    "inference_limit": "서로 다른 강좌의 비교다. 사후 검사 40명 중 사전 0점인 26명은 같은 표본의 일부다.",
+    "student_outcome_study": true,
+    "causal_effect_established": false,
+    "local_effect_tested": false
+  },
+  "contains_source_full_text": false,
+  "source_pdf_redistributed": false,
+  "reading_log": [
+    "두 대학 강좌의 연구 배치와 교수 실험 반의 사후 검사 표 4, 단위원 좌표의 정당화 사례를 확인했다."
+  ],
+  "source_corrections": [
+    {
+      "location": "정의·표·학생 응답",
+      "issue": "표 4의 26명은 40명 안의 하위 집단이다. sin 270°의 정답 36명과 정당화 34명을 구별했다."
+    }
+  ],
+  "trigonometry_review": {
+    "posttest_n": 40,
+    "zero_pretest_subset_n": 26,
+    "sin_270_correct_n": 36,
+    "sin_270_justification_n": 34
+  }
+}

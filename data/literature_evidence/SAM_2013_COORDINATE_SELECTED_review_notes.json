@@ -1,0 +1,83 @@
+{
+  "source_id": "SAM_2013_COORDINATE_SELECTED",
+  "source_url": "https://amsi.org.au/ESA_Senior_Years/PDF/CoordinateGeometry1b.pdf",
+  "source_asset_kind": "pdf",
+  "source_pdf_sha256": "ea5dbe177df164ad77bc3d6db7f5f564dd88707daa822fc3895303418fd9f274",
+  "source_pdf_url": "https://amsi.org.au/ESA_Senior_Years/PDF/CoordinateGeometry1b.pdf",
+  "pdf_pages": 44,
+  "selected_text_pages": [
+    1,
+    2,
+    3,
+    6,
+    7,
+    8,
+    9,
+    10,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    25
+  ],
+  "visual_pdf_pages": [
+    2,
+    6,
+    8,
+    9,
+    14,
+    17,
+    19,
+    20,
+    25
+  ],
+  "rendered_page_sha256": {
+    "2": "5f946ed7db103bfcee0b5cc89b6c8e4d820dc75baf6926e4b5d6a1b8ae80296c",
+    "6": "0fe8b9b03973eb7e7fce1fe4806d86ca2dc7c547580000c2cfbabb3678077bff",
+    "8": "61fc25c17aad79a726a84035c5b687534362b10fbf23fb1143cd57e343a17b2d",
+    "9": "12e7995cc936e104d330402b14cd41caf78f3eca10f55e71ba8492297a840505",
+    "14": "6e46503a4ea20cef669ca8cdc6601ead2d5af9c006b3bb12062d32767cee7264",
+    "17": "0d27da54f87212bac654879215693ab3a418f172b424b218dfd1aabfc0f13a92",
+    "19": "bce4d5e28020b7324fca52d25e166fc2297fc7906e4af7f85f507b7d5b8c2bf5",
+    "20": "adba78a1a71d829180de5d9351295162379153511a0290433b8cc19187cfd99d",
+    "25": "6cc230858e590f254254b240d8ddcc2432a55b40dd312d5921b16445ede61dc0"
+  },
+  "date": "2026-11-13",
+  "reviewer": "Codex",
+  "read_scope": "서지·목차, 두 점 거리·내분과 중점, 유한/없는 기울기·직선의 네 형태·평행/일치/수직, 원의 거리 조건을 지정 추출문 16쪽과 실제 판면 9쪽에서 읽었다.",
+  "empirical_scope": {
+    "design": "교사용 수학 정의·정리·예시의 수식 및 실제 판면 대조",
+    "sample_description": "학생 표본·반응 자료나 국내 과제 효과 연구가 아님",
+    "inference_limit": "교사 설명이며 효과·발달 순서의 실증이 아니다. 두 점의 서로 다름·양의 내분 비·유한 기울기·양의 반지름을 유지한다. 기본수학에 내분·기울기 각·삼각함수 증명·일반 수직이등분선 이론을 추가하지 않는다. 외분·공간좌표·일반 이차곡선은 새 필수가 아니다.",
+    "student_outcome_study": false,
+    "causal_effect_established": false,
+    "local_effect_tested": false
+  },
+  "contains_source_full_text": false,
+  "source_pdf_redistributed": false,
+  "reading_log": [
+    "서지·목차, 두 점 거리·내분과 중점, 유한/없는 기울기·직선의 네 형태·평행/일치/수직, 원의 거리 조건을 지정 추출문 16쪽과 실제 판면 9쪽에서 읽었다."
+  ],
+  "source_corrections": [
+    {
+      "location": "방법·문항·표·그림·서술의 대조",
+      "issue": [
+        "15쪽의 두 점이 직선 하나를 정한다는 설명에는 서로 다른 두 점이 필요하다. 일반형 계수 a,b가 동시에 0이 아님을 유지하고 16쪽 기울기 나눗셈은 수직선에서 따로 처리한다.",
+        "18쪽 같은 기울기의 평행 서술은 19쪽의 실제 예가 구별한 일치 경우를 함께 읽어 보완한다. 수평·수직 쌍의 수직은 유한한 기울기 곱 −1 식으로 쓰지 않는다.",
+        "내분의 양의 비와 끝점 순서를 유지한다. 25쪽 수직이등분선 공식의 확장은 서로 다른 끝점일 때로 한정하며 같은 두 점에서 0=0을 직선 하나라고 하지 않는다. 원은 r>0이다."
+      ]
+    }
+  ],
+  "coordinate_graph_completion_review": {
+    "positive_internal_ratio": true,
+    "basic_internal_division_added": false,
+    "distinct_points_required_for_unique_line": true,
+    "coincident_lines_distinguished": true,
+    "vertical_horizontal_exception_retained": true,
+    "circle_radius_positive": true,
+    "full_module_read": false
+  }
+}

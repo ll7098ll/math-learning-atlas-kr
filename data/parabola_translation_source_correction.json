@@ -1,0 +1,18 @@
+{
+  "date": "2026-11-05",
+  "relation_id": "SEC_10공수2-01-06_C04",
+  "reason": "포물선에는 중심대칭의 중심이 없다. 고정된 좌표축에서 꼭짓점·초점·준선을 함께 평행이동한다고 고친다. x²=4y를 오른쪽 2, 위로 1 옮기면 (x−2)²=4(y−1), 꼭짓점 (2,1), 초점 (2,2), 준선 y=0이다. (4,2)는 곡선 위에 있지만 꼭짓점에 대한 대칭점 (0,0)은 곡선 위에 없다. 위로 무한히 뻗고 아래로 유계인 포물선은 다른 점에 대해서도 중심대칭일 수 없다. 기존 수행·풀이·조건·진단은 유지하고 두 원본의 연결 이유만 수정한 뒤 영향을 받는 한 검토를 다시 대조했다.",
+  "original_rationale": "중심이 옮겨진 이차곡선 해석에 사용한다.",
+  "corrected_rationale": "좌표축을 고정한 평행이동으로 포물선의 꼭짓점·초점·준선을 함께 옮기고 거리 조건을 보존한다. 포물선의 꼭짓점을 중심대칭의 중심이라 부르지 않는다.",
+  "changed_sources": [
+    "data/revisions_high.json:10공수2-01-06/internalRelations/0/rationale",
+    "data/secondary_analysis_details.json:10공수2-01-06/onward/0/1"
+  ],
+  "previous_source_snapshot": "5c98482e74a9cde7bad06eb55522b193f69882b6beb0b322af5c1047db28e7dd",
+  "current_source_snapshot": "23b728f9d0f231d2242382fd634dcd74cde1a772dd4243810f5a43dca59a3b92",
+  "re_reviewed_relations": [
+    "SEC_10공수2-01-06_C04"
+  ],
+  "independent_review": false,
+  "student_validated": false
+}

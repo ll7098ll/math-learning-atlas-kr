@@ -1,0 +1,107 @@
+{
+  "source_id": "DEISENROTH_MML_LEARNING_SELECTED_2020",
+  "source_url": "https://mml-book.github.io/",
+  "source_asset_kind": "pdf",
+  "source_pdf_sha256": "3f87b70c64a35d30ec4e565b4d5cfd18fe913002d3b3bed44691c7d0838911bc",
+  "source_pdf_url": "https://mml-book.github.io/book/mml-book.pdf",
+  "pdf_pages": 417,
+  "selected_text_pages": [
+    1,
+    3,
+    233,
+    234,
+    235,
+    257,
+    258,
+    259,
+    260,
+    261,
+    263,
+    264,
+    266,
+    267,
+    269,
+    270,
+    295,
+    296
+  ],
+  "visual_pdf_pages": [
+    1,
+    3,
+    233,
+    234,
+    235,
+    257,
+    258,
+    259,
+    260,
+    261,
+    263,
+    264,
+    266,
+    267,
+    269,
+    270,
+    295,
+    296
+  ],
+  "rendered_page_sha256": {
+    "1": "701a771435bebe05f480e99a4415be1537b9880597ee3ed1dcdb561ab8b11d08",
+    "3": "ac27c1ef1fafd43f27d50d6efd410c71213775e5c0f27aeeedc9cba8771ed938",
+    "233": "6324566e56dbff857fa78e03bbbab04d127a83664e470760d8f30a665aad2643",
+    "234": "8f1b750ed12245e737492dcf2cc0cbb4776ca647f6336cf71776d2dda8d33240",
+    "235": "102e2e69ce09bb9a841feed780eed7df11da518c13181b6b23abf5bb20d0d21b",
+    "257": "ed855905403c275f70fff080afae4d60e38df71565574cb00e5406cd542d88ba",
+    "258": "9734495e6b5d561afec288979dfd9e92c8c2605827effc471e795baa684fe695",
+    "259": "9781a2da636aa13676d631bd0d24e93ef5e6871c06576bf47e42930481487d39",
+    "260": "b00348dc380f88a3714b09e41fb375561f987fc732296feba8e73ea8c6206584",
+    "261": "6dba57d68d9eb148bc7ca53b0519ba302c599000e6d5a54d3a7082a949e388c2",
+    "263": "7cfaa1729c90032e50189017a92c456f6f9fcc43efa3bb0efb53924e25b28319",
+    "264": "799c39624c437845a67428df08e485e28a1a81f55b23e7701042ae8cb6f46cd1",
+    "266": "b26cd9e27dfbd78f8a0ebaf72b8261fd70430e21ebc27ad22120cd2ec2f70e0a",
+    "267": "97bccd96e76494fe154341c7ac4023f123adb3845fa7ea8ed98033f6eaef2b89",
+    "269": "2a33ca7558a9a0d90ce16d4ef72bb5009f8a67659de0f66a319a1c8ff18e194b",
+    "270": "a87a8f7d7db77e306001eba4edf9f2f6454ac3958dcf7186e7d81e671434d35d",
+    "295": "32198fbb23aae230e438357385a6bba0887000fb28126a04acaed1de3799d351",
+    "296": "e1283942c6445b0f7e34650673bbf20e9fc77f5b96506254b91928fa4c915858"
+  },
+  "date": "2026-11-16",
+  "reviewer": "Codex",
+  "read_scope": "표지·목차와 지정 추출문·판면18쪽에서 국소 하강·학습률·초깃값,데이터/모형/학습·특성 단위·학습/예측/선택,제곱 손실의 평균·새 자료 평가·자료 분리·회귀 탐구의 조건을 대조했다. 본문 인쇄 쪽은PDF쪽−6이다. 출판2020년과 갱신 원고2024-01-15를 구별한다.",
+  "empirical_scope": {
+    "design": "공개 원논문·작업반 보고서·저자 교과서·공식 사용 설명서의 지정 본문과 실제 판면 대조",
+    "sample_description": "학생 표본·응답을 분석한 연구가 아님",
+    "inference_limit": "전권·실제 기업 자료·특정 예측의 성능·학생 효과 검증이 아니다. 국내는 y=ax의 일변수 손실과 직관적 기울기 탐구로 대응한다. 다변수 미분·편미분·정규방정식·확률 모형·정규화 이론·교차검증 알고리즘을 새 필수로 추가하지 않는다. 자체 자료·오류 비용·분할은 가상 경계 점검이다.",
+    "student_outcome_study": false,
+    "causal_effect_established": false,
+    "local_effect_tested": false
+  },
+  "contains_source_full_text": false,
+  "source_pdf_redistributed": false,
+  "reading_log": [
+    "표지·목차와 지정 추출문·판면18쪽에서 국소 하강·학습률·초깃값,데이터/모형/학습·특성 단위·학습/예측/선택,제곱 손실의 평균·새 자료 평가·자료 분리·회귀 탐구의 조건을 대조했다. 본문 인쇄 쪽은PDF쪽−6이다. 출판2020년과 갱신 원고2024-01-15를 구별한다."
+  ],
+  "source_corrections": [
+    {
+      "location": "방법·문항·표·그림·서술의 대조",
+      "issue": [
+        "출판2020년과 갱신 원고2024-01-15를 구별하고 인사 표·급여 예는 가상으로 남긴다.259쪽의 모든 열 표준화는 상수열·범주·단위·학습 자료로 정하는 전처리 조건을 무시한 보편 명령으로 옮기지 않는다. 이름 삭제가 재식별 불가능성을 보장하지 않는다.",
+        "233~235쪽의 국소 하강·학습률 조건을 보존한다. 미분 가능하다는 것과 적절한 걸음이라는 말만으로 모든 시작점에서 최소에 수렴한다고 하지 않는다. 정지 최대·0학습률·손실 척도는 자체 경계 점검이다.",
+        "269~270쪽의 test/validation 명칭은 실제 용도를 정해 구별한다. 교차검증의 각 학습은 평가 조각을 제외하고 다시 해야 하며 반복 모형 선택과 최종 평가를 혼합하지 않는다. 충분한 병렬 자원에서 같다는 이상적 시간 설명을 보편 실행 시간 보장으로 쓰지 않는다. 다변수 미분·정규방정식·일반 교차검증 알고리즘은 국내 새 필수가 아니다."
+      ]
+    }
+  ],
+  "ai_completion_review": {
+    "full_book_read": false,
+    "formula_extraction_incomplete": true,
+    "own_tasks_are_not_student_responses": true,
+    "source_pdf_and_images_redistributed": false,
+    "printed_body_page_offset": 6,
+    "original_publication_year": 2020,
+    "draft_date": "2024-01-15",
+    "domestic_loss_single_parameter_y_ax": true,
+    "differentiability_theory_not_added": true,
+    "training_selection_final_evaluation_separate": true,
+    "source_rights_as_read": "Personal viewing/download only; not redistribution, resale or derivative works (PDF3). Only original factual/mathematical review notes and own examples published; source prose/images not reproduced."
+  }
+}

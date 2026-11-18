@@ -1,0 +1,85 @@
+{
+  "source_id": "SAM_2013_PROBABILITY_SELECTED",
+  "source_url": "https://amsi.org.au/ESA_Senior_Years/PDF/Probability4a.pdf",
+  "source_asset_kind": "pdf",
+  "source_pdf_sha256": "7b807439f7eb1f49239421d48a4f52fee1fccb240c9f6a8da82afc9ffc20b33e",
+  "source_pdf_url": "https://amsi.org.au/ESA_Senior_Years/PDF/Probability4a.pdf",
+  "pdf_pages": 46,
+  "selected_text_pages": [
+    2,
+    3,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    33,
+    34
+  ],
+  "visual_pdf_pages": [
+    13,
+    14,
+    18,
+    24,
+    25,
+    26,
+    27,
+    28,
+    33,
+    34
+  ],
+  "rendered_page_sha256": {
+    "13": "70592c9b1b488d1cec1deb758afda8e5d24985868ea03a5334eb41b1823840d6",
+    "14": "70f1ab7b0b0377efc6e7d397325c2777fe69af56f05b397b84febe5eece8a0d3",
+    "18": "936507721fcecc74c2a713acdc2eb283660452b562070d204ca2c115a95881cb",
+    "24": "f27136ce9f92374026dde351af891f3fb1a8cc4b1d82fb8c94973ea5a2a84487",
+    "25": "a28af56bb1c39446c20ec97e7aa91dff9fc9db3e4b6f0de995ca99785cd2da06",
+    "26": "4d52331eed005e71d1c23da486c57ffb2319a560f50cb0a88c7ac37ff9298203",
+    "27": "79e3b826d8f46aa0ed4d1c60be480cd678195dbe8084777621db0beb494f297c",
+    "28": "3ee433a0f96f45b94ee9f3d9a1b3a4946cd7d52999d9376eb28db9b6e2a6e552",
+    "33": "d6cbb2b3abb5ace39ecf6e7f0ef7df5ebf64ea57802a2f1d9ac1c526c2e2ba88",
+    "34": "89ff479d7fb3e1388cfd49ce011d04a134aa78310a3e6c0bbe3bd7d09af7d76c"
+  },
+  "date": "2026-11-13",
+  "reviewer": "Codex",
+  "read_scope": "서지·목차, 확률 공리와 여사건/덧셈·같은 가능성의 모형 가정, 조건부확률·독립과 배반·조건 가지의 곱을 지정 추출문 17쪽과 실제 판면 10쪽에서 대조했다.",
+  "empirical_scope": {
+    "design": "교사용 수학 정의·식·수치 예·모형 그림의 지정 본문과 실제 판면 대조",
+    "sample_description": "학생 표본·응답 분석이나 국내 과제 효과 연구가 아님",
+    "inference_limit": "유한 모형 중심의 수학 설명이다. 영확률 조건에서 비율식은 정의되지 않으며 확률 0을 빈 사건과 일반적으로 동치라고 하지 않는다. 시간·장소·사람의 분리만으로 독립을 입증하지 않고 종속을 곧 인과로 해석하지 않는다. 두 사건의 공식을 임의의 다사건 독립 보장으로 확대하지 않는다. 실제 자료·학생 효과 연구가 아니다.",
+    "student_outcome_study": false,
+    "causal_effect_established": false,
+    "local_effect_tested": false
+  },
+  "contains_source_full_text": false,
+  "source_pdf_redistributed": false,
+  "reading_log": [
+    "서지·목차, 확률 공리와 여사건/덧셈·같은 가능성의 모형 가정, 조건부확률·독립과 배반·조건 가지의 곱을 지정 추출문 17쪽과 실제 판면 10쪽에서 대조했다."
+  ],
+  "source_corrections": [
+    {
+      "location": "방법·문항·표·그림·서술의 대조",
+      "issue": [
+        "25쪽 조건부확률의 분모는 양수여야 한다. 영확률을 일반적으로 빈 사건·불가능과 동치라고 하지 않으며 이 비율식의 미정의를 확률 0으로 답하지 않는다.",
+        "28쪽 배반이면 종속이라는 문장은 두 사건 확률이 모두 양수인 경우를 유지한다. 빈 사건은 곱 정의에서 모든 사건과 독립이다. 26~27쪽 물리적 독립 서술을 사람·시간·장소 분리만으로 수학적 독립을 입증한 것으로 쓰지 않는다.",
+        "수형도의 둘째 가지는 첫 결과의 조건부확률이다. 원문의 그림과 조건을 실제 판면에서 읽고 본문 평탄화의 교집합/분수 표기를 복원했다."
+      ]
+    }
+  ],
+  "probability_completion_review": {
+    "full_module_read": false,
+    "equiprobable_counting_requires_model": true,
+    "independence_product_handles_zero_events": true,
+    "conditional_ratio_requires_positive_denominator": true,
+    "disjoint_positive_events_not_independent": true,
+    "physical_separation_not_proof": true
+  }
+}

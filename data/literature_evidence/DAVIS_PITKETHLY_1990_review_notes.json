@@ -1,0 +1,91 @@
+{
+  "source_id": "DAVIS_PITKETHLY_1990",
+  "source_url": "https://www.jstor.org/stable/749141",
+  "source_pdf_url": "https://bpb-us-w2.wpmucdn.com/sites.umassd.edu/dist/8/406/files/2019/02/Cognitive-Aspects-of-Sharing.pdf",
+  "source_pdf_sha256": "cc7a9f8b1c9f163fd6f464951545223b85aa0eafd9562d89d5c120061cef26a1",
+  "source_asset_kind": "pdf",
+  "date": "2026-11-09",
+  "reviewer": "Codex",
+  "read_scope": "인쇄 145~153쪽의 논문 본문과 참고문헌을 읽었다. 서지와 과제·면담·논의의 PDF 2·3·4·8·10쪽은 이미지를 대조했다.",
+  "contains_source_full_text": false,
+  "source_pdf_redistributed": false,
+  "pdf_pages": 10,
+  "printed_pages": [
+    145,
+    153
+  ],
+  "text_pdf_pages": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "visual_pdf_pages": [
+    2,
+    3,
+    4,
+    8,
+    10
+  ],
+  "visual_pdf_page_hashes": {
+    "2": "0ed9be228b65ad5549fbeb7d9474b7387963594ad89ad5ee643c2a453a65081b",
+    "3": "7d18c28c34bae6d6eda6aa44c5fc4b7f39e42131624b7a9696eeccadccb5b78e",
+    "4": "a11c651666ea3bbdebf01e7e7531bb755e41997426909f8e85695d6670b38a10",
+    "8": "b43382b15d645a7a9405f1ea8662ccd9d8c008f45534a1c8a7cbeeba041c924a",
+    "10": "b6023e8397b3829be6e671b0a06ed4fcadfeb44c5c970891e996fcf3d16bc5c0"
+  },
+  "roles": {
+    "video_preschoolers": 3,
+    "video_preschool_age": 5,
+    "grade_two_group_interview": 17,
+    "grade_two_age_months": [
+      88,
+      99
+    ],
+    "groups": [
+      4,
+      3,
+      2,
+      2,
+      3,
+      3
+    ],
+    "separate_cited_preschool_study": 75
+  },
+  "empirical_scope": {
+    "design": "qualitative_group_interviews_about_edited_video",
+    "sample_description": "과자 12개를 두 인형과 세 인형에게 나눈 다섯 살 유아 3명의 편집 영상을 초등 2학년 17명이 여섯 소집단에서 보고 답했다.",
+    "inference_limit": "같은 몫을 확인하기 위해 세어야 하는지에 대한 면담이다. 수업의 사전·사후 비교와 개인별 발달 비율은 제시하지 않는다.",
+    "student_outcome_study": false,
+    "causal_effect_established": false,
+    "local_effect_tested": false
+  },
+  "response_scope": {
+    "clear_sufficiency_explanation": 1,
+    "possible_change_during_interview": 1,
+    "ambiguous_reversal": 1,
+    "individual_outcome_rate_measured": false
+  },
+  "reading_log": [
+    "인쇄 145~146쪽의 연구 질문은 같은 수씩 돌려 주는 절차가 동등한 몫을 보장함을 설명하는지에 관한 것이다. 인용된 별도 75명 연구, 영상의 5세 유아 3명, 면담을 받은 초등 2학년 17명의 역할을 구별한다.",
+    "인쇄 146~147쪽의 12개 과자 영상은 두 인형에게 6개씩 주고 세 번째 인형이 오면 4개씩 다시 나누는 상황이다. 첫 사례는 각각 세 개씩 옮긴 뒤 하나씩 되돌리는 방법이다. 세 유아의 과정과 확인 방법은 서로 달랐다.",
+    "인쇄 147~148쪽의 여섯 소집단은 편집 영상을 보고 대화식 면담을 했다. 영상은 유아의 분배를, 면담은 초등학생의 설명을 관찰한다. 동등한 분배를 가르친 실험의 사전·사후 자료는 아니다.",
+    "인쇄 149~152쪽의 답변은 더 세어야 같은 몫을 알 수 있다는 의견과 나눠 준 방법이 근거라는 의견을 보여 준다. 한 학생은 근거를 분명히 설명했고, 한 학생은 생각을 바꾼 것으로 보이며, 다른 한 학생의 답은 일관되지 않았다.",
+    "인쇄 152~153쪽에서 저자들은 면담에서의 돌려 주기와 성인 없이 자발적으로 나누는 행동을 구별하고 발문이 확인 행동을 이끌 가능성도 남긴다."
+  ],
+  "math_scope": [
+    "모든 사람에게 같은 개수를 주는 완전한 라운드가 반복되면 라운드마다 일대일 대응을 만들 수 있다. 마지막 라운드를 끝낼 수 없으면 나머지를 따로 두어야 몫의 수가 같다.",
+    "예를 들어 13개를 3명에게 순서대로 돌리면 4라운드와 나머지 1개다. 끝의 1개를 첫 사람에게 더 주면 5·4·4가 되므로 13개 모두를 썼다는 사실만으로 공평하지 않다."
+  ],
+  "source_corrections": [
+    {
+      "kind": "different_cited_authors",
+      "note": "LT2 Is It Fair?의 Davis & Hunting (1990) 인용은 이 논문의 Davis & Pitkethly (1990)과 저자가 다르므로 같은 자료로 등록하지 않는다."
+    }
+  ]
+}

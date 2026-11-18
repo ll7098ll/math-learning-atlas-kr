@@ -1,0 +1,11 @@
+{
+  "date": "2026-11-05",
+  "relation_id": "SEC_12미적Ⅰ-03-02_C04",
+  "original_rationale": "곱 구조에는 부분적분이라는 별도 전략이 필요하다.",
+  "corrected_rationale": "곱미분을 역으로 정리하면 부분적분을 선택할 수 있으며, 다항식의 곱은 전개 뒤 항별 적분 등 다른 전략으로도 계산할 수 있다.",
+  "reason": "곱꼴이라는 사실만으로 부분적분이 필요한 것은 아니다. 다항식 곱은 전개 뒤 항별 적분으로 계산할 수 있으므로 부분적분을 선택 가능한 전략으로 명시했다.",
+  "mathematical_check": "(x³/3+x²/2)′=x²+x=x(x+1)이다. 이 직접 계산이 곱꼴이면 반드시 부분적분이 필요하다는 주장의 반례다. ((x−1)e^x)′=xe^x로 다른 전략도 검산한다.",
+  "source_snapshot": "f04148c7f7f24277eda7807f170c79b7ee5b8228c403255dc136d744cdc3fe82",
+  "independent_review": false,
+  "student_validated": false
+}

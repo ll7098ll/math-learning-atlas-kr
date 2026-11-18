@@ -1,0 +1,64 @@
+{
+  "source_id": "MCDONOUGH_CHEESEMAN_2014_MASS_TASK",
+  "source_url": "https://eric.ed.gov/?id=ED599902",
+  "source_pdf_url": "https://files.eric.ed.gov/fulltext/ED599902.pdf",
+  "source_asset_kind": "pdf",
+  "source_pdf_sha256": "245986d154baa7f55bafbbd98d8015067ddaa9906bdb79fdb0a4cc0d6f824a12",
+  "pdf_pages": 8,
+  "selected_text_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "visual_pdf_pages": [
+    5,
+    6
+  ],
+  "rendered_page_sha256": {
+    "5": "eb4c7f4c5b3414a12c7f7c788829c1cc0009fd5dbd90a75e1065ffa8d5b6f78d",
+    "6": "acbd67bf33a92903418ea13f6a0056ba215121bd135939061b71a40c0a57a2da"
+  },
+  "date": "2026-11-13",
+  "reviewer": "Codex",
+  "read_scope": "다섯 수업 뒤 그리기·쓰기 과제의 방법, 무게의 같음과 정밀성 및 크기만으로 무게를 판단하지 않는 학생 설명을 대조했다.",
+  "empirical_scope": {
+    "design": "연구자가 제공한 다섯 수업 후 A3 종이에 표현한 개방형 자기 설명의 질적 주제 분석.",
+    "sample_description": "호주 빅토리아 도시·농촌 세 학교의 1·2학년 6~8세 282명, 13학급.",
+    "inference_limit": "13학급 282명의 개방형 응답에서 제시한 사례다. 그림·문장을 면담 없이 단정하지 않으며, 다른 검사 논문의 295명과 독립 표본으로 합산하지 않는다.",
+    "student_outcome_study": true,
+    "causal_effect_established": false,
+    "local_effect_tested": false
+  },
+  "contains_source_full_text": false,
+  "source_pdf_redistributed": false,
+  "reading_log": [
+    "다섯 수업 뒤 그리기·쓰기 과제의 방법, 무게의 같음과 정밀성 및 크기만으로 무게를 판단하지 않는 학생 설명을 대조했다."
+  ],
+  "source_corrections": [
+    {
+      "location": "방법·문항·표·그림·서술의 대조",
+      "issue": "4쪽의 그림 1 소개는 50g이라고 하지만 5쪽 실제 학생 그림은 20으로 보인다. 이 수치를 근거 주장과 자체 정답으로 사용하지 않는다. 원문의 부피와 무게가 무관하다는 서술은 다른 재료의 겉크기만으로 판단하지 않는 범위로 제한한다. 295건 검사 논문과의 표본 중복은 미확인이다."
+    }
+  ],
+  "clock_mass_review": {
+    "n": 282,
+    "classes": 13,
+    "schools": 3,
+    "ages": [
+      6,
+      8
+    ],
+    "lessons_before_task": 5,
+    "responses_per_child_may_have_multiple_elements": true,
+    "photo_test_295_sample_independence_not_established": true,
+    "paragraph_figure_1_grams": 50,
+    "visible_figure_1_grams": 20,
+    "numeric_discrepancy_not_used_as_result": true,
+    "theme_hierarchy_not_claimed": true,
+    "student_instrument_opinions_not_calibration_results": true
+  }
+}

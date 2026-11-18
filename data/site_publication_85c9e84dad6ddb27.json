@@ -1,0 +1,76 @@
+{
+  "saved": {
+    "id": "appgprj_6ae2965054108191ad7dc71524bb7cfb~appgver_aadd5546dc6c8191b5ced3147899309e",
+    "project_id": "appgprj_6ae2965054108191ad7dc71524bb7cfb",
+    "version_number": 71,
+    "source": {
+      "commit_sha": "70295dc14932503b968ee811e67ed32111338d23"
+    },
+    "archive_storage": {
+      "archive_format": "tar",
+      "sediment_file_id": "file_000000007de882118f6c7b6acd6f4df1",
+      "content_hash": "sha256:38e4cd8f437b82787f8e337f8650fe01887b944e13325e6c16af2939a6b8bb7b",
+      "size_bytes": 189388800,
+      "file_count": 1416
+    },
+    "screenshot_url": null,
+    "deployment_id": null
+  },
+  "deployment": {
+    "id": "appgdep_6afbe6f7c5ec81919d1229662171556c",
+    "project_id": "appgprj_6ae2965054108191ad7dc71524bb7cfb",
+    "title": "수학의 연결 지도",
+    "version_id": "appgprj_6ae2965054108191ad7dc71524bb7cfb~appgver_aadd5546dc6c8191b5ced3147899309e",
+    "type": "publish",
+    "status": "succeeded",
+    "url": "https://math-learning-atlas-kr.gptpro2908176.chatgpt.site",
+    "has_mcp": false,
+    "screenshot_asset_pointer": null,
+    "provider_deployment_id": "site---6ae2965054108191ad7dc71524bb7cfb",
+    "failure_message": null,
+    "env_set_revision": 0,
+    "updated_at": "2026-11-17T05:33:44.010497+00:00"
+  },
+  "package": {
+    "status": "pass",
+    "source": {
+      "project_id": "appgprj_6ae2965054108191ad7dc71524bb7cfb",
+      "commit_sha": "70295dc14932503b968ee811e67ed32111338d23"
+    },
+    "archive": {
+      "path": "C:\\Users\\User\\Desktop\\codex\\수학 내용 체계\\tmp\\math-atlas-publish-20261117-85c9e84dad6ddb27.tar.gz",
+      "files": 1416,
+      "bytes": 51229874,
+      "expanded_bytes": 188006400,
+      "sha256": "7c91759c3b8a6af6b79b7773448dc71e35b2386b14a6150e473de7983cee5b3a"
+    },
+    "protected_paths_verified": 919,
+    "omitted_unreferenced_historical_files": 22975,
+    "retained_snapshots": [
+      "current_85c9e84dad6ddb27"
+    ],
+    "previous_public_recovery": {
+      "version_number": 70,
+      "version_id": "appgprj_6ae2965054108191ad7dc71524bb7cfb~appgver_6a03cd042f5c8191b1bc79545ab1347c",
+      "commit_sha": "c51bb6ceb69c6e3a07faf116e5603034e52ca147",
+      "saved_archive_intact": true,
+      "source_checkout_assets_unchanged": true
+    },
+    "method": "Complete current dependency graph packaged as UTF-8 USTAR; every path and content reread exactly, every asset checked against pushed Git blob allowing only Windows LF/CRLF checkout normalization. Previous snapshots omitted from this deployment archive after Sites normalization exceeded 256 MiB; original saved rollback archives and source remain intact. Existing stale-resource handling requests reload."
+  },
+  "live_check": {
+    "status": "pass",
+    "url": "https://math-learning-atlas-kr.gptpro2908176.chatgpt.site",
+    "data_version": "85c9e84dad6ddb27",
+    "resources_checked": 99,
+    "affected_standards": 12,
+    "added_claims": 6,
+    "added_observations": 8,
+    "changed_prior_claims": 0,
+    "changed_prior_observations": 0,
+    "cumulative_source_claims": 34,
+    "cumulative_source_observations": 50,
+    "scope": "Public root, browser entries, curriculum PDF, indexes, affected standard details and relations, their immutable task items, and the goal and concept graphs match the authored release. The hosting script addition is permitted in HTML. All thirty-four cumulative same-source claims and fifty own observation IDs appear in their mapped live detail sections. All1004 prior claims and forty-two prior source tasks remain unchanged. The existing worksheet now separates actual, planned and potential use, and operation, supported use, learning explanations and different settings. Publication, potential adoption and plans are not actual learner data or validated instruments."
+  },
+  "note": "Post-publication receipts updated locally after the pushed source/archive; content data unchanged. This does not claim receipt metadata was part of that earlier archive."
+}

@@ -1,0 +1,36 @@
+{
+  "status": "self_checked",
+  "changes": [
+    {
+      "source_id": "SAM_2013_DISCRETE_SELECTED",
+      "previous_title": "Discrete probability distributions: Supporting Australian Mathematics, Module 20, A guide for teachers, Years 11–12, selected pages",
+      "corrected_title": "Discrete probability distributions: Supporting Australian Mathematics, Module 19, A guide for teachers, Years 11–12, selected pages",
+      "previous_bibliography_snapshot": "690ad801df8440f551edc734b7421ea68c00aba0d065c6b86072ded46e3f5568",
+      "date": "2026-11-13",
+      "reviewer": "Codex",
+      "reason": "실제 PDF 표지의 모듈 번호를 추출해 대조했다. 서지 번호만 정정하며 원문 파일·지정 읽기 쪽·주장·자체 과제·관계 해석은 전부 같음을 대조했다. 독립/학생 검증으로 승격하지 않는다."
+    },
+    {
+      "source_id": "SAM_2013_BINOMIAL_SELECTED",
+      "previous_title": "Binomial distribution: Supporting Australian Mathematics, Module 21, A guide for teachers, Years 11–12, selected pages",
+      "corrected_title": "Binomial distribution: Supporting Australian Mathematics, Module 20, A guide for teachers, Years 11–12, selected pages",
+      "previous_bibliography_snapshot": "6a4bdc86c5775d8a634517c12af90f861a78c5ea3f83248c037f8c7d9325da43",
+      "date": "2026-11-13",
+      "reviewer": "Codex",
+      "reason": "실제 PDF 표지의 모듈 번호를 추출해 대조했다. 서지 번호만 정정하며 원문 파일·지정 읽기 쪽·주장·자체 과제·관계 해석은 전부 같음을 대조했다. 독립/학생 검증으로 승격하지 않는다."
+    },
+    {
+      "source_id": "SAM_2013_NORMAL_SELECTED",
+      "previous_title": "Exponential and normal distributions: Supporting Australian Mathematics, Module 23, A guide for teachers, Years 11–12, selected pages",
+      "corrected_title": "Exponential and normal distributions: Supporting Australian Mathematics, Module 22, A guide for teachers, Years 11–12, selected pages",
+      "previous_bibliography_snapshot": "827d123083e48660b754a82da63dd644e0fb976f756b87b9ac93ba6e44fabecf",
+      "date": "2026-11-13",
+      "reviewer": "Codex",
+      "reason": "실제 PDF 표지의 모듈 번호를 추출해 대조했다. 서지 번호만 정정하며 원문 파일·지정 읽기 쪽·주장·자체 과제·관계 해석은 전부 같음을 대조했다. 독립/학생 검증으로 승격하지 않는다."
+    }
+  ],
+  "mathematical_claims_unchanged": true,
+  "observations_unchanged": true,
+  "independent_review": false,
+  "student_validation": false
+}

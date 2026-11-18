@@ -1,0 +1,138 @@
+{
+  "source_id": "NRC_MEASUREMENT_2001",
+  "source_url": "https://www.nationalacademies.org/read/9822/chapter/10",
+  "source_asset_kind": "publisher_html",
+  "source_asset_sha256": "73e2387e821c7301794ae2f575b39870f3313ba979ade2edab538b7c1584cdbe",
+  "source_asset_redistributed": false,
+  "date": "2026-11-04",
+  "reviewer": "Codex",
+  "contains_source_full_text": false,
+  "source_pdf_redistributed": false,
+  "source_corrections": [
+    {
+      "kind": "workspace_bibliography_title_correction",
+      "observation": "기존 서지는8장을Measurement and Geometry라고 적었으나 실제8장은Developing Mathematical Proficiency Beyond Number이고Measurement and Geometry는인쇄281–288쪽의절이다.",
+      "action": "장 제목과 절 범위를 바로잡고 기존 식별자는 유지한다. 원문 내용의 오류 정정이나 PDF 판면 대조로 표시하지 않는다."
+    }
+  ],
+  "reading_log": [
+    "출판사 공식HTML의인쇄255–312쪽58쪽을 모두 읽음. PDF를 다운로드하거나 전58쪽 인쇄 판면 이미지를 본 것은 아님.",
+    "인쇄255–280: 표현·변형·일반화/정당화, 등호·미지수/변수·식의 구조·도구 연구 및상자8–1~8–8 대조. 예의 계산·표·일반식과 개별 사례/집단 비교의 한계를 구별.",
+    "인쇄281–288측정·기하 절 전체: 동일 단위·시작점·길이 간격, 넓이 덮기/분해/재구성, 삼차원 단위, 도형 속성·각의 여러 모델·이동과대칭의 과제 의존성을 확인.",
+    "인쇄288–294자료·가능성 및종합: 읽기/정리/표현/해석·대표값·표본공간·복원/비복원·독립의 개념을 구별. 한국 초등 학년의 필수 범위를 뜻하지 않음.",
+    "인쇄294–300미주1–173과300–312참고문헌을 모두 읽고 본문과 출처의 연결을 확인. 인용된 원연구·원자료를 모두 읽거나 재분석한 것은 아님.",
+    "웹본문의삽입 이미지7개를 각각 시각적으로 확인: 인쇄257점 배열,258분수해,260표,271동치분수3개,277삼각수 배열. 원격 자산의 주소·확인한 파일 해시를 기록."
+  ],
+  "observed_image_assets": [
+    {
+      "url": "https://www.nationalacademies.org/read/9822/assets/images/p20004b74g257001.jpg",
+      "printed_page": 257,
+      "sha256": "01c845aed4326a76c64b60ee3d64e361791ed55819f3a3cd20096f06495d2c14",
+      "file": "p20004b74g257001.jpg"
+    },
+    {
+      "url": "https://www.nationalacademies.org/read/9822/assets/images/p20004b74g258001.jpg",
+      "printed_page": 258,
+      "sha256": "54ed16d1a500504b9b88ac61768080ed87dc8acf98b136e34b4cef2e692604f0",
+      "file": "p20004b74g258001.jpg"
+    },
+    {
+      "url": "https://www.nationalacademies.org/read/9822/assets/images/p20004b74g260001.jpg",
+      "printed_page": 260,
+      "sha256": "2caf632c5955254578067091602e0766f93877b4d9185019f0c4f84e9d05f4f0",
+      "file": "p20004b74g260001.jpg"
+    },
+    {
+      "url": "https://www.nationalacademies.org/read/9822/assets/images/p20004b74g271001.jpg",
+      "printed_page": 271,
+      "sha256": "8b56ef477ea7bd332547d262e2d982fb73f8f2729c3ac3531252276a1508dc9f",
+      "file": "p20004b74g271001.jpg"
+    },
+    {
+      "url": "https://www.nationalacademies.org/read/9822/assets/images/p20004b74g271002.jpg",
+      "printed_page": 271,
+      "sha256": "afffe405f1a7672df8b8a26aa1ad28998e657685c7d979bae695713043116cf1",
+      "file": "p20004b74g271002.jpg"
+    },
+    {
+      "url": "https://www.nationalacademies.org/read/9822/assets/images/p20004b74g271003.jpg",
+      "printed_page": 271,
+      "sha256": "bfeb4700d93ed26cb0a860d1ed9f64cf0b92d828058ef87c3486621aec3d8f35",
+      "file": "p20004b74g271003.jpg"
+    },
+    {
+      "url": "https://www.nationalacademies.org/read/9822/assets/images/p20004b74g277001.jpg",
+      "printed_page": 277,
+      "sha256": "4f467602a143d48375bee90437ed8af16e5826c8618d29d399caca15821a5d87",
+      "file": "p20004b74g277001.jpg"
+    }
+  ],
+  "read_printed_pages": [
+    255,
+    256,
+    257,
+    258,
+    259,
+    260,
+    261,
+    262,
+    263,
+    264,
+    265,
+    266,
+    267,
+    268,
+    269,
+    270,
+    271,
+    272,
+    273,
+    274,
+    275,
+    276,
+    277,
+    278,
+    279,
+    280,
+    281,
+    282,
+    283,
+    284,
+    285,
+    286,
+    287,
+    288,
+    289,
+    290,
+    291,
+    292,
+    293,
+    294,
+    295,
+    296,
+    297,
+    298,
+    299,
+    300,
+    301,
+    302,
+    303,
+    304,
+    305,
+    306,
+    307,
+    308,
+    309,
+    310,
+    311,
+    312
+  ],
+  "pdf_read": false,
+  "original_page_layout_review": false,
+  "interpretation_limits": [
+    "2001년 연구 종합의 실제 서술 범위다. 오늘날 모든 학습자·교육과정·디지털 도구의 효과에 관한 규준이나 최신 체계적 문헌 고찰로 취급하지 않음.",
+    "개념 이해·절차·표현·정당화의 연결을 설계에 참고하되, 학년·도구·한 반응을 인지 단계나 보편적 선수 순서로 고정하지 않음.",
+    "기술 활용 비교에서도 과제의맥락·도구 허용·숙달한 기능에 따라 결과가 달랐다. 연구가 보고한 인과·상관·사례를 구별하며 모든 도구가 모든 기능을 개선한다고 결론짓지 않음.",
+    "서로 다른 연구의 표본·백분율을 합치지 않고, 현재 자체 과제의 효과·독립 검토·학생 검증으로 전용하지 않음."
+  ]
+}

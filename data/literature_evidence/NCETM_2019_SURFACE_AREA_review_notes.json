@@ -1,0 +1,57 @@
+{
+  "source_id": "NCETM_2019_SURFACE_AREA",
+  "source_url": "https://www.ncetm.org.uk/media/1qabpyac/ncetm_ks3_cc_6_2.pdf",
+  "source_asset_kind": "pdf",
+  "source_pdf_sha256": "51a9789e14470d13442e04ed80031c995bd9b9346a624836b0b00e65c261ff05",
+  "source_pdf_url": "https://www.ncetm.org.uk/media/1qabpyac/ncetm_ks3_cc_6_2.pdf",
+  "pdf_pages": 33,
+  "selected_text_pages": [
+    1,
+    2,
+    8,
+    29,
+    32
+  ],
+  "visual_pdf_pages": [
+    29,
+    32
+  ],
+  "rendered_page_sha256": {
+    "29": "74f0d98733d391fa885af9cf8f21d6afde2b7e363e6769a367bbd2e05fc93012",
+    "32": "52dae4cea81fd96939f995782624f9dc0bddf6b8bf3f61542d94a57a597396fb"
+  },
+  "date": "2026-11-13",
+  "reviewer": "Codex",
+  "read_scope": "교사 개발 자료의 목적, 겉넓이 정의, 면이 빠진 의도적 오류 예와 24개 연결 정육면체로 만든 직육면체 과제를 대조했다.",
+  "empirical_scope": {
+    "design": "교사 전문성 개발을 위한 개념 설명·예시·의도적 오류와 토의 질문.",
+    "sample_description": "학생 표본 없음. 자체 과제는 직육면체와 정육면체의 여섯 면으로 한정.",
+    "inference_limit": "영국 KS3 교사 개발 자료다. 원문의 삼각기둥·육각기둥 계산은 국내 초등 필수 범위로 옮기지 않는다. 의도적 오답 예와 문서의 정답을 구별한다.",
+    "student_outcome_study": false,
+    "causal_effect_established": false,
+    "local_effect_tested": false
+  },
+  "contains_source_full_text": false,
+  "source_pdf_redistributed": false,
+  "reading_log": [
+    "교사 개발 자료의 목적, 겉넓이 정의, 면이 빠진 의도적 오류 예와 24개 연결 정육면체로 만든 직육면체 과제를 대조했다."
+  ],
+  "source_corrections": [
+    {
+      "location": "방법·문항·표·그림·서술의 대조",
+      "issue": "29쪽은 빠진 면을 찾게 한 의도적 오류다. 부분합을 정답으로 옮기지 않는다. 원문 고학년용 삼각·육각기둥 예와 자체 초등 직육면체·정육면체 과제를 구별한다."
+    }
+  ],
+  "upper_primary_review": {
+    "year": 2019,
+    "student_sample_exists": false,
+    "deliberately_incorrect_example": true,
+    "elementary_tasks_restricted_to_cuboids_and_cubes": true,
+    "equal_volume_cube_count": 24,
+    "own_surface_areas": [
+      52,
+      68
+    ],
+    "cube_side_3_surface": 54
+  }
+}

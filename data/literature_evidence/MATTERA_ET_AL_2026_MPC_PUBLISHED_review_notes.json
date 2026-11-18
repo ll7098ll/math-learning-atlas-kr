@@ -1,0 +1,198 @@
+{
+  "source_id": "MATTERA_ET_AL_2026_MPC_PUBLISHED",
+  "source_url": "https://doi.org/10.1080/19345747.2025.2509234",
+  "source_pdf_url": "https://www.tandfonline.com/doi/pdf/10.1080/19345747.2025.2509234",
+  "source_asset_kind": "web_pdf_text",
+  "date": "2026-11-10",
+  "reviewer": "Codex",
+  "read_scope": "출판사 PDF에서 추출된 439·443~448·455쪽의 선정 본문과 표 2·4·5를 2021년 보고서 및 사전등록과 대조했다.",
+  "pdf_text_review": {
+    "reported_pdf_pages": 29,
+    "text_pdf_pages": [
+      9,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      25
+    ],
+    "visual_pdf_pages": [],
+    "binary_obtained": false,
+    "text_line_count": 470,
+    "page_text_line_ranges": [
+      [
+        0,
+        40
+      ],
+      [
+        41,
+        64
+      ],
+      [
+        65,
+        106
+      ],
+      [
+        107,
+        148
+      ],
+      [
+        149,
+        249
+      ],
+      [
+        250,
+        301
+      ],
+      [
+        302,
+        442
+      ],
+      [
+        443,
+        469
+      ]
+    ]
+  },
+  "empirical_scope": {
+    "design": "취학 전 기관을 배정한 Making Pre-K Count 연구의 취학 전 및 초등 3학년 출판 분석.",
+    "sample_description": "동의 표본 2,715명, 취학 전 평가 1,389명, 3학년 수학 분석 1,844명.",
+    "inference_limit": "동일한 MPC 연구의 출판 분석이다. 보고서와 독립 표본으로 합산하지 않는다. 부록 파일과 원자료·코드, 자체 과제의 학생 반응은 확인 범위 밖이다.",
+    "student_outcome_study": true,
+    "causal_effect_established": false,
+    "local_effect_tested": false,
+    "study_family": "MDRC_MAKING_PRE_K_COUNT_HIGH_5S"
+  },
+  "original_page_layout_review": false,
+  "contains_source_full_text": false,
+  "source_pdf_redistributed": false,
+  "publication": {
+    "volume": 19,
+    "issue": 2,
+    "printed_pages": [
+      432,
+      459
+    ],
+    "online_date": "2025-07-15",
+    "issue_year": 2026
+  },
+  "web_excerpt_ranges": [
+    {
+      "pdf_page": 9,
+      "source_lines": [
+        357,
+        397
+      ]
+    },
+    {
+      "pdf_page": 13,
+      "source_lines": [
+        622,
+        645
+      ]
+    },
+    {
+      "pdf_page": 14,
+      "source_lines": [
+        733,
+        774
+      ]
+    },
+    {
+      "pdf_page": 15,
+      "source_lines": [
+        780,
+        821
+      ]
+    },
+    {
+      "pdf_page": 16,
+      "source_lines": [
+        823,
+        923
+      ]
+    },
+    {
+      "pdf_page": 17,
+      "source_lines": [
+        1093,
+        1144
+      ]
+    },
+    {
+      "pdf_page": 18,
+      "source_lines": [
+        1149,
+        1289
+      ]
+    },
+    {
+      "pdf_page": 25,
+      "source_lines": [
+        1569,
+        1595
+      ]
+    }
+  ],
+  "reading_log": [
+    "출판사 PDF 추출의 분모·모형·대치 절차·검정 결과와 2021년 보고서를 대조했다."
+  ],
+  "source_corrections": [
+    {
+      "location": "439쪽·표 4·표 5",
+      "issue": "동의 분모, 효과의 p값, 집단 간 차이 검정을 구별한다."
+    }
+  ],
+  "companion_report": {
+    "source_id": "MATTERA_ET_AL_2021_MPC_THIRD_GRADE",
+    "snapshot_file": "data/literature_evidence/MATTERA_ET_AL_2021_MPC_THIRD_GRADE_preregistration_review_notes.json",
+    "sha256": "fc41cf267055b92c6a18174f2a4b366e043145be17175d283414f6ba61cfe2a9"
+  },
+  "sample": {
+    "journal_consented": 2715,
+    "report_consented": 2717,
+    "report_eligible": 2702,
+    "report_any_outcome": 2277,
+    "journal_pre_k": 1389,
+    "grade_3_math_groups": [
+      945,
+      899
+    ],
+    "grade_3_math": 1844,
+    "retained_high5s": 226
+  },
+  "model": {
+    "journal_levels": [
+      "child",
+      "classroom",
+      "pre_k_site"
+    ],
+    "report_levels": [
+      "child",
+      "pre_k_site"
+    ],
+    "journal_baseline_imputations": 50,
+    "journal_assumption": "missing_at_random",
+    "journal_outcomes_imputed": false
+  },
+  "results": {
+    "pre_k_math_effects": [
+      0.03,
+      0.03
+    ],
+    "grade_3_math_effect": 0.1,
+    "journal_p": 0.18,
+    "report_p": 0.19,
+    "low_high_inhibitory_math": [
+      0.36,
+      0.14
+    ],
+    "math_contrast": 0.22,
+    "math_contrast_significance_marker": false
+  },
+  "supplemental_workbook_verified": false,
+  "participant_data_public": false,
+  "analysis_code_public": false
+}

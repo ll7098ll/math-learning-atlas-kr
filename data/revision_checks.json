@@ -1,0 +1,16 @@
+{
+  "status": "pass",
+  "version": "c7e86e2fa1af547e",
+  "standards": 435,
+  "checks": [
+    "authored coverage and required fields",
+    "source provenance and references",
+    "JavaScript syntax",
+    "network model",
+    "task pathways and full AND groups",
+    "concept flow network",
+    "concept classification and search",
+    "all concept pathways",
+    "strict school scopes and 12-section corpus"
+  ]
+}

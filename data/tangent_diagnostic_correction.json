@@ -1,0 +1,14 @@
+{
+  "date": "2026-11-05",
+  "standard_code": "12미적Ⅰ-02-05",
+  "old_followup": "x³의 원점 접선을 본다.",
+  "new_followup": "f(x)=x³−x의x=1 접선y=2x−2가x=−2에서도 만남을 확인한다.",
+  "reason": "한 점에서만 만나는지 묻는 질문에x³의 원점 접선은 교차하지만 만나는 점은 하나여서 반례가 아니었다. f=x³−x의x=1 접선은y=2x−2이고 f(x)−(2x−2)=(x−1)²(x+2)이므로x=−2에서도 만난다. x³의 원점 예는 곡선 횡단의 예로만 유지한다. 기존 주과제·풀이·조건·목표·과제 원장은 그대로이며 후속 예와 피드백만 고쳤다.",
+  "affected_claims": [
+    "OD02"
+  ],
+  "previous_target_snapshot": "1b28da3fbc67197ab4506ad8fa905db37805cb7a5ffec72770d7a04ad064cef8",
+  "current_target_snapshot": "81ef2f00d5a26d3a6e932f3e22e71937fa8f290adbf88bb4d1b38fc7e260495a",
+  "independent_review": false,
+  "student_validated": false
+}

@@ -1,0 +1,76 @@
+{
+  "saved": {
+    "id": "appgprj_6ae2965054108191ad7dc71524bb7cfb~appgver_8203b47b60388191a967fb37dafeeb77",
+    "project_id": "appgprj_6ae2965054108191ad7dc71524bb7cfb",
+    "version_number": 80,
+    "source": {
+      "commit_sha": "dea6d53835c51da38473a281c2aeef02bfe7507d"
+    },
+    "archive_storage": {
+      "archive_format": "tar",
+      "sediment_file_id": "file_0000000073448209a1e6fbee0046d3ff",
+      "content_hash": "sha256:ec7a4109f91b5ddd6f6047021b68f3ed577c43abaff38359255e1f38867f44b8",
+      "size_bytes": 195594240,
+      "file_count": 1416
+    },
+    "screenshot_url": null,
+    "deployment_id": null
+  },
+  "deployment": {
+    "id": "appgdep_6afce49908f08191b6b193d576cba009",
+    "project_id": "appgprj_6ae2965054108191ad7dc71524bb7cfb",
+    "title": "수학의 연결 지도",
+    "version_id": "appgprj_6ae2965054108191ad7dc71524bb7cfb~appgver_8203b47b60388191a967fb37dafeeb77",
+    "type": "publish",
+    "status": "succeeded",
+    "url": "https://math-learning-atlas-kr.gptpro2908176.chatgpt.site",
+    "has_mcp": false,
+    "screenshot_asset_pointer": null,
+    "provider_deployment_id": "site---6ae2965054108191ad7dc71524bb7cfb",
+    "failure_message": null,
+    "env_set_revision": 0,
+    "updated_at": "2026-11-17T23:35:38.957371+00:00"
+  },
+  "package": {
+    "status": "pass",
+    "source": {
+      "project_id": "appgprj_6ae2965054108191ad7dc71524bb7cfb",
+      "commit_sha": "dea6d53835c51da38473a281c2aeef02bfe7507d"
+    },
+    "archive": {
+      "path": "C:\\Users\\User\\Desktop\\codex\\수학 내용 체계\\tmp\\math-atlas-publish-20261118-b6769f675e25b9be.tar.gz",
+      "files": 1416,
+      "bytes": 53561825,
+      "expanded_bytes": 194211840,
+      "sha256": "97d6cbab96510625ccea9c2c0404b7c655068c3beaf200fe4c59387925b529ba"
+    },
+    "protected_paths_verified": 919,
+    "omitted_unreferenced_historical_files": 31246,
+    "retained_snapshots": [
+      "current_b6769f675e25b9be"
+    ],
+    "previous_public_recovery": {
+      "version_number": 79,
+      "version_id": "appgprj_6ae2965054108191ad7dc71524bb7cfb~appgver_acb479de038c81918be75d1f5202655a",
+      "commit_sha": "fedf99dac63920a1d1f9784f1fb6d96e1897ecb8",
+      "saved_archive_intact": true,
+      "source_checkout_assets_unchanged": true
+    },
+    "method": "Complete current dependency graph packaged as UTF-8 USTAR; every path and content reread exactly, every asset checked against pushed Git blob allowing only Windows LF/CRLF checkout normalization. The supported helper returned Unable to package the Site archive after pushing; its root cause is unverified. Reopening the remote confirmed this commit. Retain the complete current dependency graph below the previously observed 256 MiB normalization limit; original saved rollback archives and source remain intact. Existing stale-resource handling requests reload."
+  },
+  "live_check": {
+    "status": "pass",
+    "url": "https://math-learning-atlas-kr.gptpro2908176.chatgpt.site",
+    "data_version": "b6769f675e25b9be",
+    "resources_checked": 81,
+    "affected_standards": 6,
+    "added_claims": 0,
+    "added_observations": 5,
+    "changed_prior_claims": 6,
+    "changed_prior_observations": 2,
+    "cumulative_source_claims": 6,
+    "cumulative_source_observations": 17,
+    "scope": "Public root,browser entries,curriculum PDF,indexes,six affected standard details/relations,immutable task and goal/concept graphs match authored bytes,allowing only hosting HTML script. All6same-source claims/17own tasks appear in mapped live sections.6existing claim scopes/locations/limits,2task explanations and28context snapshots rereviewed with prior30/54spread notes preserved;5own tasks added,no new claims/contexts. All828prior interpretation texts and other168sources/1029claims/1179tasks unchanged.32new visual spreads,total86,zero extracted text/OCR;not full dictionary/book or publisher printing/binary fidelity. Definitions/perpendicular distance,essential versus redundant data,equality conditions and base/arbitrary induction step appear in existing eight-section workbook and tested build. Pappus paraphrase is not historical-original reading;actual human/visual validation incomplete."
+  },
+  "note": "Post-publication receipts updated locally after the pushed source/archive; content data unchanged. This does not claim receipt metadata was part of that earlier archive."
+}

@@ -1,0 +1,214 @@
+{
+  "source_id": "DICK_CAREY_2014",
+  "source_url": "https://www.pearson.com/en-gb/subject-catalog/p/systematic-design-of-instruction-the-pearson-new-international-edition/P200000004082?view=educator",
+  "source_pdf_sha256": "5b548b0034ef2cb66e53d57b94c1775bae1d7cb790243678e5bfe49c1e0bf506",
+  "date": "2026-11-06",
+  "reviewer": "Codex",
+  "contains_source_full_text": false,
+  "source_pdf_redistributed": false,
+  "pdf_assets": [
+    {
+      "key": "preview40",
+      "url": "https://api.pageplace.de/preview/DT0400.9781292052663_A24569965/preview-9781292052663_A24569965.pdf",
+      "sha256": "5b548b0034ef2cb66e53d57b94c1775bae1d7cb790243678e5bfe49c1e0bf506",
+      "pdf_pages": 40,
+      "text_read_pdf_pages": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40
+      ],
+      "visually_reviewed_pages": [
+        {
+          "pdf_page": 1,
+          "sha256": "5f014b4f98da941ba7e01270026ec11f65a095e34e5d720ee216a2fa3fb6f458"
+        },
+        {
+          "pdf_page": 2,
+          "sha256": "61df7aed7f13dac92a44eef3b2d34ca0621f94e903bec2833d661a2cc0fecc3b"
+        },
+        {
+          "pdf_page": 3,
+          "sha256": "be94513b0f25ff26beeddd9a27829d73964a097bb988176fb472d41a30f4e0b4"
+        },
+        {
+          "pdf_page": 4,
+          "sha256": "fb5b9dc52af1b5d9abc814e72285ae494eb2cd2c3f7c6080b717d1da28cfc5ec"
+        },
+        {
+          "pdf_page": 7,
+          "sha256": "51fbc0facdeeea8624dee83c58c27d0de137b3521c076df13504fc809914ebea"
+        },
+        {
+          "pdf_page": 8,
+          "sha256": "cbc6bda1a0f420be06aee79db72e1422e4ed1f266aa9a63f88b22614b0bb8d6c"
+        },
+        {
+          "pdf_page": 10,
+          "sha256": "c131db642d1d2f072a08472b1ef16bbbe27d24b2fe2116330061aca06f94f078"
+        },
+        {
+          "pdf_page": 13,
+          "sha256": "c2b8c5d94dfa7a3810e7fe4e48b13c04dda2ae739a77628a21b0d3656a64f966"
+        },
+        {
+          "pdf_page": 15,
+          "sha256": "f33f7ea461cb90df4b5afbf442e7ec50def93e4773547c86d9b6b9afe31c1eb5"
+        },
+        {
+          "pdf_page": 22,
+          "sha256": "e6155f2613df18a8e925be518830bb996deb8166986593c0f42547b458d84865"
+        },
+        {
+          "pdf_page": 26,
+          "sha256": "21bc1154896c4e109fe515b758d1492db04945d5b3b806b26d219186aafdf931"
+        },
+        {
+          "pdf_page": 31,
+          "sha256": "1c2b10a96920df11af8f03683a88f90b1117907dfde14b2e76252d8b241a02b9"
+        },
+        {
+          "pdf_page": 32,
+          "sha256": "0a2c5e3024858e55798743077c40f3e6995be9d70c5d034888c9fdcdb1750f68"
+        },
+        {
+          "pdf_page": 37,
+          "sha256": "b4d8a577b07796f0433614d0a9b54d2d4b5078a94325a099a5d2cad44a191f2b"
+        },
+        {
+          "pdf_page": 38,
+          "sha256": "66c7eb930307ce2e55ac9f9139643ed9b2c8d3093ef17c9aeda24a510454e3bc"
+        },
+        {
+          "pdf_page": 39,
+          "sha256": "40c211477df4d3d542b796d82101a52bdfa5b4a37e58772012bd0938d49def81"
+        },
+        {
+          "pdf_page": 40,
+          "sha256": "aa0d525478480cab7c517f8c9844337e72be994b0993fbf8312c3125da3521d2"
+        }
+      ],
+      "redistributed": false
+    },
+    {
+      "key": "sample8",
+      "url": "https://www.pearson.de/media/muster/ext/9781292052663.pdf",
+      "sha256": "cd3a72a1d878812b06d508f9727a119657dfa90ca0ca150cbec0ef97e99cc2cd",
+      "pdf_pages": 8,
+      "text_read_pdf_pages": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "visually_reviewed_pages": [
+        {
+          "pdf_page": 2,
+          "sha256": "6ad96b383ab561fb042cfdd767993d715667d82953711eaa50c8c2f303f7eaf9"
+        },
+        {
+          "pdf_page": 3,
+          "sha256": "153ff04633154783b348fe743d843cd98321c363684eb4681a85e5274a023608"
+        },
+        {
+          "pdf_page": 4,
+          "sha256": "c5d82fda1f8063b841bc2e382a054cde377b6b1cfcbc86416a3b0a7badf553bf"
+        },
+        {
+          "pdf_page": 6,
+          "sha256": "557a28fd8c9de6ad6d64b744d841b44de741f7660be8637e5287724bacfebe7a"
+        },
+        {
+          "pdf_page": 7,
+          "sha256": "4c53cfee623dc6d0d9afa12018b6f584faa4e8924907a5150f750218f692a9c2"
+        },
+        {
+          "pdf_page": 8,
+          "sha256": "8f06369ce1c9d34a5ffc7254eddf5eef9f556498e66d7b112ba60ca047aa099b"
+        }
+      ],
+      "redistributed": false
+    }
+  ],
+  "reading_log": [
+    "국제판의40쪽 미리보기와8쪽 발췌에서 지정46쪽의 추출텍스트를 읽었다. 미리보기PDF2–40·발췌PDF2–8이며 텍스트 없는 두 겉표지는 텍스트 쪽 수에 넣지 않는다. 표제의 중복과 미리보기PDF6의 빈 쪽 안내가 포함된다.",
+    "미리보기의 국제판1장 목표 동정·요구 분석·사례·평가 표·연습·참고문헌 전체(국제판2–25,원서14–37)와2장 목표 분석 앞부분(국제판26–35,원서38–47)을 확인했다.",
+    "발췌의 수행목표 평가 표·연습·피드백·참고문헌과 평가 도입·출발 기능 검사(국제판115–120,원서127–132)를 읽었다. 다른 검사 유형의 전체 설명은 이어지는 쪽에 있어 미검토다.",
+    "선정23쪽의 전체 페이지 이미지를 확인했다. 두 쪽에 걸친 설계모형의 병행·수정 화살표,표2.1·2.2·3.1,목표/수행목표 평가 표,조건 분기·연결·반복 도식과 본문을 대조했다."
+  ],
+  "source_corrections": [
+    {
+      "kind": "edition_and_text_layer_guard",
+      "location": "preview40 PDF2–5·7·31 / sample8 PDF2·6",
+      "action": "2014년7판 국제판의 표제와 서지를 이미지로 확인했다. 본문은2009년 원서 장을 재수록하여 국제판 목차·하단 쪽 번호와 원서 번호가 다르며 PDF 물리 쪽도 구별한다. 서지는 판면의 인쇄ISBN9781292041254를 사용하고 추출층에 겹쳐 나온 다른ISBN을 혼합하지 않는다."
+    },
+    {
+      "kind": "percentage_point_and_rate_guard",
+      "location": "preview40 PDF13·15 / 국제판8·10·원서20·22",
+      "observed": "목표90%·현재77%의 차를13%,목표95%·현재81%의 차를14%로 표현하는 대목이 있다.",
+      "action": "차는 각각13·14퍼센트포인트로 구별한다. 상대 증가율은 현재를 분모로 하므로 각각13/77·14/81이다. 교재 사례의 수치를 현재 학생 자료나 개선 효과로 옮기지 않는다."
+    },
+    {
+      "kind": "bound_not_exact_value_guard",
+      "location": "preview40 PDF11·13 / 국제판6·8·원서18·20",
+      "action": "평균 대기가2분30초 초과이고 목표90초인 설명에서 격차는60초 초과다. 표의60초 표현을 정확한 관측 차라고 복사하지 않으며 실제 평균을 새로 지어내지 않는다."
+    },
+    {
+      "kind": "illustration_and_heuristic_guard",
+      "location": "preview40 PDF37·40 / 국제판32·35·원서44·47",
+      "action": "표3.1의 유형 대응은 예시라는 원문의 한계를 유지한다.1~2시간당5–15단계라는 경험적 지침을 현재435기준·870목표의 단계 수 또는 시간 규칙으로 강제하지 않는다."
+    },
+    {
+      "kind": "mathematical_rule_condition_guard",
+      "location": "preview40 PDF34 / 국제판29·원서41",
+      "action": "피타고라스식의 역할 예를 실제 수학 과제로 쓸 때 a,b는 직각변,c는 빗변이며 길이는 양수라는 조건을 명시한다. 원전이 모든 삼각형에 적용한다고 주장한 것으로 해석하거나 수치 적용을 일반 정당화로 바꾸지 않는다."
+    }
+  ],
+  "unread_followups": [
+    "목표 분석 장의 나머지와 하위·출발 기능 분석 장 본문 전체,학습자·맥락 분석 및 수행목표/평가 장의 미포함 부분·형성평가·부록·인용 원연구는 미검토다.",
+    "공식 미리보기에 없는 본문을 다른 판본·2차 요약으로 대신 읽었다고 하지 않는다. 실제 독립 검토·익명 학생 반응·수정 후 재검증은 별도 근거가 필요하다."
+  ],
+  "interpretation_limits": [
+    "설계 원전의 지정 범위 읽기다. IES식 권고 등급·현재 과제의 인과 효과·진단 규준·유일한 한국 성취기준 선수 순서의 직접 근거가 아니다.",
+    "학습자와 맥락 분석은 내용 분석과 병행·반복할 수 있다. 자체 발문의 기대 설명을 실제 관측이나 원전의 검증 결과로 집계하지 않는다.",
+    "파일 두 개의 물리 쪽은48쪽이나46쪽의 추출텍스트와23쪽 이미지를 확인한 범위이며 중복 표제·서지·빈 쪽이 포함된다. 원전 전권의48쪽을 새로 읽었다는 뜻이 아니다. 저작권 유보 PDF·이미지는 재배포하지 않는다."
+  ]
+}

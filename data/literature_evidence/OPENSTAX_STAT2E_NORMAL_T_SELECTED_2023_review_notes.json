@@ -1,0 +1,91 @@
+{
+  "source_id": "OPENSTAX_STAT2E_NORMAL_T_SELECTED_2023",
+  "source_url": "https://openstax.org/details/books/introductory-statistics-2e",
+  "source_asset_kind": "pdf",
+  "source_pdf_sha256": "a79a953b75e570030c74ea6f700b8bd70f41dc8c01bf4e9618e6a0adba3a382a",
+  "source_pdf_url": "https://assets.openstax.org/oscms-prodcms/media/documents/introductory-statistics-2e_-_WEB.pdf",
+  "pdf_pages": 847,
+  "selected_text_pages": [
+    3,
+    4,
+    347,
+    348,
+    349,
+    350,
+    351,
+    352,
+    353,
+    354,
+    428,
+    429,
+    430,
+    431
+  ],
+  "visual_pdf_pages": [
+    3,
+    4,
+    347,
+    348,
+    349,
+    350,
+    351,
+    352,
+    353,
+    354,
+    428,
+    429,
+    430,
+    431
+  ],
+  "rendered_page_sha256": {
+    "3": "2112181ac58d4701e145588d8b2777406f773806fd8e839de3ec4cffe21d8d32",
+    "4": "5750aad528cef57ee008d5101ce8e1fbaa73be4bfbbceacc293ab477b65c0038",
+    "347": "6a56c22d92377eca3ca66c1e37c1fc3398912881f2b5e5d62e44318ac180d248",
+    "348": "646a8a20b5c59377101698945f3be40ed01e3b7ba2d55d0fd40fa4c6a2373c17",
+    "349": "45ba8e89588f7f96bac540691971b804812443b48b8b2a984af76de9ab697f6d",
+    "350": "9ce76db2d2556fb1c233bb9201433fc33ef4533529016aa4ea5b1186bf63ddb6",
+    "351": "84647658c8cf38eab7db64fee44a67dc3a1a9f29bbc5602c77dd7d960ce170c5",
+    "352": "ea667908450bf930e24add3035f40e652c3a115e8075048b75cfc0941d51eb64",
+    "353": "e51d52b731443406b79400228930f2da68649c0cf38893168d0028c59990b5a7",
+    "354": "511ed56febf7cba0974490a2575da4e89bd85b9458e351d5a37f7646d9d877bb",
+    "428": "ae47d079fa03636d56bd49dd4cd1ec7a4d55b67695ab92c41f2ebb14e4f6b981",
+    "429": "8d788c02b9d58340b714b968275e3d0e760ce5ac0ae79443699a273293c7e6ae",
+    "430": "1d22e3f67986ac20e2fe096e9396e0c22c786be6665d10b36f731440f8323a83",
+    "431": "dc939b88272500bdb9e5bc95e35b5d15b0ca83a3d482e60cf467253e4c86d527"
+  },
+  "date": "2026-11-16",
+  "reviewer": "Codex",
+  "read_scope": "847쪽 확보본 중 표제·저작권·정규분포·t분포의 지정14쪽을 추출문과 실제 판면으로 대조했다. 원발행2023·확보본 저작권2026을 구별하며 본문 인쇄쪽은 PDF−12다. 전권을 읽은 것이 아니다.",
+  "empirical_scope": {
+    "design": "공식 교육 자료의 지정 추출문·실제 판면 대조와 자체 수학 활동 설계",
+    "sample_description": "실제 국내 학생 응답이나 무작위 효과 연구 표본이 아님",
+    "inference_limit": "선정 구간·수학 모형과 자체 웹 도구의 계산 확인이다. 원문의 의료 예를 치료 효과로 읽지 않으며 실제 모집단의 정규성·표집 타당성·학생 효과·특정 계산기 기종의 작동을 검증한 것은 아니다.",
+    "student_outcome_study": false,
+    "causal_effect_established": false,
+    "local_effect_tested": false
+  },
+  "contains_source_full_text": false,
+  "source_pdf_redistributed": false,
+  "reading_log": [
+    "847쪽 확보본 중 표제·저작권·정규분포·t분포의 지정14쪽을 추출문과 실제 판면으로 대조했다. 원발행2023·확보본 저작권2026을 구별하며 본문 인쇄쪽은 PDF−12다. 전권을 읽은 것이 아니다."
+  ],
+  "source_corrections": [
+    {
+      "location": "방법·문항·표·그림·서술의 대조",
+      "issue": [
+        "PDF351 예6.4 해설의 x=−160.58은 문제의 양수 값과 z=−1.5에 불일치한다. 양수160.58을 사용한다.",
+        "PDF354의 오른쪽 확률0.3446을 왼쪽 백분위로 읽거나 다시 보수로 바꾸어 오른쪽으로 쓰지 않는다. 반올림된1과 정확한1도 구별한다.",
+        "PDF429의 평균0은 자유도>1로 제한한다. 자유도1의 평균과 자유도2 이하의 유한 분산은 존재하지 않는다. 표본이 크다는 이유만으로 원자료 분포의 정규성을 보장하지 않는다."
+      ]
+    }
+  ],
+  "statistics_inquiry_review": {
+    "full_book_read": false,
+    "own_tasks_are_not_student_responses": true,
+    "source_pdf_and_images_redistributed": false,
+    "original_publication_year": 2023,
+    "copy_copyright_year": 2026,
+    "raw_variable_and_student_statistic_separate": true,
+    "student_t_mean_exists_only_above_df1": true
+  }
+}

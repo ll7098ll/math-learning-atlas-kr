@@ -1,0 +1,72 @@
+{
+  "source_id": "UNEP_PRODUCT_INFORMATION_SELECTED_2017",
+  "source_url": "https://wedocs.unep.org/handle/20.500.11822/22395",
+  "source_asset_kind": "pdf",
+  "source_pdf_sha256": "4b005cf9de7cfb0d0ded9a7be7caf66729ac76e8c214bb82feb4d7d368d74c01",
+  "source_pdf_url": "https://globalecolabelling.net/wp-content/uploads/2023/07/UN-Environment-Guidelines.pdf",
+  "pdf_pages": 66,
+  "selected_text_pages": [],
+  "visual_pdf_pages": [
+    1,
+    2,
+    6,
+    8,
+    9,
+    16,
+    17,
+    20,
+    21,
+    49
+  ],
+  "rendered_page_sha256": {
+    "1": "f267fc06a13d5651d5ef547c030dd37e89fbd63ed60510f502fe9d1b8675edc1",
+    "2": "7dc754c30df330cb0cb11c71e83b378e86a2fccaab18d203632da590df17cf10",
+    "6": "9bf9179269bd2cb45ba23eb1d7cca2ed9950affd6756bb8373da57a3bf5193ca",
+    "8": "63487d128f6cec5287db33e817543ed1eec7eb994a269baa46b97b7d2060993b",
+    "9": "730a15e2d3b3197e1b4a1f78c3698dee7fd632c0e9b82faed6102bc3d54fe90c",
+    "16": "a848a6776f536d6396e4184342de73b6393a3858b50afaefb3f15974eb12708f",
+    "17": "069fab7610a2fecf21b6c15a3a7c55887cf0aed7fb177b7c078ccb7856fffc63",
+    "20": "d1a15d2227f9b93ceed9e269a0172c3699bc550b9fa955c6233d0e3a89416c4a",
+    "21": "7461334b7d7da96cf80dee9a9a6ae5d27567882a98e9182bc87cb5a101198dc3",
+    "49": "98f9f89aab29933fc4b2910d3a3c132f7c7143d7d161e911c0286ed711301d21"
+  },
+  "text_extraction_incomplete": true,
+  "date": "2026-11-16",
+  "reviewer": "Codex",
+  "read_scope": "글자 추출이 비어 있는재인쇄PDF의10판면을 직접 읽었다. 저작권2017·ISBN978-92-807-3672-4를 대조했다. GEN배포본의파일 생성은2023이며본문에2018road testing이 언급돼2017초판과내용이동일하다고확인하지않았다. 본문인쇄쪽은PDF−2다.",
+  "empirical_scope": {
+    "design": "지정 원문·판면 대조와 자체 수학 과제 설계",
+    "sample_description": "실제 학생·사업장·생태 조사 표본을 분석한 연구가 아님",
+    "inference_limit": "전문66쪽·2017초판의모든 문구·현행 인증/규격·특정 상품의 지속가능성이나 실제 구매 효과를 검증한 것이 아니다. 자체 점수·가중치는 측정 사실과 가치 판단을 구별한다.",
+    "student_outcome_study": false,
+    "causal_effect_established": false,
+    "local_effect_tested": false
+  },
+  "contains_source_full_text": false,
+  "source_pdf_redistributed": false,
+  "reading_log": [
+    "글자 추출이 비어 있는재인쇄PDF의10판면을 직접 읽었다. 저작권2017·ISBN978-92-807-3672-4를 대조했다. GEN배포본의파일 생성은2023이며본문에2018road testing이 언급돼2017초판과내용이동일하다고확인하지않았다. 본문인쇄쪽은PDF−2다."
+  ],
+  "source_corrections": [
+    {
+      "location": "방법·문항·표·그림·서술의 대조",
+      "issue": [
+        "확보파일은글자추출이없는2023재인쇄본이다. 저작권2017·ISBN과2018road testing서술을함께남기며2017초판과동일본문이라고단정하지않는다.",
+        "2017안내의예시인증/규격·로고를현재인증판정·상품추천으로옮기지않는다. 비교기능·기간·경계·자료방법을맞추고자체가치점수와측정사실·실제행동/효과를구별한다."
+      ]
+    }
+  ],
+  "culture_environment_review": {
+    "full_book_read": false,
+    "formula_extraction_incomplete": true,
+    "own_tasks_are_not_student_responses": true,
+    "source_pdf_and_images_redistributed": false,
+    "current_law_and_regulations_not_reviewed": true,
+    "text_extraction_empty": true,
+    "visual_only_reading": true,
+    "copyright_year": 2017,
+    "reprinted_file_creation_year": 2023,
+    "mentions_2018_road_testing": true,
+    "exact_first_edition_text_not_established": true
+  }
+}

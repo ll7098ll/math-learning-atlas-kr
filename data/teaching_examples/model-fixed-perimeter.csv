@@ -1,0 +1,10 @@
+x_cm,y_cm,perimeter_cm,area_cm2,data_kind
+1,9,20,9,exact_model_calculation
+2,8,20,16,exact_model_calculation
+3,7,20,21,exact_model_calculation
+4,6,20,24,exact_model_calculation
+5,5,20,25,exact_model_calculation
+6,4,20,24,exact_model_calculation
+7,3,20,21,exact_model_calculation
+8,2,20,16,exact_model_calculation
+9,1,20,9,exact_model_calculation

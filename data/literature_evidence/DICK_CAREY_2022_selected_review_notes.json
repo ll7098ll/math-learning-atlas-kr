@@ -1,0 +1,187 @@
+{
+  "source_id": "DICK_CAREY_2022_SELECTED",
+  "source_url": "https://www.pearson.com/en-us/subject-catalog/p/systematic-design-of-instruction-the/P200000000952?view=educator",
+  "source_pdf_url": "https://elibrary.upi.edu/3739/1/The%20Systematic%20Design%20of%20Instruction%20%28Dick%2C%20Carey%2C%20Carey%29.pdf",
+  "repository_url": "https://elibrary.upi.edu/3739/",
+  "source_pdf_sha256": "8caf4d487388ac41a016d3d34857a246abdfd4712d4ad6b783c69271e721a04a",
+  "date": "2026-11-06",
+  "reviewer": "Codex",
+  "contains_source_full_text": false,
+  "source_pdf_redistributed": false,
+  "reading_log": [
+    "PDF2·3·8의 표제/서지/간략 목차,PDF73–94 목표 분석 장 전체,PDF224–233 부록 도입과A–E를 읽었다. 총35쪽이며 목표 분석 참고문헌을 읽은 일은 인용 원연구를 읽은 것이 아니다.",
+    "선정16쪽 전체 페이지 이미지에서 목표 평가 표·교정 전후 도식·분기/병행·목차식 정보 묶음·위계/출발 기능 선·학습자/맥락 표·평행 문항 표와 밑줄을 대조했다. 다른 쪽의 전체 이미지 확인으로 확대하지 않는다.",
+    "서지는 출판사9판 페이지와 파일PDF2–3의 저자·판·저작권연도·인쇄ISBN을 대조했다. 대학 저장소 복사본의 완전성·출판사 인증 배포 여부는 별도 한계다.7판 국제판의 누락 본문으로 대체하지 않는다."
+  ],
+  "source_corrections": [
+    {
+      "kind": "asset_integrity_and_edition",
+      "locations": [
+        "PDF2–3",
+        "PDF95/190 → PDF191",
+        "candidate_asset_audit"
+      ],
+      "action": "9판2022년·인쇄ISBN9780135824146/전자ISBN9780135824139를7판 국제판과 분리했다. 파일439쪽은95쪽 두 묶음과83쪽 세 묶음의 반복이며 인쇄71–405가 빠져 있다. 중복을 읽기 쪽으로 더하지 않고 전체 정식 판본 확보·동일성 인증을 주장하지 않는다."
+    },
+    {
+      "kind": "diagram_not_universal_prerequisite",
+      "locations": [
+        "PDF85,87–93,227–228"
+      ],
+      "action": "정보 묶음의 번호와 순서 화살표·병행 활동·분기·회귀를 구별했다. 그림3.7의5/6은 병행 배치이며 번호만으로5후6의 필수 순서를 만들지 않는다. 부록C의V 표시·출발 기능 선은 해당 작문 설계의 사례이고 현재 수학의 AND/OR 위계나 학생 발달 단계의 검증이 아니다."
+    },
+    {
+      "kind": "performance_scope_and_alignment",
+      "locations": [
+        "PDF83–88,229–233"
+      ],
+      "action": "교사의 설명·학습자의 수행·용어 회상·분류·생산을 구별한다. 동사 목록만으로 수학적 설명을 낮은 수준으로 판정하지 않고 실제 요구와 조건을 본다. PDF231의 밑줄은 텍스트 추출에 보존되지 않아 이미지에서 확인했다. 원문의 영어 문항을 한국어 수학 평가로 복사하지 않는다."
+    },
+    {
+      "kind": "example_bound_not_empirical_effect",
+      "locations": [
+        "PDF89,229–230"
+      ],
+      "action": "Bloom–Gagne 대응표는 원문도 예시라고 제한한다. 학교·기기 작동률 약90%·Canvas 사용은 부록 사례의 서술이며 현재 환경 조사나 수업 효과 연구가 아니다. 최신 안전 규정·건강 권고·소프트웨어 사용법을 제공하는 자료로 쓰지 않는다."
+    }
+  ],
+  "read_scope": "9판의 불완전한 대학 저장소 파일에서 지정35쪽 텍스트·16쪽 이미지를 확인. 서지·간략 목차,목표 분석 장 전체(인쇄48–69),부록 도입·A–E(439–448)다.7판 검토·9판 전권 확보/정독이 아니다.",
+  "text_pdf_pages": [
+    2,
+    3,
+    8,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    224,
+    225,
+    226,
+    227,
+    228,
+    229,
+    230,
+    231,
+    232,
+    233
+  ],
+  "visual_pdf_pages": [
+    3,
+    84,
+    85,
+    87,
+    88,
+    89,
+    91,
+    92,
+    93,
+    227,
+    228,
+    229,
+    230,
+    231,
+    232,
+    233
+  ],
+  "source_integrity": {
+    "status": "incomplete_repeated_segments",
+    "whole_book_obtained": false,
+    "physical_pdf_pages": 439,
+    "unique_segment_pdf_pages": 178,
+    "missing_printed_body_range": [
+      71,
+      405
+    ],
+    "publisher_authenticated_distribution": false
+  },
+  "asset_audit_file": "data/literature_evidence/DICK_CAREY_2022_candidate_asset_audit.json",
+  "asset_audit_sha256": "ee5296c9cd2a245289926a4a0aaa7ed4fa05af2bf2581a36a6a71823ef5f81b1",
+  "visually_reviewed_pages": [
+    {
+      "pdf_page": 3,
+      "sha256": "069a6098c49d2be14911c3ed6194a93d7210ed1d4df2db124d9c2a670c953261"
+    },
+    {
+      "pdf_page": 84,
+      "sha256": "47477f94547f6b130c7fb6480e865b6bfb851eeaa682e9dd6df2bb94f96d8e18"
+    },
+    {
+      "pdf_page": 85,
+      "sha256": "5a6a13f32753eebf3b0013046b5de8b49811a8b8e5a6a3329128084b85108b80"
+    },
+    {
+      "pdf_page": 87,
+      "sha256": "db89ca0cb8e0c0ddec3b97b0273f19e5ae2e0203e04653b51cc19e806ceba7de"
+    },
+    {
+      "pdf_page": 88,
+      "sha256": "1a8af3d7af90b8bf34194a5d4b1fa754a275aa6e9b08d51543db050c916e0f25"
+    },
+    {
+      "pdf_page": 89,
+      "sha256": "0a680eafdecdf52293635f4f4ceaf74bfc2f1c12e4ce85e67eab42c5e640cdd3"
+    },
+    {
+      "pdf_page": 91,
+      "sha256": "4728c7035d2d919a57884a41daf01805b35f874300c7b8a3aef73a471c3cbbf0"
+    },
+    {
+      "pdf_page": 92,
+      "sha256": "ca4d70aa21b7fe197e0765999381f4dbe2f5049fab7ddb6b67eb91eb446f15ca"
+    },
+    {
+      "pdf_page": 93,
+      "sha256": "74c9f30c445a4ca8ee6133a20b23a1c7e76e8b1f3a491041893fc7424716f91c"
+    },
+    {
+      "pdf_page": 227,
+      "sha256": "a381c7ff798fe0567aec39bca5b721201faf7f69a481b02cdcb7c64e039668e8"
+    },
+    {
+      "pdf_page": 228,
+      "sha256": "2940c5b8742805d42e56500b7007986f08074ba2ace3ada3b604c3eef11c4dbc"
+    },
+    {
+      "pdf_page": 229,
+      "sha256": "c2db3eefe73f0f934ad7d23680f5f7ede50f1833fbd9433077cbdaa1181b1188"
+    },
+    {
+      "pdf_page": 230,
+      "sha256": "9b04d3b6e842992d5abae03945dfa3e0cc50b9b7d1165f78d20b34a975b661a5"
+    },
+    {
+      "pdf_page": 231,
+      "sha256": "724330cfbdcdf16a5e31d57584b66db0fd2ab3af329257739effd7e8a0623749"
+    },
+    {
+      "pdf_page": 232,
+      "sha256": "3b58d49d061bf6b3b68e08a7e478af5d84994c49e34c8534dfd0edc66c183cef"
+    },
+    {
+      "pdf_page": 233,
+      "sha256": "3e775e0aaaace8286aa8b5fee80d9629d3363a24b562982b2a57e16d9744dc62"
+    }
+  ],
+  "unread_followups": [
+    "파일에 없는 인쇄71–405의4–12장 핵심 본문은 미확보다. 부록C와E를 보았어도 하위 기능 분석·학습자/맥락·수행목표·평가·형성평가 장 전체를 읽은 것이 아니다.",
+    "파일 내 다른 유일 구간인 도입·요구 분석·총괄평가와 부록F–M·용어집·색인은 후속 검토다. 누락 본문·공식 판본 동일성·원연구·실제 독립/학생 검증을 별도로 남긴다."
+  ]
+}

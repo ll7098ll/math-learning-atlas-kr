@@ -1,0 +1,158 @@
+{
+  "source_id": "CLEMENTS_ET_AL_2021_ARITHMETIC_TRIAL",
+  "source_url": "https://doi.org/10.1037/edu0000633",
+  "date": "2026-11-09",
+  "reviewer": "Codex",
+  "source_asset_kind": "pdf",
+  "source_pdf_sha256": "685c5866d210d2e0b3a862d63b843bfbdd83097d04a79760d09884c21e19136d",
+  "source_pdf_redistributed": false,
+  "contains_source_full_text": false,
+  "read_scope": "ERIC 저자 원고의 배정·검사·모형·한계 관련 문단과 그림 1·2, 표 2~4를 읽고 선정 판면을 대조했다. 출판사 권호 판면과 별도 부록은 미확보다.",
+  "empirical_scope": {
+    "design": "individual_random_assignment_arithmetic_trial",
+    "sample_description": "4개 학교 16교실에서 동의 319명 중 28명이 제외되거나 탈락했다. 사전검사 뒤 배정한 순차 143명과 목표 직접 148명이 분석 대상이다.",
+    "inference_limit": "초기 연산 개별 지도 조건을 비교했다. 중간검사 노출과 세기 지원도 조건에 포함됐으므로 순서 단독 효과나 국내 학급·과제 효과는 확인할 수 없다.",
+    "student_outcome_study": true,
+    "causal_effect_established": true,
+    "local_effect_tested": false
+  },
+  "pdf_url": "https://files.eric.ed.gov/fulltext/ED619003.pdf",
+  "publisher_url": "https://psycnet.apa.org/doi/10.1037/edu0000633",
+  "pdf_pages": 46,
+  "printed_pages": [
+    1,
+    46
+  ],
+  "selected_text_pages": [
+    2,
+    7,
+    9,
+    10,
+    13,
+    14,
+    18,
+    19,
+    23,
+    24,
+    25,
+    26,
+    27,
+    32,
+    33
+  ],
+  "visual_pdf_pages": [
+    9,
+    10,
+    25,
+    26,
+    27
+  ],
+  "rendered_page_sha256": {
+    "9": "91e3353bf26d7570c448dd5a6740484ba09f70ee738d7a43396b42e10bd8c2d1",
+    "10": "bb265dd7a78b2f3b8a006ed2586b395ca02503a54a1df90fa923d328136c77c0",
+    "25": "1d1231d35dbac597153e386c981e58cffa6b09e15d2e846811d5c1874f8031c9",
+    "26": "b8c6590c2b610ea6de6f885e3a4272e058cf690c368aeecf3e2b3a9595d4f016",
+    "27": "612f292f99f4552be39a187f471671b9996b107de0a814541b0636aca7ac77d6"
+  },
+  "results": {
+    "consented": 319,
+    "excluded_or_attrited": 28,
+    "analyzed": [
+      143,
+      148
+    ],
+    "arithmetic_pretest_items": 21,
+    "added_posttest_items": 13,
+    "baseline_model_d": 1.2,
+    "table_4_treatment": {
+      "estimate": 0.53,
+      "credible_95": [
+        0.37,
+        0.68
+      ]
+    },
+    "table_4_interaction": {
+      "estimate": 0.17,
+      "credible_95": [
+        0.04,
+        0.3
+      ],
+      "prose_interval": [
+        0.03,
+        0.3
+      ]
+    },
+    "figure_2_points": [
+      [
+        -1,
+        -1
+      ],
+      [
+        -1,
+        0
+      ],
+      [
+        -1,
+        1
+      ],
+      [
+        0,
+        -1
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        -1
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "figure_2_estimates": [
+      0.96,
+      0.78,
+      0.59,
+      0.51,
+      0.54,
+      0.57,
+      0.05,
+      0.3,
+      0.55
+    ]
+  },
+  "reading_log": [
+    "ERIC 저자 원고의 배정·검사·모형·한계 관련 문단과 그림 1·2, 표 2~4를 읽고 선정 판면을 대조했다. 출판사 권호 판면과 별도 부록은 미확보다.",
+    "분모와 비교 조건을 확인하고 전체 모형과 과제별 관찰을 구분했다."
+  ],
+  "source_corrections": [
+    {
+      "location": "저자 원고 24~25쪽 표 3·4와 본문",
+      "issue": "기본 모형 d=1.20, 무작위 절편을 포함한 표 4 조건 계수 .53, 절편을 제외한 최종 모형을 구분한다. 3원 상호작용 구간 하한은 표 .04와 본문 .03을 각 위치대로 기록한다."
+    },
+    {
+      "location": "저자 원고 26~27쪽 그림 2",
+      "issue": "초기 세기·연산을 각각 평균 및 평균에서 ±1 표준편차로 설정한 모형 추정이다. 아홉 칸을 실제로 따로 배정한 집단으로 읽지 않는다."
+    },
+    {
+      "location": "저자 원고 18~19·32쪽 평가",
+      "issue": "사후 연산검사에 13문항이 추가됐다. 순차군에만 실시한 중간검사는 사후검사와 일부 문항 노출이 겹친다."
+    }
+  ],
+  "pdf_edition": "ERIC 공개 저자 원고",
+  "journal_issue_pages": [
+    1323,
+    1337
+  ]
+}

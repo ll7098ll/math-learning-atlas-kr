@@ -1,0 +1,61 @@
+{
+  "source_id": "ZAZKIS_CAMPBELL_ERIC_ED370932",
+  "source_url": "https://eric.ed.gov/?id=ED370932",
+  "source_asset_kind": "pdf",
+  "source_pdf_sha256": "41d9471cb755b24938a320338272b394498c79be4cd3bea7598a828a354a27e8",
+  "source_pdf_url": "https://files.eric.ed.gov/fulltext/ED370932.pdf",
+  "pdf_pages": 24,
+  "selected_text_pages": [
+    1,
+    2,
+    3,
+    5,
+    6,
+    7,
+    8
+  ],
+  "visual_pdf_pages": [
+    1,
+    2,
+    8
+  ],
+  "rendered_page_sha256": {
+    "1": "0251ae519b47c484274da0437c5b4323593fc0f2627538500045a109b7a08ec5",
+    "2": "53f8a619d7d86cbee0d595b2c912d6b2805e9cdd1c7b32fb6a3f8e3b08c29661",
+    "8": "81680c1f40d1c7d35edd788434503d94b83fa9699f28918dccdba4271d12cadd"
+  },
+  "date": "2026-11-13",
+  "reviewer": "Codex",
+  "read_scope": "ERIC 서지와 제목 쪽의 연도 불일치, 예비 교사 21명의 표집·면담 문항 및 Nicole·Armin 사례의 지정 부분을 대조했다.",
+  "empirical_scope": {
+    "design": "수론 수업을 들은 자원자를 대상으로 한 유연한 개별 면담과 질적 분석.",
+    "sample_description": "교사 전문성 과정의 예비 초등교사 자원자 21명.",
+    "inference_limit": "예비 교사의 선별 면담 자료다. 국내 초등학생의 빈도로 해석하지 않는다. 소인수분해의 지수 표기를 초등 필수 과제로 추가하지 않는다. 서지 1994와 제목 1995 표기는 함께 보존한다.",
+    "student_outcome_study": true,
+    "causal_effect_established": false,
+    "local_effect_tested": false
+  },
+  "contains_source_full_text": false,
+  "source_pdf_redistributed": false,
+  "reading_log": [
+    "ERIC 서지와 제목 쪽의 연도 불일치, 예비 교사 21명의 표집·면담 문항 및 Nicole·Armin 사례의 지정 부분을 대조했다."
+  ],
+  "source_corrections": [
+    {
+      "location": "방법·문항·표·그림·서술의 대조",
+      "issue": "ERIC 서지 1994와 제목 쪽 AERA 1995 표기를 실제 판면에서 함께 확인했다. 8쪽 Armin 인용의 625는 정확한 4725÷7=675와 다르므로 정답으로 옮기지 않는다. 소인수분해 지수 과제를 국내 초등 필수 범위로 추가하지 않는다."
+    }
+  ],
+  "upper_primary_review": {
+    "n": 21,
+    "eric_year": 1994,
+    "title_page_year": 1995,
+    "publication_year_discrepancy_preserved": true,
+    "nicole_multiple": 12362,
+    "nicole_quotient": 1766,
+    "armin_transcript_quotient": 625,
+    "correct_quotient": 675,
+    "quote_not_correct_answer": true,
+    "selected_task_variant_depended_on_prior_response": true
+  }
+}

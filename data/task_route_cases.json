@@ -1,0 +1,345 @@
+{
+  "cases": [
+    {
+      "id": "task-9수03-15",
+      "superseded_by_case_ids": ["early-9수03-15-proof"],
+      "revision_note": "하위 목표와 조건 출처를 명시한 새 과제로 보강했습니다. 이 원고는 수정 전 설계로 보존합니다. 여기의 p는 a에 대응하는 빗변 부분이며 새 과제의 AD=p 표기와 다릅니다.",
+      "standard": "9수03-15",
+      "title": "피타고라스 정리의 두 정당화",
+      "goal": "직각삼각형의 세 변 사이 제곱 관계를 설명한다.",
+      "task": "직각변 a,b, 빗변 c인 삼각형에서 a²+b²=c²인 이유를 설명한다.",
+      "shared_conditions": [
+        "삼각형은 비퇴화한 직각삼각형이며 a,b,c는 양의 길이다.",
+        "빗변과 두 직각변의 대응을 유지한다."
+      ],
+      "routes": [
+        {
+          "id": "similarity",
+          "title": "빗변에 내린 높이와 닮음",
+          "operator": "AND",
+          "conditions": [
+            "빗변에 내린 수선의 발 H와 두 부분 길이 p,q를 구별한다.",
+            "세 삼각형의 각 대응과 닮음의 비례식을 해석한다.",
+            "p+q=c를 유지하며 비례식을 제곱 관계로 정리한다."
+          ],
+          "steps": [
+            "두 작은 삼각형이 원래 삼각형과 각각 닮음을 두 각으로 확인한다.",
+            "대응변의 비에서 a²=cp, b²=cq를 얻는다.",
+            "두 식을 더해 a²+b²=c(p+q)=c²로 정리한다."
+          ],
+          "result": "두 직각변의 제곱 합은 빗변의 제곱이다.",
+          "diagnostic": {
+            "question": "a=3,b=4,c=5일 때 p와 q를 어떻게 정하는가?",
+            "expected": "a에 대응한 부분은 p=a²/c=9/5, 나머지는 q=16/5이고 합은 5다."
+          }
+        },
+        {
+          "id": "area",
+          "title": "네 합동 삼각형의 넓이 비교",
+          "operator": "AND",
+          "conditions": [
+            "합동인 직각삼각형 네 개를 겹치지 않게 큰 정사각형 안에 놓는다.",
+            "큰 정사각형의 변은 a+b, 가운데 도형의 변은 c임을 대응시킨다.",
+            "가운데 네 각이 직각임을 원래 삼각형의 두 예각의 합으로 확인한다.",
+            "넓이의 가법성과 삼각형·정사각형의 넓이 및 분배법칙을 사용한다."
+          ],
+          "steps": [
+            "변 a+b인 정사각형 안에 네 삼각형을 배치하고 가운데가 변 c인 정사각형임을 확인한다.",
+            "큰 넓이 (a+b)²에서 네 삼각형의 넓이 4·ab/2를 뺀다.",
+            "c²=(a+b)²−2ab=a²+b²를 얻는다."
+          ],
+          "result": "같은 제곱 관계를 넓이로 설명한다.",
+          "diagnostic": {
+            "question": "가운데 도형을 단지 변이 모두 c라는 이유만으로 정사각형이라고 해도 되는가?",
+            "expected": "안 된다. 마름모와 정사각형을 구별하고 가운데의 직각 조건도 확인한다."
+          }
+        }
+      ],
+      "route_relationship": "alternative_explanations",
+      "notes": "닮음 경로의 조건을 넓이 경로에 함께 강제하지 않는다.",
+      "review": {
+        "state": "self_checked",
+        "reviewer": "Codex",
+        "date": "2026-10-30",
+        "independent_review": false,
+        "student_validated": false
+      }
+    },
+    {
+      "id": "task-10공수1-02-06",
+      "standard": "10공수1-02-06",
+      "title": "제한 구간의 이차함수 최댓값과 최솟값",
+      "goal": "허용 구간에서 극값 후보와 경계를 비교한다.",
+      "task": "f(x)=(x−2)²+1, 0≤x≤1의 최댓값과 최솟값을 설명한다.",
+      "shared_conditions": [
+        "정의역을 닫힌 구간 [0,1]로 고정한다.",
+        "최댓값·최솟값과 그때의 x를 구별한다."
+      ],
+      "routes": [
+        {
+          "id": "square",
+          "title": "제곱항의 범위로 비교",
+          "operator": "AND",
+          "conditions": [
+            "0≤x≤1에서 −2≤x−2≤−1임을 구한다.",
+            "음수 구간에서 제곱값이 1부터 4까지임을 정당화한다."
+          ],
+          "steps": [
+            "1≤(x−2)²≤4를 얻는다.",
+            "모든 값에 1을 더해 2≤f(x)≤5를 얻고 끝점에서 실제 달성되는지 확인한다."
+          ],
+          "result": "최솟값 2는 x=1, 최댓값 5는 x=0에서 얻는다.",
+          "diagnostic": {
+            "question": "실수 전체에서의 최솟값 1을 왜 이 문제의 답으로 쓸 수 없는가?",
+            "expected": "그 값은 x=2에서 얻는데 선택한 구간 밖이다."
+          }
+        },
+        {
+          "id": "graph",
+          "title": "꼭짓점과 구간의 그래프",
+          "operator": "AND",
+          "conditions": [
+            "위로 열린 포물선의 꼭짓점 (2,1)을 해석한다.",
+            "꼭짓점 왼쪽에서 x가 증가할 때 함수가 감소함을 확인한다.",
+            "정의역 안의 양 끝점을 비교한다."
+          ],
+          "steps": [
+            "꼭짓점과 [0,1]의 위치를 표시한다.",
+            "선택 구간에서는 감소하므로 f(0)=5와 f(1)=2를 비교한다."
+          ],
+          "result": "같은 최대·최소를 그래프로 설명한다.",
+          "diagnostic": {
+            "question": "그림에 그려진 가장 낮은 점이 언제나 허용된 최솟값인가?",
+            "expected": "정의역에 속하는 점만 비교해야 한다."
+          }
+        }
+      ],
+      "route_relationship": "alternative_explanations",
+      "notes": "",
+      "review": {
+        "state": "self_checked",
+        "reviewer": "Codex",
+        "date": "2026-10-30",
+        "independent_review": false,
+        "student_validated": false
+      }
+    },
+    {
+      "id": "task-12미적Ⅰ-02-06",
+      "standard": "12미적Ⅰ-02-06",
+      "title": "평균값 정리의 가정 확인",
+      "goal": "정리의 두 가정을 함께 확인하고 내부 점을 찾는다.",
+      "task": "f(x)=x², [0,2]에서 평균변화율과 같은 미분계수를 갖는 내부 점을 구한다.",
+      "shared_conditions": [
+        "구간의 양 끝은 a=0,b=2로 a<b이다."
+      ],
+      "routes": [
+        {
+          "id": "mvt",
+          "title": "평균값 정리로 내부 점 찾기",
+          "operator": "AND",
+          "conditions": [
+            "f가 닫힌 구간 [0,2] 전체에서 연속이다.",
+            "f가 열린 구간 (0,2) 전체에서 미분가능하다.",
+            "할선의 기울기와 f′(c)를 같은 단위의 변화율로 해석한다."
+          ],
+          "steps": [
+            "평균변화율 (4−0)/(2−0)=2를 구한다.",
+            "다항함수의 연속·미분가능을 확인한다.",
+            "f′(c)=2c=2에서 c=1이고 0<c<2임을 확인한다."
+          ],
+          "result": "내부 점 c=1에서 미분계수가 평균변화율과 같다.",
+          "diagnostic": {
+            "question": "f(x)=|x|와 [−1,1]에는 같은 정리를 바로 적용할 수 있는가?",
+            "expected": "0에서 미분가능하지 않아 열린 구간 전체의 가정이 깨진다."
+          }
+        }
+      ],
+      "route_relationship": "alternative_explanations",
+      "notes": "이 사례는 정리 활용 경로 한 개를 명시한다. 가정이 깨진 예에 정리의 결론을 강제하지 않는다.",
+      "review": {
+        "state": "self_checked",
+        "reviewer": "Codex",
+        "date": "2026-10-30",
+        "independent_review": false,
+        "student_validated": false
+      }
+    },
+    {
+      "id": "task-12미적Ⅱ-03-02",
+      "standard": "12미적Ⅱ-03-02",
+      "title": "같은 정적분의 치환과 전개",
+      "goal": "같은 정적분을 두 경로로 계산하고 일치 이유를 설명한다.",
+      "task": "∫₀¹ 2x(x²+1)³ dx를 구한다.",
+      "shared_conditions": [
+        "적분 구간은 [0,1]이고 적분 함수는 이 구간에서 연속이다."
+      ],
+      "routes": [
+        {
+          "id": "substitute",
+          "title": "u=x²+1로 치환",
+          "operator": "AND",
+          "conditions": [
+            "u=x²+1과 du=2x dx를 함께 대응시킨다.",
+            "x=0,1을 u=1,2로 바꾸어 적분 범위를 같은 변수로 유지한다.",
+            "거듭제곱의 원시함수를 구하고 경계값을 적용한다."
+          ],
+          "steps": [
+            "∫₁² u³ du로 바꾼다.",
+            "[u⁴/4]₁²=(16−1)/4를 계산한다."
+          ],
+          "result": "정적분은 15/4다.",
+          "diagnostic": {
+            "question": "u로 바꾸고도 적분 구간을 0부터 1로 두면 되는가?",
+            "expected": "안 된다. 끝점도 u의 값으로 바꿔야 한다."
+          }
+        },
+        {
+          "id": "expand",
+          "title": "다항식으로 전개",
+          "operator": "AND",
+          "conditions": [
+            "(x²+1)³을 모든 부분곱이 포함되게 전개한다.",
+            "2x를 각 항에 곱하고 다항식의 항별 적분을 적용한다."
+          ],
+          "steps": [
+            "2x⁷+6x⁵+6x³+2x로 전개한다.",
+            "[x⁸/4+x⁶+3x⁴/2+x²]₀¹=1/4+1+3/2+1을 계산한다."
+          ],
+          "result": "같은 값 15/4를 얻는다.",
+          "diagnostic": {
+            "question": "이 경로에도 u와 du를 먼저 구성해야 하는가?",
+            "expected": "아니다. 같은 함수의 다항식 표현에서 원시함수를 구하는 경로다."
+          }
+        }
+      ],
+      "route_relationship": "alternative_explanations",
+      "notes": "이 예에서 전개가 쉽다는 점을 사용한다. 모든 합성함수에 전개 경로가 가능한 것은 아니다.",
+      "review": {
+        "state": "self_checked",
+        "reviewer": "Codex",
+        "date": "2026-10-30",
+        "independent_review": false,
+        "student_validated": false
+      }
+    },
+    {
+      "id": "task-12확통02-06",
+      "standard": "12확통02-06",
+      "title": "비복원 추출의 두 확률 계산",
+      "goal": "같은 비복원 추출 사건의 확률을 두 방법으로 설명한다.",
+      "task": "서로 구별되는 빨강 공 2개와 파랑 공 1개에서 공정하게 두 번 비복원 추출할 때 모두 빨강일 확률을 구한다.",
+      "shared_conditions": [
+        "각 추출은 남은 공에서 공정하게 이루어진다.",
+        "꺼낸 공을 다시 넣지 않는다."
+      ],
+      "routes": [
+        {
+          "id": "conditional",
+          "title": "조건부확률의 곱",
+          "operator": "AND",
+          "conditions": [
+            "첫 빨강의 확률 2/3을 구한다.",
+            "첫 빨강 이후 남은 공을 기준으로 둘째 빨강의 조건부확률 1/2을 구한다.",
+            "P(A)>0인 조건부확률의 곱셈정리를 적용한다."
+          ],
+          "steps": [
+            "P(첫 빨강∩둘째 빨강)=(2/3)(1/2)를 계산한다."
+          ],
+          "result": "확률은 1/3이다.",
+          "diagnostic": {
+            "question": "두 번째 확률을 처음과 같은 2/3으로 두어도 되는가?",
+            "expected": "남은 공의 구성이 바뀌므로 안 된다."
+          }
+        },
+        {
+          "id": "enumerate",
+          "title": "구별되는 공의 순서쌍 세기",
+          "operator": "AND",
+          "conditions": [
+            "두 빨강 공을 R₁,R₂, 파랑을 B로 구별한다.",
+            "서로 다른 공의 순서쌍 여섯 개가 같은 확률임을 확인한다.",
+            "빨강 두 개의 순서쌍이 두 개임을 센다."
+          ],
+          "steps": [
+            "가능한 순서쌍 6개 중 (R₁,R₂),(R₂,R₁)를 고른다.",
+            "2/6을 약분한다."
+          ],
+          "result": "같은 확률 1/3이다.",
+          "diagnostic": {
+            "question": "색만 보고 RR,RB,BR 세 가지를 무조건 같은 확률이라고 놓아도 되는가?",
+            "expected": "등가능성을 별도로 확인해야 한다. 구별되는 공을 사용하면 근거를 추적할 수 있다."
+          }
+        }
+      ],
+      "route_relationship": "alternative_explanations",
+      "notes": "",
+      "review": {
+        "state": "self_checked",
+        "reviewer": "Codex",
+        "date": "2026-10-30",
+        "independent_review": false,
+        "student_validated": false
+      }
+    },
+    {
+      "id": "task-12경수03-03",
+      "standard": "12경수03-03",
+      "title": "같은 선형 모형의 역행렬과 소거",
+      "goal": "계수 모형의 해를 두 경로로 복원한다.",
+      "task": "2x+y=7, x+y=4인 가상 생산 모형의 수량을 구한다.",
+      "shared_conditions": [
+        "두 식의 변수·단위·대응을 일치시킨다.",
+        "생산량 x,y는 비음수라는 제약도 확인한다."
+      ],
+      "routes": [
+        {
+          "id": "inverse",
+          "title": "역행렬 사용",
+          "operator": "AND",
+          "conditions": [
+            "계수와 변수 순서를 A=[[2,1],[1,1]], X=(x,y)로 유지한다.",
+            "det A=1≠0으로 가역성을 확인한다.",
+            "왼쪽에서 역행렬을 곱하고 원식에 대입해 확인한다."
+          ],
+          "steps": [
+            "A⁻¹=[[1,−1],[−1,2]]를 구한다.",
+            "A⁻¹(7,4)=(3,1)을 구한다."
+          ],
+          "result": "수량은 x=3,y=1이다.",
+          "diagnostic": {
+            "question": "행렬식이 0인 행렬에도 같은 역행렬 공식을 적용하는가?",
+            "expected": "안 된다. 역행렬 존재 조건이 깨지며 다른 해석이 필요하다."
+          }
+        },
+        {
+          "id": "eliminate",
+          "title": "두 식의 소거",
+          "operator": "AND",
+          "conditions": [
+            "같은 해집합을 유지하도록 두 식을 빼거나 대입한다.",
+            "구한 변수값을 복원하고 두 원식에 모두 확인한다."
+          ],
+          "steps": [
+            "첫 식에서 둘째 식을 빼서 x=3을 얻는다.",
+            "x+y=4에서 y=1을 얻는다."
+          ],
+          "result": "같은 수량 x=3,y=1이다.",
+          "diagnostic": {
+            "question": "이 경로도 역행렬을 미리 구해야 하는가?",
+            "expected": "아니다. 동치인 식의 소거와 원식 대입으로 설명한다."
+          }
+        }
+      ],
+      "route_relationship": "alternative_explanations",
+      "notes": "같은 계산 목표의 대안이다. 경제 모형의 타당성은 주어진 가상 조건 안에서만 판단한다.",
+      "review": {
+        "state": "self_checked",
+        "reviewer": "Codex",
+        "date": "2026-10-30",
+        "independent_review": false,
+        "student_validated": false
+      }
+    }
+  ]
+}

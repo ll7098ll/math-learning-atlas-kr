@@ -1,0 +1,74 @@
+{
+  "source_id": "ROSENBLATT_PERCEPTRON_HISTORY_SELECTED_1958",
+  "source_url": "https://www.cs.cmu.edu/~epxing/Class/10715/reading/Rosenblatt.perceptron.pdf",
+  "source_asset_kind": "pdf",
+  "source_pdf_sha256": "f32fdf8c0657cda33ace13487856dd4facd34c3eeb6a6d3011107339928fbd57",
+  "source_pdf_url": "https://www.cs.cmu.edu/~epxing/Class/10715/reading/Rosenblatt.perceptron.pdf",
+  "pdf_pages": 23,
+  "selected_text_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    22,
+    23
+  ],
+  "visual_pdf_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    22,
+    23
+  ],
+  "rendered_page_sha256": {
+    "1": "73a5bd98e8de2646fd54f2e20f2f241328918284e182c8a35c2c4c21fc425f08",
+    "2": "a9836770ebb485d8372dff2cdc53b1a01631a15bf621660db0c7cada5fc33547",
+    "3": "ac5dbaa607f4041a8a41c951028017b7aca641b33a2bf8b53f1604f5f8cfcdf6",
+    "4": "41f4a4a2a41e1cd7957f562c322e707cb1e444279a2722d412b8fa9a86681cde",
+    "5": "a16d713314ce83dd7a776653b3f0ca7396344e80d3392458a23f87c887b9ae45",
+    "6": "e4d42b7080d8875008b8391469a9b57004655e51d196e43f777332746bf3233e",
+    "7": "0dc9e402a00a5ac01069481b1bc444e1c5c93c5bf5f46ecc12464f97bba96819",
+    "22": "b8f42736fc7f53cf6bcdc52fd60329d400ed3ad58dc678176370c2dedf15e591",
+    "23": "bd280fce3f3f1f446b032bd208da794040dd0b2eb7fb3895af242dae7b950f82"
+  },
+  "date": "2026-11-16",
+  "reviewer": "Codex",
+  "read_scope": "PDF1~7,22~23쪽의 지정 추출문·판면9쪽에서1958년 원논문의 가설적 연결주의 모형,감각·연합·반응 단계와 문턱,연결의 영향 변화,세 모형과 일반화의 한계를 대조했다. 인쇄 쪽은PDF쪽+385다. 자체 AND/OR/XOR 예를 원논문의 원래 문항·실험과 구별한다.",
+  "empirical_scope": {
+    "design": "공개 원논문·작업반 보고서·저자 교과서·공식 사용 설명서의 지정 본문과 실제 판면 대조",
+    "sample_description": "학생 표본·응답을 분석한 연구가 아님",
+    "inference_limit": "전문23쪽 전체·현대 신경망 전체·뇌의 작동·학생 효과 검증이 아니다. 조건부확률·생리학 가설을 새 국내 필수로 추가하지 않는다. 원문의 여러 단계·되먹임을 단일 문턱 유닛 하나와 동일시하지 않는다. 자체 XOR 불가능성은 두 입력의 단일 일차 문턱 모형에 한정한다.",
+    "student_outcome_study": false,
+    "causal_effect_established": false,
+    "local_effect_tested": false
+  },
+  "contains_source_full_text": false,
+  "source_pdf_redistributed": false,
+  "reading_log": [
+    "PDF1~7,22~23쪽의 지정 추출문·판면9쪽에서1958년 원논문의 가설적 연결주의 모형,감각·연합·반응 단계와 문턱,연결의 영향 변화,세 모형과 일반화의 한계를 대조했다. 인쇄 쪽은PDF쪽+385다. 자체 AND/OR/XOR 예를 원논문의 원래 문항·실험과 구별한다."
+  ],
+  "source_corrections": [
+    {
+      "location": "방법·문항·표·그림·서술의 대조",
+      "issue": [
+        "1958년 원논문의 가설·감각/연합/반응·되먹임을 단순 단일 문턱 유닛과 동일시하지 않는다. 자체 AND/OR/XOR 수치·불가능성·두 단계 구성은 원래 실험이나 생물학적 검증이 아니다.407~408쪽 일반성의 기대도 검증 완료로 확대하지 않는다."
+      ]
+    }
+  ],
+  "ai_completion_review": {
+    "full_book_read": false,
+    "formula_extraction_incomplete": true,
+    "own_tasks_are_not_student_responses": true,
+    "source_pdf_and_images_redistributed": false,
+    "printed_page_addition": 385,
+    "historical_hypothesis_not_biological_validation": true,
+    "toy_xor_network_not_original_experiment": true
+  }
+}

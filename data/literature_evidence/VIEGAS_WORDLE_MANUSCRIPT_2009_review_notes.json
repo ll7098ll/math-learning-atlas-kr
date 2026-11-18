@@ -1,0 +1,74 @@
+{
+  "source_id": "VIEGAS_WORDLE_MANUSCRIPT_2009",
+  "source_url": "https://research.ibm.com/publications/participatory-visualization-with-wordle",
+  "source_asset_kind": "pdf",
+  "source_pdf_sha256": "1cd2a7b4543c3e65bcd0d04b5afcb9aac34deec95c4066046998665eafb1f9d3",
+  "source_pdf_url": "http://hint.fm/papers/wordle_final2.pdf",
+  "pdf_pages": 8,
+  "selected_text_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "visual_pdf_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "rendered_page_sha256": {
+    "1": "9054e64b862934e864c4b8c16d1dc85a616c09038c6c4f8e839e34f5c5268834",
+    "2": "24d52f49553a40708a2b21c57c43cc03a954cf97a15daea4faaa58ab6f642698",
+    "3": "1362447179f55f7dcb9af00d4b089c2f0e00b89c1fe31bd2d60eefdccf57a598",
+    "4": "113d543bac5055d2293a80ef477263415e88f772967369e66d01bfb7cf470272",
+    "5": "38a30fb0b4339c05b73583af350db29331bed191c70ed2277ab6f88b10a9baea",
+    "6": "33202a9e33d8f37f87fc4ed7b0e408dc3b95b1fd5e66e38994e4d86d8ce3fce3",
+    "7": "4f392a8a16386d1517d39fd1fff4b40d29250feb38765bfb43fd0f7378628986",
+    "8": "00b4256a1e5ed2ba138b71ca542a9fefb10863d79e3187ffb746f2bc3fc84e65"
+  },
+  "date": "2026-11-16",
+  "reviewer": "Codex",
+  "read_scope": "저자 서버의8쪽 원고 전체를 추출문·판면으로 읽었다. 본문·사용 조사·표·배치 알고리즘을 대조했으나 저널 인쇄1137~1144쪽 판본과 동일하다고 확인한 것은 아니다.2쪽에미완성[TK]인용이 남아 있다.",
+  "empirical_scope": {
+    "design": "도구 설계 설명·온라인 이용 흔적 관찰·자발적 설문을 읽고 자체 과제를 설계",
+    "sample_description": "첫500검색 결과와추가 표적 검색;예비720응답 후별도 최종 설문4306응답·25문항(18선택/7서술). 국내 학생 수행이나 확률표본이 아님",
+    "inference_limit": "2008~2009년 도구·사용자 조사이며 현재 서비스 기능·전국 사용자/학생의 특성·학습 효과 실험을 검증한 것이 아니다. 표의 반올림·무응답·문항별 분모와자가보고·관찰을 나눈다.",
+    "student_outcome_study": false,
+    "causal_effect_established": false,
+    "local_effect_tested": false
+  },
+  "contains_source_full_text": false,
+  "source_pdf_redistributed": false,
+  "reading_log": [
+    "저자 서버의8쪽 원고 전체를 추출문·판면으로 읽었다. 본문·사용 조사·표·배치 알고리즘을 대조했으나 저널 인쇄1137~1144쪽 판본과 동일하다고 확인한 것은 아니다.2쪽에미완성[TK]인용이 남아 있다."
+  ],
+  "source_corrections": [
+    {
+      "location": "방법·문항·표·그림·서술의 대조",
+      "issue": [
+        "원고2쪽font size는빈도에선형비례하며넓이비례가아니다. 색/방향의의미를자료없이덧붙이지않는다. 불용어·대소문자·표시수·입력텍스트범위를명시한다.",
+        "4쪽큰N에대한표집오차설명을자발적응답의선택편향제거로확대하지않는다. 예비720/최종4306·자가보고/정확성실험·교사일화/학습효과를구별한다.",
+        "5쪽반올림백분율합98/101등을정확인원이나임의결측값으로복원하지않는다. 미완[TK]참조가남은저자원고와최종출판판면을동일시하지않는다."
+      ]
+    }
+  ],
+  "culture_environment_review": {
+    "full_book_read": false,
+    "formula_extraction_incomplete": true,
+    "own_tasks_are_not_student_responses": true,
+    "source_pdf_and_images_redistributed": false,
+    "current_law_and_regulations_not_reviewed": true,
+    "full_author_manuscript_read": true,
+    "publisher_paginated_version_not_compared": true,
+    "observational_and_self_selected_survey_not_learning_effect_trial": true
+  }
+}

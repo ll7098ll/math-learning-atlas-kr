@@ -1,0 +1,63 @@
+{
+  "source_id": "AMSI_2011_SURDS",
+  "source_url": "https://amsi.org.au/teacher_modules/Surds.html",
+  "source_asset_kind": "pdf",
+  "source_pdf_sha256": "836c6d6e8292c4d26143ebc38163759bc5e543e0bf4f3ac016f9b7fdd68eb3a3",
+  "source_pdf_url": "https://amsi.org.au/teacher_modules/pdfs/Surds.pdf",
+  "pdf_pages": 18,
+  "selected_text_pages": [
+    1,
+    2,
+    3,
+    5,
+    6,
+    7,
+    8,
+    10
+  ],
+  "visual_pdf_pages": [
+    5,
+    6,
+    7,
+    8,
+    10
+  ],
+  "rendered_page_sha256": {
+    "5": "056f85444b6f6602b10955ff3c17e29fe875b98931e9891c7dede3732d89ae75",
+    "6": "a5f8fd61b8e7ec33aa813efb0d312aaf9d03d6d89df044e33aa26014bb312df2",
+    "7": "48bb9cd7aa27c70d9ee92c5cb9e198fc21fd1bc86d4dbd55cd394a9000d7df6e",
+    "8": "c294660208f931a39b4e962d4ec8a48aed816d35c7beb49b162a66908b31859c",
+    "10": "860d4a9928d5e767402b25bc8cd77e5ef693ebe5fd1cb6ad037369a9d5aea2cb"
+  },
+  "date": "2026-11-13",
+  "reviewer": "Codex",
+  "read_scope": "주제곱근과 두 제곱근, 제곱인수의 분리, 양수인 근호식의 대소, 동류 근호항과 곱·몫·분모 유리화의 지정 본문과 수식을 대조했다.",
+  "empirical_scope": {
+    "design": "교사용 수학 내용 설명과 예시·연습 문제. 지정 부분의 수학적 조건과 표현을 대조.",
+    "sample_description": "학생 표본·학생별 반응 자료 없음. 자체 과제의 효과를 검사한 연구가 아니다.",
+    "inference_limit": "양수 조건으로 설명한 교사용 자료다. 자체 과제는 실수에서의 0 경계와 √(a²)=|a|를 명시한다. 세제곱근·수체·최소다항식·복소수는 중학교의 추가 요구로 옮기지 않는다.",
+    "student_outcome_study": false,
+    "causal_effect_established": false,
+    "local_effect_tested": false
+  },
+  "contains_source_full_text": false,
+  "source_pdf_redistributed": false,
+  "reading_log": [
+    "주제곱근과 두 제곱근, 제곱인수의 분리, 양수인 근호식의 대소, 동류 근호항과 곱·몫·분모 유리화의 지정 본문과 수식을 대조했다."
+  ],
+  "source_corrections": [
+    {
+      "location": "방법·문항·표·그림·서술의 대조",
+      "issue": "원문의 양수 조건과 자체 0 경계 설명을 나누어 √(a²)=|a|, 곱에서는 두 피제곱수≥0, 몫에서는 분모 쪽 피제곱수>0을 명시했다. 근호와 분수·부등호는 판면으로 확인했다. 복소수·고차근은 자체 중학교 과제에 요구하지 않는다."
+    }
+  ],
+  "middle_number_system_review": {
+    "module": 27,
+    "publication": "June 2011",
+    "sqrt_square_equals_absolute_value": true,
+    "product_domain": "a>=0,b>=0",
+    "quotient_domain": "a>=0,b>0",
+    "principal_root_and_equation_roots_distinguished": true,
+    "zero_boundary_is_own_extension": true
+  }
+}

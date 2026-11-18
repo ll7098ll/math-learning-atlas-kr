@@ -1,0 +1,1394 @@
+{
+  "audit_date": "2026-11-04",
+  "status": "open_findings_not_applied",
+  "source_scope": "교육부 고시 제2022-33호 제공 PDF와 로컬 작업 자료",
+  "mathematics": {
+    "audit_date": "2026-11-04",
+    "audit_kind": "additional_agent_self_review",
+    "source_files_modified": false,
+    "scope_note": "Structure and repeated alternative-review phrases counted for all 565 cases; mathematical reading sampled. Not external independent review or student validation.",
+    "all_case_count": 565,
+    "single_route_case_count": 504,
+    "multiple_route_case_count": 61,
+    "boilerplate_alternative_case_count": 198,
+    "boilerplate_groups": [
+      {
+        "phrase": "공식 범위의 한 과제에 필요한 조건이다. 다른 풀이와 다른 목표를 필수 조건으로 합치지 않는다.",
+        "count": 43,
+        "standard_codes": [
+          "12대수01-01",
+          "12대수01-02",
+          "12대수01-03",
+          "12대수01-04",
+          "12대수01-05",
+          "12대수01-06",
+          "12대수01-07",
+          "12대수01-08",
+          "12대수02-01",
+          "12대수02-02",
+          "12대수02-03",
+          "12대수03-01",
+          "12대수03-02",
+          "12대수03-03",
+          "12대수03-04",
+          "12대수03-05",
+          "12대수03-06",
+          "12대수03-07",
+          "12미적Ⅰ-01-01",
+          "12미적Ⅰ-01-02",
+          "12미적Ⅰ-01-03",
+          "12미적Ⅰ-01-04",
+          "12미적Ⅰ-02-01",
+          "12미적Ⅰ-02-02",
+          "12미적Ⅰ-02-03",
+          "12미적Ⅰ-02-04",
+          "12미적Ⅰ-02-05",
+          "12미적Ⅰ-02-06",
+          "12미적Ⅰ-02-07",
+          "12미적Ⅰ-02-08",
+          "12미적Ⅰ-02-09",
+          "12미적Ⅰ-02-10",
+          "12미적Ⅰ-03-01",
+          "12미적Ⅰ-03-02",
+          "12미적Ⅰ-03-03",
+          "12미적Ⅰ-03-04",
+          "12미적Ⅰ-03-05",
+          "12미적Ⅰ-03-06"
+        ],
+        "cases": [
+          {
+            "id": "early-12대수01-01-roots",
+            "code": "12대수01-01",
+            "source_file": "data/goal_hierarchy_algebra_calculus_one.json"
+          },
+          {
+            "id": "early-12대수01-02-rational",
+            "code": "12대수01-02",
+            "source_file": "data/goal_hierarchy_algebra_calculus_one.json"
+          },
+          {
+            "id": "early-12대수01-02-real",
+            "code": "12대수01-02",
+            "source_file": "data/goal_hierarchy_algebra_calculus_one.json"
+          },
+          {
+            "id": "early-12대수01-03-laws",
+            "code": "12대수01-03",
+            "source_file": "data/goal_hierarchy_algebra_calculus_one.json"
+          },
+          {
+            "id": "early-12대수01-04-logarithms",
+            "code": "12대수01-04",
+            "source_file": "data/goal_hierarchy_algebra_calculus_one.json"
+          },
+          {
+            "id": "early-12대수01-05-digits",
+            "code": "12대수01-05",
+            "source_file": "data/goal_hierarchy_algebra_calculus_one.json"
+          },
+          {
+            "id": "early-12대수01-05-decibels",
+            "code": "12대수01-05",
+            "source_file": "data/goal_hierarchy_algebra_calculus_one.json"
+          },
+          {
+            "id": "early-12대수01-06-inverse",
+            "code": "12대수01-06",
+            "source_file": "data/goal_hierarchy_algebra_calculus_one.json"
+          },
+          {
+            "id": "early-12대수01-07-graphs",
+            "code": "12대수01-07",
+            "source_file": "data/goal_hierarchy_algebra_calculus_one.json"
+          },
+          {
+            "id": "early-12대수01-08-growth",
+            "code": "12대수01-08",
+            "source_file": "data/goal_hierarchy_algebra_calculus_one.json"
+          },
+          {
+            "id": "early-12대수02-01-radians",
+            "code": "12대수02-01",
+            "source_file": "data/goal_hierarchy_algebra_calculus_one.json"
+          },
+          {
+            "id": "early-12대수02-02-unit-circle",
+            "code": "12대수02-02",
+            "source_file": "data/goal_hierarchy_algebra_calculus_one.json"
+          },
+          {
+            "id": "early-12대수02-03-survey",
+            "code": "12대수02-03",
+            "source_file": "data/goal_hierarchy_algebra_calculus_one.json"
+          },
+          {
+            "id": "early-12대수03-01-index",
+            "code": "12대수03-01",
+            "source_file": "data/goal_hierarchy_algebra_calculus_one.json"
+          },
+          {
+            "id": "early-12대수03-02-arithmetic",
+            "code": "12대수03-02",
+            "source_file": "data/goal_hierarchy_algebra_calculus_one.json"
+          },
+          {
+            "id": "early-12대수03-03-geometric",
+            "code": "12대수03-03",
+            "source_file": "data/goal_hierarchy_algebra_calculus_one.json"
+          },
+          {
+            "id": "early-12대수03-04-sigma",
+            "code": "12대수03-04",
+            "source_file": "data/goal_hierarchy_algebra_calculus_one.json"
+          },
+          {
+            "id": "early-12대수03-05-powers",
+            "code": "12대수03-05",
+            "source_file": "data/goal_hierarchy_algebra_calculus_one.json"
+          },
+          {
+            "id": "early-12대수03-05-telescope",
+            "code": "12대수03-05",
+            "source_file": "data/goal_hierarchy_algebra_calculus_one.json"
+          },
+          {
+            "id": "early-12대수03-06-recursion",
+            "code": "12대수03-06",
+            "source_file": "data/goal_hierarchy_algebra_calculus_one.json"
+          },
+          {
+            "id": "early-12대수03-07-induction",
+            "code": "12대수03-07",
+            "source_file": "data/goal_hierarchy_algebra_calculus_one.json"
+          },
+          {
+            "id": "early-12미적Ⅰ-01-01-hole",
+            "code": "12미적Ⅰ-01-01",
+            "source_file": "data/goal_hierarchy_algebra_calculus_one.json"
+          },
+          {
+            "id": "early-12미적Ⅰ-01-02-cancellation",
+            "code": "12미적Ⅰ-01-02",
+            "source_file": "data/goal_hierarchy_algebra_calculus_one.json"
+          },
+          {
+            "id": "early-12미적Ⅰ-01-03-continuity",
+            "code": "12미적Ⅰ-01-03",
+            "source_file": "data/goal_hierarchy_algebra_calculus_one.json"
+          },
+          {
+            "id": "early-12미적Ⅰ-01-04-continuous-theorems",
+            "code": "12미적Ⅰ-01-04",
+            "source_file": "data/goal_hierarchy_algebra_calculus_one.json"
+          },
+          {
+            "id": "early-12미적Ⅰ-02-01-derivative",
+            "code": "12미적Ⅰ-02-01",
+            "source_file": "data/goal_hierarchy_algebra_calculus_one.json"
+          },
+          {
+            "id": "early-12미적Ⅰ-02-02-corner",
+            "code": "12미적Ⅰ-02-02",
+            "source_file": "data/goal_hierarchy_algebra_calculus_one.json"
+          },
+          {
+            "id": "early-12미적Ⅰ-02-02-join",
+            "code": "12미적Ⅰ-02-02",
+            "source_file": "data/goal_hierarchy_algebra_calculus_one.json"
+          },
+          {
+            "id": "early-12미적Ⅰ-02-03-power-rule",
+            "code": "12미적Ⅰ-02-03",
+            "source_file": "data/goal_hierarchy_algebra_calculus_one.json"
+          },
+          {
+            "id": "early-12미적Ⅰ-02-04-product",
+            "code": "12미적Ⅰ-02-04",
+            "source_file": "data/goal_hierarchy_algebra_calculus_one.json"
+          },
+          {
+            "id": "early-12미적Ⅰ-02-05-tangent",
+            "code": "12미적Ⅰ-02-05",
+            "source_file": "data/goal_hierarchy_algebra_calculus_one.json"
+          },
+          {
+            "id": "early-12미적Ⅰ-02-06-mean-value",
+            "code": "12미적Ⅰ-02-06",
+            "source_file": "data/goal_hierarchy_algebra_calculus_one.json"
+          },
+          {
+            "id": "early-12미적Ⅰ-02-07-sign-chart",
+            "code": "12미적Ⅰ-02-07",
+            "source_file": "data/goal_hierarchy_algebra_calculus_one.json"
+          },
+          {
+            "id": "early-12미적Ⅰ-02-08-cubic",
+            "code": "12미적Ⅰ-02-08",
+            "source_file": "data/goal_hierarchy_algebra_calculus_one.json"
+          },
+          {
+            "id": "early-12미적Ⅰ-02-09-unique-root",
+            "code": "12미적Ⅰ-02-09",
+            "source_file": "data/goal_hierarchy_algebra_calculus_one.json"
+          },
+          {
+            "id": "early-12미적Ⅰ-02-09-inequality",
+            "code": "12미적Ⅰ-02-09",
+            "source_file": "data/goal_hierarchy_algebra_calculus_one.json"
+          },
+          {
+            "id": "early-12미적Ⅰ-02-10-motion",
+            "code": "12미적Ⅰ-02-10",
+            "source_file": "data/goal_hierarchy_algebra_calculus_one.json"
+          },
+          {
+            "id": "early-12미적Ⅰ-03-01-antiderivative",
+            "code": "12미적Ⅰ-03-01",
+            "source_file": "data/goal_hierarchy_algebra_calculus_one.json"
+          },
+          {
+            "id": "early-12미적Ⅰ-03-02-polynomial-integral",
+            "code": "12미적Ⅰ-03-02",
+            "source_file": "data/goal_hierarchy_algebra_calculus_one.json"
+          },
+          {
+            "id": "early-12미적Ⅰ-03-03-signed-area",
+            "code": "12미적Ⅰ-03-03",
+            "source_file": "data/goal_hierarchy_algebra_calculus_one.json"
+          },
+          {
+            "id": "early-12미적Ⅰ-03-04-fundamental",
+            "code": "12미적Ⅰ-03-04",
+            "source_file": "data/goal_hierarchy_algebra_calculus_one.json"
+          },
+          {
+            "id": "early-12미적Ⅰ-03-05-between",
+            "code": "12미적Ⅰ-03-05",
+            "source_file": "data/goal_hierarchy_algebra_calculus_one.json"
+          },
+          {
+            "id": "early-12미적Ⅰ-03-06-distance",
+            "code": "12미적Ⅰ-03-06",
+            "source_file": "data/goal_hierarchy_algebra_calculus_one.json"
+          }
+        ]
+      },
+      {
+        "phrase": "이 대표 과제에서 사용하는 부분 수행과 가정이다. 다른 과목 전체의 필수 이수 순서를 뜻하지 않는다.",
+        "count": 38,
+        "standard_codes": [
+          "12미적Ⅱ-01-01",
+          "12미적Ⅱ-01-02",
+          "12미적Ⅱ-01-03",
+          "12미적Ⅱ-01-04",
+          "12미적Ⅱ-01-05",
+          "12미적Ⅱ-02-01",
+          "12미적Ⅱ-02-03",
+          "12미적Ⅱ-02-04",
+          "12미적Ⅱ-02-05",
+          "12미적Ⅱ-02-06",
+          "12미적Ⅱ-02-07",
+          "12미적Ⅱ-02-08",
+          "12미적Ⅱ-02-09",
+          "12미적Ⅱ-02-10",
+          "12미적Ⅱ-02-11",
+          "12미적Ⅱ-03-01",
+          "12미적Ⅱ-03-02",
+          "12미적Ⅱ-03-03",
+          "12미적Ⅱ-03-04",
+          "12미적Ⅱ-03-05",
+          "12미적Ⅱ-03-06",
+          "12미적Ⅱ-03-07",
+          "12기하02-01",
+          "12기하02-02",
+          "12기하02-03",
+          "12기하02-04",
+          "12기하02-05",
+          "12기하03-01",
+          "12기하03-02",
+          "12기하03-03",
+          "12기하03-04",
+          "12기하03-05"
+        ],
+        "cases": [
+          {
+            "id": "early-12미적Ⅱ-01-01-sequences",
+            "code": "12미적Ⅱ-01-01",
+            "source_file": "data/goal_hierarchy_calculus_two_geometry.json"
+          },
+          {
+            "id": "early-12미적Ⅱ-01-02-rational-limit",
+            "code": "12미적Ⅱ-01-02",
+            "source_file": "data/goal_hierarchy_calculus_two_geometry.json"
+          },
+          {
+            "id": "early-12미적Ⅱ-01-03-geometric-limit",
+            "code": "12미적Ⅱ-01-03",
+            "source_file": "data/goal_hierarchy_calculus_two_geometry.json"
+          },
+          {
+            "id": "early-12미적Ⅱ-01-04-series",
+            "code": "12미적Ⅱ-01-04",
+            "source_file": "data/goal_hierarchy_calculus_two_geometry.json"
+          },
+          {
+            "id": "early-12미적Ⅱ-01-05-repeating",
+            "code": "12미적Ⅱ-01-05",
+            "source_file": "data/goal_hierarchy_calculus_two_geometry.json"
+          },
+          {
+            "id": "early-12미적Ⅱ-02-01-exp-log",
+            "code": "12미적Ⅱ-02-01",
+            "source_file": "data/goal_hierarchy_calculus_two_geometry.json"
+          },
+          {
+            "id": "early-12미적Ⅱ-02-03-trig-derivatives",
+            "code": "12미적Ⅱ-02-03",
+            "source_file": "data/goal_hierarchy_calculus_two_geometry.json"
+          },
+          {
+            "id": "early-12미적Ⅱ-02-04-quotient",
+            "code": "12미적Ⅱ-02-04",
+            "source_file": "data/goal_hierarchy_calculus_two_geometry.json"
+          },
+          {
+            "id": "early-12미적Ⅱ-02-04-trig-quotients",
+            "code": "12미적Ⅱ-02-04",
+            "source_file": "data/goal_hierarchy_calculus_two_geometry.json"
+          },
+          {
+            "id": "early-12미적Ⅱ-02-05-chain",
+            "code": "12미적Ⅱ-02-05",
+            "source_file": "data/goal_hierarchy_calculus_two_geometry.json"
+          },
+          {
+            "id": "early-12미적Ⅱ-02-06-parametric",
+            "code": "12미적Ⅱ-02-06",
+            "source_file": "data/goal_hierarchy_calculus_two_geometry.json"
+          },
+          {
+            "id": "early-12미적Ⅱ-02-07-implicit",
+            "code": "12미적Ⅱ-02-07",
+            "source_file": "data/goal_hierarchy_calculus_two_geometry.json"
+          },
+          {
+            "id": "early-12미적Ⅱ-02-07-inverse",
+            "code": "12미적Ⅱ-02-07",
+            "source_file": "data/goal_hierarchy_calculus_two_geometry.json"
+          },
+          {
+            "id": "early-12미적Ⅱ-02-08-tangents",
+            "code": "12미적Ⅱ-02-08",
+            "source_file": "data/goal_hierarchy_calculus_two_geometry.json"
+          },
+          {
+            "id": "early-12미적Ⅱ-02-09-exponential-shape",
+            "code": "12미적Ⅱ-02-09",
+            "source_file": "data/goal_hierarchy_calculus_two_geometry.json"
+          },
+          {
+            "id": "early-12미적Ⅱ-02-10-exponential-inequality",
+            "code": "12미적Ⅱ-02-10",
+            "source_file": "data/goal_hierarchy_calculus_two_geometry.json"
+          },
+          {
+            "id": "early-12미적Ⅱ-02-11-circle-motion",
+            "code": "12미적Ⅱ-02-11",
+            "source_file": "data/goal_hierarchy_calculus_two_geometry.json"
+          },
+          {
+            "id": "early-12미적Ⅱ-03-01-basic-primitives",
+            "code": "12미적Ⅱ-03-01",
+            "source_file": "data/goal_hierarchy_calculus_two_geometry.json"
+          },
+          {
+            "id": "early-12미적Ⅱ-03-01-other-trig-primitives",
+            "code": "12미적Ⅱ-03-01",
+            "source_file": "data/goal_hierarchy_calculus_two_geometry.json"
+          },
+          {
+            "id": "early-12미적Ⅱ-03-01-basic-definite",
+            "code": "12미적Ⅱ-03-01",
+            "source_file": "data/goal_hierarchy_calculus_two_geometry.json"
+          },
+          {
+            "id": "early-12미적Ⅱ-03-02-substitution",
+            "code": "12미적Ⅱ-03-02",
+            "source_file": "data/goal_hierarchy_calculus_two_geometry.json"
+          },
+          {
+            "id": "early-12미적Ⅱ-03-03-parts",
+            "code": "12미적Ⅱ-03-03",
+            "source_file": "data/goal_hierarchy_calculus_two_geometry.json"
+          },
+          {
+            "id": "early-12미적Ⅱ-03-04-rectangles",
+            "code": "12미적Ⅱ-03-04",
+            "source_file": "data/goal_hierarchy_calculus_two_geometry.json"
+          },
+          {
+            "id": "early-12미적Ⅱ-03-05-trig-area",
+            "code": "12미적Ⅱ-03-05",
+            "source_file": "data/goal_hierarchy_calculus_two_geometry.json"
+          },
+          {
+            "id": "early-12미적Ⅱ-03-06-sphere-volume",
+            "code": "12미적Ⅱ-03-06",
+            "source_file": "data/goal_hierarchy_calculus_two_geometry.json"
+          },
+          {
+            "id": "early-12미적Ⅱ-03-07-arc-distance",
+            "code": "12미적Ⅱ-03-07",
+            "source_file": "data/goal_hierarchy_calculus_two_geometry.json"
+          },
+          {
+            "id": "early-12기하02-01-lines",
+            "code": "12기하02-01",
+            "source_file": "data/goal_hierarchy_calculus_two_geometry.json"
+          },
+          {
+            "id": "early-12기하02-01-line-plane",
+            "code": "12기하02-01",
+            "source_file": "data/goal_hierarchy_calculus_two_geometry.json"
+          },
+          {
+            "id": "early-12기하02-01-planes",
+            "code": "12기하02-01",
+            "source_file": "data/goal_hierarchy_calculus_two_geometry.json"
+          },
+          {
+            "id": "early-12기하02-02-three-perpendiculars",
+            "code": "12기하02-02",
+            "source_file": "data/goal_hierarchy_calculus_two_geometry.json"
+          },
+          {
+            "id": "early-12기하02-03-projection",
+            "code": "12기하02-03",
+            "source_file": "data/goal_hierarchy_calculus_two_geometry.json"
+          },
+          {
+            "id": "early-12기하02-04-space-coordinates",
+            "code": "12기하02-04",
+            "source_file": "data/goal_hierarchy_calculus_two_geometry.json"
+          },
+          {
+            "id": "early-12기하02-05-sphere",
+            "code": "12기하02-05",
+            "source_file": "data/goal_hierarchy_calculus_two_geometry.json"
+          },
+          {
+            "id": "early-12기하03-01-vector-operations",
+            "code": "12기하03-01",
+            "source_file": "data/goal_hierarchy_calculus_two_geometry.json"
+          },
+          {
+            "id": "early-12기하03-02-position-vectors",
+            "code": "12기하03-02",
+            "source_file": "data/goal_hierarchy_calculus_two_geometry.json"
+          },
+          {
+            "id": "early-12기하03-03-dot-product",
+            "code": "12기하03-03",
+            "source_file": "data/goal_hierarchy_calculus_two_geometry.json"
+          },
+          {
+            "id": "early-12기하03-04-lines-vector",
+            "code": "12기하03-04",
+            "source_file": "data/goal_hierarchy_calculus_two_geometry.json"
+          },
+          {
+            "id": "early-12기하03-05-plane-sphere",
+            "code": "12기하03-05",
+            "source_file": "data/goal_hierarchy_calculus_two_geometry.json"
+          }
+        ]
+      },
+      {
+        "phrase": "이 대표 과제에 필요한 부분 수행과 모형의 가정이다. 다른 과목 전체의 필수 이수 순서를 뜻하지 않는다.",
+        "count": 33,
+        "standard_codes": [
+          "12확통01-01",
+          "12확통01-02",
+          "12확통01-03",
+          "12확통02-01",
+          "12확통02-02",
+          "12확통02-03",
+          "12확통02-04",
+          "12확통02-05",
+          "12확통02-06",
+          "12확통03-01",
+          "12확통03-02",
+          "12확통03-03",
+          "12확통03-04",
+          "12확통03-05",
+          "12확통03-06",
+          "12확통03-07",
+          "12실통01-01",
+          "12실통01-02",
+          "12실통01-03",
+          "12실통02-01",
+          "12실통02-02",
+          "12실통02-03",
+          "12실통02-04",
+          "12실통03-01",
+          "12실통03-02",
+          "12실통03-03",
+          "12실통03-04",
+          "12실통04-01",
+          "12실통04-02"
+        ],
+        "cases": [
+          {
+            "id": "early-12확통01-01-repeat",
+            "code": "12확통01-01",
+            "source_file": "data/goal_hierarchy_probability_statistics.json"
+          },
+          {
+            "id": "early-12확통01-01-identical",
+            "code": "12확통01-01",
+            "source_file": "data/goal_hierarchy_probability_statistics.json"
+          },
+          {
+            "id": "early-12확통01-02-stars-bars",
+            "code": "12확통01-02",
+            "source_file": "data/goal_hierarchy_probability_statistics.json"
+          },
+          {
+            "id": "early-12확통01-03-binomial-theorem",
+            "code": "12확통01-03",
+            "source_file": "data/goal_hierarchy_probability_statistics.json"
+          },
+          {
+            "id": "early-12확통02-01-fair-model",
+            "code": "12확통02-01",
+            "source_file": "data/goal_hierarchy_probability_statistics.json"
+          },
+          {
+            "id": "early-12확통02-02-union",
+            "code": "12확통02-02",
+            "source_file": "data/goal_hierarchy_probability_statistics.json"
+          },
+          {
+            "id": "early-12확통02-03-complement",
+            "code": "12확통02-03",
+            "source_file": "data/goal_hierarchy_probability_statistics.json"
+          },
+          {
+            "id": "early-12확통02-04-conditional",
+            "code": "12확통02-04",
+            "source_file": "data/goal_hierarchy_probability_statistics.json"
+          },
+          {
+            "id": "early-12확통02-05-independence",
+            "code": "12확통02-05",
+            "source_file": "data/goal_hierarchy_probability_statistics.json"
+          },
+          {
+            "id": "early-12확통02-06-multiplication",
+            "code": "12확통02-06",
+            "source_file": "data/goal_hierarchy_probability_statistics.json"
+          },
+          {
+            "id": "early-12확통03-01-coin-distribution",
+            "code": "12확통03-01",
+            "source_file": "data/goal_hierarchy_probability_statistics.json"
+          },
+          {
+            "id": "early-12확통03-01-continuous",
+            "code": "12확통03-01",
+            "source_file": "data/goal_hierarchy_probability_statistics.json"
+          },
+          {
+            "id": "early-12확통03-02-moments",
+            "code": "12확통03-02",
+            "source_file": "data/goal_hierarchy_probability_statistics.json"
+          },
+          {
+            "id": "early-12확통03-03-binomial",
+            "code": "12확통03-03",
+            "source_file": "data/goal_hierarchy_probability_statistics.json"
+          },
+          {
+            "id": "early-12확통03-04-normal",
+            "code": "12확통03-04",
+            "source_file": "data/goal_hierarchy_probability_statistics.json"
+          },
+          {
+            "id": "early-12확통03-04-normal-approximation",
+            "code": "12확통03-04",
+            "source_file": "data/goal_hierarchy_probability_statistics.json"
+          },
+          {
+            "id": "early-12확통03-05-random-sampling",
+            "code": "12확통03-05",
+            "source_file": "data/goal_hierarchy_probability_statistics.json"
+          },
+          {
+            "id": "early-12확통03-06-sampling-distributions",
+            "code": "12확통03-06",
+            "source_file": "data/goal_hierarchy_probability_statistics.json"
+          },
+          {
+            "id": "early-12확통03-07-mean-ci",
+            "code": "12확통03-07",
+            "source_file": "data/goal_hierarchy_probability_statistics.json"
+          },
+          {
+            "id": "early-12확통03-07-proportion-ci",
+            "code": "12확통03-07",
+            "source_file": "data/goal_hierarchy_probability_statistics.json"
+          },
+          {
+            "id": "early-12실통01-01-public-statistics",
+            "code": "12실통01-01",
+            "source_file": "data/goal_hierarchy_probability_statistics.json"
+          },
+          {
+            "id": "early-12실통01-02-process",
+            "code": "12실통01-02",
+            "source_file": "data/goal_hierarchy_probability_statistics.json"
+          },
+          {
+            "id": "early-12실통01-03-sampling-design",
+            "code": "12실통01-03",
+            "source_file": "data/goal_hierarchy_probability_statistics.json"
+          },
+          {
+            "id": "early-12실통02-01-measurement",
+            "code": "12실통02-01",
+            "source_file": "data/goal_hierarchy_probability_statistics.json"
+          },
+          {
+            "id": "early-12실통02-02-data-collection",
+            "code": "12실통02-02",
+            "source_file": "data/goal_hierarchy_probability_statistics.json"
+          },
+          {
+            "id": "early-12실통02-03-graphs",
+            "code": "12실통02-03",
+            "source_file": "data/goal_hierarchy_probability_statistics.json"
+          },
+          {
+            "id": "early-12실통02-04-summaries",
+            "code": "12실통02-04",
+            "source_file": "data/goal_hierarchy_probability_statistics.json"
+          },
+          {
+            "id": "early-12실통03-01-normal-t",
+            "code": "12실통03-01",
+            "source_file": "data/goal_hierarchy_probability_statistics.json"
+          },
+          {
+            "id": "early-12실통03-02-t-mean",
+            "code": "12실통03-02",
+            "source_file": "data/goal_hierarchy_probability_statistics.json"
+          },
+          {
+            "id": "early-12실통03-03-practical-proportion",
+            "code": "12실통03-03",
+            "source_file": "data/goal_hierarchy_probability_statistics.json"
+          },
+          {
+            "id": "early-12실통03-04-hypothesis-test",
+            "code": "12실통03-04",
+            "source_file": "data/goal_hierarchy_probability_statistics.json"
+          },
+          {
+            "id": "early-12실통04-01-investigation",
+            "code": "12실통04-01",
+            "source_file": "data/goal_hierarchy_probability_statistics.json"
+          },
+          {
+            "id": "early-12실통04-02-critical-review",
+            "code": "12실통04-02",
+            "source_file": "data/goal_hierarchy_probability_statistics.json"
+          }
+        ]
+      },
+      {
+        "phrase": "공식 범위에서 정한 가상 모형의 대표 과제다. 필요한 부분 수행과 가정을 다른 과목 전체의 필수 이수와 구별한다.",
+        "count": 40,
+        "standard_codes": [
+          "12경수01-01",
+          "12경수01-02",
+          "12경수01-03",
+          "12경수01-04",
+          "12경수01-05",
+          "12경수02-01",
+          "12경수02-02",
+          "12경수02-03",
+          "12경수02-04",
+          "12경수02-05",
+          "12경수02-06",
+          "12경수03-01",
+          "12경수03-02",
+          "12경수03-03",
+          "12경수04-01",
+          "12경수04-02",
+          "12경수04-03",
+          "12경수04-04",
+          "12인수01-01",
+          "12인수01-02",
+          "12인수01-03",
+          "12인수02-01",
+          "12인수02-02",
+          "12인수02-03",
+          "12인수03-01",
+          "12인수03-02",
+          "12인수03-03",
+          "12인수04-01",
+          "12인수04-02",
+          "12인수04-03",
+          "12인수04-04",
+          "12인수05-01",
+          "12인수05-02"
+        ],
+        "cases": [
+          {
+            "id": "early-12경수01-01-index",
+            "code": "12경수01-01",
+            "source_file": "data/goal_hierarchy_economy_ai.json"
+          },
+          {
+            "id": "early-12경수01-02-exchange",
+            "code": "12경수01-02",
+            "source_file": "data/goal_hierarchy_economy_ai.json"
+          },
+          {
+            "id": "early-12경수01-03-tax",
+            "code": "12경수01-03",
+            "source_file": "data/goal_hierarchy_economy_ai.json"
+          },
+          {
+            "id": "early-12경수01-04-interest",
+            "code": "12경수01-04",
+            "source_file": "data/goal_hierarchy_economy_ai.json"
+          },
+          {
+            "id": "early-12경수01-05-annuity",
+            "code": "12경수01-05",
+            "source_file": "data/goal_hierarchy_economy_ai.json"
+          },
+          {
+            "id": "early-12경수01-05-perpetuity",
+            "code": "12경수01-05",
+            "source_file": "data/goal_hierarchy_economy_ai.json"
+          },
+          {
+            "id": "early-12경수02-01-cost-revenue",
+            "code": "12경수02-01",
+            "source_file": "data/goal_hierarchy_economy_ai.json"
+          },
+          {
+            "id": "early-12경수02-02-curves",
+            "code": "12경수02-02",
+            "source_file": "data/goal_hierarchy_economy_ai.json"
+          },
+          {
+            "id": "early-12경수02-03-utility",
+            "code": "12경수02-03",
+            "source_file": "data/goal_hierarchy_economy_ai.json"
+          },
+          {
+            "id": "early-12경수02-04-equilibrium",
+            "code": "12경수02-04",
+            "source_file": "data/goal_hierarchy_economy_ai.json"
+          },
+          {
+            "id": "early-12경수02-05-tax-shift",
+            "code": "12경수02-05",
+            "source_file": "data/goal_hierarchy_economy_ai.json"
+          },
+          {
+            "id": "early-12경수02-05-income-shift",
+            "code": "12경수02-05",
+            "source_file": "data/goal_hierarchy_economy_ai.json"
+          },
+          {
+            "id": "early-12경수02-06-linear-program",
+            "code": "12경수02-06",
+            "source_file": "data/goal_hierarchy_economy_ai.json"
+          },
+          {
+            "id": "early-12경수03-01-matrix-economy",
+            "code": "12경수03-01",
+            "source_file": "data/goal_hierarchy_economy_ai.json"
+          },
+          {
+            "id": "early-12경수03-02-inverse-matrix",
+            "code": "12경수03-02",
+            "source_file": "data/goal_hierarchy_economy_ai.json"
+          },
+          {
+            "id": "early-12경수03-03-matrix-system",
+            "code": "12경수03-03",
+            "source_file": "data/goal_hierarchy_economy_ai.json"
+          },
+          {
+            "id": "early-12경수04-01-marginal",
+            "code": "12경수04-01",
+            "source_file": "data/goal_hierarchy_economy_ai.json"
+          },
+          {
+            "id": "early-12경수04-02-profit-shape",
+            "code": "12경수04-02",
+            "source_file": "data/goal_hierarchy_economy_ai.json"
+          },
+          {
+            "id": "early-12경수04-03-elasticity",
+            "code": "12경수04-03",
+            "source_file": "data/goal_hierarchy_economy_ai.json"
+          },
+          {
+            "id": "early-12경수04-04-optimization",
+            "code": "12경수04-04",
+            "source_file": "data/goal_hierarchy_economy_ai.json"
+          },
+          {
+            "id": "early-12인수01-01-learning-styles",
+            "code": "12인수01-01",
+            "source_file": "data/goal_hierarchy_economy_ai.json"
+          },
+          {
+            "id": "early-12인수01-01-perceptron",
+            "code": "12인수01-01",
+            "source_file": "data/goal_hierarchy_economy_ai.json"
+          },
+          {
+            "id": "early-12인수01-02-history",
+            "code": "12인수01-02",
+            "source_file": "data/goal_hierarchy_economy_ai.json"
+          },
+          {
+            "id": "early-12인수01-02-xor",
+            "code": "12인수01-02",
+            "source_file": "data/goal_hierarchy_economy_ai.json"
+          },
+          {
+            "id": "early-12인수01-02-expert-rules",
+            "code": "12인수01-02",
+            "source_file": "data/goal_hierarchy_economy_ai.json"
+          },
+          {
+            "id": "early-12인수01-03-big-data",
+            "code": "12인수01-03",
+            "source_file": "data/goal_hierarchy_economy_ai.json"
+          },
+          {
+            "id": "early-12인수02-01-text-representation",
+            "code": "12인수02-01",
+            "source_file": "data/goal_hierarchy_economy_ai.json"
+          },
+          {
+            "id": "early-12인수02-02-word-count",
+            "code": "12인수02-02",
+            "source_file": "data/goal_hierarchy_economy_ai.json"
+          },
+          {
+            "id": "early-12인수02-02-idf",
+            "code": "12인수02-02",
+            "source_file": "data/goal_hierarchy_economy_ai.json"
+          },
+          {
+            "id": "early-12인수02-03-sentiment",
+            "code": "12인수02-03",
+            "source_file": "data/goal_hierarchy_economy_ai.json"
+          },
+          {
+            "id": "early-12인수02-03-similarities",
+            "code": "12인수02-03",
+            "source_file": "data/goal_hierarchy_economy_ai.json"
+          },
+          {
+            "id": "early-12인수03-01-image-representation",
+            "code": "12인수03-01",
+            "source_file": "data/goal_hierarchy_economy_ai.json"
+          },
+          {
+            "id": "early-12인수03-02-image-transform",
+            "code": "12인수03-02",
+            "source_file": "data/goal_hierarchy_economy_ai.json"
+          },
+          {
+            "id": "early-12인수03-03-hamming",
+            "code": "12인수03-03",
+            "source_file": "data/goal_hierarchy_economy_ai.json"
+          },
+          {
+            "id": "early-12인수04-01-relative-frequency",
+            "code": "12인수04-01",
+            "source_file": "data/goal_hierarchy_economy_ai.json"
+          },
+          {
+            "id": "early-12인수04-02-trendline",
+            "code": "12인수04-02",
+            "source_file": "data/goal_hierarchy_economy_ai.json"
+          },
+          {
+            "id": "early-12인수04-03-origin-loss",
+            "code": "12인수04-03",
+            "source_file": "data/goal_hierarchy_economy_ai.json"
+          },
+          {
+            "id": "early-12인수04-04-gradient",
+            "code": "12인수04-04",
+            "source_file": "data/goal_hierarchy_economy_ai.json"
+          },
+          {
+            "id": "early-12인수05-01-responsible-use",
+            "code": "12인수05-01",
+            "source_file": "data/goal_hierarchy_economy_ai.json"
+          },
+          {
+            "id": "early-12인수05-02-project",
+            "code": "12인수05-02",
+            "source_file": "data/goal_hierarchy_economy_ai.json"
+          }
+        ]
+      },
+      {
+        "phrase": "대표 과제에서 사용하는 부분 수행이다. 과목 전체나 다른 활동 모두의 보편적인 선수 이수로 해석하지 않는다.",
+        "count": 44,
+        "standard_codes": [
+          "12직수01-01",
+          "12직수01-02",
+          "12직수01-03",
+          "12직수02-01",
+          "12직수02-02",
+          "12직수02-03",
+          "12직수02-04",
+          "12직수03-01",
+          "12직수03-02",
+          "12직수03-03",
+          "12직수03-04",
+          "12직수03-05",
+          "12직수04-01",
+          "12직수04-02",
+          "12직수04-03",
+          "12직수04-04",
+          "12직수04-05",
+          "12수문01-01",
+          "12수문01-02",
+          "12수문01-03",
+          "12수문01-04",
+          "12수문02-01",
+          "12수문02-02",
+          "12수문02-03",
+          "12수문02-04",
+          "12수문03-01",
+          "12수문03-02",
+          "12수문03-03",
+          "12수문03-04",
+          "12수문04-01",
+          "12수문04-02",
+          "12수문04-03",
+          "12수문04-04",
+          "12수과01-01",
+          "12수과01-02",
+          "12수과02-01",
+          "12수과02-02",
+          "12수과02-03",
+          "12수과02-04",
+          "12수과03-01",
+          "12수과03-02",
+          "12수과03-03",
+          "12수과03-04"
+        ],
+        "cases": [
+          {
+            "id": "early-12직수01-01-supplies",
+            "code": "12직수01-01",
+            "source_file": "data/goal_hierarchy_work_culture_inquiry.json"
+          },
+          {
+            "id": "early-12직수01-02-round",
+            "code": "12직수01-02",
+            "source_file": "data/goal_hierarchy_work_culture_inquiry.json"
+          },
+          {
+            "id": "early-12직수01-03-units",
+            "code": "12직수01-03",
+            "source_file": "data/goal_hierarchy_work_culture_inquiry.json"
+          },
+          {
+            "id": "early-12직수01-03-conversion-table",
+            "code": "12직수01-03",
+            "source_file": "data/goal_hierarchy_work_culture_inquiry.json"
+          },
+          {
+            "id": "early-12직수02-01-unit-price",
+            "code": "12직수02-01",
+            "source_file": "data/goal_hierarchy_work_culture_inquiry.json"
+          },
+          {
+            "id": "early-12직수02-02-rates",
+            "code": "12직수02-02",
+            "source_file": "data/goal_hierarchy_work_culture_inquiry.json"
+          },
+          {
+            "id": "early-12직수02-03-tariff",
+            "code": "12직수02-03",
+            "source_file": "data/goal_hierarchy_work_culture_inquiry.json"
+          },
+          {
+            "id": "early-12직수02-04-cycle",
+            "code": "12직수02-04",
+            "source_file": "data/goal_hierarchy_work_culture_inquiry.json"
+          },
+          {
+            "id": "early-12직수03-01-box-net",
+            "code": "12직수03-01",
+            "source_file": "data/goal_hierarchy_work_culture_inquiry.json"
+          },
+          {
+            "id": "early-12직수03-02-stock-layout",
+            "code": "12직수03-02",
+            "source_file": "data/goal_hierarchy_work_culture_inquiry.json"
+          },
+          {
+            "id": "early-12직수03-03-scale",
+            "code": "12직수03-03",
+            "source_file": "data/goal_hierarchy_work_culture_inquiry.json"
+          },
+          {
+            "id": "early-12직수03-04-panel",
+            "code": "12직수03-04",
+            "source_file": "data/goal_hierarchy_work_culture_inquiry.json"
+          },
+          {
+            "id": "early-12직수03-05-open-box",
+            "code": "12직수03-05",
+            "source_file": "data/goal_hierarchy_work_culture_inquiry.json"
+          },
+          {
+            "id": "early-12직수04-01-bundles",
+            "code": "12직수04-01",
+            "source_file": "data/goal_hierarchy_work_culture_inquiry.json"
+          },
+          {
+            "id": "early-12직수04-02-cancellation",
+            "code": "12직수04-02",
+            "source_file": "data/goal_hierarchy_work_culture_inquiry.json"
+          },
+          {
+            "id": "early-12직수04-03-join-tables",
+            "code": "12직수04-03",
+            "source_file": "data/goal_hierarchy_work_culture_inquiry.json"
+          },
+          {
+            "id": "early-12직수04-04-read-rates",
+            "code": "12직수04-04",
+            "source_file": "data/goal_hierarchy_work_culture_inquiry.json"
+          },
+          {
+            "id": "early-12직수04-05-staffing",
+            "code": "12직수04-05",
+            "source_file": "data/goal_hierarchy_work_culture_inquiry.json"
+          },
+          {
+            "id": "early-12수문01-01-music",
+            "code": "12수문01-01",
+            "source_file": "data/goal_hierarchy_work_culture_inquiry.json"
+          },
+          {
+            "id": "early-12수문01-02-tessellation",
+            "code": "12수문01-02",
+            "source_file": "data/goal_hierarchy_work_culture_inquiry.json"
+          },
+          {
+            "id": "early-12수문01-03-flatland-story",
+            "code": "12수문01-03",
+            "source_file": "data/goal_hierarchy_work_culture_inquiry.json"
+          },
+          {
+            "id": "early-12수문01-04-film",
+            "code": "12수문01-04",
+            "source_file": "data/goal_hierarchy_work_culture_inquiry.json"
+          },
+          {
+            "id": "early-12수문02-01-sports",
+            "code": "12수문02-01",
+            "source_file": "data/goal_hierarchy_work_culture_inquiry.json"
+          },
+          {
+            "id": "early-12수문02-02-takeaway",
+            "code": "12수문02-02",
+            "source_file": "data/goal_hierarchy_work_culture_inquiry.json"
+          },
+          {
+            "id": "early-12수문02-03-digital",
+            "code": "12수문02-03",
+            "source_file": "data/goal_hierarchy_work_culture_inquiry.json"
+          },
+          {
+            "id": "early-12수문02-04-voting",
+            "code": "12수문02-04",
+            "source_file": "data/goal_hierarchy_work_culture_inquiry.json"
+          },
+          {
+            "id": "early-12수문03-01-culture-models",
+            "code": "12수문03-01",
+            "source_file": "data/goal_hierarchy_work_culture_inquiry.json"
+          },
+          {
+            "id": "early-12수문03-02-braille",
+            "code": "12수문03-02",
+            "source_file": "data/goal_hierarchy_work_culture_inquiry.json"
+          },
+          {
+            "id": "early-12수문03-03-headlines",
+            "code": "12수문03-03",
+            "source_file": "data/goal_hierarchy_work_culture_inquiry.json"
+          },
+          {
+            "id": "early-12수문03-04-value-choice",
+            "code": "12수문03-04",
+            "source_file": "data/goal_hierarchy_work_culture_inquiry.json"
+          },
+          {
+            "id": "early-12수문04-01-food-balance",
+            "code": "12수문04-01",
+            "source_file": "data/goal_hierarchy_work_culture_inquiry.json"
+          },
+          {
+            "id": "early-12수문04-02-emissions",
+            "code": "12수문04-02",
+            "source_file": "data/goal_hierarchy_work_culture_inquiry.json"
+          },
+          {
+            "id": "early-12수문04-03-land",
+            "code": "12수문04-03",
+            "source_file": "data/goal_hierarchy_work_culture_inquiry.json"
+          },
+          {
+            "id": "early-12수문04-04-biodiversity",
+            "code": "12수문04-04",
+            "source_file": "data/goal_hierarchy_work_culture_inquiry.json"
+          },
+          {
+            "id": "early-12수과01-01-meaning",
+            "code": "12수과01-01",
+            "source_file": "data/goal_hierarchy_work_culture_inquiry.json"
+          },
+          {
+            "id": "early-12수과01-02-ethics",
+            "code": "12수과01-02",
+            "source_file": "data/goal_hierarchy_work_culture_inquiry.json"
+          },
+          {
+            "id": "early-12수과02-01-literature",
+            "code": "12수과02-01",
+            "source_file": "data/goal_hierarchy_work_culture_inquiry.json"
+          },
+          {
+            "id": "early-12수과02-02-case-study",
+            "code": "12수과02-02",
+            "source_file": "data/goal_hierarchy_work_culture_inquiry.json"
+          },
+          {
+            "id": "early-12수과02-03-experiment",
+            "code": "12수과02-03",
+            "source_file": "data/goal_hierarchy_work_culture_inquiry.json"
+          },
+          {
+            "id": "early-12수과02-04-development",
+            "code": "12수과02-04",
+            "source_file": "data/goal_hierarchy_work_culture_inquiry.json"
+          },
+          {
+            "id": "early-12수과03-01-plan",
+            "code": "12수과03-01",
+            "source_file": "data/goal_hierarchy_work_culture_inquiry.json"
+          },
+          {
+            "id": "early-12수과03-02-perform",
+            "code": "12수과03-02",
+            "source_file": "data/goal_hierarchy_work_culture_inquiry.json"
+          },
+          {
+            "id": "early-12수과03-03-communicate",
+            "code": "12수과03-03",
+            "source_file": "data/goal_hierarchy_work_culture_inquiry.json"
+          },
+          {
+            "id": "early-12수과03-04-reflection",
+            "code": "12수과03-04",
+            "source_file": "data/goal_hierarchy_work_culture_inquiry.json"
+          }
+        ]
+      }
+    ],
+    "findings": [
+      {
+        "id": "MATH-01",
+        "priority": "high",
+        "classification": "confirmed_mathematical_error",
+        "code": "12대수02-01",
+        "case_id": "early-12대수02-01-radians",
+        "source": "data/goal_hierarchy_algebra_calculus_one.json:2704",
+        "author_source": "scripts/author_algebra_calculus_one.py:108",
+        "claim": "450°와 −90°가 모두 90°와 같은 동경",
+        "correction": "450°는 90°와, −90°는 270°와 같은 동경이다.",
+        "check_gap": "scripts/check_algebra_calculus_one.py:39 only tests degree-to-radian conversion, not terminal sides."
+      },
+      {
+        "id": "MATH-02",
+        "priority": "medium",
+        "classification": "unqualified_generalization",
+        "code": "12확통02-02",
+        "case_id": "early-12확통02-02-union",
+        "source": "data/goal_hierarchy_probability_statistics.json:1914",
+        "claim": "교집합이 공집합인 배반 사건에서만 빼는 항이 0이다.",
+        "counterexample": "Uniform [0,1], A=[0,0.5], B=[0.5,1]: intersection={0.5}, probability=0.",
+        "qualification": "Correct within the current fair-die task, false as a general claim across probability models. Replace only-if by if, or limit scope explicitly."
+      },
+      {
+        "id": "MATH-03",
+        "priority": "medium",
+        "classification": "alternative_review_not_substantive",
+        "source": "docs/전체위계1차완성보고서.md:18",
+        "count": 198,
+        "qualification": "Single route alone is not an error. The 198 repeated caution statements do not record specific alternatives considered or why a single route was retained.",
+        "example_source": "data/goal_hierarchy_probability_statistics.json:2157",
+        "example": "12확통02-06 writes conditional-probability and combination solutions in one steps field. Decide whether combinations is an alternative for the same goal or only corroboration, then record its role."
+      }
+    ],
+    "detailed_notes": "tmp/audit-20261104-math.md"
+  },
+  "coverage": {
+    "date": "2026-11-04",
+    "reviewer": "coverage_audit (Codex subagent)",
+    "scope": "내용 체계 원장·해설 대응·상세 문서와 목표 원장의 일부 대조. 데이터 전체 구조 검사와 표본 내용 검토를 구별함.",
+    "agents": "작업 폴더의 AGENTS.md는 찾지 못함.",
+    "findings": [
+      {
+        "id": "COV-01",
+        "severity": "P1",
+        "title": "공식 내용 체계 표의 전수 원장과 대응표가 없음",
+        "status": "기존 범위 한계의 재확인; 1차 완성 뒤에도 남은 정리 대상",
+        "evidence": [
+          "PDF 13쪽(인쇄 7쪽)을 렌더하여 핵심 아이디어와 지식·이해·과정·기능·가치·태도 표를 직접 확인. PDF 10쪽은 성취기준 학습에 그치지 않고 핵심 아이디어를 구성하는지 점검할 것을 설명한다.",
+          "data/*.json·scripts/*.py·docs/*.md에서 핵심 아이디어/지식·이해·과정·기능/가치·태도 항목 원장 및 대응표를 확인하지 못함. 관련 정확어 검색 결과는 docs/수학교육과정포털계획.md:146의 미구조화 가능성 확인 계획뿐.",
+          "data/concept_taxonomy.json:4는 435개 기준의 연구용 개념 분류라고 명시. 46개 개념군은 공식 내용 체계 행과 별도 객체."
+        ],
+        "impact": "435개 성취기준·870개 목표의 수치만으로 공식 내용 체계의 전체 정리를 완료했다고 판정할 수 없다. 가치·태도 및 여러 기준에 걸친 핵심 아이디어의 누락 여부는 집계 자체가 불가능하다.",
+        "action": "공식 내용 체계 각 행에 ID·학년군·범주·원문·쪽수·연결 성취기준·목표/과제·반영 상태를 가진 별도 원장을 작성. 과정·기능 및 태도는 수행과 관찰 근거로 각각 대응."
+      },
+      {
+        "id": "COV-02",
+        "severity": "P1",
+        "title": "상세 분석 문서의 학년 범위 잔재: 1~2학년에 초 단위 포함",
+        "status": "신규 확인된 구체적 결함",
+        "evidence": [
+          "analyses/2수03-07.md:71, analyses/2수03-08.md:71, analyses/2수03-09.md:71 모두 복합 단위→분과 초：60 관계를 유지한다.",
+          "원본 data/revisions_elementary.json:7885·7973·8081, 공통 프로필 scripts/analysis_content.py:245에도 같은 문장.",
+          "공식 초 단위 기준은 4수03-13(1분과 1초의 관계 및 초까지 시각)·4수03-14(초까지 시간 덧셈·뺄셈), PDF 27쪽.",
+          "2수03-09.md:54·58의 시계 움직임/정각/세로셈 경로도 그 문서의 대표 달력 과제와 구체적으로 대응되지 않는다."
+        ],
+        "impact": "목표 원장 보강과 별개로 기존 상세 분석의 공통 프로필에서 다른 학년 내용이 그대로 유입되어 있다.",
+        "action": "2수03-07~09 원본의 표현 전환·대안 경로를 해당 기준에 맞게 개별 수정하고 재생성. 4수03-13~14와 비교해 범위 일치 확인."
+      },
+      {
+        "id": "COV-03",
+        "severity": "P2",
+        "title": "목표 원장 보강이 기존 상세 문서에서 발견되지 않는 사례",
+        "status": "신규 확인; 표본 사례이며 전체 건수로 일반화하지 않음",
+        "evidence": [
+          "data/goal_hierarchy_early_number.json:12에 2수01-01:need, :40~42에 parity 목표. 같은 파일 :659의 책 5권/5번째/5번 버스 과제, :828의 짝수·홀수 과제가 있다.",
+          "analyses/2수01-01.md:16~18의 대표 과제는 구슬 17개 세기와 0. 진단 :72~76은 개수 보존·17 읽기·0. 상세 문서 전체에 짝수/홀수 과제나 새 목표 원장으로 이동하는 링크 없음. 수의 필요성은 공식 인용 한 번(:8)에만 나타남.",
+          "docs/성취기준분석양식.md:11은 복합 기준의 모든 대상·수행, :43은 각 하위 목표별 진단 대응을 요구."
+        ],
+        "impact": "원장에는 있는 내용이 독립 상세 문서를 통해서는 빠진 것으로 보인다. 원장과 상세 분석은 서로 다른 범위로 유지되고 있지만 상세 제목에서 이 차이가 드러나지 않는다.",
+        "action": "최소한 상세 문서에 목표·과제 원장 전체로 가는 링크와 포함 범위를 명시. 이후 하위 목표별 상세 설명/진단 연결을 동일 생성 원본에서 제공."
+      },
+      {
+        "id": "COV-04",
+        "severity": "P2",
+        "title": "해설·적용 고려 사항 대조의 항목별 완료 증거 부족",
+        "status": "기존 검토 기록의 세분화 필요",
+        "evidence": [
+          "435개 목표 원장 entry 전체 source_review.scope가 동일한 공식 문장과 해설 및 적용 시 고려 사항의 텍스트 대조... 문구. 필드는 kind,source_id,pdf_pages,printed_pages,scope 5개뿐이다.",
+          "data/secondary_source_review.json:3은 선택한 해설·고려 사항의 대조로 한정하며 notes 26건.",
+          "실제 scope 필드에 개별 범위 보강은 존재하므로 해설 검토 자체가 없었다고 단정할 수는 없다. 예: 2수01-01의 한글 수 이름 쓰기 지양, 짝수·홀수 20 이하."
+        ],
+        "impact": "각 페이지의 어느 해설·고려 사항이 어느 과제/범위 제한/태도 관찰로 반영되었고 어느 것이 보류되었는지 전수 추적할 수 없다.",
+        "action": "해설·고려 사항별 항목 ID와 반영 위치/제외 이유/완료 상태를 기록하여 전수 분모를 생성."
+      },
+      {
+        "id": "COV-05",
+        "severity": "P2",
+        "title": "원문 이미지 미대조 403개가 그대로 남아 있음",
+        "status": "이미 알려진 미완료 상태 재확인",
+        "counts": {
+          "total": 435,
+          "unreviewed": 403,
+          "visuallyReviewed": 32,
+          "unreviewedBySchool": {
+            "elementary": 113,
+            "middle": 56,
+            "high": 234
+          }
+        },
+        "evidence": [
+          "data/standards.json의 source_review_status 집계: 미대조 403, 원문 이미지 대조 보정 29, 원문 이미지 대조 3.",
+          "data/inventory_quality.json은 구조 점검과 육안 대조를 구별하고, docs/전체위계완성계획.md:39에도 동일한 공백을 명시."
+        ],
+        "impact": "텍스트 대조나 새 자동 검사 통과가 403개 이미지 검토 완료를 뜻하지 않는다.",
+        "action": "수식·표·자간 등 위험 항목부터 화면 대조를 확장하며 이미지 대조 상태를 개별 갱신. 무조건 전수 육안이 있어야 초안을 제공할 수 있다는 뜻은 아님."
+      },
+      {
+        "id": "COV-06",
+        "severity": "표현 개선",
+        "title": "시간 과제 조건의 눈금 문구가 단위 의미를 흐림",
+        "status": "확정 오류 아님; 한 칸 1분의 눈금 60개를 축약한 표현일 수 있음. 주 보고 제외 가능.",
+        "evidence": [
+          "data/goal_hierarchy_early_shape_measure_data.json:2215·2232: 한 분의 눈금60개가 분침 한 바퀴이며1시간임을 대응시킨다."
+        ],
+        "impact": "한 분의 눈금 60개는 1분=60초로 읽힐 수 있어 분침 한 바퀴=60분과 혼동된다.",
+        "action": "각 눈금 한 칸은 1분이며 60칸 이동이 분침 한 바퀴=1시간임을 대응시킨다로 고쳐 조건과 rationale 일치."
+      }
+    ],
+    "limits": [
+      "후속 개정 여부는 이번 감사 범위가 아니다. 제공된 2022-33 원문을 고정 기준으로 사용.",
+      "새 수업 효과·학생 이해 검증을 수행하지 않음.",
+      "원본과 생성물을 수정하지 않음. 임시 PDF 13쪽 렌더 이미지와 이 기록만 작성."
+    ],
+    "primaryEvidence": {
+      "curriculumStructure": {
+        "pdfPages": [
+          10,
+          13
+        ],
+        "extractedText": "tmp/pdfs/curriculum-extracted.txt:78~98, 135~216",
+        "render": "tmp/pdfs/audit-content-table-13.png"
+      },
+      "timeScope": {
+        "pdfPages": [
+          20,
+          27
+        ],
+        "extractedText": "tmp/pdfs/curriculum-extracted.txt:586~589, 776~777",
+        "render": "tmp/pdfs/audit-time-source-27.png"
+      }
+    }
+  },
+  "legacy_relations": {
+    "total": 2239,
+    "with_diagnostic": 721,
+    "without_diagnostic": 1518,
+    "with_expected_response": 140,
+    "record_review_states": {
+      "missing": 1518,
+      "self_checked": 661,
+      "candidate": 60
+    },
+    "registry_count": 145,
+    "self_checked_outside_registry": 516
+  },
+  "angle_counterexample": {
+    "same_terminal_side_450_and_90": true,
+    "same_terminal_side_minus90_and_90": false,
+    "same_terminal_side_minus90_and_270": true
+  },
+  "interpretation": "자동 구조 검사와 의미 검토를 구분한다. 분담 검토 역시 Codex 자체 점검이며 외부 독립 검토로 계산하지 않는다."
+}

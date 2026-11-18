@@ -1,0 +1,6 @@
+year,country,indicator,value,unit,data_kind,source_url,retrieved_date,api_lastupdated
+2020,KOR,NY.GDP.MKTP.KD.ZG,-0.700242317542106,percent_per_year,published_statistic,https://api.worldbank.org/v2/country/KOR/indicator/NY.GDP.MKTP.KD.ZG?date=2020%3A2024&format=json,2026-11-04,2026-10-08
+2021,KOR,NY.GDP.MKTP.KD.ZG,4.61296795454287,percent_per_year,published_statistic,https://api.worldbank.org/v2/country/KOR/indicator/NY.GDP.MKTP.KD.ZG?date=2020%3A2024&format=json,2026-11-04,2026-10-08
+2022,KOR,NY.GDP.MKTP.KD.ZG,2.72756456708991,percent_per_year,published_statistic,https://api.worldbank.org/v2/country/KOR/indicator/NY.GDP.MKTP.KD.ZG?date=2020%3A2024&format=json,2026-11-04,2026-10-08
+2023,KOR,NY.GDP.MKTP.KD.ZG,1.58301467403629,percent_per_year,published_statistic,https://api.worldbank.org/v2/country/KOR/indicator/NY.GDP.MKTP.KD.ZG?date=2020%3A2024&format=json,2026-11-04,2026-10-08
+2024,KOR,NY.GDP.MKTP.KD.ZG,2.00361101838986,percent_per_year,published_statistic,https://api.worldbank.org/v2/country/KOR/indicator/NY.GDP.MKTP.KD.ZG?date=2020%3A2024&format=json,2026-11-04,2026-10-08

@@ -1,0 +1,51 @@
+{
+  "source_id": "DUMAS_ET_AL_2019_TRIAD_MEASUREMENT",
+  "source_url": "https://doi.org/10.1177/2332858419879446",
+  "date": "2026-11-10",
+  "reviewer": "Codex",
+  "read_scope": "TRIAD 종단 재분석에서 REMA의 영역별 시작·중단 규칙과 이후 TEAM 3–5 검사 도구를 확인했다.",
+  "contains_source_full_text": false,
+  "source_pdf_redistributed": false,
+  "empirical_scope": {
+    "design": "TRIAD 자료의 종단 재분석. 여기서는 도구와 시행을 대조했다.",
+    "sample_description": "원 TRIAD 1,305명, 5학년 말까지 전체 검사 완료 781명.",
+    "inference_limit": "같은 TRIAD 코호트의 재분석이다. 이 시행 절차를 다른 REMA 판본에 적용하거나 MPC의 별도 효과로 합산하지 않는다.",
+    "student_outcome_study": true,
+    "causal_effect_established": false,
+    "local_effect_tested": false
+  },
+  "reading_log": [
+    "TRIAD 종단 재분석에서 REMA의 영역별 시작·중단 규칙과 이후 TEAM 3–5 검사 도구를 확인했다."
+  ],
+  "source_corrections": [
+    {
+      "location": "측정과 시행",
+      "issue": "이 출처의 문항·채점·검사 시행 범위를 다른 판본과 구별한다."
+    }
+  ],
+  "form_review": {
+    "rema_items": 225,
+    "stop_consecutive_errors_by_section": 4,
+    "grade_one_start": {
+      "number": 30,
+      "geometry": 6
+    },
+    "later_measure": "TEAM 3–5",
+    "existing_cohort_source": "CLEMENTS_ET_AL_2013_TRIAD_FOLLOWTHROUGH"
+  },
+  "source_asset_kind": "pdf",
+  "source_pdf_sha256": "b1af9e64246793ba345be3cec2f6c4945cfbb5b188adfcb9ffc34268e480e9f0",
+  "source_pdf_url": "https://files.eric.ed.gov/fulltext/EJ1238415.pdf",
+  "pdf_pages": 15,
+  "selected_text_pages": [
+    1,
+    5,
+    6
+  ],
+  "visual_pdf_pages": [
+    6
+  ],
+  "rendered_page_sha256": {
+    "6": "c89683cd95b09876b362ebfb718272e59773ed8da5d2c58a65d800ca99892f76"
+  }
+}

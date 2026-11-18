@@ -1,0 +1,64 @@
+{
+  "source_id": "TURGUT_ET_AL_2022_VECTOR_EQUATIONS",
+  "source_url": "https://doi.org/10.1016/j.jmathb.2022.100948",
+  "source_pdf_url": "https://hdl.handle.net/11250/2988285",
+  "source_asset_kind": "pdf",
+  "source_pdf_sha256": "21cec1574fd59667fad594c44fb19414ed696031e8ef829592796d2105110b39",
+  "pdf_pages": 20,
+  "selected_text_pages": [
+    1,
+    7,
+    8,
+    9,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18
+  ],
+  "visual_pdf_pages": [
+    8,
+    15,
+    16,
+    17
+  ],
+  "rendered_page_sha256": {
+    "8": "0f58f3dfe732eda8d0ed68cf874c056eb14ff9ef84001ae89d06eda02ecfa65e",
+    "15": "cffcbc1a5b7799f7f932775cdad8be8074f6ec4ff145cb02f620025b8e8a4228",
+    "16": "c9d25d6d4d06456a39f023a752766fca8296727cc7b3a6ac80db158a208d1232",
+    "17": "a583f6eeed2e54a320b7c1e64b252bd9f0ef0f36ceb81ffc8afd89d73025c281"
+  },
+  "date": "2026-11-10",
+  "reviewer": "Codex",
+  "read_scope": "대학 저장소의 출판본에서 동적 기하 도구 활용, 직선·평면 과제, 연구자 질문 전후의 표현을 대조했다.",
+  "empirical_scope": {
+    "design": "동적 기하 네 과제에 대한 소표본 개별 면담과 표현 분석.",
+    "sample_description": "선형대수 수강생 두 명의 개별 면담 여섯 차례.",
+    "inference_limit": "대학 선형대수 소표본 면담이다. 유한한 도구 화면에서 얻은 점, 모든 실수 매개변수의 점집합, 일반화한 수행을 구별한다.",
+    "student_outcome_study": true,
+    "causal_effect_established": false,
+    "local_effect_tested": false
+  },
+  "contains_source_full_text": false,
+  "source_pdf_redistributed": false,
+  "reading_log": [
+    "대학 저장소의 출판본에서 동적 기하 도구 활용, 직선·평면 과제, 연구자 질문 전후의 표현을 대조했다."
+  ],
+  "source_corrections": [
+    {
+      "location": "정의·표·학생 응답",
+      "issue": "한 매개변수 과제의 원점을 지나는 직선과 두 독립 방향으로 생성한 특정 평면을 구별하고, 매개변수 소거 전 연구자 질문과 일반화에 대한 유보를 남겼다."
+    }
+  ],
+  "analytic_review": {
+    "n": 2,
+    "interviews": 6,
+    "tasks": 4,
+    "task_3_origin_line": true,
+    "task_4_example_plane": "x+z=0",
+    "task_4_teacher_hint_before_elimination": true,
+    "generalization_uncertainty_reported": true,
+    "repository_published_pdf": true
+  }
+}

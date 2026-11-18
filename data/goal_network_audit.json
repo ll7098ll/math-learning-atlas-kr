@@ -1,0 +1,1771 @@
+{
+  "date": "2026-11-18",
+  "kind": "structural_and_direction_reconciliation",
+  "interpretation": "원장·생성 자료와 목표별 연결의 범위·방향을 대조한다. 역방향 충돌이 없다는 사실만으로 모든 연결의 수학적 타당성·필수 선수성·수업 효과가 증명되는 것은 아니다.",
+  "catalog_version": "c7e86e2fa1af547e",
+  "task_dataset_version": "1eb09e3dfdcd4f6d",
+  "graph_hash": "5f0e61222e148413ebc5adf3a0baa6f36d697e971c487b1ed92e9e26c78774c9",
+  "source_hashes": {
+    "data/standards.json": "b50696da3a2bdfb2ab41b49fb66049c407909312436eb8c4529de935b0d8ea79",
+    "data/revised_relations.json": "bebd24aaee94d80f3830eceebed0dde969aa5e13b0932162321da3017927cc8b",
+    "data/goal_hierarchy_algebra_calculus_one.json": "705b28666f71748e414f98f45b92dc4d8286ea22ee4e53ca8c001b5661d08435",
+    "data/goal_hierarchy_calculus_two_geometry.json": "5b3f212b6608564385fdee78ec22cd56489abffede266df4a328e8cd565a44ab",
+    "data/goal_hierarchy_common_basic_one.json": "2e69329addfc7e94034100808a266b0090ce6b063758e84c1580ff3f6e66488e",
+    "data/goal_hierarchy_common_basic_two.json": "8353d890447bdc0ac7f45ce3ab2136145607d4c162f01a6b033b5934e6500449",
+    "data/goal_hierarchy_early_number.json": "89ecd997315eecde824084dc17e3cff89c3a03fdd940dd620dbb773fcf6dda81",
+    "data/goal_hierarchy_early_shape_measure_data.json": "0051660a348c906d359a16bd8d4ffbdc3234d654b4e1339b4a78c626c4c2d27c",
+    "data/goal_hierarchy_economy_ai.json": "6ac481edc461ea9406a8c2c09a7d4e96d98df11239477937035de2c287e9b766",
+    "data/goal_hierarchy_middle_functions_statistics.json": "c49a0283861f80eb3826004d779f008ba4f3fe5256c8fbf98828b1bda4d9e8be",
+    "data/goal_hierarchy_middle_geometry.json": "d7f3b260b1b505c99bf9cf70134309030ae76e6957ca68145f6c825b0d756320",
+    "data/goal_hierarchy_middle_number_algebra.json": "7377b9dfe1a63bce6c38e4722ad243637503e2add311be5bf3b84aaa448370a5",
+    "data/goal_hierarchy_primary_3_4_geometry_measure_data.json": "54a6a8dc8756bc19b073229523046682885b61a08111503caa1519bf8e6ceb24",
+    "data/goal_hierarchy_primary_3_4_number_patterns.json": "35336bd6111dd8c3165ff88876c46d1b16b9c9072f88f106f36507868e300be4",
+    "data/goal_hierarchy_probability_statistics.json": "0f45f81a1acc5d14a1dc29dc399cc08ab712e42a6715b38d22cb7a7f27138e46",
+    "data/goal_hierarchy_upper_primary_geometry_data.json": "c12a7ade87ff2c165936fdd231198b85d3d7afd6191e44b851be18e4d9b63a5c",
+    "data/goal_hierarchy_upper_primary_number_ratio.json": "b85e1bb6c292c718ecd82449438d4ce213c0ffa93534d8f2931d7011bd0ca49a",
+    "data/goal_hierarchy_work_culture_inquiry.json": "a9a25c7fb69ff8277d89f063f7cad60526c0ea6c8bf1cd71491e93c2b97b679b"
+  },
+  "coverage": {
+    "standards": 435,
+    "goals": 870,
+    "cases": 565,
+    "routes": 626,
+    "directed_pairs": 1481,
+    "cross_standard_pairs": 833,
+    "condition_clauses": 1425,
+    "condition_kinds": {
+      "goal": 1135,
+      "within_task": 270,
+      "entry_capability": 20
+    },
+    "scoped_link_occurrences": 1554
+  },
+  "checks": {
+    "export_matches_authored_goals_and_all_route_conditions": true,
+    "goal_conditions_acyclic": true
+  },
+  "school_transition_occurrences": {
+    "중학교→고등학교": 242,
+    "고등학교→고등학교": 562,
+    "초등학교→고등학교": 96,
+    "초등학교→초등학교": 414,
+    "중학교→중학교": 182,
+    "초등학교→중학교": 58
+  },
+  "opposing_existing_direction_candidates": [],
+  "higher_school_source_candidates": [],
+  "cross_course_condition_applications": [
+    {
+      "source_goal": "10공수2-03-03:meaning",
+      "target_goal": "12대수01-06:meaning",
+      "case_id": "early-12대수01-06-inverse",
+      "source_subject": "공통수학2",
+      "target_subject": "대수",
+      "rationale": "정의역·치역의 교환을 두 식에 적용한다."
+    },
+    {
+      "source_goal": "10공수2-03-03:meaning",
+      "target_goal": "12대수01-06:inverse",
+      "case_id": "early-12대수01-06-inverse",
+      "source_subject": "공통수학2",
+      "target_subject": "대수",
+      "rationale": "정의역·치역의 교환을 두 식에 적용한다."
+    },
+    {
+      "source_goal": "10공수1-01-01:calculate",
+      "target_goal": "12대수03-05:powers",
+      "case_id": "early-12대수03-05-powers",
+      "source_subject": "공통수학1",
+      "target_subject": "대수",
+      "rationale": "연속한 세제곱의 차를 전개하고 정리한다."
+    },
+    {
+      "source_goal": "10공수1-01-01:calculate",
+      "target_goal": "12대수03-07:principle",
+      "case_id": "early-12대수03-07-induction",
+      "source_subject": "공통수학1",
+      "target_subject": "대수",
+      "rationale": "k²+2k+1=(k+1)²를 확인한다."
+    },
+    {
+      "source_goal": "10공수1-01-01:calculate",
+      "target_goal": "12대수03-07:prove",
+      "case_id": "early-12대수03-07-induction",
+      "source_subject": "공통수학1",
+      "target_subject": "대수",
+      "rationale": "k²+2k+1=(k+1)²를 확인한다."
+    },
+    {
+      "source_goal": "10공수1-01-03:factor",
+      "target_goal": "12미적Ⅰ-01-01:meaning",
+      "case_id": "early-12미적Ⅰ-01-01-hole",
+      "source_subject": "공통수학1",
+      "target_subject": "미적분Ⅰ",
+      "rationale": "x≠1에서 f=x+1로 정리한다."
+    },
+    {
+      "source_goal": "10공수1-01-03:factor",
+      "target_goal": "12미적Ⅰ-01-01:explain",
+      "case_id": "early-12미적Ⅰ-01-01-hole",
+      "source_subject": "공통수학1",
+      "target_subject": "미적분Ⅰ",
+      "rationale": "x≠1에서 f=x+1로 정리한다."
+    },
+    {
+      "source_goal": "10공수2-03-01:graph",
+      "target_goal": "12미적Ⅰ-01-01:meaning",
+      "case_id": "early-12미적Ⅰ-01-01-hole",
+      "source_subject": "공통수학2",
+      "target_subject": "미적분Ⅰ",
+      "rationale": "구멍·실제 점과 양쪽 높이를 구별한다."
+    },
+    {
+      "source_goal": "10공수2-03-01:graph",
+      "target_goal": "12미적Ⅰ-01-01:explain",
+      "case_id": "early-12미적Ⅰ-01-01-hole",
+      "source_subject": "공통수학2",
+      "target_subject": "미적분Ⅰ",
+      "rationale": "구멍·실제 점과 양쪽 높이를 구별한다."
+    },
+    {
+      "source_goal": "10공수1-01-03:factor",
+      "target_goal": "12미적Ⅰ-01-02:properties",
+      "case_id": "early-12미적Ⅰ-01-02-cancellation",
+      "source_subject": "공통수학1",
+      "target_subject": "미적분Ⅰ",
+      "rationale": "x²−4의 공통인수를 찾아 x≠2에서 약분한다."
+    },
+    {
+      "source_goal": "10공수1-01-03:factor",
+      "target_goal": "12미적Ⅰ-01-02:calculate",
+      "case_id": "early-12미적Ⅰ-01-02-cancellation",
+      "source_subject": "공통수학1",
+      "target_subject": "미적분Ⅰ",
+      "rationale": "x²−4의 공통인수를 찾아 x≠2에서 약분한다."
+    },
+    {
+      "source_goal": "10공수1-01-01:calculate",
+      "target_goal": "12미적Ⅰ-02-03:power",
+      "case_id": "early-12미적Ⅰ-02-03-power-rule",
+      "source_subject": "공통수학1",
+      "target_subject": "미적분Ⅰ",
+      "rationale": "(x+h)ⁿ−xⁿ에서 h의 1차항과 나머지 항을 구별한다."
+    },
+    {
+      "source_goal": "10공수1-01-01:calculate",
+      "target_goal": "12미적Ⅰ-02-04:rules",
+      "case_id": "early-12미적Ⅰ-02-04-product",
+      "source_subject": "공통수학1",
+      "target_subject": "미적분Ⅰ",
+      "rationale": "전개한 식의 항별 미분으로 결과를 대조한다."
+    },
+    {
+      "source_goal": "10공수1-01-01:calculate",
+      "target_goal": "12미적Ⅰ-02-04:differentiate",
+      "case_id": "early-12미적Ⅰ-02-04-product",
+      "source_subject": "공통수학1",
+      "target_subject": "미적분Ⅰ",
+      "rationale": "전개한 식의 항별 미분으로 결과를 대조한다."
+    },
+    {
+      "source_goal": "10공수1-02-11:solve",
+      "target_goal": "12미적Ⅰ-02-07:monotonicity",
+      "case_id": "early-12미적Ⅰ-02-07-sign-chart",
+      "source_subject": "공통수학1",
+      "target_subject": "미적분Ⅰ",
+      "rationale": "도함수의 부호 구간을 판단한다."
+    },
+    {
+      "source_goal": "10공수1-02-11:solve",
+      "target_goal": "12미적Ⅰ-02-07:extrema",
+      "case_id": "early-12미적Ⅰ-02-07-sign-chart",
+      "source_subject": "공통수학1",
+      "target_subject": "미적분Ⅰ",
+      "rationale": "도함수의 부호 구간을 판단한다."
+    },
+    {
+      "source_goal": "10공수1-01-03:factor",
+      "target_goal": "12미적Ⅰ-02-08:sketch",
+      "case_id": "early-12미적Ⅰ-02-08-cubic",
+      "source_subject": "공통수학1",
+      "target_subject": "미적분Ⅰ",
+      "rationale": "x절편 0,±√3을 찾는다."
+    },
+    {
+      "source_goal": "10공수1-02-11:relation",
+      "target_goal": "12미적Ⅰ-03-05:area",
+      "case_id": "early-12미적Ⅰ-03-05-between",
+      "source_subject": "공통수학1",
+      "target_subject": "미적분Ⅰ",
+      "rationale": "x−x²≥0인 구간을 판단한다."
+    },
+    {
+      "source_goal": "12대수03-01:meaning",
+      "target_goal": "12미적Ⅱ-01-01:meaning",
+      "case_id": "early-12미적Ⅱ-01-01-sequences",
+      "source_subject": "대수",
+      "target_subject": "미적분Ⅱ",
+      "rationale": "n을 키울 때의 항의 경향을 살핀다."
+    },
+    {
+      "source_goal": "12대수03-01:meaning",
+      "target_goal": "12미적Ⅱ-01-01:judge",
+      "case_id": "early-12미적Ⅱ-01-01-sequences",
+      "source_subject": "대수",
+      "target_subject": "미적분Ⅱ",
+      "rationale": "n을 키울 때의 항의 경향을 살핀다."
+    },
+    {
+      "source_goal": "12대수03-03:term",
+      "target_goal": "12미적Ⅱ-01-03:judge",
+      "case_id": "early-12미적Ⅱ-01-03-geometric-limit",
+      "source_subject": "대수",
+      "target_subject": "미적분Ⅱ",
+      "rationale": "공비를 반복해 곱할 때의 크기와 부호를 비교한다."
+    },
+    {
+      "source_goal": "12대수03-03:term",
+      "target_goal": "12미적Ⅱ-01-03:limit",
+      "case_id": "early-12미적Ⅱ-01-03-geometric-limit",
+      "source_subject": "대수",
+      "target_subject": "미적분Ⅱ",
+      "rationale": "공비를 반복해 곱할 때의 크기와 부호를 비교한다."
+    },
+    {
+      "source_goal": "12대수03-04:meaning",
+      "target_goal": "12미적Ⅱ-01-04:meaning",
+      "case_id": "early-12미적Ⅱ-01-04-series",
+      "source_subject": "대수",
+      "target_subject": "미적분Ⅱ",
+      "rationale": "첫 n항의 부분합 Sₙ을 만든다."
+    },
+    {
+      "source_goal": "12대수03-04:meaning",
+      "target_goal": "12미적Ⅱ-01-04:judge",
+      "case_id": "early-12미적Ⅱ-01-04-series",
+      "source_subject": "대수",
+      "target_subject": "미적분Ⅱ",
+      "rationale": "첫 n항의 부분합 Sₙ을 만든다."
+    },
+    {
+      "source_goal": "12대수03-03:sum",
+      "target_goal": "12미적Ⅱ-01-04:meaning",
+      "case_id": "early-12미적Ⅱ-01-04-series",
+      "source_subject": "대수",
+      "target_subject": "미적분Ⅱ",
+      "rationale": "첫 급수의 부분합을 구한다."
+    },
+    {
+      "source_goal": "12대수03-03:sum",
+      "target_goal": "12미적Ⅱ-01-04:judge",
+      "case_id": "early-12미적Ⅱ-01-04-series",
+      "source_subject": "대수",
+      "target_subject": "미적분Ⅱ",
+      "rationale": "첫 급수의 부분합을 구한다."
+    },
+    {
+      "source_goal": "12대수03-03:sum",
+      "target_goal": "12미적Ⅱ-01-05:sum",
+      "case_id": "early-12미적Ⅱ-01-05-repeating",
+      "source_subject": "대수",
+      "target_subject": "미적분Ⅱ",
+      "rationale": "A(1−qⁿ)/(1−q)를 사용한다."
+    },
+    {
+      "source_goal": "12대수03-03:sum",
+      "target_goal": "12미적Ⅱ-01-05:apply",
+      "case_id": "early-12미적Ⅱ-01-05-repeating",
+      "source_subject": "대수",
+      "target_subject": "미적분Ⅱ",
+      "rationale": "A(1−qⁿ)/(1−q)를 사용한다."
+    },
+    {
+      "source_goal": "12미적Ⅰ-02-01:meaning",
+      "target_goal": "12미적Ⅱ-02-01:limits",
+      "case_id": "early-12미적Ⅱ-02-01-exp-log",
+      "source_subject": "미적분Ⅰ",
+      "target_subject": "미적분Ⅱ",
+      "rationale": "기본 극한을 각 점의 도함수로 옮긴다."
+    },
+    {
+      "source_goal": "12미적Ⅰ-02-01:meaning",
+      "target_goal": "12미적Ⅱ-02-01:differentiate",
+      "case_id": "early-12미적Ⅱ-02-01-exp-log",
+      "source_subject": "미적분Ⅰ",
+      "target_subject": "미적분Ⅱ",
+      "rationale": "기본 극한을 각 점의 도함수로 옮긴다."
+    },
+    {
+      "source_goal": "12대수01-04:meaning",
+      "target_goal": "12미적Ⅱ-02-01:limits",
+      "case_id": "early-12미적Ⅱ-02-01-exp-log",
+      "source_subject": "대수",
+      "target_subject": "미적분Ⅱ",
+      "rationale": "aʰ=e^(h ln a) 및 밑 변환을 사용한다."
+    },
+    {
+      "source_goal": "12대수01-04:meaning",
+      "target_goal": "12미적Ⅱ-02-01:differentiate",
+      "case_id": "early-12미적Ⅱ-02-01-exp-log",
+      "source_subject": "대수",
+      "target_subject": "미적분Ⅱ",
+      "rationale": "aʰ=e^(h ln a) 및 밑 변환을 사용한다."
+    },
+    {
+      "source_goal": "12미적Ⅰ-01-02:properties",
+      "target_goal": "12미적Ⅱ-02-01:limits",
+      "case_id": "early-12미적Ⅱ-02-01-exp-log",
+      "source_subject": "미적분Ⅰ",
+      "target_subject": "미적분Ⅱ",
+      "rationale": "상수배와 변수 변환의 극한을 처리한다."
+    },
+    {
+      "source_goal": "12미적Ⅰ-01-02:properties",
+      "target_goal": "12미적Ⅱ-02-01:differentiate",
+      "case_id": "early-12미적Ⅱ-02-01-exp-log",
+      "source_subject": "미적분Ⅰ",
+      "target_subject": "미적분Ⅱ",
+      "rationale": "상수배와 변수 변환의 극한을 처리한다."
+    },
+    {
+      "source_goal": "12대수02-02:concept",
+      "target_goal": "12미적Ⅱ-02-02:explain",
+      "case_id": "early-12미적Ⅱ-02-02-addition",
+      "source_subject": "대수",
+      "target_subject": "미적분Ⅱ",
+      "rationale": "두 점을 (cosα,sinα),(cosβ,sinβ)로 나타낸다."
+    },
+    {
+      "source_goal": "12대수02-02:concept",
+      "target_goal": "12미적Ⅱ-02-02:apply",
+      "case_id": "early-12미적Ⅱ-02-02-addition",
+      "source_subject": "대수",
+      "target_subject": "미적분Ⅱ",
+      "rationale": "두 점을 (cosα,sinα),(cosβ,sinβ)로 나타낸다."
+    },
+    {
+      "source_goal": "12대수02-03:laws",
+      "target_goal": "12미적Ⅱ-02-02:explain",
+      "case_id": "early-12미적Ⅱ-02-02-addition",
+      "source_subject": "대수",
+      "target_subject": "미적분Ⅱ",
+      "rationale": "같은 현 길이를 중심각 차로 표현한다."
+    },
+    {
+      "source_goal": "12대수02-03:laws",
+      "target_goal": "12미적Ⅱ-02-02:apply",
+      "case_id": "early-12미적Ⅱ-02-02-addition",
+      "source_subject": "대수",
+      "target_subject": "미적분Ⅱ",
+      "rationale": "같은 현 길이를 중심각 차로 표현한다."
+    },
+    {
+      "source_goal": "12대수02-01:meaning",
+      "target_goal": "12미적Ⅱ-02-03:limits",
+      "case_id": "early-12미적Ⅱ-02-03-trig-derivatives",
+      "source_subject": "대수",
+      "target_subject": "미적분Ⅱ",
+      "rationale": "작은 각과 단위원의 호 길이를 같은 척도로 비교한다."
+    },
+    {
+      "source_goal": "12대수02-01:meaning",
+      "target_goal": "12미적Ⅱ-02-03:differentiate",
+      "case_id": "early-12미적Ⅱ-02-03-trig-derivatives",
+      "source_subject": "대수",
+      "target_subject": "미적분Ⅱ",
+      "rationale": "작은 각과 단위원의 호 길이를 같은 척도로 비교한다."
+    },
+    {
+      "source_goal": "12미적Ⅰ-02-01:meaning",
+      "target_goal": "12미적Ⅱ-02-03:limits",
+      "case_id": "early-12미적Ⅱ-02-03-trig-derivatives",
+      "source_subject": "미적분Ⅰ",
+      "target_subject": "미적분Ⅱ",
+      "rationale": "차분몫의 극한으로 도함수를 읽는다."
+    },
+    {
+      "source_goal": "12미적Ⅰ-02-01:meaning",
+      "target_goal": "12미적Ⅱ-02-03:differentiate",
+      "case_id": "early-12미적Ⅱ-02-03-trig-derivatives",
+      "source_subject": "미적분Ⅰ",
+      "target_subject": "미적분Ⅱ",
+      "rationale": "차분몫의 극한으로 도함수를 읽는다."
+    },
+    {
+      "source_goal": "12미적Ⅰ-02-04:rules",
+      "target_goal": "12미적Ⅱ-02-04:quotient",
+      "case_id": "early-12미적Ⅱ-02-04-quotient",
+      "source_subject": "미적분Ⅰ",
+      "target_subject": "미적분Ⅱ",
+      "rationale": "h(x)(x+1)=x²+1을 미분해 h′을 분리한다."
+    },
+    {
+      "source_goal": "10공수2-03-02:meaning",
+      "target_goal": "12미적Ⅱ-02-05:chain",
+      "case_id": "early-12미적Ⅱ-02-05-chain",
+      "source_subject": "공통수학2",
+      "target_subject": "미적분Ⅱ",
+      "rationale": "안쪽 출력 u와 바깥 입력을 대응시킨다."
+    },
+    {
+      "source_goal": "12미적Ⅰ-02-04:differentiate",
+      "target_goal": "12미적Ⅱ-02-05:chain",
+      "case_id": "early-12미적Ⅱ-02-05-chain",
+      "source_subject": "미적분Ⅰ",
+      "target_subject": "미적분Ⅱ",
+      "rationale": "안쪽 함수의 도함수와 전개 검산을 구한다."
+    },
+    {
+      "source_goal": "12미적Ⅰ-02-03:power",
+      "target_goal": "12미적Ⅱ-02-06:parametric",
+      "case_id": "early-12미적Ⅱ-02-06-parametric",
+      "source_subject": "미적분Ⅰ",
+      "target_subject": "미적분Ⅱ",
+      "rationale": "x,y의 매개변수 변화율을 각각 구한다."
+    },
+    {
+      "source_goal": "10공수2-03-03:meaning",
+      "target_goal": "12미적Ⅱ-02-07:inverse",
+      "case_id": "early-12미적Ⅱ-02-07-inverse",
+      "source_subject": "공통수학2",
+      "target_subject": "미적분Ⅱ",
+      "rationale": "입력·출력을 바꾼 대응점과 정의역 제한을 확인한다."
+    },
+    {
+      "source_goal": "12미적Ⅰ-02-03:power",
+      "target_goal": "12미적Ⅱ-02-07:inverse",
+      "case_id": "early-12미적Ⅱ-02-07-inverse",
+      "source_subject": "미적분Ⅰ",
+      "target_subject": "미적분Ⅱ",
+      "rationale": "대응점 √t에서 f′=2√t를 계산한다."
+    },
+    {
+      "source_goal": "12미적Ⅰ-02-05:equation",
+      "target_goal": "12미적Ⅱ-02-08:tangents",
+      "case_id": "early-12미적Ⅱ-02-08-tangents",
+      "source_subject": "미적분Ⅰ",
+      "target_subject": "미적분Ⅱ",
+      "rationale": "접점과 기울기로 직선을 정한다."
+    },
+    {
+      "source_goal": "12미적Ⅰ-02-04:rules",
+      "target_goal": "12미적Ⅱ-02-09:shape",
+      "case_id": "early-12미적Ⅱ-02-09-exponential-shape",
+      "source_subject": "미적분Ⅰ",
+      "target_subject": "미적분Ⅱ",
+      "rationale": "f′,f″를 계산한다."
+    },
+    {
+      "source_goal": "12미적Ⅰ-02-04:rules",
+      "target_goal": "12미적Ⅱ-02-09:concavity",
+      "case_id": "early-12미적Ⅱ-02-09-exponential-shape",
+      "source_subject": "미적분Ⅰ",
+      "target_subject": "미적분Ⅱ",
+      "rationale": "f′,f″를 계산한다."
+    },
+    {
+      "source_goal": "12미적Ⅰ-02-07:extrema",
+      "target_goal": "12미적Ⅱ-02-09:shape",
+      "case_id": "early-12미적Ⅱ-02-09-exponential-shape",
+      "source_subject": "미적분Ⅰ",
+      "target_subject": "미적분Ⅱ",
+      "rationale": "일계도함수의 부호 변화로 최댓값을 구한다."
+    },
+    {
+      "source_goal": "12미적Ⅰ-02-07:extrema",
+      "target_goal": "12미적Ⅱ-02-09:concavity",
+      "case_id": "early-12미적Ⅱ-02-09-exponential-shape",
+      "source_subject": "미적분Ⅰ",
+      "target_subject": "미적분Ⅱ",
+      "rationale": "일계도함수의 부호 변화로 최댓값을 구한다."
+    },
+    {
+      "source_goal": "12대수01-07:properties",
+      "target_goal": "12미적Ⅱ-02-10:equations",
+      "case_id": "early-12미적Ⅱ-02-10-exponential-inequality",
+      "source_subject": "대수",
+      "target_subject": "미적분Ⅱ",
+      "rationale": "0을 기준으로 eˣ−1의 부호를 판단한다."
+    },
+    {
+      "source_goal": "12대수01-07:properties",
+      "target_goal": "12미적Ⅱ-02-10:inequalities",
+      "case_id": "early-12미적Ⅱ-02-10-exponential-inequality",
+      "source_subject": "대수",
+      "target_subject": "미적분Ⅱ",
+      "rationale": "0을 기준으로 eˣ−1의 부호를 판단한다."
+    },
+    {
+      "source_goal": "12미적Ⅰ-02-07:monotonicity",
+      "target_goal": "12미적Ⅱ-02-10:equations",
+      "case_id": "early-12미적Ⅱ-02-10-exponential-inequality",
+      "source_subject": "미적분Ⅰ",
+      "target_subject": "미적분Ⅱ",
+      "rationale": "전역 최솟값과 유일한 달성점을 확인한다."
+    },
+    {
+      "source_goal": "12미적Ⅰ-02-07:monotonicity",
+      "target_goal": "12미적Ⅱ-02-10:inequalities",
+      "case_id": "early-12미적Ⅱ-02-10-exponential-inequality",
+      "source_subject": "미적분Ⅰ",
+      "target_subject": "미적분Ⅱ",
+      "rationale": "전역 최솟값과 유일한 달성점을 확인한다."
+    },
+    {
+      "source_goal": "12미적Ⅰ-02-10:apply",
+      "target_goal": "12미적Ⅱ-02-11:apply",
+      "case_id": "early-12미적Ⅱ-02-11-circle-motion",
+      "source_subject": "미적분Ⅰ",
+      "target_subject": "미적분Ⅱ",
+      "rationale": "직선의 부호 있는 변화율을 평면 성분으로 확장한다."
+    },
+    {
+      "source_goal": "12미적Ⅰ-02-10:apply",
+      "target_goal": "12미적Ⅱ-02-11:usefulness",
+      "case_id": "early-12미적Ⅱ-02-11-circle-motion",
+      "source_subject": "미적분Ⅰ",
+      "target_subject": "미적분Ⅱ",
+      "rationale": "직선의 부호 있는 변화율을 평면 성분으로 확장한다."
+    },
+    {
+      "source_goal": "12미적Ⅰ-03-01:meaning",
+      "target_goal": "12미적Ⅱ-03-01:primitives",
+      "case_id": "early-12미적Ⅱ-03-01-basic-primitives",
+      "source_subject": "미적분Ⅰ",
+      "target_subject": "미적분Ⅱ",
+      "rationale": "도함수로 원래 식을 복원하는지 확인한다."
+    },
+    {
+      "source_goal": "12미적Ⅰ-03-01:meaning",
+      "target_goal": "12미적Ⅱ-03-01:primitives",
+      "case_id": "early-12미적Ⅱ-03-01-other-trig-primitives",
+      "source_subject": "미적분Ⅰ",
+      "target_subject": "미적분Ⅱ",
+      "rationale": "미분하여 원래 식이 되는지와 적분상수를 확인한다."
+    },
+    {
+      "source_goal": "12미적Ⅰ-03-04:relation",
+      "target_goal": "12미적Ⅱ-03-01:definite",
+      "case_id": "early-12미적Ⅱ-03-01-basic-definite",
+      "source_subject": "미적분Ⅰ",
+      "target_subject": "미적분Ⅱ",
+      "rationale": "연속 구간에서 위끝−아래끝을 계산한다."
+    },
+    {
+      "source_goal": "12미적Ⅰ-03-04:calculate",
+      "target_goal": "12미적Ⅱ-03-02:meaning",
+      "case_id": "early-12미적Ⅱ-03-02-substitution",
+      "source_subject": "미적분Ⅰ",
+      "target_subject": "미적분Ⅱ",
+      "rationale": "새 구간 양 끝을 평가한다."
+    },
+    {
+      "source_goal": "12미적Ⅰ-03-04:calculate",
+      "target_goal": "12미적Ⅱ-03-02:apply",
+      "case_id": "early-12미적Ⅱ-03-02-substitution",
+      "source_subject": "미적분Ⅰ",
+      "target_subject": "미적분Ⅱ",
+      "rationale": "새 구간 양 끝을 평가한다."
+    },
+    {
+      "source_goal": "12미적Ⅰ-02-04:rules",
+      "target_goal": "12미적Ⅱ-03-03:meaning",
+      "case_id": "early-12미적Ⅱ-03-03-parts",
+      "source_subject": "미적분Ⅰ",
+      "target_subject": "미적분Ⅱ",
+      "rationale": "(uv)′=u′v+uv′을 적분해 공식을 얻는다."
+    },
+    {
+      "source_goal": "12미적Ⅰ-02-04:rules",
+      "target_goal": "12미적Ⅱ-03-03:apply",
+      "case_id": "early-12미적Ⅱ-03-03-parts",
+      "source_subject": "미적분Ⅰ",
+      "target_subject": "미적분Ⅱ",
+      "rationale": "(uv)′=u′v+uv′을 적분해 공식을 얻는다."
+    },
+    {
+      "source_goal": "12대수03-05:powers",
+      "target_goal": "12미적Ⅱ-03-04:riemann",
+      "case_id": "early-12미적Ⅱ-03-04-rectangles",
+      "source_subject": "대수",
+      "target_subject": "미적분Ⅱ",
+      "rationale": "유한 직사각형 합을 n의 식으로 계산한다."
+    },
+    {
+      "source_goal": "12미적Ⅰ-03-03:concept",
+      "target_goal": "12미적Ⅱ-03-04:riemann",
+      "case_id": "early-12미적Ⅱ-03-04-rectangles",
+      "source_subject": "미적분Ⅰ",
+      "target_subject": "미적분Ⅱ",
+      "rationale": "직사각형 합의 극한을 원래 넓이에 대응시킨다."
+    },
+    {
+      "source_goal": "12대수02-02:graph",
+      "target_goal": "12미적Ⅱ-03-05:area",
+      "case_id": "early-12미적Ⅱ-03-05-trig-area",
+      "source_subject": "대수",
+      "target_subject": "미적분Ⅱ",
+      "rationale": "0,π,2π의 영점과 두 구간의 부호를 읽는다."
+    },
+    {
+      "source_goal": "12미적Ⅰ-03-05:area",
+      "target_goal": "12미적Ⅱ-03-05:area",
+      "case_id": "early-12미적Ⅱ-03-05-trig-area",
+      "source_subject": "미적분Ⅰ",
+      "target_subject": "미적분Ⅱ",
+      "rationale": "위 함수−아래 함수 원리를 적용한다."
+    },
+    {
+      "source_goal": "12미적Ⅰ-03-04:calculate",
+      "target_goal": "12미적Ⅱ-03-06:volume",
+      "case_id": "early-12미적Ⅱ-03-06-sphere-volume",
+      "source_subject": "미적분Ⅰ",
+      "target_subject": "미적분Ⅱ",
+      "rationale": "단면적 π(R²−x²)를 구간 전체에 적분한다."
+    },
+    {
+      "source_goal": "12미적Ⅰ-03-06:apply",
+      "target_goal": "12미적Ⅱ-03-07:apply",
+      "case_id": "early-12미적Ⅱ-03-07-arc-distance",
+      "source_subject": "미적분Ⅰ",
+      "target_subject": "미적분Ⅱ",
+      "rationale": "직선에서의 원리를 평면 경로의 길이로 확장한다."
+    },
+    {
+      "source_goal": "12미적Ⅰ-03-06:apply",
+      "target_goal": "12미적Ⅱ-03-07:usefulness",
+      "case_id": "early-12미적Ⅱ-03-07-arc-distance",
+      "source_subject": "미적분Ⅰ",
+      "target_subject": "미적분Ⅱ",
+      "rationale": "직선에서의 원리를 평면 경로의 길이로 확장한다."
+    },
+    {
+      "source_goal": "10공수2-01-03:distance",
+      "target_goal": "12기하01-01:meaning",
+      "case_id": "early-12기하01-01-parabola",
+      "source_subject": "공통수학2",
+      "target_subject": "기하",
+      "rationale": "수평 준선까지 거리 |y+1|을 쓴다."
+    },
+    {
+      "source_goal": "10공수2-01-03:distance",
+      "target_goal": "12기하01-01:equation",
+      "case_id": "early-12기하01-01-parabola",
+      "source_subject": "공통수학2",
+      "target_subject": "기하",
+      "rationale": "수평 준선까지 거리 |y+1|을 쓴다."
+    },
+    {
+      "source_goal": "10공수1-01-01:calculate",
+      "target_goal": "12기하01-02:meaning",
+      "case_id": "early-12기하01-02-ellipse",
+      "source_subject": "공통수학1",
+      "target_subject": "기하",
+      "rationale": "합·차 거리의 연립에서 제곱항을 정리한다."
+    },
+    {
+      "source_goal": "10공수1-01-01:calculate",
+      "target_goal": "12기하01-02:equation",
+      "case_id": "early-12기하01-02-ellipse",
+      "source_subject": "공통수학1",
+      "target_subject": "기하",
+      "rationale": "합·차 거리의 연립에서 제곱항을 정리한다."
+    },
+    {
+      "source_goal": "10공수1-01-01:calculate",
+      "target_goal": "12기하01-03:meaning",
+      "case_id": "early-12기하01-03-hyperbola",
+      "source_subject": "공통수학1",
+      "target_subject": "기하",
+      "rationale": "합·차 관계에서 표준형을 정리한다."
+    },
+    {
+      "source_goal": "10공수1-01-01:calculate",
+      "target_goal": "12기하01-03:equation",
+      "case_id": "early-12기하01-03-hyperbola",
+      "source_subject": "공통수학1",
+      "target_subject": "기하",
+      "rationale": "합·차 관계에서 표준형을 정리한다."
+    },
+    {
+      "source_goal": "10공수1-02-02:discriminant",
+      "target_goal": "12기하01-04:tangents",
+      "case_id": "early-12기하01-04-conic-tangents",
+      "source_subject": "공통수학1",
+      "target_subject": "기하",
+      "rationale": "실제 이차식의 중근을 접점으로 읽는다."
+    },
+    {
+      "source_goal": "10공수1-02-02:discriminant",
+      "target_goal": "12기하01-04:tangents",
+      "case_id": "early-12기하01-04-point-tangent",
+      "source_subject": "공통수학1",
+      "target_subject": "기하",
+      "rationale": "접점을 지나는 직선의 대입식에 D=0을 적용한다."
+    },
+    {
+      "source_goal": "12미적Ⅱ-02-07:implicit",
+      "target_goal": "12기하01-04:tangents",
+      "case_id": "early-12기하01-04-point-tangent",
+      "source_subject": "미적분Ⅱ",
+      "target_subject": "기하",
+      "rationale": "원문이 미적분Ⅱ 이수자에게 허용하는 대안으로 기울기를 구한다."
+    },
+    {
+      "source_goal": "10공수2-01-01:coordinate",
+      "target_goal": "12기하02-04:distance",
+      "case_id": "early-12기하02-04-space-coordinates",
+      "source_subject": "공통수학2",
+      "target_subject": "기하",
+      "rationale": "같은 이동 몫을 세 번째 성분까지 확장한다."
+    },
+    {
+      "source_goal": "10공수2-01-01:coordinate",
+      "target_goal": "12기하02-04:division",
+      "case_id": "early-12기하02-04-space-coordinates",
+      "source_subject": "공통수학2",
+      "target_subject": "기하",
+      "rationale": "같은 이동 몫을 세 번째 성분까지 확장한다."
+    },
+    {
+      "source_goal": "10공수2-01-04:equation",
+      "target_goal": "12기하02-05:sphere",
+      "case_id": "early-12기하02-05-sphere",
+      "source_subject": "공통수학2",
+      "target_subject": "기하",
+      "rationale": "높이를 고정한 단면을 평면의 원으로 읽는다."
+    },
+    {
+      "source_goal": "12대수02-03:laws",
+      "target_goal": "12기하03-03:meaning",
+      "case_id": "early-12기하03-03-dot-product",
+      "source_subject": "대수",
+      "target_subject": "기하",
+      "rationale": "|a−b|²의 두 표현을 비교한다."
+    },
+    {
+      "source_goal": "12대수02-03:laws",
+      "target_goal": "12기하03-03:calculate",
+      "case_id": "early-12기하03-03-dot-product",
+      "source_subject": "대수",
+      "target_subject": "기하",
+      "rationale": "|a−b|²의 두 표현을 비교한다."
+    },
+    {
+      "source_goal": "12대수03-03:term",
+      "target_goal": "12경수01-04:interest",
+      "case_id": "early-12경수01-04-interest",
+      "source_subject": "대수",
+      "target_subject": "경제 수학",
+      "rationale": "복리의 매 기간 1.1배를 표현한다."
+    },
+    {
+      "source_goal": "12대수03-03:term",
+      "target_goal": "12경수01-04:present",
+      "case_id": "early-12경수01-04-interest",
+      "source_subject": "대수",
+      "target_subject": "경제 수학",
+      "rationale": "복리의 매 기간 1.1배를 표현한다."
+    },
+    {
+      "source_goal": "12대수03-03:sum",
+      "target_goal": "12경수01-05:meaning",
+      "case_id": "early-12경수01-05-annuity",
+      "source_subject": "대수",
+      "target_subject": "경제 수학",
+      "rationale": "공비 1/1.1인 현재가치들을 합한다."
+    },
+    {
+      "source_goal": "12대수03-03:sum",
+      "target_goal": "12경수01-05:present",
+      "case_id": "early-12경수01-05-annuity",
+      "source_subject": "대수",
+      "target_subject": "경제 수학",
+      "rationale": "공비 1/1.1인 현재가치들을 합한다."
+    },
+    {
+      "source_goal": "12미적Ⅱ-01-05:sum",
+      "target_goal": "12경수01-05:present",
+      "case_id": "early-12경수01-05-perpetuity",
+      "source_subject": "미적분Ⅱ",
+      "target_subject": "경제 수학",
+      "rationale": "공비 1/(1+i)의 수렴 조건을 확인한다."
+    },
+    {
+      "source_goal": "10공수2-01-06:meaning",
+      "target_goal": "12경수02-05:tax",
+      "case_id": "early-12경수02-05-tax-shift",
+      "source_subject": "공통수학2",
+      "target_subject": "경제 수학",
+      "rationale": "구매가격 축에서 공급 곡선이 t만큼 위로 이동함을 읽는다."
+    },
+    {
+      "source_goal": "10공수2-01-06:meaning",
+      "target_goal": "12경수02-05:income",
+      "case_id": "early-12경수02-05-income-shift",
+      "source_subject": "공통수학2",
+      "target_subject": "경제 수학",
+      "rationale": "수요 곡선이 수량 방향으로 s만큼 이동함을 읽는다."
+    },
+    {
+      "source_goal": "10공수1-04-01:represent",
+      "target_goal": "12경수03-01:represent",
+      "case_id": "early-12경수03-01-matrix-economy",
+      "source_subject": "공통수학1",
+      "target_subject": "경제 수학",
+      "rationale": "행·열을 같은 의미로 고정한다."
+    },
+    {
+      "source_goal": "10공수1-04-01:represent",
+      "target_goal": "12경수03-01:operate",
+      "case_id": "early-12경수03-01-matrix-economy",
+      "source_subject": "공통수학1",
+      "target_subject": "경제 수학",
+      "rationale": "행·열을 같은 의미로 고정한다."
+    },
+    {
+      "source_goal": "10공수1-04-02:operate",
+      "target_goal": "12경수03-01:represent",
+      "case_id": "early-12경수03-01-matrix-economy",
+      "source_subject": "공통수학1",
+      "target_subject": "경제 수학",
+      "rationale": "수량 행과 단가 열의 곱을 구한다."
+    },
+    {
+      "source_goal": "10공수1-04-02:operate",
+      "target_goal": "12경수03-01:operate",
+      "case_id": "early-12경수03-01-matrix-economy",
+      "source_subject": "공통수학1",
+      "target_subject": "경제 수학",
+      "rationale": "수량 행과 단가 열의 곱을 구한다."
+    },
+    {
+      "source_goal": "10공수1-04-02:operate",
+      "target_goal": "12경수03-02:meaning",
+      "case_id": "early-12경수03-02-inverse-matrix",
+      "source_subject": "공통수학1",
+      "target_subject": "경제 수학",
+      "rationale": "후보와 원래 행렬의 양쪽 곱을 검산한다."
+    },
+    {
+      "source_goal": "10공수1-04-02:operate",
+      "target_goal": "12경수03-02:calculate",
+      "case_id": "early-12경수03-02-inverse-matrix",
+      "source_subject": "공통수학1",
+      "target_subject": "경제 수학",
+      "rationale": "후보와 원래 행렬의 양쪽 곱을 검산한다."
+    },
+    {
+      "source_goal": "10공수2-03-01:concept",
+      "target_goal": "12인수01-01:concept",
+      "case_id": "early-12인수01-01-learning-styles",
+      "source_subject": "공통수학2",
+      "target_subject": "인공지능 수학",
+      "rationale": "자료 특징을 입력,모형 판단을 출력으로 읽는다."
+    },
+    {
+      "source_goal": "10공수2-03-01:concept",
+      "target_goal": "12인수01-01:styles",
+      "case_id": "early-12인수01-01-learning-styles",
+      "source_subject": "공통수학2",
+      "target_subject": "인공지능 수학",
+      "rationale": "자료 특징을 입력,모형 판단을 출력으로 읽는다."
+    },
+    {
+      "source_goal": "10공수2-02-04:meaning",
+      "target_goal": "12인수01-02:rules",
+      "case_id": "early-12인수01-02-expert-rules",
+      "source_subject": "공통수학2",
+      "target_subject": "인공지능 수학",
+      "rationale": "조건을 만족하는 사실과 규칙의 결론을 구별한다."
+    },
+    {
+      "source_goal": "10공수1-03-01:product",
+      "target_goal": "12인수01-03:meaning",
+      "case_id": "early-12인수01-03-big-data",
+      "source_subject": "공통수학1",
+      "target_subject": "인공지능 수학",
+      "rationale": "센서 수·시간당 기록 수를 곱한다."
+    },
+    {
+      "source_goal": "10공수1-03-01:product",
+      "target_goal": "12인수01-03:case",
+      "case_id": "early-12인수01-03-big-data",
+      "source_subject": "공통수학1",
+      "target_subject": "인공지능 수학",
+      "rationale": "센서 수·시간당 기록 수를 곱한다."
+    },
+    {
+      "source_goal": "10공수1-03-01:product",
+      "target_goal": "12인수01-03:bias",
+      "case_id": "early-12인수01-03-big-data",
+      "source_subject": "공통수학1",
+      "target_subject": "인공지능 수학",
+      "rationale": "센서 수·시간당 기록 수를 곱한다."
+    },
+    {
+      "source_goal": "10공수2-02-01:represent",
+      "target_goal": "12인수02-01:set",
+      "case_id": "early-12인수02-01-text-representation",
+      "source_subject": "공통수학2",
+      "target_subject": "인공지능 수학",
+      "rationale": "중복 없는 단어 집합을 만든다."
+    },
+    {
+      "source_goal": "10공수2-02-01:represent",
+      "target_goal": "12인수02-01:vector",
+      "case_id": "early-12인수02-01-text-representation",
+      "source_subject": "공통수학2",
+      "target_subject": "인공지능 수학",
+      "rationale": "중복 없는 단어 집합을 만든다."
+    },
+    {
+      "source_goal": "10공수2-02-01:meaning",
+      "target_goal": "12인수02-02:idf",
+      "case_id": "early-12인수02-02-idf",
+      "source_subject": "공통수학2",
+      "target_subject": "인공지능 수학",
+      "rationale": "한 문서에서 반복되어도 DF는 문서 하나로 센다."
+    },
+    {
+      "source_goal": "10공수2-02-03:operate",
+      "target_goal": "12인수02-03:similarity",
+      "case_id": "early-12인수02-03-similarities",
+      "source_subject": "공통수학2",
+      "target_subject": "인공지능 수학",
+      "rationale": "자카드의 분자·분모 집합을 센다."
+    },
+    {
+      "source_goal": "10공수1-04-01:meaning",
+      "target_goal": "12인수03-01:matrix",
+      "case_id": "early-12인수03-01-image-representation",
+      "source_subject": "공통수학1",
+      "target_subject": "인공지능 수학",
+      "rationale": "행·열과 성분 위치를 대응시킨다."
+    },
+    {
+      "source_goal": "10공수1-04-01:meaning",
+      "target_goal": "12인수03-01:rgb",
+      "case_id": "early-12인수03-01-image-representation",
+      "source_subject": "공통수학1",
+      "target_subject": "인공지능 수학",
+      "rationale": "행·열과 성분 위치를 대응시킨다."
+    },
+    {
+      "source_goal": "10공수1-04-02:operate",
+      "target_goal": "12인수03-02:transform",
+      "case_id": "early-12인수03-02-image-transform",
+      "source_subject": "공통수학1",
+      "target_subject": "인공지능 수학",
+      "rationale": "성분에 같은 양이나 배율을 적용한다."
+    },
+    {
+      "source_goal": "10공수1-03-01:product",
+      "target_goal": "12확통01-01:repeat",
+      "case_id": "early-12확통01-01-repeat",
+      "source_subject": "공통수학1",
+      "target_subject": "확률과 통계",
+      "rationale": "각 자리의 2개 선택을 곱한다."
+    },
+    {
+      "source_goal": "10공수1-03-01:product",
+      "target_goal": "12확통01-01:explain",
+      "case_id": "early-12확통01-01-repeat",
+      "source_subject": "공통수학1",
+      "target_subject": "확률과 통계",
+      "rationale": "각 자리의 2개 선택을 곱한다."
+    },
+    {
+      "source_goal": "10공수1-03-02:explain",
+      "target_goal": "12확통01-01:identical",
+      "case_id": "early-12확통01-01-identical",
+      "source_subject": "공통수학1",
+      "target_subject": "확률과 통계",
+      "rationale": "A₁,A₂로 구별해 센 뒤 같은 결과의 중복 횟수를 확인한다."
+    },
+    {
+      "source_goal": "10공수1-03-02:explain",
+      "target_goal": "12확통01-01:explain",
+      "case_id": "early-12확통01-01-identical",
+      "source_subject": "공통수학1",
+      "target_subject": "확률과 통계",
+      "rationale": "A₁,A₂로 구별해 센 뒤 같은 결과의 중복 횟수를 확인한다."
+    },
+    {
+      "source_goal": "10공수1-03-03:explain",
+      "target_goal": "12확통01-02:meaning",
+      "case_id": "early-12확통01-02-stars-bars",
+      "source_subject": "공통수학1",
+      "target_subject": "확률과 통계",
+      "rationale": "전체 자리 중 막대 위치를 선택한다."
+    },
+    {
+      "source_goal": "10공수1-03-03:explain",
+      "target_goal": "12확통01-02:count",
+      "case_id": "early-12확통01-02-stars-bars",
+      "source_subject": "공통수학1",
+      "target_subject": "확률과 통계",
+      "rationale": "전체 자리 중 막대 위치를 선택한다."
+    },
+    {
+      "source_goal": "10공수1-03-03:explain",
+      "target_goal": "12확통01-03:meaning",
+      "case_id": "early-12확통01-03-binomial-theorem",
+      "source_subject": "공통수학1",
+      "target_subject": "확률과 통계",
+      "rationale": "b를 선택할 인수 위치를 고른다."
+    },
+    {
+      "source_goal": "10공수1-03-03:explain",
+      "target_goal": "12확통01-03:apply",
+      "case_id": "early-12확통01-03-binomial-theorem",
+      "source_subject": "공통수학1",
+      "target_subject": "확률과 통계",
+      "rationale": "b를 선택할 인수 위치를 고른다."
+    },
+    {
+      "source_goal": "10공수1-01-01:calculate",
+      "target_goal": "12확통01-03:meaning",
+      "case_id": "early-12확통01-03-binomial-theorem",
+      "source_subject": "공통수학1",
+      "target_subject": "확률과 통계",
+      "rationale": "선택한 항의 계수와 거듭제곱을 곱한다."
+    },
+    {
+      "source_goal": "10공수1-01-01:calculate",
+      "target_goal": "12확통01-03:apply",
+      "case_id": "early-12확통01-03-binomial-theorem",
+      "source_subject": "공통수학1",
+      "target_subject": "확률과 통계",
+      "rationale": "선택한 항의 계수와 거듭제곱을 곱한다."
+    },
+    {
+      "source_goal": "10공수2-02-03:operate",
+      "target_goal": "12확통02-02:meaning",
+      "case_id": "early-12확통02-02-union",
+      "source_subject": "공통수학2",
+      "target_subject": "확률과 통계",
+      "rationale": "A∩B={6}과 A∪B={2,3,4,6}을 찾는다."
+    },
+    {
+      "source_goal": "10공수2-02-03:operate",
+      "target_goal": "12확통02-02:apply",
+      "case_id": "early-12확통02-02-union",
+      "source_subject": "공통수학2",
+      "target_subject": "확률과 통계",
+      "rationale": "A∩B={6}과 A∪B={2,3,4,6}을 찾는다."
+    },
+    {
+      "source_goal": "10공수1-03-01:product",
+      "target_goal": "12확통02-03:meaning",
+      "case_id": "early-12확통02-03-complement",
+      "source_subject": "공통수학1",
+      "target_subject": "확률과 통계",
+      "rationale": "세 번의 두 선택으로 여덟 결과를 만든다."
+    },
+    {
+      "source_goal": "10공수1-03-01:product",
+      "target_goal": "12확통02-03:apply",
+      "case_id": "early-12확통02-03-complement",
+      "source_subject": "공통수학1",
+      "target_subject": "확률과 통계",
+      "rationale": "세 번의 두 선택으로 여덟 결과를 만든다."
+    },
+    {
+      "source_goal": "10공수1-03-03:explain",
+      "target_goal": "12확통03-03:meaning",
+      "case_id": "early-12확통03-03-binomial",
+      "source_subject": "공통수학1",
+      "target_subject": "확률과 통계",
+      "rationale": "성공 두 번의 위치를 센다."
+    },
+    {
+      "source_goal": "10공수1-03-03:explain",
+      "target_goal": "12확통03-03:mean",
+      "case_id": "early-12확통03-03-binomial",
+      "source_subject": "공통수학1",
+      "target_subject": "확률과 통계",
+      "rationale": "성공 두 번의 위치를 센다."
+    },
+    {
+      "source_goal": "10공수1-03-03:explain",
+      "target_goal": "12확통03-03:sd",
+      "case_id": "early-12확통03-03-binomial",
+      "source_subject": "공통수학1",
+      "target_subject": "확률과 통계",
+      "rationale": "성공 두 번의 위치를 센다."
+    },
+    {
+      "source_goal": "10공수1-03-01:product",
+      "target_goal": "12수문03-02:investigate",
+      "case_id": "early-12수문03-02-braille",
+      "source_subject": "공통수학1",
+      "target_subject": "수학과 문화",
+      "rationale": "여섯 독립 위치의 두 상태를 센다."
+    },
+    {
+      "source_goal": "10공수1-03-01:product",
+      "target_goal": "12수문03-02:design",
+      "case_id": "early-12수문03-02-braille",
+      "source_subject": "공통수학1",
+      "target_subject": "수학과 문화",
+      "rationale": "여섯 독립 위치의 두 상태를 센다."
+    }
+  ],
+  "entry_capability_conditions": [
+    {
+      "case_id": "early-2수01-01-uses",
+      "condition": "물건 모음과 줄의 위치, 표지로 쓰인 이름을 구별한다.",
+      "rationale": "물건 모음과 줄의 위치, 표지로 쓰인 이름을 구별한다.",
+      "targets": [
+        "2수01-01:need"
+      ]
+    },
+    {
+      "case_id": "early-2수01-01-count",
+      "condition": "한 대상에 수 이름 하나를 붙이며 빠뜨리거나 중복하지 않는다.",
+      "rationale": "한 대상에 수 이름 하나를 붙이며 빠뜨리거나 중복하지 않는다.",
+      "targets": [
+        "2수01-01:count",
+        "2수01-01:read-write"
+      ]
+    },
+    {
+      "case_id": "early-2수01-01-count",
+      "condition": "각 묶음이 정확히 10개인지 확인한다.",
+      "rationale": "각 묶음이 정확히 10개인지 확인한다.",
+      "targets": [
+        "2수01-01:count",
+        "2수01-01:read-write"
+      ]
+    },
+    {
+      "case_id": "early-2수01-05-subtraction",
+      "condition": "전체8개와 부분3개 또는 비교할 두 모음을 구별한다.",
+      "rationale": "전체8개와 부분3개 또는 비교할 두 모음을 구별한다.",
+      "targets": [
+        "2수01-05:subtraction"
+      ]
+    },
+    {
+      "case_id": "early-2수01-10-groups",
+      "condition": "한 묶음의 3개와 서로 다른 4묶음을 구별한다.",
+      "rationale": "한 묶음의 3개와 서로 다른 4묶음을 구별한다.",
+      "targets": [
+        "2수01-10:groups"
+      ]
+    },
+    {
+      "case_id": "early-2수01-11-table",
+      "condition": "배열을 회전해도 개수가 변하지 않음을 확인한다.",
+      "rationale": "배열을 회전해도 개수가 변하지 않음을 확인한다.",
+      "targets": [
+        "2수01-11:table",
+        "2수01-11:compute"
+      ]
+    },
+    {
+      "case_id": "early-2수02-01-repeat",
+      "condition": "카드의 색과 읽는 순서를 구별한다.",
+      "rationale": "카드의 색과 읽는 순서를 구별한다.",
+      "targets": [
+        "2수02-01:find",
+        "2수02-01:express",
+        "2수02-01:predict"
+      ]
+    },
+    {
+      "case_id": "early-2수02-01-repeat",
+      "condition": "색을 손뼉·발 구르기 등의 행동으로 일대일 대응시킨다.",
+      "rationale": "색을 손뼉·발 구르기 등의 행동으로 일대일 대응시킨다.",
+      "targets": [
+        "2수02-01:find",
+        "2수02-01:express",
+        "2수02-01:predict"
+      ]
+    },
+    {
+      "case_id": "early-2수02-02-create",
+      "condition": "두 모양을 구별하고 한 방향으로 배열한다.",
+      "rationale": "두 모양을 구별하고 한 방향으로 배열한다.",
+      "targets": [
+        "2수02-02:choose",
+        "2수02-02:arrange"
+      ]
+    },
+    {
+      "case_id": "early-2수03-01-solids",
+      "condition": "물건을 만지고 돌려 보며 전체 모양의 닮은 점을 비교한다.",
+      "rationale": "물건을 만지고 돌려 보며 전체 모양의 닮은 점을 비교한다.",
+      "targets": [
+        "2수03-01:identify",
+        "2수03-01:compose"
+      ]
+    },
+    {
+      "case_id": "early-2수03-02-blocks",
+      "condition": "쌓기나무를 놓고 쌓으며 물리적으로 구별한다.",
+      "rationale": "쌓기나무를 놓고 쌓으며 물리적으로 구별한다.",
+      "targets": [
+        "2수03-02:build",
+        "2수03-02:describe"
+      ]
+    },
+    {
+      "case_id": "early-2수03-03-flat",
+      "condition": "물건 전체와 지금 관찰하는 앞면·윤곽을 구별한다.",
+      "rationale": "물건 전체와 지금 관찰하는 앞면·윤곽을 구별한다.",
+      "targets": [
+        "2수03-03:find",
+        "2수03-03:compose"
+      ]
+    },
+    {
+      "case_id": "early-2수03-06-length",
+      "condition": "시작점을 맞추고 같은 방향의 끝점을 비교한다.",
+      "rationale": "시작점을 맞추고 같은 방향의 끝점을 비교한다.",
+      "targets": [
+        "2수03-06:length"
+      ]
+    },
+    {
+      "case_id": "early-2수03-06-length",
+      "condition": "두 길이를 같은 매개 띠의 같은 시작점부터 옮긴다.",
+      "rationale": "두 길이를 같은 매개 띠의 같은 시작점부터 옮긴다.",
+      "targets": [
+        "2수03-06:length"
+      ]
+    },
+    {
+      "case_id": "early-2수03-06-area",
+      "condition": "면을 겹쳐 보고 포함된 부분과 남는 부분을 구별한다.",
+      "rationale": "면을 겹쳐 보고 포함된 부분과 남는 부분을 구별한다.",
+      "targets": [
+        "2수03-06:area"
+      ]
+    },
+    {
+      "case_id": "early-2수03-07-clock",
+      "condition": "두 바늘과12개의 큰 눈금 및 한 칸의 분 눈금을 구별한다.",
+      "rationale": "두 바늘과12개의 큰 눈금 및 한 칸의 분 눈금을 구별한다.",
+      "targets": [
+        "2수03-07:read"
+      ]
+    },
+    {
+      "case_id": "early-2수04-01-classify",
+      "condition": "색 또는 모양의 차이를 구별한다.",
+      "rationale": "색 또는 모양의 차이를 구별한다.",
+      "targets": [
+        "2수04-01:classify",
+        "2수04-01:count",
+        "2수04-01:interpret"
+      ]
+    },
+    {
+      "case_id": "early-4수03-01-lines",
+      "condition": "점과 선의 표시 및 화살표 방향을 구별한다.",
+      "rationale": "점과 선의 표시 및 화살표 방향을 구별한다.",
+      "targets": [
+        "4수03-01:line",
+        "4수03-01:segment",
+        "4수03-01:ray"
+      ]
+    },
+    {
+      "case_id": "early-4수03-04-motions",
+      "condition": "모양과 표시한 면의 방향을 관찰하고 종이를 움직인다.",
+      "rationale": "모양과 표시한 면의 방향을 관찰하고 종이를 움직인다.",
+      "targets": [
+        "4수03-04:slide",
+        "4수03-04:reflect",
+        "4수03-04:rotate"
+      ]
+    },
+    {
+      "case_id": "early-4수03-12-tile",
+      "condition": "같은 조각의 경계와 놓인 위치를 비교한다.",
+      "rationale": "같은 조각의 경계와 놓인 위치를 비교한다.",
+      "targets": [
+        "4수03-12:tile"
+      ]
+    }
+  ],
+  "goals_without_linked_predecessor": [
+    "10공수1-04-01:meaning",
+    "10기수1-04-01:meaning",
+    "2수01-01:need",
+    "2수01-01:count",
+    "2수01-01:read-write",
+    "2수02-02:choose",
+    "2수02-02:arrange",
+    "2수03-01:identify",
+    "2수03-01:compose",
+    "2수03-02:build",
+    "2수03-02:describe",
+    "2수03-03:find",
+    "2수03-03:compose",
+    "2수03-06:length",
+    "2수03-06:weight",
+    "2수03-06:area",
+    "2수03-07:read",
+    "9수04-02:stem",
+    "9수04-05:count",
+    "9수03-06:relation",
+    "9수01-03:need",
+    "9수01-03:signed",
+    "9수01-03:integer",
+    "9수02-03:property",
+    "4수03-01:line",
+    "4수03-01:segment",
+    "4수03-01:ray",
+    "4수03-04:slide",
+    "4수03-04:reflect",
+    "4수03-04:rotate",
+    "4수03-12:tile",
+    "4수03-13:unit",
+    "4수03-15:units",
+    "4수03-15:use",
+    "4수03-17:units",
+    "4수03-17:measure",
+    "4수03-17:estimate",
+    "4수03-20:units",
+    "4수03-20:measure",
+    "4수03-20:use",
+    "4수03-22:tonne",
+    "4수04-02:interpret",
+    "4수04-03:plan",
+    "4수01-01:need",
+    "4수01-05:group",
+    "4수01-09:need",
+    "4수01-09:read-write",
+    "6수03-11:meaning",
+    "6수03-12:units",
+    "6수03-18:units",
+    "6수04-01:meaning",
+    "6수01-01:order",
+    "6수01-02:meaning",
+    "6수02-01:find",
+    "6수02-02:ratio",
+    "12수과01-02:understand",
+    "12수과01-02:practice"
+  ],
+  "goals_without_outgoing_reference": [
+    "12대수01-01:calculate",
+    "12대수01-05:apply",
+    "12대수01-06:meaning",
+    "12대수01-07:graph",
+    "12대수01-08:apply",
+    "12대수02-02:properties",
+    "12대수02-03:apply",
+    "12대수03-02:meaning",
+    "12대수03-02:term",
+    "12대수03-03:meaning",
+    "12대수03-04:apply",
+    "12대수03-05:telescoping",
+    "12대수03-06:recursive",
+    "12대수03-07:principle",
+    "12대수03-07:prove",
+    "12미적Ⅰ-01-04:properties",
+    "12미적Ⅰ-02-02:apply",
+    "12미적Ⅰ-02-05:slope",
+    "12미적Ⅰ-02-06:apply",
+    "12미적Ⅰ-02-08:sketch",
+    "12미적Ⅰ-02-09:equation",
+    "12미적Ⅰ-02-09:inequality",
+    "12미적Ⅰ-02-10:usefulness",
+    "12미적Ⅰ-03-01:explain",
+    "12미적Ⅰ-03-02:rules",
+    "12미적Ⅰ-03-03:properties",
+    "12미적Ⅰ-03-06:usefulness",
+    "12미적Ⅱ-01-02:properties",
+    "12미적Ⅱ-01-03:judge",
+    "12미적Ⅱ-01-04:judge",
+    "12미적Ⅱ-01-05:apply",
+    "12미적Ⅱ-02-01:limits",
+    "12미적Ⅱ-02-02:apply",
+    "12미적Ⅱ-02-03:limits",
+    "12미적Ⅱ-02-07:inverse",
+    "12미적Ⅱ-02-08:tangents",
+    "12미적Ⅱ-02-09:shape",
+    "12미적Ⅱ-02-09:concavity",
+    "12미적Ⅱ-02-10:equations",
+    "12미적Ⅱ-02-10:inequalities",
+    "12미적Ⅱ-02-11:usefulness",
+    "12미적Ⅱ-03-02:meaning",
+    "12미적Ⅱ-03-02:apply",
+    "12미적Ⅱ-03-03:meaning",
+    "12미적Ⅱ-03-03:apply",
+    "12미적Ⅱ-03-05:area",
+    "12미적Ⅱ-03-06:volume",
+    "12미적Ⅱ-03-07:apply",
+    "12미적Ⅱ-03-07:usefulness",
+    "12기하01-01:meaning",
+    "12기하01-02:meaning",
+    "12기하01-03:meaning",
+    "12기하01-04:tangents",
+    "12기하02-01:lines",
+    "12기하02-02:theorem",
+    "12기하02-02:apply",
+    "12기하02-03:meaning",
+    "12기하02-03:explore",
+    "12기하02-04:division",
+    "12기하03-01:meaning",
+    "12기하03-02:meaning",
+    "12기하03-03:calculate",
+    "12기하03-04:plane-line",
+    "12기하03-04:space-line",
+    "12기하03-05:plane",
+    "12기하03-05:sphere",
+    "10공수1-01-02:apply",
+    "10공수1-02-03:vieta",
+    "10공수1-02-05:intersection",
+    "10공수1-02-06:usefulness",
+    "10공수1-02-07:solve",
+    "10공수1-02-08:solve",
+    "10공수1-02-10:solve",
+    "10기수1-01-01:principle",
+    "10기수1-01-01:calculate",
+    "10기수1-01-02:principle",
+    "10기수1-02-02:existence",
+    "10기수1-02-03:meaning",
+    "10기수1-02-05:solve",
+    "10기수1-02-07:solve",
+    "10기수1-02-08:solve",
+    "10기수1-02-09:solve",
+    "10공수1-03-01:apply",
+    "10공수1-04-02:apply",
+    "10기수1-03-01:apply",
+    "10기수1-03-03:count",
+    "10기수1-04-02:apply",
+    "10공수2-01-03:apply",
+    "10기수2-01-01:distance",
+    "10기수2-01-02:graph",
+    "10기수2-01-03:apply",
+    "10공수2-01-04:graph",
+    "10공수2-01-05:apply",
+    "10공수2-01-06:apply",
+    "10공수2-01-07:apply",
+    "10기수2-01-04:graph",
+    "10기수2-01-05:position",
+    "10기수2-01-06:apply",
+    "10기수2-01-07:apply",
+    "10공수2-02-03:laws",
+    "10공수2-02-04:quantifiers",
+    "10기수2-02-02:inclusion",
+    "10기수2-02-03:venn",
+    "10기수2-02-04:explain",
+    "10기수2-02-05:converse",
+    "10기수2-02-05:contrapositive",
+    "10공수2-02-06:conditions",
+    "10공수2-02-07:contradiction",
+    "10공수2-02-08:prove",
+    "10공수2-03-03:find",
+    "10공수2-03-04:properties",
+    "10공수2-03-05:properties",
+    "10기수2-03-01:graph",
+    "10기수2-03-03:find",
+    "10기수2-03-04:properties",
+    "10기수2-03-05:properties",
+    "2수01-01:need",
+    "2수01-01:read-write",
+    "2수01-01:parity",
+    "2수01-02:read-write",
+    "2수01-03:compare",
+    "2수01-08:three-add",
+    "2수01-08:three-subtract",
+    "2수01-09:model",
+    "2수01-11:table",
+    "2수02-01:express",
+    "2수02-01:predict",
+    "2수02-02:choose",
+    "2수02-02:arrange",
+    "2수03-01:identify",
+    "2수03-01:compose",
+    "2수03-04:draw",
+    "2수03-05:features",
+    "2수03-06:area",
+    "2수03-08:duration",
+    "2수03-09:day-week",
+    "2수03-09:calendar",
+    "2수03-10:need",
+    "2수03-12:calibrate",
+    "2수03-13:add",
+    "2수03-13:subtract",
+    "2수04-01:interpret",
+    "2수04-02:benefit",
+    "2수04-03:benefit",
+    "12경수01-01:meaning",
+    "12경수01-01:change",
+    "12경수01-02:exchange",
+    "12경수01-03:tax",
+    "12경수01-04:interest",
+    "12경수01-05:meaning",
+    "12경수01-05:present",
+    "12경수02-01:model",
+    "12경수02-03:meaning",
+    "12경수02-03:represent",
+    "12경수02-05:tax",
+    "12경수02-05:income",
+    "12경수02-06:region",
+    "12경수02-06:optimize",
+    "12경수03-01:operate",
+    "12경수03-02:meaning",
+    "12경수03-03:solve",
+    "12경수04-01:meaning",
+    "12경수04-03:elasticity",
+    "12경수04-04:optimize",
+    "12인수01-01:concept",
+    "12인수01-01:styles",
+    "12인수01-02:history",
+    "12인수01-02:logic",
+    "12인수01-02:rules",
+    "12인수01-03:meaning",
+    "12인수01-03:bias",
+    "12인수02-01:set",
+    "12인수02-02:bow",
+    "12인수02-02:idf",
+    "12인수02-03:sentiment",
+    "12인수02-03:similarity",
+    "12인수03-01:rgb",
+    "12인수03-02:transform",
+    "12인수03-03:classification",
+    "12인수03-03:limits",
+    "12인수04-01:estimate",
+    "12인수04-01:predict",
+    "12인수04-02:predict",
+    "12인수04-04:meaning",
+    "12인수05-01:case",
+    "12인수05-01:judge",
+    "12인수05-02:project",
+    "9수02-05:use",
+    "9수02-06:represent",
+    "9수02-06:interpret",
+    "9수02-07:direct-represent",
+    "9수02-16:apply",
+    "9수04-01:mode",
+    "9수04-02:stem",
+    "9수04-02:polygon",
+    "9수04-03:represent",
+    "9수04-03:interpret",
+    "9수04-06:properties",
+    "9수04-06:calculate",
+    "9수04-07:interpret",
+    "9수04-08:compare",
+    "9수04-09:correlation",
+    "9수03-03:construct",
+    "9수03-03:explain",
+    "9수03-05:polygons",
+    "9수03-07:polyhedra",
+    "9수03-07:revolution",
+    "9수03-09:properties",
+    "9수03-10:circumcenter",
+    "9수03-10:incenter",
+    "9수03-12:properties",
+    "9수03-14:ratios",
+    "9수03-15:justify",
+    "9수03-17:apply",
+    "9수03-18:chords",
+    "9수03-18:tangents",
+    "9수03-19:justify",
+    "9수01-02:lcm",
+    "9수01-03:need",
+    "9수01-03:integer",
+    "9수01-08:use",
+    "9수01-10:add-subtract",
+    "9수02-04:apply",
+    "9수02-11:meaning",
+    "9수02-12:apply",
+    "9수02-13:apply",
+    "9수02-20:apply",
+    "4수03-04:slide",
+    "4수03-05:move",
+    "4수03-08:isosceles",
+    "4수03-08:equilateral",
+    "4수03-09:classify",
+    "4수03-10:trapezoid",
+    "4수03-10:parallelogram",
+    "4수03-10:rhombus",
+    "4수03-11:regular",
+    "4수03-12:make",
+    "4수03-12:tile",
+    "4수03-13:read",
+    "4수03-14:add",
+    "4수03-14:subtract",
+    "4수03-15:measure",
+    "4수03-15:estimate",
+    "4수03-15:use",
+    "4수03-16:cm-mm",
+    "4수03-17:measure",
+    "4수03-17:estimate",
+    "4수03-17:use",
+    "4수03-19:add",
+    "4수03-19:subtract",
+    "4수03-20:measure",
+    "4수03-20:estimate",
+    "4수03-20:use",
+    "4수03-22:tonne",
+    "4수03-22:relation",
+    "4수03-23:add",
+    "4수03-23:subtract",
+    "4수03-24:estimate",
+    "4수03-25:quadrilateral",
+    "4수04-03:collect",
+    "4수04-03:represent",
+    "4수04-03:conclude",
+    "4수01-01:need",
+    "4수01-01:read-write",
+    "4수01-02:sequence",
+    "4수01-06:remainder",
+    "4수01-08:add",
+    "4수01-08:subtract",
+    "4수01-08:multiply",
+    "4수01-08:divide",
+    "4수01-09:need",
+    "4수01-09:read-write",
+    "4수01-10:types",
+    "4수01-11:unit",
+    "4수01-12:read-write",
+    "4수01-16:add",
+    "4수01-16:subtract",
+    "4수02-01:express",
+    "4수02-02:find",
+    "4수02-02:predict",
+    "4수02-03:write",
+    "12확통01-01:repeat",
+    "12확통01-01:identical",
+    "12확통01-01:explain",
+    "12확통01-02:meaning",
+    "12확통01-02:count",
+    "12확통01-03:meaning",
+    "12확통01-03:apply",
+    "12확통02-02:meaning",
+    "12확통02-02:apply",
+    "12확통02-03:meaning",
+    "12확통02-03:apply",
+    "12확통02-04:apply",
+    "12확통02-05:judge",
+    "12확통02-06:meaning",
+    "12확통02-06:apply",
+    "12확통03-01:variable",
+    "12확통03-03:mean",
+    "12확통03-03:sd",
+    "12확통03-04:approximation",
+    "12확통03-05:meaning",
+    "12확통03-05:sampling",
+    "12확통03-07:mean",
+    "12확통03-07:proportion",
+    "12확통03-07:interpret",
+    "12실통01-01:utility",
+    "12실통01-03:meaning",
+    "12실통01-03:methods",
+    "12실통02-01:scales",
+    "12실통02-02:methods",
+    "12실통02-02:choose",
+    "12실통02-03:choose",
+    "12실통02-04:choose",
+    "12실통03-03:estimate",
+    "12실통03-04:test",
+    "12실통04-01:investigate",
+    "12실통04-01:decide",
+    "12실통04-02:reflect",
+    "6수03-02:line-draw",
+    "6수03-02:point-draw",
+    "6수03-05:pyramid",
+    "6수03-08:net",
+    "6수03-11:meaning",
+    "6수03-12:relations",
+    "6수03-14:trapezoid",
+    "6수03-14:rhombus",
+    "6수03-15:approximate",
+    "6수03-17:cuboid",
+    "6수03-17:cube",
+    "6수03-18:relation",
+    "6수03-19:cube",
+    "6수04-01:collect",
+    "6수04-01:interpret",
+    "6수04-02:collect",
+    "6수04-03:collect",
+    "6수04-04:compare",
+    "6수04-05:numbers",
+    "6수04-06:judge",
+    "6수01-01:order",
+    "6수01-02:range",
+    "6수01-07:explain",
+    "6수01-08:add",
+    "6수01-08:subtract",
+    "6수01-09:mixed",
+    "6수01-11:by-natural",
+    "6수01-11:natural-by-fraction",
+    "6수01-12:compare",
+    "6수01-15:natural-by-decimal",
+    "6수01-15:decimal-by-decimal",
+    "6수02-02:need",
+    "6수02-03:decimal",
+    "12직수01-01:solve",
+    "12직수01-01:use",
+    "12직수01-02:round",
+    "12직수01-02:compare",
+    "12직수01-03:convert",
+    "12직수02-01:ratio",
+    "12직수02-02:percent",
+    "12직수02-02:apply",
+    "12직수02-03:rule",
+    "12직수02-04:graph",
+    "12직수02-05:linear",
+    "12직수03-01:draw",
+    "12직수03-01:build",
+    "12직수03-02:views",
+    "12직수03-02:identify",
+    "12직수03-03:transform",
+    "12직수03-04:measure",
+    "12직수03-05:solid",
+    "12직수04-01:count",
+    "12직수04-02:chance",
+    "12직수04-05:select",
+    "12직수04-05:decide",
+    "12수문01-01:investigate",
+    "12수문01-01:create",
+    "12수문01-02:investigate",
+    "12수문01-02:create",
+    "12수문01-03:investigate",
+    "12수문01-03:create",
+    "12수문01-04:investigate",
+    "12수문01-04:create",
+    "12수문02-01:investigate",
+    "12수문02-01:use",
+    "12수문02-02:investigate",
+    "12수문02-02:play",
+    "12수문02-03:investigate",
+    "12수문02-03:explain",
+    "12수문02-04:investigate",
+    "12수문02-04:propose",
+    "12수문03-01:folk",
+    "12수문03-01:architecture",
+    "12수문03-01:diversity",
+    "12수문03-02:investigate",
+    "12수문03-02:design",
+    "12수문03-03:analyze",
+    "12수문03-03:interpret",
+    "12수문03-04:method",
+    "12수문03-04:practice",
+    "12수문04-01:analyze",
+    "12수문04-01:propose",
+    "12수문04-02:analyze",
+    "12수문04-02:propose",
+    "12수문04-03:analyze",
+    "12수문04-03:propose",
+    "12수문04-04:analyze",
+    "12수문04-04:care",
+    "12수과01-02:understand",
+    "12수과02-01:method",
+    "12수과02-02:method",
+    "12수과02-04:method",
+    "12수과03-01:topic",
+    "12수과03-03:produce",
+    "12수과03-03:present",
+    "12수과03-04:reflect",
+    "12수과03-04:evaluate"
+  ],
+  "absence_interpretation": "직접 참조가 없는 목표도 과제 안 구성·가정·출발 능력과 대표 수행을 갖는다. 후속 참조 미기록은 활용되지 않음을 뜻하지 않는다."
+}

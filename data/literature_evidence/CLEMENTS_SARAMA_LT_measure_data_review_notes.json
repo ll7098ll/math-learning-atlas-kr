@@ -1,0 +1,1389 @@
+{
+  "source_id": "CLEMENTS_SARAMA_LT",
+  "source_url": "https://www.learningtrajectories.org/",
+  "source_asset_kind": "publisher_html",
+  "source_asset_sha256": "30002cad0913a5e8777a9fbf06fd1e137c93e86c3bdc970457b3af6faf95c85f",
+  "source_asset_redistributed": false,
+  "contains_source_full_text": false,
+  "source_pdf_redistributed": false,
+  "pdf_read": false,
+  "original_page_layout_review": false,
+  "date": "2026-11-06",
+  "reviewer": "Codex",
+  "read_scope": "공식 공개HTML 누적73개 지정 영어 본문: 일반6·영역 개요8·수준45·활동13·교사자료1. 새4영역의 공개 수준 설명33개 전부와 선정8개 활동/교사자료를 추가했다. 원본 그림·영상·첨부PDF·게임·인용 원연구는 미대조다.",
+  "previous_review": {
+    "source_id": "CLEMENTS_SARAMA_LT",
+    "state": "self_read_claim_mapping",
+    "reviewer": "Codex",
+    "date": "2026-11-06",
+    "snapshot_kind": "authored_review_notes",
+    "snapshot_file": "data/literature_evidence/CLEMENTS_SARAMA_LT_review_notes.json",
+    "snapshot_sha256": "296a8e86696950f7b74da637b69c632d52ddb5ba6737bad91c58cf969e4b7916",
+    "source_asset_kind": "publisher_html",
+    "source_asset_sha256": "30002cad0913a5e8777a9fbf06fd1e137c93e86c3bdc970457b3af6faf95c85f",
+    "redistribution_license": "workspace_authored_notes",
+    "bibliography_snapshot": "149bd36ed125b70417fcb112dd3e2ba1fb7878d5dac93f533c0a15adbda19714",
+    "previous_bibliography": {
+      "id": "CLEMENTS_SARAMA_LT",
+      "title": "Learning and Teaching with Learning Trajectories",
+      "authors": [
+        "Douglas H. Clements",
+        "Julie Sarama"
+      ],
+      "kind": "연구자의 초기 수학 학습 경로 자료",
+      "url": "https://www.learningtrajectories.org/",
+      "review_scope": "공식 소개의 목표 발달 경로 교수 활동이라는 구성과 0~8세 대상 범위.",
+      "supports": [
+        "초기 수 도형 측정에서 목표와 사고 발달 및 활동을 함께 조사하는 틀"
+      ],
+      "next_review": "개별 영역의 학습 경로와 근거 확인"
+    },
+    "display": {
+      "title": "Learning and Teaching with Learning Trajectories [LT]2",
+      "url": "https://www.learningtrajectories.org/",
+      "authors_year": "Clements·Sarama,2026 권장 인용;2026-11-06 확인"
+    },
+    "read_scope": "공식 공개HTML28개 지정 영어 본문: 일반6·영역 개요4·선정 수준12·활동6;이미지·영상·첨부PDF·개별 원연구는 미대조",
+    "scope_note": "목표·사고 경로·활동을 함께 조사하는 틀로 참고한다. 수준을 절대적 단계·고정 연령·국내 성취기준의 단일 필수 경로로 사용하지 않는다.",
+    "method_note": "세기·평면도형·길이·분수의 공개 수준과6개 활동 절차를 실제 읽고 현재11개 기준의 뜻·풀이·조건과 대조했다. 사이트의 연구 안내·목록과 개별 원논문의 검증을 구별한다.",
+    "limits": "0~8세를 위한 온라인 자원이며 국내 학년 전체·현재 과제 효과·진단 정확도의 직접 근거가 아니다. 미선정 내용·영상·그림·첨부PDF·교재 전권과 원논문은 미검토다. 의심스러운 분수 계산 예는 읽기 기록에서 자체 검산하고 그대로 옮기지 않았다. 원문HTML·자산은 재배포하지 않는다.",
+    "editorial_action": "11개 기준에 주장6건·가상 자체 관찰6건을 추가했다. 세기·개수 만들기,단위 교환,방향과 도형 성질,빈틈과 겹침,같은 전체·단위분수·전체를 넘는 반복을 구별한다. 기존 대표 원고·관계 검토는 유지하고 독립 검토·학생 검증으로 합산하지 않았다.",
+    "independent_review": false,
+    "student_validated": false,
+    "observations": [
+      {
+        "id": "LT-P1",
+        "standard_codes": [
+          "2수01-01"
+        ],
+        "question": "가상 활동이다. 단추5개를 각각 한 번씩 세고 모두 몇 개인지 설명하라. 다른 곳의 단추 중3개만 골라 접시에 놓아라. 모임을 세는 과제와 필요한 개수를 만드는 과제에서 무엇을 확인했는가? 빈 접시도 기록하라.",
+        "expected": "처음 모임은5개이고 마지막 수5는 모임 전체의 개수다.3개 만들기는 목표3을 유지하며 세 번째에서 멈춰 남은 단추를 옮기지 않는다. 빈 접시는0개다. 수 이름을 길게 암송하는 것만으로 이 수행들이 확인되는 것은 아니다.",
+        "interpretation": "말한 수·가리킨 대상·중복/누락·전체 답·멈춘 시점과 기록을 따로 보존한다. 혼자 한 수행과 함께 센 수행을 구별하고 말·손짓·옮기기 등 사용한 소통 방식을 기록한다. 가상 발문이며 학생 반응·단계 점수·0~100 전체 숙달을 확보한 자료가 아니다.",
+        "student_validated": false
+      },
+      {
+        "id": "LT-P2",
+        "standard_codes": [
+          "2수01-02"
+        ],
+        "question": "가상 막대는 한 묶음마다 낱개10개다. 두 묶음과 낱개7개의 전체를 낱개 단위로 세라. 한 묶음을 풀어 한 묶음과 낱개17개로 바꾸면 전체는 같은가? 묶음을 하나의 물리적 조각으로 세는 수와 전체 낱개 수를 구별하라.",
+        "expected": "2십+7일=27일이고1십+17일도27일이다. 묶음을 그대로 한 조각으로 세면 처음은2+7=9조각,푼 뒤는1+17=18조각이지만 전체 낱개 수27은 같다. 조각 수만 더해9나18을 전체 낱개 수라고 답하지 않는다.",
+        "interpretation": "단위 이름·묶음 크기·묶음 수·총량과 교환 전후를 함께 기록한다. 학생이 먼저 설명한 방식과 교사가 묶음을 풀어 보인 뒤의 방식을 구별한다. 두 자리 예는 네 자리 이하 자릿값 전체의 검사나 계산 시작 전 완전 숙달의 증거가 아니다.",
+        "student_validated": false
+      },
+      {
+        "id": "LT-P3",
+        "standard_codes": [
+          "2수03-04",
+          "2수03-05",
+          "4수03-10"
+        ],
+        "question": "교사가 만든 가상 카드에는 닫힌 삼각형,직사각형과 그것을 돌린 모양,직각이 없는 평행사변형,정사각형이 있다.1~2학년에서는 닫힌 경계를 따라 변·꼭짓점을 세고 같은 모양의 방향 변화를 설명하라.3~4학년에서는 직사각형·정사각형의 변과 직각 조건을 조작으로 확인하라.",
+        "expected": "삼각형은 변·꼭짓점3개,각 사각형은4개다. 돌린 직사각형도 네 직각과 마주 보는 변의 길이가 유지된다. 네 직각이 없는 평행사변형을 두 변이 길고 두 변이 짧다는 이유만으로 직사각형이라 하지 않는다. 정사각형은 네 직각과 같은 네 변을 확인한다.",
+        "interpretation": "방향·색·전형적 외형과 변·각 조건을 구별한다. 손그림의 흔들림과 의도된 열린 경계도 구별한다. 정사각형이 직사각형 조건도 만족한다는 사실은 교사용 검산이며 여러 사각형 사이 포함 관계 지도를 학생 필수 수행으로 요구하지 않는다. 실제 학생·도형 활동 효과를 검증한 기록이 아니다.",
+        "student_validated": false
+      },
+      {
+        "id": "LT-P4",
+        "standard_codes": [
+          "2수03-10",
+          "2수03-12"
+        ],
+        "question": "길이 숫자를 알려 주지 않은 실제 띠를 먼저 어림하고,기록한 뒤 같은 단위를 반복해 재어 비교하라. 다음 가상 오류 검토는 어림 기록 뒤에 별도로 제시한다:2cm 막대4개를 놓았다는 사실만으로 정확한 측정인가? 빈틈과 겹침이 서로 같은 길이만큼 있으면 숫자가 맞아도 올바른지 설명하라.",
+        "expected": "8cm는1cm 간격8개 또는2cm 단위4번이다. 단위 길이가 같고 시작부터 끝까지 빈틈·겹침 없이 이어야 한다. 빈틈1cm·겹침1cm가 있어 합계8cm가 나와도 덮지 못한 부분과 중복이 있으므로 올바른 측정이 아니다. 어림값은 측정 전 기록하고 측정값과 차이를 비교한다.",
+        "interpretation": "양 보존·단위 크기·반복 위치·끝점·개수를 따로 확인한다. 검산용 구간[0,2],[3,5],[5,7],[6,8]은 길이 합8이지만2~3이 비고6~7이 겹친다. 구간 표기는 교사용 확인이며 학생에게 좌표 형식을 새로 요구하지 않는다. 실제 띠를 제공할 때에는 길이를 먼저 알려 주지 않고 어림 기록 뒤 측정한다.",
+        "student_validated": false
+      },
+      {
+        "id": "LT-P5",
+        "standard_codes": [
+          "4수01-09",
+          "4수01-11"
+        ],
+        "question": "같은 전체를 나타내는 두 띠를 각각3등분·6등분했을 때 한 조각의 분수를 비교하라. 이어 한 전체가12cm인 띠의1/3과 다른 전체가24cm인 띠의1/6의 실제 길이를 비교하라. 실제 길이가 같으면 수로서의1/3과1/6도 같은가?",
+        "expected": "같은 전체에서는1/3이1/6보다 크고1/3은1/6 두 개와 같다.12cm의1/3과24cm의1/6은 각각4cm여서 실제 길이는 같지만 두 분수의 기준 전체가 다르다. 수로서1/3과1/6이 같은 것은 아니다. 각 띠의 등분과 기준 전체를 표시해야 한다.",
+        "interpretation": "분수 값·기준 전체·실제 양과 조각 수를 따로 기록한다. 분모가 크면 항상 작다는 말을 분자가 다른 임의 분수로 확장하지 않는다. 이 수치·띠는 자체 설계이며 원문의 그림이나 학생 반응을 전사한 것이 아니다.",
+        "student_validated": false
+      },
+      {
+        "id": "LT-P6",
+        "standard_codes": [
+          "4수01-10",
+          "4수01-15"
+        ],
+        "question": "같은 기준 전체의1/5 길이 조각7개를 이어 수직선에 놓고 분수와 대분수로 나타내라. 그중4개와3개를 합할 때4/5+3/5=7/10이라는 가상 오답 예를 검토하라. 조각 한 개·전체1·전체를 넘는 양을 구별하라.",
+        "expected": "1/5 조각5개가 전체1이고2개가 남으므로7/5=1과2/5다. 같은1/5 단위4개와3개를 합하면7개,곧7/5이며 분모5는 유지된다.7/10은1보다 작아4/5보다도 작으므로 이 양의 덧셈의 합이 될 수 없다.",
+        "interpretation": "전체를 넘는 반복·같은 단위·등호와 대분수의 묶음을 설명하게 한다. 서로 다른 크기의 전체에서 가져온1/5 조각을 섞지 않는다. 다른 분모의 통분을 필수 선수로 추가하지 않고 가상 오답을 실제 학생 응답으로 집계하지 않는다.",
+        "student_validated": false
+      }
+    ]
+  },
+  "previous_bibliography": {
+    "id": "CLEMENTS_SARAMA_LT",
+    "title": "Learning and Teaching with Learning Trajectories [LT]2",
+    "authors": [
+      "Douglas H. Clements",
+      "Julie Sarama"
+    ],
+    "kind": "연구자의 초기 수학 학습 경로 자료",
+    "url": "https://www.learningtrajectories.org/",
+    "review_scope": "공식 공개HTML28개의 지정 영어 본문: 일반·목록·서지6개,세기·평면도형·길이·분수 개요4개,선정12수준·6활동. 이미지·영상·첨부PDF·원연구·교재 전권·스페인어 동등성은 미대조.",
+    "supports": [
+      "초기 수 도형 측정에서 목표와 사고 발달 및 활동을 함께 조사하는 틀"
+    ],
+    "next_review": "미선정 영역·수준·활동,연구 목록의 개별 원논문·관련 교재와 현재 한국어 과제의 실제 반응·교수 효과를 추가 대조한다.",
+    "year": 2026,
+    "accessed": "2026-11-06",
+    "citation_version_note": "Resources의2026년 권장 인용을 사용했다. 공통 꼬리말은2017/2019 표기를 유지한다. 개별 활동 갱신일은 읽기 기록에 따로 보존한다."
+  },
+  "previous_notes_file": "data/literature_evidence/CLEMENTS_SARAMA_LT_review_notes.json",
+  "previous_notes_sha256": "296a8e86696950f7b74da637b69c632d52ddb5ba6737bad91c58cf969e4b7916",
+  "observed_html_assets": [
+    {
+      "key": "home",
+      "url": "https://www.learningtrajectories.org/",
+      "title": "Learning Trajectories",
+      "sha256": "30002cad0913a5e8777a9fbf06fd1e137c93e86c3bdc970457b3af6faf95c85f",
+      "status": 200
+    },
+    {
+      "key": "explore",
+      "url": "https://www.learningtrajectories.org/math/learning-trajectories",
+      "title": "Learning Trajectories",
+      "sha256": "2cbdcc75211ea6049f4dc641619cea4f0adb119d2dfcd1881d572495e3361f57",
+      "status": 200
+    },
+    {
+      "key": "about",
+      "url": "https://www.learningtrajectories.org/pages/about",
+      "title": "Learning Trajectories",
+      "sha256": "1fa4964cb998ac644744eb3b12f1b52790e4da4cb9c4168f271dc778a51fefb1",
+      "status": 200
+    },
+    {
+      "key": "resources",
+      "url": "https://www.learningtrajectories.org/pages/resources",
+      "title": "Learning Trajectories",
+      "sha256": "3e8eec7b88aa03a0752152a2e3a746c1100cd359fde2f885e0b213276b54aacd",
+      "status": 200
+    },
+    {
+      "key": "faq",
+      "url": "https://www.learningtrajectories.org/pages/sub_page/29",
+      "title": "Learning Trajectories",
+      "sha256": "1e157a4469804cb8332c25cb9738dd249515d1d1605974d1faea51b713f21fa7",
+      "status": 200
+    },
+    {
+      "key": "research",
+      "url": "https://www.learningtrajectories.org/lt-resources/research-projects",
+      "title": "Learning Trajectories",
+      "sha256": "01c3aba2efd27213ba69b33cf5ed8d6967cded81914d740fc98ac286c12fe2fc",
+      "status": 200
+    },
+    {
+      "key": "counting",
+      "url": "https://www.learningtrajectories.org/math/learning-trajectories/counting",
+      "title": "Counting",
+      "sha256": "c3b60dce132c4025f20c9f6b9a6edc219bf983cceea978545a17165fdcc62194",
+      "status": 200
+    },
+    {
+      "key": "shapes",
+      "url": "https://www.learningtrajectories.org/math/learning-trajectories/2d-shapes",
+      "title": "2D Shapes",
+      "sha256": "948ed7e098cf5dc7a8738ff6046aa61a5b59935e31d705bd422b7734f726c213",
+      "status": 200
+    },
+    {
+      "key": "length",
+      "url": "https://www.learningtrajectories.org/math/learning-trajectories/measurement-length",
+      "title": "Measurement: Length",
+      "sha256": "b306fb76adf57ee4202f106d22e244a90d84845983c5c4e4edd3070d4cf4ce13",
+      "status": 200
+    },
+    {
+      "key": "fractions",
+      "url": "https://www.learningtrajectories.org/math/learning-trajectories/fractions",
+      "title": "Fractions",
+      "sha256": "172809f326ae5d3ac313db5b96babafa1853a63742cd11302f8011963805c439",
+      "status": 200
+    },
+    {
+      "key": "corresponder",
+      "url": "https://www.learningtrajectories.org/math/counting/corresponder",
+      "title": "Counting | Corresponder",
+      "sha256": "845073508c5b94b1cde17af88d710abbecf44fac8ba7d5b1345bcf00cce1b360",
+      "status": 200
+    },
+    {
+      "key": "counter-small",
+      "url": "https://www.learningtrajectories.org/math/counting/counter-small-numbers",
+      "title": "Counting | Counter (Small Numbers)",
+      "sha256": "7160a8aba418508abc21fd63840a13bbe1bad7750d79c159189c4ef8b2e0a15f",
+      "status": 200
+    },
+    {
+      "key": "producer-small",
+      "url": "https://www.learningtrajectories.org/math/counting/producer-small-numbers",
+      "title": "Counting | Producer (Small Numbers)",
+      "sha256": "59dcabbb59b77cff32109d95cef4036c8dc64cac293751fb33f2c1bfca5b2c1d",
+      "status": 200
+    },
+    {
+      "key": "place-value",
+      "url": "https://www.learningtrajectories.org/math/counting/counter-of-quantitative-unitsplace-value",
+      "title": "Counting | Counter of Quantitative Units/Place Value",
+      "sha256": "26b87f70d2f8e141bf6fa5ba453e585734636e1c8eac80cbb87910b98fc357e1",
+      "status": 200
+    },
+    {
+      "key": "all-rectangles",
+      "url": "https://www.learningtrajectories.org/math/2d-shapes/shape-recognizerall-rectangles",
+      "title": "2D Shapes | Shape Recognizer—All Rectangles | Classifying",
+      "sha256": "3608b9c152091394e8eec5844e67de2468d4154884f1d62beeab0b4e71ef05c9",
+      "status": 200
+    },
+    {
+      "key": "shape-identifier",
+      "url": "https://www.learningtrajectories.org/math/2d-shapes/shape-identifier",
+      "title": "2D Shapes | Shape Identifier | classifying",
+      "sha256": "a26bf898dc2491c6185b348c29b3c4a179ff3c69dfd9c86ea2576b46fa1e5ddf",
+      "status": 200
+    },
+    {
+      "key": "end-to-end",
+      "url": "https://www.learningtrajectories.org/math/measurement-length/end-to-end-length-measurer",
+      "title": "Measurement: Length | End-to-End Length Measurer | Measurement",
+      "sha256": "997b1564b72364cba93ad897b258a0dd6fd6431469c8a24fdc3c8dc1ba582d92",
+      "status": 200
+    },
+    {
+      "key": "unit-relater",
+      "url": "https://www.learningtrajectories.org/math/measurement-length/length-unit-relater-and-repeater",
+      "title": "Measurement: Length | Length Unit Relater and Repeater | Measurement",
+      "sha256": "d335d7d3298c3d3f28062317c6c34ec48fd69bfed08a8f1c7586b8bbf4acb02f",
+      "status": 200
+    },
+    {
+      "key": "conceptual-ruler",
+      "url": "https://www.learningtrajectories.org/math/measurement-length/conceptual-ruler-measurer",
+      "title": "Measurement: Length | Conceptual Ruler Measurer | Measurement",
+      "sha256": "355c272d3c21d4dab12a8c7e73d0fad81402df037a979b68ed1f10886460577b",
+      "status": 200
+    },
+    {
+      "key": "unit-fraction",
+      "url": "https://www.learningtrajectories.org/math/fractions/unit-fraction-recognizer",
+      "title": "Fractions | Unit Fraction Recognizer",
+      "sha256": "5e2166718fedc451107f0e9679870bbc38b258cab812d4ea6cb3699302aa1818",
+      "status": 200
+    },
+    {
+      "key": "fraction-maker",
+      "url": "https://www.learningtrajectories.org/math/fractions/fraction-maker",
+      "title": "Fractions | Fraction Maker",
+      "sha256": "4217928d6d36be29daef1ef4ecaad3ea0946f37a614daf6daeb63979eefead5b",
+      "status": 200
+    },
+    {
+      "key": "fraction-repeater",
+      "url": "https://www.learningtrajectories.org/math/fractions/fraction-repeater",
+      "title": "Fractions | Fraction Repeater",
+      "sha256": "a57dccb999dab1cb74a8423a4159b15805693b1b15f626a32cdf46114d9946e2",
+      "status": 200
+    },
+    {
+      "key": "counting-wand",
+      "url": "https://www.learningtrajectories.org/math-activities/counting-wand-corresponder",
+      "title": "Math Activities | Counting Wand (Corresponder)",
+      "sha256": "2c67841dbc5213caac8de9553946ec371d90d38629c902002edb74e9dfe94aeb",
+      "status": 200
+    },
+    {
+      "key": "how-many-hand",
+      "url": "https://www.learningtrajectories.org/math-activities/how-many-in-a-hand-counter-small-number",
+      "title": "Math Activities | How Many in a Hand?",
+      "sha256": "7b6bf13e36fe2945fdd4c366725f7f11cbc8e0a6cb356f2c171526502d47de34",
+      "status": 200
+    },
+    {
+      "key": "guess-fraction",
+      "url": "https://www.learningtrajectories.org/math-activities/guess-my-fraction",
+      "title": "Math Activities | Guess My Fraction",
+      "sha256": "d5983f249aadfe4e456ad9ebdb420440e43d26019a044d7932421cbd362dd612",
+      "status": 200
+    },
+    {
+      "key": "guess-rule",
+      "url": "https://www.learningtrajectories.org/math-activities/guess-my-rule-shape-recognizer-all-rectangles",
+      "title": "Math Activities | Guess My Rule (Rectangles)",
+      "sha256": "d3083d9a9e9ee2354940659f3fd32b2800d112a937f08d27486e7f42ee1f2a8c",
+      "status": 200
+    },
+    {
+      "key": "building-iteration",
+      "url": "https://www.learningtrajectories.org/math-activities/building-up-to-iteration",
+      "title": "Math Activities | Building Up to Iteration",
+      "sha256": "c5c1c9b64eb3ca814d563d9821975eafa81cb2c459f7074e22a8bd10fab54103",
+      "status": 200
+    },
+    {
+      "key": "hanging-fractions",
+      "url": "https://www.learningtrajectories.org/math-activities/hanging-fractions-on-a-number-line-fraction-repeater",
+      "title": "Math Activities | Hanging Fractions on a Number Line",
+      "sha256": "53e5c5bf382aa86e4d852cc7245f31c9c8101adc478f004d7eb3c21c8611a776",
+      "status": 200
+    },
+    {
+      "key": "math__learning-trajectories__measurement-area",
+      "url": "https://www.learningtrajectories.org/math/learning-trajectories/measurement-area",
+      "title": "Measurement: Area ",
+      "sha256": "98a2dcc12b4cefa61fae7d824ef56897b0eef0935356e4775acb0009e69b182c",
+      "status": 200
+    },
+    {
+      "key": "math__learning-trajectories__measurement-volume",
+      "url": "https://www.learningtrajectories.org/math/learning-trajectories/measurement-volume",
+      "title": "Measurement: Volume ",
+      "sha256": "e1303fef0ea3cafa56283688cd67c19044d673c337c07b6827fe4a98e74a8361",
+      "status": 200
+    },
+    {
+      "key": "math__learning-trajectories__measurement-angle-and-turn",
+      "url": "https://www.learningtrajectories.org/math/learning-trajectories/measurement-angle-and-turn",
+      "title": "Measurement: Angle and Turn",
+      "sha256": "0fd35a050ca7251b874ccbf093e8ac3fdd4f49ea739ba2a9ec6a023c7779b72a",
+      "status": 200
+    },
+    {
+      "key": "math__learning-trajectories__classification-and-data-analysis",
+      "url": "https://www.learningtrajectories.org/math/learning-trajectories/classification-and-data-analysis",
+      "title": "Classification and Data Analysis ",
+      "sha256": "def89ceae97b6a75977e2c201c16861664347d7317e1e8ca5de1dc9d896af492",
+      "status": 200
+    },
+    {
+      "key": "math__classification-and-data-analysis__consistent-flexible-sorter",
+      "url": "https://www.learningtrajectories.org/math/classification-and-data-analysis/consistent-flexible-sorter",
+      "title": "Classification and Data Analysis | Consistent, Flexible Sorter | Classification",
+      "sha256": "ec8886b696806001edf3953843e0ee22c8d862fc61c04d01cbcfacf208d49098",
+      "status": 200
+    },
+    {
+      "key": "math__classification-and-data-analysis__data-aggregator",
+      "url": "https://www.learningtrajectories.org/math/classification-and-data-analysis/data-aggregator",
+      "title": "Classification and Data Analysis | Data Aggregator | Data",
+      "sha256": "b9a52b57fd812fd84b1a5f38119c2088597dadbbf76ff3c159866e9924397968",
+      "status": 200
+    },
+    {
+      "key": "math__classification-and-data-analysis__data-case-viewer",
+      "url": "https://www.learningtrajectories.org/math/classification-and-data-analysis/data-case-viewer",
+      "title": "Classification and Data Analysis | Data Case Viewer | Data",
+      "sha256": "c79378c45aa66d77d471292bdc90676075f7d7a341e41d9d3e52731a78769cac",
+      "status": 200
+    },
+    {
+      "key": "math__classification-and-data-analysis__data-classifier",
+      "url": "https://www.learningtrajectories.org/math/classification-and-data-analysis/data-classifier",
+      "title": "Classification and Data Analysis | Data Classifier | Data",
+      "sha256": "00f4eca50d69fffcf0bd67f79542ad511a9ab43f9abd5d2179dfc3ccba69e4c6",
+      "status": 200
+    },
+    {
+      "key": "math__classification-and-data-analysis__data-representer",
+      "url": "https://www.learningtrajectories.org/math/classification-and-data-analysis/data-representer",
+      "title": "Classification and Data Analysis | Data Representer | Data",
+      "sha256": "85cc8258870cc437920c0ad89b2f88ca3e49153bf310a288b9c40ef5cef5b3b4",
+      "status": 200
+    },
+    {
+      "key": "math__classification-and-data-analysis__hierarchical-classifier",
+      "url": "https://www.learningtrajectories.org/math/classification-and-data-analysis/hierarchical-classifier",
+      "title": "Classification and Data Analysis | Hierarchical Classifier | Classification",
+      "sha256": "348c18660ed79a62e256f63df7ece1e31652afd177b56ca047424a354f57dc87",
+      "status": 200
+    },
+    {
+      "key": "math__classification-and-data-analysis__multiple-attribute-classifier",
+      "url": "https://www.learningtrajectories.org/math/classification-and-data-analysis/multiple-attribute-classifier",
+      "title": "Classification and Data Analysis | Multiple Attribute Classifier | Classification",
+      "sha256": "59cda47320553b721d355a58ca515fee3248531a5ac4468bd8f53627cfb0b9ef",
+      "status": 200
+    },
+    {
+      "key": "math__classification-and-data-analysis__similardissimilar-maker",
+      "url": "https://www.learningtrajectories.org/math/classification-and-data-analysis/similardissimilar-maker",
+      "title": "Classification and Data Analysis | Similar/Dissimilar Maker | Classification",
+      "sha256": "1255371a59bfcc534edef37aee467f62cdf48b557c9d155ee60ab2d2935e20bc",
+      "status": 200
+    },
+    {
+      "key": "math__classification-and-data-analysis__similarity-intuiter-foundations",
+      "url": "https://www.learningtrajectories.org/math/classification-and-data-analysis/similarity-intuiter-foundations",
+      "title": "Classification and Data Analysis | Foundations: Similarity Intuiter | Classification",
+      "sha256": "d43da30d1f43181e1b8be82c73d61ff750ba47cbd1dbcca09e3e8df44f5dfddf",
+      "status": 200
+    },
+    {
+      "key": "math__classification-and-data-analysis__simple-sorter",
+      "url": "https://www.learningtrajectories.org/math/classification-and-data-analysis/simple-sorter",
+      "title": "Classification and Data Analysis | Simple Sorter | Classification",
+      "sha256": "4c8929505d556c275ab2eea91679675bc6b8367ebd61559eae39fe7a0a7a8c16",
+      "status": 200
+    },
+    {
+      "key": "math__classification-and-data-analysis__sorter-by-similar-attributes",
+      "url": "https://www.learningtrajectories.org/math/classification-and-data-analysis/sorter-by-similar-attributes",
+      "title": "Classification and Data Analysis | Sorter by Similar Attributes | Classification",
+      "sha256": "9e174da880d9bf269803c51972ecb296d7fb0d77e4549fdd0beb7ef71b08d9ed",
+      "status": 200
+    },
+    {
+      "key": "math__measurement-angle-and-turn__angle-and-turn-senser-foundations",
+      "url": "https://www.learningtrajectories.org/math/measurement-angle-and-turn/angle-and-turn-senser-foundations",
+      "title": "Measurement: Angle and Turn | Angle and Turn Senser: Foundations",
+      "sha256": "c902c0591247925f2d1c9d6ca48e535f02998084ca0dab6c5c0169a8354fd2bc",
+      "status": 200
+    },
+    {
+      "key": "math__measurement-angle-and-turn__angle-matcher",
+      "url": "https://www.learningtrajectories.org/math/measurement-angle-and-turn/angle-matcher",
+      "title": "Measurement: Angle and Turn | Angle Matcher",
+      "sha256": "b1c47fc7756504f6a58c7a024e73d744e02296e4fcd83fcdd70aa712701dae82",
+      "status": 200
+    },
+    {
+      "key": "math__measurement-angle-and-turn__angle-measurer",
+      "url": "https://www.learningtrajectories.org/math/measurement-angle-and-turn/angle-measurer",
+      "title": "Measurement: Angle and Turn | Angle Measurer",
+      "sha256": "58603979740dfff0de2a5fdaef52cda2d9e476af2d0f6a7191de03a7e186d3a4",
+      "status": 200
+    },
+    {
+      "key": "math__measurement-angle-and-turn__angle-size-comparer",
+      "url": "https://www.learningtrajectories.org/math/measurement-angle-and-turn/angle-size-comparer",
+      "title": "Measurement: Angle and Turn | Angle Size Comparer",
+      "sha256": "95351d35f0817658bbebff7ff84da63abcbfea167a2a8e24a053052956e677cd",
+      "status": 200
+    },
+    {
+      "key": "math__measurement-angle-and-turn__implicit-angle-user",
+      "url": "https://www.learningtrajectories.org/math/measurement-angle-and-turn/implicit-angle-user",
+      "title": "Measurement: Angle and Turn | Implicit Angle User",
+      "sha256": "61419d56ed9959ff973c088300d0115cb6f035558525237142ecae1bb2f6fd1c",
+      "status": 200
+    },
+    {
+      "key": "math__measurement-angle-and-turn__intuitive-angle-builder",
+      "url": "https://www.learningtrajectories.org/math/measurement-angle-and-turn/intuitive-angle-builder",
+      "title": "Measurement: Angle and Turn | Intuitive Angle Builder",
+      "sha256": "8479f9739191dba50be6f045386c493d8806e356f3b1498f52779aa2a8066e6e",
+      "status": 200
+    },
+    {
+      "key": "math__measurement-area__area-quantity-recognizer",
+      "url": "https://www.learningtrajectories.org/math/measurement-area/area-quantity-recognizer",
+      "title": "Measurement: Area | Area Quantity Recognizer",
+      "sha256": "2b18c8c501dab984a9d5d8eef9fe13c5c987ad22563f97aa06dea363fd3424a5",
+      "status": 200
+    },
+    {
+      "key": "math__measurement-area__area-row-and-column-structurer",
+      "url": "https://www.learningtrajectories.org/math/measurement-area/area-row-and-column-structurer",
+      "title": "Measurement: Area | Area Row and Column Structurer",
+      "sha256": "b1ad06c02d8484d0612764a7b0e6ecf99796fec0090ca5d1ced82c46221e1cbb",
+      "status": 200
+    },
+    {
+      "key": "math__measurement-area__area-senser-foundations",
+      "url": "https://www.learningtrajectories.org/math/measurement-area/area-senser-foundations",
+      "title": "Measurement: Area | Area Senser: Foundations",
+      "sha256": "89e71151821dc25381c9a88df9750426f80da4bfca963bdf06ac5e4c0d07d651",
+      "status": 200
+    },
+    {
+      "key": "math__measurement-area__area-unit-relater-and-repeater",
+      "url": "https://www.learningtrajectories.org/math/measurement-area/area-unit-relater-and-repeater",
+      "title": "Measurement: Area | Area Unit Relater and Repeater",
+      "sha256": "69191d2c8d6c6d182823c770ab6f15762ed07a4874819881df5c08633394f619",
+      "status": 200
+    },
+    {
+      "key": "math__measurement-area__array-structurer",
+      "url": "https://www.learningtrajectories.org/math/measurement-area/array-structurer",
+      "title": "Measurement: Area | Array Structurer",
+      "sha256": "36f5888a9566048b6c9ec65594f43aed4e52b61d4aea21876f4cf795dbc1ff80",
+      "status": 200
+    },
+    {
+      "key": "math__measurement-area__complete-coverer-and-counter",
+      "url": "https://www.learningtrajectories.org/math/measurement-area/complete-coverer-and-counter",
+      "title": "Measurement: Area | Complete Coverer and Counter",
+      "sha256": "39d5d0b75bffb39be55f6e667f56ea9e241cee47d62276c76f9f46ca2425428c",
+      "status": 200
+    },
+    {
+      "key": "math__measurement-area__initial-composite-structurer",
+      "url": "https://www.learningtrajectories.org/math/measurement-area/initial-composite-structurer",
+      "title": "Measurement: Area | Initial Composite Structurer",
+      "sha256": "ea897eccb456baeab8c23fcf14cdfb4e126c5ad04a95ff6390a4853b1dd0401a",
+      "status": 200
+    },
+    {
+      "key": "math__measurement-area__physical-coverer-and-counter",
+      "url": "https://www.learningtrajectories.org/math/measurement-area/physical-coverer-and-counter",
+      "title": "Measurement: Area | Physical Coverer and Counter",
+      "sha256": "f369c0d8564f9eff8d1e2803791da103cfdbede3a158556f60612322ab3ebb75",
+      "status": 200
+    },
+    {
+      "key": "math__measurement-volume__3d-array-structurer",
+      "url": "https://www.learningtrajectories.org/math/measurement-volume/3d-array-structurer",
+      "title": "Measurement: Volume | 3D Array Structurer",
+      "sha256": "167a3f9ec2c5c628d46b92c172919fe67b6aacbdc042c2ed8c64396d41933825",
+      "status": 200
+    },
+    {
+      "key": "math__measurement-volume__3d-row-and-column-structurer",
+      "url": "https://www.learningtrajectories.org/math/measurement-volume/3d-row-and-column-structurer",
+      "title": "Measurement: Volume | 3D Row and Column Structurer",
+      "sha256": "1cedf3665cfe70d60e541ee71709aba651f0e5edd11b20306ab7c329427f9d04",
+      "status": 200
+    },
+    {
+      "key": "math__measurement-volume__initial-composite-3d-structurer",
+      "url": "https://www.learningtrajectories.org/math/measurement-volume/initial-composite-3d-structurer",
+      "title": "Measurement: Volume | Initial Composite 3D Structurer",
+      "sha256": "d3c8733e5a5b803467cb4347af8513f54213472cd273de3446b50fc33041ea95",
+      "status": 200
+    },
+    {
+      "key": "math__measurement-volume__volume-filler",
+      "url": "https://www.learningtrajectories.org/math/measurement-volume/volume-filler",
+      "title": "Measurement: Volume | Volume Filler",
+      "sha256": "be44b9b5e2e2d28cabe754ad3384a0da9b1637ded0622d215f6a69ffcf96d3a1",
+      "status": 200
+    },
+    {
+      "key": "math__measurement-volume__volume-quantifier",
+      "url": "https://www.learningtrajectories.org/math/measurement-volume/volume-quantifier",
+      "title": "Measurement: Volume | Volume Quantifier",
+      "sha256": "593d2278370f0117410d8eaf157acdedf31df18251906b3cd7a8eb89323f0d13",
+      "status": 200
+    },
+    {
+      "key": "math__measurement-volume__volume-quantity-recognizer",
+      "url": "https://www.learningtrajectories.org/math/measurement-volume/volume-quantity-recognizer",
+      "title": "Measurement: Volume | Volume Quantity Recognizer",
+      "sha256": "841909826379127c3af96a1d7180bfa101ca1298a2fa1c02266f6ac381a333de",
+      "status": 200
+    },
+    {
+      "key": "math__measurement-volume__volume-senser-foundations",
+      "url": "https://www.learningtrajectories.org/math/measurement-volume/volume-senser-foundations",
+      "title": "Measurement: Volume | Volume Senser: Foundations",
+      "sha256": "c46790f8559bb5b999f8826da53459e99780cd8fa2ddb1ba56db734e0d16a849",
+      "status": 200
+    },
+    {
+      "key": "math__measurement-volume__volume-unit-relater-and-repeater",
+      "url": "https://www.learningtrajectories.org/math/measurement-volume/volume-unit-relater-and-repeater",
+      "title": "Measurement: Volume | Volume Unit Relater and Repeater",
+      "sha256": "31cfc4eee8f494af3c4cf8c94ea02eed7565b98142148d842e32fd07ef7f7016",
+      "status": 200
+    },
+    {
+      "key": "math-activities__measure-areas",
+      "url": "https://www.learningtrajectories.org/math-activities/measure-areas",
+      "title": "Math Activities | Measure Areas",
+      "sha256": "512a57c5827d88e15d6e09492b8bfacee6752286942369381c062a8d7ea5c196",
+      "status": 200
+    },
+    {
+      "key": "math-activities__creating-grids",
+      "url": "https://www.learningtrajectories.org/math-activities/creating-grids",
+      "title": "Math Activities | Creating Grids ",
+      "sha256": "b85871e8e134c8eb885799692b22d5d98cfd77f1ce31f28e8871f7e7c84e74e3",
+      "status": 200
+    },
+    {
+      "key": "math-activities__how-many-blocks-fit-in-the-box",
+      "url": "https://www.learningtrajectories.org/math-activities/how-many-blocks-fit-in-the-box",
+      "title": "Math Activities | How Many Blocks Fit In The Box?",
+      "sha256": "59b4c9c14cb4dc536858f83d7143faba0cdb08d542317721e7fb736a22ea5198",
+      "status": 200
+    },
+    {
+      "key": "math-activities__water-volume-play",
+      "url": "https://www.learningtrajectories.org/math-activities/water-volume-play",
+      "title": "Math Activities | Water Volume Play",
+      "sha256": "4e171a2343467c9a15c5c6215d8a2b8aa610959ffbb657414223862f8e36988f",
+      "status": 200
+    },
+    {
+      "key": "math-activities__angle-measuring",
+      "url": "https://www.learningtrajectories.org/math-activities/angle-measuring",
+      "title": "Math Activities | Angle Measuring ",
+      "sha256": "6bcc6fe61081b61d42227a806cdbcc2820c22c1a98d518b54e9a85264fa523c8",
+      "status": 200
+    },
+    {
+      "key": "math-activities__researcher-note--angle-misconceptions-angle-measurer",
+      "url": "https://www.learningtrajectories.org/math-activities/researcher-note--angle-misconceptions-angle-measurer",
+      "title": "Measurement: Angle and Turn | Angle Measurer | Researcher Note - Angle Misconceptions",
+      "sha256": "eb959bfd720e48b29f035281892cf69b68f65498bd138995d240fe68998dbd52",
+      "status": 200
+    },
+    {
+      "key": "math-activities__our-data",
+      "url": "https://www.learningtrajectories.org/math-activities/our-data",
+      "title": "Math Activities | Our Data",
+      "sha256": "a4476b8fc9508ea1e29ecffde9697fb8cb3eeb0b170359d47353764ad26e4c0e",
+      "status": 200
+    },
+    {
+      "key": "math-activities__shape-matrices-multiple-attribute-classifier",
+      "url": "https://www.learningtrajectories.org/math-activities/shape-matrices-multiple-attribute-classifier",
+      "title": "Math Activities | Shape Matrices (Multiple Attribute Classifier)",
+      "sha256": "47e9421f12a5ac41350f5319c6d678865a4df58d7fc529f73ba1e23cf3905386",
+      "status": 200
+    }
+  ],
+  "html_read_manifest": [
+    {
+      "key": "home",
+      "url": "https://www.learningtrajectories.org/",
+      "title": "Learning Trajectories",
+      "sha256": "30002cad0913a5e8777a9fbf06fd1e137c93e86c3bdc970457b3af6faf95c85f",
+      "status": 200
+    },
+    {
+      "key": "explore",
+      "url": "https://www.learningtrajectories.org/math/learning-trajectories",
+      "title": "Learning Trajectories",
+      "sha256": "2cbdcc75211ea6049f4dc641619cea4f0adb119d2dfcd1881d572495e3361f57",
+      "status": 200
+    },
+    {
+      "key": "about",
+      "url": "https://www.learningtrajectories.org/pages/about",
+      "title": "Learning Trajectories",
+      "sha256": "1fa4964cb998ac644744eb3b12f1b52790e4da4cb9c4168f271dc778a51fefb1",
+      "status": 200
+    },
+    {
+      "key": "resources",
+      "url": "https://www.learningtrajectories.org/pages/resources",
+      "title": "Learning Trajectories",
+      "sha256": "3e8eec7b88aa03a0752152a2e3a746c1100cd359fde2f885e0b213276b54aacd",
+      "status": 200
+    },
+    {
+      "key": "faq",
+      "url": "https://www.learningtrajectories.org/pages/sub_page/29",
+      "title": "Learning Trajectories",
+      "sha256": "1e157a4469804cb8332c25cb9738dd249515d1d1605974d1faea51b713f21fa7",
+      "status": 200
+    },
+    {
+      "key": "research",
+      "url": "https://www.learningtrajectories.org/lt-resources/research-projects",
+      "title": "Learning Trajectories",
+      "sha256": "01c3aba2efd27213ba69b33cf5ed8d6967cded81914d740fc98ac286c12fe2fc",
+      "status": 200
+    },
+    {
+      "key": "counting",
+      "url": "https://www.learningtrajectories.org/math/learning-trajectories/counting",
+      "title": "Counting",
+      "sha256": "c3b60dce132c4025f20c9f6b9a6edc219bf983cceea978545a17165fdcc62194",
+      "status": 200
+    },
+    {
+      "key": "shapes",
+      "url": "https://www.learningtrajectories.org/math/learning-trajectories/2d-shapes",
+      "title": "2D Shapes",
+      "sha256": "948ed7e098cf5dc7a8738ff6046aa61a5b59935e31d705bd422b7734f726c213",
+      "status": 200
+    },
+    {
+      "key": "length",
+      "url": "https://www.learningtrajectories.org/math/learning-trajectories/measurement-length",
+      "title": "Measurement: Length",
+      "sha256": "b306fb76adf57ee4202f106d22e244a90d84845983c5c4e4edd3070d4cf4ce13",
+      "status": 200
+    },
+    {
+      "key": "fractions",
+      "url": "https://www.learningtrajectories.org/math/learning-trajectories/fractions",
+      "title": "Fractions",
+      "sha256": "172809f326ae5d3ac313db5b96babafa1853a63742cd11302f8011963805c439",
+      "status": 200
+    },
+    {
+      "key": "corresponder",
+      "url": "https://www.learningtrajectories.org/math/counting/corresponder",
+      "title": "Counting | Corresponder",
+      "sha256": "845073508c5b94b1cde17af88d710abbecf44fac8ba7d5b1345bcf00cce1b360",
+      "status": 200
+    },
+    {
+      "key": "counter-small",
+      "url": "https://www.learningtrajectories.org/math/counting/counter-small-numbers",
+      "title": "Counting | Counter (Small Numbers)",
+      "sha256": "7160a8aba418508abc21fd63840a13bbe1bad7750d79c159189c4ef8b2e0a15f",
+      "status": 200
+    },
+    {
+      "key": "producer-small",
+      "url": "https://www.learningtrajectories.org/math/counting/producer-small-numbers",
+      "title": "Counting | Producer (Small Numbers)",
+      "sha256": "59dcabbb59b77cff32109d95cef4036c8dc64cac293751fb33f2c1bfca5b2c1d",
+      "status": 200
+    },
+    {
+      "key": "place-value",
+      "url": "https://www.learningtrajectories.org/math/counting/counter-of-quantitative-unitsplace-value",
+      "title": "Counting | Counter of Quantitative Units/Place Value",
+      "sha256": "26b87f70d2f8e141bf6fa5ba453e585734636e1c8eac80cbb87910b98fc357e1",
+      "status": 200
+    },
+    {
+      "key": "all-rectangles",
+      "url": "https://www.learningtrajectories.org/math/2d-shapes/shape-recognizerall-rectangles",
+      "title": "2D Shapes | Shape Recognizer—All Rectangles | Classifying",
+      "sha256": "3608b9c152091394e8eec5844e67de2468d4154884f1d62beeab0b4e71ef05c9",
+      "status": 200
+    },
+    {
+      "key": "shape-identifier",
+      "url": "https://www.learningtrajectories.org/math/2d-shapes/shape-identifier",
+      "title": "2D Shapes | Shape Identifier | classifying",
+      "sha256": "a26bf898dc2491c6185b348c29b3c4a179ff3c69dfd9c86ea2576b46fa1e5ddf",
+      "status": 200
+    },
+    {
+      "key": "end-to-end",
+      "url": "https://www.learningtrajectories.org/math/measurement-length/end-to-end-length-measurer",
+      "title": "Measurement: Length | End-to-End Length Measurer | Measurement",
+      "sha256": "997b1564b72364cba93ad897b258a0dd6fd6431469c8a24fdc3c8dc1ba582d92",
+      "status": 200
+    },
+    {
+      "key": "unit-relater",
+      "url": "https://www.learningtrajectories.org/math/measurement-length/length-unit-relater-and-repeater",
+      "title": "Measurement: Length | Length Unit Relater and Repeater | Measurement",
+      "sha256": "d335d7d3298c3d3f28062317c6c34ec48fd69bfed08a8f1c7586b8bbf4acb02f",
+      "status": 200
+    },
+    {
+      "key": "conceptual-ruler",
+      "url": "https://www.learningtrajectories.org/math/measurement-length/conceptual-ruler-measurer",
+      "title": "Measurement: Length | Conceptual Ruler Measurer | Measurement",
+      "sha256": "355c272d3c21d4dab12a8c7e73d0fad81402df037a979b68ed1f10886460577b",
+      "status": 200
+    },
+    {
+      "key": "unit-fraction",
+      "url": "https://www.learningtrajectories.org/math/fractions/unit-fraction-recognizer",
+      "title": "Fractions | Unit Fraction Recognizer",
+      "sha256": "5e2166718fedc451107f0e9679870bbc38b258cab812d4ea6cb3699302aa1818",
+      "status": 200
+    },
+    {
+      "key": "fraction-maker",
+      "url": "https://www.learningtrajectories.org/math/fractions/fraction-maker",
+      "title": "Fractions | Fraction Maker",
+      "sha256": "4217928d6d36be29daef1ef4ecaad3ea0946f37a614daf6daeb63979eefead5b",
+      "status": 200
+    },
+    {
+      "key": "fraction-repeater",
+      "url": "https://www.learningtrajectories.org/math/fractions/fraction-repeater",
+      "title": "Fractions | Fraction Repeater",
+      "sha256": "a57dccb999dab1cb74a8423a4159b15805693b1b15f626a32cdf46114d9946e2",
+      "status": 200
+    },
+    {
+      "key": "counting-wand",
+      "url": "https://www.learningtrajectories.org/math-activities/counting-wand-corresponder",
+      "title": "Math Activities | Counting Wand (Corresponder)",
+      "sha256": "2c67841dbc5213caac8de9553946ec371d90d38629c902002edb74e9dfe94aeb",
+      "status": 200
+    },
+    {
+      "key": "how-many-hand",
+      "url": "https://www.learningtrajectories.org/math-activities/how-many-in-a-hand-counter-small-number",
+      "title": "Math Activities | How Many in a Hand?",
+      "sha256": "7b6bf13e36fe2945fdd4c366725f7f11cbc8e0a6cb356f2c171526502d47de34",
+      "status": 200
+    },
+    {
+      "key": "guess-fraction",
+      "url": "https://www.learningtrajectories.org/math-activities/guess-my-fraction",
+      "title": "Math Activities | Guess My Fraction",
+      "sha256": "d5983f249aadfe4e456ad9ebdb420440e43d26019a044d7932421cbd362dd612",
+      "status": 200
+    },
+    {
+      "key": "guess-rule",
+      "url": "https://www.learningtrajectories.org/math-activities/guess-my-rule-shape-recognizer-all-rectangles",
+      "title": "Math Activities | Guess My Rule (Rectangles)",
+      "sha256": "d3083d9a9e9ee2354940659f3fd32b2800d112a937f08d27486e7f42ee1f2a8c",
+      "status": 200
+    },
+    {
+      "key": "building-iteration",
+      "url": "https://www.learningtrajectories.org/math-activities/building-up-to-iteration",
+      "title": "Math Activities | Building Up to Iteration",
+      "sha256": "c5c1c9b64eb3ca814d563d9821975eafa81cb2c459f7074e22a8bd10fab54103",
+      "status": 200
+    },
+    {
+      "key": "hanging-fractions",
+      "url": "https://www.learningtrajectories.org/math-activities/hanging-fractions-on-a-number-line-fraction-repeater",
+      "title": "Math Activities | Hanging Fractions on a Number Line",
+      "sha256": "53e5c5bf382aa86e4d852cc7245f31c9c8101adc478f004d7eb3c21c8611a776",
+      "status": 200
+    },
+    {
+      "key": "math__learning-trajectories__measurement-area",
+      "url": "https://www.learningtrajectories.org/math/learning-trajectories/measurement-area",
+      "title": "Measurement: Area ",
+      "sha256": "98a2dcc12b4cefa61fae7d824ef56897b0eef0935356e4775acb0009e69b182c",
+      "status": 200
+    },
+    {
+      "key": "math__learning-trajectories__measurement-volume",
+      "url": "https://www.learningtrajectories.org/math/learning-trajectories/measurement-volume",
+      "title": "Measurement: Volume ",
+      "sha256": "e1303fef0ea3cafa56283688cd67c19044d673c337c07b6827fe4a98e74a8361",
+      "status": 200
+    },
+    {
+      "key": "math__learning-trajectories__measurement-angle-and-turn",
+      "url": "https://www.learningtrajectories.org/math/learning-trajectories/measurement-angle-and-turn",
+      "title": "Measurement: Angle and Turn",
+      "sha256": "0fd35a050ca7251b874ccbf093e8ac3fdd4f49ea739ba2a9ec6a023c7779b72a",
+      "status": 200
+    },
+    {
+      "key": "math__learning-trajectories__classification-and-data-analysis",
+      "url": "https://www.learningtrajectories.org/math/learning-trajectories/classification-and-data-analysis",
+      "title": "Classification and Data Analysis ",
+      "sha256": "def89ceae97b6a75977e2c201c16861664347d7317e1e8ca5de1dc9d896af492",
+      "status": 200
+    },
+    {
+      "key": "math__classification-and-data-analysis__consistent-flexible-sorter",
+      "url": "https://www.learningtrajectories.org/math/classification-and-data-analysis/consistent-flexible-sorter",
+      "title": "Classification and Data Analysis | Consistent, Flexible Sorter | Classification",
+      "sha256": "ec8886b696806001edf3953843e0ee22c8d862fc61c04d01cbcfacf208d49098",
+      "status": 200
+    },
+    {
+      "key": "math__classification-and-data-analysis__data-aggregator",
+      "url": "https://www.learningtrajectories.org/math/classification-and-data-analysis/data-aggregator",
+      "title": "Classification and Data Analysis | Data Aggregator | Data",
+      "sha256": "b9a52b57fd812fd84b1a5f38119c2088597dadbbf76ff3c159866e9924397968",
+      "status": 200
+    },
+    {
+      "key": "math__classification-and-data-analysis__data-case-viewer",
+      "url": "https://www.learningtrajectories.org/math/classification-and-data-analysis/data-case-viewer",
+      "title": "Classification and Data Analysis | Data Case Viewer | Data",
+      "sha256": "c79378c45aa66d77d471292bdc90676075f7d7a341e41d9d3e52731a78769cac",
+      "status": 200
+    },
+    {
+      "key": "math__classification-and-data-analysis__data-classifier",
+      "url": "https://www.learningtrajectories.org/math/classification-and-data-analysis/data-classifier",
+      "title": "Classification and Data Analysis | Data Classifier | Data",
+      "sha256": "00f4eca50d69fffcf0bd67f79542ad511a9ab43f9abd5d2179dfc3ccba69e4c6",
+      "status": 200
+    },
+    {
+      "key": "math__classification-and-data-analysis__data-representer",
+      "url": "https://www.learningtrajectories.org/math/classification-and-data-analysis/data-representer",
+      "title": "Classification and Data Analysis | Data Representer | Data",
+      "sha256": "85cc8258870cc437920c0ad89b2f88ca3e49153bf310a288b9c40ef5cef5b3b4",
+      "status": 200
+    },
+    {
+      "key": "math__classification-and-data-analysis__hierarchical-classifier",
+      "url": "https://www.learningtrajectories.org/math/classification-and-data-analysis/hierarchical-classifier",
+      "title": "Classification and Data Analysis | Hierarchical Classifier | Classification",
+      "sha256": "348c18660ed79a62e256f63df7ece1e31652afd177b56ca047424a354f57dc87",
+      "status": 200
+    },
+    {
+      "key": "math__classification-and-data-analysis__multiple-attribute-classifier",
+      "url": "https://www.learningtrajectories.org/math/classification-and-data-analysis/multiple-attribute-classifier",
+      "title": "Classification and Data Analysis | Multiple Attribute Classifier | Classification",
+      "sha256": "59cda47320553b721d355a58ca515fee3248531a5ac4468bd8f53627cfb0b9ef",
+      "status": 200
+    },
+    {
+      "key": "math__classification-and-data-analysis__similardissimilar-maker",
+      "url": "https://www.learningtrajectories.org/math/classification-and-data-analysis/similardissimilar-maker",
+      "title": "Classification and Data Analysis | Similar/Dissimilar Maker | Classification",
+      "sha256": "1255371a59bfcc534edef37aee467f62cdf48b557c9d155ee60ab2d2935e20bc",
+      "status": 200
+    },
+    {
+      "key": "math__classification-and-data-analysis__similarity-intuiter-foundations",
+      "url": "https://www.learningtrajectories.org/math/classification-and-data-analysis/similarity-intuiter-foundations",
+      "title": "Classification and Data Analysis | Foundations: Similarity Intuiter | Classification",
+      "sha256": "d43da30d1f43181e1b8be82c73d61ff750ba47cbd1dbcca09e3e8df44f5dfddf",
+      "status": 200
+    },
+    {
+      "key": "math__classification-and-data-analysis__simple-sorter",
+      "url": "https://www.learningtrajectories.org/math/classification-and-data-analysis/simple-sorter",
+      "title": "Classification and Data Analysis | Simple Sorter | Classification",
+      "sha256": "4c8929505d556c275ab2eea91679675bc6b8367ebd61559eae39fe7a0a7a8c16",
+      "status": 200
+    },
+    {
+      "key": "math__classification-and-data-analysis__sorter-by-similar-attributes",
+      "url": "https://www.learningtrajectories.org/math/classification-and-data-analysis/sorter-by-similar-attributes",
+      "title": "Classification and Data Analysis | Sorter by Similar Attributes | Classification",
+      "sha256": "9e174da880d9bf269803c51972ecb296d7fb0d77e4549fdd0beb7ef71b08d9ed",
+      "status": 200
+    },
+    {
+      "key": "math__measurement-angle-and-turn__angle-and-turn-senser-foundations",
+      "url": "https://www.learningtrajectories.org/math/measurement-angle-and-turn/angle-and-turn-senser-foundations",
+      "title": "Measurement: Angle and Turn | Angle and Turn Senser: Foundations",
+      "sha256": "c902c0591247925f2d1c9d6ca48e535f02998084ca0dab6c5c0169a8354fd2bc",
+      "status": 200
+    },
+    {
+      "key": "math__measurement-angle-and-turn__angle-matcher",
+      "url": "https://www.learningtrajectories.org/math/measurement-angle-and-turn/angle-matcher",
+      "title": "Measurement: Angle and Turn | Angle Matcher",
+      "sha256": "b1c47fc7756504f6a58c7a024e73d744e02296e4fcd83fcdd70aa712701dae82",
+      "status": 200
+    },
+    {
+      "key": "math__measurement-angle-and-turn__angle-measurer",
+      "url": "https://www.learningtrajectories.org/math/measurement-angle-and-turn/angle-measurer",
+      "title": "Measurement: Angle and Turn | Angle Measurer",
+      "sha256": "58603979740dfff0de2a5fdaef52cda2d9e476af2d0f6a7191de03a7e186d3a4",
+      "status": 200
+    },
+    {
+      "key": "math__measurement-angle-and-turn__angle-size-comparer",
+      "url": "https://www.learningtrajectories.org/math/measurement-angle-and-turn/angle-size-comparer",
+      "title": "Measurement: Angle and Turn | Angle Size Comparer",
+      "sha256": "95351d35f0817658bbebff7ff84da63abcbfea167a2a8e24a053052956e677cd",
+      "status": 200
+    },
+    {
+      "key": "math__measurement-angle-and-turn__implicit-angle-user",
+      "url": "https://www.learningtrajectories.org/math/measurement-angle-and-turn/implicit-angle-user",
+      "title": "Measurement: Angle and Turn | Implicit Angle User",
+      "sha256": "61419d56ed9959ff973c088300d0115cb6f035558525237142ecae1bb2f6fd1c",
+      "status": 200
+    },
+    {
+      "key": "math__measurement-angle-and-turn__intuitive-angle-builder",
+      "url": "https://www.learningtrajectories.org/math/measurement-angle-and-turn/intuitive-angle-builder",
+      "title": "Measurement: Angle and Turn | Intuitive Angle Builder",
+      "sha256": "8479f9739191dba50be6f045386c493d8806e356f3b1498f52779aa2a8066e6e",
+      "status": 200
+    },
+    {
+      "key": "math__measurement-area__area-quantity-recognizer",
+      "url": "https://www.learningtrajectories.org/math/measurement-area/area-quantity-recognizer",
+      "title": "Measurement: Area | Area Quantity Recognizer",
+      "sha256": "2b18c8c501dab984a9d5d8eef9fe13c5c987ad22563f97aa06dea363fd3424a5",
+      "status": 200
+    },
+    {
+      "key": "math__measurement-area__area-row-and-column-structurer",
+      "url": "https://www.learningtrajectories.org/math/measurement-area/area-row-and-column-structurer",
+      "title": "Measurement: Area | Area Row and Column Structurer",
+      "sha256": "b1ad06c02d8484d0612764a7b0e6ecf99796fec0090ca5d1ced82c46221e1cbb",
+      "status": 200
+    },
+    {
+      "key": "math__measurement-area__area-senser-foundations",
+      "url": "https://www.learningtrajectories.org/math/measurement-area/area-senser-foundations",
+      "title": "Measurement: Area | Area Senser: Foundations",
+      "sha256": "89e71151821dc25381c9a88df9750426f80da4bfca963bdf06ac5e4c0d07d651",
+      "status": 200
+    },
+    {
+      "key": "math__measurement-area__area-unit-relater-and-repeater",
+      "url": "https://www.learningtrajectories.org/math/measurement-area/area-unit-relater-and-repeater",
+      "title": "Measurement: Area | Area Unit Relater and Repeater",
+      "sha256": "69191d2c8d6c6d182823c770ab6f15762ed07a4874819881df5c08633394f619",
+      "status": 200
+    },
+    {
+      "key": "math__measurement-area__array-structurer",
+      "url": "https://www.learningtrajectories.org/math/measurement-area/array-structurer",
+      "title": "Measurement: Area | Array Structurer",
+      "sha256": "36f5888a9566048b6c9ec65594f43aed4e52b61d4aea21876f4cf795dbc1ff80",
+      "status": 200
+    },
+    {
+      "key": "math__measurement-area__complete-coverer-and-counter",
+      "url": "https://www.learningtrajectories.org/math/measurement-area/complete-coverer-and-counter",
+      "title": "Measurement: Area | Complete Coverer and Counter",
+      "sha256": "39d5d0b75bffb39be55f6e667f56ea9e241cee47d62276c76f9f46ca2425428c",
+      "status": 200
+    },
+    {
+      "key": "math__measurement-area__initial-composite-structurer",
+      "url": "https://www.learningtrajectories.org/math/measurement-area/initial-composite-structurer",
+      "title": "Measurement: Area | Initial Composite Structurer",
+      "sha256": "ea897eccb456baeab8c23fcf14cdfb4e126c5ad04a95ff6390a4853b1dd0401a",
+      "status": 200
+    },
+    {
+      "key": "math__measurement-area__physical-coverer-and-counter",
+      "url": "https://www.learningtrajectories.org/math/measurement-area/physical-coverer-and-counter",
+      "title": "Measurement: Area | Physical Coverer and Counter",
+      "sha256": "f369c0d8564f9eff8d1e2803791da103cfdbede3a158556f60612322ab3ebb75",
+      "status": 200
+    },
+    {
+      "key": "math__measurement-volume__3d-array-structurer",
+      "url": "https://www.learningtrajectories.org/math/measurement-volume/3d-array-structurer",
+      "title": "Measurement: Volume | 3D Array Structurer",
+      "sha256": "167a3f9ec2c5c628d46b92c172919fe67b6aacbdc042c2ed8c64396d41933825",
+      "status": 200
+    },
+    {
+      "key": "math__measurement-volume__3d-row-and-column-structurer",
+      "url": "https://www.learningtrajectories.org/math/measurement-volume/3d-row-and-column-structurer",
+      "title": "Measurement: Volume | 3D Row and Column Structurer",
+      "sha256": "1cedf3665cfe70d60e541ee71709aba651f0e5edd11b20306ab7c329427f9d04",
+      "status": 200
+    },
+    {
+      "key": "math__measurement-volume__initial-composite-3d-structurer",
+      "url": "https://www.learningtrajectories.org/math/measurement-volume/initial-composite-3d-structurer",
+      "title": "Measurement: Volume | Initial Composite 3D Structurer",
+      "sha256": "d3c8733e5a5b803467cb4347af8513f54213472cd273de3446b50fc33041ea95",
+      "status": 200
+    },
+    {
+      "key": "math__measurement-volume__volume-filler",
+      "url": "https://www.learningtrajectories.org/math/measurement-volume/volume-filler",
+      "title": "Measurement: Volume | Volume Filler",
+      "sha256": "be44b9b5e2e2d28cabe754ad3384a0da9b1637ded0622d215f6a69ffcf96d3a1",
+      "status": 200
+    },
+    {
+      "key": "math__measurement-volume__volume-quantifier",
+      "url": "https://www.learningtrajectories.org/math/measurement-volume/volume-quantifier",
+      "title": "Measurement: Volume | Volume Quantifier",
+      "sha256": "593d2278370f0117410d8eaf157acdedf31df18251906b3cd7a8eb89323f0d13",
+      "status": 200
+    },
+    {
+      "key": "math__measurement-volume__volume-quantity-recognizer",
+      "url": "https://www.learningtrajectories.org/math/measurement-volume/volume-quantity-recognizer",
+      "title": "Measurement: Volume | Volume Quantity Recognizer",
+      "sha256": "841909826379127c3af96a1d7180bfa101ca1298a2fa1c02266f6ac381a333de",
+      "status": 200
+    },
+    {
+      "key": "math__measurement-volume__volume-senser-foundations",
+      "url": "https://www.learningtrajectories.org/math/measurement-volume/volume-senser-foundations",
+      "title": "Measurement: Volume | Volume Senser: Foundations",
+      "sha256": "c46790f8559bb5b999f8826da53459e99780cd8fa2ddb1ba56db734e0d16a849",
+      "status": 200
+    },
+    {
+      "key": "math__measurement-volume__volume-unit-relater-and-repeater",
+      "url": "https://www.learningtrajectories.org/math/measurement-volume/volume-unit-relater-and-repeater",
+      "title": "Measurement: Volume | Volume Unit Relater and Repeater",
+      "sha256": "31cfc4eee8f494af3c4cf8c94ea02eed7565b98142148d842e32fd07ef7f7016",
+      "status": 200
+    },
+    {
+      "key": "math-activities__measure-areas",
+      "url": "https://www.learningtrajectories.org/math-activities/measure-areas",
+      "title": "Math Activities | Measure Areas",
+      "sha256": "512a57c5827d88e15d6e09492b8bfacee6752286942369381c062a8d7ea5c196",
+      "status": 200
+    },
+    {
+      "key": "math-activities__creating-grids",
+      "url": "https://www.learningtrajectories.org/math-activities/creating-grids",
+      "title": "Math Activities | Creating Grids ",
+      "sha256": "b85871e8e134c8eb885799692b22d5d98cfd77f1ce31f28e8871f7e7c84e74e3",
+      "status": 200
+    },
+    {
+      "key": "math-activities__how-many-blocks-fit-in-the-box",
+      "url": "https://www.learningtrajectories.org/math-activities/how-many-blocks-fit-in-the-box",
+      "title": "Math Activities | How Many Blocks Fit In The Box?",
+      "sha256": "59b4c9c14cb4dc536858f83d7143faba0cdb08d542317721e7fb736a22ea5198",
+      "status": 200
+    },
+    {
+      "key": "math-activities__water-volume-play",
+      "url": "https://www.learningtrajectories.org/math-activities/water-volume-play",
+      "title": "Math Activities | Water Volume Play",
+      "sha256": "4e171a2343467c9a15c5c6215d8a2b8aa610959ffbb657414223862f8e36988f",
+      "status": 200
+    },
+    {
+      "key": "math-activities__angle-measuring",
+      "url": "https://www.learningtrajectories.org/math-activities/angle-measuring",
+      "title": "Math Activities | Angle Measuring ",
+      "sha256": "6bcc6fe61081b61d42227a806cdbcc2820c22c1a98d518b54e9a85264fa523c8",
+      "status": 200
+    },
+    {
+      "key": "math-activities__researcher-note--angle-misconceptions-angle-measurer",
+      "url": "https://www.learningtrajectories.org/math-activities/researcher-note--angle-misconceptions-angle-measurer",
+      "title": "Measurement: Angle and Turn | Angle Measurer | Researcher Note - Angle Misconceptions",
+      "sha256": "eb959bfd720e48b29f035281892cf69b68f65498bd138995d240fe68998dbd52",
+      "status": 200
+    },
+    {
+      "key": "math-activities__our-data",
+      "url": "https://www.learningtrajectories.org/math-activities/our-data",
+      "title": "Math Activities | Our Data",
+      "sha256": "a4476b8fc9508ea1e29ecffde9697fb8cb3eeb0b170359d47353764ad26e4c0e",
+      "status": 200
+    },
+    {
+      "key": "math-activities__shape-matrices-multiple-attribute-classifier",
+      "url": "https://www.learningtrajectories.org/math-activities/shape-matrices-multiple-attribute-classifier",
+      "title": "Math Activities | Shape Matrices (Multiple Attribute Classifier)",
+      "sha256": "47e9421f12a5ac41350f5319c6d678865a4df58d7fc529f73ba1e23cf3905386",
+      "status": 200
+    }
+  ],
+  "read_groups": {
+    "general": [
+      "home",
+      "explore",
+      "about",
+      "resources",
+      "faq",
+      "research"
+    ],
+    "domain_overviews": [
+      "counting",
+      "shapes",
+      "length",
+      "fractions",
+      "math__learning-trajectories__measurement-area",
+      "math__learning-trajectories__measurement-volume",
+      "math__learning-trajectories__measurement-angle-and-turn",
+      "math__learning-trajectories__classification-and-data-analysis"
+    ],
+    "levels": [
+      "corresponder",
+      "counter-small",
+      "producer-small",
+      "place-value",
+      "all-rectangles",
+      "shape-identifier",
+      "end-to-end",
+      "unit-relater",
+      "conceptual-ruler",
+      "unit-fraction",
+      "fraction-maker",
+      "fraction-repeater",
+      "math__classification-and-data-analysis__consistent-flexible-sorter",
+      "math__classification-and-data-analysis__data-aggregator",
+      "math__classification-and-data-analysis__data-case-viewer",
+      "math__classification-and-data-analysis__data-classifier",
+      "math__classification-and-data-analysis__data-representer",
+      "math__classification-and-data-analysis__hierarchical-classifier",
+      "math__classification-and-data-analysis__multiple-attribute-classifier",
+      "math__classification-and-data-analysis__similardissimilar-maker",
+      "math__classification-and-data-analysis__similarity-intuiter-foundations",
+      "math__classification-and-data-analysis__simple-sorter",
+      "math__classification-and-data-analysis__sorter-by-similar-attributes",
+      "math__measurement-angle-and-turn__angle-and-turn-senser-foundations",
+      "math__measurement-angle-and-turn__angle-matcher",
+      "math__measurement-angle-and-turn__angle-measurer",
+      "math__measurement-angle-and-turn__angle-size-comparer",
+      "math__measurement-angle-and-turn__implicit-angle-user",
+      "math__measurement-angle-and-turn__intuitive-angle-builder",
+      "math__measurement-area__area-quantity-recognizer",
+      "math__measurement-area__area-row-and-column-structurer",
+      "math__measurement-area__area-senser-foundations",
+      "math__measurement-area__area-unit-relater-and-repeater",
+      "math__measurement-area__array-structurer",
+      "math__measurement-area__complete-coverer-and-counter",
+      "math__measurement-area__initial-composite-structurer",
+      "math__measurement-area__physical-coverer-and-counter",
+      "math__measurement-volume__3d-array-structurer",
+      "math__measurement-volume__3d-row-and-column-structurer",
+      "math__measurement-volume__initial-composite-3d-structurer",
+      "math__measurement-volume__volume-filler",
+      "math__measurement-volume__volume-quantifier",
+      "math__measurement-volume__volume-quantity-recognizer",
+      "math__measurement-volume__volume-senser-foundations",
+      "math__measurement-volume__volume-unit-relater-and-repeater"
+    ],
+    "activities": [
+      "counting-wand",
+      "how-many-hand",
+      "guess-fraction",
+      "guess-rule",
+      "building-iteration",
+      "hanging-fractions",
+      "math-activities__measure-areas",
+      "math-activities__creating-grids",
+      "math-activities__how-many-blocks-fit-in-the-box",
+      "math-activities__water-volume-play",
+      "math-activities__angle-measuring",
+      "math-activities__our-data",
+      "math-activities__shape-matrices-multiple-attribute-classifier"
+    ],
+    "teacher_resources": [
+      "math-activities__researcher-note--angle-misconceptions-angle-measurer"
+    ]
+  },
+  "new_read_groups": {
+    "domain_overviews": 4,
+    "levels": 33,
+    "activities": 7,
+    "teacher_resources": 1
+  },
+  "reading_log": [
+    "공식 공개HTML28개의 지정 영어 본문을 읽었다. 일반 소개·목록·FAQ·서지·연구 목록6개,영역 개요4개,수준12개,활동6개다. 영역 전체의 모든 수준·활동을 읽었다는 집계가 아니다.",
+    "세기4수준·평면도형2수준·길이3수준·분수3수준의 설명·사례·교수 안내와 활동 목록을 확인했다.",
+    "Counting Wand,How Many in a Hand?,Guess My Fraction,Guess My Rule,Building Up to Iteration,Hanging Fractions의 공개 영어 목표·절차·교수 팁·차별화·표시된 참고문헌을 확인했다. 소개만 읽은 것이 아니며 영어·스페인어의 동등성을 검증한 것도 아니다.",
+    "홈페이지의0~8세 대상,FAQ의 수준/하위 경로/연령 한계,자원 페이지의2026년 권장 인용과 꼬리말의2017/2019 표기를 구별했다. 연구 목록의 논문 서지 확인을 원논문 독해로 집계하지 않는다.",
+    "새4영역 개요·공개33수준 본문과 선정7활동/1교사자료의 영어 목표·절차·교수 팁·자료·차별화·표시 참고문헌을 읽었다. 영역별 수준은 넓이8·부피8·각6·분류/자료11이다. 목록만 확인한 활동은 읽기 수에 넣지 않았다.",
+    "기존28개URL에 새45개URL을 더해 누적73개 지정 영어 본문이다. 기존 일반6·개요4·수준12·활동6의 기록과 주장은 보존했다. 다른 원문 버전과 현재 원고의 추가 대응을 혼합하지 않는다.",
+    "현재 공개 목록을 다시 확인해 영역20개 중 개요를 읽은8개와 남은12개를 구별했다. 재확인한 목록은 기존URL의 추가 스냅샷이며 새URL 수에 중복 합산하지 않았다.",
+    "기존 홈페이지HTML의 해시는 기준 자산 한 파일로 유지한다. 새45개HTML과 목록 재확인 파일은 각각의 주소·해시로 기록하며 홈페이지 해시를 전체 사이트 해시로 쓰지 않는다.",
+    "원본 그림·영상·첨부PDF·게임 실행과 인용 원논문/교재는 대조하지 않았다. 영어 본문이 스페인어 표제 아래에도 반복되는 부분은 독립 번역 검토나 별도 활동으로 집계하지 않는다."
+  ],
+  "source_corrections": [
+    {
+      "kind": "source_incorrect_example_transcription_guard",
+      "location": "Fractions 개요",
+      "observed": "3/4+1/3의 잘못된 덧셈 예에4/6이 적혀 있다.",
+      "correct_sum": "13/12",
+      "sum_numerators_and_denominators": "4/7",
+      "action": "원문 자체가 오답을 논하는 대목이나4/6은 분자끼리·분모끼리 더한 결과4/7과도 다르다. 원인을 확정하지 않고 기호를 복사하지 않는다. 올바른 합과 가상 오답을 구별하며 이 다른 분모 계산을 국내3~4학년 필수 과제로 전용하지 않는다."
+    },
+    {
+      "kind": "bibliographic_version_guard",
+      "location": "Resources의Suggested Citation / 공통 꼬리말",
+      "observed": "자원 페이지는2026년 인용을 권장하고 꼬리말은2017/2019를 유지한다.",
+      "action": "이번 온라인 자원 서지는2026년 권장 인용과 확인일을 사용한다. 개별 활동의2025·2026 갱신일을 따로 남기고 모든 내용이2026년에 작성됐다고 판단하지 않는다."
+    },
+    {
+      "kind": "scope_and_definition_guard",
+      "location": "FAQ / Shape Identifier / Guess My Fraction",
+      "action": "하위 경로의 순서·연령 차를 허용하고 사다리꼴 정의와 사각형 포함 관계를 국내 필수 범위로 옮기지 않는다. 분모 역순 비교는 같은 전체의 양의 단위분수로 한정한다."
+    },
+    {
+      "kind": "volume_dimension_word_guard",
+      "locations": [
+        "Measurement: Volume / 3D Array Structurer"
+      ],
+      "action": "세 방향 정육면체 반복을 설명하는 본문에 area가 섞여 있으나 이어지는 문장과V=l*w*h는 부피다. 현재 원고에서는 세는 대상·단위cm³와 한 층/전체를 구별하고 넓이라고 복사하지 않는다."
+    },
+    {
+      "kind": "volume_layer_double_count_guard",
+      "locations": [
+        "Measurement: Volume / 3D Row and Column Structurer / Other Examples"
+      ],
+      "action": "가로·세로·높이를 곱한 것을 한 줄의 개수라고 부른 뒤 층 수를 다시 곱하는 것으로 읽히는 예가 있다. 본문의 한 층 개수×층 수와 대조해 높이를 두 번 곱하지 않는다. 자체 예는3×3=9개/층,3층이27개이며27×3이 아니다. 원문 저자의 수정 의도나 정오표는 확인 전이다."
+    },
+    {
+      "kind": "measurement_conditions_guard",
+      "locations": [
+        "Measurement: Area / Area Unit Relater and Repeater",
+        "How Many Blocks Fit In The Box?",
+        "Water Volume Play"
+      ],
+      "action": "동일 개수는 같은 단위·빈틈 없는 덮기/채움 조건에서만 같은 측정값이다. 일반 상자는 단위 블록이 남김없이 들어맞는지 확인한다. 물 높이·채우기/비우기 시간은 용기 형태·유량·출구 등에 영향을 받으므로 용량과 같다고 하지 않는다. 서로 다른 재료의 빈틈·다짐도 구별한다. 부피만으로 특정 선물의 세 치수가 들어맞는다고 하지 않는다."
+    },
+    {
+      "kind": "angle_context_and_school_scope",
+      "locations": [
+        "Measurement: Angle and Turn / Angle Measurer",
+        "Angle Measuring",
+        "Researcher Note - Angle Misconceptions [Angle Measurer]"
+      ],
+      "action": "270°회전 뒤 두 반직선 사이의 작은 각90°를 말하는 예는 시작 방향·회전 방향·어느 각인지가 필요하다. 모든 회전량/내각/외각의 동일성으로 전용하지 않는다.360°각도기와 각 오개념의 학생 비율을 국내3~4학년 필수 범위나 현재 진단 규준으로 옮기지 않는다."
+    },
+    {
+      "kind": "case_unit_and_category_overlap_guard",
+      "locations": [
+        "Classification and Data Analysis / Data Case Viewer,Data Classifier,Data Aggregator,Hierarchical Classifier",
+        "Our Data",
+        "Shape Matrices [Multiple Attribute Classifier]"
+      ],
+      "action": "비슷한 값을 같은 범주로 묶어도 원기록 개수를 지우지 않는다. 대상·응답·속성의 단위를 정하고 겹치는 속성 목록과 중복 없는 분류표를 구별한다.11/23은 반 미만이며 최다·거의 반·과반수를 같은 말로 쓰지 않는다. 원문의 행렬/평균/확률/위계 포함을 국내1~2학년 새 필수로 요구하지 않는다."
+    },
+    {
+      "kind": "activity_version_and_progression_limits",
+      "locations": [
+        "활동8개 / Last updated와References",
+        "Complete Coverer and Counter",
+        "Simple Sorter"
+      ],
+      "action": "갱신일은2025/2026으로 다르고 참고문헌도2·3·4판 및2020/2021/2026을 다르게 표시한다. 페이지의 표기를 기록했으며 해당 책의 전권/판본을 직접 검토했다고 하지 않는다. Complete Coverer도 개수 중복/누락이 가능하고 Simple Sorter는 성인 도움이 포함된다. 이름·한 번의 성공·도움 뒤 수행을 검증된 학생 단계로 판정하지 않는다."
+    }
+  ],
+  "activity_update_dates": {
+    "counting-wand": "2026-03-03",
+    "how-many-hand": "2026-03-04",
+    "guess-fraction": "2025-07-27",
+    "guess-rule": "2026-04-15",
+    "building-iteration": "2025-07-23",
+    "hanging-fractions": "2026-02-03",
+    "measure-areas": "2025-07-29",
+    "creating-grids": "2025-07-29",
+    "how-many-blocks-fit-in-the-box": "2025-07-16",
+    "water-volume-play": "2025-07-24",
+    "angle-measuring": "2025-07-28",
+    "researcher-note--angle-misconceptions-angle-measurer": "2026-09-10",
+    "our-data": "2026-02-04",
+    "shape-matrices-multiple-attribute-classifier": "2026-02-04"
+  },
+  "catalog_recheck": {
+    "key": "math__learning-trajectories",
+    "url": "https://www.learningtrajectories.org/math/learning-trajectories",
+    "title": "Learning Trajectories",
+    "sha256": "2cbdcc75211ea6049f4dc641619cea4f0adb119d2dfcd1881d572495e3361f57",
+    "status": 200,
+    "domain_urls": [
+      "https://www.learningtrajectories.org/math/learning-trajectories/2d-shapes",
+      "https://www.learningtrajectories.org/math/learning-trajectories/3d-shapes",
+      "https://www.learningtrajectories.org/math/learning-trajectories/adding-subtracting",
+      "https://www.learningtrajectories.org/math/learning-trajectories/classification-and-data-analysis",
+      "https://www.learningtrajectories.org/math/learning-trajectories/comparing-and-ordering-number",
+      "https://www.learningtrajectories.org/math/learning-trajectories/composing-2d-shapes",
+      "https://www.learningtrajectories.org/math/learning-trajectories/composing-3d-shapes",
+      "https://www.learningtrajectories.org/math/learning-trajectories/composing-numbers",
+      "https://www.learningtrajectories.org/math/learning-trajectories/counting",
+      "https://www.learningtrajectories.org/math/learning-trajectories/disembedding-shapes",
+      "https://www.learningtrajectories.org/math/learning-trajectories/fractions",
+      "https://www.learningtrajectories.org/math/learning-trajectories/measurement-angle-and-turn",
+      "https://www.learningtrajectories.org/math/learning-trajectories/measurement-area",
+      "https://www.learningtrajectories.org/math/learning-trajectories/measurement-length",
+      "https://www.learningtrajectories.org/math/learning-trajectories/measurement-volume",
+      "https://www.learningtrajectories.org/math/learning-trajectories/multiplying-dividing",
+      "https://www.learningtrajectories.org/math/learning-trajectories/patterns-structure-and-algebraic-thinking",
+      "https://www.learningtrajectories.org/math/learning-trajectories/spatial-orientation",
+      "https://www.learningtrajectories.org/math/learning-trajectories/spatial-visualization-and-imagery",
+      "https://www.learningtrajectories.org/math/learning-trajectories/subitizing"
+    ]
+  },
+  "unread_followups": [
+    "현재 공개20영역 중 미검토12영역과 기존/신규 영역의 미선정 수준·활동을 후속 대조한다. 원본 그림·영상·첨부PDF·게임·인용 원연구/교재·수치/서지의 정오표와 현재 한국어 과제의 실제 반응·진단 정확도·교수 효과는 별도다. 새4영역의 공개33수준 본문 읽기와 모든 활동/전체 사이트 검토를 구별한다.",
+    "목록과 첨부 링크의 존재는 그 내용의 읽기·도구 실행·현재 학생 검증을 뜻하지 않는다. 자체 수치·카드·접기 활동은 원문 문항/영상/학생 자료의 복사가 아니다."
+  ]
+}

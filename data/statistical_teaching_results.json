@@ -1,0 +1,53 @@
+{
+  "date": "2026-11-04",
+  "data_kind": "fictional_teaching_data",
+  "mean_known_sigma6": {
+    "n": 9,
+    "mean": 25.0,
+    "sample_sd": 4.58257569495584,
+    "se": 2.0,
+    "critical": 1.9599639845400536,
+    "lower": 21.080072030919894,
+    "upper": 28.919927969080106,
+    "method": "normal_known_sigma",
+    "confidence": 0.95
+  },
+  "mean_unknown_sigma": {
+    "n": 9,
+    "mean": 25.0,
+    "sample_sd": 4.58257569495584,
+    "se": 1.5275252316519465,
+    "critical": 2.306004135204205,
+    "lower": 21.47752049918185,
+    "upper": 28.52247950081815,
+    "method": "student_t",
+    "confidence": 0.95
+  },
+  "proportion": {
+    "n": 200,
+    "successes": 120,
+    "estimate": 0.6,
+    "se": 0.034641016151377546,
+    "critical": 1.9599639845400536,
+    "lower": 0.5321048559554297,
+    "upper": 0.6678951440445703,
+    "method": "normal_approximation",
+    "confidence": 0.95
+  },
+  "test_mu20": {
+    "statistic": 3.273268353539886,
+    "df": 8,
+    "p_value": 0.011300882018521863,
+    "null_mean": 20,
+    "alternative": "two-sided"
+  },
+  "criticals_975": {
+    "normal": 1.9599639845400536,
+    "t5": 2.5705818356363466,
+    "t30": 2.042272456301305
+  },
+  "binomial100": {
+    "exact_45_to_55": 0.7287469759261652,
+    "normal_with_correction": 0.7286678781072347
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "source_id": "OPENSTAX_STATS_TEST",
+  "source_url": "https://openstax.org/books/introductory-statistics-2e/pages/9-2-outcomes-and-the-type-i-and-type-ii-errors",
+  "source_asset_kind": "publisher_html",
+  "source_asset_sha256": "47fa4fd55cb97efe0464c78d1671ecf8882ce622b954acd5b7395051e7c81558",
+  "source_asset_redistributed": false,
+  "date": "2026-11-05",
+  "reviewer": "Codex",
+  "contains_source_full_text": false,
+  "source_pdf_redistributed": false,
+  "pdf_read": false,
+  "original_page_layout_review": false,
+  "reading_log": [
+    "공식9장 도입의 목표·모수에 대한 주장·검정의5단계를 모두 읽었다. 그림9.1의 실제 사진 한 개를 시각적으로 확인했고 주소·해시를 기록했다. 사진으로 모든 개의 반점 수를 셀 수 있는 것은 아니다.",
+    "9.2절 전체, 표9.2의 참/거짓과 기각/기각하지 않음 네 조합,α·β·검정력의 정의, 예9.5~9.8과 확인9.5~9.8을 모두 읽었다.9.2에는 별도 삽입 이미지가 없으며 표9.2는HTML 표다.",
+    "오류 확률은 귀무모형 또는 특정 대립 모형을 조건으로 한다. 기각 뒤 귀무가설의 확률이나 개별 판단이 틀렸을 확률과 구별했다. β·검정력은 참 모수·표본 수·검정 규칙에 따라 달라진다.",
+    "원문이 제시한 오류 비용의 맥락을 제1종/제2종 중 어느 것이 항상 심각하다는 보편 순위로 전용하지 않았다. 자체 활동은 중립적인 가상 빈도·동전 모형·수 자료를 사용한다.9장 다른 절의 검정 계산법·부록·장말 연습 전체는 미대조다."
+  ],
+  "source_corrections": [
+    {
+      "kind": "source_claim_scope_qualification",
+      "location": "9장 도입 그림9.1의every Dalmatian has35spots 설명",
+      "observation": "모든 개체가 같은 반점 수를 갖는다는 주장과 모집단 평균에 대한 주장은 다르다.",
+      "action": "자체 활동은 개별 값·표본평균·모평균·모든 개체에 관한 명제를 구별한다. 평균 검정으로 모든 개체의 동일한 값을 입증하지 않는다. 공식 정오표의 확인이나 실제 동물 집단 조사로 표시하지 않는다."
+    },
+    {
+      "kind": "source_decision_language_qualification",
+      "location": "9.2절 표9.2와예9.6~9.8",
+      "observation": "사례의 일상어로 귀무가설을 믿는다는 설명을 쓰더라도 검정에서 기각하지 않음은 귀무가설의 증명이 아니다.",
+      "action": "자체 발문에는기각/기각하지 않음과 참/거짓을 별도로 명시한다. 특정 오류의 비용과 실제 상태를 확인하지 못한 판단을 구별한다."
+    }
+  ],
+  "observed_html_assets": [
+    {
+      "url": "https://openstax.org/books/introductory-statistics-2e/pages/9-2-outcomes-and-the-type-i-and-type-ii-errors",
+      "sha256": "47fa4fd55cb97efe0464c78d1671ecf8882ce622b954acd5b7395051e7c81558"
+    },
+    {
+      "url": "https://openstax.org/books/introductory-statistics-2e/pages/9-introduction",
+      "sha256": "dbbf4363ad5a7fe481113d76e0c5df532e81b66f2eae2e9533665fa480aed190"
+    }
+  ],
+  "observed_image_assets": [
+    {
+      "file": "openstax-test-intro-img01.webp",
+      "url": "https://openstax.org/apps/image-cdn/v1/f=webp/apps/archive/20260604.144757/resources/9d60d6a720383bc90ccf6147a5c0b51f043fbae2",
+      "sha256": "d5013f854f5f8dc07a607c2348516cb1a5063b27cefeb284b0f8e25f4deba235"
+    }
+  ],
+  "own_calculation_checks": "지정한 원문 예제의 구간·표본 수와 자체 과제의 정확한 분수·조건부 분모·이항 확률을 별도 계산했다. 모든 해답·실제 도구 화면·학생 반응의 검증은 아니다.",
+  "interpretation_limits": [
+    "교재의 수학적 설명을 지원하는 자료이며 독립 학생 실험·교수 효과 연구가 아니다.",
+    "신뢰수준·오류율의 모형 조건을 유지한다. 방법 비교·검정력 유한 예는 교사의 선택 확장이며 새 필수 이론을 추가하지 않는다."
+  ]
+}

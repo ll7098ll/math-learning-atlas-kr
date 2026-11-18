@@ -1,0 +1,18 @@
+{
+  "scope": "표본 수치 사례 및 기존 세 초안 보존 확인. 전체 수학적 타당성의 독립 심사 또는 학생 반응 검증이 아님.",
+  "numeric_checks": {
+    "부분곱": true,
+    "보상차이": true,
+    "연속받아내림": true,
+    "통분": true,
+    "분수곱": true,
+    "분수나눗셈": true,
+    "소수곱": true,
+    "들이합차": true,
+    "시간합차": true,
+    "겉넓이": true,
+    "부피": true,
+    "제곱세제곱단위": true
+  },
+  "original_pilots_unchanged": true
+}

@@ -1,0 +1,50 @@
+{
+  "source_id": "SANCHEZ_BARON_2015_PARABOLA",
+  "source_url": "https://funes.uniandes.edu.co/funes-documentos/algunas-dificultades-de-aprendizaje-presentes-en-el-estudio-de-la-parabola-en-un-grupo-de-estudiantes-de-grado-once-del-colegio-maria-cano-j-t/",
+  "source_pdf_url": "https://funes.uniandes.edu.co/wp-content/uploads/tainacan-items/32454/1244795/S25C325A1nchez2015Algunas.pdf",
+  "source_asset_kind": "pdf",
+  "source_pdf_sha256": "5a9082a57791d42b61d08c26d65b711d4a3e2d77b4651258a384e7f86d479ce7",
+  "pdf_pages": 7,
+  "selected_text_pages": [
+    1,
+    3,
+    4,
+    5,
+    6
+  ],
+  "visual_pdf_pages": [
+    6
+  ],
+  "rendered_page_sha256": {
+    "6": "b999b781e0eb7bcad012be51b4ef8493a6bf131e88a3a5e414f80ae03256d7a1"
+  },
+  "date": "2026-11-10",
+  "reviewer": "Codex",
+  "read_scope": "보고서의 표집, 종이와 GeoGebra 활동, 명령 사용 관찰과 사전·사후 그래프의 표기를 확인했다.",
+  "empirical_scope": {
+    "design": "사전 검사, 종이와 도구를 이용한 수업 활동, 사후 검사의 질적 사례 연구.",
+    "sample_description": "보고타 María Cano 학교 11학년 한 반 30명에서 학업 성취를 고려해 선택한 6명.",
+    "inference_limit": "여섯 학생의 사례 보고다. 그래프는 하위 범주 이름과 채점 대응을 제시하지 않아 개별 개념의 점수로 해석할 수 없다.",
+    "student_outcome_study": true,
+    "causal_effect_established": false,
+    "local_effect_tested": false
+  },
+  "contains_source_full_text": false,
+  "source_pdf_redistributed": false,
+  "reading_log": [
+    "보고서의 표집, 종이와 GeoGebra 활동, 명령 사용 관찰과 사전·사후 그래프의 표기를 확인했다."
+  ],
+  "source_corrections": [
+    {
+      "location": "정의·표·학생 응답",
+      "issue": "PDF 6쪽 그림의 하위 범주 1~7과 수준의 대응 원자료는 확인하지 못했다. 막대 높이에 개념 이름을 부여하거나 효과량을 추정하지 않았다."
+    }
+  ],
+  "conic_review": {
+    "class_n": 30,
+    "cases": 6,
+    "grade": 11,
+    "graph_subcategories": 7,
+    "graph_subcategory_labels_named": false
+  }
+}

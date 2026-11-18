@@ -1,0 +1,45 @@
+{
+  "scope": "Structure audit only. Cycles in semantic links are not errors or evidence of learning order.",
+  "source_sha256": "3192a825a5ee5943b764b8cbf8ce0a26654fac1990783b74a8c776d4d2082f93",
+  "standards": 435,
+  "elements": 1879,
+  "relation_records": 3652,
+  "relation_types": {
+    "requires_for_task": 7,
+    "meaning_connection": 1379,
+    "generalizes": 135,
+    "contrasts": 7,
+    "has_subskill": 2124
+  },
+  "standard_relation_records": 1518,
+  "standard_relation_types": {
+    "meaning_connection": 1376,
+    "generalizes": 135,
+    "contrasts": 7
+  },
+  "task_requirement_target_count": 3,
+  "explicit_instructional_sequences": 0,
+  "secondary_prior_mentions": 313,
+  "secondary_onward_mentions": 313,
+  "all_standard_edges_as_directed": {
+    "cyclic_components": 3,
+    "nodes_in_cyclic_components": 6,
+    "largest_component": 2,
+    "sample": [
+      [
+        "standard:12수과02-03",
+        "standard:12인수04-04"
+      ],
+      [
+        "standard:12기하02-05",
+        "standard:12미적Ⅱ-03-06"
+      ]
+    ]
+  },
+  "generalizes_only": {
+    "cyclic_components": 0,
+    "nodes_in_cyclic_components": 0,
+    "largest_component": 0,
+    "sample": []
+  }
+}

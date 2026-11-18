@@ -1,0 +1,16 @@
+{
+  "status": "pass",
+  "standards": 435,
+  "elementary": 121,
+  "middle": 60,
+  "high": 254,
+  "high_school_subjects": 15,
+  "visually_corrected_records": 29,
+  "detailed_analysis_drafts": 435,
+  "reviewed_analyses": 0,
+  "student_validated_analyses": 0,
+  "elements": 1879,
+  "relations": 3652,
+  "sources": 176,
+  "checked_markdown_files": 500
+}

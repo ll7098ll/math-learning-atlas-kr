@@ -1,0 +1,53 @@
+import fs from 'node:fs/promises';
+import path from 'node:path';
+import assert from 'node:assert/strict';
+import {fileURLToPath} from 'node:url';
+const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
+const dist=path.join(root,'portal/math-atlas/dist');
+const read=async p=>JSON.parse(await fs.readFile(path.join(dist,p),'utf8'));
+const original=JSON.parse(await fs.readFile(path.join(root,'data/standards.json'),'utf8'));
+globalThis.fetch=async raw=>{const name=decodeURIComponent(String(raw).split('?')[0]);return {ok:true,json:()=>read(name)};};
+globalThis.window={};
+const store=await import('../portal/math-atlas/dist/modules/store.mjs');
+const {parse}=await import('../portal/math-atlas/dist/modules/router.mjs');
+const {overview,catalogPage}=await import('../portal/math-atlas/dist/modules/catalog.mjs');
+const {standardPage}=await import('../portal/math-atlas/dist/modules/detail.mjs');
+await store.initialize();
+const {catalog}=store;
+assert.equal(catalog.standards.length,435);
+assert.deepEqual(catalog.standards.map(s=>s.code),original.standards.map(s=>s.code));
+for(const [scope,count] of Object.entries({e:121,m:60,h:254,em:181,mh:314,all:435}))assert.equal(store.select(new URLSearchParams({scope})).length,count);
+const expanded=overview(new URLSearchParams({density:'expanded'}));
+assert.equal((expanded.match(/data-standard=/g)||[]).length,435);
+for(const scope of ['e','m','h']){
+ const html=overview(new URLSearchParams({scope,density:'expanded'}));
+ assert.equal((html.match(/data-standard=/g)||[]).length,store.select(new URLSearchParams({scope})).length);
+ if(scope==='h')assert.equal((html.match(/class="course-block"/g)||[]).length,15);
+}
+const bundle=await store.connections();assert.equal(bundle.version,catalog.version);
+const originalRelations=JSON.parse(await fs.readFile(path.join(root,'data/relations.json'),'utf8')).relations;
+assert.equal(bundle.relations.length,originalRelations.length);
+let details=0;
+for(const s of catalog.standards){
+ const raw=await read('content/standards/'+s.code+'.json'),a=await store.detail(s.code);
+ assert.equal(raw.version,catalog.version,s.code);
+ assert(a.task.trim(),s.code+': missing representative task');assert(a.stepObjects.length&&a.probeObjects.length,s.code);
+ assert(a.stepObjects.every(x=>x.label&&x.meaning),s.code);assert(a.probeObjects.every(x=>x.question&&x.expected),s.code);
+ const html=await standardPage(new URLSearchParams({code:s.code,scope:'e'}));
+ assert(html.includes('공식 성취기준')&&html.includes('id="diagnosis"')&&html.includes('id="references"'),s.code);
+ assert(!html.includes('undefined')&&!html.includes('[object Object]'),s.code);
+ assert(!html.includes('<dialog'),s.code);details++;
+}
+for(const code of ['6수01-10','6수02-03','6수03-14'])assert((await store.detail(code)).paths.length,code+': missing alternative paths');
+assert((await store.detail('9수02-22')).sourceNotes.length);
+assert((await store.detail('10공수2-03-04')).correction);
+assert.equal(parse('#view=map&scope=m&q=분수').get('view'),'catalog');
+assert.equal(parse('#view=explore&code=6수02-03').get('view'),'connections');
+assert.equal(parse('#view=standard&code=6수02-03&section=diagnosis').get('section'),'diagnosis');
+assert.equal(parse('#view=bogus').get('view'),'overview');
+assert((await standardPage(new URLSearchParams({code:'missing'}))).includes('등록되지 않은'));
+assert(catalogPage(new URLSearchParams({q:'no-such-concept-xx'})).includes('조건에 맞는'));
+const index=await fs.readFile(path.join(dist,'index.html'),'utf8');assert(!index.includes('data.js'));assert(index.includes('type="module"'));
+const bytes=(await fs.stat(path.join(dist,'content/catalog.json'))).size;
+assert(bytes<500000,'Initial index exceeds 500kB');
+console.log(JSON.stringify({status:'pass',standards:435,renderedDetails:details,courses:15,relations:bundle.relations.length,indexBytes:bytes,checks:'full corpus, school scopes, independent detail, normalized fields, source notes, versions, legacy routes, empty states, split loading'}));

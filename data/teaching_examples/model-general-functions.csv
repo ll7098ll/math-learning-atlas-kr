@@ -1,0 +1,95 @@
+data_kind,function_id,x,y,defined,domain_component,parameter,meaning
+model_calculation,exp_2,-2,0.25,true,0,base=2,y=base^x
+model_calculation,exp_2,-1,0.5,true,0,base=2,y=base^x
+model_calculation,exp_2,0,1,true,0,base=2,y=base^x
+model_calculation,exp_2,1,2,true,0,base=2,y=base^x
+model_calculation,exp_2,2,4,true,0,base=2,y=base^x
+model_calculation,exp_2,3,8,true,0,base=2,y=base^x
+model_calculation,log_2,0,,false,0,base=2,y=log_base(x); x>0
+model_calculation,log_2,0.125,-3.0,true,0,base=2,y=log_base(x); x>0
+model_calculation,log_2,0.25,-2.0,true,0,base=2,y=log_base(x); x>0
+model_calculation,log_2,0.5,-1.0,true,0,base=2,y=log_base(x); x>0
+model_calculation,log_2,1,0.0,true,0,base=2,y=log_base(x); x>0
+model_calculation,log_2,2,1.0,true,0,base=2,y=log_base(x); x>0
+model_calculation,log_2,4,2.0,true,0,base=2,y=log_base(x); x>0
+model_calculation,log_2,8,3.0,true,0,base=2,y=log_base(x); x>0
+model_calculation,exp_half,-2,4.0,true,0,base=0.5,y=base^x
+model_calculation,exp_half,-1,2.0,true,0,base=0.5,y=base^x
+model_calculation,exp_half,0,1.0,true,0,base=0.5,y=base^x
+model_calculation,exp_half,1,0.5,true,0,base=0.5,y=base^x
+model_calculation,exp_half,2,0.25,true,0,base=0.5,y=base^x
+model_calculation,exp_half,3,0.125,true,0,base=0.5,y=base^x
+model_calculation,log_half,0,,false,0,base=0.5,y=log_base(x); x>0
+model_calculation,log_half,0.125,3.0,true,0,base=0.5,y=log_base(x); x>0
+model_calculation,log_half,0.25,2.0,true,0,base=0.5,y=log_base(x); x>0
+model_calculation,log_half,0.5,1.0,true,0,base=0.5,y=log_base(x); x>0
+model_calculation,log_half,1,-0.0,true,0,base=0.5,y=log_base(x); x>0
+model_calculation,log_half,2,-1.0,true,0,base=0.5,y=log_base(x); x>0
+model_calculation,log_half,4,-2.0,true,0,base=0.5,y=log_base(x); x>0
+model_calculation,log_half,8,-3.0,true,0,base=0.5,y=log_base(x); x>0
+model_calculation,sin,-3.141592653589793,-1.2246467991473532e-16,true,0,x=-4*pi/4,angle in radians
+model_calculation,cos,-3.141592653589793,-1.0,true,0,x=-4*pi/4,angle in radians
+model_calculation,tan,-3.141592653589793,1.2246467991473532e-16,true,-1,x=-4*pi/4,do not connect different domain components
+model_calculation,sin,-2.356194490192345,-0.7071067811865476,true,0,x=-3*pi/4,angle in radians
+model_calculation,cos,-2.356194490192345,-0.7071067811865475,true,0,x=-3*pi/4,angle in radians
+model_calculation,tan,-2.356194490192345,1.0000000000000002,true,-1,x=-3*pi/4,do not connect different domain components
+model_calculation,sin,-1.5707963267948966,-1.0,true,0,x=-2*pi/4,angle in radians
+model_calculation,cos,-1.5707963267948966,6.123233995736766e-17,true,0,x=-2*pi/4,angle in radians
+model_calculation,tan,-1.5707963267948966,,false,,x=-2*pi/4,do not connect different domain components
+model_calculation,sin,-0.7853981633974483,-0.7071067811865476,true,0,x=-1*pi/4,angle in radians
+model_calculation,cos,-0.7853981633974483,0.7071067811865476,true,0,x=-1*pi/4,angle in radians
+model_calculation,tan,-0.7853981633974483,-0.9999999999999999,true,0,x=-1*pi/4,do not connect different domain components
+model_calculation,sin,0.0,0.0,true,0,x=0*pi/4,angle in radians
+model_calculation,cos,0.0,1.0,true,0,x=0*pi/4,angle in radians
+model_calculation,tan,0.0,0.0,true,0,x=0*pi/4,do not connect different domain components
+model_calculation,sin,0.7853981633974483,0.7071067811865476,true,0,x=1*pi/4,angle in radians
+model_calculation,cos,0.7853981633974483,0.7071067811865476,true,0,x=1*pi/4,angle in radians
+model_calculation,tan,0.7853981633974483,0.9999999999999999,true,0,x=1*pi/4,do not connect different domain components
+model_calculation,sin,1.5707963267948966,1.0,true,0,x=2*pi/4,angle in radians
+model_calculation,cos,1.5707963267948966,6.123233995736766e-17,true,0,x=2*pi/4,angle in radians
+model_calculation,tan,1.5707963267948966,,false,,x=2*pi/4,do not connect different domain components
+model_calculation,sin,2.356194490192345,0.7071067811865476,true,0,x=3*pi/4,angle in radians
+model_calculation,cos,2.356194490192345,-0.7071067811865475,true,0,x=3*pi/4,angle in radians
+model_calculation,tan,2.356194490192345,-1.0000000000000002,true,1,x=3*pi/4,do not connect different domain components
+model_calculation,sin,3.141592653589793,1.2246467991473532e-16,true,0,x=4*pi/4,angle in radians
+model_calculation,cos,3.141592653589793,-1.0,true,0,x=4*pi/4,angle in radians
+model_calculation,tan,3.141592653589793,-1.2246467991473532e-16,true,1,x=4*pi/4,do not connect different domain components
+model_calculation,sin,3.9269908169872414,-0.7071067811865475,true,0,x=5*pi/4,angle in radians
+model_calculation,cos,3.9269908169872414,-0.7071067811865477,true,0,x=5*pi/4,angle in radians
+model_calculation,tan,3.9269908169872414,0.9999999999999997,true,1,x=5*pi/4,do not connect different domain components
+model_calculation,sin,4.71238898038469,-1.0,true,0,x=6*pi/4,angle in radians
+model_calculation,cos,4.71238898038469,-1.8369701987210297e-16,true,0,x=6*pi/4,angle in radians
+model_calculation,tan,4.71238898038469,,false,,x=6*pi/4,do not connect different domain components
+model_calculation,sin,5.497787143782138,-0.7071067811865477,true,0,x=7*pi/4,angle in radians
+model_calculation,cos,5.497787143782138,0.7071067811865474,true,0,x=7*pi/4,angle in radians
+model_calculation,tan,5.497787143782138,-1.0000000000000004,true,2,x=7*pi/4,do not connect different domain components
+model_calculation,sin,6.283185307179586,-2.4492935982947064e-16,true,0,x=8*pi/4,angle in radians
+model_calculation,cos,6.283185307179586,1.0,true,0,x=8*pi/4,angle in radians
+model_calculation,tan,6.283185307179586,-2.4492935982947064e-16,true,2,x=8*pi/4,do not connect different domain components
+model_calculation,secant_square_at_1,-1.0,1.0,true,left,,x column is h; y=[(1+h)^2-1]/h; h!=0
+model_calculation,secant_square_at_1,-0.5,1.5,true,left,,x column is h; y=[(1+h)^2-1]/h; h!=0
+model_calculation,secant_square_at_1,-0.1,1.9,true,left,,x column is h; y=[(1+h)^2-1]/h; h!=0
+model_calculation,secant_square_at_1,-0.01,1.99,true,left,,x column is h; y=[(1+h)^2-1]/h; h!=0
+model_calculation,secant_square_at_1,-0.001,1.999,true,left,,x column is h; y=[(1+h)^2-1]/h; h!=0
+model_calculation,secant_square_at_1,0.0,,false,,,x column is h; y=[(1+h)^2-1]/h; h!=0
+model_calculation,secant_square_at_1,0.001,2.001,true,right,,x column is h; y=[(1+h)^2-1]/h; h!=0
+model_calculation,secant_square_at_1,0.01,2.01,true,right,,x column is h; y=[(1+h)^2-1]/h; h!=0
+model_calculation,secant_square_at_1,0.1,2.1,true,right,,x column is h; y=[(1+h)^2-1]/h; h!=0
+model_calculation,secant_square_at_1,0.5,2.5,true,right,,x column is h; y=[(1+h)^2-1]/h; h!=0
+model_calculation,secant_square_at_1,1.0,3.0,true,right,,x column is h; y=[(1+h)^2-1]/h; h!=0
+model_calculation,signed_line,-1,-1,true,0,,y=x; signed integral and geometric area differ
+model_calculation,signed_line,-0.5,-0.5,true,0,,y=x; signed integral and geometric area differ
+model_calculation,signed_line,0,0,true,0,,y=x; signed integral and geometric area differ
+model_calculation,signed_line,0.5,0.5,true,0,,y=x; signed integral and geometric area differ
+model_calculation,signed_line,1,1,true,0,,y=x; signed integral and geometric area differ
+model_calculation,signed_line,1.5,1.5,true,0,,y=x; signed integral and geometric area differ
+model_calculation,signed_line,2,2,true,0,,y=x; signed integral and geometric area differ
+model_calculation,limit_hole,0,1,true,left,,y=(x^2-1)/(x-1); x!=1
+model_calculation,limit_hole,0.5,1.5,true,left,,y=(x^2-1)/(x-1); x!=1
+model_calculation,limit_hole,0.9,1.9,true,left,,y=(x^2-1)/(x-1); x!=1
+model_calculation,limit_hole,0.99,1.99,true,left,,y=(x^2-1)/(x-1); x!=1
+model_calculation,limit_hole,1,,false,,,y=(x^2-1)/(x-1); x!=1
+model_calculation,limit_hole,1.01,2.01,true,right,,y=(x^2-1)/(x-1); x!=1
+model_calculation,limit_hole,1.1,2.1,true,right,,y=(x^2-1)/(x-1); x!=1
+model_calculation,limit_hole,1.5,2.5,true,right,,y=(x^2-1)/(x-1); x!=1
+model_calculation,limit_hole,2,3,true,right,,y=(x^2-1)/(x-1); x!=1

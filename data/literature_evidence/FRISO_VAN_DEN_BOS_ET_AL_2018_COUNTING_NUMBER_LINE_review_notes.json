@@ -1,0 +1,81 @@
+{
+  "source_id": "FRISO_VAN_DEN_BOS_ET_AL_2018_COUNTING_NUMBER_LINE",
+  "source_url": "https://doi.org/10.3389/fpsyg.2018.00975",
+  "date": "2026-11-09",
+  "reviewer": "Codex",
+  "source_asset_kind": "pdf",
+  "source_pdf_sha256": "6f28b4a58f4a990ff2e050208ca5c5c06d90bee4c33e1f179e7097b0397c6eac",
+  "source_pdf_redistributed": false,
+  "contains_source_full_text": false,
+  "read_scope": "출판판 초록, 표본·수업·도구·분석·표 2와 3·사후 비교·한계·이용 조건의 9쪽과 선정 판면 3쪽을 대조했다.",
+  "empirical_scope": {
+    "design": "사전 세기·연산 점수를 맞춘 세 조건의 준실험. 시점, 아동, 지도 소집단의 3수준 모형.",
+    "sample_description": "네덜란드 유치원 90명 참여, 여러 변인에서 이상치를 보인 1명 제외. 평균 5세 8개월.",
+    "inference_limit": "정규 수업 대비 결과와 두 활동군 직접 비교를 구분한다. 무작위 배정, 장기 추적, 개별 게임 효과, 국내 성취기준 달성은 확인하지 않았다.",
+    "student_outcome_study": true,
+    "causal_effect_established": false,
+    "local_effect_tested": false
+  },
+  "pdf_url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2018.00975/pdf",
+  "publisher_url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2018.00975/full",
+  "pdf_pages": 11,
+  "printed_pages": "1–11",
+  "selected_text_pages": [
+    1,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    11
+  ],
+  "visual_pdf_pages": [
+    6,
+    7,
+    8
+  ],
+  "rendered_page_sha256": {
+    "6": "65c1dcd727314e9f10b3949f78a2f259cde8af452eb018bb521921244cc2d09f",
+    "7": "3ae75a20a631ebbcb1b867b245d048ded9204ab6e6e96f45d4ada7c16d44ded0",
+    "8": "d6da2697452b95dfff78bb3843fe59ca021b1d1861a122dcfe48ea511f72d622"
+  },
+  "results": {
+    "participants": 90,
+    "excluded_outlier": 1,
+    "planned_sessions": 12,
+    "weeks": 6,
+    "minutes_per_session_approx": 20,
+    "posttest_after_last_session_weeks_max": 2,
+    "counting_vs_usual_time_interaction_B": {
+      "addition": 2.04,
+      "symbolic_number_line": 0.16,
+      "ENT_R": 1.69
+    },
+    "number_line_vs_usual_time_interaction_p": {
+      "addition": 0.34,
+      "symbolic_number_line": 0.08,
+      "ENT_R": 0.25
+    },
+    "number_line_vs_counting_post_hoc_p": {
+      "addition": 0.11,
+      "symbolic_number_line": 0.25,
+      "ENT_R": 0.45
+    }
+  },
+  "reading_log": [
+    "출판판 초록, 표본·수업·도구·분석·표 2와 3·사후 비교·한계·이용 조건의 9쪽과 선정 판면 3쪽을 대조했다.",
+    "분모와 비교 조건을 확인하고 전체 모형과 과제별 관찰을 구분했다."
+  ],
+  "source_corrections": [
+    {
+      "location": "PDF 1·5·6·8쪽",
+      "issue": "초록의 세기 접근만 효과적이라는 결론은 두 지도군 직접 비교 결과보다 넓다. 각 비교의 기준군을 구별한다."
+    },
+    {
+      "location": "PDF 4·6쪽",
+      "issue": "수직선 결과의 R²는 표시 위치와 목표 위치의 선형 관련이다. 점별 위치 오차의 크기와 별개다."
+    }
+  ]
+}

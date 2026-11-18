@@ -1,0 +1,62 @@
+{
+  "source_id": "EHRLICH_LEVINE_GOLDIN_MEADOW_2006",
+  "source_url": "https://doi.org/10.1037/0012-1649.42.6.1259",
+  "source_pdf_url": "https://cpb-us-w2.wpmucdn.com/voices.uchicago.edu/dist/c/1286/files/2018/09/The-importance-of-gesture-in-childrens-spatial-reasoning-23clak2.pdf",
+  "source_pdf_sha256": "7b7e063aab554c6c31c68a4b35f26e53e685a6ae507dd638c5f5cc09365521b2",
+  "date": "2026-11-09",
+  "reviewer": "Codex",
+  "read_scope": "인쇄 1259~1268쪽의 본문과 참고문헌을 텍스트로 확인하고 PDF 1·3~8쪽의 과제 그림·표·결과를 이미지로 대조했다.",
+  "contains_source_full_text": false,
+  "source_pdf_redistributed": false,
+  "publication": "Developmental Psychology, 42(6), 1259–1268",
+  "pdf_pages": 10,
+  "printed_pages": [
+    1259,
+    1268
+  ],
+  "text_pdf_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "visual_pdf_pages": [
+    1,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "visual_pdf_page_hashes": {
+    "1": "7351f7795e79c17f3397505d3c0e551d0c117bac2ab38de4644d039bef2ef968",
+    "3": "a832707758a6601247c2d4f89ca6c128987b2c0f89a0d564d51ff8c9ebde9f24",
+    "4": "63b917ba81e31ffd1091298242894c121fe9b9983e9ebd0035e698f57bc9760a",
+    "5": "c5d36e79537e47b62377b2ac91bc742551d4eca405aee5ed81772b7bc025020d",
+    "6": "4697ad6b96bd52119c51b8bde62127460cd5751c0bf149935c9bee54ef9e9046",
+    "7": "e05c0c776af97260acc2edfc111ba275109dd7d9e38c05e73a3d57a0a76c08e9",
+    "8": "4a97bf499246b792ea89317f70686b32b726174b73118bd5cf4bb4d129a1eff1"
+  },
+  "empirical_scope": {
+    "design": "randomized_conditions_matched_pretest_subset_and_postanswer_probe",
+    "sample_description": "5세 유아 80명이 사전검사를 받았다. 사전 점수와 성별을 기준으로 세 조건에 걸쳐 대응시킨 63명을 사전·사후 및 설명 분석에 사용했다.",
+    "inference_limit": "조각을 직접 만지지 않고 네 보기에서 고른다. 정답을 고른 뒤의 설명에서 손짓과 점수의 관련을 확인했으며 손짓 자체의 인과 효과는 검증하지 않았다.",
+    "student_outcome_study": true,
+    "causal_effect_established": false,
+    "local_effect_tested": false
+  },
+  "reading_log": [
+    "PDF 1~3쪽에서 서지·연구 질문·80명의 참여자와 네 종류의 변환 과제를 확인했다. 그림 1은 조각 두 개와 선택지 네 개를 보여 준다.",
+    "PDF 4~5쪽에서 사전·사후 각각 16문항, 중간 연습 또는 지도 12문항, 사후 설명 8문항을 확인했다. 세 조건 배정 뒤 사전 점수로 맞춘 표본을 분석했다.",
+    "PDF 6~8쪽의 설명 분석과 논의에서 말과 손짓의 코딩 범주, 이동 손짓의 상관, 별도 손짓 지도 조건이 없었다는 한계를 확인했다.",
+    "PDF 9~10쪽에서 후속 연구 제안과 참고문헌을 확인했다."
+  ],
+  "source_corrections": []
+}

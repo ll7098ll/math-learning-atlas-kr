@@ -1,0 +1,54 @@
+{
+  "source_id": "BAKER_1996_INDUCTION",
+  "source_url": "https://eric.ed.gov/?id=ED396931",
+  "source_pdf_url": "https://files.eric.ed.gov/fulltext/ED396931.pdf",
+  "source_asset_kind": "pdf",
+  "source_pdf_sha256": "7229f27a3c692bf05ea748e5c8219a778f7dfcc368208d6333f6d2bced0b872b",
+  "pdf_pages": 21,
+  "selected_text_pages": [
+    1,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "visual_pdf_pages": [
+    10,
+    11
+  ],
+  "rendered_page_sha256": {
+    "10": "10b36f93599688449a5ba1568149c7d0695173bcb9aaca6b845713d1564cd320",
+    "11": "e728f24a255e8def98340e6b4180b8d97edd2603c00c2812d1e7991847a7261e"
+  },
+  "date": "2026-11-12",
+  "reviewer": "Codex",
+  "read_scope": "서면 증명 작성·분석과 21명 후속 면담의 방법, 표 1의 기호 해석, 시작 단계 누락 및 일반적 연결에 대한 결과를 확인했다.",
+  "empirical_scope": {
+    "design": "초기 학습자의 증명 작성·네 증명 분석 과제와 선별 면담.",
+    "sample_description": "미국 인디애나 고교 심화 대수 40명과 대학 디지털 컴퓨팅 기초 13명, 후속 면담 21명.",
+    "inference_limit": "고교 40명 중 해당 시작 단계 분석 문항 완료자는 39명이다. 대학생 13명과 분모를 합치지 않으며 복수 시작 단계·복잡한 계승 과제를 국내 필수 범위로 추가하지 않는다.",
+    "student_outcome_study": true,
+    "causal_effect_established": false,
+    "local_effect_tested": false
+  },
+  "contains_source_full_text": false,
+  "source_pdf_redistributed": false,
+  "reading_log": [
+    "서면 증명 작성·분석과 21명 후속 면담의 방법, 표 1의 기호 해석, 시작 단계 누락 및 일반적 연결에 대한 결과를 확인했다."
+  ],
+  "source_corrections": [
+    {
+      "location": "방법·문항·표·요약의 대조",
+      "issue": "시작 단계 누락 결과의 분모는 고교 모집 40명이 아니라 문항 완료 39명이다. 원문의 about half라는 대학생 기술을 임의 정수로 만들지 않는다."
+    }
+  ],
+  "sequence_induction_review": {
+    "high_school_n": 40,
+    "university_n": 13,
+    "interview_n": 21,
+    "missing_base_item_high_school_completed_n": 39,
+    "missing_base_not_recognized_n": 30
+  }
+}

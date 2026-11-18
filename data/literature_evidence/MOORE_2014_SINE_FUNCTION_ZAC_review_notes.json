@@ -1,0 +1,56 @@
+{
+  "source_id": "MOORE_2014_SINE_FUNCTION_ZAC",
+  "source_url": "https://doi.org/10.5951/jresematheduc.45.1.0102",
+  "source_pdf_url": "https://www.squaresandcircles.me/_files/ugd/bcc7ab_a7049a81ff8a4abc9f35fc95e0e42421.pdf",
+  "source_asset_kind": "pdf",
+  "source_pdf_sha256": "ceb90daf3d1b2556b522fb70c11228203ef0994635832b781ee74f4d2f874d2f",
+  "pdf_pages": 38,
+  "selected_text_pages": [
+    1,
+    2,
+    12,
+    13,
+    21,
+    22,
+    32
+  ],
+  "visual_pdf_pages": [
+    21,
+    32
+  ],
+  "rendered_page_sha256": {
+    "21": "6ad8ff6972054e2dbde5e62ff33bfe370ba30228f5d890d37d64e125735dc92f",
+    "32": "f44a993181888f9d2d4423283fc7e7df260fa2df91ac8418a7bbb84dffc95e17"
+  },
+  "date": "2026-11-10",
+  "reviewer": "Codex",
+  "read_scope": "같은 수업 실험의 Zac 사례에서 호 길이로 각을 구하고 사인·코사인을 좌표로 바꾸는 그림 12·13과 직각삼각형 설명을 대조했다.",
+  "empirical_scope": {
+    "design": "다섯 차례 수업 실험에 참여한 학생 한 명의 사인 의미를 상세 분석.",
+    "sample_description": "미국 대학 예비 미적분 수강생 한 명. 앞선 각 측정 논문에 포함된 동일 사례.",
+    "inference_limit": "한 학생의 수행이다. 2013년 각 측정 연구와 참가 사례를 합산하지 않으며 모든 사분면이나 세 함수의 주기 성취를 입증하지 않는다.",
+    "student_outcome_study": true,
+    "causal_effect_established": false,
+    "local_effect_tested": false
+  },
+  "contains_source_full_text": false,
+  "source_pdf_redistributed": false,
+  "reading_log": [
+    "같은 수업 실험의 Zac 사례에서 호 길이로 각을 구하고 사인·코사인을 좌표로 바꾸는 그림 12·13과 직각삼각형 설명을 대조했다."
+  ],
+  "source_corrections": [
+    {
+      "location": "정의·표·학생 응답",
+      "issue": "그림 13과 각주 5에 따라 각의 단위 라디안과 좌표 길이의 비를 구별했다. 이 논문은 2013년 논문과 같은 수업 실험의 분석이다."
+    }
+  ],
+  "trigonometry_review": {
+    "focus_students": 1,
+    "sessions": 5,
+    "overlap_source": "MOORE_2013_ANGLE_MEASURE",
+    "radius_km": 2,
+    "arc_km": 2.2,
+    "angle_rad": 1.1,
+    "radian_and_coordinate_ratio_terminology_separated": true
+  }
+}

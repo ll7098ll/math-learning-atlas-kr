@@ -1,0 +1,69 @@
+{
+  "source_id": "NCETM_2021_GRAPHICAL_REPRESENTATIONS",
+  "source_url": "https://www.ncetm.org.uk/media/s05nyur0/ncetm_ks3_cc_4_2.pdf",
+  "source_asset_kind": "pdf",
+  "source_pdf_sha256": "bf9793b423ab24feb40e7be14558ae2574bb3d6ac724ff40a2dfbbcbe7d172fe",
+  "source_pdf_url": "https://www.ncetm.org.uk/media/s05nyur0/ncetm_ks3_cc_4_2.pdf",
+  "pdf_pages": 33,
+  "selected_text_pages": [
+    1,
+    2,
+    3,
+    7,
+    8,
+    9,
+    10,
+    13
+  ],
+  "visual_pdf_pages": [
+    6,
+    7,
+    8,
+    18,
+    19,
+    24
+  ],
+  "rendered_page_sha256": {
+    "6": "570f88ee1f3f83432d69062339cc9b7eb31c50d24fb5a43e7cc36c8847157895",
+    "7": "4ea9ea12154cb596f1444eec7cd7bf1a9eccb5a984c0dda4ffee4aa88c24f3bd",
+    "8": "2d75921d05deebc51a9e64f49a58de7448e871f7b7b5f3d177c7ef2ccd1c4d0b",
+    "18": "575b4abc399c421839af961b249fa16ff883b301d1110efa8c2c4daee94eb7c7",
+    "19": "39a38b3e9ed3ed253222b1415a208dd89cdbc4a8d56f58225fa6c1f51ef0861c",
+    "24": "d629e092ffde0b665cde22a7da753131e3647b1f7913243cab82b67576efd665"
+  },
+  "date": "2026-11-13",
+  "reviewer": "Codex",
+  "read_scope": "교사용 목적·판권 연도와 좌표-식-그래프의 대응, 직선·수직선, 기울기와 절편, 이차함수 용어의 지정 부분을 읽고 수식·도식을 대조했다.",
+  "empirical_scope": {
+    "design": "교사 전문성 개발을 위한 개념·예시·토의 발문. 직접 복제하는 교과서 수업안과 구별.",
+    "sample_description": "학생 표본 없음. 예상 난점과 가상 응답은 실제 학생의 반응 빈도가 아니다.",
+    "inference_limit": "원장의 2021은 마지막 인쇄 판권 연도이며 정확한 발행일을 확정하지 않는다. 수직선 x=a를 y의 x에 대한 함수로 쓰지 않는다. 원문의 바뀐 기울기 설명·그래프 표기와 빠진 이차항 계수 조건을 기록했다.",
+    "student_outcome_study": false,
+    "causal_effect_established": false,
+    "local_effect_tested": false
+  },
+  "contains_source_full_text": false,
+  "source_pdf_redistributed": false,
+  "reading_log": [
+    "교사용 목적·판권 연도와 좌표-식-그래프의 대응, 직선·수직선, 기울기와 절편, 이차함수 용어의 지정 부분을 읽고 수식·도식을 대조했다."
+  ],
+  "source_corrections": [
+    {
+      "location": "방법·문항·표·그림·서술의 대조",
+      "issue": "인쇄 판권 2019·2021을 함께 보존했다. PDF 7쪽 x=a는 y의 x에 대한 함수가 아니다. 8쪽의 rate at which x changes with respect to y는 같은 문서 6쪽의 Δy/Δx 및 앞의 y 증가 질문과 반대다. 18쪽 표와 그림의 직선은 y=3x−2인데 그림 표기는 +2다. 용어표 이차함수에 빠진 a≠0도 자체 과제에 명시했다. 의도적 가상 오답과 이러한 문서 불일치를 구별한다."
+    }
+  ],
+  "middle_algebra_function_review": {
+    "printed_copyright_years": [
+      2019,
+      2021
+    ],
+    "registry_year_is_last_printed_copyright": true,
+    "exact_publication_date_not_established": true,
+    "page_7_vertical_line_not_y_function": true,
+    "page_8_gradient_sentence_reversed": true,
+    "page_18_graph_label": "y=3x+2",
+    "correct_table_and_graph_equation": "y=3x-2",
+    "quadratic_nonzero_leading_coefficient_explicit_in_own_tasks": true
+  }
+}

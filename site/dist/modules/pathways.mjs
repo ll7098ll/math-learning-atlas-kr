@@ -1,0 +1,24 @@
+import {catalog,standard,inScope} from './store.mjs';
+import {esc,url,heading,scopeSelect,standardURL} from './ui.mjs';
+export function pathForStandard(map,code,scope='all'){
+ const n=map.nodes.find(n=>n.id===map.focus&&n.standards.includes(code))||map.nodes.find(n=>n.standards.includes(code));
+ const route=map.routes.find(r=>map.claims.some(c=>c.routes.includes(r.id)&&[c.source,c.target].includes(n.id)))||map.routes[0];
+ return {map:map.id,route:route.id,target:n.id,scope};
+}
+export function hierarchyHome(p,data,flows,index,tasks){
+ const q=(p.get('q')||'').trim().toLowerCase(),scope=p.get('scope')||'all';
+ const matchesCode=(t,c)=>{const s=standard(c);return inScope(s,scope)&&[t.title,t.question,c,s.title,s.statement].join(' ').toLowerCase().includes(q);};
+ const review=p.get('review')||'',byConcept=new Map((index?.groups||[]).map(g=>[g.id,{...g,...g.by_scope?.[scope]}]));
+ const matches=flows.strands.filter(t=>t.stages.some(s=>s.codes.some(c=>matchesCode(t,c)))).filter(t=>!review||(review==='reviewed'?false:byConcept.get(t.id)?.hierarchy_status===review));
+ let recent=[];try{recent=JSON.parse(localStorage.getItem('atlas-recent-pathways')||'[]');}catch{}
+ const recentLinks=Array.isArray(recent)?recent.map(r=>{const m=data.hierarchy.maps.find(m=>m.id===r.map),n=m?.nodes.find(n=>n.id===r.target);return m&&n?`<a class="button" href="${url('hierarchy',{map:m.id,route:r.route,target:n.id,scope})}">${esc(n.title)} ↗</a>`:'';}).join(''):'';
+ const pilotFor=code=>data.hierarchy.maps.filter(m=>m.nodes.some(n=>n.standards.includes(code)));
+ const coverage=tasks?.coverage;
+ const progress=coverage?`전체 원장: ${coverage.goal_decomposed_standards}개 기준 · ${coverage.constituent_goals}개 하위 목표 · ${coverage.active_cases}개 현재 과제 설계`:'성취기준의 하위 목표 · 과제별 조건과 활용 연결';
+ return (recentLinks?`<nav class="pathway-recent" aria-label="최근 목표"><small>최근 살펴본 목표</small>${recentLinks}</nav>`:'')+heading('CONNECTIONS & PATHWAYS','연결과 위계','어떤 기초가 필요하고 어디로 이어지는지, 개념과 성취기준에서 찾아보세요.')+
+ `<div class="pathway-intro"><strong>${catalog.standards.filter(s=>inScope(s,scope)).length}개 성취기준 · 학교급별 개념 연결 탐색</strong><p>${esc(progress)}를 제공합니다. 목표별 위계에서 과제의 출발 조건과 다음에 활용되는 목표를 함께 살펴보세요.</p><p>46개 개념군의 의미 확장·대조·연결과 과제별 조건은 별도로 표시합니다. 자체 설계와 독립 검토·학생 반응 검증을 구별합니다.</p></div><form class="pathway-search" data-filter="hierarchy"><label>개념·코드·성취기준 검색<input type="search" name="q" value="${esc(p.get('q')||'')}" placeholder="예: 분수, 함수, 6수02-03"></label>${scopeSelect(scope)}<label>개념군의 의미 확장 상태<select name="review"><option value="">전체 상태</option>${[["expansion_draft","의미 확장 초안"],["order_unreviewed","방향 기록 미검토"],["reviewed","독립 검토 완료 0개"]].map(([v,t])=>`<option value="${v}" ${v===review?"selected":""}>${t}</option>`).join('')}</select></label><button class="button primary">찾기</button></form><section><h2>전체 개념에서 목표 찾기</h2><p>${matches.length}개 개념 · 기준을 고른 뒤 목표별 위계나 과제·조건을 열어보세요. 학교급 밖의 조건도 목표 화면에서 유지됩니다.</p><div class="pathway-cards">${!matches.length?'<p class="cp-unknown">선택한 상태나 검색 조건에 맞는 개념군이 없습니다. 독립 검토 완료 개념군은 아직 없습니다.</p>':''}${matches.map(t=>{
+ const codes=t.stages.flatMap(s=>s.codes).filter(c=>matchesCode(t,c));
+ if(!codes.length)return '';
+ return `<details class="panel pathway-card" data-open="path-${t.id}" ${q?'open':''}><summary><strong>${esc(t.title)}</strong><small>${codes.length}개 기준</small><span class="cp-status draft">목표·과제별 위계 초안</span></summary><p>${esc(t.question)}</p><a class="button" data-concept-pathway="${t.id}" href="${url('hierarchy',{concept:t.id,scope})}">이 개념군의 의미 확장과 연결 →</a><a class="text-link" href="${url('overview',{mode:'flow',strand:t.id})}">학교급을 넘는 개념 연결 보기 →</a><div class="pathway-standards">${codes.map(code=>{const s=standard(code),pilots=pilotFor(code);return `<article><small>${esc(code)} · ${esc(s.level)}</small><h3>${esc(s.title)}</h3><a class="button primary" href="${url('hierarchy',{mode:'goals',target:code,scope})}">목표별 위계 보기 →</a><a class="button" href="${url('hierarchy',{mode:'tasks',target:code,scope})}">과제와 전체 조건</a><a class="button" href="${url('hierarchy',{concept:t.id,target:code,scope})}">의미 확장과 연결</a><a class="button" href="${url('connections',{code,scope})}">연결 근거</a> <a class="text-link" href="${standardURL(code)}">상세 분석</a>${pilots.map(m=>`<a class="text-link" href="${url('hierarchy',pathForStandard(m,code,scope))}">${esc(m.title)} 시범 →</a>`).join('')}<p class="meta">명시한 과제·경로의 자체 설계 · 독립 검토 전</p></article>`;}).join('')}</div></details>`;
+ }).join('')}</div></section><section class="pathway-pilots"><h2>기존 세 개념군의 시범 설계</h2><div class="pathway-cards">${data.hierarchy.maps.map(m=>`<a class="panel pathway-card" href="${url('hierarchy',{map:m.id,scope})}"><span class="pill">자체 점검 초안</span><h3>${esc(m.title)}</h3><p>${esc(m.task)}</p><strong>기초와 경로 살펴보기 →</strong></a>`).join('')}</div></section><p class="notice">관계가 기록되지 않았다는 사실은 선수 개념이 없다는 뜻이 아닙니다. 독립 검토와 학생 반응 검증은 별도로 진행합니다.</p>`;
+}

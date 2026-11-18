@@ -1,0 +1,64 @@
+{
+  "source_id": "SAM_2013_NORMAL_SELECTED",
+  "source_url": "https://amsi.org.au/ESA_Senior_Years/PDF/ExpoNormDist4f.pdf",
+  "source_asset_kind": "pdf",
+  "source_pdf_sha256": "e6464856d48754c66692eacb60f3d0352932215762bac952251a1472dfa50fb1",
+  "source_pdf_url": "https://amsi.org.au/ESA_Senior_Years/PDF/ExpoNormDist4f.pdf",
+  "pdf_pages": 21,
+  "selected_text_pages": [
+    2,
+    3,
+    9,
+    10,
+    11,
+    12,
+    13
+  ],
+  "visual_pdf_pages": [
+    9,
+    10,
+    11,
+    12,
+    13
+  ],
+  "rendered_page_sha256": {
+    "9": "3bdd0a79ccb6452947ce938b931a822bd417399f4fa05b27d53836f26f8c2adc",
+    "10": "ddaeed7b213b6628660b221498317fb1f5bc4f0bb695a2806295c4982916d5e7",
+    "11": "87419a215eaa7fb78fafca7298474899d135ee2745ea54955fb4e6762dfa2dfa",
+    "12": "62177ecdc2797b8e2fd96a97ba1e43869ac07b14a266642f0a11e138b009e014",
+    "13": "1f7226637c74deeab248bde930da5336a477f8355b8604eaf64052720fbd05a9"
+  },
+  "date": "2026-11-13",
+  "reviewer": "Codex",
+  "read_scope": "서지·목차와 정규분포의 평균/분산 표기·표준편차의 폭·밀도와 구간 확률·표준화 및 누적확률 차를 지정 추출문 7쪽과 실제 판면 5쪽에서 대조했다.",
+  "empirical_scope": {
+    "design": "교사용 수학 정의·식·수치 예·모형 그림의 지정 본문과 실제 판면 대조",
+    "sample_description": "학생 표본·응답 분석이나 국내 과제 효과 연구가 아님",
+    "inference_limit": "정규분포는 σ>0을 전제한다. 밀도 높이는 한 점의 확률이 아니며 평균 0·표준편차 1만으로 정규분포가 되지 않는다. 원문의 지수분포·초월함수 적분 증명·민감한 실제 인구 특성의 모형화를 새 필수로 옮기지 않는다. 가상 수치 사례는 실제 조사나 학생 효과가 아니다.",
+    "student_outcome_study": false,
+    "causal_effect_established": false,
+    "local_effect_tested": false
+  },
+  "contains_source_full_text": false,
+  "source_pdf_redistributed": false,
+  "reading_log": [
+    "서지·목차와 정규분포의 평균/분산 표기·표준편차의 폭·밀도와 구간 확률·표준화 및 누적확률 차를 지정 추출문 7쪽과 실제 판면 5쪽에서 대조했다."
+  ],
+  "source_corrections": [
+    {
+      "location": "방법·문항·표·그림·서술의 대조",
+      "issue": [
+        "9~13쪽의 N(μ,σ²)는 둘째 모수가 분산이고 표준화 분모는 표준편차 σ>0이다. 밀도 높이와 넓이를 구별하고 한 점의 확률 0을 값이 관측될 수 없다는 뜻으로 바꾸지 않는다.",
+        "평균 0·표준편차 1만으로 정규분포가 되지 않는다. 지수분포·원문의 가상 관중 모형·적분 증명을 국내 새 필수나 실측 자료로 옮기지 않는다."
+      ]
+    }
+  ],
+  "probability_completion_review": {
+    "full_module_read": false,
+    "positive_sigma": true,
+    "second_parameter_is_variance": true,
+    "density_height_not_point_probability": true,
+    "standardizing_arbitrary_distribution_not_normality": true,
+    "exponential_distribution_not_added_as_required": true
+  }
+}

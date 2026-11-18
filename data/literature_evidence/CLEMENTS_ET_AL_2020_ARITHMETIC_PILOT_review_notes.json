@@ -1,0 +1,124 @@
+{
+  "source_id": "CLEMENTS_ET_AL_2020_ARITHMETIC_PILOT",
+  "source_url": "https://doi.org/10.1007/s11858-019-01122-z",
+  "date": "2026-11-09",
+  "reviewer": "Codex",
+  "source_asset_kind": "pdf",
+  "source_pdf_sha256": "fae8dcca766683c1c06766ebe31d63cba426aeb29666aea8fafe67f28f8d6185",
+  "source_pdf_redistributed": false,
+  "contains_source_full_text": false,
+  "read_scope": "출판판 인쇄 642~644·646쪽의 방법·결과·한계를 읽고 표 1·2와 그림 2의 판면을 확인했다. ERIC 저자 원고와 분모를 대조했다.",
+  "empirical_scope": {
+    "design": "one_classroom_per_condition_arithmetic_pilot",
+    "sample_description": "영재 프로그램의 유치원 두 학급에서 26명이 참여했고 사전·사후 단계 변화는 순차 13명·건너뛰기 12명으로 집계했다.",
+    "inference_limit": "조건마다 학급이 하나이므로 학급과 지도 조건을 분리하기 어렵다. 한 학교의 단기 개별 지도 결과를 국내 집단 수업이나 모든 연산 과제에 적용할 수 없다.",
+    "student_outcome_study": true,
+    "causal_effect_established": false,
+    "local_effect_tested": false
+  },
+  "pdf_url": "https://testmoodle.ndna.org.uk/pluginfile.php/120678/mod_resource/content/8/Efficacy_of_Learning_Trajectory_Clements%2C%202020.pdf",
+  "publisher_url": "https://link.springer.com/article/10.1007/s11858-019-01122-z",
+  "pdf_pages": 12,
+  "printed_pages": [
+    637,
+    648
+  ],
+  "selected_text_pages": [
+    6,
+    7,
+    8,
+    10
+  ],
+  "visual_pdf_pages": [
+    6,
+    7,
+    8
+  ],
+  "rendered_page_sha256": {
+    "6": "380d6ad97dce4ad083f4defd89d43d8e61f806e38b4af64df7bcb3791a0cc547",
+    "7": "3b408e0c8b8da82193f16aa77e14872fa1d4978f84df3689c1f2767bb5aba5b0",
+    "8": "e25b61af07a7732b2a18d76c335a81b4d448636a057fa4937e7fe008cfc13dda"
+  },
+  "results": {
+    "initial_by_class": [
+      13,
+      13
+    ],
+    "analyzed": [
+      13,
+      12
+    ],
+    "minutes_about": 180,
+    "table_2_counts": {
+      "ordered": [
+        2,
+        4,
+        0,
+        7,
+        0,
+        0
+      ],
+      "skip": [
+        0,
+        0,
+        1,
+        5,
+        5,
+        1
+      ]
+    },
+    "table_2_order": [
+      "2단계 증가",
+      "1단계 증가",
+      "부분 증가",
+      "유지",
+      "부분 감소",
+      "1단계 감소"
+    ],
+    "pre_post_mean_by_arm": [
+      [
+        0.18,
+        0.28
+      ],
+      [
+        0.19,
+        0.25
+      ]
+    ],
+    "author_manuscript": {
+      "url": "https://files.eric.ed.gov/fulltext/ED619220.pdf",
+      "pdf_pages": 38,
+      "sha256": "e7b3f4c47d309ead832bb5343db6b7cd0e62a70adbf29f5828a926f2c4234a2d",
+      "selected_text_pages": [
+        2,
+        15,
+        16,
+        18,
+        19,
+        20,
+        26
+      ],
+      "visual_pdf_pages": [
+        19
+      ]
+    }
+  },
+  "reading_log": [
+    "출판판 인쇄 642~644·646쪽의 방법·결과·한계를 읽고 표 1·2와 그림 2의 판면을 확인했다. ERIC 저자 원고와 분모를 대조했다.",
+    "분모와 비교 조건을 확인하고 전체 모형과 과제별 관찰을 구분했다."
+  ],
+  "source_corrections": [
+    {
+      "location": "인쇄 643~644쪽 표 1·2",
+      "issue": "초기 학급 인원은 13명씩이다. 건너뛰기 학급의 사전검사 완료 전 이탈 1명을 제외한 단계 변화 분모는 12명이다."
+    },
+    {
+      "location": "인쇄 643쪽 표 1 나이 열",
+      "issue": "열에는 개월 단위로 표시됐으나 5.4와 5.5가 실렸다. 원자료 없이 나이 단위를 고쳐 인용하지 않는다."
+    },
+    {
+      "location": "인쇄 642·646쪽 연구 설계 설명",
+      "issue": "학급 하나를 순차 조건에 무작위 배정했다는 방법과 조건별 학급 하나의 한계를 함께 기록한다. 아동 단위 무작위 실험으로 분류하지 않는다."
+    }
+  ]
+}

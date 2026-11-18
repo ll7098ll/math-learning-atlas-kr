@@ -1,0 +1,57 @@
+{
+  "source_id": "WEBER_2002_EXPONENTIAL_LOG_INTERVIEWS",
+  "source_url": "https://eric.ed.gov/?id=ED477690",
+  "source_pdf_url": "https://files.eric.ed.gov/fulltext/ED477690.pdf",
+  "source_asset_kind": "pdf",
+  "source_pdf_sha256": "14f63e74dcac27b5466de992b930b483b3aec23ba1898a7c7362f18c8ee8a8ec",
+  "pdf_pages": 10,
+  "selected_text_pages": [
+    1,
+    4,
+    5,
+    6,
+    7
+  ],
+  "visual_pdf_pages": [
+    5,
+    6,
+    7
+  ],
+  "rendered_page_sha256": {
+    "5": "a48e75c5fb7581f1c8c44c025dbe89ef5535fed94a20178bae2f045b9cc22f4e",
+    "6": "89314fc52e219bc227c24c145bfddcfbdc62d8a43478752d5251cbb2d5d957dc",
+    "7": "1ff6098d4721ebfc5fce0b42cb66f2f0f307eb8f3bacfcd1526dede58aa57b1d"
+  },
+  "date": "2026-11-10",
+  "reviewer": "Codex",
+  "read_scope": "ERIC 원문에서 지수·로그법칙 회상과 설명, 감소함수 판단과 이유, 계산기 없이 로그를 구하는 면담을 대조했다.",
+  "empirical_scope": {
+    "design": "예비 미적분 수업에서 해당 내용을 배운 뒤 3주 후 시행한 면담.",
+    "sample_description": "미국 남부 한 대학의 예비 미적분 수강생 자원자 15명.",
+    "inference_limit": "미국 대학의 자원자 15명이다. 같은 저자의 교수 실험과 참여자 중복을 확인하지 못해 합산하지 않는다.",
+    "student_outcome_study": true,
+    "causal_effect_established": false,
+    "local_effect_tested": false
+  },
+  "contains_source_full_text": false,
+  "source_pdf_redistributed": false,
+  "reading_log": [
+    "ERIC 원문에서 지수·로그법칙 회상과 설명, 감소함수 판단과 이유, 계산기 없이 로그를 구하는 면담을 대조했다."
+  ],
+  "source_corrections": [
+    {
+      "location": "정의·표·학생 응답",
+      "issue": "스캔에서 근호·위첨자가 잘못 추출되는 부분은 판면과 구별했다. 규칙별 6명은 교차표가 아니며, 수학적 설명 2명은 원저자의 분류다."
+    }
+  ],
+  "exponential_review": {
+    "n": 15,
+    "postinstruction_weeks": 3,
+    "power_product_rule_correct": 6,
+    "log_sum_rule_correct": 6,
+    "rule_connection_explanations": 0,
+    "decreasing_judgment": 15,
+    "decrease_explanations_author_classification": 2,
+    "overlap_with_pilot_verified": false
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "source_id": "JENNINGS_HANLINE_WOODS_2012",
+  "source_url": "https://www.wvsha.org/wp-content/uploads/events-manager-uploads/session-handouts/Handout%20Preschool%20Language%202.pdf",
+  "source_pdf_url": "https://www.wvsha.org/wp-content/uploads/events-manager-uploads/session-handouts/Handout%20Preschool%20Language%202.pdf",
+  "source_pdf_sha256": "dd3675a02e095883d357e235c8a63a58b3e8838143e2291f62b0a0c8bcc7c9d1",
+  "date": "2026-11-09",
+  "reviewer": "Codex",
+  "read_scope": "인쇄 13~22쪽의 일과 기반 중재 안내와 사례를 확인했다. PDF 1·7·8쪽의 서지와 표, 11쪽의 별개 서평 경계를 이미지로 대조했다.",
+  "contains_source_full_text": false,
+  "source_pdf_redistributed": false,
+  "publication": "Dimensions of Early Childhood, 40(2), 13–22",
+  "pdf_pages": 11,
+  "printed_pages": [
+    13,
+    22
+  ],
+  "text_pdf_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "visual_pdf_pages": [
+    1,
+    7,
+    8,
+    11
+  ],
+  "visual_pdf_page_hashes": {
+    "1": "86be84b016bde7ea871f211b273d7eb909b4a4921b630c75c4b5679e56b1c130",
+    "7": "6735baee49eda5076394f8f59ed690641ed9aa697f1fcefd1465a2ec5689b427",
+    "8": "627a6b1918d8ab4c376af9beed490c66253c86a74f6cbd622f3f4268aa9c6690",
+    "11": "33aafbd563294b0b39322a8f584ef7a9f95119231be73d54de180d00ab3b50b8"
+  },
+  "linking_lt2_pages": [
+    "https://www.learningtrajectories.org/math-activities/a-walk-in-the-park-angle-senser-foundations",
+    "https://www.learningtrajectories.org/math-activities/a-walk-in-the-park-intuitive-angle-builder-stemie",
+    "https://www.learningtrajectories.org/math-activities/lets-go-for-a-drive-stemie"
+  ],
+  "source_corrections": [
+    {
+      "kind": "citation_page_boundary",
+      "note": "LT2 참고문헌에 13~23쪽으로 적혔으나 인쇄 23쪽은 Melissa Workman의 별도 서평이다. 출판사 권별 색인은 본문을 13~22쪽으로 표시한다.",
+      "locations": [
+        "https://www.wvsha.org/wp-content/uploads/events-manager-uploads/session-handouts/Handout%20Preschool%20Language%202.pdf#page=11",
+        "https://www.seca.info/_files/ugd/8f06cd_04cff77ddd174f19a98e8839fbfb36f5.pdf"
+      ]
+    }
+  ],
+  "reading_log": [
+    "인쇄 13~15쪽에서 자연스러운 생활 환경과 반복되는 일과를 안내하는 목적을 확인했다.",
+    "인쇄 16~18쪽에서 개별 목표, 환경, 참여 기회, 교사의 촉진 전략을 고르는 순서와 실행 계획을 확인했다.",
+    "인쇄 19~20쪽에서 실행 기준 표와 여러 일과에 의사소통·이동·식사 목표를 대응한 사례 표를 확인했다.",
+    "인쇄 21~22쪽에서 가족·교사·전문가의 관찰 공유와 경과 검토, 참고 자료의 범위를 확인했다."
+  ]
+}

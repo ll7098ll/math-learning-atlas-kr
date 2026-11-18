@@ -1,0 +1,951 @@
+{
+  "source_id": "LIJNSE_2010_AUTHORIZED_REPRINT",
+  "source_url": "https://www.fisme.science.uu.nl/publicaties/literatuur/2010_book_sympPL_FI-website.pdf",
+  "source_asset_kind": "pdf",
+  "source_pdf_sha256": "cddeebe3b3be461604c03c00a2984b26054f45e108eb1aeddb8e208c64547662",
+  "source_pdf_url": "https://www.fisme.science.uu.nl/publicaties/literatuur/2010_book_sympPL_FI-website.pdf",
+  "pdf_pages": 177,
+  "selected_text_pages": [
+    1,
+    3,
+    4,
+    5,
+    7,
+    8,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100,
+    101,
+    102,
+    103
+  ],
+  "visual_pdf_pages": [
+    1,
+    3,
+    4,
+    5,
+    7,
+    8,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100,
+    101,
+    102,
+    103,
+    104
+  ],
+  "rendered_page_sha256": {
+    "1": "5347468b470db8c63d14d152215faa5fa7111ae5daeb93f4db64a4b2e85c90da",
+    "3": "b0878e4a618936b64fa66ef422769235508d1399026aae0a6c12f0ab0a624b10",
+    "4": "b5b75721431e1a6d3cca1575dab990a121be71e3d4c3c2792fb2e04719fe8fef",
+    "5": "c5add8f6ed8b4da48012f6b86a3736fd54d2d884f9aa704ff1630cc5896a5559",
+    "7": "7dd17708100d4c371734c2dcebaf9f7d9e58c21d2e3857787edcda251fd85d04",
+    "8": "06721185fd9929cd4ecf753edae8be645648889fd7e7397477fd70b70cb7ccdf",
+    "93": "c40a097a36fdcc41c267732e6a1dfdd76cfa9a11584c598511a5a3af3ce67e6d",
+    "94": "855f7a5bb39101c3a9d2740dbdd0e5f99262fb3f9b00c43b065ce8ebf3058083",
+    "95": "c4f3f586cb3a3bffcb434e63598f416faee47bec830be4f834368dce7159608f",
+    "96": "9770f40feca43e60123d70399d1d5b860f55a25939d7f2e978b02ae02cde7a1e",
+    "97": "f39f770afad1009a3a2c854dff4ecdcaab4a8c3615a97f7d105ab1b827191254",
+    "98": "1ebc4a5ba3ba016af78fd2fd52105c6d4964cc7b41e5b710b52de1a38c91f5c8",
+    "99": "9646411e6e4e1729bc7ce52c25640ed39104b56c32c79eb7e0d8a8c7019b96fa",
+    "100": "8cd7905f9dacc3070aedd4ff59185d91af59766d3707d4c5ef9bea9cad0f5c5c",
+    "101": "895a2c50c41105200a58b74285d9b489c3ab74c6b3c054ffc133346e4e7c6ad1",
+    "102": "fe423ce974a9043d0c3f759ebe56093ffb9ddaf23303f6095f1915f200f44221",
+    "103": "bdad43313e9bb0cf0f4e9ae6183f69adbac650d0d17fafb7d31c74aa6c11e7cc",
+    "104": "6f9a5d2878b26528c66a4e4b3e004ce845d02091e3a03df1768fadcfbeb2b4a1"
+  },
+  "date": "2026-11-18",
+  "reviewer": "Codex",
+  "read_scope": "이전2010책6장인쇄91–101(PDF93–103)전체·선정서지/서문17추출문/18판면의읽기이력을보존한다. 이번에는Persée공식아카이브의1994 Didaskalia3,93–108전체16학술지판면과각쪽의HTML본문,별도서지페이지를읽었다. HTML17문서중16개가본문쪽조각이며93/94쪽의빠진프랑스어/영어초록은실제판면에서읽었다. 새PDF나로컬OCR독해가아니다.2010장11쪽의추출문을다시읽고PDF94/98/100/102의4판면을재대조했다.1994판의편집부번역표시·물리범위와2010재수록의과학범위·선정문맥/서지차이를분리한다.1995 Science Education79(2),189–199원판의직접본문/판면은여전히미확인이다.",
+  "empirical_scope": {
+    "design": "과학/물리교육의 내용별 교수설계에 대한 방법론적 논의와 기존 연구 인용",
+    "sample_description": "6장에 새로운 통합 고유 참여자 수·표집 설계·효과크기를 제시하지 않는다. 서문의 심포지엄 사진은 학생 표본 자료가 아니다.",
+    "inference_limit": "같은연구계열의1994프랑스어판과2010약간편집한영어재수록의대조이며독립된두실증연구나새표본/국내효과가아니다.1994판은편집부번역이라고인쇄돼있어저자가프랑스어로직접쓴자필원문으로단정하지않는다.1995저자번역/수정원판의본문·원출판사바이너리동일성·1994학술지전체호/2010책전권·인용원전/원자료·정오표는미확인이다.선정대조는모든문장의번역동일성검증이아니며서지차이를원전확인없이임의로정정하지않는다.학생발언의뜻확인과수학적타당성판단은별개이며호의적해석이모든답을정답으로만들지않는다.역사적교수법비판을모든오류의교사원인·지원금지·국내효과로일반화하지않는다.실제독립/학생/브라우저시각검증은미완료다.",
+    "student_outcome_study": false,
+    "causal_effect_established": false,
+    "local_effect_tested": false
+  },
+  "contains_source_full_text": false,
+  "source_pdf_redistributed": false,
+  "reading_log": [
+    "위트레흐트대 공식 PDF177쪽 중2010년 책의 표지·서지·목차·서문6쪽(PDF1,3,4,5,7,8)과6장 전체11쪽(PDF93–103,인쇄91–101)의 추출문·판면을 읽었다. 다음 장 앞의 쪽번호 전용 PDF104도 시각 확인했다. 6장 첫 각주는1995년 Science Education79(2),189–199의 허가받은 약간 편집한 재수록이라고 명시한다. 심포지엄2009-10-09,책/서문2010,원논문1995,앞선 프랑스어 논문1994를 구별한다. 원학술지의 동일 판면·문구 전수 대조나 책177쪽 전체 독해는 아니다.",
+    "2026-11-18:Persée서지1페이지와본문HTML16쪽조각·실제16학술지판면93–108을읽었다.93/94쪽초록은HTML에빠져판면에서읽었다.2010장11쪽추출문을재독하고4선정판면을다시대조했다.새PDF/OCR·1995원판·독립실증표본확보는아니다."
+  ],
+  "source_corrections": [
+    {
+      "location": "방법·문항·표·그림·서술의 대조",
+      "issue": [
+        "SLO의Science Education29권을이출처에그대로옮기지않는다. 출판사서지와재수록각주는79(2),1995,189–199를가리킨다. 재수록책은2010이며2009는심포지엄이다.",
+        "6장11쪽 전체를 읽었지만1995원판·1994프랑스어판·전체177쪽을읽었다고바꾸지않는다. PDF104는쪽번호102뿐이며본문쪽수에더하지않는다.",
+        "원문의didactical structure는학문목차·검증완료선수관계·유일한학습순서와동일하지않다. 소규모실행과해석수정을요구하는설계관점으로참고한다.",
+        "학생발언·관찰자해석·후속확인과수학적타당성판단을구별한다. 호의적해석만으로모든답을정답처리하지않고실제교사발문/도움도기록한다.",
+        "서문의심포지엄사진은학생참여표본이아니며과거의평가·인용연구서술을현재의일반교수법효과로바꾸지않는다. 원문의예측/시나리오를실제검증기록으로채우지않는다."
+      ]
+    },
+    {
+      "location": "1994pp93–108 versus2010chapter91–101",
+      "issue": "Complete preceding French article now read,distinct from2010slightly edited English reprint and unread1995original. Preserve editor translation credit,physics/science scope and separate bibliographies;do not infer identical texts or independent replications."
+    },
+    {
+      "location": "1994p101;2010p96",
+      "issue": "Both versions retain double negation:not a claim that continuous connection is impossible. This is also not a verified universal student learning trajectory."
+    },
+    {
+      "location": "1994p106;2010p100",
+      "issue": "Davidson1990points to different works in the two reference lists. Keep each version rather than merge by author/year;the cited originals were not obtained. Grandy/Hamilton body1993/reference1992 discrepancy remains unresolved."
+    }
+  ],
+  "authorized_reprint_review": {
+    "complete_reprint_chapter_read": true,
+    "original_1995_full_article_read": false,
+    "publisher_direct_pdf_obtained": false,
+    "pdf_pages": 177,
+    "reprint_chapter_pdf_pages": [
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103
+    ],
+    "reprint_chapter_printed_pages": "91–101",
+    "front_matter_pdf_pages": [
+      1,
+      3,
+      4,
+      5,
+      7,
+      8
+    ],
+    "page_number_only_visual_pages": [
+      104
+    ],
+    "reprint_book_year": 2010,
+    "reprint_book_isbn": "978-90-73346-70-3",
+    "reprint_editors": [
+      "Koos Kortland",
+      "Kees Klaassen"
+    ],
+    "symposium_date": "2009-10-09",
+    "preface_date": "October2010",
+    "original_year": 1995,
+    "original_journal": "Science Education",
+    "original_volume": 79,
+    "original_issue": 2,
+    "original_pages": "189–199",
+    "original_doi": "10.1002/sce.3730790205",
+    "original_url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/sce.3730790205",
+    "preceding_french_article_year": 1994,
+    "preceding_french_article_pages": "93–108",
+    "chapter_footnote": "PDF93 footnote1: slightly edited version; reprinted with permission",
+    "no_numbered_chapter_figures_or_tables": true,
+    "entire_book_read": false,
+    "original_binary_fidelity_verified": false,
+    "raw_classroom_records_read": false,
+    "cited_originals_all_read": false,
+    "actual_independent_review": 0,
+    "actual_student_validation": 0,
+    "prior_slo_bibliographic_snapshot_preserved": true,
+    "unresolved_source_inconsistencies": [
+      {
+        "location": "PDF98/102",
+        "issue": "Grandy/Hamilton body1993 versus reference1992; cited original not checked"
+      },
+      {
+        "location": "PDF97/102",
+        "issue": "Klaassen1994b is the historical source reference; do not silently rewrite it to the year of another edition"
+      }
+    ],
+    "own_tasks_are_not_student_responses": true
+  },
+  "previous_review": {
+    "source_id": "LIJNSE_2010_AUTHORIZED_REPRINT",
+    "state": "self_read_claim_mapping",
+    "reviewer": "Codex",
+    "date": "2026-11-17",
+    "snapshot_kind": "authored_review_notes",
+    "source_asset_kind": "pdf",
+    "source_pdf_sha256": "cddeebe3b3be461604c03c00a2984b26054f45e108eb1aeddb8e208c64547662",
+    "snapshot_file": "data/literature_evidence/LIJNSE_2010_AUTHORIZED_REPRINT_review_notes.json",
+    "snapshot_sha256": "b3ffa72aa0bc53fccc398c1a9181e6902c534bb5ffd939afb3ca5179b419d018",
+    "redistribution_license": "workspace_authored_notes",
+    "bibliography_snapshot": "ed2b38bd26713984dade477602f269b112adcae95ece1901a8b091d88c311721",
+    "display": {
+      "title": "Developmental research and didactical structure — authorized slightly edited 2010 reprint of the 1995 article, complete chapter 6",
+      "url": "https://www.fisme.science.uu.nl/publicaties/literatuur/2010_book_sympPL_FI-website.pdf",
+      "authors_year": "Piet Lijnse, 2010"
+    },
+    "read_scope": "위트레흐트대 공식 PDF177쪽 중2010년 책의 표지·서지·목차·서문6쪽(PDF1,3,4,5,7,8)과6장 전체11쪽(PDF93–103,인쇄91–101)의 추출문·판면을 읽었다. 다음 장 앞의 쪽번호 전용 PDF104도 시각 확인했다. 6장 첫 각주는1995년 Science Education79(2),189–199의 허가받은 약간 편집한 재수록이라고 명시한다. 심포지엄2009-10-09,책/서문2010,원논문1995,앞선 프랑스어 논문1994를 구별한다. 원학술지의 동일 판면·문구 전수 대조나 책177쪽 전체 독해는 아니다.",
+    "limits": "과학/물리교육의 방법론적 논의이며 국내 수학교육의 효과 연구가 아니다. 본문은 인용 연구를 논의하지만 새 통합 표본이나 대조 효과크기를 제공하는 것으로 취급하지 않는다. 1995년 원학술지 PDF와1994년 프랑스어판·인용 원연구/원자료·나머지 책 본문·정오표는 미확인이다. 학생 말의 의미를 찾는 원칙은 모든 답을 정답으로 인정하거나 교사가 선호하는 해석을 만들어 넣는 허가가 아니다. 예상 시나리오·계산 예·지원 뒤 반응을 실제 독립 수행·학습 효과로 바꾸지 않는다. 전문 연구의 이론 개발을 모든 학교 탐구에 요구하지 않는다.",
+    "empirical_scope": {
+      "design": "과학/물리교육의 내용별 교수설계에 대한 방법론적 논의와 기존 연구 인용",
+      "sample_description": "6장에 새로운 통합 고유 참여자 수·표집 설계·효과크기를 제시하지 않는다. 서문의 심포지엄 사진은 학생 표본 자료가 아니다.",
+      "inference_limit": "과학/물리교육의 방법론적 논의이며 국내 수학교육의 효과 연구가 아니다. 본문은 인용 연구를 논의하지만 새 통합 표본이나 대조 효과크기를 제공하는 것으로 취급하지 않는다. 1995년 원학술지 PDF와1994년 프랑스어판·인용 원연구/원자료·나머지 책 본문·정오표는 미확인이다. 학생 말의 의미를 찾는 원칙은 모든 답을 정답으로 인정하거나 교사가 선호하는 해석을 만들어 넣는 허가가 아니다. 예상 시나리오·계산 예·지원 뒤 반응을 실제 독립 수행·학습 효과로 바꾸지 않는다. 전문 연구의 이론 개발을 모든 학교 탐구에 요구하지 않는다.",
+      "student_outcome_study": false,
+      "causal_effect_established": false,
+      "local_effect_tested": false
+    },
+    "scope_note": "문항 설계·학생의 실제 응답·분석 분류·자체 설계 과제를 구별한다.",
+    "method_note": "지정 본문과 표·그림의 실제 판면을 대조했다. 원문의 표본·시점·응답 단위와 국내 과제의 범위를 나누어 기록한다.",
+    "editorial_action": "읽은 범위에 맞는 문헌 근거와 자체 관찰 과제를 반영했다.",
+    "independent_review": false,
+    "student_validated": false,
+    "observations": [
+      {
+        "id": "LJ10-P01",
+        "standard_codes": [
+          "12수과02-04",
+          "12수과03-01"
+        ],
+        "question": "분수의 정의→기호→계산 순서를 그대로 두고 피자 그림과 토론만 넣었다. 학습 경로가 검증됐는가?",
+        "expected": "소재·참여 방식과 학생이 다음 질문을 가질 이유·과제 사이의 개념적 연결을 따로 적는다. 어떤 생각을 예상하고 왜 다음 과제가 필요한지, 실제로 확인할 설명과 반례를 계획한다. 실제 실행 전에는 미검증으로 남긴다.",
+        "interpretation": "자체 설계 점검이다. 실생활 소재나 명시적 설명을 배제하는 일반 처방이 아니며 실제 수업 효과를 확보한 결과가 아니다.",
+        "student_validated": false
+      },
+      {
+        "id": "LJ10-P02",
+        "standard_codes": [
+          "12수과03-02",
+          "12수과03-03",
+          "12수과03-04"
+        ],
+        "question": "같은 크기의 전체를3등분한1조각과2등분한1조각을 비교하며 가상 학생이 “3이 더 크잖아요”라고 했다. 곧바로1/3>1/2라고 믿는다고 기록해도 되는가?",
+        "expected": "발언을 그대로 남기고 무엇의 크기를 말했는지 묻는다. 등분 수3>2를 말했는지, 조각 크기를 말했는지는 이 한 문장으로 정하지 않는다. 같은 전체의 그림·수직선과 추가 설명으로 뜻을 확인하고 수학적으로는1/3<1/2임을 따로 판단한다.",
+        "interpretation": "가상 대화이며 실제 학생 응답이 아니다. 의미를 이해하려는 원칙은 잘못된 분수 부등식을 정답으로 바꾸는 것이 아니다.",
+        "student_validated": false
+      },
+      {
+        "id": "LJ10-P03",
+        "standard_codes": [
+          "12수과03-01",
+          "12수과03-02",
+          "12수과03-04"
+        ],
+        "question": "“학생은 스스로 공통 단위의 필요를 느낀다”고 계획했다. 실제로는 교사가 공통 분모를 제시한 뒤 답을 얻었다면 어떻게 남길까?",
+        "expected": "계획의 예상, 실제 교사 발문·힌트, 그 뒤 학생의 말·그림, 달라진 해석을 나누어 적는다. 도움 뒤의 정답과 학생이 스스로 필요를 제기한 증거를 구별하고, 새 조건에서 확인할 설명을 계획한다. 아직 재확인하지 않았다면 미실행이다.",
+        "interpretation": "지원이 학습에 무가치하다는 뜻이 아니다. 지원 수준이 다른 수행을 같은 조건의 독립 수행이나 인과적 학습 향상으로 합치지 않는다.",
+        "student_validated": false
+      },
+      {
+        "id": "LJ10-P04",
+        "standard_codes": [
+          "12수과02-01"
+        ],
+        "question": "이 출처의1994·1995·2009·2010과PDF93–103·인쇄91–101·학술지189–199는 각각 무엇인가?",
+        "expected": "1994는앞선프랑스어논문,1995는원학술지,2009-10-09는심포지엄,2010은책과서문의연도다. 읽은것은2010책의6장인쇄91–101(PDF93–103)과선정서지/서문이며1995학술지189–199의동일PDF나책177쪽전체가아니다.",
+        "interpretation": "약간 편집한 허가 재수록과 원학술지 동일본을 구별하는 자체 출처 과제다. 두 판본의 쪽수11쪽이 같다는 사실만으로 문구·판면 동일성을 확정하지 않는다.",
+        "student_validated": false
+      }
+    ]
+  },
+  "previous_bibliography": {
+    "id": "LIJNSE_2010_AUTHORIZED_REPRINT",
+    "year": 2010,
+    "url": "https://www.fisme.science.uu.nl/publicaties/literatuur/2010_book_sympPL_FI-website.pdf",
+    "title": "Developmental research and didactical structure — authorized slightly edited 2010 reprint of the 1995 article, complete chapter 6",
+    "authors": [
+      "Piet Lijnse"
+    ],
+    "kind": "내용별설계·발언해석의허가재수록본대조",
+    "review_scope": "위트레흐트대 공식 PDF177쪽 중2010년 책의 표지·서지·목차·서문6쪽(PDF1,3,4,5,7,8)과6장 전체11쪽(PDF93–103,인쇄91–101)의 추출문·판면을 읽었다. 다음 장 앞의 쪽번호 전용 PDF104도 시각 확인했다. 6장 첫 각주는1995년 Science Education79(2),189–199의 허가받은 약간 편집한 재수록이라고 명시한다. 심포지엄2009-10-09,책/서문2010,원논문1995,앞선 프랑스어 논문1994를 구별한다. 원학술지의 동일 판면·문구 전수 대조나 책177쪽 전체 독해는 아니다.",
+    "does_not_establish": "과학/물리교육의 방법론적 논의이며 국내 수학교육의 효과 연구가 아니다. 본문은 인용 연구를 논의하지만 새 통합 표본이나 대조 효과크기를 제공하는 것으로 취급하지 않는다. 1995년 원학술지 PDF와1994년 프랑스어판·인용 원연구/원자료·나머지 책 본문·정오표는 미확인이다. 학생 말의 의미를 찾는 원칙은 모든 답을 정답으로 인정하거나 교사가 선호하는 해석을 만들어 넣는 허가가 아니다. 예상 시나리오·계산 예·지원 뒤 반응을 실제 독립 수행·학습 효과로 바꾸지 않는다. 전문 연구의 이론 개발을 모든 학교 탐구에 요구하지 않는다.",
+    "supports": [
+      "내용별 설계 가정과 실제 수행",
+      "학생 발언의 의미·교사 지원·해석 수정",
+      "원판·재수록본·사전 시나리오의 범위"
+    ],
+    "next_review": "1995년 원학술지 PDF 및1994년 프랑스어판과의 차이·인용 원연구/원자료를 후속 대조하고, 자체 기록지의 실제 응답을 별도로 확인한다."
+  },
+  "previous_claims": [
+    {
+      "id": "LJ10-01",
+      "source_id": "LIJNSE_2010_AUTHORIZED_REPRINT",
+      "role": "related_theoretical_context",
+      "empirical_scope": {
+        "design": "과학/물리교육의 내용별 교수설계에 대한 방법론적 논의와 기존 연구 인용",
+        "sample_description": "6장에 새로운 통합 고유 참여자 수·표집 설계·효과크기를 제시하지 않는다. 서문의 심포지엄 사진은 학생 표본 자료가 아니다.",
+        "inference_limit": "과학/물리교육의 방법론적 논의이며 국내 수학교육의 효과 연구가 아니다. 본문은 인용 연구를 논의하지만 새 통합 표본이나 대조 효과크기를 제공하는 것으로 취급하지 않는다. 1995년 원학술지 PDF와1994년 프랑스어판·인용 원연구/원자료·나머지 책 본문·정오표는 미확인이다. 학생 말의 의미를 찾는 원칙은 모든 답을 정답으로 인정하거나 교사가 선호하는 해석을 만들어 넣는 허가가 아니다. 예상 시나리오·계산 예·지원 뒤 반응을 실제 독립 수행·학습 효과로 바꾸지 않는다. 전문 연구의 이론 개발을 모든 학교 탐구에 요구하지 않는다.",
+        "student_outcome_study": false,
+        "causal_effect_established": false,
+        "local_effect_tested": false
+      },
+      "standard_codes": [
+        "12수과02-04",
+        "12수과03-01",
+        "12수과03-02"
+      ],
+      "locations": [
+        "https://www.fisme.science.uu.nl/publicaties/literatuur/2010_book_sympPL_FI-website.pdf#page=94",
+        "https://www.fisme.science.uu.nl/publicaties/literatuur/2010_book_sympPL_FI-website.pdf#page=95",
+        "https://www.fisme.science.uu.nl/publicaties/literatuur/2010_book_sympPL_FI-website.pdf#page=96",
+        "https://www.fisme.science.uu.nl/publicaties/literatuur/2010_book_sympPL_FI-website.pdf#page=99",
+        "https://www.fisme.science.uu.nl/publicaties/literatuur/2010_book_sympPL_FI-website.pdf#page=100",
+        "https://www.fisme.science.uu.nl/publicaties/literatuur/2010_book_sympPL_FI-website.pdf#page=101",
+        "https://www.fisme.science.uu.nl/publicaties/literatuur/2010_book_sympPL_FI-website.pdf#page=102"
+      ],
+      "support": "내용의 논리적 순서와 실제로 배울 경로를 구별하고, 설계할 때 과제 간 연결·예상 행동·교사 지원의 이유를 적는다. 실행에서는 예상과 실제 자료를 비교해 가정을 고친다.",
+      "does_not_establish": "과학 맥락의 방법론을 수학 탐구 기록 설계에 참고한다. 실생활 소재·토론의 추가만으로 학습 경로가 검증되거나 모든 학생이 같은 단계를 거친다고 보장하지 않는다. 계획된 시나리오는 실제 관찰 결과가 아니다.",
+      "independent_review": false,
+      "student_validated": false,
+      "target_snapshots": {
+        "revision:12수과02-04": "080ca06cffd4132ce81e4a8e79fd26c695e37cc6cb365591c9061c27f5747390",
+        "revision:12수과03-01": "0bb88be155aca84a57f2b8ac4d75b279fc97b7bede0f9ae6936ee115b2eaa72c",
+        "revision:12수과03-02": "113e9cc2cb2c13d5189d76710a4d9a4ce125225c9217c92712eb0f27676cb248"
+      }
+    },
+    {
+      "id": "LJ10-02",
+      "source_id": "LIJNSE_2010_AUTHORIZED_REPRINT",
+      "role": "related_theoretical_context",
+      "empirical_scope": {
+        "design": "과학/물리교육의 내용별 교수설계에 대한 방법론적 논의와 기존 연구 인용",
+        "sample_description": "6장에 새로운 통합 고유 참여자 수·표집 설계·효과크기를 제시하지 않는다. 서문의 심포지엄 사진은 학생 표본 자료가 아니다.",
+        "inference_limit": "과학/물리교육의 방법론적 논의이며 국내 수학교육의 효과 연구가 아니다. 본문은 인용 연구를 논의하지만 새 통합 표본이나 대조 효과크기를 제공하는 것으로 취급하지 않는다. 1995년 원학술지 PDF와1994년 프랑스어판·인용 원연구/원자료·나머지 책 본문·정오표는 미확인이다. 학생 말의 의미를 찾는 원칙은 모든 답을 정답으로 인정하거나 교사가 선호하는 해석을 만들어 넣는 허가가 아니다. 예상 시나리오·계산 예·지원 뒤 반응을 실제 독립 수행·학습 효과로 바꾸지 않는다. 전문 연구의 이론 개발을 모든 학교 탐구에 요구하지 않는다.",
+        "student_outcome_study": false,
+        "causal_effect_established": false,
+        "local_effect_tested": false
+      },
+      "standard_codes": [
+        "12수과03-02",
+        "12수과03-03",
+        "12수과03-04"
+      ],
+      "locations": [
+        "https://www.fisme.science.uu.nl/publicaties/literatuur/2010_book_sympPL_FI-website.pdf#page=97",
+        "https://www.fisme.science.uu.nl/publicaties/literatuur/2010_book_sympPL_FI-website.pdf#page=98",
+        "https://www.fisme.science.uu.nl/publicaties/literatuur/2010_book_sympPL_FI-website.pdf#page=99",
+        "https://www.fisme.science.uu.nl/publicaties/literatuur/2010_book_sympPL_FI-website.pdf#page=100",
+        "https://www.fisme.science.uu.nl/publicaties/literatuur/2010_book_sympPL_FI-website.pdf#page=101"
+      ],
+      "support": "학생의 말·그림·행동과 관찰자의 해석을 구분하고, 앞뒤 과제와 후속 설명으로 뜻을 확인한다. 교사가 준 질문·힌트와 학생의 후속 반응을 함께 남겨, 다른 설명과 해석 수정의 근거를 검토한다.",
+      "does_not_establish": "단일 발언을 곧바로 고정된 오개념·독립 이해로 진단하거나 호의적인 추측으로 정답 처리하지 않는다. 의미 확인과 수학적 타당성 판단은 각각 필요하다. 실제 기록·외부 검토·수정 후 재확인이 없는 자체 예를 학생 검증으로 세지 않는다.",
+      "independent_review": false,
+      "student_validated": false,
+      "target_snapshots": {
+        "revision:12수과03-02": "113e9cc2cb2c13d5189d76710a4d9a4ce125225c9217c92712eb0f27676cb248",
+        "revision:12수과03-03": "efba5e52c4805215a8a451f831f8363d911f2b0d1b45c07eacc498424552ded6",
+        "revision:12수과03-04": "35b4274396fecb62df850fef1fd8a1767e09e7795584c836fa68f6d57fb3b192"
+      }
+    }
+  ],
+  "previous_observations": [
+    {
+      "id": "LJ10-P01",
+      "standard_codes": [
+        "12수과02-04",
+        "12수과03-01"
+      ],
+      "question": "분수의 정의→기호→계산 순서를 그대로 두고 피자 그림과 토론만 넣었다. 학습 경로가 검증됐는가?",
+      "expected": "소재·참여 방식과 학생이 다음 질문을 가질 이유·과제 사이의 개념적 연결을 따로 적는다. 어떤 생각을 예상하고 왜 다음 과제가 필요한지, 실제로 확인할 설명과 반례를 계획한다. 실제 실행 전에는 미검증으로 남긴다.",
+      "interpretation": "자체 설계 점검이다. 실생활 소재나 명시적 설명을 배제하는 일반 처방이 아니며 실제 수업 효과를 확보한 결과가 아니다.",
+      "student_validated": false
+    },
+    {
+      "id": "LJ10-P02",
+      "standard_codes": [
+        "12수과03-02",
+        "12수과03-03",
+        "12수과03-04"
+      ],
+      "question": "같은 크기의 전체를3등분한1조각과2등분한1조각을 비교하며 가상 학생이 “3이 더 크잖아요”라고 했다. 곧바로1/3>1/2라고 믿는다고 기록해도 되는가?",
+      "expected": "발언을 그대로 남기고 무엇의 크기를 말했는지 묻는다. 등분 수3>2를 말했는지, 조각 크기를 말했는지는 이 한 문장으로 정하지 않는다. 같은 전체의 그림·수직선과 추가 설명으로 뜻을 확인하고 수학적으로는1/3<1/2임을 따로 판단한다.",
+      "interpretation": "가상 대화이며 실제 학생 응답이 아니다. 의미를 이해하려는 원칙은 잘못된 분수 부등식을 정답으로 바꾸는 것이 아니다.",
+      "student_validated": false
+    },
+    {
+      "id": "LJ10-P03",
+      "standard_codes": [
+        "12수과03-01",
+        "12수과03-02",
+        "12수과03-04"
+      ],
+      "question": "“학생은 스스로 공통 단위의 필요를 느낀다”고 계획했다. 실제로는 교사가 공통 분모를 제시한 뒤 답을 얻었다면 어떻게 남길까?",
+      "expected": "계획의 예상, 실제 교사 발문·힌트, 그 뒤 학생의 말·그림, 달라진 해석을 나누어 적는다. 도움 뒤의 정답과 학생이 스스로 필요를 제기한 증거를 구별하고, 새 조건에서 확인할 설명을 계획한다. 아직 재확인하지 않았다면 미실행이다.",
+      "interpretation": "지원이 학습에 무가치하다는 뜻이 아니다. 지원 수준이 다른 수행을 같은 조건의 독립 수행이나 인과적 학습 향상으로 합치지 않는다.",
+      "student_validated": false
+    },
+    {
+      "id": "LJ10-P04",
+      "standard_codes": [
+        "12수과02-01"
+      ],
+      "question": "이 출처의1994·1995·2009·2010과PDF93–103·인쇄91–101·학술지189–199는 각각 무엇인가?",
+      "expected": "1994는앞선프랑스어논문,1995는원학술지,2009-10-09는심포지엄,2010은책과서문의연도다. 읽은것은2010책의6장인쇄91–101(PDF93–103)과선정서지/서문이며1995학술지189–199의동일PDF나책177쪽전체가아니다.",
+      "interpretation": "약간 편집한 허가 재수록과 원학술지 동일본을 구별하는 자체 출처 과제다. 두 판본의 쪽수11쪽이 같다는 사실만으로 문구·판면 동일성을 확정하지 않는다.",
+      "student_validated": false
+    }
+  ],
+  "previous_relation_records": [
+    {
+      "relation_id": "SEC_12수과03-01_C04",
+      "claim_id": "LJ10-01",
+      "role": "activity_context",
+      "finding": "과제·예상행동·지원의이유를계획에적고실제수행과비교해설계가정을수정한다.",
+      "limit": "내용의논리적순서·생활소재·예상시나리오만으로실제학습경로나효과를검증하지않는다.",
+      "relation_snapshot": "8e0447036aca7fb51dc86de7a6ace77f6ce86e220acc45f90b2a441b74852726",
+      "claim_snapshot": "756e8a147ef151ef0b6cfebc44224d3a7e7e9119df441c70cce31bfa536b822a"
+    },
+    {
+      "relation_id": "HP-inquiry-execution",
+      "claim_id": "LJ10-01",
+      "role": "activity_context",
+      "finding": "과제·예상행동·지원의이유를계획에적고실제수행과비교해설계가정을수정한다.",
+      "limit": "내용의논리적순서·생활소재·예상시나리오만으로실제학습경로나효과를검증하지않는다.",
+      "relation_snapshot": "58ebfd6c02e9d98ec0d0d3e5eeb209d062704ebe684f66dbabefd562cbb767fd",
+      "claim_snapshot": "756e8a147ef151ef0b6cfebc44224d3a7e7e9119df441c70cce31bfa536b822a"
+    },
+    {
+      "relation_id": "SEC_12수과03-02_C04",
+      "claim_id": "LJ10-02",
+      "role": "activity_context",
+      "finding": "학생의실제말/행동·교사발문과도움·후속설명·처음해석과수정근거를구분해발표와성찰에남긴다.",
+      "limit": "단일발언이나지원뒤정답을독립이해로확정하지않고의미확인과수학적타당성판단을구별한다. 가상대화는실제학생검증이아니다.",
+      "relation_snapshot": "f26c862afd15bb6c30e0a75c88f9d60c7faa2259058ae9abda3dcd90be154b87",
+      "claim_snapshot": "b22de3f4eb6802087af4e79e02ce2f4f4f0eb4294ea5d15f3bf11d74aa226994"
+    },
+    {
+      "relation_id": "SEC_12수과03-03_C04",
+      "claim_id": "LJ10-02",
+      "role": "activity_context",
+      "finding": "학생의실제말/행동·교사발문과도움·후속설명·처음해석과수정근거를구분해발표와성찰에남긴다.",
+      "limit": "단일발언이나지원뒤정답을독립이해로확정하지않고의미확인과수학적타당성판단을구별한다. 가상대화는실제학생검증이아니다.",
+      "relation_snapshot": "cc62c680ae5b057f47ed7f7519127dde88e5ab7d86143ad36c81995206d8a277",
+      "claim_snapshot": "b22de3f4eb6802087af4e79e02ce2f4f4f0eb4294ea5d15f3bf11d74aa226994"
+    },
+    {
+      "relation_id": "REV-12수과03-04-1",
+      "claim_id": "LJ10-02",
+      "role": "activity_context",
+      "finding": "학생의실제말/행동·교사발문과도움·후속설명·처음해석과수정근거를구분해발표와성찰에남긴다.",
+      "limit": "단일발언이나지원뒤정답을독립이해로확정하지않고의미확인과수학적타당성판단을구별한다. 가상대화는실제학생검증이아니다.",
+      "relation_snapshot": "217e4e95e6fb0577b77986c7e4d34044a67bba051e975b8f0c676c85f99ca55c",
+      "claim_snapshot": "b22de3f4eb6802087af4e79e02ce2f4f4f0eb4294ea5d15f3bf11d74aa226994"
+    },
+    {
+      "relation_id": "HP-inquiry-presentation",
+      "claim_id": "LJ10-02",
+      "role": "activity_context",
+      "finding": "학생의실제말/행동·교사발문과도움·후속설명·처음해석과수정근거를구분해발표와성찰에남긴다.",
+      "limit": "단일발언이나지원뒤정답을독립이해로확정하지않고의미확인과수학적타당성판단을구별한다. 가상대화는실제학생검증이아니다.",
+      "relation_snapshot": "09041e4743751001bf1b1bcf4c41a091521ee64f197c08580851579d7ec44386",
+      "claim_snapshot": "b22de3f4eb6802087af4e79e02ce2f4f4f0eb4294ea5d15f3bf11d74aa226994"
+    },
+    {
+      "relation_id": "HP-inquiry-reflection",
+      "claim_id": "LJ10-02",
+      "role": "activity_context",
+      "finding": "학생의실제말/행동·교사발문과도움·후속설명·처음해석과수정근거를구분해발표와성찰에남긴다.",
+      "limit": "단일발언이나지원뒤정답을독립이해로확정하지않고의미확인과수학적타당성판단을구별한다. 가상대화는실제학생검증이아니다.",
+      "relation_snapshot": "6c613e40b1316b0add48a5035a8c121891fcae9448f224fcf1197afcd7f5b885",
+      "claim_snapshot": "b22de3f4eb6802087af4e79e02ce2f4f4f0eb4294ea5d15f3bf11d74aa226994"
+    }
+  ],
+  "previous_notes_file": "data/literature_evidence/LIJNSE_2010_AUTHORIZED_REPRINT_review_notes.json",
+  "previous_notes_sha256": "b3ffa72aa0bc53fccc398c1a9181e6902c534bb5ffd939afb3ca5179b419d018",
+  "french_version_comparison": {
+    "source_url": "https://www.persee.fr/doc/didas_1250-0739_1994_num_3_1_955",
+    "version_id": "LIJNSE_1994_FRENCH_PERSEE",
+    "archive": "Persée",
+    "year": 1994,
+    "journal": "Didaskalia",
+    "issue": 3,
+    "doi": "10.3406/didas.1994.955",
+    "printed_pages": [
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108
+    ],
+    "translation_credit": "Traduit par la rédaction",
+    "source_asset_kind": "official_archive_html_and_page_images",
+    "source_asset_sha256": "7331297c22ce97fbbe5ac83a3491c64dce5cb3ea321afc56004a380dfd79223c",
+    "asset_base_url": "https://www.persee.fr/",
+    "html_read_manifest": [
+      {
+        "key": "persee-record",
+        "url": "https://www.persee.fr/doc/didas_1250-0739_1994_num_3_1_955",
+        "title": "Persée record: Lijnse1994,Didaskalia3,93–108",
+        "sha256": "7331297c22ce97fbbe5ac83a3491c64dce5cb3ea321afc56004a380dfd79223c",
+        "status": 200,
+        "content_type": "text/html"
+      },
+      {
+        "key": "page-93",
+        "url": "https://www.persee.fr/doc/page/didas_1250-0739_1994_num_3_1_955/didas_1250-0739_1994_num_3_1_T1_0093_0000",
+        "title": "Didaskalia1994,printed93",
+        "sha256": "4113a52809833bdf68a908d36238485453a061b4124f29480c50246281269713",
+        "status": 200,
+        "content_type": "text/html"
+      },
+      {
+        "key": "page-94",
+        "url": "https://www.persee.fr/doc/page/didas_1250-0739_1994_num_3_1_955/didas_1250-0739_1994_num_3_1_T1_0094_0000",
+        "title": "Didaskalia1994,printed94",
+        "sha256": "b8fa87514c1718a861e746ff7e5a2c5ef13abf491f349c4be5b6ef5ed881897c",
+        "status": 200,
+        "content_type": "text/html"
+      },
+      {
+        "key": "page-95",
+        "url": "https://www.persee.fr/doc/page/didas_1250-0739_1994_num_3_1_955/didas_1250-0739_1994_num_3_1_T1_0095_0000",
+        "title": "Didaskalia1994,printed95",
+        "sha256": "c8ff8b744108a374d2dc6191a62e38f6226e08cbb9058e9919b9f418e4bbab4f",
+        "status": 200,
+        "content_type": "text/html"
+      },
+      {
+        "key": "page-96",
+        "url": "https://www.persee.fr/doc/page/didas_1250-0739_1994_num_3_1_955/didas_1250-0739_1994_num_3_1_T1_0096_0000",
+        "title": "Didaskalia1994,printed96",
+        "sha256": "751e7e0230f9c3e51d7e5879f239c9a876e02313d5729ae5779714ac77bfee08",
+        "status": 200,
+        "content_type": "text/html"
+      },
+      {
+        "key": "page-97",
+        "url": "https://www.persee.fr/doc/page/didas_1250-0739_1994_num_3_1_955/didas_1250-0739_1994_num_3_1_T1_0097_0000",
+        "title": "Didaskalia1994,printed97",
+        "sha256": "a4d87013d3593df6a2e40c1d828af6ce30ae786b8ccef0965a0c5d3b7d0e5fc0",
+        "status": 200,
+        "content_type": "text/html"
+      },
+      {
+        "key": "page-98",
+        "url": "https://www.persee.fr/doc/page/didas_1250-0739_1994_num_3_1_955/didas_1250-0739_1994_num_3_1_T1_0098_0000",
+        "title": "Didaskalia1994,printed98",
+        "sha256": "29ddb1cea1a038f6c85c55faf4a1d53adfbafb3fea9e029791862991dd109b34",
+        "status": 200,
+        "content_type": "text/html"
+      },
+      {
+        "key": "page-99",
+        "url": "https://www.persee.fr/doc/page/didas_1250-0739_1994_num_3_1_955/didas_1250-0739_1994_num_3_1_T1_0099_0000",
+        "title": "Didaskalia1994,printed99",
+        "sha256": "c752ef3aa93f113a7fbb3b8f6fcc4a757f36fd231fc8192e15250f4e1d035339",
+        "status": 200,
+        "content_type": "text/html"
+      },
+      {
+        "key": "page-100",
+        "url": "https://www.persee.fr/doc/page/didas_1250-0739_1994_num_3_1_955/didas_1250-0739_1994_num_3_1_T1_0100_0000",
+        "title": "Didaskalia1994,printed100",
+        "sha256": "c46f0d5cc163957343a29118e2e7c4297df3faea6169174c389cce72326b23ab",
+        "status": 200,
+        "content_type": "text/html"
+      },
+      {
+        "key": "page-101",
+        "url": "https://www.persee.fr/doc/page/didas_1250-0739_1994_num_3_1_955/didas_1250-0739_1994_num_3_1_T1_0101_0000",
+        "title": "Didaskalia1994,printed101",
+        "sha256": "805daad53bb59b7b673751a59cc7fe81f536590cc5da1c63626b2e6cdc2e1820",
+        "status": 200,
+        "content_type": "text/html"
+      },
+      {
+        "key": "page-102",
+        "url": "https://www.persee.fr/doc/page/didas_1250-0739_1994_num_3_1_955/didas_1250-0739_1994_num_3_1_T1_0102_0000",
+        "title": "Didaskalia1994,printed102",
+        "sha256": "ce241c488880c8f11966688980a779357757dae3af6ac1b664d53438d31777c2",
+        "status": 200,
+        "content_type": "text/html"
+      },
+      {
+        "key": "page-103",
+        "url": "https://www.persee.fr/doc/page/didas_1250-0739_1994_num_3_1_955/didas_1250-0739_1994_num_3_1_T1_0103_0000",
+        "title": "Didaskalia1994,printed103",
+        "sha256": "d09b98ccb037d75d84019da2e4be4d37bdb2b493a96679fc6dba09d1dc747bc9",
+        "status": 200,
+        "content_type": "text/html"
+      },
+      {
+        "key": "page-104",
+        "url": "https://www.persee.fr/doc/page/didas_1250-0739_1994_num_3_1_955/didas_1250-0739_1994_num_3_1_T1_0104_0000",
+        "title": "Didaskalia1994,printed104",
+        "sha256": "8ae7971949c64776b8be90fa17bd9375b10227ee3efea931662e20d54b4390d5",
+        "status": 200,
+        "content_type": "text/html"
+      },
+      {
+        "key": "page-105",
+        "url": "https://www.persee.fr/doc/page/didas_1250-0739_1994_num_3_1_955/didas_1250-0739_1994_num_3_1_T1_0105_0000",
+        "title": "Didaskalia1994,printed105",
+        "sha256": "d71f255be7e413901fb9b3ec73cd1dc65b3e5fc3b98734698f56064d8ca1c0df",
+        "status": 200,
+        "content_type": "text/html"
+      },
+      {
+        "key": "page-106",
+        "url": "https://www.persee.fr/doc/page/didas_1250-0739_1994_num_3_1_955/didas_1250-0739_1994_num_3_1_T1_0106_0000",
+        "title": "Didaskalia1994,printed106",
+        "sha256": "6e540bd21e60550e7fa16f1ed065e17f90bd1512be73cd5e08d4a8310ca923e2",
+        "status": 200,
+        "content_type": "text/html"
+      },
+      {
+        "key": "page-107",
+        "url": "https://www.persee.fr/doc/page/didas_1250-0739_1994_num_3_1_955/didas_1250-0739_1994_num_3_1_T1_0107_0000",
+        "title": "Didaskalia1994,printed107",
+        "sha256": "c29ef8ab30659cbf9698abe08588d637e26a16a7934e630bf76de4493871447b",
+        "status": 200,
+        "content_type": "text/html"
+      },
+      {
+        "key": "page-108",
+        "url": "https://www.persee.fr/doc/page/didas_1250-0739_1994_num_3_1_955/didas_1250-0739_1994_num_3_1_T1_0108_0000",
+        "title": "Didaskalia1994,printed108",
+        "sha256": "0230db242ab6846bc0d0217c249c27e295f02d3fba054ce9ab3e9986eb7347d3",
+        "status": 200,
+        "content_type": "text/html"
+      }
+    ],
+    "image_read_manifest": [
+      {
+        "page_url": "https://www.persee.fr/doc/page/didas_1250-0739_1994_num_3_1_955/didas_1250-0739_1994_num_3_1_T1_0093_0000",
+        "url": "https://www.persee.fr/renderPage/didas_1250-0739_1994_num_3_1_955/didas_1250-0739_1994_num_3_1_T1_0093_0000_710.jpg",
+        "sha256": "92a5fb45666d10bc4c8596d09114da3f58d5ed83a536dfaacc990adf454396fc",
+        "status": 200,
+        "content_type": "image/jpeg",
+        "dimensions": [
+          711,
+          1042
+        ],
+        "read_kind": "inline_image_visual_review",
+        "redistributed": false
+      },
+      {
+        "page_url": "https://www.persee.fr/doc/page/didas_1250-0739_1994_num_3_1_955/didas_1250-0739_1994_num_3_1_T1_0094_0000",
+        "url": "https://www.persee.fr/renderPage/didas_1250-0739_1994_num_3_1_955/didas_1250-0739_1994_num_3_1_T1_0094_0000_710.jpg",
+        "sha256": "c8e2e2f8a476ff37076dd5c12674aaa3a2d32df78228367c465891463e91a97a",
+        "status": 200,
+        "content_type": "image/jpeg",
+        "dimensions": [
+          710,
+          1044
+        ],
+        "read_kind": "inline_image_visual_review",
+        "redistributed": false
+      },
+      {
+        "page_url": "https://www.persee.fr/doc/page/didas_1250-0739_1994_num_3_1_955/didas_1250-0739_1994_num_3_1_T1_0095_0000",
+        "url": "https://www.persee.fr/renderPage/didas_1250-0739_1994_num_3_1_955/didas_1250-0739_1994_num_3_1_T1_0095_0000_710.jpg",
+        "sha256": "65553a4c15dce8f1ec2d9d8ed33fb535d0c0d7c68474406e4d574c26e48b838f",
+        "status": 200,
+        "content_type": "image/jpeg",
+        "dimensions": [
+          710,
+          1044
+        ],
+        "read_kind": "inline_image_visual_review",
+        "redistributed": false
+      },
+      {
+        "page_url": "https://www.persee.fr/doc/page/didas_1250-0739_1994_num_3_1_955/didas_1250-0739_1994_num_3_1_T1_0096_0000",
+        "url": "https://www.persee.fr/renderPage/didas_1250-0739_1994_num_3_1_955/didas_1250-0739_1994_num_3_1_T1_0096_0000_710.jpg",
+        "sha256": "cb98d50bbe55ff5f7e7409ebb78b4eff1c5ef260353437f1ebffc8173b6a4b3f",
+        "status": 200,
+        "content_type": "image/jpeg",
+        "dimensions": [
+          710,
+          1044
+        ],
+        "read_kind": "inline_image_visual_review",
+        "redistributed": false
+      },
+      {
+        "page_url": "https://www.persee.fr/doc/page/didas_1250-0739_1994_num_3_1_955/didas_1250-0739_1994_num_3_1_T1_0097_0000",
+        "url": "https://www.persee.fr/renderPage/didas_1250-0739_1994_num_3_1_955/didas_1250-0739_1994_num_3_1_T1_0097_0000_710.jpg",
+        "sha256": "684430fb0d1da9ba6109af74fc5f80524f38d6a8f19e3f8022abfb9b8b548a56",
+        "status": 200,
+        "content_type": "image/jpeg",
+        "dimensions": [
+          710,
+          1044
+        ],
+        "read_kind": "inline_image_visual_review",
+        "redistributed": false
+      },
+      {
+        "page_url": "https://www.persee.fr/doc/page/didas_1250-0739_1994_num_3_1_955/didas_1250-0739_1994_num_3_1_T1_0098_0000",
+        "url": "https://www.persee.fr/renderPage/didas_1250-0739_1994_num_3_1_955/didas_1250-0739_1994_num_3_1_T1_0098_0000_710.jpg",
+        "sha256": "59ccfc4a3ec845968c3bdb2c19f76bd54f6e85f55676d62fa7aa1e328c395ce4",
+        "status": 200,
+        "content_type": "image/jpeg",
+        "dimensions": [
+          710,
+          1044
+        ],
+        "read_kind": "inline_image_visual_review",
+        "redistributed": false
+      },
+      {
+        "page_url": "https://www.persee.fr/doc/page/didas_1250-0739_1994_num_3_1_955/didas_1250-0739_1994_num_3_1_T1_0099_0000",
+        "url": "https://www.persee.fr/renderPage/didas_1250-0739_1994_num_3_1_955/didas_1250-0739_1994_num_3_1_T1_0099_0000_710.jpg",
+        "sha256": "51aa032947c22940cba66776d69d7fba09fd14227c437e7affca41ff788ec3da",
+        "status": 200,
+        "content_type": "image/jpeg",
+        "dimensions": [
+          710,
+          1044
+        ],
+        "read_kind": "inline_image_visual_review",
+        "redistributed": false
+      },
+      {
+        "page_url": "https://www.persee.fr/doc/page/didas_1250-0739_1994_num_3_1_955/didas_1250-0739_1994_num_3_1_T1_0100_0000",
+        "url": "https://www.persee.fr/renderPage/didas_1250-0739_1994_num_3_1_955/didas_1250-0739_1994_num_3_1_T1_0100_0000_710.jpg",
+        "sha256": "d50c3fc51ed6a64dd25cbe12327a6a0b43eb604bb0e140d1e05d29d9986e33a0",
+        "status": 200,
+        "content_type": "image/jpeg",
+        "dimensions": [
+          710,
+          1044
+        ],
+        "read_kind": "inline_image_visual_review",
+        "redistributed": false
+      },
+      {
+        "page_url": "https://www.persee.fr/doc/page/didas_1250-0739_1994_num_3_1_955/didas_1250-0739_1994_num_3_1_T1_0101_0000",
+        "url": "https://www.persee.fr/renderPage/didas_1250-0739_1994_num_3_1_955/didas_1250-0739_1994_num_3_1_T1_0101_0000_710.jpg",
+        "sha256": "44fac8adf2bbcc12ea6e774d8c7e3e1efa3fb584a9b35c514598fd1396f3e232",
+        "status": 200,
+        "content_type": "image/jpeg",
+        "dimensions": [
+          710,
+          1044
+        ],
+        "read_kind": "inline_image_visual_review",
+        "redistributed": false
+      },
+      {
+        "page_url": "https://www.persee.fr/doc/page/didas_1250-0739_1994_num_3_1_955/didas_1250-0739_1994_num_3_1_T1_0102_0000",
+        "url": "https://www.persee.fr/renderPage/didas_1250-0739_1994_num_3_1_955/didas_1250-0739_1994_num_3_1_T1_0102_0000_710.jpg",
+        "sha256": "a6bbe2998d694a8c68e86c33f577a63fde452210b73786e57ec9952c4bc96f3d",
+        "status": 200,
+        "content_type": "image/jpeg",
+        "dimensions": [
+          710,
+          1044
+        ],
+        "read_kind": "inline_image_visual_review",
+        "redistributed": false
+      },
+      {
+        "page_url": "https://www.persee.fr/doc/page/didas_1250-0739_1994_num_3_1_955/didas_1250-0739_1994_num_3_1_T1_0103_0000",
+        "url": "https://www.persee.fr/renderPage/didas_1250-0739_1994_num_3_1_955/didas_1250-0739_1994_num_3_1_T1_0103_0000_710.jpg",
+        "sha256": "6ba554a84935a5bfc37d598c3643f36d695e27c8e74e722caffd8394e4e77f15",
+        "status": 200,
+        "content_type": "image/jpeg",
+        "dimensions": [
+          710,
+          1044
+        ],
+        "read_kind": "inline_image_visual_review",
+        "redistributed": false
+      },
+      {
+        "page_url": "https://www.persee.fr/doc/page/didas_1250-0739_1994_num_3_1_955/didas_1250-0739_1994_num_3_1_T1_0104_0000",
+        "url": "https://www.persee.fr/renderPage/didas_1250-0739_1994_num_3_1_955/didas_1250-0739_1994_num_3_1_T1_0104_0000_710.jpg",
+        "sha256": "a14c15c9f7f9b9e1247451fffc7289f9f746ebab200bc16cca8794ec56498952",
+        "status": 200,
+        "content_type": "image/jpeg",
+        "dimensions": [
+          710,
+          1044
+        ],
+        "read_kind": "inline_image_visual_review",
+        "redistributed": false
+      },
+      {
+        "page_url": "https://www.persee.fr/doc/page/didas_1250-0739_1994_num_3_1_955/didas_1250-0739_1994_num_3_1_T1_0105_0000",
+        "url": "https://www.persee.fr/renderPage/didas_1250-0739_1994_num_3_1_955/didas_1250-0739_1994_num_3_1_T1_0105_0000_710.jpg",
+        "sha256": "df0ef4c3409acf23a69cf3bac3e54e2847306d8fcf25804c4ec5d8df57e72b32",
+        "status": 200,
+        "content_type": "image/jpeg",
+        "dimensions": [
+          710,
+          1044
+        ],
+        "read_kind": "inline_image_visual_review",
+        "redistributed": false
+      },
+      {
+        "page_url": "https://www.persee.fr/doc/page/didas_1250-0739_1994_num_3_1_955/didas_1250-0739_1994_num_3_1_T1_0106_0000",
+        "url": "https://www.persee.fr/renderPage/didas_1250-0739_1994_num_3_1_955/didas_1250-0739_1994_num_3_1_T1_0106_0000_710.jpg",
+        "sha256": "73ea0b808fa08b9ec113e071d2c73076e8070964994533df52b9246f7a10c5d0",
+        "status": 200,
+        "content_type": "image/jpeg",
+        "dimensions": [
+          710,
+          1044
+        ],
+        "read_kind": "inline_image_visual_review",
+        "redistributed": false
+      },
+      {
+        "page_url": "https://www.persee.fr/doc/page/didas_1250-0739_1994_num_3_1_955/didas_1250-0739_1994_num_3_1_T1_0107_0000",
+        "url": "https://www.persee.fr/renderPage/didas_1250-0739_1994_num_3_1_955/didas_1250-0739_1994_num_3_1_T1_0107_0000_710.jpg",
+        "sha256": "758129cc8633e2b6dc71c85b4ca8f30dd7d9c9854c864585fdb607e6479ee89d",
+        "status": 200,
+        "content_type": "image/jpeg",
+        "dimensions": [
+          710,
+          1044
+        ],
+        "read_kind": "inline_image_visual_review",
+        "redistributed": false
+      },
+      {
+        "page_url": "https://www.persee.fr/doc/page/didas_1250-0739_1994_num_3_1_955/didas_1250-0739_1994_num_3_1_T1_0108_0000",
+        "url": "https://www.persee.fr/renderPage/didas_1250-0739_1994_num_3_1_955/didas_1250-0739_1994_num_3_1_T1_0108_0000_710.jpg",
+        "sha256": "b7fa0d44d21c253f53ca060833ef96cc88b0ad6a631900f8ba3641948aba96dd",
+        "status": 200,
+        "content_type": "image/jpeg",
+        "dimensions": [
+          710,
+          1044
+        ],
+        "read_kind": "inline_image_visual_review",
+        "redistributed": false
+      }
+    ],
+    "complete_article_read": true,
+    "html_text_incomplete_pages": [
+      93,
+      94
+    ],
+    "missing_abstracts_read_on_images": true,
+    "pdf_obtained": false,
+    "local_ocr_used": false,
+    "original_1995_article_read": false,
+    "original_1995_binary_fidelity_verified": false,
+    "all_cited_originals_read": false,
+    "all_sentences_translation_fidelity_verified": false,
+    "reprint_text_pdf_pages_rechecked": [
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103
+    ],
+    "reprint_visual_pdf_pages_rechecked": [
+      94,
+      98,
+      100,
+      102
+    ],
+    "comparisons": [
+      {
+        "topic": "판본·번역 주체",
+        "french_pages": [
+          93,
+          94
+        ],
+        "reprint_pdf_pages": [
+          93
+        ],
+        "finding": "1994판은표제에물리(physique),편집부번역표시가있고프랑스어·영어초록을포함한다.2010장은과학(science)범위의제목이며첫각주가1995수정영어원판과1994선행프랑스어논문을구별한다.",
+        "limit": "1995직접본문을읽은것이아니며선행프랑스어출판물의확보를모든번역/원판검증으로바꾸지않는다."
+      },
+      {
+        "topic": "문헌이 받아들이는 목표에 대한 표현",
+        "french_pages": [
+          95
+        ],
+        "reprint_pdf_pages": [
+          94
+        ],
+        "finding": "1994본문은물리수업개선이라는목표가받아들여졌는지확신하지않는다는취지이고,2010선정문장은그러한목표를당연하게볼수있겠다는취지다.1994의학과소속/예산/연구존립문맥도2010해당부분과분량이다르다.",
+        "limit": "두판본의표현차이를기록한다.1995원판이없으므로어느단계에서왜달라졌는지나번역오류의책임은확정하지않는다."
+      },
+      {
+        "topic": "연속성의 부정 표현",
+        "french_pages": [
+          101
+        ],
+        "reprint_pdf_pages": [
+          98
+        ],
+        "finding": "양쪽모두공통지식과과학지식의양끝점을척도로설명한뒤연속적으로연결할수없다는뜻은아니라고서술한다.이중부정을빠뜨려연속연결불가능이라는주장으로옮기지않는다.",
+        "limit": "그자체로모든학생에게동일한연속발달경로가검증됐다는뜻은아니다."
+      },
+      {
+        "topic": "교수 비판의 범위",
+        "french_pages": [
+          101
+        ],
+        "reprint_pdf_pages": [
+          98
+        ],
+        "finding": "1994는잘못된교수라는말을절대적비난이아니라다르게가르칠방법을아직모른다는뜻으로풀어쓴다.2010해당문맥은더압축돼있다.학생구성과교사활동의상호관계를보는방법론적논의다.",
+        "limit": "모든오개념의유일원인을교사로확정하거나구체적학생자료없이인과효과를주장하지않는다."
+      },
+      {
+        "topic": "같은 저자·연도의 다른 서지",
+        "french_pages": [
+          100,
+          106,
+          107
+        ],
+        "reprint_pdf_pages": [
+          98,
+          102
+        ],
+        "finding": "1994참고목록의Davidson1990은책Essays on actions and events(OUP)이고2010목록의Davidson1990은학술지The structure of content and truth이다.양쪽에서Grandy/Hamilton본문1993과목록1992차이도남아있다.",
+        "limit": "같은저자·연도를동일문헌식별자로삼지않고두서지기록을각판본대로보존한다.이들인용원전은읽지않았으며임의로어느쪽연도/제목을정답으로고치지않는다."
+      },
+      {
+        "topic": "시나리오와 결과 검증",
+        "french_pages": [
+          102,
+          103,
+          104,
+          105,
+          106
+        ],
+        "reprint_pdf_pages": [
+          99,
+          100,
+          101,
+          102
+        ],
+        "finding": "양쪽은예상한과제·교사/학생행동을실제실행과대조해고치는시나리오와여러질적/양적방법을논한다.설명만으로증명하려하기보다다른이가무엇을했는지판단하고과정을재구성할수있게한다는문맥이다.",
+        "limit": "예상시나리오를실제응답으로채우거나검증/재현근거를생략해도된다는허가로쓰지않는다.학습효과와수학적증명은따로검토한다."
+      }
+    ],
+    "independent_review": 0,
+    "student_validation": 0
+  }
+}

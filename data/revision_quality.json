@@ -1,0 +1,11 @@
+{
+  "status": "pass",
+  "authored_by_level": {
+    "초등학교": 118,
+    "중학교": 60,
+    "고등학교": 254
+  },
+  "initial_cases": 3,
+  "issues": [],
+  "interpretation": "필수 내용과 참조의 검사다. 필드 존재를 수학적 정확성이나 수업 효과의 검증으로 취급하지 않는다."
+}

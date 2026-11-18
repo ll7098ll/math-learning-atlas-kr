@@ -1,0 +1,1522 @@
+{
+  "source_id": "JOYCE_EUCLID_II5_HTML_UNDATED",
+  "source_url": "https://mathcs.clarku.edu/~djoyce/elements/bookII/propII5.html",
+  "source_asset_kind": "publisher_html",
+  "source_asset_sha256": "5edbdc5d6c6b8fc0a0c8f2ac9e41552a9191e4ab111b163cae5a1f8b6096b1fa",
+  "asset_base_url": "https://mathcs.clarku.edu/~djoyce/elements/",
+  "html_read_manifest": [
+    {
+      "key": "ii5",
+      "url": "https://mathcs.clarku.edu/~djoyce/elements/bookII/propII5.html",
+      "title": "Proposition II.5 and Guide",
+      "sha256": "5edbdc5d6c6b8fc0a0c8f2ac9e41552a9191e4ab111b163cae5a1f8b6096b1fa",
+      "status": 200,
+      "content_type": "text/html"
+    },
+    {
+      "key": "bookI-propI31",
+      "url": "https://mathcs.clarku.edu/~djoyce/elements/bookI/propI31.html",
+      "title": "Euclid bookI/propI31.html",
+      "sha256": "d949ef7ee97117db5e6f083a898cb68bd5c85ee78bafb1a028f9596691a0b5d2",
+      "status": 200,
+      "content_type": "text/html"
+    },
+    {
+      "key": "bookI-propI36",
+      "url": "https://mathcs.clarku.edu/~djoyce/elements/bookI/propI36.html",
+      "title": "Euclid bookI/propI36.html",
+      "sha256": "d6016bd1df5ac187580db8410a3a60760ff8420d8432bbcc1576b471c693bcf0",
+      "status": 200,
+      "content_type": "text/html"
+    },
+    {
+      "key": "bookI-propI43",
+      "url": "https://mathcs.clarku.edu/~djoyce/elements/bookI/propI43.html",
+      "title": "Euclid bookI/propI43.html",
+      "sha256": "1a45e49e7e1565045840ad050f0b1b510b843595a1d27c2b47426109a8547e53",
+      "status": 200,
+      "content_type": "text/html"
+    },
+    {
+      "key": "bookI-propI46",
+      "url": "https://mathcs.clarku.edu/~djoyce/elements/bookI/propI46.html",
+      "title": "Euclid bookI/propI46.html",
+      "sha256": "f99693011ae8bc5ef8883e22ff35e33670e24f69b6a10d2ce34bb312133c74db",
+      "status": 200,
+      "content_type": "text/html"
+    },
+    {
+      "key": "bookI-propI47",
+      "url": "https://mathcs.clarku.edu/~djoyce/elements/bookI/propI47.html",
+      "title": "Euclid bookI/propI47.html",
+      "sha256": "3d19899617e359aa0d9d2a3111e078134e12a99f4df7021e8b06661460299d12",
+      "status": 200,
+      "content_type": "text/html"
+    },
+    {
+      "key": "bookII-defII",
+      "url": "https://mathcs.clarku.edu/~djoyce/elements/bookII/defII.html",
+      "title": "Euclid bookII/defII.html",
+      "sha256": "9157eea7e10364cc55def1a3fdb69eeeb714c6eaf5b2e11133be2baf23816ac1",
+      "status": 200,
+      "content_type": "text/html"
+    },
+    {
+      "key": "bookII-propII14",
+      "url": "https://mathcs.clarku.edu/~djoyce/elements/bookII/propII14.html",
+      "title": "Euclid bookII/propII14.html",
+      "sha256": "0e1db1cc374dad1edf77a53b8b2af6e7928ab6365003170bcb955e9d47b9e3d5",
+      "status": 200,
+      "content_type": "text/html"
+    },
+    {
+      "key": "bookIII-propIII35",
+      "url": "https://mathcs.clarku.edu/~djoyce/elements/bookIII/propIII35.html",
+      "title": "Euclid bookIII/propIII35.html",
+      "sha256": "e9784827a328469ff5d267f1097b588548c363fde9e6ebdc46c77688ced5aae2",
+      "status": 200,
+      "content_type": "text/html"
+    },
+    {
+      "key": "bookVI-propVI25",
+      "url": "https://mathcs.clarku.edu/~djoyce/elements/bookVI/propVI25.html",
+      "title": "Euclid bookVI/propVI25.html",
+      "sha256": "29643372dcd489fe2b233c29233aa2bea586d28e628a808efcf5f6de79019d5f",
+      "status": 200,
+      "content_type": "text/html"
+    },
+    {
+      "key": "bookVI-propVI28",
+      "url": "https://mathcs.clarku.edu/~djoyce/elements/bookVI/propVI28.html",
+      "title": "Euclid bookVI/propVI28.html",
+      "sha256": "7703f5110bf77e37d5ac7292766aac7362ac82e025376a2f1aefa6ba1e46ab4d",
+      "status": 200,
+      "content_type": "text/html"
+    },
+    {
+      "key": "bookI-propI9",
+      "url": "https://mathcs.clarku.edu/~djoyce/elements/bookI/propI9.html",
+      "title": "Euclid bookI/propI9.html",
+      "sha256": "f66729c927396dfe7a4f78adc95d9566d21208688e05546831f48db1e63ea5cf",
+      "status": 200,
+      "content_type": "text/html"
+    },
+    {
+      "key": "bookI-propI10",
+      "url": "https://mathcs.clarku.edu/~djoyce/elements/bookI/propI10.html",
+      "title": "Euclid bookI/propI10.html",
+      "sha256": "dd723197812d9c5261b35e6c29a4b42587cb6f05dfc4c0313cbd3d5ca18200b4",
+      "status": 200,
+      "content_type": "text/html"
+    },
+    {
+      "key": "bookV-propV19",
+      "url": "https://mathcs.clarku.edu/~djoyce/elements/bookV/propV19.html",
+      "title": "Euclid bookV/propV19.html",
+      "sha256": "ce4be5712831117c4f76179f65c1014e7b7d7fcbcd390c3eb5a6fb21cdae213e",
+      "status": 200,
+      "content_type": "text/html"
+    },
+    {
+      "key": "bookVI-propVI19",
+      "url": "https://mathcs.clarku.edu/~djoyce/elements/bookVI/propVI19.html",
+      "title": "Euclid bookVI/propVI19.html",
+      "sha256": "1c8810cb1b6b6d2ea5004b47ffd015949211c45bbe55a5502fdcb3a7e5f0aac3",
+      "status": 200,
+      "content_type": "text/html"
+    }
+  ],
+  "image_read_manifest": [
+    {
+      "page_url": "https://mathcs.clarku.edu/~djoyce/elements/bookII/propII5.html",
+      "url": "https://mathcs.clarku.edu/~djoyce/elements/bookII/propII5.gif",
+      "sha256": "3dcecad9d1fea015021d981513355dd8a7e82a86b51a74aa631f3556821daf05",
+      "status": 200,
+      "content_type": "image/gif",
+      "dimensions": [
+        296,
+        168
+      ],
+      "read_kind": "inline_image_visual_review",
+      "redistributed": false
+    },
+    {
+      "page_url": "https://mathcs.clarku.edu/~djoyce/elements/bookII/propII5.html",
+      "url": "https://mathcs.clarku.edu/~djoyce/elements/bookII/propII5a.gif",
+      "sha256": "1823b152f6a9dc0cd4b50ec076258841b8917ad114630d75643958db9aa0208b",
+      "status": 200,
+      "content_type": "image/gif",
+      "dimensions": [
+        236,
+        141
+      ],
+      "read_kind": "inline_image_visual_review",
+      "redistributed": false
+    },
+    {
+      "page_url": "https://mathcs.clarku.edu/~djoyce/elements/bookII/propII5.html",
+      "url": "https://mathcs.clarku.edu/~djoyce/elements/bookII/propII5b.gif",
+      "sha256": "af43b4e734a47cad671a17df05ce339c03dc0a7a412130603528abea306629ea",
+      "status": 200,
+      "content_type": "image/gif",
+      "dimensions": [
+        393,
+        74
+      ],
+      "read_kind": "inline_image_visual_review",
+      "redistributed": false
+    },
+    {
+      "page_url": "https://mathcs.clarku.edu/~djoyce/elements/bookII/propII5.html",
+      "url": "https://mathcs.clarku.edu/~djoyce/elements/bookII/propII5c.gif",
+      "sha256": "04f65188bd5988d8705cdf7b83b31910570f7e8c70793f32d90aef4970581920",
+      "status": 200,
+      "content_type": "image/gif",
+      "dimensions": [
+        265,
+        67
+      ],
+      "read_kind": "inline_image_visual_review",
+      "redistributed": false
+    },
+    {
+      "page_url": "https://mathcs.clarku.edu/~djoyce/elements/bookI/propI31.html",
+      "url": "https://mathcs.clarku.edu/~djoyce/elements/bookI/propI31.gif",
+      "sha256": "f76b41b8b45377dad2af9e55b28c2c11754f00cc36f97a1ee72b4c53b2587760",
+      "status": 200,
+      "content_type": "image/gif",
+      "dimensions": [
+        208,
+        143
+      ],
+      "read_kind": "inline_image_visual_review",
+      "redistributed": false
+    },
+    {
+      "page_url": "https://mathcs.clarku.edu/~djoyce/elements/bookI/propI36.html",
+      "url": "https://mathcs.clarku.edu/~djoyce/elements/bookI/propI36.gif",
+      "sha256": "209ba0e96b05d719651997ac12391eb56b501c4f03bfcc9daae7eac95c76fce0",
+      "status": 200,
+      "content_type": "image/gif",
+      "dimensions": [
+        345,
+        196
+      ],
+      "read_kind": "inline_image_visual_review",
+      "redistributed": false
+    },
+    {
+      "page_url": "https://mathcs.clarku.edu/~djoyce/elements/bookI/propI43.html",
+      "url": "https://mathcs.clarku.edu/~djoyce/elements/bookI/propI43.gif",
+      "sha256": "8e213f122763ddb8423f9e80a6429ede2aaf3d49efcbc113411b3459ad9c2fb2",
+      "status": 200,
+      "content_type": "image/gif",
+      "dimensions": [
+        247,
+        243
+      ],
+      "read_kind": "inline_image_visual_review",
+      "redistributed": false
+    },
+    {
+      "page_url": "https://mathcs.clarku.edu/~djoyce/elements/bookI/propI46.html",
+      "url": "https://mathcs.clarku.edu/~djoyce/elements/bookI/propI46.gif",
+      "sha256": "3172e33627b037bbae4c6f52267572a529e4f8bb82ff747b30e73f23de86420e",
+      "status": 200,
+      "content_type": "image/gif",
+      "dimensions": [
+        178,
+        226
+      ],
+      "read_kind": "inline_image_visual_review",
+      "redistributed": false
+    },
+    {
+      "page_url": "https://mathcs.clarku.edu/~djoyce/elements/bookI/propI46.html",
+      "url": "https://mathcs.clarku.edu/~djoyce/elements/bookI/propI46a.gif",
+      "sha256": "85f2e40dccb135c9adda4b3a76ca462fd3e0e65c320a3ad55b2e6f7bc083ea3c",
+      "status": 200,
+      "content_type": "image/gif",
+      "dimensions": [
+        340,
+        290
+      ],
+      "read_kind": "inline_image_visual_review",
+      "redistributed": false
+    },
+    {
+      "page_url": "https://mathcs.clarku.edu/~djoyce/elements/bookI/propI47.html",
+      "url": "https://mathcs.clarku.edu/~djoyce/elements/bookI/propI47.gif",
+      "sha256": "72c87bdddf62402ffeb312f06ccf29485adc19bb92e0d4f80e00cf3d15fe53a1",
+      "status": 200,
+      "content_type": "image/gif",
+      "dimensions": [
+        302,
+        331
+      ],
+      "read_kind": "inline_image_visual_review",
+      "redistributed": false
+    },
+    {
+      "page_url": "https://mathcs.clarku.edu/~djoyce/elements/bookI/propI47.html",
+      "url": "https://mathcs.clarku.edu/~djoyce/elements/bookI/propI47a.gif",
+      "sha256": "898ec4d1671d8a8b5c77f7f806d36425bcf44b83534d7e5ddd846c19e24a3fd8",
+      "status": 200,
+      "content_type": "image/gif",
+      "dimensions": [
+        224,
+        228
+      ],
+      "read_kind": "inline_image_visual_review",
+      "redistributed": false
+    },
+    {
+      "page_url": "https://mathcs.clarku.edu/~djoyce/elements/bookI/propI47.html",
+      "url": "https://mathcs.clarku.edu/~djoyce/elements/bookI/propI47b.gif",
+      "sha256": "869a3dac0821a24600c3e65ecc2a4365e7aae1af8582cec42f29309f813775b6",
+      "status": 200,
+      "content_type": "image/gif",
+      "dimensions": [
+        269,
+        192
+      ],
+      "read_kind": "inline_image_visual_review",
+      "redistributed": false
+    },
+    {
+      "page_url": "https://mathcs.clarku.edu/~djoyce/elements/bookII/defII.html",
+      "url": "https://mathcs.clarku.edu/~djoyce/elements/bookII/defII.gif",
+      "sha256": "70f9ca99a957a5e3643c6c38776f4f89588cd8f2ebfaa111550f06c280ad2271",
+      "status": 200,
+      "content_type": "image/gif",
+      "dimensions": [
+        332,
+        174
+      ],
+      "read_kind": "inline_image_visual_review",
+      "redistributed": false
+    },
+    {
+      "page_url": "https://mathcs.clarku.edu/~djoyce/elements/bookII/propII14.html",
+      "url": "https://mathcs.clarku.edu/~djoyce/elements/bookII/propII14.gif",
+      "sha256": "af06e59d734b4b3f3276f31582ded07444a386e2c2c8f026d152f335e6640b47",
+      "status": 200,
+      "content_type": "image/gif",
+      "dimensions": [
+        330,
+        189
+      ],
+      "read_kind": "inline_image_visual_review",
+      "redistributed": false
+    },
+    {
+      "page_url": "https://mathcs.clarku.edu/~djoyce/elements/bookIII/propIII35.html",
+      "url": "https://mathcs.clarku.edu/~djoyce/elements/bookIII/propIII35a.gif",
+      "sha256": "f0443b936a3bd3f02753ce510b87e3d51d3db604e476815cb1e19e53d42cedf9",
+      "status": 200,
+      "content_type": "image/gif",
+      "dimensions": [
+        163,
+        152
+      ],
+      "read_kind": "inline_image_visual_review",
+      "redistributed": false
+    },
+    {
+      "page_url": "https://mathcs.clarku.edu/~djoyce/elements/bookIII/propIII35.html",
+      "url": "https://mathcs.clarku.edu/~djoyce/elements/bookIII/propIII35b.gif",
+      "sha256": "e3a4e7acc97fd52777e73d4b22f9dd1996a293bbc9858bc065f2cbdfae0239c8",
+      "status": 200,
+      "content_type": "image/gif",
+      "dimensions": [
+        184,
+        172
+      ],
+      "read_kind": "inline_image_visual_review",
+      "redistributed": false
+    },
+    {
+      "page_url": "https://mathcs.clarku.edu/~djoyce/elements/bookVI/propVI25.html",
+      "url": "https://mathcs.clarku.edu/~djoyce/elements/bookVI/propVI25.gif",
+      "sha256": "5ae331ff9561a00d75d0d92b06109272101df08eec5c456b0badeadd8ba0aa3b",
+      "status": 200,
+      "content_type": "image/gif",
+      "dimensions": [
+        429,
+        198
+      ],
+      "read_kind": "inline_image_visual_review",
+      "redistributed": false
+    },
+    {
+      "page_url": "https://mathcs.clarku.edu/~djoyce/elements/bookVI/propVI28.html",
+      "url": "https://mathcs.clarku.edu/~djoyce/elements/bookVI/propVI28.gif",
+      "sha256": "3426819c54a86b565ed78c37bb5c27a2cc8ed7d9ba20ead38de3854bebc0ee3a",
+      "status": 200,
+      "content_type": "image/gif",
+      "dimensions": [
+        439,
+        246
+      ],
+      "read_kind": "inline_image_visual_review",
+      "redistributed": false
+    },
+    {
+      "page_url": "https://mathcs.clarku.edu/~djoyce/elements/bookVI/propVI28.html",
+      "url": "https://mathcs.clarku.edu/~djoyce/elements/bookVI/propVI28a.gif",
+      "sha256": "b09315b01f772fb83d430932f988d13c6e07cf2e71aaf8da52b0a08a343e6aae",
+      "status": 200,
+      "content_type": "image/gif",
+      "dimensions": [
+        236,
+        209
+      ],
+      "read_kind": "inline_image_visual_review",
+      "redistributed": false
+    },
+    {
+      "page_url": "https://mathcs.clarku.edu/~djoyce/elements/bookI/propI9.html",
+      "url": "https://mathcs.clarku.edu/~djoyce/elements/bookI/propI9.gif",
+      "sha256": "90d348e1f5d83f07816f7f54b5f9ba2bdb151a3faf83dba0ecc8f3443958660f",
+      "status": 200,
+      "content_type": "image/gif",
+      "dimensions": [
+        255,
+        218
+      ],
+      "read_kind": "inline_image_visual_review",
+      "redistributed": false
+    },
+    {
+      "page_url": "https://mathcs.clarku.edu/~djoyce/elements/bookI/propI9.html",
+      "url": "https://mathcs.clarku.edu/~djoyce/elements/bookI/propI9a.gif",
+      "sha256": "a5ef0cd069db13727c8110bd2053dbf9949c27db95601b60128fe30c8dba3974",
+      "status": 200,
+      "content_type": "image/gif",
+      "dimensions": [
+        304,
+        255
+      ],
+      "read_kind": "inline_image_visual_review",
+      "redistributed": false
+    },
+    {
+      "page_url": "https://mathcs.clarku.edu/~djoyce/elements/bookI/propI10.html",
+      "url": "https://mathcs.clarku.edu/~djoyce/elements/bookI/propI10.gif",
+      "sha256": "947ae60c803258efbdb1a0b57f834e847082669d768132f7b5f32ea1c9a06081",
+      "status": 200,
+      "content_type": "image/gif",
+      "dimensions": [
+        223,
+        208
+      ],
+      "read_kind": "inline_image_visual_review",
+      "redistributed": false
+    },
+    {
+      "page_url": "https://mathcs.clarku.edu/~djoyce/elements/bookI/propI10.html",
+      "url": "https://mathcs.clarku.edu/~djoyce/elements/bookI/propI10a.gif",
+      "sha256": "bf65cc84b7736710bdf3aa98dcd61b1c215b3506c6bea9b0355c926287c3fa9b",
+      "status": 200,
+      "content_type": "image/gif",
+      "dimensions": [
+        353,
+        257
+      ],
+      "read_kind": "inline_image_visual_review",
+      "redistributed": false
+    },
+    {
+      "page_url": "https://mathcs.clarku.edu/~djoyce/elements/bookV/propV19.html",
+      "url": "https://mathcs.clarku.edu/~djoyce/elements/bookV/propV19.gif",
+      "sha256": "83d1f9bb7084f887d9f4a825565a7985a8565871a70e4fde55c15cbd13d53d0f",
+      "status": 200,
+      "content_type": "image/gif",
+      "dimensions": [
+        176,
+        56
+      ],
+      "read_kind": "inline_image_visual_review",
+      "redistributed": false
+    },
+    {
+      "page_url": "https://mathcs.clarku.edu/~djoyce/elements/bookVI/propVI19.html",
+      "url": "https://mathcs.clarku.edu/~djoyce/elements/bookVI/propVI19.gif",
+      "sha256": "dbd1cd2012d111bb7088b303c55d0a9ac2c3ae29c7dbb728e8f6e1b991bd9aa9",
+      "status": 200,
+      "content_type": "image/gif",
+      "dimensions": [
+        226,
+        188
+      ],
+      "read_kind": "inline_image_visual_review",
+      "redistributed": false
+    }
+  ],
+  "source_asset_redistributed": false,
+  "pdf_read": false,
+  "original_page_layout_review": false,
+  "date": "2026-11-17",
+  "reviewer": "Codex",
+  "read_scope": "같은온라인II.5의기존7페이지·13그림에남은직접연결II.14·III.35·VI.25·VI.28과인용대조용I.9·I.10·V.19·VI.19의본문/Guide·그림12개를추가해누적15HTML페이지·25삽입그림을읽었다. II.5원바이트를현재응답과다시대조했고,그HTML의12개정적본문앵커가가리키는고유10개대상은모두읽기명세에포함된다. JavaScript가만드는탐색링크·2차이상전체연결·원론전권의완료는아니다. II.14닮음대안·VI.25/VI.28인용·정적그림의불일치와자체수학모형을구별한다.",
+  "empirical_scope": {
+    "design": "지정 원문·실제 판면 또는 삽입 그림 대조와 고등학교 탐구 과제의 자체 설계",
+    "sample_description": "이 검토에서는 실제 학생 원자료·현장 이용자 조사·학습 효과 실험을 분석하지 않았다",
+    "inference_limit": "정적본문앵커10대상과별도인용대조4페이지까지의누적15페이지·25그림이다. 원어·다른번역·역사원전/원연구·모든2차연결·정의/공준의재귀적증명·동적애플릿/브라우저배치·실제컴퍼스수행·학생검증은미확인이다. II.14의원적문제·I.9의삼등분불가능성역사와V.19삽입설은이온라인해설을읽은것이며원논문/역사증거를독립검증한것이아니다. 자체좌표·등식·반례를역사도형의실측·학생자료로바꾸지않는다.",
+    "student_outcome_study": false,
+    "causal_effect_established": false,
+    "local_effect_tested": false
+  },
+  "contains_source_full_text": false,
+  "source_pdf_redistributed": false,
+  "reading_log": [
+    "온라인 II.5의 명제·기하 증명·Guide의 현대 대수 설명·작도·활용 본문과 삽입 그림4개를 읽었다. HTML응답과 그림 바이트/크기를 대조했다. footer의1996,2002는 현재 페이지 발행일로 확정하지 않아 연도 미상이다.",
+    "2026-11-17: 추가 선정6페이지의 본문/Guide·새 삽입그림9개를 실제 대조하고 기존II.5와4그림의 바이트 동일성을 확인했다.",
+    "2026-11-17: 남은정적본문직접연결4페이지와인용대조4페이지·새그림12개를읽었다."
+  ],
+  "source_corrections": [
+    {
+      "location": "방법·문항·표·그림·서술의 대조",
+      "issue": [
+        "Guide의 빗변 CD 설명은 CD²=(b/2)²−c² 및 작도 그림과 불일치한다. CS=b/2가 빗변, CR=c와 RS=CD가 직각변이다. b=10,c=4이면 CD=3·두 부분8,2로 확인한다.",
+        "작도 마지막 문장의 G·AG/GB는 두 번째 그림과 절차의 D·AD/DB와 불일치한다. 첫 번째 그림의 G를 두 번째 그림으로 옮기지 않는다.",
+        "원문의 같지 않은 분할과 같은 부분의 최대 사례·0길이·허근을 구별한다. 온라인 현대 해설과 자기 대수식을 원어 원문 인용으로 취급하지 않는다."
+      ]
+    },
+    {
+      "location": "I.47 Guide, alternate proof",
+      "issue": "작은 삼각형 ABD 표기는 같은 대안 그림의 M과 맞지 않는다. 마지막 AC²+BC² 표기는 앞의 두 직사각형·주명제와 다르므로 AB²+AC²로 대조해 정정 설명한다."
+    },
+    {
+      "location": "I.46 Guide and main construction",
+      "issue": "length C라는 불명확한 표현 대신 본문의 AD=AB·수직 조건과 그림의 D 위치를 확인한다. 실제 컴퍼스 수행·원 개수의 독립 검증으로 쓰지 않는다."
+    },
+    {
+      "location": "II.14 Guide, alternate proof",
+      "issue": "BH/BF·HGE표기를BH/FH·대응순서BFH–BHE–HFE와대조한다."
+    },
+    {
+      "location": "II.14 static GIF",
+      "issue": "표시된반원은BF위쪽인데정적그림H는아래쪽에놓여본문의DE를E방향으로연장해반원과만나는설명과맞지않는다. 자체좌표에서는위쪽H를쓰며원정적그림·동적작동의상태를구별한다."
+    },
+    {
+      "location": "VI.25 V.19,Cor href",
+      "issue": "V.19따름정리의비례변환과VI.19따름정리의세비례선분/닮은도형넓이를직접대조한다. 해당문장에맞는인용은VI.19따름정리다."
+    },
+    {
+      "location": "VI.28 first bisection citation",
+      "issue": "I.9는각이등분,I.10은선분이등분이다. AB이등분의직접작도를I.10과대조하되I.10증명에서I.9를사용한다는관계는보존한다."
+    }
+  ],
+  "inquiry_completion_review": {
+    "full_book_read": false,
+    "own_tasks_are_not_student_responses": true,
+    "source_assets_redistributed": false,
+    "independent_review": false,
+    "student_validation": false,
+    "full_selected_page_text_and_four_images_read": true,
+    "page_layout_and_applet_not_verified": true,
+    "footer_years": [
+      1996,
+      2002
+    ],
+    "current_page_publication_year_unverified": true
+  },
+  "previous_review": {
+    "source_id": "JOYCE_EUCLID_II5_HTML_UNDATED",
+    "state": "self_read_claim_mapping",
+    "reviewer": "Codex",
+    "date": "2026-11-17",
+    "snapshot_kind": "authored_review_notes",
+    "source_asset_kind": "publisher_html",
+    "source_asset_sha256": "5edbdc5d6c6b8fc0a0c8f2ac9e41552a9191e4ab111b163cae5a1f8b6096b1fa",
+    "asset_base_url": "https://mathcs.clarku.edu/~djoyce/elements/",
+    "html_read_manifest": [
+      {
+        "key": "ii5",
+        "url": "https://mathcs.clarku.edu/~djoyce/elements/bookII/propII5.html",
+        "title": "Proposition II.5 and Guide",
+        "sha256": "5edbdc5d6c6b8fc0a0c8f2ac9e41552a9191e4ab111b163cae5a1f8b6096b1fa",
+        "status": 200,
+        "content_type": "text/html"
+      },
+      {
+        "key": "bookI-propI31",
+        "url": "https://mathcs.clarku.edu/~djoyce/elements/bookI/propI31.html",
+        "title": "Euclid bookI/propI31.html",
+        "sha256": "d949ef7ee97117db5e6f083a898cb68bd5c85ee78bafb1a028f9596691a0b5d2",
+        "status": 200,
+        "content_type": "text/html"
+      },
+      {
+        "key": "bookI-propI36",
+        "url": "https://mathcs.clarku.edu/~djoyce/elements/bookI/propI36.html",
+        "title": "Euclid bookI/propI36.html",
+        "sha256": "d6016bd1df5ac187580db8410a3a60760ff8420d8432bbcc1576b471c693bcf0",
+        "status": 200,
+        "content_type": "text/html"
+      },
+      {
+        "key": "bookI-propI43",
+        "url": "https://mathcs.clarku.edu/~djoyce/elements/bookI/propI43.html",
+        "title": "Euclid bookI/propI43.html",
+        "sha256": "1a45e49e7e1565045840ad050f0b1b510b843595a1d27c2b47426109a8547e53",
+        "status": 200,
+        "content_type": "text/html"
+      },
+      {
+        "key": "bookI-propI46",
+        "url": "https://mathcs.clarku.edu/~djoyce/elements/bookI/propI46.html",
+        "title": "Euclid bookI/propI46.html",
+        "sha256": "f99693011ae8bc5ef8883e22ff35e33670e24f69b6a10d2ce34bb312133c74db",
+        "status": 200,
+        "content_type": "text/html"
+      },
+      {
+        "key": "bookI-propI47",
+        "url": "https://mathcs.clarku.edu/~djoyce/elements/bookI/propI47.html",
+        "title": "Euclid bookI/propI47.html",
+        "sha256": "3d19899617e359aa0d9d2a3111e078134e12a99f4df7021e8b06661460299d12",
+        "status": 200,
+        "content_type": "text/html"
+      },
+      {
+        "key": "bookII-defII",
+        "url": "https://mathcs.clarku.edu/~djoyce/elements/bookII/defII.html",
+        "title": "Euclid bookII/defII.html",
+        "sha256": "9157eea7e10364cc55def1a3fdb69eeeb714c6eaf5b2e11133be2baf23816ac1",
+        "status": 200,
+        "content_type": "text/html"
+      }
+    ],
+    "image_read_manifest": [
+      {
+        "page_url": "https://mathcs.clarku.edu/~djoyce/elements/bookII/propII5.html",
+        "url": "https://mathcs.clarku.edu/~djoyce/elements/bookII/propII5.gif",
+        "sha256": "3dcecad9d1fea015021d981513355dd8a7e82a86b51a74aa631f3556821daf05",
+        "status": 200,
+        "content_type": "image/gif",
+        "dimensions": [
+          296,
+          168
+        ],
+        "read_kind": "inline_image_visual_review",
+        "redistributed": false
+      },
+      {
+        "page_url": "https://mathcs.clarku.edu/~djoyce/elements/bookII/propII5.html",
+        "url": "https://mathcs.clarku.edu/~djoyce/elements/bookII/propII5a.gif",
+        "sha256": "1823b152f6a9dc0cd4b50ec076258841b8917ad114630d75643958db9aa0208b",
+        "status": 200,
+        "content_type": "image/gif",
+        "dimensions": [
+          236,
+          141
+        ],
+        "read_kind": "inline_image_visual_review",
+        "redistributed": false
+      },
+      {
+        "page_url": "https://mathcs.clarku.edu/~djoyce/elements/bookII/propII5.html",
+        "url": "https://mathcs.clarku.edu/~djoyce/elements/bookII/propII5b.gif",
+        "sha256": "af43b4e734a47cad671a17df05ce339c03dc0a7a412130603528abea306629ea",
+        "status": 200,
+        "content_type": "image/gif",
+        "dimensions": [
+          393,
+          74
+        ],
+        "read_kind": "inline_image_visual_review",
+        "redistributed": false
+      },
+      {
+        "page_url": "https://mathcs.clarku.edu/~djoyce/elements/bookII/propII5.html",
+        "url": "https://mathcs.clarku.edu/~djoyce/elements/bookII/propII5c.gif",
+        "sha256": "04f65188bd5988d8705cdf7b83b31910570f7e8c70793f32d90aef4970581920",
+        "status": 200,
+        "content_type": "image/gif",
+        "dimensions": [
+          265,
+          67
+        ],
+        "read_kind": "inline_image_visual_review",
+        "redistributed": false
+      },
+      {
+        "page_url": "https://mathcs.clarku.edu/~djoyce/elements/bookI/propI31.html",
+        "url": "https://mathcs.clarku.edu/~djoyce/elements/bookI/propI31.gif",
+        "sha256": "f76b41b8b45377dad2af9e55b28c2c11754f00cc36f97a1ee72b4c53b2587760",
+        "status": 200,
+        "content_type": "image/gif",
+        "dimensions": [
+          208,
+          143
+        ],
+        "read_kind": "inline_image_visual_review",
+        "redistributed": false
+      },
+      {
+        "page_url": "https://mathcs.clarku.edu/~djoyce/elements/bookI/propI36.html",
+        "url": "https://mathcs.clarku.edu/~djoyce/elements/bookI/propI36.gif",
+        "sha256": "209ba0e96b05d719651997ac12391eb56b501c4f03bfcc9daae7eac95c76fce0",
+        "status": 200,
+        "content_type": "image/gif",
+        "dimensions": [
+          345,
+          196
+        ],
+        "read_kind": "inline_image_visual_review",
+        "redistributed": false
+      },
+      {
+        "page_url": "https://mathcs.clarku.edu/~djoyce/elements/bookI/propI43.html",
+        "url": "https://mathcs.clarku.edu/~djoyce/elements/bookI/propI43.gif",
+        "sha256": "8e213f122763ddb8423f9e80a6429ede2aaf3d49efcbc113411b3459ad9c2fb2",
+        "status": 200,
+        "content_type": "image/gif",
+        "dimensions": [
+          247,
+          243
+        ],
+        "read_kind": "inline_image_visual_review",
+        "redistributed": false
+      },
+      {
+        "page_url": "https://mathcs.clarku.edu/~djoyce/elements/bookI/propI46.html",
+        "url": "https://mathcs.clarku.edu/~djoyce/elements/bookI/propI46.gif",
+        "sha256": "3172e33627b037bbae4c6f52267572a529e4f8bb82ff747b30e73f23de86420e",
+        "status": 200,
+        "content_type": "image/gif",
+        "dimensions": [
+          178,
+          226
+        ],
+        "read_kind": "inline_image_visual_review",
+        "redistributed": false
+      },
+      {
+        "page_url": "https://mathcs.clarku.edu/~djoyce/elements/bookI/propI46.html",
+        "url": "https://mathcs.clarku.edu/~djoyce/elements/bookI/propI46a.gif",
+        "sha256": "85f2e40dccb135c9adda4b3a76ca462fd3e0e65c320a3ad55b2e6f7bc083ea3c",
+        "status": 200,
+        "content_type": "image/gif",
+        "dimensions": [
+          340,
+          290
+        ],
+        "read_kind": "inline_image_visual_review",
+        "redistributed": false
+      },
+      {
+        "page_url": "https://mathcs.clarku.edu/~djoyce/elements/bookI/propI47.html",
+        "url": "https://mathcs.clarku.edu/~djoyce/elements/bookI/propI47.gif",
+        "sha256": "72c87bdddf62402ffeb312f06ccf29485adc19bb92e0d4f80e00cf3d15fe53a1",
+        "status": 200,
+        "content_type": "image/gif",
+        "dimensions": [
+          302,
+          331
+        ],
+        "read_kind": "inline_image_visual_review",
+        "redistributed": false
+      },
+      {
+        "page_url": "https://mathcs.clarku.edu/~djoyce/elements/bookI/propI47.html",
+        "url": "https://mathcs.clarku.edu/~djoyce/elements/bookI/propI47a.gif",
+        "sha256": "898ec4d1671d8a8b5c77f7f806d36425bcf44b83534d7e5ddd846c19e24a3fd8",
+        "status": 200,
+        "content_type": "image/gif",
+        "dimensions": [
+          224,
+          228
+        ],
+        "read_kind": "inline_image_visual_review",
+        "redistributed": false
+      },
+      {
+        "page_url": "https://mathcs.clarku.edu/~djoyce/elements/bookI/propI47.html",
+        "url": "https://mathcs.clarku.edu/~djoyce/elements/bookI/propI47b.gif",
+        "sha256": "869a3dac0821a24600c3e65ecc2a4365e7aae1af8582cec42f29309f813775b6",
+        "status": 200,
+        "content_type": "image/gif",
+        "dimensions": [
+          269,
+          192
+        ],
+        "read_kind": "inline_image_visual_review",
+        "redistributed": false
+      },
+      {
+        "page_url": "https://mathcs.clarku.edu/~djoyce/elements/bookII/defII.html",
+        "url": "https://mathcs.clarku.edu/~djoyce/elements/bookII/defII.gif",
+        "sha256": "70f9ca99a957a5e3643c6c38776f4f89588cd8f2ebfaa111550f06c280ad2271",
+        "status": 200,
+        "content_type": "image/gif",
+        "dimensions": [
+          332,
+          174
+        ],
+        "read_kind": "inline_image_visual_review",
+        "redistributed": false
+      }
+    ],
+    "snapshot_file": "data/literature_evidence/JOYCE_EUCLID_II5_prerequisites_review_notes.json",
+    "snapshot_sha256": "045147b29df7b8c0e9e68b9161ed1a470a9373dba8fb2e4af1fb922281b22165",
+    "redistribution_license": "workspace_authored_notes",
+    "bibliography_snapshot": "84346c572af21237ff4ed79ee938f53146590c121bf1afbdf0c5bc7a94924532",
+    "display": {
+      "title": "Euclid Elements II.5 and six directly linked prerequisite pages: Joyce online edition, selected scope and13 embedded images; year unverified",
+      "url": "https://mathcs.clarku.edu/~djoyce/elements/bookII/propII5.html",
+      "authors_year": "David E. Joyce, 연도 미상"
+    },
+    "read_scope": "최초II.5본문·그림4개에 더해 명제/작도와 이차문제 해설에 인용된 선정6페이지 I.31·I.36·I.43·I.46·I.47·II정의의 본문·Guide와 새 삽입그림9개를 읽었다. 누적7HTML페이지·13그림이며 새 책이나 전권으로 세지 않는다. II.5기존 바이트·그림4개는 동일성을 재확인했다. 명제/작도·현대 해설·역사 문단의 주장·자기 수학 모형을 나누고 I.47의 대안 증명 표기 불일치를 대조했다. 동적 페이지 배치·애플릿은 확인하지 않았다.",
+    "limits": "같은 온라인 판본의 지정7페이지·13그림이다. 원론 전권·원어·다른 번역·역사 원전/원연구·실제 작도 도구 실행·학생 수행은 미확인이다. II.5활용/일반화의 미선정 직접 링크 II.14·VI.25·VI.28·III.35 등과, 선정 명제들이 다시 인용하는 I.23·I.27·I.29·I.34·I.35·I.41·VI.8·VI.17 등의2차 연결은 미독이다. 선정6페이지의 독해를 모든 직접 링크·모든 전제의 독립 증명·학습 선수성·실제 교수 효과로 확대하지 않는다.",
+    "empirical_scope": {
+      "design": "지정 원문·실제 판면 또는 삽입 그림 대조와 고등학교 탐구 과제의 자체 설계",
+      "sample_description": "이 검토에서는 실제 학생 원자료·현장 이용자 조사·학습 효과 실험을 분석하지 않았다",
+      "inference_limit": "같은 온라인 판본의 지정7페이지·13그림이다. 원론 전권·원어·다른 번역·역사 원전/원연구·실제 작도 도구 실행·학생 수행은 미확인이다. II.5활용/일반화의 미선정 직접 링크 II.14·VI.25·VI.28·III.35 등과, 선정 명제들이 다시 인용하는 I.23·I.27·I.29·I.34·I.35·I.41·VI.8·VI.17 등의2차 연결은 미독이다. 선정6페이지의 독해를 모든 직접 링크·모든 전제의 독립 증명·학습 선수성·실제 교수 효과로 확대하지 않는다.",
+      "student_outcome_study": false,
+      "causal_effect_established": false,
+      "local_effect_tested": false
+    },
+    "scope_note": "문항 설계·학생의 실제 응답·분석 분류·자체 설계 과제를 구별한다.",
+    "method_note": "직접 인용6페이지의 본문·해설·그림과 실제 응답 바이트를 대조했다. 모든 전제의 재귀적 검증·원어/역사 원전·동적 배치/애플릿·실제 학생 수행은 미확인이다.",
+    "editorial_action": "같은 출처를 확장해 새 주장6건·자체 관찰10개를 더하고 기존 주장3건·관찰8개·관계 해석2개의 이력을 보존했다.",
+    "independent_review": false,
+    "student_validated": false,
+    "observations": [
+      {
+        "id": "INQ-P27",
+        "standard_codes": [
+          "12수과02-01"
+        ],
+        "question": "II.5의 온라인 페이지에서 명제·증명·Guide·그림을 나누어 읽기 범위를 기록하라.",
+        "expected": "최초II.5의 기하 명제/증명·현대 대수 해설·작도와 식 그림4개를 구별하고, 후속 선정6페이지의 읽기·그림9개 대조를 따로 남긴다. footer1996,2002와 현재 페이지 발행일을 같게 확정하지 않으며 미선정 직접 링크·2차 연결·다른 판본은 미확인으로 둔다.",
+        "interpretation": "누적7페이지·그림13개의 확인은 원론 전권·원어·다른 번역·애플릿 작동·체계적 문헌 검토 전체의 완료가 아니다.",
+        "student_validated": false
+      },
+      {
+        "id": "INQ-P28",
+        "standard_codes": [
+          "12수과02-01"
+        ],
+        "question": "양의 x,y에서 xy+((x−y)/2)²=((x+y)/2)²를 스스로 유도하고 x+y=10에 적용하라.",
+        "expected": "[(x+y)²−(x−y)²]/4=4xy/4=xy다. 따라서 A=25−((x−y)/2)²≤25이고 같음은 x=y=5다. 최대25cm²의 모든 양의 실수 범위 논증과 같음 조건을 별도로 제시한다.",
+        "interpretation": "온라인의 같지 않게 자른 도형을 같게 자른 최대 경우까지 그대로 인용하지 않는다. 현대 대수 논증과 역사적 기하 표현의 차이를 설명한다.",
+        "student_validated": false
+      },
+      {
+        "id": "INQ-P29",
+        "standard_codes": [
+          "12수과03-02"
+        ],
+        "question": "온라인 작도에서 b=10,c=4일 때 CS·CR·RS·CD와 두 부분의 길이를 구하라.",
+        "expected": "CS=5가 빗변, CR=4, RS=CD=3이다. 두 부분은8과2이며 합10·곱16=c²다. 같은 페이지의 식·두 번째 그림과 Guide의 빗변 문장을 대조한다.",
+        "interpretation": "이는 자체 수학 검산이다. CD를 빗변으로 부르는 문장을 그대로 따르지 않으며 실제 측정·학생 작도 수행을 관측한 것은 아니다.",
+        "student_validated": false
+      },
+      {
+        "id": "INQ-P30",
+        "standard_codes": [
+          "12수과03-02"
+        ],
+        "question": "CD를 빗변으로 잘못 두어 √(25+16)=√41이라 하면 원래 조건을 만족하는가?",
+        "expected": "두 부분5±√41 중 하나가 음수가 되고 곱은25−41=−16이므로 양의 두 선분·곱16 조건에 맞지 않는다. CD²=25−16=9를 사용해 다시 구한다.",
+        "interpretation": "반례는 문제의 조건·식·그림을 확인하는 근거다. 저자의 전체 저작이나 다른 번역의 신뢰도를 일괄 판정하지 않는다.",
+        "student_validated": false
+      },
+      {
+        "id": "INQ-P31",
+        "standard_codes": [
+          "12수과02-01"
+        ],
+        "question": "두 번째 작도의 마지막 문장에 G·AG/GB가 나오는데 그림에는 D가 표시돼 있다. 어떻게 대조할 것인가?",
+        "expected": "작도는 S에서 AB에 내린 수선의 발을 D로 정한다. 해당 두 번째 그림에 G는 없으므로 그 설명에서는 D와 AD/DB를 사용해 식과 도형을 맞추는 자기 정정 기록을 남긴다.",
+        "interpretation": "첫 번째 증명 그림의 G와 두 번째 작도를 혼합하지 않는다. 원문을 변경했다고 하거나 다른 판본에서도 같은 오류가 있다고 단정하지 않는다.",
+        "student_validated": false
+      },
+      {
+        "id": "INQ-P32",
+        "standard_codes": [
+          "12수과03-03"
+        ],
+        "question": "합 b·곱 c²인 양의 두 선분의 결론을 정의역과 함께 보고하라.",
+        "expected": "b>0에서 두 부분은 b/2±√(b²/4−c²)다. 양의 두 부분에는0<c≤b/2가 필요하다. 다르게 자르려면0<c<b/2이며 같게 자르는 경계는 별도로 설명한다.",
+        "interpretation": "길이와 넓이의 단위를 구별한다. 실근 조건만으로 양의 두 부분이 보장되는 모든 변형 모형을 주장하거나 양의 제곱근 c의 정의를 생략하지 않는다.",
+        "student_validated": false
+      },
+      {
+        "id": "INQ-P33",
+        "standard_codes": [
+          "12수과03-04"
+        ],
+        "question": "b=10에서 c=0,5,6인 경우를 나누어 기존 논증의 적용 범위를 성찰하라.",
+        "expected": "c=0은10과0으로 양의 두 부분 밖, c=5는5와5로 같게 나눈 경계, c=6은 판별 조건25−36<0으로 실수 길이의 해가 없다.",
+        "interpretation": "경계·무해 조건을 실패한 실제 실험으로 보고하지 않는다. 같음의 최대 사례와 원문의 다르게 자른 가정을 구별해 자기 확장의 한계를 적는다.",
+        "student_validated": false
+      },
+      {
+        "id": "INQ-P34",
+        "standard_codes": [
+          "12수과02-01"
+        ],
+        "question": "증명 본문에 I.43·I.46·I.47 등이 연결돼 있다. 그 링크를 보았다는 이유로 선수 증명까지 읽었다고 할 수 있는가?",
+        "expected": "최초에는 II.5의 연결 목록을 읽은 범위로 기록했고, 후속으로 선정6페이지를 실제 대조했다. 활용/일반화의 미선정 직접 링크와 선정 명제가 다시 인용하는 정의/명제·공준의2차 연결은 추가 검토할 범위로 남긴다.",
+        "interpretation": "링크 존재와 원문 정독을 구별한다. 선정 직접 연결의 확인을 원론 전체의 기반 증명·여러 번역의 체계적 비교·실제 학습 효과로 확대하지 않는다.",
+        "student_validated": false
+      },
+      {
+        "id": "JEF-P01",
+        "standard_codes": [
+          "12수과02-01"
+        ],
+        "question": "8×4 직사각형을 대각선 위의 점에서 두 변에 평행하게 나눴을 때 보완 부분이6×1과2×3이다. 두 부분은 어떤 의미로 같은가?",
+        "expected": "넓이는 각각6으로 같다. 변의 길이쌍은{6,1}과{2,3}으로 달라 합동은 아니다. 같은 넓이와 같은 모양·합동을 구별한다.",
+        "interpretation": "이는 I.43의 뜻을 확인하는 자체 수치 모형이다. 원문의 그림을 자로 측정한 자료나 실제 학생의 이해를 관찰한 것이 아니다.",
+        "student_validated": false
+      },
+      {
+        "id": "JEF-P02",
+        "standard_codes": [
+          "12수과03-02"
+        ],
+        "question": "II.5의 자체 모형에서5×5 정사각형에서3×3 정사각형을 뺀 gnomon을 세 부분으로 설명하라.",
+        "expected": "25−9=16이다. 대각선 주위의2×2 부분4와 두 보완 부분3×2,2×3의6+6을 합하면16이다. 보완 부분 둘만 더한12와 구별한다.",
+        "interpretation": "gnomon의 일반 정의를 직각 도형으로만 제한하지 않는다. 이 수치는 자체 예이며 원문의 정확한 길이나 원어 판본을 측정·확인한 것이 아니다.",
+        "student_validated": false
+      },
+      {
+        "id": "JEF-P03",
+        "standard_codes": [
+          "12수과02-01"
+        ],
+        "question": "밑변3·높이4인 직사각형과 같은 두 수평선 사이의 밑변3 평행사변형을 비교하고, 높이를6으로 바꾸면 어떤가?",
+        "expected": "앞의 두 넓이는12cm²이고 기울기만으로 달라지지 않는다. 높이가6이면18cm²로 달라 같은 두 평행선 조건을 빠뜨린 비교가 된다.",
+        "interpretation": "각 도형에 평행한 변이 있다는 사실과 두 도형의 공통 평행선 조건을 혼동하지 않는다. 수치는 자체 모형이다.",
+        "student_validated": false
+      },
+      {
+        "id": "JEF-P04",
+        "standard_codes": [
+          "12수과02-01"
+        ],
+        "question": "한 변5인 정사각형을 만들 때 같은 길이의 네 변만 확인하면 충분한가?",
+        "expected": "아니다. 변 벡터(5,0),(3,4)로 만든 마름모도 네 변5지만 직각이 아니고 넓이는20이다. 정사각형은 수직 방향과 길이5를 함께 잡아 넓이25를 얻는다.",
+        "interpretation": "I.46 본문은 AD=AB와 직각을 함께 확인한다. Guide의 C라는 모호한 길이 표기를 그대로 구현하지 않으며 실제 컴퍼스 동작 검증과 자체 계산을 나눈다.",
+        "student_validated": false
+      },
+      {
+        "id": "JEF-P05",
+        "standard_codes": [
+          "12수과02-01"
+        ],
+        "question": "유클리드 평면에서 직선 y=0 밖의 점(0,2)을 지나는 평행선 하나를 그리고, 존재와 유일성의 설명을 나누라.",
+        "expected": "y=2가 한 평행선이다. I.31 본문은 각 복사와 엇각을 이용한 구성이고 Guide는 평행 공준에 따른 유일성을 별도로 설명한다. 스스로 사용한 조건을 적는다.",
+        "interpretation": "이 좌표 예 하나를 모든 기하 체계의 유일성 증명으로 쓰지 않는다.2차 연결 원문·작도 원의 개수·실제 학생의 작도 수행은 미확인이다.",
+        "student_validated": false
+      },
+      {
+        "id": "JEF-P06",
+        "standard_codes": [
+          "12수과03-02"
+        ],
+        "question": "AB=3,AC=4인 직각삼각형에서 M을 빗변 BC에 내린 수선의 발로 잡고 Guide의 대응식을 계산하라.",
+        "expected": "BC=5, BM=9/5, CM=16/5, AM=12/5다. BC·BM=9=AB², BC·CM=16=AC²이며 두 직사각형의 합은25다. 대안 그림의 M과 주증명 그림의 D를 구별한다.",
+        "interpretation": "길이와 넓이의 단위를 구별한다. 자체 검산은 소단원 전체 증명·닮음의2차 근거·실제 학생 수행을 확인한 것이 아니다.",
+        "student_validated": false
+      },
+      {
+        "id": "JEF-P07",
+        "standard_codes": [
+          "12수과03-02"
+        ],
+        "question": "같은3–4–5 예에서 Guide 마지막 문장의 AC²+BC²와 주명제의 AB²+AC²를 비교하라.",
+        "expected": "AC²+BC²=16+25=41로 BC²=25와 다르다. 올바른 두 직각변의 합은 AB²+AC²=9+16=25다. 앞의 직사각형 식·주명제·그림을 함께 확인해 정정 근거를 적는다.",
+        "interpretation": "주명제가 틀린 것으로 쓰거나 원사이트가 정정됐다고 하지 않는다. 원문 위치·자기 정정·남은 확인 범위를 나누어 기록한다.",
+        "student_validated": false
+      },
+      {
+        "id": "JEF-P08",
+        "standard_codes": [
+          "12수과03-02"
+        ],
+        "question": "I.47 Guide의7×7 바깥 정사각형과 네 개의3–4 직각삼각형 넓이로 기울어진 안쪽 정사각형을 점검하라.",
+        "expected": "바깥49에서 각 삼각형 넓이6을 네 번 빼면25이고 안쪽 변은5다. 그림의 격자·부분 넓이와 계산을 대조하되 표시 면적을 실측값으로 취급하지 않는다.",
+        "interpretation": "이 기하 계산은 자체 확인이다. 중국 고문헌·귀속·연대·번역 참고문헌의 역사적 주장을 독립 검증한 것은 아니다.",
+        "student_validated": false
+      },
+      {
+        "id": "JEF-P09",
+        "standard_codes": [
+          "12수과02-01"
+        ],
+        "question": "최초II.5 한 페이지 읽기와 이번에 직접 인용6페이지를 더 읽은 범위를 어떻게 구분해 기록할 것인가?",
+        "expected": "이전 날짜·파일/해시·읽은 범위를 보존하고, 추가 날짜·I.31/36/43/46/47·II정의·본문/Guide·새 그림9개를 따로 적는다. 누적7페이지·그림13개와 새 책의 수를 구별한다.",
+        "interpretation": "단순히 링크가 있다는 이유로 원문을 읽었다고 하지 않는다. 출판 연도·다른 번역·원론 전권·2차 링크·동적 애플릿을 확인했다고 확대하지 않는다.",
+        "student_validated": false
+      },
+      {
+        "id": "JEF-P10",
+        "standard_codes": [
+          "12수과02-01"
+        ],
+        "question": "직접 인용6페이지를 읽었으므로 II.5의 모든 전제를 독립적으로 증명했고 교수 효과도 확인했다고 해도 되는가?",
+        "expected": "아니다. 선정 명제의2차 연결·정의·공준·역사 원전·다른 판본은 별도 범위다. 실제 읽은 명제/해설/그림과 자기 검산, 남은 기반 검토와 실제 학생 자료를 구별한다.",
+        "interpretation": "직접 연결의 읽기 완료를 전체 원전의 증명 검증·엄격한 학습 선수성·실제 교육 효과로 바꾸지 않는다.",
+        "student_validated": false
+      }
+    ],
+    "snapshot_history": [
+      {
+        "snapshot_file": "data/literature_evidence/JOYCE_EUCLID_II5_HTML_UNDATED_review_notes.json",
+        "snapshot_sha256": "b4e47224cd94de18b07c2f1a3f9dd157674679f1b4c0e61774753abdf9ef78cc",
+        "date": "2026-11-16",
+        "read_scope": "온라인 II.5의 명제·기하 증명·Guide의 현대 대수 설명·작도·활용 본문과 삽입 그림4개를 읽었다. HTML응답과 그림 바이트/크기를 대조했다. footer의1996,2002는 현재 페이지 발행일로 확정하지 않아 연도 미상이다."
+      }
+    ]
+  },
+  "previous_bibliography": {
+    "id": "JOYCE_EUCLID_II5_HTML_UNDATED",
+    "year": null,
+    "url": "https://mathcs.clarku.edu/~djoyce/elements/bookII/propII5.html",
+    "title": "Euclid Elements II.5 and six directly linked prerequisite pages: Joyce online edition, selected scope and13 embedded images; year unverified",
+    "authors": [
+      "David E. Joyce"
+    ],
+    "kind": "수학과제 탐구 방법·윤리·문헌 참고",
+    "review_scope": "최초II.5본문·그림4개에 더해 명제/작도와 이차문제 해설에 인용된 선정6페이지 I.31·I.36·I.43·I.46·I.47·II정의의 본문·Guide와 새 삽입그림9개를 읽었다. 누적7HTML페이지·13그림이며 새 책이나 전권으로 세지 않는다. II.5기존 바이트·그림4개는 동일성을 재확인했다. 명제/작도·현대 해설·역사 문단의 주장·자기 수학 모형을 나누고 I.47의 대안 증명 표기 불일치를 대조했다. 동적 페이지 배치·애플릿은 확인하지 않았다.",
+    "does_not_establish": "같은 온라인 판본의 지정7페이지·13그림이다. 원론 전권·원어·다른 번역·역사 원전/원연구·실제 작도 도구 실행·학생 수행은 미확인이다. II.5활용/일반화의 미선정 직접 링크 II.14·VI.25·VI.28·III.35 등과, 선정 명제들이 다시 인용하는 I.23·I.27·I.29·I.34·I.35·I.41·VI.8·VI.17 등의2차 연결은 미독이다. 선정6페이지의 독해를 모든 직접 링크·모든 전제의 독립 증명·학습 선수성·실제 교수 효과로 확대하지 않는다.",
+    "supports": [
+      "기하 명제·현대 해설·자기 대수 유도의 대조",
+      "도형/식/문장의 불일치와 원문 범위",
+      "양의 선분·실근·같음/다름의 조건"
+    ],
+    "next_review": "같은 온라인 판본의 지정7페이지·13그림이다. 원론 전권·원어·다른 번역·역사 원전/원연구·실제 작도 도구 실행·학생 수행은 미확인이다. II.5활용/일반화의 미선정 직접 링크 II.14·VI.25·VI.28·III.35 등과, 선정 명제들이 다시 인용하는 I.23·I.27·I.29·I.34·I.35·I.41·VI.8·VI.17 등의2차 연결은 미독이다. 선정6페이지의 독해를 모든 직접 링크·모든 전제의 독립 증명·학습 선수성·실제 교수 효과로 확대하지 않는다."
+  },
+  "previous_claims": [
+    {
+      "id": "INQ16-15",
+      "source_id": "JOYCE_EUCLID_II5_HTML_UNDATED",
+      "role": "mathematical_explanation",
+      "empirical_scope": {
+        "design": "지정 원문·실제 판면 또는 삽입 그림 대조와 고등학교 탐구 과제의 자체 설계",
+        "sample_description": "이 검토에서는 실제 학생 원자료·현장 이용자 조사·학습 효과 실험을 분석하지 않았다",
+        "inference_limit": "같은 온라인 판본의 지정7페이지·13그림이다. 원론 전권·원어·다른 번역·역사 원전/원연구·실제 작도 도구 실행·학생 수행은 미확인이다. II.5활용/일반화의 미선정 직접 링크 II.14·VI.25·VI.28·III.35 등과, 선정 명제들이 다시 인용하는 I.23·I.27·I.29·I.34·I.35·I.41·VI.8·VI.17 등의2차 연결은 미독이다. 선정6페이지의 독해를 모든 직접 링크·모든 전제의 독립 증명·학습 선수성·실제 교수 효과로 확대하지 않는다.",
+        "student_outcome_study": false,
+        "causal_effect_established": false,
+        "local_effect_tested": false
+      },
+      "standard_codes": [
+        "12수과02-01"
+      ],
+      "locations": [
+        "https://mathcs.clarku.edu/~djoyce/elements/bookII/propII5.html · 명제·증명·Guide·삽입 그림4개"
+      ],
+      "support": "한 페이지에서도 기하 명제·도형 논증·온라인 현대 해설·자기 해석을 나누어 대조한다. 원문의 가정·도형 이름·식·설명을 함께 확인한다.",
+      "does_not_establish": "이 주장의 최초 대조는 II.5 한 페이지·그림4개다. 후속으로 직접 인용6페이지를 더 읽은 범위는 별도 읽기 이력에 남겼다. 원어 원전·다른 번역·원론 전권·선정 명제들의2차 연결까지 검토했다고 하지 않는다.",
+      "independent_review": false,
+      "student_validated": false,
+      "target_snapshots": {
+        "revision:12수과02-01": "3ad72b5c057a7a1dd741f2b240c590c9af39d00f59d8b4783e061f4acd68a212"
+      }
+    },
+    {
+      "id": "INQ16-16",
+      "source_id": "JOYCE_EUCLID_II5_HTML_UNDATED",
+      "role": "mathematical_explanation",
+      "empirical_scope": {
+        "design": "지정 원문·실제 판면 또는 삽입 그림 대조와 고등학교 탐구 과제의 자체 설계",
+        "sample_description": "이 검토에서는 실제 학생 원자료·현장 이용자 조사·학습 효과 실험을 분석하지 않았다",
+        "inference_limit": "같은 온라인 판본의 지정7페이지·13그림이다. 원론 전권·원어·다른 번역·역사 원전/원연구·실제 작도 도구 실행·학생 수행은 미확인이다. II.5활용/일반화의 미선정 직접 링크 II.14·VI.25·VI.28·III.35 등과, 선정 명제들이 다시 인용하는 I.23·I.27·I.29·I.34·I.35·I.41·VI.8·VI.17 등의2차 연결은 미독이다. 선정6페이지의 독해를 모든 직접 링크·모든 전제의 독립 증명·학습 선수성·실제 교수 효과로 확대하지 않는다.",
+        "student_outcome_study": false,
+        "causal_effect_established": false,
+        "local_effect_tested": false
+      },
+      "standard_codes": [
+        "12수과02-01",
+        "12수과03-02"
+      ],
+      "locations": [
+        "https://mathcs.clarku.edu/~djoyce/elements/bookII/propII5.html · 명제·Guide의 대수 설명·식 그림"
+      ],
+      "support": "양의 두 선분의 관계를 현대식 xy+((x−y)/2)²=((x+y)/2)²로 대조하고 자신의 조건에서 유도한다. x+y=10일 때 최대25는 자체 대수 논증과 같음 조건을 따로 설명한다.",
+      "does_not_establish": "온라인 그림은 같지 않게 나눈 선분을 다룬다. 같게 자른 최대 사례를 역사적 문장의 그대로 인용으로 쓰지 않는다. 유한 정수 표만으로 모든 양의 실수의 최댓값을 입증하지 않는다.",
+      "independent_review": false,
+      "student_validated": false,
+      "target_snapshots": {
+        "revision:12수과02-01": "3ad72b5c057a7a1dd741f2b240c590c9af39d00f59d8b4783e061f4acd68a212",
+        "revision:12수과03-02": "113e9cc2cb2c13d5189d76710a4d9a4ce125225c9217c92712eb0f27676cb248"
+      }
+    },
+    {
+      "id": "INQ16-17",
+      "source_id": "JOYCE_EUCLID_II5_HTML_UNDATED",
+      "role": "mathematical_explanation",
+      "empirical_scope": {
+        "design": "지정 원문·실제 판면 또는 삽입 그림 대조와 고등학교 탐구 과제의 자체 설계",
+        "sample_description": "이 검토에서는 실제 학생 원자료·현장 이용자 조사·학습 효과 실험을 분석하지 않았다",
+        "inference_limit": "같은 온라인 판본의 지정7페이지·13그림이다. 원론 전권·원어·다른 번역·역사 원전/원연구·실제 작도 도구 실행·학생 수행은 미확인이다. II.5활용/일반화의 미선정 직접 링크 II.14·VI.25·VI.28·III.35 등과, 선정 명제들이 다시 인용하는 I.23·I.27·I.29·I.34·I.35·I.41·VI.8·VI.17 등의2차 연결은 미독이다. 선정6페이지의 독해를 모든 직접 링크·모든 전제의 독립 증명·학습 선수성·실제 교수 효과로 확대하지 않는다.",
+        "student_outcome_study": false,
+        "causal_effect_established": false,
+        "local_effect_tested": false
+      },
+      "standard_codes": [
+        "12수과02-01"
+      ],
+      "locations": [
+        "https://mathcs.clarku.edu/~djoyce/elements/bookII/propII5.html · Guide의 quadratic problem 설명·작도·두 번째 그림"
+      ],
+      "support": "Guide의 빗변 설명은 CD²=(b/2)²−c²인 같은 페이지의 식·그림과 맞지 않는다. 작도에서 CS=b/2가 빗변, CR=c와 RS=CD가 두 직각변이다. 마지막 문장의 G·AG/GB도 두 번째 그림의 D·AD/DB와 대조해 정정 설명한다.",
+      "does_not_establish": "원사이트를 변경하거나 저자의 정오표·다른 판본을 확인한 것은 아니다. b=10,c=4의 자체 검산과 그림을 근거로 설명하며 실근·양의 선분·같음/다름 조건을 함께 제한한다.",
+      "independent_review": false,
+      "student_validated": false,
+      "target_snapshots": {
+        "revision:12수과02-01": "3ad72b5c057a7a1dd741f2b240c590c9af39d00f59d8b4783e061f4acd68a212"
+      }
+    },
+    {
+      "id": "JEF17-01",
+      "source_id": "JOYCE_EUCLID_II5_HTML_UNDATED",
+      "role": "mathematical_explanation",
+      "standard_codes": [
+        "12수과02-01",
+        "12수과03-02"
+      ],
+      "locations": [
+        "https://mathcs.clarku.edu/~djoyce/elements/bookI/propI43.html",
+        "https://mathcs.clarku.edu/~djoyce/elements/bookII/defII.html"
+      ],
+      "support": "I.43의 두 보완 평행사변형은 넓이가 같다는 뜻이며 일반적으로 합동을 뜻하지 않는다. II정의의 gnomon은 대각선 주위의 한 평행사변형과 두 보완 부분의 합이다. II.5의 도형 분해에서 어느 넓이를 더하고 빼는지 확인한다.",
+      "does_not_establish": "두 보완 부분만을 gnomon 전체로 세지 않는다. 정의의 일반 평행사변형은 직각으로 한정되지 않으며, II.5의 정사각형은 그 특수한 상황이다. 도형의 표시 크기나 같은 색을 논증으로 대신하지 않는다.",
+      "independent_review": false,
+      "student_validated": false,
+      "empirical_scope": {
+        "design": "지정 원문·실제 판면 또는 삽입 그림 대조와 고등학교 탐구 과제의 자체 설계",
+        "sample_description": "이 검토에서는 실제 학생 원자료·현장 이용자 조사·학습 효과 실험을 분석하지 않았다",
+        "inference_limit": "같은 온라인 판본의 지정7페이지·13그림이다. 원론 전권·원어·다른 번역·역사 원전/원연구·실제 작도 도구 실행·학생 수행은 미확인이다. II.5활용/일반화의 미선정 직접 링크 II.14·VI.25·VI.28·III.35 등과, 선정 명제들이 다시 인용하는 I.23·I.27·I.29·I.34·I.35·I.41·VI.8·VI.17 등의2차 연결은 미독이다. 선정6페이지의 독해를 모든 직접 링크·모든 전제의 독립 증명·학습 선수성·실제 교수 효과로 확대하지 않는다.",
+        "student_outcome_study": false,
+        "causal_effect_established": false,
+        "local_effect_tested": false
+      },
+      "target_snapshots": {
+        "revision:12수과02-01": "3ad72b5c057a7a1dd741f2b240c590c9af39d00f59d8b4783e061f4acd68a212",
+        "revision:12수과03-02": "113e9cc2cb2c13d5189d76710a4d9a4ce125225c9217c92712eb0f27676cb248"
+      }
+    },
+    {
+      "id": "JEF17-02",
+      "source_id": "JOYCE_EUCLID_II5_HTML_UNDATED",
+      "role": "mathematical_explanation",
+      "standard_codes": [
+        "12수과02-01"
+      ],
+      "locations": [
+        "https://mathcs.clarku.edu/~djoyce/elements/bookI/propI36.html"
+      ],
+      "support": "I.36은 같은 길이의 밑변과 같은 두 평행선 사이에 놓인 평행사변형의 넓이를 비교한다. 밑변 길이와 수직 높이 조건을 함께 확인한다.",
+      "does_not_establish": "각 도형 안의 마주 보는 두 변이 평행하다는 사실만으로 두 도형이 같은 두 평행선 사이에 놓인 것은 아니다. 밑변만 같고 높이가 다른 도형까지 등넓이라고 확대하지 않는다.",
+      "independent_review": false,
+      "student_validated": false,
+      "empirical_scope": {
+        "design": "지정 원문·실제 판면 또는 삽입 그림 대조와 고등학교 탐구 과제의 자체 설계",
+        "sample_description": "이 검토에서는 실제 학생 원자료·현장 이용자 조사·학습 효과 실험을 분석하지 않았다",
+        "inference_limit": "같은 온라인 판본의 지정7페이지·13그림이다. 원론 전권·원어·다른 번역·역사 원전/원연구·실제 작도 도구 실행·학생 수행은 미확인이다. II.5활용/일반화의 미선정 직접 링크 II.14·VI.25·VI.28·III.35 등과, 선정 명제들이 다시 인용하는 I.23·I.27·I.29·I.34·I.35·I.41·VI.8·VI.17 등의2차 연결은 미독이다. 선정6페이지의 독해를 모든 직접 링크·모든 전제의 독립 증명·학습 선수성·실제 교수 효과로 확대하지 않는다.",
+        "student_outcome_study": false,
+        "causal_effect_established": false,
+        "local_effect_tested": false
+      },
+      "target_snapshots": {
+        "revision:12수과02-01": "3ad72b5c057a7a1dd741f2b240c590c9af39d00f59d8b4783e061f4acd68a212"
+      }
+    },
+    {
+      "id": "JEF17-03",
+      "source_id": "JOYCE_EUCLID_II5_HTML_UNDATED",
+      "role": "mathematical_explanation",
+      "standard_codes": [
+        "12수과02-01"
+      ],
+      "locations": [
+        "https://mathcs.clarku.edu/~djoyce/elements/bookI/propI46.html"
+      ],
+      "support": "I.46의 정사각형 작도는 AB와 같은 길이의 AD를 AB에 수직인 방향에서 잡고 평행선을 그은 뒤, 같은 변과 직각을 모두 확인한다. Guide의 불명확한 length C 표현은 본문의 AD=AB와 그림의 D 위치로 구체화해 읽는다.",
+      "does_not_establish": "네 변의 길이가 같다는 조건만으로 정사각형이 되지는 않는다. 실제 컴퍼스 작도나 Guide의 원 개수까지 독립 검증한 것은 아니며, 여기의 좌표 예는 자체 모형이다.",
+      "independent_review": false,
+      "student_validated": false,
+      "empirical_scope": {
+        "design": "지정 원문·실제 판면 또는 삽입 그림 대조와 고등학교 탐구 과제의 자체 설계",
+        "sample_description": "이 검토에서는 실제 학생 원자료·현장 이용자 조사·학습 효과 실험을 분석하지 않았다",
+        "inference_limit": "같은 온라인 판본의 지정7페이지·13그림이다. 원론 전권·원어·다른 번역·역사 원전/원연구·실제 작도 도구 실행·학생 수행은 미확인이다. II.5활용/일반화의 미선정 직접 링크 II.14·VI.25·VI.28·III.35 등과, 선정 명제들이 다시 인용하는 I.23·I.27·I.29·I.34·I.35·I.41·VI.8·VI.17 등의2차 연결은 미독이다. 선정6페이지의 독해를 모든 직접 링크·모든 전제의 독립 증명·학습 선수성·실제 교수 효과로 확대하지 않는다.",
+        "student_outcome_study": false,
+        "causal_effect_established": false,
+        "local_effect_tested": false
+      },
+      "target_snapshots": {
+        "revision:12수과02-01": "3ad72b5c057a7a1dd741f2b240c590c9af39d00f59d8b4783e061f4acd68a212"
+      }
+    },
+    {
+      "id": "JEF17-04",
+      "source_id": "JOYCE_EUCLID_II5_HTML_UNDATED",
+      "role": "mathematical_explanation",
+      "standard_codes": [
+        "12수과02-01"
+      ],
+      "locations": [
+        "https://mathcs.clarku.edu/~djoyce/elements/bookI/propI31.html"
+      ],
+      "support": "I.31 본문의 각 복사·엇각에 의한 평행선 구성과 Guide의 평행 공준을 이용한 유일성 설명을 구별한다. 자체 과제는 유클리드 평면에서 직선 밖의 점을 조건으로 정한다.",
+      "does_not_establish": "그림이 평행해 보인다는 이유나 존재하는 선 하나를 그린 것만으로 유일성을 입증하지 않는다.2차 연결 원문·비유클리드 모형·실제 작도 전체를 확인한 것은 아니다.",
+      "independent_review": false,
+      "student_validated": false,
+      "empirical_scope": {
+        "design": "지정 원문·실제 판면 또는 삽입 그림 대조와 고등학교 탐구 과제의 자체 설계",
+        "sample_description": "이 검토에서는 실제 학생 원자료·현장 이용자 조사·학습 효과 실험을 분석하지 않았다",
+        "inference_limit": "같은 온라인 판본의 지정7페이지·13그림이다. 원론 전권·원어·다른 번역·역사 원전/원연구·실제 작도 도구 실행·학생 수행은 미확인이다. II.5활용/일반화의 미선정 직접 링크 II.14·VI.25·VI.28·III.35 등과, 선정 명제들이 다시 인용하는 I.23·I.27·I.29·I.34·I.35·I.41·VI.8·VI.17 등의2차 연결은 미독이다. 선정6페이지의 독해를 모든 직접 링크·모든 전제의 독립 증명·학습 선수성·실제 교수 효과로 확대하지 않는다.",
+        "student_outcome_study": false,
+        "causal_effect_established": false,
+        "local_effect_tested": false
+      },
+      "target_snapshots": {
+        "revision:12수과02-01": "3ad72b5c057a7a1dd741f2b240c590c9af39d00f59d8b4783e061f4acd68a212"
+      }
+    },
+    {
+      "id": "JEF17-05",
+      "source_id": "JOYCE_EUCLID_II5_HTML_UNDATED",
+      "role": "mathematical_explanation",
+      "standard_codes": [
+        "12수과02-01",
+        "12수과03-02"
+      ],
+      "locations": [
+        "https://mathcs.clarku.edu/~djoyce/elements/bookI/propI47.html"
+      ],
+      "support": "I.47의 대안 증명은 ∠BAC가 직각일 때 빗변 BC 위 수선의 발을 M으로 표시한다. Guide의 작은 삼각형 ABD 표기는 이 대안 그림과 맞지 않는다. 대응을 확인하면 BC/AB=AB/BM, BC·BM=AB²와 BC·CM=AC²로 이어진다.",
+      "does_not_establish": "주증명 그림에 존재하는 D를 대안 증명의 M과 혼합하지 않는다. 삼각형 이름의 순서까지 임의로 같게 쓰지 않으며, 닮음 이론의2차 연결이나 실제 학생 추론을 검증한 것은 아니다.",
+      "independent_review": false,
+      "student_validated": false,
+      "empirical_scope": {
+        "design": "지정 원문·실제 판면 또는 삽입 그림 대조와 고등학교 탐구 과제의 자체 설계",
+        "sample_description": "이 검토에서는 실제 학생 원자료·현장 이용자 조사·학습 효과 실험을 분석하지 않았다",
+        "inference_limit": "같은 온라인 판본의 지정7페이지·13그림이다. 원론 전권·원어·다른 번역·역사 원전/원연구·실제 작도 도구 실행·학생 수행은 미확인이다. II.5활용/일반화의 미선정 직접 링크 II.14·VI.25·VI.28·III.35 등과, 선정 명제들이 다시 인용하는 I.23·I.27·I.29·I.34·I.35·I.41·VI.8·VI.17 등의2차 연결은 미독이다. 선정6페이지의 독해를 모든 직접 링크·모든 전제의 독립 증명·학습 선수성·실제 교수 효과로 확대하지 않는다.",
+        "student_outcome_study": false,
+        "causal_effect_established": false,
+        "local_effect_tested": false
+      },
+      "target_snapshots": {
+        "revision:12수과02-01": "3ad72b5c057a7a1dd741f2b240c590c9af39d00f59d8b4783e061f4acd68a212",
+        "revision:12수과03-02": "113e9cc2cb2c13d5189d76710a4d9a4ce125225c9217c92712eb0f27676cb248"
+      }
+    },
+    {
+      "id": "JEF17-06",
+      "source_id": "JOYCE_EUCLID_II5_HTML_UNDATED",
+      "role": "mathematical_explanation",
+      "standard_codes": [
+        "12수과02-01"
+      ],
+      "locations": [
+        "https://mathcs.clarku.edu/~djoyce/elements/bookI/propI47.html"
+      ],
+      "support": "I.47 주명제는 직각을 낀 두 변 AB,AC의 제곱합이 빗변 BC의 제곱임을 밝힌다. Guide의 대안 증명 마지막에 적힌 AC와 BC의 제곱합은 앞의 두 직사각형 식·주명제와 불일치하므로 AB와 AC로 대조해 정정 설명한다.",
+      "does_not_establish": "온라인 해설의 불일치와 주명제의 옳고 그름을 분리한다.3–4–5 자체 검산은 불일치의 반례이며 모든 직각삼각형의 증명이나 역사 문단·원어 판본 검증을 대신하지 않는다.",
+      "independent_review": false,
+      "student_validated": false,
+      "empirical_scope": {
+        "design": "지정 원문·실제 판면 또는 삽입 그림 대조와 고등학교 탐구 과제의 자체 설계",
+        "sample_description": "이 검토에서는 실제 학생 원자료·현장 이용자 조사·학습 효과 실험을 분석하지 않았다",
+        "inference_limit": "같은 온라인 판본의 지정7페이지·13그림이다. 원론 전권·원어·다른 번역·역사 원전/원연구·실제 작도 도구 실행·학생 수행은 미확인이다. II.5활용/일반화의 미선정 직접 링크 II.14·VI.25·VI.28·III.35 등과, 선정 명제들이 다시 인용하는 I.23·I.27·I.29·I.34·I.35·I.41·VI.8·VI.17 등의2차 연결은 미독이다. 선정6페이지의 독해를 모든 직접 링크·모든 전제의 독립 증명·학습 선수성·실제 교수 효과로 확대하지 않는다.",
+        "student_outcome_study": false,
+        "causal_effect_established": false,
+        "local_effect_tested": false
+      },
+      "target_snapshots": {
+        "revision:12수과02-01": "3ad72b5c057a7a1dd741f2b240c590c9af39d00f59d8b4783e061f4acd68a212"
+      }
+    }
+  ],
+  "previous_observations": [
+    {
+      "id": "INQ-P27",
+      "standard_codes": [
+        "12수과02-01"
+      ],
+      "question": "II.5의 온라인 페이지에서 명제·증명·Guide·그림을 나누어 읽기 범위를 기록하라.",
+      "expected": "최초II.5의 기하 명제/증명·현대 대수 해설·작도와 식 그림4개를 구별하고, 후속 선정6페이지의 읽기·그림9개 대조를 따로 남긴다. footer1996,2002와 현재 페이지 발행일을 같게 확정하지 않으며 미선정 직접 링크·2차 연결·다른 판본은 미확인으로 둔다.",
+      "interpretation": "누적7페이지·그림13개의 확인은 원론 전권·원어·다른 번역·애플릿 작동·체계적 문헌 검토 전체의 완료가 아니다.",
+      "student_validated": false
+    },
+    {
+      "id": "INQ-P28",
+      "standard_codes": [
+        "12수과02-01"
+      ],
+      "question": "양의 x,y에서 xy+((x−y)/2)²=((x+y)/2)²를 스스로 유도하고 x+y=10에 적용하라.",
+      "expected": "[(x+y)²−(x−y)²]/4=4xy/4=xy다. 따라서 A=25−((x−y)/2)²≤25이고 같음은 x=y=5다. 최대25cm²의 모든 양의 실수 범위 논증과 같음 조건을 별도로 제시한다.",
+      "interpretation": "온라인의 같지 않게 자른 도형을 같게 자른 최대 경우까지 그대로 인용하지 않는다. 현대 대수 논증과 역사적 기하 표현의 차이를 설명한다.",
+      "student_validated": false
+    },
+    {
+      "id": "INQ-P29",
+      "standard_codes": [
+        "12수과03-02"
+      ],
+      "question": "온라인 작도에서 b=10,c=4일 때 CS·CR·RS·CD와 두 부분의 길이를 구하라.",
+      "expected": "CS=5가 빗변, CR=4, RS=CD=3이다. 두 부분은8과2이며 합10·곱16=c²다. 같은 페이지의 식·두 번째 그림과 Guide의 빗변 문장을 대조한다.",
+      "interpretation": "이는 자체 수학 검산이다. CD를 빗변으로 부르는 문장을 그대로 따르지 않으며 실제 측정·학생 작도 수행을 관측한 것은 아니다.",
+      "student_validated": false
+    },
+    {
+      "id": "INQ-P30",
+      "standard_codes": [
+        "12수과03-02"
+      ],
+      "question": "CD를 빗변으로 잘못 두어 √(25+16)=√41이라 하면 원래 조건을 만족하는가?",
+      "expected": "두 부분5±√41 중 하나가 음수가 되고 곱은25−41=−16이므로 양의 두 선분·곱16 조건에 맞지 않는다. CD²=25−16=9를 사용해 다시 구한다.",
+      "interpretation": "반례는 문제의 조건·식·그림을 확인하는 근거다. 저자의 전체 저작이나 다른 번역의 신뢰도를 일괄 판정하지 않는다.",
+      "student_validated": false
+    },
+    {
+      "id": "INQ-P31",
+      "standard_codes": [
+        "12수과02-01"
+      ],
+      "question": "두 번째 작도의 마지막 문장에 G·AG/GB가 나오는데 그림에는 D가 표시돼 있다. 어떻게 대조할 것인가?",
+      "expected": "작도는 S에서 AB에 내린 수선의 발을 D로 정한다. 해당 두 번째 그림에 G는 없으므로 그 설명에서는 D와 AD/DB를 사용해 식과 도형을 맞추는 자기 정정 기록을 남긴다.",
+      "interpretation": "첫 번째 증명 그림의 G와 두 번째 작도를 혼합하지 않는다. 원문을 변경했다고 하거나 다른 판본에서도 같은 오류가 있다고 단정하지 않는다.",
+      "student_validated": false
+    },
+    {
+      "id": "INQ-P32",
+      "standard_codes": [
+        "12수과03-03"
+      ],
+      "question": "합 b·곱 c²인 양의 두 선분의 결론을 정의역과 함께 보고하라.",
+      "expected": "b>0에서 두 부분은 b/2±√(b²/4−c²)다. 양의 두 부분에는0<c≤b/2가 필요하다. 다르게 자르려면0<c<b/2이며 같게 자르는 경계는 별도로 설명한다.",
+      "interpretation": "길이와 넓이의 단위를 구별한다. 실근 조건만으로 양의 두 부분이 보장되는 모든 변형 모형을 주장하거나 양의 제곱근 c의 정의를 생략하지 않는다.",
+      "student_validated": false
+    },
+    {
+      "id": "INQ-P33",
+      "standard_codes": [
+        "12수과03-04"
+      ],
+      "question": "b=10에서 c=0,5,6인 경우를 나누어 기존 논증의 적용 범위를 성찰하라.",
+      "expected": "c=0은10과0으로 양의 두 부분 밖, c=5는5와5로 같게 나눈 경계, c=6은 판별 조건25−36<0으로 실수 길이의 해가 없다.",
+      "interpretation": "경계·무해 조건을 실패한 실제 실험으로 보고하지 않는다. 같음의 최대 사례와 원문의 다르게 자른 가정을 구별해 자기 확장의 한계를 적는다.",
+      "student_validated": false
+    },
+    {
+      "id": "INQ-P34",
+      "standard_codes": [
+        "12수과02-01"
+      ],
+      "question": "증명 본문에 I.43·I.46·I.47 등이 연결돼 있다. 그 링크를 보았다는 이유로 선수 증명까지 읽었다고 할 수 있는가?",
+      "expected": "최초에는 II.5의 연결 목록을 읽은 범위로 기록했고, 후속으로 선정6페이지를 실제 대조했다. 활용/일반화의 미선정 직접 링크와 선정 명제가 다시 인용하는 정의/명제·공준의2차 연결은 추가 검토할 범위로 남긴다.",
+      "interpretation": "링크 존재와 원문 정독을 구별한다. 선정 직접 연결의 확인을 원론 전체의 기반 증명·여러 번역의 체계적 비교·실제 학습 효과로 확대하지 않는다.",
+      "student_validated": false
+    },
+    {
+      "id": "JEF-P01",
+      "standard_codes": [
+        "12수과02-01"
+      ],
+      "question": "8×4 직사각형을 대각선 위의 점에서 두 변에 평행하게 나눴을 때 보완 부분이6×1과2×3이다. 두 부분은 어떤 의미로 같은가?",
+      "expected": "넓이는 각각6으로 같다. 변의 길이쌍은{6,1}과{2,3}으로 달라 합동은 아니다. 같은 넓이와 같은 모양·합동을 구별한다.",
+      "interpretation": "이는 I.43의 뜻을 확인하는 자체 수치 모형이다. 원문의 그림을 자로 측정한 자료나 실제 학생의 이해를 관찰한 것이 아니다.",
+      "student_validated": false
+    },
+    {
+      "id": "JEF-P02",
+      "standard_codes": [
+        "12수과03-02"
+      ],
+      "question": "II.5의 자체 모형에서5×5 정사각형에서3×3 정사각형을 뺀 gnomon을 세 부분으로 설명하라.",
+      "expected": "25−9=16이다. 대각선 주위의2×2 부분4와 두 보완 부분3×2,2×3의6+6을 합하면16이다. 보완 부분 둘만 더한12와 구별한다.",
+      "interpretation": "gnomon의 일반 정의를 직각 도형으로만 제한하지 않는다. 이 수치는 자체 예이며 원문의 정확한 길이나 원어 판본을 측정·확인한 것이 아니다.",
+      "student_validated": false
+    },
+    {
+      "id": "JEF-P03",
+      "standard_codes": [
+        "12수과02-01"
+      ],
+      "question": "밑변3·높이4인 직사각형과 같은 두 수평선 사이의 밑변3 평행사변형을 비교하고, 높이를6으로 바꾸면 어떤가?",
+      "expected": "앞의 두 넓이는12cm²이고 기울기만으로 달라지지 않는다. 높이가6이면18cm²로 달라 같은 두 평행선 조건을 빠뜨린 비교가 된다.",
+      "interpretation": "각 도형에 평행한 변이 있다는 사실과 두 도형의 공통 평행선 조건을 혼동하지 않는다. 수치는 자체 모형이다.",
+      "student_validated": false
+    },
+    {
+      "id": "JEF-P04",
+      "standard_codes": [
+        "12수과02-01"
+      ],
+      "question": "한 변5인 정사각형을 만들 때 같은 길이의 네 변만 확인하면 충분한가?",
+      "expected": "아니다. 변 벡터(5,0),(3,4)로 만든 마름모도 네 변5지만 직각이 아니고 넓이는20이다. 정사각형은 수직 방향과 길이5를 함께 잡아 넓이25를 얻는다.",
+      "interpretation": "I.46 본문은 AD=AB와 직각을 함께 확인한다. Guide의 C라는 모호한 길이 표기를 그대로 구현하지 않으며 실제 컴퍼스 동작 검증과 자체 계산을 나눈다.",
+      "student_validated": false
+    },
+    {
+      "id": "JEF-P05",
+      "standard_codes": [
+        "12수과02-01"
+      ],
+      "question": "유클리드 평면에서 직선 y=0 밖의 점(0,2)을 지나는 평행선 하나를 그리고, 존재와 유일성의 설명을 나누라.",
+      "expected": "y=2가 한 평행선이다. I.31 본문은 각 복사와 엇각을 이용한 구성이고 Guide는 평행 공준에 따른 유일성을 별도로 설명한다. 스스로 사용한 조건을 적는다.",
+      "interpretation": "이 좌표 예 하나를 모든 기하 체계의 유일성 증명으로 쓰지 않는다.2차 연결 원문·작도 원의 개수·실제 학생의 작도 수행은 미확인이다.",
+      "student_validated": false
+    },
+    {
+      "id": "JEF-P06",
+      "standard_codes": [
+        "12수과03-02"
+      ],
+      "question": "AB=3,AC=4인 직각삼각형에서 M을 빗변 BC에 내린 수선의 발로 잡고 Guide의 대응식을 계산하라.",
+      "expected": "BC=5, BM=9/5, CM=16/5, AM=12/5다. BC·BM=9=AB², BC·CM=16=AC²이며 두 직사각형의 합은25다. 대안 그림의 M과 주증명 그림의 D를 구별한다.",
+      "interpretation": "길이와 넓이의 단위를 구별한다. 자체 검산은 소단원 전체 증명·닮음의2차 근거·실제 학생 수행을 확인한 것이 아니다.",
+      "student_validated": false
+    },
+    {
+      "id": "JEF-P07",
+      "standard_codes": [
+        "12수과03-02"
+      ],
+      "question": "같은3–4–5 예에서 Guide 마지막 문장의 AC²+BC²와 주명제의 AB²+AC²를 비교하라.",
+      "expected": "AC²+BC²=16+25=41로 BC²=25와 다르다. 올바른 두 직각변의 합은 AB²+AC²=9+16=25다. 앞의 직사각형 식·주명제·그림을 함께 확인해 정정 근거를 적는다.",
+      "interpretation": "주명제가 틀린 것으로 쓰거나 원사이트가 정정됐다고 하지 않는다. 원문 위치·자기 정정·남은 확인 범위를 나누어 기록한다.",
+      "student_validated": false
+    },
+    {
+      "id": "JEF-P08",
+      "standard_codes": [
+        "12수과03-02"
+      ],
+      "question": "I.47 Guide의7×7 바깥 정사각형과 네 개의3–4 직각삼각형 넓이로 기울어진 안쪽 정사각형을 점검하라.",
+      "expected": "바깥49에서 각 삼각형 넓이6을 네 번 빼면25이고 안쪽 변은5다. 그림의 격자·부분 넓이와 계산을 대조하되 표시 면적을 실측값으로 취급하지 않는다.",
+      "interpretation": "이 기하 계산은 자체 확인이다. 중국 고문헌·귀속·연대·번역 참고문헌의 역사적 주장을 독립 검증한 것은 아니다.",
+      "student_validated": false
+    },
+    {
+      "id": "JEF-P09",
+      "standard_codes": [
+        "12수과02-01"
+      ],
+      "question": "최초II.5 한 페이지 읽기와 이번에 직접 인용6페이지를 더 읽은 범위를 어떻게 구분해 기록할 것인가?",
+      "expected": "이전 날짜·파일/해시·읽은 범위를 보존하고, 추가 날짜·I.31/36/43/46/47·II정의·본문/Guide·새 그림9개를 따로 적는다. 누적7페이지·그림13개와 새 책의 수를 구별한다.",
+      "interpretation": "단순히 링크가 있다는 이유로 원문을 읽었다고 하지 않는다. 출판 연도·다른 번역·원론 전권·2차 링크·동적 애플릿을 확인했다고 확대하지 않는다.",
+      "student_validated": false
+    },
+    {
+      "id": "JEF-P10",
+      "standard_codes": [
+        "12수과02-01"
+      ],
+      "question": "직접 인용6페이지를 읽었으므로 II.5의 모든 전제를 독립적으로 증명했고 교수 효과도 확인했다고 해도 되는가?",
+      "expected": "아니다. 선정 명제의2차 연결·정의·공준·역사 원전·다른 판본은 별도 범위다. 실제 읽은 명제/해설/그림과 자기 검산, 남은 기반 검토와 실제 학생 자료를 구별한다.",
+      "interpretation": "직접 연결의 읽기 완료를 전체 원전의 증명 검증·엄격한 학습 선수성·실제 교육 효과로 바꾸지 않는다.",
+      "student_validated": false
+    }
+  ],
+  "previous_relation_records": [
+    {
+      "relation_id": "SEC_12수과02-01_C04",
+      "claim_id": "INQ16-16",
+      "role": "inference_limit",
+      "finding": "온라인 기하 명제·현대 해설과 자신의 대수 유도를 대조해 실제 탐구의 조건·논증·한계를 기록한다.",
+      "limit": "한 온라인 판본·정수 표·같지 않은 분할을 모든 번역·실수 범위·같음의 경계까지 원문 그대로 검증한 것으로 확대하지 않는다.",
+      "relation_snapshot": "da551970c03e5274eb693c1d927e18d82a4551b85dc506644b6e42e81c2ee8c3",
+      "claim_snapshot": "144c8b088e1a23ac6fd3ec4adfed91e581117e3e30af5f9093beeb00ed4e739f"
+    },
+    {
+      "relation_id": "REV-12수과02-01-1",
+      "claim_id": "INQ16-16",
+      "role": "inference_limit",
+      "finding": "온라인 기하 명제·현대 해설과 자신의 대수 유도를 대조해 실제 탐구의 조건·논증·한계를 기록한다.",
+      "limit": "한 온라인 판본·정수 표·같지 않은 분할을 모든 번역·실수 범위·같음의 경계까지 원문 그대로 검증한 것으로 확대하지 않는다.",
+      "relation_snapshot": "ea07efd74ea7f0b08289f796539957716678c3e87a3c20a610c7b839a736058e",
+      "claim_snapshot": "144c8b088e1a23ac6fd3ec4adfed91e581117e3e30af5f9093beeb00ed4e739f"
+    },
+    {
+      "relation_id": "SEC_12수과02-01_C04",
+      "claim_id": "JEF17-01",
+      "role": "activity_context",
+      "finding": "문헌의 등넓이·도형 분해 조건을 자기 탐구의 계산과 설명에 대조한다. I.43과 gnomon 정의에서 어떤 부분을 더하고 빼는지 확인한다.",
+      "limit": "등넓이를 합동으로 바꾸거나 직접 인용의 독해를 모든 전제·학생의 학습 선수성 검증으로 확대하지 않는다.",
+      "relation_snapshot": "da551970c03e5274eb693c1d927e18d82a4551b85dc506644b6e42e81c2ee8c3",
+      "claim_snapshot": "479f9ebe24166066b8d8caf7968cf3c76a315151194c436cf4372e899371f731"
+    },
+    {
+      "relation_id": "SEC_12수과02-01_C04",
+      "claim_id": "JEF17-05",
+      "role": "inference_limit",
+      "finding": "명제의 주증명·대안 해설·그림의 다른 점 이름과 대응식을 나누어 실제 탐구의 근거를 점검한다.",
+      "limit": "M과 D의 혼합·단위/대응 오류를 그대로 인용하지 않는다. 자체 검산·한 판본의 직접 연결 독해는 원전 전권·실제 학생 수행의 확인이 아니다.",
+      "relation_snapshot": "da551970c03e5274eb693c1d927e18d82a4551b85dc506644b6e42e81c2ee8c3",
+      "claim_snapshot": "91fb816fdae068a17fcc873f95662550965705626b62fceceef456593f2b74c6"
+    },
+    {
+      "relation_id": "REV-12수과02-01-1",
+      "claim_id": "JEF17-01",
+      "role": "activity_context",
+      "finding": "문헌의 등넓이·도형 분해 조건을 자기 탐구의 계산과 설명에 대조한다. I.43과 gnomon 정의에서 어떤 부분을 더하고 빼는지 확인한다.",
+      "limit": "등넓이를 합동으로 바꾸거나 직접 인용의 독해를 모든 전제·학생의 학습 선수성 검증으로 확대하지 않는다.",
+      "relation_snapshot": "ea07efd74ea7f0b08289f796539957716678c3e87a3c20a610c7b839a736058e",
+      "claim_snapshot": "479f9ebe24166066b8d8caf7968cf3c76a315151194c436cf4372e899371f731"
+    },
+    {
+      "relation_id": "REV-12수과02-01-1",
+      "claim_id": "JEF17-05",
+      "role": "inference_limit",
+      "finding": "명제의 주증명·대안 해설·그림의 다른 점 이름과 대응식을 나누어 실제 탐구의 근거를 점검한다.",
+      "limit": "M과 D의 혼합·단위/대응 오류를 그대로 인용하지 않는다. 자체 검산·한 판본의 직접 연결 독해는 원전 전권·실제 학생 수행의 확인이 아니다.",
+      "relation_snapshot": "ea07efd74ea7f0b08289f796539957716678c3e87a3c20a610c7b839a736058e",
+      "claim_snapshot": "91fb816fdae068a17fcc873f95662550965705626b62fceceef456593f2b74c6"
+    }
+  ],
+  "previous_notes_file": "data/literature_evidence/JOYCE_EUCLID_II5_prerequisites_review_notes.json",
+  "previous_notes_sha256": "045147b29df7b8c0e9e68b9161ed1a470a9373dba8fb2e4af1fb922281b22165",
+  "prerequisite_followup": {
+    "new_html_pages": 6,
+    "new_inline_images": 9,
+    "cumulative_html_pages": 7,
+    "cumulative_inline_images": 13,
+    "selected_six_direct_citations_read": true,
+    "all_direct_links_read": false,
+    "recursive_prerequisite_closure_proved": false,
+    "history_originals_verified": false,
+    "page_layout_and_applet_verified": false,
+    "own_math_not_student_data": true
+  },
+  "direct_link_followup": {
+    "new_html_pages": 8,
+    "new_inline_images": 12,
+    "cumulative_html_pages": 15,
+    "cumulative_inline_images": 25,
+    "parent_static_content_links": {
+      "anchor_occurrences": 12,
+      "unique_targets": [
+        "https://mathcs.clarku.edu/~djoyce/elements/bookI/propI31.html",
+        "https://mathcs.clarku.edu/~djoyce/elements/bookI/propI36.html",
+        "https://mathcs.clarku.edu/~djoyce/elements/bookI/propI43.html",
+        "https://mathcs.clarku.edu/~djoyce/elements/bookI/propI46.html",
+        "https://mathcs.clarku.edu/~djoyce/elements/bookI/propI47.html",
+        "https://mathcs.clarku.edu/~djoyce/elements/bookII/defII.html",
+        "https://mathcs.clarku.edu/~djoyce/elements/bookII/propII14.html",
+        "https://mathcs.clarku.edu/~djoyce/elements/bookIII/propIII35.html",
+        "https://mathcs.clarku.edu/~djoyce/elements/bookVI/propVI25.html",
+        "https://mathcs.clarku.edu/~djoyce/elements/bookVI/propVI28.html"
+      ],
+      "all_targets_in_read_manifest": true,
+      "scope": "Literal a[href] content anchors in byte-identical II.5 HTML only; excludes JavaScript-inserted navigation, linked targets beyond this first hop and full book closure"
+    },
+    "all_parent_static_content_anchor_targets_read": true,
+    "recursive_prerequisite_closure_proved": false,
+    "history_originals_verified": false,
+    "page_layout_and_applet_verified": false,
+    "own_math_not_student_data": true,
+    "rereviewed_prior_claims": 9,
+    "rereviewed_prior_tasks": 3,
+    "rereviewed_prior_relation_snapshots": 6
+  }
+}

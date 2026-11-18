@@ -1,0 +1,12 @@
+# Evidence records and exported assets are verified by SHA256 of raw bytes.
+# Existing files contain both CRLF and LF. Never normalize them during add or
+# checkout: that would invalidate evidence and snapshot hashes after cloning.
+# -text disables newline conversion; ordinary text diffs remain available.
+* -text
+*.pdf binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.webp binary
+*.zip binary
+

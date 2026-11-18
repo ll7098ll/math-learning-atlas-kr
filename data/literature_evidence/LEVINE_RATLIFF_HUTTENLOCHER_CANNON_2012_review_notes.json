@@ -1,0 +1,85 @@
+{
+  "source_id": "LEVINE_RATLIFF_HUTTENLOCHER_CANNON_2012",
+  "source_url": "https://doi.org/10.1037/a0025913",
+  "source_pdf_url": "https://cpb-us-w2.wpmucdn.com/voices.uchicago.edu/dist/5/1727/files/2019/06/Levine-Ratliff-Early-Puzzle-Play.pdf",
+  "source_pdf_sha256": "66e4efe9dfa1988b16aac5e310a378fe808a6813c680f22b9f43d149537d6b12",
+  "date": "2026-11-09",
+  "reviewer": "Codex",
+  "read_scope": "인쇄 530~542쪽의 본문과 부록 및 참고문헌 목록을 대조했다. PDF 4·6~10·13쪽의 그림 1~3, 표 1~6과 사례를 실제 이미지에서 확인했다.",
+  "contains_source_full_text": false,
+  "source_pdf_redistributed": false,
+  "publication": "Developmental Psychology, 48(2), 530–542",
+  "pdf_pages": 13,
+  "printed_pages": [
+    530,
+    542
+  ],
+  "text_pdf_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+  ],
+  "visual_pdf_pages": [
+    4,
+    6,
+    7,
+    8,
+    9,
+    10,
+    13
+  ],
+  "visual_pdf_page_hashes": {
+    "4": "732f54dba1d1553ce3bfd5cef9c0d407fa0acbe000807f0e74867e0fe7f01dbe",
+    "6": "cafb61e2818c29c5a18384898287e6d407bfefc28862a1b1c3d8f4a5e9498a8e",
+    "7": "daf928f921555d29a60e4801d01bec2a63c6bfd6ee7acf947430cf9fc4901e08",
+    "8": "da3f347eefcf015de74c4c2ff2ccdb87236751d1348c18c2b424a4744b46f21b",
+    "9": "7c1b0fde872c29073049898ae91254602cdd551079129d7ff9950485b6064f0f",
+    "10": "df64253375e6191caa1ae7244d0d6164d5d639a9d5010c40f4adf82a9d8f278a",
+    "13": "0e7bc54d50984397393ffc872ef347eb767f161f56e76b7e2133e33b30ba75ae"
+  },
+  "linking_lt2_pages": [
+    "https://www.learningtrajectories.org/math-activities/putting-the-pieces-together-simple-turner"
+  ],
+  "empirical_scope": {
+    "design": "naturalistic_longitudinal_home_observation",
+    "sample_description": "64가정 중 방문 여섯 번의 자료와 54개월 과제가 모두 있는 53가정을 분석했다. 방문 중 퍼즐 놀이가 관찰된 아동은 27명이다.",
+    "inference_limit": "가정 방문 때 관찰한 놀이와 이후 점수의 관련이다. 방문 밖의 놀이, 이미 형성된 공간 능력, 교실 활동의 인과 효과 및 한국어 과제 타당성은 확인하지 않았다.",
+    "student_outcome_study": true,
+    "causal_effect_established": false,
+    "local_effect_tested": false
+  },
+  "reading_log": [
+    "PDF 1~3쪽에서 연구 질문과 직접 가정 관찰, 분석 표본의 선정, 이후 네 보기 과제의 변환 조건을 확인했다.",
+    "PDF 4~5쪽에서 방문 일정, 고유한 조각 자리, 시작·종료 코딩, 보호자와 아동의 공간말 및 채점자 일치를 확인했다. 단축 과제의 보정 반분 신뢰도는 .55다.",
+    "PDF 6~9쪽의 표 1~6과 그림 2~3에서 전체 비교와 퍼즐 놀이를 한 27명의 빈도·합성 품질 분석을 구별했다.",
+    "PDF 10~13쪽에서 교란 가능성과 인과 검증의 필요성, 참고문헌 목록, 직소와 꼭지 퍼즐에서 부모 도움의 네 사례를 확인했다."
+  ],
+  "source_corrections": [
+    {
+      "location": "PDF 3~4 / 인쇄 532~533 / 그림 1",
+      "issue": "그림 1의 D가 대각 평행이동으로 적혔지만 그림과 방법은 대각 이동 및 회전을 보여 준다.",
+      "status": "caption_and_method_conflict"
+    },
+    {
+      "location": "PDF 6 / 인쇄 535 / 방문 중 놀이 빈도",
+      "issue": "최대 여섯 방문 중 한 번 이상 관찰된 27명의 방문 횟수에 SD 2.94를 인쇄했다. 1~6의 값이면 표본 SD 상한은 2.55 미만이다.",
+      "max_sample_sd_bound": 2.5476233268253408,
+      "status": "printed_value_held_pending_original_data_or_erratum"
+    },
+    {
+      "location": "PDF 8~9 / 인쇄 537~538 / 표 4와 표 5",
+      "issue": "여아의 퍼즐당 공간말 평균이 표 4에서는 1.88, 표 5에서는 1.62다.",
+      "status": "reported_values_differ"
+    }
+  ]
+}
