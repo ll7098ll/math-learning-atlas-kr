@@ -287,7 +287,112 @@ body.atlas-compat {
 @media (min-width: 701px) and (max-width: 880px) {
   .atlas-header nav { margin-right: 0; }
 }
+
+@page {
+  size: A4;
+  margin: 15mm;
+}
+
+.atlas-print-only { display: none; }
+
 @media print {
-  .atlas-header, .atlas-footer, .atlas-path, .atlas-reading-outline { display: none !important; }
-  body.atlas-compat { background: white; color: black; }
+  html, body, body.atlas-compat {
+    background: #fff;
+    color: #161c18;
+    font-size: 10.5pt;
+    line-height: 1.55;
+  }
+
+  .atlas-print-only { display: block; }
+  :is(.site-header, .site-footer, .skip-link, .atlas-header, .atlas-footer, .atlas-path, .atlas-reading-outline,
+      .school-scope-bar, .screen-only, .desktop-filters, .mobile-filters, .pagination,
+      .tabs-row, .reading-tools, .back-link, .reading-toc, .action-links, .row-chevron, .heading-tools,
+      .overview-views, .atlas-tools, .atlas-help, .atlas-controls, .network-toolbar, .connection-toolbar,
+      .cp-controls, .cp-actions, .pathway-search, .hierarchy-filter, .overview-toolbar, .full-flow-search,
+      .catalog-filters, .atlas-tool .controls) {
+    display: none !important;
+  }
+
+  .site-width, .atlas-compat:not(.atlas-tool) > main, .atlas-tool > main {
+    width: 100%;
+    max-width: none;
+    margin-inline: 0;
+    padding-inline: 0;
+  }
+
+  .hero, .hero-condensed, .school-card, .standard-list, .standard-code, .analysis-accordion, .official-card,
+  .comparison-header {
+    background: #fff;
+    color: #161c18;
+  }
+  .hero .hero-meta { color: #26372d; }
+  .hero .hero-inner { padding-block: 0 .6rem; }
+  .hero h1, .atlas-compat main .atlas-page-title { color: #161c18; font-size: 19pt; }
+  .hero-copy, .search-form, .school-cards, .compare-page .atlas-page-header > button {
+    display: none !important;
+  }
+  .explorer, .reading-layout { display: block; padding: 0; }
+  .reading-page, .compare-page { min-height: 0; padding-block: 0; }
+  .compare-page .comparison { gap: 5mm; }
+  .comparison-header { padding: 0 0 .4rem; border: 0; }
+  .comparison-header label { display: none; }
+  .comparison-header .atlas-print-only { grid-column: 1 / -1; }
+  .standard-row > a { padding: .45rem .6rem; }
+  .analysis-accordion [data-slot="accordion-trigger"] { padding-block: .5rem; }
+  .analysis-accordion [data-slot="accordion-trigger"] > svg { display: none; }
+  .analysis-accordion [data-slot="accordion-content"] {
+    display: block;
+    height: auto !important;
+    overflow: visible;
+    animation: none !important;
+  }
+
+  .atlas-compat .atlas-workspace { display: block; overflow: visible; border: 0; box-shadow: none; break-inside: auto; }
+  .atlas-compat .atlas-stage { height: 110mm; min-height: 0; break-inside: avoid; }
+  .atlas-compat .atlas-svg { height: 110mm; min-height: 0; }
+  .atlas-compat .atlas-network .atlas-axis {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+  }
+  .atlas-compat .atlas-network .atlas-axis span { position: static; transform: none; }
+  .atlas-compat .atlas-inspector { height: auto; max-height: none; overflow: visible; border: 0; }
+  .atlas-compat .atlas-inspector :is(h2, h3) { break-after: avoid; }
+  .atlas-compat :is(.hierarchy-layout, .connections-layout) { display: block; }
+  .atlas-compat :is(.hierarchy-scroll, .hp-scroll, .relation-evidence) {
+    overflow: visible;
+    max-height: none;
+    margin-top: .8rem;
+    padding: .65rem;
+  }
+  .atlas-compat .hierarchy-canvas {
+    grid-template-columns: repeat(var(--stages), minmax(0, 1fr));
+    min-width: 0;
+    min-height: 0;
+    gap: .65rem;
+  }
+  .atlas-compat .hierarchy-stage { min-width: 0; }
+  .atlas-compat .hp-columns { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .75rem; }
+  .atlas-compat .hp-column { width: auto; min-width: 0; }
+  .atlas-compat .hp-column h3 { position: static; }
+  .atlas-compat .hp-column::after { display: none; }
+  .atlas-compat :is(.hierarchy-summary, .hierarchy-kind) select { display: none; }
+  label[data-atlas-print-selection]::after { content: " · " attr(data-atlas-print-selection); }
+  .atlas-compat[data-scope="all"] :is(.flow-map-header, .flow-row-line) {
+    display: grid;
+    grid-template-columns: minmax(0, .78fr) repeat(3, minmax(0, 1fr));
+  }
+  .atlas-compat .flow-map-header { position: static; }
+  .atlas-compat .flow-map-header > .flow-school { grid-column: auto; }
+  .atlas-compat .flow-map-header > div { padding: .45rem .6rem; }
+  .atlas-compat .reading-section { margin-top: 1rem; }
+  body.atlas-tool > main { padding-block: 0; }
+  .atlas-tool main > header:first-child > a, .atlas-tool #download { display: none !important; }
+  .atlas-tool #plot { max-height: 65mm; }
+
+  :is(h1, h2, h3, h4, th, summary) { break-after: avoid; }
+  :is(.official-card, .official-statement, .standard-row, .metric, .atlas-resources li, .tp-probe, .gn-goal-link,
+      .hierarchy-node, .hp-card) {
+    break-inside: avoid;
+  }
 }

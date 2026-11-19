@@ -60,7 +60,7 @@ export function Detail({ catalog, params, returnTo }) {
             <Accordion type="multiple" defaultValue={["meaning"]} className="analysis-accordion">
               <AccordionItem value="meaning">
                 <AccordionTrigger>핵심 의미와 적용 범위</AccordionTrigger>
-                <AccordionContent>
+                <AccordionContent forceMount>
                   <p>{analysis.idea}</p>
                   {analysis.sourceNotes?.map((note, i) => <p key={i} className="notice">교육과정 적용 범위 · {note.scope_note}</p>)}
                   <p className="small">{analysis.limit}</p>
@@ -68,7 +68,7 @@ export function Detail({ catalog, params, returnTo }) {
               </AccordionItem>
               <AccordionItem value="task">
                 <AccordionTrigger>대표 과제와 진단 질문</AccordionTrigger>
-                <AccordionContent>
+                <AccordionContent forceMount>
                   <p className="source-label">자체 설계 과제</p>
                   <p>{analysis.task}</p>
                   <div className="action-links">
@@ -79,7 +79,7 @@ export function Detail({ catalog, params, returnTo }) {
               </AccordionItem>
               <AccordionItem value="evidence">
                 <AccordionTrigger>관계와 근거</AccordionTrigger>
-                <AccordionContent>
+                <AccordionContent forceMount>
                   <p>{s.sourceReview}</p>
                   <div className="action-links">
                     <a className="text-link" href={oldRoute("connections", { code, scope })}>성취기준 간 관계 근거</a>
@@ -122,6 +122,7 @@ function ComparisonSide({ side, standards, params, change, onOpen }) {
   return <section className="comparison-side">
     <div className="comparison-header">
       <h2>{side === "left" ? "첫 번째 범위" : "두 번째 범위"}</h2>
+      {band && <p className="atlas-print-only">{[band, domain].filter(Boolean).join(" · ")}</p>}
       <label>학년군 · 과목
         <select value={band} onChange={(event) => change({ [side]: event.target.value, [side + "Domain"]: "", [side + "Code"]: "" })}>
           <option value="">범위 선택</option>

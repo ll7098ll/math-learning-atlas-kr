@@ -66,7 +66,7 @@ def write_curriculum_index(dist: Path, catalog: dict) -> None:
 def install_compat_theme(dist: Path) -> None:
     source = ROOT / "site/frontend/compat"
     style = "\n\n".join((source / name).read_text(encoding="utf-8").rstrip()
-                         for name in ("atlas-tokens.css", "atlas-page.css", "portal-ui.css"))
+                         for name in ("atlas-tokens.css", "atlas-page.css", "portal-ui.css", "atlas-print.css"))
     (dist / "portal-ui.css").write_text(style + "\n", encoding="utf-8", newline="\n")
     shutil.copy2(source / "portal-ui.js", dist / "portal-ui.js")
     css_version = digest(dist / "portal-ui.css")[:12]

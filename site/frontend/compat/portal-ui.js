@@ -189,6 +189,28 @@
 
   updateNav();
   connectMain();
+  let printGraph;
+  window.addEventListener("beforeprint", () => {
+    for (const select of main.querySelectorAll(".hierarchy-summary select, .hierarchy-kind select")) {
+      const label = select.closest("label");
+      if (label) label.dataset.atlasPrintSelection = select.selectedOptions[0]?.textContent.trim() || "";
+    }
+    const graph = main.querySelector(".atlas-svg");
+    if (graph && !printGraph) {
+      const box = graph.getBBox();
+      if (box.width > 0 && box.height > 0) {
+        printGraph = { graph, viewBox: graph.getAttribute("viewBox") };
+        graph.setAttribute("viewBox", [box.x - 24, box.y - 36, box.width + 48, box.height + 60].join(" "));
+      }
+    }
+  });
+  window.addEventListener("afterprint", () => {
+    if (!printGraph) return;
+    const { graph, viewBox } = printGraph;
+    if (viewBox === null) graph.removeAttribute("viewBox");
+    else graph.setAttribute("viewBox", viewBox);
+    printGraph = undefined;
+  });
   window.addEventListener("hashchange", updateNav);
   if (!tool) new MutationObserver(connectMain).observe(main, { childList: true, subtree: true });
 })();

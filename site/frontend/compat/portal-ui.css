@@ -232,7 +232,3 @@ body.atlas-compat {
 @media (min-width: 701px) and (max-width: 880px) {
   .atlas-header nav { margin-right: 0; }
 }
-@media print {
-  .atlas-header, .atlas-footer, .atlas-path, .atlas-reading-outline { display: none !important; }
-  body.atlas-compat { background: white; color: black; }
-}

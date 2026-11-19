@@ -6,6 +6,7 @@ import { Compare, Detail } from "./reading";
 import { LoadState, Pdf, useContent } from "./shared";
 import { oldRoute, paramsFrom, route } from "./curriculum";
 import "./theme.css";
+import "../compat/atlas-print.css";
 
 function App() {
   const [hash, setHash] = useState(location.hash);
