@@ -104,7 +104,7 @@ export function Detail({ catalog, params, returnTo }) {
         <Button asChild variant="outline"><a href={oldRoute("network", { node: code, scope })}>
           <Network aria-hidden="true" />연결망에서 보기
         </a></Button>
-        <Button variant="outline" type="button" onClick={() => window.print()}><Printer aria-hidden="true" />인쇄</Button>
+        <Button variant="outline" type="button" disabled={!analysis} onClick={() => window.print()}><Printer aria-hidden="true" />인쇄</Button>
       </aside>
     </div>
   </div>;
