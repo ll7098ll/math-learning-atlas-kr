@@ -4,7 +4,7 @@
 
 ## 실행 환경
 
-포털은 정적 HTML·CSS·JavaScript 모듈이며 npm 패키지 설치나 번들러가 필요하지 않다. 연구 자료 생성과 검증에는 Python, 포털 모델 검사에는 Node.js가 필요하다.
+배포된 포털은 정적 HTML·CSS·JavaScript로 실행된다. 보기에는 npm이 필요하지 않다. GitHub용 교육과정 탐색기 UI를 수정할 때는 Node.js와 npm으로 React·Tailwind CSS·shadcn/ui를 빌드한다. 연구 자료 생성과 검증에는 Python을 사용한다.
 
 - Python 3.12를 기준으로 준비한다. 이번 점검에서 확인한 실제 런타임은 3.12.14다. 외부 Python 패키지는 `pypdf`와 `Pillow`다. PDF 목록 재추출에는 `pypdf`, 문헌의 DOCX·HTML 이미지 검증에는 `Pillow`가 쓰인다.
 - Node.js 22 이상을 기준으로 준비한다. 검사 코드가 `import.meta.dirname`을 사용한다. 이번 문서 정비 환경의 실제 Node 버전은 `v24.14.0`이었다.
@@ -55,7 +55,7 @@ Git에 올리는 스냅샷에서는 기준 PDF를 제외한다. 원본 작업 �
 | 목표·과제·조건 | 해당 `data/goal_hierarchy_*.json`과 필요한 검토 원장을 수정한다. 조건 적용 목표와 경로의 전체 AND를 보존한다. |
 | 관계 설명·근거 | `relations.json`과 관련 관계 검토 원장을 함께 확인한다. 자동 생성되는 `revised_relations.json`만 수정하지 않는다. |
 | 문헌 근거 | 출처·실제 읽은 위치·지원 범위·한계·대상 내용 해시를 함께 갱신한다. |
-| 포털 화면 | `site/dist/` 수정은 임시 확인에 사용할 수 있다. 완료하려면 기존 저술 환경에 반영한 뒤 다시 내보내고 `dist/`, `tests/`, `snapshot.json`을 함께 갱신한다. GitHub 복사본만 가진 기여자는 이 원본 환경의 담당자와 변경을 동기화해야 한다. |
+| 포털 화면 | GitHub용 탐색·비교·읽기 화면의 원본은 `site/frontend/`다. 기존 연결망·과제·전체 분석은 저술 환경의 HTML과 모듈에서 관리한다. 두 UI를 함께 내보내려면 아래 빌드와 스냅샷 갱신 절차를 사용한다. |
 
 `author_*`, `record_*`, `extend_*`, `correct_*`, `integrate_*` 파일 중에는 특정 시점의 자료를 작성·교체하는 일회성 스크립트가 있다. 이름 목록 전체를 순서대로 실행하는 설치 과정은 없다. 기존 JSON과 검토 이력이 입력인지 출력인지 먼저 읽는다.
 
@@ -135,3 +135,18 @@ python scripts/export_portal_snapshot.py --help
 ```
 
 이 도구는 수정한 원장으로 포털을 재생성하지 않는다. 데이터 편집 후에는 원본 저술 환경에서 생성·검증을 먼저 끝내고 스냅샷을 갱신한다. `site/dist/`에서 직접 수정한 앱 코드도 원본에 반영한 뒤 새 목적지로 내보낸다. 검토한 `dist/`, `tests/`와 그에 대응하는 `snapshot.json`을 함께 반영하고 `python scripts/export_portal_snapshot.py --verify`와 관련 Node 검사를 통과해야 갱신이 끝난다. 파일만 수정하고 예전 해시 목록을 남기면 CI가 실패한다. 스냅샷 출력 이후에도 자동으로 GitHub push나 Sites 재배포를 수행하지 않는다.
+
+스냅샷의 `source_commit`은 원본 작업본이 깨끗한 경우에만 기록한다. 미커밋 변경이 있으면 `source_commit=null`로 두고 `source_base_commit`과 `source_worktree_clean=false`를 기록한다. 이 경우 실제 복사 범위는 파일별 SHA256으로 확인하며, 기준 커밋의 파일과 모두 같다고 주장하지 않는다.
+
+### GitHub용 교육과정 탐색기 빌드
+
+저장소 루트에서 실행한다. 마지막 명령의 출력 폴더는 아직 존재하지 않는 경로를 사용한다.
+
+```text
+npm --prefix site/frontend ci
+npm --prefix site/frontend run build
+python scripts/export_portal_snapshot.py --frontend tmp/curriculum-explorer-build --output tmp/curriculum-explorer-review
+python scripts/export_portal_snapshot.py --verify --output tmp/curriculum-explorer-review
+```
+
+`--frontend`는 React 진입점과 번들을 추가하고 기존 진입점을 `legacy.html`로 복사한다. 공식 내용 체계 색인은 두 원장에서 생성한다. 연결망·목표·과제·자료 안내와 기존 상세 절 주소는 기존 화면으로 이어진다. 검사한 새 스냅샷의 `dist/`, `tests/`, `snapshot.json`을 함께 반영한다. 빌드할 때 바뀐 해시의 번들은 새 스냅샷 경로를 기준으로 교체한다. 기존 Sites를 다루는 명령에서는 현재 절차를 사용한다.

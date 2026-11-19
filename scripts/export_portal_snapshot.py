@@ -38,7 +38,41 @@ def verify(output: Path) -> dict:
             "files": len(manifest["files"]), "optional_missing": optional_missing}
 
 
-def export(source: Path, output: Path) -> dict:
+def write_curriculum_index(dist: Path, catalog: dict) -> None:
+    structure = json.loads((ROOT / "data/curriculum_structure.json").read_text(encoding="utf-8"))
+    reviews = json.loads((ROOT / "data/curriculum_mapping_reviews.json").read_text(encoding="utf-8"))["reviews"]
+    if structure["source_sha256"] != catalog["meta"]["sourceSha256"]:
+        raise ValueError("Curriculum structure and catalog use different source PDFs.")
+    blocks = {block["id"]: block for block in structure["blocks"]}
+    codes = {standard["code"] for standard in catalog["standards"]}
+    items = []
+    for item in structure["items"]:
+        block = blocks[item["block_id"]]
+        review = reviews.get(item["source_fingerprint"])
+        linked = review["standard_codes"] if review and review["source_text"] == item["text"] else []
+        if not codes.issuperset(item["scope_codes"] + linked):
+            raise ValueError(f"Unrecognized curriculum standard in {item['id']}")
+        items.append({
+            "id": item["id"], "text": item["text"], "subject": block["subject"],
+            "domain": block["domain"], "category": block["category"], "page": item["pdf_page"],
+            "scopeCodes": item["scope_codes"], "linkedCodes": linked,
+        })
+    (dist / "content/curriculum-structure.json").write_text(
+        json.dumps({"version": catalog["version"], "items": items}, ensure_ascii=False, separators=(",", ":")) + "\n",
+        encoding="utf-8", newline="\n")
+
+
+def install_explorer(dist: Path, frontend: Path, catalog: dict) -> None:
+    legacy = (dist / "index.html").read_text(encoding="utf-8")
+    legacy = legacy.replace('<nav aria-label="주요 탐색">',
+                            '<nav aria-label="주요 탐색"><a href="./">교육과정 탐색</a>', 1)
+    (dist / "legacy.html").write_text(legacy, encoding="utf-8", newline="\n")
+    shutil.copy2(frontend / "index.html", dist / "index.html")
+    shutil.copytree(frontend / "explorer-assets", dist / "explorer-assets")
+    write_curriculum_index(dist, catalog)
+
+
+def export(source: Path, output: Path, frontend: Path | None = None) -> dict:
     source, output = source.resolve(), output.resolve()
     if output.exists():
         raise ValueError("Output already exists; choose a new directory. Existing files are never replaced.")
@@ -68,6 +102,8 @@ def export(source: Path, output: Path) -> dict:
         target = output / "dist" / relative
         target.parent.mkdir(parents=True, exist_ok=True)
         shutil.copy2(dist / relative, target)
+    if frontend is not None:
+        install_explorer(output / "dist", frontend.resolve(), catalog)
     # The exported site lives beside the research folders instead of above research/.
     adapted = []
     for test in tests:
@@ -80,19 +116,25 @@ def export(source: Path, output: Path) -> dict:
             adapted.append(test.name)
     commit = subprocess.run(["git", "-C", str(source), "rev-parse", "HEAD"],
                             capture_output=True, text=True, check=False)
+    worktree = subprocess.run(["git", "-C", str(source), "status", "--porcelain"],
+                              capture_output=True, text=True, check=False)
+    clean = commit.returncode == worktree.returncode == 0 and not worktree.stdout
     manifest = {
         "schema_version": 1,
         "data_version": catalog["version"],
         "task_dataset_version": task["datasetVersion"],
         "concept_dataset_version": concept["datasetVersion"],
-        "source_commit": commit.stdout.strip() if commit.returncode == 0 else None,
+        "source_commit": commit.stdout.strip() if clean else None,
+        "source_base_commit": commit.stdout.strip() if commit.returncode == 0 else None,
+        "source_worktree_clean": clean,
         "scope": "current_references_only; no saved-version archives or hosting metadata",
         "test_path_adaptations": adapted,
         "files": [{"path": p.relative_to(output).as_posix(), "bytes": p.stat().st_size,
                    "sha256": digest(p), "optional_in_git": p.suffix.lower() == ".pdf"}
                   for p in sorted(output.rglob("*")) if p.is_file()],
     }
-    (output / "snapshot.json").write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    (output / "snapshot.json").write_text(
+        json.dumps(manifest, ensure_ascii=False, indent=2) + "\n", encoding="utf-8", newline="\n")
     return verify(output)
 
 
@@ -100,9 +142,10 @@ def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--source", type=Path, default=ROOT / "tmp/pathways-release")
     parser.add_argument("--output", type=Path, default=ROOT / "site")
+    parser.add_argument("--frontend", type=Path, help="Overlay a built GitHub explorer onto the exported legacy portal")
     parser.add_argument("--verify", action="store_true", help="Verify the exported snapshot without the original workspace")
     args = parser.parse_args()
-    result = verify(args.output) if args.verify else export(args.source, args.output)
+    result = verify(args.output) if args.verify else export(args.source, args.output, args.frontend)
     print(json.dumps(result, ensure_ascii=False))
 
 

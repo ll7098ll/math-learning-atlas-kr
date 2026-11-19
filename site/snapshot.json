@@ -38,6 +38,12 @@
       "optional_in_git": false
     },
     {
+      "path": "dist/content/concept-pathways-index.json",
+      "bytes": 37790,
+      "sha256": "c12eb3230ac39a14f7ad2276dfff2ec008c553cf913f765be62b8a0d41ac8060",
+      "optional_in_git": false
+    },
+    {
       "path": "dist/content/concept-pathways/items/0f6efbcb36cb52dd1377aa63548bcc54c77906eb17376b3e4725c08fd25d4349.json",
       "bytes": 933079,
       "sha256": "0f6efbcb36cb52dd1377aa63548bcc54c77906eb17376b3e4725c08fd25d4349",
@@ -320,15 +326,15 @@
       "optional_in_git": false
     },
     {
-      "path": "dist/content/concept-pathways-index.json",
-      "bytes": 37790,
-      "sha256": "c12eb3230ac39a14f7ad2276dfff2ec008c553cf913f765be62b8a0d41ac8060",
-      "optional_in_git": false
-    },
-    {
       "path": "dist/content/connections.json",
       "bytes": 13533471,
       "sha256": "9806172ab3093337024a6bb21ce10d80a57e1024e908c0df74c8e8c0aa2766a9",
+      "optional_in_git": false
+    },
+    {
+      "path": "dist/content/curriculum-structure.json",
+      "bytes": 301667,
+      "sha256": "616057bf66be18eb988b934128c75775dbe1f141ef6e2116f4f7cbbefaa7cee2",
       "optional_in_git": false
     },
     {
@@ -2954,6 +2960,12 @@
       "optional_in_git": false
     },
     {
+      "path": "dist/content/task-pathways-index.json",
+      "bytes": 42744,
+      "sha256": "6948b7a80f79225a6271df0063b68bd4cb59cb6fe13875a2155598e54f762086",
+      "optional_in_git": false
+    },
+    {
       "path": "dist/content/task-pathways/items/004dcc8dc00daee80cc96c145011a77df552fafda66be6672fc491962755e314.json",
       "bytes": 10024,
       "sha256": "004dcc8dc00daee80cc96c145011a77df552fafda66be6672fc491962755e314",
@@ -5567,12 +5579,6 @@
       "path": "dist/content/task-pathways/items/ffaea6f506a1a6649d72f6279313d41f5505d5bc6fce346044498b58f81ee5d1.json",
       "bytes": 13003,
       "sha256": "ffaea6f506a1a6649d72f6279313d41f5505d5bc6fce346044498b58f81ee5d1",
-      "optional_in_git": false
-    },
-    {
-      "path": "dist/content/task-pathways-index.json",
-      "bytes": 42744,
-      "sha256": "6948b7a80f79225a6271df0063b68bd4cb59cb6fe13875a2155598e54f762086",
       "optional_in_git": false
     },
     {
@@ -8330,6 +8336,18 @@
       "optional_in_git": false
     },
     {
+      "path": "dist/explorer-assets/index-BxuNNUxd.js",
+      "bytes": 346999,
+      "sha256": "bff3ef5a1b3c95a69ece24cc36f81edd02b61105483cef1dc229bbcca3b9612b",
+      "optional_in_git": false
+    },
+    {
+      "path": "dist/explorer-assets/index-Cw8Yi3p9.css",
+      "bytes": 40805,
+      "sha256": "d17f189f0d20e0eaff68e3a05b8ba43771302a2939304931c8d2b2a9970860df",
+      "optional_in_git": false
+    },
+    {
       "path": "dist/flows.css",
       "bytes": 24181,
       "sha256": "a8d29f662b3996ba88e904671175995f53195a6c5fccbdee63155823ce4d98e2",
@@ -8349,14 +8367,20 @@
     },
     {
       "path": "dist/index.html",
-      "bytes": 4071,
-      "sha256": "d23ad16ceeb75561a31824b405733c73724be0416baaf8dc6124a4e582b4b3c6",
+      "bytes": 1409,
+      "sha256": "c4708caaf08b8df7ffce486bcaccf97153db9f0f1dbbef2f7f2351fa6ccc5a01",
       "optional_in_git": false
     },
     {
       "path": "dist/inquiry-workbook.html",
       "bytes": 30967,
       "sha256": "2580daa9e8c49ab9e72802e1710440807701f02bbdb445a54e7a0c62a7dc9c5d",
+      "optional_in_git": false
+    },
+    {
+      "path": "dist/legacy.html",
+      "bytes": 4098,
+      "sha256": "064a57edaacbc37be2b317f7639526f8dbd9c978909c991aebed2e3a3f6819a9",
       "optional_in_git": false
     },
     {
