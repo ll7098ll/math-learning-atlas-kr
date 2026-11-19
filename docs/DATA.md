@@ -7,6 +7,7 @@
 | 경로 | 역할 | 변경 시 유의점 |
 |---|---|---|
 | `data/standards.json` | 공식 기준 코드·문구·쪽수·기준 PDF 해시 | 원문과 표시 보정을 구별 |
+| `data/curriculum_structure.json`, `data/curriculum_mapping_reviews.json` | 공식 내용 체계 항목과 성취기준 대응 근거 | 탐색기의 `content/curriculum-structure.json` 생성에 사용 |
 | `data/source_corrections.json` | 추출 문장의 대조·보정 | 원래 추출문을 보존 |
 | `data/revisions_*.json` | 현재 개별 상세 분석의 편집 원고 | 근거·범위·검토 이력을 함께 유지 |
 | `data/initial_case_studies.json` | 초기 세 사례 보존 원고 | 현재 초안과 이력을 혼합하지 않음 |

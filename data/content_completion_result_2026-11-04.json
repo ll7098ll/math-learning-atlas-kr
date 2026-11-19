@@ -2,7 +2,7 @@
   "date": "2026-11-04",
   "checks": {
     "status": "pass",
-    "version": "a60e4950c4583869",
+    "version": "908d62e6b7884436",
     "standards": 435,
     "checks": [
       "authored coverage and required fields",
@@ -29,12 +29,12 @@
   "image_review_pending": 0,
   "external_review_count": 0,
   "student_validation_count": 0,
-  "public_deployment_performed": false,
+  "public_deployment_performed": true,
   "semantic_item_review_completed": 571,
-  "latest_progress": "107쪽 시행 보고서에서 텍스트가 있는 91쪽의 전체 추출문을 읽고 지정 판면 25쪽을 누적 대조했다. 본·부록의 형성평가 항목과 도입·주활동 시간 표기가 다른 위치를 기록했다. 교실 관찰 활동과 클럽 계획 활동, 시간 비율과 활동 수 비율을 구별했다. 덧셈에서 같은 두 수의 표시만 바꾸는 과제와 39에서 40으로 넘어가며 묶음을 교환하는 과제를 추가했다. 기존 주장 2건, 과제 1건과 관계 해석 1건을 보완하고 문헌 주장 2건과 자체 관찰 과제 2건을 추가했다.",
+  "latest_progress": "2020년 High 5s 효과 논문의 Early View 웹 추출문 1,732줄을 표지와 표시 1~27쪽까지 읽었다. 2018년 보고서 부록 H를 대조해 원동의 추적 622명과 주분석 613명의 포함 조건을 구별했다. 추가 수학 시간 75분의 기존 주당 280분 대비 증가율은 약 26.8%다. 표 7의 활동 수와 시간, REMA-K·WJ의 검사별 효과, 교실 시간 하위집단의 효과 차이 검정을 구별했다. 비율·자료 수집·가설검정 성취기준 3개에 문헌 주장 5건과 공개 집계 기반 과제 2개를 추가했다.",
   "goal_status": "active",
   "latest_checks": [
-    "Full revision, hierarchy and scoped rendering checks pass (a60e4950c4583869). Log: tmp/revision-checks-high5s-complete-text-final-20261119.log.",
+    "Full revision, hierarchy and scoped rendering checks pass (908d62e6b7884436). Log: tmp/revision-checks-high5s-journal-20261119.log.",
     "Scoped relation tests: source/endpoint/resource change detection, type/mathematical witness requirements, non-promotion, external-history preservation, both endpoint documents and actual current portal",
     "Current literature, hierarchy, IES rating and published-observation tests passed as part of the full run",
     "All1578 scoped relation review snapshots current; source IDs and prior derived fields preserved",
@@ -213,7 +213,12 @@
     "사이트 버전 107에 내용 `dae1618ec5603ac0`을 게시했다. 관련 6개 기준과 공개 리소스 88개를 대조했다. 이번 브라우저 시각 확인은 수행하지 않았다.",
     "전체 재생성·위계 감사와 성취기준 5개의 생성 원고·데이터·표시 대조를 통과했다. 다른 주장 1,057개, 관찰 과제 1,240개, 관계 해석 875개가 직전 사이트 원장과 일치한다.",
     "사이트 버전 110에 내용 `5b3995b9eea589b9`을 게시했다. 관련 5개 기준과 공개 리소스 87개를 대조했다. 이번 브라우저 시각 확인은 수행하지 않았다.",
-    "전체 재생성·위계 감사와 관련 성취기준 5개의 원고·생성 데이터·화면 모델을 대조했다. 다른 주장 1,061개, 기존 과제 1,239개, 관계 해석 874개의 일치를 확인했다."
+    "전체 재생성·위계 감사와 관련 성취기준 5개의 원고·생성 데이터·화면 모델을 대조했다. 다른 주장 1,061개, 기존 과제 1,239개, 관계 해석 874개의 일치를 확인했다.",
+    "Sites v111에 내용 `a60e4950c4583869`을 게시하고 공개 리소스 89개를 대조했다.",
+    "전체 재생성·위계 감사와 성취기준 4개의 원고·생성 데이터·화면 모델을 대조했다. 이전 출처 178개, 주장 1,065개, 과제 1,242개와 관계 해석 875개가 일치한다.",
+    "Sites v112에 내용 `8849a120634ce00e`을 게시하고 공개 리소스 86개를 대조했다.",
+    "전체 재생성·위계 감사와 성취기준 3개의 원고·생성 데이터·화면 모델을 대조했다. 이전 출처 179개, 주장 1,068건, 과제 1,244개와 관계 해석 875건이 일치한다.",
+    "Sites v113에 내용 `908d62e6b7884436`을 게시하고 공개 리소스 83개를 대조했다."
   ],
   "observation_extensions": 156,
   "tool_model_rows": {
@@ -231,10 +236,10 @@
   "legacy_statement_only_reviews": 0,
   "image_review_scope": "435개 모두 실제 이미지로 문장·해설·적용 시 고려 사항을 자체 대조. 내용 변경 시 재대조 필요. 독립 검토·학생 검증과 별도.",
   "external_literature_entries_pending": 0,
-  "literature_claim_mappings": 1065,
-  "literature_observation_extensions": 1242,
+  "literature_claim_mappings": 1073,
+  "literature_observation_extensions": 1246,
   "published_research_rating_rows": 20,
-  "literature_count_scope": "176개 교육과정 외 출처의 실제 명시한 읽기 범위와 주장1057건의 대응이다. 파일 보관·선정 대조는 전권 정독을 뜻하지 않는다. 미검토 본문·인용 원연구·판본/번역 후속 대조는 각 source.read_scope·next_review와 구조화 원장에 보존하며 독립 검토·실제 학생 검증과 구별한다.",
+  "literature_count_scope": "교육과정 외 출처 180개의 확인 범위에 주장 1,073건을 대응했다. 읽은 쪽과 형식, 미검토 범위와 인용 원연구는 출처별 기록에서 확인한다. 독립 검토와 실제 학생 검증은 각각 0건이다.",
   "latest_update_date": "2026-11-19",
   "standard_relation_analysis_states": {
     "self_checked": 2239
@@ -315,14 +320,14 @@
       "reason": "현재 집계처럼 쓰인 과거1053/1236문구를 현 원장1057/1240에 맞추고 이전값을 보존했다."
     }
   ],
-  "external_literature_entries_scoped_claim_mapped": 178,
+  "external_literature_entries_scoped_claim_mapped": 180,
   "latest_deployment": {
-    "version_number": 110,
+    "version_number": 113,
     "status": "succeeded",
     "url": "https://math-learning-atlas-kr.gptpro2908176.chatgpt.site",
-    "commit_sha": "63671e4b46b36837587f286bacc9b1f19ffa4c8f",
-    "data_version": "5b3995b9eea589b9",
-    "live_resources_verified": 87
+    "commit_sha": "cf03f4ece594ff7bb4586958dc55e78653056f75",
+    "data_version": "908d62e6b7884436",
+    "live_resources_verified": 83
   },
   "relation_literature_context": {
     "candidate_relations": 389,
@@ -337,12 +342,12 @@
   },
   "latest_publication_attempt": {
     "date": "2026-11-19",
-    "status": "prepared_for_source_push",
-    "data_version": "a60e4950c4583869",
-    "source_pushed": false,
-    "saved_version_created": false,
-    "deployed": false,
-    "current_public_version": 110
+    "status": "succeeded",
+    "data_version": "908d62e6b7884436",
+    "source_pushed": true,
+    "saved_version_created": true,
+    "deployed": true,
+    "current_public_version": 113
   },
   "minimum_scoped_standard_mappings": 435,
   "publication_attempt_history": [
@@ -363,8 +368,8 @@
   "latest_validation_attempts": [
     {
       "status": "succeeded",
-      "scope": "전체 재생성·위계 감사와 관련 성취기준 5개의 원고·생성 데이터·화면 모델을 대조했다. 다른 주장 1,061개, 기존 과제 1,239개, 관계 해석 874개의 일치를 확인했다.",
-      "data_version": "a60e4950c4583869"
+      "scope": "전체 재생성·위계 감사와 성취기준 3개의 원고·생성 데이터·화면 모델을 대조했다. 이전 출처 179개, 주장 1,068건, 과제 1,244개와 관계 해석 875건이 일치한다.",
+      "data_version": "908d62e6b7884436"
     }
   ]
 }

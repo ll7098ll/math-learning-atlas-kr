@@ -2,6 +2,12 @@
 
 근거가 남아 있는 주요 변경을 날짜순으로 요약한다. 내용 해시는 생성 데이터의 식별자이고, Sites 버전은 해당 서비스의 저장·게시 이력이다. 별도의 의미 버전 번호를 소급하여 만들지 않는다. 현재 수치·검증 범위·미완료 항목은 [현재 상태](docs/STATUS.md)를 기준으로 확인한다.
 
+## 2026-11-19 — High 5s 효과 논문과 MDRC 관찰 도구 보완
+
+- `908d62e6b7884436` · High 5s 효과 논문의 웹 추출문과 기존 결과 보고서의 표본 기록을 대조했다. 표본 622명과 주분석 613명의 포함 조건, 검사별 결과와 집단 차이 검정을 구별했다. 성취기준 3개에 주장 5건과 공개 집계 기반 과제 2개를 연결했다. [검토 노트](data/literature_evidence/JACOB_ERICKSON_MATTERA_2020_HIGH5S_IMPACT_complete_web_text_review_notes.json)
+- `8849a120634ce00e` · MDRC 도구의 텍스트 66쪽과 지정 판면 16쪽을 대조했다. 사건 횟수·지속 시간·발생 구간을 구분하고 성취기준 4개에 주장 3건과 가상 관찰 과제 2개를 연결했다. [검토 노트](data/literature_evidence/WULFSOHN_SENGAL_MATTERA_2021_MDRC_TOOLKIT_complete_text_review_notes.json)
+- README, 문서 안내, 상태·개발·배포 문서를 갱신했다. 누적 집계와 검증 범위는 [현재 상태](docs/STATUS.md), 플랫폼별 확인 결과는 [검증 기록](docs/VERIFICATION.md)에서 확인할 수 있다.
+
 ## 2026-11-19 — High 5s 시행 보고서 대조와 GitHub 스냅샷 갱신
 
 - 텍스트가 있는 91쪽의 추출문을 검토하고 25쪽의 판면을 누적 대조했다. 문헌 주장 2건과 자체 관찰 과제 2건을 추가했다.

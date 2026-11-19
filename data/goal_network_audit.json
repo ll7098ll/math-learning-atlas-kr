@@ -2,9 +2,9 @@
   "date": "2026-11-19",
   "kind": "structural_and_direction_reconciliation",
   "interpretation": "원장·생성 자료와 목표별 연결의 범위·방향을 대조한다. 역방향 충돌이 없다는 사실만으로 모든 연결의 수학적 타당성·필수 선수성·수업 효과가 증명되는 것은 아니다.",
-  "catalog_version": "a60e4950c4583869",
-  "task_dataset_version": "c40e20a8f9c5372d",
-  "graph_hash": "78204414d17f938688941d936ce26fc0ecbcf5593b1ba42216f6d641184e5c00",
+  "catalog_version": "908d62e6b7884436",
+  "task_dataset_version": "ea21341a92455351",
+  "graph_hash": "0750bd4e98f0b476c2e74008930c6ab7a1f19e17951893420eabb0a3a9844603",
   "source_hashes": {
     "data/standards.json": "b50696da3a2bdfb2ab41b49fb66049c407909312436eb8c4529de935b0d8ea79",
     "data/revised_relations.json": "80dc8755b9678ea4d2ad62f7f788517d64cc9533a1e672c0e3b22c3c3464a688",

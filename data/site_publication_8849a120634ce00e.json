@@ -1,0 +1,87 @@
+{
+  "saved": {
+    "id": "appgprj_6ae2965054108191ad7dc71524bb7cfb~appgver_1be74e5fe6d88191a955aaf29925184a",
+    "project_id": "appgprj_6ae2965054108191ad7dc71524bb7cfb",
+    "version_number": 112,
+    "source": {
+      "commit_sha": "24cc613948b6fde6ef3789f2830026368fb6809d"
+    },
+    "archive_storage": {
+      "archive_format": "tar",
+      "sediment_file_id": "file_00000000b3b8820982e33b0398eea27f",
+      "content_hash": "sha256:bf448920b482ac2ca2cb76bdeef3ecf367d729b0fe521e572a233cf817c66002",
+      "size_bytes": 208097280,
+      "file_count": 1428
+    },
+    "screenshot_url": null,
+    "deployment_id": null
+  },
+  "deployment": {
+    "id": "appgdep_6afe733dfb78819199cea9c0d9950d73",
+    "project_id": "appgprj_6ae2965054108191ad7dc71524bb7cfb",
+    "title": "수학의 연결 지도",
+    "version_id": "appgprj_6ae2965054108191ad7dc71524bb7cfb~appgver_1be74e5fe6d88191a955aaf29925184a",
+    "type": "publish",
+    "status": "succeeded",
+    "url": "https://math-learning-atlas-kr.gptpro2908176.chatgpt.site",
+    "has_mcp": false,
+    "screenshot_asset_pointer": null,
+    "provider_deployment_id": "site---6ae2965054108191ad7dc71524bb7cfb",
+    "failure_message": null,
+    "env_set_revision": 0,
+    "updated_at": "2026-11-19T03:56:35.970100+00:00"
+  },
+  "package": {
+    "status": "pass",
+    "source": {
+      "project_id": "appgprj_6ae2965054108191ad7dc71524bb7cfb",
+      "commit_sha": "24cc613948b6fde6ef3789f2830026368fb6809d"
+    },
+    "archive": {
+      "path": "C:\\Users\\User\\Desktop\\codex\\수학 내용 체계\\tmp\\math-atlas-publish-20261119-8849a120634ce00e.tar.gz",
+      "files": 1428,
+      "bytes": 58658187,
+      "expanded_bytes": 206714880,
+      "sha256": "5fee0c6c961bb6cebf289c27f2bfb8d87726d1cfa3d322a435fe4b932cd8b124"
+    },
+    "protected_paths_verified": 919,
+    "omitted_unreferenced_historical_files": 24813,
+    "retained_snapshots": [
+      "current_8849a120634ce00e"
+    ],
+    "previous_public_recovery": {
+      "version_number": 111,
+      "version_id": "appgprj_6ae2965054108191ad7dc71524bb7cfb~appgver_27e2502c30ac8191915b4c3bacc6ef2b",
+      "commit_sha": "8cf93d2a96d2a97e1523eedc95fe3c36e1bca710",
+      "saved_archive_intact": true,
+      "referenced_recovery_graphs_retained": true,
+      "prior_reversible_archive_history_file": "data/portal_asset_archive_history.json",
+      "this_release_archived_static_files": 0
+    },
+    "supported_helper_observation": {
+      "helper": "Sites1.1.7/site-workflow.mjs",
+      "package_exit_code": 1,
+      "package_error": "Unable to package the Site archive.",
+      "fresh_opening_without_source": {
+        "project_id": "appgprj_6ae2965054108191ad7dc71524bb7cfb",
+        "checkout_path": "C:\\Users\\User\\Desktop\\codex\\수학 내용 체계\\tmp\\pathways-release",
+        "commit_sha": "24cc613948b6fde6ef3789f2830026368fb6809d"
+      },
+      "remote_fetch_verified": true
+    },
+    "method": "Complete current static dependency graph,plus hosting metadata. Every file is verified against pushed Git blobs and reread from USTAR. Historical unreferenced copies omitted only from the archive;0files moved/deleted. Only authored evidence notes and links were added. The MDRC toolkit PDF, raw extraction and page renders stay private. Authored research notes are retained in the pushed research source,not the static dist archive. Earlier licensed guide PDFs remain in pushed research source. All prior saved recovery archives preserved."
+  },
+  "live_check": {
+    "status": "pass",
+    "url": "https://math-learning-atlas-kr.gptpro2908176.chatgpt.site",
+    "data_version": "8849a120634ce00e",
+    "resources_checked": 86,
+    "affected_standards": [
+      "12수과03-02",
+      "12수과03-04",
+      "12실통02-02",
+      "6수04-03"
+    ]
+  },
+  "note": "Deployment receipts were recorded after the archive was built."
+}

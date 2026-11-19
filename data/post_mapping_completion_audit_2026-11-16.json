@@ -1,6 +1,6 @@
 {
   "date": "2026-11-19",
-  "data_version": "a60e4950c4583869",
+  "data_version": "908d62e6b7884436",
   "goal_status": "active",
   "full_objective_complete": false,
   "minimum_scoped_mapping": {
@@ -56,38 +56,39 @@
   "interpretation": "최소 연결0대기를 전체 보완 완료로 바꾸지 않는다. 실제 자료가 필요한 항목의 미완료를 보존하고 자체 원문·문헌·원고 보완을 계속한다.",
   "latest_source_followup": {
     "source_ids": [
-      "JACOB_ERICKSON_MATTERA_2018_HIGH5S_IMPLEMENTATION"
+      "JACOB_ERICKSON_MATTERA_2020_HIGH5S_IMPACT"
     ],
     "original_reading_date": "2026-11-19",
     "validation_date": "2026-11-19",
-    "checked_pdf_pages": 107,
-    "total_text_pages": 91,
-    "text_layer_empty_pages": 16,
-    "new_text_pages": 77,
-    "total_visual_pages": 25,
-    "new_visual_pages": 15,
-    "full_report_text_review": true,
+    "checked_web_text_locations": 28,
+    "web_text_lines": 1732,
+    "total_visual_pages": 0,
+    "full_available_web_text_review": true,
     "full_report_visual_review": false,
+    "supplement_file_verified": false,
     "new_book_body_pages": 0,
-    "new_sources": 0,
-    "new_claims": 2,
+    "new_sources": 1,
+    "new_claims": 5,
     "new_tasks": 2,
     "new_relation_entries": 0,
-    "changed_prior_claims": [
-      "H5I18-01",
-      "H5I18-02"
+    "new_claim_ids": [
+      "H5J20-01",
+      "H5J20-02",
+      "H5J20-03",
+      "H5J20-04",
+      "H5J20-05"
     ],
-    "changed_prior_tasks": [
-      "H5I-P1"
+    "new_task_ids": [
+      "H5J-P1",
+      "H5J-P2"
     ],
-    "prior_claims_unchanged": 1061,
-    "prior_tasks_unchanged": 1239,
-    "prior_context_interpretations_unchanged": 874,
-    "refreshed_context_snapshots": 1,
+    "prior_claims_unchanged": 1068,
+    "prior_tasks_unchanged": 1244,
+    "prior_context_interpretations_unchanged": 875,
     "actual_independent_review": 0,
     "actual_student_validation": 0,
     "evidence_files": [
-      "data/literature_evidence/JACOB_ERICKSON_MATTERA_2018_HIGH5S_IMPLEMENTATION_complete_text_review_notes.json"
+      "data/literature_evidence/JACOB_ERICKSON_MATTERA_2020_HIGH5S_IMPACT_complete_web_text_review_notes.json"
     ]
   },
   "book_purchase_approval": "pending; no answer or spending authorization received",
@@ -1454,6 +1455,307 @@
       "actual_student_validation": 0,
       "evidence_files": [
         "data/literature_evidence/MATTERA_ET_AL_2026_MPC_PUBLISHED_complete_web_text_review_notes.json"
+      ]
+    },
+    {
+      "source_ids": [
+        "JACOB_ERICKSON_MATTERA_2018_HIGH5S_IMPLEMENTATION"
+      ],
+      "original_reading_date": "2026-11-19",
+      "validation_date": "2026-11-19",
+      "checked_pdf_pages": 107,
+      "total_text_pages": 91,
+      "text_layer_empty_pages": 16,
+      "new_text_pages": 77,
+      "total_visual_pages": 25,
+      "new_visual_pages": 15,
+      "full_report_text_review": true,
+      "full_report_visual_review": false,
+      "new_book_body_pages": 0,
+      "new_sources": 0,
+      "new_claims": 2,
+      "new_tasks": 2,
+      "new_relation_entries": 0,
+      "changed_prior_claims": [
+        "H5I18-01",
+        "H5I18-02"
+      ],
+      "changed_prior_tasks": [
+        "H5I-P1"
+      ],
+      "prior_claims_unchanged": 1061,
+      "prior_tasks_unchanged": 1239,
+      "prior_context_interpretations_unchanged": 874,
+      "refreshed_context_snapshots": 1,
+      "actual_independent_review": 0,
+      "actual_student_validation": 0,
+      "evidence_files": [
+        "data/literature_evidence/JACOB_ERICKSON_MATTERA_2018_HIGH5S_IMPLEMENTATION_complete_text_review_notes.json"
+      ]
+    },
+    {
+      "source_ids": [
+        "WULFSOHN_SENGAL_MATTERA_2021_MDRC_TOOLKIT"
+      ],
+      "original_reading_date": "2026-11-19",
+      "validation_date": "2026-11-19",
+      "checked_pdf_pages": 75,
+      "total_text_pages": 66,
+      "text_layer_empty_pages": 9,
+      "new_text_pages": 57,
+      "total_visual_pages": 16,
+      "new_visual_pages": 12,
+      "full_report_text_review": true,
+      "text_layer_empty_render_checks": [
+        {
+          "page": 22,
+          "dimensions": [
+            611,
+            790
+          ],
+          "pixel_channel_extrema": [
+            [
+              255,
+              255
+            ],
+            [
+              255,
+              255
+            ],
+            [
+              255,
+              255
+            ]
+          ],
+          "sha256": "5a799be9ec11521b129d72b9cf86bd746542378a15d15f780880a19305a50cd5"
+        },
+        {
+          "page": 24,
+          "dimensions": [
+            611,
+            790
+          ],
+          "pixel_channel_extrema": [
+            [
+              255,
+              255
+            ],
+            [
+              255,
+              255
+            ],
+            [
+              255,
+              255
+            ]
+          ],
+          "sha256": "5a799be9ec11521b129d72b9cf86bd746542378a15d15f780880a19305a50cd5"
+        },
+        {
+          "page": 30,
+          "dimensions": [
+            611,
+            790
+          ],
+          "pixel_channel_extrema": [
+            [
+              255,
+              255
+            ],
+            [
+              255,
+              255
+            ],
+            [
+              255,
+              255
+            ]
+          ],
+          "sha256": "5a799be9ec11521b129d72b9cf86bd746542378a15d15f780880a19305a50cd5"
+        },
+        {
+          "page": 36,
+          "dimensions": [
+            611,
+            790
+          ],
+          "pixel_channel_extrema": [
+            [
+              255,
+              255
+            ],
+            [
+              255,
+              255
+            ],
+            [
+              255,
+              255
+            ]
+          ],
+          "sha256": "5a799be9ec11521b129d72b9cf86bd746542378a15d15f780880a19305a50cd5"
+        },
+        {
+          "page": 38,
+          "dimensions": [
+            611,
+            790
+          ],
+          "pixel_channel_extrema": [
+            [
+              255,
+              255
+            ],
+            [
+              255,
+              255
+            ],
+            [
+              255,
+              255
+            ]
+          ],
+          "sha256": "5a799be9ec11521b129d72b9cf86bd746542378a15d15f780880a19305a50cd5"
+        },
+        {
+          "page": 42,
+          "dimensions": [
+            611,
+            790
+          ],
+          "pixel_channel_extrema": [
+            [
+              255,
+              255
+            ],
+            [
+              255,
+              255
+            ],
+            [
+              255,
+              255
+            ]
+          ],
+          "sha256": "5a799be9ec11521b129d72b9cf86bd746542378a15d15f780880a19305a50cd5"
+        },
+        {
+          "page": 50,
+          "dimensions": [
+            611,
+            790
+          ],
+          "pixel_channel_extrema": [
+            [
+              255,
+              255
+            ],
+            [
+              255,
+              255
+            ],
+            [
+              255,
+              255
+            ]
+          ],
+          "sha256": "5a799be9ec11521b129d72b9cf86bd746542378a15d15f780880a19305a50cd5"
+        },
+        {
+          "page": 54,
+          "dimensions": [
+            611,
+            790
+          ],
+          "pixel_channel_extrema": [
+            [
+              255,
+              255
+            ],
+            [
+              255,
+              255
+            ],
+            [
+              255,
+              255
+            ]
+          ],
+          "sha256": "5a799be9ec11521b129d72b9cf86bd746542378a15d15f780880a19305a50cd5"
+        },
+        {
+          "page": 62,
+          "dimensions": [
+            611,
+            790
+          ],
+          "pixel_channel_extrema": [
+            [
+              255,
+              255
+            ],
+            [
+              255,
+              255
+            ],
+            [
+              255,
+              255
+            ]
+          ],
+          "sha256": "5a799be9ec11521b129d72b9cf86bd746542378a15d15f780880a19305a50cd5"
+        }
+      ],
+      "standalone_tools_text_comparison": [
+        {
+          "tool": 12,
+          "url": "https://www.mdrc.org/sites/default/files/mpc/files/High_5s_Toolkit_12.pdf",
+          "status": 200,
+          "sha256": "9235257f5854008e5a4502d064cb95c308479d3c9514cf10c705fe278e2d1a85",
+          "combined_pdf_pages": [
+            61
+          ],
+          "equal_extracted_text": [
+            true
+          ]
+        },
+        {
+          "tool": 17,
+          "url": "https://www.mdrc.org/sites/default/files/mpc/files/High_5s_Toolkit_17.pdf",
+          "status": 200,
+          "sha256": "3c84e56dfec4c57d569a873fece01d74f75b1b0836e09e8f1856f72da547819d",
+          "combined_pdf_pages": [
+            73,
+            74
+          ],
+          "equal_extracted_text": [
+            true,
+            true
+          ]
+        }
+      ],
+      "full_report_visual_review": false,
+      "new_book_body_pages": 0,
+      "new_sources": 1,
+      "new_claims": 3,
+      "new_tasks": 2,
+      "new_relation_entries": 0,
+      "new_claim_ids": [
+        "MDRCT21-01",
+        "MDRCT21-02",
+        "MDRCT21-03"
+      ],
+      "new_task_ids": [
+        "MDRCT-P1",
+        "MDRCT-P2"
+      ],
+      "prior_claims_unchanged": 1065,
+      "prior_tasks_unchanged": 1242,
+      "prior_context_interpretations_unchanged": 875,
+      "actual_independent_review": 0,
+      "actual_student_validation": 0,
+      "evidence_files": [
+        "data/literature_evidence/WULFSOHN_SENGAL_MATTERA_2021_MDRC_TOOLKIT_complete_text_review_notes.json"
       ]
     }
   ],
@@ -3892,5 +4194,26 @@
       "evidence": "docs/VERIFICATION.md",
       "scope": "320px 브라우저는 Sites v106과 당시 GitHub Pages, 태블릿과 A4 PDF는 Sites v109와 GitHub Pages f6daf3a에서 확인했다. v109와 v110의 두 도구 및 공통 스타일·스크립트 파일이 Git에서 일치한다."
     }
-  ]
+  ],
+  "latest_design_book_library_route_check": {
+    "date": "2026-11-19",
+    "report": "docs/미확보원문목록.md",
+    "seventh_print_isbn": "9781292041254",
+    "riss_exact_print_results": 0,
+    "national_library_exact_print_results": 0,
+    "informal_sources_counted_as_formal": false,
+    "cinii_catalog": "https://ci.nii.ac.jp/ncid/BB18573234",
+    "nii_keris_new_requests_closed": "2022-02-28",
+    "nii_notice": "https://contents.nii.ac.jp/en/catill/project_reference/reference/infoill/global",
+    "ninth_print_isbn": "9780135824146",
+    "ninth_riss_url": "https://www.riss.kr/link?id=M16156452",
+    "ninth_catalog_libraries": [
+      "Kyungpook National University",
+      "Kyung Hee University",
+      "Yonsei University"
+    ],
+    "live_circulation_confirmed": false,
+    "seventh_new_formal_body_pages": 0,
+    "ninth_new_body_pages": 0
+  }
 }

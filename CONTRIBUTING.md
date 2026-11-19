@@ -11,7 +11,7 @@
 | 하위 목표·과제·조건·대안 경로 | `data/goal_hierarchy_*.json` |
 | 관계의 의미·방향·적용 범위 | `data/relations.json`, `data/revised_relations.json`와 관계 검토 원장 |
 | 문헌 근거·읽기 범위 | `data/sources.json`, `data/literature_claim_reviews.json`, `data/literature_evidence/`의 검토 노트 |
-| 포털 화면 | `site/`의 실행 스냅샷과 기존 Sites 프로젝트의 별도 저장소; [구조 안내](docs/ARCHITECTURE.md) 참조 |
+| 포털 화면 | 탐색기의 `site/frontend/`와 기존 포털 소스. 생성한 스냅샷은 `site/dist/`에서 확인한다. [구조 안내](docs/ARCHITECTURE.md) |
 
 생성된 Markdown만 수정하면 다음 생성 때 사라질 수 있다. 생성 경로를 먼저 확인하고 원본과 표시 결과를 함께 고친다. `author_*`, `record_*`, `--freeze-content`와 같은 원고 작성·기록 명령은 전체 갱신 명령으로 일괄 실행하지 않는다.
 
@@ -30,6 +30,8 @@
 파일과 명령의 전체 목록은 [개발 안내](docs/DEVELOPMENT.md)에 있다. 공개 저장소에 포함되는 자료만으로 실행할 수 있는 검사의 예는 다음과 같다.
 
 ```text
+python scripts/check_repository.py
+python scripts/export_portal_snapshot.py --verify
 python scripts/test_goal_hierarchy.py
 python scripts/test_hierarchy_review.py
 python scripts/test_general_math_models.py

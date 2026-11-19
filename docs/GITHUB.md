@@ -1,8 +1,6 @@
-# GitHub 업로드 준비와 절차
+# GitHub 관리와 Pages 배포
 
-기준일: 2026-11-18. 연구 원본과 실행 가능한 포털 스냅샷을 [ll7098ll/math-learning-atlas-kr](https://github.com/ll7098ll/math-learning-atlas-kr) 공개 저장소로 만들고 `main`에 최초 업로드했다. 소유자는 `ll7098ll`이며 최초 커밋은 [22c681b](https://github.com/ll7098ll/math-learning-atlas-kr/commit/22c681bc0f522c994d2c9e3189edf9516f97c0da)다. 전체 프로젝트 라이선스는 아직 지정하지 않았다.
-
-최초 커밋 `22c681b`의 [Actions 실행](https://github.com/ll7098ll/math-learning-atlas-kr/actions/runs/44239839367)은 전체 단계가 성공했다. 이후 변경의 결과는 [Actions 실행 기록](https://github.com/ll7098ll/math-learning-atlas-kr/actions/workflows/checks.yml)에서 해당 커밋별로 확인한다. 아래 초기화·첫 커밋 절차는 새 작업 환경을 위한 참고이며, 이미 연결된 저장소에 다시 초기화하거나 `origin`을 중복 추가하지 않는다.
+2026년 11월 19일 기준. 공개 저장소의 `main` 브랜치에 연구 원장과 포털 스냅샷을 함께 관리한다. Pages는 `main`의 커밋을 검사한 뒤 정적 포털을 배포한다. [공개 저장소](https://github.com/ll7098ll/math-learning-atlas-kr) · [공개 포털](https://ll7098ll.github.io/math-learning-atlas-kr/)
 
 ## 포함 범위
 
@@ -11,6 +9,7 @@
 | 루트 Markdown, `docs/`, `indexes/`, `analyses/` | 프로젝트 안내, 연구 계획·기록과 상세 분석 포함 |
 | `scripts/`, `data/`의 JSON·CSV·검토 노트 | 연구 원본·검증 코드·구조화 자료 포함 |
 | `site/dist/`, `site/tests/`, `site/snapshot.json` | 최신 실행 포털의 선별된 스냅샷과 해시 목록 포함 |
+| `site/frontend/` | 교육과정 탐색기와 공통 화면 스타일의 소스 포함 |
 | `portal/distribution-lab.html`, `portal/inquiry-workbook.html` | 독립 실습 화면 포함 |
 | `.github/`, `.gitignore`, `.gitattributes`, `.editorconfig` | Issue·PR 양식, 검사와 저장소 설정 포함 |
 | `tmp/` | 다운로드, 작업 사본과 배포 아카이브 제외 |
@@ -45,38 +44,25 @@ python scripts/test_advanced_math_models.py
 python -m http.server 8000 --bind 127.0.0.1 --directory site/dist
 ```
 
-처음 Git을 설정하는 경우에만 아래 명령을 실행한다. 이미 루트 `.git`이 있으면 초기화 단계를 건너뛰고 `git status`와 현재 브랜치를 확인한다.
+## 변경 커밋과 업로드
+
+새 작업 폴더가 필요하면 공개 저장소를 복제한다. 기존 작업 폴더에서는 `git status --short --branch`와 `git remote -v`로 변경 목록과 `origin`을 확인한다.
 
 ```text
-git init -b main
-git status --short
-git add --dry-run .
+git clone https://github.com/ll7098ll/math-learning-atlas-kr.git
 ```
 
-`git add --dry-run .`의 대상에 `tmp/`, 원문 PDF, `.openai/` 또는 제외된 포털 디렉터리가 없는지 확인한다. 작성자 이름과 이메일은 본인이 사용하는 Git 설정을 그대로 적용하며, 타인의 정보나 임의 계정을 설정하지 않는다.
-
-## 첫 커밋과 업로드
-
-검사 결과와 포함 파일을 확인한 다음 커밋한다.
+아래는 README와 변경 기록만 수정한 경우의 예다. 연구 내용을 갱신했다면 공개 가능한 원장·근거 노트·생성 문서와 대응하는 포털 스냅샷도 검토해 커밋에 포함한다.
 
 ```text
-git add .
+git add -- README.md CHANGELOG.md
 git diff --cached --stat
 git diff --cached --name-status
-git commit -m "docs: prepare curriculum research and portal for GitHub"
+git commit -m "docs: update project documentation"
+git push origin main
 ```
 
-GitHub에서 원하는 소유자·이름·공개 범위로 빈 저장소를 준비한다. 기존 로컬 파일을 그대로 첫 커밋으로 올릴 때는 원격에서 README나 라이선스를 자동 생성하지 않는다. 아래 `OWNER/REPOSITORY`를 실제 주소로 바꾼 뒤 실행한다.
-
-```text
-git remote add origin https://github.com/OWNER/REPOSITORY.git
-git remote -v
-git push -u origin main
-```
-
-`origin`이 이미 있으면 현재 주소와 연결하려는 저장소를 비교하고, 올바르면 추가 명령을 생략한다. 다른 저장소 주소를 자동 덮어쓰거나 `--force`로 기존 이력을 교체하지 않는다. 인증에는 본인의 GitHub 자격 증명 관리 도구를 사용하고 토큰을 URL·명령 기록·문서에 넣지 않는다.
-
-업로드 후 README 링크와 Actions 실행 결과를 확인한다.
+커밋 목록을 검토할 때 [자료 권리 안내](RIGHTS.md)에 있는 제외 경로를 확인한다. 인증에는 본인의 GitHub 자격 증명 관리 도구를 사용한다.
 
 ## GitHub Pages 자동 배포
 
@@ -86,9 +72,11 @@ GitHub Pages의 배포 소스는 GitHub Actions다. `main`에 push하거나 `mai
 
 검사가 실패하면 해당 배포가 중단되고 마지막 성공본이 계속 제공된다. 배포 파일의 교육과정 원문 링크는 기존 공개 포털의 PDF를 가리킨다.
 
+배포가 끝나면 Actions의 `deploy-pages` 결과와 공개 카탈로그의 `version`을 확인한다. 공개 카탈로그 값은 배포한 커밋의 `site/snapshot.json`에 있는 `data_version`과 일치해야 한다. [공개 카탈로그](https://ll7098ll.github.io/math-learning-atlas-kr/content/catalog.json)
+
 ## 자동 검사 범위
 
-[GitHub Actions 설정](../.github/workflows/checks.yml)은 push·pull request·수동 실행에서 공개 파일 점검, Python 검사 5종, 포털 스냅샷 해시 검증과 Node.js 검사 3종을 실행한다. Python 3.12와 Node.js 24를 지정하고 저장소 읽기 권한만 사용한다. Node.js 검사는 콘텐츠 객체, 목표 연결과 학교급 목록을 점검한다. 원문 파일과 로컬 작업 폴더에 의존하는 전체 연구 검사는 개발 환경에서 별도로 실행한다. CI 성공만으로 문헌 근거의 완전성이나 학생 검증을 주장하지 않는다.
+[GitHub Actions 설정](../.github/workflows/checks.yml)은 push·pull request·수동 실행에서 공개 파일 점검, Python 검사 5종, 포털 스냅샷 해시 검증과 Node.js 검사 3종을 실행한다. 검사 환경은 Python 3.12와 Node.js 24를 사용한다. 검사 작업에는 저장소 읽기 권한을 부여하며, Pages 배포 작업에는 Pages 쓰기와 토큰 발급 권한을 부여한다. 원문 파일과 로컬 작업 폴더에 의존하는 전체 연구 검사는 개발 환경에서 실행한다.
 
 워크플로의 `actions/checkout@v7`, `actions/setup-python@v7`, `actions/setup-node@v7`는 작성일에 확인한 [checkout 공식 안내](https://github.com/actions/checkout), [setup-python 공식 안내](https://github.com/actions/setup-python), [setup-node 공식 안내](https://github.com/actions/setup-node)의 사용 예를 따랐다. Python·Node.js 버전은 최신 버전 표기가 아니라 이 프로젝트의 검증 환경이다.
 

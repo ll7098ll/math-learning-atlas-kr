@@ -6,23 +6,20 @@
 
 | 구분 | 현재 확인한 값 | 근거 |
 |---|---|---|
-| 로컬 내용 버전 | `a60e4950c4583869` | [검사 결과](../data/revision_checks.json) |
-| 로컬 과제 데이터셋 | `c40e20a8f9c5372d` | [목표 연결 감사](../data/goal_network_audit.json) |
-| 로컬 개념군 데이터셋 | `2629512282055ba2` | [전체 위계 감사](../data/hierarchy_completion_audit.json) |
-| 가장 최근의 성공 게시 기록 | Sites 버전 **110**, 내용 `5b3995b9eea589b9` | [게시 원장](../data/school_revision_deployment.json) |
-| v110 게시 시각 | 2026-11-19 12:10:00 KST | [게시 원장](../data/school_revision_deployment.json) |
-| v110 소스 커밋 | `63671e4b46b36837587f286bacc9b1f19ffa4c8f` | [게시 결과](../data/site_publication_5b3995b9eea589b9.json) |
-| GitHub 업로드 | 공개 저장소 생성·`main` 최초 업로드 완료 | [공개 저장소](https://github.com/ll7098ll/math-learning-atlas-kr) |
-| GitHub 최초 커밋 | `22c681bc0f522c994d2c9e3189edf9516f97c0da` · 2,751개 파일 | [최초 커밋](https://github.com/ll7098ll/math-learning-atlas-kr/commit/22c681bc0f522c994d2c9e3189edf9516f97c0da) |
-| GitHub 자동 검사 | 최초 커밋 `22c681b`의 전체 단계 성공 | [확인한 Actions 실행](https://github.com/ll7098ll/math-learning-atlas-kr/actions/runs/44239839367) |
-| GitHub Pages 콘텐츠 | `main`의 포털 스냅샷 `a60e4950c4583869`를 검사 후 자동 배포 | [포털 열기](https://ll7098ll.github.io/math-learning-atlas-kr/) · [공개 카탈로그 버전](https://ll7098ll.github.io/math-learning-atlas-kr/content/catalog.json) · [배포 기록](https://github.com/ll7098ll/math-learning-atlas-kr/deployments/github-pages) |
-| GitHub Pages 이전 UI 검증 | 공통 페이지 UI와 인쇄 · 콘텐츠 `c7e86e2fa1af547e` · 커밋 `f6daf3a` | [이전 검사 기록](https://github.com/ll7098ll/math-learning-atlas-kr/actions/runs/44448690447) |
+| 로컬 내용 버전 | `908d62e6b7884436` | [검사 결과](../data/revision_checks.json) |
+| 로컬 과제 데이터셋 | `ea21341a92455351` | [목표 연결 감사](../data/goal_network_audit.json) |
+| 로컬 개념군 데이터셋 | `3020157b0b115a7a` | [전체 위계 감사](../data/hierarchy_completion_audit.json) |
+| 가장 최근의 성공 게시 기록 | Sites 버전 **113**, 내용 `908d62e6b7884436` | [게시 원장](../data/school_revision_deployment.json) |
+| v113 게시 시각 | 2026-11-19 13:19:04 KST | [게시 원장](../data/school_revision_deployment.json) |
+| v113 소스 커밋 | `cf03f4ece594ff7bb4586958dc55e78653056f75` | [게시 결과](../data/site_publication_908d62e6b7884436.json) |
+| 이 커밋의 GitHub 스냅샷 | `908d62e6b7884436` · `main`에서 검사 후 Pages 자동 배포 | [스냅샷 목록](../site/snapshot.json) · [Actions](https://github.com/ll7098ll/math-learning-atlas-kr/actions/workflows/checks.yml) |
+| GitHub Pages 공개본 | 실제 공개 버전은 카탈로그의 `version`으로 확인 | [포털 열기](https://ll7098ll.github.io/math-learning-atlas-kr/) · [공개 카탈로그](https://ll7098ll.github.io/math-learning-atlas-kr/content/catalog.json) · [배포 기록](https://github.com/ll7098ll/math-learning-atlas-kr/deployments/github-pages) |
 
-로컬 콘텐츠 `a60e4950c4583869`의 변경은 브라우저에서 아직 확인하지 않았다. 이번 UI 검증은 Sites의 공개 콘텐츠 `dae1618ec5603ac0`과 GitHub Pages의 공개 콘텐츠 `c7e86e2fa1af547e`에서 진행했다. 두 사이트에서 PC·태블릿 화면 유형 19개와 주요 키보드 흐름을 확인했고, A4 출력은 로컬 19개 유형과 공개 사이트 각 5개 유형에서 검사했다. [검증 기록](VERIFICATION.md#pc태블릿-키보드와-a4-인쇄-검증)
+Sites v113 게시 확인에서는 관련 성취기준 3개와 공개 리소스 83개를 대조했다. PC·태블릿 화면 유형 19개와 A4 출력에 대한 검증은 이전 콘텐츠 `dae1618ec5603ac0` 및 `c7e86e2fa1af547e`에서 실시했다. [게시 결과](../data/site_publication_908d62e6b7884436.json) · [화면·인쇄 검증 기록](VERIFICATION.md#pc태블릿-키보드와-a4-인쇄-검증)
 
 이전 화면 검증에서는 당시 공개된 Sites와 GitHub Pages에서 각각 19개 화면 유형을 열어 제목과 메뉴, 모바일 너비를 확인했다. [전체 페이지 UI 검증](VERIFICATION.md#전체-페이지-ui-재검증)
 
-구조 감사는 생성 시점의 공개 버전과 비교하므로 이후 게시 영수증과 시점이 다를 수 있다. 원래 감사값은 보존하고 현재 게시 판단에는 최신 성공 영수증을 사용한다. 위 GitHub·Pages 행의 기존 게시 기록을 새 로컬 변경의 원격 반영 완료로 해석하지 않는다.
+구조 감사는 생성 시점의 배포본과 비교한다. 현재 공개 상태는 플랫폼별 성공 기록과 실제 공개 카탈로그를 대조해 판단한다.
 
 공개 주소는 [수학의 연결 지도](https://math-learning-atlas-kr.gptpro2908176.chatgpt.site)다. Sites 버전 번호는 해당 서비스의 저장 이력이며, 별도의 소프트웨어 배포 버전 번호를 새로 부여한 것은 아니다.
 
@@ -40,9 +37,9 @@
 | 연구용 개념군 | 46 | [전체 위계 감사](../data/hierarchy_completion_audit.json) |
 | 보강 관계 전체 | 4,373 | [현재 관계 원장](../data/revised_relations.json) |
 | 성취기준 사이의 관계 | 2,239 | [전체 위계 감사](../data/hierarchy_completion_audit.json); 개별 사고 요소를 양 끝으로 갖는 관계는 제외 |
-| 전체 출처 | 179 | [출처 원장](../data/sources.json); 기준 교육과정 포함 |
-| 교육과정 외 문헌의 범위별 주장 대응 | 출처 178·주장 1,065 | [문헌 주장 원장](../data/literature_claim_reviews.json) |
-| 문헌 기반 추가 관찰·자체 과제 | 1,242 | [보완 결과 원장](../data/content_completion_result_2026-11-04.json)의 `literature_observation_extensions`; 명시적 과제 571과 별도 집계 |
+| 전체 출처 | 181 | [출처 원장](../data/sources.json); 기준 교육과정 포함 |
+| 교육과정 외 문헌의 범위별 주장 대응 | 출처 180·주장 1,073 | [문헌 주장 원장](../data/literature_claim_reviews.json) |
+| 문헌 기반 추가 관찰·자체 과제 | 1,246 | [보완 결과 원장](../data/content_completion_result_2026-11-04.json)의 `literature_observation_extensions`; 명시적 과제 571과 별도 집계 |
 | 문헌과 관계의 범위별 해석 | 875 | [관계 문헌 원장](../data/relation_literature_reviews.json); 대상 관계 389개 |
 | 문헌 주장에 최소 한 범위가 연결된 기준 | 435/435 | [연결 범위](../data/literature_mapping_coverage_2026-11-13.json); 기준 전체의 문헌 검증 완료 수가 아님 |
 | 공식 내용 체계 항목 자체 의미 대조 | 571/571 | [보완 결과 원장](../data/content_completion_result_2026-11-04.json) |
@@ -51,6 +48,14 @@
 [이전 관계 원장](../data/relations.json)의 3,652개는 [현재 보강 관계](../data/revised_relations.json)의 4,373개와 다른 집계다. `project_validation.json`은 이전 관계 원장을 검사하므로 두 수치를 섞지 않는다. 공식 내용 항목 571개, 명시적 과제 571개도 우연히 수가 같을 뿐 서로 다른 대상을 센 것이다.
 
 ## 가장 최근의 내용 변경
+
+2020년 High 5s 효과 논문의 Early View 웹 추출문 1,732줄을 표지와 표시 1~27쪽까지 읽었다. 2018년 보고서 부록 H를 대조해 원동의 추적 622명과 주분석 613명의 포함 조건을 구별했다. 추가 수학 시간 75분의 기존 주당 280분 대비 증가율은 약 26.8%다. 표 7의 활동 수와 시간, REMA-K·WJ의 검사별 효과, 교실 시간 하위집단의 효과 차이 검정을 구별했다. 비율·자료 수집·가설검정 성취기준 3개에 문헌 주장 5건과 공개 집계 기반 과제 2개를 추가했다. [High 5s 효과 논문 검토 기록](../data/literature_evidence/JACOB_ERICKSON_MATTERA_2020_HIGH5S_IMPACT_complete_web_text_review_notes.json)
+
+## 이전 내용 변경 — MDRC 교육과정 운영·관찰 도구
+
+75쪽 자료에서 텍스트가 있는 66쪽을 모두 읽고 지정 판면 16쪽을 대조했다. 텍스트가 없는 9쪽의 렌더 픽셀은 모두 흰색이었다. 사건 횟수·지속 시간·발생 구간, 계획·실시·최초 수행을 각각의 분모로 기록하도록 보완했다. 같은 6/10 발생 구간에서 지속 시간은 30초와 300초가 될 수 있다는 가상 반례를 검산했다. 성취기준 4개에 문헌 주장 3건과 가상 관찰 과제 2개, 기존 기록 양식에 관찰 단위와 후속 기록 기준을 추가했다. [운영·관찰 도구 대조 기록](../data/literature_evidence/WULFSOHN_SENGAL_MATTERA_2021_MDRC_TOOLKIT_complete_text_review_notes.json)
+
+## 이전 내용 변경 — High 5s 시행 보고서
 
 107쪽 시행 보고서에서 텍스트가 있는 91쪽의 전체 추출문을 읽고 지정 판면 25쪽을 누적 대조했다. 본·부록의 형성평가 항목과 도입·주활동 시간 표기가 다른 위치를 기록했다. 교실 관찰 활동과 클럽 계획 활동, 시간 비율과 활동 수 비율을 구별했다. 덧셈에서 같은 두 수의 표시만 바꾸는 과제와 39에서 40으로 넘어가며 묶음을 교환하는 과제를 추가했다. 기존 주장 2건, 과제 1건과 관계 해석 1건을 보완하고 문헌 주장 2건과 자체 관찰 과제 2건을 추가했다. [시행 보고서 대조 기록](../data/literature_evidence/JACOB_ERICKSON_MATTERA_2018_HIGH5S_IMPLEMENTATION_complete_text_review_notes.json)
 
@@ -158,5 +163,5 @@ High 5s 시행 보고서의 추출문 8쪽과 판면 7쪽을 추가 대조했다
 - 원본 원장을 고치고 관련 생성·검사를 완료한 뒤 이 문서의 수치와 버전을 갱신한다. 검사 실패나 미실행을 완료로 표시하지 않는다.
 - 공개 버전은 게시 성공·해당 자료 확인을 뒷받침하는 기록이 있을 때 갱신한다. 로컬 작업 버전과 공개 버전을 각각 남긴다.
 - `2026-11-04`, `2026-11-13`처럼 날짜가 붙은 일부 원장과 문서는 이후에도 누적 갱신된다. 파일명만으로 내용의 최신 날짜를 판단하지 않고 내부 날짜·버전·상태를 확인한다.
-- [정적 자산 보존 계획](../data/portal_asset_retention.json)의 현재 범위는 작업본과 최근 저장 버전 2개(v110·v109)다. 이 파일은 계획이며, 실제 이동 이력은 [별도 원장](../data/portal_asset_archive_history.json)에 기록한다.
+- [정적 자산 보존 계획](../data/portal_asset_retention.json)의 현재 범위는 작업본과 최근 저장 버전 2개(v113·v112)다. 이 파일은 계획이며, 실제 이동 이력은 [별도 원장](../data/portal_asset_archive_history.json)에 기록한다.
 - 큰 연구 기록의 과거 수치·당시 판단은 이력으로 보존하고, 현재 읽을 요약은 이 문서와 [변경 이력](../CHANGELOG.md)에 둔다.

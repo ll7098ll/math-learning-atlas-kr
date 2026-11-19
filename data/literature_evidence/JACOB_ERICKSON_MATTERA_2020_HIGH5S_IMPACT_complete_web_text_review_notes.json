@@ -1,0 +1,275 @@
+{
+  "source_id": "JACOB_ERICKSON_MATTERA_2020_HIGH5S_IMPACT",
+  "source_url": "https://www.tandfonline.com/doi/full/10.1080/19345747.2020.1726539",
+  "source_asset_kind": "web_pdf_text",
+  "date": "2026-11-19",
+  "reviewer": "Codex",
+  "read_scope": "학술지 Early View 웹 추출문 1,732줄 전체를 표지와 표시 1~27쪽까지 읽었다. 표 1~10 및 그림 1~2의 캡션·텍스트가 포함된다. 28개 쪽 위치는 웹 텍스트의 머리말과 쪽번호에 따랐다. 별도 부록과 PDF 판면은 미확보다.",
+  "publisher_web_pdf_url": "https://youthpolicylab.umich.edu/uploads/evaluating-the-impact-of-small-group-supplemental-math-enrichment-in-kindergarten.pdf",
+  "library_citation": {
+    "volume": 13,
+    "issue": 3,
+    "journal_pages": [
+      381,
+      407
+    ],
+    "online_publication": "2020-04-06",
+    "doi": "10.1080/19345747.2020.1726539"
+  },
+  "displayed_early_view_pages": [
+    1,
+    27
+  ],
+  "pdf_text_review": {
+    "url": "https://youthpolicylab.umich.edu/uploads/evaluating-the-impact-of-small-group-supplemental-math-enrichment-in-kindergarten.pdf",
+    "reported_pdf_pages": 28,
+    "text_pdf_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "visual_pdf_pages": [],
+    "binary_obtained": false,
+    "text_line_count": 1732,
+    "page_text_line_ranges": [
+      [
+        0,
+        16
+      ],
+      [
+        17,
+        67
+      ],
+      [
+        68,
+        114
+      ],
+      [
+        115,
+        159
+      ],
+      [
+        160,
+        207
+      ],
+      [
+        208,
+        274
+      ],
+      [
+        275,
+        319
+      ],
+      [
+        320,
+        352
+      ],
+      [
+        353,
+        394
+      ],
+      [
+        395,
+        480
+      ],
+      [
+        481,
+        525
+      ],
+      [
+        526,
+        570
+      ],
+      [
+        571,
+        615
+      ],
+      [
+        616,
+        660
+      ],
+      [
+        661,
+        716
+      ],
+      [
+        717,
+        830
+      ],
+      [
+        831,
+        902
+      ],
+      [
+        903,
+        975
+      ],
+      [
+        976,
+        1078
+      ],
+      [
+        1079,
+        1171
+      ],
+      [
+        1172,
+        1289
+      ],
+      [
+        1290,
+        1334
+      ],
+      [
+        1335,
+        1455
+      ],
+      [
+        1456,
+        1503
+      ],
+      [
+        1504,
+        1546
+      ],
+      [
+        1547,
+        1616
+      ],
+      [
+        1617,
+        1678
+      ],
+      [
+        1679,
+        1731
+      ]
+    ]
+  },
+  "original_page_layout_review": false,
+  "contains_source_full_text": false,
+  "source_pdf_redistributed": false,
+  "full_available_web_text_review": true,
+  "visible_text_tables": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "figure_captions_read": [
+    1,
+    2
+  ],
+  "original_visual_figures_verified": [],
+  "reference_list_checked": true,
+  "supplement_file_verified": false,
+  "raw_student_data_read": false,
+  "empirical_scope": {
+    "design": "뉴욕시 공립 24개 학교 내 아동 개별 무작위 배정. 두 집단 모두 취학 전 MPC를 경험했다. 학교별 수학 시간은 관찰한 뒤 나눈 층이다.",
+    "sample_description": "최초 동의 배정 655명(320·335), 그중 추적 622명(307·315, 2018년 부록 H), 같은 학교 조건 및 미동의자 18명의 분석용 배정을 반영한 주분석 613명(303·310).",
+    "inference_limit": "2018년 MDRC 공개 보고서와 같은 뉴욕시 High 5s 연구다. 취학 전 MPC 경험이 있는 표본에서 유치원 High 5s 추가 배정의 효과를 비교했다. 표본 단계, 검사, 관찰·계획 활동 및 집단 내·집단 간 검정을 구별한다. 원자료, 판면·별도 부록, 국내 반응과 개별 운영 요소의 인과 효과는 확인 범위 밖이다.",
+    "student_outcome_study": true,
+    "causal_effect_established": true,
+    "local_effect_tested": false,
+    "study_family": "MDRC_MAKING_PRE_K_COUNT_HIGH_5S"
+  },
+  "cross_checked_source_ids": [
+    "MATTERA_ET_AL_2018_MPC_KINDERGARTEN",
+    "JACOB_ERICKSON_MATTERA_2018_HIGH5S_IMPLEMENTATION"
+  ],
+  "independent_review": false,
+  "student_validated": false,
+  "reading_log": [
+    "표지·1~7쪽. 2020년 4월 6일 온라인 공개, 권호 서지는 13권 3호 381~407쪽이다. 이름이 같은 중재의 실행·효과·재현 연구를 구별한다. 클럽은 주 3회, 주활동과 시작 활동, 매 네 번째 날 게임일, 진행자 연수와 지도 지원의 결합이다. 그림 1의 표시된 가설과 개별 경로의 효과 검정은 구별한다.",
+    "8~10쪽. 최초 배정 655명, 원동의 추적 622명, 주분석 613명, 주분석에 포함된 2차 미동의 배정 18명, 클럽 출석 분모에서 중단 이후 제외되는 19명의 조건을 구별한다. 표 2의 F=.71은 공동 기초 비교의 F값이다. 그림 2 끝 열의 303·310은 주표와 일치하며, 622명 보고에는 부록 H의 307·315를 대조했다.",
+    "10~14쪽. 7,000건 이상 전체 로그와 예정 활동이 있는 회기 중심 표의 분모 5,971을 구별한다. 학급 관찰 75회와 고유 학급 42개를 구별한다. 결과 평가자는 배정을 몰랐고, 시험은 같은 학교에서 비슷한 시기에 시행했다. 학교 고정효과와 민감도 모형, 결측 결과의 미대치와 공변량 대치 범위를 구별한다.",
+    "15~18쪽. 출석률 87.0%의 분모는 각 회기에 출석을 기대한 아동이다. 가을·봄 소집단 절차 평정 관찰은 25·26회다. 계획 활동 195개와 관찰 활동 157·137개의 빈도 집계를 표 6의 수업 시간 집계와 구별한다. 가을 도구의 항목 차이로 교실과 클럽의 질 비교는 봄 자료만 썼다.",
+    "19~20쪽. 표 8 REMA-K ES .19 및 WJ ES .09는 두 다른 검사이다. 규준과 표준화 효과의 분모는 용도가 다르다. 외부 격차를 기준으로 한 비유는 직접 관찰된 격차 감소가 아니다. 표 9의 억제조절 높은 층 WJ .17(p=.09), 낮은 층 .05(p=.72), 서로의 효과 차이 p=.55를 따로 읽었다.",
+    "21~24쪽. 주당 280분에 75분을 더한 증가율은 약 26.8%이며 21쪽의 27%와 맞는다. 표 10에서 교실 시간이 짧은 층·긴 층의 REMA-K 효과 차이는 p=.23이다. 본문이 여섯 아동 특성의 분석을 언급하나 공개 추출문에서 이어지는 항목은 다섯 개라 여섯째 이름을 추정하지 않았다. 선행 환경과 중재의 묶음 조건을 유지한다.",
+    "24~27쪽. 연구 참여 기관·후원과 참고문헌을 확인했다. 표지와 본문에 안내된 별도 부록(활동 예시, 로그, 관찰 및 태도 도구)은 이 웹 추출문에 보이지 않는다. 인용 원전, 별도 부록, 원자료 및 판면은 별도 확인 대상이다."
+  ],
+  "source_corrections": [
+    {
+      "location": "8~10쪽, 그림 2, 표 2·8 및 2018년 부록 H",
+      "issue": "추적 622명(원동의)과 분석 613명(포함 조건 변경)을 별도로 표시한다."
+    },
+    {
+      "location": "17쪽, 표 6 및 21쪽",
+      "issue": "웹 추출문 2%와 논의 27%를 보존하고 75/280을 검산했다. 실제 판면 표기는 미확인이다."
+    },
+    {
+      "location": "18쪽, 표 7과 본문",
+      "issue": "표 수치는 활동 개수 비율이다. 시간으로 서술하는 본문과 집계 단위를 구별했다."
+    },
+    {
+      "location": "14쪽, 표 8~10의 주석",
+      "issue": "결측 공변량에 대해 본문은 다중대치, 표 주석은 50회 평균 대치라고 쓴다. 원모형을 역산하지 않는다."
+    },
+    {
+      "location": "21~22쪽, 본문 및 표 10",
+      "issue": "본문은 53분 초과, 표 각주는 53분 이상이다. 표를 읽는 데 각주의 경계를 쓰며 경계에 해당한 학교 수는 알 수 없다."
+    }
+  ],
+  "arithmetic": {
+    "original_assignment": [
+      320,
+      335
+    ],
+    "original_followup": [
+      307,
+      315
+    ],
+    "analytic": [
+      303,
+      310
+    ],
+    "original_missing": [
+      13,
+      20
+    ],
+    "original_missing_rate": "33/655",
+    "baseline_minutes": 280,
+    "added_minutes": 75,
+    "relative_increase": "15/56",
+    "additional_share_of_new_total": "15/71",
+    "rema_contrast": "-1.51",
+    "attitude_contrast": ".69",
+    "subgroup_p": {
+      "rema_low": 0.36,
+      "rema_high": 0.01,
+      "rema_contrast": 0.23
+    },
+    "source_data_reanalysis": false
+  }
+}

@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "audit_date": "2026-11-19",
-  "generated_at_utc": "2026-11-19T03:28:08.282Z",
+  "generated_at_utc": "2026-11-19T04:13:46.104Z",
   "audit_kind": "structural_inventory_only",
   "interpretation": "구조와 기록 상태만 감사한다. 관계의 수학적 타당성, 필수 선수성, 교수 순서 또는 학습 효과를 검증한 결과가 아니다.",
   "definitions": {
@@ -16,8 +16,8 @@
     "source_review_status": "배포 소스 catalog의 전체 435개 sourceReview 필드를 집계한다. 방향 관계 미접촉 151개만을 대상으로 한 수치가 아니며 원문 대조 기록은 수학적 분석 검토와 별개이다.",
     "cycles": "의미 연결을 포함한 전체 그래프의 순환은 오류로 보지 않는다. 순서를 주장하는 부분 그래프의 순환을 별도로 집계한다."
   },
-  "source_version": "a60e4950c4583869",
-  "pathways_dataset_version": "2629512282055ba2",
+  "source_version": "908d62e6b7884436",
+  "pathways_dataset_version": "3020157b0b115a7a",
   "source_hashes": {
     "standards": {
       "path": "data/standards.json",
@@ -61,19 +61,19 @@
     },
     "deployment": {
       "path": "data/school_revision_deployment.json",
-      "sha256": "d85cea68618f948689d80be063b1189cac022328577fd5097841c4b2f03eb33c"
+      "sha256": "fcd0ad35b48d271b5cfd5927d6fe819633abd93c99d045ed8719e8562cb1b9cf"
     },
     "catalog": {
       "path": "tmp/pathways-release/dist/content/catalog.json",
-      "sha256": "51128fd879df00662486782cad5a38cd43fc0a0d9b4e088a6d5884729f469369"
+      "sha256": "6303d8687382349c60f844c786920da85316fb11becb6544b1b64ad1fd1b7be4"
     },
     "portalRelations": {
       "path": "tmp/pathways-release/dist/content/connections.json",
-      "sha256": "dfe6dfe9bb613dd787123803aab303e27d6beccab07b9abfaeb0fbb20fe4976d"
+      "sha256": "28ef6bebd6d00d3bb55da11d437524119d221232249d6b7b233385a1c2120d23"
     },
     "pathwaysIndex": {
       "path": "tmp/pathways-release/dist/content/concept-pathways-index.json",
-      "sha256": "96be1caf5b9065a5ae857859e886e5a5d9b43116ffcca3ad4b0a03ca437eb88c"
+      "sha256": "f0e2ad1ccae1afb5c6c6d90ca60919bcf4e58b210d5a6390d60f06a6b83ff565"
     },
     "taskCoverage": {
       "path": "data/task_pathway_coverage.json",
@@ -81,7 +81,7 @@
     },
     "taskIndex": {
       "path": "tmp/pathways-release/dist/content/task-pathways-index.json",
-      "sha256": "c845eda6edadea90603a1eb82e2cde1962d52fa14cef02ea2606c893da8cb451"
+      "sha256": "7dd71b14ede476f8325e083d46c2125d7127beb54291516c98b3ca80914ce1f9"
     },
     "taskCases": {
       "path": "data/task_route_cases.json",
@@ -89,7 +89,7 @@
     },
     "goalNetworkAudit": {
       "path": "data/goal_network_audit.json",
-      "sha256": "d674b2a3d904d030e16554b0b743f4a13eb3f8080b53a6cb777d7553b846597a"
+      "sha256": "cf7d0aebf932e14ba46b680bf5b75490db2c2e6bf90953d3a6c8e678bb5692cf"
     },
     "integrationReview": {
       "path": "data/hierarchy_integration_review.json",
@@ -191,7 +191,7 @@
       "source_only_standards": 0
     },
     "goal_network_inventory": {
-      "hash": "78204414d17f938688941d936ce26fc0ecbcf5593b1ba42216f6d641184e5c00",
+      "hash": "0750bd4e98f0b476c2e74008930c6ab7a1f19e17951893420eabb0a3a9844603",
       "standards": 435,
       "goals": 870,
       "cases": 565,

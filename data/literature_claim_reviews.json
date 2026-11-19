@@ -57231,6 +57231,263 @@
       "observations": [],
       "independent_review": false,
       "student_validated": false
+    },
+    "WULFSOHN_SENGAL_MATTERA_2021_MDRC_TOOLKIT": {
+      "source_id": "WULFSOHN_SENGAL_MATTERA_2021_MDRC_TOOLKIT",
+      "state": "self_read_claim_mapping",
+      "reviewer": "Codex",
+      "date": "2026-11-19",
+      "snapshot_kind": "authored_review_notes",
+      "snapshot_file": "data/literature_evidence/WULFSOHN_SENGAL_MATTERA_2021_MDRC_TOOLKIT_complete_text_review_notes.json",
+      "snapshot_sha256": "8f8446d05a2cc2a730742e68a7e2703fa8ee12b7161ce3766574afd0ca33b54a",
+      "source_asset_kind": "pdf",
+      "source_pdf_sha256": "a260655e20bda7637c741c6e93062d5cc65fbef7cb756b4cf9f6250922906bd5",
+      "redistribution_license": "workspace_authored_notes",
+      "bibliography_snapshot": "05d8cae34ff5590f00319bb01c3835dfffdb392ab8652da7454dadb6b5606470",
+      "display": {
+        "title": "Tools for Implementing Evidence-Based Early Childhood Curricula",
+        "url": "https://www.mdrc.org/work/publications/tools-implementing-evidence-based-early-childhood-curricula",
+        "authors_year": "Wulfsohn·Sengal·Mattera, 2021"
+      },
+      "read_scope": "75쪽 통합 자료의 텍스트가 있는 66쪽을 모두 읽고, 목차·연수와 관찰 및 모니터링 양식의 지정 판면 16쪽을 대조했다. 표지·운영 안내·도구 17종·뒷표지를 포함한다.",
+      "scope_note": "시행, 계획, 지원, 실제 수행과 관찰 단위를 구별한다.",
+      "limits": "취학 전 교육과정 운영을 돕는 안내와 예시 양식이다. 운영의 시행 여부, 성인의 참여, 아동의 수학 반응은 각각의 관찰 단위와 도구로 기록한다. 관찰 가능 구간·사건·지속 시간 사이의 환산에는 추가 자료가 필요하다. 이 자료는 국내 학생의 성취나 연수의 인과 효과를 추정하지 않는다.",
+      "method_note": "MDRC 공식 PDF의 전체 추출문과 지정 판면을 대조하고 관찰 구간의 분모를 가상 자료로 검산했다.",
+      "editorial_action": "성취기준 4개에 문헌 주장 3건과 가상 관찰 과제 2개를 연결했다. 관찰 기록지에 단위·분모·수정 뒤 확인 조건을 추가했다.",
+      "independent_review": false,
+      "student_validated": false,
+      "observations": [
+        {
+          "id": "MDRCT-P1",
+          "standard_codes": [
+            "6수04-03",
+            "12실통02-02"
+          ],
+          "question": "가상 관찰에서 1분씩 10구간 중 첫 6구간마다 한 행동이 한 번 이상 나타났다. A 기록은 그 6구간마다 5초, B 기록은 50초씩 행동이 이어졌다. 두 자료의 발생 구간 비율과 총 지속 시간을 비교한다. 마지막 두 구간의 관찰이 빠진 경우 어떤 분모를 사용해야 하는지도 설명한다.",
+          "expected": "발생 구간 비율은 둘 다 6/10이다. 총 지속 시간은 A가 30초, B가 300초다. 마지막 두 구간이 미관찰이면 관찰한 8구간 중 6구간에서 발생했고 구간 관찰 범위는 계획한 10구간 중 8구간이다. 60초 경계를 이어 넘은 한 사건은 두 구간에서 발견될 수 있다.",
+          "interpretation": "구간별 발생 여부만으로 초 단위 시간을 복원할 수 없다. 사건 시작 횟수와 한 번이라도 나타난 구간 수를 따로 센다. 자료 정리에서 관찰한 뒤 발생하지 않은 구간과 관찰하지 못한 구간을 구별한다.",
+          "student_validated": false
+        },
+        {
+          "id": "MDRCT-P2",
+          "standard_codes": [
+            "12수과03-02",
+            "12수과03-04"
+          ],
+          "question": "가상 탐구에서 설명을 확인할 기회를 8회 계획하고 6회 실시했다. 실시 6회 중 최초 응답을 판정할 수 있는 4회는 독립 성공 3회와 최초 오류 1회다. 최초 오류 뒤에는 단서를 받고 설명에 성공했다. 다른 1회는 단서 뒤 응답만 있고 마지막 1회는 응답 기록이 빠졌다. 실시 비율과 판정 가능한 최초 응답의 성공 비율, 수정 뒤 확인할 기록을 보고하라.",
+          "expected": "실시 비율은 6/8이다. 최초 응답을 판정할 수 있는 4회에서는 3/4가 성공했다. 2회는 최초 응답을 판정할 수 없으며 각각 단서 후 응답만 있음과 기록 누락으로 남긴다. 발문을 고치면 수정 위치와 이유, 새 과제 버전, 재확인 시 최초 수행과 도움을 기록한다.",
+          "interpretation": "응답 기회를 단위로 세며 참여자 수나 학생 전체의 성취율을 추정하지 않는다. 최초 자료를 보존하고 동일 지표와 조건으로 재확인할 부분을 명시한다. 단서 후 성공을 최초 독립 성공에 합치지 않는다.",
+          "student_validated": false
+        }
+      ]
+    },
+    "JACOB_ERICKSON_MATTERA_2020_HIGH5S_IMPACT": {
+      "source_id": "JACOB_ERICKSON_MATTERA_2020_HIGH5S_IMPACT",
+      "state": "self_read_claim_mapping",
+      "reviewer": "Codex",
+      "date": "2026-11-19",
+      "snapshot_kind": "authored_review_notes",
+      "snapshot_file": "data/literature_evidence/JACOB_ERICKSON_MATTERA_2020_HIGH5S_IMPACT_complete_web_text_review_notes.json",
+      "snapshot_sha256": "e81eee2163c760eb6b8a50ff1c094fd448ce54f3d54e31d8459ac2dc8ff0e168",
+      "source_asset_kind": "web_pdf_text",
+      "redistribution_license": "workspace_authored_notes",
+      "bibliography_snapshot": "e7d492945487db0b6a5aedaa7168178453e6a886ae2bd889a9c998cd985805ec",
+      "display": {
+        "title": "Evaluating the Impact of Small Group Supplemental Math Enrichment in Kindergarten",
+        "url": "https://www.tandfonline.com/doi/full/10.1080/19345747.2020.1726539",
+        "authors_year": "Jacob·Erickson·Mattera, 2020"
+      },
+      "read_scope": "학술지 Early View 웹 추출문 1,732줄 전체를 표지와 표시 1~27쪽까지 읽었다. 표 1~10 및 그림 1~2의 캡션·텍스트가 포함된다. 28개 쪽 위치는 웹 텍스트의 머리말과 쪽번호에 따랐다. 별도 부록과 PDF 판면은 미확보다.",
+      "scope_note": "코호트 추적과 주분석 포함 조건, 활동 수와 시간, 탐색 검정 두 종류를 구별한다.",
+      "limits": "2018년 MDRC 공개 보고서와 같은 뉴욕시 High 5s 연구다. 취학 전 MPC 경험이 있는 표본에서 유치원 High 5s 추가 배정의 효과를 비교했다. 표본 단계, 검사, 관찰·계획 활동 및 집단 내·집단 간 검정을 구별한다. 원자료, 판면·별도 부록, 국내 반응과 개별 운영 요소의 인과 효과는 확인 범위 밖이다.",
+      "method_note": "Early View 웹 텍스트와 2018년 MDRC 부록 H 수치 대조 및 비율 검산.",
+      "editorial_action": "성취기준 3개에 주장 5건과 공개 집계 기반 관찰 과제 2개를 연결했다.",
+      "pdf_text_review": {
+        "url": "https://youthpolicylab.umich.edu/uploads/evaluating-the-impact-of-small-group-supplemental-math-enrichment-in-kindergarten.pdf",
+        "reported_pdf_pages": 28,
+        "text_pdf_pages": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28
+        ],
+        "visual_pdf_pages": [],
+        "binary_obtained": false,
+        "text_line_count": 1732,
+        "page_text_line_ranges": [
+          [
+            0,
+            16
+          ],
+          [
+            17,
+            67
+          ],
+          [
+            68,
+            114
+          ],
+          [
+            115,
+            159
+          ],
+          [
+            160,
+            207
+          ],
+          [
+            208,
+            274
+          ],
+          [
+            275,
+            319
+          ],
+          [
+            320,
+            352
+          ],
+          [
+            353,
+            394
+          ],
+          [
+            395,
+            480
+          ],
+          [
+            481,
+            525
+          ],
+          [
+            526,
+            570
+          ],
+          [
+            571,
+            615
+          ],
+          [
+            616,
+            660
+          ],
+          [
+            661,
+            716
+          ],
+          [
+            717,
+            830
+          ],
+          [
+            831,
+            902
+          ],
+          [
+            903,
+            975
+          ],
+          [
+            976,
+            1078
+          ],
+          [
+            1079,
+            1171
+          ],
+          [
+            1172,
+            1289
+          ],
+          [
+            1290,
+            1334
+          ],
+          [
+            1335,
+            1455
+          ],
+          [
+            1456,
+            1503
+          ],
+          [
+            1504,
+            1546
+          ],
+          [
+            1547,
+            1616
+          ],
+          [
+            1617,
+            1678
+          ],
+          [
+            1679,
+            1731
+          ]
+        ]
+      },
+      "empirical_scope": {
+        "design": "뉴욕시 공립 24개 학교 내 아동 개별 무작위 배정. 두 집단 모두 취학 전 MPC를 경험했다. 학교별 수학 시간은 관찰한 뒤 나눈 층이다.",
+        "sample_description": "최초 동의 배정 655명(320·335), 그중 추적 622명(307·315, 2018년 부록 H), 같은 학교 조건 및 미동의자 18명의 분석용 배정을 반영한 주분석 613명(303·310).",
+        "inference_limit": "2018년 MDRC 공개 보고서와 같은 뉴욕시 High 5s 연구다. 취학 전 MPC 경험이 있는 표본에서 유치원 High 5s 추가 배정의 효과를 비교했다. 표본 단계, 검사, 관찰·계획 활동 및 집단 내·집단 간 검정을 구별한다. 원자료, 판면·별도 부록, 국내 반응과 개별 운영 요소의 인과 효과는 확인 범위 밖이다.",
+        "student_outcome_study": true,
+        "causal_effect_established": true,
+        "local_effect_tested": false,
+        "study_family": "MDRC_MAKING_PRE_K_COUNT_HIGH_5S"
+      },
+      "observations": [
+        {
+          "id": "H5J-P1",
+          "standard_codes": [
+            "12실통02-02",
+            "12실통03-04"
+          ],
+          "question": "공개 연구의 원동의 배정 320명·335명 중 각각 307명·315명을 추적했다. 이후 다른 포함 기준을 사용한 주분석 표에는 303명·310명이 적혔다. 원동의 코호트 전체와 집단별 미추적률을 구하고, 303명·310명으로 대체한 계산의 문제를 설명한다.",
+          "expected": "전체 미추적은 33/655≈5.04%, 집단별로 13/320≈4.06%와 20/335≈5.97%이며 차이는 약 1.91%p다. 주분석은 같은 학교 조건과 2차 배정 18명의 포함을 반영하므로 42/655로 이 코호트의 이탈률을 보고할 수 없다.",
+          "interpretation": "공개 연구의 집계로 만든 자체 과제다. 집단과 분모의 포함 조건을 계산에 연결하는지 본다. 집계만으로 특정 개인의 이동이나 학생별 누락 사유를 복원할 수 없다.",
+          "student_validated": false
+        },
+        {
+          "id": "H5J-P2",
+          "standard_codes": [
+            "6수02-03",
+            "12실통02-02"
+          ],
+          "question": "공개 연구 표의 교실 주당 수학 시간은 약 280분이고 추가 활동은 약 75분이다. 기존 시간 대비 증가율과 추가 후 수학 시간에서 추가 활동이 차지하는 비율을 각각 구하고, 두 답의 분모를 설명한다.",
+          "expected": "기존 시간 대비 증가율은 75/280≈26.8%다. 증가 후 전체 355분을 기준으로 하면 추가 활동의 비율은 75/355≈21.1%다. 둘 다 분자 75분을 쓰지만 기준량은 각각 기존 시간과 추가 후 합계다.",
+          "interpretation": "공개 연구에 실린 근삿값을 사용하는 자체 과제다. 같은 분자를 다른 기준량으로 나눈 두 값을 설명하는지 본다. 개별 아동의 출석·제공 시간은 따로 관찰해야 한다.",
+          "student_validated": false
+        }
+      ],
+      "independent_review": false,
+      "student_validated": false
     }
   },
   "claims": [
@@ -86866,6 +87123,221 @@
       "target_snapshots": {
         "revision:2수01-01": "45a980d63371b4f2f1d17c818fdff4bab6cd6228da6f3296938e0654a7573829",
         "revision:12실통02-02": "9f4bc01d416e065f31e9f7aa6edb12541530171604f0c55c50f16646594b4480"
+      }
+    },
+    {
+      "id": "MDRCT21-01",
+      "source_id": "WULFSOHN_SENGAL_MATTERA_2021_MDRC_TOOLKIT",
+      "role": "related_theoretical_context",
+      "standard_codes": [
+        "6수04-03",
+        "12실통02-02"
+      ],
+      "locations": [
+        "https://www.mdrc.org/sites/default/files/mpc/files/High_5s_Toolkit-Full_Kit.pdf#page=16",
+        "https://www.mdrc.org/sites/default/files/mpc/files/High_5s_Toolkit-Full_Kit.pdf#page=61",
+        "https://www.mdrc.org/sites/default/files/mpc/files/High_5s_Toolkit-Full_Kit.pdf#page=63",
+        "https://www.mdrc.org/sites/default/files/mpc/files/High_5s_Toolkit-Full_Kit.pdf#page=64"
+      ],
+      "support": "도구 12는 소집단 관찰에서 사건 횟수, 행동 지속 시간, 정해진 구간에서의 발생 여부, 관심 발문과 응답의 기록을 별도 방법으로 제시한다. 무엇을 알고 싶은지에 따라 관찰 단위와 기록 방식을 선택한다.",
+      "does_not_establish": "발생 구간 비율은 전체 시간 중 행동이 지속된 비율과 다를 수 있다. 한 사건이 두 구간에 걸칠 수 있고 한 구간에 여러 사건이 있을 수 있다. 미관찰 구간을 별도로 표시해야 관찰 범위가 드러난다.",
+      "target_snapshots": {
+        "revision:6수04-03": "cfcc4a0e4f55859bb72416628547ec73dfe9d670eae2be38f482ab741639079c",
+        "revision:12실통02-02": "9f4bc01d416e065f31e9f7aa6edb12541530171604f0c55c50f16646594b4480"
+      },
+      "independent_review": false,
+      "student_validated": false
+    },
+    {
+      "id": "MDRCT21-02",
+      "source_id": "WULFSOHN_SENGAL_MATTERA_2021_MDRC_TOOLKIT",
+      "role": "related_theoretical_context",
+      "standard_codes": [
+        "12수과03-02",
+        "12수과03-04"
+      ],
+      "locations": [
+        "https://www.mdrc.org/sites/default/files/mpc/files/High_5s_Toolkit-Full_Kit.pdf#page=14",
+        "https://www.mdrc.org/sites/default/files/mpc/files/High_5s_Toolkit-Full_Kit.pdf#page=16",
+        "https://www.mdrc.org/sites/default/files/mpc/files/High_5s_Toolkit-Full_Kit.pdf#page=63",
+        "https://www.mdrc.org/sites/default/files/mpc/files/High_5s_Toolkit-Full_Kit.pdf#page=64",
+        "https://www.mdrc.org/sites/default/files/mpc/files/High_5s_Toolkit-Full_Kit.pdf#page=65",
+        "https://www.mdrc.org/sites/default/files/mpc/files/High_5s_Toolkit-Full_Kit.pdf#page=66"
+      ],
+      "support": "도구 13의 기록지는 목표, 실행할 조치, 관찰 메모와 영상의 경과 시각을 다른 칸에 둔다. 도구 14는 지난 계획의 시행, 아동 반응, 다음 활동 조정, 새 확인에 필요한 근거를 차례로 검토하게 한다.",
+      "does_not_establish": "영상의 경과 시각은 그 지점의 위치이고, 행동을 계속한 시간은 시작과 끝을 기록해 계산한다. 교사의 지원과 아동이 보인 수학적 설명을 따로 기록한다. 이 양식의 예시는 교실 운영에 관한 안내다.",
+      "target_snapshots": {
+        "revision:12수과03-02": "113e9cc2cb2c13d5189d76710a4d9a4ce125225c9217c92712eb0f27676cb248",
+        "revision:12수과03-04": "35b4274396fecb62df850fef1fd8a1767e09e7795584c836fa68f6d57fb3b192"
+      },
+      "independent_review": false,
+      "student_validated": false
+    },
+    {
+      "id": "MDRCT21-03",
+      "source_id": "WULFSOHN_SENGAL_MATTERA_2021_MDRC_TOOLKIT",
+      "role": "related_theoretical_context",
+      "standard_codes": [
+        "12실통02-02",
+        "12수과03-02",
+        "12수과03-04"
+      ],
+      "locations": [
+        "https://www.mdrc.org/sites/default/files/mpc/files/High_5s_Toolkit-Full_Kit.pdf#page=18",
+        "https://www.mdrc.org/sites/default/files/mpc/files/High_5s_Toolkit-Full_Kit.pdf#page=19",
+        "https://www.mdrc.org/sites/default/files/mpc/files/High_5s_Toolkit-Full_Kit.pdf#page=20",
+        "https://www.mdrc.org/sites/default/files/mpc/files/High_5s_Toolkit-Full_Kit.pdf#page=69",
+        "https://www.mdrc.org/sites/default/files/mpc/files/High_5s_Toolkit-Full_Kit.pdf#page=70",
+        "https://www.mdrc.org/sites/default/files/mpc/files/High_5s_Toolkit-Full_Kit.pdf#page=71",
+        "https://www.mdrc.org/sites/default/files/mpc/files/High_5s_Toolkit-Full_Kit.pdf#page=73",
+        "https://www.mdrc.org/sites/default/files/mpc/files/High_5s_Toolkit-Full_Kit.pdf#page=74"
+      ],
+      "support": "도구 16은 연수 계획과 실제 시작 시각, 내용 시행 정도와 참여 평정을 서로 다른 칸에 둔다. 도구 17은 팀이 보고 주기와 지원을 살필 기준, 기록 책임자와 재확인 방법을 정하도록 빈 양식을 제공한다.",
+      "does_not_establish": "연수 참여 칸은 관찰자가 판단하는 근사 범주다. 인쇄된 범주 표현만으로 경계값을 배정하거나 실제 수치 평균을 복원할 수 없다. 팀이 선택한 운영 기준과 학생 과제의 수행 판단 기준을 구별한다.",
+      "target_snapshots": {
+        "revision:12실통02-02": "9f4bc01d416e065f31e9f7aa6edb12541530171604f0c55c50f16646594b4480",
+        "revision:12수과03-02": "113e9cc2cb2c13d5189d76710a4d9a4ce125225c9217c92712eb0f27676cb248",
+        "revision:12수과03-04": "35b4274396fecb62df850fef1fd8a1767e09e7795584c836fa68f6d57fb3b192"
+      },
+      "independent_review": false,
+      "student_validated": false
+    },
+    {
+      "id": "H5J20-01",
+      "source_id": "JACOB_ERICKSON_MATTERA_2020_HIGH5S_IMPACT",
+      "role": "empirical_result_with_scope",
+      "standard_codes": [
+        "12실통02-02",
+        "12실통03-04"
+      ],
+      "locations": [
+        "https://youthpolicylab.umich.edu/uploads/evaluating-the-impact-of-small-group-supplemental-math-enrichment-in-kindergarten.pdf#page=9",
+        "https://youthpolicylab.umich.edu/uploads/evaluating-the-impact-of-small-group-supplemental-math-enrichment-in-kindergarten.pdf#page=10",
+        "https://youthpolicylab.umich.edu/uploads/evaluating-the-impact-of-small-group-supplemental-math-enrichment-in-kindergarten.pdf#page=11",
+        "https://youthpolicylab.umich.edu/uploads/evaluating-the-impact-of-small-group-supplemental-math-enrichment-in-kindergarten.pdf#page=20",
+        "https://www.mdrc.org/work/publications/strengthening-childrens-math-skills-enhanced-instruction/file-full#page=135",
+        "https://www.mdrc.org/work/publications/strengthening-childrens-math-skills-enhanced-instruction/file-full#page=136"
+      ],
+      "support": "본문은 최초 동의 배정 655명 중 추적 622명 및 약 5% 이탈을 제시한다. 그림 2의 마지막 칸, 표 2와 표 8은 303명과 310명이다. 2018년 보고서 부록 H는 원동의 추적 622명(307·315)과 같은 학교 조건 및 2차 배정 18명을 포함하는 주분석 613명을 구별한다. 출석 집계에서 참여 중단 시점 이후 빠지는 19명도 별도로 표시했다.",
+      "does_not_establish": "그림 2 마지막 칸의 값으로 원동의 코호트 이탈률을 산출할 수 없다. 622와 613의 차이 9명은 두 집합 사이의 단순 제외 인원으로 읽을 수 없으며 관측 여부와 프로그램 참여도 따로 기록한다.",
+      "target_snapshots": {
+        "revision:12실통02-02": "9f4bc01d416e065f31e9f7aa6edb12541530171604f0c55c50f16646594b4480",
+        "revision:12실통03-04": "2d5db84f502e352bff4a1aa216cd18f79d3012c138f147d63532611d03937a37"
+      },
+      "independent_review": false,
+      "student_validated": false,
+      "empirical_scope": {
+        "design": "뉴욕시 공립 24개 학교 내 아동 개별 무작위 배정. 두 집단 모두 취학 전 MPC를 경험했다. 학교별 수학 시간은 관찰한 뒤 나눈 층이다.",
+        "sample_description": "최초 동의 배정 655명(320·335), 그중 추적 622명(307·315, 2018년 부록 H), 같은 학교 조건 및 미동의자 18명의 분석용 배정을 반영한 주분석 613명(303·310).",
+        "inference_limit": "2018년 MDRC 공개 보고서와 같은 뉴욕시 High 5s 연구다. 취학 전 MPC 경험이 있는 표본에서 유치원 High 5s 추가 배정의 효과를 비교했다. 표본 단계, 검사, 관찰·계획 활동 및 집단 내·집단 간 검정을 구별한다. 원자료, 판면·별도 부록, 국내 반응과 개별 운영 요소의 인과 효과는 확인 범위 밖이다.",
+        "student_outcome_study": true,
+        "causal_effect_established": true,
+        "local_effect_tested": false,
+        "study_family": "MDRC_MAKING_PRE_K_COUNT_HIGH_5S"
+      }
+    },
+    {
+      "id": "H5J20-02",
+      "source_id": "JACOB_ERICKSON_MATTERA_2020_HIGH5S_IMPACT",
+      "role": "related_theoretical_context",
+      "standard_codes": [
+        "6수02-03",
+        "12실통02-02"
+      ],
+      "locations": [
+        "https://youthpolicylab.umich.edu/uploads/evaluating-the-impact-of-small-group-supplemental-math-enrichment-in-kindergarten.pdf#page=16",
+        "https://youthpolicylab.umich.edu/uploads/evaluating-the-impact-of-small-group-supplemental-math-enrichment-in-kindergarten.pdf#page=18",
+        "https://youthpolicylab.umich.edu/uploads/evaluating-the-impact-of-small-group-supplemental-math-enrichment-in-kindergarten.pdf#page=22"
+      ],
+      "support": "표 6은 교실 주당 280분과 High 5s 추가 75분을 제시한다. 기존 280분을 분모로 한 증가율은 75/280=15/56, 약 26.8%다. 논의에는 27%, 17쪽 웹 추출문에는 2%가 나온다. 추가 후 합계 355분에서 75분이 차지하는 비율은 75/355, 약 21.1%다.",
+      "does_not_establish": "웹 추출문 안의 차이를 표시했다. 출판 판면이나 공식 정오표를 확인할 때까지 17쪽의 인쇄 표기를 확정할 수 없다. 두 시간은 집계값이며 아동마다 75분을 제공받았다는 뜻으로 해석할 수 없다.",
+      "target_snapshots": {
+        "revision:6수02-03": "94ad8a7deb483f4df9be841b964a5986135f92c2797a755192d87832ecef85c5",
+        "revision:12실통02-02": "9f4bc01d416e065f31e9f7aa6edb12541530171604f0c55c50f16646594b4480"
+      },
+      "independent_review": false,
+      "student_validated": false
+    },
+    {
+      "id": "H5J20-03",
+      "source_id": "JACOB_ERICKSON_MATTERA_2020_HIGH5S_IMPACT",
+      "role": "related_theoretical_context",
+      "standard_codes": [
+        "12실통02-02"
+      ],
+      "locations": [
+        "https://youthpolicylab.umich.edu/uploads/evaluating-the-impact-of-small-group-supplemental-math-enrichment-in-kindergarten.pdf#page=12",
+        "https://youthpolicylab.umich.edu/uploads/evaluating-the-impact-of-small-group-supplemental-math-enrichment-in-kindergarten.pdf#page=13",
+        "https://youthpolicylab.umich.edu/uploads/evaluating-the-impact-of-small-group-supplemental-math-enrichment-in-kindergarten.pdf#page=18",
+        "https://youthpolicylab.umich.edu/uploads/evaluating-the-impact-of-small-group-supplemental-math-enrichment-in-kindergarten.pdf#page=19"
+      ],
+      "support": "표 7의 분모는 유치원 가을 157개·봄 137개의 관찰된 정규 수학 활동과 High 5s 교육과정의 계획된 시작·주활동 195개다. 항목 비율은 활동 개수를 기준으로 읽는다. 표 6의 수업 시간 비율은 다른 지표다.",
+      "does_not_establish": "18쪽 본문은 활동 비율을 시간으로 설명하기도 한다. 표 7의 0.0%나 24.6%로 개별 아동의 실제 세기 시간, 모든 활동에 포함된 세기 과정 또는 수업 전체의 경과 시간을 추정할 수 없다.",
+      "target_snapshots": {
+        "revision:12실통02-02": "9f4bc01d416e065f31e9f7aa6edb12541530171604f0c55c50f16646594b4480"
+      },
+      "independent_review": false,
+      "student_validated": false
+    },
+    {
+      "id": "H5J20-04",
+      "source_id": "JACOB_ERICKSON_MATTERA_2020_HIGH5S_IMPACT",
+      "role": "empirical_result_with_scope",
+      "standard_codes": [
+        "12실통03-04"
+      ],
+      "locations": [
+        "https://youthpolicylab.umich.edu/uploads/evaluating-the-impact-of-small-group-supplemental-math-enrichment-in-kindergarten.pdf#page=14",
+        "https://youthpolicylab.umich.edu/uploads/evaluating-the-impact-of-small-group-supplemental-math-enrichment-in-kindergarten.pdf#page=15",
+        "https://youthpolicylab.umich.edu/uploads/evaluating-the-impact-of-small-group-supplemental-math-enrichment-in-kindergarten.pdf#page=20"
+      ],
+      "support": "표 8의 배경 특성과 학교를 조정한 REMA-K 평균은 39.47과 37.90, 차이 1.57, 효과크기 .19, 표시 p=.01(별 두 개)다. WJ 응용문제는 차이 1.19, 효과크기 .09, p=.18이다. 표 주석의 효과크기 분모는 분석 대조군 표준편차이며 REMA-K 규준의 SD 10과 쓰임이 다르다.",
+      "does_not_establish": "두 검사에서 따로 얻은 p값으로 검사 간 효과 차이를 검정할 수 없다. 결과는 집단의 사후 평균 비교다. 반올림된 p로 정확한 유의수준 위치를 복원하지 않는다. 분석 절의 결측 공변량 다중대치와 표 주석의 평균 대치 표현은 그대로 기록했다.",
+      "target_snapshots": {
+        "revision:12실통03-04": "2d5db84f502e352bff4a1aa216cd18f79d3012c138f147d63532611d03937a37"
+      },
+      "independent_review": false,
+      "student_validated": false,
+      "empirical_scope": {
+        "design": "뉴욕시 공립 24개 학교 내 아동 개별 무작위 배정. 두 집단 모두 취학 전 MPC를 경험했다. 학교별 수학 시간은 관찰한 뒤 나눈 층이다.",
+        "sample_description": "최초 동의 배정 655명(320·335), 그중 추적 622명(307·315, 2018년 부록 H), 같은 학교 조건 및 미동의자 18명의 분석용 배정을 반영한 주분석 613명(303·310).",
+        "inference_limit": "2018년 MDRC 공개 보고서와 같은 뉴욕시 High 5s 연구다. 취학 전 MPC 경험이 있는 표본에서 유치원 High 5s 추가 배정의 효과를 비교했다. 표본 단계, 검사, 관찰·계획 활동 및 집단 내·집단 간 검정을 구별한다. 원자료, 판면·별도 부록, 국내 반응과 개별 운영 요소의 인과 효과는 확인 범위 밖이다.",
+        "student_outcome_study": true,
+        "causal_effect_established": true,
+        "local_effect_tested": false,
+        "study_family": "MDRC_MAKING_PRE_K_COUNT_HIGH_5S"
+      }
+    },
+    {
+      "id": "H5J20-05",
+      "source_id": "JACOB_ERICKSON_MATTERA_2020_HIGH5S_IMPACT",
+      "role": "empirical_result_with_scope",
+      "standard_codes": [
+        "12실통02-02",
+        "12실통03-04"
+      ],
+      "locations": [
+        "https://youthpolicylab.umich.edu/uploads/evaluating-the-impact-of-small-group-supplemental-math-enrichment-in-kindergarten.pdf#page=15",
+        "https://youthpolicylab.umich.edu/uploads/evaluating-the-impact-of-small-group-supplemental-math-enrichment-in-kindergarten.pdf#page=21",
+        "https://youthpolicylab.umich.edu/uploads/evaluating-the-impact-of-small-group-supplemental-math-enrichment-in-kindergarten.pdf#page=22",
+        "https://youthpolicylab.umich.edu/uploads/evaluating-the-impact-of-small-group-supplemental-math-enrichment-in-kindergarten.pdf#page=23"
+      ],
+      "support": "표 10의 REMA-K에서 관찰된 교실 수학 시간이 짧은 층은 ES .10(p=.36), 긴 층은 ES .29(p=.01)이고 두 층의 효과 차이 검정은 p=.23이다. 태도의 층 간 차이는 .69이며 p는 .00과 1% 표시로 반올림되어 보고됐다. 표 주석은 긴 층 기준을 53분 이상으로 표시한다.",
+      "does_not_establish": "교실 수학 시간의 층화는 탐색 분석이며 유의확률을 다중 비교용으로 조정하지 않았다. 긴 층의 효과가 따로 유의하더라도 두 층 REMA-K 효과가 다르다는 결론은 이 검정에서 성립하지 않는다. p=.00은 정확한 0으로 읽지 않으며, 시간 자체는 무작위로 배정하지 않았다.",
+      "target_snapshots": {
+        "revision:12실통02-02": "9f4bc01d416e065f31e9f7aa6edb12541530171604f0c55c50f16646594b4480",
+        "revision:12실통03-04": "2d5db84f502e352bff4a1aa216cd18f79d3012c138f147d63532611d03937a37"
+      },
+      "independent_review": false,
+      "student_validated": false,
+      "empirical_scope": {
+        "design": "뉴욕시 공립 24개 학교 내 아동 개별 무작위 배정. 두 집단 모두 취학 전 MPC를 경험했다. 학교별 수학 시간은 관찰한 뒤 나눈 층이다.",
+        "sample_description": "최초 동의 배정 655명(320·335), 그중 추적 622명(307·315, 2018년 부록 H), 같은 학교 조건 및 미동의자 18명의 분석용 배정을 반영한 주분석 613명(303·310).",
+        "inference_limit": "2018년 MDRC 공개 보고서와 같은 뉴욕시 High 5s 연구다. 취학 전 MPC 경험이 있는 표본에서 유치원 High 5s 추가 배정의 효과를 비교했다. 표본 단계, 검사, 관찰·계획 활동 및 집단 내·집단 간 검정을 구별한다. 원자료, 판면·별도 부록, 국내 반응과 개별 운영 요소의 인과 효과는 확인 범위 밖이다.",
+        "student_outcome_study": true,
+        "causal_effect_established": true,
+        "local_effect_tested": false,
+        "study_family": "MDRC_MAKING_PRE_K_COUNT_HIGH_5S"
       }
     }
   ]
