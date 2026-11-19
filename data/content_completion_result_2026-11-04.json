@@ -2,7 +2,7 @@
   "date": "2026-11-04",
   "checks": {
     "status": "pass",
-    "version": "c7e86e2fa1af547e",
+    "version": "a60e4950c4583869",
     "standards": 435,
     "checks": [
       "authored coverage and required fields",
@@ -29,19 +29,19 @@
   "image_review_pending": 0,
   "external_review_count": 0,
   "student_validation_count": 0,
-  "public_deployment_performed": true,
+  "public_deployment_performed": false,
   "semantic_item_review_completed": 571,
-  "latest_progress": "ERIC 공개 사본의 논문181–192쪽 전체12쪽 추출문과 전체12판면을 읽었다. 표1–3·그림1–2·방법·결과·제한·감사·참고문헌을 대조했다. 시작22명과 네 시점 완료19명·LD완료16명, 시점별 표본·계산기/읽기 지원·지연 검사 전 전략 복습·점수와 효과크기 정의를 구별했다. 인쇄186쪽의 비례식은 실제 판면을 대조하고 올바른 수량 대응을 자체 계산했다. 미국 한 중학교의 학습문제가 있는6–8학년22명에 대한12회 약1시간 별도 수업의 비교다. 두 조건 모두 명시적 지도·연습·피드백·계산기를 제공했고 GSI도 그림을 사용했다. 지연 검사는 전략 복습 뒤 시행했으며 추적 간격은3주–약3개월로 일정하지 않다. 원자료·개인별 결측 사유·출판사 직접 파일/정오표·학위논문·모든 인용 원연구·WWC 재분석 원자료는 미확인이다. 국내 학생·독립 현장 효과나 도식 하나의 단독 효과로 일반화하지 않는다. 19명/22명은 서로 다른 분석 범위로 설명되며 가이드의 표본 수를 오자로 교체하지 않는다. 186쪽 수식의 수량 대응을 보완하고 부분점수·지원 조건·p=.051과 효과 정의를 구별했다. 새 출처1개·주장3건·자체 과제4개·관계 해석11건을 반영했다. 기존174출처·1050주장·1232과제·863관계 해석은 유지한다. 실제 외부 독립 검토·학생 검증은 각각0건이고 실제 브라우저 시각 검증은 미완료다.",
+  "latest_progress": "107쪽 시행 보고서에서 텍스트가 있는 91쪽의 전체 추출문을 읽고 지정 판면 25쪽을 누적 대조했다. 본·부록의 형성평가 항목과 도입·주활동 시간 표기가 다른 위치를 기록했다. 교실 관찰 활동과 클럽 계획 활동, 시간 비율과 활동 수 비율을 구별했다. 덧셈에서 같은 두 수의 표시만 바꾸는 과제와 39에서 40으로 넘어가며 묶음을 교환하는 과제를 추가했다. 기존 주장 2건, 과제 1건과 관계 해석 1건을 보완하고 문헌 주장 2건과 자체 관찰 과제 2건을 추가했다.",
   "goal_status": "active",
   "latest_checks": [
-    "Full run_revision_checks.py: pass (c7e86e2fa1af547e) using successful prefix plus failed protocol-index check and all remaining statements rerun after adding four task entries; original failure retained. Log tmp/revision-checks-xin-original-20261118.log",
+    "Full revision, hierarchy and scoped rendering checks pass (a60e4950c4583869). Log: tmp/revision-checks-high5s-complete-text-final-20261119.log.",
     "Scoped relation tests: source/endpoint/resource change detection, type/mathematical witness requirements, non-promotion, external-history preservation, both endpoint documents and actual current portal",
     "Current literature, hierarchy, IES rating and published-observation tests passed as part of the full run",
     "All1578 scoped relation review snapshots current; source IDs and prior derived fields preserved",
     "Standard relations2239: legacy0/self_checked2239/candidate0; type corrections31",
     "Scope queue0: ; queue generation itself approves zero reviews",
     "Own examples checked by the batch author script and explicit mathematical witnesses; finite examples are not universal proofs",
-    "All1053 literature mappings/1236 literature observations remain current",
+    "Current scoped registry:1057 literature mappings/1240 own observation tasks; checked 2026-11-19.",
     "Hierarchy audit current:435 standards/870 goals/565 cases/626 routes/1481 directed pairs;1135 matching condition snapshots",
     "Retention verification and final portable-source synchronization checked separately after regeneration",
     "Public release 46 checked 341 live resources, with 124 standards, 28 added claims, 26 added observations and all 374 relation-literature records.",
@@ -171,7 +171,49 @@
     "IES fractions guide:67guide+7protocol new visual pages;90guide/8protocol complete.0new text/source/claim/task/relation. All1050claims/1232tasks/863interpretations preserved;18standards rendered and14snapshots refreshed. Distinct values/positive denominator/unit ratio direction clarified;exact own witnesses are not student data or official errata. Mixed disability sample eligibility explained by guide note121;existing2.38/2.83unresolved discrepancy preserved. General handbook/cited originals/video/human/browser gates remain incomplete;goal active.",
     "Public release 90: 117live resources/18affected standards match.67guide+7protocol new visual pages;90guide/8protocol complete.0new sources/claims/tasks/relations.6existing claims/4tasks and1050total claims/1232tasks/863interpretations preserved;14snapshots refreshed. Distinct-value/positive-denominator/unit-ratio direction conditions clarified with exact own counterexamples;not student data or official errata. Guide note121mixed-sample explanation and existing2.38/2.83unresolved discrepancy retained. Human/browser/cited-original/video/general-handbook gates remain incomplete;goal active. No file moves/deletes.",
     "Xin2005original complete12text/12visual pages,all3tables/2figures. Initial22/completecase19/LDcomplete16 and per-test samples differ. Printed186equation fails exact arithmetic;paired-quantity alternatives checked. Both conditions use pictures/calculators and explicit teaching;delayed tests include strategy review. Partial credit,variable followup,p=.051 and transfer main-effect limits retained. Own summary-statistic reconstruction of1.87is not exact WWC/raw-data reanalysis.3claims/4own tasks/11contexts added;all prior sources/claims/tasks/interpretations unchanged. Human0/0,browser unverified;goal active.",
-    "Public release 91: 84HTTP resources/7affected standards match. Xin2005complete12text/12visual pages,3tables/2figures;3claims/4own tasks/11contexts added. All prior174sources/1050claims/1232tasks/863interpretations preserved. Initial22/completecase19/LDcomplete16 distinguished;printed186equation corrected in own explanation. Partial credit/support/comparator/p=.051/effect-definition limits retained. Raw-data/publisher erratum/independent/student/browser validation not established;goal active.0files moved/deleted."
+    "Public release 91: 84HTTP resources/7affected standards match. Xin2005complete12text/12visual pages,3tables/2figures;3claims/4own tasks/11contexts added. All prior174sources/1050claims/1232tasks/863interpretations preserved. Initial22/completecase19/LDcomplete16 distinguished;printed186equation corrected in own explanation. Partial credit/support/comparator/p=.051/effect-definition limits retained. Raw-data/publisher erratum/independent/student/browser validation not established;goal active.0files moved/deleted.",
+    "109newvisual/0newtext;three existing source reviews,one existing task interpretation refined. All1053claims/1236task IDs/874context interpretations retained;46affected standards checked. Human0/0,actual browser UI unverified;goal active.",
+    "Public release 92: 201HTTP resources/46affected standards match.109newvisual/0newtext,Early165/165+GAISE126/126+protocols9/9and8/8.0new claims/tasks/contexts;one existing GA-P5 interpretation refined. All1053claims/1236task IDs/874context interpretations retained. Raw data/cited originals/official errata/independent/student/browser validation not established;goal active.0files moved/deleted.",
+    "Lai web text six sections/147lines;PDF/layout0new pages. WWC77971export1study/0finding rows. Exact synthetic identity/bias/binomial models pass;not author raw-data reanalysis.2claims/2tasks/1context added,IE14limit refined;14affected standards rendered.176sources/1055claims/1238tasks/875contexts,human0/0,actual browser UI unverified;goal active.",
+    "GitHub local snapshot c90c90e67ccf6455:1426manifest files verified;content objects482,goal states3480,catalog states710pass. Prior local site directory preserved at tmp/github-site-backup-lai-20261118,new export installed by verified directory rename;0files deleted. No GitHub remote push/Pages deployment performed by this task. Dirty export provenance records source_commit=null,source_base_commit and source_worktree_clean=false.",
+    "Public release 93: 105HTTP resources/14affected standards match. Lai author web text6sections/147lines;0newPDF/image pages.2claims/2tasks/1context added;IE14limit refined. All1236prior tasks/874context interpretations retained. WWC77971ZIP1study/0finding rows;30/60sample discrepancy and original PDF/layout/errata unresolved. Human0/0,browser unverified,goal active;0files moved/deleted.",
+    "GAISE126page bounded equivalence;0new GAISE reading. Sood2015related article18visual/1extracted;2009thesis unread.0new claims/tasks/contexts;all1055claims/1238tasks/875context interpretations preserved. Own arithmetic hypotheses pass;not reconstructed sample or student data. 33affected standards rendered. Human0/0,UIunverified,goal active.",
+    "Public release 94: 162HTTP resources/33affected standards match. GAISE126page bounded equivalence;Sood2015related article18visual/1extracted. All1055claims/1238tasks/875context interpretations retained. Original2009thesis,exact samples,errata and independent/student/browser validation unverified;goal active.0Sites files moved/deleted.",
+    "Local GitHub snapshot28df1514100a3e4b verified;content objects482,goal states3480,catalog states710pass. Initial directory rename returned WinError5,cause unverified. Entire prior site copied/hash-verified to tmp/github-site-backup-gaise-sood-20261118;919obsolete files moved into that backup after checking absolute paths;0deletions. No user process stopped,GitHub remote push or Pages deployment performed. Sites source/archive packaging and publication are separate;0Sites working files moved/deleted. Pre-publication repository preflight2766files/12661links,0errors/0warnings;post-publication metadata preflight logged separately.",
+    "SoodJitendra2007article13visual/0full extracted-text pages;2tables.2013article abstract/metadata only;WWC77991export1study/0findings. Exact pooled-vs-book rates,conditional denominators,overlap bounds and rounding checks pass;not coder/student data or official correction. 14affected standards and visible source scopes checked. All1055claims/1238tasks/875context interpretations retained. Human0/0,UIunverified,goal active.",
+    "Public release 95: 105HTTP resources/14affected standards match. SoodJitendra2007paper13visual/0full extracted-text pages;2013abstract only;WWC77991export1study/0findings. All1055claims/1238tasks/875context interpretations retained. Original2009thesis,2013body,coder records,errata and independent/student/browser validation unverified;goal active.0Sites files moved/deleted.",
+    "Local GitHub snapshot817f993df4110d89 verified;content objects482,goal states3480,catalog states710pass. Previous site copied/hash-verified to tmp/github-site-backup-sood-textbook-20261118;919obsolete files moved into that backup after checking absolute paths;0deletions. File-level update used without retrying the prior batch directory lock. No user process stopped,GitHub remote push or Pages deployment performed. Sites packaging/publication is separate;0Sites working files moved/deleted. Pre/post-publication repository preflight and parity are logged separately.",
+    "Siegler1995all49visual pages,new unique42,new full extracted-text0;2tables/7figures. Exact cue,conditional denominator,Fisher and rounding models pass;not raw student data or official correction. Four prior claims and one task interpretation refined;1051other claims/1237other tasks/875context interpretations preserved. Two affected standards in authored/generated/rendered output checked. Human0/0,UIunverified,goal active.",
+    "Public release 96: 69HTTP resources/2affected standards match. Siegler1995all49visual pages,new unique42,new extracted-text0. Four prior claims/one task interpretation refined;0added sources/claims/tasks/contexts. Prior1051claims/1237tasks and875context interpretations preserved. Original student data,publisher fidelity,errata,independent/student/browser validation unverified;goal active.0Sites files moved/deleted.",
+    "Local GitHub snapshot5cd6e56174409458 verified;content objects482,goal states3480,catalog states710pass. Previous site copied/hash-verified to tmp/github-site-backup-siegler-complete-20261118;919obsolete files moved into that backup after checking absolute paths;0deletions. File-level update used without retrying the prior batch directory lock. No user process stopped,GitHub remote push or Pages deployment performed. Sites packaging/publication is separate;0Sites working files moved/deleted. Pre/post-publication repository preflight and parity are logged separately.",
+    "Prior2026-11-18full run interrupted at build_portal_data.py with child exit1073807364;old session44901 missing and old PID19656 absent on recheck. Original log/status retained;root cause unverified. This report uses the uninterrupted2026-11-19full retry,hierarchy audit and scoped rendering result.",
+    "Two existing length/shape trial papers all37visual pages,new unique25,new full extracted-text0;11tables/3figures. Exact displayed aggregate/rounding,prefix conditions,WAIC direction,median contrast,missing code and transfer checks pass;not model/raw student reanalysis or official correction. Eight claims refined;1047other claims/all1238tasks/875context interpretations preserved. Five affected standards in authored/generated/rendered output checked. Human0/0,UIunverified,goal active.",
+    "Public release 97: 78HTTP resources/5affected standards match. Two existing length/shape trials all37visual pages,new unique25,new extracted-text0. Eight prior claims refined;0added sources/claims/tasks/contexts. Prior1047other claims/all1238tasks/875context interpretations preserved. Raw child/item data,publisher fidelity,errata,independent/student/browser validation unverified;goal active.0Sites files moved/deleted.",
+    "Local GitHub snapshota59fdac7b2933556 verified;content objects482,goal states3480,catalog states710pass. Previous site copied/hash-verified to tmp/github-site-backup-lt-complete-20261118;919obsolete files moved into that backup after checking absolute paths;0deletions. File-level update used without retrying the prior batch directory lock. No user process stopped,GitHub remote push or Pages deployment performed. Sites packaging/publication is separate;0Sites working files moved/deleted. Pre/post-publication repository preflight and parity are logged separately.",
+    "Arithmetic main58visual+official pilot supplement8,total66,new58,new full extracted-text0. Trial official DOCX74body blocks/7embedded images read separately;full document page render failed:LibreOffice not on PATH. Displayed counts/prefix rules/rounding/subgroup checks passed,not raw-data/model reanalysis. Eight claims refined;1047other claims/all1238tasks/874context interpretations preserved;one context finding qualified. Four affected standards authored/generated/rendered checked. Human0/0,browser unverified,goal active.",
+    "Public release 98: 75HTTP resources/4affected standards match. Arithmetic main58visual+pilot official supplement8,total66,new58,new full extracted-text0;trial official DOCX74blocks/7images separate from PDF pages. Eight claims refined;1047other claims/all1238tasks/874contexts preserved;one finding qualified. Raw data,actual item correspondence,publisher body fidelity,errata,human0/0 and browser checks incomplete;goal active.0Sites files moved/deleted.",
+    "Local GitHub snapshot92091d75cfc54fd4 verified;content objects482,goal states3480,catalog states710pass. Previous site copied/hash-verified to tmp/github-site-backup-arithmetic-complete-20261119;919obsolete files moved into that backup after checking absolute paths;0deletions. File-level update used without retrying the prior batch directory lock. No user process stopped,GitHub remote push or Pages deployment performed. Sites packaging/publication is separate;0Sites working files moved/deleted. Pre/post-publication repository preflight and parity are logged separately.",
+    "MDRC2021 all101visual pages including frontmatter/blanks/new89,new extracted-text0;24tables/1figure. Attendance integer thresholds exhaustively checked for366year lengths;displayed ratios/denominators and distinct subgroup nulls checked. Ten claims refined;2claims/2synthetic tasks added;1045other claims/all1238prior tasks/all875contexts preserved. Three standards authored/generated/rendered checked. Raw data/code/models/errata,human0/0,browser unverified;goal active.",
+    "Public release 99: 72HTTP resources/3affected standards match. MDRC2021all101visual pages including frontmatter/blanks,new89,new extracted-text0. Ten claims refined;2claims/2synthetic probes added. Other1045claims/all1238prior tasks/all875contexts preserved. Raw data,classification code,models,errata,human0/0,browser unverified;goal active.0Sites files moved/deleted.",
+    "Local GitHub snapshot199744a6e41909af verified;content objects482,goal states3480,catalog states710pass. Previous site copied/hash-verified to tmp/github-site-backup-mpc-complete-20261119;919obsolete files moved into that backup after checking absolute paths;0deletions. File-level update used without retrying the prior batch directory lock. No user process stopped,GitHub remote push or Pages deployment performed. Sites packaging/publication is separate;0Sites working files moved/deleted. Pre/post-publication repository preflight and parity are logged separately. Existing GitHub explorer index/two assets preserved byte-for-byte;site/frontend not traversed or modified. The original broad installer stopped before mutation on detecting that unmanifested worktree. A new export used the existing explorer overlay;version-consistent curriculum index435standards/571items and existing frontend school selection were checked. Runtime backup covers all prior manifest-owned files.",
+    "Final metadata reconciliation2026-11-19: docs/STATUS task90197fcc06764c60/conceptd15b2bbdf57b8e8d match current audits,snapshot and publication receipt. Separate dataset identifier rows now checked by parity. This is post-publication documentation metadata;runtime content unchanged.",
+    "ERIC2017design all28visual pages/new23,new extracted-text0. Four claims refined;1053other claims/all1240tasks/all875contexts preserved. Selection AND/OR,implementation units and hypothetical missing-factorial-cell counterexample checked. Related3standards authored/generated/rendered pass. Raw data/models/errata,human0/0,browser unverified;goal active.",
+    "Public release 100: 72HTTP resources/3affected standards match. ERIC2017design28visual pages including cover,new23,new extracted-text0. Four claims refined;0claims/tasks added. Other1053claims/all1240prior tasks/all875contexts preserved. Raw data,models,errata,human0/0,browser unverified;goal active.0Sites files moved/deleted.",
+    "Local snapshot03537c038a298820:snapshot verify/content objects/goal network/catalog/explorer checks pass. All previous manifest-owned runtime files copied and hash-verified to tmp/github-site-backup-mpc-design-complete-20261119;919obsolete files moved after checking every absolute target.0deletions. Existing explorer index/assets preserved byte-for-byte;site/frontend left in place. No user process stopped,GitHub push or Pages deployment. Separate Sites publication:0Sites files moved/deleted. Metadata updated after archive.",
+    "MDRC2016preK118visual/new116,text0. Three claims refined;1054other claims/all1240tasks/all875contexts preserved. Exact hypothetical exposure/missing-zero models checked. Related4standards authored/generated/rendered pass. Raw data/models/errata,human0/0,browser unverified;goal active.",
+    "Initial review migration exited1 because the new note retained an old empirical_scope. The new note was aligned to the already authored source/claim scope before the full validation began; the prior note/history were preserved. The initial migration is not counted as a passing validation. Evidence:tmp/mpc-prek-migration-correction-20261119.json",
+    "Public release 101: 75HTTP resources/4affected standards match. MDRC2016preK118visual pages,new116,new extracted-text0. Three claims refined;0claims/tasks added. Other1054claims/all1240tasks/all875contexts preserved. Raw data,models,errata,human0/0,browser unverified;goal active.0Sites files moved/deleted.",
+    "Local snapshot34f27c474a6c72fb:snapshot verify/content objects/goal network/catalog/explorer checks pass. All previous manifest-owned runtime files copied and hash-verified to tmp/github-site-backup-mpc-prek-complete-20261119;919obsolete files moved after checking every absolute target.0deletions. Existing explorer index/assets preserved byte-for-byte;site/frontend left in place. No user process stopped,GitHub push or Pages deployment. Separate Sites publication:0Sites files moved/deleted. Metadata updated after archive.",
+    "MDRC2018kindergarten142visual/new131,text0. Nine claims refined;1048other claims/all1240tasks/all875contexts preserved. Exact conditional affine/threshold/unit/rounding models checked. Related7standards authored/generated/rendered pass. Raw data/code/errata,human0/0 unverified;no browser QA this batch;goal active.",
+    "Public release 104: 92HTTP resources/7affected standards match. MDRC2018kindergarten142visual pages,new131,new extracted-text0. Nine claims refined;0claims/tasks added. Other1048claims/all1240tasks/all875contexts preserved. Raw data/code/errata,human0/0 unverified;no browser QA this batch;prior v103 UI retained;goal active.0Sites files moved/deleted.",
+    "Local snapshotca52fee86011418b:snapshot verify/content objects/goal network/catalog/explorer checks pass. All previous manifest-owned runtime files copied and hash-verified to tmp/github-site-backup-mpc-kindergarten-complete-20261119;919obsolete files moved after checking every absolute target.0deletions. Existing explorer index/assets preserved byte-for-byte;site/frontend left in place. No user process stopped,GitHub push or Pages deployment. Separate Sites publication:0Sites files moved/deleted. Metadata updated after archive.",
+    "전체 재생성·계층 감사와 관련 3개 성취기준의 원고·생성·표시 대조를 통과했다. 다른 1,054개 주장, 1,240개 관찰 과제와 다른 874개 관계 해석을 보존했다.",
+    "사이트 버전 105에 내용 `62ba74e796f304dd`을 게시했다. 관련 3개 기준과 공개 리소스 77개를 대조했다. 이번 브라우저 시각 확인은 수행하지 않았다.",
+    "전체 재생성·위계 감사 및 관련 성취기준 6개의 생성 원고·데이터·표시를 대조했다. 기존 주장 1,056개, 관찰 과제 1,240개, 관계 해석 875개는 직전 사이트 원장과 일치한다.",
+    "사이트 버전 107에 내용 `dae1618ec5603ac0`을 게시했다. 관련 6개 기준과 공개 리소스 88개를 대조했다. 이번 브라우저 시각 확인은 수행하지 않았다.",
+    "전체 재생성·위계 감사와 성취기준 5개의 생성 원고·데이터·표시 대조를 통과했다. 다른 주장 1,057개, 관찰 과제 1,240개, 관계 해석 875개가 직전 사이트 원장과 일치한다.",
+    "사이트 버전 110에 내용 `5b3995b9eea589b9`을 게시했다. 관련 5개 기준과 공개 리소스 87개를 대조했다. 이번 브라우저 시각 확인은 수행하지 않았다.",
+    "전체 재생성·위계 감사와 관련 성취기준 5개의 원고·생성 데이터·화면 모델을 대조했다. 다른 주장 1,061개, 기존 과제 1,239개, 관계 해석 874개의 일치를 확인했다."
   ],
   "observation_extensions": 156,
   "tool_model_rows": {
@@ -189,11 +231,11 @@
   "legacy_statement_only_reviews": 0,
   "image_review_scope": "435개 모두 실제 이미지로 문장·해설·적용 시 고려 사항을 자체 대조. 내용 변경 시 재대조 필요. 독립 검토·학생 검증과 별도.",
   "external_literature_entries_pending": 0,
-  "literature_claim_mappings": 1053,
-  "literature_observation_extensions": 1236,
+  "literature_claim_mappings": 1065,
+  "literature_observation_extensions": 1242,
   "published_research_rating_rows": 20,
-  "literature_count_scope": "164개 출처의 명시한 범위와 주장 대응이다. 파일 전체의 보관은 전권 정독을 뜻하지 않는다. 실제 텍스트·이미지·HTML 읽기 범위와 미검토 부분·원연구·판본·번역 대조는 각 source.read_scope·next_review와 구조화 원장에 유지한다. 자체 학생 검증·수업 효과와 구별한다.",
-  "latest_update_date": "2026-11-18",
+  "literature_count_scope": "176개 교육과정 외 출처의 실제 명시한 읽기 범위와 주장1057건의 대응이다. 파일 보관·선정 대조는 전권 정독을 뜻하지 않는다. 미검토 본문·인용 원연구·판본/번역 후속 대조는 각 source.read_scope·next_review와 구조화 원장에 보존하며 독립 검토·실제 학생 검증과 구별한다.",
+  "latest_update_date": "2026-11-19",
   "standard_relation_analysis_states": {
     "self_checked": 2239
   },
@@ -243,38 +285,64 @@
         "observations": 1130
       },
       "reason": "The global check statement lagged behind the prior release totals. Reconciled to the verified new registry; historical scoped progress entries remain unchanged."
+    },
+    {
+      "date": "2026-11-19",
+      "previous_field": "literature_count_scope",
+      "previous_value": "164개 출처의 명시한 범위와 주장 대응이다. 파일 전체의 보관은 전권 정독을 뜻하지 않는다. 실제 텍스트·이미지·HTML 읽기 범위와 미검토 부분·원연구·판본·번역 대조는 각 source.read_scope·next_review와 구조화 원장에 유지한다. 자체 학생 검증·수업 효과와 구별한다.",
+      "current_field": "literature_count_scope",
+      "reason": "현재 집계176출처와 달리 남아 있던164출처 문구를 실제 원장에 맞췄다. 과거 검토 수치는 해당 이력에 보존한다."
+    },
+    {
+      "date": "2026-11-19",
+      "previous_field": "docs/STATUS.md task/concept dataset identifiers",
+      "previous_value": [
+        "9f4a2982a196f2a6",
+        "4f40bd897b1176a2"
+      ],
+      "current_field": "docs/STATUS.md task/concept dataset identifiers",
+      "current_value": [
+        "90197fcc06764c60",
+        "d15b2bbdf57b8e8d"
+      ],
+      "reason": "최종 문서·감사 결과 대조에서 상태표의 이전 데이터셋 식별값을 현재 생성·검사·게시 값과 일치시켰다. 내용 버전과 별도 식별자다."
+    },
+    {
+      "date": "2026-11-19",
+      "previous_field": "latest_checks",
+      "previous_value": "All1053 literature mappings/1236 literature observations remain current",
+      "current_field": "latest_checks",
+      "reason": "현재 집계처럼 쓰인 과거1053/1236문구를 현 원장1057/1240에 맞추고 이전값을 보존했다."
     }
   ],
-  "external_literature_entries_scoped_claim_mapped": 175,
+  "external_literature_entries_scoped_claim_mapped": 178,
   "latest_deployment": {
-    "version_number": 91,
+    "version_number": 110,
     "status": "succeeded",
     "url": "https://math-learning-atlas-kr.gptpro2908176.chatgpt.site",
-    "commit_sha": "e9f10e511c88b6c0c55daafa0868cab001461060",
-    "data_version": "c7e86e2fa1af547e",
-    "live_resources_verified": 84
+    "commit_sha": "63671e4b46b36837587f286bacc9b1f19ffa4c8f",
+    "data_version": "5b3995b9eea589b9",
+    "live_resources_verified": 87
   },
   "relation_literature_context": {
     "candidate_relations": 389,
-    "candidate_pairs": 874,
+    "candidate_pairs": 875,
     "reviewed_relations": 389,
-    "reviewed_pairs": 874,
-    "activity_context": 670,
+    "reviewed_pairs": 875,
+    "activity_context": 671,
     "inference_limits": 204,
     "first_review_pending_relations": 0,
     "fully_reviewed_relations": 389,
     "remaining_pairs": 0
   },
   "latest_publication_attempt": {
-    "date": "2026-11-18",
-    "status": "succeeded",
-    "data_version": "c7e86e2fa1af547e",
-    "archive_checks": "pass",
-    "source_pushed": true,
-    "saved_version_created": true,
-    "deployed": true,
-    "current_public_version": 91,
-    "failure_message": null
+    "date": "2026-11-19",
+    "status": "prepared_for_source_push",
+    "data_version": "a60e4950c4583869",
+    "source_pushed": false,
+    "saved_version_created": false,
+    "deployed": false,
+    "current_public_version": 110
   },
   "minimum_scoped_standard_mappings": 435,
   "publication_attempt_history": [
@@ -290,6 +358,13 @@
       "unpublished_local_commit": "9832f69b3e8a99fa7fe64f9222cfae4990b483f7",
       "remote_commit": "f832430d498e00aa8cfdad657be7c48c42d69187",
       "failure_message": "receive-pack connectivity walk exceeds the pending-edge limit"
+    }
+  ],
+  "latest_validation_attempts": [
+    {
+      "status": "succeeded",
+      "scope": "전체 재생성·위계 감사와 관련 성취기준 5개의 원고·생성 데이터·화면 모델을 대조했다. 다른 주장 1,061개, 기존 과제 1,239개, 관계 해석 874개의 일치를 확인했다.",
+      "data_version": "a60e4950c4583869"
     }
   ]
 }

@@ -1,0 +1,350 @@
+{
+  "source_id": "CLEMENTS_ET_AL_2020_ARITHMETIC_PILOT",
+  "source_url": "https://doi.org/10.1007/s11858-019-01122-z",
+  "date": "2026-11-19",
+  "reviewer": "Codex",
+  "source_asset_kind": "pdf",
+  "source_pdf_sha256": "fae8dcca766683c1c06766ebe31d63cba426aeb29666aea8fafe67f28f8d6185",
+  "source_pdf_redistributed": false,
+  "contains_source_full_text": false,
+  "read_scope": "확보된 PDF12판면의 본문·표·그림·참고문헌 전체를 실제 판면으로 읽었다. 기존3판면과 새9판면을 합친 범위이며 이번 새 전문 추출문 독해는0쪽이다. 공식 출판사 별도 부록8판면(A–D)도 모두 읽었다. 본문12쪽과 부록8쪽은 별도 파일이다. ERIC38쪽 저자본의 이전 선정 대조는 보존하며 그 파일 전체 독해를 뜻하지 않는다.",
+  "empirical_scope": {
+    "design": "one_classroom_per_condition_arithmetic_pilot",
+    "sample_description": "영재 프로그램의 유치원 두 학급에서 26명이 참여했고 사전·사후 단계 변화는 순차 13명·건너뛰기 12명으로 집계했다.",
+    "inference_limit": "조건별 한 학급인 영재 유치원 두 학급의 단기 개별 지도 예비 연구다. 학급과 조건이 분리되지 않고 순서·수 범위·문제 구조·반응별 조정도 함께 달랐다. 수업 중 수행·예상 수준과 독립 사후검사·수준 내 개선을 구별한다. 단계 순서가 모든 학생의 필요조건이거나 국내 과제의 효과라고 입증하지 않았다.",
+    "student_outcome_study": true,
+    "causal_effect_established": false,
+    "local_effect_tested": false
+  },
+  "pdf_url": "https://testmoodle.ndna.org.uk/pluginfile.php/120678/mod_resource/content/8/Efficacy_of_Learning_Trajectory_Clements%2C%202020.pdf",
+  "publisher_url": "https://link.springer.com/article/10.1007/s11858-019-01122-z",
+  "pdf_pages": 12,
+  "printed_pages": [
+    637,
+    648
+  ],
+  "selected_text_pages": [
+    6,
+    7,
+    8,
+    10
+  ],
+  "visual_pdf_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "rendered_page_sha256": {
+    "1": "51a6a41f48c91eda3a9322eb2751a649af91b5ce7c38439af328a532c8b633fd",
+    "2": "04a61b7020d9e8f21316cb3d9801f912b2fb653051f0d11e8c3b154e19cb6e84",
+    "3": "8aebf501b4336f9aabb325dc1e43e8222ad9ff1ffff593cf309fc9400d70dd08",
+    "4": "1ae494be9f3576824641eab1f617bd96e67b08b46531f8229e315be1e0b0061e",
+    "5": "87c16711b57c9fcf2aea5c19dba1b3c3191eca8f22a0a6d835eb0a1f9b5c74d2",
+    "6": "06d68a491311f9e91645063758ecb721374961017d0b4726f11ccd8ce50d7462",
+    "7": "6df515c4f1c432ffd09a9c6aa6ef0ca687ebd19c0cc5568159c7852543b98b7f",
+    "8": "10dd607a011b85a0ba4a39e013bc5c1e80d19cc81af8e2a496b4ca88c6b8421c",
+    "9": "0749058e6f8fda3248b1609d6534b78a5ed377ae9972be25c5a9905ea03bec4a",
+    "10": "d1f0de6a25455ded8780043b520b7c32b1dae932b076e02c29aa99d4153045eb",
+    "11": "dedca19f95c669e7189bdc2012a1db0251032d25e0eb63bc790d05c56892e1f9",
+    "12": "eccf8550cb1ab989bda9354ae8249bc9806c07e9591aeaf28aacc0fa27e63d44"
+  },
+  "results": {
+    "initial_by_class": [
+      13,
+      13
+    ],
+    "analyzed": [
+      13,
+      12
+    ],
+    "minutes_about": 180,
+    "table_2_counts": {
+      "ordered": [
+        2,
+        4,
+        0,
+        7,
+        0,
+        0
+      ],
+      "skip": [
+        0,
+        0,
+        1,
+        5,
+        5,
+        1
+      ]
+    },
+    "table_2_order": [
+      "2단계 증가",
+      "1단계 증가",
+      "부분 증가",
+      "유지",
+      "부분 감소",
+      "1단계 감소"
+    ],
+    "pre_post_mean_by_arm": [
+      [
+        0.18,
+        0.28
+      ],
+      [
+        0.19,
+        0.25
+      ]
+    ],
+    "author_manuscript": {
+      "url": "https://files.eric.ed.gov/fulltext/ED619220.pdf",
+      "pdf_pages": 38,
+      "sha256": "e7b3f4c47d309ead832bb5343db6b7cd0e62a70adbf29f5828a926f2c4234a2d",
+      "selected_text_pages": [
+        2,
+        15,
+        16,
+        18,
+        19,
+        20,
+        26
+      ],
+      "visual_pdf_pages": [
+        19
+      ]
+    }
+  },
+  "reading_log": [
+    "출판판 인쇄 642~644·646쪽의 방법·결과·한계를 읽고 표 1·2와 그림 2의 판면을 확인했다. ERIC 저자 원고와 분모를 대조했다.",
+    "분모와 비교 조건을 확인하고 전체 모형과 과제별 관찰을 구분했다.",
+    "확보된 PDF12판면의 본문·표·그림·참고문헌 전체를 실제 판면으로 읽었다. 기존3판면과 새9판면을 합친 범위이며 이번 새 전문 추출문 독해는0쪽이다. 공식 출판사 별도 부록8판면(A–D)도 모두 읽었다. 본문12쪽과 부록8쪽은 별도 파일이다. ERIC38쪽 저자본의 이전 선정 대조는 보존하며 그 파일 전체 독해를 뜻하지 않는다."
+  ],
+  "source_corrections": [
+    {
+      "location": "인쇄 643~644쪽 표 1·2",
+      "issue": "초기 학급 인원은 13명씩이다. 건너뛰기 학급의 사전검사 완료 전 이탈 1명을 제외한 단계 변화 분모는 12명이다."
+    },
+    {
+      "location": "인쇄 643쪽 표 1 나이 열",
+      "issue": "열에는 개월 단위로 표시됐으나 5.4와 5.5가 실렸다. 원자료 없이 나이 단위를 고쳐 인용하지 않는다."
+    },
+    {
+      "location": "인쇄 642·646쪽 연구 설계 설명",
+      "issue": "학급 하나를 순차 조건에 무작위 배정했다는 방법과 조건별 학급 하나의 한계를 함께 기록한다. 아동 단위 무작위 실험으로 분류하지 않는다."
+    },
+    {
+      "location": "전체판면후속대조2026-11-19",
+      "issue": "8개 사고 수준은 수 크기·문제 구조·전략을 함께 포함한다. 저자는 순서의 정확한 준수가 학습의 필요조건이라고 결론하지 않는다. 형성평가와 다음 수준 지도·반응별 난도 조정을 포함한 교수 묶음이다.",
+      "status": "bounded_own_audit_not_official_erratum"
+    },
+    {
+      "location": "전체판면후속대조2026-11-19",
+      "issue": "학급1을무작위로조건에배정했으나조건마다학급은하나다. LT아동01은지도자의실수로수준4를건너뛴사례가있다. 본문교수계획의21–100과공식부록B의20–100표기를유지하며계획과실제지도수행을동일시하지않는다.",
+      "status": "bounded_own_audit_not_official_erratum"
+    },
+    {
+      "location": "전체판면후속대조2026-11-19",
+      "issue": "독립수준판정은해당수준및모든이전수준에서거의모든문항정답을요구한다. 수준별3문항이상의전체또는하나를제외한정답기준,수업중3연속과제기준,수준내최소20%개선은서로다르다. 본실험75%와도동일기준이아니다.",
+      "status": "bounded_own_audit_not_official_erratum"
+    },
+    {
+      "location": "전체판면후속대조2026-11-19",
+      "issue": "표1의Age(months)와5.4/5.5단위문제는미해결이다. 표2와부록C의LT13명은한수준증가4/두수준증가2/유지7인데본문645는증가하지않은LT아동을6명으로쓴다. 원문표기와자체집계를보존하며공식정정값을확정하지않는다.",
+      "status": "bounded_own_audit_not_official_erratum"
+    },
+    {
+      "location": "전체판면후속대조2026-11-19",
+      "issue": "고급전략을시도하다실행오류로정답률이내려간사례는개념후퇴와구별한다. 부록C의수업기반예상수준은독립사후결과가아니다. 부록D의8명/5명은수업중상승폭에따른사후분류이지무작위조건·유지율이아니다. 단계번호간격을등간척도로증명하지않는다.",
+      "status": "bounded_own_audit_not_official_erratum"
+    },
+    {
+      "location": "전체판면후속대조2026-11-19",
+      "issue": "연구비·저자의출판관련이해관계·독립기관감독과참고문헌을읽었다. 논문자체의감독을이프로젝트의외부독립검토실적으로세지않는다.",
+      "status": "bounded_own_audit_not_official_erratum"
+    }
+  ],
+  "previous_review": {
+    "source_id": "CLEMENTS_ET_AL_2020_ARITHMETIC_PILOT",
+    "state": "self_read_claim_mapping",
+    "reviewer": "Codex",
+    "date": "2026-11-09",
+    "snapshot_kind": "authored_review_notes",
+    "source_asset_kind": "pdf",
+    "source_pdf_sha256": "fae8dcca766683c1c06766ebe31d63cba426aeb29666aea8fafe67f28f8d6185",
+    "snapshot_file": "data/literature_evidence/CLEMENTS_ET_AL_2020_ARITHMETIC_PILOT_review_notes.json",
+    "snapshot_sha256": "93b403f5e856ac08bd6b428728adde496b086f2568018b9e3fb741a6bb89bbe1",
+    "redistribution_license": "workspace_authored_notes",
+    "bibliography_snapshot": "8a8d2bb364f856aa11d4acb385bf2b0fdab59447894a2d4239098ce5982ac441",
+    "display": {
+      "title": "Efficacy of a learning trajectory approach compared to a teach-to-target approach for addition and subtraction",
+      "url": "https://doi.org/10.1007/s11858-019-01122-z",
+      "authors_year": "Clements 외, 2020"
+    },
+    "read_scope": "출판판 인쇄 642~644·646쪽의 방법·결과·한계를 읽고 표 1·2와 그림 2의 판면을 확인했다. ERIC 저자 원고와 분모를 대조했다.",
+    "scope_note": "해당 영역에서 실제 제공한 지도 조건과 결과를 연결한다.",
+    "method_note": "출판판의 방법·표·그림과 대상 성취기준의 수행 범위를 대조했다.",
+    "limits": "조건마다 학급이 하나이므로 학급과 지도 조건을 분리하기 어렵다. 한 학교의 단기 개별 지도 결과를 국내 집단 수업이나 모든 연산 과제에 적용할 수 없다.",
+    "empirical_scope": {
+      "design": "one_classroom_per_condition_arithmetic_pilot",
+      "sample_description": "영재 프로그램의 유치원 두 학급에서 26명이 참여했고 사전·사후 단계 변화는 순차 13명·건너뛰기 12명으로 집계했다.",
+      "inference_limit": "조건마다 학급이 하나이므로 학급과 지도 조건을 분리하기 어렵다. 한 학교의 단기 개별 지도 결과를 국내 집단 수업이나 모든 연산 과제에 적용할 수 없다.",
+      "student_outcome_study": true,
+      "causal_effect_established": false,
+      "local_effect_tested": false
+    },
+    "independent_review": false,
+    "student_validated": false,
+    "editorial_action": "문헌 대응 3건을 추가했다.",
+    "observations": []
+  },
+  "previous_snapshot_file": "data/literature_evidence/CLEMENTS_ET_AL_2020_ARITHMETIC_PILOT_review_notes.json",
+  "previous_snapshot_sha256": "93b403f5e856ac08bd6b428728adde496b086f2568018b9e3fb741a6bb89bbe1",
+  "previous_rendered_page_sha256": {
+    "6": "380d6ad97dce4ad083f4defd89d43d8e61f806e38b4af64df7bcb3791a0cc547",
+    "7": "3b408e0c8b8da82193f16aa77e14872fa1d4978f84df3689c1f2767bb5aba5b0",
+    "8": "e25b61af07a7732b2a18d76c335a81b4d448636a057fa4937e7fe008cfc13dda"
+  },
+  "new_visual_pdf_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    9,
+    10,
+    11,
+    12
+  ],
+  "new_text_pdf_pages": [],
+  "new_full_extracted_text_pages": 0,
+  "whole_article_visual_read": true,
+  "exact_own_checks": {
+    "status": "pass",
+    "pilot_neutral_count": 7,
+    "pilot_prose_count": 6,
+    "trial_displayed_waic_difference": "17/2",
+    "trial_reported_waic_difference": "8.74",
+    "nearest_tenth_rounding_assumption": true,
+    "trial_subgroup_denominators": [
+      93,
+      114
+    ],
+    "all_prior_levels_required_for_research_75_percent_rule": true,
+    "pilot_all_but_one_rule_is_not_75_percent": true,
+    "raw_student_data_reanalyzed": false,
+    "models_refitted": false,
+    "official_erratum": false,
+    "local_student_validation": false
+  },
+  "publisher_binary_fidelity_verified": false,
+  "raw_student_data_read": false,
+  "all_cited_originals_read": false,
+  "official_erratum_verified": false,
+  "independent_review": false,
+  "student_validated": false,
+  "official_supplement_review": {
+    "url": "https://static-content.springer.com/esm/art%3A10.1007%2Fs11858-019-01122-z/MediaObjects/11858_2019_1122_MOESM1_ESM.pdf",
+    "publisher_linking_page": "https://link.springer.com/article/10.1007/s11858-019-01122-z",
+    "status": 200,
+    "content_type": "application/pdf",
+    "sha256": "61946e4f02dbda88c103425acae735ce2b5d1761374d94d53b676e4207d86185",
+    "bytes": 858573,
+    "pdf_pages": 8,
+    "visual_pdf_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "rendered_page_sha256": {
+      "1": "aaa44016183a064260a55d75c9ea10914f8098d457611ea683c371a08a704dde",
+      "2": "3d4fdb2273a115878426a532883003c59c39f7d82b712d85f7de727131d1a853",
+      "3": "87dbe61d56b782b3ed789a21b532b1d707731409f3a370bcc2bf93fd770f89e7",
+      "4": "f63bb187ce2bdf0a930fccef8e8c24fc3ae27bd29ed8e093ed1277393a83c9b1",
+      "5": "e2fa0b12955f705a317b55f4bd04b806b70b4fe9d2959d926ccb6e59e3db344a",
+      "6": "f81cb12d3729e2ee6088cfbaff4e67e6afcff33e502d2c14187d5fc3221dedfe",
+      "7": "df0b5ca18294557cd77e66b0b611fd40292d62a0b03814c21031b0264489f458",
+      "8": "8e63825c76179317c8933ad7e9fccb244e4c72a56d69fca1e756c2af9427e63f"
+    },
+    "new_visual_pages": 8,
+    "new_full_extracted_text_pages": 0,
+    "reading_log": [
+      "공식부록8판면의A문제유형·참고문헌·B지도계획·C개별집계·D두그래프를모두읽었다. 본문과별도파일/쪽번호로기록한다.",
+      "B는20–100,본문은21–100으로표기한다. 유형·수크기·하향난도조정이함께달라순서단독효과가아니다. 아동23의C계획change/difference unknown과본문주로result unknown지도기술은계획과실제수행을구별해유지한다.",
+      "C의LT13명은+4명/++2명/빈칸7명으로표2와일치하며본문645의비증가6명기술과불일치. skip12는부분증1/유지5/부분감5/감1. 빈칸/None/부분수준과발달수준0을임의로동일점수화하지않는다.",
+      "C의anticipated는수업수행기반예측이며독립사후결과가아니다. D-1의8명/D-2의5명은수업중상승폭에따른사후분류이며무작위배정집단·유지율이아니다. 범주형수준번호간격을등간척도로증명하지않는다."
+    ],
+    "source_pdf_redistributed": false
+  },
+  "audit_findings": [
+    {
+      "pdf_pages": [
+        2,
+        3,
+        4,
+        5,
+        10
+      ],
+      "finding": "8개 사고 수준은 수 크기·문제 구조·전략을 함께 포함한다. 저자는 순서의 정확한 준수가 학습의 필요조건이라고 결론하지 않는다. 형성평가와 다음 수준 지도·반응별 난도 조정을 포함한 교수 묶음이다."
+    },
+    {
+      "pdf_pages": [
+        6,
+        7,
+        9
+      ],
+      "finding": "학급1을무작위로조건에배정했으나조건마다학급은하나다. LT아동01은지도자의실수로수준4를건너뛴사례가있다. 본문교수계획의21–100과공식부록B의20–100표기를유지하며계획과실제지도수행을동일시하지않는다."
+    },
+    {
+      "pdf_pages": [
+        7,
+        8
+      ],
+      "finding": "독립수준판정은해당수준및모든이전수준에서거의모든문항정답을요구한다. 수준별3문항이상의전체또는하나를제외한정답기준,수업중3연속과제기준,수준내최소20%개선은서로다르다. 본실험75%와도동일기준이아니다."
+    },
+    {
+      "pdf_pages": [
+        7,
+        8,
+        9
+      ],
+      "supplement_pdf_pages": [
+        5,
+        6
+      ],
+      "finding": "표1의Age(months)와5.4/5.5단위문제는미해결이다. 표2와부록C의LT13명은한수준증가4/두수준증가2/유지7인데본문645는증가하지않은LT아동을6명으로쓴다. 원문표기와자체집계를보존하며공식정정값을확정하지않는다."
+    },
+    {
+      "pdf_pages": [
+        8,
+        9,
+        10
+      ],
+      "supplement_pdf_pages": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "finding": "고급전략을시도하다실행오류로정답률이내려간사례는개념후퇴와구별한다. 부록C의수업기반예상수준은독립사후결과가아니다. 부록D의8명/5명은수업중상승폭에따른사후분류이지무작위조건·유지율이아니다. 단계번호간격을등간척도로증명하지않는다."
+    },
+    {
+      "pdf_pages": [
+        11,
+        12
+      ],
+      "finding": "연구비·저자의출판관련이해관계·독립기관감독과참고문헌을읽었다. 논문자체의감독을이프로젝트의외부독립검토실적으로세지않는다."
+    }
+  ]
+}

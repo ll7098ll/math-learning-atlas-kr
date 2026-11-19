@@ -1,0 +1,814 @@
+{
+  "source_id": "IES_ALGEBRA_2015",
+  "source_pdf_sha256": "83f6f973eb79caa2170f2818034d533322258708d38a777620862b95a9cbc730",
+  "contains_source_full_text": false,
+  "cumulative_read_scope": "2019년1월 개정 가이드 전체71쪽 추출문·판면과 별도 공식 심사 프로토콜v3.0 전체8쪽 추출문·판면을 대조했다. 이번 새 판면은 프로토콜8쪽이며 새 가이드 판면·추출문은0쪽이다.",
+  "cumulative_text_pdf_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71
+  ],
+  "cumulative_visual_pdf_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71
+  ],
+  "new_text_pdf_pages": [],
+  "new_visual_pdf_pages": [],
+  "previous_review": {
+    "source_id": "IES_ALGEBRA_2015",
+    "state": "self_read_claim_mapping",
+    "reviewer": "Codex",
+    "date": "2026-11-18",
+    "snapshot_kind": "source_pdf",
+    "snapshot_file": "data/literature_evidence/IES_ALGEBRA_2015.pdf",
+    "snapshot_sha256": "83f6f973eb79caa2170f2818034d533322258708d38a777620862b95a9cbc730",
+    "redistribution_license": "Public domain (explicit report declaration)",
+    "license_location": "PDF4 / publication information",
+    "license_statement": "This report is in the public domain.",
+    "bibliography_snapshot": "d9a513f9a9dd9a73d063205de22075e3c962df87e095077db58351cb4a0f4518",
+    "previous_bibliography": {
+      "id": "IES_ALGEBRA_2015",
+      "title": "Teaching Strategies for Improving Algebra Knowledge in Middle and High School Students",
+      "year": 2015,
+      "kind": "공식 교수 가이드",
+      "url": "https://ies.ed.gov/ncee/wwc/practiceguide/20",
+      "review_scope": "공식 소개와 세 권고 및 근거 수준 확인. 풀이 사례 분석과 식 구조 활용은 Minimal, 대안 전략의 의도적 선택은 Moderate로 제시됨. 개별 원연구 전부를 읽은 상태는 아님.",
+      "supports": [
+        "풀이 전략 비교",
+        "대수 표현의 구조 분석"
+      ],
+      "does_not_establish": "이 프로젝트의 개별 과제 효과와 진단 정확도"
+    },
+    "display": {
+      "title": "Teaching Strategies for Improving Algebra Knowledge in Middle and High School Students",
+      "url": "https://ies.ed.gov/ncee/wwc/practiceguide/20",
+      "authors_year": "Star 외, IES/WWC 2015; 2019년 1월 개정판 확인"
+    },
+    "source_pdf_url": "https://ies.ed.gov/ncee/WWC/Docs/PracticeGuide/WWC_Algebra_PG_Revised_02022018.pdf",
+    "reviewed_revision": "2019-01",
+    "pdf_pages_total": 71,
+    "text_pdf_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71
+    ],
+    "visual_pdf_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71
+    ],
+    "read_scope": "2019년 1월 개정 가이드 PDF 71쪽의 추출문과 전체 71판면을 대조했다. 이번에 남은 54판면을 읽었고 새 추출문 독해는 0쪽이다. 별도 공식 심사 프로토콜 v3.0은 기존 8쪽 추출문 독해 범위이며 판면 대조는 하지 않았다.",
+    "reading_log": [
+      "PDF12–14,17–21. 목표별 풀이 예, 정답·오답의 병렬 배치, 학급·모둠·개인의 활동, 빈칸 풀이와 유사한 독립 연습을 대조했다.",
+      "PDF25,28–31. 자기 질문, 공유 변과 전체 넓이, 도형·식·그래프, 고정비와 단위당 비용, 모둠 안에서의 전략 설명을 대조했다.",
+      "PDF34,38–44. 같은 식의 다른 풀이와 서로 다른 연립식에 맞는 전략을 구별했다. 용어집의 타당성·효율·유연성·해집합을 확인했다.",
+      "PDF45–51. 부록 A의 권고 등급 기준, 저자와 지원 인력, 잠재적 이해관계 공개를 확인했다.",
+      "PDF55,58,61–63. 표 D.2–D.4의 나머지 연구 행에서 비교 조건·결과 영역·분석 인원과 각주를 읽었다. PDF57,64,70에서 정정 표기와 지연 검사 각주를 다시 확인했다.",
+      "PDF65–71. 참고문헌, 미주와 정정, 마지막 발간물 안내를 읽었다. 인용 원논문은 별도 출처로 대조한다.",
+      "공식 프로토콜 PDF1–8. 학년과 공개 자료 기준, 검색 용어·기간, 처치의 재현 조건, 결과 분류, 탈락·동등성, 즉시·지연 검사와 예비 설계 기준을 확인했다.",
+      "PDF1–8: 표지·표제·발행/공공영역 고지·목차·예 목록·개요를 판면으로 대조했다. 예 3.8은 목차와 본문 모두 인쇄33쪽(PDF39)이므로 쪽수 불일치로 기록하지 않는다.",
+      "PDF10–12·14–15·18–26: 목표별 풀이, 의도적으로 잘못된 학생 예, 불완전 예, 자기 질문, 식의 표현과 분배 도식·언어를 읽었다. 오답 예를 문헌의 계산 오류나 실제 학생 자료로 바꾸지 않는다. 예2.4 유리식 변형에는 원래 분모의 x≠±1 조건이 필요하다.",
+      "PDF30–36·39–47: 장애 상황별 지도, 협력 활동, 전략 비교·선택·정당화, 용어집과 근거 등급 정의를 읽었다. 모든 전략의 일시 숙달이나 무조건적 효율 우위를 요구하는 것으로 확대하지 않는다.",
+      "PDF49–54·56·59–60·64–69·71: 저자·지원 인력·이해관계, 부록 D와 표의 주석, 참고문헌·미주·발간물 안내를 읽었다. 표 D.2–D.4의 기존 비교 조건·유의성·영역/하위 결과·공유 대조군 해석을 유지한다.",
+      "검색 인용, 30개 집단설계 심사, 4개 단일사례 심사와 기준 충족15개 집단설계는 서로 다른 집계다. 미주50에서 Hutchinson1993이 집단·단일사례 양쪽 집계에 포함됨을 확인했다. 30+4를 고유 연구34개로 단정하지 않는다.",
+      "부록의 긍정·부정 효과 분류는 통계적 유의성 또는 실질적 중요성이다. 별표와 분류를 동일시하지 않는다. 개념/절차/유연성의 측정 중첩·즉시/지연 시점과 독립 적용을 구별한다."
+    ],
+    "evidence_ratings": {
+      "1": "Minimal",
+      "2": "Minimal",
+      "3": "Moderate"
+    },
+    "search_period": "1993–September 2013; panel exceptions per Protocol 3.0",
+    "scope_note": "권고1·2는 Minimal,권고3은 Moderate다. 권고3의 근거는 특히 절차적 유연성에 집중되며 모든 전략의 숙달을 요구하지 않는다. 원문 6–12학년 범위·개정판과 현재 한국 과목·자체 과제를 구별한다. 전체 71판면 대조 완료. 공식 PDF 표지·표제면(PDF1·3)의 보고서 번호는 NCEE 2015-4010이나 권장 인용문(PDF4)은 NCEE 2014-4333이다. PDF4의 발행·개정일은 2015년 4월·2019년 1월이다. 이 내부 표기 차이를 기록하며 번호의 연도를 발행연도로 대체하거나 공식 정오표·원인을 확인했다고 주장하지 않는다.",
+    "method_note": "연구표의 처치·대조 조건·결과 영역·통계적 유의성·효과크기·측정 시점 및 공유 대조군을 구별했다.",
+    "limits": "관련 도구 모음·영상, 별도 심사 프로토콜의 판면, WWC 3.0 일반 핸드북, 아직 대조하지 않은 개별 원논문·원자료, 외부 독립 검토와 실제 학생 반응은 후속 확인한다.",
+    "editorial_action": "권고 대응 5건, 자체 관찰 5건, 관계별 해석 7건을 추가했다. 2026-11-18: 남은 54판면을 확인하고 보고서 번호의 내부 표기 차이를 안내했다. 기존 11주장·9과제와 관계 해석은 보존한다.",
+    "independent_review": false,
+    "student_validated": false,
+    "observations": [
+      {
+        "id": "IA-P1",
+        "standard_codes": [
+          "9수02-03",
+          "9수02-20"
+        ],
+        "question": "다음은 검토할 잘못된 풀이다: x(x−1)=0에서 양변을 x로 나누어 x=1만 얻었다. 처음 추가한 조건과 빠진 해를 설명하고 원식으로 확인하라.",
+        "expected": "x로 나누려면 x≠0이 필요하다. 원식에서는 x=0 또는 x=1이므로 나눗셈에서 0을 잃었다. 두 값을 원식에 대입하면 모두 0이다.",
+        "interpretation": "오답 예임을 먼저 명시하고 단계·조건·대입 검산을 따로 관찰한다. 한 반응으로 학생의 일반 능력이나 오류 원인을 확정하지 않는다. 원문의 교수 권고를 재구성한 자체 발문이며 현재 학생 검증은 없다.",
+        "student_validated": false
+      },
+      {
+        "id": "IA-P2",
+        "standard_codes": [
+          "9수02-01",
+          "9수02-03",
+          "9수02-04"
+        ],
+        "question": "2(x+1)+8=14와 2(3x+4)+8=14에서 괄호 전체가 맡는 같은 역할을 설명하라. 구조가 같으니 x의 해도 같은가?",
+        "expected": "두 식은 모두 괄호 전체를 u로 두면 2u+8=14여서 u=3이다. 첫 식은 x+1=3에서 x=2,둘째는 3x+4=3에서 x=−1/3이다. 같은 바깥 연산 구조가 같은 x해를 뜻하지 않는다.",
+        "interpretation": "문자·부분식·전체 식의 역할과 수치 해를 분리해 기록한다. 정확한 언어를 쓰게 하는 설계는 권고2의 참고이며 그 언어 요소만의 인과 효과나 출발 기준 전체의 숙달을 입증하지 않는다.",
+        "student_validated": false
+      },
+      {
+        "id": "IA-P3",
+        "standard_codes": [
+          "9수02-19",
+          "9수02-22",
+          "10공수1-02-04"
+        ],
+        "question": "실수 전체에서 x²−4x+3,(x−1)(x−3),(x−2)²−1을 비교하라. 서로 같은지 설명하고 영점·축·꼭짓점·최솟값을 가장 쉽게 읽는 표현을 골라 이유를 말하라.",
+        "expected": "전개하면 세 식은 같다. 인수분해형은 영점 1·3을,완전제곱형은 축 x=2·꼭짓점 (2,−1)·최솟값 −1을 드러낸다. 표현을 고르는 이유가 다르며 x=2는 영점이 아니다.",
+        "interpretation": "같은 함수의 동치와 표현별 정보의 차이를 관찰한다. 정의역은 실수 전체로 명시하고 중학교에 제한 구간 최적화를 추가하지 않는다. 원문의 말굽 모형·값·단위와 다른 자체 예이며 도구 실행·학생 효과를 새로 검증하지 않았다.",
+        "student_validated": false
+      },
+      {
+        "id": "IA-P4",
+        "standard_codes": [
+          "9수02-04"
+        ],
+        "question": "4(x+2)=20을 먼저 전개하는 방법과 먼저 4로 나누는 방법으로 풀어라. 각 첫 단계의 근거와 이 문제에서의 편리함을 설명하라. 모든 문제에 같은 전략이 가장 좋은가?",
+        "expected": "전개하면 4x+8=20→4x=12→x=3이다. 먼저 나누면 x+2=5→x=3으로 단계가 짧다. 양변을 같은 0 아닌 4로 나누므로 해가 보존된다. 다른 식의 구조·조건에서는 다른 전략이 더 적합할 수 있다.",
+        "interpretation": "학생이 이미 이해한 전략에서 한두 경로를 비교하고 선택 이유를 묻는다. 권고3은 모든 가능한 전략의 숙달을 요구하지 않으며 사전 지식·문제·비교 처치에 따른 한계를 갖는다. 수행 성공을 현재 활동 효과나 필수 선수성으로 승격하지 않는다.",
+        "student_validated": false
+      },
+      {
+        "id": "IA-P5",
+        "standard_codes": [
+          "9수02-03",
+          "9수02-20"
+        ],
+        "question": "잘못된 풀이 A는 x²−4x=12를 (x−2)²=12로 바꾸었고, B는 (x−2)²=16에서 x−2=4만 썼다. 각 오류가 처음 생긴 단계와 이유를 말하고, 예를 가린 뒤 원식을 풀어라.",
+        "expected": "A는 왼쪽에만 4를 더했다. 양변에 4를 더하면 (x−2)²=16이다. B는 x−2=−4를 빠뜨렸다. x=6과 x=−2는 모두 원식을 만족한다.",
+        "interpretation": "오답임을 먼저 표시한다. 오류 찾기, 두 해의 근거, 예를 가린 뒤의 풀이를 구분한다. 자체 설계이며 학생 검증 대기다.",
+        "student_validated": false
+      },
+      {
+        "id": "IA-P6",
+        "standard_codes": [
+          "9수02-20",
+          "9수02-22"
+        ],
+        "question": "변이 x m인 정사각형과 x m×5 m인 직사각형이 변 하나를 공유하고 내부가 겹치지 않는다. 합친 넓이가 24 m²일 때 x를 구하라. y=x²+5x−24의 x절편 중 어떤 값이 길이인가?",
+        "expected": "x²+5x=24이므로 (x+8)(x−3)=0이다. x절편은 (−8,0), (3,0)이다. x>0이므로 공유한 변은 3 m이고 넓이는 9+15=24 m²다.",
+        "interpretation": "식의 두 실근, 좌표 표기, 길이의 조건을 따로 기록한다. 자체 설계이며 학생 검증 대기다.",
+        "student_validated": false
+      },
+      {
+        "id": "IA-P7",
+        "standard_codes": [
+          "9수02-13",
+          "9수02-18"
+        ],
+        "question": "x+y=5와 2x−y=1을 가감 또는 대입으로 풀고 두 직선의 교점을 찾아라. (1,4)와 (1,1)은 각각 왜 연립식의 해가 아닌가?",
+        "expected": "두 식을 더하면 3x=6이므로 x=2, y=3이다. y=5−x와 y=2x−1의 교점도 (2,3)이다. (1,4)는 첫째 식만, (1,1)은 둘째 식만 만족한다.",
+        "interpretation": "전략 선택 이유와 그래프 판독, 두 원식의 정확한 검산을 구분한다. 자체 설계이며 학생 검증 대기다.",
+        "student_validated": false
+      },
+      {
+        "id": "IA-P8",
+        "standard_codes": [
+          "9수02-04"
+        ],
+        "question": "6(x−1)=4(x−1)+10을 전개하는 풀이와 (x−1)을 묶어 다루는 풀이의 첫 단계를 설명하라. 예를 가린 뒤 5(t+2)=3(t+2)+14를 풀고 첫 연산을 왜 택했는지 적어라.",
+        "expected": "전개하거나 양변에서 4(x−1)을 빼면 x=6이다. 새 식은 양변에서 3(t+2)를 빼면 2(t+2)=14이므로 t=5다. 전개하는 풀이도 타당하다.",
+        "interpretation": "예에서 전략을 알아보는 것과 새 식에서 직접 고르는 것을 구별한다. 자체 설계이며 학생 검증 대기다.",
+        "student_validated": false
+      },
+      {
+        "id": "IA-P9",
+        "standard_codes": [
+          "9수02-15",
+          "9수02-16"
+        ],
+        "question": "공방 이용료는 기본 2500원에 재료 한 세트당 700원을 더한 값이다. 세트 수가 0, 2, 4일 때의 이용료를 표로 쓰고 2세트에서 4세트로 갈 때 세트당 증가액을 말하라.",
+        "expected": "T=2500+700n에서 이용료는 2500원, 3900원, 5300원이다. 두 세트에 1400원이 늘므로 세트당 700원이다. 세트 수는 0 이상의 정수다.",
+        "interpretation": "기본 비용, 두 점 사이 변화율, 정수 입력과 그래프 선분을 구별한다. 자체 설계이며 학생 검증 대기다.",
+        "student_validated": false
+      }
+    ],
+    "reading_extension": {
+      "file": "data/literature_evidence/IES_ALGEBRA_2015_complete_visual_review_notes.json",
+      "sha256": "e2e6a55af6f440979e2fd52f1d72ce35626195a0a50189f55a9f5c760bb0ae7b"
+    },
+    "primary_source_crosschecks": [
+      {
+        "source_id": "RITTLE_JOHNSON_STAR_2009_EQUATION_COMPARISONS",
+        "claim_ids": [
+          "RJS-01",
+          "RJS-02",
+          "RJS-03"
+        ],
+        "snapshot_file": "data/literature_evidence/RITTLE_JOHNSON_STAR_2009_EQUATION_COMPARISONS_review_notes.json",
+        "snapshot_sha256": "998c0d6ad6fdcebcdb88eac6e23af4dcac74601516ab1462d2ab88d13807d997",
+        "guide_pdf_pages": [
+          61,
+          63
+        ],
+        "wwc_types_comparison": "https://ies.ed.gov/ncee/wwc/study/79862",
+        "author_conditions": {
+          "methods": 54,
+          "types": 56,
+          "equivalent": 52
+        },
+        "guide_methods_vs_equivalent": {
+          "immediate_analytic_n": [
+            98,
+            105
+          ],
+          "flexibility_domain_g": 0.36,
+          "flexibility_knowledge_g": 0.45,
+          "flexibility_use_g": 0.25,
+          "retention_flexibility_domain_g": 0.5
+        },
+        "guide_types_vs_equivalent": {
+          "immediate_analytic_n": [
+            101,
+            106
+          ],
+          "flexibility_domain_g": 0.35
+        },
+        "shared_comparison": true,
+        "same_analysis": false
+      },
+      {
+        "source_id": "RITTLE_JOHNSON_STAR_2007_EQUATION_METHODS",
+        "claim_ids": [
+          "RJS07-01",
+          "RJS07-02",
+          "RJS07-03"
+        ],
+        "snapshot_file": "data/literature_evidence/RITTLE_JOHNSON_STAR_2007_EQUATION_METHODS_review_notes.json",
+        "snapshot_sha256": "9352126799823aed3c1a9ac84d6ffa904d68c71933cb8f27f4ab0e41fda5d4f1",
+        "assigned_n": 70,
+        "assigned_pairs": [
+          18,
+          17
+        ],
+        "missing_posttest_n": 1,
+        "author_imputed_by": "regression single imputation with Stata 9 IMPUTE",
+        "wwc_n": 69,
+        "same_analysis": false,
+        "wwc_study_url": "https://ies.ed.gov/ncee/wwc/study/79861",
+        "guide_pdf_pages": [
+          61,
+          64,
+          70
+        ],
+        "comparison_description_conflict": true,
+        "author_sequential_worked_examples": 24,
+        "author_sequential_examples_per_sheet": 1,
+        "wwc_summary_sequential_worked_examples": 12,
+        "wwc_summary_sequential_examples_per_page": 2
+      },
+      {
+        "source_id": "RITTLE_JOHNSON_STAR_DURKIN_2009_PRIOR_ALGEBRA",
+        "claim_ids": [
+          "RJSD09-01",
+          "RJSD09-02",
+          "RJSD09-03"
+        ],
+        "snapshot_file": "data/literature_evidence/RITTLE_JOHNSON_STAR_DURKIN_2009_PRIOR_ALGEBRA_review_notes.json",
+        "snapshot_sha256": "7bbb40c470c1f4bec62b5afca96f69f7134af55bdaeeaa064fa0fca64af9c564",
+        "participated_n": 239,
+        "excluded": {
+          "missed_two_sessions": 1,
+          "declined_packets": 2
+        },
+        "author_analysis_n": 236,
+        "author_condition_n": {
+          "methods": 80,
+          "problem_types": 78,
+          "sequential": 78
+        },
+        "observed_pretest_attempt_pct": {
+          "at_least_once": 59,
+          "never": 41
+        },
+        "attempt_could_be_incorrect": true,
+        "guide_n": {
+          "attempted": 101,
+          "not_observed": 55
+        },
+        "guide_contrast": [
+          "methods",
+          "sequential"
+        ],
+        "same_analysis": false,
+        "guide_pdf_pages": [
+          62,
+          64
+        ],
+        "wwc_url": "https://ies.ed.gov/ncee/wwc/study/79863"
+      },
+      {
+        "source_id": "STAR_SEIFERT_2006_ALTERNATIVE_ORDER",
+        "claim_ids": [
+          "SS06-01",
+          "SS06-02",
+          "SS06-03"
+        ],
+        "snapshot_file": "data/literature_evidence/STAR_SEIFERT_2006_ALTERNATIVE_ORDER_review_notes.json",
+        "snapshot_sha256": "19e09b4b2076bc7130106b046cdfb62ea86450aaf37c21a2a6811b97a7778e1e",
+        "author_analyzed_n": [
+          17,
+          15
+        ],
+        "wwc_n": 32,
+        "same_sample_size": true,
+        "equivalent_outcome_report": false,
+        "guide_pdf_pages": [
+          63,
+          64
+        ],
+        "wwc_url": "https://ies.ed.gov/ncee/wwc/study/79838"
+      }
+    ],
+    "official_review_crosschecks": [
+      {
+        "source_id": "WWC_79864_EQUATION_COMPARISON_2012",
+        "claim_ids": [
+          "WWC79864-01",
+          "WWC79864-02"
+        ],
+        "snapshot_file": "data/literature_evidence/WWC_79864_EQUATION_COMPARISON_2012_review_notes.json",
+        "snapshot_sha256": "bcb750e7240cdb023e1a1e3414dc8c6536ed4eead36918bd1efe14bac88fac1e",
+        "article_total_assigned_n": 198,
+        "immediate_comparison_n": {
+          "1 Day": 124,
+          "1 Month": 118
+        },
+        "delayed_comparison_n": {
+          "2 Days": 115
+        },
+        "shared_comparison_group": true,
+        "article_full_text_obtained": false,
+        "official_html_rows": 10,
+        "guide_pdf_pages": [
+          62,
+          64
+        ],
+        "doi": "https://doi.org/10.1111/j.2044-8279.2011.02037.x"
+      }
+    ],
+    "findings_export_crosscheck": {
+      "source_id": "WWC_ALGEBRA_FINDINGS_EXPORT",
+      "claim_ids": [
+        "WAE01",
+        "WAE02",
+        "WAE03",
+        "WAE04",
+        "WAE05",
+        "WAE06",
+        "WAE07"
+      ],
+      "snapshot_file": "data/literature_evidence/WWC_ALGEBRA_FINDINGS_EXPORT_earlier_review_notes.json",
+      "snapshot_sha256": "fc9f4b6b420047c93696d1da851b38b8ee890c3a43e1b079be189b3bb558d4c9",
+      "study_ids": [
+        "79838",
+        "79861",
+        "79862",
+        "79863",
+        "79864",
+        "79868"
+      ],
+      "review_count": 21,
+      "finding_count": 50
+    }
+  },
+  "previous_bibliography": {
+    "id": "IES_ALGEBRA_2015",
+    "title": "Teaching Strategies for Improving Algebra Knowledge in Middle and High School Students",
+    "year": 2015,
+    "kind": "공식 교수 가이드",
+    "url": "https://ies.ed.gov/ncee/wwc/practiceguide/20",
+    "review_scope": "2019년 1월 개정 가이드 PDF 71쪽의 추출문과 전체 71판면을 대조했다. 이번에 남은 54판면을 읽었고 새 추출문 독해는 0쪽이다. 별도 공식 심사 프로토콜 v3.0은 기존 8쪽 추출문 독해 범위이며 판면 대조는 하지 않았다.",
+    "supports": [
+      "풀이 전략 비교",
+      "대수 표현의 구조 분석"
+    ],
+    "does_not_establish": "이 프로젝트의 개별 과제 효과와 진단 정확도",
+    "reviewed_edition": "January 2019 revised PDF; original release April 2015",
+    "next_review": "관련 도구 모음·영상, 별도 심사 프로토콜의 판면, WWC 3.0 일반 핸드북, 아직 대조하지 않은 개별 원논문·원자료, 외부 독립 검토와 실제 학생 반응은 후속 확인한다."
+  },
+  "previous_reading_extension": {
+    "file": "data/literature_evidence/IES_ALGEBRA_2015_complete_visual_review_notes.json",
+    "sha256": "e2e6a55af6f440979e2fd52f1d72ce35626195a0a50189f55a9f5c760bb0ae7b"
+  },
+  "reading_log": [
+    "PDF12–14,17–21. 목표별 풀이 예, 정답·오답의 병렬 배치, 학급·모둠·개인의 활동, 빈칸 풀이와 유사한 독립 연습을 대조했다.",
+    "PDF25,28–31. 자기 질문, 공유 변과 전체 넓이, 도형·식·그래프, 고정비와 단위당 비용, 모둠 안에서의 전략 설명을 대조했다.",
+    "PDF34,38–44. 같은 식의 다른 풀이와 서로 다른 연립식에 맞는 전략을 구별했다. 용어집의 타당성·효율·유연성·해집합을 확인했다.",
+    "PDF45–51. 부록 A의 권고 등급 기준, 저자와 지원 인력, 잠재적 이해관계 공개를 확인했다.",
+    "PDF55,58,61–63. 표 D.2–D.4의 나머지 연구 행에서 비교 조건·결과 영역·분석 인원과 각주를 읽었다. PDF57,64,70에서 정정 표기와 지연 검사 각주를 다시 확인했다.",
+    "PDF65–71. 참고문헌, 미주와 정정, 마지막 발간물 안내를 읽었다. 인용 원논문은 별도 출처로 대조한다.",
+    "공식 프로토콜 PDF1–8. 학년과 공개 자료 기준, 검색 용어·기간, 처치의 재현 조건, 결과 분류, 탈락·동등성, 즉시·지연 검사와 예비 설계 기준을 확인했다.",
+    "PDF1–8: 표지·표제·발행/공공영역 고지·목차·예 목록·개요를 판면으로 대조했다. 예 3.8은 목차와 본문 모두 인쇄33쪽(PDF39)이므로 쪽수 불일치로 기록하지 않는다.",
+    "PDF10–12·14–15·18–26: 목표별 풀이, 의도적으로 잘못된 학생 예, 불완전 예, 자기 질문, 식의 표현과 분배 도식·언어를 읽었다. 오답 예를 문헌의 계산 오류나 실제 학생 자료로 바꾸지 않는다. 예2.4 유리식 변형에는 원래 분모의 x≠±1 조건이 필요하다.",
+    "PDF30–36·39–47: 장애 상황별 지도, 협력 활동, 전략 비교·선택·정당화, 용어집과 근거 등급 정의를 읽었다. 모든 전략의 일시 숙달이나 무조건적 효율 우위를 요구하는 것으로 확대하지 않는다.",
+    "PDF49–54·56·59–60·64–69·71: 저자·지원 인력·이해관계, 부록 D와 표의 주석, 참고문헌·미주·발간물 안내를 읽었다. 표 D.2–D.4의 기존 비교 조건·유의성·영역/하위 결과·공유 대조군 해석을 유지한다.",
+    "검색 인용, 30개 집단설계 심사, 4개 단일사례 심사와 기준 충족15개 집단설계는 서로 다른 집계다. 미주50에서 Hutchinson1993이 집단·단일사례 양쪽 집계에 포함됨을 확인했다. 30+4를 고유 연구34개로 단정하지 않는다.",
+    "부록의 긍정·부정 효과 분류는 통계적 유의성 또는 실질적 중요성이다. 별표와 분류를 동일시하지 않는다. 개념/절차/유연성의 측정 중첩·즉시/지연 시점과 독립 적용을 구별한다.",
+    "프로토콜PDF1–3: 1993–2013년9월 검색 및 위원 예외, 영어 보고·임의 국가/수업 언어,6–12학년의 재현 가능한 지도법 범위를 읽었다. 포괄 교육과정·정책·학교개혁은 제외하며 브랜드 유무만으로 적격을 결정하지 않는다. 학생 수 없는 혼합 학년의50% 학년 규칙을 학생 수50%로 바꾸지 않는다.",
+    "PDF4–5: 보수적 탈락 경계와 분석 표본의 사전 동등성, 인구학적 차이의 별도 판단을 읽었다. 사전검사 공변량ANCOVA가 있어도 동등성 미확인 연구의 등급 기여와 WWC기준 충족은 같은 판정이 아니다.",
+    "PDF6–8: 개념·절차·유연성을 구별하며 불명확한 결과는 기본적으로 절차로 분류한다. 종료2주 이내 결과를 직후 범위로, 지연은2주–1개월·1–3·3–6·6개월 초과로 나누고 새 맥락 전이를 별도 기록한다. 교사 부여 성적은 직접 대수 결과가 아니다.",
+    "통계 조정·RD/SCD 시범 기준의 상당 부분은 별도 WWC3.0 일반 핸드북을 참조한다. 이8쪽 독해를 그 핸드북 전체 독해·현재 기준 검증으로 확대하지 않는다. Early2.1의 낙관적 탈락 경계와 이 문서의 보수적 경계를 혼용하지 않는다."
+  ],
+  "unread_followups": [
+    "관련 도구 모음·영상, 별도 심사 프로토콜의 판면, WWC 3.0 일반 핸드북, 아직 대조하지 않은 개별 원논문·원자료, 외부 독립 검토와 실제 학생 반응은 후속 확인한다."
+  ],
+  "discrepancies": [
+    "공식 소개 페이지의 관련 자료 소개에는 2014년 4월로 적혀 있다. 가이드 PDF3–4 및 공식 페이지 발행 표기는 2015년 4월이며 프로토콜 날짜는 2014년 3월 1일이다.",
+    "PDF70에서 Mevarech 2003 옆 괄호에는 권고3으로 적혔지만 인쇄 49·51쪽은 각각 권고1·2의 표다. 두 표의 해당 효과크기에는 유의 표시가 없다.",
+    "PDF57·59·70에서 Ives 2007의 개정 사항을 확인했다. 개정 표의 개념 1.36에는 유의 표시가 있고 절차 0.52에는 없다. 변경은 보조 결과와 미주 19·24·79도 포함한다.",
+    "PDF61·70에서 Rittle-Johnson·Star 2007의 개정 절차 지식 0.33에 유의 표시가 추가됐다. 유연성 영역 값 0.40과 하위 결과의 유의 표시는 별개다.",
+    "공식 PDF 표지·표제면(PDF1·3)의 보고서 번호는 NCEE 2015-4010이나 권장 인용문(PDF4)은 NCEE 2014-4333이다. PDF4의 발행·개정일은 2015년 4월·2019년 1월이다. 이 내부 표기 차이를 기록하며 번호의 연도를 발행연도로 대체하거나 공식 정오표·원인을 확인했다고 주장하지 않는다."
+  ],
+  "comparison_notes": [
+    "D.2 Carroll 1994 실험 2는 보충수업 학생 24명의 하루 비교다. 개념 지식 0.56에 유의 표시가 있고, 오류 감소가 양의 효과가 되도록 부호를 뒤집었다.",
+    "D.2와 D.3 Mevarech·Kramarski 2003은 122명의 풀이 예와 자기 질문 비교를 반대 방향에서 요약한다. 개념·절차의 −0.60·−0.47과 0.60·0.47은 같은 비교다.",
+    "D.3 Scheiter 외 32명은 같은 텍스트 풀이에 애니메이션을 더한 비교이고 절차 지식 0.87에 유의 표시가 있다. Xin 외 22명은 도식 기반 지도와 일반 전략의 비교이고 절차 지식 1.87에 유의 표시가 있다.",
+    "D.3 Akkus 외와 Brenner 외는 집단설계 기준을 충족하지 않았으나 권고 근거에 고려됐다. Brenner 외의 개념 지식 0.78에는 유의 표시가 있다.",
+    "D.4 Rittle-Johnson·Star 2009의 두 비교는 대조군을 공유한다. 같은 식의 두 방법 비교에서 즉시 유연성 지식 0.45는 유의, 유연성 사용 0.25는 비유의였다. 영역 값은 즉시 0.36, 지연 0.50이다.",
+    "D.4 Rittle-Johnson·Star·Durkin 2012의 124명 비교는 개념 −0.12, 절차 0.13, 유연성 0.37이며 유연성에 유의 표시가 있다. 다른 115명 비교의 −0.15에는 높은 탈락으로 유보가 붙었다.",
+    "D.4 Star·Rittle-Johnson 2008은 발견과 짧은 직접 설명을 공통 비교군과 별도로 비교했다. 유연성 영역 0.48·0.49와 각주 q·r의 하위 결과 유의 표기를 구별한다."
+  ],
+  "protocol": {
+    "url": "https://ies.ed.gov/ncee/wwc/Docs/ReferenceResources/wwc_algebra_pg_protocol_v3.0.pdf",
+    "version": "3.0",
+    "document_date": "2014-03-01",
+    "sha256": "bd35777b98f253a35f3967f76610a7b6094742e81a1119a1b60815c449d15853",
+    "pdf_pages": 8,
+    "text_pdf_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "visual_pdf_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "redistributed": false,
+    "search_through": "2013-09",
+    "first_search_year": 1993,
+    "panel_exceptions": true,
+    "eligibility": "영어로 공개된 6~12학년 연구와 재현 가능한 처치를 대상으로 했다. 수업 언어·지역은 영어권에 한정하지 않았다.",
+    "outcomes": "개념 지식과 절차 지식, 절차 유연성을 구분한다. 즉시 결과는 권고 등급에 반영하며 지연 및 전이 결과는 별도로 기록한다.",
+    "new_visual_pdf_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "new_text_pdf_pages": [],
+    "new_image_records": [
+      {
+        "pdf_page": 1,
+        "local_temporary_file": "tmp/literature/guide-visual-closure-20261118/algebra_protocol/page-001.png",
+        "sha256": "23671d3f8cf84a1192d731bf6cb0951bda4285eb11663f06485fe338ba5126f3"
+      },
+      {
+        "pdf_page": 2,
+        "local_temporary_file": "tmp/literature/guide-visual-closure-20261118/algebra_protocol/page-002.png",
+        "sha256": "559ec71d85e536f553c81fe71e7fbc252f80316d5e0d05604463c0f127042ef8"
+      },
+      {
+        "pdf_page": 3,
+        "local_temporary_file": "tmp/literature/guide-visual-closure-20261118/algebra_protocol/page-003.png",
+        "sha256": "44d76467f4a69efe5457791e60cb4d04dc91e00216ef31285c6a6657a5a9eb31"
+      },
+      {
+        "pdf_page": 4,
+        "local_temporary_file": "tmp/literature/guide-visual-closure-20261118/algebra_protocol/page-004.png",
+        "sha256": "d37c7a386b4361ea78f4e2be15064a460de2f3068d719b1f7fc291c884d98919"
+      },
+      {
+        "pdf_page": 5,
+        "local_temporary_file": "tmp/literature/guide-visual-closure-20261118/algebra_protocol/page-005.png",
+        "sha256": "075398f0096ce1d53232060ec46cf4e2352beaacb63d2e8fec26eec6713f2e7b"
+      },
+      {
+        "pdf_page": 6,
+        "local_temporary_file": "tmp/literature/guide-visual-closure-20261118/algebra_protocol/page-006.png",
+        "sha256": "15b8e03ef75744104dfd654e3b6ee8019e6818306ff24ab1096d5265f0cdc8ec"
+      },
+      {
+        "pdf_page": 7,
+        "local_temporary_file": "tmp/literature/guide-visual-closure-20261118/algebra_protocol/page-007.png",
+        "sha256": "17910fc656fcac3c578ae0dc59491243e8a75d43b539cc95cbd617cbefa4f424"
+      },
+      {
+        "pdf_page": 8,
+        "local_temporary_file": "tmp/literature/guide-visual-closure-20261118/algebra_protocol/page-008.png",
+        "sha256": "76a3c189ff9f7a0958cc35f6d5a2f6dc8c4e64cd8d3fe407e1cb27b9ccb87c25"
+      }
+    ],
+    "reading_log": [
+      "프로토콜PDF1–3: 1993–2013년9월 검색 및 위원 예외, 영어 보고·임의 국가/수업 언어,6–12학년의 재현 가능한 지도법 범위를 읽었다. 포괄 교육과정·정책·학교개혁은 제외하며 브랜드 유무만으로 적격을 결정하지 않는다. 학생 수 없는 혼합 학년의50% 학년 규칙을 학생 수50%로 바꾸지 않는다.",
+      "PDF4–5: 보수적 탈락 경계와 분석 표본의 사전 동등성, 인구학적 차이의 별도 판단을 읽었다. 사전검사 공변량ANCOVA가 있어도 동등성 미확인 연구의 등급 기여와 WWC기준 충족은 같은 판정이 아니다.",
+      "PDF6–8: 개념·절차·유연성을 구별하며 불명확한 결과는 기본적으로 절차로 분류한다. 종료2주 이내 결과를 직후 범위로, 지연은2주–1개월·1–3·3–6·6개월 초과로 나누고 새 맥락 전이를 별도 기록한다. 교사 부여 성적은 직접 대수 결과가 아니다.",
+      "통계 조정·RD/SCD 시범 기준의 상당 부분은 별도 WWC3.0 일반 핸드북을 참조한다. 이8쪽 독해를 그 핸드북 전체 독해·현재 기준 검증으로 확대하지 않는다. Early2.1의 낙관적 탈락 경계와 이 문서의 보수적 경계를 혼용하지 않는다."
+    ]
+  },
+  "table_inventory": [
+    "1",
+    "A.1",
+    "D.1",
+    "D.2",
+    "D.3",
+    "D.4"
+  ],
+  "numbered_example_count": 30,
+  "official_erratum_or_cause_verified": false,
+  "all_cited_originals_read": false,
+  "independent_review": false,
+  "student_validated": false,
+  "new_image_records": []
+}

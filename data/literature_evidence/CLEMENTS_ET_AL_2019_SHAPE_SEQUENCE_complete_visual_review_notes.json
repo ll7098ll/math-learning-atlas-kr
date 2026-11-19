@@ -1,0 +1,320 @@
+{
+  "source_id": "CLEMENTS_ET_AL_2019_SHAPE_SEQUENCE",
+  "source_url": "https://doi.org/10.3102/0002831219842788",
+  "date": "2026-11-18",
+  "reviewer": "Codex",
+  "source_asset_kind": "pdf",
+  "source_pdf_sha256": "d1b814d20bd1e9b1d6e85ff9f1d5fa0e9e1dbca65be511155445efc6f7d6788d",
+  "source_pdf_redistributed": false,
+  "contains_source_full_text": false,
+  "read_scope": "ERIC의 출판 형식 PDF22쪽 전체 본문·표·그림·참고문헌을 실제 판면으로 읽었다. 이전 선정9쪽의 관련 추출문 대조는 보존하며 이번 새 전문 추출문 독해는0쪽이다. 기존6판면과 새16판면을 합친 범위다. 그림1의 이어지는 두 판면·그림2·표1–2·연구비/이해관계 주를 포함한다.",
+  "empirical_scope": {
+    "design": "within_classroom_randomized_small_group_shape_composition_comparison",
+    "sample_description": "15개 교실에서 소집단을 조건에 무작위 배정했다. 동의152명 중 배정 전1명과 배정 후 사후자료6명을 제외해 순서 지도82명·목표 수준 지도63명,145명을 분석했다.",
+    "inference_limit": "15개 유아 교실에서 소집단을 조건에 배정한5주간 두 활성 지도 조건의 비교다. 순서와 난도를 낮추는 비계가 함께 달라 각 요소의 독립 효과가 아니다. 결과는 정답·과정 행동을 포함한Rasch척도이며 무처치 대비 전체 효과·장기 유지·모든 공간 과제의 전이·국내 과제 효과를 확인하지 않았다. 비유의 조절변수는 모든 집단의 동일 효과를 입증하지 않으며 단계 순서가 모든 경우의 필요조건은 아니다.",
+    "student_outcome_study": true,
+    "causal_effect_established": true,
+    "local_effect_tested": false
+  },
+  "pdf_url": "https://files.eric.ed.gov/fulltext/EJ1234710.pdf",
+  "publisher_url": "https://journals.sagepub.com/doi/10.3102/0002831219842788",
+  "pdf_pages": 22,
+  "printed_pages": [
+    2509,
+    2530
+  ],
+  "selected_text_pages": [
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+  ],
+  "visual_pdf_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22
+  ],
+  "rendered_page_sha256": {
+    "1": "fa4348cddbc10ca073723dcc80030d2b096d022796eec1d2ebab0672e43ea3d3",
+    "2": "5571f1d604061427ef289b9e1651ff328e5cd8ca73c72c760f42afb08263fc5f",
+    "3": "ba8359c5e32cedeac8f3638e330b36232ea3763c59e904a301a6f716c3f3fd64",
+    "4": "3f1a42a98624fd88970b5a62d9c43c9f1d0d607b400f20d45892df9299c1f4b6",
+    "5": "c1203b5c8837b0a9bb74d4baf5fa4f2bdaedc697fd41f70c6ab4744325b7b5f3",
+    "6": "3744dc4447a6a9cf9562710a592b70735c23f0cb8b82e9480039dfa9f4394bea",
+    "7": "8e2516858cb237d3f6d8311a6bc757dbbb621199b67693ccc30501e4d966c67b",
+    "8": "11019b885973d804f2f31f25eb1ae348d58c0f7c1aeecbb94f4ad0c3a3633a4c",
+    "9": "b86c62b90f1db6a4ea6bf56aaa68e106e691a8d598909ca9f0adc71fcf11e1f3",
+    "10": "eca89d8adc58ac3c8f30b0f014b71a8204244838dee7f2d4bf199bb75e076b34",
+    "11": "c2f2d9b34625a0eb99136870d95449d50a5250f7fe6762b056b9ae7ed6435f00",
+    "12": "ba0b13afa6ad9adf44484077c14344d4b7826b65c32df8eac491829ad670eebe",
+    "13": "163f63e604ad62ea8f5a51d2380d89c0c72bf7e8f19fccd4a85ed259d2963e04",
+    "14": "4e0f119567b30b950213187fc1eef87f674ad3bf21cb7cd71d7229fca3f1920b",
+    "15": "cb3757066218a74d14108f6bcaa9580450bcff7c4283c882f0c483a780f02334",
+    "16": "9b077acb9326e060cd3f8f073eb4eb79cd8db6de528621abfb9a8ed490a1af79",
+    "17": "daa063174993388a1694b180742cadd521b8773b413eca33053840685a4ad980",
+    "18": "b24435662218fef39aa5101a49c33b1270925a55e7e9e01cd6cf70af06906b5d",
+    "19": "d33387f1002376e798eb4cba5fe1cf435a695b416c607b38dc93015b09d8e081",
+    "20": "5193a069094d39607321c285444d3c93c9401698ef5a07d01d79612fd5ef6491",
+    "21": "1ff78617499b4b2dabc4cc836465b80b83e952f9317d9a6525603d9b54b86e91",
+    "22": "a472fa528b88d570a9281af4c6aa24e4eac2f159d22aed536802dcc8d3dd3113"
+  },
+  "results": {
+    "counts": {
+      "consented": 152,
+      "before_assignment_excluded": 1,
+      "after_assignment_excluded": [
+        2,
+        4
+      ],
+      "analyzed": [
+        82,
+        63
+      ]
+    },
+    "main_model": {
+      "g": 0.55,
+      "p": 0.003
+    },
+    "item_1_complete_correct_counts": [
+      44,
+      23
+    ],
+    "item_1_complete_correct_percent_as_printed": [
+      59,
+      35
+    ],
+    "item_1_rotation_strategy_post_mean": [
+      1.47,
+      1.3
+    ]
+  },
+  "reading_log": [
+    "출판판 인쇄 2517~2525쪽의 방법·결과·논의 관련 문단과 그림 2·표 1~2를 읽었다. 표본·루브릭·결과의 주요 판면을 이미지로 대조했다.",
+    "분모와 비교 조건을 확인하고 전체 모형과 과제별 관찰을 구분했다.",
+    "PDF1–4 실제 판면을 읽었다. 표제·2019권호·초록·3요소·사고 수준과연령단계의차이·최초72명면담등은이론/선행연구와현재실험으로구별한다. n기호는현재수준/그림의목표수준문맥을나누어읽었다.",
+    "PDF5–8 실제 판면을 읽었다. 그림1은5–6의두판면에걸친표형그림이다. 조각/그림/합성/대체단계와안쪽선의소거·변/각·회전·뒤집기·선택을구별했다.5쪽Poppler1900렌더가계속계산하는동안기존저해상도이미지를먼저봤고PDFium5.13.0의1900px대체렌더를만든뒤전체표를다시읽었다. 이는같은1판면이며추가쪽으로세지않는다.",
+    "PDF9–11 실제 판면을 읽었다.152동의–배정전1제외–배정후6제외=145분석(82/63)이다. 그림2의정확성0/1/2·NR와전략별무응답9를구별한다. 본문의dichotomous명칭·표1제목·partial-credit모형의범위를마음대로통합하지않는다.9를전략최고점으로평균하지않으며전략NR처리법전체를추정하지않는다. 양조건모두격려·퍼즐교체가가능하나LT만수준을낮추는안쪽선비계를허용했다.",
+    "PDF12–13 실제 판면을 읽었다. 각교실에서아동을소집단으로무작위구성후소집단을조건에배정했다. 교실/소집단/아동의층위를구별한다.5주중1–10회(M8.07,SD1.51)·회당8.59분에는도입/전환이포함된다. 계층모형g.55,p.003은두활성조건의비교이며정규무처치조건이없다. ICC24%를대다수분산이라고부르는본문은수치상과반과다르다. 사전p.828을동등성증명으로해석하지않는다.",
+    "PDF14–16 실제 판면과표2를읽었다.14쪽의44(59%)/23(35%)와3(4%)/9(13%)를표시대로보존하고조건별82/63분모와구별한다.15쪽회전표는PDFium으로방향을바꾼추가이미지를만들어행/열을재대조했다(새쪽0). 문항1–3의가까운전이·4–8중간전이·9–10먼전이는다른척도/조건이다.7/8은사후전용이므로빈사전칸을0이나성장값으로바꾸지않는다.",
+    "PDF17–18 실제 논의·한계·연구비/이해관계·감사를읽었다. 먼전이비유의는동등성입증이아니며비유의조절변수가모든집단의동일효과를뜻하지않는다. 좌절은현장노트관찰이고체계적정서코딩은후속계획이다.원연구독립기관감사를우리자료외부검토로세지않는다. 저자는순서가도움되지만필수조건은아니라고명시하며다른주제/연령은미확인이다.",
+    "PDF19–22 실제 참고문헌·접수2018-01-28/최종수정2019-01-31/수락2019-03-18을읽었다. 서지를읽은것은인용원문전체대조가아니다. 전22판면(기존6+새16)을실제로읽었고새전문추출문독해는0쪽이다."
+  ],
+  "source_corrections": [
+    {
+      "location": "인쇄 2522쪽 문항 1 설명",
+      "issue": "완전 정답 44명(59%)·23명(35%)은 전체 조건별 82명·63명을 분모로 계산한 비율과 맞지 않는다. 문항별 분모를 추정하지 않고 개수·백분율·전체 분석 인원을 분리한다."
+    },
+    {
+      "location": "인쇄 2518·2521쪽 그림 2와 표 1",
+      "issue": "그림 2 문항 1A 판면에 오답·부분 정답·완전 정답이 있다. 표 1 제목과 본문에서 정답·과정을 사용하는 범위가 다르게 표현된다. 코딩, 기술통계와 전체 모형의 수치를 구분한다."
+    },
+    {
+      "location": "본문PDF13",
+      "issue": "ICC24%는수치상과반이아니다. 군집구조·추정치와효과크기g를서로바꾸지않는다.",
+      "status": "numerical_language_scope"
+    },
+    {
+      "location": "본문PDF14",
+      "issue": "ICC24%를 대다수 분산이라 부르는 문구는 수치상 과반과 다르다. 문항1의44(59%)/23(35%)와3(4%)/9(13%)를 표시대로 보존한다. 가장 가까운 정수 백분율로 반올림했다는 가정에서skip의9/13%와23/35%는 공통 정수 분모가 없으며23/35%분모65/66도전체분석63보다크다. 저자의 실제 반올림·가중·문항별 분석 분모는 확인하지 못했다.",
+      "status": "rounding_assumption_check_without_raw_item_denominators"
+    }
+  ],
+  "previous_review": {
+    "source_id": "CLEMENTS_ET_AL_2019_SHAPE_SEQUENCE",
+    "state": "self_read_claim_mapping",
+    "reviewer": "Codex",
+    "date": "2026-11-09",
+    "snapshot_kind": "authored_review_notes",
+    "source_asset_kind": "pdf",
+    "source_pdf_sha256": "d1b814d20bd1e9b1d6e85ff9f1d5fa0e9e1dbca65be511155445efc6f7d6788d",
+    "snapshot_file": "data/literature_evidence/CLEMENTS_ET_AL_2019_SHAPE_SEQUENCE_review_notes.json",
+    "snapshot_sha256": "fcb09a2d57280e46aecfb9693ba34c838ba091361c1c0588a8a3a86f8c73bddd",
+    "redistribution_license": "workspace_authored_notes",
+    "bibliography_snapshot": "7aad6af693a098757bbf3e263d395144373a7dc15895e4f4fe78a86f435c2782",
+    "display": {
+      "title": "Evaluating the Efficacy of a Learning Trajectory for Early Shape Composition",
+      "url": "https://doi.org/10.3102/0002831219842788",
+      "authors_year": "Clements 외, 2019"
+    },
+    "read_scope": "출판판 인쇄 2517~2525쪽의 방법·결과·논의 관련 문단과 그림 2·표 1~2를 읽었다. 표본·루브릭·결과의 주요 판면을 이미지로 대조했다.",
+    "scope_note": "해당 영역에서 실제 제공한 지도 조건과 결과를 연결한다.",
+    "method_note": "출판판의 방법·표·그림과 대상 성취기준의 수행 범위를 대조했다.",
+    "limits": "유아의 평면 퍼즐 구성에 대한 단기 소집단 비교다. 목표 수준 도달 및 전략을 국내 성취기준 전체, 정신적 변환 전반, 고정된 선수관계로 확대할 수 없다.",
+    "empirical_scope": {
+      "design": "within_classroom_randomized_small_group_shape_composition_comparison",
+      "sample_description": "15개 유아 교실의 동의 아동 152명 중 배정 전 1명, 배정 후 사후자료 6명을 제외했다. 순서 중재 82명과 목표 수준 직접 지도 63명을 분석했다.",
+      "inference_limit": "유아의 평면 퍼즐 구성에 대한 단기 소집단 비교다. 목표 수준 도달 및 전략을 국내 성취기준 전체, 정신적 변환 전반, 고정된 선수관계로 확대할 수 없다.",
+      "student_outcome_study": true,
+      "causal_effect_established": true,
+      "local_effect_tested": false
+    },
+    "independent_review": false,
+    "student_validated": false,
+    "editorial_action": "문헌 대응 4건을 추가했다.",
+    "observations": []
+  },
+  "previous_snapshot_file": "data/literature_evidence/CLEMENTS_ET_AL_2019_SHAPE_SEQUENCE_review_notes.json",
+  "previous_snapshot_sha256": "fcb09a2d57280e46aecfb9693ba34c838ba091361c1c0588a8a3a86f8c73bddd",
+  "previous_rendered_page_sha256": {
+    "9": "c01124b02ea632f5ee994f461c80f72d72e4241c8f3eb47aad97f03667caf961",
+    "10": "85bec7807bb921d444171af3e1e42bb3ea9f74a7f0baa07a9e219dc33f966ea2",
+    "13": "99a29b11270ee92ef6f0963e7df41357892392a9e498bc1dacab675fc8f486ca",
+    "14": "ddaa13d41e59e73a5e822d3cae8a1b04b9c2e5e6d7a239cd32790c5123dcd565",
+    "15": "739896301aec16b243160974249da5e275225c9b2ea7938290caa522d40124f6",
+    "16": "0eab912105a0e932361c92421541d17a7b03179c921dd4fcdf2f9612035f58e9"
+  },
+  "new_visual_pdf_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    11,
+    12,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22
+  ],
+  "new_text_pdf_pages": [],
+  "new_full_extracted_text_pages": 0,
+  "whole_article_visual_read": true,
+  "exact_own_checks": {
+    "status": "pass",
+    "data_kind": "displayed source aggregates plus explicitly synthetic counterexamples",
+    "length_posttest_n": 185,
+    "length_school_counts_table1": [
+      150,
+      37
+    ],
+    "length_school_counts_prose": [
+      52,
+      135
+    ],
+    "table4_count39_of185_percent_nearest_cent": "21.08",
+    "printed_table4_percent": "20.08",
+    "shape_rounding_assumption": "nearest whole percent;not established author rounding policy",
+    "shape_complete_correct_compatible_n": {
+      "LT": [
+        74,
+        75
+      ],
+      "skip": [
+        65,
+        66
+      ]
+    },
+    "skip_incorrect_compatible_n": [
+      67,
+      68,
+      69,
+      70,
+      71,
+      72
+    ],
+    "common_skip_item_denominator_under_rounding_assumption": false,
+    "all_prior_levels_required_in_starting_rule": true,
+    "waic_direction_reference": "https://mc-stan.org/loo/reference/waic.html",
+    "waic_minimizes_negative_twice_elpd": true,
+    "median_contrast_not_forced_to_difference_of_medians": true,
+    "missing_strategy_code_not_numeric_score": true,
+    "descriptive_far_transfer_change_contrasts": [
+      "-7/100",
+      "1/50"
+    ],
+    "icc24_percent_is_majority": false,
+    "original_child_data_reconstructed": false,
+    "model_reestimated": false,
+    "official_erratum_verified": false
+  },
+  "publisher_direct_binary_obtained": false,
+  "publisher_binary_fidelity_verified": false,
+  "raw_student_data_read": false,
+  "all_cited_originals_read": false,
+  "official_erratum_verified": false,
+  "independent_review": false,
+  "student_validated": false,
+  "renderer_overrides": {
+    "5": "pypdfium2 5.13.0 1900px"
+  },
+  "table2_orientation_image": {
+    "pdf_page": 15,
+    "sha256": "29ce9e3042888588b6b095eb8360b4c74bbdf87387822ec37f90484c1419662f",
+    "new_page_count": 0,
+    "previous_upside_down_sha256": "bbacd488376d7093a45948549376e70b3be7cfcfc1902003924d713863472a43"
+  },
+  "rendering_note": "기본1900px Poppler에서5쪽 계산이 끝나지 않아 해당 쪽은pypdfium2 5.13.0의1900px대체 판면으로 읽었다. 대체 확인 후 자신이 실행한 해당 작업 프로세스만 종료했고 사용자 프로세스는 중지하지 않았다. 원인과 엔진간 픽셀 동일성은 미확인이다.",
+  "audit_findings": [
+    {
+      "pdf_pages": [
+        9,
+        12,
+        13
+      ],
+      "finding": "소집단을 교실 안에서 조건에 배정한 군집 비교다. 동의/배정/분석 인원과 교실/소집단/아동 층위를 구별한다. 무처치 조건이 없으며 사전 점수를 통제한 두 활성 조건의g=.55,p=.003을 전체 교육 효과로 읽지 않는다."
+    },
+    {
+      "pdf_pages": [
+        10,
+        11,
+        13,
+        15
+      ],
+      "finding": "그림2정확성은0/1/2와NR,전략에는9=무응답을 쓴다. 본문의이진 명칭·표1정확성 제목·정답/과정 포함Rasch부분점수 설명을 원자료 없이 한 코딩으로 복원하지 않는다.9는 최고 전략 점수가 아니다. 전략의9처리 방법 전체는 미확인이다."
+    },
+    {
+      "pdf_pages": [
+        13,
+        14
+      ],
+      "finding": "ICC24%를 대다수 분산이라 부르는 문구는 수치상 과반과 다르다. 문항1의44(59%)/23(35%)와3(4%)/9(13%)를 표시대로 보존한다. 가장 가까운 정수 백분율로 반올림했다는 가정에서skip의9/13%와23/35%는 공통 정수 분모가 없으며23/35%분모65/66도전체분석63보다크다. 저자의 실제 반올림·가중·문항별 분석 분모는 확인하지 못했다."
+    },
+    {
+      "pdf_pages": [
+        14,
+        15,
+        17,
+        18
+      ],
+      "finding": "문항7·8은사후전용이므로빈사전칸은0이나변화점수가아니다. 문항9와10의인쇄평균변화대비는각각-.07/.02지만원반응·표준오차나인과효과를재추정한값이아니다. 먼전이/조절효과 비유의는 동등성 입증이 아니다. 좌절은현장노트 관찰이고체계적정서코딩은후속계획이다."
+    },
+    {
+      "pdf_pages": [
+        11,
+        12,
+        17,
+        18
+      ],
+      "finding": "양조건모두격려와적절한퍼즐교체를허용했다. LT만난도를낮추는비계를허용해순서만의독립효과가아니다. 회기수1–10과평균회기수8.07·회당8.59분에는도입/전환이포함된다. 저자는순서가유용해도모든경우필요하지않다고명시한다."
+    }
+  ]
+}

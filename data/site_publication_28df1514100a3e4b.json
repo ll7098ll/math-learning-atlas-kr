@@ -1,0 +1,94 @@
+{
+  "saved": {
+    "id": "appgprj_6ae2965054108191ad7dc71524bb7cfb~appgver_1e4fe2b26be08191993ea2efd5248725",
+    "project_id": "appgprj_6ae2965054108191ad7dc71524bb7cfb",
+    "version_number": 94,
+    "source": {
+      "commit_sha": "be0883c87e44cc28ce1d2cc5b297e8a0eb6e69d6"
+    },
+    "archive_storage": {
+      "archive_format": "tar",
+      "sediment_file_id": "file_0000000096548211b51789c3daf5eb9a",
+      "content_hash": "sha256:cc37cdaec86f01948184c34dc7430ce05b2de8e4942e31a39e073bf5163d98d6",
+      "size_bytes": 202321920,
+      "file_count": 1416
+    },
+    "screenshot_url": null,
+    "deployment_id": null
+  },
+  "deployment": {
+    "id": "appgdep_6afd40a899708191bf727dae9286225f",
+    "project_id": "appgprj_6ae2965054108191ad7dc71524bb7cfb",
+    "title": "수학의 연결 지도",
+    "version_id": "appgprj_6ae2965054108191ad7dc71524bb7cfb~appgver_1e4fe2b26be08191993ea2efd5248725",
+    "type": "publish",
+    "status": "succeeded",
+    "url": "https://math-learning-atlas-kr.gptpro2908176.chatgpt.site",
+    "has_mcp": false,
+    "screenshot_asset_pointer": null,
+    "provider_deployment_id": "site---6ae2965054108191ad7dc71524bb7cfb",
+    "failure_message": null,
+    "env_set_revision": 0,
+    "updated_at": "2026-11-18T06:08:39.094416+00:00"
+  },
+  "package": {
+    "status": "pass",
+    "source": {
+      "project_id": "appgprj_6ae2965054108191ad7dc71524bb7cfb",
+      "commit_sha": "be0883c87e44cc28ce1d2cc5b297e8a0eb6e69d6"
+    },
+    "archive": {
+      "path": "C:\\Users\\User\\Desktop\\codex\\수학 내용 체계\\tmp\\math-atlas-publish-20261118-28df1514100a3e4b.tar.gz",
+      "files": 1416,
+      "bytes": 56611389,
+      "expanded_bytes": 200939520,
+      "sha256": "a908e8bdfc9ca2a616419a1b3ea7d8c4e7d0216529c26731739bceabc5807e4d"
+    },
+    "protected_paths_verified": 919,
+    "omitted_unreferenced_historical_files": 11947,
+    "retained_snapshots": [
+      "current_28df1514100a3e4b"
+    ],
+    "previous_public_recovery": {
+      "version_number": 93,
+      "version_id": "appgprj_6ae2965054108191ad7dc71524bb7cfb~appgver_cd1c9522316c8191920db045c4b97a61",
+      "commit_sha": "a6581045225ffd639a66290353a132abcf39181b",
+      "saved_archive_intact": true,
+      "referenced_recovery_graphs_retained": true,
+      "prior_reversible_archive_history_file": "data/portal_asset_archive_history.json",
+      "this_release_archived_static_files": 0
+    },
+    "supported_helper_observation": {
+      "project_id": "appgprj_6ae2965054108191ad7dc71524bb7cfb",
+      "supported_helper_session_id": 51768,
+      "terminal_exit_code": 1,
+      "terminal_message": "Unable to package the Site archive.\nSite preparation command failed.",
+      "observed_local_commit_sha": "be0883c87e44cc28ce1d2cc5b297e8a0eb6e69d6",
+      "working_tree_clean_after_helper": true,
+      "packaging_success": false,
+      "root_cause_verified": false,
+      "source_push_requires_fresh_remote_verification": false,
+      "source_push_verified": true,
+      "fresh_remote_open_session_id": 85017,
+      "fresh_remote_open_commit_sha": "be0883c87e44cc28ce1d2cc5b297e8a0eb6e69d6",
+      "head_matches_fetch_head": true,
+      "fallback": "Verify every pushed Git blob and package complete current static dependency graph.0Sites files moved/deleted. Separate GitHub local snapshot replacement copied a verified backup and moved919obsolete files into that backup;0deletions."
+    },
+    "method": "Complete current static dependency graph,plus hosting metadata. Every file is verified against pushed Git blobs and reread from USTAR. Historical unreferenced copies omitted only from the archive;0files moved/deleted. The related Sood article PDF/images and GAISE official comparison PDFs/images remain private and are not redistributed. Authored research notes are retained in the pushed research source,not the static dist archive. Earlier licensed guide PDFs remain in pushed research source. All prior saved recovery archives preserved."
+  },
+  "live_check": {
+    "status": "pass",
+    "url": "https://math-learning-atlas-kr.gptpro2908176.chatgpt.site",
+    "data_version": "28df1514100a3e4b",
+    "resources_checked": 162,
+    "affected_standards": 33,
+    "added_claims": 0,
+    "added_observations": 0,
+    "changed_prior_claims": 0,
+    "changed_prior_observations": 0,
+    "cumulative_source_claims": 39,
+    "cumulative_source_observations": 33,
+    "scope": "HTTP bytes match checked local content,allowing only hosting challenge script. GAISE126page named-renderer equivalence,0new reading;not binary/annotation/accessibility proof. Sood2015related article18visual/1extracted;2009thesis and exact sample/errata unverified. All1055claims/1238tasks/875context interpretations retained. Human0/0,browser unverified,goal active;0Sites files moved/deleted."
+  },
+  "note": "Post-publication receipts updated locally after the pushed source/archive; content data unchanged. This does not claim receipt metadata was part of that earlier archive."
+}

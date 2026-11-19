@@ -1,13 +1,13 @@
 {
-  "date": "2026-11-18",
+  "date": "2026-11-19",
   "kind": "structural_and_direction_reconciliation",
   "interpretation": "원장·생성 자료와 목표별 연결의 범위·방향을 대조한다. 역방향 충돌이 없다는 사실만으로 모든 연결의 수학적 타당성·필수 선수성·수업 효과가 증명되는 것은 아니다.",
-  "catalog_version": "c7e86e2fa1af547e",
-  "task_dataset_version": "1eb09e3dfdcd4f6d",
-  "graph_hash": "5f0e61222e148413ebc5adf3a0baa6f36d697e971c487b1ed92e9e26c78774c9",
+  "catalog_version": "a60e4950c4583869",
+  "task_dataset_version": "c40e20a8f9c5372d",
+  "graph_hash": "78204414d17f938688941d936ce26fc0ecbcf5593b1ba42216f6d641184e5c00",
   "source_hashes": {
     "data/standards.json": "b50696da3a2bdfb2ab41b49fb66049c407909312436eb8c4529de935b0d8ea79",
-    "data/revised_relations.json": "bebd24aaee94d80f3830eceebed0dde969aa5e13b0932162321da3017927cc8b",
+    "data/revised_relations.json": "80dc8755b9678ea4d2ad62f7f788517d64cc9533a1e672c0e3b22c3c3464a688",
     "data/goal_hierarchy_algebra_calculus_one.json": "705b28666f71748e414f98f45b92dc4d8286ea22ee4e53ca8c001b5661d08435",
     "data/goal_hierarchy_calculus_two_geometry.json": "5b3f212b6608564385fdee78ec22cd56489abffede266df4a328e8cd565a44ab",
     "data/goal_hierarchy_common_basic_one.json": "2e69329addfc7e94034100808a266b0090ce6b063758e84c1580ff3f6e66488e",

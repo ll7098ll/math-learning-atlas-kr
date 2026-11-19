@@ -1,0 +1,98 @@
+{
+  "saved": {
+    "id": "appgprj_6ae2965054108191ad7dc71524bb7cfb~appgver_9a422cec970481919f0e2ecd77999651",
+    "project_id": "appgprj_6ae2965054108191ad7dc71524bb7cfb",
+    "version_number": 101,
+    "source": {
+      "commit_sha": "0e028ce166768e406287b547b6d3cea626cf8452"
+    },
+    "archive_storage": {
+      "archive_format": "tar",
+      "sediment_file_id": "file_00000000dca48209b1932527d57283af",
+      "content_hash": "sha256:a388dd3a6b17739d6f0ee6874c7ff4d1d64eb10205f6213e2dacd19551f4a81d",
+      "size_bytes": 204062720,
+      "file_count": 1416
+    },
+    "screenshot_url": null,
+    "deployment_id": null
+  },
+  "deployment": {
+    "id": "appgdep_6afe4e997c7881918383d9d8b5db148e",
+    "project_id": "appgprj_6ae2965054108191ad7dc71524bb7cfb",
+    "title": "수학의 연결 지도",
+    "version_id": "appgprj_6ae2965054108191ad7dc71524bb7cfb~appgver_9a422cec970481919f0e2ecd77999651",
+    "type": "publish",
+    "status": "succeeded",
+    "url": "https://math-learning-atlas-kr.gptpro2908176.chatgpt.site",
+    "has_mcp": false,
+    "screenshot_asset_pointer": null,
+    "provider_deployment_id": "site---6ae2965054108191ad7dc71524bb7cfb",
+    "failure_message": null,
+    "env_set_revision": 0,
+    "updated_at": "2026-11-19T01:20:00.090800+00:00"
+  },
+  "package": {
+    "status": "pass",
+    "source": {
+      "project_id": "appgprj_6ae2965054108191ad7dc71524bb7cfb",
+      "commit_sha": "0e028ce166768e406287b547b6d3cea626cf8452"
+    },
+    "archive": {
+      "path": "C:\\Users\\User\\Desktop\\codex\\수학 내용 체계\\tmp\\math-atlas-publish-20261119-34f27c474a6c72fb.tar.gz",
+      "files": 1416,
+      "bytes": 57198296,
+      "expanded_bytes": 202670080,
+      "sha256": "4c50b1f84e5b794a540c21690dadeae38a3605a6e31800ac5b1268c8bc72d8bb"
+    },
+    "protected_paths_verified": 919,
+    "omitted_unreferenced_historical_files": 19299,
+    "retained_snapshots": [
+      "current_34f27c474a6c72fb"
+    ],
+    "previous_public_recovery": {
+      "version_number": 100,
+      "version_id": "appgprj_6ae2965054108191ad7dc71524bb7cfb~appgver_9cd4a40e97c88191a9b474185f6e595f",
+      "commit_sha": "3bf7998b235c85af36cc53141421becb598b506f",
+      "saved_archive_intact": true,
+      "referenced_recovery_graphs_retained": true,
+      "prior_reversible_archive_history_file": "data/portal_asset_archive_history.json",
+      "this_release_archived_static_files": 0
+    },
+    "supported_helper_observation": {
+      "project_id": "appgprj_6ae2965054108191ad7dc71524bb7cfb",
+      "date_kst": "2026-11-19",
+      "plugin_version": "1.1.7",
+      "opening_commit_sha": "3bf7998b235c85af36cc53141421becb598b506f",
+      "supported_helper_session_id": 89741,
+      "exit_code": 1,
+      "message": "Unable to package the Site archive.",
+      "root_cause_verified": false,
+      "source_push_verified_from_this_error": false,
+      "prior_context_opening_session_id": 86264,
+      "prior_context_opening_was_fresh_fetch": false,
+      "initial_fallback_guard": "Stopped before packaging because HEAD differed from the stale FETCH_HEAD. No files were changed by that attempt.",
+      "fresh_supported_opening_session_id": 47446,
+      "fresh_supported_opening_exit_code": 0,
+      "fresh_remote_opening_commit_sha": "0e028ce166768e406287b547b6d3cea626cf8452",
+      "head_equals_fresh_fetch": true,
+      "working_tree_clean": true,
+      "source_push_verified_by_fresh_supported_opening": true
+    },
+    "method": "Complete current static dependency graph,plus hosting metadata. Every file is verified against pushed Git blobs and reread from USTAR. Historical unreferenced copies omitted only from the archive;0files moved/deleted. The MDRC report PDF and rendered images remain private and are not redistributed. Authored research notes are retained in the pushed research source,not the static dist archive. Earlier licensed guide PDFs remain in pushed research source. All prior saved recovery archives preserved."
+  },
+  "live_check": {
+    "status": "pass",
+    "url": "https://math-learning-atlas-kr.gptpro2908176.chatgpt.site",
+    "data_version": "34f27c474a6c72fb",
+    "resources_checked": 75,
+    "affected_standards": 4,
+    "added_claims": 0,
+    "added_observations": 0,
+    "changed_prior_claims": 3,
+    "changed_prior_observations": 0,
+    "cumulative_source_claims": 6,
+    "cumulative_source_observations": 2,
+    "scope": "HTTP bytes match local content,allowing only hosting challenge script. MDRC2016preK report all118visual pages/new116;new extracted-text0. Three prior claims refined;0claims/tasks added. Other1054claims/all1240tasks/all875contexts preserved. Provided/received time,post-treatment fall assessment,planned subsampling,missing/zero and site attrition stages distinguished. No student-data/model reanalysis,erratum,human0/0 or browser QA;goal active.0Sites files moved/deleted."
+  },
+  "note": "Post-publication receipts updated locally after the pushed source/archive; content data unchanged. This does not claim receipt metadata was part of that earlier archive."
+}

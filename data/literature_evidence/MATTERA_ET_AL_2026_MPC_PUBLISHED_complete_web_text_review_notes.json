@@ -1,0 +1,451 @@
+{
+  "source_id": "MATTERA_ET_AL_2026_MPC_PUBLISHED",
+  "source_url": "https://doi.org/10.1080/19345747.2025.2509234",
+  "source_pdf_url": "https://www.tandfonline.com/doi/pdf/10.1080/19345747.2025.2509234",
+  "source_asset_kind": "web_pdf_text",
+  "date": "2026-11-19",
+  "reviewer": "Codex",
+  "read_scope": "출판사 PDF의 웹 추출문 1,836줄을 앞표지부터 인쇄 432~459쪽까지 검토했다. 표 1~5와 그림 1의 캡션이 포함된다. 종전 8쪽의 선택 대목을 포함해 29개 쪽 위치를 확인했다. PDF 파일, 판면과 별도 스프레드시트는 미확보다.",
+  "pdf_text_review": {
+    "reported_pdf_pages": 29,
+    "text_pdf_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29
+    ],
+    "visual_pdf_pages": [],
+    "binary_obtained": false,
+    "text_line_count": 1836,
+    "page_text_line_ranges": [
+      [
+        0,
+        19
+      ],
+      [
+        20,
+        81
+      ],
+      [
+        82,
+        129
+      ],
+      [
+        130,
+        177
+      ],
+      [
+        178,
+        220
+      ],
+      [
+        221,
+        267
+      ],
+      [
+        268,
+        313
+      ],
+      [
+        314,
+        356
+      ],
+      [
+        357,
+        402
+      ],
+      [
+        403,
+        562
+      ],
+      [
+        563,
+        607
+      ],
+      [
+        608,
+        621
+      ],
+      [
+        622,
+        732
+      ],
+      [
+        733,
+        779
+      ],
+      [
+        780,
+        822
+      ],
+      [
+        823,
+        923
+      ],
+      [
+        924,
+        1148
+      ],
+      [
+        1149,
+        1295
+      ],
+      [
+        1296,
+        1338
+      ],
+      [
+        1339,
+        1385
+      ],
+      [
+        1386,
+        1431
+      ],
+      [
+        1432,
+        1477
+      ],
+      [
+        1478,
+        1523
+      ],
+      [
+        1524,
+        1568
+      ],
+      [
+        1569,
+        1601
+      ],
+      [
+        1602,
+        1655
+      ],
+      [
+        1656,
+        1723
+      ],
+      [
+        1724,
+        1779
+      ],
+      [
+        1780,
+        1835
+      ]
+    ]
+  },
+  "empirical_scope": {
+    "design": "취학 전 기관을 배정한 Making Pre-K Count 연구의 취학 전 및 초등 3학년 출판 분석.",
+    "sample_description": "동의 2,715명 중 취학 전 1,389명과 3학년 수학 1,844명이 각 주분석에 들어갔다. 두 시점 관찰 표본 998명은 민감도 분석에 사용했다.",
+    "inference_limit": "동일한 MPC 연구의 출판 분석이다. 취학 전 직접 평가와 3학년 행정자료의 대상과 검사, 2021년 보고서와 출판 논문의 모형을 구별한다. 원자료·분석 코드와 국내 학생 반응은 확인 범위 밖이다.",
+    "student_outcome_study": true,
+    "causal_effect_established": false,
+    "local_effect_tested": false,
+    "study_family": "MDRC_MAKING_PRE_K_COUNT_HIGH_5S"
+  },
+  "original_page_layout_review": false,
+  "contains_source_full_text": false,
+  "source_pdf_redistributed": false,
+  "publication": {
+    "volume": 19,
+    "issue": 2,
+    "printed_pages": [
+      432,
+      459
+    ],
+    "online_date": "2025-07-15",
+    "issue_year": 2026
+  },
+  "web_excerpt_ranges": [
+    {
+      "pdf_page": 9,
+      "source_lines": [
+        357,
+        397
+      ]
+    },
+    {
+      "pdf_page": 13,
+      "source_lines": [
+        622,
+        645
+      ]
+    },
+    {
+      "pdf_page": 14,
+      "source_lines": [
+        733,
+        774
+      ]
+    },
+    {
+      "pdf_page": 15,
+      "source_lines": [
+        780,
+        821
+      ]
+    },
+    {
+      "pdf_page": 16,
+      "source_lines": [
+        823,
+        923
+      ]
+    },
+    {
+      "pdf_page": 17,
+      "source_lines": [
+        1093,
+        1144
+      ]
+    },
+    {
+      "pdf_page": 18,
+      "source_lines": [
+        1149,
+        1289
+      ]
+    },
+    {
+      "pdf_page": 25,
+      "source_lines": [
+        1569,
+        1595
+      ]
+    }
+  ],
+  "reading_log": [
+    "출판사 PDF 추출의 분모·모형·대치 절차·검정 결과와 2021년 보고서를 대조했다.",
+    "앞표지와 인쇄 432~435쪽. 2025년 7월 온라인, 2026년 권호다. 69개 기관의 군집 배정은 35개 프로그램·34개 보통 과정, 173개 학급이었다. 시행 기간 2년은 교사의 운영 기간이며 참여 아동에게는 취학 전 한 해 제공됐다. 취학 전과 3학년 수학을 확증 결과로, 나머지 결과와 하위집단을 탐색으로 다룬다.",
+    "436~438쪽. 숫자·기하 내용을 다룬 교재, 수업 활동 네 유형, 소집단 기록지를 사용한 조정, 연수·코칭을 한 묶음으로 기술한다. 2026 웹 추출문 437쪽의 컴퓨터 활동 주 비율은 6%로, 2016년 보고서 표 3.1의 75% 참여 기준 충족 주 비율은 64.6%로 나온다. 판면·집계 정의를 확인하기 전에는 6%를 고치거나 같은 지표로 합치지 않는다. 12분은 관찰한 교사 제공 시간 차이의 근삿값이다.",
+    "439~440쪽. 동의 2,715명, 각 시점·결과별 표본과 2021년 보고서 동의 2,717명·적격 2,702명·결과 하나 이상 2,277명을 구별한다. 439쪽은 1,844명을 넓게 설명하지만 444쪽과 표 4 주석은 수학 결과의 분모로 지정한다. 영어 항목은 취학 전 말하고 이해할 수 있는지와 3학년 가정에서 사용하는지를 묻는다.",
+    "441~444쪽. 영어 능력 선별 후 스페인어 검사판을 사용한 경우와 3학년 영어 행정자료를 구별한다. 그림 1은 캡션을 읽었다. 3학년 수학·읽기는 도시 분포로 표준화한 z점수, 효과크기는 각 대조군의 개인 수준 SD가 분모다. 유급과 개별화교육계획 문서 정의를 보존한다. 아동·학급·기관 수준과 배정 블록을 구별했다. 배정 이후 진행한 가을 수학 측정은 주모형에서 제외했다.",
+    "444~446쪽. 기초 평가 결측 약 41%·56%와 인구 특성 결측 약 2~4%의 변수 범위가 다르다. 기초 공변량을 다중대치한 자료 50개와 결과 미대치, 두 시점 관찰 998명 민감도 분석과 3학년 표본 내 High 5s 226명을 구별한다. 사람과 검사가 모두 다른 시점별 평균·효과크기로 개인의 변화를 구하지 않는다.",
+    "446~449쪽. 취학 전 두 수학 검사의 효과크기는 .03이고 3학년 수학 .10(p=.18)·문해 .11(p=.104)로 보고했다. 표 5의 3학년 집단별 수학 .36/.14와 차이 .22의 검정은 별개다. 일부 집계 대상의 합 2,276 또는 2,275를 수학 1,844명의 하위집단 합으로 읽을 수 없다. 공립 수학의 본문 p=.10과 표 5 무기호는 소수자리 때문에 임계값 쪽을 확정할 수 없다.",
+    "449~453쪽. 비히스패닉 3학년 문해 효과크기는 표 5 .15, 본문 .10으로 확인됐다. 공개 텍스트의 두 표기를 보존한다. 본문이 설명한 수학 시간 층화에서 WJ .18과 −.02의 집단 간 p=.11은 논문의 p<.10 기준에는 미달한다. 대조군 시간 수준은 투입량 무작위 배정이 아니다. 450쪽의 문해 서술과 표 3의 수용 어휘 결과도 이름과 지표를 구별한다.",
+    "453~455쪽. 논문의 영향 확대 표현과 제한 절의 상이한 측정·표본을 함께 읽는다. 초기 언어·억제 조절의 매개효과는 연구에서 직접 검증하지 않았다고 밝혔다. WWC 이탈 경계에 대한 저자의 판단과 2021년 보고서를 대상으로 한 WWC의 별도 검토는 대상과 판단 항목이 다르다.",
+    "456~459쪽 참고문헌을 확인했다. 본문에서 3학년 High 5s에 대해 가리킨 Mattera 외 2021년 장기 보고서와 참고문헌의 같은 저자·연도 표기 중 실행기능 논문이 있으므로 장기 결과는 2021년 MDRC 원보고서로 식별한다."
+  ],
+  "source_corrections": [
+    {
+      "location": "439쪽·표 4·표 5",
+      "issue": "동의 분모, 효과의 p값, 집단 간 차이 검정을 구별한다."
+    },
+    {
+      "location": "437쪽과 2016년 보고서 표 3.1",
+      "issue": "웹 PDF 추출문 6%와 2016년 표 64.6%를 기록했다. 출판 판면·정의 확인은 남아 있다."
+    },
+    {
+      "location": "439쪽, 444쪽, 표 4·5",
+      "issue": "1,844명을 3학년 수학 분모로 한정하고 다른 결과와 민감도 분석 표본을 구별했다."
+    },
+    {
+      "location": "448쪽 표 5와 448~449쪽 본문",
+      "issue": "비히스패닉 문해 .15/.10을 보존했다. 공립 수학 p=.10과 무기호는 정밀값 미확인이다."
+    },
+    {
+      "location": "445·452쪽",
+      "issue": "본문에 경계적 유의로 적힌 p=.11은 논문이 명시한 p<.10을 충족하지 않는다."
+    }
+  ],
+  "companion_report": {
+    "source_id": "MATTERA_ET_AL_2021_MPC_THIRD_GRADE",
+    "snapshot_file": "data/literature_evidence/MATTERA_ET_AL_2021_MPC_THIRD_GRADE_preregistration_review_notes.json",
+    "sha256": "fc41cf267055b92c6a18174f2a4b366e043145be17175d283414f6ba61cfe2a9"
+  },
+  "sample": {
+    "journal_consented": 2715,
+    "report_consented": 2717,
+    "report_eligible": 2702,
+    "report_any_outcome": 2277,
+    "journal_pre_k": 1389,
+    "grade_3_math_groups": [
+      945,
+      899
+    ],
+    "grade_3_math": 1844,
+    "retained_high5s": 226,
+    "pre_k_groups": [
+      698,
+      691
+    ],
+    "common_two_timepoints_sensitivity_n": 998,
+    "grade_3_subgroup_totals": {
+      "venue": 2276,
+      "gender": 2275,
+      "race_ethnicity": 2276
+    },
+    "grade_3_student_retention_fraction": "1844/2715"
+  },
+  "model": {
+    "journal_levels": [
+      "child",
+      "classroom",
+      "pre_k_site"
+    ],
+    "report_levels": [
+      "child",
+      "pre_k_site"
+    ],
+    "journal_baseline_imputations": 50,
+    "journal_assumption": "missing_at_random",
+    "journal_outcomes_imputed": false,
+    "journal_baseline_assessment_n": 815,
+    "journal_pre_k_baseline_covariate_missing_percent_approx": 41,
+    "journal_grade_3_baseline_covariate_missing_percent_approx": 56,
+    "pre_k_math_baseline_omitted_post_assignment_timing": true
+  },
+  "results": {
+    "pre_k_math_effects": [
+      0.03,
+      0.03
+    ],
+    "grade_3_math_effect": 0.1,
+    "journal_p": 0.18,
+    "report_p": 0.19,
+    "low_high_inhibitory_math": [
+      0.36,
+      0.14
+    ],
+    "math_contrast": 0.22,
+    "math_contrast_significance_marker": false,
+    "grade_3_literacy_effect": 0.11,
+    "grade_3_literacy_p": 0.104,
+    "non_hispanic_grade_3_literacy_table": 0.15,
+    "non_hispanic_grade_3_literacy_text": 0.1,
+    "observed_time_strata_wj_effects": [
+      0.18,
+      -0.02
+    ],
+    "observed_time_strata_wj_contrast_p": 0.11,
+    "journal_nominal_alpha": 0.1,
+    "grade_3_low_high_inhibitory_literacy_difference": 0.35
+  },
+  "supplemental_workbook_verified": false,
+  "participant_data_public": false,
+  "analysis_code_public": false,
+  "previous_review": {
+    "snapshot_file": "data/literature_evidence/MATTERA_ET_AL_2026_MPC_PUBLISHED_review_notes.json",
+    "snapshot_sha256": "ec36bc288a6334dc1a418c8c2c9bce7ae242f4b82ca70871c0a818408d6ca96f",
+    "date": "2026-11-10",
+    "read_scope": "출판사 PDF에서 추출된 439·443~448·455쪽의 선정 본문과 표 2·4·5를 2021년 보고서 및 사전등록과 대조했다."
+  },
+  "old_selected_pdf_pages": [
+    9,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    25
+  ],
+  "new_pdf_page_locations": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    10,
+    11,
+    12,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    26,
+    27,
+    28,
+    29
+  ],
+  "web_text_source_line_ranges": [
+    [
+      0,
+      249
+    ],
+    [
+      250,
+      519
+    ],
+    [
+      520,
+      818
+    ],
+    [
+      819,
+      1139
+    ],
+    [
+      1140,
+      1413
+    ],
+    [
+      1414,
+      1505
+    ],
+    [
+      1496,
+      1604
+    ],
+    [
+      1605,
+      1827
+    ],
+    [
+      1828,
+      1835
+    ]
+  ],
+  "article_reference_list_checked": true,
+  "article_figures_visually_checked": 0,
+  "figure_captions_read": [
+    1
+  ],
+  "raw_student_data_read": false,
+  "independent_review": false,
+  "student_validated": false,
+  "access_followup": {
+    "publisher_pdf_status": 403,
+    "publisher_supplement_listing_public": true,
+    "publisher_supplement_file_verified": false,
+    "openalex_content_is_indexed": {
+      "grobid_xml": true,
+      "pdf": true
+    },
+    "openalex_binary_response_status": 401,
+    "openalex_xml_response_status": 401,
+    "verified_workbook_files": 0
+  }
+}

@@ -1,0 +1,516 @@
+{
+  "source_id": "SIEGLER_1995_NUMBER_CONSERVATION",
+  "source_url": "https://doi.org/10.1006/cogp.1995.1006",
+  "source_pdf_url": "https://siegler.tc.columbia.edu/wp-content/uploads/2020/10/How-does-change-occure-1995.pdf",
+  "source_pdf_sha256": "d98d6bb3e8f2dc9edcf2e3d184546ba6c75bb2a6ab852402cccca709fc9031d8",
+  "date": "2026-11-18",
+  "reviewer": "Codex",
+  "read_scope": "저자 연구실 PDF49쪽(인쇄225–273)의 본문·표1–2·그림1–7·참고문헌을 실제 판면으로 모두 읽었다. 이전 선정17쪽의 관련 추출문 대조는 보존하되 전문49쪽 추출문 독해로 확대하지 않는다. 이번 처음 읽은 판면은42쪽이며 재대조7쪽은 중복 합산하지 않는다.",
+  "contains_source_full_text": false,
+  "source_pdf_redistributed": false,
+  "publication": "Cognitive Psychology, 28(3), 225–273",
+  "pdf_pages": 49,
+  "text_pdf_pages": [
+    1,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    20,
+    27,
+    28,
+    34,
+    35,
+    36,
+    38,
+    39
+  ],
+  "visual_pdf_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49
+  ],
+  "text_read_method": "저자 연구실 PDF의 웹 추출 텍스트에서 관련 문단을 대조하고 이미지로 표와 그래프를 확인했다. 이번 전문 추출문 독해는0쪽이다.",
+  "visual_pdf_page_hashes": {
+    "1": "53e83899c2de38d2d287f4f7997059723ecaa12f289bd9c30407f8f3d6699e1b",
+    "2": "fde592ca8fef371b7c0f15a4d2797059cc718df44ad702b8ed4c9055e7850079",
+    "3": "dd9f962c4bc9445a921c54b9832ba748cc34196715c0427e80346c15cadf9aba",
+    "4": "87caf84569d0df7796a7dea4ccadb8ae1eb1e8018e252b0373c6eb8ec4383e10",
+    "5": "c962b9d20f6f8dee4086a5b9285523f268f4dc8f49ec1a1164aae7a503ce070e",
+    "6": "14c6c164031f9b3da9b0d80f683748d8113cd2d0a64592b705be61841cc75d7d",
+    "7": "9a3f1c9a5d2b2d6a47fda2cf402f31178a25a13ede5d08568925a1c5ba5af7ce",
+    "8": "6829ea4cddd4c2d2cb6141efef8d0b6d0cc361f6339bd77dbdb464c17e6661d7",
+    "9": "cc994a81e5e3d8eba58a0e1d9560010e8603de16b8de7ce41b24ffa2ff838b99",
+    "10": "333fe4bc7eedf403145558fa965c15f3441018591f91c23d4a6f699fcd2878e8",
+    "11": "ccb6db347e9e9c199ccc90efc31fa71a94abe218862fc758d799206c5f047a7e",
+    "12": "42edba13ec07100100c88fef9d86ad41ebe830fec275ba4fb5886fd1bbe218d3",
+    "13": "81e3ec7d05caf91b94181b9241ff830b03a48dba6438aabff4cc865d2e9a2429",
+    "14": "15759728a7fb8ca972554a6e95a9460c2a0e2f513307dfe4934ef221128a8481",
+    "15": "fefd41ff10c5c32cade3e7a72973b79c326e914ed6fbb11ece6875c67c72ce4b",
+    "16": "a48147f96c0d43d12a1250edf02a617037dc332a5d2a215c6b2017ed1acc7ae4",
+    "17": "40032ca9c237328eeda2076e7d9abd11358f489963580416d7cbae5de41f4f77",
+    "18": "ab5d46839435d63680b4b3b68254a4b2d0d47acfc14a89eb41e35f6548b52b6f",
+    "19": "127bf9e22e3d419316a8c5d1af17f6f5d0b8d761662872f3668ccdd3059f8765",
+    "20": "92abf681db610911a595f289b41fd6947b68f14e7c409f7689764a20c3cbca21",
+    "21": "2828928ebe1a2dcc5e1a8bfe24cbb688a2ffa54cfaa0496b254bfeb588c69027",
+    "22": "d299622d985b4c4fc2d7a8cacc73ad4b45b45684e1683eb605aadb60d3a8a41f",
+    "23": "e1d6526ca4611bd27380ba1760f5610e9448b79c27556a4393f6ffe917e0fed9",
+    "24": "fda450cf52e5f050fa667375400f9e352ca8530921ca980c007e7a69e84ea79e",
+    "25": "d5af4cbfaf5b85e1b8a684163701b532089cf37df0066eb05f2e50e582266174",
+    "26": "a2fbd7ee602927f8fb29a57b59611795b57da8c2b8fdb54ca93283d5ce1fbc70",
+    "27": "0d9aa27dd8cf968f1af81072d4126c2e9410e61669ef96f8a1dbeebd3f4e33c1",
+    "28": "160a6ebdf983bab57469ff3364f8d77c1ba1eec76ced745a026dfbb337f73aed",
+    "29": "e4746e3ac8393d6d3df008b9e3c56564adf2206eee6ba081f420ef03da23b256",
+    "30": "5833ed1765d50c333facb8e4a1e7f7249d1a1c8dc624e9b04fea90838022cf46",
+    "31": "4ecd639d2aee2fef54b1e9b06c0cabf9420516cebb9a7472b1b9f5c4d4983fd2",
+    "32": "af1cb976b1a87210a67d345e874d1652c0876b456776d9fccb43d1cd482a6777",
+    "33": "4e2c5f08ff19b2559032633d8bc29555ecc09a8b2421f195328cb64da31a7972",
+    "34": "4ae4061f89af4a48b6acdcc09a5b604c44f804e35dcc351002e08ea7c6780fe1",
+    "35": "fb7bc93f6220c638b8c14d6f9a5036ff352ce85c830df9f21bbf2c1db33271f0",
+    "36": "4563fb69035188367d513a4e5296a26c643ea362e1eaf13ead263105fa2bdb00",
+    "37": "d22cb2093a810796a8d1c76f45d025448d009d334e877d1fa8feaac13c2f2ee0",
+    "38": "0689ffe0a3d63da80316ea1956c9abdc8b3daf16bfec1951e902f15ef088f335",
+    "39": "380c6dbcbe0315b4020208d534a38008d6c08e3accd222e2f0822dc6da36d9e1",
+    "40": "b603808388879fccd54bfbb5f67dbf5b42a4dd42fcfb7ec04016dcc46a91e212",
+    "41": "6282d8c32c4bf1ac6bce2564fa1893cf906a0746ddff1fca248fe026c074ee09",
+    "42": "1a942759e442923c8ce369c5b5995d82c6cab07d788eafbb1fc4bcc5529e0bc8",
+    "43": "f66c6a8b75ca34ddb7ee15a2985b48696349942e050e0e0831b8ec2f35300db2",
+    "44": "bf1f5325a9ab704d8de0ce976021ea46bc0a2c8c0c107702ae37088aa7b7ae5e",
+    "45": "c9e885d32d74cd1152bc4ec22c83bd84a8a0b412dc0d978783b87f3fa69ea809",
+    "46": "e4a6478c126a4fe350d51df87d9f01e1a0e6c2b5ed6b1321ec21228384279b43",
+    "47": "6f5782e9b799edea4a60927ba7ec520c78aef9438d4694d008c6793673a1bdb2",
+    "48": "3075e41bcf64f42e34ef41b07b4bc5d44ca6382bc37518ba5d87a0c1a9e64700",
+    "49": "1945d47870498137c6bd80deb4750c2eb30625b59963d059edbe6c123b1023f7"
+  },
+  "empirical_scope": {
+    "design": "randomized_three_arm_repeated_item_experiment",
+    "sample_description": "54~73개월 아동 97명 사전검사, 두 선정 조건을 충족한 45명 무작위 배정, 집단별 15명.",
+    "inference_limit": "97명 사전검사 중 두 공동 선정 조건을 충족한45명을15명씩 무작위 배정했다. 최대2주의 같은 큰 집합24문항 반복에 관한 조건 묶음 비교다. 설명 대상·피드백 전후 순서·설명할 판단의 정오 여부가 함께 달라 각각의 효과를 분리하지 못한다. 시행 중 설명 다양성과 학습의 관련성은 관찰적이며 인과 효과가 확인되지 않았다. 지연 검사·미경험 문항 전이·국내 과제 효과는 확인되지 않았다.",
+    "student_outcome_study": true,
+    "causal_effect_established": true,
+    "local_effect_tested": false,
+    "causal_effect_scope": "randomized condition bundle only;not variability association",
+    "observational_variability_causal_effect_established": false
+  },
+  "source_comparison": {
+    "guide_source_id": "IES_EARLY_2013",
+    "guide_table": "D.7",
+    "existing_claim_id": "IE17",
+    "wwc_url": "https://ies.ed.gov/ncee/wwc/study/77988",
+    "wwc_review": "2013년 11월, 기준 2.1에 따라 유보 없이 충족",
+    "guide_recommendation": "권고 4의 등급은 Minimal이며 개별 연구 설계 평정과 구별한다."
+  },
+  "selection": {
+    "pretested": 97,
+    "randomized": 45,
+    "participants_per_group": 15,
+    "age_months": [
+      54,
+      73
+    ],
+    "threshold": "길이 단서 불일치 큰 집합 문항에서 정답과 변환 설명을 모두 제시한 비율이 20% 이하이고, 간격만 바꾼 길이 갈등 문항에서는 0%였다.",
+    "pretest_sessions": 4,
+    "training_sessions": 4,
+    "training_trials_per_session": 12,
+    "pretest_set_sizes": [
+      [
+        2,
+        4
+      ],
+      [
+        7,
+        9
+      ]
+    ],
+    "training_set_size": [
+      7,
+      9
+    ]
+  },
+  "results": {
+    "length_inconsistent_percent_correct": {
+      "explain_experimenter": [
+        17,
+        72
+      ],
+      "explain_own": [
+        13,
+        31
+      ],
+      "feedback_only": [
+        9,
+        41
+      ]
+    },
+    "length_consistent_percent_correct": {
+      "all_groups": [
+        80,
+        65
+      ],
+      "explain_experimenter": [
+        84,
+        67
+      ],
+      "explain_own": [
+        82,
+        61
+      ],
+      "feedback_only": [
+        75,
+        67
+      ]
+    },
+    "checkpoints": [
+      "사전검사",
+      "마지막 훈련"
+    ]
+  },
+  "reading_log": [
+    "PDF 13쪽 표 1의 최종 배열은 웹 표에서 단추 간격이 보존되지 않아 실제 그림으로 대조했다. 길이와 개수의 관계를 의도적으로 교차시킨 여섯 유형이다.",
+    "PDF 14~15쪽에서 선정 기준, 회차 구성, 사전검사 큰 집합 문항의 반복과 피드백 전후의 설명 순서를 확인했다.",
+    "PDF 16~18쪽에서 그림 1과 그림 2의 문항군과 계열 범례를 대조했다. 도표에서 수치를 추정하는 대신 본문 인쇄 수치를 기록했다.",
+    "PDF 20쪽 표 2와 27~28·34~36쪽 관련 본문에서 정답과 추론의 코딩, 사례별 변화, 동일 문항의 반응 변동을 구별했다.",
+    {
+      "pdf_pages": [
+        1,
+        6
+      ],
+      "note": "서지·초록·방법론 도입·보존 과제의 역사와 변화의 경로·속도 논의를 읽었다. 다른 인용 연구의 결과와 이번 표본을 구별한다. 처음/마지막 성공·변화 경로·속도·전이·변동·원인은 별개다.3+7의7,8,9,10 발화는 출발 수와3번 증가를 포함한다."
+    },
+    {
+      "pdf_pages": [
+        7,
+        12
+      ],
+      "note": "변화의 넓이·변동·원인과 연구 방법을 읽었다.8회는사전4회+훈련4회다.97명은54–73개월/평균64개월의중산층·대학관련기관표본이다. 사전검사는12문항씩4회이며작은집합2–4와큰집합7–9가각2회다. 수량변환과공간단서가함께조작되고변환을말로설명한다. 여러이유를댄시행은사전6%·훈련4%이며주설명은마지막이유를코딩했다.100시행의99%일치는현재학생검증이아니다."
+    },
+    {
+      "pdf_pages": [
+        13,
+        15
+      ],
+      "note": "표1의6유형과선정·사전·훈련절차를재대조했다. 길이일치3종과불일치3종은난이도가아니라특정단서정답일치다. 밀도가정확히역패턴이라는본문은같은수/같은길이및같은수/다른길이두유형에서는그대로재현되지않아후속코딩정의를확인한다. 사전4회에는정오피드백이없고노력칭찬이있었다.선정은정답과변환설명의결합기준≤20%및ConflictEqual0%다.45명24남/21여무작위15명씩,훈련4회는2주이내다. 자기설명은정답피드백전·실험자판단설명은뒤이며아이직접설명이다. 큰집합문항은사전과동일하고각문항을사전/훈련전반/후반에각1회씩본다고기술한다."
+    },
+    {
+      "pdf_pages": [
+        16,
+        21
+      ],
+      "note": "집단3×단서일치2×시점5의분석과Fig1–3및표2를읽었다.17→72/13→31/9→41은길이불일치문항의집단정답률이지아동숙달률이아니다.Fig1/2는중간단계에서비단조다.길이일치전체80→65로하락하며해당집단주효과는비유의다.오답중길이단서와일치한비율77→48→42→36→31은오답을분모로한다.추가/제거와무변환16대6에서마지막54대37이며모든조건보편순서가아니다.표2주설명마지막이유의출력빈도,Fig3두설명집단만의변환설명비율과30명설명분석을구별한다.비유의차이는동등성증명이아니다."
+    },
+    {
+      "pdf_pages": [
+        22,
+        27
+      ],
+      "note": "설명분석·같은문항의전이조건부확률·개인사례분류를읽었다. 통제15명은훈련중이유를요청받지않아설명비교는두집단30명이다. 다섯주요이유는전체의90%초과이며모든이유종류전부가아니다.같은24문항이사전/훈련전반/후반에반복된다.43대18%,76대13%,24%회귀는조건별시행/문항의비율로전체아동유지/상실률이아니다. 정답과변환설명상관은선정으로인한범위제한과집단별분포를고려하며설명변동의인과증명이아니다. 개인분석은실험자설명15명중사후정한8+4+3사례군이고45명과합산하지않는다.8명하위집단49→86전체정답과길이불일치집단17→72는분모가다르다."
+    },
+    {
+      "pdf_pages": [
+        28,
+        33
+      ],
+      "note": "Fig4전체8패널·Fig5의4패널·Fig6의3패널과예측분석을읽었다.그림괄호의정답률과세로축이유비율은다른변수이고개인곡선은비단조다.8명평균49→86과그림의반올림정수단순평균차이는분모24/12에서일치가능한지후속수치모형으로대조한다.대체3명에는높은정답이나말로설명못한사례와세기로설명한사례가있다.단계적회귀는해당중재15명에서5후보중3요인의누적R2 .34/.55/.65이며아동숙달률·다양성의무작위효과가아니다.사전6/8대3/7과전체기간8/8대3/7의Fisher p<.03을구별한다.사후정한8/4/3집단은새표본이아니다."
+    },
+    {
+      "pdf_pages": [
+        34,
+        39
+      ],
+      "note": "변화의경로/속도/넓이/변동/원인논의를읽었다. 같은문항은개수·길이·변환·질문·실험자·장소가같은문자그대로의반복이다.이전정답후다음오답22%와설명전환24%는조건부시행비율이다.추가/제거/무변환은각노출량같지만추가+제거를합친범주와무변환은같은문항수가아니다.범위확장은다른유형의기존반복문항에적용한것이지미노출문항전이검사가아니다. p261은시행내변동을상관관계일수있다고명시하며,무작위효과범위는요청대상·피드백전후·설명할판단의정확성이함께달라지는조건묶음이다.또래/어른·기존수준과의거리·이유정확성은향후가설이지별도검증요인이아니다."
+    },
+    "PDF40–45 실제 판면을 읽었다. 판단의 정오·피드백 순서·설명 대상의 공동 차이, 미검증 인지 갈등·심층처리 가설, 그림7 개념도의 축·일반 전략 표기, Q-SOAR와 산술 ASCM의 구현 범위를 구별했다.",
+    "PDF46–49 실제 판면을 읽었다. 마지막 논의의 수 세기·산술 지식 설명은 제안된 기제이며 참고문헌은 인용 원문 독해로 세지 않는다. 앞선46–49 일괄 이미지 호출은 출력 초과로 보이지 않아 집계하지 않았고 두 쪽씩 다시 보아 읽었다. 참고문헌은 인쇄270–273, 수락일은1994-08-03이다."
+  ],
+  "source_corrections": [
+    {
+      "location": "IES 가이드 표 D.7과 원논문 인쇄 239쪽",
+      "issue": "가이드는 평가자의 설명을 듣는 조건으로 요약했다. 원논문에서는 실험자가 정답을 알려 준 뒤 아이가 실험자의 판단 이유를 설명했다.",
+      "status": "primary_procedure_used_in_claim"
+    },
+    {
+      "location": "표1·인쇄237쪽",
+      "issue": "길이 단서와 밀도 단서의 정오 패턴이 정확히 반대라는 문장은6유형 전체에는 맞지 않는다. 표1상Equal에서는 둘 다 맞고Conflict-equal에서는 둘 다 틀린다. 중간4유형에만 반대다. 자체 논리 점검이며 공식 정오표나 원 반응 재분석은 아니다.",
+      "status": "own_logical_audit_not_official_erratum"
+    }
+  ],
+  "previous_review": {
+    "source_id": "SIEGLER_1995_NUMBER_CONSERVATION",
+    "state": "self_read_claim_mapping",
+    "reviewer": "Codex",
+    "date": "2026-11-09",
+    "snapshot_kind": "authored_review_notes",
+    "source_asset_kind": "pdf",
+    "snapshot_file": "data/literature_evidence/SIEGLER_1995_NUMBER_CONSERVATION_review_notes.json",
+    "snapshot_sha256": "6b875d310b909b81f0c8706cd8f7418ef8b0143660d007f795853e9fc6c13c0b",
+    "source_pdf_sha256": "d98d6bb3e8f2dc9edcf2e3d184546ba6c75bb2a6ab852402cccca709fc9031d8",
+    "redistribution_license": "workspace_authored_notes",
+    "bibliography_snapshot": "22b63bdae73f7617158ae61779e65aa639ed2c16ef7afd2520ad95198615f22c",
+    "display": {
+      "title": "How Does Change Occur: A Microgenetic Study of Number Conservation",
+      "url": "https://doi.org/10.1006/cogp.1995.1006",
+      "authors_year": "Siegler, 1995"
+    },
+    "read_scope": "인쇄 225·235~242·244·251~252·258~260·262~263쪽의 관련 문단을 읽고, PDF 13~15·17~18·20·28쪽에서 표 1·2, 그림 1·2와 4의 일부, 훈련 절차를 이미지로 대조했다.",
+    "empirical_scope": {
+      "design": "randomized_three_arm_repeated_item_experiment",
+      "sample_description": "54~73개월 아동 97명 사전검사, 두 선정 조건을 충족한 45명 무작위 배정, 집단별 15명.",
+      "inference_limit": "선정한 유아가 최대 2주 동안 같은 큰 집합 문항을 다시 푼 단기 훈련의 조건 비교다. 설명 대상과 정답 피드백의 상대 순서가 함께 달라 두 요소의 효과를 분리할 수 없다. 지연 검사, 새 문항 전이와 국내 과제 효과는 이 연구에서 확인되지 않았다.",
+      "student_outcome_study": true,
+      "causal_effect_established": true,
+      "local_effect_tested": false
+    },
+    "limits": "선정한 유아가 최대 2주 동안 같은 큰 집합 문항을 다시 푼 단기 훈련의 조건 비교다. 설명 대상과 정답 피드백의 상대 순서가 함께 달라 두 요소의 효과를 분리할 수 없다. 지연 검사, 새 문항 전이와 국내 과제 효과는 이 연구에서 확인되지 않았다.",
+    "scope_note": "무작위 배정의 효과 범위는 해당 훈련 조건의 묶음과 반복 문항에 한정한다.",
+    "method_note": "IES 표 D.7의 원연구에서 표본, 절차, 문항 유형별 결과와 추론 변동을 별도로 대조했다.",
+    "editorial_action": "원연구의 문헌 대응 3건과 자체 관찰 과제 1개를 추가했다.",
+    "independent_review": false,
+    "student_validated": false,
+    "observations": [
+      {
+        "id": "SNC-P1",
+        "standard_codes": [
+          "2수01-01",
+          "2수01-05"
+        ],
+        "question": "매번 단추 7개씩 같은 두 줄에서 다시 시작하자. 첫째는 위 줄의 간격만 넓힌다. 둘째는 위 줄에 단추 한 개를 더하고 길게 배열한다. 셋째는 위 줄에서 한 개를 빼고도 아래 줄보다 길게 배열한다. 각 경우 어느 쪽이 더 많은가, 아니면 같은가? 무엇이 바뀌었는지 설명하자.",
+        "expected": "위 줄은 차례로 7개, 8개, 6개이며 아래 줄은 언제나 7개다. 결과는 같다, 위가 더 많다, 아래가 더 많다 순이다. 실제 추가·제거를 설명하거나 일대일 짝짓기나 세기로 확인할 수 있다.",
+        "interpretation": "세 경우에서 위 줄은 모두 더 길다. 처음 답과 이유를 도움 전에 따로 적고, 이후 짝짓기로 확인한 반응과 구별한다. 둘째만 맞히면 길이 판단으로도 나온 답인지 다른 두 경우와 대조한다. 국내 학생 반응과 과제 타당성은 별도 확인이 필요하다.",
+        "student_validated": false
+      }
+    ]
+  },
+  "previous_snapshot_file": "data/literature_evidence/SIEGLER_1995_NUMBER_CONSERVATION_review_notes.json",
+  "previous_snapshot_sha256": "6b875d310b909b81f0c8706cd8f7418ef8b0143660d007f795853e9fc6c13c0b",
+  "new_visual_pdf_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    16,
+    19,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49
+  ],
+  "new_text_pdf_pages": [],
+  "previous_visual_pdf_page_hashes": {
+    "13": "9e7de762da756e64a6a2f55453e3c467bb775d7f12ac36abe80b86233a5aa828",
+    "14": "0d85c93ad8d664a9461cb87c2c3b7067f99473c6140e7c250ced4d6502478961",
+    "15": "a12f223291467beb869b12642914b79ff855455cc72ae5734b8658250af03630",
+    "17": "fc30923edaa49c0e53d76b30709fd043f88e3f34689bd268309f7a35dd1d61af",
+    "18": "197235c03d28891d00af19f35782c0438f2dbe2245655f67295effa767eda68a",
+    "20": "4c11ce173aaa1392dce19ea1a20bc08a06f2efb9b8d3fe645e37e8287df62a78",
+    "28": "730630af552289aa9a268ce636e94deeaf4c1355f82a004c7ae369016c5cbf0c"
+  },
+  "whole_article_visual_read": true,
+  "publisher_binary_fidelity_verified": false,
+  "all_cited_originals_read": false,
+  "official_erratum_verified": false,
+  "raw_student_data_read": false,
+  "independent_review": false,
+  "student_validated": false,
+  "exact_own_checks": {
+    "status": "pass",
+    "data_kind": "exact illustrative models;not raw student/coder data",
+    "cue_patterns": {
+      "equal": {
+        "length_correct": true,
+        "density_correct": true
+      },
+      "length": {
+        "length_correct": true,
+        "density_correct": false
+      },
+      "density": {
+        "length_correct": false,
+        "density_correct": true
+      },
+      "conflict_length": {
+        "length_correct": true,
+        "density_correct": false
+      },
+      "conflict_density": {
+        "length_correct": false,
+        "density_correct": true
+      },
+      "conflict_equal": {
+        "length_correct": false,
+        "density_correct": false
+      }
+    },
+    "full_six_type_density_inverse": false,
+    "conditional_denominators_distinct": true,
+    "hypothetical_accuracy": "13/18",
+    "hypothetical_perfect_child_counts": [
+      0,
+      10
+    ],
+    "whole_experiment_fisher_two_sided": "1/39",
+    "baseline_fisher_two_sided": "45/143",
+    "rounded_figure4_compatible_with_text": true,
+    "causal_variability_effect_verified": false
+  },
+  "audit_findings": [
+    {
+      "pdf_pages": [
+        11,
+        12,
+        14,
+        23
+      ],
+      "finding": "8회 전체는 사전4회·훈련4회다. 큰 집합 고유24문항을 사전1회·훈련2회로 각각3번 제시했다.97명 중45명의 선정은 정답과 변환 설명의 공동 기준이며 낮은 전체 정확률만을 뜻하지 않는다."
+    },
+    {
+      "pdf_pages": [
+        15,
+        38,
+        39,
+        40
+      ],
+      "finding": "모든 조건은 정답 피드백을 받았다. 설명 대상·피드백 순서·설명할 판단의 정오 여부가 함께 달라 성인 관점 취하기나 옳은 답 설명 각각의 독립 효과는 확인되지 않았다."
+    },
+    {
+      "pdf_pages": [
+        13
+      ],
+      "finding": "길이 단서와 밀도 단서의 정오 패턴이 정확히 반대라는 문장은6유형 전체에는 맞지 않는다. 표1상Equal에서는 둘 다 맞고Conflict-equal에서는 둘 다 틀린다. 중간4유형에만 반대다. 자체 논리 점검이며 공식 정오표나 원 반응 재분석은 아니다."
+    },
+    {
+      "pdf_pages": [
+        15,
+        20,
+        24
+      ],
+      "finding": "한 시행의 여러 설명은 주 코딩에서 마지막 이유를 썼다.5주요 이유의 표2 합98%/97%는 비망라 범주이므로 합100으로 재정규화하지 않는다. 다양성 분석의 여러 이유 집계와 주 코딩은 다르다."
+    },
+    {
+      "pdf_pages": [
+        17,
+        18,
+        23,
+        24,
+        34,
+        35,
+        36
+      ],
+      "finding": "집단 평균·정답 시행·틀린 답 중 특정 유형·앞서 변환 설명을 한 아동×문항 전환의 분모는 다르다.22%정답 반전과24%변환 설명 반전은 아동 숙달 상실률이 아니다. 새 문항·독립 지연 검사로 확대하지 않는다."
+    },
+    {
+      "pdf_pages": [
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        37
+      ],
+      "finding": "실험자 판단 설명15명 중8/4/3의 사례 분류는 결과를 보고 나눈 것이다. n15 단계적 회귀R²와 설명 다양성 관련성은 인과 효과·외부 예측 검증이 아니다. 실험 전체8/8대3/7의p<.03을 사전6/8대3/7에 옮기지 않는다. 그림4 반올림 표기는 본문49→86과 양립 가능해 오류로 확정하지 않는다."
+    },
+    {
+      "pdf_pages": [
+        41,
+        42,
+        43,
+        44,
+        45,
+        46
+      ],
+      "finding": "그림7은 나이 축의 개념도이며 전략1–5를 표2 이유 이름이나 고정 연령·실측 확률로 읽지 않는다. ASCM은 산술에 구현된 모형으로 이 수 보존 자료 적합 결과가 아니다. Q-SOAR와 다른 영역의 인용은 별도 연구이며 원문 독해로 세지 않는다."
+    },
+    {
+      "pdf_pages": [
+        46,
+        47,
+        48,
+        49
+      ],
+      "finding": "논의 마지막의 변화·수 세기·산술 지식 연결은 제안된 설명이다. 인쇄270–273 참고문헌과1994-08-03 수락 표기는 읽었으나 인용 원문과 공식 정오표까지 확보했다는 뜻은 아니다."
+    }
+  ]
+}

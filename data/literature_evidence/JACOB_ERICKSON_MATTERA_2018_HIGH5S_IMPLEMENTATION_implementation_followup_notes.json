@@ -1,0 +1,139 @@
+{
+  "source_id": "JACOB_ERICKSON_MATTERA_2018_HIGH5S_IMPLEMENTATION",
+  "source_url": "https://www.mdrc.org/work/publications/launching-kindergarten-math-clubs",
+  "date": "2026-11-19",
+  "reviewer": "Codex",
+  "source_asset_kind": "pdf",
+  "source_pdf_sha256": "6f90c0ff3e84bcbf4c9ec8fb6e1b2e1ddce55a72de73004b07b1408ea0a217af",
+  "pdf_url": "https://files.eric.ed.gov/fulltext/ED581568.pdf",
+  "source_pdf_redistributed": false,
+  "contains_source_full_text": false,
+  "pdf_pages": 107,
+  "selected_text_pages": [
+    25,
+    26,
+    38,
+    40,
+    41,
+    42,
+    46,
+    63,
+    64,
+    65,
+    71,
+    72,
+    73,
+    96
+  ],
+  "visual_pdf_pages": [
+    25,
+    41,
+    42,
+    46,
+    56,
+    57,
+    64,
+    71,
+    73,
+    96
+  ],
+  "rendered_page_sha256": {
+    "25": "d618e96eddee2ac7125b4b06f63202d9daec138258ef15b9d5089013ad5f72f4",
+    "41": "5630944f7c0c38312530856c728bd990e9237150c51b70da7d54a139fea15832",
+    "42": "ea30d23599ae7d90fd45e3b59bb3a151d29bd6368dbb372fdcb6391ed1c4d374",
+    "56": "7e6d2428536785db702720142ab0e140a3204efc8d574b36e0ef84a302073837",
+    "57": "dc7f5a345a4f8864b62fb82066e5dcdb904e2a80bbaf966fad97698a986ea4fb",
+    "64": "9516fb69c7893fc8dc8fe4e1197e3b425b1574262e1c5a74389a63bbab39fe98",
+    "73": "64c304de0529ea00a4c75a2be67f769922e55ef9f407d6c7b2b2137d5e163263",
+    "96": "69f992ad24ac3e941170f43d87eab3e4e813d100d8feada4dfcb40dc1a5cdcef",
+    "46": "15be3a110b43d68277aea02e92c3c3b724d6ccac5642616e5d02d32bf52fc0e6",
+    "71": "47bd1d0993755576a248636720f3b22b571e60f7b202065f98b4bdccb81ba8d4"
+  },
+  "read_scope": "107쪽 시행 보고서에서 지정 추출문 14쪽과 판면 10쪽을 누적 대조했다. 이번에는 회기 설계, 활동 시간과 충실도, 교실 비교, 운영 자원 가정, 덧셈 발문과 부분 출석 정의를 추가로 확인했다. 새 추출문 8쪽과 새 판면 7쪽이다.",
+  "study_family": "MDRC_MAKING_PRE_K_COUNT_HIGH_5S",
+  "implementation_only": true,
+  "reading_log": [
+    "활동의 계산 전략과 실제 회기 운영 및 참여 평정을 구분했다.",
+    "PDF 25쪽은 약 28주 동안 주 3회, 회당 약 30분으로 계획한 회기를 설명한다. 도입 두 활동에 7~10분, 주활동에 15~20분을 배정하는 설계다.",
+    "표 4.1의 수학 활동 평균은 게임일을 뺀 진행자 기록 5,971회에서 24.7분, 봄 관찰 26회에서 24.1분이다. 주 3회가 모두 열린다고 놓고 약 25분을 곱하면 75분이다. 표 6.1의 약 45분은 준비와 이동을 포함하는 별도 교내 운영안의 가정이다. 효과 보고서의 30~45분이 동일한 방식으로 기록됐는지는 열어 둔다.",
+    "표 4.1의 진행자 기록에서는 도입 8.4분과 주활동 16.5분의 표시 값 합이 24.9분인데 총 수학 활동은 24.7분으로 인쇄됐다. 같은 관측과 가중을 전제하면 0.2분 차이는 최근접 소수 첫째 자리 반올림만으로 설명되지 않는다. 항목별 결측과 분모, 집계 코드를 확인할 수 없어 인쇄값을 보존한다.",
+    "그림 4.1은 중도 중단하지 않은 아동의 열린 회기를 분모로 삼고 부분 출석도 포함한다. 그림의 구간별 인원 합은 284명이고 80% 이상 구간 합은 231명이다. 부록 C는 10분 이상 참석하면서 5분 이상 늦었거나 일찍 떠난 경우를 부분 출석으로 기록한다. 표 4.2의 92.5%는 예정 7,031회 대비 시행률이다. 요약 92%와 본문 93% 표기를 함께 보존한다.",
+    "표 5.4는 교실 활동별 평정을 시간으로 가중한 값과 클럽의 회기 평정을 함께 보여 준다. 표 5.5의 교실 관찰 활동 157·137개와 클럽 교육과정의 계획 활동 195개는 단위가 다르다. 활동 빈도와 개별 아동의 실제 노출 시간을 같은 지표로 해석할 수 없다.",
+    "부록 A는 첫 카드의 양을 잠시 보고 기억하도록 하고, 응답에 따라 카드를 다시 드러내거나 두 카드를 볼 수 있게 한다. 같은 합에도 양 회상, 전체 세기, 첫 묶음을 센 뒤 계속 세기, 첫 묶음의 기수를 바로 사용한 이어 세기가 포함된다. 지원의 종류와 첫 자발적 반응을 기록할 수 있다."
+  ],
+  "source_corrections": [
+    {
+      "location": "표 4.2·4.3",
+      "issue": "예정 회기·게임일 제외·관찰 회기의 분모와 평정자를 구별한다."
+    }
+  ],
+  "results": {
+    "attendance_percent": 87.4,
+    "attendance_benchmark": 80,
+    "scheduled_sessions": 7031,
+    "scheduled_activity_sessions": 5971,
+    "observed_sessions": [
+      25,
+      26
+    ],
+    "designed_sessions_per_week": 3,
+    "designed_session_minutes_approx": 30,
+    "facilitator_logged_math_minutes": 24.7,
+    "spring_observed_math_minutes": 24.1,
+    "resource_model_minutes_including_transitions_approx": 45,
+    "scheduled_sessions_held_percent": 92.5,
+    "attendance_figure_n": 284
+  },
+  "full_report_read": false,
+  "publisher_pdf_url": "https://www.mdrc.org/work/publications/launching-kindergarten-math-clubs/file-full",
+  "publisher_and_eric_pdf_sha256_matched": true,
+  "previous_snapshot_file": "data/literature_evidence/JACOB_ERICKSON_MATTERA_2018_HIGH5S_IMPLEMENTATION_review_notes.json",
+  "previous_snapshot_sha256": "83d456069a5ecfb6462b4c28b402079af139d94d1b8feb875d397956a6ff8e11",
+  "current_visual_pdf_pages": [
+    25,
+    41,
+    42,
+    56,
+    57,
+    64,
+    73,
+    96
+  ],
+  "current_rendered_page_sha256": {
+    "25": "d618e96eddee2ac7125b4b06f63202d9daec138258ef15b9d5089013ad5f72f4",
+    "41": "5630944f7c0c38312530856c728bd990e9237150c51b70da7d54a139fea15832",
+    "42": "80ac3cbba918388632fc21f5d949b7080183d48c8a547cb82ea21a880ac1f638",
+    "56": "7e6d2428536785db702720142ab0e140a3204efc8d574b36e0ef84a302073837",
+    "57": "dc7f5a345a4f8864b62fb82066e5dcdb904e2a80bbaf966fad97698a986ea4fb",
+    "64": "9516fb69c7893fc8dc8fe4e1197e3b425b1574262e1c5a74389a63bbab39fe98",
+    "73": "64c304de0529ea00a4c75a2be67f769922e55ef9f407d6c7b2b2137d5e163263",
+    "96": "69f992ad24ac3e941170f43d87eab3e4e813d100d8feada4dfcb40dc1a5cdcef"
+  },
+  "new_text_pdf_pages": [
+    25,
+    38,
+    63,
+    64,
+    65,
+    72,
+    73,
+    96
+  ],
+  "new_visual_pdf_pages": [
+    25,
+    41,
+    56,
+    57,
+    64,
+    73,
+    96
+  ],
+  "previous_visual_pdf_pages": [
+    42,
+    46,
+    71
+  ],
+  "independent_review": false,
+  "student_validated": false,
+  "raw_student_data_read": false
+}

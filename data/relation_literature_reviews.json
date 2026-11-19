@@ -37,7 +37,7 @@
       "finding": "연구는 덧셈·뺄셈 상황과 세기 전략을 구별했다.",
       "limit": "한 모임을 세는 수행에서 여러 분해를 설명하는 수행으로의 이행을 별도로 비교하지 않았다.",
       "relation_snapshot": "785adcbc884a31ff983a492ac117b07f777fdfc3f84f3bda6e279f1e6501b0b5",
-      "claim_snapshot": "f87c3e3a4998da2fa2f935cd0dabb1d161276341a0cf77d273f6b2949e3e382b"
+      "claim_snapshot": "9189f5d869afdcd98e2a2537fbf8e75109b439da6469f4cb27db2e329b331f6a"
     },
     {
       "relation_id": "REV-2수01-05-1",
@@ -55,7 +55,7 @@
       "finding": "연구의 문항 틀에서 같은 상황이라도 미지의 위치를 달리할 수 있다. 상황별 발문을 고를 때 참고한다.",
       "limit": "문항 틀로 분해·합성이 모든 상황제의 필수 선수임을 판정할 수 없다.",
       "relation_snapshot": "9022980974f90e2e546854722786020defc2630f0324590b4e1fed188cf44fec",
-      "claim_snapshot": "f87c3e3a4998da2fa2f935cd0dabb1d161276341a0cf77d273f6b2949e3e382b"
+      "claim_snapshot": "9189f5d869afdcd98e2a2537fbf8e75109b439da6469f4cb27db2e329b331f6a"
     },
     {
       "relation_id": "REV-2수01-06-1",
@@ -73,7 +73,7 @@
       "finding": "예비 연구의 일부 검사에서는 수 범위와 상황의 복잡성이 함께 달라졌다.",
       "limit": "연산 선택과 자릿값을 이용한 계산 중 무엇이 응답 차이를 만들었는지 분리할 수 없다.",
       "relation_snapshot": "a23fb55c70a3bef81307994812bf0b48c16ff222d215667487e3a2045c622904",
-      "claim_snapshot": "cf5a7e9ba1a447b9970b14d28fa99eac05ab68cb31f25bd706a525087d5460b7"
+      "claim_snapshot": "ca21cf1490feb74973e3637e78c096b913acf36dac3eebaca70cc589090a225f"
     },
     {
       "relation_id": "REV-2수01-06-2",
@@ -82,7 +82,7 @@
       "finding": "확대 연구의 결과는 지도 조건에 따른 연산검사 전체 점수의 비교다.",
       "limit": "상황에 알맞은 연산을 고르는 일과 선택한 연산을 두 자리 수로 계산하는 일을 따로 추정한 값은 아니다.",
       "relation_snapshot": "a23fb55c70a3bef81307994812bf0b48c16ff222d215667487e3a2045c622904",
-      "claim_snapshot": "90c5641f6301ff150c56ba480a845cf63fac4a0a83eb52480fa4bc8249db2d8b"
+      "claim_snapshot": "470517a9809964189746d9caea979f4f4a99006b5e6571ebdf3a5b1bcb0013b7"
     },
     {
       "relation_id": "REV-2수01-07-1",
@@ -100,7 +100,7 @@
       "finding": "가이드의 역관계 지도 비교는 더한 만큼을 다시 빼는 등 특정 역관계 문항을 다뤘다.",
       "limit": "같은 세 양으로 모든 덧셈·뺄셈 식을 만드는 능력이나 국내 과제에 대한 전이는 별도다.",
       "relation_snapshot": "c961ccaf77db442d59c3a7b95bc0d659c6960932198a4a0e1ba96973f99b6728",
-      "claim_snapshot": "b859203242ab192c1df5d7386042b54dbe34e50f9697482213b6780c436564c0"
+      "claim_snapshot": "4104dc52087ac894e8d212938ebb36d71a9277405ff71b65b988b9840fbe182c"
     },
     {
       "relation_id": "REV-2수01-08-1",
@@ -145,7 +145,7 @@
       "finding": "한쪽 끝 맞추기, 빈틈 없이 단위 놓기, 단위 하나를 반복하기를 구별한 길이 과제를 설계에 참고한다.",
       "limit": "이 과제들로 국내 cm·m 사용이나 두 기준의 필수 지도 순서를 입증하지 않는다.",
       "relation_snapshot": "8d1b7695b1baabd633f22e0cd7533e5ac5903283b9fe1bd991f9c811c673672c",
-      "claim_snapshot": "feb38932009d221260fcf4770fcff64370f415cf4b407818b14449a9d78626f0"
+      "claim_snapshot": "0f02ef5588d3b693cabc1ea5200c6a54dc1d3b99b14a5603a97585fc7887ed5b"
     },
     {
       "relation_id": "REV-2수03-10-1",
@@ -154,7 +154,7 @@
       "finding": "연구의 정순·역순 조건은 활동 순서와 오답 뒤 피드백이 함께 달랐다.",
       "limit": "직접 비교 뒤 단위 반복을 두는 순서만의 효과는 분리되지 않는다.",
       "relation_snapshot": "8d1b7695b1baabd633f22e0cd7533e5ac5903283b9fe1bd991f9c811c673672c",
-      "claim_snapshot": "4fe0f072c8b4bd0a002bb4ecc65689032e6d6db6930a59be7c3fb58ae2437e16"
+      "claim_snapshot": "017e22bb37202075d0b0a794ac82b760793f8acfbccbcfef6a3bb3f10fbd0193"
     },
     {
       "relation_id": "REV-2수03-11-1",
@@ -199,7 +199,7 @@
       "finding": "주어진 배열을 이어 놓기, 틀린 자리를 고치기, 자기 규칙을 만들기를 다른 발문으로 묻는다.",
       "limit": "처음 몇 자리만으로 이후 규칙이 정해졌다고 보지 않는다. 복원에서는 반복 단위와 시작점을 먼저 공유한다.",
       "relation_snapshot": "2ecb7c0c7b29d5023f1fff36b8dec58700c32aeb3e006fec2e12e4a03b5e62f1",
-      "claim_snapshot": "d482f15d06148082ae2958855175fa2278b518f5da901adc45a5279a8ea454d5"
+      "claim_snapshot": "a1066ce2349dc9faba5011671cdd06d8d6572c5918f76f73a23c66e85639ce0f"
     },
     {
       "relation_id": "REV-2수02-02-1",
@@ -280,7 +280,7 @@
       "finding": "음식 선호 활동의 분류 기준과 범주별 기록을 참고해 표의 각 칸에 어떤 응답이 들어갔는지 확인한다.",
       "limit": "한 사람당 한 응답은 현재 과제의 조건이다. 원문의 활동 예가 국내 발문의 효과를 입증하지 않는다.",
       "relation_snapshot": "df61c119948b65eef4a849a8866f373e5b2a70632ce515a1828b77c712a10b37",
-      "claim_snapshot": "13cabe05045fb910f971de90cefdc08764588f9a0a3e66a47c301b9569b4ca50"
+      "claim_snapshot": "a1c9505f3fd2552abf6f91f1f3bccf3820ff13e3c1a15617a0c1971ddc7ebf62"
     },
     {
       "relation_id": "REV-2수04-02-1",
@@ -307,7 +307,7 @@
       "finding": "가이드에서 자료를 다룬 수업과 일반 수리력·수 개념 검사 결과가 함께 보고됐다.",
       "limit": "일반 검사 결과로 범주와 빈도를 표에 옮기는 수행만의 효과를 판정할 수 없다.",
       "relation_snapshot": "df61c119948b65eef4a849a8866f373e5b2a70632ce515a1828b77c712a10b37",
-      "claim_snapshot": "33bba177cfb3e207a477bbb2657f92f23dd833430323364d2d8a3f2795d5d499"
+      "claim_snapshot": "91d6101f07545990701bec71d2bc359dfec6bd4db561a586c1e7d2d9413b5400"
     },
     {
       "relation_id": "REV-2수04-03-1",
@@ -316,7 +316,7 @@
       "finding": "범주별 수를 같은 단위의 그림 기호로 나타내고 표의 수와 그래프의 기호 수를 맞춰 본다.",
       "limit": "그림마다 크기나 시작선이 달라 보이는 길이로 대소를 판단하지 않도록 공통 표시 조건을 확인한다.",
       "relation_snapshot": "4eb2f5b23d09edc549cb3762844979eda2cb6921ad085f9da79b3d9e2b16f1bb",
-      "claim_snapshot": "13cabe05045fb910f971de90cefdc08764588f9a0a3e66a47c301b9569b4ca50"
+      "claim_snapshot": "a1c9505f3fd2552abf6f91f1f3bccf3820ff13e3c1a15617a0c1971ddc7ebf62"
     },
     {
       "relation_id": "REV-2수04-03-1",
@@ -343,7 +343,7 @@
       "finding": "자료 활동을 포함한 프로그램 비교는 여러 구성 요소와 여러 검사 결과를 함께 다룬다.",
       "limit": "표에서 그림그래프로 바꾸는 순서나 국내 과제에서의 단위 기호 해석을 단독 검증한 결과가 아니다.",
       "relation_snapshot": "4eb2f5b23d09edc549cb3762844979eda2cb6921ad085f9da79b3d9e2b16f1bb",
-      "claim_snapshot": "33bba177cfb3e207a477bbb2657f92f23dd833430323364d2d8a3f2795d5d499"
+      "claim_snapshot": "91d6101f07545990701bec71d2bc359dfec6bd4db561a586c1e7d2d9413b5400"
     },
     {
       "relation_id": "REV-2수03-02-1",
@@ -991,7 +991,7 @@
       "finding": "퍼즐을 다 채웠는지와 조각을 놓기 전에 방향을 맞췄는지 별도로 관찰한다.",
       "limit": "놓은 뒤 수정한 행동과 놓기 전 예상을 구별한다. 이 채점으로 이동 종류 각각의 효과를 추정하지 않는다.",
       "relation_snapshot": "99316df96262b2eb1414469c87418d7dd259061f53ad8d84fa91482d6d4bd5fe",
-      "claim_snapshot": "fc4445607ce29b006741e965c3aed8747c63cd8e01ed5b40223ca6dac4cf8062"
+      "claim_snapshot": "0b8a147b3909912b15fe5dfc1d5d24f830b76b65174063f9541ce45c6edc50ac"
     },
     {
       "relation_id": "REV-4수03-16-1",
@@ -1567,7 +1567,7 @@
       "finding": "반반이라는 모형 판단과 여러 시행에서 실제 절반이 나왔는지를 다른 자료로 설명한다.",
       "limit": "관찰 비율 하나만으로 동전의 공정성이나 독립성을 확정하지 않는다.",
       "relation_snapshot": "a8530e74ba4ff70df7f822655cdd47bbf7fd496d5678b1a21493ea17d659eed3",
-      "claim_snapshot": "eeacda4ef55ba73b27932cdaa9a28f5abcaf5cf222825ab54bdcc45e230142e4"
+      "claim_snapshot": "029e73a29e4ab04eab942ec3e99e8e285dc399b03e98196085aa9dc12a9136dc"
     },
     {
       "relation_id": "REV-6수04-06-2",
@@ -2152,7 +2152,7 @@
       "finding": "세 항의 제곱을 전개해 xy의 계수가 2임을 확인하고 x³+8에서 빠져 있는 중간항도 비교한다.",
       "limit": "한 값에서 결과가 같아도 항등식이라고 할 수 없다. 세 항 공식과 세제곱 합을 중학교의 추가 요구로 옮기지 않는다.",
       "relation_snapshot": "dd5a2c91e3645aa1ad564d9bec0e8a39d186460ab487cc26e1aac6777c4793f9",
-      "claim_snapshot": "06dfebe5af0d5fd510eb41b1ee22321184a1eb4fd94415fd5a951ee7a1c0c5df"
+      "claim_snapshot": "7467edc7719831e74c3945ac39abbe8b43b286018b93f5bc2f2a00af3128b520"
     },
     {
       "relation_id": "SEC_9수04-01_C01",
@@ -2161,7 +2161,7 @@
       "finding": "합을 똑같이 나눈 평균 5.6과 자료를 정렬해 가운데에서 고른 값, 가장 자주 나온 값을 구별한다.",
       "limit": "평균을 실제로 관찰된 전형적인 한 값이라고 단정하지 않는다. 가이드의 불일치가 있는 수치는 사용하지 않는다.",
       "relation_snapshot": "26cc16037878dfa2e06932ddbd0c44256cf44e3927db733650866f24839b058b",
-      "claim_snapshot": "13809271ae68d49f469df26a701a75aff1029ba329b48efb6995736a9b01ba58"
+      "claim_snapshot": "ae6704aa84738e8a4ea432fd6d22dee13f365961efeb530ec0e84bd2823d545f"
     },
     {
       "relation_id": "SEC_9수04-01_C03",
@@ -2170,7 +2170,7 @@
       "finding": "1·2·2·3·20의 마지막 수만 200으로 바꾸면 평균은 5.6에서 41.6이 되고 중앙값과 최빈값은 2로 유지된다.",
       "limit": "한 값만 바꾼 경우와 자료 전체에 같은 배율을 적용한 경우를 구별한다. 큰 값을 자동으로 삭제하지 않는다.",
       "relation_snapshot": "8df304bfb03e7cd64d437e304dc2acbf08e89cf11670ad5d85b294df74b3b05c",
-      "claim_snapshot": "13809271ae68d49f469df26a701a75aff1029ba329b48efb6995736a9b01ba58"
+      "claim_snapshot": "ae6704aa84738e8a4ea432fd6d22dee13f365961efeb530ec0e84bd2823d545f"
     },
     {
       "relation_id": "SEC_9수04-06_C01",
@@ -2206,7 +2206,7 @@
       "finding": "두 상자그림에서 중앙값과 사분위범위를 각각 읽고 사분위수와 수염에 사용한 규칙을 확인한다.",
       "limit": "상자가 넓다는 사실만으로 표본 수가 많다고 읽거나 상자의 겹침을 정식 유의성 판정으로 쓰지 않는다.",
       "relation_snapshot": "7ca766832c079cf119db6a1f6cd701c1ac3fb7578e5074ab0feabc7599b3e34d",
-      "claim_snapshot": "4e9c1d1f5f486ac96d07d1ea74b90205889bf94cc4f889065e1579260b6e9bd0"
+      "claim_snapshot": "e168f01e1538b3357761587e9a6031dc3962b341f3f25e6e62a1d5d8973baa04"
     },
     {
       "relation_id": "SEC_9수04-09_C02",
@@ -2215,7 +2215,7 @@
       "finding": "같은 대상에서 얻은 두 값을 한 행으로 보존한 채 산점도에 한 점으로 놓는다.",
       "limit": "각 열을 따로 정렬하면 짝이 달라져 관계도 바뀔 수 있다. 관찰된 경향을 인과 관계로 읽지 않는다.",
       "relation_snapshot": "fb13ead3f45409a2a68be250c1a7e94b881c097563bd37babcf2a1a147cb8b19",
-      "claim_snapshot": "5bf1d8d2b696984e890826869a0a0d777eaf48bbe50efe5f4a36b54da97fcbcf"
+      "claim_snapshot": "884bb78d002f04f54b5ff2861535260939f883078616e9a7de798db6775584ec"
     },
     {
       "relation_id": "SEC_9수04-09_C03",
@@ -2224,7 +2224,7 @@
       "finding": "각 열의 히스토그램이 같아도 어느 값들이 한 행에 놓였는지에 따라 산점도가 달라질 수 있음을 비교한다.",
       "limit": "한 변수의 분포를 보인 그래프로 두 변수의 짝이나 상관을 복원하지 않는다.",
       "relation_snapshot": "6a02ddf63a854a178ffa659dacbbc74b1cad913af8ef2576259019ee8d566478",
-      "claim_snapshot": "5bf1d8d2b696984e890826869a0a0d777eaf48bbe50efe5f4a36b54da97fcbcf"
+      "claim_snapshot": "884bb78d002f04f54b5ff2861535260939f883078616e9a7de798db6775584ec"
     },
     {
       "relation_id": "SEC_10공수1-01-03_C03",
@@ -2233,7 +2233,7 @@
       "finding": "x³−8은 (x−2)(x²+2x+4)를 전개해 중간항이 상쇄되는 이유를 확인한다.",
       "limit": "x=3으로 (x−2)³을 반박할 수 있지만, 한 값에서 일치했다는 사실로 항등식을 증명할 수는 없다.",
       "relation_snapshot": "53518182eb25678d8b2adbbb354a650808f048ea749c826d7050b6cf78d50acb",
-      "claim_snapshot": "06dfebe5af0d5fd510eb41b1ee22321184a1eb4fd94415fd5a951ee7a1c0c5df"
+      "claim_snapshot": "7467edc7719831e74c3945ac39abbe8b43b286018b93f5bc2f2a00af3128b520"
     },
     {
       "relation_id": "SEC_10공수1-02-04_C03",
@@ -2242,7 +2242,7 @@
       "finding": "y=x²−4x+3의 인수분해형에서 근 1과 3을, 완전제곱형에서 꼭짓점 (2, −1)을 찾는다.",
       "limit": "근인 수와 x축 교점인 순서쌍을 구별한다. 꼭짓점의 x좌표 2는 함수값이 0이 아니므로 근이 아니다.",
       "relation_snapshot": "edd16a84a70c29abc400d4af1a2c9d4104e90bd9db4c0ac0e1f3fd5fd666eef2",
-      "claim_snapshot": "665293726e86aa92c5a95984966fd61ad8ed0c94fab437d03928c103bfae1271"
+      "claim_snapshot": "b9bf318aeabe9158a59da4f4350efcd8cac444933349bc34348f49b3d3a300b5"
     },
     {
       "relation_id": "SEC_10공수2-02-03_C03",
@@ -2332,7 +2332,7 @@
       "finding": "버스 이용 여부와 통학 시간의 단위·관찰 대상을 먼저 정한 뒤 질문에 맞는 그래프를 고른다.",
       "limit": "두 집단 평균 13과 22.5의 차이를 버스 이용의 인과 효과로 해석하지 않는다.",
       "relation_snapshot": "5990248f6eb24676ae49a6438bb046d786c13f647b0fad947f259cd9f8a56e3c",
-      "claim_snapshot": "dbae00c13bcb6fd0caf7d3013308702952113564cc3fa0324770a9c904c18df0"
+      "claim_snapshot": "8b08a727f026e3c0baff23cf7c309bd3570efe80b0c908361593d8a970a53855"
     },
     {
       "relation_id": "SEC_12실통01-02_C02",
@@ -2341,7 +2341,7 @@
       "finding": "계산한 평균을 제시하면서 통학 시간 측정 기준과 제외한 기록을 설명하는 별도 발문을 둔다.",
       "limit": "그래프가 그려졌다는 사실만으로 조사 질문과 표현이 맞다고 판단하지 않는다.",
       "relation_snapshot": "5990248f6eb24676ae49a6438bb046d786c13f647b0fad947f259cd9f8a56e3c",
-      "claim_snapshot": "889a07cc8fce6449a182bbc483fdf3cb5cd8843d1d33b5119626effd4821edfd"
+      "claim_snapshot": "f3c902ec2bf5ed75ec389089e58cd42d7597bd980f48f2a0f8fb9657d7c761bd"
     },
     {
       "relation_id": "SEC_12실통01-02_C03",
@@ -2350,7 +2350,7 @@
       "finding": "그래프에서 질문에 답할 수 없다면 변수와 수집 기준으로 돌아가 정리 방법을 수정한다.",
       "limit": "자료 탐구의 순환적 설명을 모든 학생에게 필요한 고정된 발달 단계로 적용하지 않는다.",
       "relation_snapshot": "b12eac55321e3fa6741b515b6eb6e227887fd8aa4c464e7de42b2edcf29214fc",
-      "claim_snapshot": "dbae00c13bcb6fd0caf7d3013308702952113564cc3fa0324770a9c904c18df0"
+      "claim_snapshot": "8b08a727f026e3c0baff23cf7c309bd3570efe80b0c908361593d8a970a53855"
     },
     {
       "relation_id": "SEC_12실통01-02_C03",
@@ -2359,7 +2359,7 @@
       "finding": "도구가 그린 그래프의 축과 관찰 단위가 질문에 맞는지 확인하고 맞지 않으면 표현을 바꾼다.",
       "limit": "정답 계산이나 출력 그래프만으로 탐구 전체를 끝냈다고 판정하지 않는다.",
       "relation_snapshot": "b12eac55321e3fa6741b515b6eb6e227887fd8aa4c464e7de42b2edcf29214fc",
-      "claim_snapshot": "889a07cc8fce6449a182bbc483fdf3cb5cd8843d1d33b5119626effd4821edfd"
+      "claim_snapshot": "f3c902ec2bf5ed75ec389089e58cd42d7597bd980f48f2a0f8fb9657d7c761bd"
     },
     {
       "relation_id": "SEC_12실통02-02_C02",
@@ -2368,7 +2368,7 @@
       "finding": "같은 모양의 표라도 관찰, 설문, 실험 중 어떤 절차에서 자료가 생겼는지 적는다.",
       "limit": "표의 정돈만으로 서로 다른 수집 방식의 결론 범위가 같아지지 않는다.",
       "relation_snapshot": "d26674716b3bf308befa9292763489529754327b7318e3c11804168befd3251a",
-      "claim_snapshot": "34472a44809b9b049c98883f808ac93180b4abcb4607b17b7901b4a77efb5461"
+      "claim_snapshot": "f2ffd9f4f9b06872a89b557003987381e57588b745768475867bd6aa8c8d6a32"
     },
     {
       "relation_id": "SEC_12실통02-02_C03",
@@ -2377,7 +2377,7 @@
       "finding": "표가 커지기 전에 한 행의 단위, 누락과 중복, 측정 기준이 일치하는지 확인한다.",
       "limit": "행이 많거나 그래프가 매끄럽다고 대표성이 보장되지 않는다. 누락은 0으로 바꾸지 않는다.",
       "relation_snapshot": "53ffebeecbcef65bc774e40a2dc6bc2b555c897d892a7b0943e372f885291230",
-      "claim_snapshot": "34472a44809b9b049c98883f808ac93180b4abcb4607b17b7901b4a77efb5461"
+      "claim_snapshot": "f2ffd9f4f9b06872a89b557003987381e57588b745768475867bd6aa8c8d6a32"
     },
     {
       "relation_id": "AN_4수04-02_C01",
@@ -2404,7 +2404,7 @@
       "finding": "2·4·9의 평균은 합을 세 사람에게 균등하게 나눈 5다. 1·2·2·3·20에서 평균·중앙값·최빈값을 질문에 따라 비교한다.",
       "limit": "한 극단값의 변화에 대한 세 요약의 반응이 다르다. 가이드에서 서로 맞지 않는 예시 수치는 인용하지 않는다.",
       "relation_snapshot": "1f2a74d9a07d1ddf327ed67390b3c1d25d505809f5d1c9fdd4b5bd1ff3de4767",
-      "claim_snapshot": "13809271ae68d49f469df26a701a75aff1029ba329b48efb6995736a9b01ba58"
+      "claim_snapshot": "ae6704aa84738e8a4ea432fd6d22dee13f365961efeb530ec0e84bd2823d545f"
     },
     {
       "relation_id": "AN_6수04-04_C01",
@@ -2521,7 +2521,7 @@
       "finding": "13개를 세는 최초 반응과 구슬을 그대로 두 부분으로 가르는 반응을 따로 기록한다. 다른 분해가 도움 뒤에 나왔는지도 표시한다.",
       "limit": "가이드의 권고 3 근거 등급은 Minimal이다. 이 기록 절차의 진단 정확도나 고유 효과를 확인한 값은 없다.",
       "relation_snapshot": "785adcbc884a31ff983a492ac117b07f777fdfc3f84f3bda6e279f1e6501b0b5",
-      "claim_snapshot": "1d3308311e8e29f917b0b47de98b1a5150fd86106ae3290d69db96723ae0be23"
+      "claim_snapshot": "99bae13b4c3c018887a323ae97d88c0100e37b392fd000798a2997d931931fb8"
     },
     {
       "relation_id": "REV-2수01-04-1",
@@ -2530,7 +2530,7 @@
       "finding": "구슬 13개를 두 모임으로 옮긴 뒤 각 모임을 그림과 부분 수로, 그대로인 전체를 13으로 대응시킨다.",
       "limit": "권고 4의 근거 등급은 Minimal이다. 기호나 말로 나타내는 데 어려움이 있으면 실제로 나눈 수행도 따로 본다.",
       "relation_snapshot": "785adcbc884a31ff983a492ac117b07f777fdfc3f84f3bda6e279f1e6501b0b5",
-      "claim_snapshot": "08ed9de7e38976433127aa63f182738b75fffda4654efda1eb2f70bb20d93cbd"
+      "claim_snapshot": "0cddf538d6bbbbfcbc6d58b06fdfd61154f054ae1b7c7ee0a6ecbd1201e17464"
     },
     {
       "relation_id": "REV-2수01-04-1",
@@ -2611,7 +2611,7 @@
       "finding": "IES 표 D.2에서 기본 수 개념 총점의 긍정 판정과 수 합성 하위척도의 판정이 다르다.",
       "limit": "총점의 긍정 판정으로 전체 세기에서 두 부분 분해로 옮겨 가는 개별 활동의 효과를 결론 내리지 않는다.",
       "relation_snapshot": "785adcbc884a31ff983a492ac117b07f777fdfc3f84f3bda6e279f1e6501b0b5",
-      "claim_snapshot": "1088dc767bec236aa4dc2d50052357978595f0bdb03745ef618f6baf415b25d7"
+      "claim_snapshot": "913a6be2aa7fc4ac63653e653bfb78981e8758aca6b2b172be9d36c9a484b363"
     },
     {
       "relation_id": "REV-2수01-04-1",
@@ -2665,7 +2665,7 @@
       "finding": "보이는 부분과 가린 부분을 확인한 뒤 전체에서 한 부분을 빼는 식으로 남은 양을 설명한다.",
       "limit": "가림을 제거 사건으로 읽으려면 상황에서 실제로 덜어 냈는지 확인한다. 가리기 활동 단독의 효과는 확인되지 않았다.",
       "relation_snapshot": "9022980974f90e2e546854722786020defc2630f0324590b4e1fed188cf44fec",
-      "claim_snapshot": "dc17125c2d2071c30a49f1b44666ac7693aa7297fc33923a2debe426d0107b36"
+      "claim_snapshot": "3544b07dc2cb8cb1ecd216fbf92c8bb8a256299e7abc7615bcac91ca6791258a"
     },
     {
       "relation_id": "REV-2수01-05-1",
@@ -2674,7 +2674,7 @@
       "finding": "같은 세 수의 실물, 그림, 식을 연결하면서 합치기에서는 결과 전체를, 덜어 내기에서는 남은 양을 가리킨다.",
       "limit": "권고 4의 등급은 Minimal이다. 식의 숫자가 맞아도 상황 속 양의 역할은 별도 발문으로 확인한다.",
       "relation_snapshot": "9022980974f90e2e546854722786020defc2630f0324590b4e1fed188cf44fec",
-      "claim_snapshot": "08ed9de7e38976433127aa63f182738b75fffda4654efda1eb2f70bb20d93cbd"
+      "claim_snapshot": "0cddf538d6bbbbfcbc6d58b06fdfd61154f054ae1b7c7ee0a6ecbd1201e17464"
     },
     {
       "relation_id": "REV-2수01-05-1",
@@ -2755,7 +2755,7 @@
       "finding": "권고 1의 Moderate는 권고 전체에 대한 근거 등급이다. 표 D.2의 총점과 수 합성 결과를 구별한다.",
       "limit": "이 등급을 부분 분해를 변화나 비교 상황의 합차로 옮기는 특정 발문에 부여하지 않는다.",
       "relation_snapshot": "9022980974f90e2e546854722786020defc2630f0324590b4e1fed188cf44fec",
-      "claim_snapshot": "1088dc767bec236aa4dc2d50052357978595f0bdb03745ef618f6baf415b25d7"
+      "claim_snapshot": "913a6be2aa7fc4ac63653e653bfb78981e8758aca6b2b172be9d36c9a484b363"
     },
     {
       "relation_id": "REV-2수01-05-1",
@@ -2836,7 +2836,7 @@
       "finding": "예비 연구의 일부 검사에서는 수 범위와 미지 위치 등 상황 복잡성이 함께 달라졌다.",
       "limit": "어려운 상황식에 대한 반응 차이를 부분-전체 구조 이해나 수가 커진 영향 중 하나에만 귀속하지 않는다.",
       "relation_snapshot": "9022980974f90e2e546854722786020defc2630f0324590b4e1fed188cf44fec",
-      "claim_snapshot": "cf5a7e9ba1a447b9970b14d28fa99eac05ab68cb31f25bd706a525087d5460b7"
+      "claim_snapshot": "ca21cf1490feb74973e3637e78c096b913acf36dac3eebaca70cc589090a225f"
     },
     {
       "relation_id": "REV-2수01-05-1",
@@ -2845,7 +2845,7 @@
       "finding": "확대 연구에서 보고한 d=1.20은 기본 모형의 사후 전체 연산 결과이고 표 4의 조건 계수 .53과 구별한다.",
       "limit": "두 값 모두 부분을 합차 상황식으로 표현하는 한 유형의 효과 추정치는 아니다.",
       "relation_snapshot": "9022980974f90e2e546854722786020defc2630f0324590b4e1fed188cf44fec",
-      "claim_snapshot": "90c5641f6301ff150c56ba480a845cf63fac4a0a83eb52480fa4bc8249db2d8b"
+      "claim_snapshot": "470517a9809964189746d9caea979f4f4a99006b5e6571ebdf3a5b1bcb0013b7"
     },
     {
       "relation_id": "REV-2수01-06-1",
@@ -2959,10 +2959,10 @@
       "relation_id": "REV-2수01-06-2",
       "claim_id": "LTAR-05",
       "role": "inference_limit",
-      "finding": "확대 연구의 사후검사에는 어려운 13문항이 추가됐고 한 집단만 사후검사와 일부 겹치는 중간검사를 받았다.",
+      "finding": "확대 연구 본문은 사후검사에13문항을 추가했다고 보고하지만 공식 부록의 사전22행·사후34행과 문항 대응은 미해결이다. LT만 사후와 겹치는 중간검사를 추가로 받았다.",
       "limit": "사전과 사후의 원점수 차이로 연산 선택과 계산 중 무엇이 개선됐는지, 지도 순서만의 효과인지 판단할 수 없다.",
       "relation_snapshot": "a23fb55c70a3bef81307994812bf0b48c16ff222d215667487e3a2045c622904",
-      "claim_snapshot": "8282794de8c9b1d9cf5c88b1be9f2205c7aff4e7648974c5ad610dffdb691c9a"
+      "claim_snapshot": "395299a2be10cf37ab3c8e231d0014cdd73a2009cefe9dd7b283c9cad483d78a"
     },
     {
       "relation_id": "REV-2수01-07-1",
@@ -3160,7 +3160,7 @@
       "finding": "물체의 같은 쪽 끝을 맞춰 길이를 직접 비교한 다음, 그 끝에서 같은 cm 단위를 반복해 비교를 수치로 나타낸다.",
       "limit": "권고 2의 근거 등급은 Minimal이다. 표준 단위 사용과 기준 끝·간격의 정확한 맞춤은 따로 확인한다.",
       "relation_snapshot": "8d1b7695b1baabd633f22e0cd7533e5ac5903283b9fe1bd991f9c811c673672c",
-      "claim_snapshot": "0737c23d1bbcf3b06e3f18772c1a26fa10ebaa07bef902f73816bd3fd84887ef"
+      "claim_snapshot": "8fec1f51d7636d1ef452ef4d3e93d944b1c99dedd3cf5fd6dcc9018b27d5884f"
     },
     {
       "relation_id": "REV-2수03-10-1",
@@ -3214,7 +3214,7 @@
       "finding": "측정 활동이 들어간 프로그램 결과와 별도로 보고한 측정 하위척도를 구별한다.",
       "limit": "권고 2의 근거 등급은 Minimal이다. 일반 수리력 점수로 직접 비교에서 cm·m 측정으로 넘어가는 효과를 분리할 수 없다.",
       "relation_snapshot": "8d1b7695b1baabd633f22e0cd7533e5ac5903283b9fe1bd991f9c811c673672c",
-      "claim_snapshot": "db865ecf79cb7049bd6eab135a531705ff02bd35c9f6bc28ac2df4d6d3ba46ce"
+      "claim_snapshot": "c68be0477b98ed9ffde0478c90d03cfec317c3db0a7e6186c53f507a64b3fe69"
     },
     {
       "relation_id": "REV-2수03-10-1",
@@ -3223,7 +3223,7 @@
       "finding": "길이 연구의 사후 표 2는 185명으로 정규 수업 57명, 정순 69명, 역순 59명을 비교했다.",
       "limit": "초록의 189명이나 표 5 머리글의 정순 71명을 사후 표 2에 대입하지 않는다. 이 비교는 국내 단위 읽기 점수가 아니다.",
       "relation_snapshot": "8d1b7695b1baabd633f22e0cd7533e5ac5903283b9fe1bd991f9c811c673672c",
-      "claim_snapshot": "73fd29b36c86a3c66902dab441f7f579f30fc4db1276154471a7248e1b0099df"
+      "claim_snapshot": "c71e8facc27b3e85c1241c9f14722b3e02c18c66975f67b81f0c3f99b26b6145"
     },
     {
       "relation_id": "REV-2수03-10-1",
@@ -3232,7 +3232,7 @@
       "finding": "정규 수업 대비 사후 Rasch 추정치는 정순 .58과 역순 .27이었고, 역순의 신용구간은 0을 포함했다.",
       "limit": "정순 대 역순은 별도 대비다. 시작점 맞추기에서 표준 단위 반복으로 옮기는 특정 과제나 순서 단독의 효과로 읽지 않는다.",
       "relation_snapshot": "8d1b7695b1baabd633f22e0cd7533e5ac5903283b9fe1bd991f9c811c673672c",
-      "claim_snapshot": "0b3b0345cb3e67bfd8642ab3cf26ccc2c0ffdfd0ec0631e31c44d09bb3bfd8df"
+      "claim_snapshot": "b05fd71536b2a8ca503c32a185bd2b4e49c7bf35fb5ab6a524aab8623de7b4fd"
     },
     {
       "relation_id": "REV-2수03-12-1",
@@ -3376,7 +3376,7 @@
       "finding": "두 실근을 그래프의 (−8,0), (3,0)과 연결한다.",
       "limit": "도형의 길이 조건 x>0을 별도로 적용한다.",
       "relation_snapshot": "dc84d9a5b599a89412c4238c4d5e11210d7e09d4bc696d65cf69f53f00214423",
-      "claim_snapshot": "c859b54f0036ff137830cf083f551cd6bdf2911c5eacb1d5c93aa6f8611f362c"
+      "claim_snapshot": "59f4b69fbc517bf6f0c15fae70ef1874ff954233a4706fa4766049a5f091d389"
     },
     {
       "relation_id": "REV-9수02-22-1",
@@ -3385,7 +3385,7 @@
       "finding": "가로축 교점으로 후보를 찾고 인수분해와 넓이 식으로 확인한다.",
       "limit": "눈금은 근사를 줄 수 있으며 포물선 전체와 상황의 정의역을 구별한다.",
       "relation_snapshot": "72f10afe3c5088c31e145bb7894f344faed8ae3aaa99b00da3e43593fcef1023",
-      "claim_snapshot": "c859b54f0036ff137830cf083f551cd6bdf2911c5eacb1d5c93aa6f8611f362c"
+      "claim_snapshot": "59f4b69fbc517bf6f0c15fae70ef1874ff954233a4706fa4766049a5f091d389"
     },
     {
       "relation_id": "SEC_9수02-13_C04",
@@ -3394,7 +3394,7 @@
       "finding": "가감으로 얻은 (2,3)을 두 식에 대입해 교점임을 확인한다.",
       "limit": "한 직선 위의 점만으로 두 식의 공통 해를 정할 수 없다.",
       "relation_snapshot": "56476cfa1bb580a259bf05de63c7213f7d2bba961c4c979cafaa30402b23ef31",
-      "claim_snapshot": "3f354166225d9551f45af9fc3485a5e58a12a6193cd79c2152d2cc25b9de3b8f"
+      "claim_snapshot": "fd63919d9610759bb0f1f92fa1984d4e14d8892ff7d8f1a48a13fdf76299174a"
     },
     {
       "relation_id": "SEC_9수02-18_C03",
@@ -3403,7 +3403,7 @@
       "finding": "교점 후보와 직선 하나에만 놓인 점을 각각 두 식에 대입한다.",
       "limit": "그림에서 두 점이 가까워 보여도 순서쌍이 같다는 근거는 따로 필요하다.",
       "relation_snapshot": "fe31e51f2850cadff321061d6f2aa3aed01f22547e2c65d9d77fc1c9c4a4d38f",
-      "claim_snapshot": "3f354166225d9551f45af9fc3485a5e58a12a6193cd79c2152d2cc25b9de3b8f"
+      "claim_snapshot": "fd63919d9610759bb0f1f92fa1984d4e14d8892ff7d8f1a48a13fdf76299174a"
     },
     {
       "relation_id": "REV-9수02-13-1",
@@ -3412,7 +3412,7 @@
       "finding": "대입이나 가감 결과와 같은 연립식의 그래프 교점을 비교한다.",
       "limit": "적절한 첫 연산은 식의 형태에 따라 다르며 그림의 근사 해는 검산한다.",
       "relation_snapshot": "3a7c9981d043b76fee1e511896b20acb67010de3c80d5e39f3b33aed48811aa1",
-      "claim_snapshot": "3f354166225d9551f45af9fc3485a5e58a12a6193cd79c2152d2cc25b9de3b8f"
+      "claim_snapshot": "fd63919d9610759bb0f1f92fa1984d4e14d8892ff7d8f1a48a13fdf76299174a"
     },
     {
       "relation_id": "SEC_9수02-15_C04",
@@ -3421,7 +3421,7 @@
       "finding": "0세트의 기본 비용을 나타낸 뒤 두 입력 사이의 증가량을 설명한다.",
       "limit": "고정비가 있을 때 전체 비용을 세트 수로 나눈 값은 일정한 증가율과 다르다.",
       "relation_snapshot": "40d43e7a92cb6ad5f99660d8f4eb767f678a5b4a5a88de2e0e806d1f00201935",
-      "claim_snapshot": "73243532fc0f84e4a66e0f99f16a307b87244a27ca63fb93e1ce1379d8e80d5d"
+      "claim_snapshot": "b4f6ce7fa2131eb2dc2a8e8d7b138db33601108386240a3c44f53b109a8ff3d2"
     },
     {
       "relation_id": "REV-9수02-15-1",
@@ -3430,7 +3430,7 @@
       "finding": "2세트에서 4세트로 갈 때 늘어난 1400원을 2로 나눠 식의 계수 700과 대응시킨다.",
       "limit": "일정한 증가량과 실제 구매 수의 정수 조건을 구별한다.",
       "relation_snapshot": "9f73d00e039902a395447c0f7c9e5755325e7b7d1a31d212d859bc29335264a0",
-      "claim_snapshot": "73243532fc0f84e4a66e0f99f16a307b87244a27ca63fb93e1ce1379d8e80d5d"
+      "claim_snapshot": "b4f6ce7fa2131eb2dc2a8e8d7b138db33601108386240a3c44f53b109a8ff3d2"
     },
     {
       "relation_id": "SEC_9수02-03_C04",
@@ -4130,9 +4130,9 @@
       "claim_id": "H5I18-01",
       "role": "activity_context",
       "finding": "두 카드의 양을 합해 보고 모두 세기와 이어 세기의 계산을 비교한다.",
-      "limit": "활동을 제공한 사실과 학생이 스스로 선택한 방법을 구별한다.",
+      "limit": "활동을 제공한 사실과 학생이 스스로 선택한 방법을 구별한다. 첫 카드를 숨긴 상태에서 양을 기억했는지, 다시 본 뒤 계산했는지 함께 기록한다. 수의 크기와 표시가 함께 달라지는 예시는 각각의 영향을 가려 주지 않는다. 두 수를 그대로 두고 표시만 바꿔 후속 반응을 기록할 수 있다.",
       "relation_snapshot": "a23fb55c70a3bef81307994812bf0b48c16ff222d215667487e3a2045c622904",
-      "claim_snapshot": "ee8c0b4efa418d6d1c5c7fa08e99bf07386f61ecdadaeae26fade1e4ca02c0b4"
+      "claim_snapshot": "1c4626f7e6538b31bdc478a3b179a54acc95cb86544367511d31a4af3ddc8468"
     },
     {
       "relation_id": "REV-2수01-06-2",
@@ -7924,6 +7924,15 @@
       "limit": "원자료가 없는 표본의 사유를 추정하거나 미수집을0점으로 넣지 않는다. 복습 뒤 지연 검사·부분점수·서로 다른 효과 정의를 독립 수행으로 합치지 않는다.",
       "relation_snapshot": "6c613e40b1316b0add48a5035a8c121891fcae9448f224fcf1197afcd7f5b885",
       "claim_snapshot": "7d2f0c6571bd042099f8a1a3bacb48bd97e6b0b397ca4b6e0651ada8df592766"
+    },
+    {
+      "relation_id": "REV-2수01-07-1",
+      "claim_id": "LBI08-01",
+      "role": "activity_context",
+      "finding": "처음 수를 모르는 상자에서 같은 수를 넣고 빼는 변화와1개가남는변화를비교하고,답과이유·지원전후를따로기록한다.",
+      "limit": "역관계문항에같다고일률응답한것은이해의증거가아니다. 원판·정확한WWC분모·현재과제효과는미확인이며이연결을보편적인필수순서로읽지않는다.",
+      "relation_snapshot": "c961ccaf77db442d59c3a7b95bc0d659c6960932198a4a0e1ba96973f99b6728",
+      "claim_snapshot": "8b8ca9cf42ee11358b69fe193137f92e10ec870d82d36a7db17c588ebd68f8f9"
     }
   ]
 }

@@ -1,0 +1,362 @@
+{
+  "source_id": "MATTERA_ET_AL_2017_MPC_DESIGN",
+  "source_url": "https://doi.org/10.1016/bs.acdb.2017.04.002",
+  "source_pdf_url": "https://files.eric.ed.gov/fulltext/ED651010.pdf",
+  "source_asset_kind": "pdf",
+  "source_pdf_sha256": "1c73db048ed405ef14a7466b3400f4ec6a0c28cadf64ec94b8b97e858c233b05",
+  "source_pdf_redistributed": false,
+  "contains_source_full_text": false,
+  "date": "2026-11-19",
+  "reviewer": "Codex",
+  "read_scope": "ERIC 공개 PDF28판면 전체를 읽었다. ERIC표지1판면과 인쇄227–253쪽의 출판대기 장27판면이며 표2개·그림0개·참고문헌을 포함한다. 기존5·새23판면이고 새 전문 추출문 독해는0쪽이다. 종전 선정 추출문15쪽 및2023설계논문 초록·참고문헌 대조 이력을 보존한다.",
+  "pdf_pages": 28,
+  "selected_text_pages": [
+    6,
+    7,
+    8,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    23,
+    24,
+    25
+  ],
+  "visual_pdf_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28
+  ],
+  "rendered_page_sha256": {
+    "1": "efe56b1fcfa5f4d9c8b598605e08bde3c66fd4f999496c15e7ab31b73f4f75d4",
+    "2": "6e923b3faf28a48eb23d7273195ae8bd9b1234089124b91ccc3454a76afa4571",
+    "3": "634e8d6f9f40856b82bb1bcfe592c78c70aa6ad12c85b72c238a53a83c82b817",
+    "4": "05116f89aeb2671028649ebfd9af2ace61aa44541199f1d9dc235fd5351c9f1f",
+    "5": "ff7488dfe591ab5aa8c23f7c1c878bebc75a40e81d50229be6158422b2549998",
+    "6": "601d737e5327face8e32b521915386d882ea224501d603252a4db8ca3edbf605",
+    "7": "d8c23eb366b9b19d0d8ada631db684cc5cc759c64c90881e46cb03b5aa2a8634",
+    "8": "2df423e9f16d1d52afdbd4ddaee984e0d7a2a664ef7f442cd09c3d3223818627",
+    "9": "19adcf5dc910ecce9c70435970127733963851fa95af0837635391cc9fa8a3b8",
+    "10": "68640e6e06cac6235e193ae2f76aa0d4d9bd7e29339991660054dd21774c5838",
+    "11": "4c757c856e6095f6f8ecc246a8f62bc19d8f46da8ea8e1342b5ec053f73681ac",
+    "12": "55b0e572c26f7a9d31f17e505f9b745a597841346d33880278ca7f1c4c0c2311",
+    "13": "7c0d0b0705e86904847bb87541020cdbd6ad3f219dda995168931e69a023c65d",
+    "14": "4550b352ab199c0e4b7b5f6953786a4edf68a55e61c47ecb5d577cfe6546dc4b",
+    "15": "0cf439fe9473a0e2d6a00baeff86770ca21929af33476472bb7c83af98717d96",
+    "16": "3dca16e6e2ec7c6c3f5743f00fbedd086ef2d0495cbcafea92e8eb8480b26fbc",
+    "17": "18419f9a6484cfbda553bc7297982432f343104fb7d7c7aaa0a6b87b42cf2b1c",
+    "18": "076856ac202aef5bf5fcb071afc1ed359c3180a890ec71eade9b7323c3f0373a",
+    "19": "0ca87fb8661fbea62f0ec908d3b88d00a4b685676c98857ac06aee1589c7998b",
+    "20": "e28a2425e85c0dbe3bd822ceac1278baf575dfac28dfb01e7e439016498ba49b",
+    "21": "1c1e56707117d38d6c16d72d585280bb9789ae8e651767619b2dd4a140d6b4b1",
+    "22": "ff7a40daccc80e1840a4f54bafbd50d1ec70848b3d612b8155cbca8ce31e1a6e",
+    "23": "7428ddfbdbd883c62b294d5c14b289136f616b9167f260409774fdd38b670a3b",
+    "24": "d1419d4e55a629542e08dfa807f7fe378ee369de2e2becaef80e9cf6006d5220",
+    "25": "4e7dfaf5449329351cd1bfd7e3cc3d2f9dc2fed2e3d6bcfc987fe3a2f6fc1acc",
+    "26": "58ec82a424de0250fa875ae5d65eb9369cc303880c7bed859dbe3294821877a4",
+    "27": "38a2a064b3cf05c2d062602cbb7b18fbc6ecb52d74d981fc71fce043aaff966b",
+    "28": "0cfdb0f50a6bcb420c4f47ed5543234b5bd0349a35498fb10ad9aa3849e55461"
+  },
+  "study_family": "MDRC_MAKING_PRE_K_COUNT_HIGH_5S",
+  "design_only": true,
+  "reading_log": [
+    "선정표의 표식과 각주, 활동 기준별 분모, 검사 목적 및 배정 수준을 확인했다.",
+    "ERIC 공개 PDF28판면 전체를 읽었다. ERIC표지1판면과 인쇄227–253쪽의 출판대기 장27판면이며 표2개·그림0개·참고문헌을 포함한다. 기존5·새23판면이고 새 전문 추출문 독해는0쪽이다. 종전 선정 추출문15쪽 및2023설계논문 초록·참고문헌 대조 이력을 보존한다.",
+    "ERIC표지와출판대기판표지는2017설계장·DOI·5저자·인쇄227쪽시작을보여준다.28PDF판면중ERIC표지1쪽이별도이며논문본문28쪽이라고하지않는다. 상관적장기예측과무작위프로그램효과의연구질문을구별한다. 수학능력자체의독립조작·인과매개가각각검증됐다고하지않는다. 연구설계와지원기관·협력관계를본프로젝트의독립검토로세지않는다.",
+    "프로그램은교육과정·교사연수·코칭묶음이며High5s는일부MPC아동의유치원추가지원이다.2011년9모형검토중6제외·3잔류후2종집중검토이며이선정과정을새직접비교시험으로세지않는다. 표1의선정기준은사전유의한취학전효과및전국규준.2SD또는개발자척도.5SD이며AND/OR와시점을유지한다. BMLK효과기준은유치원에만해당·2011소프트웨어는개발중·BB스페인어는일부자료와소프트웨어다. 체크/체크플러스/문자주석은범주표시로단일수치점수나효과크기가아니다.",
+    "BB선정은2011기준근거·내용범위·배포준비의판단이지모든목표의최적필수순서증명이아니다.2년교사연수는첫해주/보조6일·둘째해주교사5일및새주교사기초재제공으로모두11일이아니다. 코칭첫해149/180분은주간,둘째해99/120분은격주이고회기실시96/98%와시간충족비율이같지않다. 표2의66%실시/자료사용가능일과75%전체아동참여·기록지1개·가정통신문발송또는불필요·시스템접속은지표단위와AND/OR가다르며학생숙달률이아니다. 소집단첫해주1활동/둘째해2활동이제시된주에는둘다실시하는요구를구별한다.",
+    "대조군도정규취학전교육과수학지도를받았고실제서비스대비차이를측정한다. 과거문헌수학8%·문해21%를이연구의관측치로쓰지않는다. 2년기관실시와둘째코호트아동의1년BB노출을구별한다. 2017장은블록4–6기관,2021보고서는4–5기관으로써표기를출처별보존한다.69기관=공립47+CBO22이며NYC5자치구중4자치구다. 기관종류·지역·인종구성블록은아동개별배정이나동등성보장이아니다. 기관탈락없음은아동추적탈락0이아니다.",
+    "측정계획은취학전~3학년의다영역·다시점이며계획이실제전원자료확보나3학년행정자료와동일검사임을뜻하지않는다. 언어는수용어휘에서독해로초점이옮겨지고집행기능도연령에맞춰도구가바뀔수있다. ECLS-B의중재근접척도와WJ전국규준척도의민감도·예측목적차이를구별한다. 점수연결계획만으로측정동일성·전이·국내번역검사타당도가입증된것은아니다. 다른연구의fade-out가설·후속효과를이연구의최종장기결과로쓰지않는다.",
+    "High5s선정6기준은유지가능성·근거·운영복잡도·비용·확대가능성·원설계보존의판단으로직접비용효과시험이아니다. 문해중심선행튜터링메타효과.39/.31/.38을High5s수학효과로쓰지않는다.247본문은BB이수시점을kindergarten이라고쓰지만230/248쪽설계는preK이며출처차이를기록한다. High5s는24MPC공립학교아동의학교내재배정이며25진행자·5감독·79클럽·300명초과는운영규모다. 세비교는4셀완전요인설계가아니고중재군이겹친다. 교수환경질별발달의비인과탐색과무작위프로그램비교를구별한다.2017초기결과·예정추적을최종2018/2021/2026결과로바꾸지않는다.",
+    "2017결론은취학전말무효과와예비유치원긍정신호를병기하고프로그램별기여는추가분석필요라고쓴다. 이를최종장기결과·수학능력인과매개·격차해소입증으로바꾸지않는다. 참고문헌전체를읽었지만인용원전전체독해로세지않는다.ERIC표지1판면과출판대기장27판면으로총28판면이며표2개·그림0개를확인했다."
+  ],
+  "source_corrections": [
+    {
+      "location": "표 1·2",
+      "issue": "프로그램 선정표와 운영 기준을 직접 효과 추정으로 해석하지 않는다."
+    },
+    {
+      "location": "PDF 1,2,3,4",
+      "issue": "ERIC표지와출판대기판표지는2017설계장·DOI·5저자·인쇄227쪽시작을보여준다.28PDF판면중ERIC표지1쪽이별도이며논문본문28쪽이라고하지않는다. 상관적장기예측과무작위프로그램효과의연구질문을구별한다. 수학능력자체의독립조작·인과매개가각각검증됐다고하지않는다. 연구설계와지원기관·협력관계를본프로젝트의독립검토로세지않는다.",
+      "status": "own_bounded_audit_not_official_erratum"
+    },
+    {
+      "location": "PDF 5,6,7,8",
+      "issue": "프로그램은교육과정·교사연수·코칭묶음이며High5s는일부MPC아동의유치원추가지원이다.2011년9모형검토중6제외·3잔류후2종집중검토이며이선정과정을새직접비교시험으로세지않는다. 표1의선정기준은사전유의한취학전효과및전국규준.2SD또는개발자척도.5SD이며AND/OR와시점을유지한다. BMLK효과기준은유치원에만해당·2011소프트웨어는개발중·BB스페인어는일부자료와소프트웨어다. 체크/체크플러스/문자주석은범주표시로단일수치점수나효과크기가아니다.",
+      "status": "own_bounded_audit_not_official_erratum"
+    },
+    {
+      "location": "PDF 9,10,11,12",
+      "issue": "BB선정은2011기준근거·내용범위·배포준비의판단이지모든목표의최적필수순서증명이아니다.2년교사연수는첫해주/보조6일·둘째해주교사5일및새주교사기초재제공으로모두11일이아니다. 코칭첫해149/180분은주간,둘째해99/120분은격주이고회기실시96/98%와시간충족비율이같지않다. 표2의66%실시/자료사용가능일과75%전체아동참여·기록지1개·가정통신문발송또는불필요·시스템접속은지표단위와AND/OR가다르며학생숙달률이아니다. 소집단첫해주1활동/둘째해2활동이제시된주에는둘다실시하는요구를구별한다.",
+      "status": "own_bounded_audit_not_official_erratum"
+    },
+    {
+      "location": "PDF 13,14,15,16",
+      "issue": "대조군도정규취학전교육과수학지도를받았고실제서비스대비차이를측정한다. 과거문헌수학8%·문해21%를이연구의관측치로쓰지않는다. 2년기관실시와둘째코호트아동의1년BB노출을구별한다. 2017장은블록4–6기관,2021보고서는4–5기관으로써표기를출처별보존한다.69기관=공립47+CBO22이며NYC5자치구중4자치구다. 기관종류·지역·인종구성블록은아동개별배정이나동등성보장이아니다. 기관탈락없음은아동추적탈락0이아니다.",
+      "status": "own_bounded_audit_not_official_erratum"
+    },
+    {
+      "location": "PDF 17,18,19,20",
+      "issue": "측정계획은취학전~3학년의다영역·다시점이며계획이실제전원자료확보나3학년행정자료와동일검사임을뜻하지않는다. 언어는수용어휘에서독해로초점이옮겨지고집행기능도연령에맞춰도구가바뀔수있다. ECLS-B의중재근접척도와WJ전국규준척도의민감도·예측목적차이를구별한다. 점수연결계획만으로측정동일성·전이·국내번역검사타당도가입증된것은아니다. 다른연구의fade-out가설·후속효과를이연구의최종장기결과로쓰지않는다.",
+      "status": "own_bounded_audit_not_official_erratum"
+    },
+    {
+      "location": "PDF 21,22,23,24",
+      "issue": "High5s선정6기준은유지가능성·근거·운영복잡도·비용·확대가능성·원설계보존의판단으로직접비용효과시험이아니다. 문해중심선행튜터링메타효과.39/.31/.38을High5s수학효과로쓰지않는다.247본문은BB이수시점을kindergarten이라고쓰지만230/248쪽설계는preK이며출처차이를기록한다. High5s는24MPC공립학교아동의학교내재배정이며25진행자·5감독·79클럽·300명초과는운영규모다. 세비교는4셀완전요인설계가아니고중재군이겹친다. 교수환경질별발달의비인과탐색과무작위프로그램비교를구별한다.2017초기결과·예정추적을최종2018/2021/2026결과로바꾸지않는다.",
+      "status": "own_bounded_audit_not_official_erratum"
+    },
+    {
+      "location": "PDF 25,26,27,28",
+      "issue": "2017결론은취학전말무효과와예비유치원긍정신호를병기하고프로그램별기여는추가분석필요라고쓴다. 이를최종장기결과·수학능력인과매개·격차해소입증으로바꾸지않는다. 참고문헌전체를읽었지만인용원전전체독해로세지않는다.ERIC표지1판면과출판대기장27판면으로총28판면이며표2개·그림0개를확인했다.",
+      "status": "own_bounded_audit_not_official_erratum"
+    }
+  ],
+  "planned_weekly_benchmarks": {
+    "whole_group_attendance_days_percent": 66,
+    "small_group_all_children_percent": 75
+  },
+  "implementation_counts": {
+    "facilitators": 25,
+    "supervisors": 5,
+    "clubs": 79,
+    "public_schools": 24
+  },
+  "design_followup": {
+    "url": "https://journals.sagepub.com/doi/10.1177/0193841X231159472",
+    "reviewed": "abstract_and_references",
+    "reported_kindergarten_n": 613,
+    "full_text_verified": false
+  },
+  "previous_snapshot_file": "data/literature_evidence/MATTERA_ET_AL_2017_MPC_DESIGN_review_notes.json",
+  "previous_snapshot_sha256": "0d3fd00e2a642011c088351ece261485a987b44bab0c1878ca2e88f6618ebec6",
+  "previous_review": {
+    "source_id": "MATTERA_ET_AL_2017_MPC_DESIGN",
+    "state": "self_read_claim_mapping",
+    "reviewer": "Codex",
+    "date": "2026-11-10",
+    "snapshot_kind": "authored_review_notes",
+    "source_asset_kind": "pdf",
+    "source_pdf_sha256": "1c73db048ed405ef14a7466b3400f4ec6a0c28cadf64ec94b8b97e858c233b05",
+    "snapshot_file": "data/literature_evidence/MATTERA_ET_AL_2017_MPC_DESIGN_review_notes.json",
+    "snapshot_sha256": "0d3fd00e2a642011c088351ece261485a987b44bab0c1878ca2e88f6618ebec6",
+    "redistribution_license": "workspace_authored_notes",
+    "bibliography_snapshot": "10ddfa7eb0f0245896bc840d33d4a4f792dd0d2f205ca09193558de6c6b85c93",
+    "display": {
+      "title": "Designing Studies to Test Causal Questions About Early Math: The Development of Making Pre-K Count",
+      "url": "https://doi.org/10.1016/bs.acdb.2017.04.002",
+      "authors_year": "Mattera 외, 2017"
+    },
+    "read_scope": "ERIC 공개본에서 프로그램 선정, 주간 운영 기준, 통상 수업, 검사 선택과 두 단계 배정을 설명하는 선정 본문 및 표 1·2를 대조했다.",
+    "limits": "동일 연구의 설계 설명이다. 교육과정 선정표나 운영 기준으로 활동의 효과 또는 국내 학생의 학습 순서를 확정하지 않는다.",
+    "scope_note": "중재 설계와 평가 절차를 확인한다.",
+    "method_note": "ERIC 본문·선정 판면과 유치원 보고서의 분석 분모를 대조했다.",
+    "editorial_action": "근거 4건과 자체 관찰 과제 2개를 추가했다.",
+    "independent_review": false,
+    "student_validated": false,
+    "observations": [
+      {
+        "id": "MPCD-P1",
+        "standard_codes": [
+          "12실통02-02"
+        ],
+        "question": "가상 학급에서 아이들이 출석한 5일 중 4일에 전체 활동을 했고, 전체 아동 20명 중 14명이 소집단 활동에 참여했다. 실시일 기준 66%와 참여 기준 75%를 각각 충족하는가?",
+        "expected": "날짜 단위는 4/5=80%라 기준을 충족한다. 아동 단위는 14/20=70%라 기준에 미달한다.",
+        "interpretation": "일수와 아동 수를 섞지 않고, 활동 제공과 실제 참여를 따로 기록한다.",
+        "student_validated": false
+      },
+      {
+        "id": "MPCD-P2",
+        "standard_codes": [
+          "2수01-05",
+          "2수03-03"
+        ],
+        "question": "그림 속 블록 4개에 2개를 더한다. 합을 설명한 뒤, 별도로 제시된 사각형과 삼각형을 특징을 들어 구분한다. 두 과제의 총점만 같으면 덧셈과 도형을 같은 방식으로 이해했다고 할 수 있는가?",
+        "expected": "합은 6개다. 제시한 두 도형은 곧은 변이 각각 네 개와 세 개다. 같은 총점이어도 두 과제의 수행과 설명은 다를 수 있다.",
+        "interpretation": "개수 합의 설명, 도형을 분류한 근거, 문항별 응답과 총점을 따로 기록한다.",
+        "student_validated": false
+      }
+    ]
+  },
+  "new_visual_pdf_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    9,
+    10,
+    11,
+    13,
+    14,
+    15,
+    17,
+    18,
+    20,
+    21,
+    22,
+    24,
+    25,
+    26,
+    27,
+    28
+  ],
+  "previous_visual_pdf_pages": [
+    8,
+    12,
+    16,
+    19,
+    23
+  ],
+  "previous_rendered_page_sha256": {
+    "8": "85a9c43afbfed810bba9edfe02fe0bd2439088928787214fb784a3816e964278",
+    "12": "3618b78826641354bc4ac89a2ec0d5bc1e810acb1dc6c49a6c603c9e7d8fb94a",
+    "16": "5ab749b8be0553199b517543b6ff2cc8570a32a92364b0b581af8855eb449bed",
+    "19": "c38e3666d6cdf332484f4a8f75892a4673aa1b683a7f5aba4a60b6f6d518d9aa",
+    "23": "a8d378d7d13145d625f4a9dafb41e52c670685faf3156cf4358e3785ff7818e5"
+  },
+  "new_text_pdf_pages": [],
+  "new_full_extracted_text_pages": 0,
+  "whole_report_visual_read": true,
+  "whole_report_includes_cover": true,
+  "chapter_printed_pages": "227–253",
+  "whole_report_tables": {
+    "count": 2,
+    "figures": 0
+  },
+  "audit_findings": [
+    {
+      "pdf_pages": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "finding": "ERIC표지와출판대기판표지는2017설계장·DOI·5저자·인쇄227쪽시작을보여준다.28PDF판면중ERIC표지1쪽이별도이며논문본문28쪽이라고하지않는다. 상관적장기예측과무작위프로그램효과의연구질문을구별한다. 수학능력자체의독립조작·인과매개가각각검증됐다고하지않는다. 연구설계와지원기관·협력관계를본프로젝트의독립검토로세지않는다."
+    },
+    {
+      "pdf_pages": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "finding": "프로그램은교육과정·교사연수·코칭묶음이며High5s는일부MPC아동의유치원추가지원이다.2011년9모형검토중6제외·3잔류후2종집중검토이며이선정과정을새직접비교시험으로세지않는다. 표1의선정기준은사전유의한취학전효과및전국규준.2SD또는개발자척도.5SD이며AND/OR와시점을유지한다. BMLK효과기준은유치원에만해당·2011소프트웨어는개발중·BB스페인어는일부자료와소프트웨어다. 체크/체크플러스/문자주석은범주표시로단일수치점수나효과크기가아니다."
+    },
+    {
+      "pdf_pages": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "finding": "BB선정은2011기준근거·내용범위·배포준비의판단이지모든목표의최적필수순서증명이아니다.2년교사연수는첫해주/보조6일·둘째해주교사5일및새주교사기초재제공으로모두11일이아니다. 코칭첫해149/180분은주간,둘째해99/120분은격주이고회기실시96/98%와시간충족비율이같지않다. 표2의66%실시/자료사용가능일과75%전체아동참여·기록지1개·가정통신문발송또는불필요·시스템접속은지표단위와AND/OR가다르며학생숙달률이아니다. 소집단첫해주1활동/둘째해2활동이제시된주에는둘다실시하는요구를구별한다."
+    },
+    {
+      "pdf_pages": [
+        13,
+        14,
+        15,
+        16
+      ],
+      "finding": "대조군도정규취학전교육과수학지도를받았고실제서비스대비차이를측정한다. 과거문헌수학8%·문해21%를이연구의관측치로쓰지않는다. 2년기관실시와둘째코호트아동의1년BB노출을구별한다. 2017장은블록4–6기관,2021보고서는4–5기관으로써표기를출처별보존한다.69기관=공립47+CBO22이며NYC5자치구중4자치구다. 기관종류·지역·인종구성블록은아동개별배정이나동등성보장이아니다. 기관탈락없음은아동추적탈락0이아니다."
+    },
+    {
+      "pdf_pages": [
+        17,
+        18,
+        19,
+        20
+      ],
+      "finding": "측정계획은취학전~3학년의다영역·다시점이며계획이실제전원자료확보나3학년행정자료와동일검사임을뜻하지않는다. 언어는수용어휘에서독해로초점이옮겨지고집행기능도연령에맞춰도구가바뀔수있다. ECLS-B의중재근접척도와WJ전국규준척도의민감도·예측목적차이를구별한다. 점수연결계획만으로측정동일성·전이·국내번역검사타당도가입증된것은아니다. 다른연구의fade-out가설·후속효과를이연구의최종장기결과로쓰지않는다."
+    },
+    {
+      "pdf_pages": [
+        21,
+        22,
+        23,
+        24
+      ],
+      "finding": "High5s선정6기준은유지가능성·근거·운영복잡도·비용·확대가능성·원설계보존의판단으로직접비용효과시험이아니다. 문해중심선행튜터링메타효과.39/.31/.38을High5s수학효과로쓰지않는다.247본문은BB이수시점을kindergarten이라고쓰지만230/248쪽설계는preK이며출처차이를기록한다. High5s는24MPC공립학교아동의학교내재배정이며25진행자·5감독·79클럽·300명초과는운영규모다. 세비교는4셀완전요인설계가아니고중재군이겹친다. 교수환경질별발달의비인과탐색과무작위프로그램비교를구별한다.2017초기결과·예정추적을최종2018/2021/2026결과로바꾸지않는다."
+    },
+    {
+      "pdf_pages": [
+        25,
+        26,
+        27,
+        28
+      ],
+      "finding": "2017결론은취학전말무효과와예비유치원긍정신호를병기하고프로그램별기여는추가분석필요라고쓴다. 이를최종장기결과·수학능력인과매개·격차해소입증으로바꾸지않는다. 참고문헌전체를읽었지만인용원전전체독해로세지않는다.ERIC표지1판면과출판대기장27판면으로총28판면이며표2개·그림0개를확인했다."
+    }
+  ],
+  "exact_own_checks": {
+    "status": "pass",
+    "integer_denominators_checked": 366,
+    "selection_rule": "significant AND preschool AND (normed>=.2 OR developer>=.5)",
+    "coaching_minutes_fractions": [
+      "149/180 weekly",
+      "99/120 biweekly"
+    ],
+    "session_occurrence_percent": [
+      96,
+      98
+    ],
+    "missing_cell_example": {
+      "hypothetical": true,
+      "observed_means": [
+        10,
+        12,
+        15
+      ],
+      "alternative_missing_means": [
+        10,
+        15
+      ],
+      "interactions": [
+        3,
+        -2
+      ]
+    },
+    "raw_student_data_reanalyzed": false,
+    "models_refitted": false,
+    "official_erratum": false,
+    "student_validated": false
+  },
+  "all_cited_originals_read": false,
+  "raw_student_data_read": false,
+  "models_refitted": false,
+  "official_erratum_verified": false,
+  "independent_review": false,
+  "student_validated": false
+}

@@ -1,0 +1,1070 @@
+{
+  "source_id": "MATTERA_ET_AL_2021_MPC_THIRD_GRADE",
+  "source_url": "https://www.mdrc.org/work/publications/long-term-effects-enhanced-early-childhood-math-instruction",
+  "date": "2026-11-19",
+  "reviewer": "Codex",
+  "source_asset_kind": "pdf",
+  "source_pdf_sha256": "ea7abc1ea2297859160b470098b262b3dbc10d2c732d276b7a9acbb0defc9fb8",
+  "source_pdf_redistributed": false,
+  "contains_source_full_text": false,
+  "read_scope": "MDRC 공식 PDF의 101판면 전체를 읽었다. 표지·공백·목차·요약·본문·부록A–F·24표·1그림·참고문헌을 포함하며 본문101쪽이라는 뜻은 아니다. 기존12판면과 새89판면을 합친 범위다. 새 전문 추출문 독해는0쪽이고 종전 선정 추출문23쪽 및 사전등록·후속 논문·WWC 대조 이력을 보존한다.",
+  "empirical_scope": {
+    "design": "취학 전 기관 무작위 배정과 공립학교 잔류 아동의 유치원 개별 배정을 사용한 추적. 결과는 3학년 행정 자료.",
+    "sample_description": "수학 점수가 있는 표본은 MPC 대 정규 945·899명, High 5s 추가 226·230명, 두 해 결합 대 정규 226·255명.",
+    "inference_limit": "세 비교는 대조군·배정 단위·분모가 다르고 High 5s 중재군이 겹친다. 지도 묶음·학교 잔류 선택·결과 미확보를 고려한다. 집단 추정치를 개인 숙달·국내 특정 과제의 효과·필수 순서로 확대하지 않는다. 원 분석 코드·학생 원자료·공식 정오표와 국내 검증은 미확인이다.",
+    "student_outcome_study": true,
+    "causal_effect_established": false,
+    "local_effect_tested": false,
+    "study_family": "MDRC_MAKING_PRE_K_COUNT_HIGH_5S"
+  },
+  "pdf_url": "https://www.mdrc.org/sites/default/files/MPC_High5-3yr_Impact_Report.pdf",
+  "publisher_url": "https://www.mdrc.org/work/publications/long-term-effects-enhanced-early-childhood-math-instruction",
+  "pdf_pages": 101,
+  "printed_pages": [
+    6,
+    7,
+    9,
+    14,
+    23,
+    24,
+    25
+  ],
+  "selected_text_pages": [
+    5,
+    24,
+    25,
+    27,
+    32,
+    38,
+    41,
+    42,
+    43,
+    53,
+    54,
+    58,
+    60,
+    61,
+    65,
+    66,
+    67,
+    68,
+    71,
+    72,
+    93,
+    94,
+    95
+  ],
+  "visual_pdf_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100,
+    101
+  ],
+  "rendered_page_sha256": {
+    "1": "b01df0d3dc846621056842553db53e5cc1dfc7db6e946656d2e53418e20516c8",
+    "2": "dc60fee83205fb18609d1736ebb1361eb0ab8ef166b8550774170053ad256bb0",
+    "3": "c5e0149369efd0c6a22917495c8b8f0d88e7895edff0bb2b47f98827f3dd08f6",
+    "4": "73a14df4c906c5758237747c361081bc58c460ec25a7c5f4db89081696a0f965",
+    "5": "54085e01219ba422f5400c76a78395e3ac5972c334b8a688579cb95a95a3a9ef",
+    "6": "dc60fee83205fb18609d1736ebb1361eb0ab8ef166b8550774170053ad256bb0",
+    "7": "418bc46505f8cf3c2d54a38ad2aa43c9d5025a55aae21d596d5c7863d2862aa1",
+    "8": "dc60fee83205fb18609d1736ebb1361eb0ab8ef166b8550774170053ad256bb0",
+    "9": "079303cf6f8d64a63bf51cf2350be4cc753b03f6fd93e54257f3793941cce9e6",
+    "10": "c020a1a471c467dfc512109bc7c5bd6091428155bdb649d798e4c94246e913b6",
+    "11": "b31bd90f6ef7be654fa0339d0bb4ad501ccd5fa4db5d6326182f3a111c586813",
+    "12": "dc60fee83205fb18609d1736ebb1361eb0ab8ef166b8550774170053ad256bb0",
+    "13": "021034c16e7e0e3abc986efbe52c727ce7ed0dbc5196cb900ee034773b989cc2",
+    "14": "832c252b779a85911c576d926f9d8bb9bb15aefc625e4a7f310c2b50ea5d7241",
+    "15": "1b8453ef7aa92ecc5f233ea2cea455220c54451d5944463df2153fc8693eea02",
+    "16": "0375c78a9fc2c25b71f21301c476c8161b0acbb27e49c74674faca3e28f46356",
+    "17": "387594c67b3e052d8b4371af1e48b63c5f6d3e3beb8e4eaf93c94440ad589b2d",
+    "18": "dc60fee83205fb18609d1736ebb1361eb0ab8ef166b8550774170053ad256bb0",
+    "19": "929d397675882f0715a0edfe156b9d105ee6aee28f866d4dc222a9f5ee3654fc",
+    "20": "b2a6ea5573fe4d4e8d1774e2d9ec3264bfdb4ad83fbe54b5d722728fa4b1b133",
+    "21": "da9a8360d2144d81a0139064ba9a473301a81dcddd006fe7021b0b6f99f22a7f",
+    "22": "77aa594efc135b435208843da6bd627cf4e69ce458ead46fb9f0162a56069477",
+    "23": "913d900a6259734f65ab82b96d44c464ce0db0d77fc6c1d41730a03d3be0fdf2",
+    "24": "507394c2558d5a30a85f57c12912da6570f4918b41f946c2be924fe2f8f49336",
+    "25": "214897c1752a657ad69733eb8533b671bb5b76cddac760cab427a6aa16dd19f6",
+    "26": "afc85a2d9db0a3db164fcadcea29b3416a122c070b08a9933fa3b1ae50ea8b2f",
+    "27": "8f1eb6856cb905b59b76f92ed9183646774498f64addf7ced9f1bf5a7918f8e4",
+    "28": "7fd56ea0799919b2ec0e952fab05816eb38009602a4fafec4e59f9e5c87c631f",
+    "29": "ccee94c5ba13d1e4db9351529df1e2b4bf62d1d4b23fe135fb401743f0ad66cb",
+    "30": "dc60fee83205fb18609d1736ebb1361eb0ab8ef166b8550774170053ad256bb0",
+    "31": "d4aab1ddbdadcb16dfd123ef004f004f25158c9ecb9b14f688e1f2431aef0a93",
+    "32": "ab2ca685d0753a9df7e0bb8d5f90bc0d1a630f6bd6b24c4310e6b0cae6867c2f",
+    "33": "3efa65e1c967fc3ec08df9272f100a3827ffbcf1c0104ed22591586e0d64d825",
+    "34": "7f4e483e704c4193c1f2628aa2e68fdbc8de5dc3cea1dbc8713a9918555972cb",
+    "35": "93a4555e140a23cdca215b182eb96b7e649cfaf10e3412b8cece49e3d7e236a8",
+    "36": "4629d8a27b8047ecada18b0d0734ba8db8921b56d97ccd7bc165704a506301e0",
+    "37": "c706a58bc1db2509b545b0e0ac77153f4ea89d67f5daa9a74d307b1cedde86a2",
+    "38": "7b06933db23e0a9e6a5fb2becb7796168678097d922278d10c7ba1e1f043f2c3",
+    "39": "cccde1ce98b17044d758be9d3041d52d1fce67a27fee4f0733d363cd68e40fcd",
+    "40": "2514fd44fd8996ea2a19eab2261275accc4aa2b96d13b44a0025b520badef330",
+    "41": "ac4b41c6d1b9adfa2b3224acfe69e3ba613b53bee0d817f42dc3ded7d85435b3",
+    "42": "08dea7c0495da04ebe0b9bcd3d8019b7d39a12573af75236904cdda56c420f54",
+    "43": "9cd5c88baba1773504f55db99f7fea7758eb0d5e9935bafd68fc40a082eb1224",
+    "44": "0e2f65e4cb7597c78b6d4c9911b4b182b303ff1c648f30d4ace632661cc00469",
+    "45": "87eb5a86ae4b8bcb2e0e665e2eb2aaca7daa58819cb8f5a3e299d86e543d95a1",
+    "46": "dc60fee83205fb18609d1736ebb1361eb0ab8ef166b8550774170053ad256bb0",
+    "47": "51d6e6a70755afb188c16204295573c430231f765b0596cf96815db621d841b2",
+    "48": "5855da7689d648efb6cfe208aa8ae161d074b93026e23b1585aea07606149242",
+    "49": "ec415d254b23b9da658f9b76775b43e35bfc72ef26711a7dfa5db004fc78acd7",
+    "50": "dc60fee83205fb18609d1736ebb1361eb0ab8ef166b8550774170053ad256bb0",
+    "51": "0e28e8d7846d6a092b5e078b90edaba7964ea21d2685d745aa8573d5a9b07368",
+    "52": "dc60fee83205fb18609d1736ebb1361eb0ab8ef166b8550774170053ad256bb0",
+    "53": "4a60f353e9af067f2069fafc2eff6aa02e62f2d6500b7f26f820206cfe535e4d",
+    "54": "c36a6db2d56e82c261af8c9ee3d8d10b10087af59e80cd5808ceffb8cc187181",
+    "55": "f3534a286dc38c4d78e9e5175368f6f98b74036875c6f5dcd682536683a9f152",
+    "56": "1c18ac69825b4a38826f9be9c7e4077b032d2eff2055afc9fbf9482c9c9ebdd0",
+    "57": "f2db3dc872921d9c845788705478cae97b89e9a195963bf5a46857ad1c040913",
+    "58": "aef657ce9bf9e22878dd2ebdcb02a00ff00edd34240038e92d82f44bcf4b16dd",
+    "59": "4e6645cc48d8c45e81c20d9628704f0901ebb5d8af24c3cf8635ff0dea68dd27",
+    "60": "6312a540c5b9b614c1142ac23f418e246b563a7065fd469debff4e6627f968cc",
+    "61": "e30c82c1e64fa5ae3cd91f60865a2856a5d074d2e5018cba1c97b7bc499fa012",
+    "62": "a0ff86872afa124009b3df069684a3756402ddcde31065a5521811bd65caa0a6",
+    "63": "19844473011148177dcd437273001b4724502f016e6dc0a4359d21448a2f24f2",
+    "64": "dc60fee83205fb18609d1736ebb1361eb0ab8ef166b8550774170053ad256bb0",
+    "65": "080a5e1aac7689b08282667f1ef4e53006e9841df787aa4bfe1b1b8dfb34be9b",
+    "66": "81a04114e6cbbeec087f4af5a769ac6437d937d72baa8018369711a74f7eace3",
+    "67": "ea5f9df770df61fb85a55d285ba49534afc1b87423f1da8794584ad9e89d095f",
+    "68": "cc15335da89d42fef0f711051133729213984bda454b175deafa9be509a648b5",
+    "69": "e938edb6c8544ab339ab08fa2dfcca4b2ebbc29727a1a413a4d1a7a18bbe5043",
+    "70": "dc60fee83205fb18609d1736ebb1361eb0ab8ef166b8550774170053ad256bb0",
+    "71": "5ef0949d81dff36b0369b59c942f287dfaaaffa9e2df9b6a53156528aebcbe2b",
+    "72": "1190c080a8a20c0d0845a94a44c9167c23c07f1e545521db760709ed7d8c8f8d",
+    "73": "9af225a1687edbd8e9322e3173559fe0bb366a055a5d2aabd4075aabc1a2b8ca",
+    "74": "3885064060d06707ec1d6168c6b75106ff6c9201cac6d2bd34022fe744082770",
+    "75": "b4676f24cdaa2b7afaf066f89c2446421b6f26fbfc754bae3b3ea1074c6360b8",
+    "76": "dc60fee83205fb18609d1736ebb1361eb0ab8ef166b8550774170053ad256bb0",
+    "77": "cf848c4f2e45075ac143d21be32c875b8cccc74f1de1cb79356176d6a5c06ff5",
+    "78": "210b6d0192e6b3a9b1f5d6b76c8a66cdeeadce1b88baa351d7031962769fee1f",
+    "79": "32deb8e717b432e1fcc25ff32bdf7629397ea3ef149730de1c3337396f3b9d80",
+    "80": "1220e8672876252306d7f7da650c21c71238dfd5e4d94b3d4981fea515b45e65",
+    "81": "6369fd86f4b39124d7f5c01835b25d1b2df2712227e999c2f76b75c25cc4e662",
+    "82": "32ceaffc3a656e8250437343a24712f1771e2116f10fd7bdee3e0b9c3708e266",
+    "83": "30d01b762a6ad47f395be87da1c1aba5447bb427741f9a1c01370f056b3a4eff",
+    "84": "46ed747b8a5d84aa5821c48192f87c8400e7143efa5f8711ca181ad6fcdad2a5",
+    "85": "06f9fa36370623392b22e7045104a93ae8d10237c460b0d68d67bf45a3595a1f",
+    "86": "5f262e7540afe4b340ad776ee1f6ae9b0dd7a9134167ec465249fc16cc227f27",
+    "87": "c75699c41cc4c23e3e016d9d35eb1186da8cc1f9df0bd3c8f984f170437dfd3c",
+    "88": "dc60fee83205fb18609d1736ebb1361eb0ab8ef166b8550774170053ad256bb0",
+    "89": "967c22ec77835bf92014d11fe2924154cac3d3f2fbdacf51a25b9adbc0605699",
+    "90": "eb0e23638ddd076219abb9f517a2832559f9203b97b8efc4f9d917951d4266e7",
+    "91": "92f3b9db406d59e5251c5c3d56113a8650cfb0e9f991bdbc8d9ce224520adaa1",
+    "92": "dc60fee83205fb18609d1736ebb1361eb0ab8ef166b8550774170053ad256bb0",
+    "93": "0d5a29667885619ff458efe72c2b87db813f3d6eb734f31305c18e05c3733754",
+    "94": "0589a479c7d1bce30b3aec8e770bbeb00ea16873c9e45e58b7b37fbd0c0cf7cd",
+    "95": "d4b138a70fe6b8b4dd0f109613e92c3ee66cdceae8812ee7b652f20b2f4ee3c4",
+    "96": "dc60fee83205fb18609d1736ebb1361eb0ab8ef166b8550774170053ad256bb0",
+    "97": "384e321089aa9d11e7554caea0c5d255396dc9350eeff7429b7242dd1648843b",
+    "98": "b5095053543fa0a05ccb49429a54a8b1889dd3214af1b8b70675abb59740b809",
+    "99": "6390452149a6128e745d2f600c0cb8c5b8e50c4567c8079d8c8d33f053a1cef2",
+    "100": "e182917e5bc13a73bc4964c837346729785b62ff5330c262be466b2cbcbf88ea",
+    "101": "2dd1742e6e45a8802b310cb44c35001b4742b5ea2264494dd8104a59ddb0efe7"
+  },
+  "results": {
+    "any_outcome": [
+      [
+        1165,
+        1112
+      ],
+      [
+        274,
+        282
+      ],
+      [
+        274,
+        313
+      ]
+    ],
+    "math_outcome": [
+      [
+        945,
+        899
+      ],
+      [
+        226,
+        230
+      ],
+      [
+        226,
+        255
+      ]
+    ],
+    "math_effect_sizes": [
+      0.1,
+      0.02,
+      0.34
+    ],
+    "math_p": [
+      0.19,
+      0.82,
+      0.01
+    ],
+    "MPC_math_eligible": 2702,
+    "MPC_math_observed": 1844,
+    "reported_overall_attrition_pct": {
+      "MPC": 32,
+      "High 5s": 30
+    }
+  },
+  "reading_log": [
+    "기관·아동 배정도, 분석 표본, 탈락 설명, 3학년 수학 결과와 상충하는 표 주석을 지정 PDF 9쪽과 판면 5쪽에서 대조했다.",
+    "분모와 비교 조건을 확인하고 전체 모형과 과제별 관찰을 구분했다.",
+    "배정 기관을 유지한 모형과 학교 기초 성과를 조정한 탐색 결과, WWC 결측 판정을 확인했다.",
+    "사전등록의 표 2와 최종 보고서의 결과별 분모, 비교별 배정과 기초 자료 대치 사양을 대조했다.",
+    "MDRC 공식 PDF의 101판면 전체를 읽었다. 표지·공백·목차·요약·본문·부록A–F·24표·1그림·참고문헌을 포함하며 본문101쪽이라는 뜻은 아니다. 기존12판면과 새89판면을 합친 범위다. 새 전문 추출문 독해는0쪽이고 종전 선정 추출문23쪽 및 사전등록·후속 논문·WWC 대조 이력을 보존한다.",
+    "세 비교와 배정: 69기관(공립47·CBO22)을35/34기관으로 배정했다. High 5s는24MPC공립학교 잔류 아동320/335명 재배정이다. 대조군도 정규 취학 전·유치원 수학지도를 받았다. 교사 훈련2년을 같은 아동의MPC2년 이수로 바꾸지 않는다. 이 보고서는 같은 연구 계열의 다섯번째 보고서이지 독립 연구5편이 아니다.",
+    "명부2819/동의2717/연령적격2702/어떤 결과2277/수학1844를 구별한다. MPC결과별N은 수학1844·문해1849·만성결석1788·유급2166·특수교육2276이다. 추가/결합 수학226명은 공통 중재군이다. High5s655명을 모두 프로그램군으로 쓴 부록A 본문은 같은 문단의320/335배정과 구별한다.",
+    "만성결석 본문은 출석90%이하/결석10%이상이지만 표는 출석90%미만으로 쓴다. 180일중18일 결석은 정확히90%출석이어서 두 기준이 다르다. 178일 예시의19일 이상은 두 정의 모두에서 최소18일이라는 정수 검산과 다르다. 실제 분류 코드가 어느 기준을 썼는지는 미확인이다.",
+    "수학효과.10/.34를 외부2000NAEP4학년 소득 격차.85SD와 나눈 약12%/40%는 점수 상승률·관측된 격차 해소율이 아니다. 결석23.6/32.6의 차9%p와 상대감소약27.6%도 다르다. 도시78141명에9%p를 적용한 약7033명은 외삽한 가정 계산이지 새 관측 결과가 아니다.",
+    "표의별표1/2/3은10/5/1%수준이다. 문해p.12를marginally significant라고 하고 모든 탐색결과가 유리하다고 쓴 본문 요약은 문해 무별표 및 유급+.4%p와 맞지 않는다. 수치·표기 귀속을 보존하며 비유의를 정확히 효과0·동등성·비열등성으로 바꾸지 않는다. p0.00은 반올림값이다.",
+    "집단내 수학p.02/.31과 집단간p.65를 구별한다. 낮은/높은 자기조절집단의 수학p.01/.28과 집단차p.24도 다르다. D4문해의 자기조절집단차p.04와 언어집단차p.58을 함께 보존한다. 모든 하위집단 분석은 탐색이며 유의/비유의 차이가 유의한 효과차이는 아니다. 비유의 집단차이도 동등성을 입증하지 않는다.",
+    "MPC/결합은 원preK기관·블록을 유지한2수준모형이고 High5s추가는학교지표를 포함한1수준모형이다. High5s의preK말 공변량은High5s배정 전이지만MPC후 측정이다. 다중대치는 기초평가 결측을 대상으로 하며 최종 수학결과 대치를 확인한 것은 아니다. 다중비교 개수를 제한하고 역할을 구별한 것을 공식 다중검정 보정이라고 하지 않는다.",
+    "유치원분석 하위표본의 적격1325/어떤 결과1180/수학974와soft동의1911/어떤 결과1520/수학1295를 나눈다. 비동의 공립1060명을 더한soft표본은 비동의CBO를 포함하지 않는다. pooled5790은 명부2819+1911+1060과 일치하며 full적격2702를 넣은5673과 다르다. 어떤 결과4670과수학3846은 연도별 표본 합과 맞지만 서로 분모가 다르다. F/Wald통계량을 p값으로 읽지 않는다.",
+    "A6수학456명과 완전 공변량Wald210명 및Arrows225명은 다른 분모다. PencilTap행의0–1비율과16시행정답총수 주석은 척도 대응이 미확인이다. 비동의18명 사후배정과 유치원 당시 민감도 분석을3학년 실제 프로그램 이수 또는 새로운 독립 무작위 표본으로 세지 않는다.",
+    "두해결합.34·MPC공립.16·추가.02는 대상·대조군이 달라 효과의 가산성이나 상승작용 검정이 아니다. 표3.7대조군의 서로 다른3학년 평균은 사전 기초점수나 개인 성장량이 아니다. 위험집단·가정참여·유지환경·비인지매개 논의는 직접 검정된 중재 기전이 아니다. 중고등학교 효과 가능성을 이미 관측한 결과로 쓰지 않는다.",
+    "E1의유치원~3학년N1877/1819/1790/1788과 p.27/.02/.01/.00을 보존한다. 동일 완전패널이나 모든 학년 유의한 결과가 아니다. 표 제목/행의4시점과 모든 행을3학년처럼 쓴 공통 주석을 구별한다.",
+    "F1의2013/2019학교 평균은 같은 아동의 종단변화가 아니다. 장애/빈곤행의d/e주석 설명이 교차한다. F2제목은 결합 비교이나 주석은MPC만 언급한다. 학교기초수행을 추가 통제한 수학.37·문해.32·결석-11.3%p는 주표.34/.29/-9.5와 다른 민감도 추정이며 새 표본·독립 재현이 아니다.",
+    "서지·연구 지원·참고문헌 및MDRC소개를 읽었다. 원 보고서의 감독·감사·지원기관을 본 프로젝트의 외부 독립검토로 세지 않는다. 인용목록 읽기는 인용 원전 전체 독해를 뜻하지 않는다. 원문 PDF·판면은 비공개로 보존하고 자체 검토노트만 공개한다."
+  ],
+  "source_corrections": [
+    {
+      "location": "PDF 41쪽 표 3.5",
+      "issue": "대조군을 MPC 이후 정규 유치원이라고 설명한 첫 주석과 바로 뒤의 MPC 미수혜 추정 문장이 서로 다르다. 그림 2.1·표 2.1·본문·요약의 일치에 따라 이 표를 High 5s 추가 비교로 분류한다."
+    },
+    {
+      "location": "부록과 후속 대조",
+      "issue": "표 F.2 제목은 MPC와 High 5s 결합을, 하단 주석 일부는 MPC 대 정규 취학 전만을 서술한다. 본문의 결합 비교 설명과 표본 226·255명을 대조했고 원전의 상충 문구를 보존한다."
+    },
+    {
+      "location": "사전등록 표 2 및 최종 보고서 표 2.1·C.1",
+      "issue": "등록 시점 표본과 보고서 분석 집단, 확인적 결과와 탐색 하위표본을 분리한다."
+    },
+    {
+      "location": "PDF 13,14,19,20,23,24,25",
+      "issue": "세 비교와 배정: 69기관(공립47·CBO22)을35/34기관으로 배정했다. High 5s는24MPC공립학교 잔류 아동320/335명 재배정이다. 대조군도 정규 취학 전·유치원 수학지도를 받았다. 교사 훈련2년을 같은 아동의MPC2년 이수로 바꾸지 않는다. 이 보고서는 같은 연구 계열의 다섯번째 보고서이지 독립 연구5편이 아니다.",
+      "status": "own_bounded_audit_not_official_erratum"
+    },
+    {
+      "location": "PDF 25,27,32,41,42,53,58,61,73,74",
+      "issue": "명부2819/동의2717/연령적격2702/어떤 결과2277/수학1844를 구별한다. MPC결과별N은 수학1844·문해1849·만성결석1788·유급2166·특수교육2276이다. 추가/결합 수학226명은 공통 중재군이다. High5s655명을 모두 프로그램군으로 쓴 부록A 본문은 같은 문단의320/335배정과 구별한다.",
+      "status": "own_bounded_audit_not_official_erratum"
+    },
+    {
+      "location": "PDF 28,32,40,41,43,74,79,81,83,90,95",
+      "issue": "만성결석 본문은 출석90%이하/결석10%이상이지만 표는 출석90%미만으로 쓴다. 180일중18일 결석은 정확히90%출석이어서 두 기준이 다르다. 178일 예시의19일 이상은 두 정의 모두에서 최소18일이라는 정수 검산과 다르다. 실제 분류 코드가 어느 기준을 썼는지는 미확인이다.",
+      "status": "own_bounded_audit_not_official_erratum"
+    },
+    {
+      "location": "PDF 16,17,33,34,48,49",
+      "issue": "수학효과.10/.34를 외부2000NAEP4학년 소득 격차.85SD와 나눈 약12%/40%는 점수 상승률·관측된 격차 해소율이 아니다. 결석23.6/32.6의 차9%p와 상대감소약27.6%도 다르다. 도시78141명에9%p를 적용한 약7033명은 외삽한 가정 계산이지 새 관측 결과가 아니다.",
+      "status": "own_bounded_audit_not_official_erratum"
+    },
+    {
+      "location": "PDF 32,33,34,37,38,39,40,73",
+      "issue": "표의별표1/2/3은10/5/1%수준이다. 문해p.12를marginally significant라고 하고 모든 탐색결과가 유리하다고 쓴 본문 요약은 문해 무별표 및 유급+.4%p와 맞지 않는다. 수치·표기 귀속을 보존하며 비유의를 정확히 효과0·동등성·비열등성으로 바꾸지 않는다. p0.00은 반올림값이다.",
+      "status": "own_bounded_audit_not_official_erratum"
+    },
+    {
+      "location": "PDF 35,36,37,39,77,78,80,82,84,85",
+      "issue": "집단내 수학p.02/.31과 집단간p.65를 구별한다. 낮은/높은 자기조절집단의 수학p.01/.28과 집단차p.24도 다르다. D4문해의 자기조절집단차p.04와 언어집단차p.58을 함께 보존한다. 모든 하위집단 분석은 탐색이며 유의/비유의 차이가 유의한 효과차이는 아니다. 비유의 집단차이도 동등성을 입증하지 않는다.",
+      "status": "own_bounded_audit_not_official_erratum"
+    },
+    {
+      "location": "PDF 27,28,65,66,67,68",
+      "issue": "MPC/결합은 원preK기관·블록을 유지한2수준모형이고 High5s추가는학교지표를 포함한1수준모형이다. High5s의preK말 공변량은High5s배정 전이지만MPC후 측정이다. 다중대치는 기초평가 결측을 대상으로 하며 최종 수학결과 대치를 확인한 것은 아니다. 다중비교 개수를 제한하고 역할을 구별한 것을 공식 다중검정 보정이라고 하지 않는다.",
+      "status": "own_bounded_audit_not_official_erratum"
+    },
+    {
+      "location": "PDF 53,54,55,56,57,58,59,60,61,62,71,72,73,74",
+      "issue": "유치원분석 하위표본의 적격1325/어떤 결과1180/수학974와soft동의1911/어떤 결과1520/수학1295를 나눈다. 비동의 공립1060명을 더한soft표본은 비동의CBO를 포함하지 않는다. pooled5790은 명부2819+1911+1060과 일치하며 full적격2702를 넣은5673과 다르다. 어떤 결과4670과수학3846은 연도별 표본 합과 맞지만 서로 분모가 다르다. F/Wald통계량을 p값으로 읽지 않는다.",
+      "status": "own_bounded_audit_not_official_erratum"
+    },
+    {
+      "location": "PDF 59,60,61,62",
+      "issue": "A6수학456명과 완전 공변량Wald210명 및Arrows225명은 다른 분모다. PencilTap행의0–1비율과16시행정답총수 주석은 척도 대응이 미확인이다. 비동의18명 사후배정과 유치원 당시 민감도 분석을3학년 실제 프로그램 이수 또는 새로운 독립 무작위 표본으로 세지 않는다.",
+      "status": "own_bounded_audit_not_official_erratum"
+    },
+    {
+      "location": "PDF 41,42,43,44,45,47,48,49",
+      "issue": "두해결합.34·MPC공립.16·추가.02는 대상·대조군이 달라 효과의 가산성이나 상승작용 검정이 아니다. 표3.7대조군의 서로 다른3학년 평균은 사전 기초점수나 개인 성장량이 아니다. 위험집단·가정참여·유지환경·비인지매개 논의는 직접 검정된 중재 기전이 아니다. 중고등학교 효과 가능성을 이미 관측한 결과로 쓰지 않는다.",
+      "status": "own_bounded_audit_not_official_erratum"
+    },
+    {
+      "location": "PDF 89,90",
+      "issue": "E1의유치원~3학년N1877/1819/1790/1788과 p.27/.02/.01/.00을 보존한다. 동일 완전패널이나 모든 학년 유의한 결과가 아니다. 표 제목/행의4시점과 모든 행을3학년처럼 쓴 공통 주석을 구별한다.",
+      "status": "own_bounded_audit_not_official_erratum"
+    },
+    {
+      "location": "PDF 93,94,95",
+      "issue": "F1의2013/2019학교 평균은 같은 아동의 종단변화가 아니다. 장애/빈곤행의d/e주석 설명이 교차한다. F2제목은 결합 비교이나 주석은MPC만 언급한다. 학교기초수행을 추가 통제한 수학.37·문해.32·결석-11.3%p는 주표.34/.29/-9.5와 다른 민감도 추정이며 새 표본·독립 재현이 아니다.",
+      "status": "own_bounded_audit_not_official_erratum"
+    },
+    {
+      "location": "PDF 3,4,7,11,97,98,99,100,101",
+      "issue": "서지·연구 지원·참고문헌 및MDRC소개를 읽었다. 원 보고서의 감독·감사·지원기관을 본 프로젝트의 외부 독립검토로 세지 않는다. 인용목록 읽기는 인용 원전 전체 독해를 뜻하지 않는다. 원문 PDF·판면은 비공개로 보존하고 자체 검토노트만 공개한다.",
+      "status": "own_bounded_audit_not_official_erratum"
+    }
+  ],
+  "appendices_review": {
+    "assignment_levels": [
+      "child",
+      "pre_k_site",
+      "randomization_block"
+    ],
+    "table_f2_math": {
+      "effect_size": 0.37,
+      "printed_p": 0.01,
+      "n": [
+        226,
+        255
+      ],
+      "caption_note_conflict": true
+    },
+    "p_by_source": {
+      "report": 0.19,
+      "journal": 0.18
+    },
+    "journal_url": "https://doi.org/10.1080/19345747.2025.2509234",
+    "wwc_url": "https://ies.ed.gov/ncee/wwc/Study/90485",
+    "wwc_html_sha256": "759e9acd13900805526d3d9e310783ba6ef610ea1f6941e358698cd62cfe0daf",
+    "wwc_reviews": [
+      {
+        "StudyID": "90485",
+        "ReviewID": "1913155",
+        "Protocol": "Study Review Protocol",
+        "Protocol_Version": "1.0",
+        "Standards_Version": "4.1",
+        "Study_Rating": "Does not meet WWC standards",
+        "ReviewedDate": "4/14/2026 1:24:08 PM",
+        "Posting_Date": "10/24/2022 3:29:00 PM",
+        "Product_Name": ""
+      },
+      {
+        "StudyID": "90485",
+        "ReviewID": "1912974",
+        "Protocol": "Study Review Protocol",
+        "Protocol_Version": "1.0",
+        "Standards_Version": "4.1",
+        "Study_Rating": "Does not meet WWC standards",
+        "ReviewedDate": "4/14/2026 1:24:57 PM",
+        "Posting_Date": "10/24/2022 3:29:00 PM",
+        "Product_Name": ""
+      },
+      {
+        "StudyID": "90485",
+        "ReviewID": "1912973",
+        "Protocol": "Study Review Protocol",
+        "Protocol_Version": "1.0",
+        "Standards_Version": "4.1",
+        "Study_Rating": "Does not meet WWC standards",
+        "ReviewedDate": "4/14/2026 1:24:35 PM",
+        "Posting_Date": "10/24/2022 3:29:00 PM",
+        "Product_Name": ""
+      }
+    ],
+    "wwc_outcome_rows": [],
+    "wwc_reason": "approach_to_missing_data_not_acceptable"
+  },
+  "prior_snapshot": {
+    "file": "data/literature_evidence/MATTERA_ET_AL_2021_MPC_THIRD_GRADE_appendices_review_notes.json",
+    "sha256": "c87b00b03416d721bf97457532c650a36344ba8d016718804ddd835317811d1e"
+  },
+  "preregistration_review": {
+    "plans": [
+      {
+        "osf_id": "bm6va",
+        "registered": "2020-06-24T16:08:11.125175",
+        "title": "Making Pre-K Count: 3rd Grade Follow-Up",
+        "registration_url": "https://api.osf.io/v2/registrations/bm6va/",
+        "registration_sha256": "6902f51c742ad713f478391a8f378770199cede965a1ecab51068b1da761136b",
+        "pdf_sha256": "983d2bb3c49f0aae7384aaa192ca6eb00319691ada81afffc1947b2c98ecaafc",
+        "pdf_pages": 24,
+        "selected_text_pages": [
+          13,
+          14,
+          15,
+          19,
+          20,
+          21
+        ],
+        "rendered_page_sha256": {
+          "15": "cdda8ab7f1fdf58fde5cccfa7a6b0ca9dc0213a1c94f7d43ffadf4e22bc3302d",
+          "19": "06329ce531606bf120d4c24037298884d17182e9e4ca7bceb0a1206230a8d858"
+        },
+        "table_2_total": 2819,
+        "table_2_groups": [
+          1448,
+          1371
+        ],
+        "table_2_test_attrition_percent": 34.6,
+        "table_2_test_differential_percentage_points": 0.3,
+        "referenced_attrition_standard": "4.0"
+      },
+      {
+        "osf_id": "ujxnr",
+        "registered": "2020-06-24T16:09:37.748308",
+        "title": "High 5s Kindergarten Math Clubs Impact Analyses Third Grade Follow-Up",
+        "registration_url": "https://api.osf.io/v2/registrations/ujxnr/",
+        "registration_sha256": "d2022ec1ee47af2cc3a8bc0446c7e7f1febaaeff6ecd9826cf138f1305da10b9",
+        "pdf_sha256": "68a33cd50cbda079cb1efa8f68338a504f1ed8189d29038c26a5e11dbfa29e7f",
+        "pdf_pages": 14,
+        "selected_text_pages": [
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "rendered_page_sha256": {
+          "9": "0b73828f8b486ed32fb96980bc328284bcd07b21f98ff24222dab84030499c73",
+          "11": "6a3b1bcf5490f874f64409326c39f1afb87ddcfa079079e7cb9b3d4d9306b9f3"
+        },
+        "table_2_total": 617,
+        "table_2_groups": [
+          306,
+          311
+        ],
+        "table_2_test_attrition_percent": 26.1,
+        "table_2_test_differential_percentage_points": 0.1,
+        "referenced_attrition_standard": "4.0"
+      },
+      {
+        "osf_id": "68yxg",
+        "registered": "2020-06-24T16:10:06.528491",
+        "title": "Estimating Effects of Two Years of Enriched Math: Third Grade Follow-Up",
+        "registration_url": "https://api.osf.io/v2/registrations/68yxg/",
+        "registration_sha256": "c90cb69c2e6a89ab6f55fae39f8d469f5dc134fa6f90477926528a14ae81899d",
+        "pdf_sha256": "6eccb1db43fdaa1c46fe66f0dbfe65d37608011445a5fe5a1eca57ed27586a98",
+        "pdf_pages": 14,
+        "selected_text_pages": [
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "rendered_page_sha256": {
+          "9": "0a7632a5389232690f4abfd8d14bdb163039c38e5fcdcfa412c603c9c9b55457",
+          "11": "fd59bf690b2acc9c12e75f18baff18e3f3d8a9454e720444f9503b3d74e88e9c"
+        },
+        "table_2_total": 651,
+        "table_2_groups": [
+          306,
+          345
+        ],
+        "table_2_test_attrition_percent": 26.1,
+        "table_2_test_differential_percentage_points": 0.1,
+        "referenced_attrition_standard": "4.0"
+      }
+    ],
+    "samples": {
+      "registered_table_2_denominators": [
+        2819,
+        617,
+        651
+      ],
+      "report_reference_samples": [
+        2702,
+        655,
+        665
+      ],
+      "any_result": [
+        2277,
+        556,
+        587
+      ],
+      "math_result": [
+        1844,
+        456,
+        481
+      ],
+      "math_group_counts": [
+        [
+          945,
+          899
+        ],
+        [
+          226,
+          230
+        ],
+        [
+          226,
+          255
+        ]
+      ],
+      "report_mpc_subsample": {
+        "math_result": 974,
+        "p": 0.03,
+        "exploratory": true
+      }
+    },
+    "report_mpc_attrition_percent": 31.75,
+    "shared_high5s_math_group_n": 226,
+    "imputation_scope": "baseline_covariates",
+    "final_outcome_imputation_verified": false,
+    "study_review_worksheet_verified": false,
+    "handbook": {
+      "url": "https://ies.ed.gov/ncee/wwc/Docs/referenceresources/WWC-Standards-Handbook-v4-1-508.pdf",
+      "sha256": "f3950189a71bc377e1b60af1bc98fffee1479a579626e61072207bf100187571",
+      "pdf_pages": 116,
+      "standard": "4.1",
+      "rendered_page_sha256": {
+        "41": "7fb708476c4c0d63d2efe7dda60e9621a61cb489cc76932510f2f385822fd756",
+        "42": "2a3aca38bcc03e19ff8d3ec47f3e5e9cd3397cb35b0a1e30ef3c34593fbb69ed"
+      },
+      "steps": [
+        "method_acceptability",
+        "attrition_level"
+      ]
+    }
+  },
+  "previous_snapshot_file": "data/literature_evidence/MATTERA_ET_AL_2021_MPC_THIRD_GRADE_preregistration_review_notes.json",
+  "previous_snapshot_sha256": "fc41cf267055b92c6a18174f2a4b366e043145be17175d283414f6ba61cfe2a9",
+  "previous_review": {
+    "source_id": "MATTERA_ET_AL_2021_MPC_THIRD_GRADE",
+    "state": "self_read_claim_mapping",
+    "reviewer": "Codex",
+    "date": "2026-11-10",
+    "snapshot_kind": "authored_review_notes",
+    "source_asset_kind": "pdf",
+    "source_pdf_sha256": "ea7abc1ea2297859160b470098b262b3dbc10d2c732d276b7a9acbb0defc9fb8",
+    "snapshot_file": "data/literature_evidence/MATTERA_ET_AL_2021_MPC_THIRD_GRADE_preregistration_review_notes.json",
+    "snapshot_sha256": "fc41cf267055b92c6a18174f2a4b366e043145be17175d283414f6ba61cfe2a9",
+    "redistribution_license": "workspace_authored_notes",
+    "bibliography_snapshot": "3cbde38f9410033f3af4b9923b5e7e665c9861ccdbda7266fbb7d0ee67405282",
+    "display": {
+      "title": "Long-Term Effects of Enhanced Early Childhood Math Instruction: The Impacts of Making Pre-K Count and High 5s on Third-Grade Outcomes",
+      "url": "https://www.mdrc.org/work/publications/long-term-effects-enhanced-early-childhood-math-instruction",
+      "authors_year": "Mattera 외, 2021"
+    },
+    "read_scope": "기관·아동 배정도, 분석 표본, 탈락 설명, 3학년 수학 결과와 상충하는 표 주석을 지정 PDF 9쪽과 판면 5쪽에서 대조했다. 부록 B·F의 분석 모형과 탐색 표를 PDF 65~68·93~95쪽에서 확인했다. WWC 90485의 2026년 심사 3건과 후속 권호 논문에 표시된 3학년 수학 결과를 대조했다. 3학년 비교별 사전등록 계획 3편과 최종 보고서의 배정, 표본 분모, 기초 공변량 대치, 탐색 분석을 대조했다. WWC 기준 4.1에서 결측 처리 방법과 추적 탈락 수준의 검토 단계를 확인했다.",
+    "scope_note": "해당 영역에서 실제 제공한 지도 조건과 결과를 연결한다.",
+    "method_note": "출판판의 방법·표·그림과 대상 성취기준의 수행 범위를 대조했다.",
+    "limits": "세 비교는 동일 분모가 아니며 추가와 결합 비교의 중재군은 겹친다. 학교에 남은 아동의 선택과 결과 미확보를 고려하며 국내 특정 초등 과제의 장기 효과로 해석하지 않는다.",
+    "empirical_scope": {
+      "design": "취학 전 기관 무작위 배정과 공립학교 잔류 아동의 유치원 개별 배정을 사용한 추적. 결과는 3학년 행정 자료.",
+      "sample_description": "수학 점수가 있는 표본은 MPC 대 정규 945·899명, High 5s 추가 226·230명, 두 해 결합 대 정규 226·255명.",
+      "inference_limit": "세 비교는 동일 분모가 아니며 추가와 결합 비교의 중재군은 겹친다. 학교에 남은 아동의 선택과 결과 미확보를 고려하며 국내 특정 초등 과제의 장기 효과로 해석하지 않는다.",
+      "student_outcome_study": true,
+      "causal_effect_established": false,
+      "local_effect_tested": false,
+      "study_family": "MDRC_MAKING_PRE_K_COUNT_HIGH_5S"
+    },
+    "independent_review": false,
+    "student_validated": false,
+    "editorial_action": "사전등록과 최종 보고서 대조의 근거 4건 및 자체 관찰 과제 4개를 추가했다.",
+    "observations": [
+      {
+        "id": "MPC21-P1",
+        "standard_codes": [
+          "12실통02-02"
+        ],
+        "question": "가상 학교의 2013년 3학년 평균은 70점, 2019년 3학년 평균은 76점이다. 같은 학생이 6점 올랐는지 답하고, 개인의 변화를 보려면 어떤 자료가 필요한지 설명하라.",
+        "expected": "두 시점의 학교 평균 차이는 6점이다. 같은 학생의 변화인지 확인하려면 같은 학생에게서 비교 가능한 시점별 점수와 검사 조건을 확보해야 한다.",
+        "interpretation": "수집 단위가 학교인지 학생인지, 학생이 시점별로 연결되는지, 검사가 비교 가능한지를 기록한다.",
+        "student_validated": false
+      },
+      {
+        "id": "MPC21-P2",
+        "standard_codes": [
+          "12실통03-04"
+        ],
+        "question": "가상 분석 A의 p값은 0.19, 분석 B는 0.18이다. 유의수준 5%의 판정을 설명하라. 별도 검토표에 결측 처리 기준 미충족과 결과 미제공이 표시됐을 때 그 칸에 0을 넣어도 되는가?",
+        "expected": "두 p값 모두 0.05보다 크므로 귀무가설을 기각하지 않는다. 결측 처리 판정은 분석 방법에 대한 평가다. 검토표에 결과 수치가 제공되지 않았으므로 효과 0이나 p값 0을 입력할 근거가 없다.",
+        "interpretation": "통계 판정과 자료의 부재, 심사 판정의 차이를 구별한다.",
+        "student_validated": false
+      },
+      {
+        "id": "MPC21-P3",
+        "standard_codes": [
+          "12실통02-02"
+        ],
+        "question": "가상 연구의 학급 명단은 200명이고, 동의와 연령 조건을 충족한 사람은 180명이다. 결과가 하나라도 있는 사람은 160명, 수학 점수가 있는 사람은 135명이다. 적격자 기준 수학 점수 미확보 비율을 구하고 전체 명단 기준과 비교하라.",
+        "expected": "적격자 기준은 (180−135)/180=25%다. 명단 전체 기준은 (200−135)/200=32.5%이며 적격자 외 학생도 포함한다. 160명은 수학 점수 확인 인원이 아니다.",
+        "interpretation": "적격, 한 가지 이상 결과, 특정 결과의 분모와 분자를 구별한다.",
+        "student_validated": false
+      },
+      {
+        "id": "MPC21-P4",
+        "standard_codes": [
+          "12실통02-02"
+        ],
+        "question": "가상 연구에서 기관을 먼저 배정하고, 실험 기관에 남은 아동을 추가 활동 제공 여부로 다시 배정했다. 추가 활동 대 기본 프로그램 비교와 결합 프로그램 대 기존 교육 비교의 배정 단위를 구별하라.",
+        "expected": "추가 활동은 같은 기관의 아동별 배정을 사용한다. 결합 비교는 기관별 최초 배정도 반영해야 한다. 추가 활동 집단은 두 비교에 공통으로 들어간다.",
+        "interpretation": "첫 배정과 두 번째 배정, 잔류 조건과 집단 중복을 확인한다.",
+        "student_validated": false
+      },
+      {
+        "id": "MPC21-P5",
+        "standard_codes": [
+          "12실통02-02",
+          "12실통03-04"
+        ],
+        "question": "가상 추적 자료에서 가 학생은 시작 때의 언어 점수만 없고 나 학생은 종료 수학 점수만 없다. 연구팀이 시작 점수 결측만 대치했다. 어떤 값이 아직 없으며 최종 심사를 판단하려면 무엇을 더 확인해야 하는가?",
+        "expected": "나 학생의 종료 수학 점수는 여전히 없다. 대치 대상, 대치 절차와 표준오차 산출, 종료 자료 미확보의 분모와 집단 차이를 각각 확인해야 한다.",
+        "interpretation": "기초 공변량과 결과의 시점 및 역할을 구별한다. 탈락률만으로 대치 방법 적합성을 판정하는지도 관찰한다.",
+        "student_validated": false
+      },
+      {
+        "id": "MPC21-P6",
+        "standard_codes": [
+          "12실통03-04"
+        ],
+        "question": "가상 연구에서 사전 지정한 주 분석의 p값은 .18, 같은 연구의 하위표본 탐색 분석은 .03이다. 각 분석에서 5% 기준을 적용한 결과와 보고할 때의 순서를 설명하라.",
+        "expected": "주 분석에서는 기각하지 않고 탐색 분석은 해당 비교에서 기각한다. 사전 지정한 주 분석을 먼저 보고하고 같은 연구의 탐색 결과로 따로 표시한다.",
+        "interpretation": "비교별 판정과 확인적·탐색적 역할을 따로 기록하며, 표본이 겹치는 두 분석을 독립 증거로 세는지 확인한다.",
+        "student_validated": false
+      }
+    ],
+    "snapshot_history": [
+      {
+        "snapshot_file": "data/literature_evidence/MATTERA_ET_AL_2021_MPC_THIRD_GRADE_review_notes.json",
+        "snapshot_sha256": "20c33c6bceb1af270c5d3c7c112aaf331130a3dd511a86f3ee47fefe2d7303ef",
+        "date": "2026-11-09",
+        "read_scope": "기관·아동 배정도, 분석 표본, 탈락 설명, 3학년 수학 결과와 상충하는 표 주석을 지정 PDF 9쪽과 판면 5쪽에서 대조했다."
+      },
+      {
+        "snapshot_file": "data/literature_evidence/MATTERA_ET_AL_2021_MPC_THIRD_GRADE_appendices_review_notes.json",
+        "snapshot_sha256": "c87b00b03416d721bf97457532c650a36344ba8d016718804ddd835317811d1e",
+        "date": "2026-11-10",
+        "read_scope": "기관·아동 배정도, 분석 표본, 탈락 설명, 3학년 수학 결과와 상충하는 표 주석을 지정 PDF 9쪽과 판면 5쪽에서 대조했다. 부록 B·F의 분석 모형과 탐색 표를 PDF 65~68·93~95쪽에서 확인했다. WWC 90485의 2026년 심사 3건과 후속 권호 논문에 표시된 3학년 수학 결과를 대조했다."
+      }
+    ]
+  },
+  "new_visual_pdf_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    26,
+    28,
+    29,
+    30,
+    31,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    67,
+    69,
+    70,
+    71,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    96,
+    97,
+    98,
+    99,
+    100,
+    101
+  ],
+  "previous_visual_pdf_pages": [
+    24,
+    25,
+    27,
+    32,
+    41,
+    42,
+    53,
+    65,
+    66,
+    68,
+    72,
+    95
+  ],
+  "previous_rendered_page_sha256": {
+    "24": "169bf788a03c16ddd4ec2005ff1c5dd5567ae5abfec3233f8158dc1635d83eee",
+    "25": "5a6d405f4952f48435b68ffbeaaf4ebae0a792db5bbdd1709eb42ef2d4947614",
+    "32": "85faf6f15509fa75c7ee40bf2d2a3a6dc65594e18a73388fcde1e61e28d51263",
+    "41": "634073975eac62c7328ad553d168486d9aced810e48bbf315c63aa3e6d174bcd",
+    "42": "5d39f3d51d5affc1005cd7ea19095e140bcc3625d4c339b21af88179a101521f",
+    "66": "c102cc2a1f9c4386779203f201827e407c6dafe2d95aab8923e724baa3c37c71",
+    "95": "a94558ab7d6e05c32ef092ee853d60fdc94a235c6cf5183e0f535893659cfbe5",
+    "27": "c25f9c4df8ad038b505dc00f9218e768cb7c21404c7e7d8a5ccbd0bb1741da1a",
+    "53": "dce6c0063e86b0fa20099e1b9c85dbf85ab362cfe4649d57357c56e89a7ca8da",
+    "65": "855757f856930d9c7ebcbb9f7bc27897fe5ad06fdf30c2a77c2f5e8e3b5178b4",
+    "68": "3667326fbbc908ae9266f6785bd2a534dc84c37d92dc6b61f6d2487ba17b1f71",
+    "72": "27652e4b1d1abe28503a1894209f986976023e1a7f61ddd973e7f9a51ea9bc9e"
+  },
+  "new_text_pdf_pages": [],
+  "new_full_extracted_text_pages": 0,
+  "whole_report_visual_read": true,
+  "whole_report_includes_covers_blanks_frontmatter": true,
+  "all_cited_originals_read": false,
+  "raw_student_data_read": false,
+  "classification_code_verified": false,
+  "official_erratum_verified": false,
+  "independent_review": false,
+  "student_validated": false,
+  "exact_own_checks": {
+    "status": "pass",
+    "attendance_integer_years_checked": 366,
+    "minimum_absent_178_inclusive": 18,
+    "minimum_absent_178_strict": 18,
+    "printed_178_example": 19,
+    "minimum_absent_180_inclusive": 18,
+    "minimum_absent_180_strict": 19,
+    "mpc_outcome_denominators": [
+      1844,
+      1849,
+      1788,
+      2166,
+      2276
+    ],
+    "math_benchmark_ratio": "0.34/0.85=0.40",
+    "attendance_difference_percentage_points": 9,
+    "attendance_relative_reduction_percent": "27.6",
+    "hypothetical_city_reduction": "7032.69",
+    "subgroup_within_p": [
+      ".28",
+      ".01"
+    ],
+    "subgroup_difference_p": ".24",
+    "raw_student_data_reanalyzed": false,
+    "models_refitted": false,
+    "classification_code_verified": false,
+    "official_erratum": false,
+    "student_validated": false
+  },
+  "audit_findings": [
+    {
+      "pdf_pages": [
+        13,
+        14,
+        19,
+        20,
+        23,
+        24,
+        25
+      ],
+      "finding": "세 비교와 배정: 69기관(공립47·CBO22)을35/34기관으로 배정했다. High 5s는24MPC공립학교 잔류 아동320/335명 재배정이다. 대조군도 정규 취학 전·유치원 수학지도를 받았다. 교사 훈련2년을 같은 아동의MPC2년 이수로 바꾸지 않는다. 이 보고서는 같은 연구 계열의 다섯번째 보고서이지 독립 연구5편이 아니다."
+    },
+    {
+      "pdf_pages": [
+        25,
+        27,
+        32,
+        41,
+        42,
+        53,
+        58,
+        61,
+        73,
+        74
+      ],
+      "finding": "명부2819/동의2717/연령적격2702/어떤 결과2277/수학1844를 구별한다. MPC결과별N은 수학1844·문해1849·만성결석1788·유급2166·특수교육2276이다. 추가/결합 수학226명은 공통 중재군이다. High5s655명을 모두 프로그램군으로 쓴 부록A 본문은 같은 문단의320/335배정과 구별한다."
+    },
+    {
+      "pdf_pages": [
+        28,
+        32,
+        40,
+        41,
+        43,
+        74,
+        79,
+        81,
+        83,
+        90,
+        95
+      ],
+      "finding": "만성결석 본문은 출석90%이하/결석10%이상이지만 표는 출석90%미만으로 쓴다. 180일중18일 결석은 정확히90%출석이어서 두 기준이 다르다. 178일 예시의19일 이상은 두 정의 모두에서 최소18일이라는 정수 검산과 다르다. 실제 분류 코드가 어느 기준을 썼는지는 미확인이다."
+    },
+    {
+      "pdf_pages": [
+        16,
+        17,
+        33,
+        34,
+        48,
+        49
+      ],
+      "finding": "수학효과.10/.34를 외부2000NAEP4학년 소득 격차.85SD와 나눈 약12%/40%는 점수 상승률·관측된 격차 해소율이 아니다. 결석23.6/32.6의 차9%p와 상대감소약27.6%도 다르다. 도시78141명에9%p를 적용한 약7033명은 외삽한 가정 계산이지 새 관측 결과가 아니다."
+    },
+    {
+      "pdf_pages": [
+        32,
+        33,
+        34,
+        37,
+        38,
+        39,
+        40,
+        73
+      ],
+      "finding": "표의별표1/2/3은10/5/1%수준이다. 문해p.12를marginally significant라고 하고 모든 탐색결과가 유리하다고 쓴 본문 요약은 문해 무별표 및 유급+.4%p와 맞지 않는다. 수치·표기 귀속을 보존하며 비유의를 정확히 효과0·동등성·비열등성으로 바꾸지 않는다. p0.00은 반올림값이다."
+    },
+    {
+      "pdf_pages": [
+        35,
+        36,
+        37,
+        39,
+        77,
+        78,
+        80,
+        82,
+        84,
+        85
+      ],
+      "finding": "집단내 수학p.02/.31과 집단간p.65를 구별한다. 낮은/높은 자기조절집단의 수학p.01/.28과 집단차p.24도 다르다. D4문해의 자기조절집단차p.04와 언어집단차p.58을 함께 보존한다. 모든 하위집단 분석은 탐색이며 유의/비유의 차이가 유의한 효과차이는 아니다. 비유의 집단차이도 동등성을 입증하지 않는다."
+    },
+    {
+      "pdf_pages": [
+        27,
+        28,
+        65,
+        66,
+        67,
+        68
+      ],
+      "finding": "MPC/결합은 원preK기관·블록을 유지한2수준모형이고 High5s추가는학교지표를 포함한1수준모형이다. High5s의preK말 공변량은High5s배정 전이지만MPC후 측정이다. 다중대치는 기초평가 결측을 대상으로 하며 최종 수학결과 대치를 확인한 것은 아니다. 다중비교 개수를 제한하고 역할을 구별한 것을 공식 다중검정 보정이라고 하지 않는다."
+    },
+    {
+      "pdf_pages": [
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        71,
+        72,
+        73,
+        74
+      ],
+      "finding": "유치원분석 하위표본의 적격1325/어떤 결과1180/수학974와soft동의1911/어떤 결과1520/수학1295를 나눈다. 비동의 공립1060명을 더한soft표본은 비동의CBO를 포함하지 않는다. pooled5790은 명부2819+1911+1060과 일치하며 full적격2702를 넣은5673과 다르다. 어떤 결과4670과수학3846은 연도별 표본 합과 맞지만 서로 분모가 다르다. F/Wald통계량을 p값으로 읽지 않는다."
+    },
+    {
+      "pdf_pages": [
+        59,
+        60,
+        61,
+        62
+      ],
+      "finding": "A6수학456명과 완전 공변량Wald210명 및Arrows225명은 다른 분모다. PencilTap행의0–1비율과16시행정답총수 주석은 척도 대응이 미확인이다. 비동의18명 사후배정과 유치원 당시 민감도 분석을3학년 실제 프로그램 이수 또는 새로운 독립 무작위 표본으로 세지 않는다."
+    },
+    {
+      "pdf_pages": [
+        41,
+        42,
+        43,
+        44,
+        45,
+        47,
+        48,
+        49
+      ],
+      "finding": "두해결합.34·MPC공립.16·추가.02는 대상·대조군이 달라 효과의 가산성이나 상승작용 검정이 아니다. 표3.7대조군의 서로 다른3학년 평균은 사전 기초점수나 개인 성장량이 아니다. 위험집단·가정참여·유지환경·비인지매개 논의는 직접 검정된 중재 기전이 아니다. 중고등학교 효과 가능성을 이미 관측한 결과로 쓰지 않는다."
+    },
+    {
+      "pdf_pages": [
+        89,
+        90
+      ],
+      "finding": "E1의유치원~3학년N1877/1819/1790/1788과 p.27/.02/.01/.00을 보존한다. 동일 완전패널이나 모든 학년 유의한 결과가 아니다. 표 제목/행의4시점과 모든 행을3학년처럼 쓴 공통 주석을 구별한다."
+    },
+    {
+      "pdf_pages": [
+        93,
+        94,
+        95
+      ],
+      "finding": "F1의2013/2019학교 평균은 같은 아동의 종단변화가 아니다. 장애/빈곤행의d/e주석 설명이 교차한다. F2제목은 결합 비교이나 주석은MPC만 언급한다. 학교기초수행을 추가 통제한 수학.37·문해.32·결석-11.3%p는 주표.34/.29/-9.5와 다른 민감도 추정이며 새 표본·독립 재현이 아니다."
+    },
+    {
+      "pdf_pages": [
+        3,
+        4,
+        7,
+        11,
+        97,
+        98,
+        99,
+        100,
+        101
+      ],
+      "finding": "서지·연구 지원·참고문헌 및MDRC소개를 읽었다. 원 보고서의 감독·감사·지원기관을 본 프로젝트의 외부 독립검토로 세지 않는다. 인용목록 읽기는 인용 원전 전체 독해를 뜻하지 않는다. 원문 PDF·판면은 비공개로 보존하고 자체 검토노트만 공개한다."
+    }
+  ],
+  "whole_report_tables": {
+    "count": 24,
+    "figures": 1,
+    "appendices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F"
+    ]
+  }
+}

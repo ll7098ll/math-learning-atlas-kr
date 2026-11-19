@@ -1,0 +1,273 @@
+{
+  "saved": {
+    "id": "appgprj_6ae2965054108191ad7dc71524bb7cfb~appgver_e765cc3d476c8191a52c7fbbc5d47890",
+    "project_id": "appgprj_6ae2965054108191ad7dc71524bb7cfb",
+    "version_number": 110,
+    "source": {
+      "commit_sha": "63671e4b46b36837587f286bacc9b1f19ffa4c8f"
+    },
+    "archive_storage": {
+      "archive_format": "tar",
+      "sediment_file_id": "file_0000000065d08206b476c6ff2a8a6bea",
+      "content_hash": "sha256:2f457fac45e37f4cab4770f4f3ceeb8b99bbc72a4a67b42d18e9a4100d9a0129",
+      "size_bytes": 207452160,
+      "file_count": 1428
+    },
+    "screenshot_url": null,
+    "deployment_id": null
+  },
+  "deployment": {
+    "id": "appgdep_6afe6851a7448191be147f1be7b4bb9a",
+    "project_id": "appgprj_6ae2965054108191ad7dc71524bb7cfb",
+    "title": "수학의 연결 지도",
+    "version_id": "appgprj_6ae2965054108191ad7dc71524bb7cfb~appgver_e765cc3d476c8191a52c7fbbc5d47890",
+    "type": "publish",
+    "status": "succeeded",
+    "url": "https://math-learning-atlas-kr.gptpro2908176.chatgpt.site",
+    "has_mcp": false,
+    "screenshot_asset_pointer": null,
+    "provider_deployment_id": "site---6ae2965054108191ad7dc71524bb7cfb",
+    "failure_message": null,
+    "env_set_revision": 0,
+    "updated_at": "2026-11-19T03:10:00.092748+00:00"
+  },
+  "package": {
+    "status": "pass",
+    "source": {
+      "project_id": "appgprj_6ae2965054108191ad7dc71524bb7cfb",
+      "commit_sha": "63671e4b46b36837587f286bacc9b1f19ffa4c8f"
+    },
+    "archive": {
+      "path": "C:\\Users\\User\\Desktop\\codex\\수학 내용 체계\\tmp\\math-atlas-publish-20261119-5b3995b9eea589b9.tar.gz",
+      "files": 1428,
+      "bytes": 58404218,
+      "expanded_bytes": 206069760,
+      "sha256": "a4fcb802353bc07f6accbac783c82225ae1014901c038f083c6333ecf31b4398"
+    },
+    "protected_paths_verified": 919,
+    "omitted_unreferenced_historical_files": 22975,
+    "retained_snapshots": [
+      "current_5b3995b9eea589b9"
+    ],
+    "previous_public_recovery": {
+      "version_number": 109,
+      "version_id": "appgprj_6ae2965054108191ad7dc71524bb7cfb~appgver_41e33d82b10c8191ba664fae7027ff79",
+      "commit_sha": "186ab1a37f43cee4ef510e5be7133ba814d8deba",
+      "saved_archive_intact": true,
+      "referenced_recovery_graphs_retained": true,
+      "prior_reversible_archive_history_file": "data/portal_asset_archive_history.json",
+      "this_release_archived_static_files": 0
+    },
+    "supported_helper_observation": {
+      "helper": "Sites1.1.7/site-workflow.mjs",
+      "package_exit_code": 1,
+      "package_error": "Unable to package the Site archive.",
+      "first_push_non_fast_forward": true,
+      "incorporated_intervening_ui_commits": [
+        "c44fe01d5694864ea97853f045d8d37f3d474295",
+        "186ab1a37f43cee4ef510e5be7133ba814d8deba"
+      ],
+      "fresh_opening_without_source": {
+        "project_id": "appgprj_6ae2965054108191ad7dc71524bb7cfb",
+        "checkout_path": "C:\\Users\\User\\Desktop\\codex\\수학 내용 체계\\tmp\\pathways-release",
+        "commit_sha": "63671e4b46b36837587f286bacc9b1f19ffa4c8f"
+      },
+      "remote_fetch_verified": true
+    },
+    "method": "Complete current static dependency graph,plus hosting metadata. Every file is verified against pushed Git blobs and reread from USTAR. Historical unreferenced copies omitted only from the archive;0files moved/deleted. Only authored evidence notes and links were added; the publisher PDF binary was not obtained. Authored research notes are retained in the pushed research source,not the static dist archive. Earlier licensed guide PDFs remain in pushed research source. All prior saved recovery archives preserved."
+  },
+  "live_check": {
+    "status": "pass",
+    "url": "https://math-learning-atlas-kr.gptpro2908176.chatgpt.site",
+    "data_version": "5b3995b9eea589b9",
+    "resources_checked": 87,
+    "affected_standards": [
+      "12실통02-02",
+      "12실통03-04",
+      "2수01-01",
+      "2수01-05",
+      "2수01-06"
+    ]
+  },
+  "intervening_ui_publications": [
+    {
+      "saved": {
+        "id": "appgprj_6ae2965054108191ad7dc71524bb7cfb~appgver_1643d86fb7b081918ca3e08664ef8ee2",
+        "project_id": "appgprj_6ae2965054108191ad7dc71524bb7cfb",
+        "version_number": 108,
+        "source": {
+          "commit_sha": "c44fe01d5694864ea97853f045d8d37f3d474295"
+        },
+        "archive_storage": {
+          "archive_format": "tar",
+          "sediment_file_id": "file_000000002ddc821196df25161fe15c24",
+          "content_hash": "sha256:56dd20b504c39b065348855df8c8d8ce04b9fd2898277a31940f7e624ea9d1e1",
+          "size_bytes": 207329280,
+          "file_count": 1428
+        },
+        "screenshot_url": null,
+        "deployment_id": "appgdep_6afe6632d45481919a0935ad9a8176c0"
+      },
+      "deployment": {
+        "id": "appgdep_6afe6632d45481919a0935ad9a8176c0",
+        "project_id": "appgprj_6ae2965054108191ad7dc71524bb7cfb",
+        "title": "수학의 연결 지도",
+        "version_id": "appgprj_6ae2965054108191ad7dc71524bb7cfb~appgver_1643d86fb7b081918ca3e08664ef8ee2",
+        "type": "publish",
+        "status": "succeeded",
+        "url": "https://math-learning-atlas-kr.gptpro2908176.chatgpt.site",
+        "has_mcp": false,
+        "screenshot_asset_pointer": "sediment://file_000000007ac8821298ed5ebcc92bc80b",
+        "provider_deployment_id": "site---6ae2965054108191ad7dc71524bb7cfb",
+        "failure_message": null,
+        "env_set_revision": 0,
+        "updated_at": "2026-11-19T03:00:31.358741+00:00"
+      },
+      "archive": {
+        "path": "C:\\Users\\User\\Desktop\\codex\\수학 내용 체계\\tmp\\curriculum-print-layout-dae1618ec5603ac0.tar.gz",
+        "bytes": 58333704,
+        "sha256": "65418280eb4b454e70b8703071e91d0806772c5711425c1cb522b6475ab123e8",
+        "files": 1428
+      },
+      "data_version": "dae1618ec5603ac0",
+      "resources": [
+        {
+          "path": "index.html",
+          "status": 200,
+          "sha256": "d6f1f0c6903e2e7a596483f95faf360ab99a436d68ec3e862c4b7842606acf7e"
+        },
+        {
+          "path": "legacy.html",
+          "status": 200,
+          "sha256": "bc67d556d44162d42a8cd11ec611f8a778f4738c2f98e92a8952843cecf922fc"
+        },
+        {
+          "path": "distribution-lab.html",
+          "status": 200,
+          "sha256": "85cefbec18d7c98e74155cdc6377deb6679a0913a43988c6db122e47514cdfc7"
+        },
+        {
+          "path": "inquiry-workbook.html",
+          "status": 200,
+          "sha256": "192c92fc97189bcf382c7d85ad265e0d0478e1c3e8bc2ab22193355545b45f0d"
+        },
+        {
+          "path": "portal-ui.css",
+          "status": 200,
+          "sha256": "c0a3bd2be68f9046b1b6b6e9ccd10363585f2d17f1145ebc47f68e8f3586c9d1"
+        },
+        {
+          "path": "portal-ui.js",
+          "status": 200,
+          "sha256": "d372ad2452f80c52dae980beb6c4bc0bc5ed2b4e26ea8f622626fc85eeb94cf7"
+        },
+        {
+          "path": "content/catalog.json",
+          "status": 200,
+          "sha256": "f9eee43d125430eb35481c95e063d6434216d8c3ee1e78169f2dbe766137bc04"
+        },
+        {
+          "path": "explorer-assets/index-CKTzINW4.js",
+          "status": 200,
+          "sha256": "6c213bbb7b83abed72e7882988829e3be9fb848dfde24ecdc4418a9a961503ef"
+        },
+        {
+          "path": "explorer-assets/index-fpq_DOlI.css",
+          "status": 200,
+          "sha256": "3dc12922510c987566bd571325b4a37225f827e68fc7ce065df8254f75b4d4e0"
+        }
+      ],
+      "confirmed_scope": "UI and content catalog HTTP bytes matched the archive and the v108 source commit."
+    },
+    {
+      "saved": {
+        "id": "appgprj_6ae2965054108191ad7dc71524bb7cfb~appgver_41e33d82b10c8191ba664fae7027ff79",
+        "project_id": "appgprj_6ae2965054108191ad7dc71524bb7cfb",
+        "version_number": 109,
+        "source": {
+          "commit_sha": "186ab1a37f43cee4ef510e5be7133ba814d8deba"
+        },
+        "archive_storage": {
+          "archive_format": "tar",
+          "sediment_file_id": "file_00000000f9a88211a0806282057297ed",
+          "content_hash": "sha256:d9b0d9cf6f175a888d16b418559f6139c8440145c514d5d81465b5b3c19b9db4",
+          "size_bytes": 207329280,
+          "file_count": 1428
+        },
+        "screenshot_url": null,
+        "deployment_id": "appgdep_6afe6753af5c8191a67bb7e31255e79b"
+      },
+      "deployment": {
+        "id": "appgdep_6afe6753af5c8191a67bb7e31255e79b",
+        "project_id": "appgprj_6ae2965054108191ad7dc71524bb7cfb",
+        "title": "수학의 연결 지도",
+        "version_id": "appgprj_6ae2965054108191ad7dc71524bb7cfb~appgver_41e33d82b10c8191ba664fae7027ff79",
+        "type": "publish",
+        "status": "succeeded",
+        "url": "https://math-learning-atlas-kr.gptpro2908176.chatgpt.site",
+        "has_mcp": false,
+        "screenshot_asset_pointer": null,
+        "provider_deployment_id": "site---6ae2965054108191ad7dc71524bb7cfb",
+        "failure_message": null,
+        "env_set_revision": 0,
+        "updated_at": "2026-11-19T03:05:17.452652+00:00"
+      },
+      "archive": {
+        "path": "C:\\Users\\User\\Desktop\\codex\\수학 내용 체계\\tmp\\curriculum-print-layout-tool-urls-dae1618ec5603ac0.tar.gz",
+        "bytes": 58332915,
+        "sha256": "f3e8ee1a189fcf388dfa6685ddd75f6879a99e96c3b424e965266b9330f79d44",
+        "files": 1428
+      },
+      "data_version": "dae1618ec5603ac0",
+      "resources": [
+        {
+          "path": "index.html",
+          "status": 200,
+          "sha256": "eea0b117d81d40bd210dd763dcbaa051f1d524b5b4003877d22d0a4178f7cbbd"
+        },
+        {
+          "path": "legacy.html",
+          "status": 200,
+          "sha256": "aedc4229cb8ab49c9f57106052db6b60d86e3934da7067037960515c225c7a2d"
+        },
+        {
+          "path": "distribution-lab.html",
+          "status": 200,
+          "sha256": "d5ba4229bf0f8016df0dc77b40889bbffe5867aa89ac53ccb730e249c15d441d"
+        },
+        {
+          "path": "inquiry-workbook.html",
+          "status": 200,
+          "sha256": "6d4914a8dc09c23acb765c8304fa9f52916b9a1179609ef534700c83d57c6aa4"
+        },
+        {
+          "path": "portal-ui.css",
+          "status": 200,
+          "sha256": "c0a3bd2be68f9046b1b6b6e9ccd10363585f2d17f1145ebc47f68e8f3586c9d1"
+        },
+        {
+          "path": "portal-ui.js",
+          "status": 200,
+          "sha256": "8ced1e1231cd4f92e35683d146c488c14941c6ae153230e139bbe4185c6bcf93"
+        },
+        {
+          "path": "content/catalog.json",
+          "status": 200,
+          "sha256": "f9eee43d125430eb35481c95e063d6434216d8c3ee1e78169f2dbe766137bc04"
+        },
+        {
+          "path": "explorer-assets/index-CKTzINW4.js",
+          "status": 200,
+          "sha256": "6c213bbb7b83abed72e7882988829e3be9fb848dfde24ecdc4418a9a961503ef"
+        },
+        {
+          "path": "explorer-assets/index-fpq_DOlI.css",
+          "status": 200,
+          "sha256": "3dc12922510c987566bd571325b4a37225f827e68fc7ce065df8254f75b4d4e0"
+        }
+      ],
+      "confirmed_scope": "UI and content catalog HTTP bytes matched the archive and the v109 source commit."
+    }
+  ],
+  "note": "Posterior receipts are recorded after the deployment archive was built."
+}

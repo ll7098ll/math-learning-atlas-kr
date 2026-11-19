@@ -1,0 +1,186 @@
+{
+  "parent_source_id": "IES_EARLY_2013",
+  "source_id": "IES_EARLY_2013",
+  "related_publication": {
+    "title": "Examining the Effects of Number Sense Instruction on Mathematics Competence of Kindergarten Students",
+    "authors": [
+      "Sheetal Sood",
+      "Megan Mackey"
+    ],
+    "year": 2015,
+    "journal": "International Journal of Humanities Social Sciences and Education",
+    "volume": 2,
+    "issue": 2,
+    "printed_pages": [
+      14,
+      31
+    ],
+    "url": "https://arcjournals.org/pdfs/ijhsse/v2-i2/2.pdf",
+    "pdf_sha256": "0157bdc8365a5fb44a1593dba4fbda6b9832b546743e79d6c17a3b870ad035e6",
+    "pdf_pages": 18
+  },
+  "date": "2026-11-18",
+  "reviewer": "Codex",
+  "contains_source_full_text": false,
+  "source_pdf_redistributed": false,
+  "registered_as_additional_effect_source": false,
+  "original_sood_2009_dissertation_obtained": false,
+  "same_or_independent_sample_verified": false,
+  "visual_pdf_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18
+  ],
+  "text_pdf_pages": [
+    1
+  ],
+  "rendered_page_sha256": {
+    "1": "327b655494b3511765669f6460e25de5c7f6c1813c0983a7c5e68cea38530b18",
+    "2": "1eff14931dded99f3d724b0deec0ea8d15c79cd4b2dd936fcbea85cf4ef0303f",
+    "3": "626e536a2e1db51c3622d318a3a43e980abbd7f6f6a2b2fc203782bde6722395",
+    "4": "d5022253a7438c6a0a9d567a38c595e22e045b49c3241890101cd4ab2294caa9",
+    "5": "96793460d259e48cf38d389f8263e1575ce9373f94df87e169ddc679be23f504",
+    "6": "2068544bb43b9bcbdc45c81d41609643dbdbf88c37bf9fd13f253aec92e433fd",
+    "7": "b96f8d62698761d40510b015ed115217331cbeeeab7a35de90c970ff5361bef5",
+    "8": "d94c8cc33fefdbf3c31c2ba8e82e79fea9633eb12b1d79de33038a0b2ab191f0",
+    "9": "627dac352385a38494c04703915a98b459c495f8e5096f97fffc006667bad6ac",
+    "10": "987dff7577fcfca92a061216a3fc3860b706461297ecb8e77e23494f92a589e6",
+    "11": "2db98eb6a2be1c559c7de6300b0a6a6dc7cbc16eec6c44ebe929c9f7a2fc2fc4",
+    "12": "8db68865773dbd13e0c9c7e19e5d9a151bf7b63dd9483a6fc3492689c12b0d74",
+    "13": "41b0c4bbff2965fe692fd279ca401d16573423395cdae664aa6ed6c271dbca81",
+    "14": "fa4ece55f4b5e08c8786f9afe49ec340ac1461bba3aecbb54b04d90c1a207e0f",
+    "15": "b694f0d4b3a90a103ea7d579afd7a0444f9eed0c10fd84182f7650320dc02454",
+    "16": "ffdc1c3eda5b7349171aac0d75d31774f310d9cac7585a88254ed268c1602338",
+    "17": "7b6c8a02aee3b09f8c8e42617cc5723ce05638ce474421383a5b9bb00a561afb",
+    "18": "c13851dfb0cf6442e932dbcad9483bdaf9cc1058aebf482c362a6ebe01b40af2"
+  },
+  "tables_read": [
+    1,
+    2
+  ],
+  "data_figures": 0,
+  "author_photos_on_pdf_page": 18,
+  "reading_log": [
+    "Actually viewed/read all18PDFpage images,including body,two tables,references and author biography. Extracted text read forPDF1only;other extracted pages are cached,not counted as extracted-text reading.",
+    "The2015paper is related work,not an authenticated copy or established republication of the2009thesis. Internal135/117/125/101sample indications and5vs3intervention teachers remain inconsistent. No effect,exact sample,study independence or current-task efficacy is inferred."
+  ],
+  "independent_review": false,
+  "student_validated": false,
+  "official_erratum_verified": false,
+  "exact_own_arithmetic_checks": {
+    "status": "pass",
+    "reported_total_arithmetic": [
+      135,
+      117,
+      125,
+      101
+    ],
+    "candidate_pooled_t": {
+      "(61, 40)": "2.682300100623160603970721259705176439055",
+      "(77, 58)": "3.149715769089276092632270142181176198111"
+    },
+    "actual_sample_reconstructed": false,
+    "original_thesis_read": false,
+    "official_erratum_verified": false,
+    "student_data": false
+  },
+  "findings": [
+    {
+      "pdf_pages": [
+        1,
+        3,
+        8
+      ],
+      "issue": "표본 분모의 불일치",
+      "detail": "초록·방법의77+58=135,표1의총계77+40=117,방법의성별합77+27+21=125,기초검정의N=101과df99가양립하지않는다. 표1의GCI성별31+27과민족25+33은58이다.",
+      "action": "61/40이나77/58중하나를실제분석표본으로선택하지않는다. 반올림연령평균·SD로61/40가정의t≈2.682와77/58가정의t≈3.150을계산했지만이는후보모형대조일뿐실제표본복원이아니다."
+    },
+    {
+      "pdf_pages": [
+        3,
+        12
+      ],
+      "issue": "교사 수의 불일치",
+      "detail": "방법은중재5교사·비교4교사라고하지만실행논의는중재3교사중2명이계산기를사용하지않았다고쓴다.",
+      "action": "3교사와5교사를통합하거나오탈자로정정하지않는다."
+    },
+    {
+      "pdf_pages": [
+        4,
+        5,
+        6,
+        12
+      ],
+      "issue": "수업량과다요소처치",
+      "detail": "양집단모두하루60분·주5일,공통교육과정40분이다. 나머지20분에수감각묶음과정규과정내용을달리한다. 단원별5+5+4+4=18차시이며자료·집단형태·내용이함께달라진다.",
+      "action": "중재집단에만20분을추가한설계나개별교구·계산기의고유효과로읽지않는다. 기기별상수연산동작을보장하지않는다."
+    },
+    {
+      "pdf_pages": [
+        6,
+        7,
+        8
+      ],
+      "issue": "척도와전이범위",
+      "detail": "SESAT는기초검사이며직후·3주유지에는ENCBM과수감각척도를사용한다. 비언어계산8문항은처음수세기와답에각1점으로최대16점이다. 공간배열유지내적일관성은.55,비언어계산유지는.66이다.",
+      "action": "8문항정오율이나일반수학성취전이로바꾸지않는다. 검사지표별분모·부분점수·시점·신뢰도를구별한다."
+    },
+    {
+      "pdf_pages": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "issue": "결과와논의의범위충돌",
+      "detail": "ENCBM집단주효과는모두유의하지않고논의도Bonferroni후직후차이가유의하지않다고한다. 그러나다른논의는두검사모두우세하다고넓게쓴다. 유지의수식별에서는비교집단이우세하다고설명한다. 결과별평균·SD표는실려있지않다.",
+      "action": "모든직후·유지효과가긍정적이라고요약하거나누락평균·효과크기를추정하지않는다. 정확한대조·표본이불명확하여추가효과주장과자체과제를등록하지않는다."
+    },
+    {
+      "pdf_pages": [
+        9,
+        10,
+        13
+      ],
+      "issue": "유지와분석단위",
+      "detail": "직후와유지간비유의차이를유지라고설명한다. 학급배정인데학생단위반복측정분석을사용하고다층모형은향후제안이다.",
+      "action": "비유의차이를동등성·개별학생유지증명으로바꾸지않는다. 실제수행하지않은다층모형분석이나군집보정완료로기술하지않는다."
+    },
+    {
+      "pdf_pages": [
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "issue": "원학위논문과의관계미확인",
+      "detail": "논의·결론·참고문헌·저자약력을모두읽었지만2015논문과가이드가인용한2009학위논문이같은자료인지확인하지못했다.",
+      "action": "2015논문읽기를2009학위논문독해완료나독립재현1건으로세지않는다. 가이드의비언어계산직후.37ns·유지.12ns와미주의유지서술차이는보류한다."
+    }
+  ],
+  "not_established": [
+    "정확한배정·분석표본",
+    "2009학위논문의실제본문·표본·분석",
+    "원자료·공식정오표",
+    "WWC의정확한재분석",
+    "국내과제효과",
+    "독립검토·실제학생검증"
+  ]
+}

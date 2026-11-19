@@ -1,0 +1,38 @@
+{
+  "source_id": "DICK_CAREY_2014",
+  "date": "2026-11-18",
+  "reviewer": "Codex",
+  "exact_ebook_isbn": "9781292052663",
+  "print_isbn": "9781292041254",
+  "assets": [
+    {
+      "url": "https://www.googleapis.com/books/v1/volumes?q=isbn:9781292052663",
+      "status": "not_obtained",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://archive.org/advancedsearch.php?q=isbn%3A9781292052663&output=json&rows=10",
+      "final_url": "https://archive.org/advancedsearch.php?q=isbn%3A9781292052663&output=json&rows=10",
+      "status": 200,
+      "content_type": "application/json",
+      "file": "tmp/literature/siegler-complete-20261118/archive-isbn.json",
+      "bytes": 208,
+      "sha256": "0061d182c7b5769c793c12aadc7b73433dc53af16570c9e672c577e86da257a0",
+      "retrieved_at": "2026-11-18T06:37:47.403714+00:00"
+    },
+    {
+      "url": "https://openlibrary.org/isbn/9781292052663.json",
+      "final_url": "https://openlibrary.org/books/OL50618804M.json",
+      "status": 200,
+      "content_type": "application/json",
+      "file": "tmp/literature/siegler-complete-20261118/openlibrary.json",
+      "bytes": 771,
+      "sha256": "e868c2e3bf1c44fdccbbd6b04968733b6644ed24a1d3beeaaabfb7463e55b1c5",
+      "retrieved_at": "2026-11-18T06:37:54.657286+00:00"
+    }
+  ],
+  "contains_source_full_text": false,
+  "new_body_pages": 0,
+  "whole_book_obtained": false,
+  "interpretation": "Archive의 정확한 ISBN 질의는numFound0,OpenLibrary는OL50618804M서지이고ocaid가없었다. GoogleBooks API429는 접근 실패이며 본문 부재 증거가 아니다. 이 조회만으로 다른 ISBN·도서관·판매 경로 전체의 부재를 증명하지 않는다. 회원가입·대출·구매·접촉·DRM우회는 하지 않았다."
+}

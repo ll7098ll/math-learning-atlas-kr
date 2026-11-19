@@ -1,25 +1,28 @@
 # 현재 상태와 버전
 
-확인 기준일: **2026년 11월 18일(KST)**. 이 문서는 작업 폴더의 원장·생성 데이터·검사 결과·기존 게시 기록을 대조한 요약이다. 웹사이트에 새로 접속해 응답을 확인한 기록은 아니며, 여기의 ‘최신’은 이 저장소에서 확인한 작업본을 뜻한다. 교육과정 후속 개정까지 조사했다는 의미는 아니다.
+확인 기준일: **2026년 11월 19일(KST)**. 이 문서는 작업 폴더의 원장·생성 데이터·검사 결과·기존 게시 기록을 대조한 요약이다. 여기의 ‘최신’은 원장에 기록된 작업본과 게시 영수증의 범위를 뜻한다. 공개 응답 대조와 실제 브라우저 시각 확인을 구별한다. 교육과정 후속 개정까지 조사했다는 의미는 아니다.
 
 ## 로컬 작업본과 공개 사이트
 
 | 구분 | 현재 확인한 값 | 근거 |
 |---|---|---|
-| 로컬 내용 버전 | `c7e86e2fa1af547e` | [검사 결과](../data/revision_checks.json) |
-| 로컬 과제 데이터셋 | `1eb09e3dfdcd4f6d` | [목표 연결 감사](../data/goal_network_audit.json) |
-| 로컬 개념군 데이터셋 | `c40bf927e329ac5a` | [전체 위계 감사](../data/hierarchy_completion_audit.json) |
-| 가장 최근의 성공 게시 기록 | Sites 버전 **91**, 내용 `c7e86e2fa1af547e` | [게시 원장](../data/school_revision_deployment.json) |
-| v91 게시 시각 | 2026-11-18 13:37:21 KST | 같은 게시 원장; 원기록 `2026-11-18T04:37:21.247243+00:00` |
-| v91 소스 커밋 | `e9f10e511c88b6c0c55daafa0868cab001461060` | [v91 게시 결과](../data/site_publication_c7e86e2fa1af547e.json) |
+| 로컬 내용 버전 | `a60e4950c4583869` | [검사 결과](../data/revision_checks.json) |
+| 로컬 과제 데이터셋 | `c40e20a8f9c5372d` | [목표 연결 감사](../data/goal_network_audit.json) |
+| 로컬 개념군 데이터셋 | `2629512282055ba2` | [전체 위계 감사](../data/hierarchy_completion_audit.json) |
+| 가장 최근의 성공 게시 기록 | Sites 버전 **110**, 내용 `5b3995b9eea589b9` | [게시 원장](../data/school_revision_deployment.json) |
+| v110 게시 시각 | 2026-11-19 12:10:00 KST | [게시 원장](../data/school_revision_deployment.json) |
+| v110 소스 커밋 | `63671e4b46b36837587f286bacc9b1f19ffa4c8f` | [게시 결과](../data/site_publication_5b3995b9eea589b9.json) |
 | GitHub 업로드 | 공개 저장소 생성·`main` 최초 업로드 완료 | [공개 저장소](https://github.com/ll7098ll/math-learning-atlas-kr) |
 | GitHub 최초 커밋 | `22c681bc0f522c994d2c9e3189edf9516f97c0da` · 2,751개 파일 | [최초 커밋](https://github.com/ll7098ll/math-learning-atlas-kr/commit/22c681bc0f522c994d2c9e3189edf9516f97c0da) |
 | GitHub 자동 검사 | 최초 커밋 `22c681b`의 전체 단계 성공 | [확인한 Actions 실행](https://github.com/ll7098ll/math-learning-atlas-kr/actions/runs/44239839367) |
-| GitHub Pages | 이 저장소의 스냅샷 `c7e86e2fa1af547e` · `main`에서 검사 후 자동 배포 | [포털 열기](https://ll7098ll.github.io/math-learning-atlas-kr/) · [배포 기록](https://github.com/ll7098ll/math-learning-atlas-kr/actions/workflows/checks.yml) |
+| GitHub Pages 콘텐츠 | `main`의 포털 스냅샷 `a60e4950c4583869`를 검사 후 자동 배포 | [포털 열기](https://ll7098ll.github.io/math-learning-atlas-kr/) · [공개 카탈로그 버전](https://ll7098ll.github.io/math-learning-atlas-kr/content/catalog.json) · [배포 기록](https://github.com/ll7098ll/math-learning-atlas-kr/deployments/github-pages) |
+| GitHub Pages 이전 UI 검증 | 공통 페이지 UI와 인쇄 · 콘텐츠 `c7e86e2fa1af547e` · 커밋 `f6daf3a` | [이전 검사 기록](https://github.com/ll7098ll/math-learning-atlas-kr/actions/runs/44448690447) |
 
-**최신 게시 원장에서는 로컬과 공개 내용 버전이 `c7e86e2fa1af547e`로 일치한다.** [보완 결과 원장](../data/content_completion_result_2026-11-04.json)의 `latest_publication_attempt`는 `succeeded`이고, `source_pushed`, `saved_version_created`, `deployed`가 모두 `true`다. 이번 문서 정비는 별도로 갱신된 성공 기록을 확인해 반영했으며, 이 문서 작업에서 사이트를 새로 배포한 것은 아니다.
+로컬 콘텐츠 `a60e4950c4583869`의 변경은 브라우저에서 아직 확인하지 않았다. 이번 UI 검증은 Sites의 공개 콘텐츠 `dae1618ec5603ac0`과 GitHub Pages의 공개 콘텐츠 `c7e86e2fa1af547e`에서 진행했다. 두 사이트에서 PC·태블릿 화면 유형 19개와 주요 키보드 흐름을 확인했고, A4 출력은 로컬 19개 유형과 공개 사이트 각 5개 유형에서 검사했다. [검증 기록](VERIFICATION.md#pc태블릿-키보드와-a4-인쇄-검증)
 
-[전체 위계 감사](../data/hierarchy_completion_audit.json)의 `deployment_matches_working_source=false`는 **v91 게시 전인 13:33:11 KST에 생성한 감사**에 남아 있는 값이다. 구조 검사 당시에는 공개 v90과 달랐고, 그 뒤 13:37:21 KST의 게시 기록이 추가됐다. 이 시점 차이를 보존하며, 현재 배포 판정에는 더 최신인 v91 게시 원장을 사용한다. 검사 통과나 GitHub 업로드만으로 별도 Sites 게시를 추정하지 않는다.
+이전 화면 검증에서는 당시 공개된 Sites와 GitHub Pages에서 각각 19개 화면 유형을 열어 제목과 메뉴, 모바일 너비를 확인했다. [전체 페이지 UI 검증](VERIFICATION.md#전체-페이지-ui-재검증)
+
+구조 감사는 생성 시점의 공개 버전과 비교하므로 이후 게시 영수증과 시점이 다를 수 있다. 원래 감사값은 보존하고 현재 게시 판단에는 최신 성공 영수증을 사용한다. 위 GitHub·Pages 행의 기존 게시 기록을 새 로컬 변경의 원격 반영 완료로 해석하지 않는다.
 
 공개 주소는 [수학의 연결 지도](https://math-learning-atlas-kr.gptpro2908176.chatgpt.site)다. Sites 버전 번호는 해당 서비스의 저장 이력이며, 별도의 소프트웨어 배포 버전 번호를 새로 부여한 것은 아니다.
 
@@ -37,10 +40,10 @@
 | 연구용 개념군 | 46 | [전체 위계 감사](../data/hierarchy_completion_audit.json) |
 | 보강 관계 전체 | 4,373 | [현재 관계 원장](../data/revised_relations.json) |
 | 성취기준 사이의 관계 | 2,239 | [전체 위계 감사](../data/hierarchy_completion_audit.json); 개별 사고 요소를 양 끝으로 갖는 관계는 제외 |
-| 전체 출처 | 176 | [출처 원장](../data/sources.json); 기준 교육과정 포함 |
-| 교육과정 외 문헌의 범위별 주장 대응 | 출처 175·주장 1,053 | [문헌 주장 원장](../data/literature_claim_reviews.json) |
-| 문헌 기반 추가 관찰·자체 과제 | 1,236 | [보완 결과 원장](../data/content_completion_result_2026-11-04.json)의 `literature_observation_extensions`; 명시적 과제 571과 별도 집계 |
-| 문헌과 관계의 범위별 해석 | 874 | [관계 문헌 원장](../data/relation_literature_reviews.json); 대상 관계 389개 |
+| 전체 출처 | 179 | [출처 원장](../data/sources.json); 기준 교육과정 포함 |
+| 교육과정 외 문헌의 범위별 주장 대응 | 출처 178·주장 1,065 | [문헌 주장 원장](../data/literature_claim_reviews.json) |
+| 문헌 기반 추가 관찰·자체 과제 | 1,242 | [보완 결과 원장](../data/content_completion_result_2026-11-04.json)의 `literature_observation_extensions`; 명시적 과제 571과 별도 집계 |
+| 문헌과 관계의 범위별 해석 | 875 | [관계 문헌 원장](../data/relation_literature_reviews.json); 대상 관계 389개 |
 | 문헌 주장에 최소 한 범위가 연결된 기준 | 435/435 | [연결 범위](../data/literature_mapping_coverage_2026-11-13.json); 기준 전체의 문헌 검증 완료 수가 아님 |
 | 공식 내용 체계 항목 자체 의미 대조 | 571/571 | [보완 결과 원장](../data/content_completion_result_2026-11-04.json) |
 | 성취기준 원문 이미지 자체 대조 | 435/435 | [원문 이미지 대조 범위](원문이미지대조범위.md) |
@@ -49,11 +52,85 @@
 
 ## 가장 최근의 내용 변경
 
-로컬 버전 `c7e86e2fa1af547e`에는 Xin·Jitendra·Deatline-Buchman(2005)의 비례 문장제 원연구 대조를 반영했다. 공개 사본의 논문 181–192쪽 전체 12쪽과 표 3개·그림 2개를 확인한 기록이며, 출처 1개·주장 3건·자체 과제 4건·관계 해석 11건을 더했다. 기존 출처 174개·주장 1,050건·과제 1,232건·해석 863건의 보존 여부를 함께 기록했다.
+107쪽 시행 보고서에서 텍스트가 있는 91쪽의 전체 추출문을 읽고 지정 판면 25쪽을 누적 대조했다. 본·부록의 형성평가 항목과 도입·주활동 시간 표기가 다른 위치를 기록했다. 교실 관찰 활동과 클럽 계획 활동, 시간 비율과 활동 수 비율을 구별했다. 덧셈에서 같은 두 수의 표시만 바꾸는 과제와 39에서 40으로 넘어가며 묶음을 교환하는 과제를 추가했다. 기존 주장 2건, 과제 1건과 관계 해석 1건을 보완하고 문헌 주장 2건과 자체 관찰 과제 2건을 추가했다. [시행 보고서 대조 기록](../data/literature_evidence/JACOB_ERICKSON_MATTERA_2018_HIGH5S_IMPLEMENTATION_complete_text_review_notes.json)
 
-시작 표본 22명, 네 시점 완료 19명, 학습장애 완료 표본 16명을 구별하고, 시점별 지원·부분점수·지연 검사 전 전략 복습·인쇄 186쪽 수량 대응을 보완했다. 이는 국내 학생 효과나 특정 도식의 단독 효과를 입증한 결과가 아니다. 자세한 범위와 제한은 [원논문 대조 기록](../data/literature_evidence/XIN_JITENDRA_DEATLINE_BUCHMAN_2005_review_notes.json)과 [전체 자료 보완 진행](전체자료보완진행.md)에 있다.
+## 이전 내용 변경 — MPC 2026년 출판 논문
 
-v91 게시 결과는 이 원연구 보완에 관련된 성취기준 7개와 공개 리소스 84개의 HTTP 바이트 대조를 기록한다. 이전 v90에는 IES 분수 지도 가이드 90쪽·검토 프로토콜 8쪽 판면 대조가 반영되어 있으며, 당시 성취기준 18개·공개 리소스 117개 대조가 기록되어 있다. 두 게시 모두 실제 브라우저 화면 검증은 미완료로 남긴다. 이번 문서 정비에서 공개 응답을 다시 확인한 것은 아니다.
+2026년 출판 논문의 웹 추출문 1,836줄을 앞표지부터 참고문헌까지 검토했다. 취학 전 1,389명과 3학년 수학 1,844명의 주분석, 두 시점에 관찰된 998명의 민감도 분석을 구별했다. 시간 층화 비교의 p=.11을 논문 기준 p<.10과 대조하고, 집단 안의 효과와 집단 사이 효과 차이 검정을 따로 설명했다. 수열을 이어 말하는 수행과 새 물체에 수를 대응해 덧셈하는 수행을 구별했다. 기존 주장 5건을 보완하고 문헌 해석 1건을 추가했다. 출판 판면, 그림 원본, 별도 스프레드시트와 국내 학생 검증이 남아 있다. [출판 논문 대조 기록](../data/literature_evidence/MATTERA_ET_AL_2026_MPC_PUBLISHED_complete_web_text_review_notes.json)
+
+## 이전 내용 변경 — 유치원 예비 결과와 학년별 관찰
+
+2017년 예비 보고서 9쪽과 2024년 교실 관찰 논문 18쪽 전체를 판면으로 검토했다. 예비 분석의 혼합 프로그램군과 2018년 최종 비교를 구별했다. 학년별 수학 내용이 겹치더라도 세기, 수 합성, 연산 상황의 수행이 달라질 수 있음을 관찰 기록과 연결했다. 교실 활동 시간의 분모와 개별 아동의 경험, 미관찰 학년과 미코딩 항목을 구별했다. 문헌 2건과 주장 5건을 추가하고 기존 주장 1건을 보완했다. 논문의 별도 온라인 부록 2개, 학생·관찰 원자료, 국내 독립 검토와 실제 학생 검증은 미확인이다. [2017년 예비 보고서 대조](../data/literature_evidence/MATTERA_MORRIS_2017_MPC_PRELIMINARY_complete_visual_review_notes.json) · [2024년 논문 대조](../data/literature_evidence/ENGEL_ET_AL_2024_P3_MATH_ALIGNMENT_complete_visual_review_notes.json)
+
+## 이전 내용 변경 — High 5s 시행 보고서 추가 대조
+
+High 5s 시행 보고서의 추출문 8쪽과 판면 7쪽을 추가 대조했다. 발행처와 ERIC의 107쪽 PDF가 같은 파일임을 확인했다. 약 30분의 회기 계획과 기록의 평균 24.7분·관찰의 평균 24.1분을 구별해 주당 약 75분의 근거를 설명했다. 예정 회기 시행률, 부분 출석을 포함한 아동 출석률, 덧셈 과제의 기억 부담과 교사 지원을 구별했다. 기존 주장 3건과 관계 해석 1건을 보완했다. 새 출처·주장·과제·관계는 0건이다. 회기별 원기록과 분석 코드, 보고서의 지정 범위 밖, 교수설계 7판 국제판 정식 본문 및 독립·학생 검증은 미확인이다. [대조 기록](../data/literature_evidence/JACOB_ERICKSON_MATTERA_2018_HIGH5S_IMPLEMENTATION_implementation_followup_notes.json)
+
+## 이전 내용 변경 — MPC2018 유치원 결과 보고서 전체 대조
+
+로컬 내용 `ca52fee86011418b`에는 MPC2018유치원 결과 보고서142판면 전체 대조를 반영했다. 기존11·새131판면이며 새 전문 추출문 독해는0쪽이다.21표·8그림·4상자·부록A–H와 참고문헌까지 읽었다.
+
+세 비교의 표본·모형,점수변환과 가중,문항도달/미제시·단위,집단내/간 검정을 구별했다. 선형변환 설명과 분석차이·31.5/32분 경계·표G7부호 등은 원자료/공식 정오표 없이 임의 수정하지 않았다. 기존9주장을 보완하고 다른1048주장·모든1240과제·875관계 해석을 보존했다. 새 출처·주장·과제·관계는0이다. [전체 보고서 대조](../data/literature_evidence/MATTERA_ET_AL_2018_MPC_KINDERGARTEN_complete_visual_review_notes.json)
+
+## 이전 내용 변경 — MPC2016 취학전 보고서 전체 대조
+
+로컬 내용 `34f27c474a6c72fb`에는 MPC2016취학전 보고서118판면 전체 대조를 반영했다. 기존2·새116판면이며 새 전문 추출문 독해는0쪽이다.19표·5그림·11상자·부록A/B와 참고문헌까지 읽었다.
+
+교사 제공 시간과 아동당 경험,조건부 질 점수,처치 후 가을검사·계획 하위표집·결측/0점 처리를 구별했다. 최초70기관에서 배정 후·실시 전 대조1기관이 빠진 시점으로 관련2017설명을 한정했다. 기존3주장을 보완했고 다른1054주장·모든1240과제·875관계 해석을 보존했다. 새 출처·주장·과제·관계는0이다. [전체 보고서 대조](../data/literature_evidence/MORRIS_ET_AL_2016_MAKING_PRE_K_COUNT_complete_visual_review_notes.json)
+
+## 이전 내용 변경 — MPC2017 설계 장 전체 대조
+
+로컬 내용 `03537c038a298820`에는 MPC2017설계 장28판면 전체 대조를 반영했다. ERIC표지1판면·장27판면·표2개·그림0개·참고문헌을 포함하며 기존5·새23판면,새 전문 추출문 독해0쪽이다.
+
+선정의AND/OR·시점·측정 종류,실시일/참여아동·제공/이용가능/실제 참여·코칭 회기/시간을 구별했다. 세 비교는High5s단독 셀이 없는 설계이므로 완전2×2상호작용을 식별하지 못한다. 원문 표기 차이를 보존하고2017예비 결과와 후속 최종 결과를 구별한다. 기존4주장을 보완했으며 다른1053주장·모든1240과제·875관계 해석을 보존했다. 새 출처·주장·과제·관계는0이며 누적176출처·1057주장·1240과제다. [전체 설계 장 대조](../data/literature_evidence/MATTERA_ET_AL_2017_MPC_DESIGN_complete_visual_review_notes.json)
+
+## 이전 내용 변경 — MPC·High 5s 2021 장기 추적 보고서
+
+로컬 내용 `199744a6e41909af`에는 MPC·High 5s의2021년3학년 장기 추적 보고서101판면 전체 대조를 반영했다. 표지·공백·목차·요약·본문·부록A–F·24표·1그림·참고문헌을 포함한다. 기존12·새89판면이며 새 전문 추출문 독해는0쪽이다.
+
+기존10주장을 보완하고 자료 분류 경계·하위집단 검정의 주장2건 및 가상 과제2개를 추가했다. 출석90%이하/미만과178일 예시, 결과별 분모, 확증/탐색·집단내/간 검정, 외부 격차 비교와 도시 외삽을 구별한다. 다른1045주장·기존1238과제·875관계 해석을 보존했다. 누적176출처·1057주장·1240문헌 기반 과제다. 학생 원자료·분류 코드·공식 정오표·국내 검증은 미확인이다. [전체 보고서 대조](../data/literature_evidence/MATTERA_ET_AL_2021_MPC_THIRD_GRADE_complete_visual_review_notes.json)
+
+
+## 이전 내용 변경 — 덧셈·뺄셈 연구 본문 및 공식 부록
+
+로컬 내용 `92091d75cfc54fd4`에는 덧셈·뺄셈 예비2020·본실험2021 연구 본문58판면과 예비 연구 공식 부록8판면을 모두 읽은 결과를 반영했다. 총66판면·새58판면이며 새 전문 추출문 독해는0쪽이다. 본실험 공식Word부록은74본문블록·내장그림7개를 별도로 읽었다. Word전체 판면 렌더링은 실패했으므로 PDF쪽수나 레이아웃 검증으로 세지 않는다.
+
+기존 주장8건에 조건별 학급/개인 배정, 지도·검사 노출 묶음, 모든 이전 수준을 포함한 판정 조건, 표본 분모·문항 수·WAIC·추정량의 불일치와 한계를 보완했다. 새 출처·주장·과제·관계는0이며 모든1238과제·874관계 해석을 보존하고1개 맥락의 문항 수 설명을 한정했다. 원 반응·실제 시행 문항 대응·공식 정오표·국내 검증은 미확인이다. [예비 연구 전체 대조](../data/literature_evidence/CLEMENTS_ET_AL_2020_ARITHMETIC_PILOT_complete_visual_review_notes.json) · [본실험 및 공식 부록](../data/literature_evidence/CLEMENTS_ET_AL_2021_ARITHMETIC_TRIAL_complete_visual_review_notes.json)
+
+
+## 이전 내용 변경 — 길이·도형 지도 순서 연구
+
+로컬 내용 `a59fdac7b2933556`에는 길이 측정2021·도형 합성2019의 두 원논문37판면 전체 대조를 반영했다. 기존12판면과 새25판면을 합친 범위이며 새 전문 추출문 독해는0쪽이다.11표·3그림을 읽고 기존 주장8건의 범위와 한계를 보완했다. 모든1238과제·875관계 해석은 보존했다.
+
+배정 단위·사전 중단/사후 전 문항·75%의 전체 이전 수준 조건, 무응답9·부분점수·사후전용 문항과 가까운/먼 전이를 구별한다. 길이의 학교 유형 인원·표4비율·WAIC주석, 도형의 문항별 백분율·ICC24%서술은 원문 표기와 자체 검산을 나눠 기록했다. 원자료·공식 정오표와 실제 국내 과제 검증은 미확인이다. [길이 전체 대조](../data/literature_evidence/SARAMA_ET_AL_2021_LENGTH_SEQUENCE_complete_visual_review_notes.json) · [도형 전체 대조](../data/literature_evidence/CLEMENTS_ET_AL_2019_SHAPE_SEQUENCE_complete_visual_review_notes.json)
+
+
+## 이전 내용 변경 — 수 보존 원논문
+
+로컬 내용 `5cd6e56174409458`에는 Siegler1995 수 보존 원논문의49판면 전체 대조를 반영했다. 기존7쪽과 새42쪽을 합친 범위이며 새 전문 추출문 독해는0쪽이다.2표·7그림·참고문헌까지 읽었다. 기존SNC01–03·IE17과SNC-P1의 해석을 보완했으며 새 주장·과제·관계는0이다.
+
+설명 대상·피드백 순서·판단의 정오 여부가 함께 달라지는 실험 조건, 마지막 이유의 주 코딩과 최초·수정 이유 기록, 집단 정답률과 아동 숙달률, 조건부 전환과 사후 사례 분류를 구별한다. 길이·밀도 단서의 정오가6유형 전체에서 반대라는 서술은 표1의 두 예외와 함께 자체 논리 점검으로 기록했다. 원 학생자료·공식 정오표·출판사 파일 동일성·실제 학생 검증은 미확인이다. [전체 대조 기록](../data/literature_evidence/SIEGLER_1995_complete_visual_review_notes.json)
+
+
+## 이전 내용 변경 — 교과서 비교와 출판물 식별
+
+로컬 내용 `817f993df4110d89`에는 Sood·Jitendra2007 교과서 비교 원논문13판면의 읽기와2013논문·2009학위논문·2015논문의 식별 범위 대조를 반영했다. 새 전문 추출문 독해는0쪽이다. 미국 교재4종의34수업을 학생 표본으로, 항목 수·조건부 비율·코딩 기준10/4문항을 성취율이나 보편적인 연습량으로 적용하지 않는다.
+
+표2를 재계산한 합산 비율과 책별 비율 평균은 서로 다르다. 표·본문의 미해결 수치와 편집 의도를 보존하고 원 코딩표를 복원했다고 주장하지 않는다.2013논문은 공개 초록·서지만 확인했으며2009학위논문 및2013본문은 미확보다. 공식WWC77991 내보내기는 연구1행·결과0행이다. 기존 주장1055건·과제1238개·관계 해석875건을 보존했다. [교과서 비교 감사](../data/literature_evidence/SOOD_JITENDRA_2007_textbook_audit_notes.json) · [출판물 식별](../data/literature_evidence/SOOD_publication_identity_followup_notes.json)
+
+## 이전 내용 변경 — GAISE 파일과 Sood2015
+
+로컬 내용 `28df1514100a3e4b`에는 GAISE 기존본과 현행 공식 PDF126쪽의 지정 렌더링·추출문·내용 스트림 대조와 Sood·Mackey2015관련 논문18판면의 오류 감사를 반영했다. GAISE의 새 독해는0쪽이며 바이너리·주석·접근성 동일성은 미검증이다. 관련 논문은 추출문1쪽·판면18쪽을 읽었지만 원2009학위논문 대체본이나 독립 표본으로 확인되지 않았다.
+
+135/117/125/101의 표본 분모,5명/3명 교사와 결과 서술의 충돌을 보존했다. 수업량·다요소 처치·척도별 채점·시점·비유의 차이와 유지·군집 배정과 분석을 구별하며 새로운 효과 주장을 추가하지 않았다. 기존 주장1055건·과제1238개·관계 해석875건을 보존했다. [통계 가이드 대조](../data/literature_evidence/GAISE_2020_official_rendering_comparison_notes.json) · [관련 논문 감사](../data/literature_evidence/SOOD_MACKEY_2015_related_publication_audit.json)
+
+## 이전 내용 변경 — Lai2008
+
+로컬 내용 `c90c90e67ccf6455`에는 Lai·Baroody·Johnson(2008)의 공개 웹 전사문과 공식 WWC77971 대조를 반영했다. 방법·채점·결과·논의·참고문헌의 선정 대목을 읽었으며 PDF파일·실제 판면·그림1–4는 확보하지 않았다. 147행의 웹 전사문 읽기를 PDF 20쪽 독해로 집계하지 않는다.
+
+숨겨진 처음 수와 정확한 개수 계산, 상쇄와 비상쇄 변화, 일률 응답·부분점수·지원·재시도를 구별하는 주장2건·자체 과제2개·관계 맥락1건을 추가하고 IE14 한계를 보완했다. 가이드30명과 전사문의60명/절차30명은 미해결이다. 공식 내려받기 자료에는 연구1행·결과0행이 있어 정확한 분석 분모를 확인하지 못했다. [원연구 대조 기록](../data/literature_evidence/LAI_BAROODY_JOHNSON_2008_INVERSION_review_notes.json)
+
+이전 v92의 내용 `a5a60f1d12b2e2c6`에는 유아수학165쪽·GAISE126쪽 및 심사 지침9쪽·8쪽의 전체 추출문/판면 대조가 반영됐다. 당시 새 판면109쪽과 관련46개 기준·공개 리소스201개 대조가 기록돼 있다. [v92 게시 결과](../data/site_publication_a5a60f1d12b2e2c6.json)
 
 ## 검사로 확인한 범위
 
@@ -81,5 +158,5 @@ v91 게시 결과는 이 원연구 보완에 관련된 성취기준 7개와 공�
 - 원본 원장을 고치고 관련 생성·검사를 완료한 뒤 이 문서의 수치와 버전을 갱신한다. 검사 실패나 미실행을 완료로 표시하지 않는다.
 - 공개 버전은 게시 성공·해당 자료 확인을 뒷받침하는 기록이 있을 때 갱신한다. 로컬 작업 버전과 공개 버전을 각각 남긴다.
 - `2026-11-04`, `2026-11-13`처럼 날짜가 붙은 일부 원장과 문서는 이후에도 누적 갱신된다. 파일명만으로 내용의 최신 날짜를 판단하지 않고 내부 날짜·버전·상태를 확인한다.
-- [정적 자산 보존 계획](../data/portal_asset_retention.json)의 현재 범위는 작업본과 최근 저장 버전 2개(v91·v90)다. 이 파일은 계획이며, 실제 이동 이력은 [별도 원장](../data/portal_asset_archive_history.json)에 기록한다.
+- [정적 자산 보존 계획](../data/portal_asset_retention.json)의 현재 범위는 작업본과 최근 저장 버전 2개(v110·v109)다. 이 파일은 계획이며, 실제 이동 이력은 [별도 원장](../data/portal_asset_archive_history.json)에 기록한다.
 - 큰 연구 기록의 과거 수치·당시 판단은 이력으로 보존하고, 현재 읽을 요약은 이 문서와 [변경 이력](../CHANGELOG.md)에 둔다.

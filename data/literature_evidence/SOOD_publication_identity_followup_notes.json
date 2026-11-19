@@ -1,0 +1,103 @@
+{
+  "source_id": "IES_EARLY_2013",
+  "date": "2026-11-18",
+  "reviewer": "Codex",
+  "contains_source_full_text": false,
+  "primary_metadata": [
+    {
+      "title": "An Exploratory Study of a Number Sense Program to Develop Kindergarten Students’ Number Proficiency",
+      "authors": [
+        "Sheetal Sood",
+        "Asha K. Jitendra"
+      ],
+      "doi": "10.1177/0022219411422380",
+      "url": "https://journals.sagepub.com/doi/10.1177/0022219411422380",
+      "university_url": "https://experts.umn.edu/en/publications/an-exploratory-study-of-a-number-sense-program-to-develop-kinderg/",
+      "online_date": "2011-10-04",
+      "issue_date": "2013-07",
+      "journal": "Journal of Learning Disabilities",
+      "volume": 46,
+      "issue": 4,
+      "printed_pages": [
+        328,
+        346
+      ],
+      "body_obtained": false,
+      "abstract_total": 101,
+      "abstract_classrooms": 5,
+      "abstract_school_description": "one high-poverty elementary school",
+      "abstract_control_risk_cells": [
+        22,
+        18
+      ],
+      "abstract_intervention_risk_cells": [
+        36,
+        25
+      ],
+      "source_scope": "출판사·저자 소속대학의 공개 초록과 서지. 본문·표·그림은 미확보다."
+    }
+  ],
+  "official_wwc_export": {
+    "url": "https://ies.ed.gov/ncee/WWC/Study/StudyExport/77991",
+    "sha256": "c7378122502f3fb94c5d12f19547b3667624f0b4797b4347c948ee6fb4bfe6df",
+    "study_rows": 1,
+    "finding_rows": 0,
+    "study_id": "77991",
+    "review_id": "68172",
+    "citation_year": 2009,
+    "umi": "3373089",
+    "protocol": "2.1",
+    "standards": "2.1",
+    "rating": "Meets WWC standards with reservations",
+    "sample_count_not_available": true,
+    "empty_findings_not_zero_effect": true
+  },
+  "body_or_sample_identity_verified": false,
+  "original_2009_dissertation_read": false,
+  "additional_independent_sample_count": 0,
+  "independent_review": false,
+  "student_validated": false,
+  "interpretation": "2011온라인·2013권호는 같은 DOI다. 초록의40명/61명·101명·5학급은 가이드와 유사하지만 학위논문과 동일 원자료인지 확인하지 못했다.2015논문의135명·9학급과 합치거나 대체하지 않는다. 공식 내보내기의 결과0행으로 정확한 분석 분모나 효과를 복원할 수 없다.",
+  "asset_metadata": [
+    {
+      "url": "https://ies.ed.gov/ncee/WWC/Study/StudyExport/77991",
+      "final_url": "https://ies.ed.gov/ncee/WWC/Study/StudyExport/77991",
+      "status": 200,
+      "content_type": "application/zip",
+      "file": "tmp/literature/sood-original-followup-20261118/wwc77991-export.zip",
+      "bytes": 4323,
+      "sha256": "c7378122502f3fb94c5d12f19547b3667624f0b4797b4347c948ee6fb4bfe6df",
+      "retrieved_at": "2026-11-18T06:11:53.404845+00:00"
+    },
+    {
+      "url": "https://api.openalex.org/works/https://doi.org/10.1177/0022219411422380",
+      "final_url": "https://api.openalex.org/works/https://doi.org/10.1177/0022219411422380",
+      "status": 200,
+      "content_type": "application/json",
+      "file": "tmp/literature/sood-original-followup-20261118/openalex.json",
+      "bytes": 18070,
+      "sha256": "5e51626d4cce4d492832515d248d05612ce3e7373b1bbb837f9c32b9a470fdc9",
+      "retrieved_at": "2026-11-18T06:11:50.721157+00:00"
+    },
+    {
+      "url": "https://api.crossref.org/works/10.1177/0022219411422380",
+      "final_url": "https://api.crossref.org/works/10.1177/0022219411422380",
+      "status": 200,
+      "content_type": "application/json",
+      "file": "tmp/literature/sood-original-followup-20261118/crossref.json",
+      "bytes": 18708,
+      "sha256": "102bad483f883885afdc6336b8c4a3afd5a5d455344795e1ab926782d312f7e6",
+      "retrieved_at": "2026-11-18T06:11:50.930426+00:00"
+    },
+    {
+      "url": "https://experts.umn.edu/en/publications/an-exploratory-study-of-a-number-sense-program-to-develop-kinderg/",
+      "final_url": "https://experts.umn.edu/en/publications/an-exploratory-study-of-a-number-sense-program-to-develop-kinderg/",
+      "status": 200,
+      "content_type": "text/html;charset=UTF-8",
+      "file": "tmp/literature/sood-original-followup-20261118/university.html",
+      "bytes": 49078,
+      "sha256": "9a74db5616931fcbb6987d090860d8933103c2d4edb308158cc74d0d3bf6c6f4",
+      "retrieved_at": "2026-11-18T06:11:51.206810+00:00"
+    }
+  ]
+}

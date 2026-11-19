@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "source_id": "MATTERA_MORRIS_2017_MPC_PRELIMINARY",
+  "source_url": "https://www.mdrc.org/work/publications/counting-early-math-skills",
+  "source_pdf_url": "https://www.mdrc.org/sites/default/files/Making_Pre-K_Count_Brief.pdf",
+  "source_pdf_sha256": "4c3f267a1ec156bd4a2ca513b35fdb42bad467d07d81aaf26a09e0d0e48f299d",
+  "source_pdf_bytes": 203371,
+  "pdf_pages": 9,
+  "read_scope": "MDRC 2017년 2월 예비 보고서 9판면 전체의 표지, 본문, 상자 2개, 표 1개, 참고문헌과 감사·권리 안내를 판면으로 읽었다.",
+  "full_document_visual_read": true,
+  "date": "2026-11-19",
+  "reading_log": [
+    "1~3쪽에서 2017년 2월 예비 보고서로 확인. 2017년 별도 설계 장과 저자/문서가 다름. 2쪽 상자1의 High 5s 주 3회 회당 30분과 2018 시행 보고서에서 관측한 회기 중 수학 활동 24.7/24.1분의 단위와 출처를 구별. 3쪽 상자2의 12/35분은 교사 제공 시간 요약으로 2016 아동당 경험과 구별. 가을 ECLS 효과 .31은 배정 후 측정.",
+    "4~5쪽. 69기관,173학급. 표본 1382명의 프로그램군에는 MPC만 또는 MPC+High5s가 함께 들어가고 약 1/4만 클럽 참가. 대조군은 보통 과정. 배정단위 군집을 고려한 모형. '누적' 표현에도 모든 처치군이 두 해 보강을 받았다는 의미는 아님. 2018 결과 세 비교의 효과를 이 표에서 역산하지 않음.",
+    "6쪽 표1. N698/684=1382. REMA 38.81/37.68, 영향1.13**, SE.48, ES.13. WJ104.37/104.37, 영향0.00, SE.72, ES.00. 태도.14*/ES.09, Corsi.19**/ES.13, 언어·억제 비유의. 10/5/1% 별 구분. 인쇄값이0.00이라도 정확한 0은 미확인. 설계·표본·대조SD가 다른 최종 641/684,303/310,303/345와 합산 금지. REMA 표주는 IRT기반이라 적음. 값이 닮았다는 이유로 2018 T와 동일 채점 파이프라인 정본이라고 판정하지 않음. 혼합 억제33시행 중 200ms 미만 제거, Corsi 초기 두 번 실패해0점과 미검사 결측은 다름.",
+    "7쪽 미래 계획에 High5s alone 표현이 있으나 2018/2020 비교는 취학전 MPC 배경에서의 추가 효과이고 MPC 없는 High5s 셀이 없음을 구별. 샌디에이고 유사 패턴은 별도 대조가 필요한 인용 원연구. 8쪽 참고문헌,9쪽 감사와 권리 확인. 예비와 최종을 독립 반복 연구로 세지 않으며 개인 원자료/공식 정오표·독립/학생 검증 없음."
+  ],
+  "source_corrections": [],
+  "empirical_scope": {
+    "design": "취학 전 기관 무작위 배정의 예비 정책 대비로, 프로그램군 일부에 유치원 추가 수업이 제공됐다.",
+    "sample_description": "69기관, 173학급. 유치원 말 표 1의 프로그램군 698명, 대조군 684명이다.",
+    "inference_limit": "같은 MPC·High 5s 평가의 예비 분석이다. 프로그램군에는 MPC만 받은 아동과 유치원 High 5s까지 받은 아동이 함께 있다. 이 표로 각 처치의 별도 효과, 두 처치의 상호작용, 추가 수업량의 효과를 식별할 수 없다.",
+    "student_outcome_study": true,
+    "causal_effect_established": true,
+    "local_effect_tested": false,
+    "study_family": "MDRC_MAKING_PRE_K_COUNT_HIGH_5S"
+  },
+  "visual_pdf_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "rendered_page_sha256": {
+    "1": "5528de2d1050e72ee1fdf0f631ed05d73f528f17b9c9cb31a8797ee7e64ccbff",
+    "2": "5c21086f29e3cbe502a925f8bdd1d4e4a09d468f09ef591cc9df3fadb697f017",
+    "3": "a0ac2d0bdfd725e3a84fb366cf04436428622541c52fd58f25c49b639c80d94f",
+    "4": "2ac96b691aff602d76fc790806f43081d25ad61c187951720d356664758af045",
+    "5": "ba42c238e8638aee258a46d0ea94f88e382a54c5f6358a72636a79c067a12021",
+    "6": "fa6c58804a5191c51de0d709ad11678e5a34bdf6804846773df9118d59119fb6",
+    "7": "0371b8039d3fbb022708d2daf0ffd6865aba862c79b35a787eb0013c750e1452",
+    "8": "ba5aa2d40a46310a7d5d323dc44fba51d2f6c35ea75e980984830fe1ee08f60f",
+    "9": "34338ef2455b7c9abbaf37454003ed16a4bf7a07499a0de68c913878a339e495"
+  },
+  "new_extracted_text_pages": 0,
+  "contains_source_full_text": false,
+  "source_pdf_redistributed": false,
+  "raw_student_data_read": false,
+  "independent_review": false,
+  "student_validated": false
+}

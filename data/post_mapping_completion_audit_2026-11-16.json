@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-18",
-  "data_version": "c7e86e2fa1af547e",
+  "date": "2026-11-19",
+  "data_version": "a60e4950c4583869",
   "goal_status": "active",
   "full_objective_complete": false,
   "minimum_scoped_mapping": {
@@ -48,42 +48,46 @@
       "evidence": "docs/독립검토와학생검증목록.md"
     },
     {
-      "item": "기록지·분포 도구의 실제 브라우저/인쇄/모바일 시각 확인",
+      "item": "이번 내용 버전에서 변경된 기준 상세의 브라우저 시각 확인",
       "status": "unverified",
-      "evidence": "docs/분수단위조정관찰기록.md"
+      "evidence": "docs/VERIFICATION.md"
     }
   ],
   "interpretation": "최소 연결0대기를 전체 보완 완료로 바꾸지 않는다. 실제 자료가 필요한 항목의 미완료를 보존하고 자체 원문·문헌·원고 보완을 계속한다.",
   "latest_source_followup": {
     "source_ids": [
-      "XIN_JITENDRA_DEATLINE_BUCHMAN_2005"
+      "JACOB_ERICKSON_MATTERA_2018_HIGH5S_IMPLEMENTATION"
     ],
-    "parent_source_ids": [
-      "IES_FRACTIONS_2010",
-      "IES_ALGEBRA_2015"
+    "original_reading_date": "2026-11-19",
+    "validation_date": "2026-11-19",
+    "checked_pdf_pages": 107,
+    "total_text_pages": 91,
+    "text_layer_empty_pages": 16,
+    "new_text_pages": 77,
+    "total_visual_pages": 25,
+    "new_visual_pages": 15,
+    "full_report_text_review": true,
+    "full_report_visual_review": false,
+    "new_book_body_pages": 0,
+    "new_sources": 0,
+    "new_claims": 2,
+    "new_tasks": 2,
+    "new_relation_entries": 0,
+    "changed_prior_claims": [
+      "H5I18-01",
+      "H5I18-02"
     ],
-    "new_text_pages": 12,
-    "new_visual_pages": 12,
-    "article_pages": 12,
-    "wrapper_pages": 0,
-    "all_pdf_images_viewed": true,
-    "complete_articles_read": 1,
-    "numbered_figures_read": 2,
-    "numbered_tables_read": 3,
-    "new_sources": 1,
-    "new_claims": 3,
-    "new_tasks": 4,
-    "new_relation_entries": 11,
-    "prior_sources_unchanged": 174,
-    "prior_claims_unchanged": 1050,
-    "prior_tasks_unchanged": 1232,
-    "prior_relation_interpretations_unchanged": 863,
-    "publisher_binary_fidelity_verified": false,
-    "all_cited_originals_read": false,
+    "changed_prior_tasks": [
+      "H5I-P1"
+    ],
+    "prior_claims_unchanged": 1061,
+    "prior_tasks_unchanged": 1239,
+    "prior_context_interpretations_unchanged": 874,
+    "refreshed_context_snapshots": 1,
     "actual_independent_review": 0,
     "actual_student_validation": 0,
     "evidence_files": [
-      "data/literature_evidence/XIN_JITENDRA_DEATLINE_BUCHMAN_2005_review_notes.json"
+      "data/literature_evidence/JACOB_ERICKSON_MATTERA_2018_HIGH5S_IMPLEMENTATION_complete_text_review_notes.json"
     ]
   },
   "book_purchase_approval": "pending; no answer or spending authorization received",
@@ -921,6 +925,536 @@
       "protocol_visual_pages": 8,
       "actual_independent_review": 0,
       "actual_student_validation": 0
+    },
+    {
+      "source_ids": [
+        "XIN_JITENDRA_DEATLINE_BUCHMAN_2005"
+      ],
+      "parent_source_ids": [
+        "IES_FRACTIONS_2010",
+        "IES_ALGEBRA_2015"
+      ],
+      "new_text_pages": 12,
+      "new_visual_pages": 12,
+      "article_pages": 12,
+      "wrapper_pages": 0,
+      "all_pdf_images_viewed": true,
+      "complete_articles_read": 1,
+      "numbered_figures_read": 2,
+      "numbered_tables_read": 3,
+      "new_sources": 1,
+      "new_claims": 3,
+      "new_tasks": 4,
+      "new_relation_entries": 11,
+      "prior_sources_unchanged": 174,
+      "prior_claims_unchanged": 1050,
+      "prior_tasks_unchanged": 1232,
+      "prior_relation_interpretations_unchanged": 863,
+      "publisher_binary_fidelity_verified": false,
+      "all_cited_originals_read": false,
+      "actual_independent_review": 0,
+      "actual_student_validation": 0,
+      "evidence_files": [
+        "data/literature_evidence/XIN_JITENDRA_DEATLINE_BUCHMAN_2005_review_notes.json"
+      ]
+    },
+    {
+      "source_ids": [
+        "IES_EARLY_2013",
+        "GAISE_2020",
+        "IES_ALGEBRA_2015"
+      ],
+      "new_text_pages": 0,
+      "new_visual_pages": 109,
+      "guide_new_visual_pages": 92,
+      "separate_protocol_new_visual_pages": 17,
+      "new_sources": 0,
+      "new_claims": 0,
+      "new_tasks": 0,
+      "new_relation_entries": 0,
+      "existing_task_interpretations_refined": 1,
+      "all_target_document_images_viewed": true,
+      "gaise_prior_same_book_visual_deduplicated": 83,
+      "actual_independent_review": 0,
+      "actual_student_validation": 0,
+      "all_cited_originals_read": false,
+      "publisher_binary_fidelity_verified": false,
+      "evidence_files": [
+        "data/literature_evidence/IES_EARLY_2013_complete_visual_review_notes.json",
+        "data/literature_evidence/GAISE_2020_complete_visual_review_notes.json",
+        "data/literature_evidence/IES_ALGEBRA_2015_protocol_visual_review_notes.json"
+      ]
+    },
+    {
+      "source_ids": [
+        "LAI_BAROODY_JOHNSON_2008_INVERSION",
+        "IES_EARLY_2013"
+      ],
+      "new_text_pages": 0,
+      "new_visual_pages": 0,
+      "new_pdf_text_pages": 0,
+      "new_author_web_text_sections": 6,
+      "web_text_lines_read": 147,
+      "pdf_binary_obtained": false,
+      "article_original_layout_review": false,
+      "wwc_export_study_rows": 1,
+      "wwc_export_finding_rows": 0,
+      "exact_wwc_sample_verified": false,
+      "new_sources": 1,
+      "new_claims": 2,
+      "new_tasks": 2,
+      "new_relation_entries": 1,
+      "existing_claim_limits_refined": [
+        "IE14"
+      ],
+      "prior_tasks_unchanged": 1236,
+      "prior_context_interpretations_unchanged": 874,
+      "actual_independent_review": 0,
+      "actual_student_validation": 0,
+      "all_cited_originals_read": false,
+      "publisher_binary_fidelity_verified": false,
+      "evidence_files": [
+        "data/literature_evidence/LAI_BAROODY_JOHNSON_2008_INVERSION_review_notes.json",
+        "data/literature_evidence/IES_EARLY_2013_lai_original_followup_review_notes.json"
+      ]
+    },
+    {
+      "source_ids": [
+        "GAISE_2020",
+        "IES_EARLY_2013"
+      ],
+      "new_text_pages": 1,
+      "new_visual_pages": 18,
+      "new_gaise_reading_pages": 0,
+      "gaise_comparison_pages": 126,
+      "gaise_renderer": "pdftoppm26.07.0",
+      "gaise_scale_to": 1900,
+      "gaise_all_compared_fields_equal": true,
+      "publisher_binary_fidelity_verified": false,
+      "new_sources": 0,
+      "new_claims": 0,
+      "new_tasks": 0,
+      "new_relation_entries": 0,
+      "prior_claims_unchanged": 1055,
+      "prior_tasks_unchanged": 1238,
+      "prior_context_interpretations_unchanged": 875,
+      "related_article_year": 2015,
+      "sood_original_2009_thesis_read": false,
+      "same_or_independent_sample_verified": false,
+      "actual_independent_review": 0,
+      "actual_student_validation": 0,
+      "all_cited_originals_read": false,
+      "evidence_files": [
+        "data/literature_evidence/GAISE_2020_official_rendering_comparison_notes.json",
+        "data/literature_evidence/SOOD_MACKEY_2015_related_publication_audit.json",
+        "data/literature_evidence/IES_EARLY_2013_related_publication_followup_notes.json"
+      ]
+    },
+    {
+      "source_ids": [
+        "IES_EARLY_2013"
+      ],
+      "related_originals_visually_read": [
+        "SOOD_JITENDRA_2007_TEXTBOOKS"
+      ],
+      "new_text_pages": 0,
+      "new_visual_pages": 13,
+      "new_guide_reading_pages": 0,
+      "new_original_dissertation_pages": 0,
+      "new_2013_article_body_pages": 0,
+      "new_sources": 0,
+      "new_claims": 0,
+      "new_tasks": 0,
+      "new_relation_entries": 0,
+      "prior_claims_unchanged": 1055,
+      "prior_tasks_unchanged": 1238,
+      "prior_context_interpretations_unchanged": 875,
+      "wwc_study_rows": 1,
+      "wwc_finding_rows": 0,
+      "exact_wwc_sample_verified": false,
+      "same_or_independent_sample_verified": false,
+      "actual_independent_review": 0,
+      "actual_student_validation": 0,
+      "all_cited_originals_read": false,
+      "publisher_binary_fidelity_verified": false,
+      "evidence_files": [
+        "data/literature_evidence/SOOD_JITENDRA_2007_textbook_audit_notes.json",
+        "data/literature_evidence/SOOD_publication_identity_followup_notes.json",
+        "data/literature_evidence/IES_EARLY_2013_textbook_followup_review_notes.json"
+      ]
+    },
+    {
+      "source_ids": [
+        "SIEGLER_1995_NUMBER_CONSERVATION"
+      ],
+      "new_text_pages": 0,
+      "new_visual_pages": 42,
+      "total_visual_pages": 49,
+      "previous_visual_pages": 7,
+      "new_book_body_pages": 0,
+      "new_sources": 0,
+      "new_claims": 0,
+      "new_tasks": 0,
+      "new_relation_entries": 0,
+      "changed_prior_claims": [
+        "SNC01",
+        "SNC02",
+        "SNC03",
+        "IE17"
+      ],
+      "changed_prior_tasks": [
+        "SNC-P1"
+      ],
+      "prior_claims_unchanged": 1051,
+      "prior_tasks_unchanged": 1237,
+      "prior_context_interpretations_unchanged": 875,
+      "actual_independent_review": 0,
+      "actual_student_validation": 0,
+      "all_cited_originals_read": false,
+      "publisher_binary_fidelity_verified": false,
+      "raw_student_data_read": false,
+      "evidence_files": [
+        "data/literature_evidence/SIEGLER_1995_complete_visual_review_notes.json"
+      ]
+    },
+    {
+      "source_ids": [
+        "SARAMA_ET_AL_2021_LENGTH_SEQUENCE",
+        "CLEMENTS_ET_AL_2019_SHAPE_SEQUENCE"
+      ],
+      "original_reading_date": "2026-11-18",
+      "validation_date": "2026-11-19",
+      "new_text_pages": 0,
+      "new_visual_pages": 25,
+      "total_visual_pages": 37,
+      "previous_visual_pages": 12,
+      "new_book_body_pages": 0,
+      "new_sources": 0,
+      "new_claims": 0,
+      "new_tasks": 0,
+      "new_relation_entries": 0,
+      "changed_prior_claims": [
+        "LTDL-01",
+        "LTDL-02",
+        "LTDL-03",
+        "LTDL-04",
+        "LTDS-01",
+        "LTDS-02",
+        "LTDS-03",
+        "LTDS-04"
+      ],
+      "changed_prior_tasks": [],
+      "prior_claims_unchanged": 1047,
+      "prior_tasks_unchanged": 1238,
+      "prior_context_interpretations_unchanged": 875,
+      "refreshed_context_snapshots": 5,
+      "actual_independent_review": 0,
+      "actual_student_validation": 0,
+      "all_cited_originals_read": false,
+      "publisher_binary_fidelity_verified": false,
+      "raw_student_data_read": false,
+      "evidence_files": [
+        "data/literature_evidence/SARAMA_ET_AL_2021_LENGTH_SEQUENCE_complete_visual_review_notes.json",
+        "data/literature_evidence/CLEMENTS_ET_AL_2019_SHAPE_SEQUENCE_complete_visual_review_notes.json"
+      ]
+    },
+    {
+      "source_ids": [
+        "CLEMENTS_ET_AL_2020_ARITHMETIC_PILOT",
+        "CLEMENTS_ET_AL_2021_ARITHMETIC_TRIAL"
+      ],
+      "original_reading_date": "2026-11-19",
+      "validation_date": "2026-11-19",
+      "new_text_pages": 0,
+      "new_visual_pages": 58,
+      "total_visual_pages": 66,
+      "main_visual_pages": 58,
+      "official_pilot_supplement_visual_pages": 8,
+      "trial_official_docx_body_blocks": 74,
+      "trial_embedded_images": 7,
+      "docx_page_layout_verified": false,
+      "previous_visual_pages": 8,
+      "new_book_body_pages": 0,
+      "new_sources": 0,
+      "new_claims": 0,
+      "new_tasks": 0,
+      "new_relation_entries": 0,
+      "changed_prior_claims": [
+        "LTAP-01",
+        "LTAP-02",
+        "LTAP-03",
+        "LTAR-01",
+        "LTAR-02",
+        "LTAR-03",
+        "LTAR-04",
+        "LTAR-05"
+      ],
+      "changed_prior_tasks": [],
+      "prior_claims_unchanged": 1047,
+      "prior_tasks_unchanged": 1238,
+      "prior_context_interpretations_unchanged": 874,
+      "qualified_context_findings": 1,
+      "refreshed_context_snapshots": 7,
+      "actual_independent_review": 0,
+      "actual_student_validation": 0,
+      "all_cited_originals_read": false,
+      "publisher_binary_fidelity_verified": false,
+      "raw_student_data_read": false,
+      "evidence_files": [
+        "data/literature_evidence/CLEMENTS_ET_AL_2020_ARITHMETIC_PILOT_complete_visual_review_notes.json",
+        "data/literature_evidence/CLEMENTS_ET_AL_2021_ARITHMETIC_TRIAL_complete_visual_review_notes.json"
+      ]
+    },
+    {
+      "source_ids": [
+        "MATTERA_ET_AL_2021_MPC_THIRD_GRADE"
+      ],
+      "original_reading_date": "2026-11-19",
+      "validation_date": "2026-11-19",
+      "new_text_pages": 0,
+      "new_visual_pages": 89,
+      "total_visual_pages": 101,
+      "previous_visual_pages": 12,
+      "new_book_body_pages": 0,
+      "new_sources": 0,
+      "new_claims": 2,
+      "new_tasks": 2,
+      "new_relation_entries": 0,
+      "changed_prior_claims": [
+        "MPC21-01",
+        "MPC21-02",
+        "MPC21-03",
+        "MPC21-04",
+        "MPC21-05",
+        "MPC21-06",
+        "MPC21-07",
+        "MPC21-08",
+        "MPC21-09",
+        "MPC21-10"
+      ],
+      "changed_prior_tasks": [],
+      "prior_claims_unchanged": 1045,
+      "prior_tasks_unchanged": 1238,
+      "prior_context_interpretations_unchanged": 875,
+      "refreshed_context_snapshots": 0,
+      "actual_independent_review": 0,
+      "actual_student_validation": 0,
+      "all_cited_originals_read": false,
+      "raw_student_data_read": false,
+      "classification_code_verified": false,
+      "official_erratum_verified": false,
+      "evidence_files": [
+        "data/literature_evidence/MATTERA_ET_AL_2021_MPC_THIRD_GRADE_complete_visual_review_notes.json"
+      ]
+    },
+    {
+      "source_ids": [
+        "MATTERA_ET_AL_2017_MPC_DESIGN"
+      ],
+      "original_reading_date": "2026-11-19",
+      "validation_date": "2026-11-19",
+      "new_text_pages": 0,
+      "new_visual_pages": 23,
+      "total_visual_pages": 28,
+      "previous_visual_pages": 5,
+      "new_book_body_pages": 0,
+      "new_sources": 0,
+      "new_claims": 0,
+      "new_tasks": 0,
+      "new_relation_entries": 0,
+      "changed_prior_claims": [
+        "MPCD-01",
+        "MPCD-02",
+        "MPCD-03",
+        "MPCD-04"
+      ],
+      "changed_prior_tasks": [],
+      "prior_claims_unchanged": 1053,
+      "prior_tasks_unchanged": 1240,
+      "prior_context_interpretations_unchanged": 875,
+      "refreshed_context_snapshots": 0,
+      "actual_independent_review": 0,
+      "actual_student_validation": 0,
+      "all_cited_originals_read": false,
+      "raw_student_data_read": false,
+      "official_erratum_verified": false,
+      "evidence_files": [
+        "data/literature_evidence/MATTERA_ET_AL_2017_MPC_DESIGN_complete_visual_review_notes.json"
+      ]
+    },
+    {
+      "source_ids": [
+        "MORRIS_ET_AL_2016_MAKING_PRE_K_COUNT"
+      ],
+      "qualified_related_claim_ids": [
+        "MPCD-04"
+      ],
+      "original_reading_date": "2026-11-19",
+      "validation_date": "2026-11-19",
+      "new_text_pages": 0,
+      "new_visual_pages": 116,
+      "total_visual_pages": 118,
+      "previous_visual_pages": 2,
+      "new_book_body_pages": 0,
+      "new_sources": 0,
+      "new_claims": 0,
+      "new_tasks": 0,
+      "new_relation_entries": 0,
+      "changed_prior_claims": [
+        "MPC16-01",
+        "MPC16-02",
+        "MPCD-04"
+      ],
+      "changed_prior_tasks": [],
+      "prior_claims_unchanged": 1054,
+      "prior_tasks_unchanged": 1240,
+      "prior_context_interpretations_unchanged": 875,
+      "refreshed_context_snapshots": 0,
+      "actual_independent_review": 0,
+      "actual_student_validation": 0,
+      "all_cited_originals_read": false,
+      "raw_student_data_read": false,
+      "official_erratum_verified": false,
+      "evidence_files": [
+        "data/literature_evidence/MORRIS_ET_AL_2016_MAKING_PRE_K_COUNT_complete_visual_review_notes.json"
+      ]
+    },
+    {
+      "source_ids": [
+        "MATTERA_ET_AL_2018_MPC_KINDERGARTEN"
+      ],
+      "original_reading_date": "2026-11-19",
+      "validation_date": "2026-11-19",
+      "new_text_pages": 0,
+      "new_visual_pages": 131,
+      "total_visual_pages": 142,
+      "previous_visual_pages": 11,
+      "new_book_body_pages": 0,
+      "new_sources": 0,
+      "new_claims": 0,
+      "new_tasks": 0,
+      "new_relation_entries": 0,
+      "changed_prior_claims": [
+        "MPC18-01",
+        "MPC18-02",
+        "MPC18-03",
+        "MPC18-04",
+        "MPC18-05",
+        "MPC18-06",
+        "MPC18-07",
+        "MPC18-08",
+        "MPC18-09"
+      ],
+      "changed_prior_tasks": [],
+      "prior_claims_unchanged": 1048,
+      "prior_tasks_unchanged": 1240,
+      "prior_context_interpretations_unchanged": 875,
+      "refreshed_context_snapshots": 0,
+      "actual_independent_review": 0,
+      "actual_student_validation": 0,
+      "all_cited_originals_read": false,
+      "raw_student_data_read": false,
+      "official_erratum_verified": false,
+      "evidence_files": [
+        "data/literature_evidence/MATTERA_ET_AL_2018_MPC_KINDERGARTEN_complete_visual_review_notes.json"
+      ]
+    },
+    {
+      "source_ids": [
+        "JACOB_ERICKSON_MATTERA_2018_HIGH5S_IMPLEMENTATION"
+      ],
+      "original_reading_date": "2026-11-19",
+      "validation_date": "2026-11-19",
+      "new_text_pages": 8,
+      "new_visual_pages": 7,
+      "total_visual_pages": 10,
+      "new_book_body_pages": 0,
+      "new_sources": 0,
+      "new_claims": 0,
+      "new_tasks": 0,
+      "new_relation_entries": 0,
+      "changed_prior_claims": [
+        "MPC18-02",
+        "H5I18-01",
+        "H5I18-02"
+      ],
+      "changed_prior_tasks": [],
+      "prior_claims_unchanged": 1054,
+      "prior_tasks_unchanged": 1240,
+      "prior_context_interpretations_unchanged": 874,
+      "refreshed_context_snapshots": 1,
+      "actual_independent_review": 0,
+      "actual_student_validation": 0,
+      "evidence_files": [
+        "data/literature_evidence/JACOB_ERICKSON_MATTERA_2018_HIGH5S_IMPLEMENTATION_implementation_followup_notes.json"
+      ],
+      "full_report_read": false
+    },
+    {
+      "source_ids": [
+        "MATTERA_MORRIS_2017_MPC_PRELIMINARY",
+        "ENGEL_ET_AL_2024_P3_MATH_ALIGNMENT"
+      ],
+      "original_reading_date": "2026-11-19",
+      "validation_date": "2026-11-19",
+      "new_text_pages": 0,
+      "new_visual_pages": 27,
+      "total_visual_pages": 27,
+      "new_book_body_pages": 0,
+      "new_sources": 2,
+      "new_claims": 5,
+      "new_tasks": 0,
+      "new_relation_entries": 0,
+      "changed_prior_claims": [
+        "MPC18-01"
+      ],
+      "changed_prior_tasks": [],
+      "prior_claims_unchanged": 1056,
+      "prior_tasks_unchanged": 1240,
+      "prior_context_interpretations_unchanged": 875,
+      "actual_independent_review": 0,
+      "actual_student_validation": 0,
+      "full_document_visual_read_count": 2,
+      "separate_online_supplements_read": 0,
+      "evidence_files": [
+        "data/literature_evidence/MATTERA_MORRIS_2017_MPC_PRELIMINARY_complete_visual_review_notes.json",
+        "data/literature_evidence/ENGEL_ET_AL_2024_P3_MATH_ALIGNMENT_complete_visual_review_notes.json"
+      ]
+    },
+    {
+      "source_ids": [
+        "MATTERA_ET_AL_2026_MPC_PUBLISHED"
+      ],
+      "original_reading_date": "2026-11-19",
+      "validation_date": "2026-11-19",
+      "total_text_page_locations": 29,
+      "new_text_page_locations": 21,
+      "completed_prior_excerpt_locations": 8,
+      "text_line_count": 1836,
+      "new_visual_pages": 0,
+      "new_book_body_pages": 0,
+      "new_sources": 0,
+      "new_claims": 1,
+      "new_tasks": 0,
+      "new_relation_entries": 0,
+      "changed_prior_claims": [
+        "MPCJ-01",
+        "MPCJ-02",
+        "MPCJ-03",
+        "MPCJ-04",
+        "MPCJ-05"
+      ],
+      "changed_prior_tasks": [],
+      "prior_claims_unchanged": 1057,
+      "prior_tasks_unchanged": 1240,
+      "prior_context_interpretations_unchanged": 875,
+      "publisher_binary_obtained": false,
+      "supplement_workbooks_read": 0,
+      "actual_independent_review": 0,
+      "actual_student_validation": 0,
+      "evidence_files": [
+        "data/literature_evidence/MATTERA_ET_AL_2026_MPC_PUBLISHED_complete_web_text_review_notes.json"
+      ]
     }
   ],
   "curriculum_representation_review": {
@@ -1573,7 +2107,7 @@
       "Anderson/Shattuck2012 publishedPDF/nativeWord exact layout and official supplementaryxlsx remain unverified;complete23local LibreOffice manuscript pages/all10charts andbitmap now read.",
       "Lijnse1995 original journal PDF/fidelity remains unread; authorized slightly edited2010reprint chapter now fully read"
     ],
-    "limit": "One complete article course copy, one complete accepted manuscript PDF and one submitted DOCX with structured text/chart caches and complete23page local named-engine rendering are recorded with different fidelity limits. This is not all cited-original coverage, all bibliography/errata or raw-data review. Historical SLO metadata-only snapshots retained unchanged. The complete authorized slightly edited2010reprint chapter and preceding1994French archive article are now read,with selected differences retained. The1995journal direct original,all-sentence translation fidelity and cited original studies remain unverified. Two additional cited foundational articles(Cobb2003andCollins/Joseph/Bielaczyc2004)are now fully read in public copies,35PDFpages including2wrappers. This resolves those two prior original-body gaps but not publisher binary fidelity,their cited originals/raw classroom data,or all bibliographic coverage. Earlier metadata-only records remain historical. The cited Brown1992article is now fully read in a public university scan:38article pages plus1EBSCOrights leaf,zero extracted text/OCR. This closes that article-body gap,not its cited original chapters,1984study,raw classroom data or publisher binary fidelity. Previous metadata-only stages remain historical. The1984Palincsar/Brown article cited in Brown1992is now read:59text pages/30selected visual pages,all12tables/4figures. This closes this article-body gap,not1982pilot/dissertation,raw tapes,all cited originals or publisher/errata fidelity. Prior Brown-stage unread statements are historical,not a claim that1984remains unread now. Xin2005original now read in full12text/12visual pages;guide19/22are different analysis scopes,not demonstrated guide errors. Prior unread descriptions are historical. No raw-data/WWCexact-analysis/publisher-errata closure.",
+    "limit": "One complete article course copy, one complete accepted manuscript PDF and one submitted DOCX with structured text/chart caches and complete23page local named-engine rendering are recorded with different fidelity limits. This is not all cited-original coverage, all bibliography/errata or raw-data review. Historical SLO metadata-only snapshots retained unchanged. The complete authorized slightly edited2010reprint chapter and preceding1994French archive article are now read,with selected differences retained. The1995journal direct original,all-sentence translation fidelity and cited original studies remain unverified. Two additional cited foundational articles(Cobb2003andCollins/Joseph/Bielaczyc2004)are now fully read in public copies,35PDFpages including2wrappers. This resolves those two prior original-body gaps but not publisher binary fidelity,their cited originals/raw classroom data,or all bibliographic coverage. Earlier metadata-only records remain historical. The cited Brown1992article is now fully read in a public university scan:38article pages plus1EBSCOrights leaf,zero extracted text/OCR. This closes that article-body gap,not its cited original chapters,1984study,raw classroom data or publisher binary fidelity. Previous metadata-only stages remain historical. The1984Palincsar/Brown article cited in Brown1992is now read:59text pages/30selected visual pages,all12tables/4figures. This closes this article-body gap,not1982pilot/dissertation,raw tapes,all cited originals or publisher/errata fidelity. Prior Brown-stage unread statements are historical,not a claim that1984remains unread now. Xin2005original now read in full12text/12visual pages;guide19/22are different analysis scopes,not demonstrated guide errors. Prior unread descriptions are historical. No raw-data/WWCexact-analysis/publisher-errata closure. Lai2008selected author web text and WWC77971HTML/ZIP now compared. This does not close article PDF/layout,30/60analytic-sample discrepancy or raw-data/errata coverage. GAISEcurrent official126pages match specified rendering/content fields,not binary identity. Sood2015related publication fully visually read but not authenticated as2009thesis or independent sample;conflicting denominators/teachers/results remain unresolved. SoodJitendra2007textbook paper fully visually read;selected four first-grade manuals/coder records not obtained.2013article abstract and WWC77991export compared,not full article/thesis or precise outcome sample. Siegler1995author-hosted article49pages fully visually read;raw child records,publisher binary fidelity,errata and its cited originals remain unverified. Two existing length2021andshape2019trial papers now fully visually read(37pages,new25);not two newly mapped studies,raw-response reconstruction,publisher/errata closure or all cited-original coverage. Arithmetic main58+official pilot supplement8visual pages read;official trial DOCX74blocks/7images separately,notPDFpages or verified Word layout. Existing sources/claims refined;not new independent studies,raw data,publisher body fidelity,errata or all cited-original closure. MDRC2021report101visual pages including frontmatter/blanks read;new89,new extracted-text0. Two scoped claims/two synthetic probes added,not student responses,analysis-code verification,official errata or all cited-original closure.",
     "structured_manuscript_records": [
       {
         "source_id": "ANDERSON_SHATTUCK_2012_MANUSCRIPT",
@@ -1784,6 +2318,139 @@
         "cited_source_id": "XIN_JITENDRA_DEATLINE_BUCHMAN_2005",
         "article_body_read": true,
         "all_parent_cited_originals_read": false,
+        "independent_replication_count_increased": false
+      },
+      {
+        "parent_source_id": "IES_EARLY_2013",
+        "cited_source_id": "LAI_BAROODY_JOHNSON_2008_INVERSION",
+        "selected_author_web_text_read": true,
+        "article_pdf_obtained": false,
+        "all_parent_cited_originals_read": false,
+        "independent_replication_count_increased": false
+      }
+    ],
+    "web_text_read_article_records": [
+      {
+        "source_id": "LAI_BAROODY_JOHNSON_2008_INVERSION",
+        "evidence": "data/literature_evidence/LAI_BAROODY_JOHNSON_2008_INVERSION_review_notes.json",
+        "article_printed_pages": [
+          216,
+          235
+        ],
+        "selected_sections": 6,
+        "pdf_binary_obtained": false,
+        "original_layout_review": false,
+        "author_web_text": true,
+        "whole_pdf_reading_claimed": false,
+        "cited_originals_all_read": false
+      }
+    ],
+    "related_publication_audits": [
+      {
+        "parent_source_id": "IES_EARLY_2013",
+        "related_title": "Sood & Mackey2015",
+        "evidence": "data/literature_evidence/SOOD_MACKEY_2015_related_publication_audit.json",
+        "visual_pages": 18,
+        "extracted_text_pages": 1,
+        "original_thesis_read": false,
+        "independent_replication_count_increased": false
+      },
+      {
+        "parent_source_id": "IES_EARLY_2013",
+        "related_title": "Sood & Jitendra2007 textbook comparison",
+        "evidence": "data/literature_evidence/SOOD_JITENDRA_2007_textbook_audit_notes.json",
+        "visual_pages": 13,
+        "extracted_text_pages": 0,
+        "original_thesis_read": false,
+        "student_outcome_study": false,
+        "independent_replication_count_increased": false
+      }
+    ],
+    "completed_whole_visual_followups": [
+      {
+        "source_id": "SIEGLER_1995_NUMBER_CONSERVATION",
+        "evidence": "data/literature_evidence/SIEGLER_1995_complete_visual_review_notes.json",
+        "visual_pages": 49,
+        "new_visual_pages": 42,
+        "new_extracted_text_pages": 0,
+        "independent_replication_count_increased": false
+      },
+      {
+        "source_id": "SARAMA_ET_AL_2021_LENGTH_SEQUENCE",
+        "evidence": "data/literature_evidence/SARAMA_ET_AL_2021_LENGTH_SEQUENCE_complete_visual_review_notes.json",
+        "visual_pages": 15,
+        "new_visual_pages": 9,
+        "new_extracted_text_pages": 0,
+        "raw_data_reanalyzed": false,
+        "independent_replication_count_increased": false
+      },
+      {
+        "source_id": "CLEMENTS_ET_AL_2019_SHAPE_SEQUENCE",
+        "evidence": "data/literature_evidence/CLEMENTS_ET_AL_2019_SHAPE_SEQUENCE_complete_visual_review_notes.json",
+        "visual_pages": 22,
+        "new_visual_pages": 16,
+        "new_extracted_text_pages": 0,
+        "raw_data_reanalyzed": false,
+        "independent_replication_count_increased": false
+      },
+      {
+        "source_id": "CLEMENTS_ET_AL_2020_ARITHMETIC_PILOT",
+        "evidence": "data/literature_evidence/CLEMENTS_ET_AL_2020_ARITHMETIC_PILOT_complete_visual_review_notes.json",
+        "main_visual_pages": 12,
+        "new_main_visual_pages": 9,
+        "new_extracted_text_pages": 0,
+        "official_pilot_supplement_visual_pages": 8,
+        "trial_docx_body_blocks": 0,
+        "raw_data_reanalyzed": false,
+        "independent_replication_count_increased": false
+      },
+      {
+        "source_id": "CLEMENTS_ET_AL_2021_ARITHMETIC_TRIAL",
+        "evidence": "data/literature_evidence/CLEMENTS_ET_AL_2021_ARITHMETIC_TRIAL_complete_visual_review_notes.json",
+        "main_visual_pages": 46,
+        "new_main_visual_pages": 41,
+        "new_extracted_text_pages": 0,
+        "official_pilot_supplement_visual_pages": 0,
+        "trial_docx_body_blocks": 74,
+        "raw_data_reanalyzed": false,
+        "independent_replication_count_increased": false
+      },
+      {
+        "source_id": "MATTERA_ET_AL_2021_MPC_THIRD_GRADE",
+        "evidence": "data/literature_evidence/MATTERA_ET_AL_2021_MPC_THIRD_GRADE_complete_visual_review_notes.json",
+        "visual_pages": 101,
+        "new_visual_pages": 89,
+        "new_extracted_text_pages": 0,
+        "includes_frontmatter_and_blanks": true,
+        "raw_data_reanalyzed": false,
+        "independent_replication_count_increased": false
+      },
+      {
+        "source_id": "MATTERA_ET_AL_2017_MPC_DESIGN",
+        "evidence": "data/literature_evidence/MATTERA_ET_AL_2017_MPC_DESIGN_complete_visual_review_notes.json",
+        "visual_pages": 28,
+        "new_visual_pages": 23,
+        "new_extracted_text_pages": 0,
+        "includes_cover": true,
+        "raw_data_reanalyzed": false,
+        "independent_replication_count_increased": false
+      },
+      {
+        "source_id": "MORRIS_ET_AL_2016_MAKING_PRE_K_COUNT",
+        "evidence": "data/literature_evidence/MORRIS_ET_AL_2016_MAKING_PRE_K_COUNT_complete_visual_review_notes.json",
+        "visual_pages": 118,
+        "new_visual_pages": 116,
+        "new_extracted_text_pages": 0,
+        "raw_data_reanalyzed": false,
+        "independent_replication_count_increased": false
+      },
+      {
+        "source_id": "MATTERA_ET_AL_2018_MPC_KINDERGARTEN",
+        "evidence": "data/literature_evidence/MATTERA_ET_AL_2018_MPC_KINDERGARTEN_complete_visual_review_notes.json",
+        "visual_pages": 142,
+        "new_visual_pages": 131,
+        "new_extracted_text_pages": 0,
+        "raw_data_reanalyzed": false,
         "independent_replication_count_increased": false
       }
     ]
@@ -2815,6 +3482,415 @@
       "completion_source_id": "XIN_JITENDRA_DEATLINE_BUCHMAN_2005",
       "completion_evidence": "data/literature_evidence/XIN_JITENDRA_DEATLINE_BUCHMAN_2005_review_notes.json",
       "current_reading_completed": true
+    }
+  ],
+  "latest_guide_visual_closure": {
+    "source_ids": [
+      "IES_EARLY_2013",
+      "GAISE_2020",
+      "IES_ALGEBRA_2015"
+    ],
+    "new_text_pages": 0,
+    "new_visual_pages": 109,
+    "guide_new_visual_pages": 92,
+    "separate_protocol_new_visual_pages": 17,
+    "new_sources": 0,
+    "new_claims": 0,
+    "new_tasks": 0,
+    "new_relation_entries": 0,
+    "existing_task_interpretations_refined": 1,
+    "all_target_document_images_viewed": true,
+    "gaise_prior_same_book_visual_deduplicated": 83,
+    "actual_independent_review": 0,
+    "actual_student_validation": 0,
+    "all_cited_originals_read": false,
+    "publisher_binary_fidelity_verified": false,
+    "evidence_files": [
+      "data/literature_evidence/IES_EARLY_2013_complete_visual_review_notes.json",
+      "data/literature_evidence/GAISE_2020_complete_visual_review_notes.json",
+      "data/literature_evidence/IES_ALGEBRA_2015_protocol_visual_review_notes.json"
+    ]
+  },
+  "latest_lai_inversion_followup": {
+    "source_ids": [
+      "LAI_BAROODY_JOHNSON_2008_INVERSION",
+      "IES_EARLY_2013"
+    ],
+    "new_text_pages": 0,
+    "new_visual_pages": 0,
+    "new_pdf_text_pages": 0,
+    "new_author_web_text_sections": 6,
+    "web_text_lines_read": 147,
+    "pdf_binary_obtained": false,
+    "article_original_layout_review": false,
+    "wwc_export_study_rows": 1,
+    "wwc_export_finding_rows": 0,
+    "exact_wwc_sample_verified": false,
+    "new_sources": 1,
+    "new_claims": 2,
+    "new_tasks": 2,
+    "new_relation_entries": 1,
+    "existing_claim_limits_refined": [
+      "IE14"
+    ],
+    "prior_tasks_unchanged": 1236,
+    "prior_context_interpretations_unchanged": 874,
+    "actual_independent_review": 0,
+    "actual_student_validation": 0,
+    "all_cited_originals_read": false,
+    "publisher_binary_fidelity_verified": false,
+    "evidence_files": [
+      "data/literature_evidence/LAI_BAROODY_JOHNSON_2008_INVERSION_review_notes.json",
+      "data/literature_evidence/IES_EARLY_2013_lai_original_followup_review_notes.json"
+    ]
+  },
+  "latest_gaise_sood_followup": {
+    "source_ids": [
+      "GAISE_2020",
+      "IES_EARLY_2013"
+    ],
+    "new_text_pages": 1,
+    "new_visual_pages": 18,
+    "new_gaise_reading_pages": 0,
+    "gaise_comparison_pages": 126,
+    "gaise_renderer": "pdftoppm26.07.0",
+    "gaise_scale_to": 1900,
+    "gaise_all_compared_fields_equal": true,
+    "publisher_binary_fidelity_verified": false,
+    "new_sources": 0,
+    "new_claims": 0,
+    "new_tasks": 0,
+    "new_relation_entries": 0,
+    "prior_claims_unchanged": 1055,
+    "prior_tasks_unchanged": 1238,
+    "prior_context_interpretations_unchanged": 875,
+    "related_article_year": 2015,
+    "sood_original_2009_thesis_read": false,
+    "same_or_independent_sample_verified": false,
+    "actual_independent_review": 0,
+    "actual_student_validation": 0,
+    "all_cited_originals_read": false,
+    "evidence_files": [
+      "data/literature_evidence/GAISE_2020_official_rendering_comparison_notes.json",
+      "data/literature_evidence/SOOD_MACKEY_2015_related_publication_audit.json",
+      "data/literature_evidence/IES_EARLY_2013_related_publication_followup_notes.json"
+    ]
+  },
+  "latest_sood_textbook_followup": {
+    "source_ids": [
+      "IES_EARLY_2013"
+    ],
+    "related_originals_visually_read": [
+      "SOOD_JITENDRA_2007_TEXTBOOKS"
+    ],
+    "new_text_pages": 0,
+    "new_visual_pages": 13,
+    "new_guide_reading_pages": 0,
+    "new_original_dissertation_pages": 0,
+    "new_2013_article_body_pages": 0,
+    "new_sources": 0,
+    "new_claims": 0,
+    "new_tasks": 0,
+    "new_relation_entries": 0,
+    "prior_claims_unchanged": 1055,
+    "prior_tasks_unchanged": 1238,
+    "prior_context_interpretations_unchanged": 875,
+    "wwc_study_rows": 1,
+    "wwc_finding_rows": 0,
+    "exact_wwc_sample_verified": false,
+    "same_or_independent_sample_verified": false,
+    "actual_independent_review": 0,
+    "actual_student_validation": 0,
+    "all_cited_originals_read": false,
+    "publisher_binary_fidelity_verified": false,
+    "evidence_files": [
+      "data/literature_evidence/SOOD_JITENDRA_2007_textbook_audit_notes.json",
+      "data/literature_evidence/SOOD_publication_identity_followup_notes.json",
+      "data/literature_evidence/IES_EARLY_2013_textbook_followup_review_notes.json"
+    ]
+  },
+  "latest_siegler_complete_followup": {
+    "source_ids": [
+      "SIEGLER_1995_NUMBER_CONSERVATION"
+    ],
+    "new_text_pages": 0,
+    "new_visual_pages": 42,
+    "total_visual_pages": 49,
+    "previous_visual_pages": 7,
+    "new_book_body_pages": 0,
+    "new_sources": 0,
+    "new_claims": 0,
+    "new_tasks": 0,
+    "new_relation_entries": 0,
+    "changed_prior_claims": [
+      "SNC01",
+      "SNC02",
+      "SNC03",
+      "IE17"
+    ],
+    "changed_prior_tasks": [
+      "SNC-P1"
+    ],
+    "prior_claims_unchanged": 1051,
+    "prior_tasks_unchanged": 1237,
+    "prior_context_interpretations_unchanged": 875,
+    "actual_independent_review": 0,
+    "actual_student_validation": 0,
+    "all_cited_originals_read": false,
+    "publisher_binary_fidelity_verified": false,
+    "raw_student_data_read": false,
+    "evidence_files": [
+      "data/literature_evidence/SIEGLER_1995_complete_visual_review_notes.json"
+    ]
+  },
+  "latest_learning_trajectory_complete_followup": {
+    "source_ids": [
+      "SARAMA_ET_AL_2021_LENGTH_SEQUENCE",
+      "CLEMENTS_ET_AL_2019_SHAPE_SEQUENCE"
+    ],
+    "original_reading_date": "2026-11-18",
+    "validation_date": "2026-11-19",
+    "new_text_pages": 0,
+    "new_visual_pages": 25,
+    "total_visual_pages": 37,
+    "previous_visual_pages": 12,
+    "new_book_body_pages": 0,
+    "new_sources": 0,
+    "new_claims": 0,
+    "new_tasks": 0,
+    "new_relation_entries": 0,
+    "changed_prior_claims": [
+      "LTDL-01",
+      "LTDL-02",
+      "LTDL-03",
+      "LTDL-04",
+      "LTDS-01",
+      "LTDS-02",
+      "LTDS-03",
+      "LTDS-04"
+    ],
+    "changed_prior_tasks": [],
+    "prior_claims_unchanged": 1047,
+    "prior_tasks_unchanged": 1238,
+    "prior_context_interpretations_unchanged": 875,
+    "refreshed_context_snapshots": 5,
+    "actual_independent_review": 0,
+    "actual_student_validation": 0,
+    "all_cited_originals_read": false,
+    "publisher_binary_fidelity_verified": false,
+    "raw_student_data_read": false,
+    "evidence_files": [
+      "data/literature_evidence/SARAMA_ET_AL_2021_LENGTH_SEQUENCE_complete_visual_review_notes.json",
+      "data/literature_evidence/CLEMENTS_ET_AL_2019_SHAPE_SEQUENCE_complete_visual_review_notes.json"
+    ]
+  },
+  "latest_arithmetic_complete_followup": {
+    "source_ids": [
+      "CLEMENTS_ET_AL_2020_ARITHMETIC_PILOT",
+      "CLEMENTS_ET_AL_2021_ARITHMETIC_TRIAL"
+    ],
+    "original_reading_date": "2026-11-19",
+    "validation_date": "2026-11-19",
+    "new_text_pages": 0,
+    "new_visual_pages": 58,
+    "total_visual_pages": 66,
+    "main_visual_pages": 58,
+    "official_pilot_supplement_visual_pages": 8,
+    "trial_official_docx_body_blocks": 74,
+    "trial_embedded_images": 7,
+    "docx_page_layout_verified": false,
+    "previous_visual_pages": 8,
+    "new_book_body_pages": 0,
+    "new_sources": 0,
+    "new_claims": 0,
+    "new_tasks": 0,
+    "new_relation_entries": 0,
+    "changed_prior_claims": [
+      "LTAP-01",
+      "LTAP-02",
+      "LTAP-03",
+      "LTAR-01",
+      "LTAR-02",
+      "LTAR-03",
+      "LTAR-04",
+      "LTAR-05"
+    ],
+    "changed_prior_tasks": [],
+    "prior_claims_unchanged": 1047,
+    "prior_tasks_unchanged": 1238,
+    "prior_context_interpretations_unchanged": 874,
+    "qualified_context_findings": 1,
+    "refreshed_context_snapshots": 7,
+    "actual_independent_review": 0,
+    "actual_student_validation": 0,
+    "all_cited_originals_read": false,
+    "publisher_binary_fidelity_verified": false,
+    "raw_student_data_read": false,
+    "evidence_files": [
+      "data/literature_evidence/CLEMENTS_ET_AL_2020_ARITHMETIC_PILOT_complete_visual_review_notes.json",
+      "data/literature_evidence/CLEMENTS_ET_AL_2021_ARITHMETIC_TRIAL_complete_visual_review_notes.json"
+    ]
+  },
+  "latest_mpc_complete_followup": {
+    "source_ids": [
+      "MATTERA_ET_AL_2021_MPC_THIRD_GRADE"
+    ],
+    "original_reading_date": "2026-11-19",
+    "validation_date": "2026-11-19",
+    "new_text_pages": 0,
+    "new_visual_pages": 89,
+    "total_visual_pages": 101,
+    "previous_visual_pages": 12,
+    "new_book_body_pages": 0,
+    "new_sources": 0,
+    "new_claims": 2,
+    "new_tasks": 2,
+    "new_relation_entries": 0,
+    "changed_prior_claims": [
+      "MPC21-01",
+      "MPC21-02",
+      "MPC21-03",
+      "MPC21-04",
+      "MPC21-05",
+      "MPC21-06",
+      "MPC21-07",
+      "MPC21-08",
+      "MPC21-09",
+      "MPC21-10"
+    ],
+    "changed_prior_tasks": [],
+    "prior_claims_unchanged": 1045,
+    "prior_tasks_unchanged": 1238,
+    "prior_context_interpretations_unchanged": 875,
+    "refreshed_context_snapshots": 0,
+    "actual_independent_review": 0,
+    "actual_student_validation": 0,
+    "all_cited_originals_read": false,
+    "raw_student_data_read": false,
+    "classification_code_verified": false,
+    "official_erratum_verified": false,
+    "evidence_files": [
+      "data/literature_evidence/MATTERA_ET_AL_2021_MPC_THIRD_GRADE_complete_visual_review_notes.json"
+    ]
+  },
+  "latest_mpc_design_complete_followup": {
+    "source_ids": [
+      "MATTERA_ET_AL_2017_MPC_DESIGN"
+    ],
+    "original_reading_date": "2026-11-19",
+    "validation_date": "2026-11-19",
+    "new_text_pages": 0,
+    "new_visual_pages": 23,
+    "total_visual_pages": 28,
+    "previous_visual_pages": 5,
+    "new_book_body_pages": 0,
+    "new_sources": 0,
+    "new_claims": 0,
+    "new_tasks": 0,
+    "new_relation_entries": 0,
+    "changed_prior_claims": [
+      "MPCD-01",
+      "MPCD-02",
+      "MPCD-03",
+      "MPCD-04"
+    ],
+    "changed_prior_tasks": [],
+    "prior_claims_unchanged": 1053,
+    "prior_tasks_unchanged": 1240,
+    "prior_context_interpretations_unchanged": 875,
+    "refreshed_context_snapshots": 0,
+    "actual_independent_review": 0,
+    "actual_student_validation": 0,
+    "all_cited_originals_read": false,
+    "raw_student_data_read": false,
+    "official_erratum_verified": false,
+    "evidence_files": [
+      "data/literature_evidence/MATTERA_ET_AL_2017_MPC_DESIGN_complete_visual_review_notes.json"
+    ]
+  },
+  "latest_mpc_pre_k_complete_followup": {
+    "source_ids": [
+      "MORRIS_ET_AL_2016_MAKING_PRE_K_COUNT"
+    ],
+    "qualified_related_claim_ids": [
+      "MPCD-04"
+    ],
+    "original_reading_date": "2026-11-19",
+    "validation_date": "2026-11-19",
+    "new_text_pages": 0,
+    "new_visual_pages": 116,
+    "total_visual_pages": 118,
+    "previous_visual_pages": 2,
+    "new_book_body_pages": 0,
+    "new_sources": 0,
+    "new_claims": 0,
+    "new_tasks": 0,
+    "new_relation_entries": 0,
+    "changed_prior_claims": [
+      "MPC16-01",
+      "MPC16-02",
+      "MPCD-04"
+    ],
+    "changed_prior_tasks": [],
+    "prior_claims_unchanged": 1054,
+    "prior_tasks_unchanged": 1240,
+    "prior_context_interpretations_unchanged": 875,
+    "refreshed_context_snapshots": 0,
+    "actual_independent_review": 0,
+    "actual_student_validation": 0,
+    "all_cited_originals_read": false,
+    "raw_student_data_read": false,
+    "official_erratum_verified": false,
+    "evidence_files": [
+      "data/literature_evidence/MORRIS_ET_AL_2016_MAKING_PRE_K_COUNT_complete_visual_review_notes.json"
+    ]
+  },
+  "latest_mpc_kindergarten_complete_followup": {
+    "source_ids": [
+      "MATTERA_ET_AL_2018_MPC_KINDERGARTEN"
+    ],
+    "original_reading_date": "2026-11-19",
+    "validation_date": "2026-11-19",
+    "new_text_pages": 0,
+    "new_visual_pages": 131,
+    "total_visual_pages": 142,
+    "previous_visual_pages": 11,
+    "new_book_body_pages": 0,
+    "new_sources": 0,
+    "new_claims": 0,
+    "new_tasks": 0,
+    "new_relation_entries": 0,
+    "changed_prior_claims": [
+      "MPC18-01",
+      "MPC18-02",
+      "MPC18-03",
+      "MPC18-04",
+      "MPC18-05",
+      "MPC18-06",
+      "MPC18-07",
+      "MPC18-08",
+      "MPC18-09"
+    ],
+    "changed_prior_tasks": [],
+    "prior_claims_unchanged": 1048,
+    "prior_tasks_unchanged": 1240,
+    "prior_context_interpretations_unchanged": 875,
+    "refreshed_context_snapshots": 0,
+    "actual_independent_review": 0,
+    "actual_student_validation": 0,
+    "all_cited_originals_read": false,
+    "raw_student_data_read": false,
+    "official_erratum_verified": false,
+    "evidence_files": [
+      "data/literature_evidence/MATTERA_ET_AL_2018_MPC_KINDERGARTEN_complete_visual_review_notes.json"
+    ]
+  },
+  "verified_historical_scope": [
+    {
+      "item": "기록지·분포 도구의 실제 브라우저/인쇄/모바일 시각 확인",
+      "status": "verified_on_prior_public_versions",
+      "evidence": "docs/VERIFICATION.md",
+      "scope": "320px 브라우저는 Sites v106과 당시 GitHub Pages, 태블릿과 A4 PDF는 Sites v109와 GitHub Pages f6daf3a에서 확인했다. v109와 v110의 두 도구 및 공통 스타일·스크립트 파일이 Git에서 일치한다."
     }
   ]
 }

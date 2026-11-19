@@ -1,0 +1,195 @@
+{
+  "source_id": "IES_EARLY_2013",
+  "related_work_id": "SOOD_JITENDRA_2007_TEXTBOOKS",
+  "date": "2026-11-18",
+  "reviewer": "Codex",
+  "related_publication": {
+    "title": "A Comparative Analysis of Number Sense Instruction in Reform-Based and Traditional Mathematics Textbooks",
+    "authors": [
+      "Sheetal Sood",
+      "Asha K. Jitendra"
+    ],
+    "year": 2007,
+    "journal": "The Journal of Special Education",
+    "volume": 41,
+    "issue": 3,
+    "printed_pages": [
+      145,
+      157
+    ],
+    "url": "https://files.eric.ed.gov/fulltext/EJ785949.pdf",
+    "pdf_sha256": "592d4a53e8d9f73f9b23221f070913084c8518473ea06313e13f4a2758a35797",
+    "pdf_pages": 13
+  },
+  "contains_source_full_text": false,
+  "source_pdf_redistributed": false,
+  "publisher_binary_fidelity_verified": false,
+  "text_pdf_pages": [],
+  "visual_pdf_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+  ],
+  "rendered_page_sha256": {
+    "1": "4811bf6bc2ea6efa26fb4ce9dd0c31f59262d860c15f209629d0fadfbbc55946",
+    "2": "e78989bc98fa618e30a8af52209ebdefc4294506ff475a966cc99979681bd25c",
+    "3": "fc998632df0e01b238556fd18b010774d74d94155d4324e780183e3eb43f3b10",
+    "4": "afbe3a72b37a2870c3f0c1c29a166bdbcc0bc49331db9da54d223755d770b144",
+    "5": "b1dfb38dad1e7414afe90626cdbaf13496a9487012d96bcd510b57f131d971a0",
+    "6": "2d5fdf14b5013756351a1fc6d425bc8c9c0150655e46eda16b1765991f7afdf9",
+    "7": "495454689ab374c1ed352c8f8417bbf9d4190e2bb7bb3c58445009ebfdf74303",
+    "8": "7fa61839542b59c0cb269139a263f146fefd2970fd95e2f524916eac0dea5ab2",
+    "9": "65084816e845bf777f94f6d11f25c31999e2ca9473ac4341f26c5e3ce7ce8df9",
+    "10": "e80a7871ece50db19ea32698f9e1b5294e69a92952c170c917aa42b934cdb9ed",
+    "11": "45dcfc213f75289d8275624eca894acb0b238efcd87e5e9f3822c610b3514f9f",
+    "12": "305b0e2c95c1d3a431c03a6bfcb84cc62d4607da567ee2511ae3703f8b1dd4c8",
+    "13": "a8ee1cbe31d1c0e8de34ddf4549228fecd4563f28d8fd03ea9aae3e6a8dbad23"
+  },
+  "table2_orientation_reread_pdf_page": 6,
+  "new_page_count_from_orientation_reread": 0,
+  "tables_read": [
+    1,
+    2
+  ],
+  "data_figures": 0,
+  "reading_log": [
+    "PDF1–13의13판면을직접읽었다.본문·방법·2표·논의·결론·참고문헌과교과서목록을포함한다.6쪽표는임시PDF회전으로재대조했으며추가1쪽독해로세지않는다.",
+    "pypdf추출문은CFF폰트인코딩경고와함께파일로생성했으나전문추출문독해로세지않았다.웹미리보기선정대목과실제판면독해를구별한다.",
+    "34수업은학생34명이나연구34건이아니다.수·연산전체나현재한국교과서·학습효과검증으로확대하지않는다."
+  ],
+  "parent_reference": {
+    "file": "data/literature_evidence/SOOD_MACKEY_2015_related_publication_audit.json",
+    "pdf_page": 15,
+    "reference_number": 22
+  },
+  "design": "comparative_textbook_content_analysis",
+  "books": [
+    "HB2004",
+    "HM2005",
+    "SF2004",
+    "EM2004"
+  ],
+  "number_sense_lessons": {
+    "HB": 11,
+    "HM": 6,
+    "SF": 9,
+    "EM": 8
+  },
+  "all_book_content_read": false,
+  "original_coder_records_obtained": false,
+  "student_outcome_study": false,
+  "local_effect_tested": false,
+  "independent_review": false,
+  "student_validated": false,
+  "official_erratum_verified": false,
+  "exact_own_checks": {
+    "status": "pass",
+    "number_relationship_rates": {
+      "pooled": {
+        "exact": "267/26",
+        "rounded": "10.27"
+      },
+      "mean_of_book_rates": {
+        "exact": "3059/297",
+        "rounded": "10.30"
+      }
+    },
+    "within_lesson_review_rates": {
+      "pooled": {
+        "exact": "263/26",
+        "rounded": "10.12"
+      },
+      "mean_of_book_rates": {
+        "exact": "3083/297",
+        "rounded": "10.38"
+      }
+    },
+    "feedback_conditional_share": "1/2",
+    "feedback_all_lesson_share": "1/4",
+    "representation_union_bounds": [
+      23,
+      34
+    ],
+    "printed_percentage_sum": "98.00",
+    "actual_coder_records_reconstructed": false,
+    "student_data": false,
+    "official_erratum_verified": false,
+    "universal_review_dose_established": false
+  },
+  "audit_findings": [
+    {
+      "pdf_pages": [
+        2,
+        3,
+        10
+      ],
+      "issue": "자료 단위와 선정 범위",
+      "detail": "4종 미국1학년 교사의 지도서에서 수감각 목표 수업만 코딩했다.11+6+9+8=34는 수업 수다. 수 세기는 이전 학년에서 도입됐다는 이유로 제외했다.",
+      "action": "학생34명·독립연구34건·수감각 전체나2022한국 교과서 평가로 확대하지 않는다."
+    },
+    {
+      "pdf_pages": [
+        3,
+        4,
+        7,
+        9,
+        10
+      ],
+      "issue": "항목 수와 실제 활동 기회",
+      "detail": "반복 횟수를 적지 않은 짝 활동은1건으로 세지만 문항7개 학습지는7건으로 센다. 한 항목의 여러 표상은 각각 센다.",
+      "action": "항목 합계를 고유 과제·실제 반복·수업 시간·학생 이해 수로 바꾸지 않는다."
+    },
+    {
+      "pdf_pages": [
+        5,
+        6,
+        9
+      ],
+      "issue": "집계·조건별 분모",
+      "detail": "표2의 수 관계267건/26수업은10.27이나 책별 비율 평균은10.30이다. 수업 내 복습263건/26수업은10.12이나 책별 비율 평균은10.38이다. 표1은10.27과10.38을 싣는다. HM의 충분 복습50건은 전체6수업 분모와 표의25.00이 다르다.",
+      "action": "모든 행에 같은 합산·분모를 가정하지 않는다. 원 코딩표·편집 근거 없이 원문 수치를 교체하지 않는다."
+    },
+    {
+      "pdf_pages": [
+        4,
+        5,
+        6,
+        8
+      ],
+      "issue": "조건부 피드백 비율",
+      "detail": "EM은8수업 중 피드백50%, 그중 설명 피드백50%다. 이를 전체 수업50%나 학생 성취율로 읽을 수 없다.",
+      "action": "해당 표의 이진 분류를 따르면 전체8수업의 설명 피드백은2수업·25%다. 학생 효과는 측정하지 않았다."
+    },
+    {
+      "pdf_pages": [
+        5,
+        6,
+        9
+      ],
+      "issue": "미해결 수치",
+      "detail": "HB의 후속 복습43.83%+54.17%=98%다. 소수 둘째 자리 반올림만으로100%가 되지 않는다. 본문의 전통 교재 수업 내 충분49%·후속42%와 표1의42.31%·59%도 그대로 합치지 않는다.",
+      "action": "원 코딩표·공식 정오표 확인 전 교정값과 하나의 전체 비율을 확정하지 않는다."
+    },
+    {
+      "pdf_pages": [
+        4,
+        9,
+        10,
+        11
+      ],
+      "issue": "기준과 학습 효과",
+      "detail": "동일 수업10문항·후속 수업4문항은 연구의 코딩 기준이다. 재코딩30%의 일치도는 내용 분류의 확인이며 학생 관찰이나 우리 자료의 독립 검토가 아니다.",
+      "action": "모든 학생에게 필요한 연습량·고정 표상 순서·교재의 인과 효과나 학생 유지 효과로 적용하지 않는다."
+    }
+  ]
+}

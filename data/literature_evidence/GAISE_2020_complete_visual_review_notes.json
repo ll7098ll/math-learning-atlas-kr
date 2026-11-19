@@ -1,0 +1,1835 @@
+{
+  "source_id": "GAISE_2020",
+  "source_url": "https://www.amstat.org/asa/files/pdfs/GAISE/GAISEIIPreK-12_Full.pdf",
+  "source_pdf_sha256": "085497d12a2822262de7c68ee7f65c102ba65cd8a523f7a91e01d2fd6119351f",
+  "date": "2026-11-06",
+  "reviewer": "Codex",
+  "contains_source_full_text": false,
+  "source_pdf_redistributed": false,
+  "previous_review": {
+    "source_id": "GAISE_2020",
+    "state": "self_read_claim_mapping",
+    "reviewer": "Codex",
+    "date": "2026-11-06",
+    "snapshot_kind": "authored_review_notes",
+    "snapshot_file": "data/literature_evidence/GAISE_2020_level_c_assessment_review_notes.json",
+    "snapshot_sha256": "88340333028cd871b51942f87e9cf615a1154b0090786a168987ca5a14c19e6d",
+    "source_pdf_sha256": "085497d12a2822262de7c68ee7f65c102ba65cd8a523f7a91e01d2fd6119351f",
+    "redistribution_license": "workspace_authored_notes",
+    "bibliography_snapshot": "0407befe1231ca37d8ecfdf20fda7e6d8c4b025525dd7e2b8c0a9317a189ad52",
+    "previous_bibliography": {
+      "id": "GAISE_2020",
+      "title": "Pre K 12 Guidelines for Assessment and Instruction in Statistics Education II",
+      "year": 2020,
+      "kind": "공식 통계교육 프레임워크",
+      "url": "https://www.amstat.org/asa/files/pdfs/GAISE/GAISEIIPreK-12_Full.pdf",
+      "review_scope": "서지와 Framework의 네 구성 요소, Level A의 표와 그래프 및 변이·평균 관련 공개 대목. 전체 보고서 정독 전.",
+      "supports": [
+        "질문 수집 분석 해석의 연결",
+        "관찰 단위와 분류",
+        "평균과 변이 및 결과 해석의 범위"
+      ]
+    },
+    "display": {
+      "title": "Pre-K–12 Guidelines for Assessment and Instruction in Statistics Education II (GAISE II): A Framework for Statistics and Data Science Education",
+      "url": "https://www.amstat.org/asa/files/pdfs/GAISE/GAISEIIPreK-12_Full.pdf",
+      "authors_year": "Bargagliotti 외,2020,ASA,GAISE II"
+    },
+    "read_scope": "126쪽 PDF의 본문·평가 예·참고문헌 텍스트 전 범위,표지·빈 쪽 확인과 선정74쪽 이미지;인용 원연구·원자료·웹부록은 별도",
+    "scope_note": "통계 탐구 설계의 참고 틀이다. 수준의 고정 학년 대응·유일한 선수 경로·현재 학생의 단계나 과제 효과를 입증하지 않는다.",
+    "method_note": "A/B의 기존12주장·12관찰과 읽기 기록을 보존하고 C·평가의7주장·7가상 활동을 추가했다. 추정 분산·유한 모의실험·구간·실험 단위·결측·회귀·분류·탐구 평가의 적용 조건을 대조하고 자체 수치와 일부 원문 표를 재계산했다.",
+    "limits": "원전 본문·평가 예·참고문헌은 모두 읽었지만126쪽 전부의 이미지 대조·모든 인용 원연구·원자료·More4U·원도구·공식 정오표 확인은 아니다. 원문의 산술·조건·그림 표기 불일치는 별도 기록하고 전용을 보류했다. PDF·페이지 이미지는 재배포하지 않는다.",
+    "editorial_action": "누적19주장·19가상 관찰을 대응했다. 분산의 분모·모의실험0회·구간의 대상·실험 단위·결측·예측과 잔차·분류 평가 분모·결정 기준을 보완했다. 관계 승인·독립 검토·실제 학생 검증 수는 늘리지 않았다.",
+    "independent_review": false,
+    "student_validated": false,
+    "observations": [
+      {
+        "id": "GA-P1",
+        "standard_codes": [
+          "6수04-01",
+          "6수04-03",
+          "12실통01-02",
+          "12실통02-02"
+        ],
+        "question": "가상 네 사람의 어제 독서 시간 기록은0분·10분·미응답·20분이다. 조사 질문·하루와 독서의 기준을 정하고0분과 미응답을 구별하라. 응답자의 평균과 네 사람 전체의 평균을 각각 알 수 있는가?",
+        "expected": "기록된 세 응답의 평균은(0+10+20)÷3=10분이다.0분도 관측값으로 포함한다. 미응답을0분으로 채운7.5분을 네 사람 전체의 실제 평균이라고 할 수 없다. 네 사람 전체의 평균은 추가 정보 없이는 결정되지 않는다.",
+        "interpretation": "누구의 어느 날 무엇을 기록했는지, 실제0과 누락, 응답자와 조사대상의 범위를 따로 기록한다. 교사가 미응답 처리법을 알려 주기 전과 후의 반응을 구별한다. 가상 자료이며 실제 수집·학생 응답이 아니다.",
+        "student_validated": false
+      },
+      {
+        "id": "GA-P2",
+        "standard_codes": [
+          "6수04-03"
+        ],
+        "question": "가상 자료 카드10장을 한 그림기호가4장인 그림그래프로 나타내라.2.5개 기호와 약3개 기호를 구별하고 각 표현에서 원래 카드 수를 정확히 되찾을 수 있는지 설명하라.",
+        "expected": "10÷4=2.5이므로 온전한 기호2개와 반 기호1개가 정확한 표현이다. 약3개는 근사임을 표시해야 하며3개를 정확한 기호로 읽으면12장이 된다. 기호를 나눌 수 있는 디자인인지와 범례를 확인한다.",
+        "interpretation": "기호 개수와 기호가 나타내는 카드 수, 정확한 값과 근사를 구별한다. 반 기호를 사용할 수 없는 표현이면 다른 단위나 그래프를 선택할 수 있다. 원문 버스 예의 근사 표현을 이 자체 예의 정확한 계산과 혼동하지 않는다.",
+        "student_validated": false
+      },
+      {
+        "id": "GA-P3",
+        "standard_codes": [
+          "6수04-01",
+          "9수04-01"
+        ],
+        "question": "가상 블록 모임A는2·4·6개,B는1·4·7개다. 각각 같은 수로 나누어 평균을 구하고, 평균이 같다는 이유로 퍼진 모습도 같은지 설명하라. 실제 옮기는 블록 수와 평균에서 떨어진 거리의 합도 구별하라.",
+        "expected": "두 모임 모두 합12개·자료3개·평균4개다. A는6개인 곳에서2개를2개인 곳으로,B는7개인 곳에서3개를1개인 곳으로 옮기면 된다. 최소 옮긴 블록은2개·3개이고 평균과 차이의 절댓값 합은4·6이다. 같은 평균이어도 자료와 퍼짐은 다르다.",
+        "interpretation": "합·자료 수·균등한 양과 퍼짐을 따로 기록한다. 최소 이전 개수와 절대차 합을 원문의 steps라고 이름 붙이지 않는다. 절대차 계산은 교사용 확인이며 새로운 초등 공식이나 형식적 분산을 필수 요구하지 않는다.",
+        "student_validated": false
+      },
+      {
+        "id": "GA-P4",
+        "standard_codes": [
+          "6수04-03",
+          "6수04-05",
+          "6수04-06"
+        ],
+        "question": "가상20명의 한 가지 선호 응답이A10명·B6명·C4명이다. 가장 많은 범주A를 과반수라고 해도 되는가? 이20장의 같은 카드 중 한 장을 같은 가능성으로 뽑는 모형에서A가 나올 가능성과,새 학생이A를 고를지에 대한 판단을 구별하라.",
+        "expected": "A가 가장 많지만10명은20명의 반이고 과반수는 아니다. 같은 가능성의20장 중A10장이므로 카드 모형의A 가능성은반이다. 이것이 새 학생의 응답이나 두 번 추출에서 반드시 한 번A라는 보장은 아니다. 새 집단 판단에는 조사 범위와 추가 자료가 필요하다.",
+        "interpretation": "최다 범주·반·과반수,유한 카드 모형·관찰 비율·새 사람의 예측을 구별한다. 추출을 반복한다면 복원 여부도 먼저 정한다.10/20의 약분 공식을 초등의 새 필수 목표로 요구하지 않고 같은 카드의 절반이라는 설명을 허용한다.",
+        "student_validated": false
+      },
+      {
+        "id": "GA-P5",
+        "standard_codes": [
+          "6수04-03"
+        ],
+        "question": "가상 식물 높이가1일째2cm,2일째미측정,3일째8cm다. 가로축의 날짜 간격을 유지해 표시하고1일째부터3일째까지의 변화·하루 평균 변화와2일째 실제 높이를 구별하라.",
+        "expected": "2일 동안6cm 증가했으므로 이 구간의 하루 평균 변화는3cm다.2일째 실제 높이는 알 수 없다. 직선 연결로5cm를 예상하려면 일정하게 자랐다는 추가 가정을 밝혀야 하며 측정값으로 기록하지 않는다. 미측정을0cm로 표시하지 않는다.",
+        "interpretation": "날짜 차이·전체 변화·구간 평균·실제 관측을 구별한다. 하루 평균 변화의 형식 계산은 교사용 확장이며 초등에는 시간 간격과 미관측 표시를 중심으로 확인한다. 식물의 성장 원인이나 실제 학생의 이해를 검증한 자료가 아니다.",
+        "student_validated": false
+      },
+      {
+        "id": "GA-P6",
+        "standard_codes": [
+          "9수04-09"
+        ],
+        "question": "가상 대상별 짝 자료(1,2),(2,4),(3,6)과(1,6),(2,4),(3,2)를 비교하라. 각 열의 평균이 같으면 산점도의 경향도 같은가? 각 열을 따로 정렬한 뒤 다시 묶어도 같은 대상의 자료인가?",
+        "expected": "두 자료 모두 첫 열 평균2·둘째 열 평균4지만 앞은 양의 경향,뒤는 음의 경향이다. 뒤 자료의 둘째 열을 따로 오름차순 정렬해 새로 묶으면 대상별 짝이 바뀌어 앞 자료처럼 된다. 대상ID와 짝을 함께 보존해야 하며 경향만으로 인과를 말하지 않는다.",
+        "interpretation": "개별 열의 요약과 두 변수의 짝 관계,축·단위·대상ID를 따로 확인한다. 자체 수치 점검에는 중심화한 곱의 합을 사용하되 학생에게 상관계수 공식을 필수로 요구하지 않는다. 가상 모형이고 실제 사람을 조사한 자료가 아니다.",
+        "student_validated": false
+      },
+      {
+        "id": "GB-P1",
+        "standard_codes": [
+          "9수04-03",
+          "12실통02-03"
+        ],
+        "question": "가상1반10명에게A와B 각각의 선호를 묻자A8명·B6명이다.80%와60%의 합140%는 오류인가? 같은 문항의2반30명 중A12명을 더하면 전체A 비율은60%인가?",
+        "expected": "복수 선호를 허용하므로 두 비율의 합140%는 가능하고 한 사람의 중복 선택을 뜻할 수 있다. 두 비율을 배타적인 원그래프 조각으로 쓰지 않는다. 전체A는(8+12)/(10+30)=20/40=50%다.80%와40%의 단순 평균60%는 두 학급에 같은 가중을 준 다른 요약이다.",
+        "interpretation": "응답자 수·선택 수·범주별 분모·학급 가중을 따로 설명하게 한다. 문항당 누락 없이10명과30명 모두 응답한 가정이다. 가상 계산이며 학교 전체의 대표성이나 실제 학생 반응을 입증하지 않는다.",
+        "student_validated": false
+      },
+      {
+        "id": "GB-P2",
+        "standard_codes": [
+          "12확통02-04"
+        ],
+        "question": "가상30명의 두 예/아니오 응답을 행B예·B아니오,열A예·A아니오의 표[[12,3],[4,11]]로 기록했다. 이30명 중 한 명을 같은 가능성으로 뽑을 때P(B|A),P(A|B),P(A∩B)를 비교하라.",
+        "expected": "A예는16명,B예는15명,두 예는12명이다. P(B|A)=12/16=75%,P(A|B)=12/15=80%,P(A∩B)=12/30=40%다.75%와80%의 차는5퍼센트포인트이며 같은 분모의 비율이 아니다.",
+        "interpretation": "조건 사건을 먼저 말하고 표에서 그 집단만 테두리 친 뒤 분모를 적는다. 둘의 연관과 원인 주장을 구별하고 조건 집단이0명이면 조건부확률을 정의하지 않는다. 가상 표이며 실제 설문이나 학생 검증 자료가 아니다.",
+        "student_validated": false
+      },
+      {
+        "id": "GB-P3",
+        "standard_codes": [
+          "9수04-08",
+          "12실통02-04"
+        ],
+        "question": "같은 단위의 가상 자료A=[0,4,4,4,4,4,4,8],B=[1,2,3,4,5,6,7,8]을 비교하라. 하위·상위 네 값 각각의 중앙값을Q1·Q3로 정하고,전체 범위가 더 크면 사분위범위도 더 큰지 설명하라.",
+        "expected": "A의 범위8,Q1=4,Q3=4,사분위범위0이다. B의 범위7,Q1=2.5,Q3=6.5,사분위범위4다. 전체 범위는A가 크고 중간 절반의 폭은B가 크다. 퍼짐이라는 말만으로 비교 순위를 하나로 정할 수 없다.",
+        "interpretation": "비교할 요약의 정의·단위·사분위수 관례를 먼저 적는다. 수염을 최솟값·최댓값까지 그리는 관례와1.5IQR 규칙의 수염을 구별하며,극단값을 이유 없이 삭제하지 않는다. 가상 자료이고 정식 유의성 검정이나 학생 반응 기록이 아니다.",
+        "student_validated": false
+      },
+      {
+        "id": "GB-P4",
+        "standard_codes": [
+          "9수04-09",
+          "12실통02-03"
+        ],
+        "question": "가상 짝 자료(1,1),(2,4),(3,9),(4,16)를 같은 대상ID로 산점도에 나타내라. y축의 표시 범위를 바꾸면 원자료나 직선 위에 있는지가 달라지는가? 교사용 확장으로 두 중앙선의 사분면 부호 요약만으로 직선성을 보장할 수 있는가?",
+        "expected": "짝과 수치는 그대로이고 양의 경향이지만 점들은 한 직선 위에 있지 않다. 이웃 기울기는3·5·7로 다르다. 중앙선x=2.5,y=6.5에서는 네 점 모두 제1·제3영역에 있어 이 축 위 점이 없는 자체 예의QCR은1이지만 완전한 직선 관계는 아니다.",
+        "interpretation": "축의 눈금·단위·관측값과 시각 인상을 대조한다. QCR 계산은 교사용 반례 확인이고 중등 학생에게 필수 상관계수로 요구하지 않는다. 다른 자료의 중앙선 위 점은 처리 규칙·분모를 먼저 정한다. 가상 예이며 원자료 수집·인과·학생 검증은 아니다.",
+        "student_validated": false
+      },
+      {
+        "id": "GB-P5",
+        "standard_codes": [
+          "12실통01-02",
+          "12실통02-02"
+        ],
+        "question": "가상 참여 가구A·B·C·D의 현관문 사진이 각각10·2·2·2장이다. A만 나무문이고 나머지는 금속문이라면 나무문 가구 비율은10/16인가? 이 네 참여 가구의 결론을 세계 모든 가구로 일반화할 수 있는가?",
+        "expected": "사진을 세면 나무문 사진은10/16=62.5%지만,가구별 문 종류를 하나로 정의한 이 예에서 나무문 가구는1/4=25%다. 사진16장은 독립 가구16곳이 아니다. 네 가구의 참여·선정 방식 정보만으로 세계 가구 비율을 추정하지 않는다.",
+        "interpretation": "관찰 단위·대상ID·중복 사진·가구당 분류 규칙을 기록한다. 실제 사진을 다룰 때는 촬영·사용 동의와 관찰 가능한 특징·추정한 배경을 구별한다. 사진 자체는 제시하지 않은 가상 기록이며 실제 가족관계·소비·학생 반응 자료가 아니다.",
+        "student_validated": false
+      },
+      {
+        "id": "GB-P6",
+        "standard_codes": [
+          "12실통02-02"
+        ],
+        "question": "가상 연구계획에서 한 반30명을15명씩 무작위배정해 같은 단어 목록을 음악·무음 조건으로 비교한다. 다른 계획은 학교에서30명을 무작위표집하고 원래 음악을 듣는 학생과 듣지 않는 학생을 비교한다. 어느 무작위 절차가 일반화와 처리 효과 비교를 돕는가?",
+        "expected": "첫 계획의 배정은 처리 비교의 교란 통제를 돕지만 반 자체가 무작위표본은 아니다. 둘째 계획의 표집은 학교 모집단으로의 추론을 돕지만 원래의 청취 선택에는 능력·습관 등 교란이 남는다. 어느 절차도 사전 능력의 정확한 같음이나 결과를 보장하지 않는다. 실제 효과 판정에는 시행 절차·누락·변이·분석을 추가 확인해야 한다.",
+        "interpretation": "표집→배정→측정→응답완료를 따로 표시하고 동의·측정시간·조건 간 간섭을 점검한다. 원문 예의 요약값을 현재 설계의 관측 결과로 사용하지 않는다. 실행하지 않은 가상 계획이며 실제 학생 수집·효과·독립 검토를 추가하지 않는다.",
+        "student_validated": false
+      },
+      {
+        "id": "GC-P1",
+        "standard_codes": [
+          "12실통02-04"
+        ],
+        "question": "교사용 가상 모형에서 모집단 값0과2를 같은 가능성으로 두 번 독립 복원 추출한다. 가능한 네 순서쌍을 모두 써서,분모n과n−1인 분산의 평균 및 n−1 표준편차의 평균을 비교하라.",
+        "expected": "(0,0),(0,2),(2,0),(2,2)는 같은 가능성이다. 모집단 평균1·분산1·표준편차1이다. n=2 분모의 분산은0,1,1,0으로 평균1/2이고,n−1 분모의 분산은0,2,2,0으로 평균1이다. 후자의 표준편차 평균은√2/2로1과 다르다. 분산의 불편성과 제곱근의 불편성은 별개다.",
+        "interpretation": "제곱 단위·원래 단위와 기술 분산·추정 분산을 구별한다. 작은 유한 모형의 전수 계산이며 모든 현실 자료가 독립·동일분포라는 증거는 아니다. 교사용 확장이고 실제 학생 반응이나 도구 실행 자료가 아니다.",
+        "student_validated": false
+      },
+      {
+        "id": "GC-P2",
+        "standard_codes": [
+          "12실통03-04"
+        ],
+        "question": "가상 서로 다른 카드6장 중 성공3장·실패3장을 섞어 앞 집단3장과 뒤 집단3장으로 나눈다. 앞 집단에 성공3장이 모두 온 결과를 사전에 정한 한쪽 극단으로 삼는다. 이 극단이20회 모의실험에서0회였다면 정확한 확률도0인가?",
+        "expected": "앞 집단의 가능한 카드 집합은6개 중3개를 고른20가지이며 해당 극단은1가지라 정확한 한쪽 확률은1/20이다. 독립적으로20번 다시 섞었을 때 한 번도 극단이 없을 확률은(19/20)^20으로 양수다. 극단0/20은 이 모의실험의 관측 비율이며 정확한0확률이 아니다. 양쪽의 완전 분리를 극단으로 정하면2/20으로 다른 질문이다.",
+        "interpretation": "카드ID·전체 성공 수·집단 크기를 고정하는 모형,꼬리 방향·동률 포함·반복 수를 먼저 적는다. 실제 난수 실험을 수행한 기록이 아닌 정확한 조합 계산이다. p값을 가설의 사후확률이나 효과 크기로 읽지 않는다.",
+        "student_validated": false
+      },
+      {
+        "id": "GC-P3",
+        "standard_codes": [
+          "12실통03-02",
+          "12실통03-03"
+        ],
+        "question": "가상 독립 무작위 표본에서 찬성 비율0.6을 고정해 비교한다. n=100과400일 때1.96√[0.6×0.4/n]인95% 정규근사 오차한계를 구하라. 표본을 네 배 늘리면 중심과 새 응답도 보장되는가?",
+        "expected": "오차한계는 각각약0.09602·0.04801로 반이 된다. 고정한0.6 중심의 비교 구간은약[0.5040,0.6960]·[0.5520,0.6480]이다. 실제 새 표본에서는 관측 비율과 중심도 달라질 수 있다.95%는 같은 절차를 반복할 때 고정 모비율을 포함하는 장기 비율이며 개인 응답의95% 범위나 이미 정한 구간의 사후확률이 아니다.",
+        "interpretation": "같은 신뢰수준·방법·비율을 고정한 비교와 실제 새 표본을 구별한다. 성공/실패 수·독립성·표집 비율·유한 모집단 조건을 확인한다. 가상 근사 계산이고 실제 표집·학생 검증 자료가 아니다.",
+        "student_validated": false
+      },
+      {
+        "id": "GC-P4",
+        "standard_codes": [
+          "12실통02-02"
+        ],
+        "question": "가상 재배 계획에서 밝음 봉투1개·어두움 봉투1개에 씨앗20개씩 넣고 처리한다.20개씩의 독립 실험 반복이라고 해도 되는가? 다른 기록에서 두 집단의 길이 자료가[2,4,누락,누락]·[6,8,누락,누락]이면 누락 수가 같으므로 전체 평균 차가 편향 없다고 할 수 있는가?",
+        "expected": "같은 봉투의 씨앗은 물·온도 등 조건을 공유할 수 있고 처리와 봉투가 겹쳐 있다. 처리별 독립 봉투를 반복하고 봉투 배정·위치·측정 규칙을 설계해야 한다. 관측 길이 평균은3과7이지만,첫 집단 누락이10·10이고 둘째가0·0이었다면 전체 평균은6.5와3.5로 순서도 바뀐다. 이 완성값은 가능성을 보이는 가상 반례이며 실제 누락값의 추정이 아니다.",
+        "interpretation": "측정 개수와 독립 실험 단위·관측자 범위·결측 원인을 구별한다. 미발아를 길이0으로 정의할지 미측정으로 둘지는 질문·판정 기준을 먼저 정한다. 자체 반례이며 실제 식물 실험·인과 효과·학생 반응 자료가 아니다.",
+        "student_validated": false
+      },
+      {
+        "id": "GC-P5",
+        "standard_codes": [
+          "12인수04-02"
+        ],
+        "question": "가상 짝 자료(x,y)=(1,2),(2,3),(3,7)에서 두 변수의 단위가cm일 때 최소제곱 직선과x=2의 잔차를 구하라. x만mm로 바꾸거나 x=4를 예측할 때 무엇이 달라지는가?",
+        "expected": "평균은x=2,y=4이고 기울기는5/2,절편은−1이라 ŷ=−1+(5/2)x다. x=2의 예측4와 관측3의 잔차는−1이다. x′=10x이면 ŷ=−1+(1/4)x′로 같은 대상을 예측하고,x=4의 예측9는 관측 범위[1,3] 밖 외삽이다. 맞춘 직선은 실제 관측값·인과 법칙·개별 예측의 보장이 아니다.",
+        "interpretation": "짝·변수 역할·잔차 부호·단위를 기록하고 평균 반응 신뢰구간과 새 개별 관측 예측구간을 구별한다. 주어진 세 점의 자체 계산이며 원문의 신체 측정 자료나 실제 도구 화면 실행·학생 반응이 아니다.",
+        "student_validated": false
+      },
+      {
+        "id": "GC-P6",
+        "standard_codes": [
+          "12인수04-01",
+          "12인수04-03"
+        ],
+        "question": "가상 분류 규칙을 고른 학습 자료의 표가 행예측A·B,열실제A·B에서[[8,1],[2,9]]다. 규칙을 고정한 뒤 처음 보는 평가 자료의 표는[[3,2],[2,3]]이다. 각 전체 오류율과A예측 중 맞은 비율을 구하고 어느 값이 새 자료 평가인가 설명하라.",
+        "expected": "학습 자료 오류율은(1+2)/20=15%,A예측 중 맞은 비율은8/9다. 새 평가 자료 오류율은(2+2)/10=40%,A예측 중 맞은 비율은3/5다. 두 표를 합친7/30만 제시해 학습·평가의 차이를 지우지 않는다. 규칙을 평가 자료에 맞춰 다시 고르면 이 자료는 더 이상 독립된 최종 평가가 아니다.",
+        "interpretation": "행·열·정답 열람 시점·자료 분리·분모를 먼저 적는다. 실제A 중A예측 비율과A예측 중 실제A 비율도 구별한다. 유한 가상 예로서 새 환경의 오류율·개별 대상의 확률·모형 우월성을 보장하지 않는다. 실제 시스템·학생 검증 자료가 아니다.",
+        "student_validated": false
+      },
+      {
+        "id": "GC-P7",
+        "standard_codes": [
+          "6수04-03",
+          "12실통01-02"
+        ],
+        "question": "가상5명의 선호 순서가3명은A>B>C,2명은B>C>A다. 한 가지 최선호 도수로 고른 결과와1·2·3위에1·2·3점을 주어 합이 작은 것을 고른 결과를 비교하고,조사 질문·선정 기준·자료 표현을 설명하라.",
+        "expected": "최선호 도수는A3·B2·C0이라A를 고른다. 순위 합은A9·B8·C13이라 정한 합산 규칙에서는B를 고른다. 두 결과는 서로 다른 결정 기준이다. 순위 점수의 간격을 실제 선호 강도의 같은 차이라고 볼 근거는 없다. 초등에서는 한 가지 최선호의 도수·그래프·질문 범위를 확인하고 순위 합산은 교사용 비교로 둔다.",
+        "interpretation": "자료를 본 뒤 유리한 결정 규칙만 고르지 않고 문항·대상·단위·표현·추천 근거를 적는다. 계산 답·설명·재질문·도움 후 반응을 구별하며 한 발문으로 탐구 전체의 숙달을 판정하지 않는다. 가상 자료이고 실제 조사·학생 반응이나 진단 타당성 검증이 아니다.",
+        "student_validated": false
+      }
+    ],
+    "snapshot_history": [
+      {
+        "snapshot_file": "data/literature_evidence/GAISE_2020_review_notes.json",
+        "snapshot_sha256": "dbe0c4b6fb3c4ac919d60d715f20441c77db91a9d6a2fda0dc04e7712829cc1f",
+        "date": "2026-11-06",
+        "read_scope": "PDF3–6·21–49의33쪽 텍스트(빈28쪽 포함),선정16쪽 이미지;프레임워크·Level A 범위"
+      },
+      {
+        "snapshot_file": "data/literature_evidence/GAISE_2020_level_b_review_notes.json",
+        "snapshot_sha256": "c9eba33437731a2cf62e5f2b73d9eee8040f7a37b8cfd39687a4b703b677e088",
+        "date": "2026-11-06",
+        "read_scope": "PDF3–78의76쪽 텍스트(서지·목차·빈 쪽 포함),선정33쪽 이미지;프레임워크·Level A/B·서문·도입 범위"
+      }
+    ]
+  },
+  "previous_notes_file": "data/literature_evidence/GAISE_2020_level_c_assessment_review_notes.json",
+  "previous_notes_sha256": "88340333028cd871b51942f87e9cf615a1154b0090786a168987ca5a14c19e6d",
+  "pdf_pages_total": 126,
+  "read_pdf_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110,
+    111,
+    112,
+    113,
+    114,
+    115,
+    116,
+    117,
+    118,
+    119,
+    120,
+    121,
+    122,
+    123,
+    124,
+    125,
+    126
+  ],
+  "new_read_pdf_pages": [],
+  "visually_reviewed_pages": [
+    {
+      "pdf_page": 1,
+      "local_temporary_file": "tmp/literature/GAISE_2020-p1.png",
+      "sha256": "287b33bc5416f5e070db739bcd804c3588e825653416d33e905ea9604f5094f0"
+    },
+    {
+      "pdf_page": 2,
+      "local_temporary_file": "tmp/literature/GAISE_2020-p2.png",
+      "sha256": "25f0baf5f2feef4658d838ca0d2f2e4bf25781bd04953d084baf4f122e3e9c72"
+    },
+    {
+      "pdf_page": 3,
+      "local_temporary_file": "tmp/literature/guide-visual-closure-20261118/gaise/page-003.png",
+      "sha256": "edfc796bcd5cfcf33affddfcc8dd66030a947b70ab7d983a2723a7dd0af77396"
+    },
+    {
+      "pdf_page": 4,
+      "local_temporary_file": "tmp/literature/guide-visual-closure-20261118/gaise/page-004.png",
+      "sha256": "c289ac3c81ac67349455b95eb9d0504d91b1a0c00e01d3e6d2facfec9c50fa11"
+    },
+    {
+      "pdf_page": 5,
+      "local_temporary_file": "tmp/literature/guide-visual-closure-20261118/gaise/page-005.png",
+      "sha256": "4e1a9939809b1f6800a815bce0e871723ab99b03b7db1f0f349028295008f9da"
+    },
+    {
+      "pdf_page": 6,
+      "local_temporary_file": "tmp/literature/guide-visual-closure-20261118/gaise/page-006.png",
+      "sha256": "d3b0b24ce1280f5a4f6477cd00369dd794c28045db87d76cf678c2171f9dfd4c"
+    },
+    {
+      "pdf_page": 7,
+      "local_temporary_file": "tmp/literature/guide-visual-closure-20261118/gaise/page-007.png",
+      "sha256": "6f8c8055f426a3fb56d384c53ad301bc09a5df0e3a8c140588b3f04bf664267b"
+    },
+    {
+      "pdf_page": 8,
+      "local_temporary_file": "tmp/literature/guide-visual-closure-20261118/gaise/page-008.png",
+      "sha256": "dc60fee83205fb18609d1736ebb1361eb0ab8ef166b8550774170053ad256bb0"
+    },
+    {
+      "pdf_page": 9,
+      "local_temporary_file": "tmp/literature/guide-visual-closure-20261118/gaise/page-009.png",
+      "sha256": "75a0cee7582477b6b05c91eac127b2a67eb759b4c5e29f84878ba6a4d94a3926"
+    },
+    {
+      "pdf_page": 10,
+      "local_temporary_file": "tmp/literature/guide-visual-closure-20261118/gaise/page-010.png",
+      "sha256": "49139b3289e001c556a537b36ad5529a678c565e9979c68e4b28197559f18f81"
+    },
+    {
+      "pdf_page": 11,
+      "local_temporary_file": "tmp/literature/guide-visual-closure-20261118/gaise/page-011.png",
+      "sha256": "1efe461599ff9e6ea55d7dfad33a0053a2824115ffa69d71666008b5e080cf0e"
+    },
+    {
+      "pdf_page": 12,
+      "local_temporary_file": "tmp/literature/guide-visual-closure-20261118/gaise/page-012.png",
+      "sha256": "dc60fee83205fb18609d1736ebb1361eb0ab8ef166b8550774170053ad256bb0"
+    },
+    {
+      "pdf_page": 13,
+      "local_temporary_file": "tmp/literature/guide-visual-closure-20261118/gaise/page-013.png",
+      "sha256": "ac84a3e5f763ca62915b053e876dce149fcc5e090eb3e9fc5a135959b13c1337"
+    },
+    {
+      "pdf_page": 14,
+      "local_temporary_file": "historical separate authored review",
+      "sha256": "94099e4fd39ab0a7b10ee0be64fb625d7dbb5d2311d960d47dbe99d3ab39f0ad"
+    },
+    {
+      "pdf_page": 15,
+      "local_temporary_file": "tmp/literature/guide-visual-closure-20261118/gaise/page-015.png",
+      "sha256": "9818def81e347d21da10cabf69179e09116e44130d880d2eeb76b92144acb95f"
+    },
+    {
+      "pdf_page": 16,
+      "local_temporary_file": "tmp/literature/GAISE_2020-p16.png",
+      "sha256": "22b911c9c67e1801aff3c7f0e8875926cfeb01403e407ce8f768728a6d8c5cad"
+    },
+    {
+      "pdf_page": 17,
+      "local_temporary_file": "historical separate authored review",
+      "sha256": "2420c43049990919dca572c00d564930fc574d5fac0283360787d13a99e88ca4"
+    },
+    {
+      "pdf_page": 18,
+      "local_temporary_file": "historical separate authored review",
+      "sha256": "7fe68f1c4316cfb6c08d1aae22dcb03c7092140cc2314d823c1a8753505deca3"
+    },
+    {
+      "pdf_page": 19,
+      "local_temporary_file": "historical separate authored review",
+      "sha256": "5fd9615380fc4b811adac9bb13aca8fa3908f53f4159ad7f8013eebe73b44a22"
+    },
+    {
+      "pdf_page": 20,
+      "local_temporary_file": "historical separate authored review",
+      "sha256": "04ab131a715d3190c6c84910b6f5304697f680f8a691dae1db34d65168ce0885"
+    },
+    {
+      "pdf_page": 21,
+      "local_temporary_file": "historical separate authored review",
+      "sha256": "62996b74c7f84d25c7582b387747ddb0efab0822b22060ad698dfa4413c28340"
+    },
+    {
+      "pdf_page": 22,
+      "local_temporary_file": "historical separate authored review",
+      "sha256": "4ddce5a0b1265fcb5aa2e6993fc1ec878c0be49d0268bb2fe7c4c582ba9d4f31"
+    },
+    {
+      "pdf_page": 23,
+      "local_temporary_file": "historical separate authored review",
+      "sha256": "b1d6e282786a614a7e406dd6a3709faa0da68b42f721a9b69a33b0dda3565a66"
+    },
+    {
+      "pdf_page": 24,
+      "local_temporary_file": "tmp/literature/GAISE_2020-p24.png",
+      "sha256": "59c7aec4109bddcf916410c03aa231946f32603a4ddb535e56c134d61fb3bf3a"
+    },
+    {
+      "pdf_page": 25,
+      "local_temporary_file": "tmp/literature/GAISE_2020-p25.png",
+      "sha256": "b5448cca434f7a39ef973820cf009e881bbf586bbe152903ec16b6e534133d58"
+    },
+    {
+      "pdf_page": 26,
+      "local_temporary_file": "tmp/literature/GAISE_2020-p26.png",
+      "sha256": "ffc14bc4fdd9d42afb8d52d64587ce29285b7a68dfaa1f4b6239bcd23e2935ff"
+    },
+    {
+      "pdf_page": 27,
+      "local_temporary_file": "tmp/literature/GAISE_2020-p27.png",
+      "sha256": "145365935b23ab35ad952def9097b80b58dd1b385dec6cec5c42f8deb62202de"
+    },
+    {
+      "pdf_page": 28,
+      "local_temporary_file": "tmp/literature/GAISE_2020-p28.png",
+      "sha256": "25f0baf5f2feef4658d838ca0d2f2e4bf25781bd04953d084baf4f122e3e9c72"
+    },
+    {
+      "pdf_page": 29,
+      "local_temporary_file": "tmp/literature/guide-visual-closure-20261118/gaise/page-029.png",
+      "sha256": "982101ad130c4c738a2c0c8effdaf8a99f5b2e879d63cca6a8a9bcb7d629c15e"
+    },
+    {
+      "pdf_page": 30,
+      "local_temporary_file": "tmp/literature/guide-visual-closure-20261118/gaise/page-030.png",
+      "sha256": "336b0f431753ca1b399da9fa15ff556014b010607befc6a6f764d92a2cec2332"
+    },
+    {
+      "pdf_page": 31,
+      "local_temporary_file": "tmp/literature/guide-visual-closure-20261118/gaise/page-031.png",
+      "sha256": "a53efba8ca58684680a6dfa35e6d94bf999eec6b38a11ac110d4800709bf0527"
+    },
+    {
+      "pdf_page": 32,
+      "local_temporary_file": "tmp/literature/guide-visual-closure-20261118/gaise/page-032.png",
+      "sha256": "6a4506577ae219dba48a642838d28e2de62e26a2078881e31db005d0066c11d3"
+    },
+    {
+      "pdf_page": 33,
+      "local_temporary_file": "tmp/literature/guide-visual-closure-20261118/gaise/page-033.png",
+      "sha256": "eb6b684940b91e837f145e703cfeed1cd40ddee47922b703a8d649ff7e8473dc"
+    },
+    {
+      "pdf_page": 34,
+      "local_temporary_file": "tmp/literature/GAISE_2020-p34.png",
+      "sha256": "ba54e62bef0798bdcda21997da711470ff776a30f8595306d3aee56cea0d9b89"
+    },
+    {
+      "pdf_page": 35,
+      "local_temporary_file": "tmp/literature/guide-visual-closure-20261118/gaise/page-035.png",
+      "sha256": "bb981e579f8c6b3e9516b7f6b49b4a4efdee70f36add75279f2bbd66ec3d5cef"
+    },
+    {
+      "pdf_page": 36,
+      "local_temporary_file": "tmp/literature/GAISE_2020-p36.png",
+      "sha256": "aad14a700abd8aefaa0e867801c2c4cc51b90ae5ba3dddf02c30c92339b004da"
+    },
+    {
+      "pdf_page": 37,
+      "local_temporary_file": "tmp/literature/GAISE_2020-p37.png",
+      "sha256": "e0692f48d7cdff92431f76e1d4027d92628b60715be6e2a95edbf87aed1a2d4e"
+    },
+    {
+      "pdf_page": 38,
+      "local_temporary_file": "tmp/literature/GAISE_2020-p38.png",
+      "sha256": "ae9f346881586a5136714739e126be7fc7dfe75f9d1b44fd57eceebbbe488bde"
+    },
+    {
+      "pdf_page": 39,
+      "local_temporary_file": "tmp/literature/guide-visual-closure-20261118/gaise/page-039.png",
+      "sha256": "555d18fc9e9b596313f4bb77eb8702a6351023c53f4b1f191c5f63dd42822374"
+    },
+    {
+      "pdf_page": 40,
+      "local_temporary_file": "tmp/literature/GAISE_2020-p40.png",
+      "sha256": "7b50f24782f6802125e19259080f3f8d92b67a0653d07887cb256c382209192f"
+    },
+    {
+      "pdf_page": 41,
+      "local_temporary_file": "tmp/literature/GAISE_2020-p41.png",
+      "sha256": "d6804a91d47461124e7d9e68ae440475fbadd7464bb9e5304b78c878e12e7f31"
+    },
+    {
+      "pdf_page": 42,
+      "local_temporary_file": "tmp/literature/GAISE_2020-p42.png",
+      "sha256": "58d58fc09d1ec232cc97664de1720786644501fc09ba260aa96a398aba03d2aa"
+    },
+    {
+      "pdf_page": 43,
+      "local_temporary_file": "tmp/literature/GAISE_2020-p43.png",
+      "sha256": "35776492d7801f4de3092710a3da84c8d87b627b311870cefaf403c78e657f90"
+    },
+    {
+      "pdf_page": 44,
+      "local_temporary_file": "tmp/literature/GAISE_2020-p44.png",
+      "sha256": "645f264901e0454fca6ab2b9421c210cf6ba5f58643a7e5565639fe794a93b28"
+    },
+    {
+      "pdf_page": 45,
+      "local_temporary_file": "tmp/literature/guide-visual-closure-20261118/gaise/page-045.png",
+      "sha256": "b42d83e3933f4dbfb9b3216e32590da788ba62338262543733094e28342a2ee5"
+    },
+    {
+      "pdf_page": 46,
+      "local_temporary_file": "tmp/literature/GAISE_2020-p46.png",
+      "sha256": "d6b52c121da76619e6bc88f7eda6a457732ab518ca65a2bfb7d396c07ee58d97"
+    },
+    {
+      "pdf_page": 47,
+      "local_temporary_file": "tmp/literature/guide-visual-closure-20261118/gaise/page-047.png",
+      "sha256": "267c8dddbd19b94efd0a22556225bc63d90a949aa4eed83381494338e195b485"
+    },
+    {
+      "pdf_page": 48,
+      "local_temporary_file": "tmp/literature/guide-visual-closure-20261118/gaise/page-048.png",
+      "sha256": "99a444d5d094a13172bdaae45d2932f3e2c7b61fb20286198e489d6ed9eb67e0"
+    },
+    {
+      "pdf_page": 49,
+      "local_temporary_file": "tmp/literature/GAISE_2020-p49.png",
+      "sha256": "586644a002dfe358e5cad905e81d729308839df7b06558f18addf18115a2361c"
+    },
+    {
+      "pdf_page": 50,
+      "local_temporary_file": "tmp/literature/guide-visual-closure-20261118/gaise/page-050.png",
+      "sha256": "dc60fee83205fb18609d1736ebb1361eb0ab8ef166b8550774170053ad256bb0"
+    },
+    {
+      "pdf_page": 51,
+      "local_temporary_file": "tmp/literature/guide-visual-closure-20261118/gaise/page-051.png",
+      "sha256": "90a5b902c1c7ab3e4c12d60e3237a5cc2f89daeca548605d0780d277df0d3d1e"
+    },
+    {
+      "pdf_page": 52,
+      "local_temporary_file": "tmp/literature/guide-visual-closure-20261118/gaise/page-052.png",
+      "sha256": "d85d196d285f90a3cbda53d2d9a500191835db8ae1de386f82578997ae353756"
+    },
+    {
+      "pdf_page": 53,
+      "local_temporary_file": "tmp/literature/guide-visual-closure-20261118/gaise/page-053.png",
+      "sha256": "d6a7762841eb5ce8794dcee2771f54db50097cc808924d19c20b15d0c1774c30"
+    },
+    {
+      "pdf_page": 54,
+      "local_temporary_file": "tmp/literature/guide-visual-closure-20261118/gaise/page-054.png",
+      "sha256": "b908dfbe5cf613541337837cb1af9645505f6bc07818669459a54c0f77e6cffb"
+    },
+    {
+      "pdf_page": 55,
+      "local_temporary_file": "tmp/literature/GAISE_2020-p55.png",
+      "sha256": "9250bc611fc9afe7a84e1e608c8543160a4e6e4ee579132438b09acfcc1abaf2"
+    },
+    {
+      "pdf_page": 56,
+      "local_temporary_file": "tmp/literature/guide-visual-closure-20261118/gaise/page-056.png",
+      "sha256": "fe90db86fbf1c7ae758f0f25d647ed5fbd660ebec2a34526e4c7f07659091412"
+    },
+    {
+      "pdf_page": 57,
+      "local_temporary_file": "tmp/literature/GAISE_2020-p57.png",
+      "sha256": "0b51c47627e0cd939064f4439bbc8cf754fda24cba314a80a68fae4cdb232a83"
+    },
+    {
+      "pdf_page": 58,
+      "local_temporary_file": "tmp/literature/GAISE_2020-p58.png",
+      "sha256": "c31f7bb5efccc0c999fef3cb7c8a8c86b84d2bf4bd538f78a628d16ee8189f13"
+    },
+    {
+      "pdf_page": 59,
+      "local_temporary_file": "tmp/literature/GAISE_2020-p59.png",
+      "sha256": "ed24dc9c72ded842233fd568cf14c152c25f9a68b84659be73da823d892bf62c"
+    },
+    {
+      "pdf_page": 60,
+      "local_temporary_file": "tmp/literature/GAISE_2020-p60.png",
+      "sha256": "c3242a67a8681a73c3c48596224afe09003d91abe4b0d843d4efdfde7dca0f55"
+    },
+    {
+      "pdf_page": 61,
+      "local_temporary_file": "tmp/literature/GAISE_2020-p61.png",
+      "sha256": "39961198c024b8aeec04685f073543d12636353ccae3fa2bd660208da76fa718"
+    },
+    {
+      "pdf_page": 62,
+      "local_temporary_file": "tmp/literature/guide-visual-closure-20261118/gaise/page-062.png",
+      "sha256": "0d40848968dd27f98ae12fa92eeece7256eb4077479cd06cff723e0f42ccddd6"
+    },
+    {
+      "pdf_page": 63,
+      "local_temporary_file": "tmp/literature/GAISE_2020-p63.png",
+      "sha256": "9b47207c7905d1862f38da121ae3f8d0b602bbf1f404b55edd23906bc7f8a760"
+    },
+    {
+      "pdf_page": 64,
+      "local_temporary_file": "tmp/literature/GAISE_2020-p64.png",
+      "sha256": "1e735a22b8ab7df08ff19ea2cabcb0a962d14dcced4c0c4e21a7bdbaaad0a285"
+    },
+    {
+      "pdf_page": 65,
+      "local_temporary_file": "tmp/literature/GAISE_2020-p65.png",
+      "sha256": "465c366f5df3a050b843ad83adde479fa16ef8f6b0cadd158a45a950aec093b6"
+    },
+    {
+      "pdf_page": 66,
+      "local_temporary_file": "tmp/literature/GAISE_2020-p66.png",
+      "sha256": "5b02439877a69c4282e28c9008133781ec5694b0b73fa21c98acb94c087f3e12"
+    },
+    {
+      "pdf_page": 67,
+      "local_temporary_file": "tmp/literature/GAISE_2020-p67.png",
+      "sha256": "90b0e0b8122978095e7854633ba724ee58bd10fb8f2cf69ea88514afb2b6097c"
+    },
+    {
+      "pdf_page": 68,
+      "local_temporary_file": "tmp/literature/GAISE_2020-p68.png",
+      "sha256": "268c0732526f54543c04268cc62007ad29cdebe2264b7a5f65d2fc47474fdab8"
+    },
+    {
+      "pdf_page": 69,
+      "local_temporary_file": "tmp/literature/GAISE_2020-p69.png",
+      "sha256": "c6b776edd49221369c2da74502c4009c00def3a4b97e63568cdc27bbfbe4f108"
+    },
+    {
+      "pdf_page": 70,
+      "local_temporary_file": "tmp/literature/GAISE_2020-p70.png",
+      "sha256": "3d6d32a26ffe96a2c2a31ea681d1f25ba7bce35275210770d30c94831e88edb9"
+    },
+    {
+      "pdf_page": 71,
+      "local_temporary_file": "tmp/literature/guide-visual-closure-20261118/gaise/page-071.png",
+      "sha256": "ff1a06a157efadc153ffc41ace8df682fc64b339c3105a64c671273ebb3f3dc5"
+    },
+    {
+      "pdf_page": 72,
+      "local_temporary_file": "tmp/literature/guide-visual-closure-20261118/gaise/page-072.png",
+      "sha256": "8240da0e0e6d678a9353f90ea19c8d39510fac97fd89b8e8d4f089c365543e91"
+    },
+    {
+      "pdf_page": 73,
+      "local_temporary_file": "tmp/literature/guide-visual-closure-20261118/gaise/page-073.png",
+      "sha256": "b0b5b26b7e282dfc54eeb232b36305ad64e670c4ced391a2a7e4f2ff8e597edd"
+    },
+    {
+      "pdf_page": 74,
+      "local_temporary_file": "tmp/literature/GAISE_2020-p74.png",
+      "sha256": "efdc6ef4285452f1de994bffa20e3ee34ec2c54fc11b30f6561c8e3e715a6d5c"
+    },
+    {
+      "pdf_page": 75,
+      "local_temporary_file": "tmp/literature/guide-visual-closure-20261118/gaise/page-075.png",
+      "sha256": "c976900cc19febb77c20507b16a3b61d58f32ffb2c34d5061ffd5343e38e60f5"
+    },
+    {
+      "pdf_page": 76,
+      "local_temporary_file": "tmp/literature/GAISE_2020-p76.png",
+      "sha256": "5e8389eed0bf8ce8257b51d8f40d0ca0e9c43500e3e1fa1d10e008afc781c561"
+    },
+    {
+      "pdf_page": 77,
+      "local_temporary_file": "tmp/literature/guide-visual-closure-20261118/gaise/page-077.png",
+      "sha256": "46b1e8ca87353dd76c09f572060265cfc537ddccad59f1af11cdc722442091ef"
+    },
+    {
+      "pdf_page": 78,
+      "local_temporary_file": "tmp/literature/guide-visual-closure-20261118/gaise/page-078.png",
+      "sha256": "dc60fee83205fb18609d1736ebb1361eb0ab8ef166b8550774170053ad256bb0"
+    },
+    {
+      "pdf_page": 79,
+      "local_temporary_file": "tmp/literature/GAISE_2020-p79.png",
+      "sha256": "0cb25a9e71a58f38e2be21161865de426177464a08f59a45f11c8de47ffac58c"
+    },
+    {
+      "pdf_page": 80,
+      "local_temporary_file": "tmp/literature/guide-visual-closure-20261118/gaise/page-080.png",
+      "sha256": "d13598f48e8b465b0e835770575e7f767d75cdc5285128f0872d1c8f36e33862"
+    },
+    {
+      "pdf_page": 81,
+      "local_temporary_file": "tmp/literature/guide-visual-closure-20261118/gaise/page-081.png",
+      "sha256": "50204a01f721e184868e1a2a38bb3acdbdf34fd9db2452de6f8a68d8e3a38cbd"
+    },
+    {
+      "pdf_page": 82,
+      "local_temporary_file": "tmp/literature/guide-visual-closure-20261118/gaise/page-082.png",
+      "sha256": "92e83af44f0052e6664ffd8ea7a3b55a38d205255ebca8c4019cc2da065871f5"
+    },
+    {
+      "pdf_page": 83,
+      "local_temporary_file": "tmp/literature/guide-visual-closure-20261118/gaise/page-083.png",
+      "sha256": "58d6d210b378a5f5f71104231494d283700a2aec86e37026c7e8f3427d6a8b3e"
+    },
+    {
+      "pdf_page": 84,
+      "local_temporary_file": "tmp/literature/guide-visual-closure-20261118/gaise/page-084.png",
+      "sha256": "20373902d217c52ca9a1e9e6e5c096e573091669c8e76a46abca222a57e5f660"
+    },
+    {
+      "pdf_page": 85,
+      "local_temporary_file": "tmp/literature/GAISE_2020-p85.png",
+      "sha256": "aa9ac43c7abce5f5fea084bd895cff0e1602cebc0775c7eeac10bdb19900c4ac"
+    },
+    {
+      "pdf_page": 86,
+      "local_temporary_file": "tmp/literature/GAISE_2020-p86.png",
+      "sha256": "c28403c2888e8b87ee14fa0a84e6475a4061fa6a22c474913e775dc3d082b2e1"
+    },
+    {
+      "pdf_page": 87,
+      "local_temporary_file": "tmp/literature/GAISE_2020-p87.png",
+      "sha256": "ca4d4ed074cde79b8b5e89efc18438805e08ec2a8ff9eee4eb02ad21403a54bf"
+    },
+    {
+      "pdf_page": 88,
+      "local_temporary_file": "tmp/literature/guide-visual-closure-20261118/gaise/page-088.png",
+      "sha256": "255fa3822d4e0bd11de4beb13036640669e76d89a43bef48871c9915bbbb8e1c"
+    },
+    {
+      "pdf_page": 89,
+      "local_temporary_file": "tmp/literature/GAISE_2020-p89.png",
+      "sha256": "0d71238a253987b57f7fb60d1606df79a5503a641ba37789dbaab28b08f28e16"
+    },
+    {
+      "pdf_page": 90,
+      "local_temporary_file": "tmp/literature/GAISE_2020-p90.png",
+      "sha256": "17bdccde4e427b9176faa5f1c92866f25c03bb2e5681fa3252c085f62f85504d"
+    },
+    {
+      "pdf_page": 91,
+      "local_temporary_file": "tmp/literature/GAISE_2020-p91.png",
+      "sha256": "3919447e3b08a4b3d092e027b8c1127e568b5afbfbd61b7d8f878085902623cf"
+    },
+    {
+      "pdf_page": 92,
+      "local_temporary_file": "tmp/literature/GAISE_2020-p92.png",
+      "sha256": "3eb53729e99afaf21565ead0ad350cbdbaed17c312621cfca435bf211a8ef465"
+    },
+    {
+      "pdf_page": 93,
+      "local_temporary_file": "tmp/literature/GAISE_2020-p93.png",
+      "sha256": "4fc102c1be6c4b62eafd95e0dd87ff1afc595de9f52611dd481ec43c54239fe4"
+    },
+    {
+      "pdf_page": 94,
+      "local_temporary_file": "tmp/literature/GAISE_2020-p94.png",
+      "sha256": "05d67d1ac32391984f4b2d633ce00f96c9a2ee3c8cd6fc32b9ec396063043f96"
+    },
+    {
+      "pdf_page": 95,
+      "local_temporary_file": "tmp/literature/GAISE_2020-p95.png",
+      "sha256": "0660584e64a65e0cbe6d265600480bf445cf619dc23bec019f1c52e695fbf2c0"
+    },
+    {
+      "pdf_page": 96,
+      "local_temporary_file": "tmp/literature/GAISE_2020-p96.png",
+      "sha256": "1bb4997b1ae8aa537c6751ae7697ad0e40e40e924491631f6088147019000b45"
+    },
+    {
+      "pdf_page": 97,
+      "local_temporary_file": "tmp/literature/GAISE_2020-p97.png",
+      "sha256": "9500be3e1eecadc6c29d2bf1c6e2ad635c634cc43bf44e1ee8d9688323757e84"
+    },
+    {
+      "pdf_page": 98,
+      "local_temporary_file": "tmp/literature/GAISE_2020-p98.png",
+      "sha256": "cd448a71475e669bc3feb962d8d4a1122fdbe9fa3b80fb073b1c017c27a8f529"
+    },
+    {
+      "pdf_page": 99,
+      "local_temporary_file": "tmp/literature/GAISE_2020-p99.png",
+      "sha256": "07600f3a32b4bbb1a308c32d4e475101f7c97088b422468d6a1a3b40af5569af"
+    },
+    {
+      "pdf_page": 100,
+      "local_temporary_file": "tmp/literature/GAISE_2020-p100.png",
+      "sha256": "b738950157aa2288a6c4b6ad3c140a3f781f115263626470f6a40d65321522e4"
+    },
+    {
+      "pdf_page": 101,
+      "local_temporary_file": "tmp/literature/GAISE_2020-p101.png",
+      "sha256": "63ab2dea6e3b572211ac9a36aeacf42dba8433908f1ba0c8f14f79f3f04d9f24"
+    },
+    {
+      "pdf_page": 102,
+      "local_temporary_file": "tmp/literature/GAISE_2020-p102.png",
+      "sha256": "030798688359fbfb51a58a1aa96f9489e575da804f11fee5787b06c99215d3e6"
+    },
+    {
+      "pdf_page": 103,
+      "local_temporary_file": "tmp/literature/GAISE_2020-p103.png",
+      "sha256": "ea9ec72ec203fe125616ff3e9ee2b5c5eacca75c1ecd16d511f589126ba5d6a0"
+    },
+    {
+      "pdf_page": 104,
+      "local_temporary_file": "tmp/literature/GAISE_2020-p104.png",
+      "sha256": "b23ec43eeabfe0ba27aa785379751a0469cd56286094e0f054898160c4d1383f"
+    },
+    {
+      "pdf_page": 105,
+      "local_temporary_file": "tmp/literature/GAISE_2020-p105.png",
+      "sha256": "bed703a47aa486d0d1cf75675a11fa5491f717fba90080bac05778e3059c7a6a"
+    },
+    {
+      "pdf_page": 106,
+      "local_temporary_file": "tmp/literature/GAISE_2020-p106.png",
+      "sha256": "f331dd3b8668f9c7e26b355aa1dfc9a788ff6943fddbf00598b7b716188bf3f2"
+    },
+    {
+      "pdf_page": 107,
+      "local_temporary_file": "tmp/literature/GAISE_2020-p107.png",
+      "sha256": "88fbacf782c3c14834dfe059f7a806383f280a618fd2abb1b2da1ffa11af6597"
+    },
+    {
+      "pdf_page": 108,
+      "local_temporary_file": "tmp/literature/GAISE_2020-p108.png",
+      "sha256": "4dda9424450d6f04579f5beb7879f1ece304ae986ac96f00852f25ddabfaa922"
+    },
+    {
+      "pdf_page": 109,
+      "local_temporary_file": "tmp/literature/GAISE_2020-p109.png",
+      "sha256": "c918a297427699af370b4f2b2f0c7c1257d4e9ccdfdfa2018361d7a93267cc7d"
+    },
+    {
+      "pdf_page": 110,
+      "local_temporary_file": "tmp/literature/GAISE_2020-p110.png",
+      "sha256": "48de059804ee9c848d9725ee298d7de05344063fee86d6ecaa9ad7e7a3b9f8ad"
+    },
+    {
+      "pdf_page": 111,
+      "local_temporary_file": "historical separate authored review",
+      "sha256": "7f22951c5850721965e370f2d5f9643745434cf5234e40c8a7f655393850a6a5"
+    },
+    {
+      "pdf_page": 112,
+      "local_temporary_file": "tmp/literature/guide-visual-closure-20261118/gaise/page-112.png",
+      "sha256": "dc60fee83205fb18609d1736ebb1361eb0ab8ef166b8550774170053ad256bb0"
+    },
+    {
+      "pdf_page": 113,
+      "local_temporary_file": "tmp/literature/GAISE_2020-p113.png",
+      "sha256": "871b638660c772dd980ed03b1f24013bdd6bdd3436e3415a02376cd0c6f67d01"
+    },
+    {
+      "pdf_page": 114,
+      "local_temporary_file": "tmp/literature/GAISE_2020-p114.png",
+      "sha256": "218ae68a1438049b1ab92fa5af08e619e71c90f9c5f4b228fba04888aea438f5"
+    },
+    {
+      "pdf_page": 115,
+      "local_temporary_file": "tmp/literature/GAISE_2020-p115.png",
+      "sha256": "c075495d19be2cfcaf83614cfe947c6282651987e917e62e2194efdc9cf843cd"
+    },
+    {
+      "pdf_page": 116,
+      "local_temporary_file": "tmp/literature/GAISE_2020-p116.png",
+      "sha256": "1b090f7f8c5541a0eb56fbe505e7dd117e711301f46ad3ebef861c76fc892833"
+    },
+    {
+      "pdf_page": 117,
+      "local_temporary_file": "tmp/literature/GAISE_2020-p117.png",
+      "sha256": "c264dfcc12293ed9b488afc11c448e09a2ad122512dd6504edd26bfa50760dbe"
+    },
+    {
+      "pdf_page": 118,
+      "local_temporary_file": "tmp/literature/GAISE_2020-p118.png",
+      "sha256": "c389653cee4aa8a592270cbfb874fb48f6ad11c84d1e8a526c45bf5b0f827b77"
+    },
+    {
+      "pdf_page": 119,
+      "local_temporary_file": "tmp/literature/GAISE_2020-p119.png",
+      "sha256": "84f5f5d53855b9cb826e03776cd4ca379c43dc3150c82aa4321313d972c58d78"
+    },
+    {
+      "pdf_page": 120,
+      "local_temporary_file": "tmp/literature/GAISE_2020-p120.png",
+      "sha256": "84e963b5837bcd12c2faf16ee28741e1605d8aa620425612aa3af43ea22ee869"
+    },
+    {
+      "pdf_page": 121,
+      "local_temporary_file": "tmp/literature/GAISE_2020-p121.png",
+      "sha256": "4bd7d4c75edb8011a75b635a6255928c2e59e0f8bad42212ad1c8c9e673302e6"
+    },
+    {
+      "pdf_page": 122,
+      "local_temporary_file": "tmp/literature/guide-visual-closure-20261118/gaise/page-122.png",
+      "sha256": "dc60fee83205fb18609d1736ebb1361eb0ab8ef166b8550774170053ad256bb0"
+    },
+    {
+      "pdf_page": 123,
+      "local_temporary_file": "tmp/literature/GAISE_2020-p123.png",
+      "sha256": "da42e1020bcd0ab2e7f13e424df23a70666ae022a58bfc879b5d9aa31485e42a"
+    },
+    {
+      "pdf_page": 124,
+      "local_temporary_file": "tmp/literature/GAISE_2020-p124.png",
+      "sha256": "884d952932b0a3fa17c366aeced90d04025690d22d5b7eaf3f64719ed417996b"
+    },
+    {
+      "pdf_page": 125,
+      "local_temporary_file": "tmp/literature/GAISE_2020-p125.png",
+      "sha256": "25f0baf5f2feef4658d838ca0d2f2e4bf25781bd04953d084baf4f122e3e9c72"
+    },
+    {
+      "pdf_page": 126,
+      "local_temporary_file": "tmp/literature/GAISE_2020-p126.png",
+      "sha256": "6fd17a947e31182c981367d6952cefabb452bf3ee8d584d1f1f69c2e1ee41370"
+    }
+  ],
+  "new_visually_reviewed_pages": [
+    {
+      "pdf_page": 3,
+      "local_temporary_file": "tmp/literature/guide-visual-closure-20261118/gaise/page-003.png",
+      "sha256": "edfc796bcd5cfcf33affddfcc8dd66030a947b70ab7d983a2723a7dd0af77396"
+    },
+    {
+      "pdf_page": 4,
+      "local_temporary_file": "tmp/literature/guide-visual-closure-20261118/gaise/page-004.png",
+      "sha256": "c289ac3c81ac67349455b95eb9d0504d91b1a0c00e01d3e6d2facfec9c50fa11"
+    },
+    {
+      "pdf_page": 5,
+      "local_temporary_file": "tmp/literature/guide-visual-closure-20261118/gaise/page-005.png",
+      "sha256": "4e1a9939809b1f6800a815bce0e871723ab99b03b7db1f0f349028295008f9da"
+    },
+    {
+      "pdf_page": 6,
+      "local_temporary_file": "tmp/literature/guide-visual-closure-20261118/gaise/page-006.png",
+      "sha256": "d3b0b24ce1280f5a4f6477cd00369dd794c28045db87d76cf678c2171f9dfd4c"
+    },
+    {
+      "pdf_page": 7,
+      "local_temporary_file": "tmp/literature/guide-visual-closure-20261118/gaise/page-007.png",
+      "sha256": "6f8c8055f426a3fb56d384c53ad301bc09a5df0e3a8c140588b3f04bf664267b"
+    },
+    {
+      "pdf_page": 8,
+      "local_temporary_file": "tmp/literature/guide-visual-closure-20261118/gaise/page-008.png",
+      "sha256": "dc60fee83205fb18609d1736ebb1361eb0ab8ef166b8550774170053ad256bb0"
+    },
+    {
+      "pdf_page": 9,
+      "local_temporary_file": "tmp/literature/guide-visual-closure-20261118/gaise/page-009.png",
+      "sha256": "75a0cee7582477b6b05c91eac127b2a67eb759b4c5e29f84878ba6a4d94a3926"
+    },
+    {
+      "pdf_page": 10,
+      "local_temporary_file": "tmp/literature/guide-visual-closure-20261118/gaise/page-010.png",
+      "sha256": "49139b3289e001c556a537b36ad5529a678c565e9979c68e4b28197559f18f81"
+    },
+    {
+      "pdf_page": 11,
+      "local_temporary_file": "tmp/literature/guide-visual-closure-20261118/gaise/page-011.png",
+      "sha256": "1efe461599ff9e6ea55d7dfad33a0053a2824115ffa69d71666008b5e080cf0e"
+    },
+    {
+      "pdf_page": 12,
+      "local_temporary_file": "tmp/literature/guide-visual-closure-20261118/gaise/page-012.png",
+      "sha256": "dc60fee83205fb18609d1736ebb1361eb0ab8ef166b8550774170053ad256bb0"
+    },
+    {
+      "pdf_page": 13,
+      "local_temporary_file": "tmp/literature/guide-visual-closure-20261118/gaise/page-013.png",
+      "sha256": "ac84a3e5f763ca62915b053e876dce149fcc5e090eb3e9fc5a135959b13c1337"
+    },
+    {
+      "pdf_page": 15,
+      "local_temporary_file": "tmp/literature/guide-visual-closure-20261118/gaise/page-015.png",
+      "sha256": "9818def81e347d21da10cabf69179e09116e44130d880d2eeb76b92144acb95f"
+    },
+    {
+      "pdf_page": 29,
+      "local_temporary_file": "tmp/literature/guide-visual-closure-20261118/gaise/page-029.png",
+      "sha256": "982101ad130c4c738a2c0c8effdaf8a99f5b2e879d63cca6a8a9bcb7d629c15e"
+    },
+    {
+      "pdf_page": 30,
+      "local_temporary_file": "tmp/literature/guide-visual-closure-20261118/gaise/page-030.png",
+      "sha256": "336b0f431753ca1b399da9fa15ff556014b010607befc6a6f764d92a2cec2332"
+    },
+    {
+      "pdf_page": 31,
+      "local_temporary_file": "tmp/literature/guide-visual-closure-20261118/gaise/page-031.png",
+      "sha256": "a53efba8ca58684680a6dfa35e6d94bf999eec6b38a11ac110d4800709bf0527"
+    },
+    {
+      "pdf_page": 32,
+      "local_temporary_file": "tmp/literature/guide-visual-closure-20261118/gaise/page-032.png",
+      "sha256": "6a4506577ae219dba48a642838d28e2de62e26a2078881e31db005d0066c11d3"
+    },
+    {
+      "pdf_page": 33,
+      "local_temporary_file": "tmp/literature/guide-visual-closure-20261118/gaise/page-033.png",
+      "sha256": "eb6b684940b91e837f145e703cfeed1cd40ddee47922b703a8d649ff7e8473dc"
+    },
+    {
+      "pdf_page": 35,
+      "local_temporary_file": "tmp/literature/guide-visual-closure-20261118/gaise/page-035.png",
+      "sha256": "bb981e579f8c6b3e9516b7f6b49b4a4efdee70f36add75279f2bbd66ec3d5cef"
+    },
+    {
+      "pdf_page": 39,
+      "local_temporary_file": "tmp/literature/guide-visual-closure-20261118/gaise/page-039.png",
+      "sha256": "555d18fc9e9b596313f4bb77eb8702a6351023c53f4b1f191c5f63dd42822374"
+    },
+    {
+      "pdf_page": 45,
+      "local_temporary_file": "tmp/literature/guide-visual-closure-20261118/gaise/page-045.png",
+      "sha256": "b42d83e3933f4dbfb9b3216e32590da788ba62338262543733094e28342a2ee5"
+    },
+    {
+      "pdf_page": 47,
+      "local_temporary_file": "tmp/literature/guide-visual-closure-20261118/gaise/page-047.png",
+      "sha256": "267c8dddbd19b94efd0a22556225bc63d90a949aa4eed83381494338e195b485"
+    },
+    {
+      "pdf_page": 48,
+      "local_temporary_file": "tmp/literature/guide-visual-closure-20261118/gaise/page-048.png",
+      "sha256": "99a444d5d094a13172bdaae45d2932f3e2c7b61fb20286198e489d6ed9eb67e0"
+    },
+    {
+      "pdf_page": 50,
+      "local_temporary_file": "tmp/literature/guide-visual-closure-20261118/gaise/page-050.png",
+      "sha256": "dc60fee83205fb18609d1736ebb1361eb0ab8ef166b8550774170053ad256bb0"
+    },
+    {
+      "pdf_page": 51,
+      "local_temporary_file": "tmp/literature/guide-visual-closure-20261118/gaise/page-051.png",
+      "sha256": "90a5b902c1c7ab3e4c12d60e3237a5cc2f89daeca548605d0780d277df0d3d1e"
+    },
+    {
+      "pdf_page": 52,
+      "local_temporary_file": "tmp/literature/guide-visual-closure-20261118/gaise/page-052.png",
+      "sha256": "d85d196d285f90a3cbda53d2d9a500191835db8ae1de386f82578997ae353756"
+    },
+    {
+      "pdf_page": 53,
+      "local_temporary_file": "tmp/literature/guide-visual-closure-20261118/gaise/page-053.png",
+      "sha256": "d6a7762841eb5ce8794dcee2771f54db50097cc808924d19c20b15d0c1774c30"
+    },
+    {
+      "pdf_page": 54,
+      "local_temporary_file": "tmp/literature/guide-visual-closure-20261118/gaise/page-054.png",
+      "sha256": "b908dfbe5cf613541337837cb1af9645505f6bc07818669459a54c0f77e6cffb"
+    },
+    {
+      "pdf_page": 56,
+      "local_temporary_file": "tmp/literature/guide-visual-closure-20261118/gaise/page-056.png",
+      "sha256": "fe90db86fbf1c7ae758f0f25d647ed5fbd660ebec2a34526e4c7f07659091412"
+    },
+    {
+      "pdf_page": 62,
+      "local_temporary_file": "tmp/literature/guide-visual-closure-20261118/gaise/page-062.png",
+      "sha256": "0d40848968dd27f98ae12fa92eeece7256eb4077479cd06cff723e0f42ccddd6"
+    },
+    {
+      "pdf_page": 71,
+      "local_temporary_file": "tmp/literature/guide-visual-closure-20261118/gaise/page-071.png",
+      "sha256": "ff1a06a157efadc153ffc41ace8df682fc64b339c3105a64c671273ebb3f3dc5"
+    },
+    {
+      "pdf_page": 72,
+      "local_temporary_file": "tmp/literature/guide-visual-closure-20261118/gaise/page-072.png",
+      "sha256": "8240da0e0e6d678a9353f90ea19c8d39510fac97fd89b8e8d4f089c365543e91"
+    },
+    {
+      "pdf_page": 73,
+      "local_temporary_file": "tmp/literature/guide-visual-closure-20261118/gaise/page-073.png",
+      "sha256": "b0b5b26b7e282dfc54eeb232b36305ad64e670c4ced391a2a7e4f2ff8e597edd"
+    },
+    {
+      "pdf_page": 75,
+      "local_temporary_file": "tmp/literature/guide-visual-closure-20261118/gaise/page-075.png",
+      "sha256": "c976900cc19febb77c20507b16a3b61d58f32ffb2c34d5061ffd5343e38e60f5"
+    },
+    {
+      "pdf_page": 77,
+      "local_temporary_file": "tmp/literature/guide-visual-closure-20261118/gaise/page-077.png",
+      "sha256": "46b1e8ca87353dd76c09f572060265cfc537ddccad59f1af11cdc722442091ef"
+    },
+    {
+      "pdf_page": 78,
+      "local_temporary_file": "tmp/literature/guide-visual-closure-20261118/gaise/page-078.png",
+      "sha256": "dc60fee83205fb18609d1736ebb1361eb0ab8ef166b8550774170053ad256bb0"
+    },
+    {
+      "pdf_page": 80,
+      "local_temporary_file": "tmp/literature/guide-visual-closure-20261118/gaise/page-080.png",
+      "sha256": "d13598f48e8b465b0e835770575e7f767d75cdc5285128f0872d1c8f36e33862"
+    },
+    {
+      "pdf_page": 81,
+      "local_temporary_file": "tmp/literature/guide-visual-closure-20261118/gaise/page-081.png",
+      "sha256": "50204a01f721e184868e1a2a38bb3acdbdf34fd9db2452de6f8a68d8e3a38cbd"
+    },
+    {
+      "pdf_page": 82,
+      "local_temporary_file": "tmp/literature/guide-visual-closure-20261118/gaise/page-082.png",
+      "sha256": "92e83af44f0052e6664ffd8ea7a3b55a38d205255ebca8c4019cc2da065871f5"
+    },
+    {
+      "pdf_page": 83,
+      "local_temporary_file": "tmp/literature/guide-visual-closure-20261118/gaise/page-083.png",
+      "sha256": "58d6d210b378a5f5f71104231494d283700a2aec86e37026c7e8f3427d6a8b3e"
+    },
+    {
+      "pdf_page": 84,
+      "local_temporary_file": "tmp/literature/guide-visual-closure-20261118/gaise/page-084.png",
+      "sha256": "20373902d217c52ca9a1e9e6e5c096e573091669c8e76a46abca222a57e5f660"
+    },
+    {
+      "pdf_page": 88,
+      "local_temporary_file": "tmp/literature/guide-visual-closure-20261118/gaise/page-088.png",
+      "sha256": "255fa3822d4e0bd11de4beb13036640669e76d89a43bef48871c9915bbbb8e1c"
+    },
+    {
+      "pdf_page": 112,
+      "local_temporary_file": "tmp/literature/guide-visual-closure-20261118/gaise/page-112.png",
+      "sha256": "dc60fee83205fb18609d1736ebb1361eb0ab8ef166b8550774170053ad256bb0"
+    },
+    {
+      "pdf_page": 122,
+      "local_temporary_file": "tmp/literature/guide-visual-closure-20261118/gaise/page-122.png",
+      "sha256": "dc60fee83205fb18609d1736ebb1361eb0ab8ef166b8550774170053ad256bb0"
+    }
+  ],
+  "source_corrections": [
+    {
+      "kind": "approximation_guard",
+      "location": "인쇄26 / PDF34",
+      "observed": "13명·기호당5명에 약2.5개라고 표현한다.",
+      "recomputed_exact_ratio": "13/5=2.6",
+      "action": "원문은 근사라고 명시하므로 오자로 확정하지 않는다.2.5개를 정확한13명의 비율로 복사하지 않는다."
+    },
+    {
+      "kind": "within_source_table_figure_mismatch",
+      "location": "인쇄32–34 / PDF40–42",
+      "table_vectors": {
+        "red": [
+          6,
+          16,
+          6,
+          16,
+          18,
+          18,
+          16,
+          0,
+          16
+        ],
+        "orange": [
+          10,
+          10,
+          20,
+          20,
+          20
+        ],
+        "black": [
+          4,
+          2,
+          4,
+          2,
+          4
+        ]
+      },
+      "figure_vectors": {
+        "red": [
+          0,
+          6,
+          8,
+          14,
+          14,
+          16,
+          16,
+          16,
+          18
+        ],
+        "orange": [
+          10,
+          10,
+          18,
+          18,
+          18
+        ],
+        "black": [
+          2,
+          2,
+          4,
+          4,
+          4
+        ]
+      },
+      "table_medians": {
+        "red": 16,
+        "orange": 20,
+        "black": 4
+      },
+      "figure_medians": {
+        "red": 14,
+        "orange": 18,
+        "black": 4
+      },
+      "action": "본문 중앙값14·18·4는 그림11과 맞지만 표4와 다르다. 주황 범위도10–20과10–18로 달라진다. 원표와 그림 요약값을 혼용하지 않고 수치 전용은 보류한다. 정오표·작성 의도는 미확인이다."
+    },
+    {
+      "kind": "undefined_transfer_metric_guard",
+      "location": "인쇄30 / PDF38",
+      "observed_groups": [
+        [
+          2,
+          4,
+          5,
+          5,
+          6,
+          7,
+          8,
+          8,
+          9
+        ],
+        [
+          2,
+          3,
+          4,
+          6,
+          6,
+          6,
+          8,
+          9,
+          10
+        ]
+      ],
+      "source_steps": [
+        48,
+        58
+      ],
+      "minimum_cubes_transferred": [
+        8,
+        9
+      ],
+      "total_absolute_deviation": [
+        16,
+        18
+      ],
+      "sum_squared_deviation": [
+        40,
+        58
+      ],
+      "action": "steps 계산 규칙이 재사용할 만큼 명시되지 않았다. 옮긴 큐브 수·절대차·제곱차와 동일시하거나48을40으로 고치지 않는다. 오자라고 확정하지 않는다."
+    },
+    {
+      "kind": "within_source_figure_text_median_mismatch",
+      "location": "인쇄35–36 / PDF43–44",
+      "figure_dark": [
+        1,
+        1,
+        1,
+        1,
+        2,
+        3,
+        3,
+        4,
+        4,
+        5
+      ],
+      "figure_light": [
+        5,
+        5,
+        6,
+        6,
+        6,
+        7,
+        7,
+        8,
+        9,
+        10
+      ],
+      "figure_medians": [
+        2.5,
+        6.5
+      ],
+      "source_text_light_median": 7.5,
+      "source_text_difference": 5,
+      "action": "그림13의 점과 중앙선은 밝은 곳6.5·어두운 곳2.5,차4다. 본문7.5·차5와 불일치해 수치 인용을 보류한다. 질문2주와 분석8일의 시점도 구별한다. 원자료·정오표는 미확인이다."
+    },
+    {
+      "kind": "missing_timepoint_rate_guard",
+      "location": "인쇄37–38 / PDF45–46",
+      "observed_day8": 7,
+      "missing_day9": true,
+      "observed_day10": 10,
+      "two_day_change": 3,
+      "interval_daily_average": 1.5,
+      "action": "8→10일의3cm 변화는2일 간격이다.9일 실제 값과 각 하루 증가량은 미관측이며0으로 채우거나 연결선 값을 실측으로 제시하지 않는다. 확인한 연속 날짜의 증가와 누락 구간 평균을 구별한다."
+    },
+    {
+      "kind": "conditioning_wording_and_plot_label_guard",
+      "location": "인쇄51–53 / PDF59–61",
+      "table_rows_RB_yes_no_columns_Rap_yes_no": [
+        [
+          36,
+          4
+        ],
+        [
+          5,
+          9
+        ]
+      ],
+      "action": "36/41과4/13은Rap예/아니오 각각에서R&B예 비율이다. PDF60의 일부 문장은 조건 방향을 뒤집고,그림8의 축 변수명은 열 너비와 비율에 대한 본문 설명과 맞지 않는다. PDF61의 역조건36/40과 구별한다. 원그림·문장을 복제하지 않고 자체 표에서 조건·분모를 명시한다. 공식 정오표는 확인하지 못했다."
+    },
+    {
+      "kind": "percentage_point_guard",
+      "location": "인쇄53 / PDF61",
+      "exact_difference_percentage_points": "30400/533",
+      "relative_increase": "76/41",
+      "action": "88%와31%의 반올림 비율 차57은57퍼센트포인트로 표시한다. 정확한 차는약57.04퍼센트포인트이며31% 근처를 기준으로 한 상대 증가와 다르다."
+    },
+    {
+      "kind": "dispersion_definition_guard",
+      "location": "인쇄56–59 / PDF64–67",
+      "action": "부리 길이의 전체 범위MGF4.03·CF3.2와IQR1.03·1.24는 비교 순서가 다르다. MAD의 기준은 평균이며 중앙값 절대편차·표준편차와 구별한다. PDF66말미의길이 표현은앞의깊이 질문과 구별하고 원자료 없는 재계산·형식 검정은 주장하지 않는다."
+    },
+    {
+      "kind": "qcr_denominator_guard",
+      "location": "인쇄54·60–61 / PDF62·68–69",
+      "reported_MGF_n": 59,
+      "reported_quadrant_counts": [
+        44,
+        10
+      ],
+      "reported_qcr_denominator": 54,
+      "action": "중앙선 위 점의 처리와 원자료는 미확인이다.59와54의 차5를 자동으로 축 위 점 수나 누락 오류라고 확정하지 않는다. QCR은Pearson 계수나 직선성의 보장이 아니며 국내 새 필수 공식으로 넣지 않는다."
+    },
+    {
+      "kind": "time_window_and_aggregate_guard",
+      "location": "인쇄62 / PDF70",
+      "figure_years": [
+        1973,
+        2012
+      ],
+      "elapsed_years": 39,
+      "source_prose_years": 35,
+      "action": "그림17·18의1973–2012와 본문35년 표기는 맞지 않아35년 서술을 전용하지 않는다.39년 간격과 모든 해가 포함될 때40개 연도 표지를 구별한다. 실제 관측 연도 수·연도별 표본 수·같은 개체의 성장은 원자료 없이 확정하지 않는다."
+    },
+    {
+      "kind": "historical_photo_sample_guard",
+      "location": "인쇄63–67 / PDF71–75",
+      "action": "300가구·56개국 등의 수는2020년 서술 범위로 제한한다. 사진을 독립 가구 수로 세거나 외형만으로 가족관계·소비를 확정하지 않는다. 소비 추정의 원설명·사진 원자료·영상은 열람하지 않았다."
+    },
+    {
+      "kind": "probability_model_guard",
+      "location": "인쇄9–10 / PDF17–18",
+      "action": "짝수 비율이 공정 주사위와 맞는다고 여섯 면이 동등하다는 증명은 아니다. 자체 모형(0.1,0.2,0.1,0.2,0.3,0.1)도짝수확률은1/2다. 원문은 차이가 크면 의심할 수 있다고 설명하며 일치가 공정성의 증명이라고 주장하지 않는다.10회 묶음100개의 뜻을100회 단일 시행과 혼동하지 않는다."
+    },
+    {
+      "kind": "experimental_example_and_whisker_guard",
+      "location": "인쇄67–68 / PDF75–76",
+      "action": "원문은예시자료라고명시한다. 음악/무음 중앙값7/10·IQR3/4의 차이를 실제 현재 수업 결과로 옮기지 않는다. 그림28의음악최대15는별도점이며수염끝과최댓값을동일시하지 않는다. 배정과 표집의 결론 범위를 구별한다."
+    },
+    {
+      "kind": "variance_and_coverage_guard",
+      "location": "인쇄78–79 / PDF86–87",
+      "action": "n−1 보정은 독립 동일분포·유한 분산 표본에서 분산의 불편 추정과 관련된다. 표준편차 자체가 불편하다는 뜻은 아니다. 평균±MAD/SD에는 일반적인 고정 포함률이 없고,MAD도 평균을 기준으로 하므로 이상값 영향이 전혀 없는 요약으로 설명하지 않는다."
+    },
+    {
+      "kind": "finite_simulation_zero_guard",
+      "location": "인쇄80–84·87–88 / PDF88–92·95–96",
+      "action": "0/100·0/200은 유한 모의실험에서 관측한0회다. 정확한 확률0이나 불가능의 증명이 아니다. 원문17/100·1/100도 난수 결과의 근사로 두며 정확한 이항 꼬리 확률로 바꾸어 표시하지 않는다.35/60은 반올림58%이고 학교 비복원 표집과 독립 동전의 근사 모형을 구별한다."
+    },
+    {
+      "kind": "interval_method_guard",
+      "location": "인쇄82·91·111 / PDF90·99·119",
+      "action": "2×표준오차와1.96×표준오차,개별 예측구간과 평균 반응 신뢰구간을 구별한다. 같은 조건에서n을늘릴때 폭이줄어드는 경향과 새 표본의 중심·비율까지 유지된다는 보장은 별개다. 원문 간이식161.7±11.6은150.1–173.3이고 같은 쪽 결론149.5–174.2와 다르다. 후자의 생성 방법은 명시되지 않아 임의로 하나를 정답으로 고치지 않는다."
+    },
+    {
+      "kind": "experimental_unit_and_missingness_guard",
+      "location": "인쇄85–88 / PDF93–96",
+      "action": "처리별 봉투 수는1·1·2이고 씨앗 수는30·30·60이다. 미발아2·2·2는 같은 비율이 아니며 동일 누락 수만으로 결측의 무편향을 증명하지 못한다. 봉투별 공유 조건·독립 반복·실제 배정 단위를 확인하기 전 씨앗114개를 모두 독립 실험 반복으로 삼은 인과·순열 해석을 전용하지 않는다. 자체 설계에서는 처리별 봉투의 반복·배정과 발아율/발아한 길이라는 대상량을 명시한다."
+    },
+    {
+      "kind": "regression_layout_and_generalization_guard",
+      "location": "인쇄89–91 / PDF97–99",
+      "action": "표7은 한 인쇄 행에 두 쌍이 나뉘어 총24쌍이다. 표의 상관·기울기·절편·잔차 표준오차는 전사 수치로 재계산해 반올림이 맞음을 확인했다.39–50cm는 실제 최소39.5·최대49.1을 둥글린 범위이며 밖의 값을 자동으로 내삽이라 하지 않는다. 학급 자료의 적합을 모든 고교생의 유효 예측구간으로 확대하지 않는다."
+    },
+    {
+      "kind": "conditional_percentage_arithmetic_guard",
+      "location": "인쇄92–94 / PDF100–102",
+      "action": "표8의도수로계산하면무낮잠열의비사건1921/2014는약95.4%로표9의94.4%와다르다. 전체사건155/3462는약4.5%,비사건3307/3462는약95.5%다.3–5회열의비사건389/411은약94.6%다.93/2014와12/667의차는약2.819퍼센트포인트로최소3이라는본문과맞지않는다. 표10의기대도수는원도수의주변합으로계산하며잘못된주변비율95.2%를쓰지않는다. 이산술대조는의료권고·인용원논문·원자료재검증이아니다."
+    },
+    {
+      "kind": "secondary_map_and_smoothing_guard",
+      "location": "인쇄95–97 / PDF103–105",
+      "action": "지역 수·지도 면적과 사람 수의 가중을 구별한다. 감소 지역이 지도에서 넓어도 전체 인구가 감소한다고 단정하지 않는다.12개월 평균에는 사용할 창·결측 처리·끝 처리·짝수 창의 표시 시점을 적는다. 미래 달을 쓰는 중심 평균은 그 당시 실시간 예측값이 아니다. 월별 감소의 원인을 생년 계산으로 확정하지 않는다."
+    },
+    {
+      "kind": "classification_table_tree_and_evaluation_guard",
+      "location": "인쇄98–102 / PDF106–110",
+      "action": "6.25g 규칙에서 실제자연81개중81개의분류성공과자연예측134개중정확81개는다르다. 그림19는본문과상하배치가다르고축mm와설명cm가맞지않는다. 그림20의재분기질량4.35와본문4.25도구별한다. 잎별오류4+1+1+11+3+7=27이고전체160으로나누면16.875%이지18%가아니다. 학습자료에서고른규칙의오류율을새자료성능으로전용하지않으며CART의세부최적화구현전체를확인한것이아니다."
+    },
+    {
+      "kind": "assessment_dotplot_and_design_guard",
+      "location": "인쇄105–113 / PDF113–121",
+      "action": "그림4의팀A점은[0,1,1,2,2,2,3,5,6,8]로평균3·MAD2다. 팀B점은[0,0,0,1,1,3,4,5,7,8]로평균2.9여서두팀평균3이라는표현을정확값으로전용하지않는다. 반올림의도는미확인이다. 히스토그램에서정확한개별평균을복원하거나자발적으로선택한두경주의차이를같은사람의효과로바꾸지않는다. 계산·해석·표집/배정·추천기준을따로판정한다."
+    },
+    {
+      "kind": "historical_assessment_and_reference_scope",
+      "location": "인쇄105–106·115–116 / PDF113–114·123–124",
+      "action": "시험구성·PISA예정연도·웹서비스소개는2020년의서술이며현행정보로옮기지않는다. 참고문헌의서지·주소를읽은것은각원연구·LOCUS원도구·STEW원활동·원자료·정오표를확인한것과다르다. A/B/C를한국고정학년이나자체진단규준으로승격하지않는다."
+    },
+    {
+      "kind": "maximum_daily_change_not_identified_with_missing_day",
+      "location": "PDF45 / 인쇄37 Table6",
+      "observed": "9일째 미측정인데 하루 최대2cm·세 번으로 서술한다.",
+      "action": "실측된 연속 날짜 쌍의 최대는2cm다. 하지만8일7cm·10일10cm 사이9일 값이7 또는10인 가상 단조 완성에서는 하루3cm가 가능하다. 실제 최대가2cm였다고 단정하지 않는다. 가상 완성은 새 관측값이 아니다. 공식 정오표·작성 의도는 미확인이다."
+    },
+    {
+      "kind": "numbered_example_count_unresolved",
+      "location": "PDF5–6 / 목차, PDF11 / 서문",
+      "observed": "목차A6+B9+C8=23번호 예, 서문22예",
+      "action": "관찰한 표기를 함께 보존한다. 계속되는 예·재방문 예의 중복 맥락과 독립 연구 수를 구별하며 집계 의도는 미확인이다."
+    }
+  ],
+  "source_numeric_checks": {
+    "forearm_table_recalculation": {
+      "n": 24,
+      "slope": 2.7631025582252864,
+      "intercept": 45.777226114427535,
+      "r": 0.7973503414768842,
+      "residual_se": 5.766253122180689
+    },
+    "seed_table_summary": [
+      {
+        "n": 28,
+        "sum": 270,
+        "mean": 9.642857142857142,
+        "sample_sd": 5.02743794343921
+      },
+      {
+        "n": 28,
+        "sum": 443,
+        "mean": 15.821428571428571,
+        "sample_sd": 6.760744926239412
+      },
+      {
+        "n": 58,
+        "sum": 1268,
+        "mean": 21.862068965517242,
+        "sample_sd": 9.746701242880452
+      }
+    ],
+    "binomial_tail_n60_x_at_least35": {
+      "1/2": "141267952164510931/1152921504606846976",
+      "2/5": "2705165245677007105466693923223621337088/867361737988403547205962240695953369140625"
+    },
+    "fixed_margin_shuffle_one_sided_tail": "14533237/2051344949199",
+    "cvd_counts": [
+      [
+        93,
+        12,
+        22,
+        28
+      ],
+      [
+        1921,
+        655,
+        389,
+        342
+      ]
+    ],
+    "cart_leaf_counts": [
+      [
+        42,
+        4
+      ],
+      [
+        6,
+        1
+      ],
+      [
+        9,
+        1
+      ],
+      [
+        11,
+        21
+      ],
+      [
+        4,
+        3
+      ],
+      [
+        7,
+        51
+      ]
+    ]
+  },
+  "official_asset_comparison": {
+    "url": "https://www.amstat.org/docs/default-source/amstat-documents/gaiseiiprek-12_full.pdf",
+    "sha256": "01bddb5f52750e3c698e2610fa12e04861db1b1740e684660283ea43cf6b01db",
+    "pages": 126,
+    "whitespace_normalized_text_changed_pdf_pages": [],
+    "method": "전체126쪽의 추출 텍스트 공백 정규화 비교다. 새 파일의 픽셀·그림 동등성이나 미독 장의 독해를 입증하지 않는다. 실제 읽기·이미지는 기존SHA 원문에 묶고 기본 출처 해시는 교체하지 않았다."
+  },
+  "reading_log": [
+    "기존 A/B·서문·도입의PDF3–78 텍스트 지정76쪽·선정33쪽 이미지 기록을 보존했다.",
+    "이번에PDF79–111의Level C 목차·본문8예·요약,PDF113–121의평가소개·A4예/B5예/C4예,PDF123–124의참고문헌을 모두 읽었다. 빈112·122·125쪽의 추출 텍스트,표지1·126과 빈2쪽도 확인했다. 신규 확인 쪽은50쪽이다.",
+    "선정41쪽의 전체 페이지 이미지를 직접 대조했다. 누적74쪽 이미지이며 표지1·126과빈2·125도 포함한다. 다른빈쪽은빈추출확인과이미지대조를구별한다.126쪽전체이미지를대조했다는집계가아니다.",
+    "이제원문본문·평가예·참고문헌의텍스트전범위를읽었다. 수식·표·그림의선정이미지에서분모·잔차·조건·단위·오류율을확인했다. 원문수치의일부산술전사검산과자체7활동을별도계산했다. 인용연구의원자료분석·모든웹링크·도구화면실행을완료한것은아니다.",
+    "PDF3–15·29–33·35: 표제·저작권·목차·서문과 A수준 도입을 읽었다. 2020저작권·승인과2021도서관 서지 기술은 별개다. 수준은 고정 학년표가 아니며 성인도A에서 시작할 수 있다. 제한된 음악 응답 선택지와 반 전수조사를 학년 전체 대표 표본으로 바꾸지 않는다.",
+    "PDF5–6·11·51: 목차의 A6+B9+C8=23번호 예와 서문의22예 표기는 다르다. 연속·재방문 예는 맥락을 공유한다. 편집 의도나 공식 정오표 없이23개 독립 연구나 고유 맥락으로 세지 않는다.",
+    "PDF39·45·47–48: 사진/카드의 관측 단위, 시계열 누락일, 다섯 변수의 짝·단위를 읽었다. cm는 표준 미터법 단위이며 미국 관습 단위와의 대조를 비표준 측정으로 번역하지 않는다. 산점도의 같은 직선 근처와 정확한 동일값을 혼동하지 않는다.",
+    "PDF52–54·56·62·71–75·77–84·88: B/C질문·변수·표집·무작위 배정·시뮬레이션과 사진 사례를 읽었다. 자원 가족의 사진 수는 고유 가족 수·세계 대표 표본 수가 아니다. 보이지 않는 자물쇠를 없음으로 단정하지 않고 소비 추정치·소득·관찰/인과를 구별한다. 낮은 확률은 불가능이나 원인 확정이 아니다.",
+    "PDF50·78·112·122의 빈 판면도 확인했다. 기존 분모·QCR·그림/표·분산과 표준편차·신뢰/예측 구간·종자 실험 단위·누락·훈련/검증 오류의 한계는 유지한다."
+  ],
+  "unread_followups": [
+    "확보본 전체 판면을 대조한 범위다. 인용 원연구·원자료·More4U·원도구·공식 정오표와 별도 현행 공식 PDF의 판면 동일성은 미확인이다. 원문의 산술·조건·그림 표기 불일치는 보존한다. PDF·페이지 이미지는 재배포하지 않는다."
+  ],
+  "interpretation_limits": [
+    "A/B/C는 통계적 경험의 발전을 다루며 고정된 나이·학년 배치가 아니다. 앞선 경험을 발전시키는 틀을 국내 기준 전체의 단일 필수 경로로 바꾸지 않는다.",
+    "이 문헌은 교육 프레임워크다. IES식 권고 근거 등급·현재 과제의 효과 크기·독립 검토·학생 검증을 부여하지 않는다.",
+    "원문은 저작권 유보 판본이므로 PDF·페이지 이미지는 임시 확인용으로만 두고 자체 읽기 기록·주소·해시를 보존한다.",
+    "현재ASA 다른주소의PDF는추출본문이같았지만선정이미지를새파일로재대조하지않아기존출처해시를교체하지않았다.",
+    "추가6활동은가상자체설계다. 독립검토·실제학생응답·효과·도구화면실행완료를추가하지않는다.",
+    "본문 전범위 독해와 모든 원연구·부록 웹자산·원자료·개별 과제 효과의 확인을 구별한다. 원전의 일부 산술·표기·추론 적용 한계는 별도 기록하고 그대로 옮기지 않는다."
+  ],
+  "missing_day_exact_counterexamples": {
+    "status": "pass",
+    "known_consecutive_pair_maximum": "2",
+    "missing_day": 9,
+    "two_day_change": "3",
+    "interval_daily_mean": "3/2",
+    "counterexamples": [
+      {
+        "hypothetical_day9": "7",
+        "day8_to9": "0",
+        "day9_to10": "3",
+        "maximum_daily_change": "3"
+      },
+      {
+        "hypothetical_day9": "17/2",
+        "day8_to9": "3/2",
+        "day9_to10": "3/2",
+        "maximum_daily_change": "2"
+      },
+      {
+        "hypothetical_day9": "10",
+        "day8_to9": "3",
+        "day9_to10": "0",
+        "maximum_daily_change": "3"
+      }
+    ],
+    "student_data": false,
+    "additional_observations": false,
+    "official_erratum_verified": false
+  },
+  "previous_same_book_additional_source": "GAISE_2020_INQUIRY_SELECTED",
+  "previous_same_book_union_visual": [
+    1,
+    2,
+    14,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    34,
+    36,
+    37,
+    38,
+    40,
+    41,
+    42,
+    43,
+    44,
+    46,
+    49,
+    55,
+    57,
+    58,
+    59,
+    60,
+    61,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    74,
+    76,
+    79,
+    85,
+    86,
+    87,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110,
+    111,
+    113,
+    114,
+    115,
+    116,
+    117,
+    118,
+    119,
+    120,
+    121,
+    123,
+    124,
+    125,
+    126
+  ],
+  "read_scope": "확보한126쪽 PDF 전체 추출문과 전체126판면을 대조했다. 기존 본출처74판면과 같은 책의 별도 탐구 출처9판면을 중복 제거한83판면에 새43판면을 더했다. 이번 새 추출문 독해는0쪽이다.",
+  "previous_bibliography": {
+    "id": "GAISE_2020",
+    "title": "Pre-K–12 Guidelines for Assessment and Instruction in Statistics Education II (GAISE II): A Framework for Statistics and Data Science Education",
+    "year": 2020,
+    "kind": "공식 통계교육 프레임워크",
+    "url": "https://www.amstat.org/asa/files/pdfs/GAISE/GAISEIIPreK-12_Full.pdf",
+    "review_scope": "126쪽 PDF의 본문·평가 예·참고문헌 텍스트 전 범위를 읽고 표지·빈 쪽을 확인했다. 선정74쪽의 전체 페이지 이미지를 대조했다. 원연구·원자료·More4U·LOCUS/STEW 원도구·공식 정오표는 미확인.",
+    "supports": [
+      "질문 수집 분석 해석의 연결",
+      "관찰 단위와 분류",
+      "평균과 변이 및 결과 해석의 범위"
+    ],
+    "authors": [
+      "Anna Bargagliotti",
+      "Christine Franklin",
+      "Pip Arnold",
+      "Sheri Johnson",
+      "Leticia Perez",
+      "Denise A. Spangler",
+      "Rob Gould"
+    ],
+    "publisher": "American Statistical Association",
+    "isbn": "9781734223514",
+    "next_review": "기록한 수치·표기·추론 조건의 불일치를 원자료·인용 원연구·공식 정오표와 추가 대조하고,한국어 과제의 실제 반응·독립 검토를 확인한다. 원전 본문의 미독 장 대기는 해소했다."
+  },
+  "new_text_pdf_pages": [],
+  "new_visual_pdf_pages": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    15,
+    29,
+    30,
+    31,
+    32,
+    33,
+    35,
+    39,
+    45,
+    47,
+    48,
+    50,
+    51,
+    52,
+    53,
+    54,
+    56,
+    62,
+    71,
+    72,
+    73,
+    75,
+    77,
+    78,
+    80,
+    81,
+    82,
+    83,
+    84,
+    88,
+    112,
+    122
+  ],
+  "all_cited_originals_read": false,
+  "independent_review": false,
+  "student_validated": false,
+  "official_erratum_or_cause_verified": false
+}

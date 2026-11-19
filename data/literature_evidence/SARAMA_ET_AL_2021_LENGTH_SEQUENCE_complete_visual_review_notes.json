@@ -1,0 +1,322 @@
+{
+  "source_id": "SARAMA_ET_AL_2021_LENGTH_SEQUENCE",
+  "source_url": "https://doi.org/10.1177/23328584211026657",
+  "date": "2026-11-18",
+  "reviewer": "Codex",
+  "source_asset_kind": "pdf",
+  "source_pdf_sha256": "578e7f39fb865693335bf46cbaeb306bf30c1d5bbf291589e9c994edce9d352b",
+  "source_pdf_redistributed": false,
+  "contains_source_full_text": false,
+  "read_scope": "ERIC의 출판 형식 PDF15쪽 전체 본문·표·그림·참고문헌을 실제 판면으로 읽었다. 이전 선정9쪽의 관련 추출문 대조는 보존하며 이번 새 전문 추출문 독해는0쪽이다. 기존6판면과 새9판면을 합친 범위다. 표1–9·그림1·감사·주·저자 소개를 포함한다.",
+  "empirical_scope": {
+    "design": "within_classroom_randomized_length_instruction_comparison",
+    "sample_description": "5개 학교16개 교실의 사전187명·사후185명이다. 사후 표2의 정규57명·정순69명·역순59명을 위치에 귀속한다. 초록189명·다른 표의 인원·학교 유형별 본문 인원은 불일치가 남아 있다.",
+    "inference_limit": "5개 학교16개 교실의 유치원 길이 과제에 관한 단기 조건 비교다. 정순·역순 모두 계획10회×12분의 개별 수업이지만 순서와 반응별 비계·활동 조정이 함께 달랐고 실제 연습량·간격의 동일성은 입증되지 않았다. 정규 수업 비교에는 길이 내용과 개별 관심도 함께 달랐다. 확률적 사고 수준을 모든 학생의 필수 경로로 확대하지 않으며 국내 단위 과제·다른 측정량·독립 지연 전이는 확인하지 않았다.",
+    "student_outcome_study": true,
+    "causal_effect_established": true,
+    "local_effect_tested": false
+  },
+  "pdf_url": "https://files.eric.ed.gov/fulltext/EJ1323924.pdf",
+  "publisher_url": "https://journals.sagepub.com/doi/full/10.1177/23328584211026657",
+  "pdf_pages": 15,
+  "printed_pages": [
+    1,
+    15
+  ],
+  "selected_text_pages": [
+    1,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "visual_pdf_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "rendered_page_sha256": {
+    "1": "1508e2774bd5b8514ac0b07932d4997574133d38cb7a3730d1f3540436440d9d",
+    "2": "b1f743335dee4762687058c7f2e024db173c8da3e609e672074ca94ec3d32114",
+    "3": "bafb921dba7f6d5ec5232c46c20c3810ec4ab1eccfeb41247d1fc9b4d868ce43",
+    "4": "8eda980edde8b78cdb62c978c2f34e3c4f3d146d0b2ab3afa6ef65acc5898e11",
+    "5": "c2532ae5dac5ec00868eb398090afc2805423ce323bb82876cf03e05eef829d0",
+    "6": "bd4221c3d04de2ae244e679d2fd3a5ea6e65e087bbfe7e4afe52220b4a2b4024",
+    "7": "b68a54940af268569e89494f91fd63560e327443cd409fcf97f92233d778687f",
+    "8": "96b00adcfc39cd4e8b43594c5f16ae47b3bfb2e50f2dd64ab8e081589301ff2d",
+    "9": "9cf463d6587ce835f5a75f21173693fdb18bdfe8ce4a09978205d3aa9f415832",
+    "10": "bcc2cf1b41477715aada53842884d6c598e38f607d5c326f10eebe937187e2c9",
+    "11": "a6a6b414117af953380c60008ae3b68c30af33101684426a9ef208fddf6b8061",
+    "12": "512cbff9113177ade0497da396794ee7a34654325df2335199a74087f25b86bd",
+    "13": "1d8b1d0d69dde2be4b063c1eeac390736e668955dcf97132dcedb67390eb3cb6",
+    "14": "2b18d4cdb9155e1eae564946a16bc87d05fa18b42353bf7fb01621d0be29e8ec",
+    "15": "e7d41978e25172a6b00340c82ed6652a04934beceb4b42db04f1b88cb9c71682"
+  },
+  "results": {
+    "counts": {
+      "abstract": 189,
+      "methods_pre": 187,
+      "methods_post": 185,
+      "arm_order": [
+        "BAU",
+        "LT",
+        "REV"
+      ],
+      "table_2": [
+        57,
+        69,
+        59
+      ],
+      "table_4_row_totals": [
+        59,
+        69,
+        57
+      ],
+      "table_5_headers": [
+        57,
+        71,
+        59
+      ]
+    },
+    "contrasts": {
+      "lt_vs_bau": {
+        "posterior_median": 0.58,
+        "credible_95": [
+          0.33,
+          0.84
+        ]
+      },
+      "rev_vs_bau": {
+        "posterior_median": 0.27,
+        "credible_95": [
+          -0.01,
+          0.53
+        ]
+      },
+      "lt_vs_rev": {
+        "posterior_median": 0.32,
+        "endpoints_as_printed": [
+          0.57,
+          0.07
+        ]
+      }
+    }
+  },
+  "reading_log": [
+    "출판판의 초록, 배정·평가·결과·논의 관련 문단과 표 2~9·그림 1을 확인했다. 표본과 결과의 주요 판면을 이미지로 대조했다.",
+    "분모와 비교 조건을 확인하고 전체 모형과 과제별 관찰을 구분했다.",
+    "PDF1–4 실제 판면을 읽었다. LT는 목표·발달 진행·지도 활동의3요소이고 수준은 확률적 사고 패턴으로서 유일한 학습 경로가 아니라고 명시한다. REV는 전통·주제·프로젝트 수업 전체를 대표하는 실제 연간 처치가 아니다. BAU는 해당 학기에 길이 단원을 하지 않았다. 초록189·방법187/185의 구분을 유지한다.",
+    "PDF5–6 실제 판면과표1–2를 읽었다.5학교16교실의 사전187/사후185이며 계획10회×12분=120분,교사 요청에 따라 주1회/2회로 간격이 달랐다. REV가 일찍 활동을 마치기도 해 계획 시간과 실제 연습량의 동일성을 가정하지 않는다. 두 조건 모두 정오 피드백·시범을 받고 LT만 난도를 앞 수준으로 낮추는 조정을 했다. BAU 일부는 실망을 줄이려10분 수감각/도형 게임을 할 수 있어 모든 개별 관심이0이라고 단정하지 않는다. Spanish는 역번역 절차가 있었지만 Mandarin은 없었다.",
+    "PDF7–8 실제 판면과표3–4를 읽었다. 평가28문항·정답/전략 기록,사전3연속오류 중단/사후모든문항,시작수준은해당수준및모든이전수준각75%이상이다. 미시행을 실제오답으로 세지 않는다. 이75%는연구배치 규칙이다. 표4행합BAU59/LT69/REV57는표2와다르며39(20.08%)는전체185분모로21.08%여서반올림만으로맞지않는다. 표4를자동으로재배열하거나원분모를복원하지않는다.",
+    "PDF9–10 실제 판면과표5–9·그림1을 읽었다. 표5머리글187·행185,본문공립52/사립135와표1공립150/사립37을함께보존한다. 표8주석의작은WAIC가낮은예측성능이라는문구는본문의작은값선호와반대다. 표9는사전점수를통제한사후Rasch모형의사후중앙값이다. 그림1성장명칭·단순원점수차·조정모형을혼합하지않는다. REV대BAU구간은0포함;LT대REV구간끝점은거꾸로인쇄됐다. 중앙값의차와차의중앙값을강제동일시하지않는다.",
+    "PDF11–12 실제 논의·제한·감사·연구비·주·참고문헌 시작을 읽었다. 순서와비계·개별관심의차이를저자도한계로인정한다. LT는도움이될수있지만모든경우필요하지는않다고명시한다. 독립기관의원연구감사는우리자료외부검토건수에더하지않는다. 필요조건에관한주1은다른미출판기수성연구를참고하며길이전체학생의검증으로세지않는다.",
+    "PDF13–15 실제 참고문헌·저자소개 전체를 읽었다. 인용된논문·책·2021투고원고를새원문독해로세지않고저자소개를현재2026재직정보로확장하지않는다. 새전문추출문독해0쪽,전15판면완료(기존6+새9)다."
+  ],
+  "source_corrections": [
+    {
+      "location": "초록·방법·표 2·4·5",
+      "issue": "초록 189, 사전 187, 사후 185를 위치별로 보존한다. 표 2와 달리 표 4의 BAU·REV 행 합계가 각각 59·57이고, 표 5의 열 머리는 187명인데 행에는 185명으로 적혀 있다. 사후 분모는 방법과 일치하는 표 2에 귀속한다."
+    },
+    {
+      "location": "9쪽 본문·출판사 HTML과 표 9",
+      "issue": "정순 대 역순 .32의 구간 끝점은 [.57,.07] 순으로 인쇄됐다. 정규 대비 역순 추정 .27의 95% 신용구간 [−.01,.53]은 0을 포함한다. 저자의 방향 요약과 구간을 구별한다."
+    },
+    {
+      "location": "10~11쪽 논의",
+      "issue": "두 지도 조건에서 순서 외에도 오답에 대한 비계와 활동 조정이 달랐다. 정규 수업 비교에는 개별 수업 여부도 함께 달랐다."
+    },
+    {
+      "location": "표4·PDF8",
+      "issue": "사전187·사후185·초록189와 표4/5의 인원 불일치를 유지한다. 표1의 학교 유형별 참여 인원은 공립150/사립37이나 본문은52/135다. 표4의39(20.08%)는185분모의21.08%와 다르며 소수 둘째 자리 반올림만으로 맞지 않는다. 원 분모·교정값을 확정하지 않는다.",
+      "status": "displayed_arithmetic_discrepancy_not_official_erratum"
+    },
+    {
+      "location": "표1·PDF5와본문PDF9",
+      "issue": "학교 유형별 참여 인원150/37과52/135를 함께 보존한다. 분류·분석 대상을 원자료 없이 확정하지 않는다.",
+      "status": "unresolved_source_counts"
+    },
+    {
+      "location": "표8주석·PDF10",
+      "issue": "표8의 작은WAIC가 낮은 표본 밖 예측 성능이라는 주석은 본문의 작은 값 선호와 반대다. 공식loo정의WAIC=-2*elpd_waic를 참고해 방향을 구별하되 논문 모형은 재추정하지 않는다.95%신용구간은빈도주의p값이 아니며 REV대BAU는0을포함한다. 사후중앙값의 차를 별도 대비의 중앙값과 강제로 일치시키지 않는다. 그림1성장 표기·단순 변화·사전 통제 사후 모형을 구별한다.",
+      "status": "criterion_direction_crosscheck_not_model_reanalysis"
+    }
+  ],
+  "previous_review": {
+    "source_id": "SARAMA_ET_AL_2021_LENGTH_SEQUENCE",
+    "state": "self_read_claim_mapping",
+    "reviewer": "Codex",
+    "date": "2026-11-09",
+    "snapshot_kind": "authored_review_notes",
+    "source_asset_kind": "pdf",
+    "source_pdf_sha256": "578e7f39fb865693335bf46cbaeb306bf30c1d5bbf291589e9c994edce9d352b",
+    "snapshot_file": "data/literature_evidence/SARAMA_ET_AL_2021_LENGTH_SEQUENCE_review_notes.json",
+    "snapshot_sha256": "165905b806b84e4041d09ece0ef308ac79d028027ad94ae0a81ed3d254ae34c3",
+    "redistribution_license": "workspace_authored_notes",
+    "bibliography_snapshot": "a88a7913de9c41b484f2aac2a7d48ce4b88b7a7723665969ec043dbf9a843c0e",
+    "display": {
+      "title": "Testing a Theoretical Assumption of a Learning-Trajectories Approach in Teaching Length Measurement to Kindergartners",
+      "url": "https://doi.org/10.1177/23328584211026657",
+      "authors_year": "Sarama 외, 2021"
+    },
+    "read_scope": "출판판의 초록, 배정·평가·결과·논의 관련 문단과 표 2~9·그림 1을 확인했다. 표본과 결과의 주요 판면을 이미지로 대조했다.",
+    "scope_note": "해당 영역에서 실제 제공한 지도 조건과 결과를 연결한다.",
+    "method_note": "출판판의 방법·표·그림과 대상 성취기준의 수행 범위를 대조했다.",
+    "limits": "유치원 길이의 단기 개별 수업이다. 활동 순서와 반응에 따른 과제 조정·피드백이 함께 달랐다. 다른 측정량, 국내 단위 과제 또는 필수 학습 순서의 효과를 분리할 수 없다.",
+    "empirical_scope": {
+      "design": "within_classroom_randomized_length_instruction_comparison",
+      "sample_description": "유치원 5개 학교에서 사전검사 187명, 사후검사 185명이다. 표 2는 정규 57명, 정순 69명, 역순 59명이다.",
+      "inference_limit": "유치원 길이의 단기 개별 수업이다. 활동 순서와 반응에 따른 과제 조정·피드백이 함께 달랐다. 다른 측정량, 국내 단위 과제 또는 필수 학습 순서의 효과를 분리할 수 없다.",
+      "student_outcome_study": true,
+      "causal_effect_established": true,
+      "local_effect_tested": false
+    },
+    "independent_review": false,
+    "student_validated": false,
+    "editorial_action": "문헌 대응 4건을 추가했다.",
+    "observations": []
+  },
+  "previous_snapshot_file": "data/literature_evidence/SARAMA_ET_AL_2021_LENGTH_SEQUENCE_review_notes.json",
+  "previous_snapshot_sha256": "165905b806b84e4041d09ece0ef308ac79d028027ad94ae0a81ed3d254ae34c3",
+  "previous_rendered_page_sha256": {
+    "4": "e6a2fe46d622d416d0763d83f357b294852e8f0ffa8962c917f6328dbe1abfe2",
+    "6": "62aa3b974db122cffb2bda457e99e2a939a7b1cf069dae5873ba8e9711052d53",
+    "7": "6a8de5544cc5b7488f35f224b0004a7e91dcb7b6d41082f5f7b9effd1a7b1fd6",
+    "8": "296dde6d7a18d4024301b188aebe82a5d65a3d82d8a5b606bd595d1e5a09fbe9",
+    "9": "b24595714668aadbbf4177585f555ae8c1aca8688c5d83b915df92ad09613c07",
+    "10": "cadc9ece8c0241a8f6f3abf54b8accf81431d89a6a3c920234189121acbac593"
+  },
+  "new_visual_pdf_pages": [
+    1,
+    2,
+    3,
+    5,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "new_text_pdf_pages": [],
+  "new_full_extracted_text_pages": 0,
+  "whole_article_visual_read": true,
+  "exact_own_checks": {
+    "status": "pass",
+    "data_kind": "displayed source aggregates plus explicitly synthetic counterexamples",
+    "length_posttest_n": 185,
+    "length_school_counts_table1": [
+      150,
+      37
+    ],
+    "length_school_counts_prose": [
+      52,
+      135
+    ],
+    "table4_count39_of185_percent_nearest_cent": "21.08",
+    "printed_table4_percent": "20.08",
+    "shape_rounding_assumption": "nearest whole percent;not established author rounding policy",
+    "shape_complete_correct_compatible_n": {
+      "LT": [
+        74,
+        75
+      ],
+      "skip": [
+        65,
+        66
+      ]
+    },
+    "skip_incorrect_compatible_n": [
+      67,
+      68,
+      69,
+      70,
+      71,
+      72
+    ],
+    "common_skip_item_denominator_under_rounding_assumption": false,
+    "all_prior_levels_required_in_starting_rule": true,
+    "waic_direction_reference": "https://mc-stan.org/loo/reference/waic.html",
+    "waic_minimizes_negative_twice_elpd": true,
+    "median_contrast_not_forced_to_difference_of_medians": true,
+    "missing_strategy_code_not_numeric_score": true,
+    "descriptive_far_transfer_change_contrasts": [
+      "-7/100",
+      "1/50"
+    ],
+    "icc24_percent_is_majority": false,
+    "original_child_data_reconstructed": false,
+    "model_reestimated": false,
+    "official_erratum_verified": false
+  },
+  "publisher_direct_binary_obtained": false,
+  "publisher_binary_fidelity_verified": false,
+  "raw_student_data_read": false,
+  "all_cited_originals_read": false,
+  "official_erratum_verified": false,
+  "independent_review": false,
+  "student_validated": false,
+  "audit_findings": [
+    {
+      "pdf_pages": [
+        2,
+        3,
+        4,
+        11,
+        12
+      ],
+      "finding": "LT는 목표·사고 진행·지도 활동의 결합이며 확률적 사고 패턴과 유일한 경로는 다르다. REV는 주제·프로젝트·연간 전통 수업 전체를 직접 시행한 처치가 아니다. 순서가 더 유용하다는 결과를 모든 경우의 필요조건으로 바꾸지 않는다."
+    },
+    {
+      "pdf_pages": [
+        5,
+        6,
+        7
+      ],
+      "finding": "계획120분과 실제 연습량·주간 간격은 다르다. 두 조건 모두 정오 피드백·시범을 받고 REV는 시범 뒤 재시도했다. LT만 앞 수준으로 난도를 낮추는 조정이 가능했다. BAU 일부에는 다른 수학 게임이 허용됐다. 매 회기 전수 충실도 측정은 아니며 연구진의 점검을 우리 자료의 외부 검토로 세지 않는다."
+    },
+    {
+      "pdf_pages": [
+        7,
+        8
+      ],
+      "finding": "28문항에서 사전3연속오류 중단과 사후 전 문항 시행을 구별한다. 시작 수준의75%는 해당 수준과 모든 이전 수준의 공동 기준이다. 미시행을 실제 오답으로 처리하거나75%를 보편적 숙달 기준으로 옮기지 않는다."
+    },
+    {
+      "pdf_pages": [
+        5,
+        6,
+        8,
+        9
+      ],
+      "finding": "사전187·사후185·초록189와 표4/5의 인원 불일치를 유지한다. 표1의 학교 유형별 참여 인원은 공립150/사립37이나 본문은52/135다. 표4의39(20.08%)는185분모의21.08%와 다르며 소수 둘째 자리 반올림만으로 맞지 않는다. 원 분모·교정값을 확정하지 않는다."
+    },
+    {
+      "pdf_pages": [
+        8,
+        9,
+        10
+      ],
+      "finding": "표8의 작은WAIC가 낮은 표본 밖 예측 성능이라는 주석은 본문의 작은 값 선호와 반대다. 공식loo정의WAIC=-2*elpd_waic를 참고해 방향을 구별하되 논문 모형은 재추정하지 않는다.95%신용구간은빈도주의p값이 아니며 REV대BAU는0을포함한다. 사후중앙값의 차를 별도 대비의 중앙값과 강제로 일치시키지 않는다. 그림1성장 표기·단순 변화·사전 통제 사후 모형을 구별한다."
+    }
+  ],
+  "method_reference": {
+    "url": "https://mc-stan.org/loo/reference/waic.html",
+    "scope": "공식loo문서의Value절 WAIC=-2*elpd_waic 정의만 대조했다. 논문의 원 모형·로그우도·사후표본·WAIC오차를 복원하지 않았다.",
+    "full_document_or_cited_papers_read": false
+  }
+}

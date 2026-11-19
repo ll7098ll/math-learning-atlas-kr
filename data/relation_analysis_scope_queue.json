@@ -2,7 +2,7 @@
   "schema_version": 1,
   "interpretation": "현재 상태에서의 검토 대기 목록이다. 자동 생성은 검토 완료·오류 확정·필수 선수성의 승인이 아니다. 우선순위는 방향 주장과 후보/대비를 먼저 보는 작업 순서이며 수학적 타당성의 판정이 아니다. 개별 검토 범위가 아직 기록되지 않은 legacy_draft와 별도 위계 검토 상태를 구별한다.",
   "source_file": "data/revised_relations.json",
-  "source_snapshot": "c0770a41b8ffb2e09ec53b79246978c261be86f504daeae0c450df613e0c77ea",
+  "source_snapshot": "863ca8e8c3f8229dac8c74e90edd1a5154f6952107c3ab4f1c71ed2fc98a32b5",
   "summary": {
     "standard_relations": 2239,
     "analysis_states": {

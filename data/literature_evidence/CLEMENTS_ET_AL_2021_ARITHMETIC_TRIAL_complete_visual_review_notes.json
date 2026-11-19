@@ -1,0 +1,1116 @@
+{
+  "source_id": "CLEMENTS_ET_AL_2021_ARITHMETIC_TRIAL",
+  "source_url": "https://doi.org/10.1037/edu0000633",
+  "date": "2026-11-19",
+  "reviewer": "Codex",
+  "source_asset_kind": "pdf",
+  "source_pdf_sha256": "685c5866d210d2e0b3a862d63b843bfbdd83097d04a79760d09884c21e19136d",
+  "source_pdf_redistributed": false,
+  "contains_source_full_text": false,
+  "read_scope": "확보된 PDF46판면의 본문·표·그림·참고문헌 전체를 실제 판면으로 읽었다. 기존5판면과 새41판면을 합친 범위이며 이번 새 전문 추출문 독해는0쪽이다. ERIC46쪽 저자 원고이며 출판사15쪽 판면과 바이너리 동일성은 미확인이다. 별도 공식Word부록은 본문74블록·표S1–4·그림S1–6의 구조·수식·내장그림7개를 읽었다. Word전체 판면 렌더링은실패해레이아웃은미검증이며PDF쪽수로세지않는다.",
+  "empirical_scope": {
+    "design": "individual_random_assignment_arithmetic_trial",
+    "sample_description": "4개 학교16개 교실에서 동의319명 중28명을 제외·탈락해 순차143명·목표148명,291명을 분석했다. 연구 중 이사6명을 포함하므로28명 모두를 배정 전 제외라고 하지 않는다.",
+    "inference_limit": "4개 학교16개 교실의 편의표본을 사전검사 뒤 개인별 배정한 두 활성 개별 지도 조건 비교다. 순서·기초 세기 지원·이전 수준 비계·LT전용 중간검사 노출이 결합돼 순서만의 독립 효과가 아니다. 분량과 회기수는 동일하지 않았고 국내 집단 수업·장기 유지·검증된 정서 효과·모든 학생의 필수 순서를 입증하지 않았다.",
+    "student_outcome_study": true,
+    "causal_effect_established": true,
+    "local_effect_tested": false
+  },
+  "pdf_url": "https://files.eric.ed.gov/fulltext/ED619003.pdf",
+  "publisher_url": "https://psycnet.apa.org/doi/10.1037/edu0000633",
+  "pdf_pages": 46,
+  "printed_pages": [
+    1,
+    46
+  ],
+  "selected_text_pages": [
+    2,
+    7,
+    9,
+    10,
+    13,
+    14,
+    18,
+    19,
+    23,
+    24,
+    25,
+    26,
+    27,
+    32,
+    33
+  ],
+  "visual_pdf_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46
+  ],
+  "rendered_page_sha256": {
+    "1": "a384af26825fc8174dca177e628ef8430fa21dd50e7d775d6f792451c36e9b4b",
+    "2": "28b4be3ceb787588b8dc6d259317949bfe160973c323d13fe0f7d599b6dea79f",
+    "3": "8a935cad32a2c4a8e5c0dfceb19b3069abca1a08a275058e6041c9bf23f5789c",
+    "4": "61c7b8e4fd106e913a413d33bb19f197d98149846db991647dfb54622800ea8a",
+    "5": "519f589409d498017a7d1c7b9eb34fd85e876b0550d8d79a00bfc96c929e1fc0",
+    "6": "69de23f4dbcfbcce211df49d7ab8f5752d4dd772bafee7f8d22b8e58dc93e96f",
+    "7": "6aba0529de1e33c48bb8f1a7a2df89733ef70280829eb01bf055becb46d6cafa",
+    "8": "5084fff93d300a78deec904fde283489aa8c6242a6bf631707ba8c9b99543b2e",
+    "9": "b8c597710f6ebc4dced7a5a2fc653b5ae43e974f73a20e47f7cf7ac66bfcbd57",
+    "10": "728d3d06ee78ee473d0aa8ad987c3f471eefd410ed38ce6969db2ab06ac9e1a0",
+    "11": "98d48a1ccbc149261d3b2f28f507a468c6ae08d364f359a36d6658fb3d86aafc",
+    "12": "4f0e81085d662d6e59264b9c87b63f8033dbf58a50b8e9eb578aa99444774ef1",
+    "13": "89136266227344bf731b3745948a3f34db743322ee90657c8efb50ca44d1d1dd",
+    "14": "675f22b5d9b21ea8c9449e0b230c56379015b2c2eff1d2c2a57970ec27b9f3fe",
+    "15": "f5e5cda39ada1fdbdd292b92cd2bf9cc98bee9ab917d0c88d0217eb1d62cfd41",
+    "16": "e0472190cad41cd1de7e0ee0ca1dc340907691802b0ec7843d6a8e71d92bc34e",
+    "17": "1d46941b00b5dc882b80df7fb2eea50bac386bf63aee5111f7ac3dbd0cba1a9e",
+    "18": "75b0494ff5e460a4cb9383022f497ecce512f97ff557dda882a988ff1fdc7957",
+    "19": "aeb44a1e9aa44376e17e4c4084352923b5b2b55bf38951937d9cbdca729daf04",
+    "20": "15fb64e42e6091c506249b6e9801aabfc33fc8d9e84c2406ae51abaa82ea93b7",
+    "21": "893b26a3c81fb64018eb1030ae9492f5a7cef754e184fd7e917e32f293279236",
+    "22": "6a99a6fd6c0e646e68d09551fc4fbf6c1f383936a658dcd77652e2a3ecf2ca29",
+    "23": "2fef8641343942a5a31849f57c7d51cabf12c4c191e3019a7ac5d556bb676158",
+    "24": "11d80ce4fafc426995510360677207a9063a23392ebec05fb664c0ee59c1f062",
+    "25": "0d198c5bad4497d98af03a19ce1903b60411deef16fbd30c319e236fb86572b6",
+    "26": "a797eed491dcb7f6a20d9c95920b61103a399a540990f341cedbf30fa0801a46",
+    "27": "e3ec68999ce40182ae37b136b147c3b2989b962b1293c97d7374f5a0598b61d7",
+    "28": "1d87a17519b4b997344defa95f5782ce4e5f018421483803ef768178f58a63b4",
+    "29": "9df036af49a17088b035aec4e86117cfc8dfe53bf238ee0929817761c02c413b",
+    "30": "983063d475bf114976bdde91c55b94417bdb3a69fe4e980449c5a58268a1b182",
+    "31": "2c9fc37ff3af6bdd58365019d0c16cb22a414cdb6e8c8a036ac0f60eeb5ce28f",
+    "32": "5f69300364f4615b09beb901201ef92f8189f710af5c339e2a4dda1008790c6a",
+    "33": "bdb7a1c5a4dea57e6ba1bb90754ffedf0bf07ef64fe08e77637e58a3c1cb8c5d",
+    "34": "0cc055458563c4fcde126f07ad812180fb6918b9b22d1700cab1b3efa526d051",
+    "35": "00b8de25a2ddb6b74490fe79731bcb5349f9414c6da7346a998f9ed893ed58bd",
+    "36": "ba170de0bd7ba863d7e5350d390dc659f9cf450f8b6426531e520efc1b8a0409",
+    "37": "ed6106f501dfc713b67306defb142d345eef3efde64ef24bcbb3ee60931b9f8c",
+    "38": "6d434d87d302dc42f5fa5c825328185d938a9e15ca09041ac46cb6b14086e2af",
+    "39": "516122a030b4e943a33dfc777d2f605db1e8a4f8d746bad461d1415c4baff07b",
+    "40": "f6164d39595d5af369a31c60d1dd1075bffdb0ebb3dc262280a4006a29f28716",
+    "41": "819ab82594bc84e153f46d25dc2d85ea5131b967a67fd4e6459c337f0bf64785",
+    "42": "9041931a1d34763a763bc64b58ef5fa9d5f904a1ebf7265e0ebaf56a5e0f5bdd",
+    "43": "b51714f21a2d1f241d94aef29346d1bbc1b433b5805de03ef02ed5ef20df31b7",
+    "44": "cc93d1372d32b65d3349de7daa171fc37173e70c2d3022c4ccb0f34604488a04",
+    "45": "3c5526dff74fc299116048884ba7bdbfd2e4b035abdce7990e951b8e6b30abe4",
+    "46": "adba21be2935963c1e142450634db401875965e61f4cbb30892c89684eb248cc"
+  },
+  "results": {
+    "consented": 319,
+    "excluded_or_attrited": 28,
+    "analyzed": [
+      143,
+      148
+    ],
+    "arithmetic_pretest_items": 21,
+    "added_posttest_items": 13,
+    "baseline_model_d": 1.2,
+    "table_4_treatment": {
+      "estimate": 0.53,
+      "credible_95": [
+        0.37,
+        0.68
+      ]
+    },
+    "table_4_interaction": {
+      "estimate": 0.17,
+      "credible_95": [
+        0.04,
+        0.3
+      ],
+      "prose_interval": [
+        0.03,
+        0.3
+      ]
+    },
+    "figure_2_points": [
+      [
+        -1,
+        -1
+      ],
+      [
+        -1,
+        0
+      ],
+      [
+        -1,
+        1
+      ],
+      [
+        0,
+        -1
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        -1
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "figure_2_estimates": [
+      0.96,
+      0.78,
+      0.59,
+      0.51,
+      0.54,
+      0.57,
+      0.05,
+      0.3,
+      0.55
+    ]
+  },
+  "reading_log": [
+    "ERIC 저자 원고의 배정·검사·모형·한계 관련 문단과 그림 1·2, 표 2~4를 읽고 선정 판면을 대조했다. 출판사 권호 판면과 별도 부록은 미확보다.",
+    "분모와 비교 조건을 확인하고 전체 모형과 과제별 관찰을 구분했다.",
+    "확보된 PDF46판면의 본문·표·그림·참고문헌 전체를 실제 판면으로 읽었다. 기존5판면과 새41판면을 합친 범위이며 이번 새 전문 추출문 독해는0쪽이다. ERIC46쪽 저자 원고이며 출판사15쪽 판면과 바이너리 동일성·별도S부록은 미확인이다.",
+    "공식Word부록74본문블록과표·수식·머리말/꼬리말/비어있는각주·미주를읽고내장7그림을실제로확인했다. 본문과별도파일로기록하며Word전체판면이나PDF추가쪽독해는0이다."
+  ],
+  "source_corrections": [
+    {
+      "location": "저자 원고 24~25쪽 표 3·4와 본문",
+      "issue": "기본 모형 d=1.20, 무작위 절편을 포함한 표 4 조건 계수 .53, 절편을 제외한 최종 모형을 구분한다. 3원 상호작용 구간 하한은 표 .04와 본문 .03을 각 위치대로 기록한다."
+    },
+    {
+      "location": "저자 원고 26~27쪽 그림 2",
+      "issue": "초기 세기·연산을 각각 평균 및 평균에서 ±1 표준편차로 설정한 모형 추정이다. 아홉 칸을 실제로 따로 배정한 집단으로 읽지 않는다."
+    },
+    {
+      "location": "저자 원고 18~19·32쪽 평가",
+      "issue": "사후 연산검사에 13문항이 추가됐다. 순차군에만 실시한 중간검사는 사후검사와 일부 문항 노출이 겹친다."
+    },
+    {
+      "location": "전체판면후속대조2026-11-19",
+      "issue": "ERIC원고표지의2021학술지서지와PDF메타데이터의Word5.5.22파일명·미정리인용필드를함께기록한다. 출판사15쪽판면동일성은미확인이다. 동의319/탈락28/분석291과학교전체학생수를구별한다. 연구중이사6명도포함돼탈락전부를배정전이라고하지않는다.",
+      "status": "bounded_own_audit_not_official_erratum"
+    },
+    {
+      "location": "전체판면후속대조2026-11-19",
+      "issue": "수준은확률적사고패턴이며유일경로가아니다. 초기75%는해당수준과모든이전수준의공동조건이다. 양조건모두격려·피드백·조작물·시범을허용하나LT만이전수준비계와세기지원을제공한다. 사전21/사후13추가,병렬분석2요인후선택한사후1요인Rasch를모든국내진단과제의검증으로바꾸지않는다.",
+      "status": "bounded_own_audit_not_official_erratum"
+    },
+    {
+      "location": "전체판면후속대조2026-11-19",
+      "issue": "계획15회180+분/초기20회240분과실측LT206분13.4회/skip212분14.3회를구별한다.0.9회차이의인쇄95%CI끝점1.43/0.37순서를유지한다. 분량비유의는동일연습기회나최적수업량의입증이아니다.",
+      "status": "bounded_own_audit_not_official_erratum"
+    },
+    {
+      "location": "전체판면후속대조2026-11-19",
+      "issue": "기본모형d1.20,임의절편포함표4의.53,임의절편제외최종모형과그림2의9모형점은서로다르다. 표3의478.1−469.6은8.5이나본문은8.74(SE8.24)다. 가까운소수첫째자리반올림만으로일치하지않는다는검산이며모형재추정·공식정정은아니다.3원상호작용하한.04/.03을보존한다. 사전·사후표준화점수차를동일원점수성장·퇴행으로읽지않는다.",
+      "status": "bounded_own_audit_not_official_erratum"
+    },
+    {
+      "location": "전체판면후속대조2026-11-19",
+      "issue": "±1SD의9모형점은9개실제무작위집단이아니다. 전체문항정확성46.18/30.27%와기초사전집단93/114명의목표문제정답46/30명(49.5/26.3%)은별도분모다. 집단평균·일부목표문항비교를개별아동의전체숙달이나모든문항별유의성으로바꾸지않는다.",
+      "status": "bounded_own_audit_not_official_erratum"
+    },
+    {
+      "location": "전체판면후속대조2026-11-19",
+      "issue": "LT만사후와같은문항의중간검사를시작/중단규칙과함께경험했다. 미시행은실제오답이아니다. 질적좌절노트·세기시간배분기전은독립검증된정서인과효과가아니다. 편의표집·개별지도·가족정보제한·적응훈련·후속노출통제연구의한계를보존한다.",
+      "status": "bounded_own_audit_not_official_erratum"
+    },
+    {
+      "location": "공식Word부록",
+      "issue": "공식 부록 표S1에는 세기 문항1–9, 표S3에는 연산 사전1–22·사후1–34가 있다. 본문 세기8·연산사전21·추가13과 대조하면 개수 차이가 남는다. 22→34는12개 차이지만 문항동일성·제외이유·실제시행수를 확인한 것은 아니며 본문21→34의13개 추가도 함께 보존한다.",
+      "status": "unresolved_source_counts_or_scope_not_official_erratum"
+    },
+    {
+      "location": "공식Word부록",
+      "issue": "표S2는 모든 아동의 두 척도별 분포를 각각 전수 집계한 표가 아니다. LT의 세기 출발52명과 연산 출발91명은143명, 목표는61+87=148명이다. 본문 목표문제 예의 기초집단93/114는 세기 출발52/61과 연산수준1의41/53을 합치면 일치한다. 따라서93/114를 표의수준1만의41/53이나전체표본143/148로바꾸지않는다.",
+      "status": "unresolved_source_counts_or_scope_not_official_erratum"
+    },
+    {
+      "location": "공식Word부록",
+      "issue": "표S4는 임의효과를 포함한 모형의 민감도 표이며 본문 임의절편 제외 최종모형과 구별한다. 원문 수식은 절편/표준편차에df3·위치0·척도10의t분포를 쓰고 고정효과에는∝1을 표시한다. 모든 모수에 유한분산의 약정보 사전분포가 쓰였다고 일괄 요약하지 않는다. 표시된 대안 결과의 유사성만 읽었으며 코드·원표본·사후표본을 재추정하지 않았다.",
+      "status": "unresolved_source_counts_or_scope_not_official_erratum"
+    },
+    {
+      "location": "공식Word부록",
+      "issue": "그림S1은3a와3b를 구분하므로 수준표시의숫자를단순히n+3산술로치환하지않는다. 그림S2의대상대응·기수성·원하는개수만들기·임의수부터세기·추가횟수추적은구별한다. 내장계단/포함도식은인지모형그림이며필수단계실험의추가관측이아니다. scree와전체/16교실/지도팀예측점검그림은모형진단이지외부검증이아니다. 일부머리글의도형합성문구는원문편집잔재로유지한다.",
+      "status": "unresolved_source_counts_or_scope_not_official_erratum"
+    }
+  ],
+  "pdf_edition": "ERIC 공개 저자 원고",
+  "journal_issue_pages": [
+    1323,
+    1337
+  ],
+  "previous_review": {
+    "source_id": "CLEMENTS_ET_AL_2021_ARITHMETIC_TRIAL",
+    "state": "self_read_claim_mapping",
+    "reviewer": "Codex",
+    "date": "2026-11-09",
+    "snapshot_kind": "authored_review_notes",
+    "source_asset_kind": "pdf",
+    "source_pdf_sha256": "685c5866d210d2e0b3a862d63b843bfbdd83097d04a79760d09884c21e19136d",
+    "snapshot_file": "data/literature_evidence/CLEMENTS_ET_AL_2021_ARITHMETIC_TRIAL_review_notes.json",
+    "snapshot_sha256": "61d69cf6c2ae1b568367f19598aab74ec79ea2f63aaa04d866a5b9b33b7ede9d",
+    "redistribution_license": "workspace_authored_notes",
+    "bibliography_snapshot": "e17df6d324ad09f149d1444eeec9bccbe9a797e8f21c77b3023c2e716e976a86",
+    "display": {
+      "title": "Comparing the Efficacy of Early Arithmetic Instruction Based on a Learning Trajectory and Teaching-to-a-Target",
+      "url": "https://doi.org/10.1037/edu0000633",
+      "authors_year": "Clements 외, 2021"
+    },
+    "read_scope": "ERIC 저자 원고의 배정·검사·모형·한계 관련 문단과 그림 1·2, 표 2~4를 읽고 선정 판면을 대조했다. 출판사 권호 판면과 별도 부록은 미확보다.",
+    "scope_note": "해당 영역에서 실제 제공한 지도 조건과 결과를 연결한다.",
+    "method_note": "저자 원고의 방법·표·그림과 대상 성취기준의 수행 범위를 대조했다.",
+    "limits": "초기 연산 개별 지도 조건을 비교했다. 중간검사 노출과 세기 지원도 조건에 포함됐으므로 순서 단독 효과나 국내 학급·과제 효과는 확인할 수 없다.",
+    "empirical_scope": {
+      "design": "individual_random_assignment_arithmetic_trial",
+      "sample_description": "4개 학교 16교실에서 동의 319명 중 28명이 제외되거나 탈락했다. 사전검사 뒤 배정한 순차 143명과 목표 직접 148명이 분석 대상이다.",
+      "inference_limit": "초기 연산 개별 지도 조건을 비교했다. 중간검사 노출과 세기 지원도 조건에 포함됐으므로 순서 단독 효과나 국내 학급·과제 효과는 확인할 수 없다.",
+      "student_outcome_study": true,
+      "causal_effect_established": true,
+      "local_effect_tested": false
+    },
+    "independent_review": false,
+    "student_validated": false,
+    "editorial_action": "문헌 대응 5건을 추가했다.",
+    "observations": []
+  },
+  "previous_snapshot_file": "data/literature_evidence/CLEMENTS_ET_AL_2021_ARITHMETIC_TRIAL_review_notes.json",
+  "previous_snapshot_sha256": "61d69cf6c2ae1b568367f19598aab74ec79ea2f63aaa04d866a5b9b33b7ede9d",
+  "previous_rendered_page_sha256": {
+    "9": "91e3353bf26d7570c448dd5a6740484ba09f70ee738d7a43396b42e10bd8c2d1",
+    "10": "bb265dd7a78b2f3b8a006ed2586b395ca02503a54a1df90fa923d328136c77c0",
+    "25": "1d1231d35dbac597153e386c981e58cffa6b09e15d2e846811d5c1874f8031c9",
+    "26": "b8c6590c2b610ea6de6f885e3a4272e058cf690c368aeecf3e2b3a9595d4f016",
+    "27": "612f292f99f4552be39a187f471671b9996b107de0a814541b0636aca7ac77d6"
+  },
+  "new_visual_pdf_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46
+  ],
+  "new_text_pdf_pages": [],
+  "new_full_extracted_text_pages": 0,
+  "whole_article_visual_read": true,
+  "exact_own_checks": {
+    "status": "pass",
+    "pilot_neutral_count": 7,
+    "pilot_prose_count": 6,
+    "trial_displayed_waic_difference": "17/2",
+    "trial_reported_waic_difference": "8.74",
+    "nearest_tenth_rounding_assumption": true,
+    "trial_subgroup_denominators": [
+      93,
+      114
+    ],
+    "all_prior_levels_required_for_research_75_percent_rule": true,
+    "pilot_all_but_one_rule_is_not_75_percent": true,
+    "raw_student_data_reanalyzed": false,
+    "models_refitted": false,
+    "official_erratum": false,
+    "local_student_validation": false
+  },
+  "publisher_binary_fidelity_verified": false,
+  "raw_student_data_read": false,
+  "all_cited_originals_read": false,
+  "official_erratum_verified": false,
+  "independent_review": false,
+  "student_validated": false,
+  "audit_findings": [
+    {
+      "pdf_pages": [
+        1,
+        3,
+        13,
+        14,
+        36,
+        38,
+        46
+      ],
+      "finding": "ERIC원고표지의2021학술지서지와PDF메타데이터의Word5.5.22파일명·미정리인용필드를함께기록한다. 출판사15쪽판면동일성은미확인이다. 동의319/탈락28/분석291과학교전체학생수를구별한다. 연구중이사6명도포함돼탈락전부를배정전이라고하지않는다."
+    },
+    {
+      "pdf_pages": [
+        4,
+        5,
+        11,
+        14,
+        15,
+        16,
+        18,
+        19,
+        35
+      ],
+      "finding": "수준은확률적사고패턴이며유일경로가아니다. 초기75%는해당수준과모든이전수준의공동조건이다. 양조건모두격려·피드백·조작물·시범을허용하나LT만이전수준비계와세기지원을제공한다. 사전21/사후13추가,병렬분석2요인후선택한사후1요인Rasch를모든국내진단과제의검증으로바꾸지않는다."
+    },
+    {
+      "pdf_pages": [
+        14,
+        20,
+        21,
+        31
+      ],
+      "finding": "계획15회180+분/초기20회240분과실측LT206분13.4회/skip212분14.3회를구별한다.0.9회차이의인쇄95%CI끝점1.43/0.37순서를유지한다. 분량비유의는동일연습기회나최적수업량의입증이아니다."
+    },
+    {
+      "pdf_pages": [
+        22,
+        23,
+        24,
+        25,
+        26,
+        27
+      ],
+      "finding": "기본모형d1.20,임의절편포함표4의.53,임의절편제외최종모형과그림2의9모형점은서로다르다. 표3의478.1−469.6은8.5이나본문은8.74(SE8.24)다. 가까운소수첫째자리반올림만으로일치하지않는다는검산이며모형재추정·공식정정은아니다.3원상호작용하한.04/.03을보존한다. 사전·사후표준화점수차를동일원점수성장·퇴행으로읽지않는다."
+    },
+    {
+      "pdf_pages": [
+        27,
+        28,
+        31
+      ],
+      "finding": "±1SD의9모형점은9개실제무작위집단이아니다. 전체문항정확성46.18/30.27%와기초사전집단93/114명의목표문제정답46/30명(49.5/26.3%)은별도분모다. 집단평균·일부목표문항비교를개별아동의전체숙달이나모든문항별유의성으로바꾸지않는다."
+    },
+    {
+      "pdf_pages": [
+        30,
+        31,
+        32,
+        33,
+        35
+      ],
+      "finding": "LT만사후와같은문항의중간검사를시작/중단규칙과함께경험했다. 미시행은실제오답이아니다. 질적좌절노트·세기시간배분기전은독립검증된정서인과효과가아니다. 편의표집·개별지도·가족정보제한·적응훈련·후속노출통제연구의한계를보존한다."
+    },
+    {
+      "docx_blocks": [
+        7,
+        19
+      ],
+      "finding": "공식 부록 표S1에는 세기 문항1–9, 표S3에는 연산 사전1–22·사후1–34가 있다. 본문 세기8·연산사전21·추가13과 대조하면 개수 차이가 남는다. 22→34는12개 차이지만 문항동일성·제외이유·실제시행수를 확인한 것은 아니며 본문21→34의13개 추가도 함께 보존한다."
+    },
+    {
+      "docx_blocks": [
+        12
+      ],
+      "finding": "표S2는 모든 아동의 두 척도별 분포를 각각 전수 집계한 표가 아니다. LT의 세기 출발52명과 연산 출발91명은143명, 목표는61+87=148명이다. 본문 목표문제 예의 기초집단93/114는 세기 출발52/61과 연산수준1의41/53을 합치면 일치한다. 따라서93/114를 표의수준1만의41/53이나전체표본143/148로바꾸지않는다."
+    },
+    {
+      "docx_blocks": [
+        24,
+        26
+      ],
+      "finding": "표S4는 임의효과를 포함한 모형의 민감도 표이며 본문 임의절편 제외 최종모형과 구별한다. 원문 수식은 절편/표준편차에df3·위치0·척도10의t분포를 쓰고 고정효과에는∝1을 표시한다. 모든 모수에 유한분산의 약정보 사전분포가 쓰였다고 일괄 요약하지 않는다. 표시된 대안 결과의 유사성만 읽었으며 코드·원표본·사후표본을 재추정하지 않았다."
+    },
+    {
+      "docx_blocks": [
+        33,
+        40,
+        42,
+        48,
+        58,
+        67
+      ],
+      "finding": "그림S1은3a와3b를 구분하므로 수준표시의숫자를단순히n+3산술로치환하지않는다. 그림S2의대상대응·기수성·원하는개수만들기·임의수부터세기·추가횟수추적은구별한다. 내장계단/포함도식은인지모형그림이며필수단계실험의추가관측이아니다. scree와전체/16교실/지도팀예측점검그림은모형진단이지외부검증이아니다. 일부머리글의도형합성문구는원문편집잔재로유지한다."
+    }
+  ],
+  "unobtained_supplement_followup": {
+    "date_utc": "2026-11-18T23:08:20.393048+00:00",
+    "url": "https://doi.org/10.1037/edu0000633.supp",
+    "obtained": false,
+    "read": false,
+    "scope": "본실험 별도 부록의 제한된 공개 접근 확인;모든 접근 경로의 부재 증명은 아님",
+    "status": 200,
+    "final_url": "https://supp.apa.org/psycarticles/supplemental/edu0000633/edu0000633_supp.html",
+    "content_type": "text/html",
+    "response_bytes": 12385,
+    "subsequently_obtained_official_docx": {
+      "url": "https://supp.apa.org/psycarticles/supplemental/edu0000633/edu0000633_Supplemental-Materials.docx",
+      "sha256": "d4901c94ab7fc93e0418e522c1dc8b0395ca4f5889061246cac97693d9066718",
+      "date": "2026-11-19",
+      "pdf_obtained": false
+    }
+  },
+  "official_docx_supplement_review": {
+    "url": "https://supp.apa.org/psycarticles/supplemental/edu0000633/edu0000633_Supplemental-Materials.docx",
+    "landing_url": "https://supp.apa.org/psycarticles/supplemental/edu0000633/edu0000633_supp.html",
+    "status": 200,
+    "content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+    "sha256": "d4901c94ab7fc93e0418e522c1dc8b0395ca4f5889061246cac97693d9066718",
+    "bytes": 3430016,
+    "package_parts": [
+      {
+        "part": "[Content_Types].xml",
+        "sha256": "c33bb22dbf7f5bc3fe5c0b98dc0aee4a76ecb2f0f3c22e991e8da7f0c568c325"
+      },
+      {
+        "part": "_rels/.rels",
+        "sha256": "e19238d7a71fa7a2490776252686f70e2de6238c87cd509b5e3a3cc07c2ea4df"
+      },
+      {
+        "part": "customXml/_rels/item1.xml.rels",
+        "sha256": "80482f86e196171d66001e0e74d1900408a3aaf2463e54005d251b5f2db9a0b0"
+      },
+      {
+        "part": "customXml/item1.xml",
+        "sha256": "0a8478d8244320be9b9681f976eb4f2e19e5148387369b47aadd05f302b75935"
+      },
+      {
+        "part": "customXml/itemProps1.xml",
+        "sha256": "692b3165f9cce510a7ad2c6d178af93e17b2014246debf85ffa086b661f3e0e7"
+      },
+      {
+        "part": "docProps/app.xml",
+        "sha256": "9e36e2a03b72ac67baf26ad391ab6a099dd7e692d396bef73075dbecf134e30d"
+      },
+      {
+        "part": "docProps/core.xml",
+        "sha256": "550f777c006190816a373a940181c346dc241a0762b1c7afa2ec92ae5ce02a51"
+      },
+      {
+        "part": "word/_rels/document.xml.rels",
+        "sha256": "72589dcdee2db50655700e15452218760781f17e39a8910bd32efef1df183bac"
+      },
+      {
+        "part": "word/document.xml",
+        "sha256": "5e48baa917dc7695053292d3f84bf538b88506f62b49cd23211c28bf4cceef5a"
+      },
+      {
+        "part": "word/endnotes.xml",
+        "sha256": "6c5218f3889287495250dc88b097914a4c4d56c9ae442b6f3d5aa6e2d1f755df"
+      },
+      {
+        "part": "word/fontTable.xml",
+        "sha256": "65c3eabe239d0c4e6fc4bf9d986488f8ee505c6fa6f78606603dd97aac7c0ea4"
+      },
+      {
+        "part": "word/footer1.xml",
+        "sha256": "48300e3d3f3e8ed1e8035b2148c3ed52265f95f7f0d29d38fe81ccdbd9169f26"
+      },
+      {
+        "part": "word/footer2.xml",
+        "sha256": "ff528316a104467cd08f9ae8aef2c045cc50bb487eb395298d2c9dba22d61f47"
+      },
+      {
+        "part": "word/footer3.xml",
+        "sha256": "63efaa8a321bc00456f6aeb282dfcf19b6b2f733133a0ec53dffaab3ab1f55f9"
+      },
+      {
+        "part": "word/footer4.xml",
+        "sha256": "7c019cb3d803c53c90533089afe733c6f0844132d30844a8b709e2cf4ad10d6e"
+      },
+      {
+        "part": "word/footnotes.xml",
+        "sha256": "e48352cfe87d34d2ad0dbe9c3781cb10137109db7b2986fce60f80efcc5061c3"
+      },
+      {
+        "part": "word/header1.xml",
+        "sha256": "a5248333ceb3a812224feda2f4acf8e934496d4b64f01ce8a33e00491f19b3bb"
+      },
+      {
+        "part": "word/header2.xml",
+        "sha256": "76d28179ebd27b14c9be190b17299f205f5bea533ffcc4b928599473460719dc"
+      },
+      {
+        "part": "word/header3.xml",
+        "sha256": "d29f8e5a7be5254171ae16bc7ae5af51eec39144ad8b9a61c07fcd5c6e1c6687"
+      },
+      {
+        "part": "word/header4.xml",
+        "sha256": "401f8fbe7bfb9f6956e939c12d2360d4dc590563217eb9f0a599a0d672ad87c5"
+      },
+      {
+        "part": "word/media/image1.jpg",
+        "sha256": "792d45665384c4fd5320ea160487daa460ae86d292589c7ae2699927cd53c88d"
+      },
+      {
+        "part": "word/media/image2.emf",
+        "sha256": "f499a2da88192cc1f6c0d2617e6834cb9c77941316bb8654406e00c65fca58ff"
+      },
+      {
+        "part": "word/media/image3.emf",
+        "sha256": "7cc48f8abd98f2ba0fa144af19d4ff2598d37448fa51da94199263780bd3793a"
+      },
+      {
+        "part": "word/media/image4.png",
+        "sha256": "c8c962c8e9f88f7f1ecd861b891ea4c60961d203e5bebebb10184b6940087cc6"
+      },
+      {
+        "part": "word/media/image5.tiff",
+        "sha256": "4a369383a8848fc657e20f35930dfd970fa60bd4d53efea03bcce0b7c40ed7fa"
+      },
+      {
+        "part": "word/media/image6.tiff",
+        "sha256": "5b2116b45d4fdc12dd9b57a62ce48d72fdf44db64b01b646e2dbd3166b394882"
+      },
+      {
+        "part": "word/media/image7.tiff",
+        "sha256": "d3872b9c1455ace6e367120db6b739d43fe707d239f1e15728c73d6cdd9b7334"
+      },
+      {
+        "part": "word/numbering.xml",
+        "sha256": "aadd05ed37ef6357a28ab50b9ded35765ae7bf58d96961fd10cc57f983cbc5e9"
+      },
+      {
+        "part": "word/settings.xml",
+        "sha256": "be0737d49197312e660153c324961c692c943b5509f629a028ea5ffc60e67252"
+      },
+      {
+        "part": "word/styles.xml",
+        "sha256": "0be41da00f88dc417dc77c689dad81590813d01f76175ba89caec8c39eae8ca0"
+      },
+      {
+        "part": "word/theme/theme1.xml",
+        "sha256": "74d7bef6dc0b230a9a83a06ae4eb8c288ecb95cf2cda311526e89f6d677f1fa9"
+      },
+      {
+        "part": "word/webSettings.xml",
+        "sha256": "d211d1894ba53a295034572b5ee69ed9fb4a203cb74ad3e9887fb2f48d92701f"
+      }
+    ],
+    "body_block_count": 74,
+    "selected_body_blocks": [
+      {
+        "index": 1,
+        "kind": "p",
+        "text_sha256": "2e9d3e71b2ca6212cabfcff514c348f0f5237ce7fb6a8f73b13fb0850ea03304"
+      },
+      {
+        "index": 2,
+        "kind": "p",
+        "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "index": 3,
+        "kind": "p",
+        "text_sha256": "b0d89cab0d2d1504b132c1696c4d4bc0214dbac93a76603669ad4affad567ff4"
+      },
+      {
+        "index": 4,
+        "kind": "p",
+        "text_sha256": "d5ee5d272efa8b3dfb55befda61638a4a2a4ee5ed21fc8dd4d05ab52361e10aa"
+      },
+      {
+        "index": 5,
+        "kind": "bookmarkEnd",
+        "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "index": 6,
+        "kind": "p",
+        "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "index": 7,
+        "kind": "tbl",
+        "text_sha256": "142799967eaa27ae5a1929b3272a5914d55770ad911d9685b49cd97be6fbfa7b"
+      },
+      {
+        "index": 8,
+        "kind": "p",
+        "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "index": 9,
+        "kind": "p",
+        "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "index": 10,
+        "kind": "p",
+        "text_sha256": "34c9d1757a582e4ae421182e12503a55951a7a15646d8bad651177a1162fe665"
+      },
+      {
+        "index": 11,
+        "kind": "p",
+        "text_sha256": "738ea32a66272073c2c132f2a5a2c8e5f991611afd73994f0fc88a21f3af28e6"
+      },
+      {
+        "index": 12,
+        "kind": "tbl",
+        "text_sha256": "4a25fe955b06930e8da5a086f756a04023d07f9f4e45d81b18d6d4f14b4f540d"
+      },
+      {
+        "index": 13,
+        "kind": "p",
+        "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "index": 14,
+        "kind": "bookmarkEnd",
+        "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "index": 15,
+        "kind": "p",
+        "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "index": 16,
+        "kind": "p",
+        "text_sha256": "db6cba897f5dfbd54c46e7e696fa3b2748ca537b658a299439d47e4095f708e7"
+      },
+      {
+        "index": 17,
+        "kind": "p",
+        "text_sha256": "bdbd2f88e03fba468935523582034837720567d70ac96b4aefeab3ad3edfe135"
+      },
+      {
+        "index": 18,
+        "kind": "p",
+        "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "index": 19,
+        "kind": "tbl",
+        "text_sha256": "3fea18b82ef604122ccf24e671e373e41bbfae3bd53234849dcec6a68e10469a"
+      },
+      {
+        "index": 20,
+        "kind": "p",
+        "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "index": 21,
+        "kind": "p",
+        "text_sha256": "f7bcf86f1801a781b9395a2b308a49add5f0858ddf2dae216f94183a31c45c79"
+      },
+      {
+        "index": 22,
+        "kind": "p",
+        "text_sha256": "4544313088ef3448becd773a65f79b345d9aaa7af29845dd647f8d1f250e23d8"
+      },
+      {
+        "index": 23,
+        "kind": "p",
+        "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "index": 24,
+        "kind": "p",
+        "text_sha256": "e53a9a89768b7e2747f7a84d5a87e92e461c9894d922b655c49956c2f2a4fa15"
+      },
+      {
+        "index": 25,
+        "kind": "p",
+        "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "index": 26,
+        "kind": "tbl",
+        "text_sha256": "a5ad301cd61987a10d5c3d20182ac4776151485f7dd291bbe71596ad51a66bf8"
+      },
+      {
+        "index": 27,
+        "kind": "p",
+        "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "index": 28,
+        "kind": "p",
+        "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "index": 29,
+        "kind": "p",
+        "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "index": 30,
+        "kind": "bookmarkEnd",
+        "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "index": 31,
+        "kind": "p",
+        "text_sha256": "566e9b9f3d9b590afe60d210c35e75caf1f39dae214c31309b860b948d97bf0f"
+      },
+      {
+        "index": 32,
+        "kind": "p",
+        "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "index": 33,
+        "kind": "tbl",
+        "text_sha256": "9f3bad9e8a3a4a8ab7e59a8adef49734669d6576b895300b80951b302e759e2b"
+      },
+      {
+        "index": 34,
+        "kind": "p",
+        "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "index": 35,
+        "kind": "p",
+        "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "index": 36,
+        "kind": "p",
+        "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "index": 37,
+        "kind": "p",
+        "text_sha256": "7e6b91614eb665961bb1ec9e258cb84674608f1ebae542cc6a2ea748465262b5"
+      },
+      {
+        "index": 38,
+        "kind": "bookmarkEnd",
+        "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "index": 39,
+        "kind": "p",
+        "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "index": 40,
+        "kind": "tbl",
+        "text_sha256": "8adb78ef1acb0a4379c8d469cd8eccd54294d67f576858d0f2933732c32ac2e1"
+      },
+      {
+        "index": 41,
+        "kind": "p",
+        "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "index": 42,
+        "kind": "p",
+        "text_sha256": "81f95ee9af89ffa8890a5bb6e885613acf30bdcd523fb703b8f170453537eaf9"
+      },
+      {
+        "index": 43,
+        "kind": "bookmarkEnd",
+        "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "index": 44,
+        "kind": "p",
+        "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "index": 45,
+        "kind": "p",
+        "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "index": 46,
+        "kind": "p",
+        "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "index": 47,
+        "kind": "p",
+        "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "index": 48,
+        "kind": "p",
+        "text_sha256": "ab4c4c26e102e4365c8e93e17bc9e330ee4d1cd0aebb49bef37785c185d71113"
+      },
+      {
+        "index": 49,
+        "kind": "bookmarkEnd",
+        "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "index": 50,
+        "kind": "p",
+        "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "index": 51,
+        "kind": "p",
+        "text_sha256": "8773ab2b3147af918d587b750a3255e10767f4f4c321a0f57de899aaf192798c"
+      },
+      {
+        "index": 52,
+        "kind": "p",
+        "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "index": 53,
+        "kind": "p",
+        "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "index": 54,
+        "kind": "p",
+        "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "index": 55,
+        "kind": "p",
+        "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "index": 56,
+        "kind": "p",
+        "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "index": 57,
+        "kind": "p",
+        "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "index": 58,
+        "kind": "p",
+        "text_sha256": "eddc13b73b5dc1f29494e87f7d2a764b6be20bd59025210f812fe90d7ed9ce2a"
+      },
+      {
+        "index": 59,
+        "kind": "p",
+        "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "index": 60,
+        "kind": "p",
+        "text_sha256": "a3204fab023d886a8c1318c16e696613df3b0ba079383c47b630d1f0f6dcfbf1"
+      },
+      {
+        "index": 61,
+        "kind": "p",
+        "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "index": 62,
+        "kind": "p",
+        "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "index": 63,
+        "kind": "p",
+        "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "index": 64,
+        "kind": "p",
+        "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "index": 65,
+        "kind": "p",
+        "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "index": 66,
+        "kind": "p",
+        "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "index": 67,
+        "kind": "p",
+        "text_sha256": "86382b8124eefda4344daa09c4a580c708b9492cd780a443bc1318cd1a6da2ec"
+      },
+      {
+        "index": 68,
+        "kind": "p",
+        "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "index": 69,
+        "kind": "p",
+        "text_sha256": "056270731ffc920b9b46af564bfa6e8667027137e992e04441c90a7f79c7233a"
+      },
+      {
+        "index": 70,
+        "kind": "p",
+        "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "index": 71,
+        "kind": "p",
+        "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "index": 72,
+        "kind": "p",
+        "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "index": 73,
+        "kind": "p",
+        "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "index": 74,
+        "kind": "sectPr",
+        "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ],
+    "all_body_blocks_read": true,
+    "other_text_parts": [
+      {
+        "part": "word/footer2.xml",
+        "sha256": "ff528316a104467cd08f9ae8aef2c045cc50bb487eb395298d2c9dba22d61f47"
+      },
+      {
+        "part": "word/header4.xml",
+        "sha256": "401f8fbe7bfb9f6956e939c12d2360d4dc590563217eb9f0a599a0d672ad87c5"
+      },
+      {
+        "part": "word/footer4.xml",
+        "sha256": "7c019cb3d803c53c90533089afe733c6f0844132d30844a8b709e2cf4ad10d6e"
+      },
+      {
+        "part": "word/footnotes.xml",
+        "sha256": "e48352cfe87d34d2ad0dbe9c3781cb10137109db7b2986fce60f80efcc5061c3"
+      },
+      {
+        "part": "word/endnotes.xml",
+        "sha256": "6c5218f3889287495250dc88b097914a4c4d56c9ae442b6f3d5aa6e2d1f755df"
+      },
+      {
+        "part": "word/header1.xml",
+        "sha256": "a5248333ceb3a812224feda2f4acf8e934496d4b64f01ce8a33e00491f19b3bb"
+      },
+      {
+        "part": "word/header2.xml",
+        "sha256": "76d28179ebd27b14c9be190b17299f205f5bea533ffcc4b928599473460719dc"
+      },
+      {
+        "part": "word/footer1.xml",
+        "sha256": "48300e3d3f3e8ed1e8035b2148c3ed52265f95f7f0d29d38fe81ccdbd9169f26"
+      },
+      {
+        "part": "word/header3.xml",
+        "sha256": "d29f8e5a7be5254171ae16bc7ae5af51eec39144ad8b9a61c07fcd5c6e1c6687"
+      },
+      {
+        "part": "word/footer3.xml",
+        "sha256": "63efaa8a321bc00456f6aeb282dfcf19b6b2f733133a0ec53dffaab3ab1f55f9"
+      }
+    ],
+    "embedded_media": [
+      {
+        "part": "word/media/image2.emf",
+        "sha256": "f499a2da88192cc1f6c0d2617e6834cb9c77941316bb8654406e00c65fca58ff"
+      },
+      {
+        "part": "word/media/image1.jpg",
+        "sha256": "792d45665384c4fd5320ea160487daa460ae86d292589c7ae2699927cd53c88d"
+      },
+      {
+        "part": "word/media/image4.png",
+        "sha256": "c8c962c8e9f88f7f1ecd861b891ea4c60961d203e5bebebb10184b6940087cc6"
+      },
+      {
+        "part": "word/media/image6.tiff",
+        "sha256": "5b2116b45d4fdc12dd9b57a62ce48d72fdf44db64b01b646e2dbd3166b394882"
+      },
+      {
+        "part": "word/media/image7.tiff",
+        "sha256": "d3872b9c1455ace6e367120db6b739d43fe707d239f1e15728c73d6cdd9b7334"
+      },
+      {
+        "part": "word/media/image5.tiff",
+        "sha256": "4a369383a8848fc657e20f35930dfd970fa60bd4d53efea03bcce0b7c40ed7fa"
+      },
+      {
+        "part": "word/media/image3.emf",
+        "sha256": "7cc48f8abd98f2ba0fa144af19d4ff2598d37448fa51da94199263780bd3793a"
+      }
+    ],
+    "all_seven_embedded_images_visually_read": true,
+    "converted_vector_images": "Windows System.Drawing EMF rendering;pixel identity with Word unverified",
+    "document_page_layout_verified": false,
+    "pdf_read": false,
+    "source_redistributed": false,
+    "new_pdf_pages": 0,
+    "new_visual_pdf_pages": 0,
+    "renderer_attempt": {
+      "status": "failed",
+      "tool": "bundled render_docx.py",
+      "reason": "LibreOffice soffice.exe was not found on PATH;no full document page render",
+      "user_interface_automation": false
+    }
+  }
+}

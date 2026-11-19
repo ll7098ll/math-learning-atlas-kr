@@ -1,0 +1,328 @@
+{
+  "source_id": "LAI_BAROODY_JOHNSON_2008_INVERSION",
+  "source_url": "https://doi.org/10.1016/j.cogdev.2007.06.002",
+  "source_asset_kind": "author_web_text",
+  "author_text_review": {
+    "url": "https://www.academia.edu/48267500/Fostering_Taiwanese_preschoolers_understanding_of_the_addition_subtraction_inverse_principle",
+    "uploaded_by": "Menglung Lai (공개 검색에 표시된 이름;계정 소유·업로드 경위는 미검증)",
+    "article_pdf_obtained": false,
+    "article_printed_pages": [
+      216,
+      235
+    ],
+    "selected_sections": [
+      {
+        "section": "초록·서론·개념/계산 구별",
+        "printed_pages": [
+          216,
+          219
+        ]
+      },
+      {
+        "section": "대상·절차·과제",
+        "printed_pages": [
+          219,
+          223
+        ]
+      },
+      {
+        "section": "채점·표2·오류 유형",
+        "printed_pages": [
+          223,
+          226
+        ]
+      },
+      {
+        "section": "활동·결과·표3/4 텍스트",
+        "printed_pages": [
+          226,
+          229
+        ]
+      },
+      {
+        "section": "논의·교육 함의·제한",
+        "printed_pages": [
+          230,
+          233
+        ]
+      },
+      {
+        "section": "감사·참고문헌",
+        "printed_pages": [
+          233,
+          235
+        ]
+      }
+    ]
+  },
+  "read_scope": "저자명으로 공개된 웹 전사문의 초록·방법·채점·표1–4의 텍스트·결과·논의·참고문헌 대목을 읽고 가이드D.4·미주21 및 공식WWC77971 웹/내려받기 자료와 대조했다. 논문216–235쪽의 PDF파일·실제 판면과 그림1–4는 확보·대조하지 않았다.",
+  "date": "2026-11-18",
+  "reviewer": "Codex",
+  "original_page_layout_review": false,
+  "pdf_read": false,
+  "contains_source_full_text": false,
+  "source_pdf_redistributed": false,
+  "empirical_scope": {
+    "design": "individual_randomized_active_comparison_with_observed_school_SES",
+    "sample_description": "초록·대상 절·집단별 결과는60명/30명씩, 절차 전사문과가이드 표는30명/15명씩으로 서로 다른 수를 적는다. 두 학교·두 연령 집단이며 정확한WWC분석 표본은 미확인이다.",
+    "inference_limit": "두 대만 공립유아학교의4·5세 아동과 활동을 받은 비교 조건에 관한 연구다. 학교와SES가 겹치며 한국 학생·개별 과제 효과·고정 발달 시점을 입증하지 않는다. 전사문의 표본/채점 표기와 가이드의30명은 미해결이며 원판·원자료·공식 정오표는 미확인이다.",
+    "local_effect_tested": false
+  },
+  "reading_evidence": {
+    "previous_goal_turn": "progress:public92,109newvisual pages and one existing task refinement",
+    "reading_completed": true,
+    "format": "public web-extracted author article text;no PDF binary or original layout",
+    "text_lines_read": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      130,
+      131,
+      132,
+      133,
+      134,
+      135,
+      136,
+      137,
+      138,
+      139,
+      140,
+      141,
+      142,
+      143,
+      144,
+      145,
+      146
+    ],
+    "source_url": "https://www.academia.edu/48267500/Fostering_Taiwanese_preschoolers_understanding_of_the_addition_subtraction_inverse_principle",
+    "reported_article_printed_pages": [
+      216,
+      235
+    ],
+    "new_pdf_text_pages": 0,
+    "new_visual_pages": 0,
+    "article_sections_read": [
+      "abstract and rationale",
+      "methods and procedure",
+      "scoring and table2 text",
+      "training and results/table3/table4 text",
+      "discussion and limits",
+      "acknowledgements and references"
+    ],
+    "page_figures_not_viewed": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "web_response_assets": [
+      {
+        "file": "tmp/literature/lai-original-20261118/web-extract-0.txt",
+        "sha256": "5077a405920e96c1b8f638428b4b6f30c070bcf34bb1df1fbad75c8d014eedfc"
+      },
+      {
+        "file": "tmp/literature/lai-original-20261118/web-extract-128.txt",
+        "sha256": "8754f156d94b2a4be11f7b0fe705b0fa4e4382ad5da0ff6eccf5bc66afdd1a06"
+      },
+      {
+        "file": "tmp/literature/lai-original-20261118/web-extract-32.txt",
+        "sha256": "d1b2b2c19f2fd11fc4cdb6de5402fe37f2f8583df4a180b33b9baf2d9dd6353d"
+      },
+      {
+        "file": "tmp/literature/lai-original-20261118/web-extract-58.txt",
+        "sha256": "504651a13ef9924e4ae62d0fb91f029f828dfc6aa84e81eeb7df9e75d42bc04e"
+      },
+      {
+        "file": "tmp/literature/lai-original-20261118/web-extract-83.txt",
+        "sha256": "b617f26958e7271e2823a1eb55eeac7aece755932f127dcb47f82cd6faa6e60a"
+      }
+    ],
+    "assembled_text_sha256": "e0e96b811b134a9fa508761d0dc6033f4fe6d338b610bfc8c9bef3a2529be26a",
+    "wwc_study_url": "https://ies.ed.gov/ncee/wwc/study/77971",
+    "wwc_html_sha256": "fb077287425129a01b187a1595c99d386ac0e526010a5928d84858c0dc8ea6ca",
+    "wwc_export_url": "https://ies.ed.gov/ncee/WWC/Study/StudyExport/77971",
+    "wwc_export_sha256": "01341b7cf1c94df43d056635a6b0b16065f8c2a42bfc44fc8207538d9146bcc4",
+    "wwc_review_id": 68149,
+    "wwc_study_id": 77971,
+    "wwc_export_study_rows": 1,
+    "wwc_export_finding_rows": 0,
+    "wwc_export_sample_size_verified": false,
+    "book_same_edition_new_body_pages": 0,
+    "book_whole_obtained": false
+  },
+  "exact_own_checks": {
+    "status": "pass",
+    "identity_witnesses": 168,
+    "constant_same_correct": [
+      8,
+      0
+    ],
+    "inverse_six_of_eight_p": "43/2187",
+    "control_seven_of_eight_p": {
+      "any_non_same_uniform_three_choices": "1280/6561",
+      "correct_direction_binary_choices": "9/256",
+      "correct_direction_uniform_three_choices": "17/6561"
+    },
+    "pdf_text_discrepancy_not_official_erratum": true,
+    "authors_raw_data_reanalysed": false,
+    "student_data": false
+  },
+  "all_cited_originals_read": false,
+  "publisher_binary_fidelity_verified": false,
+  "official_erratum_verified": false,
+  "raw_student_data_read": false,
+  "independent_review": false,
+  "student_validated": false,
+  "reading_log": [
+    "초록부터 참고문헌까지 웹 추출문147행의 지정 대목을 읽었다. 표의 병합/열 순서와 그림은 전사문만으로 복원하지 않았다. 원판20쪽 독해·판면 대조로 세지 않는다.",
+    "대상 절의4세30명+5세30명·학교별30명, 집단별 결과30명씩과 절차의30명 표기를 함께 기록했다. 가이드0.54*의 분석 분모·하위 표본을 확정하지 않았다.",
+    "처음5/7개를 바로 알아보기 어렵게 고른 점·덧셈먼저/뺄셈먼저·8역관계/8통제·서로 다른 장난감/배치를 읽었다. 원문은 빠른 정답만으로 개념을 판정하지 않는다.",
+    "두 학교는각각다른SES지역이다. SES의 인과 효과와 학교 차이를 분리했다고 주장하지 않는다. 전체8주 절차와2주 활동, 약10분3회 역관계 활동 및 별도 합성/분해 비교 활동을 구별한다.",
+    "원문의ANCOVA·비모수검사·변화점수ANOVA는 다른 결과/검정이다. p=.055·.06·.057·.10을5%유의로 바꾸지 않는다. 부분점수·오류패턴 제외와 이항분포의 독립 이진 모형도 구별한다.",
+    "공식77971은2013년2.1심사·RCT·기준충족으로 표시하지만 해당 ZIP의 Studies1행/Findings0행에는30/60의 결과 분모가 없다. 빈 결과를 효과0이나 재현 분석 완료로 세지 않는다."
+  ],
+  "source_corrections": [
+    {
+      "kind": "sample_scope_unresolved",
+      "location": "웹 대상/절차/결과;가이드PDF90·95",
+      "issue": "전체60명·집단30명씩과절차30명·가이드15명씩이 공존한다. 연령 하위 집단이 존재해도 어느 하위 집단을가이드가썼는지는확정할수없다."
+    },
+    {
+      "kind": "chance_model_wording_open_without_pdf",
+      "location": "웹 인쇄223·226쪽 채점",
+      "issue": "전사문은 통제 문항의 우연정답2/3·7/8기준에p=.04를 적는다. 독립 이진모형에서2/3이면상측확률1280/6561≈.195,1/2이면9/256≈.035다. 정확한 방향만 인정하는3지선다모형은17/6561이다. 모형과 채점 수용 범위를 명시하지 않으면 대체할 수 없다."
+    },
+    {
+      "kind": "transcription_or_source_wording_unresolved",
+      "location": "웹 인쇄226쪽E.1설명·표3텍스트",
+      "issue": "같다 응답편향 설명에 많다라고 적힌 대목과 표3의 행 이름/열 배치가 불명확하다. 원판·정오표 확인 전 출판 오류로 확정하거나 표를 복원하지 않는다."
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "checked_at": "2026-11-18T23:57:35.160425+00:00",
+  "exact_ebook_isbn": "9781292052663",
+  "records": [
+    {
+      "url": "https://www.googleapis.com/books/v1/volumes/3AKqBwAAQBAJ",
+      "error": "HTTPError",
+      "detail": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.pearson.fr/book/?gcoi=27440109422760",
+      "final_url": "https://www.pearson.fr/book/?gcoi=27440109422760",
+      "status": 200,
+      "bytes": 57095,
+      "sha256": "622c422a4ff4c3863f4c26e32cf8feafc2f861a7f552e873ae9420c14b1b7bf9",
+      "content_type": "text/html;charset=UTF-8",
+      "public_preview_links": [
+        "#h2tabGBSPreview",
+        "https://encrypted.google.com/books?jscmd=viewapi&bibkeys=ISBN:129205266X,ISBN:9781292052663&callback=processDynamicLinksResponse"
+      ]
+    }
+  ],
+  "new_formal_book_body_pages": 0,
+  "purchase_made": false,
+  "account_created": false,
+  "access_control_bypassed": false,
+  "limit": "Catalog/API metadata and links only;no formal whole-book text obtained/read. Publisher catalog author field requires independent title-page check."
+}
