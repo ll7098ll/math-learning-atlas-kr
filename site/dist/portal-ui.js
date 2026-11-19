@@ -3,8 +3,8 @@
   if (!main) return;
 
   document.body.classList.add("atlas-compat");
-  const file = location.pathname.split("/").pop();
-  const tool = file === "distribution-lab.html" || file === "inquiry-workbook.html";
+  const page = location.pathname.replace(/\/$/, "").split("/").pop().replace(/\.html$/, "");
+  const tool = page === "distribution-lab" || page === "inquiry-workbook";
   document.body.classList.toggle("atlas-tool", tool);
   main.id ||= "main";
   main.tabIndex = -1;
