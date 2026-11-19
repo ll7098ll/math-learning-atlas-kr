@@ -5,6 +5,7 @@ import argparse
 import hashlib
 import json
 from pathlib import Path
+import re
 import shutil
 import subprocess
 
@@ -62,13 +63,35 @@ def write_curriculum_index(dist: Path, catalog: dict) -> None:
         encoding="utf-8", newline="\n")
 
 
+def install_compat_theme(dist: Path) -> None:
+    source = ROOT / "site/frontend/compat"
+    tokens = (source / "atlas-tokens.css").read_text(encoding="utf-8")
+    style = (source / "portal-ui.css").read_text(encoding="utf-8")
+    (dist / "portal-ui.css").write_text(tokens.rstrip() + "\n\n" + style, encoding="utf-8", newline="\n")
+    shutil.copy2(source / "portal-ui.js", dist / "portal-ui.js")
+    css_version = digest(dist / "portal-ui.css")[:12]
+    js_version = digest(dist / "portal-ui.js")[:12]
+    reference = (
+        f'<link data-atlas-theme rel="stylesheet" href="./portal-ui.css?v={css_version}">\n'
+        f'<script data-atlas-theme defer src="./portal-ui.js?v={js_version}"></script>\n'
+    )
+    for name in ("legacy.html", "distribution-lab.html", "inquiry-workbook.html"):
+        path = dist / name
+        html = path.read_text(encoding="utf-8")
+        html = re.sub(r'<link data-atlas-theme[^>]*>\n?|<script data-atlas-theme[^>]*></script>\n?', "", html)
+        if "</head>" not in html:
+            raise ValueError(f"No document head to theme in {name}")
+        path.write_text(html.replace("</head>", reference + "</head>", 1).rstrip() + "\n",
+                        encoding="utf-8", newline="\n")
+
+
 def install_explorer(dist: Path, frontend: Path, catalog: dict) -> None:
-    legacy = (dist / "index.html").read_text(encoding="utf-8")
-    legacy = legacy.replace('<nav aria-label="주요 탐색">',
-                            '<nav aria-label="주요 탐색"><a href="./">교육과정 탐색</a>', 1)
-    (dist / "legacy.html").write_text(legacy, encoding="utf-8", newline="\n")
+    legacy = dist / "legacy.html"
+    if not legacy.is_file():
+        shutil.copy2(dist / "index.html", legacy)
     shutil.copy2(frontend / "index.html", dist / "index.html")
-    shutil.copytree(frontend / "explorer-assets", dist / "explorer-assets")
+    shutil.copytree(frontend / "explorer-assets", dist / "explorer-assets", dirs_exist_ok=True)
+    install_compat_theme(dist)
     write_curriculum_index(dist, catalog)
 
 
@@ -86,7 +109,10 @@ def export(source: Path, output: Path, frontend: Path | None = None) -> dict:
     # Fixed entry points, modules, examples and standard detail files are current assets.
     paths.update(p.relative_to(dist).as_posix() for p in dist.iterdir() if p.is_file())
     paths.update(p.relative_to(dist).as_posix() for p in (dist / "content").glob("*.json"))
-    for folder in ("modules", "examples", "content/standards"):
+    folders = ["modules", "examples", "content/standards"]
+    if frontend is None:
+        folders.append("explorer-assets")
+    for folder in folders:
         paths.update(p.relative_to(dist).as_posix() for p in (dist / folder).rglob("*") if p.is_file())
     for relative in paths:
         path = safe_path(dist, relative)
@@ -104,6 +130,9 @@ def export(source: Path, output: Path, frontend: Path | None = None) -> dict:
         shutil.copy2(dist / relative, target)
     if frontend is not None:
         install_explorer(output / "dist", frontend.resolve(), catalog)
+    elif (output / "dist/legacy.html").is_file():
+        install_compat_theme(output / "dist")
+        write_curriculum_index(output / "dist", catalog)
     # The exported site lives beside the research folders instead of above research/.
     adapted = []
     for test in tests:

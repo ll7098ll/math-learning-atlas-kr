@@ -1,24 +1,25 @@
 @import "tailwindcss";
 @import "tw-animate-css";
+@import "../compat/atlas-tokens.css";
 
 :root {
   color-scheme: light;
-  --background: #f7f9f7;
-  --foreground: #172b25;
-  --primary: #1a5242;
+  --background: var(--atlas-paper);
+  --foreground: var(--atlas-ink);
+  --primary: var(--atlas-primary);
   --primary-foreground: #fff;
-  --secondary: #e1eee6;
+  --secondary: var(--atlas-tint);
   --secondary-foreground: #173e31;
-  --accent: #eaf3ed;
+  --accent: var(--atlas-hover);
   --accent-foreground: #173e31;
   --muted: #edf2ee;
-  --muted-foreground: #4e6259;
-  --border: #d2ded6;
+  --muted-foreground: var(--atlas-muted);
+  --border: var(--atlas-line);
   --input: #bdcdc2;
-  --ring: #307b60;
-  --surface: #fff;
+  --ring: var(--atlas-ring);
+  --surface: var(--atlas-surface);
   --radius: .55rem;
-  font-family: "Pretendard", "Noto Sans KR", "Malgun Gothic", system-ui, sans-serif;
+  font-family: var(--atlas-font);
 }
 
 @theme inline {

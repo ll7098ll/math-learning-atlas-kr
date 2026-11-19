@@ -1,6 +1,6 @@
 import React, { useEffect, useLayoutEffect, useRef, useState } from "react";
 import { createRoot } from "react-dom/client";
-import { BookOpen, GitCompareArrows, Layers3, Network } from "lucide-react";
+import { BookOpen } from "lucide-react";
 import { Browse } from "./browse";
 import { Compare, Detail } from "./reading";
 import { LoadState, Pdf, useContent } from "./shared";
@@ -76,10 +76,10 @@ function App() {
   }, [view, code, catalog]);
 
   const menu = [
-    ["catalog", "교육과정 탐색", route("catalog"), Layers3],
-    ["compare", "비교", route("compare"), GitCompareArrows],
-    ["hierarchy", "연결 지도", oldRoute("hierarchy"), Network],
-    ["about", "자료 안내", oldRoute("about"), BookOpen],
+    ["catalog", "교육과정 탐색", route("catalog")],
+    ["compare", "비교", route("compare")],
+    ["hierarchy", "연결 지도", oldRoute("hierarchy")],
+    ["about", "자료 안내", oldRoute("about")],
   ];
 
   return <>
@@ -90,9 +90,9 @@ function App() {
     <header className="site-header">
       <div className="site-width header-inner">
         <a className="brand" href={route("catalog")}><span className="brand-mark"><BookOpen size={21} aria-hidden="true" /></span>수학의 연결 지도</a>
-        <nav aria-label="주요 탐색">{menu.map(([id, label, href, Icon]) =>
+        <nav aria-label="주요 탐색">{menu.map(([id, label, href]) =>
           <a key={id} href={href} aria-current={(view === id || id === "catalog" && view === "standard") ? "page" : undefined}>
-            <Icon size={16} aria-hidden="true" />{label}
+            {label}
           </a>)}</nav>
         <span className="header-source"><Pdf>교육과정 원문 PDF</Pdf></span>
       </div>
