@@ -1,0 +1,40 @@
+.atlas-page-header {
+  box-sizing: border-box;
+  padding: clamp(1rem, 3vw, 1.65rem);
+  margin-bottom: 1rem;
+  border: 1px solid var(--atlas-line);
+  border-top: 3px solid var(--atlas-primary);
+  border-radius: .75rem;
+  background: var(--atlas-surface);
+}
+
+.atlas-page-header .atlas-page-title {
+  margin: 0 0 .45rem;
+  color: var(--atlas-ink);
+  font: 850 clamp(1.65rem, 3.6vw, 2.55rem)/1.28 var(--atlas-font);
+  letter-spacing: -.04em;
+  word-break: keep-all;
+  overflow-wrap: anywhere;
+}
+
+.atlas-page-header :is(.lead, .atlas-page-description) {
+  margin: 0;
+  max-width: 47rem;
+  color: var(--atlas-muted);
+  font-size: 1rem;
+  line-height: 1.65;
+}
+
+@media (max-width: 700px) {
+  .atlas-page-header { margin-bottom: .75rem; }
+}
+
+@media print {
+  .atlas-page-header {
+    margin: 0 0 1rem;
+    padding: 0;
+    background: white;
+    border: 0;
+    border-radius: 0;
+  }
+}

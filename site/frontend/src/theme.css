@@ -1,6 +1,7 @@
 @import "tailwindcss";
 @import "tw-animate-css";
 @import "../compat/atlas-tokens.css";
+@import "../compat/atlas-page.css";
 
 :root {
   color-scheme: light;
@@ -163,6 +164,9 @@ select {
 .reading-toc ol { list-style: decimal; padding: 0 1rem 1rem 2.6rem; font-size: .92rem; }
 .reading-toc li { padding: .22rem 0; }
 .compare-page header > p { margin-block: .55rem .9rem; color: var(--muted-foreground); }
+.reading-body > .atlas-page-header .standard-code { margin-bottom: .55rem; }
+.reading-body > .atlas-page-header + .official-card { margin-top: .75rem; }
+.compare-page .atlas-page-header > button { margin-top: .9rem; }
 .comparison { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 1rem; margin-top: 1.35rem; }
 .comparison-side { min-width: 0; }
 .comparison-header { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: .6rem; background: var(--muted); border: 1px solid var(--border); border-radius: .7rem; padding: 1rem; }

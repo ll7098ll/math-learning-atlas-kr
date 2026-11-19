@@ -149,4 +149,4 @@ python scripts/export_portal_snapshot.py --frontend tmp/curriculum-explorer-buil
 python scripts/export_portal_snapshot.py --verify --output tmp/curriculum-explorer-review
 ```
 
-`--frontend`는 React 진입점과 번들을 추가한다. 기존 전체 상세와 연구 도구는 `legacy.html`에서 열고, 공식 내용 체계 색인은 두 원장에서 생성한다. 연결망·목표·과제·자료 안내·분포 탐구·탐구 기록지의 공통 탐색과 스타일은 `site/frontend/compat/`에서 수정한다. React 화면도 같은 색·글꼴 값을 사용한다. 검사한 새 스냅샷의 `dist/`, `tests/`, `snapshot.json`을 함께 반영한다. Sites와 GitHub Pages의 공개 콘텐츠 판본은 각 환경의 게시 기록을 기준으로 확인한다.
+`--frontend`는 React 진입점과 번들을 추가한다. 기존 전체 상세와 연구 도구는 `legacy.html`에서 열고, 공식 내용 체계 색인은 두 원장에서 생성한다. 연결망·목표·과제·자료 안내·분포 탐구·탐구 기록지의 공통 탐색과 스타일은 `site/frontend/compat/`에서 수정한다. `atlas-tokens.css`와 `atlas-page.css`의 색·글꼴·페이지 제목 컴포넌트는 React 화면과 기존 화면에 함께 적용한다. 검사한 새 스냅샷의 `dist/`, `tests/`, `snapshot.json`을 함께 반영한다. Sites와 GitHub Pages의 공개 콘텐츠 판본은 각 환경의 게시 기록을 기준으로 확인한다.

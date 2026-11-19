@@ -53,6 +53,91 @@
     return new URLSearchParams(location.hash.slice(1));
   }
 
+  function sectionNavigation(params) {
+    const view = params.get("view");
+    const menu = document.createElement("nav");
+    menu.className = "atlas-path";
+    if (view === "standard") {
+      menu.setAttribute("aria-label", "성취기준 이동");
+      const summary = new URLSearchParams(params);
+      summary.delete("section");
+      const link = document.createElement("a");
+      link.href = "./#" + summary;
+      link.textContent = "성취기준 요약";
+      menu.append(link);
+      return menu;
+    }
+    if (!["hierarchy", "network", "overview", "connections", "explore"].includes(view)) return menu;
+    menu.setAttribute("aria-label", "연결 지도 보기");
+    const modes = [
+      ["hierarchy", "", "개념군과 위계"],
+      ["network", "", "전체 연결망"],
+      ["overview", "flow", "개념 흐름"],
+      ["overview", "structure", "학교급 구조"],
+      ["overview", "expanded", "성취기준 펼쳐 보기"],
+    ];
+    const current = view === "overview"
+      ? params.get("density") === "expanded" ? "expanded" : params.get("mode") || "flow"
+      : view === "network" ? "network" : "hierarchy";
+    for (const [target, mode, label] of modes) {
+      const link = document.createElement("a");
+      const values = new URLSearchParams({ view: target });
+      if (params.get("scope")) values.set("scope", params.get("scope"));
+      if (mode) values.set("mode", mode === "expanded" ? "structure" : mode);
+      if (mode === "expanded") values.set("density", "expanded");
+      link.href = "#" + values;
+      if ((mode || target) === current) link.setAttribute("aria-current", "page");
+      link.textContent = label;
+      menu.append(link);
+    }
+    return menu;
+  }
+
+  function prepareHeading(params) {
+    const heading = main.querySelector("h1");
+    if (!heading) return;
+    const frame = heading.closest(".page-heading, .network-intro, .network-heading, .standard-header, header")
+      || heading.parentElement;
+    if (frame === main) {
+      if (heading.classList.contains("atlas-page-title")) return;
+      const title = document.createElement("div");
+      heading.before(title);
+      title.append(heading);
+      title.className = "atlas-page-header";
+    } else {
+      frame.classList.add("atlas-page-header");
+    }
+    heading.classList.add("atlas-page-title");
+    const view = params.get("view");
+    if (tool || view === "standard" || view === "about") return;
+    const menu = sectionNavigation(params);
+    const oldMenu = main.querySelector(".atlas-path");
+    if (oldMenu?.dataset.route === params.toString()) return;
+    main.querySelectorAll(".overview-views").forEach((element) => { element.hidden = true; });
+    menu.dataset.route = params.toString();
+    if (oldMenu) oldMenu.replaceWith(menu);
+    else if (menu.children.length) {
+      const section = heading.closest(".atlas-page-header");
+      section.after(menu);
+    }
+  }
+
+  function prepareReading(params) {
+    if (params.get("view") !== "standard") return;
+    const frame = main.querySelector(".standard-header");
+    if (frame && !main.querySelector(".atlas-path")) frame.before(sectionNavigation(params));
+    const sidebar = main.querySelector(".reading-aside");
+    const outline = sidebar?.querySelector("nav");
+    if (!outline || sidebar.querySelector(".atlas-reading-outline")) return;
+    const disclosure = document.createElement("details");
+    disclosure.className = "atlas-reading-outline";
+    const label = document.createElement("summary");
+    label.textContent = "이 문서의 목차";
+    disclosure.open = !matchMedia("(max-width: 700px)").matches;
+    sidebar.append(disclosure);
+    disclosure.append(label, outline);
+  }
+
   function updateNav() {
     const view = route().get("view");
     const current = tool || view === "about" ? "about"
@@ -64,7 +149,7 @@
   }
 
   function connectMain() {
-    for (const label of main.querySelectorAll(".page-heading .eyebrow, .network-heading .eyebrow")) {
+    for (const label of main.querySelectorAll(".page-heading .eyebrow, .network-intro .eyebrow, .network-heading .eyebrow")) {
       if (/^[A-Z &-]+$/.test(label.textContent.trim())) label.hidden = true;
     }
     for (const link of main.querySelectorAll('a[href^="#view="]')) {
@@ -79,31 +164,15 @@
     const params = route();
     const view = params.get("view");
     document.body.classList.toggle("atlas-local-scope", ["about", "standard"].includes(view)
-      || Boolean(main.querySelector('.pathway-search select[name="scope"]')));
-    const heading = main.querySelector("h1");
-    if (!tool && heading && !main.querySelector(".atlas-path")) {
-      const back = document.createElement("nav");
-      back.className = "atlas-path";
-      back.setAttribute("aria-label", "관련 화면");
-      if (view === "standard") {
-        params.delete("section");
-        const link = document.createElement("a");
-        link.href = "./#" + params;
-        link.textContent = "성취기준 요약으로";
-        back.append(link);
-      } else if (["hierarchy", "network", "overview", "connections", "explore"].includes(view)) {
-        back.innerHTML = `<a href="./legacy.html#view=hierarchy">개념군과 위계</a><a href="./legacy.html#view=network">전체 연결망</a><a href="./legacy.html#view=overview&amp;mode=structure">학교급 구조</a>`;
-        const active = view === "network" ? 1 : view === "overview" && params.get("mode") === "structure" ? 2 : 0;
-        back.children[active].setAttribute("aria-current", "page");
-      }
-      if (back.children.length) main.prepend(back);
-    }
+      || Boolean(main.querySelector('form select[name="scope"]')));
+    prepareHeading(params);
+    if (!tool) prepareReading(params);
     const about = main.querySelector(".about-summary");
-    if (about && !about.querySelector(".atlas-resources")) {
+    if (about && !main.querySelector(".atlas-resources")) {
       const resources = document.createElement("section");
       resources.className = "atlas-resources";
-      resources.innerHTML = `<h3>수업 자료와 탐구 도구</h3><div><a href="./distribution-lab.html">정규분포와 t분포 탐구</a><a href="./inquiry-workbook.html">수학 탐구 기록지</a></div>`;
-      about.append(resources);
+      resources.innerHTML = `<h2>탐구 도구</h2><ul><li><a href="./distribution-lab.html"><strong>정규분포와 t분포 탐구</strong><span>자유도에 따른 곡선과 확률 비교</span></a></li><li><a href="./inquiry-workbook.html"><strong>수학 탐구 기록지</strong><span>탐구 계획·수행·성찰 기록과 인쇄</span></a></li></ul>`;
+      about.before(resources);
     }
     const intro = main.querySelector(".pathway-intro");
     if (intro && intro.parentElement.tagName !== "DETAILS") {

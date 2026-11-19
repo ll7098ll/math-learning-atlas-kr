@@ -40,9 +40,9 @@ export function Detail({ catalog, params, returnTo }) {
     </nav>
     <div className="reading-layout">
       <article className="reading-body">
-        <header>
+        <header className="atlas-page-header">
           <span className="standard-code">{code}</span>
-          <h1 tabIndex={-1}>{s.title}</h1>
+          <h1 className="atlas-page-title" tabIndex={-1}>{s.title}</h1>
           <p className="row-location">성취기준을 설명하는 분석 제목</p>
         </header>
         <section className="official-card" id="official">
@@ -158,9 +158,9 @@ function ComparisonSide({ side, standards, params, change, onOpen }) {
 export function Compare({ catalog, params, go, onOpen }) {
   const change = (delta) => go(route("compare", { ...Object.fromEntries(params), ...delta }));
   return <div className="site-width compare-page">
-    <header>
-      <h1 tabIndex={-1}>두 범위 비교</h1>
-      <p>학년군이나 과목을 두 개 골라 공식 성취기준을 나란히 읽어 보세요.</p>
+    <header className="atlas-page-header">
+      <h1 className="atlas-page-title" tabIndex={-1}>두 범위 비교</h1>
+      <p className="atlas-page-description">학년군이나 과목을 두 개 골라 공식 성취기준을 나란히 읽어 보세요.</p>
       <Button variant="outline" type="button" onClick={() => go(route("compare", {
         left: "3~4학년군", leftDomain: "수와 연산", leftCode: "4수01-09",
         right: "5~6학년군", rightDomain: "수와 연산", rightCode: "6수01-10",
