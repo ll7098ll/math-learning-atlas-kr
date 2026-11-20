@@ -18,18 +18,23 @@ export function selection(standards, scope, band, domain, category) {
     && (!domain || s.domain === domain) && (!category || s.category === category));
 }
 
-const normalize = (text) => text.normalize("NFKC").toLocaleLowerCase("ko").replace(/[\[\]\s]/g, "");
+const normalize = (text) => text.normalize("NFKC").toLocaleLowerCase("ko")
+  .replace(/[‐‑–−]/g, "-").replace(/[\[\]\s]/g, "");
 
 export function search(standards, query) {
   const needle = normalize(query);
   if (!needle) return standards;
+  const terms = query.trim().split(/\s+/).map(normalize).filter(Boolean);
   return standards.flatMap((s) => {
     const code = normalize(s.code);
-    const haystack = [s.title, s.statement, s.domain, s.subject, s.searchTerms || ""].map(normalize);
+    const haystack = [s.title, s.statement, s.domain, s.subject, s.level, bandOf(s), s.searchTerms || ""].map(normalize);
     const field = haystack.findIndex((value) => value.includes(needle));
     if (code === needle) return [{ s, rank: 0 }];
     if (code.includes(needle)) return [{ s, rank: 1 }];
-    return field === -1 ? [] : [{ s, rank: field + 2 }];
+    if (field >= 0) return [{ s, rank: field + 2 }];
+    const fields = [code, ...haystack];
+    return terms.length > 1 && terms.every((term) => fields.some((value) => value.includes(term)))
+      ? [{ s, rank: fields.length + 2 }] : [];
   }).sort((a, b) => a.rank - b.rank).map(({ s }) => s);
 }
 

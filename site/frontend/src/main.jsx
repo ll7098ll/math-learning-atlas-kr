@@ -1,11 +1,11 @@
 import React, { useEffect, useLayoutEffect, useRef, useState } from "react";
 import { createRoot } from "react-dom/client";
 import { BookOpen } from "lucide-react";
+import "./theme.css";
 import { Browse } from "./browse";
 import { Compare, Detail } from "./reading";
 import { LoadState, Pdf, useContent } from "./shared";
 import { oldRoute, paramsFrom, route } from "./curriculum";
-import "./theme.css";
 import "../compat/atlas-print.css";
 
 function App() {
@@ -26,7 +26,7 @@ function App() {
 
   function go(target, state = {}) {
     if (location.hash === target) return;
-    history.pushState(state, "", target);
+    history.pushState({ ...state, position: (history.state?.position ?? 0) + 1 }, "", target);
     setHash(target);
   }
 
@@ -34,11 +34,13 @@ function App() {
     if (event.button !== 0 || event.ctrlKey || event.metaKey || event.altKey || event.shiftKey) return;
     event.preventDefault();
     const focusOnReturn = { row: selectedCode, id: event.currentTarget.id, scroll: window.scrollY };
-    const returnState = { ...history.state, focusOnReturn };
-    history.replaceState(returnState, "");
+    const origin = location.hash || route("catalog");
+    const position = history.state?.position ?? 0;
+    const catalogReturn = view === "catalog" ? origin : history.state?.catalogReturn;
+    const catalogPosition = view === "catalog" ? position : history.state?.catalogPosition;
+    history.replaceState({ ...history.state, position, focusOnReturn }, "");
     go(event.currentTarget.getAttribute("href"), {
-      returnTo: location.hash || route("catalog"),
-      returnState,
+      returnTo: origin, returnPosition: position, catalogReturn, catalogPosition,
     });
   }
 
@@ -46,7 +48,13 @@ function App() {
     if (event.button !== 0 || event.ctrlKey || event.metaKey || event.altKey || event.shiftKey) return;
     event.preventDefault();
     const state = history.state;
-    go(target, state?.returnTo === target ? state.returnState || { focusOnReturn: state.restore } : {});
+    const position = target === state?.returnTo ? state.returnPosition
+      : target === state?.catalogReturn ? state.catalogPosition : undefined;
+    if (Number.isInteger(position) && position < state.position) {
+      history.go(position - state.position);
+    } else {
+      go(target, state?.returnTo === target ? state.returnState || { focusOnReturn: state.restore } : {});
+    }
   }
 
   useLayoutEffect(() => {
@@ -58,7 +66,7 @@ function App() {
     const row = view === "catalog" ? params.get("focus") : "";
     const id = saved?.id || ((saved?.row || row) && "std-" + (saved?.row || row));
     const target = id && document.getElementById(id);
-    if (target) {
+    if (target && target.getClientRects().length) {
       target.focus({ preventScroll: true });
       if (saved) window.scrollTo(0, saved.scroll);
       else target.scrollIntoView({ block: "center" });

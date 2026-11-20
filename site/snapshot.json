@@ -4,7 +4,7 @@
   "task_dataset_version": "ea21341a92455351",
   "concept_dataset_version": "3020157b0b115a7a",
   "source_commit": null,
-  "source_base_commit": "24cc613948b6fde6ef3789f2830026368fb6809d",
+  "source_base_commit": "cf03f4ece594ff7bb4586958dc55e78653056f75",
   "source_worktree_clean": false,
   "scope": "current_references_only; no saved-version archives or hosting metadata",
   "test_path_adaptations": [
@@ -37,12 +37,6 @@
       "path": "dist/content/catalog.json",
       "bytes": 392677,
       "sha256": "6303d8687382349c60f844c786920da85316fb11becb6544b1b64ad1fd1b7be4",
-      "optional_in_git": false
-    },
-    {
-      "path": "dist/content/concept-pathways-index.json",
-      "bytes": 37790,
-      "sha256": "f0e2ad1ccae1afb5c6c6d90ca60919bcf4e58b210d5a6390d60f06a6b83ff565",
       "optional_in_git": false
     },
     {
@@ -325,6 +319,12 @@
       "path": "dist/content/concept-pathways/items/ff5d58962a3ae792f03c10f4536eba5e28eae6dc223f502f93304eb7ce243b41.json",
       "bytes": 574668,
       "sha256": "ff5d58962a3ae792f03c10f4536eba5e28eae6dc223f502f93304eb7ce243b41",
+      "optional_in_git": false
+    },
+    {
+      "path": "dist/content/concept-pathways-index.json",
+      "bytes": 37790,
+      "sha256": "f0e2ad1ccae1afb5c6c6d90ca60919bcf4e58b210d5a6390d60f06a6b83ff565",
       "optional_in_git": false
     },
     {
@@ -2962,12 +2962,6 @@
       "optional_in_git": false
     },
     {
-      "path": "dist/content/task-pathways-index.json",
-      "bytes": 42744,
-      "sha256": "7dd71b14ede476f8325e083d46c2125d7127beb54291516c98b3ca80914ce1f9",
-      "optional_in_git": false
-    },
-    {
       "path": "dist/content/task-pathways/items/003679576c2aa752f130b5060c63ecd4f2bbb2ef5bf3b56f77d19217c4818bfd.json",
       "bytes": 17326,
       "sha256": "003679576c2aa752f130b5060c63ecd4f2bbb2ef5bf3b56f77d19217c4818bfd",
@@ -5581,6 +5575,12 @@
       "path": "dist/content/task-pathways/items/ff8cfc0def519c35386449f8b3dad7ec7239927fa3d779d9b7445dbaec748236.json",
       "bytes": 12958,
       "sha256": "ff8cfc0def519c35386449f8b3dad7ec7239927fa3d779d9b7445dbaec748236",
+      "optional_in_git": false
+    },
+    {
+      "path": "dist/content/task-pathways-index.json",
+      "bytes": 42744,
+      "sha256": "7dd71b14ede476f8325e083d46c2125d7127beb54291516c98b3ca80914ce1f9",
       "optional_in_git": false
     },
     {
@@ -8338,6 +8338,12 @@
       "optional_in_git": false
     },
     {
+      "path": "dist/explorer-assets/index-Bc09aEuL.css",
+      "bytes": 60585,
+      "sha256": "bf07bb232b5e9037cc3004d812e0def7c17fda267a2db407fbb45bc15da9192b",
+      "optional_in_git": false
+    },
+    {
       "path": "dist/explorer-assets/index-BSP06JLa.css",
       "bytes": 42110,
       "sha256": "08648261c110e947e710509c9a9322942d756e0c1cc72c485cdebf8621282696",
@@ -8347,6 +8353,12 @@
       "path": "dist/explorer-assets/index-BxuNNUxd.js",
       "bytes": 346999,
       "sha256": "bff3ef5a1b3c95a69ece24cc36f81edd02b61105483cef1dc229bbcca3b9612b",
+      "optional_in_git": false
+    },
+    {
+      "path": "dist/explorer-assets/index-C_A0asd6.js",
+      "bytes": 346506,
+      "sha256": "028fbb5423394135b82aa452ea0478f928ce76d2863a6d03a2dabfb906032579",
       "optional_in_git": false
     },
     {
@@ -8362,21 +8374,9 @@
       "optional_in_git": false
     },
     {
-      "path": "dist/explorer-assets/index-C_A0asd6.js",
-      "bytes": 346506,
-      "sha256": "028fbb5423394135b82aa452ea0478f928ce76d2863a6d03a2dabfb906032579",
-      "optional_in_git": false
-    },
-    {
       "path": "dist/explorer-assets/index-Cw8Yi3p9.css",
       "bytes": 40805,
       "sha256": "d17f189f0d20e0eaff68e3a05b8ba43771302a2939304931c8d2b2a9970860df",
-      "optional_in_git": false
-    },
-    {
-      "path": "dist/explorer-assets/index-DV0lHXJj.css",
-      "bytes": 46279,
-      "sha256": "0f7ca64d5a2c732d974e5c7797f48c2859c7031369b48382ed053dc68eb11c37",
       "optional_in_git": false
     },
     {
@@ -8392,15 +8392,21 @@
       "optional_in_git": false
     },
     {
+      "path": "dist/explorer-assets/index-DV0lHXJj.css",
+      "bytes": 46279,
+      "sha256": "0f7ca64d5a2c732d974e5c7797f48c2859c7031369b48382ed053dc68eb11c37",
+      "optional_in_git": false
+    },
+    {
       "path": "dist/explorer-assets/index-Dz7Ce5By.css",
       "bytes": 45869,
       "sha256": "4305b0fc08282ed28b3865c1e16fc917b7a9cf771766fff97d8f21457892e7f0",
       "optional_in_git": false
     },
     {
-      "path": "dist/explorer-assets/index-ZdAbICEt.js",
-      "bytes": 346659,
-      "sha256": "b0ca3b1af43d2711da0a94c3f4a67d56f52e3efc463d16bdd9af729c4d7717e5",
+      "path": "dist/explorer-assets/index-DzCelIAz.js",
+      "bytes": 317465,
+      "sha256": "d5a1415d1360f860b9fe6149dba86c3a1dca0ddf50237749c713afb65546ef71",
       "optional_in_git": false
     },
     {
@@ -8413,6 +8419,12 @@
       "path": "dist/explorer-assets/index-sAPCh8hR.js",
       "bytes": 347117,
       "sha256": "046d950b6d2dfc2a6079416807e07829355560579f04ac6625076a5cfca7d30f",
+      "optional_in_git": false
+    },
+    {
+      "path": "dist/explorer-assets/index-ZdAbICEt.js",
+      "bytes": 346659,
+      "sha256": "b0ca3b1af43d2711da0a94c3f4a67d56f52e3efc463d16bdd9af729c4d7717e5",
       "optional_in_git": false
     },
     {
@@ -8435,8 +8447,8 @@
     },
     {
       "path": "dist/index.html",
-      "bytes": 1409,
-      "sha256": "fa74bac9f8192717842f652a8edd632e98a73ef0226a46ee4dc367a1916818a4",
+      "bytes": 1454,
+      "sha256": "3a17ff4a2b7ae17565f9884a20a27329471a93e4f24f761612e28c4abaa7f423",
       "optional_in_git": false
     },
     {

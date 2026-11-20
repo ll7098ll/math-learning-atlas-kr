@@ -38,10 +38,11 @@ export function StandardRow({ standard, onOpen, scope, idPrefix = "" }) {
   return <li className="standard-row">
     <a id={idPrefix + "std-" + s.code} href={standardRoute(s.code, scope)} data-standard-code={s.code}
       onClick={onOpen && ((event) => onOpen(event, s.code))}>
-      <span className="standard-code">{s.code}</span>
-      <div className="min-w-0">
-        <p className="row-location">{s.level} · {s.level === "고등학교" ? s.subject : s.band} · {s.domain}</p>
+      <div className="standard-row-body">
         <h3>{s.title}</h3>
+        <p className="row-location"><span className="standard-code">{s.code}</span>
+          <span>{s.level} · {s.level === "고등학교" ? s.subject : s.band} · {s.domain}</span>
+        </p>
         <p className="row-statement"><span className="source-label">공식 성취기준</span>{s.statement}</p>
       </div>
       <ChevronRight className="row-chevron" size={18} aria-hidden="true" />
