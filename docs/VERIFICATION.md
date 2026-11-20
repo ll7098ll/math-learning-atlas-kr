@@ -1,5 +1,13 @@
 # 문서 정비 검증 기록
 
+## 사용자 가이드 화면 확인
+
+2026년 11월 20일(KST) GitHub Pages 콘텐츠 `908d62e6b7884436`에서 `6수02-03` 검색, 공식 문구와 과제 표시, 분수 비교 예시, 목표별 위계, 자료 안내의 탐구 도구 링크를 확인했다. 이후 커밋 `e950a50`의 배포용 스냅샷을 로컬에서 실행해 탐색·상세·비교·연결 지도 4개 화면을 다시 캡처했다. 상세의 데이터 로딩 뒤 인쇄 버튼 활성화와 390px 브라우저 너비의 목표별 위계를 확인했다. [사용자 가이드](USER_GUIDE.md) · [공개 포털](https://ll7098ll.github.io/math-learning-atlas-kr/)
+
+## 성취기준 상세 인쇄와 공개 화면
+
+인쇄 버튼이 분석과 과제 로딩을 기다리는 변경은 2026년 11월 19일 GitHub Pages 커밋 `4eee8a2`에서 배포했다. 다음 공개 커밋 `407c594`는 개발자 정보와 GitHub 링크를 공통 푸터와 자료 안내에 추가했다. 두 변경의 실행 결과는 각 커밋의 Actions에서 확인할 수 있다. [인쇄 버튼 변경](https://github.com/ll7098ll/math-learning-atlas-kr/actions/runs/44468177168) · [개발자 정보 변경](https://github.com/ll7098ll/math-learning-atlas-kr/actions/runs/44644312514)
+
 ## 문서와 공개 스냅샷 점검 — 2026년 11월 19일
 
 콘텐츠 `908d62e6b7884436`을 기준으로 README, 상태 문서, 변경 기록과 운영 문서를 대조했다. 스냅샷의 1,438개 파일 해시, Python 테스트 24개, 포털 모델 검사 3종이 통과했다. 공개 카탈로그의 성취기준 435개를 확인했다. Sites v113의 상세 대조와 이전 버전의 브라우저·인쇄 확인 범위는 아래 게시 기록에서 확인한다. [현재 상태](STATUS.md) · [GitHub 검사와 배포](https://github.com/ll7098ll/math-learning-atlas-kr/actions/workflows/checks.yml)

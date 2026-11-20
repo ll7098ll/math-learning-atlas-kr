@@ -1,6 +1,6 @@
 # 구조와 데이터 흐름
 
-2026년 11월 19일 기준. 실행 방법은 [개발 안내](DEVELOPMENT.md), 연구의 해석 원칙은 [분석 규칙](분석규칙.md)을 따른다.
+2026년 11월 20일 기준. 화면의 실제 동작은 사용자 가이드에서 확인하고, 아래 도식에서 화면과 원본의 관계를 찾는다. [사용자 가이드](USER_GUIDE.md) · [개발 안내](DEVELOPMENT.md)
 
 ## 구성
 
@@ -45,29 +45,27 @@
 
 ## 생성 흐름
 
-```text
-기준 PDF + 보정 기록
-  └─ build_inventory.py → standards.json, 학교급별 색인
-
-분석·개별 보강·목표 원장 + Markdown + 출처
-  └─ build_portal_data.py
-       ├─ detailed_revision.apply → 분석 Markdown, 보강 범위·관계 JSON
-       ├─ content/catalog.json → 최초 목록과 검색
-       ├─ 성취기준 상세·관계·시범 위계 JSON
-       ├─ build_concept_pathways → 개념군 색인·항목·전체 그래프
-       ├─ build_task_pathways → 과제 색인·항목·목표 연결 그래프
-       └─ 통계 실험실·탐구 워크북 HTML, CSV·계산 도구
-
-앱 JavaScript/CSS + 생성 데이터
-  └─ version_portal_assets.mjs → import map과 파일별 캐시 버전
-       └─ 정적 HTTP 서버 또는 사이트 배포
+```mermaid
+flowchart TD
+    PDF["공식 교육과정 PDF와 보정 기록"] --> Inventory["성취기준 목록 생성"]
+    Inventory --> Build["포털 데이터 생성"]
+    Research["분석·목표·과제·문헌 원장"] --> Build
+    Build --> Reports["성취기준 분석 문서"]
+    Build --> Portal["카탈로그·상세·연결 JSON"]
+    Portal --> Snapshot["GitHub용 스냅샷 내보내기"]
+    Vite["Vite로 빌드한 탐색 도구"] --> Snapshot
+    Snapshot --> Pages["site/dist · GitHub Pages"]
 ```
+
+`build_inventory.py`가 성취기준 목록을 생성한다. `build_portal_data.py`는 상세 분석, 관계 자료, 개념군과 목표·과제 색인, 탐구 도구와 예제 파일을 만든다. `version_portal_assets.mjs`가 기존 포털의 앱 자산에 캐시 버전을 부여하고, `export_portal_snapshot.py`가 GitHub에서 쓸 파일을 모은다.
 
 `build_portal_data.py`는 데이터만 출력하는 함수가 아니다. `detailed_revision.apply` 등을 통해 분석 Markdown과 원장 요약도 갱신한다. 따라서 원장에서 생성된 문서만 고치면 다음 실행에서 수정 내용이 사라질 수 있다.
 
 ## 포털 모듈
 
-GitHub 스냅샷의 `site/dist/modules/`를 기준으로 한다. 기존 Sites 작업 저장소에서도 같은 모듈 이름을 사용한다.
+`index.html`은 React의 `Browse`, `Compare`, `Detail`로 탐색·비교·상세 읽기 화면을 연다. 진입점을 넘는 링크는 URL의 해시로 선택한 범위와 기준을 전달한다. 연결 지도, 전체 연결망과 상세 분석의 개별 절은 `legacy.html`을 사용한다. 두 진입점은 같은 `content/`를 읽는다.
+
+아래 모듈은 `site/dist/modules/`에서 제공되며 기존 Sites 작업 저장소에서도 같은 이름을 사용한다.
 
 | 모듈 | 책임 |
 |---|---|

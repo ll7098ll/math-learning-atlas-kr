@@ -1,6 +1,6 @@
 # 현재 상태와 버전
 
-확인 기준일: **2026년 11월 19일(KST)**. 이 문서는 작업 폴더의 원장·생성 데이터·검사 결과·기존 게시 기록을 대조한 요약이다. 여기의 ‘최신’은 원장에 기록된 작업본과 게시 영수증의 범위를 뜻한다. 공개 응답 대조와 실제 브라우저 시각 확인을 구별한다. 교육과정 후속 개정까지 조사했다는 의미는 아니다.
+**2026년 11월 20일(KST)**의 콘텐츠·배포 상태다. 저장소 스냅샷의 해시, 공개 카탈로그 버전, 화면 검증 범위는 각 근거에서 확인할 수 있다. [사용자 가이드](USER_GUIDE.md) · [검증 기록](VERIFICATION.md)
 
 ## 로컬 작업본과 공개 사이트
 
@@ -9,15 +9,16 @@
 | 로컬 내용 버전 | `908d62e6b7884436` | [검사 결과](../data/revision_checks.json) |
 | 로컬 과제 데이터셋 | `ea21341a92455351` | [목표 연결 감사](../data/goal_network_audit.json) |
 | 로컬 개념군 데이터셋 | `3020157b0b115a7a` | [전체 위계 감사](../data/hierarchy_completion_audit.json) |
-| 가장 최근의 성공 게시 기록 | Sites 버전 **113**, 내용 `908d62e6b7884436` | [게시 원장](../data/school_revision_deployment.json) |
-| v113 게시 시각 | 2026-11-19 13:19:04 KST | [게시 원장](../data/school_revision_deployment.json) |
-| v113 소스 커밋 | `cf03f4ece594ff7bb4586958dc55e78653056f75` | [게시 결과](../data/site_publication_908d62e6b7884436.json) |
-| 이 커밋의 GitHub 스냅샷 | `908d62e6b7884436` · `main`에서 검사 후 Pages 자동 배포 | [스냅샷 목록](../site/snapshot.json) · [Actions](https://github.com/ll7098ll/math-learning-atlas-kr/actions/workflows/checks.yml) |
-| GitHub Pages 공개본 | 실제 공개 버전은 카탈로그의 `version`으로 확인 | [포털 열기](https://ll7098ll.github.io/math-learning-atlas-kr/) · [공개 카탈로그](https://ll7098ll.github.io/math-learning-atlas-kr/content/catalog.json) · [배포 기록](https://github.com/ll7098ll/math-learning-atlas-kr/deployments/github-pages) |
+| Sites 공개 콘텐츠 | `908d62e6b7884436` · 11월 20일 공개 카탈로그 대조 | [공개 카탈로그](https://math-learning-atlas-kr.gptpro2908176.chatgpt.site/content/catalog.json) |
+| 저장소에 기록된 콘텐츠 게시 영수증 | Sites v113 · 2026-11-19 13:19 KST | [콘텐츠 게시 결과](../data/site_publication_908d62e6b7884436.json) |
+| GitHub 스냅샷 | `908d62e6b7884436` · `main` 검사 후 자동 배포 | [스냅샷 목록](../site/snapshot.json) · [Actions](https://github.com/ll7098ll/math-learning-atlas-kr/actions/workflows/checks.yml) |
+| GitHub Pages 공개 콘텐츠 | `908d62e6b7884436` · 11월 20일 공개 카탈로그 대조 | [공개 카탈로그](https://ll7098ll.github.io/math-learning-atlas-kr/content/catalog.json) · [배포 기록](https://github.com/ll7098ll/math-learning-atlas-kr/deployments/github-pages) |
 
 Sites v113 게시 확인에서는 관련 성취기준 3개와 공개 리소스 83개를 대조했다. PC·태블릿 화면 유형 19개와 A4 출력에 대한 검증은 이전 콘텐츠 `dae1618ec5603ac0` 및 `c7e86e2fa1af547e`에서 실시했다. [게시 결과](../data/site_publication_908d62e6b7884436.json) · [화면·인쇄 검증 기록](VERIFICATION.md#pc태블릿-키보드와-a4-인쇄-검증)
 
 이전 화면 검증에서는 당시 공개된 Sites와 GitHub Pages에서 각각 19개 화면 유형을 열어 제목과 메뉴, 모바일 너비를 확인했다. [전체 페이지 UI 검증](VERIFICATION.md#전체-페이지-ui-재검증)
+
+11월 20일에는 GitHub Pages의 검색, 비율 상세, 분수 비교 예시, 목표별 위계와 자료 안내를 따라가며 사용자 가이드를 작성했다. [가이드 화면 확인](VERIFICATION.md#사용자-가이드-화면-확인)
 
 구조 감사는 생성 시점의 배포본과 비교한다. 현재 공개 상태는 플랫폼별 성공 기록과 실제 공개 카탈로그를 대조해 판단한다.
 

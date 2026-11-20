@@ -68,6 +68,15 @@ git push origin main
 
 GitHub Pages의 배포 소스는 GitHub Actions다. `main`에 push하거나 `main`에서 워크플로를 수동 실행하면 저장소 검사를 거쳐 `site/dist/`가 배포된다. [공개 포털](https://ll7098ll.github.io/math-learning-atlas-kr/) · [검사와 배포 실행 기록](https://github.com/ll7098ll/math-learning-atlas-kr/actions/workflows/checks.yml)
 
+```mermaid
+flowchart TD
+    Push["main 커밋 푸시"] --> Check{"저장소·스냅샷·모델 검사"}
+    Check -->|통과| Artifact["site/dist 배포 파일 묶기"]
+    Artifact --> Deploy["GitHub Pages 배포"]
+    Deploy --> Confirm["공개 카탈로그 버전 확인"]
+    Check -->|실패| Existing["마지막 성공본 제공"]
+```
+
 포털 콘텐츠를 고친 경우 [스냅샷 갱신 절차](DEVELOPMENT.md#github-스냅샷-갱신)에 따라 `site/dist/`, 필요한 `site/tests/`, `site/snapshot.json`을 함께 올린다. Pages는 커밋된 정적 스냅샷을 사용하므로 연구 원장이나 Markdown만 수정하면 화면 데이터는 그대로다.
 
 검사가 실패하면 해당 배포가 중단되고 마지막 성공본이 계속 제공된다. 배포 파일의 교육과정 원문 링크는 기존 공개 포털의 PDF를 가리킨다.
