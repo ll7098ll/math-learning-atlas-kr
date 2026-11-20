@@ -132,6 +132,7 @@ body.atlas-compat {
 .atlas-footer > div { flex-wrap: wrap; justify-content: space-between; gap: 1rem; padding-block: 1.5rem; }
 .atlas-footer small { display: block; margin-top: .25rem; color: var(--atlas-muted); font-size: .88rem; }
 .atlas-footer a { font-weight: 650; }
+.atlas-developer-links { display: flex; flex-wrap: wrap; align-items: baseline; gap: .45rem .9rem; }
 
 .atlas-compat main { min-width: 0; }
 .atlas-compat:not(.atlas-tool) > main {

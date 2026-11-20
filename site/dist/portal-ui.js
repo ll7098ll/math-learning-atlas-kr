@@ -42,9 +42,12 @@
     main.scrollIntoView({ block: "start" });
   });
 
+  const developerLinks = `<a href="mailto:ll7098ll@gmail.com">ll7098ll@gmail.com</a>
+    <a href="https://github.com/ll7098ll">GitHub 프로필</a>`;
   const footer = document.createElement("footer");
   footer.className = "atlas-footer";
-  footer.innerHTML = `<div><span><strong>수학의 연결 지도</strong><small>교육부 고시 제2022-33호 · 별책 8 수학과 교육과정</small></span><a href="./legacy.html#view=about">자료의 출처와 분석 기준</a></div>`;
+  footer.innerHTML = `<div><span><strong>수학의 연결 지도</strong><small>교육부 고시 제2022-33호 · 별책 8 수학과 교육과정</small></span>
+    <div class="atlas-developer-links"><span>개발자 이병민</span>${developerLinks}<a href="./legacy.html#view=about">자료의 출처와 분석 기준</a></div></div>`;
   const previousFooter = document.querySelector("body > .site-footer");
   if (previousFooter) previousFooter.replaceWith(footer);
   else main.after(footer);
@@ -173,6 +176,15 @@
       resources.className = "atlas-resources";
       resources.innerHTML = `<h2>탐구 도구</h2><ul><li><a href="./distribution-lab.html"><strong>정규분포와 t분포 탐구</strong><span>자유도에 따른 곡선과 확률 비교</span></a></li><li><a href="./inquiry-workbook.html"><strong>수학 탐구 기록지</strong><span>탐구 계획·수행·성찰 기록과 인쇄</span></a></li></ul>`;
       about.before(resources);
+    }
+    if (about && !main.querySelector(".atlas-developer")) {
+      const developer = document.createElement("section");
+      developer.className = "about-summary atlas-developer";
+      developer.innerHTML = `<h2>개발자 정보</h2>
+        <div class="atlas-developer-links"><strong>이병민</strong>${developerLinks}
+          <a href="https://github.com/ll7098ll/math-learning-atlas-kr">프로젝트 저장소</a>
+        </div>`;
+      about.after(developer);
     }
     const intro = main.querySelector(".pathway-intro");
     if (intro && intro.parentElement.tagName !== "DETAILS") {

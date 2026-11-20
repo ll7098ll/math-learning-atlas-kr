@@ -109,7 +109,12 @@ function App() {
     <footer className="site-footer">
       <div className="site-width footer-inner">
         <div><strong>수학의 연결 지도</strong><p>교육부 고시 제2022-33호 · 별책 8 수학과 교육과정</p></div>
-        <a className="text-link" href={oldRoute("about")}>자료의 출처와 분석 기준</a>
+        <div className="footer-links">
+          <span>개발자 이병민</span>
+          <a className="text-link" href="mailto:ll7098ll@gmail.com">ll7098ll@gmail.com</a>
+          <a className="text-link" href="https://github.com/ll7098ll">GitHub 프로필</a>
+          <a className="text-link" href={oldRoute("about")}>자료의 출처와 분석 기준</a>
+        </div>
       </div>
     </footer>
   </>;

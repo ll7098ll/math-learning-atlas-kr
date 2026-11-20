@@ -8214,7 +8214,7 @@
     {
       "path": "dist/distribution-lab.html",
       "bytes": 119622,
-      "sha256": "1cb9db7ef032405440f3eb5b0650342ac7817bd73c463364551f7efcd52ddee7",
+      "sha256": "8ac044244c463c9840a81f3a1b3876969622e8fe435cca2ebd15d4ae7bd23c8a",
       "optional_in_git": false
     },
     {
@@ -8380,6 +8380,12 @@
       "optional_in_git": false
     },
     {
+      "path": "dist/explorer-assets/index-Dz7Ce5By.css",
+      "bytes": 45869,
+      "sha256": "4305b0fc08282ed28b3865c1e16fc917b7a9cf771766fff97d8f21457892e7f0",
+      "optional_in_git": false
+    },
+    {
       "path": "dist/explorer-assets/index-ZdAbICEt.js",
       "bytes": 346659,
       "sha256": "b0ca3b1af43d2711da0a94c3f4a67d56f52e3efc463d16bdd9af729c4d7717e5",
@@ -8389,6 +8395,12 @@
       "path": "dist/explorer-assets/index-fpq_DOlI.css",
       "bytes": 45789,
       "sha256": "3dc12922510c987566bd571325b4a37225f827e68fc7ce065df8254f75b4d4e0",
+      "optional_in_git": false
+    },
+    {
+      "path": "dist/explorer-assets/index-sAPCh8hR.js",
+      "bytes": 347117,
+      "sha256": "046d950b6d2dfc2a6079416807e07829355560579f04ac6625076a5cfca7d30f",
       "optional_in_git": false
     },
     {
@@ -8412,19 +8424,19 @@
     {
       "path": "dist/index.html",
       "bytes": 1409,
-      "sha256": "ac6766b676596e167c3109a9fb363d013f9f03e5bc3a86d1ad92193177e54b64",
+      "sha256": "d1a71dfe0fa05f8906206a828e19adf15a46aebe8db246a63c635ba00480b52b",
       "optional_in_git": false
     },
     {
       "path": "dist/inquiry-workbook.html",
       "bytes": 31111,
-      "sha256": "c97fffd69f53eff3e6770080b92776e2d8d047214efaa43558606bcbe43d8fdc",
+      "sha256": "c043018c60e484b9e74c6766d04b2798c18d655934c1cbada5e4ca1e365bd8f5",
       "optional_in_git": false
     },
     {
       "path": "dist/legacy.html",
       "bytes": 4253,
-      "sha256": "1e0b7484cd79e4c966290961355b85f8d87304d589e59e645555a6a814df0f6a",
+      "sha256": "6aed4c5a89ec555cf9091d76e0856aa585532856fbff9e71c5059393d78081af",
       "optional_in_git": false
     },
     {
@@ -8561,14 +8573,14 @@
     },
     {
       "path": "dist/portal-ui.css",
-      "bytes": 16071,
-      "sha256": "c0a3bd2be68f9046b1b6b6e9ccd10363585f2d17f1145ebc47f68e8f3586c9d1",
+      "bytes": 16172,
+      "sha256": "c3d94e7cb54adf655c5fb909388cce233ca4dd65ed0be70ca7a61629678ad81c",
       "optional_in_git": false
     },
     {
       "path": "dist/portal-ui.js",
-      "bytes": 9887,
-      "sha256": "8ced1e1231cd4f92e35683d146c488c14941c6ae153230e139bbe4185c6bcf93",
+      "bytes": 10605,
+      "sha256": "ce1acfb59b4cdf5f9e176280bb082a42318a829a9add20fa4b3bd4ccca316c6b",
       "optional_in_git": false
     },
     {
