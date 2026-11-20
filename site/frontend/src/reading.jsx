@@ -1,5 +1,5 @@
 import React from "react";
-import { ArrowLeft, BookOpen, GitCompareArrows, Network, Printer } from "lucide-react";
+import { ArrowLeft, ArrowLeftRight, GitCompareArrows, Network, Printer } from "lucide-react";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { Button } from "@/components/ui/button";
 import { bandOf, oldRoute, route, scopeId, selection, unique } from "./curriculum";
@@ -8,11 +8,11 @@ import { LoadState, Pdf, StandardRow, useContent } from "./shared";
 function SourceInfo({ standard }) {
   return <div className="source-links">
     {standard.pdfPages.map((page) => <Pdf key={page} page={page}>PDF {page}쪽 열기</Pdf>)}
-    {standard.printedPages.length > 0 && <span>인쇄 {standard.printedPages.join("·")}쪽</span>}
+    {standard.printedPages.length > 0 && <span>원문 표기 {standard.printedPages.join("·")}쪽</span>}
   </div>;
 }
 
-export function Detail({ catalog, params, returnTo }) {
+export function Detail({ catalog, params, returnTo, onOpen }) {
   const code = params.get("code");
   const s = catalog.standards.find((standard) => standard.code === code);
   const request = useContent(s && "standards/" + encodeURIComponent(s.code) + ".json", catalog.version);
@@ -27,7 +27,7 @@ export function Detail({ catalog, params, returnTo }) {
   const fromComparison = new URLSearchParams(back.slice(1)).get("view") === "compare";
   const analysis = request.data?.analysis;
   return <div className="site-width reading-page">
-    <a className="back-link text-link" href={back} onClick={(event) => returnTo(event, back)}>
+    <a className="atlas-return" href={back} onClick={(event) => returnTo(event, back)}>
       <ArrowLeft size={16} aria-hidden="true" />
       {fromComparison ? "비교 화면으로" : history.state?.returnTo ? "찾아보던 목록으로" : "영역 목록으로"}
     </a>
@@ -43,7 +43,7 @@ export function Detail({ catalog, params, returnTo }) {
         <header className="atlas-page-header">
           <span className="standard-code">{code}</span>
           <h1 className="atlas-page-title" tabIndex={-1}>{s.title}</h1>
-          <p className="row-location">성취기준을 설명하는 분석 제목</p>
+          <p className="row-location">자체 분석 제목</p>
         </header>
         <section className="official-card" id="official">
           <h2>공식 성취기준</h2>
@@ -51,6 +51,17 @@ export function Detail({ catalog, params, returnTo }) {
           <SourceInfo standard={s} />
           <p className="small">교육부 고시 제2022-33호 · 별책 8 수학과 교육과정</p>
         </section>
+        <aside className="reading-tools" aria-label="이 성취기준으로 할 수 있는 일">
+          <Button asChild variant="outline"><a id="standard-compare"
+            href={route("compare", { left: band, leftDomain: s.domain, leftCode: code })} onClick={onOpen}>
+            <GitCompareArrows aria-hidden="true" />다른 범위와 비교
+          </a></Button>
+          <Button asChild variant="outline"><a href={oldRoute("network", { node: code, scope })}>
+            <Network aria-hidden="true" />연결망에서 보기
+          </a></Button>
+          <Button variant="outline" type="button" disabled={!analysis}
+            onClick={() => window.print()}><Printer aria-hidden="true" />인쇄</Button>
+        </aside>
         {!analysis ? <LoadState request={request} label="분석과 수업 과제를 불러오고 있습니다…" />
           : <div className="analysis">
             <div className="analysis-heading">
@@ -97,32 +108,15 @@ export function Detail({ catalog, params, returnTo }) {
             </details>
           </div>}
       </article>
-      <aside className="reading-tools" aria-label="이 성취기준으로 할 수 있는 일">
-        <Button asChild variant="outline"><a href={route("compare", { left: band, leftDomain: s.domain, leftCode: code })}>
-          <GitCompareArrows aria-hidden="true" />다른 범위와 비교
-        </a></Button>
-        <Button asChild variant="outline"><a href={oldRoute("network", { node: code, scope })}>
-          <Network aria-hidden="true" />연결망에서 보기
-        </a></Button>
-        <Button variant="outline" type="button" disabled={!analysis} onClick={() => window.print()}><Printer aria-hidden="true" />인쇄</Button>
-      </aside>
     </div>
   </div>;
 }
 
-function ComparisonSide({ side, standards, params, change, onOpen }) {
-  const band = params.get(side) || "";
-  const domain = params.get(side + "Domain") || "";
-  const code = params.get(side + "Code") || "";
-  const available = band ? selection(standards, "", band) : [];
+function ComparisonControls({ side, title, band, domain, code, available, matches, standards, change }) {
   const domains = unique(available.map((s) => s.domain));
-  const matches = selection(available, "", "", domain);
-  const shown = code && matches.some((s) => s.code === code) ? matches.filter((s) => s.code === code) : matches;
   const levels = unique(standards.map((s) => s.level));
-  return <section className="comparison-side">
-    <div className="comparison-header">
-      <h2>{side === "left" ? "첫 번째 범위" : "두 번째 범위"}</h2>
-      {band && <p className="atlas-print-only">{[band, domain].filter(Boolean).join(" · ")}</p>}
+  return <section className="comparison-header" aria-labelledby={side + "-controls"}>
+      <h2 id={side + "-controls"}>{title}</h2>
       <label>학년군 · 과목
         <select value={band} onChange={(event) => change({ [side]: event.target.value, [side + "Domain"]: "", [side + "Code"]: "" })}>
           <option value="">범위 선택</option>
@@ -145,31 +139,58 @@ function ComparisonSide({ side, standards, params, change, onOpen }) {
           </select>
         </label>
       </>}
-    </div>
-    {band ? <>
-      <p className="result-meta" role="status">{shown.length}개 성취기준</p>
-      {shown.length ? <ul className="standard-list">
-        {shown.map((standard) => <StandardRow key={standard.code} idPrefix={side + "-"}
-          standard={standard} onOpen={onOpen} scope={scopeId(standard)} />)}
-      </ul> : <p className="notice">이 범위에 해당하는 성취기준이 없습니다.</p>}
-    </> : <p className="no-selection"><BookOpen size={19} aria-hidden="true" />비교할 학년군이나 과목을 선택하세요.</p>}
-  </section>;
+    </section>;
 }
 
-export function Compare({ catalog, params, go, onOpen }) {
-  const change = (delta) => go(route("compare", { ...Object.fromEntries(params), ...delta }));
+export function Compare({ catalog, params, go, returnTo, onOpen }) {
+  const panels = ["left", "right"].map((side, index) => {
+    const band = params.get(side) || "";
+    const domain = params.get(side + "Domain") || "";
+    const code = params.get(side + "Code") || "";
+    const title = index === 0 ? "첫 번째 범위" : "두 번째 범위";
+    const available = band ? selection(catalog.standards, "", band) : [];
+    const matches = selection(available, "", "", domain);
+    const chosen = matches.find((s) => s.code === code);
+    return { side, title, band, domain, code, available, matches, shown: chosen ? [chosen] : matches };
+  });
+  const [left, right] = panels;
+  const state = history.state;
+  const back = state?.returnTo || route("catalog");
+  const change = (delta) => go(route("compare", { ...Object.fromEntries(params), ...delta }),
+    { returnTo: state?.returnTo, returnState: state?.returnState });
   return <div className="site-width compare-page">
+    <a className="atlas-return" href={back} onClick={(event) => returnTo(event, back)}>
+      <ArrowLeft size={16} aria-hidden="true" />
+      {new URLSearchParams(back.slice(1)).get("view") === "standard" ? "성취기준 상세로" : "교육과정 탐색으로"}
+    </a>
     <header className="atlas-page-header">
       <h1 className="atlas-page-title" tabIndex={-1}>두 범위 비교</h1>
       <p className="atlas-page-description">학년군이나 과목을 두 개 골라 공식 성취기준을 나란히 읽어 보세요.</p>
-      <Button variant="outline" type="button" onClick={() => go(route("compare", {
-        left: "3~4학년군", leftDomain: "수와 연산", leftCode: "4수01-09",
-        right: "5~6학년군", rightDomain: "수와 연산", rightCode: "6수01-10",
-      }))}>예시로 분수 기준 비교</Button>
+      <div className="comparison-actions">
+        <Button variant="outline" type="button" onClick={() => change({
+          left: "3~4학년군", leftDomain: "수와 연산", leftCode: "4수01-09",
+          right: "5~6학년군", rightDomain: "수와 연산", rightCode: "6수01-10",
+        })}>예시로 분수 기준 비교</Button>
+        <Button variant="outline" type="button" disabled={!left.band || !right.band} onClick={() => change({
+          left: right.band, leftDomain: right.domain, leftCode: right.code,
+          right: left.band, rightDomain: left.domain, rightCode: left.code,
+        })}><ArrowLeftRight aria-hidden="true" />두 범위 바꾸기</Button>
+      </div>
     </header>
+    <div className="comparison-controls">
+      {panels.map((panel) => <ComparisonControls key={panel.side} {...panel} standards={catalog.standards} change={change} />)}
+    </div>
     <div className="comparison">
-      {["left", "right"].map((side) => <ComparisonSide key={side} side={side} standards={catalog.standards}
-        params={params} change={change} onOpen={onOpen} />)}
+      {panels.map(({ side, title, band, domain, shown }) => <section key={side} className="comparison-side" aria-labelledby={side + "-results"}>
+        <h2 id={side + "-results"}>{title} 결과</h2>
+        {band ? <>
+          <p className="result-meta" role="status">{[band, domain, `${shown.length}개 성취기준`].filter(Boolean).join(" · ")}</p>
+          {shown.length ? <ul className="standard-list">
+            {shown.map((standard) => <StandardRow key={standard.code} idPrefix={side + "-"}
+              standard={standard} onOpen={onOpen} scope={scopeId(standard)} />)}
+          </ul> : <p className="notice">이 범위에 해당하는 성취기준이 없습니다.</p>}
+        </> : <p className="no-selection">위에서 학년군이나 과목을 선택하세요.</p>}
+      </section>)}
     </div>
   </div>;
 }

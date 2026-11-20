@@ -81,7 +81,7 @@
     ];
     const current = view === "overview"
       ? params.get("density") === "expanded" ? "expanded" : params.get("mode") || "flow"
-      : view === "network" ? "network" : "hierarchy";
+      : view === "network" || view === "hierarchy" ? view : "";
     for (const [target, mode, label] of modes) {
       const link = document.createElement("a");
       const values = new URLSearchParams({ view: target });
@@ -141,6 +141,30 @@
     disclosure.append(label, outline);
   }
 
+  function prepareStandardReturn(params) {
+    const view = params.get("view");
+    const code = view === "network" ? params.get("node")
+      : view === "connections" ? params.get("code")
+      : view === "hierarchy" ? params.get("target") : "";
+    const oldLink = main.querySelector(".atlas-return");
+    if (!/^[0-9]+[가-힣]+(?:[0-9]+-)?[0-9]{2}-[0-9]{2}$/u.test(code || "")) {
+      oldLink?.remove();
+      return;
+    }
+    const heading = main.querySelector(".atlas-page-header");
+    if (!heading) return;
+    const target = new URLSearchParams({ view: "standard", code });
+    if (params.get("scope")) target.set("scope", params.get("scope"));
+    const href = "./#" + target;
+    if (oldLink?.getAttribute("href") === href) return;
+    const link = document.createElement("a");
+    link.className = "atlas-return";
+    link.href = href;
+    link.innerHTML = '<span aria-hidden="true">←</span> 성취기준 상세로';
+    if (oldLink) oldLink.replaceWith(link);
+    else heading.before(link);
+  }
+
   function updateNav() {
     const view = route().get("view");
     const current = tool || view === "about" ? "about"
@@ -169,7 +193,10 @@
     document.body.classList.toggle("atlas-local-scope", ["about", "standard"].includes(view)
       || Boolean(main.querySelector('form select[name="scope"]')));
     prepareHeading(params);
-    if (!tool) prepareReading(params);
+    if (!tool) {
+      prepareReading(params);
+      prepareStandardReturn(params);
+    }
     const about = main.querySelector(".about-summary");
     if (about && !main.querySelector(".atlas-resources")) {
       const resources = document.createElement("section");

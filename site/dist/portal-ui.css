@@ -39,6 +39,18 @@
   line-height: 1.65;
 }
 
+.atlas-return {
+  display: inline-flex;
+  align-items: center;
+  gap: .45rem;
+  min-height: 2.75rem;
+  margin-bottom: .65rem;
+  color: var(--atlas-primary);
+  font-weight: 650;
+  text-decoration: underline;
+  text-underline-offset: .22em;
+}
+
 @media (max-width: 700px) {
   .atlas-page-header { margin-bottom: .75rem; }
 }
@@ -294,8 +306,6 @@ body.atlas-compat {
   margin: 15mm;
 }
 
-.atlas-print-only { display: none; }
-
 @media print {
   html, body, body.atlas-compat {
     background: #fff;
@@ -304,10 +314,10 @@ body.atlas-compat {
     line-height: 1.55;
   }
 
-  .atlas-print-only { display: block; }
   :is(.site-header, .site-footer, .skip-link, .atlas-header, .atlas-footer, .atlas-path, .atlas-reading-outline,
       .school-scope-bar, .screen-only, .desktop-filters, .mobile-filters, .pagination,
-      .tabs-row, .reading-tools, .back-link, .reading-toc, .action-links, .row-chevron, .heading-tools,
+      .tabs-row, .reading-tools, .atlas-return, .reading-toc, .action-links, .row-chevron, .heading-tools,
+      .active-filters, .comparison-controls, .comparison-actions, .no-selection,
       .overview-views, .atlas-tools, .atlas-help, .atlas-controls, .network-toolbar, .connection-toolbar,
       .cp-controls, .cp-actions, .pathway-search, .hierarchy-filter, .overview-toolbar, .full-flow-search,
       .catalog-filters, .atlas-tool .controls) {
@@ -329,15 +339,12 @@ body.atlas-compat {
   .hero .hero-meta { color: #26372d; }
   .hero .hero-inner { padding-block: 0 .6rem; }
   .hero h1, .atlas-compat main .atlas-page-title { color: #161c18; font-size: 19pt; }
-  .hero-copy, .search-form, .school-cards, .compare-page .atlas-page-header > button {
+  .hero-copy, .search-form, .school-cards {
     display: none !important;
   }
   .explorer, .reading-layout { display: block; padding: 0; }
-  .reading-page, .compare-page { min-height: 0; padding-block: 0; }
-  .compare-page .comparison { gap: 5mm; }
-  .comparison-header { padding: 0 0 .4rem; border: 0; }
-  .comparison-header label { display: none; }
-  .comparison-header .atlas-print-only { grid-column: 1 / -1; }
+  .reading-page, .compare-page { min-height: 0; max-width: none; padding-block: 0; }
+  .compare-page .comparison { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 5mm; margin-top: .65rem; }
   .standard-row > a { padding: .45rem .6rem; }
   .analysis-accordion [data-slot="accordion-trigger"] { padding-block: .5rem; }
   .analysis-accordion [data-slot="accordion-trigger"] > svg { display: none; }

@@ -30,21 +30,23 @@ function App() {
     setHash(target);
   }
 
-  function openStandard(event, selectedCode) {
+  function openLinked(event, selectedCode) {
     if (event.button !== 0 || event.ctrlKey || event.metaKey || event.altKey || event.shiftKey) return;
     event.preventDefault();
-    const restore = { row: selectedCode, id: event.currentTarget.id, scroll: window.scrollY };
-    history.replaceState({ ...history.state, restore }, "");
+    const focusOnReturn = { row: selectedCode, id: event.currentTarget.id, scroll: window.scrollY };
+    const returnState = { ...history.state, focusOnReturn };
+    history.replaceState(returnState, "");
     go(event.currentTarget.getAttribute("href"), {
       returnTo: location.hash || route("catalog"),
-      restore,
+      returnState,
     });
   }
 
   function returnTo(event, target) {
     if (event.button !== 0 || event.ctrlKey || event.metaKey || event.altKey || event.shiftKey) return;
     event.preventDefault();
-    go(target, { restore: history.state?.restore });
+    const state = history.state;
+    go(target, state?.returnTo === target ? state.returnState || { focusOnReturn: state.restore } : {});
   }
 
   useLayoutEffect(() => {
@@ -52,17 +54,15 @@ function App() {
     const prior = previous.current;
     const transition = prior.view && (prior.view !== view || (view === "standard" && prior.code !== code));
     previous.current = { view, code };
-    const saved = history.state?.restore;
-    if (view === "catalog" || view === "compare") {
-      const row = saved?.row || params.get("focus");
-      const target = row && document.getElementById(saved?.id || "std-" + row);
-      if (target) {
-        target.focus({ preventScroll: true });
-        if (saved) window.scrollTo(0, saved.scroll);
-        else target.scrollIntoView({ block: "center" });
-        return;
-      }
+    const saved = history.state?.focusOnReturn || history.state?.restore;
+    const row = view === "catalog" ? params.get("focus") : "";
+    const id = saved?.id || ((saved?.row || row) && "std-" + (saved?.row || row));
+    const target = id && document.getElementById(id);
+    if (target) {
+      target.focus({ preventScroll: true });
       if (saved) window.scrollTo(0, saved.scroll);
+      else target.scrollIntoView({ block: "center" });
+      return;
     }
     if (transition) {
       window.scrollTo(0, 0);
@@ -101,9 +101,9 @@ function App() {
 
     <main id="main" tabIndex={-1}>
       {!catalog ? <div className="site-width loading-wrap"><LoadState request={request} label="교육과정 목록을 불러오고 있습니다…" /></div>
-        : view === "standard" ? <Detail catalog={catalog} params={params} returnTo={returnTo} />
-        : view === "compare" ? <Compare catalog={catalog} params={params} go={go} onOpen={openStandard} />
-        : <Browse catalog={catalog} params={params} go={go} onOpen={openStandard} />}
+        : view === "standard" ? <Detail catalog={catalog} params={params} returnTo={returnTo} onOpen={openLinked} />
+        : view === "compare" ? <Compare catalog={catalog} params={params} go={go} returnTo={returnTo} onOpen={openLinked} />
+        : <Browse catalog={catalog} params={params} go={go} onOpen={openLinked} />}
     </main>
 
     <footer className="site-footer">
