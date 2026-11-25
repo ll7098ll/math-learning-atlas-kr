@@ -81,12 +81,21 @@
   :is(.site-header, .atlas-header) :is(.brand-mark, .atlas-mark) { width: 2rem; height: 2rem; }
   :is(.site-header, .atlas-header) nav[aria-label] {
     display: grid;
-    grid-template-columns: repeat(4, auto);
-    justify-content: space-between;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
     margin: 0;
     gap: 0;
   }
-  :is(.site-header, .atlas-header) nav[aria-label] a { min-height: 2.75rem; font-size: .88rem; padding-inline: .25rem; }
+  :is(.site-header, .atlas-header) nav[aria-label] a {
+    display: grid;
+    place-content: center;
+    min-height: 2.75rem;
+    font-size: .88rem;
+    line-height: 1.25;
+    padding-inline: .2rem;
+    text-align: center;
+    white-space: normal;
+    word-break: keep-all;
+  }
   :is(.site-header, .atlas-header) :is(.header-source, .atlas-header-source) { display: none; }
   :is(.site-footer, .atlas-footer) > div { width: calc(100% - 2rem); }
 }

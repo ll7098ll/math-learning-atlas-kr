@@ -4,16 +4,10 @@
   "task_dataset_version": "ea21341a92455351",
   "concept_dataset_version": "3020157b0b115a7a",
   "source_commit": null,
-  "source_base_commit": "cf03f4ece594ff7bb4586958dc55e78653056f75",
+  "source_base_commit": "7d0d75b664b72a545cdbf0c79c11493f0e9b71be",
   "source_worktree_clean": false,
   "scope": "current_references_only; no saved-version archives or hosting metadata",
-  "test_path_adaptations": [
-    "test_all_concept_pathways.mjs",
-    "test_goal_network.mjs",
-    "test_network_model.mjs",
-    "test_school_revision.mjs",
-    "test_task_pathways.mjs"
-  ],
+  "test_path_adaptations": [],
   "files": [
     {
       "path": "dist/app.js",
@@ -8213,8 +8207,8 @@
     },
     {
       "path": "dist/distribution-lab.html",
-      "bytes": 119622,
-      "sha256": "27d417cbd2667e5bf784f42ca3a11517c6705634ad41a108d22c20e5a4e1be5f",
+      "bytes": 119665,
+      "sha256": "0367602e96be7f35671dc96e5cc674e9862ff4b11a755024a43ec8b83979594d",
       "optional_in_git": false
     },
     {
@@ -8338,6 +8332,12 @@
       "optional_in_git": false
     },
     {
+      "path": "dist/explorer-assets/index-B4iLWDof.css",
+      "bytes": 75698,
+      "sha256": "68dc9c9f5c262f61a349de5e280ad9fe317d621f1a43ca53f498d0fcceaabec9",
+      "optional_in_git": false
+    },
+    {
       "path": "dist/explorer-assets/index-Bc09aEuL.css",
       "bytes": 60585,
       "sha256": "bf07bb232b5e9037cc3004d812e0def7c17fda267a2db407fbb45bc15da9192b",
@@ -8416,6 +8416,12 @@
       "optional_in_git": false
     },
     {
+      "path": "dist/explorer-assets/index-Dy9h50uW.js",
+      "bytes": 319510,
+      "sha256": "fc5f42a31d794b11eca4c93639d34327656458e360f4402a4605c1ca7fa490ce",
+      "optional_in_git": false
+    },
+    {
       "path": "dist/explorer-assets/index-Dz7Ce5By.css",
       "bytes": 45869,
       "sha256": "4305b0fc08282ed28b3865c1e16fc917b7a9cf771766fff97d8f21457892e7f0",
@@ -8431,6 +8437,12 @@
       "path": "dist/explorer-assets/index-fpq_DOlI.css",
       "bytes": 45789,
       "sha256": "3dc12922510c987566bd571325b4a37225f827e68fc7ce065df8254f75b4d4e0",
+      "optional_in_git": false
+    },
+    {
+      "path": "dist/explorer-assets/index-KLjJPrne.js",
+      "bytes": 319510,
+      "sha256": "fc5f42a31d794b11eca4c93639d34327656458e360f4402a4605c1ca7fa490ce",
       "optional_in_git": false
     },
     {
@@ -8472,19 +8484,19 @@
     {
       "path": "dist/index.html",
       "bytes": 1454,
-      "sha256": "4074beb7bc4e5dcd6db72150043548ba554f247321554456aafd573c6587b730",
+      "sha256": "cbbbeab20a07fa704c02d1f8fe966034acec17671ba243076cdd6e7cf71e844f",
       "optional_in_git": false
     },
     {
       "path": "dist/inquiry-workbook.html",
-      "bytes": 31111,
-      "sha256": "81c6a0ca2b4901219ed94fb200fff6d81bfb1fb417e947dfbb1dfc75f8387b36",
+      "bytes": 31071,
+      "sha256": "b26bf9cd5ad33d2cd8da9b662f49a704e125b21009100c6a0c7bd8d829ca81ab",
       "optional_in_git": false
     },
     {
       "path": "dist/legacy.html",
       "bytes": 4253,
-      "sha256": "da69adab5cf9aa98e3fdf055afe4e4f999e0754b4b3a5b7e8b0c8161bf2378b1",
+      "sha256": "64aaaf929a34096b5c5ca8eb0aa71e6dae760e59ac705ddc64ec28689be75b41",
       "optional_in_git": false
     },
     {
@@ -8501,8 +8513,8 @@
     },
     {
       "path": "dist/modules/concept-pathways.mjs",
-      "bytes": 15273,
-      "sha256": "d7980c33c5a1e5ca8a262e893cda05ac9a0530fbdb7ad50206940769ec424590",
+      "bytes": 15369,
+      "sha256": "373654b83cf2a6a5e1f4c555b452f9fad2d21dc130c88a7887d7de3354aa4856",
       "optional_in_git": false
     },
     {
@@ -8531,8 +8543,8 @@
     },
     {
       "path": "dist/modules/goal-network.mjs",
-      "bytes": 8982,
-      "sha256": "a2541a516846acf087ecf840b3e0b6a8795cb57215e06cbc4cbcf58d2159acb1",
+      "bytes": 9014,
+      "sha256": "f7b18ff99a1112797bc9fbf936c67d3ddbf7afda99ef1a78db0912ee4e838658",
       "optional_in_git": false
     },
     {
@@ -8585,14 +8597,14 @@
     },
     {
       "path": "dist/modules/task-goals.mjs",
-      "bytes": 4598,
-      "sha256": "ad69efc0f1d7ac673b835028c9f34fafa8cbe2c69b4a4bf721aadbbc68fb3d6b",
+      "bytes": 4616,
+      "sha256": "a89559556fd24008e24e8f70a1b0ec2070bfbe6502363eda1f1f013fb68d6684",
       "optional_in_git": false
     },
     {
       "path": "dist/modules/task-pathways.mjs",
-      "bytes": 7182,
-      "sha256": "6806cd123e5cb692786b75a613c4c8cfcfa6194ba91685c049fde604397802a1",
+      "bytes": 7205,
+      "sha256": "69f536867e96a9962ba13d680cc56c7a93a28166c67c0879b0d19dedc9035d4c",
       "optional_in_git": false
     },
     {
@@ -8621,14 +8633,14 @@
     },
     {
       "path": "dist/portal-ui.css",
-      "bytes": 38312,
-      "sha256": "dd8157ff090bc6f0452322752d93cbe88f1cf31817887befad7eead150c0a7cd",
+      "bytes": 38443,
+      "sha256": "f277c19096a6dbb2d23b5791af933b7221946b12e0c66ec2b71fc0edfd5b39d0",
       "optional_in_git": false
     },
     {
       "path": "dist/portal-ui.js",
-      "bytes": 54734,
-      "sha256": "d277fdb703f6edd6db4de2164a02857a0f08b90fce848532de9024cc3b760530",
+      "bytes": 54831,
+      "sha256": "9f0cdf756e54aa7fa86f0fddd630bf3b03e3514661ab92d68d4212d6509a5cbb",
       "optional_in_git": false
     },
     {
@@ -8675,8 +8687,8 @@
     },
     {
       "path": "tests/test_goal_network.mjs",
-      "bytes": 6963,
-      "sha256": "359947a82ccc73192c2622cf96c89303130aab4be7882c4075a7776fd041eeb5",
+      "bytes": 6982,
+      "sha256": "188b7a6bdb2a94923bad514700697b9f6a875d83f13bc312c5a40522de917878",
       "optional_in_git": false
     },
     {
@@ -8705,8 +8717,8 @@
     },
     {
       "path": "tests/test_task_pathways.mjs",
-      "bytes": 17442,
-      "sha256": "45d6cda0a93882379da7e8bc3b395c04a053090227eb5157fccdf2a0e4d8b8f3",
+      "bytes": 17446,
+      "sha256": "6592124484e6f43ef58b00f9b411a375da13225efe836c8d8837db0e283f5a41",
       "optional_in_git": false
     }
   ]

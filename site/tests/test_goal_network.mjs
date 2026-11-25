@@ -67,7 +67,7 @@ const chain=['6수03-13:rectangle','12수과02-03:method','12수과03-01:plan','
 assert(chain.slice(1).every((g,i)=>route(chain[i],g)));
 assert.deepEqual(goalTrace(model,chain.join('|'),chain.at(-1)),chain);
 const trailHtml=renderGoalNetwork(new URLSearchParams({target:'12수과03-02',goal:chain.at(-1),scope:'h',trace:chain.join('|')}),model);
-assert(trailHtml.includes('살펴본 연결 경로')&&trailHtml.includes('다른 AND 조건의 충족'));
+assert(trailHtml.includes('지금까지 살펴본 목표')&&trailHtml.includes('함께 필요한 다른 조건의 충족'));
 assert(trailHtml.includes('6수03-13'));
 for(const bad of ['unknown|'+chain.at(-1),chain[0]+'|'+chain.at(-1),[...chain,chain[0],chain.at(-1)].join('|')])assert.deepEqual(goalTrace(model,bad,chain.at(-1)),[chain.at(-1)]);
 assert(renderGoalNetwork(new URLSearchParams({target:'not-a-standard'}),model).includes('등록된 성취기준'));

@@ -144,6 +144,8 @@ python scripts/build_concept_pathways.py --site-dir tmp/pathways-release
 python scripts/export_portal_snapshot.py --help
 ```
 
+포털 메뉴와 설명을 수정할 때는 `site/frontend/src/`와 `site/frontend/compat/`를 편집한다. 과제·목표·개념 화면의 문구는 `site/frontend/compat/modules/`에 해당하는 원본을 고친다. 통계 실험실과 탐구 기록지의 원본은 `portal/`에 있으며 내보낼 때 두 페이지를 다시 생성한다.
+
 이 도구는 수정한 원장으로 포털을 재생성하지 않는다. 데이터 편집 후에는 원본 저술 환경에서 생성·검증을 먼저 끝내고 스냅샷을 갱신한다. `site/dist/`에서 직접 수정한 앱 코드도 원본에 반영한 뒤 새 목적지로 내보낸다. 검토한 `dist/`, `tests/`와 그에 대응하는 `snapshot.json`을 함께 반영하고 `python scripts/export_portal_snapshot.py --verify`와 관련 Node 검사를 통과해야 갱신이 끝난다. 파일만 수정하고 예전 해시 목록을 남기면 CI가 실패한다. 스냅샷 출력 이후에도 자동으로 GitHub push나 Sites 재배포를 수행하지 않는다.
 
 스냅샷의 `source_commit`은 원본 작업본이 깨끗한 경우에만 기록한다. 미커밋 변경이 있으면 `source_commit=null`로 두고 `source_base_commit`과 `source_worktree_clean=false`를 기록한다. 이 경우 실제 복사 범위는 파일별 SHA256으로 확인하며, 기준 커밋의 파일과 모두 같다고 주장하지 않는다.

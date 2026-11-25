@@ -11,7 +11,7 @@
 
   const nav = [
     ["catalog", "교육과정 탐색", "./#view=catalog"],
-    ["compare", "범위 비교", "./#view=compare"],
+    ["compare", "학년군·과목 비교", "./#view=compare"],
     ["hierarchy", "개념으로 보기", "./legacy.html#view=hierarchy"],
     ["about", "자료 안내", "./legacy.html#view=about"],
   ];
@@ -47,7 +47,7 @@
   const footer = document.createElement("footer");
   footer.className = "atlas-footer";
   footer.innerHTML = `<div><span><strong>수학의 연결 지도</strong><small>교육부 고시 제2022-33호 · 별책 8 수학과 교육과정</small></span>
-    <div class="atlas-developer-links"><span>개발자 이병민</span>${developerLinks}<a href="./legacy.html#view=about">자료의 출처와 분석 기준</a></div></div>`;
+    <div class="atlas-developer-links"><span>개발자 이병민</span>${developerLinks}<a href="./legacy.html#view=about">이 자료는 어떻게 만들었나요?</a></div></div>`;
   const previousFooter = document.querySelector("body > .site-footer");
   if (previousFooter) previousFooter.replaceWith(footer);
   else main.after(footer);
@@ -64,6 +64,18 @@
       : params.get("view") === "hierarchy" ? params.get("target") : params.get("code");
   }
 
+  function samePortalURL(first, second, match = "route") {
+    if (!first || !second) return false;
+    const a = new URL(first, location.href);
+    const b = new URL(second, location.href);
+    // Sites redirects these HTML entry points. GitHub Pages serves the .html names.
+    const pathname = (url) => url.pathname.replace(/\/index(?:\.html)?\/?$/, "/")
+      .replace(/\/(legacy|inquiry-workbook|distribution-lab)(?:\.html)?\/?$/, "/$1");
+    return a.origin === location.origin && a.origin === b.origin && pathname(a) === pathname(b)
+      && (match === "path" || a.search === b.search)
+      && (match !== "route" || a.hash === b.hash);
+  }
+
   function readingOrigin() {
     try {
       if (history.state?.atlasReadingOrigin) return history.state.atlasReadingOrigin;
@@ -71,11 +83,8 @@
       if (!pending || !document.referrer) return null;
       const from = new URL(pending.href);
       const destination = new URL(pending.destination);
-      const referrer = new URL(document.referrer);
       const sourceParams = new URLSearchParams(from.hash.slice(1));
-      if (from.origin !== location.origin || destination.origin !== location.origin
-          || referrer.origin !== from.origin || referrer.pathname !== from.pathname
-          || destination.pathname !== location.pathname || destination.search !== location.search
+      if (!samePortalURL(from, document.referrer, "document") || !samePortalURL(destination, location.href, "document")
           || sourceParams.get("view") !== "standard" || sourceParams.get("code") !== pending.code) return null;
       const expected = new URLSearchParams(destination.hash.slice(1));
       const current = new URLSearchParams(location.hash.slice(1));
@@ -104,7 +113,7 @@
       const target = new URL(link.href);
       const reader = new URL(origin.href);
       const params = new URLSearchParams(target.hash.slice(1));
-      if (target.origin !== reader.origin || target.pathname !== new URL("./", reader).pathname
+      if (!samePortalURL(target, reader, "path")
           || params.get("view") !== "standard" || params.has("section") || params.get("code") !== origin.code
           || (!tool && codeFor(route()) !== origin.code)) return;
       event.preventDefault();
@@ -114,18 +123,16 @@
         } catch { /* Ordinary links still work with storage disabled. */ }
         location.assign(reader.href);
       };
-      const entry = window.navigation?.entries().find((item) => item.key === origin.entryKey && item.url === reader.href);
+      const entry = window.navigation?.entries().find((item) => item.key === origin.entryKey && samePortalURL(item.url, reader));
       if (entry) window.navigation.traverseTo(entry.key).finished.catch(resume);
       else resume();
     });
   }
 
   const folder = new URL("./", location.href);
-  const readerPaths = [folder.pathname, new URL("index.html", folder).pathname];
-  const isReader = (url) => url.origin === location.origin && readerPaths.includes(url.pathname);
-  const isWorkspace = (url) => url.origin === location.origin
-    && ["legacy", "distribution-lab", "inquiry-workbook"].some((name) =>
-      [name, name + ".html"].some((file) => url.pathname.replace(/\/$/, "") === new URL(file, folder).pathname));
+  const isReader = (url) => samePortalURL(url, folder, "path");
+  const isWorkspace = (url) => ["legacy", "distribution-lab", "inquiry-workbook"].some((name) =>
+    samePortalURL(url, new URL(name, folder), "path"));
 
   function getContext(key) {
     try { return JSON.parse(sessionStorage.getItem(key)); } catch { return null; }
@@ -141,8 +148,7 @@
   function contextMatches(context, destination) {
     if (!context?.href || !context.destination) return false;
     const target = new URL(context.destination);
-    if (target.origin !== destination.origin || target.search !== destination.search
-        || target.pathname.replace(/\.html$/, "") !== destination.pathname.replace(/\.html$/, "")) return false;
+    if (!samePortalURL(target, destination, "document")) return false;
     const requested = new URLSearchParams(target.hash.slice(1));
     const actual = new URLSearchParams(destination.hash.slice(1));
     // The loader may have filled in a default scope, map route, or focused node.
@@ -152,8 +158,7 @@
   const pendingParent = getContext("atlas-compat-origin");
   if (pendingParent && document.referrer && contextMatches(pendingParent, new URL(location.href))) {
     const source = new URL(pendingParent.href);
-    const referrer = new URL(document.referrer);
-    if (source.origin === referrer.origin && source.pathname === referrer.pathname && (isReader(source) || isWorkspace(source))) {
+    if (samePortalURL(source, document.referrer, "document") && (isReader(source) || isWorkspace(source))) {
       history.replaceState({ ...history.state, atlasParent: pendingParent }, "");
       saveContext("atlas-compat-origin", null);
     }
@@ -161,7 +166,7 @@
 
   function returnLink(event, context) {
     event.preventDefault();
-    const previous = window.navigation?.entries().find((entry) => entry.key === context.entryKey && entry.url === context.href);
+    const previous = window.navigation?.entries().find((entry) => entry.key === context.entryKey && samePortalURL(entry.url, context.href));
     const fallback = () => {
       const target = new URL(context.href);
       saveContext(isReader(target) ? "atlas-compat-resume" : "atlas-explore-resume", context);
@@ -176,7 +181,7 @@
     const heading = main.querySelector(".atlas-page-header");
     if (!heading) return;
     const old = heading.parentElement.querySelector(":scope > .atlas-context-return");
-    if (!parent || old?.href === parent.href) return;
+    if (!parent || samePortalURL(old?.href, parent.href)) return;
     old?.remove();
     const link = document.createElement("a");
     link.href = parent.href;
@@ -191,10 +196,10 @@
   let restoringWorkspace = Boolean(getContext("atlas-explore-resume") || history.state?.atlasDeparture);
   function restoreWorkspaceFocus() {
     if (!restoringWorkspace) return;
-    const saved = [getContext("atlas-explore-resume"), history.state?.atlasDeparture].find((item) => item?.href === location.href);
-    if (!saved || saved.href !== location.href || !saved.focusKey) return;
+    const saved = [getContext("atlas-explore-resume"), history.state?.atlasDeparture].find((item) => samePortalURL(item?.href, location.href));
+    if (!saved?.focusKey) return;
     const target = document.getElementById(saved.focusKey)
-      || [...main.querySelectorAll("a[href]")].find((link) => link.href === saved.focusKey);
+      || [...main.querySelectorAll("a[href]")].find((link) => samePortalURL(link.href, saved.focusKey));
     if (!target) return;
     restoringWorkspace = false;
     for (let ancestor = target.parentElement; ancestor; ancestor = ancestor.parentElement) {
@@ -215,7 +220,7 @@
     if (!link || event.defaultPrevented || event.button !== 0 || event.ctrlKey || event.metaKey
         || event.shiftKey || event.altKey || (link.target && link.target !== "_self") || link.hasAttribute("download")) return;
     const destination = new URL(link.href);
-    if (destination.href === location.href || (!isReader(destination) && !isWorkspace(destination))) return;
+    if (samePortalURL(destination, location.href) || (!isReader(destination) && !isWorkspace(destination))) return;
     const params = route();
     const context = {
       href: location.href, destination: destination.href, entryKey: window.navigation?.currentEntry?.key,
@@ -225,12 +230,17 @@
         : params.get("view") === "about" ? "자료 안내로" : "찾아보던 화면으로",
     };
     history.replaceState({ ...history.state, atlasDeparture: context }, "");
-    if (destination.pathname === location.pathname && destination.search === location.search) nextParent = context;
-    else saveContext(isReader(destination) ? "atlas-explore-origin" : "atlas-compat-origin", context);
+    if (isReader(destination)) saveContext("atlas-explore-origin", context);
+    else {
+      nextParent = context;
+      // A link to a .html alias can load a new document before the host redirects.
+      saveContext("atlas-compat-origin", context);
+    }
   });
   window.addEventListener("hashchange", (event) => {
     if (contextMatches(nextParent, new URL(event.newURL))) {
       history.replaceState({ ...history.state, atlasParent: nextParent, atlasDeparture: null }, "");
+      saveContext("atlas-compat-origin", null);
     }
     nextParent = undefined;
     restoringWorkspace = Boolean(history.state?.atlasDeparture || getContext("atlas-explore-resume"));
@@ -260,7 +270,7 @@
     if (view === "hierarchy" && ["goals", "tasks"].includes(mode) && main.querySelector(".gn-lanes, .tp-official")) {
       menu.setAttribute("aria-label", "목표와 과제 보기");
       const scope = params.get("scope") || "all";
-      for (const [destination, label] of [["goals", "목표의 출발과 활용"], ["tasks", "과제와 조건"], ["", "개념군 목록"]]) {
+      for (const [destination, label] of [["goals", "목표에 필요한 것과 쓰이는 곳"], ["tasks", "수업 과제와 풀이"], ["", "수학 개념 목록"]]) {
         const link = document.createElement("a");
         const source = [...main.querySelectorAll(":scope > .cp-actions a")].find((item) =>
           new URLSearchParams(item.hash.slice(1)).get("mode") === destination);
@@ -280,10 +290,10 @@
     if (!["hierarchy", "network", "overview", "connections", "explore"].includes(view)) return menu;
     menu.setAttribute("aria-label", "연결 지도 보기");
     const modes = [
-      ["hierarchy", "", "개념군 찾기"],
+      ["hierarchy", "", "수학 개념 찾기"],
       ["network", "", "전체 연결망"],
       ["overview", "flow", "개념 흐름"],
-      ["overview", "structure", "학교급 구조"],
+      ["overview", "structure", "학교급별 성취기준"],
       ["overview", "expanded", "성취기준 펼쳐 보기"],
     ];
     const current = view === "overview"
@@ -331,10 +341,10 @@
     const sectionName = tool ? (page === "distribution-lab" ? "분포 탐구" : "탐구 기록지")
       : view === "standard" ? "전체 상세 분석" : view === "connections" ? "연결 근거"
       : view === "network" ? (params.has("node") ? "선택한 기준의 연결" : "전체 연결망")
-      : view === "hierarchy" ? ({ goals: "목표의 출발과 활용", tasks: "과제와 조건" }[params.get("mode")]
-        || (params.has("concept") || params.has("map") ? "개념의 연결" : "개념군 찾기"))
-      : view === "overview" ? (params.get("mode") === "structure" ? "학교급 구조" : "개념 흐름")
-      : view === "about" ? "출처와 검토 범위" : "";
+      : view === "hierarchy" ? ({ goals: "목표에 필요한 것과 쓰이는 곳", tasks: "수업 과제와 풀이" }[params.get("mode")]
+        || (params.has("concept") || params.has("map") ? "개념의 연결" : "수학 개념 찾기"))
+      : view === "overview" ? (params.get("mode") === "structure" ? "학교급별 성취기준" : "개념 흐름")
+      : view === "about" ? "자료의 출처와 검토 내용" : "";
     if (sectionName && !frame.querySelector(".atlas-location")) {
       const crumb = document.createElement("nav");
       crumb.className = "atlas-location";
@@ -680,10 +690,10 @@
       }
       const summary = list.previousElementSibling;
       if (summary?.tagName === "P" && !filter.value) {
-        summary.textContent = `${count}개 개념군 · 자체 분석 초안. 개념을 열면 해당 학교급의 성취기준과 과제를 볼 수 있습니다.`;
+        summary.textContent = `수학 개념 ${count}개 · 이 사이트에서 관련 성취기준을 묶었습니다.`;
       }
       if (filter.value && summary?.tagName === "P") {
-        summary.textContent = `${filter.value} · ${count}개 개념군. 개념을 열면 해당 학교급의 성취기준과 과제를 볼 수 있습니다.`;
+        summary.textContent = `${filter.value} · 관련 개념 ${count}개`;
       }
       if (filter.value && !count && cards.length) {
         const all = document.createElement("a");
@@ -736,7 +746,7 @@
       }
       const read = (s) => "./#" + new URLSearchParams({ view: "standard", code: s.code, scope: ["e", "m", "h"][store.levels.indexOf(s.level)] });
       section.innerHTML = `<p class="atlas-concept-question-line">${esc(data.concept.question)}</p>
-        <h2>학년군·과목별 성취기준</h2><p class="small">현재 범위에 속한 기준 ${members.length}개 · 연구용 개념군 분류</p>`;
+        <h2>학년군·과목별 성취기준</h2><p class="small">관련 성취기준 ${members.length}개 · 이 사이트에서 찾아 연결했습니다.</p>`;
       if (!members.length) {
         const clear = document.createElement("a");
         const all = new URLSearchParams(overview);
@@ -768,7 +778,7 @@
           || pairs.find(({ a, b }) => a.level !== b.level)
           || pairs.find(({ a, b }) => levelName(a) !== levelName(b)) || pairs[0];
         const resume = getContext("atlas-explore-resume");
-        const saved = history.state?.atlasConceptPair || (resume?.href === location.href && resume.conceptPair);
+        const saved = history.state?.atlasConceptPair || (samePortalURL(resume?.href, location.href) && resume.conceptPair);
         const a = (saved?.concept === concept && criteria.get(saved.a)) || example?.a || members[0];
         const b = (saved?.concept === concept && criteria.get(saved.b)) || example?.b
           || members.find((s) => levelName(s) !== levelName(a)) || members.find((s) => s !== a);
@@ -810,7 +820,7 @@
             const evidence = document.createElement("a");
             const where = new URLSearchParams({ view: "hierarchy", concept, scope, mode: "meaning", target: record.a.code, relation: r.id });
             evidence.href = "#" + where;
-            evidence.textContent = "이 연결의 적용 조건과 근거";
+            evidence.textContent = "왜 연결되는지 보기";
             evidence.className = "text-link";
             actions.append(evidence);
           } else {
@@ -823,7 +833,7 @@
             compare.id = "compare-concept-" + concept;
             compare.href = "./#" + new URLSearchParams({ view: "compare", left: store.band(left), leftDomain: left.domain,
               leftCode: left.code, right: store.band(right), rightDomain: right.domain, rightCode: right.code });
-            compare.textContent = "이 두 범위 비교";
+            compare.textContent = "두 성취기준 나란히 보기";
             actions.append(compare);
           }
         }
@@ -910,7 +920,7 @@
     jump.setAttribute("aria-label", "도구에서 이동");
     const control = document.createElement("select");
     const label = document.createElement("label");
-    label.append(workbook ? "기록할 항목" : "탐구할 항목", control);
+    label.append(workbook ? "기록지에서 볼 장" : "보고 싶은 항목", control);
     const sections = headings.map((heading, i) => {
       heading.id ||= (workbook ? "workbook-part-" : "lab-part-") + (i + 1);
       control.append(new Option(heading.textContent, heading.id));
@@ -946,9 +956,9 @@
       pager.className = "atlas-workbook-pager screen-only";
       pager.setAttribute("aria-label", "기록지 항목 이동");
       previous = document.createElement("a");
-      previous.textContent = "이전 항목";
+      previous.textContent = "이전";
       next = document.createElement("a");
-      next.textContent = "다음 항목";
+      next.textContent = "다음";
       step = document.createElement("span");
       pager.append(previous, step, next);
       main.append(pager);

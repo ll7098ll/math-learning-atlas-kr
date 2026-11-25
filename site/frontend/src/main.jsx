@@ -9,26 +9,34 @@ import { oldRoute, paramsFrom, route } from "./curriculum";
 import "../compat/atlas-shell.css";
 import "../compat/atlas-print.css";
 
+function samePortalURL(first, second, match = "route") {
+  if (!first || !second) return false;
+  const a = new URL(first, location.href);
+  const b = new URL(second, location.href);
+  // Sites redirects these HTML entry points. GitHub Pages serves the .html names.
+  const pathname = (url) => url.pathname.replace(/\/index(?:\.html)?\/?$/, "/")
+    .replace(/\/(legacy|inquiry-workbook|distribution-lab)(?:\.html)?\/?$/, "/$1");
+  return a.origin === location.origin && a.origin === b.origin && pathname(a) === pathname(b)
+    && (match === "path" || a.search === b.search)
+    && (match !== "route" || a.hash === b.hash);
+}
+
 function restoreReadingSession() {
   try {
     const pending = JSON.parse(sessionStorage.getItem("atlas-reading-resume"));
     sessionStorage.removeItem("atlas-reading-resume");
     const current = paramsFrom(location.hash);
-    if (pending?.href === location.href && current.get("view") === "standard" && current.get("code") === pending.code) {
+    if (samePortalURL(pending?.href, location.href) && current.get("view") === "standard" && current.get("code") === pending.code) {
       history.replaceState({ ...pending.state, detachedReturn: true }, "");
     }
     const explore = JSON.parse(sessionStorage.getItem("atlas-explore-origin"));
     sessionStorage.removeItem("atlas-explore-origin");
-    if (explore?.destination === location.href && document.referrer) {
-      const from = new URL(explore.href);
-      const referrer = new URL(document.referrer);
-      if (from.origin === location.origin && from.origin === referrer.origin && from.pathname === referrer.pathname) {
-        history.replaceState({ ...history.state, exploreOrigin: explore }, "");
-      }
+    if (samePortalURL(explore?.destination, location.href) && samePortalURL(explore.href, document.referrer, "document")) {
+      history.replaceState({ ...history.state, exploreOrigin: explore }, "");
     }
     const resume = JSON.parse(sessionStorage.getItem("atlas-compat-resume"));
     sessionStorage.removeItem("atlas-compat-resume");
-    if (resume?.href === location.href && resume.focusKey) {
+    if (samePortalURL(resume?.href, location.href) && resume.focusKey) {
       const focusOnReturn = resume.state?.focusOnReturn || { id: resume.focusKey, href: resume.focusKey, scroll: resume.scroll };
       history.replaceState({ ...history.state, ...resume.state, detachedReturn: true, focusOnReturn }, "");
     }
@@ -118,9 +126,9 @@ function App() {
     if (event.button !== 0 || event.ctrlKey || event.metaKey || event.altKey || event.shiftKey) return;
     event.preventDefault();
     const state = history.state;
-    if (state?.exploreOrigin?.href === target) {
+    if (samePortalURL(state?.exploreOrigin?.href, target)) {
       const origin = state.exploreOrigin;
-      const entry = window.navigation?.entries().find((item) => item.key === origin.entryKey && item.url === target);
+      const entry = window.navigation?.entries().find((item) => item.key === origin.entryKey && samePortalURL(item.url, target));
       const resume = () => {
         try { sessionStorage.setItem("atlas-explore-resume", JSON.stringify(origin)); } catch { /* Optional storage. */ }
         location.assign(target);
@@ -156,7 +164,7 @@ function App() {
     const row = view === "catalog" ? params.get("focus") : "";
     const id = saved?.id || ((saved?.row || row) && "std-" + (saved?.row || row));
     const locate = () => (id && document.getElementById(id)) || (saved?.href &&
-      [...document.querySelectorAll("#main a[href]")].find((link) => link.href === saved.href));
+      [...document.querySelectorAll("#main a[href]")].find((link) => samePortalURL(link.href, saved.href)));
     const restoreFocus = (target) => {
       if (!target) return false;
       if (saved?.href) {
@@ -186,13 +194,13 @@ function App() {
 
   useEffect(() => {
     const title = view === "standard" ? catalog?.standards.find((s) => s.code === code)?.title
-      : view === "compare" ? "두 범위 비교" : "교육과정 탐색";
+      : view === "compare" ? "학년군·과목 비교" : "교육과정 탐색";
     if (title) document.title = title + " · 수학의 연결 지도";
   }, [view, code, catalog]);
 
   const menu = [
     ["catalog", "교육과정 탐색", route("catalog")],
-    ["compare", "범위 비교", route("compare")],
+    ["compare", "학년군·과목 비교", route("compare")],
     ["hierarchy", "개념으로 보기", oldRoute("hierarchy")],
     ["about", "자료 안내", oldRoute("about")],
   ];

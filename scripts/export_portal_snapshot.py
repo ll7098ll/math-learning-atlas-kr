@@ -10,6 +10,8 @@ import shutil
 import subprocess
 
 from plan_portal_retention import reference_paths
+from build_distribution_lab import build as build_distribution_lab
+from build_inquiry_workbook import build as build_inquiry_workbook
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -65,6 +67,11 @@ def write_curriculum_index(dist: Path, catalog: dict) -> None:
 
 def install_compat_theme(dist: Path) -> None:
     source = ROOT / "site/frontend/compat"
+    legacy_modules = sorted((source / "modules").glob("*.mjs"))
+    for module in legacy_modules:
+        shutil.copy2(module, dist / "modules" / module.name)
+    build_distribution_lab(dist)
+    build_inquiry_workbook(dist)
     style = "\n\n".join((source / name).read_text(encoding="utf-8").rstrip()
                          for name in ("atlas-tokens.css", "atlas-page.css", "portal-ui.css", "atlas-workspace.css",
                                       "atlas-shell.css", "atlas-tools.css", "atlas-print.css"))
@@ -79,6 +86,14 @@ def install_compat_theme(dist: Path) -> None:
     for name in ("legacy.html", "distribution-lab.html", "inquiry-workbook.html"):
         path = dist / name
         html = path.read_text(encoding="utf-8")
+        if name == "legacy.html":
+            for module in legacy_modules:
+                relative = f"./modules/{module.name}"
+                html = re.sub(
+                    rf'("{re.escape(relative)}":"{re.escape(relative)}\?v=)[0-9a-f]+',
+                    lambda match: match[1] + digest(module)[:16],
+                    html,
+                )
         html = re.sub(r'<link data-atlas-theme[^>]*>\n?|<script data-atlas-theme[^>]*></script>\n?', "", html)
         if "</head>" not in html:
             raise ValueError(f"No document head to theme in {name}")

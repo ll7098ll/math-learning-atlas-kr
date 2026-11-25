@@ -168,7 +168,7 @@ assert(triangleArea.pilots.some(m=>m.id==='area'&&m.route_relationship==='altern
 const areaHtml=renderTaskPathway(new URLSearchParams({scope:'h',goal:'6수03-14:triangle',taskCase:'early-6수03-14-triangle'}),triangleArea);
 assert(areaHtml.includes('현재 목표: 초등학교 · 5~6학년군'));
 assert(areaHtml.includes('높이의 발은 밑변 선분 밖'));
-assert(areaHtml.includes('같은 목표의 대안 경로 · OR'));
+assert(areaHtml.includes('같은 목표에 이르는 여러 방법'));
 const chance=await store.taskPathway('6수04-06');
 assert.equal(chance.goal_analysis.goals.length,2);
 assert(chance.cases[0].shared_conditions.some(s=>s.includes('가상 실험 자료')));

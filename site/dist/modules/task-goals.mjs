@@ -1,7 +1,7 @@
 import {esc,url,list} from './ui.mjs';
 import {renderExtraVisual} from './task-visuals.mjs';
 
-const sourceLabels={goal:'이 경로에서 사용하는 출발 수행',entry_capability:'기초 출발 능력',within_task:'이 과제 안에서 구성·확인',task_assumption:'주어진 수학적 가정'};
+const sourceLabels={goal:'이 풀이에서 쓰는 앞선 목표',entry_capability:'이 풀이에 필요한 기초 능력',within_task:'과제를 풀면서 만들어 보거나 확인할 것',task_assumption:'문제에서 주어진 조건'};
 
 export function renderTaskVisual(visual){
  if(!visual)return '';
@@ -25,5 +25,5 @@ export function renderGoalAnalysis(data,p,route){
  const entry=data.goal_analysis;if(!entry)return '<p class="tp-pending">이 성취기준 전체의 하위 목표와 과제 조건은 추가 대조가 필요합니다. 아래 대표 과제와 기존 원고는 각각 명시한 범위에서 읽어 주세요.</p>';
  const requested=p.get('goal'),focus=entry.goals.find(g=>g.id===requested);
  const goals=focus?[focus,...entry.goals.filter(g=>g.id!==focus.id)]:entry.goals;
- return `<section class="tp-goals"><header><span class="tp-tag">공식 문구와 해설을 나눈 자체 분석</span><h2>이 성취기준에서 확인할 하위 목표 ${entry.goals.length}개</h2><p>${esc(entry.scope)}</p></header>${focus?'<p class="tp-focus-note">선택한 하위 목표를 먼저 표시합니다. 카드 순서는 학습 순서가 아닙니다.</p>':''}<div class="tp-goal-grid">${goals.map(g=>`<article class="tp-goal-card${g.id===focus?.id?' is-selected':''}" data-goal-id="${esc(g.id)}"><h3>${esc(g.title)}</h3><p class="tp-span">공식 문구: “${esc(g.official_span)}”</p><p><strong>확인할 수행:</strong> ${esc(g.success)}</p><div class="tp-goal-tasks">${g.case_ids.map(id=>{const c=data.cases.find(c=>c.id===id);return `<a href="${esc(route({goal:g.id,taskCase:id}))}">${esc(c.title)} ↗</a>`;}).join('')}</div></article>`).join('')}</div><p class="tp-note">문장·해설·적용 시 고려 사항: 교육과정 PDF ${entry.source_review.pdf_pages.join(', ')}쪽(책자 ${entry.source_review.printed_pages.join(', ')}쪽). ${esc(entry.source_review.scope)} 하위 목표의 구분과 경로 조건은 자체 설계이며 독립 검토·학생 반응 검증 전입니다.</p></section>`;
+ return `<section class="tp-goals"><header><span class="tp-tag">이 사이트의 해설</span><h2>이 성취기준에서 학생과 확인할 작은 목표 ${entry.goals.length}개</h2><p>${esc(entry.scope)}</p></header>${focus?'<p class="tp-focus-note">선택한 하위 목표를 먼저 표시합니다. 카드 순서는 학습 순서가 아닙니다.</p>':''}<div class="tp-goal-grid">${goals.map(g=>`<article class="tp-goal-card${g.id===focus?.id?' is-selected':''}" data-goal-id="${esc(g.id)}"><h3>${esc(g.title)}</h3><p class="tp-span">공식 문구: “${esc(g.official_span)}”</p><p><strong>확인할 수행:</strong> ${esc(g.success)}</p><div class="tp-goal-tasks">${g.case_ids.map(id=>{const c=data.cases.find(c=>c.id===id);return `<a href="${esc(route({goal:g.id,taskCase:id}))}">${esc(c.title)} ↗</a>`;}).join('')}</div></article>`).join('')}</div><p class="tp-note">문장·해설·적용 시 고려 사항: 교육과정 PDF ${entry.source_review.pdf_pages.join(', ')}쪽(책자 ${entry.source_review.printed_pages.join(', ')}쪽). ${esc(entry.source_review.scope)} 하위 목표의 구분과 경로 조건은 자체 설계이며 독립 검토·학생 반응 검증 전입니다.</p></section>`;
 }

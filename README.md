@@ -21,7 +21,7 @@ flowchart TD
     Start["교육과정 탐색"] --> Find["학교급 선택 또는 검색"]
     Find --> Detail["성취기준 상세"]
     Detail --> Read["공식 원문·핵심 해설·수업 과제"]
-    Detail --> Compare["다른 범위와 비교"]
+    Detail --> Compare["다른 학년군·과목과 비교"]
     Detail --> Map["기준 연결"]
     Detail --> Print["인쇄"]
 ```
