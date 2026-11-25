@@ -6,13 +6,13 @@
 
 [![저장소 검사 및 Pages 배포 상태](https://github.com/ll7098ll/math-learning-atlas-kr/actions/workflows/checks.yml/badge.svg?branch=main)](https://github.com/ll7098ll/math-learning-atlas-kr/actions/workflows/checks.yml)
 
-![교육과정 탐색 첫 화면. 성취기준 검색창 아래에 초등학교, 중학교, 고등학교 선택 카드가 있다.](docs/images/catalog.jpg)
+![교육과정 탐색 첫 화면. 학교급을 고르거나 개념·코드를 검색하고, 분수의 학교급 간 연결 예시를 열 수 있다.](docs/images/catalog.jpg)
 
 ## 1분 예시 — 비율 성취기준 따라 읽기
 
 1. [교육과정 탐색](https://ll7098ll.github.io/math-learning-atlas-kr/#view=catalog)에서 `6수02-03`을 검색합니다.
-2. **비율의 분수 소수 백분율 표현**을 열어 공식 문구를 확인한 뒤 **분석과 수업 과제**에서 대표 과제와 진단 질문을 읽습니다.
-3. 상세 화면에서 **다른 범위와 비교**, **연결망에서 보기**, **인쇄**를 선택할 수 있습니다. 같은 기준에 딸린 출발 조건과 대안은 **목표별 위계**에서 확인합니다.
+2. **비율의 분수 소수 백분율 표현**을 열어 공식 문구와 **원문 PDF 33쪽**을 확인합니다. **수업 과제**를 누르면 빨강 구슬 3개를 파랑 구슬 4개와 비교하는 질문과 기대 설명을 읽을 수 있습니다.
+3. **기준 연결**에서 다른 기준과 이어지는 이유를 읽습니다. **찾아보던 목록으로**를 누르면 원래 검색 결과로 돌아갑니다.
 
 [예시 상세 바로 열기](https://ll7098ll.github.io/math-learning-atlas-kr/#view=standard&code=6%EC%88%9802-03) · [같은 기준의 목표별 위계](https://ll7098ll.github.io/math-learning-atlas-kr/legacy.html#view=hierarchy&scope=all&mode=goals&target=6%EC%88%9802-03)
 
@@ -20,9 +20,9 @@
 flowchart TD
     Start["교육과정 탐색"] --> Find["학교급 선택 또는 검색"]
     Find --> Detail["성취기준 상세"]
-    Detail --> Read["공식 문구·분석·과제"]
+    Detail --> Read["공식 원문·핵심 해설·수업 과제"]
     Detail --> Compare["다른 범위와 비교"]
-    Detail --> Map["연결망에서 보기"]
+    Detail --> Map["기준 연결"]
     Detail --> Print["인쇄"]
 ```
 

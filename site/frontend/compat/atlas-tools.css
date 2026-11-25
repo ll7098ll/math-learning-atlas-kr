@@ -1,0 +1,30 @@
+@media screen {
+  .atlas-tool main .workbook-inactive { display: none; }
+  .atlas-tool .atlas-tool-jump { align-items: end; }
+  .atlas-tool .atlas-tool-jump select { width: 100%; }
+  .atlas-tool .atlas-workbook-pager {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.25rem;
+    margin: 1.5rem auto;
+    border-top: 1px solid var(--atlas-line);
+    padding-block: 1rem;
+  }
+  .atlas-tool .atlas-workbook-pager a {
+    color: var(--atlas-primary);
+    padding: .55rem .9rem;
+    border: 1px solid var(--atlas-line);
+    border-radius: .4rem;
+    font-weight: 650;
+    text-decoration: none;
+  }
+  .atlas-tool .atlas-workbook-pager a[hidden] { display: none; }
+  .atlas-tool .atlas-workbook-pager span { color: var(--atlas-muted); font-variant-numeric: tabular-nums; }
+  .atlas-tool main .sheet { border-top: .2rem solid var(--atlas-primary); }
+  .atlas-tool main .sheet > h2, .atlas-tool #plot-heading { color: var(--atlas-primary); }
+  .atlas-tool main [id^="workbook-part-"], .atlas-tool main [id^="lab-part-"] { scroll-margin-top: 1rem; }
+}
+@media print {
+  .atlas-tool .atlas-workbook-pager, .atlas-tool .atlas-tool-jump { display: none !important; }
+}

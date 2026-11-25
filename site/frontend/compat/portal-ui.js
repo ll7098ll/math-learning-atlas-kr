@@ -11,8 +11,8 @@
 
   const nav = [
     ["catalog", "교육과정 탐색", "./#view=catalog"],
-    ["compare", "비교", "./#view=compare"],
-    ["hierarchy", "연결 지도", "./legacy.html#view=hierarchy"],
+    ["compare", "범위 비교", "./#view=compare"],
+    ["hierarchy", "개념으로 보기", "./legacy.html#view=hierarchy"],
     ["about", "자료 안내", "./legacy.html#view=about"],
   ];
   const header = document.createElement("header");
@@ -53,8 +53,194 @@
   else main.after(footer);
 
   function route() {
-    return new URLSearchParams(location.hash.slice(1));
+    const params = new URLSearchParams(location.hash.slice(1));
+    const alias = { map: "catalog", explore: "connections" }[params.get("view")];
+    if (alias) params.set("view", alias);
+    return params;
   }
+
+  function codeFor(params) {
+    return params.get("view") === "network" ? params.get("node")
+      : params.get("view") === "hierarchy" ? params.get("target") : params.get("code");
+  }
+
+  function readingOrigin() {
+    try {
+      if (history.state?.atlasReadingOrigin) return history.state.atlasReadingOrigin;
+      const pending = JSON.parse(sessionStorage.getItem("atlas-reading-origin"));
+      if (!pending || !document.referrer) return null;
+      const from = new URL(pending.href);
+      const destination = new URL(pending.destination);
+      const referrer = new URL(document.referrer);
+      const sourceParams = new URLSearchParams(from.hash.slice(1));
+      if (from.origin !== location.origin || destination.origin !== location.origin
+          || referrer.origin !== from.origin || referrer.pathname !== from.pathname
+          || destination.pathname !== location.pathname || destination.search !== location.search
+          || sourceParams.get("view") !== "standard" || sourceParams.get("code") !== pending.code) return null;
+      const expected = new URLSearchParams(destination.hash.slice(1));
+      const current = new URLSearchParams(location.hash.slice(1));
+      // Legacy adds the saved school scope to routes that omit it.
+      if (!expected.has("scope")) current.delete("scope");
+      expected.sort();
+      current.sort();
+      if (current.toString() !== expected.toString()) return null;
+      history.replaceState({ ...history.state, atlasReadingOrigin: pending }, "");
+      sessionStorage.removeItem("atlas-reading-origin");
+      return pending;
+    } catch {
+      return null;
+    }
+  }
+
+  const origin = readingOrigin();
+  if (origin) {
+    window.addEventListener("hashchange", () => {
+      if (!history.state?.atlasReadingOrigin) history.replaceState({ ...history.state, atlasReadingOrigin: origin }, "");
+    });
+    main.addEventListener("click", (event) => {
+      const link = event.target.closest("a[href]");
+      if (!link || event.defaultPrevented || event.button !== 0 || event.ctrlKey || event.metaKey
+          || event.shiftKey || event.altKey || (link.target && link.target !== "_self")) return;
+      const target = new URL(link.href);
+      const reader = new URL(origin.href);
+      const params = new URLSearchParams(target.hash.slice(1));
+      if (target.origin !== reader.origin || target.pathname !== new URL("./", reader).pathname
+          || params.get("view") !== "standard" || params.has("section") || params.get("code") !== origin.code
+          || (!tool && codeFor(route()) !== origin.code)) return;
+      event.preventDefault();
+      const resume = () => {
+        try {
+          sessionStorage.setItem("atlas-reading-resume", JSON.stringify({ code: origin.code, href: origin.href, state: origin.state }));
+        } catch { /* Ordinary links still work with storage disabled. */ }
+        location.assign(reader.href);
+      };
+      const entry = window.navigation?.entries().find((item) => item.key === origin.entryKey && item.url === reader.href);
+      if (entry) window.navigation.traverseTo(entry.key).finished.catch(resume);
+      else resume();
+    });
+  }
+
+  const folder = new URL("./", location.href);
+  const readerPaths = [folder.pathname, new URL("index.html", folder).pathname];
+  const isReader = (url) => url.origin === location.origin && readerPaths.includes(url.pathname);
+  const isWorkspace = (url) => url.origin === location.origin
+    && ["legacy", "distribution-lab", "inquiry-workbook"].some((name) =>
+      [name, name + ".html"].some((file) => url.pathname.replace(/\/$/, "") === new URL(file, folder).pathname));
+
+  function getContext(key) {
+    try { return JSON.parse(sessionStorage.getItem(key)); } catch { return null; }
+  }
+
+  function saveContext(key, value) {
+    try {
+      if (value) sessionStorage.setItem(key, JSON.stringify(value));
+      else sessionStorage.removeItem(key);
+    } catch { /* Direct links still work when storage is disabled. */ }
+  }
+
+  function contextMatches(context, destination) {
+    if (!context?.href || !context.destination) return false;
+    const target = new URL(context.destination);
+    if (target.origin !== destination.origin || target.search !== destination.search
+        || target.pathname.replace(/\.html$/, "") !== destination.pathname.replace(/\.html$/, "")) return false;
+    const requested = new URLSearchParams(target.hash.slice(1));
+    const actual = new URLSearchParams(destination.hash.slice(1));
+    // The loader may have filled in a default scope, map route, or focused node.
+    return [...requested].every(([key, value]) => actual.get(key) === value);
+  }
+
+  const pendingParent = getContext("atlas-compat-origin");
+  if (pendingParent && document.referrer && contextMatches(pendingParent, new URL(location.href))) {
+    const source = new URL(pendingParent.href);
+    const referrer = new URL(document.referrer);
+    if (source.origin === referrer.origin && source.pathname === referrer.pathname && (isReader(source) || isWorkspace(source))) {
+      history.replaceState({ ...history.state, atlasParent: pendingParent }, "");
+      saveContext("atlas-compat-origin", null);
+    }
+  }
+
+  function returnLink(event, context) {
+    event.preventDefault();
+    const previous = window.navigation?.entries().find((entry) => entry.key === context.entryKey && entry.url === context.href);
+    const fallback = () => {
+      const target = new URL(context.href);
+      saveContext(isReader(target) ? "atlas-compat-resume" : "atlas-explore-resume", context);
+      location.assign(target.href);
+    };
+    if (previous) window.navigation.traverseTo(previous.key).finished.catch(fallback);
+    else fallback();
+  }
+
+  function prepareContextReturn() {
+    const parent = history.state?.atlasParent;
+    const heading = main.querySelector(".atlas-page-header");
+    if (!heading) return;
+    const old = heading.parentElement.querySelector(":scope > .atlas-context-return");
+    if (!parent || old?.href === parent.href) return;
+    old?.remove();
+    const link = document.createElement("a");
+    link.href = parent.href;
+    link.className = "atlas-return atlas-context-return";
+    link.textContent = "← " + (parent.label || "찾아보던 화면으로");
+    link.addEventListener("click", (event) => {
+      if (!event.button && !event.ctrlKey && !event.metaKey && !event.altKey && !event.shiftKey) returnLink(event, parent);
+    });
+    heading.before(link);
+  }
+
+  let restoringWorkspace = Boolean(getContext("atlas-explore-resume") || history.state?.atlasDeparture);
+  function restoreWorkspaceFocus() {
+    if (!restoringWorkspace) return;
+    const saved = [getContext("atlas-explore-resume"), history.state?.atlasDeparture].find((item) => item?.href === location.href);
+    if (!saved || saved.href !== location.href || !saved.focusKey) return;
+    const target = document.getElementById(saved.focusKey)
+      || [...main.querySelectorAll("a[href]")].find((link) => link.href === saved.focusKey);
+    if (!target) return;
+    restoringWorkspace = false;
+    for (let ancestor = target.parentElement; ancestor; ancestor = ancestor.parentElement) {
+      if (ancestor.tagName === "DETAILS") ancestor.open = true;
+    }
+    saveContext("atlas-explore-resume", null);
+    history.replaceState({ ...history.state, atlasDeparture: null }, "");
+    requestAnimationFrame(() => requestAnimationFrame(() => {
+      if (!target.isConnected) return;
+      target.focus({ preventScroll: true });
+      window.scrollTo(0, saved.scroll || 0);
+    }));
+  }
+
+  let nextParent;
+  document.addEventListener("click", (event) => {
+    const link = event.target.closest("a[href]");
+    if (!link || event.defaultPrevented || event.button !== 0 || event.ctrlKey || event.metaKey
+        || event.shiftKey || event.altKey || (link.target && link.target !== "_self") || link.hasAttribute("download")) return;
+    const destination = new URL(link.href);
+    if (destination.href === location.href || (!isReader(destination) && !isWorkspace(destination))) return;
+    const params = route();
+    const context = {
+      href: location.href, destination: destination.href, entryKey: window.navigation?.currentEntry?.key,
+      focusKey: link.id || link.href, scroll: window.scrollY,
+      conceptPair: history.state?.atlasConceptPair,
+      label: params.has("concept") ? "읽던 개념으로" : tool ? "읽던 탐구 도구로"
+        : params.get("view") === "about" ? "자료 안내로" : "찾아보던 화면으로",
+    };
+    history.replaceState({ ...history.state, atlasDeparture: context }, "");
+    if (destination.pathname === location.pathname && destination.search === location.search) nextParent = context;
+    else saveContext(isReader(destination) ? "atlas-explore-origin" : "atlas-compat-origin", context);
+  });
+  window.addEventListener("hashchange", (event) => {
+    if (contextMatches(nextParent, new URL(event.newURL))) {
+      history.replaceState({ ...history.state, atlasParent: nextParent, atlasDeparture: null }, "");
+    }
+    nextParent = undefined;
+    restoringWorkspace = Boolean(history.state?.atlasDeparture || getContext("atlas-explore-resume"));
+    prepareContextReturn();
+    restoreWorkspaceFocus();
+  });
+  window.addEventListener("pageshow", () => {
+    restoringWorkspace = Boolean(history.state?.atlasDeparture || getContext("atlas-explore-resume"));
+    restoreWorkspaceFocus();
+  });
 
   function sectionNavigation(params) {
     const view = params.get("view");
@@ -74,7 +260,7 @@
     if (view === "hierarchy" && ["goals", "tasks"].includes(mode) && main.querySelector(".gn-lanes, .tp-official")) {
       menu.setAttribute("aria-label", "목표와 과제 보기");
       const scope = params.get("scope") || "all";
-      for (const [destination, label] of [["goals", "목표별 위계"], ["tasks", "과제와 조건"], ["", "개념군 목록"]]) {
+      for (const [destination, label] of [["goals", "목표의 출발과 활용"], ["tasks", "과제와 조건"], ["", "개념군 목록"]]) {
         const link = document.createElement("a");
         const source = [...main.querySelectorAll(":scope > .cp-actions a")].find((item) =>
           new URLSearchParams(item.hash.slice(1)).get("mode") === destination);
@@ -94,7 +280,7 @@
     if (!["hierarchy", "network", "overview", "connections", "explore"].includes(view)) return menu;
     menu.setAttribute("aria-label", "연결 지도 보기");
     const modes = [
-      ["hierarchy", "", "개념군과 위계"],
+      ["hierarchy", "", "개념군 찾기"],
       ["network", "", "전체 연결망"],
       ["overview", "flow", "개념 흐름"],
       ["overview", "structure", "학교급 구조"],
@@ -133,6 +319,39 @@
     }
     heading.classList.add("atlas-page-title");
     const view = params.get("view");
+    if (main.querySelector(".pathway-search") && heading.textContent !== "개념으로 보기") {
+      heading.textContent = "개념으로 보기";
+      const lead = frame.querySelector(".lead");
+      if (lead) lead.textContent = "익숙한 수학 개념을 골라 학교급마다 배우는 내용과 연결되는 이유를 살펴보세요.";
+    }
+    if (view === "network" && main.querySelector(".atlas-network")) {
+      const title = params.has("node") ? "이 기준의 연결 보기" : "전체 연결망";
+      if (heading.textContent !== title) heading.textContent = title;
+    }
+    const sectionName = tool ? (page === "distribution-lab" ? "분포 탐구" : "탐구 기록지")
+      : view === "standard" ? "전체 상세 분석" : view === "connections" ? "연결 근거"
+      : view === "network" ? (params.has("node") ? "선택한 기준의 연결" : "전체 연결망")
+      : view === "hierarchy" ? ({ goals: "목표의 출발과 활용", tasks: "과제와 조건" }[params.get("mode")]
+        || (params.has("concept") || params.has("map") ? "개념의 연결" : "개념군 찾기"))
+      : view === "overview" ? (params.get("mode") === "structure" ? "학교급 구조" : "개념 흐름")
+      : view === "about" ? "출처와 검토 범위" : "";
+    if (sectionName && !frame.querySelector(".atlas-location")) {
+      const crumb = document.createElement("nav");
+      crumb.className = "atlas-location";
+      crumb.setAttribute("aria-label", "현재 위치");
+      const parent = document.createElement("a");
+      const hub = nav[tool || view === "about" ? 3 : view === "standard" ? 0 : 2];
+      parent.href = hub[2];
+      parent.textContent = hub[1];
+      const current = document.createElement("span");
+      current.setAttribute("aria-current", "page");
+      current.textContent = sectionName;
+      crumb.append(parent, current);
+      heading.before(crumb);
+    } else if (frame.querySelector(".atlas-location [aria-current]")?.textContent !== sectionName) {
+      const current = frame.querySelector(".atlas-location [aria-current]");
+      if (current) current.textContent = sectionName;
+    }
     if (tool || view === "standard" || view === "about") return;
     const menu = sectionNavigation(params);
     const oldMenu = main.querySelector(".atlas-path");
@@ -142,7 +361,14 @@
     if (oldMenu) oldMenu.replaceWith(menu);
     else if (menu.children.length) {
       const section = heading.closest(".atlas-page-header");
-      section.after(menu);
+      if (menu.getAttribute("aria-label") === "연결 지도 보기") {
+        const switcher = document.createElement("details");
+        switcher.className = "atlas-view-switcher";
+        const title = document.createElement("summary");
+        title.textContent = "다른 방식으로 연결 보기";
+        switcher.append(title, menu);
+        section.after(switcher);
+      } else section.after(menu);
     }
   }
 
@@ -164,10 +390,8 @@
 
   function prepareStandardReturn(params) {
     const view = params.get("view");
-    const code = view === "network" ? params.get("node")
-      : view === "connections" ? params.get("code")
-      : view === "hierarchy" ? params.get("target") : "";
-    const oldLink = main.querySelector(".atlas-return");
+    const code = ["network", "connections", "hierarchy"].includes(view) ? codeFor(params) : "";
+    const oldLink = main.querySelector(".atlas-standard-return");
     if (!/^[0-9]+[가-힣]+(?:[0-9]+-)?[0-9]{2}-[0-9]{2}$/u.test(code || "")) {
       oldLink?.remove();
       return;
@@ -179,7 +403,7 @@
     const href = "./#" + target;
     if (oldLink?.getAttribute("href") === href) return;
     const link = document.createElement("a");
-    link.className = "atlas-return";
+    link.className = "atlas-return atlas-standard-return";
     link.href = href;
     link.innerHTML = '<span aria-hidden="true">←</span> 성취기준 상세로';
     if (oldLink) oldLink.replaceWith(link);
@@ -187,7 +411,7 @@
   }
 
   function focusSection(element) {
-    element.tabIndex = -1;
+    if (!element.matches("summary, button, a[href], input, select, textarea, [tabindex]")) element.tabIndex = -1;
     element.focus({ preventScroll: true });
     element.scrollIntoView({ block: "start" });
   }
@@ -224,6 +448,7 @@
       related = document.createElement("button");
       related.type = "button";
       related.className = "atlas-related-toggle";
+      related.dataset.startedWithNode = String(route().has("node"));
       related.textContent = "선택 주변만 보기";
       related.setAttribute("aria-pressed", "false");
       related.addEventListener("click", () => {
@@ -250,6 +475,15 @@
     const label = filterCount ? `영역·개념·연결선 필터 · ${filterCount}개 적용` : "영역·개념·연결선 필터";
     if (filters.firstElementChild.textContent !== label) filters.firstElementChild.textContent = label;
     const selected = Boolean(svg.querySelector(".atlas-dot.is-selected:not([aria-hidden=true])"));
+    if (selected && !related.dataset.initialized) {
+      related.dataset.initialized = "true";
+      if (related.dataset.startedWithNode === "true") {
+        workspace.classList.add("atlas-related-only");
+        related.setAttribute("aria-pressed", "true");
+        workspace.classList.add("atlas-selected-entry");
+        workspace.prepend(workspace.querySelector(".atlas-inspector"));
+      }
+    }
     related.disabled = !selected;
     if (!selected && workspace.classList.contains("atlas-related-only")) {
       workspace.classList.remove("atlas-related-only");
@@ -280,6 +514,10 @@
     const articles = [...main.querySelectorAll(".tp-case[data-task-case]")];
     if (!articles.length || main.querySelector(".atlas-task-picker")) return;
     const cases = new Map(articles.map((article) => [article.dataset.taskCase, article]));
+    for (const body of main.querySelectorAll(".tp-route-body")) {
+      const probe = body.querySelector(":scope > .tp-probe");
+      if (probe) body.prepend(probe);
+    }
     const goals = [...main.querySelectorAll(".tp-goal-card[data-goal-id]")];
     const picker = document.createElement("form");
     picker.className = "atlas-task-picker";
@@ -321,7 +559,7 @@
         const prefix = article.closest(".tp-previous-case") ? "기존 설계 · " : "";
         caseSelect.append(new Option(prefix + article.querySelector("h2").textContent, id));
       }
-      caseSelect.value = available.includes(selectedCase) ? selectedCase : "";
+      caseSelect.value = available.includes(selectedCase) ? selectedCase : available.length === 1 ? available[0] : "";
       caseSelect.disabled = !available.length;
       submit.disabled = !caseSelect.value;
     }
@@ -334,11 +572,44 @@
       if (!article) return;
       const previous = article.closest(".tp-previous-case");
       if (previous) previous.open = true;
-      focusSection(article.querySelector("h2"));
+      const next = new URLSearchParams(route());
+      next.set("taskCase", caseSelect.value);
+      if (goalSelect.value) next.set("goal", goalSelect.value);
+      else next.delete("goal");
+      next.delete("taskRoute");
+      if (route().toString() === next.toString()) focusSection(article.querySelector("h2"));
+      else location.hash = next.toString();
     });
     listCases(params.get("taskCase"));
     const anchor = main.querySelector(".tp-goals") || articles[0].closest(".tp-previous-case") || articles[0];
     anchor.before(picker);
+    if (articles.length === 1) {
+      const choice = document.createElement("details");
+      choice.className = "atlas-task-choice";
+      const label = document.createElement("summary");
+      label.textContent = "하위 목표에서 과제 찾기";
+      picker.before(choice);
+      choice.append(label, picker);
+    }
+    const goalSection = main.querySelector(".tp-goals");
+    if (goalSection && !params.has("goal")) {
+      const disclosure = document.createElement("details");
+      disclosure.className = "atlas-goal-summary";
+      const summary = document.createElement("summary");
+      summary.textContent = goalSection.querySelector("h2").textContent;
+      goalSection.before(disclosure);
+      disclosure.append(summary, goalSection);
+    }
+    const selected = cases.get(params.get("taskCase"));
+    if (selected) {
+      // The legacy router finishes by focusing its page heading in the next frame.
+      requestAnimationFrame(() => requestAnimationFrame(() => {
+        if (!selected.isConnected) return;
+        const part = [...selected.querySelectorAll(".tp-route")]
+          .find((item) => item.dataset.route === params.get("taskRoute"));
+        focusSection(part?.querySelector("summary") || selected.querySelector("h2"));
+      }));
+    }
   }
 
   function updateNav() {
@@ -349,6 +620,361 @@
       if (link.dataset.atlasNav === current) link.setAttribute("aria-current", "page");
       else link.removeAttribute("aria-current");
     }
+  }
+
+  async function prepareConceptIndex(params) {
+    const form = main.querySelector(".pathway-search");
+    if (!form || form.dataset.domainReady) return;
+    form.dataset.domainReady = "pending";
+    const list = main.querySelector("section .pathway-cards");
+    if (!list) return;
+    try {
+      const { conceptPathwaysIndex } = await import("./modules/store.mjs");
+      const index = await conceptPathwaysIndex();
+      if (!form.isConnected) return;
+      const groups = new Map(index.groups.map((group) => [group.id, group]));
+      const domains = [...new Set(index.groups.map((group) => group.domain))];
+      const filter = document.createElement("select");
+      filter.name = "conceptDomain";
+      filter.append(new Option("모든 개념 분야", ""));
+      domains.forEach((domain) => filter.append(new Option(domain)));
+      filter.value = domains.includes(params.get("conceptDomain")) ? params.get("conceptDomain") : "";
+      const label = document.createElement("label");
+      label.append("개념 분야", filter);
+      const review = form.querySelector('[name="review"]').closest("label");
+      review.before(label);
+      const extra = document.createElement("details");
+      extra.className = "atlas-index-review";
+      const reviewLabel = document.createElement("summary");
+      reviewLabel.textContent = "검토 상태";
+      extra.open = Boolean(params.get("review"));
+      review.before(extra);
+      extra.append(reviewLabel, review);
+      const header = main.querySelector(".atlas-page-header");
+      const switcher = main.querySelector(".atlas-view-switcher");
+      const explainer = main.querySelector(".atlas-explainer");
+      if (header && switcher && explainer) {
+        const options = document.createElement("div");
+        options.className = "atlas-index-options";
+        header.after(form);
+        form.after(options);
+        options.append(switcher, explainer);
+      }
+      const cards = [...list.querySelectorAll("details[data-open]")];
+      let count = 0;
+      for (const card of cards) {
+        const id = card.querySelector("[data-concept-pathway]")?.dataset.conceptPathway;
+        const group = groups.get(id);
+        card.hidden = Boolean(filter.value && group?.domain !== filter.value);
+        if (!card.hidden) count++;
+        if (group) {
+          const question = card.querySelector(":scope > p");
+          if (question) {
+            const subline = document.createElement("span");
+            subline.className = "atlas-concept-question";
+            subline.textContent = question.textContent;
+            card.querySelector("summary").append(subline);
+            question.remove();
+          }
+        }
+      }
+      const summary = list.previousElementSibling;
+      if (summary?.tagName === "P" && !filter.value) {
+        summary.textContent = `${count}개 개념군 · 자체 분석 초안. 개념을 열면 해당 학교급의 성취기준과 과제를 볼 수 있습니다.`;
+      }
+      if (filter.value && summary?.tagName === "P") {
+        summary.textContent = `${filter.value} · ${count}개 개념군. 개념을 열면 해당 학교급의 성취기준과 과제를 볼 수 있습니다.`;
+      }
+      if (filter.value && !count && cards.length) {
+        const all = document.createElement("a");
+        const next = new URLSearchParams(params);
+        next.delete("conceptDomain");
+        all.href = "#" + next;
+        all.className = "button";
+        all.textContent = "모든 개념 분야에서 찾기";
+        list.append(all);
+      }
+      form.dataset.domainReady = "ready";
+    } catch {
+      delete form.dataset.domainReady;
+    }
+  }
+
+  async function prepareConceptPage(params) {
+    const concept = params.get("concept");
+    if (!concept || params.get("view") !== "hierarchy" || main.hasAttribute("aria-busy")) return;
+    const heading = main.querySelector(".atlas-page-header");
+    if (!heading || heading.dataset.conceptPage || main.querySelector('[role="alert"]')) return;
+    const scope = params.get("scope") || "all";
+    const overview = new URLSearchParams({ view: "hierarchy", concept, scope });
+    if (params.has("mode") || params.has("relation")) {
+      const back = document.createElement("a");
+      back.href = "#" + overview;
+      back.className = "atlas-concept-overview-link";
+      back.textContent = "이 개념의 학년군·과목별 기준";
+      heading.append(back);
+      heading.dataset.conceptPage = "detail";
+      return;
+    }
+    heading.dataset.conceptPage = "loading";
+    try {
+      const [store, { esc }] = await Promise.all([import("./modules/store.mjs"), import("./modules/ui.mjs")]);
+      const data = await store.conceptPathway(concept);
+      if (!heading.isConnected || route().get("concept") !== concept) return;
+      const byCode = new Map(store.catalog.standards.map((s) => [s.code, s]));
+      const members = data.concept.member_codes.map((code) => byCode.get(code)).filter((s) => store.inScope(s, scope));
+      const section = document.createElement("section");
+      section.className = "atlas-concept-overview";
+      section.dataset.concept = concept;
+      const criteria = new Map(members.map((s) => [s.code, s]));
+      const perBand = new Map();
+      const levelName = (s) => s.level + " · " + store.band(s);
+      for (const standard of members) {
+        const name = levelName(standard);
+        if (!perBand.has(name)) perBand.set(name, []);
+        perBand.get(name).push(standard);
+      }
+      const read = (s) => "./#" + new URLSearchParams({ view: "standard", code: s.code, scope: ["e", "m", "h"][store.levels.indexOf(s.level)] });
+      section.innerHTML = `<p class="atlas-concept-question-line">${esc(data.concept.question)}</p>
+        <h2>학년군·과목별 성취기준</h2><p class="small">현재 범위에 속한 기준 ${members.length}개 · 연구용 개념군 분류</p>`;
+      if (!members.length) {
+        const clear = document.createElement("a");
+        const all = new URLSearchParams(overview);
+        all.set("scope", "all");
+        clear.className = "button";
+        clear.href = "#" + all;
+        clear.textContent = "모든 학교급에서 이 개념 보기";
+        section.append(clear);
+      }
+      const requested = params.get("target");
+      for (const [name, standards] of perBand) {
+        const group = document.createElement("details");
+        group.className = "atlas-concept-band";
+        group.dataset.open = concept + "-" + name;
+        group.open = perBand.size === 1 || Boolean(requested && standards.some((s) => s.code === requested));
+        group.innerHTML = `<summary>${esc(name)} <small>${standards.length}개</small></summary><ul>${standards.map((s) =>
+          `<li><a id="concept-${esc(concept)}-${esc(s.code)}" href="${esc(read(s))}"><strong>${esc(s.title)}</strong><small>${esc(s.code)} · ${esc(s.domain)}</small></a><p><span>공식 성취기준</span> ${esc(s.statement)}</p></li>`
+        ).join("")}</ul>`;
+        section.append(group);
+      }
+
+      if (members.length >= 2) {
+        const pairs = data.relations.map((relation) => ({
+          relation, a: criteria.get(relation.from.slice(9)), b: criteria.get(relation.to.slice(9)),
+        })).filter(({ a, b }) => a && b && a !== b);
+        // Prefer an authored cross-school expansion. L014 is the worked fraction example in the design.
+        const example = pairs.find(({ relation }) => concept === "fraction" && relation.id === "L014")
+          || pairs.find(({ relation, a, b }) => a.level !== b.level && relation.type === "generalizes")
+          || pairs.find(({ a, b }) => a.level !== b.level)
+          || pairs.find(({ a, b }) => levelName(a) !== levelName(b)) || pairs[0];
+        const resume = getContext("atlas-explore-resume");
+        const saved = history.state?.atlasConceptPair || (resume?.href === location.href && resume.conceptPair);
+        const a = (saved?.concept === concept && criteria.get(saved.a)) || example?.a || members[0];
+        const b = (saved?.concept === concept && criteria.get(saved.b)) || example?.b
+          || members.find((s) => levelName(s) !== levelName(a)) || members.find((s) => s !== a);
+        const sample = document.createElement("section");
+        sample.className = "atlas-concept-comparison";
+        sample.innerHTML = `<h2>두 기준에서 달라지는 점</h2><div class="atlas-concept-pair"></div>
+          <div class="atlas-concept-reason"></div><div class="cp-actions"></div>`;
+        const pair = sample.querySelector(".atlas-concept-pair");
+        const controls = [a, b].map((standard, i) => {
+          const column = document.createElement("div");
+          column.innerHTML = `<label>${i ? "두 번째 기준" : "첫 번째 기준"}<select></select></label><p></p><a class="text-link"></a>`;
+          const select = column.querySelector("select");
+          for (const [name, standards] of perBand) {
+            const optgroup = document.createElement("optgroup");
+            optgroup.label = name;
+            for (const s of standards) optgroup.append(new Option(s.title + " · " + s.code, s.code));
+            select.append(optgroup);
+          }
+          select.value = standard.code;
+          pair.append(column);
+          return { select, statement: column.querySelector("p"), link: column.querySelector("a") };
+        });
+        function update() {
+          const [left, right] = controls.map(({ select, statement, link }) => {
+            const s = criteria.get(select.value);
+            statement.innerHTML = `<small>${esc(levelName(s))} · 공식 성취기준</small>${esc(s.statement)}`;
+            link.href = read(s);
+            link.textContent = s.code + " 상세 읽기";
+            return s;
+          });
+          const record = pairs.find(({ a, b }) => a === left && b === right)
+            || pairs.find(({ a, b }) => a === right && b === left);
+          const reason = sample.querySelector(".atlas-concept-reason");
+          const actions = sample.querySelector(".cp-actions");
+          actions.replaceChildren();
+          if (record) {
+            const r = record.relation;
+            reason.innerHTML = `<strong>${esc(store.types[r.type] || r.type)} · 자체 분석</strong><p>${esc(r.rationale)}</p>`;
+            const evidence = document.createElement("a");
+            const where = new URLSearchParams({ view: "hierarchy", concept, scope, mode: "meaning", target: record.a.code, relation: r.id });
+            evidence.href = "#" + where;
+            evidence.textContent = "이 연결의 적용 조건과 근거";
+            evidence.className = "text-link";
+            actions.append(evidence);
+          } else {
+            reason.textContent = left === right ? "서로 다른 두 기준을 선택하면 공식 문장을 비교할 수 있습니다."
+              : "이 두 기준 사이에 직접 기록된 관계가 없습니다. 위 공식 문장에서 다루는 표현을 비교해 보세요.";
+          }
+          if (left !== right) {
+            const compare = document.createElement("a");
+            compare.className = "button";
+            compare.id = "compare-concept-" + concept;
+            compare.href = "./#" + new URLSearchParams({ view: "compare", left: store.band(left), leftDomain: left.domain,
+              leftCode: left.code, right: store.band(right), rightDomain: right.domain, rightCode: right.code });
+            compare.textContent = "이 두 범위 비교";
+            actions.append(compare);
+          }
+        }
+        for (const { select } of controls) select.addEventListener("change", () => {
+          history.replaceState({ ...history.state, atlasConceptPair: { concept, a: controls[0].select.value, b: controls[1].select.value } }, "");
+          update();
+        });
+        update();
+        const jump = document.createElement("button");
+        jump.type = "button";
+        jump.className = "atlas-concept-jump";
+        jump.textContent = "두 기준에서 달라지는 점 보기 ↓";
+        jump.addEventListener("click", () => focusSection(sample.querySelector("h2")));
+        section.querySelector(".atlas-concept-question-line").after(jump);
+        section.append(sample);
+      }
+
+      const more = document.createElement("details");
+      more.className = "atlas-concept-depth";
+      more.innerHTML = "<summary>개별 목표·과제와 전체 연결 분석</summary>";
+      const deeper = [...main.querySelectorAll(":scope > :is(.cp-review, .cp-controls, .cp-tabs, .cp-map, .cp-actions, .cp-details, .cp-all-expansions, .cp-members, .cp-note)")];
+      if (deeper.length) more.append(...deeper);
+      heading.after(section);
+      if (deeper.length) section.after(more);
+      heading.dataset.conceptPage = "ready";
+      restoreWorkspaceFocus();
+    } catch {
+      // Keep the original concept map and its links usable if the resource cannot be loaded.
+      heading.dataset.conceptPage = "unavailable";
+    }
+  }
+
+  function prepareSources() {
+    const list = main.querySelector(".sources-list");
+    if (!list || main.querySelector(".atlas-source-search")) return;
+    const sources = [...list.querySelectorAll(":scope > .source-block")];
+    if (!sources.length) return;
+    const section = document.createElement("section");
+    section.className = "atlas-source-search";
+    section.innerHTML = `<h2>출처에서 찾기</h2><label>제목이나 검토 내용
+      <input type="search" placeholder="예: 분수, 관찰, 보고서"></label><p role="status"></p>`;
+    const more = document.createElement("button");
+    more.type = "button";
+    more.className = "button atlas-source-more";
+    more.textContent = "출처 더 보기";
+    const input = section.querySelector("input");
+    const searchable = sources.map((source) => source.textContent.toLocaleLowerCase("ko"));
+    let limit = 12;
+    function show() {
+      const q = input.value.trim().toLocaleLowerCase("ko");
+      let count = 0;
+      sources.forEach((source, index) => {
+        const match = searchable[index].includes(q);
+        source.hidden = !match;
+        if (match) count++;
+        source.classList.toggle("atlas-source-later", match && count > limit);
+      });
+      section.querySelector('[role="status"]').textContent = count
+        ? `${count}건 중 ${Math.min(count, limit)}건 표시` : "검색 결과가 없습니다. 다른 단어로 찾아보세요.";
+      more.hidden = count <= limit;
+    }
+    input.addEventListener("input", () => { limit = 12; show(); });
+    more.addEventListener("click", () => {
+      const first = list.querySelector(".atlas-source-later:not([hidden])");
+      limit += 12;
+      show();
+      if (first) focusSection(first.querySelector("h3") || first);
+    });
+    list.before(section);
+    list.after(more);
+    show();
+  }
+
+  function prepareToolNavigation() {
+    const intro = main.querySelector(":scope > header");
+    if (!intro || main.querySelector(".atlas-tool-jump")) return;
+    const workbook = page === "inquiry-workbook";
+    const headings = workbook
+      ? [...main.querySelectorAll(":scope > .sheet > h2, :scope > footer > h2")]
+      : [...main.querySelectorAll("#plot-heading, .summary .metric:first-child h2, .panel > h2:not(#plot-heading)")];
+    if (!headings.length) return;
+    const jump = document.createElement("nav");
+    jump.className = "atlas-tool-jump";
+    jump.setAttribute("aria-label", "도구에서 이동");
+    const control = document.createElement("select");
+    const label = document.createElement("label");
+    label.append(workbook ? "기록할 항목" : "탐구할 항목", control);
+    const sections = headings.map((heading, i) => {
+      heading.id ||= (workbook ? "workbook-part-" : "lab-part-") + (i + 1);
+      control.append(new Option(heading.textContent, heading.id));
+      return heading.parentElement;
+    });
+    const button = document.createElement("button");
+    button.className = "button";
+    button.type = "button";
+    button.textContent = "항목으로 이동";
+    function show(focus) {
+      const index = headings.findIndex((heading) => heading.id === location.hash.slice(1));
+      const active = index < 0 ? 0 : index;
+      control.selectedIndex = active;
+      if (workbook) {
+        sections.forEach((section, i) => section.classList.toggle("workbook-inactive", i !== active));
+        previous.hidden = active === 0;
+        next.hidden = active === sections.length - 1;
+        previous.href = "#" + headings[Math.max(active - 1, 0)].id;
+        next.href = "#" + headings[Math.min(active + 1, headings.length - 1)].id;
+        step.textContent = (active + 1) + " / " + headings.length;
+      }
+      if (focus && (index >= 0 || workbook)) focusSection(headings[active]);
+    }
+    button.addEventListener("click", () => {
+      if (location.hash === "#" + control.value) focusSection(headings[control.selectedIndex]);
+      else location.hash = control.value;
+    });
+    jump.append(label, button);
+    intro.after(jump);
+    let previous, next, step;
+    if (workbook) {
+      const pager = document.createElement("nav");
+      pager.className = "atlas-workbook-pager screen-only";
+      pager.setAttribute("aria-label", "기록지 항목 이동");
+      previous = document.createElement("a");
+      previous.textContent = "이전 항목";
+      next = document.createElement("a");
+      next.textContent = "다음 항목";
+      step = document.createElement("span");
+      pager.append(previous, step, next);
+      main.append(pager);
+    } else {
+      const controls = ["df", "mode", "range"].map((id) => document.getElementById(id));
+      const query = new URL(location.href).searchParams;
+      controls.forEach((select) => {
+        if ([...select.options].some((option) => option.value === query.get(select.id))) {
+          select.value = query.get(select.id);
+        }
+      });
+      controls[0].dispatchEvent(new Event("change"));
+      function saveSettings() {
+        const url = new URL(location.href);
+        for (const select of controls) {
+          const defaultValue = ([...select.options].find((option) => option.defaultSelected) || select.options[0]).value;
+          if (select.value === defaultValue) url.searchParams.delete(select.id);
+          else url.searchParams.set(select.id, select.value);
+        }
+        history.replaceState(history.state, "", url);
+      }
+      controls.forEach((select) => select.addEventListener("change", saveSettings));
+      document.getElementById("reset").addEventListener("click", saveSettings);
+    }
+    show(Boolean(location.hash));
+    window.addEventListener("hashchange", () => show(true));
   }
 
   function connectMain() {
@@ -369,10 +995,16 @@
     document.body.classList.toggle("atlas-local-scope", ["about", "standard"].includes(view)
       || Boolean(main.querySelector('form select[name="scope"]')));
     prepareHeading(params);
+    prepareContextReturn();
+    if (tool) prepareToolNavigation();
     if (!tool) {
       prepareReading(params);
       prepareStandardReturn(params);
       if (view === "network") prepareNetwork();
+      if (view === "hierarchy") {
+        prepareConceptIndex(params);
+        prepareConceptPage(params);
+      }
       if (view === "hierarchy" && params.get("mode") === "goals") {
         prepareGoals();
         if (main.querySelector(".gn-lanes")) preparePathwayActions();
@@ -387,7 +1019,7 @@
       const resources = document.createElement("section");
       resources.className = "atlas-resources";
       resources.innerHTML = `<h2>탐구 도구</h2><ul><li><a href="./distribution-lab.html"><strong>정규분포와 t분포 탐구</strong><span>자유도에 따른 곡선과 확률 비교</span></a></li><li><a href="./inquiry-workbook.html"><strong>수학 탐구 기록지</strong><span>탐구 계획·수행·성찰 기록과 인쇄</span></a></li></ul>`;
-      about.before(resources);
+      about.after(resources);
     }
     if (about && !main.querySelector(".atlas-developer")) {
       const developer = document.createElement("section");
@@ -396,8 +1028,10 @@
         <div class="atlas-developer-links"><strong>이병민</strong>${developerLinks}
           <a href="https://github.com/ll7098ll/math-learning-atlas-kr">프로젝트 저장소</a>
         </div>`;
-      about.after(developer);
+      main.append(developer);
     }
+    if (about) prepareSources();
+    restoreWorkspaceFocus();
     const intro = main.querySelector(".pathway-intro");
     if (intro && intro.parentElement.tagName !== "DETAILS") {
       const note = document.createElement("details");
@@ -414,7 +1048,18 @@
   updateNav();
   connectMain();
   let printGraph;
+  let printGoalSummary;
+  let printConceptBands = [];
   window.addEventListener("beforeprint", () => {
+    if (!printConceptBands.length) {
+      printConceptBands = [...main.querySelectorAll(".atlas-concept-band:not([open])")];
+      printConceptBands.forEach((item) => { item.open = true; });
+    }
+    const closed = main.querySelector(".atlas-goal-summary:not([open])");
+    if (closed) {
+      printGoalSummary = closed;
+      closed.open = true;
+    }
     for (const select of main.querySelectorAll(".hierarchy-summary select, .hierarchy-kind select")) {
       const label = select.closest("label");
       if (label) label.dataset.atlasPrintSelection = select.selectedOptions[0]?.textContent.trim() || "";
@@ -429,6 +1074,12 @@
     }
   });
   window.addEventListener("afterprint", () => {
+    printConceptBands.forEach((item) => { item.open = false; });
+    printConceptBands = [];
+    if (printGoalSummary) {
+      printGoalSummary.open = false;
+      printGoalSummary = undefined;
+    }
     if (!printGraph) return;
     const { graph, viewBox } = printGraph;
     if (viewBox === null) graph.removeAttribute("viewBox");
@@ -436,5 +1087,5 @@
     printGraph = undefined;
   });
   window.addEventListener("hashchange", updateNav);
-  if (!tool) new MutationObserver(connectMain).observe(main, { childList: true, subtree: true });
+  if (!tool) new MutationObserver(connectMain).observe(main, { childList: true, subtree: true, attributes: true, attributeFilter: ["data-ready-route"] });
 })();

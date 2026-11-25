@@ -233,3 +233,112 @@ body.atlas-compat {
 @media (min-width: 701px) and (max-width: 880px) {
   .atlas-header nav { margin-right: 0; }
 }
+
+@media screen {
+  .atlas-compat .atlas-page-header {
+    margin-block: 0 1.1rem;
+    padding: clamp(1.1rem, 3vw, 2.4rem) 0;
+    border: 0;
+    border-bottom: 1px solid var(--atlas-line);
+    border-radius: 0;
+    background: transparent;
+  }
+  .atlas-location {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: .55rem;
+    margin-bottom: .65rem;
+    color: var(--atlas-muted);
+    font-size: .84rem;
+    font-weight: 650;
+  }
+  .atlas-location a { font-weight: inherit; text-decoration: underline; }
+  .atlas-location span::before { content: "›"; padding-right: .55rem; color: var(--atlas-muted); }
+  .atlas-view-switcher, .atlas-goal-summary {
+    margin-block: .65rem 1rem;
+    padding-inline: 1rem;
+    background: var(--atlas-surface);
+    border: 1px solid var(--atlas-line);
+    border-radius: .7rem;
+  }
+  :is(.atlas-view-switcher, .atlas-goal-summary) > summary {
+    padding-block: .75rem;
+    color: var(--atlas-primary);
+    font-size: .95rem;
+    font-weight: 700;
+    cursor: pointer;
+  }
+  .atlas-view-switcher .atlas-path { border: 0; margin: 0 0 .45rem; }
+  .atlas-goal-summary > .tp-goals { margin: 0 0 1rem; }
+  .atlas-index-options { display: flex; flex-wrap: wrap; align-items: start; gap: .2rem 1.2rem; margin-bottom: 1.1rem; }
+  .atlas-index-options > details { background: transparent; border: 0; padding: 0; margin: 0; }
+  .atlas-index-options > details[open] { flex-basis: 100%; }
+  .atlas-index-options > details > summary { padding: .45rem 0; color: var(--atlas-primary); font-size: .87rem; }
+  :is(.atlas-index-options details, .atlas-task-choice, .atlas-goal-summary, .atlas-index-review) > summary::before {
+    content: "+"; display: inline-block; color: var(--atlas-primary); font-weight: 650; margin-right: .45rem;
+  }
+  :is(.atlas-index-options details, .atlas-task-choice, .atlas-goal-summary, .atlas-index-review)[open] > summary::before { content: "−"; }
+  .atlas-index-review summary, .atlas-task-choice > summary { padding-block: .65rem; cursor: pointer; font-weight: 650; color: var(--atlas-primary); }
+  .atlas-index-review label { display: block; }
+  .atlas-task-choice { margin-block: .5rem; }
+
+  .atlas-compat .pathway-cards { align-items: start; gap: .75rem; }
+  .atlas-compat .pathway-card[hidden], .atlas-compat .sources-list > [hidden],
+  .atlas-compat .atlas-source-later, .atlas-compat .atlas-source-more[hidden] { display: none; }
+  .atlas-compat details.pathway-card { padding: 0; overflow: hidden; background: var(--atlas-surface); }
+  .atlas-compat details.pathway-card > summary {
+    display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: center;
+    gap: .35rem .55rem; padding: 1.1rem; cursor: pointer;
+  }
+  .atlas-compat details.pathway-card > summary strong { font-size: 1.03rem; color: var(--atlas-ink); }
+  .atlas-compat details.pathway-card > summary strong::before {
+    content: "›"; display: inline-block; margin-right: .48rem; color: var(--atlas-primary);
+  }
+  .atlas-compat details.pathway-card[open] > summary strong::before { transform: rotate(90deg); }
+  .atlas-compat details.pathway-card > summary small { color: var(--atlas-muted); }
+  .atlas-compat details.pathway-card > summary .cp-status { grid-column: 1 / -1; justify-self: start; order: 2; }
+  .atlas-compat details.pathway-card:not([open]) > summary .cp-status { display: none; }
+  .atlas-compat .atlas-concept-question { grid-column: 1 / -1; color: var(--atlas-muted); font-size: .91rem; line-height: 1.6; }
+  .atlas-compat details.pathway-card > summary:hover { background: var(--atlas-hover); }
+  .atlas-compat details.pathway-card[open] { grid-column: 1 / -1; padding: 0 1rem 1rem; }
+  .atlas-compat details.pathway-card[open] > summary { margin: 0 -1rem 1rem; background: var(--atlas-tint); }
+  .atlas-compat .pathway-standards { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 19rem), 1fr)); gap: .75rem; }
+  .atlas-compat .pathway-standards > article { margin: 0; padding: 1rem; border: 1px solid var(--atlas-line); border-radius: .5rem; }
+  .atlas-compat .reading-body .reading-section { padding-block: clamp(1.25rem, 3vw, 2.25rem); }
+  .atlas-compat .reading-body .prose { max-width: 76ch; font-size: 1rem; line-height: 1.85; }
+  .atlas-compat .reading-aside .atlas-reading-outline nav { position: static; }
+  .atlas-compat .atlas-resources a { border-left: .23rem solid var(--atlas-primary); }
+  .atlas-source-search { border-top: 1px solid var(--atlas-line); padding-top: 1.25rem; margin-top: 1.75rem; }
+  .atlas-source-search label, .atlas-tool-jump label { display: grid; gap: .35rem; color: var(--atlas-ink); font-size: .88rem; font-weight: 650; }
+  .atlas-source-search input, .atlas-tool-jump select { padding: .65rem .8rem; border: 1px solid var(--atlas-line); border-radius: .5rem; min-height: 2.75rem; background: var(--atlas-surface); color: var(--atlas-ink); font: inherit; }
+  .atlas-source-search input { width: min(100%, 34rem); }
+  .atlas-source-search [role=status] { margin: .6rem 0; color: var(--atlas-muted); font-size: .88rem; }
+  .atlas-compat .sources-list { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .7rem; }
+  .atlas-compat .sources-list > .source-block { margin: 0; padding: 1rem 1.15rem; border: 1px solid var(--atlas-line); background: var(--atlas-surface); }
+  .atlas-source-more { margin-top: .8rem; }
+  .atlas-tool-jump { display: flex; align-items: end; gap: .65rem; margin: 1rem 0; }
+  .atlas-tool-jump label { flex: 1 1 auto; max-width: 32rem; min-width: 0; }
+  .atlas-tool-jump select { width: 100%; }
+  .atlas-tool-jump button { flex: none; }
+  .atlas-tool .sheet h2 { color: var(--atlas-primary); }
+  .atlas-tool .sheet[data-data-kind] { border-left: .25rem solid #d68c57; }
+  .atlas-tool :is(.sheet, .panel) { padding: clamp(1rem, 3vw, 1.8rem); }
+  .atlas-tool .sheet .subtle, .atlas-tool main footer { max-width: 80ch; }
+  .atlas-tool main > header:first-child { max-width: 76ch; }
+  .atlas-tool main :is(#plot-heading, .sheet h2, .metric h2, .panel h2) { scroll-margin-top: 1rem; }
+}
+
+@media screen and (max-width: 700px) {
+  .atlas-compat .sources-list { grid-template-columns: minmax(0, 1fr); }
+  .atlas-compat .pathway-search label { flex-basis: calc(50% - .6rem); }
+  .atlas-compat .pathway-search label:first-child { flex-basis: 100%; }
+  .atlas-compat .pathway-search :is(input, select) { width: 100%; }
+  .atlas-tool .controls { display: grid; grid-template-columns: 1fr; gap: .65rem; }
+  .atlas-tool .controls select { width: 100%; }
+}
+
+@media print {
+  .atlas-location, .atlas-view-switcher, .atlas-tool-jump, .atlas-source-search, .atlas-source-more, .atlas-task-choice { display: none !important; }
+  .atlas-goal-summary > summary { display: none; }
+}

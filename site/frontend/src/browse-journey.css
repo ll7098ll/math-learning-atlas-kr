@@ -1,60 +1,61 @@
-.journey-hero {
-  color: #fff;
-  background-color: #123e35;
-  background-image:
-    linear-gradient(90deg, #123e35 36%, #123e35ad 76%, #123e3552),
-    linear-gradient(#c5e3d418 1px, transparent 1px),
-    linear-gradient(90deg, #c5e3d418 1px, transparent 1px);
-  background-size: auto, 2rem 2rem, 2rem 2rem;
-}
+.browse-journey { background: #f7f8f4; color: #182c35; }
+.journey-hero { color: #182c35; background: #eef2eb; border-bottom: 1px solid #dbe2d9; }
 .journey-hero-inner {
   display: grid;
-  grid-template-columns: minmax(0, 1.4fr) minmax(18rem, .9fr);
+  grid-template-columns: minmax(0, 1.4fr) minmax(18rem, .92fr);
   align-items: center;
   column-gap: clamp(2rem, 6vw, 6rem);
-  padding-block: clamp(2.25rem, 4.6vw, 4.4rem);
+  padding-block: clamp(2.5rem, 5.4vw, 5.2rem);
 }
 .journey-intro, .journey-preview-wrap { min-width: 0; }
 .journey-edition {
-  color: #ccdfd4;
-  font-size: .9rem;
-  font-weight: 650;
-  letter-spacing: .015em;
+  display: flex; align-items: center; gap: .65rem;
+  color: #395b5a;
+  font-size: .9rem; font-weight: 700;
 }
+.journey-edition span { display: inline-block; width: 1.85rem; height: .19rem; background: #bc7344; }
 .journey-intro h1 {
-  margin-block: .45rem .55rem;
-  font-size: clamp(2rem, 4.1vw, 3.4rem);
+  margin-block: .75rem .65rem;
+  font-size: clamp(2.1rem, 4.35vw, 3.85rem);
   line-height: 1.18;
   letter-spacing: -.055em;
   font-weight: 780;
 }
-.journey-description { color: #e5eee8; font-size: clamp(1rem, 1.4vw, 1.15rem); word-break: keep-all; }
+.journey-description { color: #475d60; font-size: clamp(1rem, 1.4vw, 1.12rem); word-break: keep-all; }
 .journey-intro .journey-search {
   width: 100%;
   margin-top: 1.45rem;
   padding: .32rem .35rem .32rem .9rem;
-  border-radius: .65rem;
+  border: 1px solid #a8bcb3; border-radius: .55rem;
   gap: .35rem;
 }
 .journey-search > svg { flex: none; }
 .journey-intro .journey-search input { height: 2.65rem; padding-inline: .35rem; }
 .journey-intro .journey-search button { border-radius: .45rem; }
+.journey-search button { background: #124d50; }
 .journey-suggestions {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
   gap: 0 .7rem;
   margin-top: .5rem;
-  color: #dbece2;
+  color: #305452;
   font-size: .875rem;
 }
-.journey-suggestions > span { color: #bcd2c7; }
-.journey-suggestions button { min-height: 2.3rem; text-underline-offset: .25em; text-decoration: underline; text-decoration-color: #a4c6b5; }
-.journey-suggestions button:focus-visible { outline-color: white; }
+.journey-suggestions > span { color: #566860; }
+.journey-suggestions button { min-height: 2.3rem; text-underline-offset: .25em; text-decoration: underline; text-decoration-color: #a0b6aa; }
+.journey-suggestions button:focus-visible { outline-color: #124d50; }
 .journey-compact .journey-hero-inner { grid-template-columns: minmax(0, 1fr); padding-block: 1.5rem 1.75rem; }
 .journey-compact .journey-intro { max-width: 42rem; }
 .journey-compact h1 { font-size: clamp(1.75rem, 3vw, 2.4rem); }
 .journey-compact .journey-search { margin-top: .9rem; }
+.journey-home .journey-hero-inner { grid-template-columns: minmax(0, 1.7fr) minmax(17rem, .8fr); gap: clamp(1.4rem, 3.2vw, 3rem); }
+.journey-home h1 { font-size: clamp(2rem, 3.35vw, 3.15rem); }
+.journey-home .atlas-school-grid { margin-block: 1.35rem 1.6rem; }
+.journey-home-search-label { display: block; font-size: .95rem; font-weight: 700; }
+.journey-home .journey-intro .journey-search { margin-top: .45rem; }
+.journey-trail { display: flex; align-items: center; flex-wrap: wrap; gap: .4rem; font-size: .88rem; color: #345b59; }
+.journey-trail a { display: inline-flex; align-items: center; min-height: 2rem; text-decoration: underline; text-underline-offset: .24em; }
 
 .journey-body { padding-block: 1.65rem 4rem; }
 .journey-filters {
@@ -127,8 +128,57 @@
 .journey-list .standard-code { color: #26503f; font-size: .83rem; }
 .journey-list .row-location { font-size: .84rem; font-weight: 570; }
 .browse-journey .structure .result-meta { padding-top: 0; }
+.journey-body > section:has(.atlas-overview-group) { padding-top: .55rem; }
+.journey-section-heading { display: flex; align-items: baseline; flex-wrap: wrap; justify-content: space-between; gap: .15rem 1rem; margin-bottom: 1.05rem; }
+.journey-section-heading h2 { font-size: clamp(1.4rem, 2.45vw, 1.85rem); font-weight: 760; letter-spacing: -.05em; }
+.journey-section-heading a, .atlas-home-tools a { display: inline-flex; align-items: center; gap: .5rem; min-height: 2.75rem; color: #265453; font-weight: 650; font-size: .9rem; }
+.journey-section-heading a:hover, .atlas-home-tools a:hover { text-decoration: underline; text-underline-offset: .24em; }
+.atlas-school-grid, .atlas-overview-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: .85rem; }
+.atlas-school-entry, .atlas-overview-grid a { background: #fff; border: 1px solid #cdd8cf; border-radius: .65rem; }
+.atlas-school-entry { display: block; padding: clamp(1rem, 2vw, 1.55rem); }
+.atlas-school-entry:hover, .atlas-overview-grid a:hover { background: #eef4ef; border-color: #688f86; }
+.atlas-entry-symbol { width: 2.75rem; height: 2.75rem; display: grid; place-items: center; color: #1d5552; background: #e4eee6; border-radius: .55rem; }
+.atlas-school-entry:nth-child(2) .atlas-entry-symbol { background: #efe9db; color: #715c34; }
+.atlas-school-entry:nth-child(3) .atlas-entry-symbol { background: #e5ebef; color: #375d6b; }
+.atlas-school-title { display: flex; align-items: center; justify-content: space-between; gap: .6rem; margin-top: 1.15rem; color: #124d50; }
+.atlas-school-title h2 { color: #182c35; font-size: 1.35rem; letter-spacing: -.045em; font-weight: 780; }
+.atlas-school-entry p, .atlas-overview-grid a span { color: #526460; font-size: .88rem; }
+.atlas-school-entry p { margin-top: .38rem; }
+.atlas-school-entry p > span { display: inline-block; }
+.atlas-count-divider { padding-inline: .5rem; color: #7d9184; }
+.atlas-home-tools { display: flex; flex-wrap: wrap; gap: .1rem 2rem; }
+.atlas-range-actions { display: flex; flex-wrap: wrap; gap: .1rem 1.2rem; }
+.atlas-subject-note { font-size: .91rem; color: #375854; margin-block: .4rem .7rem; }
+.atlas-overview-group + .atlas-overview-group { margin-top: 1.45rem; }
+.atlas-overview-group h3 { margin-bottom: .65rem; color: #34514c; font-size: 1rem; font-weight: 720; }
+.atlas-overview-grid a { display: grid; grid-template-columns: minmax(0, 1fr) auto; padding: .95rem 1.1rem; align-items: center; }
+.atlas-overview-grid a strong { font-size: 1.06rem; font-weight: 720; }
+.atlas-overview-grid a span { grid-column: 1; }
+.atlas-overview-grid a svg { color: #3b6762; grid-column: 2; grid-row: 1 / 3; }
+.atlas-scope-ideas { margin-top: clamp(1.8rem, 4vw, 3.25rem); padding-top: 1.25rem; border-top: 1px solid #cdd8cf; }
+.atlas-scope-ideas .journey-section-heading { margin-bottom: .6rem; }
+.atlas-scope-ideas .journey-section-heading h2 { font-size: 1.25rem; }
+.atlas-idea-group { border-bottom: 1px solid #d7dfd7; }
+.atlas-idea-group summary { padding: .8rem .4rem; color: #234744; font-size: .97rem; font-weight: 690; }
+.atlas-idea-group summary span { font-weight: 560; color: #546963; font-size: .85rem; margin-left: .6rem; }
+.atlas-idea-group ul { background: #fff; border-left: 2px solid #9db7a8; padding-inline: 1rem; margin-bottom: .8rem; }
+.atlas-idea-group li { padding-block: .7rem; }
+.atlas-idea-group li + li { border-top: 1px solid #e1e7df; }
+.atlas-idea-group .small { margin: .25rem 0 .1rem; }
+.atlas-idea-group .text-link { font-size: .85rem; }
+.atlas-idea-mapping { margin-top: .7rem; padding-top: .6rem; border-top: 1px dashed #cbd8d0; }
+.atlas-idea-mapping > p { font-weight: 650; font-size: .87rem; color: #395953; }
+.atlas-idea-links { display: grid; padding-block: .1rem; }
+.atlas-idea-links a { display: inline-flex; align-items: baseline; flex-wrap: wrap; gap: .05rem .5rem; min-height: 2.5rem; padding-block: .45rem; color: #124d50; font-size: .93rem; text-underline-offset: .2em; }
+.atlas-idea-links a:hover { text-decoration: underline; }
+.atlas-idea-links a span { color: #4c625a; font-weight: 650; font-size: .82rem; }
+.atlas-idea-group .atlas-idea-others > summary { font-size: .85rem; font-weight: 540; padding: .55rem 0; }
+.atlas-search-concepts { display: flex; align-items: center; flex-wrap: wrap; gap: .15rem 1.1rem; margin-bottom: .85rem; padding: .3rem .85rem; background: #e8eee7; border-radius: .45rem; }
+.atlas-search-concepts span { font-size: .85rem; color: #49625c; }
+.atlas-search-concepts a { display: inline-flex; align-items: center; min-height: 2.5rem; gap: .25rem; color: #124d50; font-size: .92rem; font-weight: 680; text-decoration: underline; text-underline-offset: .2em; }
 
 @media (max-width: 760px) {
+  .journey-home .journey-hero-inner { grid-template-columns: minmax(0, 1fr); }
   .journey-hero-inner { grid-template-columns: minmax(0, 1fr); gap: 1.25rem; padding-block: 1.75rem; }
   .journey-intro h1 { margin-block: .4rem .5rem; }
   .journey-preview-wrap { max-width: 35rem; }
@@ -136,8 +186,13 @@
   .journey-filter-line { gap: .5rem 1rem; }
   .journey-filter-line > .journey-select { order: 1; flex-basis: 100%; }
   .journey-list .standard-row > a { padding: .9rem 1rem; }
+  .atlas-overview-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .atlas-school-grid { gap: .5rem; }
+  .atlas-school-entry { padding: .85rem; }
 }
 @media (max-width: 550px) {
+  .journey-home .atlas-school-grid { margin-block: .8rem 1.05rem; }
+  .journey-home h1 { font-size: clamp(1.65rem, 6.6vw, 2rem); }
   .journey-hero-inner { padding-block: 1.25rem; gap: .8rem; }
   .journey-suggestions { margin-top: .25rem; }
   .journey-body { padding-block: 1rem 3rem; }
@@ -158,6 +213,14 @@
   .journey-results-header { margin-bottom: .65rem; }
   .journey-result-title h2 { scroll-margin-top: .75rem; }
   .journey-related-tools a + a::before { margin-inline: .5rem; }
+  .atlas-school-grid, .atlas-overview-grid { grid-template-columns: minmax(0, 1fr); gap: .5rem; }
+  .atlas-school-entry { display: grid; grid-template-columns: auto minmax(0,1fr); column-gap: .85rem; padding: .85rem 1rem; align-items: center; }
+  .atlas-entry-symbol { grid-row: 1 / 3; }
+  .atlas-school-title { margin-top: 0; }
+  .atlas-school-title h2 { font-size: 1.15rem; }
+  .atlas-school-entry p { margin-top: .1rem; }
+  .journey-section-heading { margin-bottom: .6rem; }
+  .atlas-home-tools { gap: .1rem .9rem; }
 }
 @media (max-width: 360px) {
   .journey-filter-line { column-gap: .35rem; }

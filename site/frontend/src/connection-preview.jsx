@@ -1,19 +1,16 @@
 import React from "react";
-import { BookOpen, Waypoints } from "lucide-react";
-import { scopeId, standardRoute } from "./curriculum";
+import { ArrowUpRight, BookOpen } from "lucide-react";
+import { oldRoute } from "./curriculum";
 import "./connection-preview.css";
 
-// REV-4수01-12-1 connects equal partitions to a one-place decimal.
-export function ConnectionPreview({ catalog, onOpen }) {
-  const decimal = catalog.standards.find((s) => s.code === "4수01-12");
-  if (!decimal) return null;
+// L014 records the extension from natural-number quotients to signed rational numbers.
+export function ConnectionPreview() {
   return <a className="connection-preview" id="fraction-decimal-preview"
-    href={standardRoute(decimal.code, scopeId(decimal))}
-    onClick={(event) => onOpen(event, decimal.code)}
-    aria-label={`분수와 소수의 연결 예시. 십분의 삼과 영 점 삼은 같은 양입니다. ${decimal.code} ${decimal.title} 성취기준 읽기`}>
+    href={oldRoute("hierarchy", { concept: "fraction", scope: "em", mode: "expansion", target: "6수01-10", relation: "L014" })}
+    aria-label="분수는 중학교에서 어떻게 이어질까? 십분의 삼을 영 점 삼으로 표현하는 그림. 초등 분수에서 중학교 유리수로 이어지는 연결 근거 보기">
     <div className="preview-heading">
-      <span><Waypoints size={16} aria-hidden="true" /> 연결 예시</span>
-      <span>{decimal.level} · {decimal.band}</span>
+      <span><BookOpen size={16} aria-hidden="true" />개념 연결 예시</span>
+      <span>초등 · 중학교</span>
     </div>
     <div className="preview-math" aria-hidden="true">
       <div className="preview-fraction">
@@ -27,8 +24,8 @@ export function ConnectionPreview({ catalog, onOpen }) {
       </div>
     </div>
     <div className="preview-caption">
-      <strong>분수와 소수의 연결</strong>
-      <span><BookOpen size={15} aria-hidden="true" />성취기준 읽기</span>
+      <strong>분수는 중학교에서 어떻게 이어질까?</strong>
+      <span>분수·소수·유리수<ArrowUpRight size={16} aria-hidden="true" /></span>
     </div>
   </a>;
 }

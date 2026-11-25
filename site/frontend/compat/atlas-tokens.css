@@ -1,13 +1,14 @@
 :root {
-  --atlas-ink: #172b25;
-  --atlas-forest: #113b33;
-  --atlas-primary: #1a5242;
-  --atlas-paper: #f7f9f7;
+  --atlas-ink: #182c35;
+  --atlas-forest: #123d40;
+  --atlas-primary: #124d50;
+  --atlas-paper: #f7f8f4;
   --atlas-surface: #fff;
-  --atlas-muted: #4e6259;
-  --atlas-line: #d2ded6;
-  --atlas-tint: #e1eee6;
-  --atlas-hover: #eaf3ed;
-  --atlas-ring: #307b60;
+  --atlas-muted: #506468;
+  --atlas-line: #ccd9d6;
+  --atlas-tint: #deedeb;
+  --atlas-hover: #ecf3f0;
+  --atlas-ring: #227b78;
+  --atlas-copper: #d68c57;
   --atlas-font: "Pretendard", "Noto Sans KR", "Malgun Gothic", system-ui, sans-serif;
 }

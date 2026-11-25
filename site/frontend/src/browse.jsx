@@ -1,15 +1,156 @@
 import React, { useEffect, useLayoutEffect, useRef, useState } from "react";
 import { flushSync } from "react-dom";
-import { ChevronDown, ChevronLeft, ChevronRight, ListFilter, Search, X } from "lucide-react";
+import { ArrowRight, BookOpenText, ChevronDown, ChevronLeft, ChevronRight, Circle, GalleryHorizontalEnd, List, ListFilter, Sigma, Triangle, Search, Waypoints, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
-import { bandOf, categories, route, schools, search, selection, standardRoute, unique } from "./curriculum";
+import { bandOf, categories, oldRoute, route, scopeId, schools, search, selection, standardRoute, unique } from "./curriculum";
 import { LoadState, Pdf, StandardRow, useContent } from "./shared";
 import { ConnectionPreview } from "./connection-preview";
 import "./browse-journey.css";
 
 const pageSize = 24;
 const allRanges = { scope: "", band: "", domain: "", category: "" };
+const schoolIcons = { e: Circle, m: Triangle, h: Sigma };
+
+function schoolEntry(standards, school) {
+  const bands = unique(selection(standards, school.id).map(bandOf));
+  return route("catalog", { scope: school.id, band: bands.length === 1 ? bands[0] : "", stage: "overview" });
+}
+
+function EntryPoints({ standards, onOpen }) {
+  return <nav className="atlas-school-grid" aria-label="학교급 선택">
+      {schools.map((school) => {
+        const rows = selection(standards, school.id);
+        const bands = unique(rows.map(bandOf));
+        const range = school.id === "h" ? `${bands.length}개 과목` : bands.join(" · ").replaceAll("학년군 · ", " · ");
+        const Icon = schoolIcons[school.id];
+        return <a id={"school-" + school.id} className="atlas-school-entry" key={school.id}
+          href={schoolEntry(standards, school)} onClick={onOpen}>
+          <div className="atlas-entry-symbol" aria-hidden="true"><Icon size={23} strokeWidth={1.6} /></div>
+          <div className="atlas-school-title"><h2>{school.title}</h2><ArrowRight size={19} aria-hidden="true" /></div>
+          <p><span>{range}</span><span className="atlas-count-divider" aria-hidden="true">/</span><span>성취기준 {rows.length}개</span></p>
+        </a>;
+      })}
+  </nav>;
+}
+
+function officialScopes(item, byCode) {
+  return unique(item.scopeCodes.map((code) => byCode.get(code)).filter(Boolean).map((s) =>
+    s.level === "고등학교" ? s.subject : `${s.level} ${s.band}`));
+}
+
+function useRestoreLoadedLink(loaded, prefix) {
+  useLayoutEffect(() => {
+    const saved = history.state?.focusOnReturn;
+    if (!loaded || !saved?.id?.startsWith(prefix)) return;
+    const link = document.getElementById(saved.id);
+    if (!link) return;
+    for (let group = link.closest("details"); group; group = group.parentElement?.closest("details")) group.open = true;
+    link.focus({ preventScroll: true });
+    window.scrollTo(0, saved.scroll);
+  }, [loaded, prefix]);
+}
+
+function IdeaStandards({ item, selectedCodes, byCode, scope, onOpen }) {
+  const linked = item.linkedCodes.map((code) => byCode.get(code)).filter(Boolean);
+  const selected = linked.filter((s) => selectedCodes.has(s.code));
+  const others = linked.filter((s) => !selectedCodes.has(s.code));
+  const rangeWord = scope === "h" ? "과목" : "학년군";
+  const links = (rows) => <div className="atlas-idea-links">{rows.map((s) =>
+    <a id={`idea-${item.id}-${s.code}`} key={s.code} href={standardRoute(s.code, scopeId(s))}
+      onClick={(event) => onOpen(event, s.code)}><span>{s.code}</span>{s.title}</a>)}</div>;
+  return <div className="atlas-idea-mapping">
+    <p>자체 대조 · 이 {rangeWord}에서 연결한 기준 {selected.length}개</p>
+    {selected.length > 0 && links(selected)}
+    {others.length > 0 && <details className="atlas-idea-others"><summary>다른 {rangeWord}에서 자체 대조한 기준 {others.length}개</summary>{links(others)}</details>}
+  </div>;
+}
+
+function ScopeIdeas({ version, standards, selected, scope, band, onOpen }) {
+  const request = useContent("curriculum-structure.json", version);
+  useRestoreLoadedLink(request.data, "idea-");
+  const heading = <header className="journey-section-heading"><h2 id="ideas-heading">공식 핵심 아이디어</h2>
+    <a id="scope-structure" href={route("catalog", { scope, band, tab: "structure" })} onClick={onOpen}>이 범위의 공식 내용 체계 전체<ArrowRight size={16} aria-hidden="true" /></a>
+  </header>;
+  if (!request.data) return <section className="atlas-scope-ideas" aria-labelledby="ideas-heading">{heading}
+    <LoadState request={request} label="공식 핵심 아이디어를 불러오고 있습니다…" /></section>;
+  const codes = new Set(selected.map((s) => s.code));
+  const ideas = request.data.items.filter((item) => item.category === "핵심 아이디어" && item.scopeCodes.some((code) => codes.has(code)));
+  const byCode = new Map(standards.map((s) => [s.code, s]));
+  const sections = unique(ideas.map((item) => item.domain || item.subject));
+  return <section className="atlas-scope-ideas" aria-labelledby="ideas-heading">{heading}
+    {sections.map((name) => {
+      const group = ideas.filter((item) => (item.domain || item.subject) === name);
+      return <details key={name} className="atlas-idea-group">
+        <summary>{name}{!group[0].domain && " 과목 공통"}<span>{group.length}개</span></summary>
+        <ul>{group.map((item) => {
+          const scopes = officialScopes(item, byCode);
+          return <li key={item.id}><p>{item.text}</p>
+            <p className="small">{scopes.length > 1 ? "여러 학년군 공통" : "공식 적용 범위"} · {scopes.join(" · ")}</p>
+            <Pdf page={item.page}>교육과정 PDF {item.page}쪽</Pdf>
+            <IdeaStandards item={item} selectedCodes={codes} byCode={byCode} scope={scope} onOpen={onOpen} />
+          </li>;
+        })}</ul>
+      </details>;
+    })}
+    {!sections.length && <p className="small">이 범위에 등록된 공식 핵심 아이디어가 없습니다.</p>}
+  </section>;
+}
+
+function SearchConcepts({ version, query, selected, scope }) {
+  const request = useContent("concept-pathways-index.json", version);
+  useRestoreLoadedLink(request.data, "found-concept-");
+  if (!request.data) return null;
+  const term = query.normalize("NFKC").trim().replace(/\s+/g, "");
+  const codes = new Set(selected.map((s) => s.code));
+  const matching = request.data.groups.filter((group) => {
+    const title = group.title.normalize("NFKC").replace(/\s+/g, "");
+    const named = term.length > 1 ? title.includes(term) : title.split("·").includes(term);
+    return named && group.member_codes.some((code) => codes.has(code));
+  });
+  if (!matching.length) return null;
+  return <nav className="atlas-search-concepts" aria-label="검색어와 이름이 일치하는 연구용 개념군">
+    <span>관련 연구용 개념군</span>
+    {matching.map((group) => <a key={group.id} id={"found-concept-" + group.id}
+      href={oldRoute("hierarchy", { concept: group.id, scope, target: group.member_codes.find((code) => codes.has(code)) })}
+    >{group.title}<ChevronRight size={14} aria-hidden="true" /></a>)}
+  </nav>;
+}
+
+function ScopeOverview({ standards, version, scope, band, onOpen }) {
+  const rows = selection(standards, scope, band);
+  const heading = band ? "내용 영역" : scope === "h" ? "과목 선택" : "학년군 선택";
+  const groups = band ? [""] : unique(rows.map((s) => scope === "h" ? s.category : ""));
+  const pairedName = band.replace(/^(기본|공통)수학([12])$/, (_, type, n) => (type === "공통" ? "기본수학" : "공통수학") + n);
+  const counterpart = pairedName !== band && standards.some((s) => s.subject === pairedName) ? pairedName : "";
+  return <><section aria-labelledby="scope-heading">
+    <header className="journey-section-heading">
+      <h2 id="scope-heading">{heading}</h2>
+      <div className="atlas-range-actions"><a id="scope-all" href={route("catalog", { scope, band })} onClick={onOpen}>이 범위의 성취기준 {rows.length}개<ArrowRight size={16} aria-hidden="true" /></a>
+        {band && <a id="scope-compare" href={route("compare", { left: band, right: counterpart })} onClick={onOpen}><GalleryHorizontalEnd size={16} aria-hidden="true" />{counterpart ? band + " · " + counterpart + " 비교" : "다른 범위와 비교"}</a>}
+      </div>
+    </header>
+    {groups.map((group) => {
+      const items = group ? rows.filter((s) => s.category === group) : rows;
+      const keyOf = band ? (s) => s.domain : bandOf;
+      return <div className="atlas-overview-group" key={group}>
+        {group && <h3>{group}</h3>}
+        {group === "공통" && <p className="atlas-subject-note">기본수학1·2는 각각 공통수학1·2를 대체하여 이수할 수 있습니다.</p>}
+        <div className="atlas-overview-grid">{unique(items.map(keyOf)).map((name) => {
+          const count = items.filter((s) => keyOf(s) === name).length;
+          const target = band ? { scope, band, domain: name } : { scope, band: name, stage: "overview" };
+          return <a id={`overview-${scope}-${band}-${name}`} key={name} href={route("catalog", target)} onClick={onOpen}>
+            <strong>{name}</strong><span>성취기준 {count}개</span>
+            <ArrowRight size={17} aria-hidden="true" />
+          </a>;
+        })}</div>
+      </div>;
+    })}
+    {band.startsWith("기본수학") && counterpart && <p className="atlas-subject-note">같은 번호의 공통수학을 대체하여 이수할 수 있는 과목입니다.</p>}
+  </section>
+    {band && <ScopeIdeas version={version} standards={standards} selected={rows} scope={scope} band={band} onOpen={onOpen} />}
+  </>;
+}
 
 function BrowseFilters({ standards, values, change }) {
   const { scope, band, domain, category } = values;
@@ -63,16 +204,7 @@ function BrowseFilters({ standards, values, change }) {
 
 function CurriculumStructure({ version, byCode, selected, query, fallback, onOpen }) {
   const request = useContent("curriculum-structure.json", version);
-  useLayoutEffect(() => {
-    const saved = history.state?.focusOnReturn;
-    if (!request.data || !saved?.id?.startsWith("structure-")) return;
-    const link = document.getElementById(saved.id);
-    if (!link) return;
-    link.closest(".structure-links").open = true;
-    link.closest(".structure-category").open = true;
-    link.focus({ preventScroll: true });
-    window.scrollTo(0, saved.scroll);
-  }, [request.data]);
+  useRestoreLoadedLink(request.data, "structure-");
   if (!request.data) return <LoadState request={request} label="공식 내용 체계를 불러오고 있습니다…" />;
   const codes = new Set(selected.map((s) => s.code));
   const terms = query.trim().toLocaleLowerCase("ko").split(/\s+/).filter(Boolean);
@@ -87,15 +219,14 @@ function CurriculumStructure({ version, byCode, selected, query, fallback, onOpe
     {categories.map((category) => {
       const group = items.filter((item) => item.category === category);
       if (!group.length) return null;
-      return <details className="structure-category" key={category} open={category === categories[0]}>
+      return <details className="structure-category" key={category}>
         <summary>{category}<span>{group.length}개</span></summary>
         <ul>{group.map((item) => {
-          const scopes = unique(item.scopeCodes.map((code) => byCode.get(code)).map((s) =>
-            s ? s.level === "고등학교" ? s.subject : s.level + " " + s.band : ""));
+          const scopes = officialScopes(item, byCode);
           return <li key={item.id}>
-            <p className="row-location">{item.subject} · {item.domain}</p>
+            <p className="row-location">{[item.subject, item.domain].filter(Boolean).join(" · ")}</p>
             <p className="official-text">{item.text}</p>
-            <p className="small">공식 적용 범위　{scopes.filter(Boolean).join(" · ")}</p>
+            <p className="small">공식 적용 범위　{scopes.join(" · ")}</p>
             <Pdf page={item.page}>교육과정 PDF {item.page}쪽</Pdf>
             {item.linkedCodes.length > 0 && <details className="structure-links">
               <summary>자체 대조로 연결한 성취기준 {item.linkedCodes.length}개</summary>
@@ -123,7 +254,6 @@ export function Browse({ catalog, params, go, onOpen }) {
   const [draft, setDraft] = useState(q);
   const composing = useRef(false);
   const resultsTitle = useRef(null);
-  useEffect(() => setDraft(q), [q]);
   const values = { scope, band, domain, category, q, tab: tab === "structure" ? tab : "" };
   const selected = selection(standards, scope, band, domain, category);
   const matches = search(selected, q);
@@ -132,8 +262,23 @@ export function Browse({ catalog, params, go, onOpen }) {
   const page = Math.max(1, Math.min(pageCount, Number.parseInt(params.get("page"), 10)
     || (Math.floor(focusIndex / pageSize) + 1)));
   const shown = matches.slice((page - 1) * pageSize, page * pageSize);
-  const home = !scope && !band && !domain && !category && !q && !params.has("page") && tab === "standards" && !params.has("focus");
+  const overview = params.get("stage") === "overview" && schools.some((entry) => entry.id === scope)
+    && !domain && !category && !q && tab === "standards" && !params.has("focus") && !params.has("page")
+    && (!band || selected.length > 0);
+  const home = !scope && !band && !domain && !category && !q && !params.has("page") && !params.has("list")
+    && tab === "standards" && !params.has("focus");
   const school = schools.filter((entry) => scope.includes(entry.id)).map((entry) => entry.title).join(" · ");
+  const screen = home ? "home" : overview ? `overview-${scope}-${band}` : "results-" + tab;
+  useEffect(() => setDraft((home || overview) ? history.state?.searchDraft ?? q : q), [q, screen]);
+  const previousScreen = useRef(screen);
+  const headingRef = useRef(null);
+  useLayoutEffect(() => {
+    const switched = previousScreen.current !== screen;
+    previousScreen.current = screen;
+    if (!switched || history.state?.focusOnReturn || params.has("focus")) return;
+    headingRef.current?.focus({ preventScroll: true });
+    window.scrollTo(0, 0);
+  }, [screen, params]);
   const activeFilters = [
     [school, "학교급", allRanges],
     [band, "학년군·과목", { band: "", domain: "", category: "" }],
@@ -141,7 +286,18 @@ export function Browse({ catalog, params, go, onOpen }) {
     [category, "과목 유형", { category: "" }],
     [q, "검색어", { q: "" }],
   ].filter(([value]) => value);
-  const change = (delta) => go(route("catalog", { ...values, ...delta }));
+  const change = (delta) => {
+    const target = { ...values, ...delta };
+    if (!Object.values(target).some(Boolean)) target.list = 1;
+    const next = route("catalog", target);
+    if (next === location.hash) return;
+    const trigger = document.activeElement;
+    if (trigger?.id && trigger.closest(".browse-journey")) {
+      history.replaceState({ ...history.state, focusOnReturn: { id: trigger.id, scroll: window.scrollY },
+        searchDraft: home || overview ? draft : undefined }, "");
+    }
+    go(next);
+  };
 
   function showResults(delta) {
     flushSync(() => change(delta));
@@ -155,36 +311,57 @@ export function Browse({ catalog, params, go, onOpen }) {
   }
 
   const title = tab === "structure" ? "공식 내용 체계" : q ? `‘${q}’ 검색 결과` : "성취기준 목록";
+  const readingTitle = overview ? [school, band].filter(Boolean).join(" ") : domain || band || school || title;
+  const heading = home ? "어느 학교급의 수학을 보시나요?" : readingTitle;
+  const scopeLink = schools.find((entry) => entry.id === scope);
 
   return <div className="browse-journey">
-    <section className={home ? "journey-hero" : "journey-hero journey-compact"}>
+    <section className={home ? "journey-hero journey-home" : "journey-hero journey-compact"}>
       <div className="site-width journey-hero-inner">
         <div className="journey-intro">
-          <p className="journey-edition">2022 개정 수학과 교육과정</p>
-          <h1 tabIndex={-1}>수학 성취기준 탐색</h1>
-          {home && <p className="journey-description">성취기준의 뜻과 이어지는 배움을 살펴보세요.</p>}
+          {home ? <p className="journey-edition"><span aria-hidden="true" />2022 개정 수학과 교육과정</p>
+            : <nav className="journey-trail" aria-label="탐색 위치">
+              <a id="trail-home" href={route("catalog")} onClick={onOpen}>탐색 홈</a>
+              {scopeLink && (!overview || band) && <><ChevronRight size={14} aria-hidden="true" /><a id="trail-school"
+                href={route("catalog", { scope, stage: "overview" })} onClick={onOpen}>{school}</a></>}
+              {scopeLink && band && !overview && <><ChevronRight size={14} aria-hidden="true" /><a id="trail-band"
+                href={route("catalog", { scope, band, stage: "overview" })} onClick={onOpen}>{band}</a></>}
+            </nav>}
+          <h1 ref={headingRef} tabIndex={-1}>{heading}</h1>
+          {home && <><EntryPoints standards={standards} onOpen={onOpen} />
+            <label className="journey-home-search-label" htmlFor="catalog-search-input">개념 또는 성취기준 코드 검색</label></>}
+          {overview && <p className="journey-description">{band ? "수업할 영역을 고르면 해당 성취기준을 볼 수 있습니다." :
+            scope === "h" ? "과목을 고르면 영역별 성취기준을 볼 수 있습니다." : "학년군을 고르면 영역별 성취기준을 볼 수 있습니다."}</p>}
           <form className="search-form journey-search" role="search" onSubmit={(event) => {
             event.preventDefault();
             if (!composing.current) showResults({ q: draft.trim() });
           }}>
             <Search size={21} aria-hidden="true" />
-            <Input type="search" value={draft} aria-label={tab === "structure" ? "공식 내용 체계 검색" : "성취기준 검색"}
-              placeholder={tab === "structure" ? "낱말이나 영역 입력" : "개념·코드로 검색"}
+            <Input type="search" id="catalog-search-input" value={draft} aria-label={tab === "structure" ? "공식 내용 체계 검색" : "성취기준 검색"}
+              placeholder={tab === "structure" ? "낱말이나 영역 검색" : scope || band ? "이 범위에서 검색" : "예: 분수, 4수01-12"}
               onCompositionStart={() => { composing.current = true; }}
               onCompositionEnd={(event) => { composing.current = false; setDraft(event.currentTarget.value); }}
               onChange={(event) => setDraft(event.target.value)} />
-            <Button type="submit">검색</Button>
+            <Button id="catalog-search-submit" type="submit">검색</Button>
           </form>
           {home && <div className="journey-suggestions screen-only">
             <span>검색 예시</span>
-            {["분수", "일차함수", "확률"].map((word) => <button type="button" key={word}
+            {["분수", "일차함수", "확률"].map((word) => <button type="button" key={word} id={"suggest-" + word}
               onClick={() => showResults({ q: word })}>{word}</button>)}
           </div>}
         </div>
-        {home && <div className="journey-preview-wrap screen-only"><ConnectionPreview onOpen={onOpen} catalog={catalog} /></div>}
+        {home && <div className="journey-preview-wrap screen-only"><ConnectionPreview /></div>}
       </div>
     </section>
     <div className="site-width journey-body">
+      {home ? <nav className="atlas-home-tools" aria-label="다른 탐색 방법">
+        <a id="home-all" href={route("catalog", { list: 1 })} onClick={onOpen}><List size={19} aria-hidden="true" />전체 성취기준 {standards.length}개 보기</a>
+        <a id="home-concepts" href={oldRoute("hierarchy")}><Waypoints size={19} aria-hidden="true" />개념으로 둘러보기</a>
+        <a id="home-structure" href={route("catalog", { tab: "structure" })} onClick={onOpen}><BookOpenText size={19} aria-hidden="true" />공식 내용 체계 보기</a>
+        <a id="home-compare" href={route("compare")} onClick={onOpen}><GalleryHorizontalEnd size={19} aria-hidden="true" />두 학년군·과목 비교</a>
+      </nav>
+        : overview ? <ScopeOverview standards={standards} version={catalog.version} scope={scope} band={band} onOpen={onOpen} />
+        : <>
       <BrowseFilters standards={standards} values={values} change={change} />
       <section className="results" aria-labelledby="browse-result-title">
         <header className="journey-results-header">
@@ -196,7 +373,7 @@ export function Browse({ catalog, params, go, onOpen }) {
             </p>}
           </div>
           <nav className="journey-related-tools screen-only" aria-label="다른 교육과정 자료">
-            <a href={route("catalog", { ...values, tab: tab === "standards" ? "structure" : "" })}>
+            <a id="browse-tab" href={route("catalog", { ...values, tab: tab === "standards" ? "structure" : "", list: tab === "structure" ? 1 : "" })} onClick={onOpen}>
               {tab === "standards" ? "공식 내용 체계" : "성취기준 목록"}
             </a>
             <a id="browse-compare"
@@ -211,6 +388,7 @@ export function Browse({ catalog, params, go, onOpen }) {
           </li>)}
         </ul>}
         {band.startsWith("기본수학") && <p className="notice">같은 번호의 공통수학을 대체하여 이수하는 과목입니다.</p>}
+        {q.trim() && tab === "standards" && <SearchConcepts version={catalog.version} query={q} selected={selected} scope={scope} />}
         {tab === "standards" ? <>
           {shown.length ? <ul className="standard-list journey-list">
             {shown.map((standard) => <StandardRow key={standard.code} standard={standard} onOpen={onOpen} scope={scope} />)}
@@ -224,14 +402,14 @@ export function Browse({ catalog, params, go, onOpen }) {
             </div>
           </div>}
           {pageCount > 1 && <nav className="pagination" aria-label="목록 페이지">
-            <Button variant="outline" disabled={page === 1} onClick={() => turnPage(page - 1)}><ChevronLeft />이전</Button>
+            <Button id="browse-previous-page" variant="outline" disabled={page === 1} onClick={() => turnPage(page - 1)}><ChevronLeft />이전</Button>
             <span>{page} / {pageCount}쪽</span>
-            <Button variant="outline" disabled={page === pageCount} onClick={() => turnPage(page + 1)}>다음<ChevronRight /></Button>
+            <Button id="browse-next-page" variant="outline" disabled={page === pageCount} onClick={() => turnPage(page + 1)}>다음<ChevronRight /></Button>
           </nav>}
         </> : <CurriculumStructure version={catalog.version} byCode={new Map(standards.map((s) => [s.code, s]))}
           selected={selected} query={q} onOpen={onOpen}
           fallback={() => showResults(q ? { q: "" } : allRanges)} />}
-      </section>
+      </section></>}
     </div>
   </div>;
 }
