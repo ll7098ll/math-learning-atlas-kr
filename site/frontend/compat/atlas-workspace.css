@@ -227,3 +227,10 @@
 @media print {
   .atlas-context-return, .atlas-concept-overview-link, .atlas-concept-jump { display: none; }
 }
+@media screen {
+  .atlas-map-examples { display: flex; flex-wrap: wrap; gap: .3rem .6rem; align-items: center; margin: .5rem 0; }
+  .atlas-map-examples strong { font-size: .88rem; margin-right: .2rem; }
+  .atlas-map-examples a { display: inline-flex; align-items: center; min-height: 2.65rem; padding: .25rem .85rem; border: 1px solid var(--atlas-line); border-radius: 2rem; color: var(--atlas-primary); font-weight: 650; }
+  .atlas-map-examples a:hover { background: #e5eeea; }
+  .atlas-network > .atlas-path { display: flex; flex-wrap: wrap; }
+}

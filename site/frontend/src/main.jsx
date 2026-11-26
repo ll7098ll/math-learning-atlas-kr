@@ -200,6 +200,7 @@ function App() {
 
   const menu = [
     ["catalog", "교육과정 탐색", route("catalog")],
+    ["network", "연결 지도", oldRoute("network", { scope: "all" })],
     ["compare", "학년군·과목 비교", route("compare")],
     ["hierarchy", "개념으로 보기", oldRoute("hierarchy")],
     ["about", "자료 안내", oldRoute("about")],

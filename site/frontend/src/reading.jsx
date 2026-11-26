@@ -314,6 +314,9 @@ export function Detail({ catalog, params, go, returnTo, onOpen }) {
         </nav>
       </div>
       <h1 tabIndex={-1} aria-describedby="journey-title-source">{s.title}</h1>
+      <a id={"map-" + code} className="standard-map-entry" href={oldRoute("network", { node: code, scope: "all" })}>
+        <Network size={18} aria-hidden="true" />이 기준의 연결 지도 열기 <ArrowRight size={16} aria-hidden="true" />
+      </a>
       <p className="sr-only" id="journey-title-source">이 사이트에서 붙인 제목</p>
     </header>
     <nav className="reading-jumps" aria-label="이 기준의 읽을거리">

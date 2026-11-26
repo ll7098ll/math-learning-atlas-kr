@@ -11,6 +11,7 @@
 
   const nav = [
     ["catalog", "교육과정 탐색", "./#view=catalog"],
+    ["network", "연결 지도", "./legacy.html#view=network&scope=all"],
     ["compare", "학년군·과목 비교", "./#view=compare"],
     ["hierarchy", "개념으로 보기", "./legacy.html#view=hierarchy"],
     ["about", "자료 안내", "./legacy.html#view=about"],
@@ -335,7 +336,7 @@
       if (lead) lead.textContent = "익숙한 수학 개념을 골라 학교급마다 배우는 내용과 연결되는 이유를 살펴보세요.";
     }
     if (view === "network" && main.querySelector(".atlas-network")) {
-      const title = params.has("node") ? "이 기준의 연결 보기" : "전체 연결망";
+      const title = params.has("node") ? "이 기준의 연결 지도" : "수학 연결 지도";
       if (heading.textContent !== title) heading.textContent = title;
     }
     const sectionName = tool ? (page === "distribution-lab" ? "분포 탐구" : "탐구 기록지")
@@ -350,7 +351,7 @@
       crumb.className = "atlas-location";
       crumb.setAttribute("aria-label", "현재 위치");
       const parent = document.createElement("a");
-      const hub = nav[tool || view === "about" ? 3 : view === "standard" ? 0 : 2];
+      const hub = nav.find(([key]) => key === (tool || view === "about" ? "about" : view === "standard" ? "catalog" : view === "hierarchy" ? "hierarchy" : "network"));
       parent.href = hub[2];
       parent.textContent = hub[1];
       const current = document.createElement("span");
@@ -371,7 +372,7 @@
     if (oldMenu) oldMenu.replaceWith(menu);
     else if (menu.children.length) {
       const section = heading.closest(".atlas-page-header");
-      if (menu.getAttribute("aria-label") === "연결 지도 보기") {
+      if (view !== "network" && menu.getAttribute("aria-label") === "연결 지도 보기") {
         const switcher = document.createElement("details");
         switcher.className = "atlas-view-switcher";
         const title = document.createElement("summary");
@@ -434,6 +435,25 @@
     let related = workspace.querySelector(".atlas-related-toggle");
     if (!related) {
       const form = network.querySelector(".atlas-controls");
+      const intro = network.querySelector(".network-intro h1 + p");
+      if (intro) intro.textContent = "점 하나가 성취기준 하나입니다. 점을 선택해 이어진 기준을 보고, ‘연결 근거’에서 두 기준이 이어지는 이유를 읽어 보세요.";
+      const conceptLink = network.querySelector(".network-intro > a");
+      if (conceptLink) conceptLink.textContent = "개념별로 찾아보기 ↗";
+      if (!route().has("node") && ["all", null].includes(route().get("scope"))) {
+        const examples = document.createElement("nav");
+        examples.className = "atlas-map-examples";
+        examples.setAttribute("aria-label", "예시 기준에서 지도 시작");
+        const label = document.createElement("strong");
+        label.textContent = "여기서 시작하기";
+        examples.append(label);
+        for (const [code, title] of [["6수01-10", "분수"], ["6수02-03", "비율"], ["9수01-03", "유리수"]]) {
+          const link = document.createElement("a");
+          link.href = "#" + new URLSearchParams({view: "network", scope: "all", node: code});
+          link.textContent = title;
+          examples.append(link);
+        }
+        form.before(examples);
+      }
       form.querySelector(".atlas-search").firstChild.textContent = "성취기준 찾기";
       form.querySelector('[data-action="reset"]').textContent = "필터 초기화";
       const filters = document.createElement("details");
@@ -490,8 +510,6 @@
       if (related.dataset.startedWithNode === "true") {
         workspace.classList.add("atlas-related-only");
         related.setAttribute("aria-pressed", "true");
-        workspace.classList.add("atlas-selected-entry");
-        workspace.prepend(workspace.querySelector(".atlas-inspector"));
       }
     }
     related.disabled = !selected;
@@ -625,7 +643,8 @@
   function updateNav() {
     const view = route().get("view");
     const current = tool || view === "about" ? "about"
-      : ["standard", "catalog", "map"].includes(view) ? "catalog" : "hierarchy";
+      : ["standard", "catalog", "map"].includes(view) ? "catalog"
+      : ["network", "overview", "connections"].includes(view) ? "network" : "hierarchy";
     for (const link of header.querySelectorAll("[data-atlas-nav]")) {
       if (link.dataset.atlasNav === current) link.setAttribute("aria-current", "page");
       else link.removeAttribute("aria-current");
