@@ -104,7 +104,7 @@ async function neighborhood(current, params, values, members, example) {
   return `<h2 class="local-title" tabindex="-1">${following?'내가 따라온 길':example?'분수로 지도 둘러보기':esc(current.title)+' 주변 지도'}</h2>
     ${diagram.location||''}
     <p class="local-instructions">점을 누르면 그 기준에서 길이 이어집니다. 선을 누르면 연결 이유가 열립니다.</p>
-    <div class="walk-actions">${following?'<div class="walk-key"><span>현재 위치까지 온 길</span><span>더 가볼 길</span></div>':''}
+    <div class="walk-actions">${following?`<div class="walk-key">${diagram.routeLength>1?'<span class="key-path">현재 위치까지 온 길</span>':''}${walk.edges.length>=diagram.routeLength?'<span class="key-other">살펴본 다른 길</span>':''}${neighbors.length?'<span class="key-next">더 가볼 길</span>':''}</div>`:''}
     ${diagram.choices.length?`<details class="reason-picker"><summary>연결 이유 보기</summary><p>지금 보는 기준과 어떤 기준의 연결을 살펴볼까요?</p>
       ${diagram.choices.map(c=>`<button type="button" data-explain="local-reason-${c.index}" aria-controls="local-reason-${c.index}">${esc(c.title)}</button>`).join('')}</details>`:''}</div>
     <div class="local-layout"><div>${diagram.board}${paging}</div><aside class="local-inspector" aria-label="선택한 기준과 연결 설명">

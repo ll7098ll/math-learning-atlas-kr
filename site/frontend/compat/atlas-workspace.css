@@ -262,11 +262,7 @@
 .local-edge .edge-hit { stroke: transparent; stroke-width: 30px; pointer-events: stroke; }
 .edge-ink { stroke: #659388; stroke-width: 2.5px; }
 .edge-hit-disc { fill: transparent; }
-.edge-mark { fill: white; stroke: #49746b; stroke-width: 1.5px; }
-.local-edge text { fill: #234f46; font: bold 14px system-ui; }
 .local-edge:is([aria-expanded="true"],:hover,:focus-visible) .edge-ink { stroke: #9c4c20; stroke-width: 4px; }
-.local-edge:is([aria-expanded="true"],:hover,:focus-visible) .edge-mark { fill: #873f1e; stroke: #873f1e; }
-.local-edge:is([aria-expanded="true"],:hover,:focus-visible) text { fill: white; }
 .local-board .guide-next, .local-board .local-center { position: absolute; left: var(--x,50%); top: calc(var(--y,50%) - 10px); transform: translateX(-50%); width: 40%; max-width: 13rem; display: flex; flex-direction: column; align-items: center; gap: .22rem; justify-content: start; padding: 0; border: 0; background: none; text-align: center; text-decoration: none; color: #17433f; line-height: 1.25; font: inherit; cursor: pointer; }
 .local-board .guide-next[data-slot="0"] { top: auto; bottom: calc(100% - var(--y) - 10px); flex-direction: column-reverse; }
 .local-dot { width: 20px; height: 20px; border: 3px solid white; border-radius: 50%; background: #477c76; box-shadow: 0 0 0 2px #35685e; flex: none; }
@@ -301,7 +297,6 @@
 .walk-canvas .local-lines { overflow: hidden; }
 .walk-board path { fill: none; vector-effect: non-scaling-stroke; }
 .walk-board .local-edge:focus { outline: none; }
-.walk-board .local-edge:focus-visible .edge-mark { stroke-width: 3px; }
 .walk-used .edge-ink { stroke: #2a655e; stroke-width: 3.5px; }
 .walk-option .edge-ink { stroke: #896333; stroke-dasharray: 5 4; }
 .walk-board .walk-dot { position: absolute; display: flex; flex-direction: column; align-items: center; width: min(calc(100% / var(--lanes) - 4px), 9rem); transform: translate(-50%,-10px); padding: 0; border: 0; background: transparent; text-align: center; color: #17433f; cursor: pointer; font: inherit; text-decoration: none; }
@@ -316,3 +311,28 @@
 .walk-dot:is(:hover,:focus-visible) strong { text-decoration: underline; }
 .walk-tools { display: flex; flex-wrap: wrap; gap: .3rem .9rem; }
 .walk-tools button { min-height: 44px; border: none; padding: 0; background: transparent; color: #1d5952; font: inherit; font-weight: 650; text-decoration: underline; cursor: pointer; }
+.walk-location { margin: .5rem 0 .7rem; padding: .6rem .9rem; border-inline-start: 3px solid #965225; background: #f5efe4; color: #293e39; }
+.walk-location small { color: #5d5248; }
+.walk-location div, .walk-actions, .walk-key { display: flex; align-items: center; flex-wrap: wrap; gap: .15rem .6rem; }
+.walk-location :is(a,summary) { padding-block: .4rem; cursor: pointer; }
+.walk-location a { color: #215f57; text-decoration: underline; }
+.walk-location strong { color: #783b18; }
+.walk-actions { gap: .4rem 1.25rem; align-items: start; margin: 0 0 .65rem; }
+.walk-key { min-height: 44px; gap: .4rem .95rem; font-size: .82rem; }
+.walk-key span::before { content: ""; display: inline-block; width: 1.4rem; border-top: 4px solid #205f52; margin-right: .35rem; vertical-align: middle; }
+.walk-key .key-next::before { border-top: 2px dashed #896333; }
+.walk-key .key-other::before { border-top: 2px solid #7d9089; }
+.walk-used:not(.walk-route) .edge-ink { stroke: #7d9089; stroke-width: 2px; }
+.walk-route .edge-ink { stroke: #205f52; stroke-width: 4px; }
+.guided-map .local-edge:is(:focus-visible,:hover,[aria-expanded="true"]) .edge-ink { stroke: #a84918; stroke-width: 5px; }
+.reason-picker { max-width: 100%; }
+.reason-picker summary { cursor: pointer; display: list-item; width: fit-content; min-height: 44px; padding: .55rem .8rem; border: 1px solid #819f93; border-radius: .4rem; color: #24574d; font-weight: 700; }
+.reason-picker p { margin: .55rem 0 .2rem; }
+.reason-picker button { display: block; min-height: 44px; padding: .3rem .15rem; color: #205e54; background: transparent; border: none; text-align: start; text-decoration: underline; cursor: pointer; font: inherit; }
+@media (max-width: 760px) {
+  .guided-map:has(.walk-board) > .page-heading { margin-block: .4rem; padding-block: .45rem; }
+  .guided-map:has(.walk-board) > .page-heading :is(.atlas-location,p) { display: none; }
+  .guided-map:has(.walk-board) .guide-mode-link { margin-block: .25rem; }
+  .walk-location > div { column-gap: .35rem; }
+  .walk-actions { gap: .15rem .7rem; }
+}

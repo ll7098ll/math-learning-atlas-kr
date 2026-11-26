@@ -104,7 +104,7 @@ export function drawWalk(walk,current,neighbors,values,reasonPanel) {
     return `<${tag} ${attrs} class="walk-dot ${active?'walk-active':visited?'walk-visited':'walk-new'}" data-code="${esc(code)}" ${first?'data-origin':''} style="left:${x/width*100}%;top:${y}px" title="${esc(s.title)} · ${esc(code)}">
       <i aria-hidden="true"></i><span><small>${label}</small><strong>${esc(s.title)}</strong></span></${tag}>`;
   });
-  return {panels:panels.join(''),choices,location:`<nav class="walk-location" aria-label="출발점에서 현재 위치까지"><small>출발점에서 현재 위치까지</small><div>${location}</div></nav>`,board:`<div class="walk-board" tabindex="0" role="region" aria-label="따라온 길과 새 연결 지도">
+  return {panels:panels.join(''),choices,routeLength:route.length,location:`<nav class="walk-location" aria-label="출발점에서 현재 위치까지"><small>출발점에서 현재 위치까지</small><div>${location}</div></nav>`,board:`<div class="walk-board" tabindex="0" role="region" aria-label="따라온 길과 새 연결 지도">
     <div class="walk-canvas" style="--lanes:${width/100};height:${height}px"><svg class="local-lines" viewBox="0 0 ${width} ${height}" width="100%" height="100%" preserveAspectRatio="none" aria-label="연결 이유를 여는 선">${lines.join('')}</svg>${dots.join('')}</div></div>
     <div class="walk-tools"><button type="button" data-locate="origin">출발점 찾기 · ${esc(standard(origin.code).title)}</button><button type="button" data-locate="active">지금 보는 점 찾기</button></div>`};
 }
