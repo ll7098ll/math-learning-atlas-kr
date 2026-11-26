@@ -47,7 +47,46 @@ function evidence(record) {
     ${record.conditions?.length ? `<ul>${record.conditions.map(c=>`<li>${esc(c)}</li>`).join('')}</ul>` : ''}
     ${record.limit ? `<p>${esc(record.limit)}</p>` : ''}</details>`;
 }
-async function neighborhood(current, params, values, members) {
+const layouts = [
+  [],
+  [[50,18]],
+  [[50,18],[24,74]],
+  [[50,18],[24,74],[76,74]],
+];
+
+function localDiagram(current, neighbors, trail, values, paging) {
+  const positions = layouts[neighbors.length];
+  const edges = [], nodes = [], reasons = [];
+  for (const [i, {target, records}] of neighbors.entries()) {
+    const [x,y] = positions[i];
+    const midX = (50+x)/2+'%', midY = (50+y)/2+'%';
+    const ends = `x1="50%" y1="50%" x2="${x}%" y2="${y}%"`;
+    edges.push(`<g class="local-edge" data-edge-index="${i}" role="button" tabindex="0" aria-label="${esc(target.title)}와 연결되는 이유" aria-expanded="false" aria-controls="local-reason-${i}">
+      <line class="edge-hit" ${ends}/><line class="edge-ink" ${ends}/>
+      <circle class="edge-hit-disc" cx="${midX}" cy="${midY}" r="22"/><circle class="edge-mark" cx="${midX}" cy="${midY}" r="11"/>
+      <text x="${midX}" y="${midY}" dy=".35em" text-anchor="middle" aria-hidden="true">?</text></g>`);
+    const seen = trail.indexOf(target.code);
+    const next = seen < 0 ? [...trail,current.code] : trail.slice(0,seen);
+    nodes.push(`<a class="guide-next" href="${link({...values,node:target.code,trail:next.join(',')})}" style="--x:${x}%;--y:${y}%" data-slot="${i}" title="${esc(target.title)} · ${esc(target.code)}" aria-label="${esc(target.title)}, ${esc(band(target))}. 이 기준을 중심으로 보기">
+      <i class="local-dot" aria-hidden="true"></i><span><small>${esc(band(target))}</small><strong>${esc(target.title)}</strong></span></a>`);
+    reasons.push(`<section class="local-reason" id="local-reason-${i}" hidden><small>연결 이유 · 이 사이트의 해설</small>
+      <h3 tabindex="-1">${esc(target.title)}</h3>${evidence(records[0])}
+      ${records.length>1?`<details><summary>다른 연결 이유 ${records.length-1}개</summary>${records.slice(1).map(evidence).join('')}</details>`:''}
+      <button type="button" class="local-back">지도로 돌아가기</button></section>`);
+  }
+  return `<div class="local-layout"><div><div class="local-board" role="group" aria-label="${esc(current.title)} 주변 연결 지도">
+    <svg class="local-lines" width="100%" height="100%" aria-label="연결 이유를 여는 선">${edges.join('')}</svg>
+    <button type="button" class="local-center" aria-controls="local-standard" aria-label="${esc(current.title)} 기준 설명">
+      <i class="local-dot" aria-hidden="true"></i><span><small>중심 기준</small><strong>${esc(current.title)}</strong></span></button>
+    ${nodes.join('')}</div>${paging}</div>
+    <aside class="local-inspector" aria-label="선택한 기준과 연결 설명">
+    <section id="local-standard"><small>중심 기준 · ${esc(where(current))}</small><h3 tabindex="-1">${esc(current.title)}</h3>
+    <p>${esc(current.statement)}</p><small>${esc(current.code)} · 교육과정 원문</small>
+    <a href="./${esc(url('standard',{scope:'all',code:current.code}))}">기준 상세 읽기 →</a></section>
+    ${reasons.join('')}</aside></div>`;
+}
+
+async function neighborhood(current, params, values, members, example) {
   const groups = groupNeighbors(await standardConnections(current.code), current);
   const trail = [...new Set((params.get('trail') || '').split(',').filter(c=>c!==current.code && standard(c)))];
   const visited = [...trail, current.code];
@@ -56,21 +95,21 @@ async function neighborhood(current, params, values, members) {
     + (band(s) === values.band ? 2 : 0) + Number(s.domain === current.domain);
   groups.sort((a,b)=>score(b.target)-score(a.target) || a.target.code.localeCompare(b.target.code,'ko',{numeric:true}));
   const base = {...values, node:current.code, trail:trail.join(',')};
-  const shown = listLimit(params, groups.length);
+  const lastPage = Math.max(0, Math.ceil(groups.length / pageSize)-1);
+  const requested = Number(params.get('page') || Math.ceil(listLimit(params,groups.length)/pageSize)-1);
+  const page = Number.isSafeInteger(requested) ? Math.min(lastPage, Math.max(0,requested)) : 0;
+  const start = page*pageSize;
+  const neighbors = groups.slice(start,start+pageSize);
   const crumbs = visited.map((code,i)=>i===visited.length-1 ? `<span aria-current="step">${esc(current.title)}</span>`
     : `<a href="${link({...values,node:code,trail:trail.slice(0,i).join(',')})}">${esc(standard(code).title)}</a>`).join('<i aria-hidden="true">›</i>');
-  return `<nav class="guide-trail" aria-label="살펴본 기준">${crumbs}</nav>
-    <section class="guide-center"><small>지금 보는 기준 · ${esc(where(current))} · ${esc(current.code)}</small><h2>${esc(current.title)}</h2><p>${esc(current.statement)}</p>
-    <a href="./${esc(url('standard',{scope:'all',code:current.code}))}">기준 상세 읽기 →</a></section>
-    <h2>어떤 기준으로 이어질까요?</h2>
-    ${groups.length ? `<p>직접 연결된 기준 ${groups.length}개 중 ${shown}개 · 이 사이트의 해설</p>
-    <ol class="guide-branches">${groups.slice(0,shown).map(({target,records})=>{
-      const seen = trail.indexOf(target.code);
-      const next = seen<0 ? visited : trail.slice(0,seen);
-      return `<li><small>${esc(where(target))} · ${esc(target.code)}</small><h3>${esc(target.title)}</h3>
-        ${evidence(records[0])}${records.length>1 ? `<details><summary>다른 연결 이유 ${records.length-1}개</summary>${records.slice(1).map(evidence).join('')}</details>` : ''}
-        <a class="guide-next" href="${link({...values,node:target.code,trail:next.join(',')})}">${seen<0?'여기서 한 단계 더 보기':'이전에 본 이 기준으로'} →</a></li>`;
-    }).join('')}</ol>${more(base,shown,groups.length)}` : '<p>이 기준과 직접 이어진 성취기준이 아직 기록되지 않았습니다.</p>'}`;
+  const paging = groups.length ? `<nav class="local-paging" aria-label="주변 기준 바꾸기">
+      ${page>0?`<a href="${link({...base,page:page-1})}">← 이전 연결</a>`:''}
+      <span>주변 기준 ${start+1}–${start+neighbors.length} / ${groups.length}개</span>
+      ${page<lastPage?`<a href="${link({...base,page:page+1})}">다른 연결 보기 →</a>`:''}</nav>` : '<p>이 기준과 직접 이어진 성취기준이 아직 기록되지 않았습니다.</p>';
+  return `${trail.length ? `<nav class="guide-trail" aria-label="살펴본 기준">${crumbs}</nav>` : ''}
+    <h2 class="local-title" tabindex="-1">${example?'분수로 지도 둘러보기':esc(current.title)+' 주변 지도'}</h2>
+    <p class="local-instructions">선을 누르면 연결 이유가 열립니다. 주변 점을 누르면 그 기준이 가운데로 옵니다.</p>
+    ${localDiagram(current,neighbors,trail,values,paging)}`;
 }
 export async function guidedMap(params) {
   const scope = params.get('scope') || 'all';
@@ -85,15 +124,17 @@ export async function guidedMap(params) {
   const values = {scope,band:grade,concept:concept?.id};
   const current = standard(params.get('node'));
   const results = rows.filter(s=>(!grade||grade===band(s))&&(!members||members.has(s.code)));
-  const content = current ? await neighborhood(current,params,values,members)
-    : grade || concept || scope!=='all' ? startingList(results,params,values)
-    : `<div class="guide-example"><span>바로 시작해 보기</span><a href="${link({scope:'all',concept:'fraction',node:'6수01-10'})}">초등 분수에서 이어지는 기준 →</a></div>`;
+  const example = !current && !grade && !concept && scope === 'all';
+  const content = current || example
+    ? await neighborhood(current || standard('6수01-10'),params,values,members,example)
+    : startingList(results,params,values);
   return `<section class="guided-map"><header class="page-heading"><h1 tabindex="-1">연결 지도</h1><p>학년이나 개념을 고르고, 기준이 서로 이어지는 이유를 한 단계씩 살펴보세요.</p>
     <a class="guide-mode-link" href="${link({mapMode:'full',scope:'all'})}">435개 기준 전체 지도 보기 ↗</a></header>
+    ${current?'<details class="local-picker-fold"><summary>학년이나 개념 다시 고르기</summary>':''}
     <div class="guide-pickers"><label>학년군·과목<select name="guide-band">${options([['','모든 학년군·과목'],...grades.map(g=>[g,g])],grade)}</select></label>
     <label>수학 개념<select name="guide-concept">${options([['','모든 개념'],...concepts.map(g=>[g.id,g.title])],concept?.id || '')}</select></label>
     ${(current||grade||concept)?`<a href="${link({scope:'all'})}">처음부터 보기</a>`:''}</div>
-    <div class="guide-results">${content}</div></section>`;
+    ${current?'</details>':''}<div class="guide-results">${content}</div></section>`;
 }
 export function mountGuidedMap(root) {
   const guide = root.querySelector('.guided-map');
@@ -105,7 +146,7 @@ export function mountGuidedMap(root) {
       if (!target?.isConnected) return;
       if (target.tabIndex < 0) target.tabIndex = -1;
       target.focus({preventScroll:true});
-      target.scrollIntoView({block:'nearest'});
+      target.scrollIntoView({block:target.matches('.local-title')?'start':'nearest'});
     }));
   }
   nextFocus = undefined;
@@ -114,17 +155,41 @@ export function mountGuidedMap(root) {
     nextFocus = {hash,selector:'[name="'+event.target.name+'"]'};
     location.hash = hash;
   }, {signal:abort.signal});
+  function openPanel(edge) {
+    const id = edge?.getAttribute('aria-controls') || 'local-standard';
+    for (const panel of guide.querySelectorAll('.local-inspector > section')) panel.hidden = panel.id !== id;
+    for (const item of guide.querySelectorAll('.local-edge')) item.setAttribute('aria-expanded',String(item === edge));
+    const heading = guide.querySelector('#'+id+' h3');
+    heading.focus({preventScroll:true});
+    heading.scrollIntoView({block:matchMedia('(max-width:760px)').matches?'start':'nearest'});
+  }
+  guide.addEventListener('keydown',event=>{
+    if (event.target.matches('.local-edge') && ['Enter',' '].includes(event.key)) {
+      event.preventDefault();
+      openPanel(event.target);
+    }
+  },{signal:abort.signal});
   guide.addEventListener('click',event=>{
     if (event.button || event.ctrlKey || event.metaKey || event.shiftKey || event.altKey) return;
+    const edge = event.target.closest('.local-edge');
+    if (edge || event.target.closest('.local-center')) {
+      openPanel(edge);
+      return;
+    }
+    if (event.target.closest('.local-back')) {
+      const active = guide.querySelector('.local-edge[aria-expanded="true"]');
+      openPanel(null);
+      active?.focus();
+      return;
+    }
     const anchor = event.target.closest('a');
     if (!anchor) return;
-    if (anchor.matches('.guide-next, .guide-trail a, .guide-example a, .guide-starts a')) {
-      nextFocus = {hash:anchor.hash, selector:'.guide-center h2'};
+    if (anchor.matches('.guide-next, .guide-trail a, .guide-starts a, .local-paging a')) {
+      nextFocus = {hash:anchor.hash, selector:'.local-title'};
     } else if (anchor.matches('.guide-more')) {
       const starts = guide.querySelector('.guide-starts');
-      const list = starts || guide.querySelector('.guide-branches');
-      const index = list.children.length + 1;
-      const selector = starts ? '.guide-starts li:nth-child('+index+') a' : '.guide-branches li:nth-child('+index+') > h3';
+      const index = starts.children.length + 1;
+      const selector = '.guide-starts li:nth-child('+index+') a';
       nextFocus = {hash:anchor.hash, selector};
     }
   }, {signal:abort.signal});

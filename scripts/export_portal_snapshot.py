@@ -87,13 +87,15 @@ def install_compat_theme(dist: Path) -> None:
         path = dist / name
         html = path.read_text(encoding="utf-8")
         if name == "legacy.html":
-            for module in legacy_modules:
-                relative = f"./modules/{module.name}"
-                html = re.sub(
-                    rf'("{re.escape(relative)}":"{re.escape(relative)}\?v=)[0-9a-f]+',
-                    lambda match: match[1] + digest(module)[:16],
-                    html,
-                )
+            def version_modules(match):
+                mapping = json.loads(match[2])
+                for module in legacy_modules:
+                    relative = f"./modules/{module.name}"
+                    mapping["imports"][relative] = relative + "?v=" + digest(module)[:16]
+                return match[1] + json.dumps(mapping, ensure_ascii=False, separators=(",", ":")) + match[3]
+
+            html = re.sub(r'(<script type="importmap">)(.*?)(</script>)',
+                          version_modules, html, flags=re.DOTALL)
         html = re.sub(r'<link data-atlas-theme[^>]*>\n?|<script data-atlas-theme[^>]*></script>\n?', "", html)
         if "</head>" not in html:
             raise ValueError(f"No document head to theme in {name}")

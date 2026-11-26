@@ -461,7 +461,7 @@
         examples.append(label);
         for (const [code, title] of [["6수01-10", "분수"], ["6수02-03", "비율"], ["9수01-03", "유리수"]]) {
           const link = document.createElement("a");
-          link.href = "#" + new URLSearchParams({view: "network", scope: "all", node: code});
+          link.href = "#" + new URLSearchParams({view: "network", scope: "all", mapMode: "full", node: code});
           link.textContent = title;
           examples.append(link);
         }
