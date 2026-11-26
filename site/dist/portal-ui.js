@@ -535,7 +535,9 @@
       chosen = undefined;
       const remaining = document.documentElement.scrollHeight - window.innerHeight - window.scrollY;
       // The last section cannot always reach the menu before the page ends.
-      const line = Math.max(bar.getBoundingClientRect().bottom + 54, window.innerHeight / 2 - Math.max(0, remaining));
+      const readingLine = bar.getBoundingClientRect().bottom + 54;
+      const endProgress = 1 - Math.min(1, Math.max(0, remaining) / 64);
+      const line = readingLine + Math.max(0, window.innerHeight / 2 - readingLine) * endProgress;
       let reached;
       let upcoming;
       let latest = -Infinity;
