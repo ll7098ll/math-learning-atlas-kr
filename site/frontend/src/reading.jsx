@@ -3,6 +3,7 @@ import { ArrowLeft, ArrowLeftRight, ArrowRight, BookOpen, ChevronDown, ChevronRi
 import { Button } from "@/components/ui/button";
 import { bandOf, oldRoute, overviewRoute, route, scopeId, selection, standardRoute, unique } from "./curriculum";
 import { LoadState, Pdf, StandardRow, useContent } from "./shared";
+import { analysisSections } from "../compat/modules/analysis-sections.mjs";
 import "./reading-journey.css";
 
 function SourceInfo({ standard }) {
@@ -140,8 +141,8 @@ function RelatedStandards({ catalog, standard, request, onOpen, analysisReady })
 }
 
 const readingPanels = [
-  ["official", "공식 원문"], ["meaning", "쉽게 읽기"], ["task", "수업 과제"],
-  ["related-standards", "관련 성취기준"], ["evidence", "출처와 검토"], ["full-analysis", "해설 전문"],
+  ["official", "공식 성취기준"], ["meaning", "핵심 의미"], ["task", "수업 질문"],
+  ["related-standards", "연결된 성취기준"], ["evidence", "출처와 검토"], ["full-analysis", "전체 상세 분석"],
 ];
 
 function jumpToPanel(id) {
@@ -217,25 +218,35 @@ function manuscriptProbe(analysis) {
 function ManuscriptTask({ analysis, probe, code, scope }) {
   const task = analysis.revision?.task || analysis.task;
   const paragraphs = task?.split(/\n\s*\n/).filter(Boolean) || [];
-  const observation = analysis.stepObjects?.find((item) => item.observable)?.observable;
+  const observations = analysis.stepObjects?.filter((item) => item.observable) || [];
+  const observation = observations[0]?.observable;
+  const conditions = analysis.revision?.conditions || [];
   return <>
     <div className="task-prompt manuscript-task">
-      <h3>{task ? "기준을 살펴보는 예시 과제" : "기준을 살펴보는 질문"}</h3>
+      {task && <h3>대표 과제</h3>}
       {paragraphs.length > 0 && <p>{paragraphs[0]}</p>}
+      {conditions.length > 0 && <details className="task-conditions">
+        <summary>이 과제의 적용 조건</summary>
+        <ul>{conditions.map((text, index) => <li key={index}>{text}</li>)}</ul>
+      </details>}
     </div>
     {probe ? <div className="task-observation">
-      <div><h4>학생에게 물어볼 질문</h4><p>{probe.question}</p></div>
-      <div><h4>학생의 답에서 확인할 점</h4><p>{probe.expected}</p>
-        {probe.followup && <p className="probe-followup"><strong>다시 물어볼 때</strong> {probe.followup}</p>}
-      </div>
+      <div><h3>학생에게 물어볼 질문</h3><p>{probe.question}</p></div>
+      <div><h3>답에서 살펴볼 점</h3><p>{probe.expected}</p></div>
+      {probe.followup && <div><h3>후속 확인</h3><p>{probe.followup}</p></div>}
     </div> : observation && <div className="task-observation"><div><h4>학생이 할 수 있는지 확인할 것</h4><p>{observation}</p></div></div>}
     <p className="task-review">{analysis.validated ? "학생 반응을 확인한 기록 있음" : "학생 반응은 아직 확인하지 않음"}</p>
     <details className="reading-disclosure">
-      <summary>예시 과제의 풀이와 살펴볼 점</summary>
+      <summary>예시 풀이와 답의 해석</summary>
       <div className="reading-disclosure-body">
         {paragraphs.slice(1).map((paragraph, index) => <p key={index}>{paragraph}</p>)}
-        {probe?.interpretation && <><h4>학생의 답을 듣고 살펴볼 점</h4><p>{probe.interpretation}</p></>}
+        {probe?.interpretation && <><h4>답의 가능한 해석</h4><p>{probe.interpretation}</p></>}
         {analysis.revision?.taskSolution && <><h4>예시 풀이</h4><p>{analysis.revision.taskSolution}</p></>}
+        {observations.length > 0 && <><h4>사고 요소와 관찰할 수행</h4>
+          <dl className="reading-observables">{observations.map((item, index) => <div key={index}>
+            <dt>{item.label}</dt><dd>{item.observable}</dd>
+          </div>)}</dl>
+        </>}
         <a className="text-link" href={oldRoute("standard", { code, scope, section: "task" })}>예시 과제 해설 모두 보기</a>
       </div>
     </details>
@@ -264,7 +275,7 @@ function TaskReading({ data, analysis, request, analysisRequest, scope, code, pa
   }
   const showTask = explicit && task && path;
   return <section className="reading-block journey-task" id="task" aria-labelledby="task-title">
-    <div className="reading-section-title"><h2 id="task-title" tabIndex={-1}>수업에서 물어보기</h2><span>이 사이트에서 만든 과제</span></div>
+    <div className="reading-section-title"><h2 id="task-title" tabIndex={-1}>수업 질문</h2><span>자체 설계 과제</span></div>
     {!explicit && (analysis ? <ManuscriptTask analysis={analysis} probe={probe} code={code} scope={scope} />
       : <LoadState request={analysisRequest} label="대표 질문을 불러오고 있습니다…" />)}
     {showTask && <>
@@ -272,6 +283,9 @@ function TaskReading({ data, analysis, request, analysisRequest, scope, code, pa
         <h3>{task.title}</h3>
         {task.superseded_by_case_ids?.length > 0 && <p className="task-review">이전 설계 · 보존한 과제</p>}
         <p>{task.task}</p>
+        {task.shared_conditions?.length > 0 && <div className="task-conditions">
+          <h4>과제의 공통 조건</h4><ul>{task.shared_conditions.map((text, index) => <li key={index}>{text}</li>)}</ul>
+        </div>}
       </div>
       {task.routes.length > 1 && <label className="task-picker">어떤 방법으로 풀어 볼까요?
         <select value={path.id} onChange={(event) => go(selectionURL(task.id, event.target.value), { ...history.state, focusOnReturn: undefined })}>
@@ -279,15 +293,14 @@ function TaskReading({ data, analysis, request, analysisRequest, scope, code, pa
         </select>
       </label>}
       <div className="task-observation">
-        <div><h4>학생에게 물어볼 질문</h4><p>{path.diagnostic.question}</p></div>
-        <div><h4>학생의 답에서 확인할 점</h4><p>{path.diagnostic.expected}</p></div>
+        <div><h3>학생에게 물어볼 질문</h3><p>{path.diagnostic.question}</p></div>
+        <div><h3>답에서 살펴볼 점</h3><p>{path.diagnostic.expected}</p></div>
       </div>
       <p className="task-review">{task.review?.student_validated ? "학생 반응을 확인한 기록 있음" : "학생 반응은 아직 확인하지 않음"} · {task.review?.independent_review ? "독립 검토 기록 있음" : "아직 독립 검토를 거치지 않음"}</p>
       <details className="reading-disclosure" key={task.id + path.id}>
         <summary>과제의 목표와 필요한 조건</summary>
         <div className="reading-disclosure-body">
           <h4>학생이 할 수 있는지 확인할 것</h4><p>{task.goal}</p>
-          {task.shared_conditions?.length > 0 && <><h4>어떤 방법을 쓰든 필요한 조건</h4><ul>{task.shared_conditions.map((text, i) => <li key={i}>{text}</li>)}</ul></>}
           <h4>‘{path.title}’ 방법에서 함께 필요한 조건</h4>
           <ul>{path.conditions.map((text, i) => <li key={i}>{text}</li>)}</ul>
         </div>
@@ -345,6 +358,11 @@ export function Detail({ catalog, params, go, returnTo, onOpen }) {
   const from = new URLSearchParams(back.slice(1)).get("view");
   const catalogReturn = history.state?.catalogReturn;
   const analysis = request.data?.analysis;
+  const review = analysis?.revision?.review;
+  const independentReview = review?.independent ?? (
+    review?.independentReview == null ? "전체 원고의 검토 기록에서 확인" :
+      review.independentReview ? "검토 기록 있음" : "검토 전"
+  );
   const backLabel = from === "standard" ? "직전에 본 성취기준" : from === "compare" ? "비교 화면으로"
     : origin ? "찾아보던 목록으로" : exploreOrigin?.label || "영역 목록으로";
   const panelURL = (id) => route("standard", { ...Object.fromEntries(params), panel: id });
@@ -384,18 +402,30 @@ export function Detail({ catalog, params, go, returnTo, onOpen }) {
       <SourceInfo standard={s} />
     </section>
     <section id="meaning" aria-labelledby="meaning-title" className="reading-block journey-meaning">
-      <div className="reading-section-title"><h2 id="meaning-title" tabIndex={-1}>무엇을 배우나요?</h2><span>이 사이트의 해설{analysis && " · " + analysis.status}</span></div>
-      {analysis ? <p>{analysis.revision?.mathematicalMeaning || analysis.idea}</p> : <LoadState request={request} label="핵심 해설을 불러오고 있습니다…" />}
+      <div className="reading-section-title"><h2 id="meaning-title" tabIndex={-1}>핵심 의미</h2><span>자체 해설</span></div>
+      {analysis ? <>
+        <p>{analysis.lead || analysis.idea}</p>
+        {analysis.revision?.mathematicalMeaning && analysis.revision.mathematicalMeaning !== (analysis.lead || analysis.idea) &&
+          <details className="reading-disclosure">
+            <summary>수학적 의미와 성립 조건</summary>
+            <div className="reading-disclosure-body">{analysis.revision.mathematicalMeaning.split(/\n\s*\n/).map((text, index) => <p key={index}>{text}</p>)}</div>
+          </details>}
+      </> : <LoadState request={request} label="핵심 해설을 불러오고 있습니다…" />}
     </section>
     <TaskReading key={code} scope={scope} code={code} params={params} go={go} analysis={analysis} analysisRequest={request} data={taskData.data || (taskIndex.data && !taskHash ? {} : null)}
       request={taskIndex.data ? taskData : taskIndex} />
     <RelatedStandards key={code} catalog={catalog} standard={s} request={relations} onOpen={onOpen} analysisReady={!!analysis} />
     <section className="reading-block journey-evidence" id="evidence" aria-labelledby="evidence-title">
-      <h2 id="evidence-title" tabIndex={-1}>출처와 검토 내용</h2>
+      <h2 id="evidence-title" tabIndex={-1}>출처와 검토</h2>
       {analysis ? <>
         <p>{analysis.limit}</p>
         {analysis.sourceNotes?.map((note, i) => <p key={i} className="small">교육과정 적용 범위 · {note.scope_note}</p>)}
-        <p className="review-line">{s.sourceReview}{analysis.revision?.review?.independentReview != null && (analysis.revision.review.independentReview ? " · 독립 검토 기록 있음" : " · 아직 독립 검토를 거치지 않음")} · {analysis.validated ? "학생 반응을 확인한 기록 있음" : "학생 반응은 아직 확인하지 않음"}</p>
+        <dl className="reading-review">
+          <div><dt>공식 원문 대조</dt><dd>{s.sourceReview}</dd></div>
+          <div><dt>자체 분석</dt><dd>{review?.mathematical || review?.status || analysis.status}</dd></div>
+          <div><dt>독립 검토</dt><dd>{independentReview}</dd></div>
+          <div><dt>학생 반응 검증</dt><dd>{review?.student || (analysis.validated ? "검증 기록 있음" : "검증 전")}</dd></div>
+        </dl>
       </> : <LoadState request={request} label="검토 범위를 불러오고 있습니다…" />}
       <div className="action-links">
         <a className="text-link" href={oldRoute("standard", { code, scope, section: "references" })}>참고 문헌과 검토 내용</a>
@@ -405,9 +435,12 @@ export function Detail({ catalog, params, go, returnTo, onOpen }) {
     </section>
     <section className="reading-block journey-full" id="full-analysis" aria-labelledby="full-title">
       <h2 id="full-title" tabIndex={-1}>전체 상세 분석</h2>
-      {analysis && <ol className="reading-chapters">{analysis.sections.map((section) => <li key={section.id}>
-        <a href={oldRoute("standard", { code, scope, section: section.id })}>{section.title}<ChevronRight size={15} aria-hidden="true" /></a>
-      </li>)}</ol>}
+      {analysis && <div className="reading-chapter-groups">{analysisSections.map(([name, ids]) => <div key={name}>
+        <h3>{name}</h3>
+        <ul className="reading-chapters">{ids.map((id) => analysis.sections.find((section) => section.id === id)).filter(Boolean).map((section) => <li key={section.id}>
+          <a href={oldRoute("standard", { code, scope, section: section.id })}>{section.title}<ChevronRight size={15} aria-hidden="true" /></a>
+        </li>)}</ul>
+      </div>)}</div>}
       <a className="reading-next" href={oldRoute("standard", { code, scope, section: "curriculum" })}>전체 원고 열기 <ArrowRight size={16} aria-hidden="true" /></a>
     </section>
     <aside className="reading-tools" aria-label="성취기준 도구">
@@ -463,7 +496,7 @@ function RangeResults({ panel, onOpen, change, initialCount }) {
   }
   return <section className="comparison-side" aria-labelledby={side + "-results"}>
     <header className="comparison-result-heading">
-      <p className="comparison-side-label">{title}</p>
+      {!band && <p className="comparison-side-label">{title}</p>}
       <h2 id={side + "-results"}>{band || "학년군이나 과목을 골라 주세요"}</h2>
       {band && <p className="result-meta" role="status">{[domain || "모든 영역", shown.length + "개 성취기준"].join(" · ")}</p>}
     </header>

@@ -1,6 +1,7 @@
 """Guard evidence changes and verify that scoped mathematics reaches the actual corpus."""
 import copy,json,tempfile,unittest
 from pathlib import Path
+from build_portal_data import OUT
 from relation_analysis_review import ROOT,FILE,digest,source_value,load_reviews,apply_review
 from relation_literature_review import FILE as LITERATURE_FILE, apply_literature_context, claim_snapshot, relation_snapshot
 
@@ -117,14 +118,13 @@ class DeliveredReviews(unittest.TestCase):
   self.assertEqual(entry['prior'][0][1],e['corrected_prior'])
   for key,value in e['secondary_copy_followup']['current'].items():self.assertEqual(entry[key],value)
   self.assertEqual(entries['10공수2-03-04']['prior'][0][1],e['original_prior'])
-  site=ROOT.parent if ROOT.name=='research' else ROOT/'tmp/pathways-release'
   document=(ROOT/f'analyses/{code}.md').read_text(encoding='utf-8')
-  detail=read(site/f'dist/content/standards/{code}.json');payload='\n'.join(s['body'] for s in detail['analysis']['sections'])
+  detail=read(OUT/f'content/standards/{code}.json');payload='\n'.join(s['body'] for s in detail['analysis']['sections'])
   for content in [document,payload]:
    self.assertIn(e['corrected_meaning'],content)
    self.assertNotIn(e['original_meaning'],content)
    self.assertNotIn(e['original_prior'],content)
-  for path in [ROOT/'data/revised_relations.json',site/'dist/content/connections.json']:
+  for path in [ROOT/'data/revised_relations.json',OUT/'content/connections.json']:
    row=next(r for r in read(path)['relations'] if r['id']=='SEC_10기수2-03-04_C03')
    self.assertNotIn(e['original_prior'],row['rationale']);self.assertNotIn(e['original_prior'],row.get('expected_response',''))
 
@@ -134,14 +134,13 @@ class DeliveredReviews(unittest.TestCase):
   self.assertEqual(read(ROOT/'data/revisions_high.json')['12미적Ⅰ-03-02']['internalRelations'][1]['rationale'],new)
   entry=next(v for v in read(ROOT/'data/secondary_analysis_details.json')['analyses'] if v['code']=='12미적Ⅰ-03-02')
   self.assertEqual(entry['onward'][0][1],new)
-  site=ROOT.parent if ROOT.name=='research' else ROOT/'tmp/pathways-release'
-  for path in [ROOT/'data/revised_relations.json',site/'dist/content/connections.json']:
+  for path in [ROOT/'data/revised_relations.json',OUT/'content/connections.json']:
    for r in read(path)['relations']:
     if {r['from'],r['to']}=={'standard:12미적Ⅰ-03-02','standard:12미적Ⅱ-03-03'}:
      self.assertNotIn(old,r['rationale']);self.assertNotIn(old,r.get('expected_response',''))
   for code in ['12미적Ⅰ-03-02','12미적Ⅱ-03-03']:
    self.assertNotIn(old,(ROOT/f'analyses/{code}.md').read_text(encoding='utf-8'))
-   detail=read(site/f'dist/content/standards/{code}.json')
+   detail=read(OUT/f'content/standards/{code}.json')
    self.assertNotIn(old,'\n'.join(s['body'] for s in detail['analysis']['sections']))
 
  def test_parabola_center_error_cannot_survive_in_active_copies(self):
@@ -151,22 +150,20 @@ class DeliveredReviews(unittest.TestCase):
   self.assertEqual(read(ROOT/'data/revisions_high.json')['10공수2-01-06']['internalRelations'][0]['rationale'],new)
   entry=next(e for e in read(ROOT/'data/secondary_analysis_details.json')['analyses'] if e['code']=='10공수2-01-06')
   self.assertEqual(entry['onward'][0][1],new)
-  site=ROOT.parent if ROOT.name=='research' else ROOT/'tmp/pathways-release'
-  for path in [ROOT/'data/revised_relations.json',site/'dist/content/connections.json']:
+  for path in [ROOT/'data/revised_relations.json',OUT/'content/connections.json']:
    for r in read(path)['relations']:
     if {r['from'],r['to']}=={'standard:10공수2-01-06','standard:12기하01-01'}:
      self.assertNotIn(old,r['rationale']);self.assertNotIn(old,r.get('expected_response',''))
   for code in ['10공수2-01-06','12기하01-01']:
    self.assertNotIn(old,(ROOT/f'analyses/{code}.md').read_text(encoding='utf-8'))
-   detail=read(site/f'dist/content/standards/{code}.json')
+   detail=read(OUT/f'content/standards/{code}.json')
    self.assertNotIn(old,'\n'.join(s['body'] for s in detail['analysis']['sections']))
 
  def test_every_review_reaches_both_documents_current_portal_and_queue(self):
   records=load_reviews()['records'];self.assertTrue(records)
-  site=ROOT.parent if ROOT.name=='research' else ROOT/'tmp/pathways-release'
   read=lambda p:json.loads(p.read_text(encoding='utf-8'))
   derived={r['id']:r for r in read(ROOT/'data/revised_relations.json')['relations']}
-  catalog=read(site/'dist/content/catalog.json');bundle=read(site/'dist/content/connections.json')
+  catalog=read(OUT/'content/catalog.json');bundle=read(OUT/'content/connections.json')
   self.assertEqual(catalog['version'],bundle['version'])
   portal={r['id']:r for r in bundle['relations']};queued={r['relation_id'] for r in read(ROOT/'data/relation_analysis_scope_queue.json')['records']}
   for rid,review in records.items():
@@ -176,7 +173,7 @@ class DeliveredReviews(unittest.TestCase):
    for code in [review['from'][9:],review['to'][9:]]:
     # Table cells escape the bar in P(A|B); compare the visible notation.
     document=(ROOT/f'analyses/{code}.md').read_text(encoding='utf-8').replace('\\|','|')
-    detail=read(site/f'dist/content/standards/{code}.json');self.assertEqual(detail['version'],catalog['version'])
+    detail=read(OUT/f'content/standards/{code}.json');self.assertEqual(detail['version'],catalog['version'])
     payload='\n'.join(s['body'] for s in detail['analysis']['sections']).replace('\\|','|')
     for value in [review['rationale'],review['diagnostic'],review['expected_response'],review['limit'],*review['conditions']]:
      self.assertIn(value,document);self.assertIn(value,payload)

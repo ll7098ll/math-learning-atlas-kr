@@ -41,17 +41,29 @@
 .journey-official .source-links, .comparison-original .source-links { display: flex; align-items: center; flex-wrap: wrap; gap: .25rem .75rem; }
 .source-links a { display: inline-flex; align-items: center; min-height: 2.2rem; }
 .reading-block, .journey-connections { margin-block: clamp(1.6rem, 3.8vw, 2.7rem); }
+@media screen {
+  .journey-page :is(p, dd, .task-conditions li, .reading-disclosure-body li) {
+    word-break: keep-all;
+    overflow-wrap: anywhere;
+  }
+}
 .reading-section-title { gap: .65rem; }
 .reading-section-title > span, .task-review, .review-line, .journey-caption { color: var(--atlas-muted); font-size: .87rem; }
-.journey-meaning > p, .journey-evidence > p { max-width: 56rem; margin-top: .65rem; line-height: 1.8; }
+.journey-meaning > p, .journey-evidence > p, .reading-disclosure-body { max-width: 46rem; margin-top: .65rem; line-height: 1.8; }
 .journey-meaning > p { font-size: 1.05rem; }
 .journey-task { padding: clamp(1.05rem, 3vw, 1.8rem); background: var(--atlas-surface); border: 1px solid var(--atlas-line); border-top: 3px solid #d68c57; border-radius: .55rem; }
 .task-prompt { margin: 1rem 0; }
 .task-prompt h3 { font-size: 1.15rem; font-weight: 750; margin-bottom: .3rem; }
 .task-picker { display: flex; align-items: center; flex-wrap: wrap; gap: .3rem .65rem; font-weight: 650; font-size: .9rem; margin: .85rem 0; }
 .task-picker select { margin: 0; width: auto; max-width: 100%; min-width: 0; }
-.task-observation { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); padding: 1rem; gap: .9rem 1.5rem; background: #f7f8f4; border: 1px solid var(--atlas-line); border-radius: .4rem; }
-.task-observation h4, .reading-disclosure-body h4 { font-size: .86rem; font-weight: 750; color: var(--atlas-primary); margin-bottom: .3rem; }
+.task-observation { display: grid; padding: 1rem; gap: .85rem; background: var(--atlas-surface); border: 1px solid var(--atlas-line); border-radius: .4rem; }
+.task-observation h3, .task-observation h4, .reading-disclosure-body h4 { font-size: .92rem; font-weight: 750; color: var(--atlas-primary); margin-bottom: .3rem; }
+.task-conditions { margin-block: .7rem; }
+.task-conditions summary { cursor: pointer; color: var(--atlas-primary); }
+.task-conditions ul { list-style: disc; padding-inline-start: 1.35rem; }
+.reading-observables > div, .reading-review > div { padding-block: .45rem; border-bottom: 1px solid var(--atlas-line); }
+.reading-observables dt, .reading-review dt { font-weight: 700; }
+.reading-review { margin-block: 1rem; }
 .task-review { margin: .45rem 0 .7rem; }
 .task-observation .probe-followup { margin-top: .4rem; font-size: .93rem; }
 .probe-followup strong { color: var(--atlas-primary); font-weight: 650; }
@@ -91,6 +103,8 @@
 .related-filter select { width: auto; margin: 0; }
 .journey-evidence, .journey-full { border-top: 1px solid var(--atlas-line); padding-top: 1.35rem; }
 .reading-chapters { display: grid; grid-template-columns: repeat(2, minmax(0,1fr)); gap: 0 1.25rem; margin-block: .5rem; }
+.reading-chapter-groups { display: grid; gap: .9rem; margin-block-start: .85rem; }
+.reading-chapter-groups h3 { font-weight: 700; }
 .reading-chapters li { border-bottom: 1px solid var(--atlas-line); }
 .reading-chapters a { min-height: 2.6rem; color: var(--atlas-primary); font-size: .94rem; }
 .reading-chapters a:hover { text-decoration: underline; }

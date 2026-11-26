@@ -324,7 +324,7 @@ export function Browse({ catalog, params, go, onOpen }) {
               {bandOverview && bandOverview !== schoolOverview && !overview && <><ChevronRight size={14} aria-hidden="true" /><a id="trail-band"
                 href={bandOverview} onClick={onOpen}>{band}</a></>}
             </nav>}
-          <h1 ref={headingRef} tabIndex={-1}>{heading}</h1>
+          {(home || overview || heading !== title) && <h1 ref={headingRef} tabIndex={-1}>{heading}</h1>}
           {home && <><EntryPoints standards={standards} onOpen={onOpen} />
             <label className="journey-home-search-label" htmlFor="catalog-search-input">개념 또는 성취기준 코드 검색</label></>}
           {overview && <p className="journey-description">{band ? "수업할 영역을 고르면 해당 성취기준을 볼 수 있습니다." :
@@ -363,8 +363,11 @@ export function Browse({ catalog, params, go, onOpen }) {
       <section className="results" aria-labelledby="browse-result-title">
         <header className="journey-results-header">
           <div className="journey-result-title">
-            <h2 ref={resultsTitle} id="browse-result-title" tabIndex={-1}
-              aria-describedby={tab === "standards" ? "browse-result-count" : undefined}>{title}</h2>
+            {heading === title
+              ? <h1 ref={(element) => { headingRef.current = element; resultsTitle.current = element; }} id="browse-result-title" tabIndex={-1}
+                  aria-describedby={tab === "standards" ? "browse-result-count" : undefined}>{title}</h1>
+              : <h2 ref={resultsTitle} id="browse-result-title" tabIndex={-1}
+                  aria-describedby={tab === "standards" ? "browse-result-count" : undefined}>{title}</h2>}
             {tab === "standards" && <p id="browse-result-count" className="journey-count" role="status">{matches.length}개
               <span className="sr-only"> 성취기준{pageCount > 1 && ` · ${(page - 1) * pageSize + 1}–${(page - 1) * pageSize + shown.length}번째 표시`}</span>
             </p>}

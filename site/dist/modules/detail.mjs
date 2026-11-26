@@ -1,6 +1,7 @@
 import {pathForStandard} from './pathways.mjs';
 import {catalog,standard,detail,standardConnections,hierarchy,conceptPathwaysIndex,relationGroups,types,band,inScope} from './store.mjs';
 import {esc,url,heading,standardURL,standardRow,domainBadge,pill,list,markdown,empty,sourcesHTML} from './ui.mjs';
+import {analysisSections} from './analysis-sections.mjs';
 export async function standardPage(p){
  const code=p.get('code'),s=standard(code);if(!s)return empty('등록되지 않은 성취기준입니다.','주소의 성취기준 코드를 확인하거나 전체 조망에서 찾아보세요.');
  const [a,data,pilotData,conceptIndex]=await Promise.all([detail(code),standardConnections(code),hierarchy(),conceptPathwaysIndex()]);
@@ -27,6 +28,44 @@ export async function standardPage(p){
 
 function revisedStandardPage(s,a,p,data,conceptIndex){
  const scope=p.get('scope')||'all';
- const toc=a.sections.map(sec=>`<a href="${url('standard',{code:s.code,section:sec.id,scope})}" data-section="${sec.id}">${esc(sec.title)}</a>`).join('');
- return `${!inScope(s,scope)?`<aside class="notice">현재 학교급 보기 범위 밖의 상세 문서를 열었습니다. 대상은 ${esc(s.level)}이며 목록으로 돌아가면 선택 범위를 유지합니다.</aside>`:''}<header class="standard-header"><p>${esc(s.level)} · ${esc(s.subject)} · ${esc(s.code)}</p><h1 tabindex="-1">${esc(a.title)}</h1><div class="official-statement"><span class="label">공식 성취기준</span><p>${esc(s.statement)}</p><a href="curriculum.pdf#page=${s.pdfPages[0]}" target="_blank" rel="noopener">교육과정 PDF ${s.pdfPages.join(', ')}쪽 ↗</a></div>${a.sourceNotes?.length?`<aside class="notice">${a.sourceNotes.map(n=>`<p>${esc(n.scope_note)}</p>`).join('')}</aside>`:''}<p>개별 수학적 분석과 교수 설계 초안 · 독립 검토와 학생 반응 검증 전</p><div class="cp-actions"><a class="button primary" href="${url('hierarchy',{mode:'goals',target:s.code,scope})}">목표별 위계</a><a class="button" href="${url('hierarchy',{mode:'tasks',target:s.code,scope})}">과제와 전체 조건</a>${conceptIndex.groups.filter(g=>g.member_codes.includes(s.code)).map(g=>`<a class="button primary" href="${url('hierarchy',{concept:g.id,target:s.code,scope})}">${esc(g.title)} 내부 위계</a>`).join('')}<a class="button" href="${url('network',{node:s.code,scope})}">연결망에서 보기</a><a class="button" href="${url('hierarchy',{q:s.code,scope})}">내부 관계와 위계 찾기</a><a class="button" href="${url('connections',{code:s.code,scope})}">관계 근거</a><button class="button" data-print>인쇄</button></div></header><div class="reading-layout"><article class="reading-body">${a.sections.map((sec,i)=>`<section id="${sec.id}" class="reading-section"><p class="section-index">${String(i+1).padStart(2,'0')}</p><h2>${esc(sec.title)}</h2><div class="prose">${sec.id==='connections'&&scope!=='all'?`<details><summary>다른 학교급으로 이어지는 관계 펼치기</summary>${markdown(sec.body)}</details>`:markdown(sec.body)}${sec.id==='references'?sourcesHTML(data.sources.filter(x=>x.id===s.sourceId)):''}</div></section>`).join('')}<p><a class="button" href="${url('catalog',{scope,focus:s.code})}">성취기준 목록으로</a></p></article><aside class="reading-aside"><nav aria-label="상세 분석 목차">${toc}</nav></aside></div>`;
+ const sections = new Map(a.sections.map(section => [section.id, section]));
+ const toc = analysisSections.map(([name, ids]) => `<div class="analysis-toc-group">
+   <p>${name}</p>
+   ${ids.filter(id => sections.has(id)).map(id =>
+     `<a href="${url('standard',{code:s.code,section:id,scope})}" data-section="${id}">${esc(sections.get(id).title)}</a>`).join('')}
+ </div>`).join('');
+ const renderSection = section => {
+  const body = section.id === 'references' ? renderReferences(section.body) : markdown(section.body, {reading: true});
+  return `<section id="${esc(section.id)}" class="reading-section">
+   <h2>${esc(section.title)}</h2>
+   <div class="prose">${body}${section.id==='references'?sourcesHTML(data.sources.filter(x=>x.id===s.sourceId)):''}</div>
+  </section>`;
+ };
+ return `${!inScope(s,scope)?`<aside class="notice">현재 학교급 보기 범위 밖의 상세 문서를 열었습니다. 성취기준은 ${esc(s.level)}에 속합니다.</aside>`:''}
+ <header class="standard-header">
+   <p>${esc(s.level)} · ${esc(band(s))} · ${esc(s.code)}</p><h1 tabindex="-1">${esc(a.title)}</h1>
+   <div class="official-statement"><span class="label">공식 성취기준</span><p>${esc(s.statement)}</p><a href="curriculum.pdf#page=${s.pdfPages[0]}" target="_blank" rel="noopener">교육과정 PDF ${s.pdfPages.join(', ')}쪽 ↗</a></div>
+   ${a.sourceNotes?.length?`<aside class="notice">${a.sourceNotes.map(n=>`<p>${esc(n.scope_note)}</p>`).join('')}</aside>`:''}
+   <div class="cp-actions">
+     <a class="button primary" href="${url('hierarchy',{mode:'goals',target:s.code,scope})}">목표별 연결</a>
+     <a class="button" href="${url('hierarchy',{mode:'tasks',target:s.code,scope})}">과제와 풀이 조건</a>
+     ${conceptIndex.groups.filter(g=>g.member_codes.includes(s.code)).map(g=>`<a class="button" href="${url('hierarchy',{concept:g.id,target:s.code,scope})}">${esc(g.title)} 내부 위계</a>`).join('')}
+     <a class="button" href="${url('network',{node:s.code,scope})}">연결 지도</a>
+     <a class="button" href="${url('hierarchy',{q:s.code,scope})}">개념별 관계 찾기</a>
+     <a class="button" href="${url('connections',{code:s.code,scope})}">관계 근거</a>
+     <button class="button" data-print>인쇄</button>
+   </div>
+ </header>
+ <div class="reading-layout"><article class="reading-body">
+   ${a.sections.map(renderSection).join('')}
+   <p><a class="button" href="${url('catalog',{scope,focus:s.code})}">성취기준 목록으로</a></p>
+ </article><aside class="reading-aside"><nav aria-label="상세 분석 목차">${toc}</nav></aside></div>`;
+}
+
+function renderReferences(text) {
+ return text.split(/(?=^#{3,4} )/m).map(block => {
+  const claim = /^#### (근거 .+)\n\s*([\s\S]*)/.exec(block);
+  if (!claim) return markdown(block, {reading: true});
+  return `<details class="analysis-claim"><summary>${esc(claim[1])}</summary>${markdown(claim[2], {reading: true})}</details>`;
+ }).join('');
 }

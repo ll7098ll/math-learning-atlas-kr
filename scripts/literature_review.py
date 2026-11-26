@@ -1,5 +1,6 @@
 """Read scoped literature evidence without turning it into student validation."""
 import hashlib,json,re
+from functools import cache
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 
@@ -9,17 +10,21 @@ def digest(value):
 def read(root,path):return json.loads((root/path).read_text(encoding='utf-8'))
 
 def target_value(target,root=ROOT):
+ return _target_value(target, root, lambda path: read(root, path))
+
+def _target_value(target,root,read_target):
  kind,key=target.split(':',1)
- if kind=='relation':return next(v for v in read(root,'data/relations.json')['relations'] if v['id']==key)
- if kind=='family':return read(root,'data/analysis_details.json')['families'][key]
+ if kind=='relation':return next(v for v in read_target('data/relations.json')['relations'] if v['id']==key)
+ if kind=='family':return read_target('data/analysis_details.json')['families'][key]
  if kind=='initial':
-  return dict(file='initial_case_studies.json',body=read(root,'data/initial_case_studies.json')[key])
+  return dict(file='initial_case_studies.json',body=read_target('data/initial_case_studies.json')[key])
  if kind=='revision':
-  found=[(p.name,json.loads(p.read_text(encoding='utf-8'))[key]) for p in sorted((root/'data').glob('revisions_*.json')) if key in json.loads(p.read_text(encoding='utf-8'))]
+  revisions = [(p.name, read_target('data/'+p.name)) for p in sorted((root/'data').glob('revisions_*.json'))]
+  found = [(name, records[key]) for name, records in revisions if key in records]
   assert len(found)==1,'Revision target must have one authored source: '+key
   return dict(file=found[0][0],revision=found[0][1])
  if kind=='pilot':
-  for group in read(root,'data/hierarchy_pilot.json')['maps']:
+  for group in read_target('data/hierarchy_pilot.json')['maps']:
    for claim in group['claims']:
     if claim['id']==key:
      return dict(task=group['task'],claim=claim,nodes=[n for n in group['nodes'] if n['id'] in [claim['source'],claim['target']]],routes=[r for r in group['routes'] if r['id'] in claim['routes']])
@@ -28,6 +33,14 @@ def target_value(target,root=ROOT):
 def load_registry(root=ROOT):
  path=root/'data/literature_claim_reviews.json'
  if not path.exists():return dict(schema_version=1,sources={},claims=[])
+ @cache
+ def read_target(path):
+  return read(root, path)
+
+ @cache
+ def target_digest(target):
+  return digest(_target_value(target, root, read_target))
+
  data=read(root,'data/literature_claim_reviews.json');sources={s['id']:s for s in read(root,'data/sources.json')}
  assert len({c['id'] for c in data['claims']})==len(data['claims'])
  for sid,review in data['sources'].items():
@@ -195,7 +208,7 @@ def load_registry(root=ROOT):
     assert scope['student_outcome_study'] is False,'Textbook content analysis is not a student outcome study'
     assert scope['causal_effect_established'] is False,'Textbook content analysis does not establish a causal effect'
   for target,old in claim['target_snapshots'].items():
-   assert digest(target_value(target,root))==old,'Changed literature target needs re-review: '+target
+   assert target_digest(target)==old,'Changed literature target needs re-review: '+target
  return data
 
 def rating_note(claim):
@@ -212,11 +225,15 @@ def notes_for(code,registry):
   claims=[c for c in registry['claims'] if c['source_id']==sid and code in c['standard_codes']]
   if not claims:continue
   b=source['display']
-  out+=['### 문헌의 실제 지원 범위','',f"[{b['title']}]({b['url']})",'',source['scope_note'],'']
+  out+=[f"### [{b['title']}]({b['url']})",'',source['scope_note'],'']
   for claim in claims:
-   out += [f"- {claim['id']} · 위치: {'; '.join(claim['locations'])}. {claim['support']}{rating_note(claim)}{empirical_note(claim)} 범위: {claim['does_not_establish']}"]
-  out+=['','이 문헌 대응은 자체 검토다. 현재 과제의 독립 검토·학생 검증 상태를 바꾸지 않는다.','']
- return '\n'.join(out)
+   out += [f"#### 근거 {claim['id']}", '',
+           f"확인 위치 · {' · '.join(claim['locations'])}", '',
+           f"{claim['support']}{rating_note(claim)}{empirical_note(claim)}", '',
+           f"적용 범위 · {claim['does_not_establish']}", '']
+ if out:
+  out[:0] = ['### 문헌이 뒷받침하는 내용', '', '문헌과 분석 원고를 대조한 자체 검토 기록이다. 독립 검토와 학생 반응은 각 검토 기록에서 확인한다.', '']
+ return '\n'.join(out).rstrip()
 
 def build_report():
  data=load_registry();lines=['# 문헌의 읽기 범위와 주장별 근거','','교육과정 외 문헌의 실제 읽은 범위와 현재 원고에서 지원하는 주장을 연결한다. 연구의 과제·표본·분석과 자체 제작 과제의 타당성을 구별한다.','']

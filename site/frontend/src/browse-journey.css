@@ -114,7 +114,7 @@
   margin-bottom: .95rem;
 }
 .journey-result-title { display: flex; flex-wrap: wrap; gap: .5rem .7rem; align-items: baseline; min-width: 0; }
-.journey-result-title h2 { font-size: clamp(1.35rem, 2.3vw, 1.85rem); font-weight: 750; letter-spacing: -.045em; scroll-margin-top: 1.2rem; }
+.journey-result-title :is(h1, h2) { font-size: clamp(1.35rem, 2.3vw, 1.85rem); font-weight: 750; letter-spacing: -.045em; scroll-margin-top: 1.2rem; }
 .journey-count { color: var(--primary); font-size: 1rem; font-weight: 700; }
 .journey-related-tools { display: flex; align-items: center; color: var(--muted-foreground); font-size: .88rem; }
 .journey-related-tools a { display: inline-flex; align-items: center; min-height: 2.7rem; text-underline-offset: .23em; }

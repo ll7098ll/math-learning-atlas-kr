@@ -6679,7 +6679,7 @@
         "6수01-10": "6a54963f7889b1b817b5c5b7db6906b9a3d120eda4a9e5bf4c3da9a35388d089"
       },
       "case_snapshots": {
-        "early-6수01-10-share": "ae2c2a9c7ed99157da431301cc8a0e9932d6a3a51b7f1bf59158da2327a9dc5d"
+        "early-6수01-10-share": "b0bedfd8f1d4d2b62c54a258aad5c664e7652eb0eb77dcf7e3156a59e512596a"
       },
       "resource_snapshots": {},
       "content_locations": [
@@ -6688,7 +6688,56 @@
         "data/curriculum_mapping_reviews.json"
       ],
       "independent_review": false,
-      "student_validated": false
+      "student_validated": false,
+      "history": [
+        {
+          "date": "2026-11-26",
+          "reason": "실제 문제에 나온 세 수를 과제 제목에 표시했다. 기존 공식 문구와 문제·적용 조건의 대응은 그대로 확인된다.",
+          "previous_record": {
+            "code": "6수01-10",
+            "state": "self_checked_source_image",
+            "reviewer": "Codex",
+            "date": "2026-11-04",
+            "scope": "실제 저장 이미지를 시각적으로 읽고 원문 문장·해설·적용 시 고려 사항을 목표·과제 및 보완 발문과 대조. 독립 검토·학생 검증과 별도.",
+            "official_goal": "‘(자연수)÷(자연수)’에서 나눗셈의 몫을 분수로 나타낼 수 있다 .",
+            "findings": "PDF31–33의 자연수 나눗셈 몫의 분수 표현 확인. 빵3·5·4개를두 사람에게 나눈 양과 나누는 수 양수 조건을 유지하며 원래 상세 사례도 보존.",
+            "evidence": [
+              {
+                "pdf_page": 31,
+                "printed_page": 25,
+                "file": "data/source_review_images/primary-031.png",
+                "sha256": "60f7c5395efac21aa8ce3668190ca42116b83a2f566eebf6efd6d8844da909bd"
+              },
+              {
+                "pdf_page": 32,
+                "printed_page": 26,
+                "file": "data/source_review_images/primary-032.png",
+                "sha256": "2c9dd7446c8068f5b86bc67296053a44ffdba1933e7e37fa567416817e5a73db"
+              },
+              {
+                "pdf_page": 33,
+                "printed_page": 27,
+                "file": "data/source_review_images/primary-033.png",
+                "sha256": "816fd3bb9b13a32e4082734c7cd4d477a2cd7b95d9cdffff22c39c2e40e1cd3a"
+              }
+            ],
+            "entry_snapshots": {
+              "6수01-10": "6a54963f7889b1b817b5c5b7db6906b9a3d120eda4a9e5bf4c3da9a35388d089"
+            },
+            "case_snapshots": {
+              "early-6수01-10-share": "ae2c2a9c7ed99157da431301cc8a0e9932d6a3a51b7f1bf59158da2327a9dc5d"
+            },
+            "resource_snapshots": {},
+            "content_locations": [
+              "data/goal_hierarchy_upper_primary_number_ratio.json",
+              "analyses/6수01-10.md",
+              "data/curriculum_mapping_reviews.json"
+            ],
+            "independent_review": false,
+            "student_validated": false
+          }
+        }
+      ]
     },
     {
       "code": "6수01-11",

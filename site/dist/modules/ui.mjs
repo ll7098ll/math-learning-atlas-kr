@@ -25,16 +25,46 @@ export function relationLiteratureHTML(relation){
   return `<li><strong>${esc(note.role)}</strong> · ${citation}<p>${esc(note.finding)} ${esc(note.limit)}</p></li>`;
  }).join('')}</ul>`;
 }
-export function markdown(text){
+function readingTable(rows, inline, headingDepth) {
+ const [headers, ...records] = rows;
+ const [first, second] = headers;
+ const isDiagnostic = /^(질문|진단 질문|질문과 조건|과제)$/.test(first) && /^(기대|확인)/.test(second);
+ const isThinking = /^(사고 요소|세부 사고)$/.test(first);
+ const isRelation = first === '상대 기준' && second === '관계 종류';
+ if (!(isDiagnostic || isThinking || isRelation) || !records.length) return null;
+ const tag = 'h' + Math.min(6, headingDepth + 1);
+ return `<div class="analysis-records">${records.map(([title, ...values]) => `<article class="analysis-record">
+ <${tag}>${inline(title)}</${tag}><dl>${values.map((value, index) => value
+  ? `<div><dt>${inline(headers[index + 1] || '')}</dt><dd>${inline(value)}</dd></div>` : '').join('')}</dl>
+ </article>`).join('')}</div>`;
+}
+
+export function markdown(text, { reading = false } = {}){
  function inline(t){t=t.replace(/\\\|/g,'|');
   const links=[];t=t.replace(/\[([^\]]+)\]\(([^)]+)\)/g,(_,label,raw)=>{let target=/^https?:\/\//.test(raw)?sourceHref(raw):null;const code=raw.match(/(?:^|\/)([^/]+)\.md$/)?.[1];if(!target&&standard(code))target=standardURL(code);links.push(target?`<a href="${esc(target)}" ${target.startsWith('http')?'target="_blank" rel="noopener noreferrer"':''}>${esc(label)}</a>`:esc(label));return `@@LINK${links.length-1}@@`;});
   return esc(t).replace(/\*\*([^*]+)\*\*/g,'<strong>$1</strong>').replace(/`([^`]+)`/g,'<code>$1</code>').replace(/@@LINK(\d+)@@/g,(_,i)=>links[+i]);
  }
  const lines=String(text||'').split('\n'),out=[];
+ let headingDepth = 2;
  for(let i=0;i<lines.length;i++){
   const line=lines[i].trim();if(!line)continue;
-  if(/^#{1,6}\s/.test(line)){out.push(`<h3>${inline(line.replace(/^#+\s*/,''))}</h3>`);}
-  else if(line.startsWith('|')){const rows=[];while(i<lines.length&&lines[i].trim().startsWith('|')){const cells=lines[i].trim().replace(/^\||\|$/g,'').split(/(?<!\\)\|/).map(v=>v.trim());if(!cells.every(c=>/^[-: ]+$/.test(c)))rows.push(cells);i++;}i--;out.push(`<div class="table-wrap"><table>${rows.map((r,j)=>`<tr>${r.map(c=>`<${j?'td':'th'}>${inline(c)}</${j?'td':'th'}>`).join('')}</tr>`).join('')}</table></div>`);}
+  const heading = /^(#{1,6})\s+(.+)$/.exec(line);
+  if(heading){
+   headingDepth = reading ? Math.max(3, heading[1].length) : 3;
+   const tag = 'h' + headingDepth;
+   out.push(`<${tag}>${inline(heading[2])}</${tag}>`);
+  }
+  else if(line.startsWith('|')){
+   const rows=[];
+   while(i<lines.length&&lines[i].trim().startsWith('|')){
+    const cells=lines[i].trim().replace(/^\||\|$/g,'').split(/(?<!\\)\|/).map(v=>v.trim());
+    if(!cells.every(c=>/^[-: ]+$/.test(c)))rows.push(cells);
+    i++;
+   }
+   i--;
+   const records = reading && rows.length ? readingTable(rows, inline, headingDepth) : null;
+   out.push(records || `<div class="table-wrap"><table>${rows.map((r,j)=>`<tr>${r.map(c=>j ? `<td>${inline(c)}</td>` : `<th scope="col">${inline(c)}</th>`).join('')}</tr>`).join('')}</table></div>`);
+  }
   else if(/^[-*]\s/.test(line)){const items=[];while(i<lines.length&&/^[-*]\s/.test(lines[i].trim())){items.push(`<li>${inline(lines[i].trim().replace(/^[-*]\s/,''))}</li>`);i++;}i--;out.push('<ul>'+items.join('')+'</ul>');}
   else out.push('<p>'+inline(line)+'</p>');
  }

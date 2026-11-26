@@ -47,6 +47,8 @@ for(const s of catalog.standards){
  const a=await store.detail(s.code);assert.equal(a.schemaVersion,2,s.code+' must be individually migrated');
  assert.equal(a.sections.length,12,s.code);assert.equal(new Set(a.sections.map(x=>x.id)).size,12);
  assert(a.sections.every(x=>x.body.trim()),s.code);
+ assert.deepEqual(a.probes, a.probeObjects.map(probe =>
+  ["question","expected","interpretation","followup"].map(field => probe[field] ?? "")), s.code + " diagnostic rows");
  const html=await standardPage(new URLSearchParams({code:s.code}));assert(!html.includes('undefined'));
  assert.equal((html.match(/class="reading-section"/g)||[]).length,12);
  assert(html.includes(s.statement.replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;').replaceAll("'",'&#39;')));

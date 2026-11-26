@@ -1,6 +1,7 @@
 """Reject stale citations and unsupported promotion of literature evidence."""
 import copy,hashlib,json,tempfile,unittest
 from pathlib import Path
+from build_portal_data import OUT
 from literature_review import ROOT,digest,load_registry,empirical_note,target_value
 
 class ScopedLiteratureEvidence(unittest.TestCase):
@@ -43,10 +44,10 @@ class ScopedLiteratureEvidence(unittest.TestCase):
    (root/'data/revisions_duplicate.json').write_text(json.dumps(revision),encoding='utf-8')
    with self.assertRaisesRegex(AssertionError,'one authored source'):target_value(target,root)
  def test_portal_payload_contains_every_claim_and_observation(self):
-  data=load_registry();site=ROOT.parent if ROOT.name=='research' else ROOT/'tmp/pathways-release'
-  catalog=json.loads((site/'dist/content/catalog.json').read_text(encoding='utf-8'))
+  data=load_registry()
+  catalog=json.loads((OUT/'content/catalog.json').read_text(encoding='utf-8'))
   def text_for(code):
-   record=json.loads((site/f'dist/content/standards/{code}.json').read_text(encoding='utf-8'))
+   record=json.loads((OUT/f'content/standards/{code}.json').read_text(encoding='utf-8'))
    self.assertEqual(record['version'],catalog['version'])
    self.assertFalse(record['analysis']['validated'])
    return '\n'.join(section['body'] for section in record['analysis']['sections'])
@@ -150,12 +151,11 @@ class ScopedLiteratureEvidence(unittest.TestCase):
  def test_actual_empirical_comparison_scope_reaches_docs_and_portal(self):
   registry=load_registry();claims=[c for c in registry['claims'] if c['role']=='empirical_result_with_scope']
   self.assertTrue({'KB02','KB03','KB04','KB05','PL01','PL02','PL03'}<={c['id'] for c in claims})
-  site=ROOT.parent if ROOT.name=='research' else ROOT/'tmp/pathways-release'
   for claim in claims:
    note=empirical_note(claim);self.assertTrue(note)
    for code in claim['standard_codes']:
     self.assertIn(note,(ROOT/f'analyses/{code}.md').read_text(encoding='utf-8'))
-    record=json.loads((site/f'dist/content/standards/{code}.json').read_text(encoding='utf-8'))
+    record=json.loads((OUT/f'content/standards/{code}.json').read_text(encoding='utf-8'))
     self.assertIn(note,'\n'.join(s['body'] for s in record['analysis']['sections']))
  def test_textbook_analysis_cannot_be_a_student_outcome_or_causal_study(self):
   for field in ['student_outcome_study','causal_effect_established']:

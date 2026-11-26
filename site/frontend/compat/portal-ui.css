@@ -292,6 +292,32 @@ body.atlas-compat {
   #atlas-section-links > button[aria-current="location"] { box-shadow: inset 3px 0 var(--atlas-primary); }
   .atlas-section-toggle[aria-expanded="false"] + #atlas-section-links { display: none; }
 }
+.analysis-toc-group { margin-block: .4rem .8rem; }
+.analysis-toc-group p { margin: 0 0 .15rem; color: var(--atlas-muted); font-size: .85rem; font-weight: 750; }
+.analysis-toc-group a { display: block; padding: .3rem .45rem; }
+.analysis-records { display: grid; gap: .9rem; }
+.analysis-record, .analysis-claim { padding: .8rem 1rem; border: 1px solid var(--atlas-line); border-radius: .45rem; }
+.analysis-record { overflow-wrap: anywhere; }
+.reading-body .prose .analysis-record :is(h3, h4, h5, h6) { margin: 0 0 .4rem; }
+.analysis-record dl { margin: 0; }
+.analysis-record dl > div + div { margin-top: .55rem; }
+.analysis-record dt { font-size: .88rem; font-weight: 750; }
+.analysis-record dd { margin: 0; }
+.analysis-claim { margin-block: .55rem; overflow-wrap: anywhere; }
+.analysis-claim summary { color: var(--atlas-primary); font-weight: 700; cursor: pointer; }
+@media screen {
+  .reading-body .prose :is(p, li, dd) {
+    word-break: keep-all;
+    overflow-wrap: anywhere;
+  }
+}
+.reading-body .prose :is(h3, h4, h5) { line-height: 1.4; }
+.reading-body .prose h4 { margin-block: 1rem .4rem; font-size: 1.03rem; }
+.reading-body .prose h5 { margin-block: .8rem .35rem; font-size: .98rem; }
+@media print {
+  .analysis-record { break-inside: avoid; }
+  .analysis-claim summary { break-after: avoid; }
+}
 .atlas-compat :is(.reading-section, .flow-evidence, .cp-evidence, .tp-case) { scroll-margin-top: 1rem; }
 .atlas-explainer .pathway-intro { margin: 0; padding: 0 1rem 1rem; border: 0; background: transparent; }
 .atlas-resources { margin-block: 1.2rem 1.35rem; }

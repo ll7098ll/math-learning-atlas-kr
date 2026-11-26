@@ -426,7 +426,7 @@
     const view = params.get("view");
     const code = ["network", "connections", "hierarchy"].includes(view) ? codeFor(params) : "";
     const oldLink = main.querySelector(".atlas-standard-return");
-    if (!/^[0-9]+[가-힣]+(?:[0-9]+-)?[0-9]{2}-[0-9]{2}$/u.test(code || "")) {
+    if (!/^[0-9]+[가-힣]+(?:(?:[0-9]+|[ⅠⅡ])-)?[0-9]{2}-[0-9]{2}$/u.test(code || "")) {
       oldLink?.remove();
       return;
     }
@@ -731,7 +731,7 @@
       ["선택한 목표", focus.querySelector("h2")],
       ["하위 목표 고르기", main.querySelector(".gn-siblings")],
       ["살펴본 목표", main.querySelector(".gn-trace h2")],
-      ["필요한 것", before.querySelector("h2")],
+      ["필요한 것", before?.querySelector("h2")],
       ["쓰이는 곳", lanes.querySelector(".gn-after h2"), { beside: before }],
     ]);
   }
@@ -1302,7 +1302,12 @@
   let printGraph;
   let printGoalSummary;
   let printConceptBands = [];
+  let printReadingSections = [];
   window.addEventListener("beforeprint", () => {
+    if (!printReadingSections.length) {
+      printReadingSections = [...main.querySelectorAll(".reading-body details:not([open])")];
+      printReadingSections.forEach((item) => { item.open = true; });
+    }
     if (!printConceptBands.length) {
       printConceptBands = [...main.querySelectorAll(".atlas-concept-band:not([open])")];
       printConceptBands.forEach((item) => { item.open = true; });
@@ -1326,6 +1331,8 @@
     }
   });
   window.addEventListener("afterprint", () => {
+    printReadingSections.forEach((item) => { item.open = false; });
+    printReadingSections = [];
     printConceptBands.forEach((item) => { item.open = false; });
     printConceptBands = [];
     if (printGoalSummary) {
