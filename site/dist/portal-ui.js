@@ -445,8 +445,12 @@
       guided.className = "guide-mode-link";
       const back = new URLSearchParams({view: "network", scope: route().get("scope") || "all"});
       if (route().has("node")) back.set("node", route().get("node"));
+      const resume = new URLSearchParams(route().get("resume") || "");
+      for (const key of ["scope", "band", "concept", "node", "walk", "trail", "page"]) {
+        if (resume.has(key)) back.set(key, resume.get(key));
+      }
       guided.href = "#" + back;
-      guided.textContent = "학년·개념으로 연결 따라가기";
+      guided.textContent = resume.has("walk") || resume.has("trail") ? "내가 따라온 길로 돌아가기" : "학년·개념으로 연결 따라가기";
       form.before(guided);
       const intro = network.querySelector(".network-intro h1 + p");
       if (intro) intro.textContent = "점 하나가 성취기준 하나입니다. 점을 선택해 이어진 기준을 보고, ‘연결 근거’에서 두 기준이 이어지는 이유를 읽어 보세요.";

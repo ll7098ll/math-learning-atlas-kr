@@ -1,5 +1,6 @@
 import {catalog, band, conceptPathwaysIndex, standard, standardConnections, inScope, types} from './store.mjs';
 import {esc, url} from './ui.mjs';
+import {drawWalk,extendWalk,readWalk,traversed} from './walk-map.mjs';
 
 const pageSize = 3;
 let nextFocus;
@@ -54,7 +55,13 @@ const layouts = [
   [[50,18],[24,74],[76,74]],
 ];
 
-function localDiagram(current, neighbors, trail, values, paging) {
+function reasonPanel(i,title,records) {
+  return `<section class="local-reason" id="local-reason-${i}" hidden><small>연결 이유 · 이 사이트의 해설</small>
+    <h3 tabindex="-1">${esc(title)}</h3>${evidence(records[0])}
+    ${records.length>1?`<details><summary>다른 연결 이유 ${records.length-1}개</summary>${records.slice(1).map(evidence).join('')}</details>`:''}
+    <button type="button" class="local-back">지도로 돌아가기</button></section>`;
+}
+function localDiagram(current, neighbors, walk, values) {
   const positions = layouts[neighbors.length];
   const edges = [], nodes = [], reasons = [];
   for (const [i, {target, records}] of neighbors.entries()) {
@@ -65,51 +72,42 @@ function localDiagram(current, neighbors, trail, values, paging) {
       <line class="edge-hit" ${ends}/><line class="edge-ink" ${ends}/>
       <circle class="edge-hit-disc" cx="${midX}" cy="${midY}" r="22"/><circle class="edge-mark" cx="${midX}" cy="${midY}" r="11"/>
       <text x="${midX}" y="${midY}" dy=".35em" text-anchor="middle" aria-hidden="true">?</text></g>`);
-    const seen = trail.indexOf(target.code);
-    const next = seen < 0 ? [...trail,current.code] : trail.slice(0,seen);
-    nodes.push(`<a class="guide-next" href="${link({...values,node:target.code,trail:next.join(',')})}" style="--x:${x}%;--y:${y}%" data-slot="${i}" title="${esc(target.title)} · ${esc(target.code)}" aria-label="${esc(target.title)}, ${esc(band(target))}. 이 기준을 중심으로 보기">
+    nodes.push(`<a class="guide-next" href="${link({...values,node:target.code,walk:extendWalk(walk,current.code,target.code)})}" style="--x:${x}%;--y:${y}%" data-slot="${i}" title="${esc(target.title)} · ${esc(target.code)}" aria-label="${esc(target.title)}, ${esc(band(target))}. 여기서 연결 펼치기">
       <i class="local-dot" aria-hidden="true"></i><span><small>${esc(band(target))}</small><strong>${esc(target.title)}</strong></span></a>`);
-    reasons.push(`<section class="local-reason" id="local-reason-${i}" hidden><small>연결 이유 · 이 사이트의 해설</small>
-      <h3 tabindex="-1">${esc(target.title)}</h3>${evidence(records[0])}
-      ${records.length>1?`<details><summary>다른 연결 이유 ${records.length-1}개</summary>${records.slice(1).map(evidence).join('')}</details>`:''}
-      <button type="button" class="local-back">지도로 돌아가기</button></section>`);
+    reasons.push(reasonPanel(i,target.title,records));
   }
-  return `<div class="local-layout"><div><div class="local-board" role="group" aria-label="${esc(current.title)} 주변 연결 지도">
+  return {panels:reasons.join(''),board:`<div class="local-board" role="group" aria-label="${esc(current.title)} 주변 연결 지도">
     <svg class="local-lines" width="100%" height="100%" aria-label="연결 이유를 여는 선">${edges.join('')}</svg>
     <button type="button" class="local-center" aria-controls="local-standard" aria-label="${esc(current.title)} 기준 설명">
       <i class="local-dot" aria-hidden="true"></i><span><small>중심 기준</small><strong>${esc(current.title)}</strong></span></button>
-    ${nodes.join('')}</div>${paging}</div>
-    <aside class="local-inspector" aria-label="선택한 기준과 연결 설명">
-    <section id="local-standard"><small>중심 기준 · ${esc(where(current))}</small><h3 tabindex="-1">${esc(current.title)}</h3>
-    <p>${esc(current.statement)}</p><small>${esc(current.code)} · 교육과정 원문</small>
-    <a href="./${esc(url('standard',{scope:'all',code:current.code}))}">기준 상세 읽기 →</a></section>
-    ${reasons.join('')}</aside></div>`;
+    ${nodes.join('')}</div>`};
 }
 
 async function neighborhood(current, params, values, members, example) {
-  const groups = groupNeighbors(await standardConnections(current.code), current);
-  const trail = [...new Set((params.get('trail') || '').split(',').filter(c=>c!==current.code && standard(c)))];
-  const visited = [...trail, current.code];
+  const [records,walk] = await Promise.all([standardConnections(current.code),readWalk(params,current.code)]);
+  const groups=groupNeighbors(records,current).filter(g=>!traversed(walk,current.code,g.target.code));
+  const following=walk.edges.length>0;
   // Prefer unexplored neighbors matching the chosen starting concept or band.
-  const score = s => (trail.includes(s.code) ? 0 : 8) + (members?.has(s.code) ? 4 : 0)
+  const score = s => (walk.codes.includes(s.code) ? 0 : 8) + (members?.has(s.code) ? 4 : 0)
     + (band(s) === values.band ? 2 : 0) + Number(s.domain === current.domain);
   groups.sort((a,b)=>score(b.target)-score(a.target) || a.target.code.localeCompare(b.target.code,'ko',{numeric:true}));
-  const base = {...values, node:current.code, trail:trail.join(',')};
+  const base = {...values, node:current.code, walk:following?walk.encoded:undefined};
   const lastPage = Math.max(0, Math.ceil(groups.length / pageSize)-1);
   const requested = Number(params.get('page') || Math.ceil(listLimit(params,groups.length)/pageSize)-1);
   const page = Number.isSafeInteger(requested) ? Math.min(lastPage, Math.max(0,requested)) : 0;
   const start = page*pageSize;
   const neighbors = groups.slice(start,start+pageSize);
-  const crumbs = visited.map((code,i)=>i===visited.length-1 ? `<span aria-current="step">${esc(current.title)}</span>`
-    : `<a href="${link({...values,node:code,trail:trail.slice(0,i).join(',')})}">${esc(standard(code).title)}</a>`).join('<i aria-hidden="true">›</i>');
+  const diagram=following?drawWalk(walk,current,neighbors,values,reasonPanel):localDiagram(current,neighbors,walk,values);
   const paging = groups.length ? `<nav class="local-paging" aria-label="주변 기준 바꾸기">
       ${page>0?`<a href="${link({...base,page:page-1})}">← 이전 연결</a>`:''}
       <span>주변 기준 ${start+1}–${start+neighbors.length} / ${groups.length}개</span>
-      ${page<lastPage?`<a href="${link({...base,page:page+1})}">다른 연결 보기 →</a>`:''}</nav>` : '<p>이 기준과 직접 이어진 성취기준이 아직 기록되지 않았습니다.</p>';
-  return `${trail.length ? `<nav class="guide-trail" aria-label="살펴본 기준">${crumbs}</nav>` : ''}
-    <h2 class="local-title" tabindex="-1">${example?'분수로 지도 둘러보기':esc(current.title)+' 주변 지도'}</h2>
-    <p class="local-instructions">선을 누르면 연결 이유가 열립니다. 주변 점을 누르면 그 기준이 가운데로 옵니다.</p>
-    ${localDiagram(current,neighbors,trail,values,paging)}`;
+      ${page<lastPage?`<a href="${link({...base,page:page+1})}">다른 연결 보기 →</a>`:''}</nav>` : '<p>이 점에서 더 펼칠 연결이 없습니다.</p>';
+  return `<h2 class="local-title" tabindex="-1">${following?'내가 따라온 길':example?'분수로 지도 둘러보기':esc(current.title)+' 주변 지도'}</h2>
+    <p class="local-instructions">${following?'실선은 따라온 길, 점선은 지금 보는 기준에서 더 갈 수 있는 길입니다.':'점을 누르면 따라온 길을 남기며 다음 연결이 펼쳐집니다.'} 선을 눌러 연결 이유를 읽어 보세요.</p>
+    <div class="local-layout"><div>${diagram.board}${paging}</div><aside class="local-inspector" aria-label="선택한 기준과 연결 설명">
+    <section id="local-standard"><small>지금 보는 기준 · ${esc(where(current))}</small><h3 tabindex="-1">${esc(current.title)}</h3>
+    <p>${esc(current.statement)}</p><small>${esc(current.code)} · 교육과정 원문</small>
+    <a href="./${esc(url('standard',{scope:'all',code:current.code}))}">기준 상세 읽기 →</a></section>${diagram.panels}</aside></div>`;
 }
 export async function guidedMap(params) {
   const scope = params.get('scope') || 'all';
@@ -129,7 +127,7 @@ export async function guidedMap(params) {
     ? await neighborhood(current || standard('6수01-10'),params,values,members,example)
     : startingList(results,params,values);
   return `<section class="guided-map"><header class="page-heading"><h1 tabindex="-1">연결 지도</h1><p>학년이나 개념을 고르고, 기준이 서로 이어지는 이유를 한 단계씩 살펴보세요.</p>
-    <a class="guide-mode-link" href="${link({mapMode:'full',scope:'all'})}">435개 기준 전체 지도 보기 ↗</a></header>
+    <a class="guide-mode-link" href="${link({mapMode:'full',scope:'all',resume:params.has('walk')||params.has('trail')?params.toString():undefined})}">435개 기준 전체 지도 보기 ↗</a></header>
     ${current?'<details class="local-picker-fold"><summary>학년이나 개념 다시 고르기</summary>':''}
     <div class="guide-pickers"><label>학년군·과목<select name="guide-band">${options([['','모든 학년군·과목'],...grades.map(g=>[g,g])],grade)}</select></label>
     <label>수학 개념<select name="guide-concept">${options([['','모든 개념'],...concepts.map(g=>[g.id,g.title])],concept?.id || '')}</select></label>
@@ -140,6 +138,16 @@ export function mountGuidedMap(root) {
   const guide = root.querySelector('.guided-map');
   const form = root.querySelector('.guide-pickers');
   const abort = new AbortController();
+  const board=guide.querySelector('.walk-board');
+  function locate(selector,focus=false){
+    const dot=board?.querySelector(selector);
+    if(!dot)return;
+    const rect=dot.getBoundingClientRect(), frame=board.getBoundingClientRect();
+    board.scrollLeft+=rect.left+rect.width/2-frame.left-frame.width/2;
+    board.scrollTop+=rect.top-frame.top-frame.height*.42;
+    if(focus)dot.focus({preventScroll:true});
+  }
+  if(board)requestAnimationFrame(()=>{if(board.isConnected)locate('.walk-active');});
   if (nextFocus?.hash === location.hash) {
     const target = guide.querySelector(nextFocus.selector);
     requestAnimationFrame(()=>requestAnimationFrame(()=>{
@@ -172,7 +180,12 @@ export function mountGuidedMap(root) {
   guide.addEventListener('click',event=>{
     if (event.button || event.ctrlKey || event.metaKey || event.shiftKey || event.altKey) return;
     const edge = event.target.closest('.local-edge');
-    if (edge || event.target.closest('.local-center')) {
+    const jump=event.target.closest('[data-locate]');
+    if(jump){
+      locate(jump.dataset.locate==='origin'?'[data-origin]':'.walk-active',true);
+      return;
+    }
+    if (edge || event.target.closest('.local-center,.walk-active')) {
       openPanel(edge);
       return;
     }
@@ -184,7 +197,7 @@ export function mountGuidedMap(root) {
     }
     const anchor = event.target.closest('a');
     if (!anchor) return;
-    if (anchor.matches('.guide-next, .guide-trail a, .guide-starts a, .local-paging a')) {
+    if (anchor.matches('.guide-next, .walk-dot, .guide-starts a, .local-paging a')) {
       nextFocus = {hash:anchor.hash, selector:'.local-title'};
     } else if (anchor.matches('.guide-more')) {
       const starts = guide.querySelector('.guide-starts');

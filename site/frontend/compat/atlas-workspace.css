@@ -295,3 +295,24 @@
 .guided-map > .page-heading p { margin: .5rem 0; }
 .guided-map > .atlas-return { display: inline-flex; margin-inline-end: 1rem; }
 .guided-map :is(h2,h3,select,.guide-starts a) { scroll-margin-block: 6rem 1rem; }
+.local-layout > div { min-width: 0; }
+.walk-board { position: relative; max-height: min(67vh,38rem); overflow: auto; overscroll-behavior: contain; border: 1px solid #b9cec1; border-radius: .85rem; background: radial-gradient(#cddace 1px, transparent 1px) 0 0 / 17px 17px #f2f7f0; }
+.walk-canvas { position: relative; isolation: isolate; width: clamp(calc(var(--lanes)*82px),100%,calc(var(--lanes)*145px)); margin-inline: auto; }
+.walk-canvas .local-lines { overflow: hidden; }
+.walk-board path { fill: none; vector-effect: non-scaling-stroke; }
+.walk-board .local-edge:focus { outline: none; }
+.walk-board .local-edge:focus-visible .edge-mark { stroke-width: 3px; }
+.walk-used .edge-ink { stroke: #2a655e; stroke-width: 3.5px; }
+.walk-option .edge-ink { stroke: #896333; stroke-dasharray: 5 4; }
+.walk-board .walk-dot { position: absolute; display: flex; flex-direction: column; align-items: center; width: min(calc(100% / var(--lanes) - 4px), 9rem); transform: translate(-50%,-10px); padding: 0; border: 0; background: transparent; text-align: center; color: #17433f; cursor: pointer; font: inherit; text-decoration: none; }
+.walk-dot i { box-sizing: border-box; width: 20px; height: 20px; border: 3px solid white; border-radius: 50%; background: #386f64; box-shadow: 0 0 0 2px #2d685c; }
+.walk-dot.walk-active i { background: #a85120; box-shadow: 0 0 0 3px #a85120,0 0 0 6px #a8512029; }
+.walk-dot.walk-new i { background: white; box-shadow: 0 0 0 2px #846237; }
+.walk-dot[data-origin] i { border-radius: .35rem; }
+.walk-dot span { margin-top: .2rem; padding-inline: .1rem; border-radius: .25rem; background: #f2f7f0; }
+.walk-dot small { display: block; font-size: .72rem; line-height: 1.25; }
+.walk-dot.walk-active small { color: #86401d; font-weight: 700; }
+.walk-dot strong { display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; overflow: hidden; font-size: .86rem; line-height: 1.25; overflow-wrap: anywhere; }
+.walk-dot:is(:hover,:focus-visible) strong { text-decoration: underline; }
+.walk-tools { display: flex; flex-wrap: wrap; gap: .3rem .9rem; }
+.walk-tools button { min-height: 44px; border: none; padding: 0; background: transparent; color: #1d5952; font: inherit; font-weight: 650; text-decoration: underline; cursor: pointer; }

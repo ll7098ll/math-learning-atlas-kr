@@ -44,6 +44,7 @@ export function mountNetwork(p,root,onRouteChange=()=>{}){
 
  function save(){
   const params={mapMode:'full',scope:globalThis.atlasSchoolScope||'all',node:state.selected,q:state.query,domain:state.domain,strand:state.strand,relation:state.relation==='all'?'':state.relation};
+  if(p.has('resume'))params.resume=p.get('resume');
   const hash=url('network',params);history.replaceState(history.state,'',hash);onRouteChange(hash);cameras.set(hash,{...camera});
   try{sessionStorage.setItem('atlas-return',hash);sessionStorage.setItem('atlas-network-camera',JSON.stringify({hash,camera}));}catch{}
  }
