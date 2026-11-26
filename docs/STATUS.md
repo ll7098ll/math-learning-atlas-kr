@@ -1,6 +1,6 @@
 # 현재 상태와 버전
 
-**2026년 11월 26일(KST)** 기준이다. 두 공개 사이트의 연결 지도에서 학년이나 개념을 고른 뒤 지나온 점과 선을 남겨 둔 채 새 연결을 펼치고, 어느 선에서든 연결 이유를 읽을 수 있다. 435개 기준 전체 지도도 열 수 있다. 교육과정과 연구 데이터 판본은 `908d62e6b7884436`이다. [검증 기록](VERIFICATION.md#2026년-11월-26일-따라온-길을-남기는-연결-지도)
+**2026년 11월 26일(KST)** 기준이다. 두 공개 사이트의 연결 지도에서 학년이나 개념을 고른 뒤 지나온 점과 선을 남겨 둔 채 새 연결을 펼치고, 어느 선에서든 연결 이유를 읽을 수 있다. 435개 기준 전체 지도도 열 수 있다. 교육과정과 연구 데이터 판본은 `908d62e6b7884436`이다. [검증 기록](VERIFICATION.md#2026년-11월-26일-연결선-범례와-기준-표시)
 
 ## 로컬 작업본과 공개 사이트
 
@@ -9,13 +9,13 @@
 | 로컬 내용 버전 | `908d62e6b7884436` | [검사 결과](../data/revision_checks.json) |
 | 로컬 과제 데이터셋 | `ea21341a92455351` | [목표 연결 감사](../data/goal_network_audit.json) |
 | 로컬 개념군 데이터셋 | `3020157b0b115a7a` | [전체 위계 감사](../data/hierarchy_completion_audit.json) |
-| 가장 최근의 성공 게시 기록 | Sites 버전 **125**, 내용 `908d62e6b7884436` | [게시 원장](../data/school_revision_deployment.json) |
-| v125 게시 시각 | 2026-11-26 13:00:39 KST | [게시 원장](../data/school_revision_deployment.json) |
-| v125 소스 커밋 | `fafdbaba6b25120395231db2c455c269b47a9f67` | [게시 원장](../data/school_revision_deployment.json) |
+| 가장 최근의 성공 게시 | Sites 버전 **128**, 내용 `908d62e6b7884436` | [공개 검증 기록](VERIFICATION.md#2026년-11월-26일-연결선-범례와-기준-표시) |
+| v128 게시 시각 | 2026-11-26 13:30:29 KST | [공개 검증 기록](VERIFICATION.md#2026년-11월-26일-연결선-범례와-기준-표시) |
+| v128 소스 커밋 | `1235f497f628043df294025d7639c43347f0b91c` | [공개 검증 기록](VERIFICATION.md#2026년-11월-26일-연결선-범례와-기준-표시) |
 | 이 커밋의 GitHub 스냅샷 | `908d62e6b7884436` · `main`에서 검사 후 Pages 자동 배포 | [스냅샷 목록](../site/snapshot.json) · [Actions](https://github.com/ll7098ll/math-learning-atlas-kr/actions/workflows/checks.yml) |
-| GitHub Pages 공개본 | 내용 `908d62e6b7884436` · 커밋 `2f6bc4a` | [포털 열기](https://ll7098ll.github.io/math-learning-atlas-kr/) · [공개 카탈로그](https://ll7098ll.github.io/math-learning-atlas-kr/content/catalog.json) · [Actions](https://github.com/ll7098ll/math-learning-atlas-kr/actions/runs/45752285995) |
+| GitHub Pages 화면 검증 기준 | 내용 `908d62e6b7884436` · 커밋 `e128af8` | [포털 열기](https://ll7098ll.github.io/math-learning-atlas-kr/) · [공개 카탈로그](https://ll7098ll.github.io/math-learning-atlas-kr/content/catalog.json) · [Actions](https://github.com/ll7098ll/math-learning-atlas-kr/actions/runs/45755500449) |
 
-로컬 GitHub용 스냅샷에는 학교급 범위·지도 중심·비교 복귀·구 주소 이동과 자료 안내 경량화를 반영했다. 기준별 관계 파일 435개는 공통 출처 목록을 사용한다. [출처 공유 검증](VERIFICATION.md#2026년-11월-26일-기준별-관계-파일의-출처-공유) 이 변경 검증은 로컬 기준이며, 공개 상태는 위 표의 게시 기록을 따른다. [포털 탐색 경로 재검사](VERIFICATION.md#2026년-11월-26일-포털-탐색-경로-정비)
+두 공개본에서 학교급 범위와 비교 복귀, 구 주소 이동, 공통 출처 목록을 확인했다. 기준별 지도에서는 선택한 기준까지의 경로와 다른 갈래를 함께 볼 수 있다. Sites v128과 GitHub Pages `e128af8`에서 공개 화면을 검증했다. [탐색 정비 배포](VERIFICATION.md#2026년-11월-26일-두-공개본의-탐색-정비-배포-검증) · [지도 범례와 기준 표시](VERIFICATION.md#2026년-11월-26일-연결선-범례와-기준-표시)
 
 Sites v118과 GitHub Pages에서 개념이나 코드로 성취기준을 찾은 뒤 핵심 의미, 공식 원문, 다른 기준과 이어지는 이유를 한 화면에서 읽을 수 있다. 공개 화면에서 연결된 기준으로 이동하고 원래 목록으로 돌아가는 경로를 확인했다. [공개 탐색 검증](VERIFICATION.md#github-pages와-sites의-성취기준-탐색-공개-검증)
 

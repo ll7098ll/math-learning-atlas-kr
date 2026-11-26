@@ -1,6 +1,6 @@
 # 구조와 데이터 흐름
 
-2026년 11월 20일 기준. 화면의 실제 동작은 사용자 가이드에서 확인하고, 아래 도식에서 화면과 원본의 관계를 찾는다. [사용자 가이드](USER_GUIDE.md) · [개발 안내](DEVELOPMENT.md)
+2026년 11월 26일 기준. 화면의 실제 동작은 사용자 가이드에서 확인하고, 아래 도식에서 화면과 원본의 관계를 찾는다. [사용자 가이드](USER_GUIDE.md) · [개발 안내](DEVELOPMENT.md)
 
 ## 구성
 
@@ -74,16 +74,23 @@ flowchart TD
 | `goal-network.mjs` | 선택 목표의 출발 조건, 후속 활용, 탐색 경로 |
 | `task-pathways.mjs` | 과제별 설명·진단과 경로의 전체 조건 |
 | `concept-pathways.mjs`, `hierarchy-path-view.mjs` | 개념군 관계와 단계별 탐색 |
-| `network-model.mjs`, `network.mjs` | 전체 연결망 모델과 화면 |
+| `network.mjs`, `network-model.mjs` | 연결 지도 진입점, 전체 연결망과 범위·필터 처리 |
+| `guided-map.mjs`, `walk-map.mjs` | 기준별 직접 연결, 방문한 갈래와 탐색 경로, 이유 패널 |
 | `store.mjs` | 색인 초기화, 필요할 때 데이터 로딩, 중복 요청 공유, 버전 검사 |
 
 목표 연결 자료는 최초 화면에서 전부 내려받지 않는다. 과제 색인의 `goalGraph.hash`가 가리키는 파일을 목표 탐색에 필요할 때 읽는다. 화면의 탐색 이력은 사용자가 살펴본 관계를 나타내며 학습 완료나 AND 조건 충족 판정 자료가 아니다.
+
+### 연결 지도와 공유 주소
+
+`legacy.html#view=network`는 기준별로 탐색하는 지도를 연다. `node`는 선택한 성취기준 코드, `scope`는 학교급 범위, `page`는 직접 연결의 표시 묶음을 지정한다. `walk`에는 출발 코드와 실제로 선택한 연결을 순서대로 넣는다. 각 연결은 앞서 방문한 출발 기준의 순번과 도착 기준 코드로 표현한다. 지도를 다시 열 때 두 기준의 관계 기록과 학교급 범위를 대조한다. 예전 `trail` 주소도 복원에 사용한다.
+
+`mapMode=full`은 선택 범위의 전체 연결망을 연다. 기준별 지도에서 전환할 때 넘긴 `resume` 값은 같은 중심 기준으로 돌아올 때 경로와 조회 조건을 복원한다. 기준별 지도는 필요한 관계 파일을 읽고, 출처가 필요한 상세 근거 화면은 공통 출처 목록을 불러온다. [지도 사용법](USER_GUIDE.md#4-연결-지도와-수업-과제)
 
 ## 버전과 보관
 
 포털의 `catalog.version`은 생성 데이터에서 계산한 SHA-256의 앞 16자리다. 배포 날짜, Git 커밋 SHA, Sites 저장 버전 번호와 다른 식별자이며 서로 대신 사용할 수 없다. 과제·개념군 색인은 각각 별도의 `datasetVersion`도 가진다.
 
-`scripts/content_objects.py`는 항목을 일정한 JSON 형식으로 직렬화하고 전체 SHA-256을 파일명으로 사용한다. 위치는 `content/task-pathways/items/<hash>.json` 또는 `content/concept-pathways/items/<hash>.json`이다. 동일 내용은 기존 파일을 재사용하고, 동일 해시 위치의 바이트가 다르면 덮어쓰지 않고 실패한다. 성취기준 관계 자료는 `content/versions/<catalog.version>/`으로 묶인다.
+`scripts/content_objects.py`는 항목을 일정한 JSON 형식으로 직렬화하고 전체 SHA-256을 파일명으로 사용한다. 위치는 `content/task-pathways/items/<hash>.json` 또는 `content/concept-pathways/items/<hash>.json`이다. 동일 내용은 기존 파일을 재사용하고, 동일 해시 위치의 바이트가 다르면 덮어쓰지 않고 실패한다. 성취기준 관계 파일의 위치는 카탈로그의 `resourceRoot`를 따른다. 현행 스냅샷은 `content/versions/f5257e012f5f2364/`의 관계 파일과 `content/sources.json`의 공통 출처를 사용한다. `resourceRoot`의 식별자는 파일 배치를 나타내고, `catalog.version`은 교육과정과 연구 자료의 판본을 나타낸다.
 
 따라서 `catalog.json` 하나만 복사해서는 실행 가능한 배포물이 되지 않는다. 카탈로그, 과제·개념군 색인, 해당 색인이 참조하는 자료, 앱 파일을 함께 다룬다. GitHub의 `site/`는 현재 버전만 담는다. 기존 Sites 작업 환경의 [보관 기록](../data/portal_asset_retention.json)은 작업 중 버전과 최근 저장 버전 2개를 보존 대상으로 기록한다. `plan_portal_retention.py`의 기본 인수는 5개이므로 저장된 정책과 실행 인수를 구별한다. 이 스크립트는 참조와 해시를 점검해 이동 계획을 만들며 직접 파일을 이동하거나 삭제하지 않는다.
 

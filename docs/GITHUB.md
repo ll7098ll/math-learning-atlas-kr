@@ -89,6 +89,10 @@ flowchart TD
 
 워크플로의 `actions/checkout@v7`, `actions/setup-python@v7`, `actions/setup-node@v7`는 작성일에 확인한 [checkout 공식 안내](https://github.com/actions/checkout), [setup-python 공식 안내](https://github.com/actions/setup-python), [setup-node 공식 안내](https://github.com/actions/setup-node)의 사용 예를 따랐다. Python·Node.js 버전은 최신 버전 표기가 아니라 이 프로젝트의 검증 환경이다.
 
+## 공개 버전 기록
+
+GitHub Pages는 Actions 실행에서 `deploy-pages`가 성공한 커밋으로 확인한다. Sites는 게시 원장에 저장 버전, 소스 커밋, 게시 시각과 공개 화면 확인 범위를 기록한다. 두 서비스의 배포 이력과 카탈로그의 교육과정·연구 자료 판본은 각각의 식별자를 사용한다. 문서만 고친 커밋도 현재 워크플로에 따라 Pages로 배포된다. [공개 상태](STATUS.md) · [Sites 게시 원장](../data/school_revision_deployment.json)
+
 ## 파일 크기와 라이선스
 
 GitHub는 일반 Git 파일이 50 MiB를 넘으면 경고하고 100 MiB를 넘으면 업로드를 막는다. 이 프로젝트는 원본 작업 폴더 전체를 올리지 않고 현재 자료와 선별된 스냅샷만 포함한다. [GitHub 파일 크기 안내](https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-large-files-on-github)
