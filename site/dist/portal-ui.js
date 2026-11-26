@@ -458,9 +458,9 @@
     if (!marker?.getClientRects().length) return Infinity;
     const rect = marker.getBoundingClientRect();
     if (beside) {
-      const map = beside.getBoundingClientRect();
-      // The viewer can see the map and its side panel at the same scroll position.
-      if ((map.right <= rect.left || rect.right <= map.left) && rect.top < map.bottom) return map.bottom;
+      const neighbor = beside.getBoundingClientRect();
+      // Side-by-side sections can share the same vertical reading range.
+      if ((neighbor.right <= rect.left || rect.right <= neighbor.left) && rect.top < neighbor.bottom) return neighbor.bottom;
     }
     return rect.top;
   }
@@ -726,6 +726,14 @@
     const focus = lanes?.querySelector(".gn-focus");
     if (!focus) return;
     main.querySelector(".gn-intro").before(focus);
+    const before = lanes.querySelector(".gn-before");
+    prepareSectionJumps(main, "목표 목차", [
+      ["선택한 목표", focus.querySelector("h2")],
+      ["하위 목표 고르기", main.querySelector(".gn-siblings")],
+      ["살펴본 목표", main.querySelector(".gn-trace h2")],
+      ["필요한 것", before.querySelector("h2")],
+      ["쓰이는 곳", lanes.querySelector(".gn-after h2"), { beside: before }],
+    ]);
   }
 
   function preparePathwayActions() {
