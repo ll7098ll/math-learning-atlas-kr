@@ -21,13 +21,13 @@ export function relationLiteratureHTML(relation){
  if(!entries.length)return '';
  return `<h3>관계별 문헌 대조</h3><ul>${entries.map(note=>{
   const label=esc(`${note.claim_id} · ${note.title}`);
-  const citation=/^https?:\/\//.test(note.url)?`<a href="${esc(note.url)}" target="_blank" rel="noopener noreferrer">${label}</a>`:label;
+  const citation=/^https?:\/\//.test(note.url)?`<a href="${esc(sourceHref(note.url))}" target="_blank" rel="noopener noreferrer">${label}</a>`:label;
   return `<li><strong>${esc(note.role)}</strong> · ${citation}<p>${esc(note.finding)} ${esc(note.limit)}</p></li>`;
  }).join('')}</ul>`;
 }
 export function markdown(text){
  function inline(t){t=t.replace(/\\\|/g,'|');
-  const links=[];t=t.replace(/\[([^\]]+)\]\(([^)]+)\)/g,(_,label,raw)=>{let target=/^https?:\/\//.test(raw)?raw:null;const code=raw.match(/(?:^|\/)([^/]+)\.md$/)?.[1];if(!target&&standard(code))target=standardURL(code);links.push(target?`<a href="${esc(target)}" ${target.startsWith('http')?'target="_blank" rel="noopener noreferrer"':''}>${esc(label)}</a>`:esc(label));return `@@LINK${links.length-1}@@`;});
+  const links=[];t=t.replace(/\[([^\]]+)\]\(([^)]+)\)/g,(_,label,raw)=>{let target=/^https?:\/\//.test(raw)?sourceHref(raw):null;const code=raw.match(/(?:^|\/)([^/]+)\.md$/)?.[1];if(!target&&standard(code))target=standardURL(code);links.push(target?`<a href="${esc(target)}" ${target.startsWith('http')?'target="_blank" rel="noopener noreferrer"':''}>${esc(label)}</a>`:esc(label));return `@@LINK${links.length-1}@@`;});
   return esc(t).replace(/\*\*([^*]+)\*\*/g,'<strong>$1</strong>').replace(/`([^`]+)`/g,'<code>$1</code>').replace(/@@LINK(\d+)@@/g,(_,i)=>links[+i]);
  }
  const lines=String(text||'').split('\n'),out=[];
@@ -40,4 +40,9 @@ export function markdown(text){
  }
  return out.join('');
 }
-export function sourcesHTML(sources){return sources.map(s=>`<article class="source-block"><h3>${/^https?:\/\//.test(s.url||'')?`<a href="${esc(s.url)}" target="_blank" rel="noopener noreferrer">${esc(s.title)} ↗</a>`:esc(s.title)}</h3><p>${esc(s.review_scope||s.kind)}</p>${s.does_not_establish?`<p class="muted">${esc(s.does_not_establish)}</p>`:''}</article>`).join('');}
+function sourceHref(url) {
+ // This DOI is the printed identifier. Its resolver returns 404; the publisher still serves the article.
+ return url === 'https://doi.org/10.17501/26307413.2023.6101'
+  ? 'https://proceedings.tiikmpublishing.com/index.php/foe/article/view/1340' : url;
+}
+export function sourcesHTML(sources){return sources.map(s=>`<article class="source-block"><h3>${/^https?:\/\//.test(s.url||'')?`<a href="${esc(sourceHref(s.url))}" target="_blank" rel="noopener noreferrer">${esc(s.title)} ↗</a>`:esc(s.title)}</h3><p>${esc(s.review_scope||s.kind)}</p>${s.does_not_establish?`<p class="muted">${esc(s.does_not_establish)}</p>`:''}</article>`).join('');}

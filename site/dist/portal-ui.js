@@ -960,7 +960,9 @@
     button.type = "button";
     button.textContent = "항목으로 이동";
     function show(focus) {
-      const index = headings.findIndex((heading) => heading.id === location.hash.slice(1));
+      const anchor = location.hash.slice(1);
+      const index = headings.findIndex((heading, i) => heading.id === anchor
+        || (workbook && anchor && sections[i].id === anchor));
       const active = index < 0 ? 0 : index;
       control.selectedIndex = active;
       if (workbook) {
