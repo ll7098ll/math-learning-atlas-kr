@@ -1,9 +1,10 @@
-import React, { useEffect, useLayoutEffect, useRef, useState, useSyncExternalStore } from "react";
+import React, { useLayoutEffect, useState, useSyncExternalStore } from "react";
 import { ArrowLeft, ArrowLeftRight, ArrowRight, BookOpen, ChevronDown, ChevronRight, GitCompareArrows, Network, Printer } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { bandOf, oldRoute, overviewRoute, route, scopeId, selection, standardRoute, unique } from "./curriculum";
 import { LoadState, Pdf, StandardRow, useContent } from "./shared";
 import { analysisSections } from "../compat/modules/analysis-sections.mjs";
+import { SectionContents, sectionHeading } from "./section-contents";
 import "./reading-journey.css";
 
 function SourceInfo({ standard }) {
@@ -146,65 +147,11 @@ const readingPanels = [
 ];
 
 function jumpToPanel(id) {
-  const heading = document.getElementById(id)?.querySelector("h2");
+  const heading = sectionHeading(id);
   if (heading) {
     heading.focus({ preventScroll: true });
     heading.scrollIntoView({ block: "start" });
   }
-}
-
-function ReadingContents({ panelURL, openPanel }) {
-  const nav = useRef(null);
-  const toggle = useRef(null);
-  const [expanded, setExpanded] = useState(false);
-  const [active, setActive] = useState(readingPanels[0][0]);
-
-  useEffect(() => {
-    const outline = nav.current;
-    const article = outline.closest("article");
-    const headings = readingPanels.map(([id]) => article.querySelector("#" + id + " h2"));
-    let frame = 0;
-    function update() {
-      frame = 0;
-      const line = outline.getBoundingClientRect().bottom + 24;
-      const index = headings.findLastIndex((heading) => heading && heading.getBoundingClientRect().top <= line);
-      setActive(readingPanels[Math.max(index, 0)][0]);
-    }
-    function schedule() {
-      if (!frame) frame = requestAnimationFrame(update);
-    }
-    const observer = new ResizeObserver(schedule);
-    observer.observe(article);
-    observer.observe(outline);
-    window.addEventListener("scroll", schedule, { passive: true });
-    window.addEventListener("resize", schedule);
-    update();
-    return () => {
-      observer.disconnect();
-      window.removeEventListener("scroll", schedule);
-      window.removeEventListener("resize", schedule);
-      cancelAnimationFrame(frame);
-    };
-  }, []);
-
-  return <nav ref={nav} className="reading-jumps" aria-label="이 기준의 목차" onKeyDown={(event) => {
-    if (event.key !== "Escape" || !expanded) return;
-    setExpanded(false);
-    toggle.current.focus();
-  }}>
-    <button ref={toggle} className="reading-jumps-toggle" type="button"
-      aria-controls="reading-jumps-links" aria-expanded={expanded} onClick={() => setExpanded(!expanded)}>
-      <strong>목차</strong><span>{readingPanels.find(([id]) => id === active)[1]}</span><ChevronDown size={17} aria-hidden="true" />
-    </button>
-    <ul id="reading-jumps-links" className="reading-jumps-links" data-expanded={expanded}>
-      {readingPanels.map(([id, label]) => <li key={id}>
-        <a href={panelURL(id)} aria-current={active === id ? "location" : undefined} onClick={(event) => {
-          openPanel(event, id);
-          if (event.defaultPrevented) setExpanded(false);
-        }}>{label}</a>
-      </li>)}
-    </ul>
-  </nav>;
 }
 
 function manuscriptProbe(analysis) {
@@ -394,7 +341,7 @@ export function Detail({ catalog, params, go, returnTo, onOpen }) {
       </a>
       <p className="sr-only" id="journey-title-source">이 사이트에서 붙인 제목</p>
     </header>
-    <ReadingContents key={code} panelURL={panelURL} openPanel={openPanel} />
+    <SectionContents key={code} items={readingPanels} label="이 기준의 목차" hrefFor={panelURL} onJump={openPanel} />
     <section className="journey-official" id="official" aria-labelledby="official-title">
       <h2 id="official-title" tabIndex={-1}><BookOpen size={19} aria-hidden="true" />공식 성취기준</h2>
       <blockquote>{s.statement}</blockquote>

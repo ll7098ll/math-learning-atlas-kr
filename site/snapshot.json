@@ -8338,6 +8338,12 @@
       "optional_in_git": false
     },
     {
+      "path": "dist/explorer-assets/index-BrwMrKk2.css",
+      "bytes": 77568,
+      "sha256": "4d45001944d85459a83164f4b1e33a347bff720c497a1c98afba7a1f174ab6e4",
+      "optional_in_git": false
+    },
+    {
       "path": "dist/explorer-assets/index-Dnl5FlLn.js",
       "bytes": 324118,
       "sha256": "65bb6fb05610a78f871cb96ad11d168e9f8403b5e5ab3dc75dde790640d7f104",
@@ -8347,6 +8353,12 @@
       "path": "dist/explorer-assets/index-YJe8qL1O.css",
       "bytes": 76716,
       "sha256": "56607ba1c3153f6dbb8dd6011353e3b49eece520a383bf46cd4ee237b2b95637",
+      "optional_in_git": false
+    },
+    {
+      "path": "dist/explorer-assets/index-tmDAKtWn.js",
+      "bytes": 325675,
+      "sha256": "ccad0d4698c4a8b1c03e0f9091dccb282de69336231a99b03b0083e2d920ad79",
       "optional_in_git": false
     },
     {
@@ -8370,7 +8382,7 @@
     {
       "path": "dist/index.html",
       "bytes": 963,
-      "sha256": "dfe4c299b13197bc95aebe35502ef74948148cf77067c9614adbb5fdffad2305",
+      "sha256": "d769c6fc21c39939d7e4f1e85cb386f0a250744245c9978c1e65f9a3423d2a70",
       "optional_in_git": false
     },
     {
