@@ -219,6 +219,65 @@ body.atlas-compat {
   }
   .atlas-compat .reading-section[id] { scroll-margin-top: 5rem; }
 }
+@media screen {
+  .atlas-section-jumps {
+    position: sticky;
+    top: 0;
+    z-index: 8;
+    margin-block: .75rem 1rem;
+    border: 1px solid var(--atlas-line);
+    border-radius: .55rem;
+    background: var(--atlas-surface);
+    box-shadow: 0 3px 10px #17373712;
+  }
+  #atlas-section-links { display: flex; gap: .25rem; }
+  .atlas-section-jumps button {
+    display: flex;
+    align-items: center;
+    min-height: 2.75rem;
+    padding: .42rem .8rem;
+    border: 0;
+    border-radius: .45rem;
+    background: transparent;
+    color: var(--atlas-primary);
+    font: 650 .925rem/1.45 var(--atlas-font);
+    text-align: left;
+    cursor: pointer;
+  }
+  .atlas-section-jumps button:hover { background: var(--atlas-hover); }
+  .atlas-section-jumps .atlas-section-toggle { display: none; }
+  .atlas-section-target,
+  main:has(.atlas-section-jumps) :is(.local-title, .local-reason, .tp-case h2, .tp-route > summary) {
+    scroll-margin-top: 4.25rem;
+  }
+}
+@media screen and (max-width: 800px) {
+  .atlas-section-jumps .atlas-section-toggle { display: flex; justify-content: space-between; width: 100%; }
+  .atlas-section-toggle::after {
+    content: "";
+    width: .45rem;
+    height: .45rem;
+    margin-inline-start: .75rem;
+    border-right: 2px solid currentColor;
+    border-bottom: 2px solid currentColor;
+    transform: rotate(45deg);
+  }
+  .atlas-section-toggle[aria-expanded="true"]::after { transform: rotate(225deg); }
+  #atlas-section-links {
+    position: absolute;
+    inset: 100% -1px auto;
+    display: block;
+    max-height: 60dvh;
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    border: 1px solid var(--atlas-line);
+    border-radius: 0 0 .55rem .55rem;
+    background: var(--atlas-surface);
+    box-shadow: 0 8px 16px #1737371a;
+  }
+  #atlas-section-links > button { width: 100%; }
+  .atlas-section-toggle[aria-expanded="false"] + #atlas-section-links { display: none; }
+}
 .atlas-compat :is(.reading-section, .flow-evidence, .cp-evidence, .tp-case) { scroll-margin-top: 1rem; }
 .atlas-explainer .pathway-intro { margin: 0; padding: 0 1rem 1rem; border: 0; background: transparent; }
 .atlas-resources { margin-block: 1.2rem 1.35rem; }

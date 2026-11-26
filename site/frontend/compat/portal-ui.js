@@ -450,6 +450,91 @@
     element.scrollIntoView({ block: "start" });
   }
 
+  function prepareSectionJumps(container, label, entries) {
+    const heading = container.querySelector("h1");
+    if (!heading || container.querySelector(":scope > .atlas-section-jumps")) return;
+    const targets = entries.filter(([, section]) => section);
+    if (targets.length < 2) return;
+    const bar = document.createElement("nav");
+    bar.className = "atlas-section-jumps screen-only";
+    bar.setAttribute("aria-label", label);
+    const toggle = document.createElement("button");
+    toggle.type = "button";
+    toggle.className = "atlas-section-toggle";
+    toggle.textContent = label;
+    toggle.setAttribute("aria-controls", "atlas-section-links");
+    toggle.setAttribute("aria-expanded", "false");
+    const links = document.createElement("div");
+    links.id = "atlas-section-links";
+
+    function expand(open) {
+      toggle.setAttribute("aria-expanded", String(open));
+    }
+
+    toggle.addEventListener("click", () => expand(toggle.getAttribute("aria-expanded") === "false"));
+    bar.addEventListener("keydown", (event) => {
+      if (event.key !== "Escape" || toggle.getAttribute("aria-expanded") !== "true") return;
+      expand(false);
+      toggle.focus();
+    });
+    for (const [title, target, reveal] of targets) {
+      target.classList.add("atlas-section-target");
+      const jump = document.createElement("button");
+      jump.type = "button";
+      jump.textContent = title;
+      jump.addEventListener("click", () => {
+        expand(false);
+        for (let parent = target.parentElement; parent && parent !== container; parent = parent.parentElement) {
+          if (parent instanceof HTMLDetailsElement && parent.firstElementChild !== target) parent.open = true;
+        }
+        if (reveal) reveal.open = true;
+        focusSection(target);
+      });
+      links.append(jump);
+    }
+    bar.append(toggle, links);
+    heading.closest(".atlas-page-header").after(bar);
+  }
+
+  function prepareMapJumps() {
+    const guide = main.querySelector(".guided-map");
+    if (guide) {
+      const picker = guide.querySelector(".guide-pickers");
+      const map = guide.querySelector(".map-sheet");
+      const reasons = guide.querySelector(".reason-picker");
+      prepareSectionJumps(guide, "지도 메뉴", [
+        ["학년·개념", picker],
+        map ? ["지도", map] : ["시작할 기준", guide.querySelector(".guide-results h2")],
+        ["연결 이유", reasons?.querySelector("summary"), reasons],
+        ["선택한 기준", guide.querySelector("#local-standard h3")],
+      ]);
+    }
+    const network = main.querySelector(".atlas-network");
+    if (network) {
+      prepareSectionJumps(network, "연결망 메뉴", [
+        ["찾기·필터", network.querySelector(".atlas-controls")],
+        ["연결망", network.querySelector(".atlas-stage")],
+        ["선택한 기준", network.querySelector(".atlas-inspector")],
+      ]);
+    }
+  }
+
+  function prepareTaskJumps(params) {
+    const official = main.querySelector(".tp-official");
+    if (!official) return;
+    const cases = [...main.querySelectorAll(".tp-case")];
+    const task = cases.find((item) => item.dataset.taskCase === params.get("taskCase"))
+      || cases.find((item) => !item.closest(".tp-previous-case")) || cases[0];
+    prepareSectionJumps(main, "과제 목차", [
+      ["공식 성취기준", official],
+      ["과제 찾기", main.querySelector(".atlas-task-picker h2")],
+      ["하위 목표", main.querySelector(".tp-goals h2")],
+      ["대표 과제", task?.querySelector("h2")],
+      ["풀이 방법", task?.querySelector(".tp-choice")],
+      ["기존 과제 해설", main.querySelector(":scope > .tp-source:not(.tp-previous-case) > summary")],
+    ]);
+  }
+
   function prepareNetwork() {
     const network = main.querySelector(".atlas-network");
     if (!network) return;
@@ -1056,7 +1141,10 @@
     if (!tool) {
       prepareReading(params);
       prepareStandardReturn(params);
-      if (view === "network") prepareNetwork();
+      if (view === "network") {
+        prepareNetwork();
+        prepareMapJumps();
+      }
       if (view === "hierarchy") {
         prepareConceptIndex(params);
         prepareConceptPage(params);
@@ -1067,6 +1155,7 @@
       }
       if (view === "hierarchy" && params.get("mode") === "tasks") {
         prepareTasks(params);
+        prepareTaskJumps(params);
         if (main.querySelector(".tp-official")) preparePathwayActions();
       }
     }
