@@ -40,9 +40,31 @@ export function markdown(text){
  }
  return out.join('');
 }
+// Keep citation identifiers in the source data and use verified reading addresses for outbound links.
+const sourceReadingURLs = new Map([
+ ["https://doi.org/10.17501/26307413.2023.6101", "https://proceedings.tiikmpublishing.com/index.php/foe/article/view/1340"],
+ ["https://journals.sagepub.com/doi/10.1177/23328584241281483", "https://files.eric.ed.gov/fulltext/EJ1455604.pdf"],
+ ["https://journals.sagepub.com/doi/abs/10.3102/0013189X11428813", "https://hdl.handle.net/2149/3184"],
+ ["https://doi.org/10.1080/15248372.2011.554928", "https://education.umd.edu/sites/default/files/uploads/Mix%20et%20al.%202011%20One-to-One%20Play.pdf"],
+ ["https://wedocs.unep.org/handle/20.500.11822/22395", "https://globalecolabelling.net/wp-content/uploads/2023/07/UN-Environment-Guidelines.pdf"],
+ ["https://dash.harvard.edu/bitstreams/7312037c-9058-6bd4-e053-0100007fdf3b/download#page=14", "https://dash.harvard.edu/server/api/core/bitstreams/7312037c-9058-6bd4-e053-0100007fdf3b/content#page=14"],
+ ["https://www.ipcc.ch/report/ar6/syr/", "https://www.ipcc.ch/report/ar6/syr/downloads/report/IPCC_AR6_SYR_SPM.pdf"],
+ ["https://digitallibrary.un.org/record/4042857", "https://sdg2advocacyhub.org/wp-content/uploads/2024/03/food_waste_index_report_2024.pdf"],
+ ["https://journals.sagepub.com/doi/10.3102/0013189X12463781", "https://research.ou.nl/ws/files/1027555/ER-DBR-FinalUnBlinded.pdf"],
+ ["https://journals.sagepub.com/doi/10.3102/0013189X032001009", "https://www.les.unina.it/wp-content/uploads/2023/09/Design.pdf"],
+ ["https://www.tandfonline.com/doi/abs/10.1207/s15327809jls0202_2", "https://www.cs.uml.edu/ecg/projects/cricketscience/pdf/brown-1992-design-experiments.pdf"],
+ ["https://www.tandfonline.com/doi/abs/10.1207/s1532690xci0102_1", "https://images.scholastic.co.uk/assets/a/d6/6f/palincsar-reciprocal-teaching-1619152.pdf"],
+ ["https://doi.org/10.1080/19345747.2016.1204640", "https://pmc.ncbi.nlm.nih.gov/articles/PMC5791897/"],
+ ["https://doi.org/10.1177/07342829211037195", "https://files.eric.ed.gov/fulltext/EJ1316908.pdf"],
+ ["https://doi.org/10.3102/0002831219842788", "https://files.eric.ed.gov/fulltext/EJ1234710.pdf"],
+ ["https://doi.org/10.1177/23328584211026657", "https://files.eric.ed.gov/fulltext/EJ1323924.pdf"],
+ ["https://doi.org/10.1177/2332858419879446", "https://files.eric.ed.gov/fulltext/EJ1238415.pdf"],
+ ["https://doi.org/10.1348/000709908X398106", "https://pact.cs.cmu.edu/pubs/Rittle-Johnson%2C%20Koedinger%202009.pdf"],
+ ["https://doi.org/10.3390/educsci14040350", "https://mdpi-res.com/d_attachment/education/education-14-00350/article_deploy/education-14-00350.pdf"],
+ ["https://doi.org/10.3390/higheredu5010027", "https://mdpi-res.com/d_attachment/higheredu/higheredu-05-00027/article_deploy/higheredu-05-00027.pdf"],
+ ["https://doi.org/10.4067/S0718-50062021000100181", "https://scielo.conicyt.cl/scielo.php?pid=S0718-50062021000100181&script=sci_arttext&tlng=es"],
+]);
 function sourceHref(url) {
- // This DOI is the printed identifier. Its resolver returns 404; the publisher still serves the article.
- return url === 'https://doi.org/10.17501/26307413.2023.6101'
-  ? 'https://proceedings.tiikmpublishing.com/index.php/foe/article/view/1340' : url;
+ return sourceReadingURLs.get(url) ?? url;
 }
 export function sourcesHTML(sources){return sources.map(s=>`<article class="source-block"><h3>${/^https?:\/\//.test(s.url||'')?`<a href="${esc(sourceHref(s.url))}" target="_blank" rel="noopener noreferrer">${esc(s.title)} ↗</a>`:esc(s.title)}</h3><p>${esc(s.review_scope||s.kind)}</p>${s.does_not_establish?`<p class="muted">${esc(s.does_not_establish)}</p>`:''}</article>`).join('');}

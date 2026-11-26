@@ -8382,7 +8382,7 @@
     {
       "path": "dist/legacy.html",
       "bytes": 4470,
-      "sha256": "751f73e87c33f6bb0cd2405bdba1fc7cf17f3673a7d4b375aec699e19880c5bf",
+      "sha256": "c5b343acca8fcee9196eb79d96e8c354e5ca27c4c008aba2af16a978eabf2bf4",
       "optional_in_git": false
     },
     {
@@ -8513,8 +8513,8 @@
     },
     {
       "path": "dist/modules/ui.mjs",
-      "bytes": 5659,
-      "sha256": "e83ad50dac1c3e2e3e0d25b84121281fb444e4ff90e154b0d117c57bbc10821c",
+      "bytes": 8361,
+      "sha256": "2e2a49515c14c589dcac3d73b39a41cf3799d0110a80d2a3094037a1f5c9b5a7",
       "optional_in_git": false
     },
     {
