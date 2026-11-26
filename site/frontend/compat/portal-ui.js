@@ -450,6 +450,21 @@
     element.scrollIntoView({ block: "start" });
   }
 
+  let sectionJumps;
+
+  function sectionStart(anchor, beside) {
+    const closed = anchor.parentElement?.closest("details:not([open])");
+    const marker = closed?.querySelector(":scope > summary") || anchor;
+    if (!marker?.getClientRects().length) return Infinity;
+    const rect = marker.getBoundingClientRect();
+    if (beside) {
+      const map = beside.getBoundingClientRect();
+      // The viewer can see the map and its side panel at the same scroll position.
+      if ((map.right <= rect.left || rect.right <= map.left) && rect.top < map.bottom) return map.bottom;
+    }
+    return rect.top;
+  }
+
   function prepareSectionJumps(container, label, entries) {
     const heading = container.querySelector("h1");
     if (!heading || container.querySelector(":scope > .atlas-section-jumps")) return;
@@ -461,11 +476,25 @@
     const toggle = document.createElement("button");
     toggle.type = "button";
     toggle.className = "atlas-section-toggle";
-    toggle.textContent = label;
+    const currentLabel = document.createElement("span");
+    currentLabel.className = "atlas-section-current";
+    toggle.append(label, currentLabel);
     toggle.setAttribute("aria-controls", "atlas-section-links");
     toggle.setAttribute("aria-expanded", "false");
     const links = document.createElement("div");
     links.id = "atlas-section-links";
+
+    let frame = 0;
+    let active;
+    let chosen;
+    let chosenScroll;
+    function mark(button) {
+      if (active === button) return;
+      active?.removeAttribute("aria-current");
+      active = button;
+      active.setAttribute("aria-current", "location");
+      currentLabel.textContent = active.textContent;
+    }
 
     function expand(open) {
       toggle.setAttribute("aria-expanded", String(open));
@@ -477,23 +506,77 @@
       expand(false);
       toggle.focus();
     });
-    for (const [title, target, reveal] of targets) {
+    const sections = targets.map(([title, target, { reveal, beforeJump, anchors = [target], beside } = {}]) => {
       target.classList.add("atlas-section-target");
       const jump = document.createElement("button");
       jump.type = "button";
       jump.textContent = title;
       jump.addEventListener("click", () => {
         expand(false);
+        beforeJump?.();
         for (let parent = target.parentElement; parent && parent !== container; parent = parent.parentElement) {
           if (parent instanceof HTMLDetailsElement && parent.firstElementChild !== target) parent.open = true;
         }
         if (reveal) reveal.open = true;
         focusSection(target);
+        chosen = jump;
+        chosenScroll = window.scrollY;
+        mark(jump);
       });
       links.append(jump);
-    }
+      return { jump, anchors, beside };
+    });
     bar.append(toggle, links);
     heading.closest(".atlas-page-header").after(bar);
+
+    function update() {
+      frame = 0;
+      if (chosen && chosenScroll === window.scrollY) return;
+      chosen = undefined;
+      const remaining = document.documentElement.scrollHeight - window.innerHeight - window.scrollY;
+      // The last section cannot always reach the menu before the page ends.
+      const line = Math.max(bar.getBoundingClientRect().bottom + 54, window.innerHeight / 2 - Math.max(0, remaining));
+      let reached;
+      let upcoming;
+      let latest = -Infinity;
+      let earliest = Infinity;
+      for (const { jump, anchors, beside } of sections) {
+        for (const anchor of anchors) {
+          const top = sectionStart(anchor, beside);
+          if (top <= line && top > latest) {
+            latest = top;
+            reached = jump;
+          } else if (top > line && top < earliest) {
+            earliest = top;
+            upcoming = jump;
+          }
+        }
+      }
+      mark(reached || upcoming || sections[0].jump);
+    }
+    function schedule() {
+      if (!frame) frame = requestAnimationFrame(update);
+    }
+    const controller = new AbortController();
+    const signal = controller.signal;
+    window.addEventListener("scroll", schedule, { passive: true, signal });
+    window.addEventListener("resize", () => { chosen = undefined; schedule(); }, { signal });
+    container.addEventListener("toggle", schedule, { capture: true, signal });
+    container.addEventListener("focusin", (event) => {
+      const section = sections.find(({ anchors }) => anchors.includes(event.target));
+      if (!section) return;
+      chosen = section.jump;
+      chosenScroll = window.scrollY;
+      mark(chosen);
+    }, { signal });
+    const resize = new ResizeObserver(schedule);
+    resize.observe(container);
+    sectionJumps = { bar, schedule, dispose() {
+      controller.abort();
+      resize.disconnect();
+      cancelAnimationFrame(frame);
+    } };
+    update();
   }
 
   function prepareMapJumps() {
@@ -502,19 +585,25 @@
       const picker = guide.querySelector(".guide-pickers");
       const map = guide.querySelector(".map-sheet");
       const reasons = guide.querySelector(".reason-picker");
+      const reasonSummary = reasons?.querySelector("summary");
+      const standard = guide.querySelector("#local-standard");
       prepareSectionJumps(guide, "지도 메뉴", [
         ["학년·개념", picker],
         map ? ["지도", map] : ["시작할 기준", guide.querySelector(".guide-results h2")],
-        ["연결 이유", reasons?.querySelector("summary"), reasons],
-        ["선택한 기준", guide.querySelector("#local-standard h3")],
+        ["연결 이유", reasonSummary, { reveal: reasons, anchors: [reasonSummary, ...guide.querySelectorAll(".local-reason h3")] }],
+        ["선택한 기준", standard?.querySelector("h3"), {
+          beside: map,
+          beforeJump: () => { if (standard.hidden) guide.querySelector(".local-center, .walk-active")?.click(); },
+        }],
       ]);
     }
     const network = main.querySelector(".atlas-network");
     if (network) {
+      const stage = network.querySelector(".atlas-stage");
       prepareSectionJumps(network, "연결망 메뉴", [
         ["찾기·필터", network.querySelector(".atlas-controls")],
-        ["연결망", network.querySelector(".atlas-stage")],
-        ["선택한 기준", network.querySelector(".atlas-inspector")],
+        ["연결망", stage],
+        ["선택한 기준", network.querySelector(".atlas-inspector"), { beside: stage }],
       ]);
     }
   }
@@ -523,14 +612,17 @@
     const official = main.querySelector(".tp-official");
     if (!official) return;
     const cases = [...main.querySelectorAll(".tp-case")];
+    const recent = cases.filter((item) => !item.closest(".tp-previous-case"));
     const task = cases.find((item) => item.dataset.taskCase === params.get("taskCase"))
-      || cases.find((item) => !item.closest(".tp-previous-case")) || cases[0];
+      || recent[0] || cases[0];
+    const trackedCases = [...new Set(task ? [...recent, task] : recent)];
+    const markers = (selector) => trackedCases.map((item) => item.querySelector(selector)).filter(Boolean);
     prepareSectionJumps(main, "과제 목차", [
       ["공식 성취기준", official],
       ["과제 찾기", main.querySelector(".atlas-task-picker h2")],
       ["하위 목표", main.querySelector(".tp-goals h2")],
-      ["대표 과제", task?.querySelector("h2")],
-      ["풀이 방법", task?.querySelector(".tp-choice")],
+      ["대표 과제", task?.querySelector("h2"), { anchors: markers("h2") }],
+      ["풀이 방법", task?.querySelector(".tp-choice"), { anchors: markers(".tp-choice") }],
       ["기존 과제 해설", main.querySelector(":scope > .tp-source:not(.tp-previous-case) > summary")],
     ]);
   }
@@ -1114,6 +1206,10 @@
   }
 
   function connectMain() {
+    if (sectionJumps && !sectionJumps.bar.isConnected) {
+      sectionJumps.dispose();
+      sectionJumps = undefined;
+    }
     for (const label of main.querySelectorAll(".page-heading .eyebrow, .network-intro .eyebrow, .network-heading .eyebrow")) {
       if (/^[A-Z &-]+$/.test(label.textContent.trim())) label.hidden = true;
     }
@@ -1176,6 +1272,7 @@
       main.append(developer);
     }
     if (about) prepareSources();
+    sectionJumps?.schedule();
     restoreWorkspaceFocus();
     const intro = main.querySelector(".pathway-intro");
     if (intro && intro.parentElement.tagName !== "DETAILS") {
