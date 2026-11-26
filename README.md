@@ -54,6 +54,8 @@ python -m http.server 8000 --bind 127.0.0.1 --directory site/dist
 
 브라우저가 JSON을 읽을 수 있도록 HTTP 주소로 접속합니다. 서버는 터미널에서 `Ctrl+C`로 종료합니다. 공개 앱은 기존 Sites의 원문 PDF로 연결되며, 로컬에 원문을 준비하는 방법은 별도 안내에서 확인할 수 있습니다. [자료 권리와 원문 준비](docs/RIGHTS.md)
 
+[탐색 개선 및 검증 기록](docs/PORTAL_NAVIGATION_AUDIT.md)
+
 ## 개발과 기여
 
 | 찾는 내용 | 문서 |

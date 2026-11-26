@@ -5,6 +5,7 @@ import {standardPage} from './modules/detail.mjs';
 import {connectionsPage,hierarchyPage,aboutPage} from './modules/explore.mjs';
 import {parse,saveState,getState,setState} from './modules/router.mjs';
 import {networkPage,mountNetwork} from './modules/network.mjs';
+import {resolveView} from './modules/route-views.mjs';
 const main=document.querySelector('#main');
 let current='',serial=0,cleanup=null,scrollCleanup=null;
 history.scrollRestoration='manual';
@@ -15,8 +16,19 @@ function refreshSchoolLinks(p){
 function remember(){if(current)saveState(current,main);}
 async function render(){
  const renderStarted=performance.now();
- const ticket=++serial,p=parse(location.hash),view=p.get('view'),key=location.hash||'#view=network';
- globalThis.atlasSchoolScope=p.get('scope')||sessionStorage.getItem('atlas-school-scope')||'all';p.set('scope',globalThis.atlasSchoolScope);if(!parse(location.hash).has('scope'))history.replaceState(history.state,'','#'+p);sessionStorage.setItem('atlas-school-scope',globalThis.atlasSchoolScope);document.body.dataset.scope=globalThis.atlasSchoolScope;
+ const ticket=++serial,route=resolveView(location.hash,'legacy'),p=route.params,view=p.get('view');
+ if(route.entry==='reader'){
+  location.replace('./#'+p);
+  return;
+ }
+ const scope=p.get('scope')||sessionStorage.getItem('atlas-school-scope')||'all';
+ globalThis.atlasSchoolScope=Object.hasOwn(scopes,scope)?scope:'all';
+ p.set('scope',globalThis.atlasSchoolScope);
+ const key='#'+p;
+ if(location.hash!==key)history.replaceState(history.state,'',key);
+ sessionStorage.setItem('atlas-school-scope',globalThis.atlasSchoolScope);
+ document.body.dataset.scope=globalThis.atlasSchoolScope;
+ document.body.dataset.navView=route.menu;
  refreshSchoolLinks(p);
  const previous=parse(current).get('view'),previousCode=parse(current).get('code');
  if(cleanup){cleanup();cleanup=null;}if(scrollCleanup){scrollCleanup();scrollCleanup=null;}
@@ -36,7 +48,7 @@ async function render(){
   }
   if(ticket!==serial)return;
   current=location.hash||'#view=network';main.removeAttribute('aria-busy');
-  const title=main.querySelector('h1')?.textContent||'수학 교육과정';document.title=title+' · Math Atlas';document.querySelector('#announce').textContent=title;
+  const title=main.querySelector('h1,h2')?.textContent||'수학 교육과정';document.title=title+' · 수학의 연결 지도';document.querySelector('#announce').textContent=title;
   const snapshot=getState(key);
   if(snapshot)for(const d of main.querySelectorAll('details[data-open]'))d.open=snapshot.open.includes(d.dataset.open);
   requestAnimationFrame(()=>{
@@ -53,7 +65,16 @@ async function render(){
    else {window.scrollTo(0,0);main.querySelector('h1')?.focus({preventScroll:true});}
   });
   if(view==='standard')observeSections();
- }catch(error){if(ticket!==serial)return;current=key;main.removeAttribute('aria-busy');main.innerHTML=`<div class="empty" role="alert"><h1>자료를 열지 못했습니다.</h1><p>${esc(error.message)}</p>${error.needsReload?'<button class="button primary" data-reload>자료 새로고침</button>':'<button class="button primary" data-retry>다시 시도</button>'}<a href="#view=overview">전체 조망으로</a></div>`;}
+ }catch(error){
+  if(ticket!==serial)return;
+  current=key;
+  main.removeAttribute('aria-busy');
+  const recover=view==='hierarchy'?['hierarchy','수학 개념 목록으로']:['catalog','교육과정 탐색으로'];
+  const retry=error.invalidSelection?'':error.needsReload?'<button class="button primary" data-reload>자료 새로고침</button>':'<button class="button primary" data-retry>다시 시도</button>';
+  main.innerHTML=`<div class="empty" role="alert"><h1 tabindex="-1">자료를 열지 못했습니다.</h1><p>${esc(error.message)}</p>${retry}<a href="${url(recover[0],{scope:globalThis.atlasSchoolScope})}">${recover[1]}</a></div>`;
+  document.title='자료를 열지 못했습니다 · 수학의 연결 지도';
+  main.querySelector('h1').focus();
+ }
 }
 function scrollToSection(section){const el=document.getElementById(section||'meaning');if(el){el.scrollIntoView({block:'start'});el.setAttribute('tabindex','-1');el.focus({preventScroll:true});}document.querySelectorAll('[data-section]').forEach(a=>a.classList.toggle('active',a.dataset.section===(section||'meaning')));}
 function observeSections(){
@@ -82,4 +103,6 @@ main.addEventListener('change',e=>{
  if(e.target.tagName==='SELECT')form.requestSubmit();
 });
 window.addEventListener('hashchange',()=>{remember();render();});window.addEventListener('pagehide',remember);
-try{await initialize();await render();}catch(error){main.innerHTML=`<div class="empty" role="alert"><h1>교육과정을 불러오지 못했습니다.</h1><p>${esc(error.message)}</p><button class="button" onclick="location.reload()">새로고침</button></div>`;}
+const initialRoute=resolveView(location.hash,'legacy');
+if(initialRoute.entry==='reader')location.replace('./#'+initialRoute.params);
+else try{await initialize();await render();}catch(error){main.innerHTML=`<div class="empty" role="alert"><h1>교육과정을 불러오지 못했습니다.</h1><p>${esc(error.message)}</p><button class="button" onclick="location.reload()">새로고침</button></div>`;}

@@ -301,13 +301,17 @@
       ["overview", "structure", "학교급별 성취기준"],
       ["overview", "expanded", "성취기준 펼쳐 보기"],
     ];
-    const current = view === "overview"
-      ? params.get("density") === "expanded" ? "expanded" : params.get("mode") || "flow"
+    const current = view === "hierarchy" && (params.has("concept") || params.has("map")) ? "" : view === "overview"
+      ? params.get("density") === "expanded" ? "expanded" : params.get("mode") || "structure"
       : view === "network" || view === "hierarchy" ? view : "";
     for (const [target, mode, label] of modes) {
       const link = document.createElement("a");
       const values = new URLSearchParams({ view: target });
-      if (target === "network") values.set("mapMode", "full");
+      if (target === "network") {
+        values.set("mapMode", "full");
+        const node = codeFor(params) || params.get("target");
+        if (node) values.set("node", node);
+      }
       if (params.get("scope")) values.set("scope", params.get("scope"));
       if (mode) values.set("mode", mode === "expanded" ? "structure" : mode);
       if (mode === "expanded") values.set("density", "expanded");
@@ -340,10 +344,6 @@
       const lead = frame.querySelector(".lead");
       if (lead) lead.textContent = "익숙한 수학 개념을 골라 학교급마다 배우는 내용과 연결되는 이유를 살펴보세요.";
     }
-    if (view === "network" && main.querySelector(".atlas-network")) {
-      const title = params.has("node") ? "이 기준의 연결 지도" : "수학 연결 지도";
-      if (heading.textContent !== title) heading.textContent = title;
-    }
     const sectionName = tool ? (page === "distribution-lab" ? "분포 탐구" : "탐구 기록지")
       : view === "standard" ? "전체 상세 분석" : view === "connections" ? "연결 근거"
       : view === "network" ? (main.querySelector(".guided-map") ? "기준 하나씩 보기" : params.has("node") ? "선택한 기준의 연결" : "전체 연결망")
@@ -362,7 +362,14 @@
       const current = document.createElement("span");
       current.setAttribute("aria-current", "page");
       current.textContent = sectionName;
-      crumb.append(parent, current);
+      crumb.append(parent);
+      if (view === "hierarchy" && ["goals", "tasks"].includes(params.get("mode")) && params.get("target")) {
+        const standard = document.createElement("a");
+        standard.href = "./#" + new URLSearchParams({ view: "standard", code: params.get("target") });
+        standard.textContent = params.get("target");
+        crumb.append(standard);
+      }
+      crumb.append(current);
       heading.before(crumb);
     } else if (frame.querySelector(".atlas-location [aria-current]")?.textContent !== sectionName) {
       const current = frame.querySelector(".atlas-location [aria-current]");
@@ -441,17 +448,6 @@
     let related = workspace.querySelector(".atlas-related-toggle");
     if (!related) {
       const form = network.querySelector(".atlas-controls");
-      const guided = document.createElement("a");
-      guided.className = "guide-mode-link";
-      const back = new URLSearchParams({view: "network", scope: route().get("scope") || "all"});
-      if (route().has("node")) back.set("node", route().get("node"));
-      const resume = new URLSearchParams(route().get("resume") || "");
-      for (const key of ["scope", "band", "concept", "node", "walk", "trail", "page"]) {
-        if (resume.has(key)) back.set(key, resume.get(key));
-      }
-      guided.href = "#" + back;
-      guided.textContent = resume.has("walk") || resume.has("trail") ? "내가 따라온 길로 돌아가기" : "학년·개념으로 연결 따라가기";
-      form.before(guided);
       const intro = network.querySelector(".network-intro h1 + p");
       if (intro) intro.textContent = "점 하나가 성취기준 하나입니다. 점을 선택해 이어진 기준을 보고, ‘연결 근거’에서 두 기준이 이어지는 이유를 읽어 보세요.";
       const conceptLink = network.querySelector(".network-intro > a");
@@ -658,10 +654,7 @@
   }
 
   function updateNav() {
-    const view = route().get("view");
-    const current = tool || view === "about" ? "about"
-      : ["standard", "catalog", "map"].includes(view) ? "catalog"
-      : ["network", "overview", "connections"].includes(view) ? "network" : "hierarchy";
+    const current = tool ? "about" : document.body.dataset.navView || "network";
     for (const link of header.querySelectorAll("[data-atlas-nav]")) {
       if (link.dataset.atlasNav === current) link.setAttribute("aria-current", "page");
       else link.removeAttribute("aria-current");
@@ -1041,6 +1034,11 @@
     document.body.classList.toggle("atlas-local-scope", ["about", "standard"].includes(view)
       || Boolean(main.querySelector('form select[name="scope"]')));
     prepareHeading(params);
+    updateNav();
+    if (!tool && !main.hasAttribute("aria-busy")) {
+      const heading = main.querySelector("h1");
+      if (heading && !main.querySelector('[role="alert"]')) document.title = heading.textContent + " · 수학의 연결 지도";
+    }
     prepareContextReturn();
     if (tool) prepareToolNavigation();
     if (!tool) {

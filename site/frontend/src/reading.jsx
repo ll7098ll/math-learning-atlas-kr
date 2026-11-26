@@ -1,7 +1,7 @@
 import React, { useLayoutEffect, useState, useSyncExternalStore } from "react";
 import { ArrowLeft, ArrowLeftRight, ArrowRight, BookOpen, ChevronDown, ChevronRight, GitCompareArrows, Network, Printer } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import { bandOf, oldRoute, route, scopeId, selection, standardRoute, unique } from "./curriculum";
+import { bandOf, oldRoute, overviewRoute, route, scopeId, selection, standardRoute, unique } from "./curriculum";
 import { LoadState, Pdf, StandardRow, useContent } from "./shared";
 import "./reading-journey.css";
 
@@ -282,6 +282,8 @@ export function Detail({ catalog, params, go, returnTo, onOpen }) {
   </div>;
   const band = bandOf(s);
   const scope = params.get("scope") || scopeId(s);
+  const schoolOverview = overviewRoute(catalog.standards, scopeId(s));
+  const bandOverview = overviewRoute(catalog.standards, scopeId(s), band);
   const fallback = route("catalog", { scope: scopeId(s), band, domain: s.domain, focus: code });
   const origin = history.state?.returnTo;
   const exploreOrigin = !origin && history.state?.exploreOrigin;
@@ -308,9 +310,10 @@ export function Detail({ catalog, params, go, returnTo, onOpen }) {
       <div className="journey-location">
         <span className="standard-code">{code}</span>
         <nav className="breadcrumbs" aria-label="교육과정 위치">
-          <a href={route("catalog", { scope: scopeId(s) })}>{s.level}</a><span aria-hidden="true">/</span>
-          <a href={route("catalog", { scope: scopeId(s), band })}>{band}</a><span aria-hidden="true">/</span>
-          <a href={fallback}>{s.domain}</a>
+          <a href={schoolOverview} onClick={onOpen}>{s.level}</a><span aria-hidden="true">/</span>
+          {schoolOverview !== bandOverview &&
+            <><a href={bandOverview} onClick={onOpen}>{band}</a><span aria-hidden="true">/</span></>}
+          <a href={fallback} onClick={onOpen}>{s.domain}</a>
         </nav>
       </div>
       <h1 tabIndex={-1} aria-describedby="journey-title-source">{s.title}</h1>
@@ -468,7 +471,8 @@ export function Compare({ catalog, params, go, returnTo, onOpen }) {
     <a className="atlas-return" href={back} onClick={(event) => returnTo(event, back)}>
       <ArrowLeft size={16} aria-hidden="true" />
       {!state?.returnTo && state?.exploreOrigin ? state.exploreOrigin.label || "읽던 화면으로"
-        : new URLSearchParams(back.slice(1)).get("view") === "standard" ? "성취기준 상세로" : "교육과정 탐색으로"}
+        : new URLSearchParams(back.slice(1)).get("view") === "standard" ? "성취기준 상세로"
+          : new URLSearchParams(back.slice(1)).has("q") ? "검색 결과로" : "교육과정 탐색으로"}
     </a>
     <header className="atlas-page-header">
       <h1 className="atlas-page-title" tabIndex={-1}>학년군·과목 비교</h1>

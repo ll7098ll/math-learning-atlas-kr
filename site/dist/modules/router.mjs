@@ -1,9 +1,6 @@
-export function parse(hash){
- const p=new URLSearchParams(hash.replace(/^#/,'')),legacy={map:'catalog',explore:'connections'};
- let view=legacy[p.get('view')]||p.get('view')||'network';
- if(!['network','overview','catalog','standard','connections','hierarchy','about'].includes(view))view='network';
- p.set('view',view);return p;
-}
+import {resolveView} from './route-views.mjs';
+
+export const parse = hash => resolveView(hash, 'legacy').params;
 const snapshots=new Map();
 export function setState(key,state){snapshots.set(key,state);try{sessionStorage.setItem('atlas-state:'+key,JSON.stringify(state));}catch{}}
 export function saveState(key,root,focus,focusKey){

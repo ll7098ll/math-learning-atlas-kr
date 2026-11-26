@@ -45,6 +45,11 @@ export function route(view, params = {}) {
   });
 }
 
+export function overviewRoute(standards, scope, band = "") {
+  const bands = unique(selection(standards, scope).map(bandOf));
+  return route("catalog", { scope, band: band || (bands.length === 1 ? bands[0] : ""), stage: "overview" });
+}
+
 export const oldRoute = (view, params) => "./legacy.html" + route(view, params);
 export const standardRoute = (code, scope) => route("standard", { code, scope });
 

@@ -5,7 +5,7 @@ export const types={meaning_connection:'의미 연결',generalizes:'의미 확�
 export let catalog;
 const cache=new Map();
 async function json(path,policy='no-cache'){
- const res=await fetch(path,{cache:policy});if(!res.ok){if(res.status===404&&policy==='default')throw Object.assign(new Error('자료가 갱신되었습니다. 새로고침해 주세요.'),{needsReload:true});throw new Error('자료를 불러오지 못했습니다. 잠시 후 다시 시도해 주세요.');}return res.json();
+ const res=await fetch(path,{cache:policy});if(!res.ok){if(res.status===404&&policy==='default')throw Object.assign(new Error('자료가 갱신되었습니다. 새로고침해 주세요.'),{needsReload:true});throw Object.assign(new Error('자료를 불러오지 못했습니다. 잠시 후 다시 시도해 주세요.'),{status:res.status});}return res.json();
 }
 export async function initialize(){catalog=await json('content/catalog.json');return catalog;}
 async function content(path){
@@ -14,8 +14,19 @@ async function content(path){
 }
 export const detail=async code=>(await content('standards/'+encodeURIComponent(code))).analysis;
 export const connections=()=>content('connections');
+export async function sources(){
+ try{return (await content('sources')).sources;}
+ catch(error){
+  if(error.status!==404)throw error;
+  return (await connections()).sources;
+ }
+}
 export const hierarchy=()=>content('hierarchy');
-export const standardConnections=code=>content('relations/'+encodeURIComponent(code));
+export const standardRelations=code=>content('relations/'+encodeURIComponent(code));
+export async function standardConnections(code){
+ const data=await standardRelations(code);
+ return Array.isArray(data.sources)?data:{...data,sources:await sources()};
+}
 export const conceptFlows=()=>content('flows');
 export const conceptPathwaysIndex=()=>content('concept-pathways-index');
 function pathwayObjectPath(index,namespace,key){
@@ -23,7 +34,7 @@ function pathwayObjectPath(index,namespace,key){
  const hash=index.files[key];if(!/^[a-f0-9]{64}$/.test(hash||''))throw new Error('자료 목록을 확인할 수 없습니다. 새로고침해 주세요.');
  return namespace+'/items/'+hash;
 }
-export async function conceptPathway(id){const index=await conceptPathwaysIndex();if(!index.groups.some(g=>g.id===id))throw new Error('등록되지 않은 개념군입니다. 전체 개념군에서 다시 선택해 주세요.');return content(pathwayObjectPath(index,'concept-pathways',id));}
+export async function conceptPathway(id){const index=await conceptPathwaysIndex();if(!index.groups.some(g=>g.id===id))throw Object.assign(new Error('등록되지 않은 개념군입니다. 수학 개념 목록에서 다시 선택해 주세요.'),{invalidSelection:true});return content(pathwayObjectPath(index,'concept-pathways',id));}
 export async function hierarchyGraph(){const index=await conceptPathwaysIndex();return content(pathwayObjectPath(index,'concept-pathways','graph'));}
 export const standard=code=>catalog.standards.find(s=>s.code===code);
 export const band=s=>s.level==='고등학교'?s.subject:s.band;
@@ -43,7 +54,7 @@ export function relationGroups(relations,code,scope='all',type=''){
 }
 
 export const taskPathwaysIndex=()=>content('task-pathways-index');
-export async function taskPathway(code){const index=await taskPathwaysIndex();if(!index.codes.includes(code))throw new Error('등록되지 않은 목표입니다.');return content(pathwayObjectPath(index,'task-pathways',code));}
+export async function taskPathway(code){const index=await taskPathwaysIndex();if(!index.codes.includes(code))throw Object.assign(new Error('등록되지 않은 목표입니다. 수학 개념 목록에서 다시 선택해 주세요.'),{invalidSelection:true});return content(pathwayObjectPath(index,'task-pathways',code));}
 export async function goalNetwork(){
  const index=await taskPathwaysIndex(),hash=index.goalGraph?.hash;
  if(!/^[a-f0-9]{64}$/.test(hash||''))throw Object.assign(new Error('목표 위계 자료가 갱신되었습니다. 새로고침해 주세요.'),{needsReload:true});

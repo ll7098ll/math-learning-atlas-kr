@@ -33,7 +33,7 @@ export function Pdf({ page, children }) {
   return <a className="text-link" href={pdfLink(page)} target="_blank" rel="noopener">{children}</a>;
 }
 
-export function StandardRow({ standard, onOpen, scope, idPrefix = "" }) {
+export function StandardRow({ standard, onOpen, scope, idPrefix = "", compact = false }) {
   const s = standard;
   return <li className="standard-row">
     <a id={idPrefix + "std-" + s.code} href={standardRoute(s.code, scope)} data-standard-code={s.code}
@@ -43,7 +43,7 @@ export function StandardRow({ standard, onOpen, scope, idPrefix = "" }) {
         <p className="row-location"><span className="standard-code">{s.code}</span>
           <span>{s.level} · {s.level === "고등학교" ? s.subject : s.band} · {s.domain}</span>
         </p>
-        <p className="row-statement"><span className="source-label">공식 성취기준</span>{s.statement}</p>
+        {!compact && <p className="row-statement"><span className="source-label">공식 성취기준</span>{s.statement}</p>}
       </div>
       <ChevronRight className="row-chevron" size={18} aria-hidden="true" />
     </a>

@@ -3,7 +3,7 @@ export const esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;'
 export const url=(view,values={})=>'#'+new URLSearchParams({view,scope:globalThis.atlasSchoolScope||'all',...Object.fromEntries(Object.entries(values).filter(([,v])=>v!==''&&v!=null))});
 export const standardURL=code=>url('standard',{code});
 export const uniq=a=>[...new Set(a)];
-export function overviewModes(active){return `<nav class="overview-views" aria-label="전체 조망 방식"><a href="#view=network" ${active==='network'?'aria-current="page"':''}>전체 연결망</a>${[['flow','개념별 목록',{}],['structure','학교급 구조',{mode:'structure'}],['expanded','기준 펼쳐 보기',{mode:'structure',density:'expanded'}]].map(([id,title,params])=>`<a href="${url('overview',params)}" ${active===id?'aria-current="page"':''}>${title}</a>`).join('')}</nav>`;}
+export function overviewModes(active){return `<nav class="overview-views" aria-label="전체 조망 방식"><a href="${url('network',{mapMode:'full'})}" ${active==='network'?'aria-current="page"':''}>전체 연결망</a>${[['flow','개념별 목록',{mode:'flow'}],['structure','학교급 구조',{mode:'structure'}],['expanded','기준 펼쳐 보기',{mode:'structure',density:'expanded'}]].map(([id,title,params])=>`<a href="${url('overview',params)}" ${active===id?'aria-current="page"':''}>${title}</a>`).join('')}</nav>`;}
 export const pill=(text,cls='')=>`<span class="tag ${cls}">${esc(text)}</span>`;
 export const tone=d=>window.DomainIcons?.tone(d)||'blue';
 export const icon=d=>window.DomainIcons?.icon(d)||'';

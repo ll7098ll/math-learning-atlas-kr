@@ -6,6 +6,7 @@ import { Browse } from "./browse";
 import { Compare, Detail } from "./reading";
 import { LoadState, Pdf, useContent } from "./shared";
 import { oldRoute, paramsFrom, route } from "./curriculum";
+import { resolveView } from "../compat/modules/route-views.mjs";
 import "../compat/atlas-shell.css";
 import "../compat/atlas-print.css";
 
@@ -45,7 +46,20 @@ function restoreReadingSession() {
   }
 }
 
-restoreReadingSession();
+function routeReader() {
+  const { params, entry } = resolveView(location.hash, "reader");
+  if (entry === "legacy") {
+    location.replace("./legacy.html#" + params);
+    return false;
+  }
+  if (location.hash && params.get("view") !== new URLSearchParams(location.hash.slice(1)).get("view")) {
+    history.replaceState(history.state, "", "#" + params);
+  }
+  return true;
+}
+
+const showReader = routeReader();
+if (showReader) restoreReadingSession();
 
 function App() {
   const [hash, setHash] = useState(location.hash);
@@ -57,7 +71,7 @@ function App() {
   const previous = useRef({});
 
   useEffect(() => {
-    const update = () => setHash(location.hash);
+    const update = () => { if (routeReader()) setHash(location.hash); };
     history.scrollRestoration = "manual";
     window.addEventListener("hashchange", update);
     return () => window.removeEventListener("hashchange", update);
@@ -73,7 +87,9 @@ function App() {
     if (event.defaultPrevented || event.button !== 0 || event.ctrlKey || event.metaKey || event.altKey || event.shiftKey) return;
     const link = event.target.closest("a[href]");
     if (!link || link.target || link.hasAttribute("download")) return;
-    if (link.getAttribute("href").startsWith("#view=")) {
+    if (link.id === "nav-compare" && view !== "compare") {
+      openLinked(event, undefined, link);
+    } else if (link.getAttribute("href").startsWith("#view=")) {
       event.preventDefault();
       go(link.hash);
     }
@@ -104,10 +120,10 @@ function App() {
     }
   }
 
-  function openLinked(event, selectedCode) {
+  function openLinked(event, selectedCode, link = event.currentTarget) {
     if (event.button !== 0 || event.ctrlKey || event.metaKey || event.altKey || event.shiftKey) return;
     event.preventDefault();
-    const focusOnReturn = { row: selectedCode, id: event.currentTarget.id, scroll: window.scrollY };
+    const focusOnReturn = { row: selectedCode, id: link.id, scroll: window.scrollY };
     const origin = location.hash || route("catalog");
     const position = history.state?.position ?? 0;
     const catalogReturn = view === "catalog" ? origin : history.state?.catalogReturn;
@@ -116,7 +132,7 @@ function App() {
     const detachedReturn = history.state?.detachedReturn;
     const returnState = { ...history.state, position, focusOnReturn };
     history.replaceState(returnState, "");
-    go(event.currentTarget.getAttribute("href"), {
+    go(link.getAttribute("href"), {
       returnTo: origin, returnPosition: position, returnState, restore: focusOnReturn,
       catalogReturn, catalogPosition, catalogFocus, detachedReturn,
     });
@@ -193,10 +209,11 @@ function App() {
   }, [hash, view, code, catalog]);
 
   useEffect(() => {
-    const title = view === "standard" ? catalog?.standards.find((s) => s.code === code)?.title
-      : view === "compare" ? "학년군·과목 비교" : "교육과정 탐색";
-    if (title) document.title = title + " · 수학의 연결 지도";
-  }, [view, code, catalog]);
+    const heading = document.querySelector("#main h1")?.textContent;
+    if (!heading) return;
+    const standard = view === "standard" && catalog?.standards.some((s) => s.code === code);
+    document.title = (standard ? code + " · " : "") + heading + " · 수학의 연결 지도";
+  }, [view, code, catalog, hash]);
 
   const menu = [
     ["catalog", "교육과정 탐색", route("catalog")],
@@ -243,4 +260,4 @@ function App() {
   </>;
 }
 
-createRoot(document.getElementById("root")).render(<App />);
+if (showReader) createRoot(document.getElementById("root")).render(<App />);

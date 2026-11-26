@@ -70,6 +70,8 @@ def install_compat_theme(dist: Path) -> None:
     legacy_modules = sorted((source / "modules").glob("*.mjs"))
     for module in legacy_modules:
         shutil.copy2(module, dist / "modules" / module.name)
+    shutil.copy2(source / "app.js", dist / "app.js")
+    app_version = digest(dist / "app.js")[:16]
     build_distribution_lab(dist)
     build_inquiry_workbook(dist)
     style = "\n\n".join((source / name).read_text(encoding="utf-8").rstrip()
@@ -87,6 +89,7 @@ def install_compat_theme(dist: Path) -> None:
         path = dist / name
         html = path.read_text(encoding="utf-8")
         if name == "legacy.html":
+            html = re.sub(r'(?<=src="app\.js)\?v=[^"]+', f"?v={app_version}", html)
             def version_modules(match):
                 mapping = json.loads(match[2])
                 for module in legacy_modules:
@@ -101,6 +104,42 @@ def install_compat_theme(dist: Path) -> None:
             raise ValueError(f"No document head to theme in {name}")
         path.write_text(html.replace("</head>", reference + "</head>", 1).rstrip() + "\n",
                         encoding="utf-8", newline="\n")
+
+
+def write_relation_resources(source: Path, dist: Path, catalog: dict, old_root: str) -> None:
+    version = catalog["version"]
+    # The data version still describes the same curriculum. Give the new
+    # immutable file layout its own path so cached files cannot mix schemas.
+    layout_id = hashlib.sha256(f"shared-relation-sources-v1:{version}".encode()).hexdigest()[:16]
+    new_root = f"content/versions/{layout_id}/"
+    connections = json.loads((dist / "content/connections.json").read_text(encoding="utf-8"))
+    if connections["version"] != version:
+        raise ValueError("Source list and catalog use different content versions.")
+
+    def write_json(path, value):
+        path.write_text(json.dumps(value, ensure_ascii=False, separators=(",", ":")) + "\n",
+                        encoding="utf-8", newline="\n")
+
+    source_index = connections["sources"]
+    source_ids = {item["id"] for item in source_index}
+    if len(source_ids) != len(source_index):
+        raise ValueError("Duplicate source identifiers in the source index.")
+    write_json(dist / "content/sources.json", {"version": version, "sources": source_index})
+
+    target = safe_path(dist, new_root)
+    (target / "relations").mkdir(parents=True, exist_ok=True)
+    shutil.copy2(safe_path(source, old_root + "hierarchy.json"), target / "hierarchy.json")
+    for standard in catalog["standards"]:
+        code = standard["code"]
+        relative = f"relations/{code}.json"
+        record = json.loads(safe_path(source, old_root + relative).read_text(encoding="utf-8"))
+        inline = record.pop("sources", source_index)
+        cited = {standard["sourceId"]}
+        cited.update(sid for relation in record["relations"] for sid in relation.get("source_ids", ()))
+        if record["version"] != version or inline != source_index or not cited <= source_ids:
+            raise ValueError(f"Version or source index mismatch for {code}")
+        write_json(safe_path(target, relative), record)
+    write_json(dist / "content/catalog.json", {**catalog, "resourceRoot": new_root})
 
 
 def install_explorer(dist: Path, frontend: Path, catalog: dict) -> None:
@@ -124,6 +163,10 @@ def export(source: Path, output: Path, frontend: Path | None = None) -> dict:
     catalog, task, concept = (read(name) for name in
                               ("catalog.json", "task-pathways-index.json", "concept-pathways-index.json"))
     paths = set(reference_paths(catalog, task, concept))
+    explorer = frontend is not None or (dist / "legacy.html").is_file()
+    old_root = catalog["resourceRoot"]
+    if explorer:
+        paths = {relative for relative in paths if not relative.startswith(old_root)}
     # Fixed entry points, modules, examples and standard detail files are current assets.
     paths.update(p.relative_to(dist).as_posix() for p in dist.iterdir() if p.is_file())
     paths.update(p.relative_to(dist).as_posix() for p in (dist / "content").glob("*.json"))
@@ -151,6 +194,8 @@ def export(source: Path, output: Path, frontend: Path | None = None) -> dict:
     elif (output / "dist/legacy.html").is_file():
         install_compat_theme(output / "dist")
         write_curriculum_index(output / "dist", catalog)
+    if explorer:
+        write_relation_resources(dist, output / "dist", catalog, old_root)
     # The exported site lives beside the research folders instead of above research/.
     adapted = []
     for test in tests:

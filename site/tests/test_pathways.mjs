@@ -37,11 +37,43 @@ const neededSources=new Set([...store.catalog.standards.map(s=>s.sourceId),...a.
 assert.deepEqual(a.sources,full.sources.filter(s=>neededSources.has(s.id)));
 for(const id of neededSources)assert(a.sources.some(s=>s.id===id),'Missing cited pilot source: '+id);
 const union=new Set();
-for(const s of store.catalog.standards){const data=await store.standardConnections(s.code);assert.equal(data.version,a.version);assert.deepEqual(data.relations,original.filter(r=>[r.from,r.to].includes('standard:'+s.code)));for(const r of data.relations)if(r.from.startsWith('standard:')&&r.to.startsWith('standard:'))union.add(r.id);}
+const first=store.catalog.standards[0];
+const raw=await store.standardRelations(first.code);
+assert(!Object.hasOwn(raw,'sources'));
+assert(!requests.includes('content/sources.json'));
+const sourceIds=new Set(full.sources.map(source=>source.id));
+for(const s of store.catalog.standards){
+ const record=await store.standardRelations(s.code);
+ const data=await store.standardConnections(s.code);
+ assert.equal(record.version,a.version);
+ assert(!Object.hasOwn(record,'sources'));
+ assert.deepEqual(data.sources,full.sources);
+ assert(sourceIds.has(s.sourceId));
+ assert.deepEqual(data.relations,original.filter(r=>[r.from,r.to].includes('standard:'+s.code)));
+ for(const r of data.relations){
+  for(const id of r.source_ids||[])assert(sourceIds.has(id),'Missing source '+id);
+  if(r.from.startsWith('standard:')&&r.to.startsWith('standard:'))union.add(r.id);
+ }
+}
 assert.equal(union.size,store.catalog.meta.standardConnections);assert(!requests.some(x=>x.includes('connections.json')));
+assert.equal(requests.filter(x=>x==='content/sources.json').length,1);
 const count=requests.length;await store.hierarchy();await store.standardConnections('6수02-03');assert.equal(requests.length,count);
+
+const oldStore=await import('../dist/modules/store.mjs?embedded-sources');
+const oldRequests=[];
+globalThis.fetch=async raw=>{
+ const q=decodeURIComponent(String(raw).split('?')[0]);
+ oldRequests.push(q);
+ return {ok:true,json:async()=>q.includes('/relations/')?{...await read(q),sources:full.sources}:read(q)};
+};
+await oldStore.initialize();
+assert.deepEqual((await oldStore.standardConnections(first.code)).sources,full.sources);
+assert(!oldRequests.includes('content/sources.json'));
+
+// Restore the fixture reader before the independent retry check.
+globalThis.fetch=async raw=>({ok:true,json:()=>read(decodeURIComponent(String(raw).split('?')[0]))});
 // A rejected version must leave the shared cache so retry can recover.
 const retryStore=await import('../dist/modules/store.mjs?retry');await retryStore.initialize();let attempts=0;
 globalThis.fetch=async raw=>({ok:true,json:async()=>{const d=await read(decodeURIComponent(String(raw).split('?')[0]));return ++attempts===1?{...d,version:'stale'}:d;}});
 await assert.rejects(retryStore.hierarchy(),/갱신/);await retryStore.hierarchy();assert.equal(attempts,2);
-console.log(JSON.stringify({status:'pass',concepts:46,standards:435,scopeRoutes:combinations,reachableStandardRelations:union.size,hierarchyBytes:(await fs.stat(path.join(dist,'content/hierarchy.json'))).size,checks:'small versioned bundle, request deduplication, all-code entry, complete AND groups, fixed targets, retry after stale version'}));
+console.log(JSON.stringify({status:'pass',concepts:46,standards:435,scopeRoutes:combinations,reachableStandardRelations:union.size,hierarchyBytes:(await fs.stat(path.join(dist,'content/hierarchy.json'))).size,checks:'small versioned bundle, request deduplication, all-code entry, shared and embedded sources, complete AND groups, fixed targets, retry after stale version'}));

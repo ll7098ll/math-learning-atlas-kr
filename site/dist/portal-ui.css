@@ -729,6 +729,23 @@ body.atlas-compat {
 .walk-dot:is(:hover,:focus-visible) strong { text-decoration: underline; }
 .walk-tools { display: flex; flex-wrap: wrap; gap: .3rem .9rem; }
 .walk-tools button { min-height: 44px; border: none; padding: 0; background: transparent; color: #1d5952; font: inherit; font-weight: 650; text-decoration: underline; cursor: pointer; }
+.walk-location { margin: .5rem 0 .7rem; padding: .6rem .9rem; border-inline-start: 3px solid #965225; background: #f5efe4; color: #293e39; }
+.walk-location small { color: #5d5248; }
+.walk-location div, .walk-actions, .walk-key { display: flex; align-items: center; flex-wrap: wrap; gap: .15rem .6rem; }
+.walk-location :is(a,summary) { padding-block: .4rem; cursor: pointer; }
+.walk-location a { color: #215f57; text-decoration: underline; }
+.walk-location strong { color: #783b18; }
+.walk-actions { gap: .4rem 1.25rem; align-items: start; margin: 0 0 .65rem; }
+.walk-key { min-height: 44px; gap: .4rem .95rem; font-size: .82rem; }
+.walk-key span::before { content: ""; display: inline-block; width: 1.4rem; border-top: 4px solid #205f52; margin-right: .35rem; vertical-align: middle; }
+.walk-key span+span::before { border-top: 2px dashed #896333; }
+.walk-used:not(.walk-route) .edge-ink { stroke: #7d9089; stroke-width: 2px; }
+.walk-route .edge-ink { stroke: #205f52; stroke-width: 4px; }
+.guided-map .local-edge:is(:focus-visible,:hover,[aria-expanded="true"]) .edge-ink { stroke: #a84918; stroke-width: 5px; }
+.reason-picker { max-width: 100%; }
+.reason-picker summary { cursor: pointer; display: list-item; width: fit-content; min-height: 44px; padding: .55rem .8rem; border: 1px solid #819f93; border-radius: .4rem; color: #24574d; font-weight: 700; }
+.reason-picker p { margin: .55rem 0 .2rem; }
+.reason-picker button { display: block; min-height: 44px; padding: .3rem .15rem; color: #205e54; background: transparent; border: none; text-align: start; text-decoration: underline; cursor: pointer; font: inherit; }
 
 /* The explorer and the research tools share the same navigation landmarks. */
 @media screen {

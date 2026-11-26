@@ -26,4 +26,24 @@ for(const s of store.catalog.standards){check({q:s.code});states++;}
 const all=check({});assert.equal((all.match(/data-standard=/g)||[]).length,435);
 assert(all.includes('학년군과 과목 바로 선택'));
 check({q:'<script>not-a-standard</script>'});
-console.log(JSON.stringify({status:'pass',standards:435,states,checks:'all standards without pagination loss, school/band/domain grouping, unique codes, all subjects, filters, code search, expanded and compact views'}));
+const {resolveView}=await import('../dist/modules/route-views.mjs');
+const modern=resolveView('#view=standard&code=6수01-10','reader');
+assert.equal(modern.entry,'reader');
+assert.equal(modern.params.get('code'),'6수01-10');
+const manuscript=resolveView('#view=standard&code=6수01-10&section=paths','reader');
+assert.equal(manuscript.entry,'legacy');
+assert.equal(manuscript.params.get('section'),'paths');
+const oldCatalog=resolveView('#view=map&scope=e&q=분수&display=compact','legacy');
+assert.equal(oldCatalog.entry,'reader');
+assert.deepEqual(Object.fromEntries(oldCatalog.params),
+ {view:'catalog',scope:'e',q:'분수',display:'compact',list:'1'});
+const overview=resolveView('#view=overview','legacy');
+assert.equal(overview.params.get('mode'),'structure');
+assert.equal(overview.menu,'network');
+assert.equal(resolveView('#view=overview&mode=flow','legacy').params.get('mode'),'flow');
+assert.equal(resolveView('#view=explore&relation=L014','legacy').params.get('relation'),'L014');
+assert.equal(resolveView('#view=unknown','legacy').menu,'network');
+const sources=await store.sources();
+assert.deepEqual(sources,(await store.connections()).sources);
+assert.equal(new Set(sources.map(s=>s.id)).size,sources.length);
+console.log(JSON.stringify({status:'pass',standards:435,states,sources:sources.length,checks:'all standards without pagination loss, school/band/domain grouping, unique codes, all subjects, filters, code search, expanded and compact views, legacy routes, sources index parity'}));

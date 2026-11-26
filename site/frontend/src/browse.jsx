@@ -3,7 +3,7 @@ import { flushSync } from "react-dom";
 import { ArrowRight, BookOpenText, ChevronDown, ChevronLeft, ChevronRight, Circle, GalleryHorizontalEnd, List, ListFilter, Sigma, Triangle, Search, Waypoints, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
-import { bandOf, categories, oldRoute, route, scopeId, schools, search, selection, standardRoute, unique } from "./curriculum";
+import { bandOf, categories, oldRoute, overviewRoute, route, scopeId, schools, search, selection, standardRoute, unique } from "./curriculum";
 import { LoadState, Pdf, StandardRow, useContent } from "./shared";
 import { ConnectionPreview } from "./connection-preview";
 import "./browse-journey.css";
@@ -11,11 +11,6 @@ import "./browse-journey.css";
 const pageSize = 24;
 const allRanges = { scope: "", band: "", domain: "", category: "" };
 const schoolIcons = { e: Circle, m: Triangle, h: Sigma };
-
-function schoolEntry(standards, school) {
-  const bands = unique(selection(standards, school.id).map(bandOf));
-  return route("catalog", { scope: school.id, band: bands.length === 1 ? bands[0] : "", stage: "overview" });
-}
 
 function EntryPoints({ standards, onOpen }) {
   return <nav className="atlas-school-grid" aria-label="학교급 선택">
@@ -25,7 +20,7 @@ function EntryPoints({ standards, onOpen }) {
         const range = school.id === "h" ? `${bands.length}개 과목` : bands.join(" · ").replaceAll("학년군 · ", " · ");
         const Icon = schoolIcons[school.id];
         return <a id={"school-" + school.id} className="atlas-school-entry" key={school.id}
-          href={schoolEntry(standards, school)} onClick={onOpen}>
+          href={overviewRoute(standards, school.id)} onClick={onOpen}>
           <div className="atlas-entry-symbol" aria-hidden="true"><Icon size={23} strokeWidth={1.6} /></div>
           <div className="atlas-school-title"><h2>{school.title}</h2><ArrowRight size={19} aria-hidden="true" /></div>
           <p><span>{range}</span><span className="atlas-count-divider" aria-hidden="true">/</span><span>성취기준 {rows.length}개</span></p>
@@ -250,11 +245,12 @@ export function Browse({ catalog, params, go, onOpen }) {
   const domain = params.get("domain") || "";
   const category = params.get("category") || "";
   const q = params.get("q") || "";
+  const compact = params.get("display") === "compact";
   const tab = params.get("tab") === "structure" ? "structure" : "standards";
   const [draft, setDraft] = useState(q);
   const composing = useRef(false);
   const resultsTitle = useRef(null);
-  const values = { scope, band, domain, category, q, tab: tab === "structure" ? tab : "" };
+  const values = { scope, band, domain, category, q, display: compact ? "compact" : "", tab: tab === "structure" ? tab : "" };
   const selected = selection(standards, scope, band, domain, category);
   const matches = search(selected, q);
   const pageCount = Math.max(1, Math.ceil(matches.length / pageSize));
@@ -313,7 +309,8 @@ export function Browse({ catalog, params, go, onOpen }) {
   const title = tab === "structure" ? "공식 내용 체계" : q ? `‘${q}’ 검색 결과` : "성취기준 목록";
   const readingTitle = overview ? [school, band].filter(Boolean).join(" ") : domain || band || school || title;
   const heading = home ? "어느 학교급의 수학을 보시나요?" : readingTitle;
-  const scopeLink = schools.find((entry) => entry.id === scope);
+  const schoolOverview = schools.some((entry) => entry.id === scope) && overviewRoute(standards, scope);
+  const bandOverview = schoolOverview && band && overviewRoute(standards, scope, band);
 
   return <div className="browse-journey">
     <section className={home ? "journey-hero journey-home" : "journey-hero journey-compact"}>
@@ -322,10 +319,10 @@ export function Browse({ catalog, params, go, onOpen }) {
           {home ? <p className="journey-edition"><span aria-hidden="true" />2022 개정 수학과 교육과정</p>
             : <nav className="journey-trail" aria-label="탐색 위치">
               <a id="trail-home" href={route("catalog")} onClick={onOpen}>탐색 홈</a>
-              {scopeLink && (!overview || band) && <><ChevronRight size={14} aria-hidden="true" /><a id="trail-school"
-                href={route("catalog", { scope, stage: "overview" })} onClick={onOpen}>{school}</a></>}
-              {scopeLink && band && !overview && <><ChevronRight size={14} aria-hidden="true" /><a id="trail-band"
-                href={route("catalog", { scope, band, stage: "overview" })} onClick={onOpen}>{band}</a></>}
+              {schoolOverview && (!overview || (bandOverview && bandOverview !== schoolOverview)) && <><ChevronRight size={14} aria-hidden="true" /><a id="trail-school"
+                href={schoolOverview} onClick={onOpen}>{school}</a></>}
+              {bandOverview && bandOverview !== schoolOverview && !overview && <><ChevronRight size={14} aria-hidden="true" /><a id="trail-band"
+                href={bandOverview} onClick={onOpen}>{band}</a></>}
             </nav>}
           <h1 ref={headingRef} tabIndex={-1}>{heading}</h1>
           {home && <><EntryPoints standards={standards} onOpen={onOpen} />
@@ -373,6 +370,9 @@ export function Browse({ catalog, params, go, onOpen }) {
             </p>}
           </div>
           <nav className="journey-related-tools screen-only" aria-label="다른 교육과정 자료">
+            {tab === "standards" && <a id="browse-display" href={route("catalog", {
+              ...values, list: 1, page: page > 1 ? page : "", display: compact ? "" : "compact",
+            })} onClick={onOpen}>{compact ? "원문 함께 보기" : "간단히 보기"}</a>}
             <a id="browse-tab" href={route("catalog", { ...values, tab: tab === "standards" ? "structure" : "", list: tab === "structure" ? 1 : "" })} onClick={onOpen}>
               {tab === "standards" ? "공식 내용 체계" : "성취기준 목록"}
             </a>
@@ -391,7 +391,7 @@ export function Browse({ catalog, params, go, onOpen }) {
         {q.trim() && tab === "standards" && <SearchConcepts version={catalog.version} query={q} selected={selected} scope={scope} />}
         {tab === "standards" ? <>
           {shown.length ? <ul className="standard-list journey-list">
-            {shown.map((standard) => <StandardRow key={standard.code} standard={standard} onOpen={onOpen} scope={scope} />)}
+            {shown.map((standard) => <StandardRow key={standard.code} standard={standard} onOpen={onOpen} scope={scope} compact={compact} />)}
           </ul> : <div className="empty-state">
             <h3>조건에 맞는 성취기준이 없습니다.</h3>
             <p>다른 개념이나 성취기준 코드로 검색해 보세요.</p>

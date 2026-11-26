@@ -1,6 +1,6 @@
 # 개발과 검증
 
-2026년 11월 20일 기준. 명령은 프로젝트 루트에서 실행한다. 화면 조작은 사용자 가이드에서, 배포 절차는 GitHub 안내에서 설명한다. [사용자 가이드](USER_GUIDE.md) · [GitHub 배포](GITHUB.md#github-pages-자동-배포)
+2026년 11월 19일 기준. 명령은 프로젝트 루트에서 실행한다. 데이터의 역할은 [구조 문서](ARCHITECTURE.md), 연구 편집 원칙은 [분석 규칙](분석규칙.md)을 참고한다.
 
 ## 실행 환경
 
@@ -56,8 +56,6 @@ Git에 올리는 스냅샷에서는 기준 PDF를 제외한다. 원본 작업 �
 | 관계 설명·근거 | `relations.json`과 관련 관계 검토 원장을 함께 확인한다. 자동 생성되는 `revised_relations.json`만 수정하지 않는다. |
 | 문헌 근거 | 출처·실제 읽은 위치·지원 범위·한계·대상 내용 해시를 함께 갱신한다. |
 | 포털 화면 | GitHub용 탐색·비교·읽기 화면의 원본은 `site/frontend/`다. 기존 연결망·과제·전체 분석은 저술 환경의 HTML과 모듈에서 관리한다. 두 UI를 함께 내보내려면 아래 빌드와 스냅샷 갱신 절차를 사용한다. |
-
-문서만 바꾸는 경우에는 링크 검사를 실행한다. 화면을 수정하면 탐색기 빌드, 로컬 화면 확인, 스냅샷 검증까지 진행한다. 연구 원장을 수정하면 해당 내용 검사와 포털 데이터 생성을 거친 후 스냅샷을 내보낸다. [데이터 편집 위치](DATA.md) · [스냅샷 갱신](#github-스냅샷-갱신)
 
 `author_*`, `record_*`, `extend_*`, `correct_*`, `integrate_*` 파일 중에는 특정 시점의 자료를 작성·교체하는 일회성 스크립트가 있다. 이름 목록 전체를 순서대로 실행하는 설치 과정은 없다. 기존 JSON과 검토 이력이 입력인지 출력인지 먼저 읽는다.
 
@@ -148,6 +146,8 @@ python scripts/export_portal_snapshot.py --help
 
 이 도구는 수정한 원장으로 포털을 재생성하지 않는다. 데이터 편집 후에는 원본 저술 환경에서 생성·검증을 먼저 끝내고 스냅샷을 갱신한다. `site/dist/`에서 직접 수정한 앱 코드도 원본에 반영한 뒤 새 목적지로 내보낸다. 검토한 `dist/`, `tests/`와 그에 대응하는 `snapshot.json`을 함께 반영하고 `python scripts/export_portal_snapshot.py --verify`와 관련 Node 검사를 통과해야 갱신이 끝난다. 파일만 수정하고 예전 해시 목록을 남기면 CI가 실패한다. 스냅샷 출력 이후에도 자동으로 GitHub push나 Sites 재배포를 수행하지 않는다.
 
+GitHub용 탐색기가 포함된 스냅샷은 내보낼 때 기준별 관계 파일을 공통 `content/sources.json`에 연결한다. 카탈로그의 `resourceRoot`는 파일 배치에 따라 달라질 수 있다. 자료 판본은 카탈로그의 `version`으로 확인한다. 기존 판본을 읽을 때는 관계 파일에 포함된 출처를 사용한다. [출처 공유 검증](VERIFICATION.md#2026년-11월-26일-기준별-관계-파일의-출처-공유)
+
 스냅샷의 `source_commit`은 원본 작업본이 깨끗한 경우에만 기록한다. 미커밋 변경이 있으면 `source_commit=null`로 두고 `source_base_commit`과 `source_worktree_clean=false`를 기록한다. 이 경우 실제 복사 범위는 파일별 SHA256으로 확인하며, 기준 커밋의 파일과 모두 같다고 주장하지 않는다.
 
 ### GitHub용 교육과정 탐색기 빌드
@@ -161,4 +161,4 @@ python scripts/export_portal_snapshot.py --frontend tmp/curriculum-explorer-buil
 python scripts/export_portal_snapshot.py --verify --output tmp/curriculum-explorer-review
 ```
 
-`--frontend`는 React 진입점과 번들을 추가한다. 기존 전체 상세와 연구 도구는 `legacy.html`에서 열고, 공식 내용 체계 색인은 두 원장에서 생성한다. 연결망·목표·과제·자료 안내·분포 탐구·탐구 기록지의 공통 탐색과 스타일은 `site/frontend/compat/`에서 수정한다. React 화면과 기존 화면은 `atlas-tokens.css`의 색과 글꼴, `atlas-page.css`의 페이지 제목, `atlas-print.css`의 인쇄 규칙을 공유한다. 검사한 새 스냅샷의 `dist/`, `tests/`, `snapshot.json`을 함께 반영한다. Sites와 GitHub Pages의 공개 콘텐츠 판본은 각 환경의 게시 기록을 기준으로 확인한다.
+`--frontend`는 React 진입점과 번들을 추가한다. 기존 전체 상세와 연구 도구는 `legacy.html`에서 열고, 공식 내용 체계 색인은 두 원장에서 생성한다. 연결망·목표·과제·자료 안내·분포 탐구·탐구 기록지의 공통 탐색과 스타일은 `site/frontend/compat/`에서 수정한다. 연결망의 도구 모음과 필터, 목표와 과제의 화면 배치는 `portal-ui.js`와 `atlas-workspace.css`에서 관리한다. React 화면과 기존 화면은 `atlas-tokens.css`의 색과 글꼴, `atlas-page.css`의 페이지 제목, `atlas-print.css`의 인쇄 규칙을 공유한다. 검사한 새 스냅샷의 `dist/`, `tests/`, `snapshot.json`을 함께 반영한다. Sites와 GitHub Pages의 공개 콘텐츠 판본은 각 환경의 게시 기록을 기준으로 확인한다.

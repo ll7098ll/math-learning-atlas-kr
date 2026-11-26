@@ -154,6 +154,7 @@ def main():
     index_standards = [{**s, 'searchTerms': ' '.join(words.get(s['code'], []))} for s in standards]
     resource_root = f'content/versions/{version}/'
     write_json(OUT / 'content' / 'catalog.json', {'version': version, 'resourceRoot': resource_root, 'meta': data['meta'], 'standards': index_standards})
+    write_json(OUT / 'content' / 'sources.json', {'version': version, 'sources': data['sources']})
     write_json(OUT / 'content' / 'connections.json', {'version': version, 'relations': relations, 'sources': data['sources'], 'hierarchy': data['hierarchy']})
     pilot_ids = {rid for m in data['hierarchy']['maps'] for c in m['claims'] for rid in c['original_relation_ids']}
     pilot_relations = [r for r in relations if r['id'] in pilot_ids]

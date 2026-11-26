@@ -1,4 +1,4 @@
-import {standard, standardConnections} from './store.mjs';
+import {inScope, standard, standardRelations} from './store.mjs';
 import {esc,url} from './ui.mjs';
 
 // The URL holds a discovery tree and any additional edges the visitor traversed.
@@ -9,20 +9,21 @@ export function extendWalk(walk, from, to) {
 }
 export async function readWalk(params,current) {
   const saved=params.get('walk');
+  const scope=params.get('scope')||'all';
   const legacy=(params.get('trail')||'').split(',').filter(Boolean);
   const steps=saved?saved.split(','):[...legacy,current].map((c,i)=>i?(i-1)+':'+c:c);
   const root=steps.shift();
   const empty=()=>({codes:[current],edges:[],pairs:new Set(),encoded:current});
-  if(!standard(root)||!steps.length)return empty();
+  if(!inScope(standard(root),scope)||!steps.length)return empty();
   const codes=[root],edges=[],pairs=new Set(),tokens=[root];
   const sources=new Map();
   for(const step of steps){
     const [index,to]=step.split(':');
     const from=codes[index];
-    if(!/^\d+$/.test(index)||!from||!standard(to)||from===to)break;
+    if(!/^\d+$/.test(index)||!from||!inScope(standard(to),scope)||from===to)break;
     const key=pair(from,to);
     if(pairs.has(key))continue;
-    if(!sources.has(from))sources.set(from,(await standardConnections(from)).relations);
+    if(!sources.has(from))sources.set(from,(await standardRelations(from)).relations);
     const records=sources.get(from).filter(r=>
       (r.from==='standard:'+from&&r.to==='standard:'+to)||(r.from==='standard:'+to&&r.to==='standard:'+from));
     if(!records.length)break;
@@ -42,10 +43,14 @@ export function drawWalk(walk,current,neighbors,values,reasonPanel) {
     nodes.set(code,n);return n;
   }
   const origin=add(walk.codes[0],0);
+  const parents=new Map();
   const links=edges.map(edge=>{
     const parent=nodes.get(edge.from);
     const cross=nodes.has(edge.to);
-    if(!cross)parent.children.push(add(edge.to,parent.depth+1));
+    if(!cross){
+      parent.children.push(add(edge.to,parent.depth+1));
+      parents.set(edge.to,edge.from);
+    }
     return {...edge,cross};
   });
   let leaves=0;
@@ -55,11 +60,20 @@ export function drawWalk(walk,current,neighbors,values,reasonPanel) {
     node.y=23+node.depth*134;
   }
   place(origin);
+  const route=[];
+  for(let code=current.code;code;code=parents.get(code))route.unshift(code);
+  const onRoute=new Set(route.slice(1));
+  const stops=route.map((code,i)=>i===route.length-1
+    ? `<strong aria-current="location">${esc(standard(code).title)}</strong>`
+    : `<a href="${esc(url('network',{...values,node:code,walk:walk.encoded}))}">${esc(standard(code).title)}</a>`
+  ).join('<span aria-hidden="true">›</span>');
+  const location=route.length<=3?stops:`<details><summary>${esc(standard(route[0]).title)} › … › <strong>${esc(current.title)}</strong></summary><div>${stops}</div></details>`;
   const crossCount=links.filter(e=>e.cross).length;
   const width=leaves*100+crossCount*38;
   const height=Math.max(...[...nodes.values()].map(n=>n.y))+82;
   let lane=0;
   const panels=[];
+  const choices=[];
   const lines=links.map(({from,to,records,fresh,cross},i)=>{
     const a=nodes.get(from),b=nodes.get(to);
     let path,mx,my;
@@ -74,10 +88,11 @@ export function drawWalk(walk,current,neighbors,values,reasonPanel) {
     }
     const title=standard(from).title+' · '+standard(to).title;
     panels.push(reasonPanel(i,title,records));
-    return `<g class="local-edge ${fresh?'walk-option':'walk-used'}" role="button" tabindex="0" data-from="${esc(from)}" data-to="${esc(to)}" aria-expanded="false" aria-controls="local-reason-${i}" aria-label="${esc(title)} 연결 이유">
+    if(from===current.code||to===current.code)choices.push({index:i,title:standard(from===current.code?to:from).title});
+    const routeEdge=!fresh&&!cross&&onRoute.has(to);
+    return `<g class="local-edge ${fresh?'walk-option':'walk-used'}${routeEdge?' walk-route':''}" role="button" tabindex="0" data-from="${esc(from)}" data-to="${esc(to)}" aria-expanded="false" aria-controls="local-reason-${i}" aria-label="${esc(title)} 연결 이유">
       <path class="edge-hit" d="${path}"/><path class="edge-ink" d="${path}"/>
-      <circle class="edge-hit-disc" cx="${mx}" cy="${my}" r="20"/><circle class="edge-mark" cx="${mx}" cy="${my}" r="10"/>
-      <text x="${mx}" y="${my}" dy=".35em" text-anchor="middle" aria-hidden="true">?</text></g>`;
+      <circle class="edge-hit-disc" cx="${mx}" cy="${my}" r="20"/></g>`;
   });
   const candidates=new Set(neighbors.map(n=>n.target.code));
   const dots=[...nodes.values()].map(({code,x,y})=>{
@@ -89,7 +104,7 @@ export function drawWalk(walk,current,neighbors,values,reasonPanel) {
     return `<${tag} ${attrs} class="walk-dot ${active?'walk-active':visited?'walk-visited':'walk-new'}" data-code="${esc(code)}" ${first?'data-origin':''} style="left:${x/width*100}%;top:${y}px" title="${esc(s.title)} · ${esc(code)}">
       <i aria-hidden="true"></i><span><small>${label}</small><strong>${esc(s.title)}</strong></span></${tag}>`;
   });
-  return {panels:panels.join(''),board:`<div class="walk-board" tabindex="0" role="region" aria-label="따라온 길과 새 연결 지도">
+  return {panels:panels.join(''),choices,location:`<nav class="walk-location" aria-label="출발점에서 현재 위치까지"><small>출발점에서 현재 위치까지</small><div>${location}</div></nav>`,board:`<div class="walk-board" tabindex="0" role="region" aria-label="따라온 길과 새 연결 지도">
     <div class="walk-canvas" style="--lanes:${width/100};height:${height}px"><svg class="local-lines" viewBox="0 0 ${width} ${height}" width="100%" height="100%" preserveAspectRatio="none" aria-label="연결 이유를 여는 선">${lines.join('')}</svg>${dots.join('')}</div></div>
     <div class="walk-tools"><button type="button" data-locate="origin">출발점 찾기 · ${esc(standard(origin.code).title)}</button><button type="button" data-locate="active">지금 보는 점 찾기</button></div>`};
 }

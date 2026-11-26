@@ -1,4 +1,4 @@
-import {catalog,conceptFlows,connections,types} from './store.mjs';
+import {catalog,conceptFlows,connections,types,inScope} from './store.mjs';
 import {esc,url,overviewModes} from './ui.mjs';
 import {buildNetwork,selectNetwork,traceExpansion} from './network-model.mjs';
 
@@ -10,9 +10,10 @@ const cameras=new Map();
 export async function networkPage(p=new URLSearchParams()){
  if(p.get('mapMode')!=='full' && !['q','domain','strand','relation'].some(key=>p.get(key))) return guidedMap(p);
  const [f,c]=await Promise.all([conceptFlows(),connections()]);flows=f;
- const scope=p.get('scope')||'all',allowed={e:['초등학교'],m:['중학교'],h:['고등학교']}[scope];
- model=buildNetwork({...catalog,standards:catalog.standards.filter(s=>!allowed||allowed.includes(s.level))},f,c);if(allowed)layoutInternalNetwork(model);
- return `<section class="atlas-network"><div class="network-intro"><div><p class="eyebrow">THE MATHEMATICS NETWORK</p><h1 tabindex="-1">수학은 어떻게 이어지는가</h1><p>선택한 학교급의 성취기준과 내부 연결을 하나의 연결망으로. 왼쪽에서 오른쪽으로 교육과정의 단계와 개념의 확장을 따라가세요.</p></div><a class="text-link" href="#view=hierarchy">전체 개념군 연결과 위계 ↗</a></div>${overviewModes('network')}
+ const scope=p.get('scope')||'all';
+ model=buildNetwork({...catalog,standards:catalog.standards.filter(s=>inScope(s,scope))},f,c);
+ if(['e','m','h'].includes(scope))layoutInternalNetwork(model);
+ return `<section class="atlas-network"><div class="network-intro"><div><p class="eyebrow">THE MATHEMATICS NETWORK</p><h1 tabindex="-1">${p.get("node")&&model.byCode.has(p.get("node"))?"이 기준의 연결 지도":"수학 연결 지도"}</h1><p>선택한 학교급의 성취기준과 내부 연결을 하나의 연결망으로. 왼쪽에서 오른쪽으로 교육과정의 단계와 개념의 확장을 따라가세요.</p></div><a class="text-link" href="#view=hierarchy">전체 개념군 연결과 위계 ↗</a></div>${overviewModes('network')}<a class="guide-mode-link" href="${url('network',{scope,node:p.get('node')})}">학년·개념으로 연결 따라가기</a>
  <form class="atlas-controls" aria-label="연결망 탐색"><label class="atlas-search">노드 찾기<input name="query" type="search" placeholder="분수, 비율 또는 성취기준 코드" autocomplete="off"></label><label>내용 영역<select name="domain"><option value="">모든 영역</option>${model.bands.map(b=>`<option>${esc(b.domain)}</option>`).join('')}</select></label><label>개념<select name="strand"><option value="">46개 개념 전체</option>${f.strands.map(s=>`<option value="${esc(s.id)}">${esc(s.title)}</option>`).join('')}</select></label><label>연결선<select name="relation"><option value="all">전체 연결</option><option value="generalizes">의미 확장</option><option value="requires_for_task">과제별 필요 조건</option><option value="meaning_connection">의미 연결</option><option value="contrasts">대조</option></select></label><button type="button" class="button" data-action="reset">초기화</button></form>
  <div class="atlas-summary" role="status" aria-live="polite"></div>
  <div class="atlas-workspace"><div class="atlas-stage"><div class="atlas-axis" aria-label="교육과정 단계">${model.stages.map((s,i)=>`<span>${esc(s.title)}${i<model.stages.length-1?' <b aria-hidden="true">→</b>':''}</span>`).join('')}</div><svg class="atlas-svg" role="group" tabindex="0" aria-label="전체 수학 연결망. 방향키로 이동, 더하기와 빼기로 확대 축소, 0으로 전체 보기. 노드를 선택하면 연결을 강조합니다."><defs><marker id="atlas-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="context-stroke"/></marker></defs><g class="atlas-world"></g></svg><div class="atlas-tooltip" hidden></div><div class="atlas-tools"><button type="button" data-action="in" aria-label="연결망 확대">＋</button><button type="button" data-action="out" aria-label="연결망 축소">−</button><button type="button" data-action="fit">전체 맞춤</button><button type="button" data-action="focus">선택 연결 맞춤</button><button type="button" data-action="expand" aria-pressed="false">크게 보기</button><output class="atlas-zoom" aria-label="확대 비율">100%</output></div><p class="atlas-help">드래그로 이동 · 휠 / 두 손가락으로 확대 · 노드를 눌러 연결 탐색</p></div><aside class="atlas-inspector" aria-label="선택한 노드 정보"></aside></div>
@@ -46,6 +47,20 @@ export function mountNetwork(p,root,onRouteChange=()=>{}){
   const params={mapMode:'full',scope:globalThis.atlasSchoolScope||'all',node:state.selected,q:state.query,domain:state.domain,strand:state.strand,relation:state.relation==='all'?'':state.relation};
   if(p.has('resume'))params.resume=p.get('resume');
   const hash=url('network',params);history.replaceState(history.state,'',hash);onRouteChange(hash);cameras.set(hash,{...camera});
+  const guide=host.querySelector('.guide-mode-link');
+  const resume=new URLSearchParams(p.get('resume')||'');
+  const sameCenter=state.selected && resume.get('node')===state.selected;
+  const back={scope:sameCenter?resume.get('scope')||params.scope:params.scope,node:state.selected};
+  if(sameCenter)for(const key of ['band','concept','walk','trail','page'])back[key]=resume.get(key);
+  guide.href=url('network',back);
+  const label=back.walk||back.trail?'내가 따라온 길로 돌아가기':'학년·개념으로 연결 따라가기';
+  if(guide.textContent!==label)guide.textContent=label;
+  const heading=host.querySelector('h1');
+  const title=state.selected?'이 기준의 연결 지도':'수학 연결 지도';
+  if(heading.textContent!==title){
+   heading.textContent=title;
+   document.title=title+' · 수학의 연결 지도';
+  }
   try{sessionStorage.setItem('atlas-return',hash);sessionStorage.setItem('atlas-network-camera',JSON.stringify({hash,camera}));}catch{}
  }
  function drawCamera(){
