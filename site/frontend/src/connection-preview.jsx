@@ -14,7 +14,7 @@ export function ConnectionPreview() {
       <a id="map-start-rational" href={oldRoute("network", { scope: "all", node: "9수01-03" })}><small>중학교</small>양수·음수와 유리수</a>
     </div>
     <div className="map-preview-actions">
-      <a id="home-map" href={oldRoute("network", { scope: "all" })}>전체 연결 지도 열기 <ArrowRight size={16} aria-hidden="true" /></a>
+      <a id="home-map" href={oldRoute("network", { scope: "all" })}>학년·개념으로 지도 열기 <ArrowRight size={16} aria-hidden="true" /></a>
       <a id="fraction-decimal-preview" href={oldRoute("hierarchy", { concept: "fraction", scope: "em", mode: "expansion", target: "6수01-10", relation: "L014" })}>두 기준이 이어지는 이유 <ArrowUpRight size={15} aria-hidden="true" /></a>
     </div>
   </section>;

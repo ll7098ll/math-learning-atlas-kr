@@ -3,10 +3,12 @@ import {esc,url,overviewModes} from './ui.mjs';
 import {buildNetwork,selectNetwork,traceExpansion} from './network-model.mjs';
 
 import {layoutInternalNetwork} from './internal-layout.mjs';
+import {guidedMap, mountGuidedMap} from './guided-map.mjs';
 const palette=['#6ce1cc','#8cafff','#f3bd72','#d59cf5','#f490ab'];
 let model,flows;
 const cameras=new Map();
 export async function networkPage(p=new URLSearchParams()){
+ if(p.get('mapMode')!=='full' && !['q','domain','strand','relation'].some(key=>p.get(key))) return guidedMap(p);
  const [f,c]=await Promise.all([conceptFlows(),connections()]);flows=f;
  const scope=p.get('scope')||'all',allowed={e:['초등학교'],m:['중학교'],h:['고등학교']}[scope];
  model=buildNetwork({...catalog,standards:catalog.standards.filter(s=>!allowed||allowed.includes(s.level))},f,c);if(allowed)layoutInternalNetwork(model);
@@ -25,6 +27,7 @@ function curve(a,b,index){
 }
 
 export function mountNetwork(p,root,onRouteChange=()=>{}){
+ if(root.querySelector('.guided-map')) return mountGuidedMap(root);
  const host=root.querySelector('.atlas-network'),form=host.querySelector('form'),svg=host.querySelector('svg.atlas-svg'),world=svg.querySelector('.atlas-world'),inspector=host.querySelector('.atlas-inspector'),workspace=host.querySelector('.atlas-workspace'),tooltip=host.querySelector('.atlas-tooltip');
  const state={query:p.get('q')||'',domain:p.get('domain')||'',strand:p.get('strand')||'',relation:p.get('relation')||'all',selected:p.get('node')||''};
  for(const name of ['query','domain','strand','relation']){form.elements[name].value=state[name];if(form.elements[name].value!==state[name])state[name]=form.elements[name].value;}
@@ -40,7 +43,7 @@ export function mountNetwork(p,root,onRouteChange=()=>{}){
  const edgeEls=new Map([...world.querySelectorAll('[data-edge]')].map(el=>[el.dataset.edge,el]));
 
  function save(){
-  const params={scope:globalThis.atlasSchoolScope||'all',node:state.selected,q:state.query,domain:state.domain,strand:state.strand,relation:state.relation==='all'?'':state.relation};
+  const params={mapMode:'full',scope:globalThis.atlasSchoolScope||'all',node:state.selected,q:state.query,domain:state.domain,strand:state.strand,relation:state.relation==='all'?'':state.relation};
   const hash=url('network',params);history.replaceState(history.state,'',hash);onRouteChange(hash);cameras.set(hash,{...camera});
   try{sessionStorage.setItem('atlas-return',hash);sessionStorage.setItem('atlas-network-camera',JSON.stringify({hash,camera}));}catch{}
  }

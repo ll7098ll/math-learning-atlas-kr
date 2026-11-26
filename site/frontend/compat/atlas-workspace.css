@@ -234,3 +234,37 @@
   .atlas-map-examples a:hover { background: #e5eeea; }
   .atlas-network > .atlas-path { display: flex; flex-wrap: wrap; }
 }
+.guided-map { max-width: 64rem; margin: 0 auto 3rem; }
+.guided-map .page-heading { margin-bottom: 1rem; }
+.guide-mode-link, .guide-next, .guide-more, .guide-example a, .guide-center a { display: inline-flex; align-items: center; min-height: 2.75rem; font-weight: 700; color: #185459; }
+.guide-mode-link { padding: .35rem 1rem; border: 1px solid #8cadaa; border-radius: .45rem; margin-block: .35rem; }
+.guide-pickers { padding: 1rem; background: #e8efea; border-radius: .7rem; display: flex; flex-wrap: wrap; align-items: end; gap: 1rem; }
+.guide-pickers label { display: grid; gap: .35rem; flex: 1 1 13rem; min-width: 0; font-weight: 700; }
+.guide-pickers select { width: 100%; min-height: 2.8rem; background: white; color: #173d40; padding: .4rem; }
+.guide-pickers a, .guide-trail a { padding-block: .6rem; color: #245657; text-decoration: underline; }
+.guide-example, .guide-trail { display: flex; flex-wrap: wrap; gap: .4rem 1rem; align-items: center; margin: 1rem 0; }
+.guide-trail { font-size: .88rem; }
+.guide-center { background: #19484b; color: #fff; padding: 1.1rem 1.35rem; border-radius: .65rem; }
+.guided-map .guide-center :is(h2,p,small,a) { color: inherit; }
+.guided-map .guide-results h2 { margin: 1.25rem 0 .55rem; font-size: 1.32rem; }
+.guided-map .guide-center h2 { margin-top: .35rem; }
+.guide-center a { text-decoration: underline; }
+.guide-starts, .guide-branches { padding: 0; list-style: none; }
+.guide-starts { display: grid; grid-template-columns: repeat(auto-fit,minmax(min(100%,15rem),1fr)); gap: .7rem; }
+.guide-starts a, .guide-branches > li { background: #fff; border: 1px solid #c7d4cc; border-radius: .55rem; padding: 1rem; }
+.guide-starts a { display: grid; gap: .4rem; height: 100%; color: #19484b; }
+.guide-starts span { color: #336a65; font-size: .88rem; }
+.guided-map small { font-size: .84rem; }
+.guide-branches { margin-left: .5rem; padding-left: 1.2rem; border-left: 2px solid #8bb7ac; }
+.guide-branches > li { position: relative; margin-bottom: .8rem; }
+.guide-branches > li::before { content: ""; position: absolute; top: 1.6rem; right: 100%; width: 1.2rem; border-top: 2px solid #8bb7ac; }
+.guide-branches h3 { margin: .25rem 0 .5rem; font-size: 1.13rem; }
+.guide-branches p { max-width: 76ch; line-height: 1.65; }
+.guide-direction { color: #455b5b; font-size: .88rem; }
+.guide-direction b { color: #155c53; }
+.guide-branches summary { cursor: pointer; padding: .45rem 0; }
+.guide-next { margin-top: .4rem; text-decoration: underline; }
+.atlas-compat .guided-map > .page-heading.atlas-page-header { display: block; }
+.guided-map > .page-heading p { margin: .5rem 0; }
+.guided-map > .atlas-return { display: inline-flex; margin-inline-end: 1rem; }
+.guided-map :is(h2,h3,select,.guide-starts a) { scroll-margin-block: 6rem 1rem; }

@@ -182,6 +182,10 @@
     const heading = main.querySelector(".atlas-page-header");
     if (!heading) return;
     const old = heading.parentElement.querySelector(":scope > .atlas-context-return");
+    if (parent && heading.closest(".guided-map") && new URLSearchParams(new URL(parent.href).hash.slice(1)).get("view") === "network") {
+      old?.remove();
+      return;
+    }
     if (!parent || samePortalURL(old?.href, parent.href)) return;
     old?.remove();
     const link = document.createElement("a");
@@ -303,6 +307,7 @@
     for (const [target, mode, label] of modes) {
       const link = document.createElement("a");
       const values = new URLSearchParams({ view: target });
+      if (target === "network") values.set("mapMode", "full");
       if (params.get("scope")) values.set("scope", params.get("scope"));
       if (mode) values.set("mode", mode === "expanded" ? "structure" : mode);
       if (mode === "expanded") values.set("density", "expanded");
@@ -341,7 +346,7 @@
     }
     const sectionName = tool ? (page === "distribution-lab" ? "분포 탐구" : "탐구 기록지")
       : view === "standard" ? "전체 상세 분석" : view === "connections" ? "연결 근거"
-      : view === "network" ? (params.has("node") ? "선택한 기준의 연결" : "전체 연결망")
+      : view === "network" ? (main.querySelector(".guided-map") ? "기준 하나씩 보기" : params.has("node") ? "선택한 기준의 연결" : "전체 연결망")
       : view === "hierarchy" ? ({ goals: "목표에 필요한 것과 쓰이는 곳", tasks: "수업 과제와 풀이" }[params.get("mode")]
         || (params.has("concept") || params.has("map") ? "개념의 연결" : "수학 개념 찾기"))
       : view === "overview" ? (params.get("mode") === "structure" ? "학교급별 성취기준" : "개념 흐름")
@@ -364,6 +369,7 @@
       if (current) current.textContent = sectionName;
     }
     if (tool || view === "standard" || view === "about") return;
+    if (main.querySelector(".guided-map")) return;
     const menu = sectionNavigation(params);
     const oldMenu = main.querySelector(".atlas-path");
     if (oldMenu?.dataset.route === params.toString()) return;
@@ -435,6 +441,13 @@
     let related = workspace.querySelector(".atlas-related-toggle");
     if (!related) {
       const form = network.querySelector(".atlas-controls");
+      const guided = document.createElement("a");
+      guided.className = "guide-mode-link";
+      const back = new URLSearchParams({view: "network", scope: route().get("scope") || "all"});
+      if (route().has("node")) back.set("node", route().get("node"));
+      guided.href = "#" + back;
+      guided.textContent = "학년·개념으로 연결 따라가기";
+      form.before(guided);
       const intro = network.querySelector(".network-intro h1 + p");
       if (intro) intro.textContent = "점 하나가 성취기준 하나입니다. 점을 선택해 이어진 기준을 보고, ‘연결 근거’에서 두 기준이 이어지는 이유를 읽어 보세요.";
       const conceptLink = network.querySelector(".network-intro > a");
