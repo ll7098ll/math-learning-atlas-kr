@@ -1,42 +1,7 @@
-export const schools = [
-  { id: "e", title: "초등학교", description: "1~2 · 3~4 · 5~6학년군" },
-  { id: "m", title: "중학교", description: "1~3학년군" },
-  { id: "h", title: "고등학교", description: "공통 · 일반 선택 · 진로 선택 · 융합 선택" },
-];
+import { bandOf, selection, unique } from "../compat/modules/catalog-model.mjs";
+export { bandOf, catalogPageRows, groupStandards, inScope, schools, scopeId, search, selection, unique } from "../compat/modules/catalog-model.mjs";
 
 export const categories = ["핵심 아이디어", "지식·이해", "과정·기능", "가치·태도"];
-export const scopeId = (standard) => schools.find((school) => school.title === standard.level)?.id;
-export const bandOf = (standard) => scopeId(standard) === "h" ? standard.subject : standard.band;
-export const unique = (values) => [...new Set(values)];
-
-export function inScope(standard, scope) {
-  return !["e", "m", "h", "em", "mh"].includes(scope) || scope.includes(scopeId(standard));
-}
-
-export function selection(standards, scope, band, domain, category) {
-  return standards.filter((s) => inScope(s, scope) && (!band || bandOf(s) === band)
-    && (!domain || s.domain === domain) && (!category || s.category === category));
-}
-
-const normalize = (text) => text.normalize("NFKC").toLocaleLowerCase("ko")
-  .replace(/[‐‑–−]/g, "-").replace(/[\[\]\s]/g, "");
-
-export function search(standards, query) {
-  const needle = normalize(query);
-  if (!needle) return standards;
-  const terms = query.trim().split(/\s+/).map(normalize).filter(Boolean);
-  return standards.flatMap((s) => {
-    const code = normalize(s.code);
-    const haystack = [s.title, s.statement, s.domain, s.subject, s.level, bandOf(s), s.searchTerms || ""].map(normalize);
-    const field = haystack.findIndex((value) => value.includes(needle));
-    if (code === needle) return [{ s, rank: 0 }];
-    if (code.includes(needle)) return [{ s, rank: 1 }];
-    if (field >= 0) return [{ s, rank: field + 2 }];
-    const fields = [code, ...haystack];
-    return terms.length > 1 && terms.every((term) => fields.some((value) => value.includes(term)))
-      ? [{ s, rank: fields.length + 2 }] : [];
-  }).sort((a, b) => a.rank - b.rank).map(({ s }) => s);
-}
 
 export function route(view, params = {}) {
   return "#" + new URLSearchParams({

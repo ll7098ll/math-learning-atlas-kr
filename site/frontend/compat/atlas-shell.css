@@ -1,76 +1,121 @@
-/* The explorer and the research tools share the same navigation landmarks. */
-@media screen {
-  body :is(.site-header, .atlas-header) {
-    position: relative;
-    z-index: 2;
-    color: var(--atlas-ink);
-    background: var(--atlas-surface);
-    border: 0;
-    border-top: 3px solid var(--atlas-forest);
-    border-bottom: 1px solid var(--atlas-line);
-  }
-  :is(.site-header, .atlas-header) :is(.header-inner, .atlas-header-inner) {
-    width: min(100% - 3rem, 76rem);
-    min-height: 4.4rem;
-    gap: clamp(1rem, 3vw, 3rem);
-  }
-  :is(.site-header, .atlas-header) :is(.brand, .atlas-brand) {
-    color: var(--atlas-ink);
-    font-size: 1.1rem;
-    letter-spacing: -.045em;
-    font-weight: 800;
-    gap: .65rem;
-  }
-  :is(.site-header, .atlas-header) :is(.brand-mark, .atlas-mark) {
-    width: 2.35rem;
-    height: 2.35rem;
-    background: var(--atlas-primary);
-    color: white;
-    border-radius: .65rem .65rem .65rem .15rem;
-  }
-  :is(.site-header, .atlas-header) nav[aria-label] {
-    margin-inline: auto;
-    gap: clamp(.3rem, 1.2vw, 1.1rem);
-  }
-  :is(.site-header, .atlas-header) nav[aria-label] a {
-    font: 650 .93rem/1.35 var(--atlas-font);
-    letter-spacing: -.025em;
-    color: var(--atlas-muted);
-    padding-inline: .5rem;
-    border-radius: 0;
-    border: 0;
-    border-bottom: 3px solid transparent;
-  }
-  :is(.site-header, .atlas-header) nav[aria-label] a[aria-current="page"] {
-    border-bottom-color: var(--atlas-primary);
-    color: var(--atlas-primary);
-  }
-  :is(.site-header, .atlas-header) :is(.header-source, .atlas-header-source) a {
-    display: inline-flex;
-    align-items: center;
-    min-height: 2.5rem;
-    padding: .35rem .75rem;
-    font-weight: 650;
-    font-size: .88rem;
-    border: 1px solid var(--atlas-line);
-    border-radius: .4rem;
-    text-decoration: none;
-    color: var(--atlas-primary);
-  }
-  body :is(.site-footer, .atlas-footer) {
-    color: var(--atlas-ink);
-    background: #eaf0ec;
-    border-top: 1px solid var(--atlas-line);
-  }
-  :is(.site-footer, .atlas-footer) > div {
-    width: min(100% - 3rem, 76rem);
-    padding-block: 1.6rem;
-  }
-  :is(.site-footer, .atlas-footer) strong { font-size: 1rem; }
-  :is(.site-footer, .atlas-footer) a { color: var(--atlas-primary); }
+.atlas-header, .atlas-footer {
+  box-sizing: border-box;
+  width: 100%;
+  margin: 0;
+  color: var(--atlas-ink);
+  font: 1rem/1.65 var(--atlas-font);
+}
+.atlas-header a, .atlas-footer a { text-underline-offset: .22em; }
+.atlas-header a:focus-visible, .atlas-footer a:focus-visible {
+  outline: 2px solid var(--atlas-ring);
+  outline-offset: 3px;
+}
+.atlas-header {
+  position: relative;
+  z-index: 2;
+  background: var(--atlas-surface);
+  border-top: 3px solid var(--atlas-forest);
+  border-bottom: 1px solid var(--atlas-line);
+}
+.atlas-header-inner, .atlas-footer > div {
+  width: min(100% - 3rem, 76rem);
+  margin-inline: auto;
+  display: flex;
+  align-items: center;
+}
+.atlas-header-inner {
+  min-height: 4.4rem;
+  gap: clamp(1rem, 3vw, 3rem);
+}
+.atlas-header .atlas-brand {
+  display: inline-flex;
+  align-items: center;
+  gap: .65rem;
+  color: var(--atlas-ink);
+  font-size: 1.1rem;
+  letter-spacing: -.045em;
+  font-weight: 800;
+  white-space: nowrap;
+  text-decoration: none;
+}
+.atlas-mark {
+  display: grid;
+  place-items: center;
+  width: 2.35rem;
+  height: 2.35rem;
+  background: var(--atlas-primary);
+  color: white;
+  border-radius: .65rem .65rem .65rem .15rem;
+}
+.atlas-mark svg { width: 21px; height: 21px; }
+.atlas-header nav {
+  display: flex;
+  align-self: stretch;
+  margin-inline: auto;
+  gap: clamp(.3rem, 1.2vw, 1.1rem);
+}
+.atlas-header nav a {
+  display: flex;
+  align-items: center;
+  min-height: 2.75rem;
+  padding-inline: .5rem;
+  color: var(--atlas-muted);
+  font: 650 .93rem/1.35 var(--atlas-font);
+  letter-spacing: -.025em;
+  white-space: nowrap;
+  text-decoration: none;
+  border-bottom: 3px solid transparent;
+}
+.atlas-header nav a:hover { background: var(--atlas-hover); }
+.atlas-header nav a[aria-current="page"] {
+  border-color: var(--atlas-primary);
+  color: var(--atlas-primary);
+}
+.atlas-header-source { white-space: nowrap; }
+.atlas-header-source a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 2.5rem;
+  padding: .35rem .75rem;
+  color: var(--atlas-primary);
+  font-size: .88rem;
+  font-weight: 650;
+  border: 1px solid var(--atlas-line);
+  border-radius: .4rem;
+  text-decoration: none;
+}
+.atlas-header .atlas-skip {
+  position: fixed;
+  top: .6rem;
+  left: .6rem;
+  z-index: 100;
+  padding: .6rem 1rem;
+  color: var(--atlas-primary);
+  background: var(--atlas-surface);
+  transform: translateY(-160%);
+}
+.atlas-header .atlas-skip:focus { transform: translateY(0); }
+.atlas-footer {
+  background: #eaf0ec;
+  font-size: .88rem;
+  border-top: 1px solid var(--atlas-line);
+}
+.atlas-footer > div {
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 1rem;
+  padding-block: 1.6rem;
+}
+.atlas-footer strong { font-size: 1rem; font-weight: 700; }
+.atlas-footer small { display: block; margin-top: .25rem; color: var(--atlas-muted); font-size: .88rem; }
+.atlas-footer-links { display: flex; flex-wrap: wrap; align-items: baseline; gap: .45rem .9rem; }
+.atlas-footer a { color: var(--atlas-primary); font-weight: 650; text-decoration: underline; }
+
+@media screen and (max-width: 880px) {
+  .atlas-header-source { display: none; }
 }
 @media screen and (max-width: 760px) {
-  :is(.site-header, .atlas-header) :is(.header-inner, .atlas-header-inner) {
+  .atlas-header-inner {
     display: grid;
     grid-template-columns: minmax(0, 1fr);
     width: calc(100% - 2rem);
@@ -78,24 +123,23 @@
     min-height: 0;
     padding-block: .7rem 0;
   }
-  :is(.site-header, .atlas-header) :is(.brand-mark, .atlas-mark) { width: 2rem; height: 2rem; }
-  :is(.site-header, .atlas-header) nav[aria-label] {
+  .atlas-mark { width: 2rem; height: 2rem; }
+  .atlas-header nav {
     display: grid;
     grid-template-columns: repeat(5, minmax(0, 1fr));
     margin: 0;
     gap: 0;
   }
-  :is(.site-header, .atlas-header) nav[aria-label] a {
+  .atlas-header nav a {
     display: grid;
     place-content: center;
     min-height: 2.75rem;
+    padding-inline: .2rem;
     font-size: .88rem;
     line-height: 1.25;
-    padding-inline: .2rem;
     text-align: center;
     white-space: normal;
     word-break: keep-all;
   }
-  :is(.site-header, .atlas-header) :is(.header-source, .atlas-header-source) { display: none; }
-  :is(.site-footer, .atlas-footer) > div { width: calc(100% - 2rem); }
+  .atlas-footer > div { width: calc(100% - 2rem); }
 }

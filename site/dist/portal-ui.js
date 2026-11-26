@@ -1,57 +1,22 @@
+import { focusOutlineTarget, mountOutline } from "./modules/section-outline.mjs?v=c21b6ceb638c51eb";
+
 (() => {
   const main = document.querySelector("main");
   if (!main) return;
 
-  document.body.classList.add("atlas-compat");
   const page = location.pathname.replace(/\/$/, "").split("/").pop().replace(/\.html$/, "");
   const tool = page === "distribution-lab" || page === "inquiry-workbook";
-  document.body.classList.toggle("atlas-tool", tool);
-  main.id ||= "main";
-  main.tabIndex = -1;
-
-  const nav = [
-    ["catalog", "교육과정 탐색", "./#view=catalog"],
-    ["network", "연결 지도", "./legacy.html#view=network&scope=all"],
-    ["compare", "학년군·과목 비교", "./#view=compare"],
-    ["hierarchy", "개념으로 보기", "./legacy.html#view=hierarchy"],
-    ["about", "자료 안내", "./legacy.html#view=about"],
-  ];
-  const header = document.createElement("header");
-  header.className = "atlas-header";
-  header.innerHTML = `<a class="atlas-skip" href="#main">본문으로 이동</a>
-    <div class="atlas-header-inner">
-      <a class="atlas-brand" href="./#view=catalog">
-        <span class="atlas-mark" aria-hidden="true">
-          <svg width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M12 7v14"/><path d="M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h4a5 5 0 0 1 5 5 5 5 0 0 1 5-5h4a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-5a4 4 0 0 0-4 4 4 4 0 0 0-4-4z"/>
-          </svg>
-        </span>수학의 연결 지도
-      </a>
-      <nav aria-label="주요 탐색">
-        ${nav.map(([id, title, href]) => `<a href="${href}" data-atlas-nav="${id}">${title}</a>`).join("")}
-      </nav>
-      <span class="atlas-header-source"><a href="curriculum.pdf" target="_blank" rel="noopener">교육과정 원문 PDF</a></span>
-    </div>`;
-  const previousHeader = document.querySelector("body > .site-header");
-  if (previousHeader) previousHeader.replaceWith(header);
-  else document.body.prepend(header);
-  const oldSkip = document.querySelector("body > .skip");
-  oldSkip?.remove();
+  const header = document.querySelector(".atlas-header");
+  const nav = [...header.querySelectorAll("[data-atlas-nav]")].map((link) =>
+    [link.dataset.atlasNav, link.textContent, link.getAttribute("href")]);
   header.querySelector(".atlas-skip").addEventListener("click", (event) => {
     event.preventDefault();
     main.focus();
     main.scrollIntoView({ block: "start" });
   });
 
-  const developerLinks = `<a href="mailto:ll7098ll@gmail.com">ll7098ll@gmail.com</a>
-    <a href="https://github.com/ll7098ll">GitHub 프로필</a>`;
-  const footer = document.createElement("footer");
-  footer.className = "atlas-footer";
-  footer.innerHTML = `<div><span><strong>수학의 연결 지도</strong><small>교육부 고시 제2022-33호 · 별책 8 수학과 교육과정</small></span>
-    <div class="atlas-developer-links"><span>개발자 이병민</span>${developerLinks}<a href="./legacy.html#view=about">이 자료는 어떻게 만들었나요?</a></div></div>`;
-  const previousFooter = document.querySelector("body > .site-footer");
-  if (previousFooter) previousFooter.replaceWith(footer);
-  else main.after(footer);
+  const developerLinks = [...document.querySelectorAll(".atlas-footer [data-contact]")]
+    .map((link) => link.outerHTML).join(" ");
 
   function route() {
     const params = new URLSearchParams(location.hash.slice(1));
@@ -262,12 +227,14 @@
     const menu = document.createElement("nav");
     menu.className = "atlas-path";
     if (view === "standard") {
+      menu.className = "atlas-reading-return screen-only";
       menu.setAttribute("aria-label", "성취기준 이동");
       const summary = new URLSearchParams(params);
       summary.delete("section");
       const link = document.createElement("a");
       link.href = "./#" + summary;
-      link.textContent = "성취기준 요약";
+      link.innerHTML = '<span aria-hidden="true">←</span> 성취기준 상세로';
+      link.className = "atlas-return";
       menu.append(link);
       return menu;
     }
@@ -298,11 +265,10 @@
       ["hierarchy", "", "수학 개념 찾기"],
       ["network", "", "전체 연결망"],
       ["overview", "flow", "개념 흐름"],
-      ["overview", "structure", "학교급별 성취기준"],
-      ["overview", "expanded", "성취기준 펼쳐 보기"],
+      ["catalog", "", "교육과정 탐색"],
     ];
     const current = view === "hierarchy" && (params.has("concept") || params.has("map")) ? "" : view === "overview"
-      ? params.get("density") === "expanded" ? "expanded" : params.get("mode") || "structure"
+      ? "flow"
       : view === "network" || view === "hierarchy" ? view : "";
     for (const [target, mode, label] of modes) {
       const link = document.createElement("a");
@@ -313,9 +279,17 @@
         if (node) values.set("node", node);
       }
       if (params.get("scope")) values.set("scope", params.get("scope"));
-      if (mode) values.set("mode", mode === "expanded" ? "structure" : mode);
-      if (mode === "expanded") values.set("density", "expanded");
-      link.href = "#" + values;
+      if (mode) values.set("mode", mode);
+      if (target === "catalog") {
+        values.set("list", "1");
+        for (const key of ["band", "domain", "category", "q"]) {
+          if (params.get(key)) values.set(key, params.get(key));
+        }
+        if (!values.has("band") && params.get("subject")) values.set("band", params.get("subject"));
+        const focus = codeFor(params) || params.get("flowNode") || params.get("edgeCode");
+        if (focus) values.set("focus", focus);
+      }
+      link.href = (target === "catalog" ? "./#" : "#") + values;
       if ((mode || target) === current) link.setAttribute("aria-current", "page");
       link.textContent = label;
       menu.append(link);
@@ -349,7 +323,7 @@
       : view === "network" ? (main.querySelector(".guided-map") ? "기준 하나씩 보기" : params.has("node") ? "선택한 기준의 연결" : "전체 연결망")
       : view === "hierarchy" ? ({ goals: "목표에 필요한 것과 쓰이는 곳", tasks: "수업 과제와 풀이" }[params.get("mode")]
         || (params.has("concept") || params.has("map") ? "개념의 연결" : "수학 개념 찾기"))
-      : view === "overview" ? (params.get("mode") === "structure" ? "학교급별 성취기준" : "개념 흐름")
+      : view === "overview" ? "개념 흐름"
       : view === "about" ? "자료의 출처와 검토 내용" : "";
     if (sectionName && !frame.querySelector(".atlas-location")) {
       const crumb = document.createElement("nav");
@@ -378,6 +352,11 @@
     if (tool || view === "standard" || view === "about") return;
     if (main.querySelector(".guided-map")) return;
     const menu = sectionNavigation(params);
+    if (view === "overview" && menu.querySelector('a[href^="./#view=catalog"]')) {
+      const tools = frame.querySelector(".heading-tools");
+      tools?.querySelector('a[href^="./#view=catalog"]')?.remove();
+      if (tools && !tools.childElementCount) tools.remove();
+    }
     const oldMenu = main.querySelector(".atlas-path");
     if (oldMenu?.dataset.route === params.toString()) return;
     main.querySelectorAll(".overview-views").forEach((element) => { element.hidden = true; });
@@ -399,27 +378,24 @@
   function prepareReading(params) {
     if (params.get("view") !== "standard") return;
     const frame = main.querySelector(".standard-header");
-    if (frame && !main.querySelector(".atlas-path")) frame.before(sectionNavigation(params));
-    const sidebar = main.querySelector(".reading-aside");
-    const outline = sidebar?.querySelector("nav");
-    if (!outline || sidebar.querySelector(".atlas-reading-outline")) return;
-    const disclosure = document.createElement("details");
-    disclosure.className = "atlas-reading-outline";
-    const label = document.createElement("summary");
-    label.textContent = "이 문서의 목차";
-    const compact = matchMedia("(max-width: 800px)");
-    disclosure.open = !compact.matches;
-    sidebar.append(disclosure);
-    disclosure.append(label, outline);
-    outline.addEventListener("click", (event) => {
-      if (compact.matches && event.button === 0 && !event.ctrlKey && !event.metaKey && !event.shiftKey
-          && !event.altKey && event.target.closest("a[data-section]")) disclosure.open = false;
+    if (frame && !main.querySelector(".atlas-reading-return")) frame.before(sectionNavigation(params));
+    const bar = main.querySelector(".reading-jumps");
+    if (!bar || sectionJumps?.bar === bar) return;
+    const entries = [...bar.querySelectorAll("a[data-section]")].map((link) => {
+      const section = document.getElementById(link.dataset.section);
+      const heading = section?.querySelector("h2") || section;
+      return {
+        title: link.textContent,
+        href: link.getAttribute("href"),
+        anchors: () => [heading],
+        jump(event) {
+          if (link.hash !== location.hash) return;
+          event.preventDefault();
+          focusOutlineTarget(heading, bar);
+        },
+      };
     });
-    disclosure.addEventListener("keydown", (event) => {
-      if (event.key !== "Escape" || !disclosure.open) return;
-      disclosure.open = false;
-      label.focus();
-    });
+    if (entries.length) sectionJumps = mountOutline(bar, entries, { title: "목차", linksId: "analysis-outline-links" });
   }
 
   function prepareStandardReturn(params) {
@@ -452,133 +428,31 @@
 
   let sectionJumps;
 
-  function sectionStart(anchor, beside) {
-    const closed = anchor.parentElement?.closest("details:not([open])");
-    const marker = closed?.querySelector(":scope > summary") || anchor;
-    if (!marker?.getClientRects().length) return Infinity;
-    const rect = marker.getBoundingClientRect();
-    if (beside) {
-      const neighbor = beside.getBoundingClientRect();
-      // Side-by-side sections can share the same vertical reading range.
-      if ((neighbor.right <= rect.left || rect.right <= neighbor.left) && rect.top < neighbor.bottom) return neighbor.bottom;
-    }
-    return rect.top;
-  }
-
   function prepareSectionJumps(container, label, entries) {
     const heading = container.querySelector("h1");
-    if (!heading || container.querySelector(":scope > .atlas-section-jumps")) return;
+    if (!heading || container.querySelector(":scope > .reading-jumps")) return;
     const targets = entries.filter(([, section]) => section);
     if (targets.length < 2) return;
     const bar = document.createElement("nav");
-    bar.className = "atlas-section-jumps screen-only";
+    bar.className = "reading-jumps screen-only";
     bar.setAttribute("aria-label", label);
-    const toggle = document.createElement("button");
-    toggle.type = "button";
-    toggle.className = "atlas-section-toggle";
-    const currentLabel = document.createElement("span");
-    currentLabel.className = "atlas-section-current";
-    toggle.append(label, currentLabel);
-    toggle.setAttribute("aria-controls", "atlas-section-links");
-    toggle.setAttribute("aria-expanded", "false");
-    const links = document.createElement("div");
-    links.id = "atlas-section-links";
-
-    let frame = 0;
-    let active;
-    let chosen;
-    let chosenScroll;
-    function mark(button) {
-      if (active === button) return;
-      active?.removeAttribute("aria-current");
-      active = button;
-      active.setAttribute("aria-current", "location");
-      currentLabel.textContent = active.textContent;
-    }
-
-    function expand(open) {
-      toggle.setAttribute("aria-expanded", String(open));
-    }
-
-    toggle.addEventListener("click", () => expand(toggle.getAttribute("aria-expanded") === "false"));
-    bar.addEventListener("keydown", (event) => {
-      if (event.key !== "Escape" || toggle.getAttribute("aria-expanded") !== "true") return;
-      expand(false);
-      toggle.focus();
-    });
-    const sections = targets.map(([title, target, { reveal, beforeJump, anchors = [target], beside } = {}]) => {
-      target.classList.add("atlas-section-target");
-      const jump = document.createElement("button");
-      jump.type = "button";
-      jump.textContent = title;
-      jump.addEventListener("click", () => {
-        expand(false);
-        beforeJump?.();
-        for (let parent = target.parentElement; parent && parent !== container; parent = parent.parentElement) {
-          if (parent instanceof HTMLDetailsElement && parent.firstElementChild !== target) parent.open = true;
-        }
-        if (reveal) reveal.open = true;
-        focusSection(target);
-        chosen = jump;
-        chosenScroll = window.scrollY;
-        mark(jump);
-      });
-      links.append(jump);
-      return { jump, anchors, beside };
-    });
-    bar.append(toggle, links);
     heading.closest(".atlas-page-header").after(bar);
-
-    function update() {
-      frame = 0;
-      if (chosen && chosenScroll === window.scrollY) return;
-      chosen = undefined;
-      const remaining = document.documentElement.scrollHeight - window.innerHeight - window.scrollY;
-      // The last section cannot always reach the menu before the page ends.
-      const readingLine = bar.getBoundingClientRect().bottom + 54;
-      const endProgress = 1 - Math.min(1, Math.max(0, remaining) / 64);
-      const line = readingLine + Math.max(0, window.innerHeight / 2 - readingLine) * endProgress;
-      let reached;
-      let upcoming;
-      let latest = -Infinity;
-      let earliest = Infinity;
-      for (const { jump, anchors, beside } of sections) {
-        for (const anchor of anchors) {
-          const top = sectionStart(anchor, beside);
-          if (top <= line && top > latest) {
-            latest = top;
-            reached = jump;
-          } else if (top > line && top < earliest) {
-            earliest = top;
-            upcoming = jump;
+    sectionJumps = mountOutline(bar, targets.map(([title, target, { reveal, beforeJump, anchors = [target], beside } = {}]) => {
+      target.classList.add("atlas-section-target");
+      return {
+        title,
+        anchors: () => anchors,
+        beside,
+        jump(event, outline) {
+          beforeJump?.();
+          for (let parent = target.parentElement; parent && parent !== container; parent = parent.parentElement) {
+            if (parent instanceof HTMLDetailsElement && parent.firstElementChild !== target) parent.open = true;
           }
-        }
-      }
-      mark(reached || upcoming || sections[0].jump);
-    }
-    function schedule() {
-      if (!frame) frame = requestAnimationFrame(update);
-    }
-    const controller = new AbortController();
-    const signal = controller.signal;
-    window.addEventListener("scroll", schedule, { passive: true, signal });
-    window.addEventListener("resize", () => { chosen = undefined; schedule(); }, { signal });
-    container.addEventListener("toggle", schedule, { capture: true, signal });
-    container.addEventListener("focusin", (event) => {
-      const section = sections.find(({ anchors }) => anchors.includes(event.target));
-      if (!section) return;
-      chosen = section.jump;
-      chosenScroll = window.scrollY;
-      mark(chosen);
-    }, { signal });
-    const resize = new ResizeObserver(schedule);
-    resize.observe(container);
-    sectionJumps = { bar, schedule, dispose() {
-      controller.abort();
-      resize.disconnect();
-      cancelAnimationFrame(frame);
-    } };
-    update();
+          if (reveal) reveal.open = true;
+          focusOutlineTarget(target, outline);
+        },
+      };
+    }), { title: "목차", linksId: "atlas-section-links", container });
   }
 
   function prepareMapJumps() {
@@ -1135,33 +1009,37 @@
 
   function prepareToolNavigation() {
     const intro = main.querySelector(":scope > header");
-    if (!intro || main.querySelector(".atlas-tool-jump")) return;
+    if (!intro || main.querySelector(".reading-jumps")) return;
     const workbook = page === "inquiry-workbook";
     const headings = workbook
       ? [...main.querySelectorAll(":scope > .sheet > h2, :scope > footer > h2")]
       : [...main.querySelectorAll("#plot-heading, .summary .metric:first-child h2, .panel > h2:not(#plot-heading)")];
     if (!headings.length) return;
     const jump = document.createElement("nav");
-    jump.className = "atlas-tool-jump";
-    jump.setAttribute("aria-label", "도구에서 이동");
-    const control = document.createElement("select");
-    const label = document.createElement("label");
-    label.append(workbook ? "기록지에서 볼 장" : "보고 싶은 항목", control);
+    jump.className = "reading-jumps screen-only";
+    jump.setAttribute("aria-label", workbook ? "기록지 목차" : "분포 탐구 목차");
     const sections = headings.map((heading, i) => {
       heading.id ||= (workbook ? "workbook-part-" : "lab-part-") + (i + 1);
-      control.append(new Option(heading.textContent, heading.id));
       return heading.parentElement;
     });
-    const button = document.createElement("button");
-    button.className = "button";
-    button.type = "button";
-    button.textContent = "항목으로 이동";
+    intro.after(jump);
+    const outline = mountOutline(jump, headings.map((heading) => ({
+      title: heading.textContent,
+      href: "#" + heading.id,
+      anchors: () => [heading],
+      jump(event) {
+        if (location.hash !== "#" + heading.id) return;
+        event.preventDefault();
+        focusOutlineTarget(heading, jump);
+      },
+    })), { title: "목차", linksId: "tool-outline-links", trackScroll: !workbook });
+
     function show(focus) {
       const anchor = location.hash.slice(1);
       const index = headings.findIndex((heading, i) => heading.id === anchor
         || (workbook && anchor && sections[i].id === anchor));
       const active = index < 0 ? 0 : index;
-      control.selectedIndex = active;
+      outline.select(active);
       if (workbook) {
         sections.forEach((section, i) => section.classList.toggle("workbook-inactive", i !== active));
         previous.hidden = active === 0;
@@ -1170,14 +1048,8 @@
         next.href = "#" + headings[Math.min(active + 1, headings.length - 1)].id;
         step.textContent = (active + 1) + " / " + headings.length;
       }
-      if (focus && (index >= 0 || workbook)) focusSection(headings[active]);
+      if (focus && (index >= 0 || workbook)) focusOutlineTarget(headings[active], jump);
     }
-    button.addEventListener("click", () => {
-      if (location.hash === "#" + control.value) focusSection(headings[control.selectedIndex]);
-      else location.hash = control.value;
-    });
-    jump.append(label, button);
-    intro.after(jump);
     let previous, next, step;
     if (workbook) {
       const pager = document.createElement("nav");

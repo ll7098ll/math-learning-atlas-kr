@@ -1,9 +1,15 @@
+import {resolveView} from './route-views.mjs';
 import {catalog,band,standard} from './store.mjs';
 export const esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-export const url=(view,values={})=>'#'+new URLSearchParams({view,scope:globalThis.atlasSchoolScope||'all',...Object.fromEntries(Object.entries(values).filter(([,v])=>v!==''&&v!=null))});
+export function url(view,values={}) {
+ const params=new URLSearchParams({view,scope:globalThis.atlasSchoolScope||'all',...Object.fromEntries(Object.entries(values).filter(([,v])=>v!==''&&v!=null))});
+ const hash='#'+params;
+ if(view==='overview' && values.mode!=='flow') return './#'+resolveView(hash,'legacy').params;
+ return hash;
+}
 export const standardURL=code=>url('standard',{code});
 export const uniq=a=>[...new Set(a)];
-export function overviewModes(active){return `<nav class="overview-views" aria-label="전체 조망 방식"><a href="${url('network',{mapMode:'full'})}" ${active==='network'?'aria-current="page"':''}>전체 연결망</a>${[['flow','개념별 목록',{mode:'flow'}],['structure','학교급 구조',{mode:'structure'}],['expanded','기준 펼쳐 보기',{mode:'structure',density:'expanded'}]].map(([id,title,params])=>`<a href="${url('overview',params)}" ${active===id?'aria-current="page"':''}>${title}</a>`).join('')}</nav>`;}
+export function overviewModes(active){return `<nav class="overview-views" aria-label="연결 지도 보기"><a href="${url('network',{mapMode:'full'})}" ${active==='network'?'aria-current="page"':''}>전체 연결망</a><a href="${url('overview',{mode:'flow'})}" ${active==='flow'?'aria-current="page"':''}>개념 흐름</a><a href="${url('overview')}">교육과정 탐색</a></nav>`;}
 export const pill=(text,cls='')=>`<span class="tag ${cls}">${esc(text)}</span>`;
 export const tone=d=>window.DomainIcons?.tone(d)||'blue';
 export const icon=d=>window.DomainIcons?.icon(d)||'';
@@ -14,7 +20,7 @@ export function heading(kicker,title,description,tools=''){
 export function standardRow(s,full=false){return `<a class="standard-row" href="${standardURL(s.code)}" data-standard="${esc(s.code)}"><span class="row-code">${esc(s.code)}</span><span class="row-main"><strong>${esc(s.title)}</strong>${full?`<span class="row-statement">${esc(s.statement)}</span>`:''}<small>${esc(s.level)} · ${esc(band(s))} · ${esc(s.domain)}</small></span><span class="row-arrow" aria-hidden="true">↗</span></a>`;}
 export function options(values,current,empty){return `<option value="">${esc(empty)}</option>`+values.map(v=>`<option value="${esc(v)}" ${v===current?'selected':''}>${esc(v)}</option>`).join('');}
 export function scopeSelect(current='all'){return `<label>학교급<select name="scope">${[['all','초·중·고 전체'],['e','초등학교'],['m','중학교'],['h','고등학교']].map(([v,t])=>`<option value="${v}" ${current===v?'selected':''}>${t}</option>`).join('')}</select></label>`;}
-export function empty(title,text='조건을 바꾸어 다시 찾아보세요.'){return `<div class="empty"><h2>${esc(title)}</h2><p>${esc(text)}</p><a class="button" href="${url('overview')}">전체 조망으로</a></div>`;}
+export function empty(title,text='조건을 바꾸어 다시 찾아보세요.'){return `<div class="empty"><h2>${esc(title)}</h2><p>${esc(text)}</p><a class="button" href="${url('overview')}">교육과정 탐색으로</a></div>`;}
 export const list=items=>`<ul>${(items||[]).map(t=>`<li>${esc(Array.isArray(t)?t.join(' · '):t)}</li>`).join('')}</ul>`;
 export function relationLiteratureHTML(relation){
  const entries=relation.literature_context||[];

@@ -1,13 +1,14 @@
-import {initialize,catalog,scopes,band,hierarchy,conceptFlows,conceptPathway,conceptPathwaysIndex,taskPathway} from './modules/store.mjs';
-import {esc,url,options,uniq} from './modules/ui.mjs';
-import {overview,catalogPage} from './modules/catalog.mjs';
+import {initialize,scopes,hierarchy,conceptFlows,conceptPathway,conceptPathwaysIndex,taskPathway} from './modules/store.mjs';
+import {esc,url} from './modules/ui.mjs';
+import {overview} from './modules/catalog.mjs';
+import {focusOutlineTarget} from './modules/section-outline.mjs';
 import {standardPage} from './modules/detail.mjs';
 import {connectionsPage,hierarchyPage,aboutPage} from './modules/explore.mjs';
 import {parse,saveState,getState,setState} from './modules/router.mjs';
 import {networkPage,mountNetwork} from './modules/network.mjs';
 import {resolveView} from './modules/route-views.mjs';
 const main=document.querySelector('#main');
-let current='',serial=0,cleanup=null,scrollCleanup=null;
+let current='',serial=0,cleanup=null;
 history.scrollRestoration='manual';
  const schoolBar=document.createElement('nav');schoolBar.className='school-scope-bar';schoolBar.setAttribute('aria-label','학교급별 보기');schoolBar.innerHTML='<span>학교급별 보기</span>'+[['all','전체'],['e','초등'],['m','중등'],['h','고등']].map(([id,label])=>`<a data-school-scope="${id}" href="#view=network&scope=${id}">${label}</a>`).join('');main.before(schoolBar);
 function refreshSchoolLinks(p){
@@ -31,18 +32,22 @@ async function render(){
  document.body.dataset.navView=route.menu;
  refreshSchoolLinks(p);
  const previous=parse(current).get('view'),previousCode=parse(current).get('code');
- if(cleanup){cleanup();cleanup=null;}if(scrollCleanup){scrollCleanup();scrollCleanup=null;}
- if(view==='overview'||view==='catalog'||view==='network'){try{sessionStorage.setItem('atlas-return',key);}catch{}}
+ if(cleanup){cleanup();cleanup=null;}
+ if(view==='overview'||view==='network'){try{sessionStorage.setItem('atlas-return',key);}catch{}}
  document.body.dataset.view=view;
- document.querySelectorAll('[data-nav]').forEach(a=>{const active=a.dataset.nav===(['hierarchy','connections'].includes(view)?'hierarchy':view==='standard'?'catalog':view==='network'?'overview':view);if(active)a.setAttribute('aria-current','page');else a.removeAttribute('aria-current');});
- if(view==='standard'&&previous==='standard'&&previousCode===p.get('code')&&main.querySelector('.reading-body')){current=key;scrollToSection(p.get('section'));observeSections();return;}
+ if(view==='standard'&&previous==='standard'&&previousCode===p.get('code')&&main.querySelector('.reading-body')){
+  current=key;
+  main.dataset.readyRoute=key;
+  scrollToSection(p.get('section'));
+  return;
+ }
  main.setAttribute('aria-busy','true');main.innerHTML='<div class="loading" role="status">자료를 불러오고 있습니다…</div>';
  try{
   if(view==='hierarchy'){
-   main.innerHTML='<h1>연결과 위계</h1><p role="status">선택한 지도를 준비하고 있습니다…</p>';await (p.get('mode')==='tasks'&&p.get('target')?taskPathway(p.get('target')):p.get('concept')?conceptPathway(p.get('concept')):p.get('map')?hierarchy():Promise.all([hierarchy(),conceptFlows(),conceptPathwaysIndex()]));if(ticket!==serial)return;
+   await (p.get('mode')==='tasks'&&p.get('target')?taskPathway(p.get('target')):p.get('concept')?conceptPathway(p.get('concept')):p.get('map')?hierarchy():Promise.all([hierarchy(),conceptFlows(),conceptPathwaysIndex()]));if(ticket!==serial)return;
    const dispose=await hierarchyPage(p,main,()=>ticket===serial);if(ticket!==serial){dispose?.();return;}cleanup=dispose;
   }else{
-   const html=view==='network'?await networkPage(p):view==='overview'?await overview(p):view==='catalog'?catalogPage(p):view==='standard'?await standardPage(p):view==='connections'?await connectionsPage(p):await aboutPage();
+   const html=view==='network'?await networkPage(p):view==='overview'?await overview(p):view==='standard'?await standardPage(p):view==='connections'?await connectionsPage(p):await aboutPage();
    if(ticket!==serial)return;main.innerHTML=html;
    if(view==='network')cleanup=mountNetwork(p,main,hash=>{current=hash;refreshSchoolLinks(parse(hash));});
   }
@@ -64,7 +69,6 @@ async function render(){
    else if(snapshot){window.scrollTo(0,snapshot.y);for(const el of main.querySelectorAll('[data-scroll-key]')){const pos=snapshot.scrolls?.[el.dataset.scrollKey];if(pos){el.scrollLeft=pos.x;el.scrollTop=pos.y;}}const focus=snapshot.focusKey?[...main.querySelectorAll('[data-focus-key]')].find(x=>x.dataset.focusKey===snapshot.focusKey):[...main.querySelectorAll('[data-standard]')].find(x=>x.dataset.standard===snapshot.focus);focus?.focus({preventScroll:true});}
    else {window.scrollTo(0,0);main.querySelector('h1')?.focus({preventScroll:true});}
   });
-  if(view==='standard')observeSections();
  }catch(error){
   if(ticket!==serial)return;
   current=key;
@@ -76,10 +80,10 @@ async function render(){
   main.querySelector('h1').focus();
  }
 }
-function scrollToSection(section){const el=document.getElementById(section||'meaning');if(el){el.scrollIntoView({block:'start'});el.setAttribute('tabindex','-1');el.focus({preventScroll:true});}document.querySelectorAll('[data-section]').forEach(a=>a.classList.toggle('active',a.dataset.section===(section||'meaning')));}
-function observeSections(){
- const observer=new IntersectionObserver(entries=>{const entry=entries.filter(e=>e.isIntersecting).sort((a,b)=>a.boundingClientRect.top-b.boundingClientRect.top)[0];if(entry)document.querySelectorAll('[data-section]').forEach(a=>a.classList.toggle('active',a.dataset.section===entry.target.id));},{rootMargin:'-100px 0px -60% 0px'});
- main.querySelectorAll('.reading-section[id]').forEach(e=>observer.observe(e));scrollCleanup=()=>observer.disconnect();
+function scrollToSection(section){
+ const requested = document.getElementById(section || '');
+ const frame = requested?.matches('.reading-section') ? requested : main.querySelector('.reading-section[id]');
+ focusOutlineTarget(frame?.querySelector('h2'), main.querySelector('.reading-jumps'));
 }
 document.addEventListener('click',e=>{
  if(e.target.closest('a[href="#main"]')){e.preventDefault();main.focus();return;}
@@ -89,18 +93,10 @@ document.addEventListener('click',e=>{
 });
 main.addEventListener('submit',e=>{const form=e.target.closest('[data-filter]');if(!form)return;e.preventDefault();remember();const values=Object.fromEntries(new FormData(form));if(form.dataset.filter==='hierarchy'&&values.map){const live=parse(location.hash);for(const k of ['route','target','node','claim','compare','kind']){if(live.has(k))values[k]=live.get(k);else delete values[k];}}if(form.classList.contains('full-flow-search')&&e.submitter?.tagName==='BUTTON')delete values.strand;location.hash=url(form.dataset.filter,values);});
 main.addEventListener('change',e=>{
- const form=e.target.closest('form[data-filter]');if(!form)return;
- if(form.dataset.filter==='overview'){
-  if(e.target.matches('[data-flow-jump]')){for(const key of ['q','domain','subject'])if(form.elements[key])form.elements[key].value='';}
-  if(e.target.name==='edgeCode'&&form.elements.flowNode)form.elements.flowNode.value=e.target.value;
-  if(e.target.matches('[data-flow-jump],[data-auto-flow]'))form.requestSubmit();
-  return;
- }
- if(form.dataset.filter!=='catalog')return;
- const scope=form.querySelector('[name=scope]').value,items=catalog.standards.filter(s=>(scopes[scope]||scopes.all).includes(s.level));
- if(e.target.name==='scope'){form.querySelector('[name=band]').innerHTML=options(uniq(items.map(band)),'','전체 학년군·과목');form.querySelector('[name=domain]').innerHTML=options(uniq(items.map(s=>s.domain)),'','모든 영역');}
- if(e.target.name==='band')form.querySelector('[name=domain]').innerHTML=options(uniq(items.filter(s=>!e.target.value||band(s)===e.target.value).map(s=>s.domain)),'','모든 영역');
- if(e.target.tagName==='SELECT')form.requestSubmit();
+ const form=e.target.closest('form[data-filter="overview"]');if(!form)return;
+ if(e.target.matches('[data-flow-jump]')){for(const key of ['q','domain','subject'])if(form.elements[key])form.elements[key].value='';}
+ if(e.target.name==='edgeCode'&&form.elements.flowNode)form.elements.flowNode.value=e.target.value;
+ if(e.target.matches('[data-flow-jump],[data-auto-flow]'))form.requestSubmit();
 });
 window.addEventListener('hashchange',()=>{remember();render();});window.addEventListener('pagehide',remember);
 const initialRoute=resolveView(location.hash,'legacy');

@@ -11,7 +11,7 @@
     line-height: 1.55;
   }
 
-  :is(.site-header, .site-footer, .skip-link, .atlas-header, .atlas-footer, .atlas-path, .atlas-reading-outline,
+  :is(.site-header, .site-footer, .skip-link, .atlas-header, .atlas-footer, .atlas-path,
       .school-scope-bar, .screen-only, .desktop-filters, .mobile-filters, .pagination,
       .tabs-row, .reading-tools, .atlas-return, .reading-toc, .action-links, .row-chevron, .heading-tools,
       .active-filters, .comparison-controls, .comparison-actions, .no-selection,

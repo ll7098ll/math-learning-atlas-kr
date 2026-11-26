@@ -37,6 +37,12 @@ def verify(output: Path) -> dict:
             continue
         if not path.is_file() or digest(path) != item["sha256"]:
             raise ValueError(f"Missing or modified snapshot file: {item['path']}")
+    bundles = output / "dist/explorer-assets"
+    listed = {item["path"] for item in manifest["files"]}
+    extra_bundles = sorted(p.relative_to(output).as_posix() for p in bundles.rglob("*")
+                           if p.is_file() and p.relative_to(output).as_posix() not in listed)
+    if extra_bundles:
+        raise ValueError(f"Unlisted explorer assets: {', '.join(extra_bundles)}")
     return {"status": "pass", "version": manifest["data_version"],
             "files": len(manifest["files"]), "optional_missing": optional_missing}
 
@@ -65,8 +71,30 @@ def write_curriculum_index(dist: Path, catalog: dict) -> None:
         encoding="utf-8", newline="\n")
 
 
+def install_page_shell(html: str, name: str, header: str, footer: str) -> str:
+    workspace = name == "legacy.html"
+    body_class = "atlas-compat" if workspace else "atlas-compat atlas-tool"
+    # Accept the authoring shell and an already exported shell. The tools have
+    # their own chapter headers and footers inside main, which are preserved.
+    html, starts = re.subn(
+        r'<body\b[^>]*>\s*(?:<a class="skip"[^>]*>.*?</a>\s*)?'
+        r'(?:<header class="(?:site|atlas)-header">.*?</header>\s*)?<main\b[^>]*>',
+        lambda _: f'<body class="{body_class}">\n{header}\n<main id="main" tabindex="-1">',
+        html, count=1, flags=re.DOTALL)
+    html, ends = re.subn(r'</main>(?:\s*<footer class="(?:site|atlas)-footer">.*?</footer>)?',
+                         lambda _: f'</main>\n{footer}', html, count=1, flags=re.DOTALL)
+    if starts != 1 or ends != 1:
+        raise ValueError(f"Could not locate the main landmark in {name}")
+    html = re.sub(r'<meta name="theme-color"[^>]*>\s*', "", html)
+    if workspace:
+        html = re.sub(r'<title>.*?</title>', '<title>연결 지도 · 수학의 연결 지도</title>', html, count=1)
+    return html.replace("</head>", '<meta name="theme-color" content="#124d50">\n</head>', 1)
+
+
 def install_compat_theme(dist: Path) -> None:
     source = ROOT / "site/frontend/compat"
+    header = (source / "shell/header.html").read_text(encoding="utf-8").strip()
+    footer = (source / "shell/footer.html").read_text(encoding="utf-8").strip()
     legacy_modules = sorted((source / "modules").glob("*.mjs"))
     for module in legacy_modules:
         shutil.copy2(module, dist / "modules" / module.name)
@@ -76,22 +104,27 @@ def install_compat_theme(dist: Path) -> None:
     build_inquiry_workbook(dist)
     style = "\n\n".join((source / name).read_text(encoding="utf-8").rstrip()
                          for name in ("atlas-tokens.css", "atlas-page.css", "portal-ui.css", "atlas-workspace.css",
-                                      "atlas-shell.css", "atlas-tools.css", "atlas-print.css"))
+                                      "atlas-shell.css", "atlas-outline.css", "atlas-tools.css", "atlas-print.css"))
     (dist / "portal-ui.css").write_text(style + "\n", encoding="utf-8", newline="\n")
-    shutil.copy2(source / "portal-ui.js", dist / "portal-ui.js")
+    ui = (source / "portal-ui.js").read_text(encoding="utf-8")
+    outline_version = digest(dist / "modules/section-outline.mjs")[:16]
+    ui = ui.replace('"./modules/section-outline.mjs"', f'"./modules/section-outline.mjs?v={outline_version}"')
+    (dist / "portal-ui.js").write_text(ui, encoding="utf-8", newline="\n")
     css_version = digest(dist / "portal-ui.css")[:12]
     js_version = digest(dist / "portal-ui.js")[:12]
     reference = (
         f'<link data-atlas-theme rel="stylesheet" href="./portal-ui.css?v={css_version}">\n'
-        f'<script data-atlas-theme defer src="./portal-ui.js?v={js_version}"></script>\n'
+        f'<script data-atlas-theme type="module" src="./portal-ui.js?v={js_version}"></script>\n'
     )
     for name in ("legacy.html", "distribution-lab.html", "inquiry-workbook.html"):
         path = dist / name
-        html = path.read_text(encoding="utf-8")
+        html = install_page_shell(path.read_text(encoding="utf-8"), name, header, footer)
         if name == "legacy.html":
+            html = re.sub(r'<link\b[^>]*href="catalog-groups\.css(?:\?[^"]*)?"[^>]*>', "", html)
             html = re.sub(r'(?<=src="app\.js)\?v=[^"]+', f"?v={app_version}", html)
             def version_modules(match):
                 mapping = json.loads(match[2])
+                mapping["imports"].pop("./modules/catalog-groups.mjs", None)
                 for module in legacy_modules:
                     relative = f"./modules/{module.name}"
                     mapping["imports"][relative] = relative + "?v=" + digest(module)[:16]
@@ -147,7 +180,7 @@ def install_explorer(dist: Path, frontend: Path, catalog: dict) -> None:
     if not legacy.is_file():
         shutil.copy2(dist / "index.html", legacy)
     shutil.copy2(frontend / "index.html", dist / "index.html")
-    shutil.copytree(frontend / "explorer-assets", dist / "explorer-assets", dirs_exist_ok=True)
+    shutil.copytree(frontend / "explorer-assets", dist / "explorer-assets")
     install_compat_theme(dist)
     write_curriculum_index(dist, catalog)
 
@@ -168,13 +201,17 @@ def export(source: Path, output: Path, frontend: Path | None = None) -> dict:
     if explorer:
         paths = {relative for relative in paths if not relative.startswith(old_root)}
     # Fixed entry points, modules, examples and standard detail files are current assets.
-    paths.update(p.relative_to(dist).as_posix() for p in dist.iterdir() if p.is_file())
+    retired_assets = {"catalog-groups.css", "scope.js"} if explorer else set()
+    paths.update(p.relative_to(dist).as_posix() for p in dist.iterdir()
+                 if p.is_file() and p.name not in retired_assets)
     paths.update(p.relative_to(dist).as_posix() for p in (dist / "content").glob("*.json"))
     folders = ["modules", "examples", "content/standards"]
     if frontend is None:
         folders.append("explorer-assets")
     for folder in folders:
         paths.update(p.relative_to(dist).as_posix() for p in (dist / folder).rglob("*") if p.is_file())
+    if explorer:
+        paths.discard("modules/catalog-groups.mjs")
     for relative in paths:
         path = safe_path(dist, relative)
         if not path.is_file():

@@ -1,7 +1,5 @@
 @media screen {
   .atlas-tool main .workbook-inactive { display: none; }
-  .atlas-tool .atlas-tool-jump { align-items: end; }
-  .atlas-tool .atlas-tool-jump select { width: 100%; }
   .atlas-tool .atlas-workbook-pager {
     display: flex;
     align-items: center;
@@ -26,5 +24,5 @@
   .atlas-tool main [id^="workbook-part-"], .atlas-tool main [id^="lab-part-"] { scroll-margin-top: 1rem; }
 }
 @media print {
-  .atlas-tool .atlas-workbook-pager, .atlas-tool .atlas-tool-jump { display: none !important; }
+  .atlas-tool .atlas-workbook-pager { display: none !important; }
 }

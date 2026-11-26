@@ -1,11 +1,10 @@
 import React, { useEffect, useLayoutEffect, useRef, useState } from "react";
 import { createRoot } from "react-dom/client";
-import { BookOpen } from "lucide-react";
 import "./theme.css";
 import { Browse } from "./browse";
 import { Compare, Detail } from "./reading";
-import { LoadState, Pdf, useContent } from "./shared";
-import { oldRoute, paramsFrom, route } from "./curriculum";
+import { LoadState, useContent } from "./shared";
+import { paramsFrom, route } from "./curriculum";
 import { resolveView } from "../compat/modules/route-views.mjs";
 import "../compat/atlas-shell.css";
 import "../compat/atlas-print.css";
@@ -87,9 +86,12 @@ function App() {
     if (event.defaultPrevented || event.button !== 0 || event.ctrlKey || event.metaKey || event.altKey || event.shiftKey) return;
     const link = event.target.closest("a[href]");
     if (!link || link.target || link.hasAttribute("download")) return;
-    if (link.id === "nav-compare" && view !== "compare") {
+    if (link.classList.contains("atlas-skip")) {
+      event.preventDefault();
+      document.getElementById("main").focus();
+    } else if (link.id === "nav-compare" && view !== "compare") {
       openLinked(event, undefined, link);
-    } else if (link.getAttribute("href").startsWith("#view=")) {
+    } else if (samePortalURL(link.href, location.href, "path") && link.hash.startsWith("#view=")) {
       event.preventDefault();
       go(link.hash);
     }
@@ -132,7 +134,7 @@ function App() {
     const detachedReturn = history.state?.detachedReturn;
     const returnState = { ...history.state, position, focusOnReturn };
     history.replaceState(returnState, "");
-    go(link.getAttribute("href"), {
+    go(link.hash, {
       returnTo: origin, returnPosition: position, returnState, restore: focusOnReturn,
       catalogReturn, catalogPosition, catalogFocus, detachedReturn,
     });
@@ -215,49 +217,30 @@ function App() {
     document.title = (standard ? code + " · " : "") + heading + " · 수학의 연결 지도";
   }, [view, code, catalog, hash]);
 
-  const menu = [
-    ["catalog", "교육과정 탐색", route("catalog")],
-    ["network", "연결 지도", oldRoute("network", { scope: "all" })],
-    ["compare", "학년군·과목 비교", route("compare")],
-    ["hierarchy", "개념으로 보기", oldRoute("hierarchy")],
-    ["about", "자료 안내", oldRoute("about")],
-  ];
+  useLayoutEffect(() => {
+    const header = document.querySelector(".atlas-header");
+    const footer = document.querySelector(".atlas-footer");
+    const current = view === "standard" ? "catalog" : view;
+    for (const link of header.querySelectorAll("[data-atlas-nav]")) {
+      if (link.dataset.atlasNav === current) link.setAttribute("aria-current", "page");
+      else link.removeAttribute("aria-current");
+    }
+    header.addEventListener("click", rememberReading, true);
+    header.addEventListener("click", navigateMenu);
+    footer.addEventListener("click", rememberReading, true);
+    return () => {
+      header.removeEventListener("click", rememberReading, true);
+      header.removeEventListener("click", navigateMenu);
+      footer.removeEventListener("click", rememberReading, true);
+    };
+  }, [hash]);
 
-  return <>
-    <a className="skip-link" href="#main" onClick={(event) => {
-      event.preventDefault();
-      document.getElementById("main").focus();
-    }}>본문으로 이동</a>
-    <header className="site-header" onClick={navigateMenu} onClickCapture={rememberReading}>
-      <div className="site-width header-inner">
-        <a className="brand" href={route("catalog")}><span className="brand-mark"><BookOpen size={21} aria-hidden="true" /></span>수학의 연결 지도</a>
-        <nav aria-label="주요 탐색">{menu.map(([id, label, href]) =>
-          <a key={id} id={"nav-" + id} href={href} aria-current={(view === id || id === "catalog" && view === "standard") ? "page" : undefined}>
-            {label}
-          </a>)}</nav>
-        <span className="header-source"><Pdf>교육과정 원문 PDF</Pdf></span>
-      </div>
-    </header>
-
-    <main id="main" tabIndex={-1} onClickCapture={rememberReading}>
+  return <main id="main" tabIndex={-1} onClickCapture={rememberReading}>
       {!catalog ? <div className="site-width loading-wrap"><LoadState request={request} label="교육과정 목록을 불러오고 있습니다…" /></div>
         : view === "standard" ? <Detail catalog={catalog} params={params} go={go} returnTo={returnTo} onOpen={openLinked} />
         : view === "compare" ? <Compare catalog={catalog} params={params} go={go} returnTo={returnTo} onOpen={openLinked} />
-        : <Browse catalog={catalog} params={params} go={go} onOpen={openLinked} />}
-    </main>
-
-    <footer className="site-footer" onClickCapture={rememberReading}>
-      <div className="site-width footer-inner">
-        <div><strong>수학의 연결 지도</strong><p>교육부 고시 제2022-33호 · 별책 8 수학과 교육과정</p></div>
-        <div className="footer-links">
-          <span>개발자 이병민</span>
-          <a className="text-link" href="mailto:ll7098ll@gmail.com">ll7098ll@gmail.com</a>
-          <a className="text-link" href="https://github.com/ll7098ll">GitHub 프로필</a>
-          <a id="footer-sources" className="text-link" href={oldRoute("about")}>자료의 출처와 분석 기준</a>
-        </div>
-      </div>
-    </footer>
-  </>;
+        : <Browse catalog={catalog} params={params} go={go} onOpen={openLinked} returnTo={returnTo} />}
+  </main>;
 }
 
 if (showReader) createRoot(document.getElementById("root")).render(<App />);

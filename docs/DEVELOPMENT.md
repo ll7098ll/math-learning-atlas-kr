@@ -55,7 +55,7 @@ Git에 올리는 스냅샷에서는 기준 PDF를 제외한다. 원본 작업 �
 | 목표·과제·조건 | 해당 `data/goal_hierarchy_*.json`과 필요한 검토 원장을 수정한다. 조건 적용 목표와 경로의 전체 AND를 보존한다. |
 | 관계 설명·근거 | `relations.json`과 관련 관계 검토 원장을 함께 확인한다. 자동 생성되는 `revised_relations.json`만 수정하지 않는다. |
 | 문헌 근거 | 출처·실제 읽은 위치·지원 범위·한계·대상 내용 해시를 함께 갱신한다. |
-| 포털 화면 | 탐색·비교·읽기는 `site/frontend/src/`, 연결 지도·목표·과제의 배포용 모듈은 `site/frontend/compat/`에서 편집한다. [빌드와 갱신](#github용-교육과정-탐색기-빌드) |
+| 포털 화면 | GitHub용 탐색·비교·읽기 화면의 원본은 `site/frontend/`다. 기존 연결망·과제·전체 분석은 저술 환경의 HTML과 모듈에서 관리한다. 두 UI를 함께 내보내려면 아래 빌드와 스냅샷 갱신 절차를 사용한다. |
 
 `author_*`, `record_*`, `extend_*`, `correct_*`, `integrate_*` 파일 중에는 특정 시점의 자료를 작성·교체하는 일회성 스크립트가 있다. 이름 목록 전체를 순서대로 실행하는 설치 과정은 없다. 기존 JSON과 검토 이력이 입력인지 출력인지 먼저 읽는다.
 
@@ -134,8 +134,6 @@ python scripts/build_concept_pathways.py --site-dir tmp/pathways-release
 
 검사 결과에는 실행 날짜, 명령, 종료 결과와 대상 버전을 남긴다. 로컬 생성 버전, Git 커밋, Sites 저장 버전, 실제 공개 버전은 별개이므로 공개 기록이 없는 로컬 변경을 배포 완료로 기록하지 않는다.
 
-연결 지도를 수정한 경우 `node site/tests/test_network_model.mjs`를 실행한다. 브라우저에서 공유 주소를 열고 이전 기준에서 새 갈래를 만들었을 때 기존 점과 선이 보이는지 확인한다. 선과 **연결 이유 보기**에서 같은 관계를 열고, 키보드 초점과 같은 중심 기준으로 전체 지도를 왕복할 때 탐색 경로가 복원되는지도 확인한다. [검증 사례](VERIFICATION.md#2026년-11월-26일-연결선-범례와-기준-표시)
-
 ## GitHub 스냅샷 갱신
 
 `scripts/export_portal_snapshot.py`는 기존 `tmp/pathways-release`에서 현재 색인의 참조를 따라 앱·자료·검사를 새로운 출력 폴더로 복사한다. 기존 출력 폴더를 자동 덮어쓰지 않으므로, 다시 내보낼 때는 별도의 새 목적지를 사용하고 검사 후 필요한 파일을 반영한다. 옵션은 다음 명령으로 확인한다.
@@ -144,7 +142,7 @@ python scripts/build_concept_pathways.py --site-dir tmp/pathways-release
 python scripts/export_portal_snapshot.py --help
 ```
 
-포털 메뉴와 설명을 수정할 때는 `site/frontend/src/`와 `site/frontend/compat/`를 편집한다. 과제·목표·개념 화면의 문구는 `site/frontend/compat/modules/`에 해당하는 원본을 고친다. 통계 실험실과 탐구 기록지의 원본은 `portal/`에 있으며 내보낼 때 두 페이지를 다시 생성한다. 기준별 지도는 `guided-map.mjs`와 `walk-map.mjs`, 전체 연결망은 `network.mjs`, 범례와 기준 카드는 `atlas-workspace.css`에서 편집한다. [지도 주소와 데이터 흐름](ARCHITECTURE.md#연결-지도와-공유-주소)
+포털 메뉴와 설명을 수정할 때는 `site/frontend/src/`와 `site/frontend/compat/`를 편집한다. 과제·목표·개념 화면의 문구는 `site/frontend/compat/modules/`에 해당하는 원본을 고친다. 통계 실험실과 탐구 기록지의 원본은 `portal/`에 있으며 내보낼 때 두 페이지를 다시 생성한다.
 
 이 도구는 수정한 원장으로 포털을 재생성하지 않는다. 데이터 편집 후에는 원본 저술 환경에서 생성·검증을 먼저 끝내고 스냅샷을 갱신한다. `site/dist/`에서 직접 수정한 앱 코드도 원본에 반영한 뒤 새 목적지로 내보낸다. 검토한 `dist/`, `tests/`와 그에 대응하는 `snapshot.json`을 함께 반영하고 `python scripts/export_portal_snapshot.py --verify`와 관련 Node 검사를 통과해야 갱신이 끝난다. 파일만 수정하고 예전 해시 목록을 남기면 CI가 실패한다. 스냅샷 출력 이후에도 자동으로 GitHub push나 Sites 재배포를 수행하지 않는다.
 
@@ -159,8 +157,10 @@ GitHub용 탐색기가 포함된 스냅샷은 내보낼 때 기준별 관계 파
 ```text
 npm --prefix site/frontend ci
 npm --prefix site/frontend run build
-python scripts/export_portal_snapshot.py --frontend tmp/curriculum-explorer-build --output tmp/curriculum-explorer-review
+python scripts/export_portal_snapshot.py --source site --frontend tmp/curriculum-explorer-build --output tmp/curriculum-explorer-review
 python scripts/export_portal_snapshot.py --verify --output tmp/curriculum-explorer-review
 ```
 
-`--frontend`는 React 진입점과 번들을 추가한다. 기존 전체 상세와 연구 도구는 `legacy.html`에서 열고, 공식 내용 체계 색인은 두 원장에서 생성한다. 연결망·목표·과제·자료 안내·분포 탐구·탐구 기록지의 공통 탐색과 스타일은 `site/frontend/compat/`에서 수정한다. 연결망의 도구 모음과 필터, 목표와 과제의 화면 배치는 `portal-ui.js`와 `atlas-workspace.css`에서 관리한다. React 화면과 기존 화면은 `atlas-tokens.css`의 색과 글꼴, `atlas-page.css`의 페이지 제목, `atlas-print.css`의 인쇄 규칙을 공유한다. 검사한 새 스냅샷의 `dist/`, `tests/`, `snapshot.json`을 함께 반영한다. Sites와 GitHub Pages의 공개 콘텐츠 판본은 각 환경의 게시 기록을 기준으로 확인한다.
+`--source site`는 현재 GitHub 스냅샷의 내용 판본을 입력으로 사용한다. `--frontend`는 새 React 진입점과 번들을 설치한다. 공통 헤더와 푸터의 원본은 `site/frontend/compat/shell/`에 있다. Vite와 스냅샷 내보내기가 같은 HTML을 사용한다. 지도·개념 탐색·목표·과제·전체 원고·보조 도구는 `site/frontend/compat/`의 공통 스타일·목차 동작을 사용한다. 기존 `legacy.html`과 해시 주소는 관련 기준, 절 또는 풀이를 여는 데 사용하며, 학교급별 목록 주소는 현재 교육과정 탐색기로 연결한다.
+
+검사한 새 스냅샷의 `dist/`, `tests/`, `snapshot.json`을 함께 반영한다. `dist/explorer-assets/`에는 해당 빌드의 파일만 둔다. Sites와 GitHub Pages의 공개 콘텐츠 판본은 각 환경의 게시 기록을 기준으로 확인한다.

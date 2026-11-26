@@ -1,3 +1,4 @@
+import { focusOutlineTarget } from "../compat/modules/section-outline.mjs";
 import React, { useLayoutEffect, useState, useSyncExternalStore } from "react";
 import { ArrowLeft, ArrowLeftRight, ArrowRight, BookOpen, ChevronDown, ChevronRight, GitCompareArrows, Network, Printer } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -148,10 +149,7 @@ const readingPanels = [
 
 function jumpToPanel(id) {
   const heading = sectionHeading(id);
-  if (heading) {
-    heading.focus({ preventScroll: true });
-    heading.scrollIntoView({ block: "start" });
-  }
+  focusOutlineTarget(heading, document.querySelector(".journey-page > .reading-jumps"));
 }
 
 function manuscriptProbe(analysis) {

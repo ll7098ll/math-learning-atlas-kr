@@ -11,14 +11,8 @@
   "files": [
     {
       "path": "dist/app.js",
-      "bytes": 11362,
-      "sha256": "d4cb6bce502cd6b7c756517eaeb44d07197b15f81a8cf9c856b6ca5170d6004e",
-      "optional_in_git": false
-    },
-    {
-      "path": "dist/catalog-groups.css",
-      "bytes": 5090,
-      "sha256": "4122f92fd41dde825f3de0886f1c1411fb404f1813b7f3773605b7699b98596c",
+      "bytes": 9634,
+      "sha256": "f613817a021af7a0ac173f2d2618d492e18af0b280f84aa32fd6252e42fd163f",
       "optional_in_git": false
     },
     {
@@ -8213,8 +8207,8 @@
     },
     {
       "path": "dist/distribution-lab.html",
-      "bytes": 119665,
-      "sha256": "6dd161be396e07ece6d248031a60c506372c7474092b84166a30425d1799645f",
+      "bytes": 121656,
+      "sha256": "91ae428fa68a265b3a52d6e61a56438ff0166bfac6f0faec28716e5fd21001b9",
       "optional_in_git": false
     },
     {
@@ -8338,27 +8332,15 @@
       "optional_in_git": false
     },
     {
-      "path": "dist/explorer-assets/index-BrwMrKk2.css",
-      "bytes": 77568,
-      "sha256": "4d45001944d85459a83164f4b1e33a347bff720c497a1c98afba7a1f174ab6e4",
+      "path": "dist/explorer-assets/index-BqXrqVIN.js",
+      "bytes": 328254,
+      "sha256": "fdcf21830015e4e913e4c136e0d47d48c5cbe34371f8e79477a3e94bad23a1de",
       "optional_in_git": false
     },
     {
-      "path": "dist/explorer-assets/index-Dnl5FlLn.js",
-      "bytes": 324118,
-      "sha256": "65bb6fb05610a78f871cb96ad11d168e9f8403b5e5ab3dc75dde790640d7f104",
-      "optional_in_git": false
-    },
-    {
-      "path": "dist/explorer-assets/index-YJe8qL1O.css",
-      "bytes": 76716,
-      "sha256": "56607ba1c3153f6dbb8dd6011353e3b49eece520a383bf46cd4ee237b2b95637",
-      "optional_in_git": false
-    },
-    {
-      "path": "dist/explorer-assets/index-tmDAKtWn.js",
-      "bytes": 325675,
-      "sha256": "ccad0d4698c4a8b1c03e0f9091dccb282de69336231a99b03b0083e2d920ad79",
+      "path": "dist/explorer-assets/index-BZZPodyu.css",
+      "bytes": 77382,
+      "sha256": "2ef70403de5d85623bf991a163c403c6e1af0b95442ca9b6fef18fd8b777cddd",
       "optional_in_git": false
     },
     {
@@ -8381,20 +8363,20 @@
     },
     {
       "path": "dist/index.html",
-      "bytes": 963,
-      "sha256": "d769c6fc21c39939d7e4f1e85cb386f0a250744245c9978c1e65f9a3423d2a70",
+      "bytes": 2849,
+      "sha256": "050a26945c61e86e1e70d8eba06c5c22df5fe5aeae91bc77c001a35a9a61ddb1",
       "optional_in_git": false
     },
     {
       "path": "dist/inquiry-workbook.html",
-      "bytes": 31071,
-      "sha256": "59aad1098b35547474cbdcacd12e0f64d2f05ed9dfa2af8dbaeb406884827dc8",
+      "bytes": 33058,
+      "sha256": "f45f4cccd4c09d5e2d099d73af00c9f1eac75c8b93753cddf9198cf4064c334d",
       "optional_in_git": false
     },
     {
       "path": "dist/legacy.html",
-      "bytes": 4557,
-      "sha256": "0ddfcf0437648ceff11513afe6683e9cdbfb14d45b16453c13909ae20c69e27b",
+      "bytes": 5387,
+      "sha256": "ac5db4428895d833f230576b0df520fddeae947337879dece468f25dad6bc312",
       "optional_in_git": false
     },
     {
@@ -8404,15 +8386,15 @@
       "optional_in_git": false
     },
     {
-      "path": "dist/modules/catalog-groups.mjs",
-      "bytes": 4197,
-      "sha256": "91058c5bd507758ca946c8561a4bb63511fcf47fefcabb2c5d31e5d1fa188c24",
+      "path": "dist/modules/catalog-model.mjs",
+      "bytes": 3161,
+      "sha256": "abff8e6b0f4084c4cf85fcbbb87281f9de2c4c6fba18fdf39571b12f6a988a75",
       "optional_in_git": false
     },
     {
       "path": "dist/modules/catalog.mjs",
-      "bytes": 6343,
-      "sha256": "76704276af09c19d5da1c68c7841d73551617ee7d34cf51c0ee2d5270b6cc1ed",
+      "bytes": 56,
+      "sha256": "c95fa809805bde514fd2e62d811c4d3eaf24452a27f0b074c718bca287b61641",
       "optional_in_git": false
     },
     {
@@ -8423,8 +8405,8 @@
     },
     {
       "path": "dist/modules/detail.mjs",
-      "bytes": 12322,
-      "sha256": "62ad5189510940728230bd80fbaf682e468cb3d4d3266714958710581ee3b75c",
+      "bytes": 11913,
+      "sha256": "eacbbf9b5c5a106533abf7f400c5b152c177e8d4593c9328ff376ca9e760cd9e",
       "optional_in_git": false
     },
     {
@@ -8495,14 +8477,20 @@
     },
     {
       "path": "dist/modules/route-views.mjs",
-      "bytes": 1131,
-      "sha256": "3d7dd16fd0616eaedb4a476c449fa30d208802109a37ba02eb1bd14ad69f6de9",
+      "bytes": 1479,
+      "sha256": "298bfe92c31cb431e4183c79c4ed4589573e1ba84f4d4a52aea2d5da58250340",
       "optional_in_git": false
     },
     {
       "path": "dist/modules/router.mjs",
       "bytes": 978,
       "sha256": "f43c82b45831ed0e12ba5e3aea7a13bdf560aea31d10f14a4f5ea4a8867a75b8",
+      "optional_in_git": false
+    },
+    {
+      "path": "dist/modules/section-outline.mjs",
+      "bytes": 5057,
+      "sha256": "c21b6ceb638c51ebc69b47aaf97db76ed15816fe4bde97f5b43978cd6e7abfac",
       "optional_in_git": false
     },
     {
@@ -8531,8 +8519,8 @@
     },
     {
       "path": "dist/modules/ui.mjs",
-      "bytes": 9554,
-      "sha256": "f6aed9e5f9eb469a547057ed7bd768e00e8cf80976eaee28c8b349ea60b81638",
+      "bytes": 9613,
+      "sha256": "144e4a0eb00822efa36a0d957424cac2eaf0cf8a71c07b17e164b3962ed225c8",
       "optional_in_git": false
     },
     {
@@ -8555,20 +8543,14 @@
     },
     {
       "path": "dist/portal-ui.css",
-      "bytes": 54820,
-      "sha256": "b826a100c31f9de2daf5d9658c68ba6f52af817d028c17f4f3aef77b4550aa0e",
+      "bytes": 51239,
+      "sha256": "61eefbe6c4822e618301bc7511287dbba0826c310ff630d0b8e2a39df73f2daf",
       "optional_in_git": false
     },
     {
       "path": "dist/portal-ui.js",
-      "bytes": 66217,
-      "sha256": "f2093921d12247457ab88be4e97931680f43acdae877c9ef84f1a9d3435b640d",
-      "optional_in_git": false
-    },
-    {
-      "path": "dist/scope.js",
-      "bytes": 2810,
-      "sha256": "860e224044f128e77352f42c8e386a95895525a9ab5422cf64770dc193a69491",
+      "bytes": 60333,
+      "sha256": "3c6bd1e73b27d6109312016aaaf17db0c6298d1cc50b5c37da521288a5e708d2",
       "optional_in_git": false
     },
     {
@@ -8585,14 +8567,14 @@
     },
     {
       "path": "tests/test_catalog_groups.mjs",
-      "bytes": 3374,
-      "sha256": "063c2c5e893cc5ca286e346640d31cd9c393a721014444f9978fe4b123847bec",
+      "bytes": 5067,
+      "sha256": "9134079dc36a82850e43cdb2388834e72213dd635935c82faf640e5c847ff564",
       "optional_in_git": false
     },
     {
       "path": "tests/test_concept_flows.mjs",
-      "bytes": 5504,
-      "sha256": "804c0e0a926f324f2756e9b15351c57398e53b545f850e5aada1d0bf72a723a3",
+      "bytes": 5653,
+      "sha256": "cb333557b53255d1524ba6331c66b0685cc07f46da5388f3a33e022b2bbb96ff",
       "optional_in_git": false
     },
     {

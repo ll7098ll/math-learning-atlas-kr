@@ -116,12 +116,17 @@
 .journey-result-title { display: flex; flex-wrap: wrap; gap: .5rem .7rem; align-items: baseline; min-width: 0; }
 .journey-result-title :is(h1, h2) { font-size: clamp(1.35rem, 2.3vw, 1.85rem); font-weight: 750; letter-spacing: -.045em; scroll-margin-top: 1.2rem; }
 .journey-count { color: var(--primary); font-size: 1rem; font-weight: 700; }
-.journey-related-tools { display: flex; align-items: center; color: var(--muted-foreground); font-size: .88rem; }
+.journey-related-tools { display: flex; flex-wrap: wrap; align-items: center; color: var(--muted-foreground); font-size: .88rem; }
 .journey-related-tools a { display: inline-flex; align-items: center; min-height: 2.7rem; text-underline-offset: .23em; }
 .journey-related-tools a:hover { color: var(--primary); text-decoration: underline; }
 .journey-related-tools a + a::before { content: ""; height: .85rem; border-left: 1px solid var(--border); margin-inline: .75rem; }
 .browse-journey .journey-active-filters { margin-block: -.2rem .85rem; }
 .browse-journey .journey-list { overflow-wrap: anywhere; }
+.journey-band-rows { margin-block: 1rem; padding-inline: clamp(.65rem, 2vw, 1.25rem); border: 1px solid var(--atlas-line); border-radius: .65rem; }
+.journey-band-rows > summary { padding-block: .9rem; font-weight: 700; }
+.journey-band-rows > summary span { margin-left: .6rem; color: var(--muted-foreground); font-size: .9rem; }
+.journey-band-rows > section { padding-bottom: 1rem; }
+.journey-band-rows > section > h3 { margin-bottom: .5rem; font-weight: 680; }
 .journey-list .row-statement { max-width: 65rem; }
 .journey-list .standard-row h3 { letter-spacing: -.025em; font-size: 1.12rem; }
 .journey-list .standard-row > a { padding: 1.15rem 1.4rem; }

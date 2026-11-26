@@ -53,8 +53,11 @@ const ratio=await overview(new URLSearchParams({mode:'flow',strand:'ratio',edgeC
 const ratioIds=[...ratio.matchAll(/data-evidence="([^\"]+)"/g)].map(m=>m[1]);
 assert(ratioIds.length>12);for(const id of ratioIds){const r=relations.find(r=>r.id===id);assert([r.from,r.to].includes('standard:6수02-03'));}
 assert((await overview(new URLSearchParams({mode:'flow',q:'zz-unknown'}))).includes('일치하는 개념 또는'));
-assert.equal((await overview(new URLSearchParams({mode:'structure',density:'expanded'}))).match(/data-standard=/g).length,435);
-console.log(JSON.stringify({status:'pass',concepts:flows.strands.length,primaryStandards:primary.size,additionalMemberships:47,searchableCodes:435,highSchoolCourses:15,reachableRelations:allEvidence.size,checks:'all standards assigned exactly once, real cross-school evidence, direct vs related roles, all-code search, all-course filters, full expansion, code-level evidence, lazy loading, structure view preserved'}));
+const {resolveView}=await import('../dist/modules/route-views.mjs');
+const structure=resolveView('#view=overview&mode=structure&density=expanded','legacy');
+assert.equal(structure.entry,'reader');
+assert.equal(structure.params.get('expand'),'all');
+console.log(JSON.stringify({status:'pass',concepts:flows.strands.length,primaryStandards:primary.size,additionalMemberships:47,searchableCodes:435,highSchoolCourses:15,reachableRelations:allEvidence.size,checks:'all standards assigned exactly once, real cross-school evidence, direct vs related roles, all-code search, all-course filters, full expansion, code-level evidence, lazy loading, school structure link opens the expanded reader list'}));
 
 
 
