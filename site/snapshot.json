@@ -8214,7 +8214,7 @@
     {
       "path": "dist/distribution-lab.html",
       "bytes": 119665,
-      "sha256": "05e68b928cbca3e712bed43fe08c523a70119340390f257ae86221c5f3c4c477",
+      "sha256": "a1971e799acb5c5818c967c64f83736deedace7080557f8f310449dffb09bd58",
       "optional_in_git": false
     },
     {
@@ -8376,13 +8376,13 @@
     {
       "path": "dist/inquiry-workbook.html",
       "bytes": 31071,
-      "sha256": "2c122112f04bc42ea16ba4e6ce6bdf724b8bf0f0c36171c3e8b24b93a750adc4",
+      "sha256": "c937c0aa2fceabac468033c5cd969c74fb5ec09dd8602e7eb3c851d526e52f83",
       "optional_in_git": false
     },
     {
       "path": "dist/legacy.html",
       "bytes": 4470,
-      "sha256": "3e9947624c80cb55e11868bf07246412958b026df43aa801fb7f8e9327e38744",
+      "sha256": "4020de13d505229d728cc09ac1d76f0acb54fa7708351383d724f5bd9c7700e8",
       "optional_in_git": false
     },
     {
@@ -8435,8 +8435,8 @@
     },
     {
       "path": "dist/modules/guided-map.mjs",
-      "bytes": 14726,
-      "sha256": "8dba2f1c3ab8777ca0613c80328864c724cb860061e4a777ca2a2aef2b184894",
+      "bytes": 15139,
+      "sha256": "b926ef1b7a81ec3e8e9065a7e690630390243c222c070da6435b6794f131a598",
       "optional_in_git": false
     },
     {
@@ -8519,8 +8519,8 @@
     },
     {
       "path": "dist/modules/walk-map.mjs",
-      "bytes": 6481,
-      "sha256": "ebefebb6b22571b911974178f5a75efecdbe96497abc58ba73f380ba02077825",
+      "bytes": 6489,
+      "sha256": "4fbc219317ce3b5560219366e2414dafb46ebe233a7e33a521b57e7150a49582",
       "optional_in_git": false
     },
     {
@@ -8537,8 +8537,8 @@
     },
     {
       "path": "dist/portal-ui.css",
-      "bytes": 48722,
-      "sha256": "7adec525ff554b5cb024ad8bfa90a18635b1e3a75a489f6503e808e77a9e46a9",
+      "bytes": 50446,
+      "sha256": "3fb30e1611eddd9ee586b9797b3370734266c641f27da0c94bf229cdebbc80a1",
       "optional_in_git": false
     },
     {

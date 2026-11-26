@@ -57,7 +57,7 @@ export function drawWalk(walk,current,neighbors,values,reasonPanel) {
   function place(node){
     node.children.forEach(place);
     node.x=node.children.length?(node.children[0].x+node.children.at(-1).x)/2:50+100*leaves++;
-    node.y=23+node.depth*134;
+    node.y=29+node.depth*150;
   }
   place(origin);
   const route=[];
@@ -70,7 +70,7 @@ export function drawWalk(walk,current,neighbors,values,reasonPanel) {
   const location=route.length<=3?stops:`<details><summary>${esc(standard(route[0]).title)} › … › <strong>${esc(current.title)}</strong></summary><div>${stops}</div></details>`;
   const crossCount=links.filter(e=>e.cross).length;
   const width=leaves*100+crossCount*38;
-  const height=Math.max(...[...nodes.values()].map(n=>n.y))+82;
+  const height=Math.max(...[...nodes.values()].map(n=>n.y))+96;
   let lane=0;
   const panels=[];
   const choices=[];
@@ -82,7 +82,7 @@ export function drawWalk(walk,current,neighbors,values,reasonPanel) {
       my=(a.y+b.y)/2+(a.y===b.y?60:0);
       path=`M${a.x} ${a.y} Q${mx} ${a.y} ${mx} ${my} Q${mx} ${b.y} ${b.x} ${b.y}`;
     }else{
-      const first=a.y+64,last=b.y-22;
+      const first=a.y+76,last=b.y-25;
       mx=(a.x+b.x)/2;my=(first+last)/2;
       path=`M${a.x} ${a.y} L${a.x} ${first} L${b.x} ${last} L${b.x} ${b.y}`;
     }
@@ -97,14 +97,14 @@ export function drawWalk(walk,current,neighbors,values,reasonPanel) {
   const candidates=new Set(neighbors.map(n=>n.target.code));
   const dots=[...nodes.values()].map(({code,x,y})=>{
     const s=standard(code),active=code===current.code,first=code===origin.code,visited=walk.codes.includes(code);
-    const label=active?(first?'출발 · 지금 보는 기준':'지금 보는 기준'):first?'출발점':visited?'지나온 기준':'새 연결';
+    const label=active?(first?'출발 · 선택한 기준':'선택한 기준'):first?'출발 기준':visited?'앞서 본 기준':'연결된 기준';
     const encoded=candidates.has(code)?extendWalk(walk,current.code,code):walk.encoded;
     const attrs=active?'type="button" aria-current="step" aria-controls="local-standard"':`href="${esc(url('network',{...values,node:code,walk:encoded}))}"`;
     const tag=active?'button':'a';
     return `<${tag} ${attrs} class="walk-dot ${active?'walk-active':visited?'walk-visited':'walk-new'}" data-code="${esc(code)}" ${first?'data-origin':''} style="left:${x/width*100}%;top:${y}px" title="${esc(s.title)} · ${esc(code)}">
       <i aria-hidden="true"></i><span><small>${label}</small><strong>${esc(s.title)}</strong></span></${tag}>`;
   });
-  return {panels:panels.join(''),choices,routeLength:route.length,location:`<nav class="walk-location" aria-label="출발점에서 현재 위치까지"><small>출발점에서 현재 위치까지</small><div>${location}</div></nav>`,board:`<div class="walk-board" tabindex="0" role="region" aria-label="따라온 길과 새 연결 지도">
-    <div class="walk-canvas" style="--lanes:${width/100};height:${height}px"><svg class="local-lines" viewBox="0 0 ${width} ${height}" width="100%" height="100%" preserveAspectRatio="none" aria-label="연결 이유를 여는 선">${lines.join('')}</svg>${dots.join('')}</div></div>
-    <div class="walk-tools"><button type="button" data-locate="origin">출발점 찾기 · ${esc(standard(origin.code).title)}</button><button type="button" data-locate="active">지금 보는 점 찾기</button></div>`};
+  return {panels:panels.join(''),choices,routeLength:route.length,location:`<nav class="walk-location" aria-label="선택한 기준의 탐색 경로"><small>출발 기준부터 선택한 기준까지</small><div>${location}</div></nav>`,board:`<div class="walk-board" tabindex="0" role="region" aria-label="탐색한 경로와 선택할 수 있는 연결">
+    <div class="walk-canvas" style="--lanes:${width/100};height:${height}px"><svg class="local-lines" viewBox="0 0 ${width} ${height}" width="100%" height="100%" preserveAspectRatio="none" aria-label="연결 이유를 여는 선">${lines.join('')}</svg>${dots.join('')}</div></div>`,
+    tools:'<div class="walk-tools"><button type="button" data-locate="origin">출발 기준 위치 보기</button><button type="button" data-locate="active">선택한 기준 위치 보기</button></div>'};
 }

@@ -101,13 +101,17 @@ async function neighborhood(current, params, values, members, example) {
       ${page>0?`<a href="${link({...base,page:page-1})}">← 이전 연결</a>`:''}
       <span>주변 기준 ${start+1}–${start+neighbors.length} / ${groups.length}개</span>
       ${page<lastPage?`<a href="${link({...base,page:page+1})}">다른 연결 보기 →</a>`:''}</nav>` : '<p>이 점에서 더 펼칠 연결이 없습니다.</p>';
-  return `<h2 class="local-title" tabindex="-1">${following?'내가 따라온 길':example?'분수로 지도 둘러보기':esc(current.title)+' 주변 지도'}</h2>
+  const legend=following?`<div class="walk-key" role="group" aria-label="연결선의 의미">
+    ${diagram.routeLength>1?'<span class="key-path"><strong>선택한 기준까지의 탐색 경로</strong><small>출발 기준에서 처음 찾아간 순서</small></span>':''}
+    ${walk.edges.length>=diagram.routeLength?'<span class="key-other"><strong>다른 경로에서 따라간 연결</strong><small>이번 탐색에서 앞서 선택한 선</small></span>':''}
+    ${neighbors.length?'<span class="key-next"><strong>아직 따라가지 않은 연결</strong><small>선택한 기준에 직접 이어진 선</small></span>':''}
+    </div>`:'';
+  return `<h2 class="local-title" tabindex="-1">${following?'성취기준 탐색 경로':example?'분수로 지도 둘러보기':esc(current.title)+' 주변 지도'}</h2>
     ${diagram.location||''}
-    <p class="local-instructions">점을 누르면 그 기준에서 길이 이어집니다. 선을 누르면 연결 이유가 열립니다.</p>
-    <div class="walk-actions">${following?`<div class="walk-key">${diagram.routeLength>1?'<span class="key-path">현재 위치까지 온 길</span>':''}${walk.edges.length>=diagram.routeLength?'<span class="key-other">살펴본 다른 길</span>':''}${neighbors.length?'<span class="key-next">더 가볼 길</span>':''}</div>`:''}
+    <div class="walk-actions"><p class="local-instructions">점을 눌러 기준을 선택하세요. 선을 누르면 두 기준의 연결 이유를 읽을 수 있습니다.</p>
     ${diagram.choices.length?`<details class="reason-picker"><summary>연결 이유 보기</summary><p>지금 보는 기준과 어떤 기준의 연결을 살펴볼까요?</p>
       ${diagram.choices.map(c=>`<button type="button" data-explain="local-reason-${c.index}" aria-controls="local-reason-${c.index}">${esc(c.title)}</button>`).join('')}</details>`:''}</div>
-    <div class="local-layout"><div>${diagram.board}${paging}</div><aside class="local-inspector" aria-label="선택한 기준과 연결 설명">
+    <div class="local-layout"><div><div class="map-sheet">${diagram.board}${legend}</div>${diagram.tools||''}${paging}</div><aside class="local-inspector" aria-label="선택한 기준과 연결 설명">
     <section id="local-standard"><small>지금 보는 기준 · ${esc(where(current))}</small><h3 tabindex="-1">${esc(current.title)}</h3>
     <p>${esc(current.statement)}</p><small>${esc(current.code)} · 교육과정 원문</small>
     <a href="./${esc(url('standard',{scope:'all',code:current.code}))}">기준 상세 읽기 →</a></section>${diagram.panels}</aside></div>`;
