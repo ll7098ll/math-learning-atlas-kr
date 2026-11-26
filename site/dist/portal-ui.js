@@ -407,9 +407,19 @@
     disclosure.className = "atlas-reading-outline";
     const label = document.createElement("summary");
     label.textContent = "이 문서의 목차";
-    disclosure.open = !matchMedia("(max-width: 700px)").matches;
+    const compact = matchMedia("(max-width: 800px)");
+    disclosure.open = !compact.matches;
     sidebar.append(disclosure);
     disclosure.append(label, outline);
+    outline.addEventListener("click", (event) => {
+      if (compact.matches && event.button === 0 && !event.ctrlKey && !event.metaKey && !event.shiftKey
+          && !event.altKey && event.target.closest("a[data-section]")) disclosure.open = false;
+    });
+    disclosure.addEventListener("keydown", (event) => {
+      if (event.key !== "Escape" || !disclosure.open) return;
+      disclosure.open = false;
+      label.focus();
+    });
   }
 
   function prepareStandardReturn(params) {

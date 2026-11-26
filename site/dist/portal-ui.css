@@ -260,6 +260,33 @@ body.atlas-compat {
   color: var(--atlas-primary);
 }
 .atlas-reading-outline nav { padding: 0 1rem .65rem; }
+@media screen {
+  .atlas-compat .reading-aside:has(.atlas-reading-outline) {
+    position: sticky;
+    top: .75rem;
+    align-self: start;
+    z-index: 3;
+  }
+  .atlas-compat .reading-aside .atlas-reading-outline { margin-top: 0; }
+  .atlas-reading-outline nav {
+    max-height: calc(100dvh - 5rem);
+    overflow-y: auto;
+    overscroll-behavior: contain;
+  }
+}
+@media screen and (max-width: 800px) {
+  .atlas-compat .reading-aside:has(.atlas-reading-outline) { top: 0; }
+  .atlas-compat .atlas-reading-outline nav {
+    position: absolute;
+    inset-inline: 0;
+    max-height: min(24rem, 60dvh);
+    border: 1px solid var(--atlas-line);
+    border-radius: 0 0 .65rem .65rem;
+    background: var(--atlas-surface);
+    box-shadow: 0 8px 16px #1737371a;
+  }
+  .atlas-compat .reading-section[id] { scroll-margin-top: 5rem; }
+}
 .atlas-compat :is(.reading-section, .flow-evidence, .cp-evidence, .tp-case) { scroll-margin-top: 1rem; }
 .atlas-explainer .pathway-intro { margin: 0; padding: 0 1rem 1rem; border: 0; background: transparent; }
 .atlas-resources { margin-block: 1.2rem 1.35rem; }
@@ -375,7 +402,6 @@ body.atlas-compat {
   .atlas-compat .pathway-standards > article { margin: 0; padding: 1rem; border: 1px solid var(--atlas-line); border-radius: .5rem; }
   .atlas-compat .reading-body .reading-section { padding-block: clamp(1.25rem, 3vw, 2.25rem); }
   .atlas-compat .reading-body .prose { max-width: 76ch; font-size: 1rem; line-height: 1.85; }
-  .atlas-compat .reading-aside .atlas-reading-outline nav { position: static; }
   .atlas-compat .atlas-resources a { border-left: .23rem solid var(--atlas-primary); }
   .atlas-source-search { border-top: 1px solid var(--atlas-line); padding-top: 1.25rem; margin-top: 1.75rem; }
   .atlas-source-search label, .atlas-tool-jump label { display: grid; gap: .35rem; color: var(--atlas-ink); font-size: .88rem; font-weight: 650; }
