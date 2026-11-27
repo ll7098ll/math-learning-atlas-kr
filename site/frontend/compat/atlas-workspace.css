@@ -48,6 +48,7 @@
     min-height: 0;
   }
   .atlas-network .atlas-canvas { position: relative; min-height: 0; overflow: hidden; }
+  .atlas-network .atlas-axis > [data-axis-hidden] { visibility: hidden; }
   .atlas-network .atlas-svg { height: clamp(430px, 57vh, 660px); min-height: 0; }
   .atlas-network .atlas-tools {
     position: static;
@@ -114,6 +115,14 @@
     align-items: center;
     align-self: stretch;
     gap: .45rem;
+  }
+  .atlas-compat .hierarchy-filter input[type="checkbox"] {
+    flex: none;
+    inline-size: 1.125rem;
+    block-size: 1.125rem;
+    min-block-size: 0;
+    margin: 0;
+    padding: 0;
   }
   .atlas-compat .pathway-search > label:first-child { flex: 2 1 16rem; }
   .atlas-compat .connection-toolbar > form { display: flex; flex-wrap: wrap; align-items: end; gap: .65rem; }

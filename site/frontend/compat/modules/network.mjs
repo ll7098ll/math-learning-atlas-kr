@@ -16,7 +16,7 @@ export async function networkPage(p=new URLSearchParams()){
  return `<section class="atlas-network"><div class="network-intro"><div><p class="eyebrow">THE MATHEMATICS NETWORK</p><h1 tabindex="-1">${p.get("node")&&model.byCode.has(p.get("node"))?"이 기준의 연결 지도":"수학 연결 지도"}</h1><p>선택한 학교급의 성취기준과 내부 연결을 하나의 연결망으로. 왼쪽에서 오른쪽으로 교육과정의 단계와 개념의 확장을 따라가세요.</p></div><a class="text-link" href="#view=hierarchy">전체 개념군 연결과 위계 ↗</a></div>${overviewModes('network')}<a class="guide-mode-link" href="${url('network',{scope,node:p.get('node')})}">학년·개념으로 연결 따라가기</a>
  <form class="atlas-controls" aria-label="연결망 탐색"><label class="atlas-search">노드 찾기<input name="query" type="search" placeholder="분수, 비율 또는 성취기준 코드" autocomplete="off"></label><label>내용 영역<select name="domain"><option value="">모든 영역</option>${model.bands.map(b=>`<option>${esc(b.domain)}</option>`).join('')}</select></label><label>개념<select name="strand"><option value="">46개 개념 전체</option>${f.strands.map(s=>`<option value="${esc(s.id)}">${esc(s.title)}</option>`).join('')}</select></label><label>연결선<select name="relation"><option value="all">전체 연결</option><option value="generalizes">의미 확장</option><option value="requires_for_task">과제별 필요 조건</option><option value="meaning_connection">의미 연결</option><option value="contrasts">대조</option></select></label><button type="button" class="button" data-action="reset">초기화</button></form>
  <div class="atlas-summary" role="status" aria-live="polite"></div>
- <div class="atlas-workspace"><div class="atlas-stage"><div class="atlas-axis" aria-label="교육과정 단계">${model.stages.map((s,i)=>`<span>${esc(s.title)}${i<model.stages.length-1?' <b aria-hidden="true">→</b>':''}</span>`).join('')}</div><svg class="atlas-svg" role="group" tabindex="0" aria-label="전체 수학 연결망. 방향키로 이동, 더하기와 빼기로 확대 축소, 0으로 전체 보기. 노드를 선택하면 연결을 강조합니다."><defs><marker id="atlas-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="context-stroke"/></marker></defs><g class="atlas-world"></g></svg><div class="atlas-tooltip" hidden></div><div class="atlas-tools"><button type="button" data-action="in" aria-label="연결망 확대">＋</button><button type="button" data-action="out" aria-label="연결망 축소">−</button><button type="button" data-action="fit">전체 맞춤</button><button type="button" data-action="focus">선택 연결 맞춤</button><button type="button" data-action="expand" aria-pressed="false">크게 보기</button><output class="atlas-zoom" aria-label="확대 비율">100%</output></div><p class="atlas-help">드래그로 이동 · 휠 / 두 손가락으로 확대 · 노드를 눌러 연결 탐색</p></div><aside class="atlas-inspector" aria-label="선택한 노드 정보"></aside></div>
+ <div class="atlas-workspace"><div class="atlas-stage"><div class="atlas-axis" role="group" aria-label="${model.internal?'관계 단계':'교육과정 단계'}">${model.stages.map((s,i)=>`<span>${esc(s.title)}${i<model.stages.length-1?' <b aria-hidden="true">→</b>':''}</span>`).join('')}</div><svg class="atlas-svg" role="group" tabindex="0" aria-label="전체 수학 연결망. 방향키로 이동, 더하기와 빼기로 확대 축소, 0으로 전체 보기. 노드를 선택하면 연결을 강조합니다."><defs><marker id="atlas-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="context-stroke"/></marker></defs><g class="atlas-world"></g></svg><div class="atlas-tooltip" hidden></div><div class="atlas-tools"><button type="button" data-action="in" aria-label="연결망 확대">＋</button><button type="button" data-action="out" aria-label="연결망 축소">−</button><button type="button" data-action="fit">전체 맞춤</button><button type="button" data-action="focus">선택 연결 맞춤</button><button type="button" data-action="expand" aria-pressed="false">크게 보기</button><output class="atlas-zoom" aria-label="확대 비율">100%</output></div><p class="atlas-help">드래그로 이동 · 휠 / 두 손가락으로 확대 · 노드를 눌러 연결 탐색</p></div><aside class="atlas-inspector" aria-label="선택한 노드 정보"></aside></div>
  <div class="atlas-legend"><span><i class="legend-expansion"></i>화살표: 의미 확장·과제 조건</span><span><i class="legend-task"></i>황갈색 점선: 과제별 필요 조건</span><span><i class="legend-connection"></i>선: 의미 연결</span><span><i class="legend-contrast"></i>점선: 대조</span><span>선택 후 <b style="color:#2477ac">파랑: 이전 확장</b> · <b style="color:#a86a16">금색: 이후 확장</b></span></div><p class="atlas-note">${model.internal?'가로 위치는 자체 분석한 의미 확장·과제 조건의 상대 단계입니다. 순서 미정에는 방향 미기록과 순환 검토 대상을 둡니다.':'가로 위치는 교육과정의 학년군·과목 단계입니다.'} 같은 단계 안의 위치는 개념별 배치이며 학습 선후를 뜻하지 않습니다. 화살표는 기록된 의미 확장으로, 모든 학생의 필수 선수 순서를 뜻하지 않습니다.</p></section>`;
 }
 
@@ -63,9 +63,30 @@ export function mountNetwork(p,root,onRouteChange=()=>{}){
   }
   try{sessionStorage.setItem('atlas-return',hash);sessionStorage.setItem('atlas-network-camera',JSON.stringify({hash,camera}));}catch{}
  }
+ const axis=host.querySelector('.atlas-axis');
+ const stageLabels=[...axis.children];
+
+ function drawStageLabels(){
+  const axisWidth=axis.clientWidth;
+  const widths=stageLabels.map(label=>Math.ceil(label.getBoundingClientRect().width));
+  const labelGap=8;
+  let previousRight=-labelGap;
+
+  stageLabels.forEach((label,index)=>{
+   const position=(model.stages[index].center-camera.x)/camera.w;
+   const halfWidth=widths[index]/2;
+   const left=position*axisWidth-halfWidth;
+   const right=left+widths[index];
+   const visible=left>=0 && right<=axisWidth && left>=previousRight+labelGap;
+   label.style.left=position*100+'%';
+   label.toggleAttribute('data-axis-hidden',!visible);
+   if(visible)previousRight=right;
+  });
+ }
+
  function drawCamera(){
   svg.setAttribute('viewBox',`${camera.x} ${camera.y} ${camera.w} ${camera.h}`);
-  host.querySelectorAll('.atlas-axis span').forEach((el,i)=>{el.style.left=((model.stages[i].center-camera.x)/camera.w*100)+'%';});
+  drawStageLabels();
   const labelSize=Math.min(38,Math.max(14,11*camera.w/Math.max(svg.getBoundingClientRect().width,1)));world.querySelectorAll('.atlas-label').forEach(el=>el.style.fontSize=labelSize+'px');
   const zoom=model.width/camera.w;svg.classList.toggle('show-labels',zoom>3.2);
   host.querySelector('.atlas-zoom').textContent=Math.round(zoom*100)+'%';save();
@@ -140,6 +161,7 @@ export function mountNetwork(p,root,onRouteChange=()=>{}){
  let restored=cameras.get(location.hash);if(!restored){try{const saved=JSON.parse(sessionStorage.getItem('atlas-network-camera'));if(saved?.hash===location.hash)restored=saved.camera;}catch{}}
  update();if(restored&&['x','y','w','h'].every(key=>Number.isFinite(restored[key]))&&restored.w>0&&restored.h>0){camera=restored;drawCamera();}else fit();
  let lastSize=svg.getBoundingClientRect();const resize=new ResizeObserver(()=>{const size=svg.getBoundingClientRect();if(Math.abs(size.width-lastSize.width)>2||Math.abs(size.height-lastSize.height)>2){lastSize=size;fit();}});resize.observe(svg);
+ document.fonts.ready.then(()=>{if(!signal.aborted)drawStageLabels();});
  return ()=>{abort.abort();resize.disconnect();clearTimeout(timer);cancelAnimationFrame(frame);};
 }
 

@@ -3,7 +3,7 @@ import {catalog,standard,detail,standardConnections,hierarchy,conceptPathwaysInd
 import {esc,url,heading,standardURL,standardRow,domainBadge,pill,list,markdown,empty,sourcesHTML} from './ui.mjs';
 import {analysisSections} from './analysis-sections.mjs';
 export async function standardPage(p){
- const code=p.get('code'),s=standard(code);if(!s)return empty('등록되지 않은 성취기준입니다.','주소의 성취기준 코드를 확인하거나 전체 조망에서 찾아보세요.');
+ const code=p.get('code'),s=standard(code);if(!s)return empty('등록되지 않은 성취기준입니다.','주소의 성취기준 코드를 확인하거나 교육과정 탐색에서 찾아보세요.');
  const [a,data,pilotData,conceptIndex]=await Promise.all([detail(code),standardConnections(code),hierarchy(),conceptPathwaysIndex()]);
  if(a.schemaVersion===2)return revisedStandardPage(s,a,p,data,conceptIndex);
  const groups=relationGroups(data.relations,code),pilot=pilotData.hierarchy.maps.filter(m=>m.standards.includes(code));
@@ -12,7 +12,7 @@ export async function standardPage(p){
  const referenced=new Set([s.sourceId,...groups.flatMap(g=>g.records.flatMap(r=>r.source_ids||[]))]);
  const conditions=data.relations.filter(r=>r.type==='requires_for_task'&&r.to==='standard:'+code);
  const supplement=a.sections.filter(x=>!/교육과정과 목표|수학적 의미|하위요소|진단|경로|수행 과정|연결|다음 조사|검토 상태/.test(x.title));
- return `<nav class="breadcrumbs" aria-label="교육과정 위치"><a href="${url('overview')}">전체 조망</a><span>/</span><a href="${url('catalog',{scope:{초등학교:'e',중학교:'m',고등학교:'h'}[s.level]})}">${esc(s.level)}</a><span>/</span><a href="${url('catalog',{band:band(s)})}">${esc(band(s))}</a><span>/</span><span>${esc(s.domain)}</span></nav>`+
+ return `<nav class="breadcrumbs" aria-label="교육과정 위치"><a href="${url('catalog')}">교육과정 탐색</a><span>/</span><a href="${url('catalog',{scope:{초등학교:'e',중학교:'m',고등학교:'h'}[s.level]})}">${esc(s.level)}</a><span>/</span><a href="${url('catalog',{band:band(s)})}">${esc(band(s))}</a><span>/</span><span>${esc(s.domain)}</span></nav>`+
  `<header class="standard-header"><div class="standard-topline">${domainBadge(s.domain)}${pill(s.code,'code-tag')}${pill('분석 '+a.status)}</div><h1 tabindex="-1">${esc(s.title)}</h1><p class="title-note">성취기준을 설명하는 분석 제목</p><div class="official-statement"><span class="label">공식 성취기준</span><p>${esc(s.statement)}</p><a href="curriculum.pdf#page=${s.pdfPages[0]}" target="_blank" rel="noopener">교육과정 PDF ${s.pdfPages.join(', ')}쪽 ↗</a></div><button class="button screen-only" type="button" data-print>인쇄</button></header>`+
  `<nav class="reading-jumps screen-only" aria-label="상세 분석 목차">${sections.map(([id,t])=>`<a href="${url('standard',{code,section:id})}" data-section="${id}">${t}</a>`).join('')}</nav>
  <div class="reading-layout"><article class="reading-body">
@@ -23,7 +23,7 @@ export async function standardPage(p){
  ${supplement.length?`<section class="reading-section"><h2>활동과 추가 해설</h2>${supplement.map(x=>`<div class="prose"><h3>${esc(x.title)}</h3>${markdown(x.body)}</div>`).join('')}</section>`:''}
  <section id="connections" class="reading-section"><p class="section-index">05 · CONNECTIONS</p><h2>관련 성취기준</h2><div class="cp-actions">${conceptIndex.groups.filter(g=>g.member_codes.includes(code)).map(g=>`<a class="button primary" href="${url('hierarchy',{concept:g.id,target:code})}">${esc(g.title)} 확장 위계 초안 ↗</a>`).join('')}</div><p>다른 내용과 이어지는 이유와 적용 조건을 함께 확인하세요.</p><div class="related-standards">${groups.slice(0,6).map(g=>`<div>${pill(types[g.type])}${standardRow(g.other)}</div>`).join('')}</div><a class="button primary" href="${url('connections',{code})}">연결 ${groups.length}개 묶음과 근거 살펴보기 →</a>${pilot.length?`<div class="pilot-links"><h3>이 기준을 포함하는 위계와 경로</h3>${pilot.map(m=>`<a class="button" href="${url('hierarchy',pathForStandard(m,code))}">${esc(m.title)} ↗</a>`).join('')}</div>`:''}</section>
  <section id="references" class="reading-section"><p class="section-index">06 · SOURCES</p><h2>출처와 검토 범위</h2><dl class="review-list"><div><dt>기준 판본</dt><dd>${esc(catalog.meta.curriculum)} · 별책8</dd></div><div><dt>원문 위치와 대조</dt><dd>PDF ${s.pdfPages.join(', ')}쪽 · 인쇄 ${s.printedPages.join(', ')}쪽 · ${esc(s.sourceReview)}</dd></div><div><dt>분석 검토</dt><dd>${esc(a.status)}</dd></div><div><dt>학생 반응</dt><dd>${a.validated?'검증 기록 있음':'검증 전'}</dd></div></dl>${a.correction?`<details class="further"><summary>원문 추출과 보정 기록</summary><p>${esc(a.correction.method)}</p><p><b>추출문</b> ${esc(s.extracted)}</p><p><b>표시문</b> ${esc(s.statement)}</p></details>`:''}${sourcesHTML(data.sources.filter(x=>referenced.has(x.id)))}<details class="further"><summary>전체 분석 원고 확인</summary><div class="prose">${markdown(a.markdown)}</div></details></section>
- <div class="reading-return"><a class="button" href="${esc(returnTo)}">← 찾아보던 화면으로</a><a href="${url('overview',{density:'expanded',focus:code})}">전체 조망에서 위치 보기 ↗</a></div></article>
+ <div class="reading-return"><a class="button" href="${esc(returnTo)}">← 찾아보던 화면으로</a><a href="${url('overview',{density:'expanded',focus:code})}">교육과정 목록에서 위치 보기 ↗</a></div></article>
  </div>`;
 }
 
